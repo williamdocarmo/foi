@@ -1,13 +1,31 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import AppHeader from '@/components/layout/AppHeader';
 
+const APP_NAME = "Você sabia?";
+const APP_DESCRIPTION = "Um jogo educativo de curiosidades e quiz que funciona offline.";
+
 export const metadata: Metadata = {
+  applicationName: APP_NAME,
   title: 'Você sabia? | Um jogo de curiosidades',
-  description: 'Um jogo educativo de curiosidades e quiz que funciona offline.',
+  description: APP_DESCRIPTION,
+  manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: APP_NAME,
+  },
+  formatDetection: {
+    telephone: false,
+  },
 };
+
+export const viewport: Viewport = {
+  themeColor: '#FFFFFF',
+};
+
 
 export default function RootLayout({
   children,
