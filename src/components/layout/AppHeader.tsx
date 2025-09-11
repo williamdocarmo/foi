@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Lightbulb, BookOpen, Flame, Trophy, LogIn, LogOut, User, BarChart } from 'lucide-react';
 import { useGameStats } from '@/hooks/useGameStats';
-import OfflineIndicator from '@/components/shared/OfflineIndicator';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { Button } from '@/components/ui/button';
@@ -106,8 +105,6 @@ export default function AppHeader() {
                   </>
                 )}
               </div>
-
-            <OfflineIndicator />
 
             {isLoaded && (
               user ? (
