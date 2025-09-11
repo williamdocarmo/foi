@@ -60,13 +60,13 @@ A Vercel se conecta ao seu repositório Git para automatizar o processo de deplo
     *   Adicione uma variável com o nome: `GEMINI_API_KEY`.
     *   No campo de valor, cole a sua chave da API do Google Gemini.
 5.  Clique em **"Deploy"**. A Vercel irá construir e publicar seu site.
-6.  Ao final, você receberá uma URL pública, como `https://[nome-do-projeto].vercel.app`. **Esta é a sua URL de produção!** Guarde-a para o próximo passo.
+6.  Ao final, você receberá uma URL pública, como `https://app.foiumaideia.com`. **Esta é a sua URL de produção!** Guarde-a para o próximo passo.
 
 ---
 
 ## 📦 Gerando o App para Android (Google Play Store)
 
-Com sua URL de produção da Vercel em mãos, você pode usar a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
+Com sua URL de produção da Vercel em mãos (`https://app.foiumaideia.com`), você pode usar a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
 
 ### Passo 1: Construir a Versão de Produção do App
 
@@ -84,11 +84,10 @@ npm run build
     ```
 
 2.  **Inicialize o Projeto Bubblewrap:**
-    Rode o comando de inicialização, **substituindo `[SUA_URL_DE_PRODUCAO]` pela URL que você obteve da Vercel**:
+    Rode o comando de inicialização usando a sua URL de produção e o nome correto do manifesto (`.webmanifest`):
 
     ```bash
-    # Use o nome de manifesto correto: .webmanifest
-    bubblewrap init --manifest https://[SUA_URL_DE_PRODUCAO]/manifest.webmanifest
+    bubblewrap init --manifest https://app.foiumaideia.com/manifest.webmanifest
     ```
     *   O Bubblewrap fará algumas perguntas. Na maioria dos casos, você pode simplesmente pressionar `Enter` para aceitar os padrões, pois ele pegará as informações do seu arquivo de manifesto.
 
@@ -105,7 +104,7 @@ npm run build
 
 No iOS, não há um "pacote" como no Android. Os usuários podem adicionar seu site PWA diretamente à tela de início, e ele se comportará como um aplicativo nativo.
 
-1.  Abra a **URL de produção** do seu site (ex: `https://...vercel.app`) no navegador **Safari**.
+1.  Abra a **URL de produção** do seu site (`https://app.foiumaideia.com`) no navegador **Safari**.
 2.  Toque no ícone de **Compartilhar** (um quadrado com uma seta para cima).
 3.  Role para baixo e selecione a opção **"Adicionar à Tela de Início"**.
 4.  Confirme o nome do aplicativo e toque em "Adicionar".

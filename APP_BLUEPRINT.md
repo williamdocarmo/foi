@@ -17,6 +17,7 @@
 - **Estilização:** Tailwind CSS
 - **Funcionalidades de IA:** Genkit (Google AI)
 - **Funcionalidade Offline:** PWA (Progressive Web App) com Service Workers.
+- **Hospedagem:** Vercel
 
 ## 3. Diretrizes de Design e Estilo (UI/UX)
 
@@ -121,8 +122,9 @@ O aplicativo é organizado em torno das seguintes categorias. Cada categoria tem
 ## 6. Funcionalidade PWA e Publicação
 
 ### 6.1. Progressive Web App (PWA)
+- **URL de Produção:** `https://app.foiumaideia.com/`
 - O aplicativo está configurado para ser um PWA usando `next-pwa`.
-- **Manifesto:** `src/app/manifest.json/route.ts` define o nome do app, cores, e ícones para a instalação.
+- **Manifesto:** `src/app/manifest.webmanifest/route.ts` define o nome do app, cores, e ícones para a instalação.
 - **Service Worker:** Habilitado para cachear o aplicativo e os dados, permitindo o funcionamento offline.
 - **Suporte iOS:** Metatags específicas da Apple foram adicionadas para melhorar a experiência de "Adicionar à Tela de Início" no Safari.
 
@@ -131,7 +133,7 @@ O aplicativo é organizado em torno das seguintes categorias. Cada categoria tem
 - **Processo:**
   1. Criar os ícones do app (`public/icons/icon-192x192.png`, `public/icons/icon-512x512.png`).
   2. Rodar `npm run build` para criar a versão de produção.
-  3. Rodar `bubblewrap init --manifest https://[URL_PRODUCAO]/manifest.json`.
+  3. Rodar `bubblewrap init --manifest https://app.foiumaideia.com/manifest.webmanifest`.
   4. Rodar `bubblewrap build` para gerar o arquivo `app-release-signed.aab`.
   5. Enviar o `.aab` para o Google Play Console.
 
