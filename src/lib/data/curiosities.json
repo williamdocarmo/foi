@@ -1,1 +1,290 @@
-[]
+
+[
+  {
+    "title": "O Poder do Hábito",
+    "content": "Estudos mostram que cerca de 40% das nossas ações diárias não são decisões, mas sim hábitos. Mudar um hábito-chave, como fazer exercícios pela manhã, pode desencadear uma reação em cadeia de mudanças positivas em outras áreas da sua vida.",
+    "funFact": "O cérebro economiza energia transformando rotinas em hábitos, liberando recursos mentais para tarefas mais complexas.",
+    "id": "autoajuda-1",
+    "categoryId": "autoajuda"
+  },
+  {
+    "title": "A Regra dos 2 Minutos",
+    "content": "Para combater a procrastinação, comece um novo hábito fazendo-o por apenas dois minutos. Quer ler mais? Leia uma página. Quer correr? Apenas calce o tênis. A ideia é tornar o início da tarefa tão fácil que você não tenha desculpas para não começar.",
+    "funFact": "Essa técnica foi popularizada por James Clear em seu livro 'Hábitos Atômicos'.",
+    "id": "autoajuda-2",
+    "categoryId": "autoajuda"
+  },
+  {
+    "title": "Visualização Criativa",
+    "content": "Atletas de elite frequentemente usam a técnica de visualização, imaginando-se executando suas performances com perfeição. Fazer o mesmo com seus objetivos pode aumentar sua confiança e preparar sua mente para o sucesso.",
+    "funFact": "Estudos de neurociência mostram que visualizar uma ação ativa as mesmas áreas do cérebro que a execução real da ação.",
+    "id": "autoajuda-3",
+    "categoryId": "autoajuda"
+  },
+  {
+    "id": "bem-estar-1",
+    "categoryId": "bem-estar",
+    "title": "Benefícios da Meditação",
+    "content": "A meditação regular pode reduzir o estresse, melhorar a concentração e promover uma sensação geral de bem-estar.",
+    "funFact": "Estudos mostram que a meditação pode realmente alterar a estrutura do cérebro."
+  },
+  {
+    "title": "A Importância do Sono",
+    "content": "Dormir bem é crucial para o bem-estar. Durante o sono, o corpo se recupera e conserta tecidos, fortalecendo o sistema imunológico e melhorando a função cognitiva.",
+    "funFact": "A privação do sono pode levar ao aumento de peso, pois afeta os hormônios que regulam o apetite.",
+    "id": "bem-estar-2",
+    "categoryId": "bem-estar"
+  },
+  {
+    "id": "ciencia-1",
+    "categoryId": "ciencia",
+    "title": "O Som no Espaço",
+    "content": "O espaço é um vácuo, o que significa que não há meio para as ondas sonoras se propagarem. Portanto, é completamente silencioso.",
+    "funFact": "Apesar disso, os planetas e estrelas emitem ondas de rádio que podem ser convertidas em som."
+  },
+  {
+    "title": "A Água é Anômala",
+    "content": "A água é uma das poucas substâncias que se expande ao congelar, o que permite que o gelo flutue na água e proteja a vida aquática em climas frios.",
+    "funFact": "Se a água não fosse anômala, a vida na Terra seria bem diferente!",
+    "id": "ciencia-2",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "A Origem do Cinema",
+    "content": "O cinema como o conhecemos começou com os irmãos Lumière em 1895, na França. A primeira exibição pública de um filme foi 'A Saída dos Operários da Fábrica Lumière', que durava menos de um minuto e chocou a audiência.",
+    "funFact": "A lenda de que o público fugiu do cinema pensando que um trem vinha em sua direção durante a exibição de 'A Chegada de um Trem à Estação' é provavelmente um exagero.",
+    "id": "cultura-1",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "O Festival das Cores na Índia",
+    "content": "O Holi, conhecido como o 'Festival das Cores', é uma celebração hindu que comemora a chegada da primavera e a vitória do bem contra o mal. As pessoas jogam pós coloridos (gulal) e água umas nas outras em uma festa vibrante.",
+    "funFact": "Originalmente, os pós coloridos eram feitos de plantas medicinais e flores, como a cúrcuma e o neem.",
+    "id": "cultura-2",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "O Efeito dos Juros Compostos",
+    "content": "Albert Einstein supostamente chamou os juros compostos de 'a oitava maravilha do mundo'. Eles são os juros que você ganha sobre os juros já acumulados, fazendo seu dinheiro crescer de forma exponencial ao longo do tempo.",
+    "funFact": "Se você investir R$100 por mês com um retorno de 8% ao ano, em 40 anos terá mais de R$350.000, embora tenha investido apenas R$48.000.",
+    "id": "dinheiro-1",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "A Origem do Símbolo do Dólar ($)",
+    "content": "A teoria mais aceita é que o símbolo '$' evoluiu a partir da abreviação 'ps' para 'pesos', a moeda espanhola que era amplamente utilizada nas Américas. Com o tempo, o 'p' e o 's' foram sobrepostos, formando o símbolo que conhecemos.",
+    "funFact": "O primeiro uso oficial do símbolo do dólar em uma impressão foi nos Estados Unidos em 1797.",
+    "id": "dinheiro-2",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "O Som de Star Wars",
+    "content": "O icônico som do sabre de luz em Star Wars foi criado por Ben Burtt, o designer de som da saga. Ele combinou o zumbido de um motor de projetor de filme antigo com o ruído de uma televisão com defeito.",
+    "funFact": "O rugido do Chewbacca é uma mistura de sons de ursos, morsas, leões e texugos.",
+    "id": "entretenimento-1",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "O Oscar é Banhado a Ouro",
+    "content": "A famosa estatueta do Oscar é feita de bronze sólido e banhada em ouro de 24 quilates. Durante a Segunda Guerra Mundial, devido à escassez de metal, as estatuetas foram feitas de gesso pintado.",
+    "funFact": "O nome oficial do prêmio é 'Academy Award of Merit'. O apelido 'Oscar' surgiu, supostamente, quando uma bibliotecária da Academia achou que a estatueta parecia com seu tio Oscar.",
+    "id": "entretenimento-2",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas refere-se à rede de objetos físicos ('coisas') equipados com sensores e software que se conectam e trocam dados com outros dispositivos pela internet. Sua geladeira poderá avisar quando o leite acabar e fazer o pedido sozinha.",
+    "funFact": "Estima-se que haverá mais de 75 bilhões de dispositivos IoT conectados no mundo até 2025.",
+    "id": "futuro-1",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Carne Cultivada em Laboratório",
+    "content": "Cientistas estão desenvolvendo carne cultivada a partir de células animais em laboratório, sem a necessidade de abater animais. Isso promete reduzir o impacto ambiental da pecuária e oferecer uma alternativa mais sustentável.",
+    "funFact": "O primeiro hambúrguer de carne de laboratório, apresentado em 2013, custou mais de 300.000 dólares para ser produzido.",
+    "id": "futuro-2",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Aprender a Codificar",
+    "content": "Aprender uma linguagem de programação, como Python ou JavaScript, é uma das habilidades mais valiosas do século XXI. Ela não só abre portas para carreiras em tecnologia, mas também desenvolve o pensamento lógico e a capacidade de resolver problemas complexos.",
+    "funFact": "A primeira programadora da história foi Ada Lovelace, uma matemática britânica que escreveu o primeiro algoritmo destinado a ser processado por uma máquina em 1843.",
+    "id": "habilidades-1",
+    "categoryId": "habilidades"
+  },
+  {
+    "title": "A Arte de Falar em Público",
+    "content": "O medo de falar em público, ou glossofobia, é um dos mais comuns no mundo. Praticar a oratória pode impulsionar sua carreira, melhorar sua autoconfiança e permitir que você compartilhe suas ideias de forma clara e impactante.",
+    "funFact": "Estudos mostram que as pessoas frequentemente temem mais falar em público do que a própria morte.",
+    "id": "habilidades-2",
+    "categoryId": "habilidades"
+  },
+  {
+    "title": "Descascar Alho Facilmente",
+    "content": "Coloque os dentes de alho em um pote com tampa (como um pote de vidro) e agite vigorosamente por cerca de 20 segundos. As cascas se soltarão quase que magicamente, economizando tempo e esforço.",
+    "funFact": "Este truque funciona melhor com cabeças de alho inteiras, pois a agitação faz com que os próprios dentes batam uns nos outros e se descasquem.",
+    "id": "hacks-1",
+    "categoryId": "hacks"
+  },
+  {
+    "title": "Evitar que a Panela Transborde",
+    "content": "Coloque uma colher de pau atravessada sobre a boca de uma panela com água fervente. A madeira, por ser hidrofóbica e não conduzir bem o calor, quebra as bolhas quando elas a tocam, impedindo que a água suba e transborde.",
+    "funFact": "Isso funciona porque a espuma da fervura é composta por bolhas instáveis de vapor. A colher 'estoura' essas bolhas.",
+    "id": "hacks-2",
+    "categoryId": "hacks"
+  },
+  {
+    "title": "A Guerra mais Curta da História",
+    "content": "A Guerra Anglo-Zanzibari, travada entre o Reino Unido e o Sultanato de Zanzibar em 27 de agosto de 1896, durou apenas 38 minutos. Ela começou após o sultão se recusar a renunciar e terminou com a rendição de Zanzibar.",
+    "funFact": "O bombardeio britânico destruiu completamente o palácio do sultão e sua frota em menos de 40 minutos.",
+    "id": "historia-1",
+    "categoryId": "historia"
+  },
+  {
+    "title": "Gar tenedores Eram Mal Vistos",
+    "content": "Na Idade Média, o uso de garfos na Europa era considerado escandaloso e afeminado. A Igreja via o garfo como um instrumento 'diabólico' e acreditava que a comida, um presente de Deus, deveria ser tocada com as mãos.",
+    "funFact": "A popularização do garfo na Europa só aconteceu por volta do século XVIII, principalmente através da nobreza italiana.",
+    "id": "historia-2",
+    "categoryId": "historia"
+  },
+  {
+    "title": "A Cidade Submersa de Shicheng",
+    "content": "Na China, existe uma cidade antiga perfeitamente preservada debaixo d'água. Shicheng, ou 'Cidade do Leão', foi intencionalmente inundada em 1959 para a construção de uma usina hidrelétrica. Hoje, é um destino popular para mergulhadores.",
+    "funFact": "A cidade foi fundada há mais de 1.300 anos durante a dinastia Tang, e suas muralhas, templos e casas permanecem intactos sob o Lago Qiandao.",
+    "id": "lugares-1",
+    "categoryId": "lugares"
+  },
+  {
+    "title": "A Ilha das Bonecas, México",
+    "content": "Perto da Cidade do México, a Isla de las Muñecas é uma ilha assustadora coberta por centenas de bonecas velhas e deterioradas penduradas em árvores. A lenda diz que o antigo zelador da ilha começou a pendurá-las para apaziguar o espírito de uma menina que se afogou ali.",
+    "funFact": "O local se tornou uma atração turística macabra, e os visitantes costumam levar mais bonecas para adicionar à coleção.",
+    "id": "lugares-2",
+    "categoryId": "lugares"
+  },
+  {
+    "title": "O Manuscrito Voynich",
+    "content": "O Manuscrito Voynich é um livro ilustrado do século XV escrito em um idioma ou código completamente desconhecido. Apesar dos esforços de inúmeros criptógrafos e linguistas, ninguém jamais conseguiu decifrá-lo. Suas ilustrações mostram plantas, diagramas astronômicos e figuras humanas bizarras.",
+    "funFact": "A análise do carbono-14 datou o pergaminho do início do século XV, mas sua origem e propósito permanecem um mistério total.",
+    "id": "misterios-1",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "O Desaparecimento de Amelia Earhart",
+    "content": "Em 1937, a pioneira da aviação Amelia Earhart desapareceu sobre o Oceano Pacífico enquanto tentava dar a volta ao mundo. Nenhuma pista conclusiva de seu avião ou de seu navegador, Fred Noonan, jamais foi encontrada, gerando inúmeras teorias.",
+    "funFact": "Uma das teorias sugere que eles podem ter pousado em uma ilha deserta e sobrevivido por um tempo como náufragos.",
+    "id": "misterios-2",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "O Acorde Misterioso dos Beatles",
+    "content": "A música 'A Hard Day's Night' dos Beatles começa com um acorde de guitarra instantaneamente reconhecível, mas por décadas ninguém sabia ao certo como ele era tocado. Apenas em 2004 um matemático usou uma análise de Fourier para decifrar a combinação exata de notas tocadas por George Harrison, John Lennon e Paul McCartney.",
+    "funFact": "O acorde é uma mistura complexa de notas de uma guitarra de 12 cordas, um violão de 6 cordas e um baixo, além de um acorde de piano adicionado na mixagem.",
+    "id": "musica-1",
+    "categoryId": "musica"
+  },
+  {
+    "title": "Queen e o Videoclipe",
+    "content": "A música 'Bohemian Rhapsody' do Queen, lançada em 1975, é amplamente creditada por popularizar o videoclipe como uma ferramenta de marketing. A banda criou o vídeo para não ter que se apresentar no programa de TV britânico Top of the Pops, e o sucesso foi tão grande que outras bandas começaram a fazer o mesmo.",
+    "funFact": "O vídeo inteiro foi filmado em apenas 4 horas e custou cerca de £4.500 na época.",
+    "id": "musica-2",
+    "categoryId": "musica"
+  },
+  {
+    "title": "Polvos Têm Três Corações",
+    "content": "Os polvos são criaturas fascinantes com três corações. Dois corações bombeiam sangue através das brânquias (os órgãos respiratórios), enquanto o terceiro e maior coração circula o sangue para o resto do corpo.",
+    "funFact": "O sangue do polvo é azul porque usa uma proteína à base de cobre chamada hemocianina para transportar oxigênio, em vez da hemoglobina à base de ferro que temos.",
+    "id": "natureza-e-animais-1",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "title": "O Som Mais Alto do Planeta",
+    "content": "O som mais alto já registrado por um animal é o chamado da baleia-azul. Seus cantos podem atingir 188 decibéis e podem ser ouvidos a mais de 800 quilômetros de distância debaixo d'água.",
+    "funFact": "O som é tão potente que pode ser prejudicial aos ouvidos humanos se estivermos muito perto.",
+    "id": "natureza-e-animais-2",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "title": "O Efeito Dunning-Kruger",
+    "content": "É um viés cognitivo no qual pessoas com baixo conhecimento em um assunto superestimam sua própria habilidade, enquanto especialistas tendem a subestimar a deles. Em resumo, os incompetentes são tão incompetentes que não conseguem ver a própria incompetência.",
+    "funFact": "O efeito foi demonstrado em um estudo onde estudantes com as piores notas em um teste de lógica foram os que mais superestimaram seu desempenho.",
+    "id": "psicologia-1",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "O Viés de Confirmação",
+    "content": "Temos uma tendência natural de procurar, interpretar e lembrar de informações que confirmam nossas crenças pré-existentes, enquanto ignoramos ou descartamos informações que as contradizem. É por isso que é tão difícil mudar de ideia.",
+    "funFact": "Este viés é uma das principais razões para a polarização de opiniões em debates políticos e sociais.",
+    "id": "psicologia-2",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "As 5 Linguagens do Amor",
+    "content": "O Dr. Gary Chapman propôs que as pessoas expressam e recebem amor de 5 maneiras principais: Palavras de Afirmação, Tempo de Qualidade, Receber Presentes, Atos de Serviço e Toque Físico. Entender a linguagem do seu parceiro é crucial para um relacionamento saudável.",
+    "funFact": "Muitos conflitos em relacionamentos surgem quando os parceiros têm linguagens de amor diferentes e não percebem que estão expressando afeto de maneiras que o outro não entende.",
+    "id": "relacionamentos-1",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "O Efeito de Exposição Mera",
+    "content": "Temos uma tendência psicológica a desenvolver uma preferência por coisas (ou pessoas) simplesmente porque estamos familiarizados com elas. Quanto mais você vê alguém, maior a probabilidade de começar a gostar dessa pessoa.",
+    "funFact": "É por isso que a convivência no trabalho ou na escola é um dos gatilhos mais comuns para o início de amizades e romances.",
+    "id": "relacionamentos-2",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "O Coração Humano",
+    "content": "Seu coração bate cerca de 100.000 vezes por dia, bombeando aproximadamente 7.500 litros de sangue por todo o corpo. Em uma vida inteira, isso é sangue suficiente para encher 3 superpetroleiros.",
+    "funFact": "O coração de uma mulher geralmente bate um pouco mais rápido que o de um homem.",
+    "id": "saude-1",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Pele é o Maior Órgão",
+    "content": "A pele é o maior órgão do corpo humano, cobrindo uma área de cerca de 2 metros quadrados em um adulto médio. Ela nos protege contra germes, regula a temperatura do corpo e nos permite ter o sentido do tato.",
+    "funFact": "Perdemos cerca de 30.000 a 40.000 células da pele a cada minuto.",
+    "id": "saude-2",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Origem do 'Bug' de Computador",
+    "content": "O termo 'bug' para descrever uma falha em um sistema de computador foi popularizado por Grace Hopper, uma pioneira da computação. Em 1947, sua equipe encontrou uma mariposa (um 'bug', em inglês) presa em um relé do computador Harvard Mark II, causando um mau funcionamento. Eles removeram o inseto e o prenderam no diário de bordo, anotando: 'Primeiro caso real de bug sendo encontrado'.",
+    "funFact": "O diário de bordo com a mariposa está em exibição no Museu Nacional de História Americana.",
+    "id": "tecnologia-1",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "O Primeiro Mouse de Computador",
+    "content": "O primeiro mouse de computador foi inventado por Douglas Engelbart em 1964. Era uma caixa de madeira com duas rodas de metal na parte inferior e foi apelidado de 'mouse' porque o cabo que saía dele lembrava o rabo de um rato.",
+    "funFact": "Engelbart nunca recebeu royalties por sua invenção, pois a patente expirou antes de o mouse se tornar um produto de consumo em massa.",
+    "id": "tecnologia-2",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "Chuva de Diamantes em Outros Planetas",
+    "content": "Em planetas gigantes gasosos como Júpiter e Saturno, a atmosfera é tão extrema que a pressão pode esmagar o carbono, transformando-o em diamantes. Os cientistas acreditam que 'chuvas de diamantes' ocorrem nesses planetas, com pedras de até um centímetro de diâmetro.",
+    "funFact": "Também se acredita que Urano e Netuno tenham oceanos de diamante líquido com 'icebergs' de diamante sólido flutuando neles.",
+    "id": "universo-e-astronomia-1",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "title": "O Maior Vulcão do Sistema Solar",
+    "content": "O maior vulcão conhecido no nosso sistema solar não está na Terra, mas em Marte. O Olympus Mons é um vulcão-escudo com cerca de 25 quilômetros de altura, quase três vezes a altura do Monte Everest, e sua base cobriria a área do estado do Arizona.",
+    "funFact": "Por ser tão grande e ter encostas suaves, se você estivesse no topo do Olympus Mons, não conseguiria ver a base do vulcão, pois ele se estenderia além do horizonte.",
+    "id": "universo-e-astronomia-2",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "title": "O Passaporte Mais Poderoso do Mundo",
+    "content": "O 'poder' de um passaporte é medido pelo número de países que seu portador pode visitar sem a necessidade de um visto prévio. Países como Japão, Singapura e Alemanha frequentemente estão no topo do ranking, dando acesso a mais de 190 destinos.",
+    "funFact": "A cor do passaporte geralmente tem um significado geográfico ou político. Passaportes de países da União Europeia são cor de vinho, enquanto os de países da CARICOM são azuis.",
+    "id": "viagens-1",
+    "categoryId": "viagens"
+  },
+  {
+    "title": "Por que as Janelas dos Aviões são Redondas?",
+    "content": "As janelas dos aviões comerciais são redondas ou ovais por uma razão de segurança crucial. Janelas quadradas criam pontos de estresse nos cantos, que podem levar a rachaduras na fuselagem devido à pressurização. Duas quedas de avião no início da aviação a jato foram atribuídas a janelas quadradas.",
+    "funFact": "Há um pequeno buraco na parte inferior da janela do avião para regular a pressão do ar entre as vidraças interna e externa.",
+    "id": "viagens-2",
+    "categoryId": "viagens"
+  }
+]

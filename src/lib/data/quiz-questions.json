@@ -1,1 +1,367 @@
-[]
+
+[
+    {
+        "difficulty": "easy",
+        "question": "Qual é um princípio fundamental da maioria das filosofias de autoajuda?",
+        "options": [
+          "Aceitação incondicional de si mesmo",
+          "Busca constante de aprovação externa",
+          "Negação de emoções negativas",
+          "Foco exclusivo nos defeitos pessoais"
+        ],
+        "correctAnswer": "Aceitação incondicional de si mesmo",
+        "explanation": "A autoaceitação é um pilar para o crescimento pessoal e o bem-estar, permitindo lidar com desafios de forma mais construtiva.",
+        "id": "quiz-autoajuda-1",
+        "categoryId": "autoajuda"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual técnica de gerenciamento de tempo é frequentemente recomendada em livros de autoajuda para melhorar a produtividade?",
+        "options": [
+          "Procrastinação estratégica",
+          "Multitarefa contínua",
+          "Método Pomodoro",
+          "Trabalho contínuo sem pausas"
+        ],
+        "correctAnswer": "Método Pomodoro",
+        "explanation": "O Método Pomodoro, com seus intervalos de trabalho e descanso, ajuda a manter o foco e a evitar o esgotamento.",
+        "id": "quiz-autoajuda-2",
+        "categoryId": "autoajuda"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual atividade física é recomendada pela maioria dos médicos para a saúde cardiovascular?",
+        "options": [
+          "Natação",
+          "Levantamento de peso",
+          "Corrida",
+          "Ioga"
+        ],
+        "correctAnswer": "Corrida",
+        "explanation": "A corrida é uma atividade aeróbica eficaz para fortalecer o coração e os pulmões.",
+        "id": "quiz-bem-estar-1",
+        "categoryId": "bem-estar"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual a principal característica da síndrome de burnout?",
+        "options": [
+          "Falta de motivação e exaustão emocional",
+          "Ansiedade generalizada",
+          "Depressão crônica",
+          "Distúrbios do sono"
+        ],
+        "correctAnswer": "Falta de motivação e exaustão emocional",
+        "explanation": "A síndrome de burnout é caracterizada por exaustão emocional, cinismo e falta de eficácia profissional.",
+        "id": "quiz-bem-estar-2",
+        "categoryId": "bem-estar"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual o planeta mais próximo do Sol?",
+        "options": [
+          "Terra",
+          "Marte",
+          "Vênus",
+          "Mercúrio"
+        ],
+        "correctAnswer": "Mercúrio",
+        "explanation": "Mercúrio é o planeta mais próximo do Sol em nosso sistema solar.",
+        "id": "quiz-ciencia-1",
+        "categoryId": "ciencia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual a fórmula química da água?",
+        "options": [
+          "CO2",
+          "NaCl",
+          "H2O",
+          "O2"
+        ],
+        "correctAnswer": "H2O",
+        "explanation": "A água é composta por dois átomos de hidrogênio e um átomo de oxigênio.",
+        "id": "quiz-ciencia-2",
+        "categoryId": "ciencia"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual país é conhecido pela Torre Eiffel?",
+        "options": [
+          "Inglaterra",
+          "Estados Unidos",
+          "França",
+          "Itália"
+        ],
+        "correctAnswer": "França",
+        "explanation": "A Torre Eiffel é um monumento icônico localizado em Paris, França.",
+        "id": "quiz-cultura-1",
+        "categoryId": "cultura"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual é a principal religião praticada no Japão?",
+        "options": [
+          "Cristianismo",
+          "Islamismo",
+          "Budismo",
+          "Hinduísmo"
+        ],
+        "correctAnswer": "Budismo",
+        "explanation": "Embora existam outras religiões no Japão, o Budismo é a religião predominante.",
+        "id": "quiz-cultura-2",
+        "categoryId": "cultura"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual o menor valor de nota em circulação no Brasil?",
+        "options": [
+          "R$ 1,00",
+          "R$ 2,00",
+          "R$ 5,00",
+          "R$ 10,00"
+        ],
+        "correctAnswer": "R$ 1,00",
+        "explanation": "A nota de R$ 1,00 é a menor nota em circulação atualmente.",
+        "id": "quiz-dinheiro-1",
+        "categoryId": "dinheiro"
+      },
+      {
+        "difficulty": "medium",
+        "question": "O que significa a sigla IOF?",
+        "options": [
+          "Imposto sobre Operações Financeiras",
+          "Imposto sobre Operações de Importação",
+          "Imposto sobre Operações de Exportação",
+          "Imposto sobre Operações de Investimento"
+        ],
+        "correctAnswer": "Imposto sobre Operações Financeiras",
+        "explanation": "IOF é a sigla para Imposto sobre Operações Financeiras, um imposto que incide sobre diversas operações financeiras.",
+        "id": "quiz-dinheiro-2",
+        "categoryId": "dinheiro"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual o nome do famoso palhaço do filme 'IT'?",
+        "options": [
+          "Ronald McDonald",
+          "Pennywise",
+          "Bozo",
+          "Krusty"
+        ],
+        "correctAnswer": "Pennywise",
+        "explanation": "Pennywise, o palhaço dançarino, é o antagonista principal do livro e da adaptação cinematográfica de 'IT'.",
+        "id": "quiz-entretenimento-1",
+        "categoryId": "entretenimento"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual série de TV foi a primeira a ser transmitida em cores nos EUA?",
+        "options": [
+          "I Love Lucy",
+          "The Honeymooners",
+          "Bonanza",
+          "Gunsmoke"
+        ],
+        "correctAnswer": "Bonanza",
+        "explanation": "Embora alguns episódios de outras séries tivessem sido transmitidos em cores antes, 'Bonanza' foi a primeira série regular em cores nos EUA.",
+        "id": "quiz-entretenimento-2",
+        "categoryId": "entretenimento"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual tecnologia já está sendo amplamente usada para auxiliar na previsão do tempo?",
+        "options": [
+          "Inteligência Artificial",
+          "Máquinas de escrever",
+          "Relógios de sol",
+          "Telégrafos"
+        ],
+        "correctAnswer": "Inteligência Artificial",
+        "explanation": "A IA analisa grandes conjuntos de dados para prever padrões climáticos com maior precisão.",
+        "id": "quiz-futuro-1",
+        "categoryId": "futuro"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual o principal desafio para a viabilização de viagens espaciais comerciais de longa duração?",
+        "options": [
+          "Custo financeiro",
+          "Falta de tecnologia",
+          "Falta de interesse público",
+          "Radiação espacial"
+        ],
+        "correctAnswer": "Radiação espacial",
+        "explanation": "A exposição prolongada à radiação espacial representa um sério risco para a saúde dos astronautas.",
+        "id": "quiz-futuro-2",
+        "categoryId": "futuro"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Em que ano terminou a Segunda Guerra Mundial?",
+        "options": [
+          "1943",
+          "1945",
+          "1948",
+          "1950"
+        ],
+        "correctAnswer": "1945",
+        "explanation": "A Segunda Guerra Mundial terminou oficialmente em 2 de setembro de 1945, com a rendição formal do Japão.",
+        "id": "quiz-historia-1",
+        "categoryId": "historia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual o nome do tratado que pôs fim à Primeira Guerra Mundial?",
+        "options": [
+          "Tratado de Versalhes",
+          "Tratado de Tordesilhas",
+          "Tratado de Utrecht",
+          "Tratado de Paris"
+        ],
+        "correctAnswer": "Tratado de Versalhes",
+        "explanation": "O Tratado de Versalhes foi assinado em 28 de junho de 1919, oficialmente pondo fim à Primeira Guerra Mundial.",
+        "id": "quiz-historia-2",
+        "categoryId": "historia"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual o nome do famoso triângulo das Bermudas?",
+        "options": [
+          "Triângulo das Ilhas Canárias",
+          "Triângulo do Atlântico Norte",
+          "Triângulo do Dragão",
+          "Triângulo das Bermudas"
+        ],
+        "correctAnswer": "Triângulo das Bermudas",
+        "explanation": "O Triângulo das Bermudas é uma região no Oceano Atlântico associada a misteriosas desaparecimentos de navios e aeronaves.",
+        "id": "quiz-misterios-1",
+        "categoryId": "misterios"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual civilização construiu as Linhas de Nazca?",
+        "options": [
+          "Inca",
+          "Asteca",
+          "Nazca",
+          "Maia"
+        ],
+        "correctAnswer": "Nazca",
+        "explanation": "As Linhas de Nazca são gigantescos geoglifos no deserto do Peru, criados pela civilização Nazca.",
+        "id": "quiz-misterios-2",
+        "categoryId": "misterios"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual ramo da psicologia se concentra no estudo do comportamento observável?",
+        "options": [
+          "Psicologia Cognitiva",
+          "Psicologia da Personalidade",
+          "Psicologia Comportamental",
+          "Psicologia Social"
+        ],
+        "correctAnswer": "Psicologia Comportamental",
+        "explanation": "A psicologia comportamental, também conhecida como behaviorismo, foca em comportamentos observáveis e aprendidos através de condicionamento.",
+        "id": "quiz-psicologia-1",
+        "categoryId": "psicologia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual teoria da personalidade propõe que a personalidade é moldada por conflitos inconscientes entre o id, o ego e o superego?",
+        "options": [
+          "Teoria dos Traços",
+          "Teoria Humanista",
+          "Teoria Psicanalítica",
+          "Teoria Cognitivo-Comportamental"
+        ],
+        "correctAnswer": "Teoria Psicanalítica",
+        "explanation": "A teoria psicanalítica de Sigmund Freud enfatiza a influência de forças inconscientes na personalidade e o papel dos conflitos entre o id (desejos primitivos), o ego (realidade) e o superego (moralidade).",
+        "id": "quiz-psicologia-2",
+        "categoryId": "psicologia"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual é um sinal importante de um relacionamento saudável?",
+        "options": [
+          "Controle excessivo do parceiro",
+          "Comunicação aberta e honesta",
+          "Ciúme possessivo",
+          "Falta de confiança mútua"
+        ],
+        "correctAnswer": "Comunicação aberta e honesta",
+        "explanation": "A comunicação aberta e honesta é fundamental para construir e manter um relacionamento saudável e forte.",
+        "id": "quiz-relacionamentos-1",
+        "categoryId": "relacionamentos"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual estilo de apego é caracterizado por uma ansiedade intensa em relação à proximidade e à rejeição?",
+        "options": [
+          "Apego seguro",
+          "Apego ansioso-preocupado",
+          "Apego evasivo-desconfiado",
+          "Apego desorganizado"
+        ],
+        "correctAnswer": "Apego ansioso-preocupado",
+        "explanation": "Indivíduos com apego ansioso-preocupado temem a rejeição e buscam constantemente a validação do parceiro.",
+        "id": "quiz-relacionamentos-2",
+        "categoryId": "relacionamentos"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual a principal função do coração?",
+        "options": [
+          "Transportar oxigênio para os pulmões",
+          "Regular a temperatura corporal",
+          "Bombear sangue para o corpo",
+          "Filtrar impurezas do sangue"
+        ],
+        "correctAnswer": "Bombear sangue para o corpo",
+        "explanation": "O coração é o órgão responsável por impulsionar o sangue oxigenado para todo o corpo.",
+        "id": "quiz-saude-1",
+        "categoryId": "saude"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Qual vitamina é crucial para a absorção de cálcio?",
+        "options": [
+          "Vitamina A",
+          "Vitamina C",
+          "Vitamina D",
+          "Vitamina B12"
+        ],
+        "correctAnswer": "Vitamina D",
+        "explanation": "A vitamina D auxilia na absorção de cálcio, essencial para a saúde óssea.",
+        "id": "quiz-saude-2",
+        "categoryId": "saude"
+      },
+      {
+        "difficulty": "easy",
+        "question": "Qual destes dispositivos NÃO é um dispositivo de entrada?",
+        "options": [
+          "Teclado",
+          "Mouse",
+          "Impressora",
+          "Scanner"
+        ],
+        "correctAnswer": "Impressora",
+        "explanation": "Impressoras são dispositivos de saída, enviando informações do computador para um meio físico.",
+        "id": "quiz-tecnologia-1",
+        "categoryId": "tecnologia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "O que significa a sigla HTML?",
+        "options": [
+          "HyperText Markup Language",
+          "High-Tech Machine Language",
+          "Hyperlink Transfer Markup Language",
+          "Home Tool Markup Language"
+        ],
+        "correctAnswer": "HyperText Markup Language",
+        "explanation": "HTML é a linguagem de marcação usada para criar páginas web.",
+        "id": "quiz-tecnologia-2",
+        "categoryId": "tecnologia"
+      }
+]

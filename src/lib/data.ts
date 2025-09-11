@@ -1,53 +1,37 @@
 
 import type { Category, Curiosity, QuizQuestion } from './types';
 import categoriesData from './data/categories.json';
-import fs from 'fs/promises';
-import path from 'path';
+import curiositiesData from './data/curiosities.json';
+import quizQuestionsData from './data/quiz-questions.json';
 
 export const categories: Category[] = categoriesData;
 
-// Helper functions now dynamically import data based on category ID
-export const getCategoryById = (id: string) => categories.find(c => c.id === id);
+// Type guard to ensure data is treated as Curiosity[]
+const allCuriosities: Curiosity[] = curiositiesData as Curiosity[];
+const allQuizQuestions: QuizQuestion[] = quizQuestionsData as QuizQuestion[];
 
-// Use a simple cache to avoid re-reading files from disk on every request in development
-const dataCache = new Map<string, any>();
-
-async function readJsonFile<T>(filePath: string): Promise<T[]> {
-  if (process.env.NODE_ENV === 'development' && dataCache.has(filePath)) {
-    return dataCache.get(filePath) as T[];
-  }
-
-  try {
-    const fullPath = path.join(process.cwd(), filePath);
-    const fileContent = await fs.readFile(fullPath, 'utf-8');
-    const data = JSON.parse(fileContent);
-    
-    if (process.env.NODE_ENV === 'development') {
-      dataCache.set(filePath, data);
-    }
-    
-    return data;
-  } catch (error) {
-    // console.error(`Error reading file ${filePath}:`, error);
-    return []; // Return empty array if file doesn't exist or is invalid
-  }
+export const getCategoryById = (id: string): Category | undefined => {
+  return categories.find(c => c.id === id);
 }
 
 export async function getCuriositiesByCategoryId(categoryId: string): Promise<Curiosity[]> {
-  const curiosities = await readJsonFile<Curiosity>(`data/curiosities-${categoryId}.json`);
-  return curiosities;
+  // We use a Promise to keep the async signature, even though it resolves immediately.
+  // This makes it consistent with potential future data-fetching strategies.
+  return Promise.resolve(
+    allCuriosities.filter(c => c.categoryId === categoryId)
+  );
 }
 
 export async function getQuizQuestionsByCategoryId(categoryId: string): Promise<QuizQuestion[]> {
-  const questions = await readJsonFile<QuizQuestion>(`data/quiz-questions-${categoryId}.json`);
-  return questions;
+  return Promise.resolve(
+    allQuizQuestions.filter(q => q.categoryId === categoryId)
+  );
 }
 
 export async function getAllCuriosities(): Promise<Curiosity[]> {
-    let allCuriosities: Curiosity[] = [];
-    for (const category of categories) {
-        const curiosities = await getCuriositiesByCategoryId(category.id);
-        allCuriosities = [...allCuriosities, ...curiosities];
-    }
-    return allCuriosities;
+  return Promise.resolve(allCuriosities);
+}
+
+export async function getAllQuizQuestions(): Promise<QuizQuestion[]> {
+    return Promise.resolve(allQuizQuestions);
 }

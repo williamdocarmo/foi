@@ -4,7 +4,7 @@ import { config } from "dotenv";
 import fs from "fs/promises";
 import path from "path";
 import categories from "../src/lib/data/categories.json";
-import { Curiosity } from "@/lib/types";
+import { Curiosity, QuizQuestion } from "@/lib/types";
 
 config();
 
@@ -16,24 +16,38 @@ if (!API_KEY) {
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-const CURIOSITIES_PER_CATEGORY = 5; // Change this to generate more or less
-const QUIZ_QUESTIONS_PER_CATEGORY = 5; // Change this to generate more or less
-const RETRY_DELAY_MS = 5000; // 5 seconds delay between retries
+const CURIOSITIES_PER_CATEGORY = 5;
+const QUIZ_QUESTIONS_PER_CATEGORY = 5;
+const RETRY_DELAY_MS = 5000;
 const MAX_RETRIES = 3;
-const API_CALL_DELAY_MS = 2000; // 2 seconds delay between API calls for different categories
+const API_CALL_DELAY_MS = 2000;
 
-const dataDir = path.join(__dirname, "../data");
+const dataDir = path.join(__dirname, "../src/lib/data");
+const allCuriositiesPath = path.join(dataDir, 'curiosities.json');
+const allQuizzesPath = path.join(dataDir, 'quiz-questions.json');
+
 
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+async function readJsonFile<T>(filePath: string): Promise<T[]> {
+    try {
+        const fileContent = await fs.readFile(filePath, "utf-8");
+        const parsedContent = JSON.parse(fileContent);
+        return Array.isArray(parsedContent) ? parsedContent : [];
+    } catch (e) {
+        // Arquivo não existe ou está vazio, retorna array vazio.
+        return [];
+    }
+}
+
 
 async function generateWithRetry(prompt: string, attempt = 1): Promise<any> {
   try {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
-    // Remove markdown code block fences and trim whitespace
     const cleanedText = text.replace(/```json/g, "").replace(/```/g, "").trim();
     if (!cleanedText) {
       console.warn("  [WARN] Received empty response from API.");
@@ -48,7 +62,6 @@ async function generateWithRetry(prompt: string, attempt = 1): Promise<any> {
     }
      if (error instanceof SyntaxError) {
       console.error("  [ERROR] Failed to parse JSON from API response. The response might be malformed or empty.");
-      // Do not rethrow, just return empty to not stop the whole process
       return [];
     }
     throw error;
@@ -92,66 +105,65 @@ async function generateQuizQuestions(categoryName: string, count: number, existi
 async function main() {
   console.log("Iniciando a geração de conteúdo com IA...");
 
+  const allCuriosities: Curiosity[] = await readJsonFile(allCuriositiesPath);
+  const allQuizQuestions: QuizQuestion[] = await readJsonFile(allQuizzesPath);
+
   for (const category of categories) {
     console.log(`\nGerando conteúdo para a categoria: ${category.name}`);
 
     // --- Geração de Curiosidades ---
-    const curiosityFilePath = path.join(dataDir, `curiosities-${category.id}.json`);
-    let existingCuriosities: Curiosity[] = [];
-    try {
-      const fileContent = await fs.readFile(curiosityFilePath, "utf-8");
-      const parsedContent = JSON.parse(fileContent);
-      if (Array.isArray(parsedContent)) {
-        existingCuriosities = parsedContent;
-      }
-    } catch (e) {
-      // Arquivo não existe ou está vazio, será criado.
-    }
+    const existingCuriosityTitles = allCuriosities
+        .filter(c => c.categoryId === category.id)
+        .map(c => c.title);
 
-    const existingCuriosityTitles = existingCuriosities.map(c => c.title);
     const newCuriosities = await generateCuriosities(category.name, CURIOSITIES_PER_CATEGORY, existingCuriosityTitles);
     
     if (newCuriosities && newCuriosities.length > 0) {
-      const allCuriosities = [...existingCuriosities, ...newCuriosities.map((c: any, index: number) => ({
-        ...c,
-        id: `${category.id}-${existingCuriosities.length + index + 1}`,
-        categoryId: category.id,
-      }))];
-      
-      await fs.writeFile(curiosityFilePath, JSON.stringify(allCuriosities, null, 2));
-      console.log(`- ${newCuriosities.length} novas curiosidades salvas em ${curiosityFilePath}`);
+        let maxId = allCuriosities.length;
+        const curiositiesToAdd = newCuriosities.map((c: any) => {
+            maxId++;
+            return {
+                ...c,
+                id: `${category.id}-${maxId}`, // Unique ID
+                categoryId: category.id,
+            };
+        });
+        allCuriosities.push(...curiositiesToAdd);
+        console.log(`- ${newCuriosities.length} novas curiosidades para ${category.name}`);
     }
 
-    await sleep(API_CALL_DELAY_MS); // Pause between API calls (curiosity -> quiz)
+    await sleep(API_CALL_DELAY_MS); // Pause between API calls
 
     // --- Geração de Perguntas de Quiz ---
-    const quizFilePath = path.join(dataDir, `quiz-questions-${category.id}.json`);
-    let existingQuestions: any[] = [];
-    try {
-      const fileContent = await fs.readFile(quizFilePath, "utf-8");
-      const parsedContent = JSON.parse(fileContent);
-      if (Array.isArray(parsedContent)) {
-        existingQuestions = parsedContent;
-      }
-    } catch (e) {
-       // Arquivo não existe ou está vazio, será criado.
-    }
+    const existingQuestionStrings = allQuizQuestions
+        .filter(q => q.categoryId === category.id)
+        .map(q => q.question);
     
-    const existingQuestionStrings = existingQuestions.map(q => q.question);
     const newQuestions = await generateQuizQuestions(category.name, QUIZ_QUESTIONS_PER_CATEGORY, existingQuestionStrings);
     
     if (newQuestions && newQuestions.length > 0) {
-      const allQuestions = [...existingQuestions, ...newQuestions.map((q: any, index: number) => ({
-        ...q,
-        id: `quiz-${category.id}-${existingQuestions.length + index + 1}`,
-        categoryId: category.id,
-      }))];
-
-      await fs.writeFile(quizFilePath, JSON.stringify(allQuestions, null, 2));
-      console.log(`- ${newQuestions.length} novas perguntas de quiz salvas em ${quizFilePath}`);
+        let maxId = allQuizQuestions.length;
+        const questionsToAdd = newQuestions.map((q: any) => {
+            maxId++;
+            return {
+                ...q,
+                id: `quiz-${category.id}-${maxId}`, // Unique ID
+                categoryId: category.id,
+            };
+        });
+      allQuizQuestions.push(...questionsToAdd);
+      console.log(`- ${newQuestions.length} novas perguntas de quiz para ${category.name}`);
     }
-     await sleep(API_CALL_DELAY_MS); // Pause before the next category
+
+    await sleep(API_CALL_DELAY_MS); // Pause before the next category
   }
+
+  // Save all changes at the end
+  await fs.writeFile(allCuriositiesPath, JSON.stringify(allCuriosities, null, 2));
+  console.log(`\nTotal de ${allCuriosities.length} curiosidades salvas em ${allCuriositiesPath}`);
+  
+  await fs.writeFile(allQuizzesPath, JSON.stringify(allQuizQuestions, null, 2));
+  console.log(`Total de ${allQuizQuestions.length} perguntas de quiz salvas em ${allQuizzesPath}`);
 
   console.log("\nProcesso de geração de conteúdo concluído!");
 }
