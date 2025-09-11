@@ -183,6 +183,34 @@
     "funFact": "A desorganização pode ser uma fonte de estresse silencioso que afeta o humor e o sono."
   },
   {
+    "id": "bem-estar-12",
+    "categoryId": "bem-estar",
+    "title": "O Efeito da Música no Humor",
+    "content": "Ouvir música pode alterar significativamente o estado de humor. Músicas alegres podem aumentar a felicidade, enquanto músicas calmas podem induzir ao relaxamento. É uma ferramenta poderosa para a regulação emocional.",
+    "funFact": "O cérebro libera dopamina, um neurotransmissor associado ao prazer, ao ouvir músicas de que gostamos."
+  },
+  {
+    "id": "bem-estar-13",
+    "categoryId": "bem-estar",
+    "title": "Benefícios de Ter um Hobby",
+    "content": "Engajar-se em um hobby que você ama, seja pintura, jardinagem ou tocar um instrumento, reduz o estresse e melhora a saúde mental. Hobbies oferecem uma fuga criativa e um senso de realização.",
+    "funFact": "Pessoas com hobbies regulares são menos propensas a sofrer de estresse, baixo humor e depressão."
+  },
+  {
+    "id": "bem-estar-14",
+    "categoryId": "bem-estar",
+    "title": "A Conexão Intestino-Cérebro",
+    "content": "A saúde do seu intestino está diretamente ligada à sua saúde mental. Um microbioma intestinal equilibrado pode melhorar o humor e reduzir a ansiedade, enquanto um desequilíbrio pode ter o efeito oposto.",
+    "funFact": "Cerca de 95% da serotonina do corpo, um regulador chave do humor, é produzida no intestino."
+  },
+  {
+    "id": "bem-estar-15",
+    "categoryId": "bem-estar",
+    "title": "O Voluntariado e a Felicidade",
+    "content": "Ajudar os outros através do trabalho voluntário pode aumentar a sensação de felicidade e propósito de vida. O ato de dar sem esperar nada em troca está associado a um maior bem-estar e satisfação pessoal.",
+    "funFact": "Estudos mostram que o voluntariado pode diminuir a pressão arterial e aumentar a longevidade."
+  },
+  {
     "id": "dinheiro-1",
     "categoryId": "dinheiro",
     "title": "O Efeito dos Juros Compostos",
@@ -358,6 +386,41 @@
     "funFact": "Pesquisas em genética e nanotecnologia podem levar ao desenvolvimento de tratamentos para o envelhecimento."
   },
   {
+    "id": "futuro-11",
+    "categoryId": "futuro",
+    "title": "Cidades Inteligentes",
+    "content": "O futuro das cidades envolve a integração de tecnologias para otimizar recursos, melhorar a qualidade de vida e reduzir o impacto ambiental. Sistemas inteligentes irão gerenciar o tráfego, o consumo de energia e a coleta de lixo de forma mais eficiente.",
+    "funFact": "Algumas cidades já estão testando carros autônomos que se comunicam entre si para evitar congestionamentos."
+  },
+  {
+    "id": "futuro-12",
+    "categoryId": "futuro",
+    "title": "A Era da Biotecnologia",
+    "content": "Avanços na biotecnologia prometem revolucionar a medicina, a agricultura e a indústria. Terapias genéticas personalizadas, alimentos mais nutritivos e sustentáveis e materiais biodegradáveis são apenas algumas das possibilidades.",
+    "funFact": "A edição genética CRISPR-Cas9 pode corrigir defeitos genéticos que causam doenças."
+  },
+  {
+    "id": "futuro-13",
+    "categoryId": "futuro",
+    "title": "Exploração Espacial",
+    "content": "A exploração espacial se tornará mais acessível e focada na colonização de outros planetas e na busca por recursos. Missões tripuladas a Marte e a criação de bases lunares são metas próximas.",
+    "funFact": "Existem planos para minerar asteroides em busca de recursos valiosos como metais preciosos e água."
+  },
+  {
+    "id": "futuro-14",
+    "categoryId": "futuro",
+    "title": "Realidade Virtual e Aumentada",
+    "content": "A RV e RA irão transformar a maneira como interagimos com o mundo digital e físico, impactando áreas como entretenimento, educação, saúde e trabalho. Experiências imersivas e interativas estarão presentes em diversos aspectos da vida cotidiana.",
+    "funFact": "A realidade virtual já é usada para treinar cirurgiões e pilotos."
+  },
+  {
+    "id": "futuro-15",
+    "categoryId": "futuro",
+    "title": "Inteligência Artificial",
+    "content": "A IA desempenhará um papel cada vez mais importante em nossas vidas, automatizando tarefas, auxiliando na tomada de decisões e impulsionando a inovação em diversos setores. No entanto, questões éticas e de segurança precisarão ser cuidadosamente consideradas.",
+    "funFact": "A IA já é usada para diagnosticar doenças com precisão superior à de alguns médicos."
+  },
+  {
     "id": "tecnologia-1",
     "categoryId": "tecnologia",
     "title": "A Origem do 'Bug' de Computador",
@@ -426,6 +489,41 @@
     "title": "A Internet das Coisas (IoT)",
     "content": "A Internet das Coisas (IoT) conecta bilhões de dispositivos à internet, desde eletrodomésticos a carros, permitindo a coleta e troca de dados em tempo real.",
     "funFact": "Estima-se que em 2025, haverá mais de 75 bilhões de dispositivos conectados à internet."
+  },
+  {
+    "id": "tecnologia-11",
+    "categoryId": "tecnologia",
+    "title": "A Guerra Fria e a Internet",
+    "content": "A internet, como a conhecemos, teve suas origens na Guerra Fria. A necessidade de comunicação descentralizada e resistente a ataques levou ao desenvolvimento de ARPANET, precursora da internet moderna.",
+    "funFact": "ARPANET inicialmente conectava apenas quatro computadores."
+  },
+  {
+    "id": "tecnologia-12",
+    "categoryId": "tecnologia",
+    "title": "O Impacto da Tecnologia na Agricultura",
+    "content": "A tecnologia de precisão na agricultura, usando drones, sensores e inteligência artificial, otimiza o uso de recursos como água e fertilizantes, aumentando a produtividade e reduzindo o impacto ambiental.",
+    "funFact": "Sensores em solo podem monitorar em tempo real a umidade e a necessidade de irrigação."
+  },
+  {
+    "id": "tecnologia-13",
+    "categoryId": "tecnologia",
+    "title": "A Tecnologia Assistiva e a Inclusão",
+    "content": "A tecnologia assistiva desenvolve ferramentas e dispositivos que ajudam pessoas com deficiência a superar barreiras e participar mais plenamente da sociedade. Isso inclui softwares de leitura de tela, próteses inteligentes e muito mais.",
+    "funFact": "Impressoras 3D estão revolucionando a criação de próteses personalizadas e de baixo custo."
+  },
+  {
+    "id": "tecnologia-14",
+    "categoryId": "tecnologia",
+    "title": "A Energia Renovável e a Tecnologia",
+    "content": "A tecnologia desempenha um papel crucial na transição para energias renováveis, com avanços em painéis solares mais eficientes, turbinas eólicas mais potentes e sistemas de armazenamento de energia mais eficazes.",
+    "funFact": "A eficiência dos painéis solares aumentou significativamente nas últimas décadas."
+  },
+  {
+    "id": "tecnologia-15",
+    "categoryId": "tecnologia",
+    "title": "A Mineração de Dados e a Privacidade",
+    "content": "A mineração de dados, embora útil para empresas e pesquisas, levanta preocupações significativas sobre privacidade. O uso de algoritmos para analisar grandes conjuntos de dados pode revelar informações pessoais sensíveis.",
+    "funFact": "Regulamentações de privacidade de dados, como o GDPR, buscam proteger os indivíduos do uso indevido de seus dados."
   },
   {
     "id": "ciencia-1",
@@ -505,6 +603,34 @@
     "funFact": "Existem bilhões de galáxias, cada uma contendo bilhões de estrelas – as chances de existir vida em outro lugar são estatisticamente significativas."
   },
   {
+    "id": "ciencia-12",
+    "categoryId": "ciencia",
+    "title": "Ondas Gravitacionais",
+    "content": "Ondas gravitacionais são ondulações no tecido do espaço-tempo, previstas por Einstein em 1916 e detectadas pela primeira vez em 2015. Elas são causadas por eventos cósmicos massivos, como a colisão de buracos negros.",
+    "funFact": "A detecção de ondas gravitacionais abriu uma nova janela para observar o universo, permitindo-nos 'ouvir' eventos que não emitem luz."
+  },
+  {
+    "id": "ciencia-13",
+    "categoryId": "ciencia",
+    "title": "O Princípio da Incerteza de Heisenberg",
+    "content": "Na mecânica quântica, o Princípio da Incerteza afirma que é impossível saber simultaneamente com precisão absoluta a posição e o momento (velocidade) de uma partícula. Quanto mais precisamente você mede um, menos precisamente você conhece o outro.",
+    "funFact": "Este não é um limite da nossa tecnologia, mas uma propriedade fundamental da natureza no nível quântico."
+  },
+  {
+    "id": "ciencia-14",
+    "categoryId": "ciencia",
+    "title": "Extremófilos: A Vida em Condições Extremas",
+    "content": "Extremófilos são organismos que prosperam em ambientes extremos que seriam mortais para a maioria das formas de vida, como em fontes termais, águas super salgadas, ambientes ácidos ou até mesmo no gelo da Antártida.",
+    "funFact": "O estudo de extremófilos na Terra ajuda os cientistas na busca por vida em outros planetas com condições hostis, como Marte ou as luas de Júpiter."
+  },
+  {
+    "id": "ciencia-15",
+    "categoryId": "ciencia",
+    "title": "A Cor do Universo",
+    "content": "Se pudéssemos olhar para toda a luz do universo de uma só vez, qual cor veríamos? Astrônomos calcularam a cor média do universo e descobriram que é um tom bege, que eles apelidaram de 'Latte Cósmico'.",
+    "funFact": "No passado, o universo era mais azulado, pois havia mais estrelas jovens e azuis. À medida que as estrelas envelhecem e se tornam mais vermelhas, a cor média do universo muda."
+  },
+  {
     "id": "cultura-1",
     "categoryId": "cultura",
     "title": "A Origem do Cinema",
@@ -573,6 +699,41 @@
     "title": "A Cultura dos Memes na Internet",
     "content": "Memes na internet são uma forma de expressão cultural que evolui rapidamente e reflete o humor, as preocupações e os valores de uma geração conectada. Eles se espalham globalmente, adaptando-se a diferentes culturas.",
     "funFact": "A rápida disseminação e adaptação dos memes demonstram a fluidez e a interconexão da cultura digital contemporânea."
+  },
+  {
+    "id": "cultura-11",
+    "categoryId": "cultura",
+    "title": "A Tradição do Chá da Tarde Britânico",
+    "content": "O chá da tarde tornou-se uma tradição na Grã-Bretanha no século XIX. Foi introduzido por Anna, a sétima Duquesa de Bedford, como uma mini refeição para preencher a longa lacuna entre o almoço e o jantar.",
+    "funFact": "Um chá da tarde completo tradicionalmente inclui sanduíches, scones com creme e geleia, e uma seleção de bolos e doces."
+  },
+  {
+    "id": "cultura-12",
+    "categoryId": "cultura",
+    "title": "A Máscara do Doutor da Peste",
+    "content": "A icônica máscara em forma de bico usada pelos médicos durante a Peste Negra na Europa não era apenas para assustar. O bico era preenchido com ervas aromáticas e especiarias para filtrar o 'ar ruim' (miasma), que se acreditava ser a causa da doença.",
+    "funFact": "Embora a teoria do miasma estivesse errada, o traje de couro e a máscara podem ter oferecido alguma proteção contra as pulgas que transmitiam a bactéria."
+  },
+  {
+    "id": "cultura-13",
+    "categoryId": "cultura",
+    "title": "Origem da Ópera",
+    "content": "A ópera nasceu na Itália no final do século XVI, em Florença. Foi uma tentativa de um grupo de artistas e músicos de recriar o drama da Grécia Antiga, combinando música, teatro, poesia e cenografia.",
+    "funFact": "A primeira grande ópera que ainda é regularmente apresentada hoje é 'L'Orfeo' de Claudio Monteverdi, estreada em 1607."
+  },
+  {
+    "id": "cultura-14",
+    "categoryId": "cultura",
+    "title": "A Arte da Tatuagem Maori (Tā Moko)",
+    "content": "Para o povo Maori da Nova Zelândia, o Tā Moko é muito mais do que uma tatuagem; é uma forma de identidade. Cada desenho é único e conta a história da ascendência, status social e conquistas de uma pessoa.",
+    "funFact": "Tradicionalmente, o Tā Moko não era feito com agulhas, mas com cinzéis de osso (uhi) que esculpiam a pele, deixando sulcos em vez de uma superfície lisa."
+  },
+  {
+    "id": "cultura-15",
+    "categoryId": "cultura",
+    "title": "O Significado do aperto de Mão",
+    "content": "O aperto de mão tem origens na Grécia Antiga como um gesto de paz. Ao oferecer a mão direita, uma pessoa mostrava que não estava segurando uma arma e que suas intenções eram pacíficas.",
+    "funFact": "Em algumas culturas, a firmeza do aperto de mão é vista como um indicador de caráter e confiança."
   },
   {
     "id": "historia-1",
@@ -645,6 +806,41 @@
     "funFact": "A Grande Pirâmide de Gizé foi a estrutura mais alta do mundo por mais de 3.800 anos."
   },
   {
+    "id": "historia-11",
+    "categoryId": "historia",
+    "title": "O Primeiro Imperador de Roma não foi César",
+    "content": "Apesar de sua fama, Júlio César nunca foi oficialmente um imperador. Ele foi um ditador. O primeiro imperador de Roma foi seu sobrinho-neto, Otaviano, que recebeu o título de 'Augusto' do Senado em 27 a.C.",
+    "funFact": "O mês de agosto foi nomeado em homenagem a Augusto, assim como julho foi nomeado em homenagem a Júlio César."
+  },
+  {
+    "id": "historia-12",
+    "categoryId": "historia",
+    "title": "A Invenção da Imprensa",
+    "content": "A invenção da prensa de tipos móveis por Johannes Gutenberg por volta de 1440 na Europa revolucionou o mundo. Ela permitiu a produção em massa de livros, tornando o conhecimento amplamente acessível e impulsionando a Reforma, o Renascimento e a Revolução Científica.",
+    "funFact": "O primeiro livro impresso em grande escala com a nova tecnologia foi a Bíblia de Gutenberg."
+  },
+  {
+    "id": "historia-13",
+    "categoryId": "historia",
+    "title": "A Grande Emigração das Renas",
+    "content": "Em 1892, o governo dos EUA importou renas da Sibéria para o Alasca como uma fonte de alimento para os nativos Iñupiat, cuja principal fonte de alimento, as baleias, estava em declínio. A iniciativa foi liderada pelo missionário Sheldon Jackson.",
+    "funFact": "Pastores do povo Sámi da Noruega foram contratados para ensinar os Iñupiat a criar e pastorear as renas."
+  },
+  {
+    "id": "historia-14",
+    "categoryId": "historia",
+    "title": "Cleópatra não era Egípcia",
+    "content": "A famosa rainha Cleópatra VII era de ascendência grega macedônia, não egípcia. Ela foi a última governante da dinastia ptolomaica, uma família grega que governou o Egito após a morte de Alexandre, o Grande.",
+    "funFact": "Apesar de sua origem, Cleópatra foi a primeira de sua dinastia a aprender a falar a língua egípcia."
+  },
+  {
+    "id": "historia-15",
+    "categoryId": "historia",
+    "title": "A 'Corrida do Ouro' do Klondike",
+    "content": "A Corrida do Ouro do Klondike no final do século XIX viu mais de 100.000 garimpeiros migrarem para a remota região de Klondike, no Canadá. A maioria enfrentou dificuldades extremas, e apenas uma pequena fração realmente enriqueceu.",
+    "funFact": "A Polícia Montada do Noroeste exigia que cada garimpeiro levasse um ano de suprimentos (cerca de uma tonelada) para poder entrar no Canadá, a fim de evitar a fome em massa."
+  },
+  {
     "id": "misterios-1",
     "categoryId": "misterios",
     "title": "O Manuscrito Voynich",
@@ -713,6 +909,41 @@
     "title": "A Floresta de Pedra de Shilin",
     "content": "Na China, a Floresta de Pedra de Shilin é uma paisagem surreal de formações rochosas com formato de árvores. O processo geológico exato que criou este espetáculo natural ainda não é totalmente compreendido.",
     "funFact": "A Floresta de Pedra de Shilin é tão singular que foi designada Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "misterios-11",
+    "categoryId": "misterios",
+    "title": "O Mecanismo de Anticítera",
+    "content": "Descoberto em um naufrágio na Grécia, o Mecanismo de Anticítera é um antigo computador analógico. Com mais de 2.000 anos, era usado para prever posições astronômicas e eclipses com uma complexidade que só seria vista novamente mil anos depois.",
+    "funFact": "O dispositivo continha mais de 30 engrenagens de bronze e é considerado o computador mais antigo do mundo."
+  },
+  {
+    "id": "misterios-12",
+    "categoryId": "misterios",
+    "title": "O que aconteceu com a Colônia de Roanoke?",
+    "content": "Em 1590, um grupo de colonos ingleses na Ilha de Roanoke, na atual Carolina do Norte, desapareceu sem deixar rastros. A única pista foi a palavra 'CROATOAN' esculpida em um poste.",
+    "funFact": "Nenhuma evidência de luta ou batalha foi encontrada, e o destino dos mais de 100 colonos permanece um dos maiores mistérios da história americana."
+  },
+  {
+    "id": "misterios-13",
+    "categoryId": "misterios",
+    "title": "As Baterias de Bagdá",
+    "content": "Artefatos encontrados perto de Bagdá, datados de cerca de 250 a.C., parecem ser antigas baterias galvânicas. Consistem em potes de barro com um cilindro de cobre e uma haste de ferro. Quando preenchidos com um eletrólito como vinagre, poderiam gerar uma pequena corrente elétrica.",
+    "funFact": "Se forem de fato baterias, seu propósito é desconhecido. Teorias variam de galvanoplastia de ouro a rituais religiosos ou tratamentos médicos."
+  },
+  {
+    "id": "misterios-14",
+    "categoryId": "misterios",
+    "title": "O Zumbido de Taos",
+    "content": "Desde o início dos anos 90, alguns residentes e visitantes da cidade de Taos, no Novo México, relatam ouvir um zumbido persistente e de baixa frequência de origem desconhecida. O som, semelhante a um motor diesel distante, não é detectado por microfones comuns.",
+    "funFact": "Apesar de várias investigações, a fonte do 'Taos Hum' nunca foi identificada, e fenômenos semelhantes foram relatados em outras partes do mundo."
+  },
+  {
+    "id": "misterios-15",
+    "categoryId": "misterios",
+    "title": "O Incidente do Passo Dyatlov",
+    "content": "Em 1959, nove experientes caminhantes morreram misteriosamente nos Montes Urais, na Rússia. Suas tendas foram rasgadas por dentro, e os corpos foram encontrados a alguma distância, alguns com ferimentos internos graves, mas sem sinais de luta externa.",
+    "funFact": "As teorias para a causa variam de um ataque de pânico a testes militares secretos, infrassom ou até mesmo um encontro com um Yeti."
   },
   {
     "id": "entretenimento-1",
@@ -785,6 +1016,41 @@
     "funFact": "Algumas trilhas sonoras se tornaram álbuns de grande sucesso, vendendo milhões de cópias independente do filme."
   },
   {
+    "id": "entretenimento-11",
+    "categoryId": "entretenimento",
+    "title": "O Grito Wilhelm",
+    "content": "O 'Grito Wilhelm' é um efeito sonoro de um homem gritando que foi usado em mais de 400 filmes e séries de TV desde 1951. Tornou-se uma piada interna entre designers de som.",
+    "funFact": "O som foi usado pela primeira vez no filme 'Distant Drums' e ganhou fama após ser usado em Star Wars, Indiana Jones e muitos filmes da Pixar."
+  },
+  {
+    "id": "entretenimento-12",
+    "categoryId": "entretenimento",
+    "title": "O Primeiro Produto da Marvel Comics",
+    "content": "Antes de ser uma gigante dos quadrinhos, a empresa que se tornaria a Marvel Comics, chamada Timely Comics, publicou sua primeira revista em 1939. Apresentava personagens como o Tocha Humana original e Namor, o Príncipe Submarino.",
+    "funFact": "O Capitão América, um dos seus personagens mais famosos, só foi criado em 1941, como uma resposta patriótica à Segunda Guerra Mundial."
+  },
+  {
+    "id": "entretenimento-13",
+    "categoryId": "entretenimento",
+    "title": "A Origem do Pac-Man",
+    "content": "O criador do Pac-Man, Toru Iwatani, disse que a inspiração para a forma do personagem veio de uma pizza com uma fatia faltando. Ele queria criar um jogo que também atraísse o público feminino, em contraste com os jogos de tiro da época.",
+    "funFact": "O nome original do jogo no Japão era 'Puck-Man'. Foi alterado para 'Pac-Man' nos EUA por medo de que vândalos pudessem alterar a letra 'P' para um 'F' nas máquinas de fliperama."
+  },
+  {
+    "id": "entretenimento-14",
+    "categoryId": "entretenimento",
+    "title": "O Verdadeiro Final de 'Blade Runner'",
+    "content": "O filme 'Blade Runner' de 1982 teve sete versões diferentes. O final original lançado nos cinemas, que era mais otimista e usava cenas aéreas cortadas de 'O Iluminado', não era a visão do diretor Ridley Scott. A versão 'Final Cut' de 2007 é a que melhor representa sua intenção original.",
+    "funFact": "O debate se o personagem de Harrison Ford, Deckard, é ou não um replicante continua até hoje, com o diretor e o ator tendo opiniões opostas."
+  },
+  {
+    "id": "entretenimento-15",
+    "categoryId": "entretenimento",
+    "title": "Shakespeare Inventou Palavras",
+    "content": "William Shakespeare é creditado por introduzir quase 3.000 palavras na língua inglesa. Ele o fez combinando palavras, transformando substantivos em verbos, ou simplesmente inventando-as. Palavras como 'eyeball' (globo ocular), 'swagger' (ginga) e 'lonely' (solitário) apareceram pela primeira vez em suas peças.",
+    "funFact": "A frase 'quebrar o gelo' (break the ice) foi usada pela primeira vez em sua peça 'A Megera Domada'."
+  },
+  {
     "id": "relacionamentos-1",
     "categoryId": "relacionamentos",
     "title": "As 5 Linguagens do Amor",
@@ -853,6 +1119,41 @@
     "title": "A Evolução da Atração",
     "content": "A atração em um relacionamento evolui com o tempo. A atração inicial, muitas vezes física, transforma-se em um apego profundo baseado em confiança, respeito e cumplicidade.",
     "funFact": "A atração a longo prazo é mais fortemente influenciada pela compatibilidade emocional e intelectual do que pela aparência física."
+  },
+  {
+    "id": "relacionamentos-11",
+    "categoryId": "relacionamentos",
+    "title": "O 'Triângulo do Amor' de Sternberg",
+    "content": "O psicólogo Robert Sternberg teorizou que o amor completo é uma combinação de três componentes: Intimidade (proximidade), Paixão (atração física) e Compromisso (decisão de amar e permanecer junto).",
+    "funFact": "Diferentes combinações criam diferentes tipos de amor. Por exemplo, Intimidade + Paixão sem Compromisso é o 'Amor Romântico'."
+  },
+  {
+    "id": "relacionamentos-12",
+    "categoryId": "relacionamentos",
+    "title": "O Efeito Benjamin Franklin",
+    "content": "Quando você faz um favor a alguém de quem não gosta muito, você tende a passar a gostar mais dessa pessoa. Sua mente justifica o ato de gentileza pensando: 'Eu não faria um favor para alguém de quem não gosto, então devo gostar dele(a)'.",
+    "funFact": "O efeito leva o nome de Benjamin Franklin, que usou essa tática para conquistar um rival político, pedindo-lhe um livro emprestado."
+  },
+  {
+    "id": "relacionamentos-13",
+    "categoryId": "relacionamentos",
+    "title": "Vulnerabilidade Gera Conexão",
+    "content": "Compartilhar seus medos, inseguranças e imperfeições (ser vulnerável) com alguém pode parecer assustador, mas é uma das maneiras mais rápidas de construir confiança e intimidade profunda em um relacionamento.",
+    "funFact": "A pesquisadora Brené Brown popularizou a ideia de que a vulnerabilidade não é fraqueza, mas sim 'a medida mais precisa da coragem'."
+  },
+  {
+    "id": "relacionamentos-14",
+    "categoryId": "relacionamentos",
+    "title": "A Importância de Comemorar o Sucesso do Outro",
+    "content": "A forma como um casal reage às boas notícias um do outro é um forte indicador da saúde do relacionamento. Comemorar ativamente o sucesso do parceiro ('Resposta Ativa e Construtiva') fortalece os laços mais do que apenas consolar nos momentos ruins.",
+    "funFact": "Casais com as maiores taxas de felicidade e menor risco de separação são aqueles que celebram com entusiasmo as conquistas um do outro."
+  },
+  {
+    "id": "relacionamentos-15",
+    "categoryId": "relacionamentos",
+    "title": "O Número de Dunbar",
+    "content": "O antropólogo Robin Dunbar propôs que os humanos só conseguem manter confortavelmente cerca de 150 relações sociais estáveis. Esse número inclui amigos, familiares e conhecidos.",
+    "funFact": "Dentro desse número, temos círculos menores: cerca de 5 amigos íntimos, 15 bons amigos e 50 amigos mais casuais."
   },
   {
     "id": "psicologia-1",
@@ -925,6 +1226,41 @@
     "funFact": "Terapia cognitivo-comportamental (TCC) se concentra em identificar e modificar esses pensamentos automáticos negativos."
   },
   {
+    "id": "psicologia-11",
+    "categoryId": "psicologia",
+    "title": "Ancoragem Cognitiva",
+    "content": "A ancoragem é um viés cognitivo onde dependemos demais da primeira informação oferecida (a 'âncora') ao tomar decisões. As decisões subsequentes são ajustadas com base nessa âncora, mesmo que ela seja irrelevante.",
+    "funFact": "Vendedores frequentemente usam a ancoragem mostrando primeiro um item muito caro para fazer com que os outros itens pareçam mais baratos em comparação."
+  },
+  {
+    "id": "psicologia-12",
+    "categoryId": "psicologia",
+    "title": "O Efeito Halo",
+    "content": "O efeito halo ocorre quando nossa impressão geral de uma pessoa influencia como nos sentimos e pensamos sobre seu caráter. Por exemplo, se achamos alguém fisicamente atraente, tendemos a acreditar que essa pessoa também é inteligente e gentil.",
+    "funFact": "Este efeito é amplamente explorado no marketing e na política, onde a imagem positiva de uma celebridade ou candidato é usada para promover um produto ou ideia."
+  },
+  {
+    "id": "psicologia-13",
+    "categoryId": "psicologia",
+    "title": "Dissonância Cognitiva",
+    "content": "É o desconforto mental que sentimos ao ter duas ou mais crenças contraditórias, ou quando nossas ações contradizem nossas crenças. Para reduzir esse desconforto, tendemos a mudar nossas crenças ou justificar nossas ações.",
+    "funFact": "Um exemplo clássico é um fumante que sabe que fumar faz mal. Ele pode justificar seu comportamento dizendo 'viver pouco e feliz é melhor' para reduzir a dissonância."
+  },
+  {
+    "id": "psicologia-14",
+    "categoryId": "psicologia",
+    "title": "A Ilusão de Frequência (Fenômeno Baader-Meinhof)",
+    "content": "Depois de notar algo pela primeira vez, você tende a notá-lo com mais frequência, levando à crença de que aquilo está aparecendo mais. Na verdade, seu cérebro está apenas mais sintonizado para perceber essa informação.",
+    "funFact": "Isso acontece quando você aprende uma palavra nova ou compra um carro novo e de repente começa a ver essa palavra ou modelo de carro em todos os lugares."
+  },
+  {
+    "id": "psicologia-15",
+    "categoryId": "psicologia",
+    "title": "O Efeito Spotlight (Holofote)",
+    "content": "É a nossa tendência de superestimar o quanto as outras pessoas notam nossa aparência ou comportamento. A maioria das pessoas está muito ocupada com suas próprias vidas para prestar tanta atenção em nós quanto imaginamos.",
+    "funFact": "Em um estudo, estudantes que usaram uma camiseta embaraçosa estimaram que 50% das pessoas notaram, quando na verdade menos de 25% o fizeram."
+  },
+  {
     "id": "autoajuda-1",
     "categoryId": "autoajuda",
     "title": "O Poder do Hábito",
@@ -993,6 +1329,41 @@
     "title": "O Papel da Procrastinação na Auto-Sabotagem",
     "content": "Procrastinar não é apenas sobre preguiça; frequentemente, é um mecanismo de defesa contra a ansiedade e o medo do fracasso. Identificar e entender as raízes da procrastinação é fundamental para superá-la e construir uma relação mais saudável com as próprias metas.",
     "funFact": "A procrastinação pode ser um sintoma de condições como transtorno de ansiedade e depressão."
+  },
+  {
+    "id": "autoajuda-11",
+    "categoryId": "autoajuda",
+    "title": "Mindset de Crescimento vs. Fixo",
+    "content": "Desenvolvido pela psicóloga Carol Dweck, o conceito de 'mindset' (mentalidade) é crucial. Um mindset fixo acredita que habilidades são inatas ('não sou bom nisso'), enquanto um mindset de crescimento acredita que habilidades podem ser desenvolvidas com esforço ('posso aprender a fazer isso').",
+    "funFact": "Adotar um mindset de crescimento está diretamente ligado a maior sucesso acadêmico, profissional e pessoal."
+  },
+  {
+    "id": "autoajuda-12",
+    "categoryId": "autoajuda",
+    "title": "A Técnica Feynman para Aprender",
+    "content": "Para aprender qualquer coisa de forma profunda, tente explicar o conceito em termos simples, como se estivesse ensinando a uma criança. Se você travar ou usar jargões complexos, é sinal de que você ainda não entendeu completamente o assunto.",
+    "funFact": "A técnica leva o nome do físico Richard Feynman, vencedor do Prêmio Nobel e famoso por sua habilidade de explicar ideias complexas de forma simples."
+  },
+  {
+    "id": "autoajuda-13",
+    "categoryId": "autoajuda",
+    "title": "O Círculo de Controle",
+    "content": "Concentre sua energia nas coisas que você pode controlar (suas ações, suas reações, suas escolhas) e aceite aquelas que não pode (o clima, as ações dos outros). Isso reduz a ansiedade e aumenta a sensação de poder pessoal.",
+    "funFact": "Este conceito é uma pedra angular da filosofia estoica, praticada por figuras como o imperador romano Marco Aurélio."
+  },
+  {
+    "id": "autoajuda-14",
+    "categoryId": "autoajuda",
+    "title": "O Poder de Dizer 'Não'",
+    "content": "Aprender a dizer 'não' de forma educada, mas firme, é essencial para proteger seu tempo, energia e saúde mental. Dizer 'sim' para tudo leva ao esgotamento e ao ressentimento.",
+    "funFact": "Cada vez que você diz 'não' para algo que não é importante para você, está dizendo 'sim' para algo que é."
+  },
+  {
+    "id": "autoajuda-15",
+    "categoryId": "autoajuda",
+    "title": "Kaizen: A Melhoria Contínua",
+    "content": "Kaizen é uma filosofia japonesa que se concentra em fazer pequenas melhorias incrementais todos os dias. Em vez de tentar fazer uma mudança radical de uma só vez, foque em melhorar 1% a cada dia. Ao longo do tempo, o efeito composto é enorme.",
+    "funFact": "O conceito de Kaizen foi fundamental para o sucesso de empresas japonesas como a Toyota no cenário global."
   },
   {
     "id": "viagens-1",
@@ -1065,6 +1436,41 @@
     "funFact": "O turismo sustentável contribui para a preservação de ecossistemas e para a geração de renda em comunidades locais."
   },
   {
+    "id": "viagens-11",
+    "categoryId": "viagens",
+    "title": "O País com Mais Fusos Horários",
+    "content": "A França é o país que abrange o maior número de fusos horários do mundo (12 no total). Isso se deve aos seus diversos territórios ultramarinos espalhados pelo globo, como a Polinésia Francesa e a Ilha da Reunião.",
+    "funFact": "A Rússia, apesar de sua vasta extensão territorial contínua, possui 11 fusos horários."
+  },
+  {
+    "id": "viagens-12",
+    "categoryId": "viagens",
+    "title": "A Origem do Duty-Free",
+    "content": "A primeira loja duty-free do mundo foi aberta no aeroporto de Shannon, na Irlanda, em 1947. A ideia era vender produtos a viajantes internacionais sem os impostos locais, aproveitando o fato de que eles estavam em 'trânsito' entre países.",
+    "funFact": "O café irlandês (Irish coffee) também foi inventado no aeroporto de Shannon para aquecer os passageiros que chegavam de voos transatlânticos."
+  },
+  {
+    "id": "viagens-13",
+    "categoryId": "viagens",
+    "title": "O Ponto Nemo: O Lugar Mais Remoto da Terra",
+    "content": "O 'Polo Oceânico de Inacessibilidade', ou Ponto Nemo, é o local no oceano mais distante de qualquer porção de terra. Está localizado no sul do Oceano Pacífico, a mais de 2.688 quilômetros da terra mais próxima.",
+    "funFact": "Os humanos mais próximos do Ponto Nemo são frequentemente os astronautas a bordo da Estação Espacial Internacional, que orbita a Terra a cerca de 400 km de altitude."
+  },
+  {
+    "id": "viagens-14",
+    "categoryId": "viagens",
+    "title": "A Estrada Mais Perigosa do Mundo",
+    "content": "A Estrada Yungas, na Bolívia, é conhecida como a 'Estrada da Morte'. Esta estrada estreita e sem guard-rails desce de uma altura de 4.650 metros até 1.200 metros, com precipícios vertiginosos ao lado. Hoje, é principalmente uma atração para ciclistas de montanha.",
+    "funFact": "Antes da construção de uma rota alternativa e mais segura, estima-se que entre 200 e 300 viajantes morriam na estrada todos os anos."
+  },
+  {
+    "id": "viagens-15",
+    "categoryId": "viagens",
+    "title": "O Reino de Butão e a Felicidade Interna Bruta",
+    "content": "O Butão, um pequeno reino no Himalaia, mede o progresso do país não pelo Produto Interno Bruto (PIB), mas pela 'Felicidade Interna Bruta' (FIB). A política do país prioriza o bem-estar dos cidadãos, a preservação da cultura e a sustentabilidade ambiental.",
+    "funFact": "O Butão é um país com pegada de carbono negativa, o que significa que suas florestas absorvem mais CO2 do que o país emite."
+  },
+  {
     "id": "lugares-1",
     "categoryId": "lugares",
     "title": "A Cidade Submersa de Shicheng",
@@ -1098,6 +1504,76 @@
     "title": "A Praia de Areia Rosa das Bahamas",
     "content": "Na Harbour Island, nas Bahamas, existe uma praia famosa por sua areia de cor rosa pálido. A cor vem de minúsculos organismos marinhos com conchas vermelhas chamados foraminíferos, que são misturados com a areia branca e pedaços de coral pela maré.",
     "funFact": "A praia se estende por quase 5 quilômetros e é considerada uma das praias mais bonitas do mundo."
+  },
+  {
+    "id": "lugares-6",
+    "categoryId": "lugares",
+    "title": "O Lago Manchado de Spotted Lake",
+    "content": "No Canadá, o Spotted Lake é famoso por suas centenas de poças coloridas que aparecem no verão. Cada 'mancha' tem uma cor diferente (amarelo, verde, azul) devido à alta concentração de vários minerais.",
+    "funFact": "O lago é um local sagrado para os povos indígenas da nação Okanagan Syilx, que usavam seus minerais para fins terapêuticos."
+  },
+  {
+    "id": "lugares-7",
+    "categoryId": "lugares",
+    "title": "A Ilha de Socotra, o 'Lugar Mais Alienígena da Terra'",
+    "content": "Socotra é uma ilha no Iêmen tão isolada que um terço de sua vida vegetal não é encontrada em nenhum outro lugar do planeta. Sua paisagem é dominada pelas bizarras árvores 'Sangue de Dragão', que se parecem com discos voadores.",
+    "funFact": "A resina vermelha da árvore Sangue de Dragão era usada na antiguidade como verniz e remédio."
+  },
+  {
+    "id": "lugares-8",
+    "categoryId": "lugares",
+    "title": "Salar de Uyuni: O Maior Espelho do Mundo",
+    "content": "O Salar de Uyuni, na Bolívia, é a maior planície de sal do mundo. Após a chuva, uma fina camada de água transforma a vasta planície em um espelho gigante, criando um efeito visual surreal onde o céu e a terra se fundem.",
+    "funFact": "A crosta de sal, que tem vários metros de espessura no centro, contém a maior reserva de lítio do mundo."
+  },
+  {
+    "id": "lugares-9",
+    "categoryId": "lugares",
+    "title": "A Calçada dos Gigantes",
+    "content": "Na Irlanda do Norte, a Calçada dos Gigantes é uma área com cerca de 40.000 colunas de basalto interligadas. A maioria das colunas é hexagonal e elas se formaram a partir de uma erupção vulcânica antiga.",
+    "funFact": "A lenda local diz que as colunas foram construídas por um gigante irlandês, Finn MacCool, para que ele pudesse caminhar até a Escócia para lutar contra um gigante rival."
+  },
+  {
+    "id": "lugares-10",
+    "categoryId": "lugares",
+    "title": "As Montanhas Arco-Íris da China",
+    "content": "As montanhas do Parque Geológico Zhangye Danxia, na China, são conhecidas por suas cores vibrantes que se assemelham a um arco-íris. As cores são o resultado de depósitos de arenito e outros minerais que ocorreram ao longo de 24 milhões de anos.",
+    "funFact": "A melhor hora para ver as cores é ao nascer ou ao pôr do sol, quando a luz realça os tons vibrantes das montanhas."
+  },
+  {
+    "id": "lugares-11",
+    "categoryId": "lugares",
+    "title": "A Gruta de Fingal na Escócia",
+    "content": "A Gruta de Fingal é uma caverna marinha na ilha desabitada de Staffa, na Escócia. É formada inteiramente por colunas de basalto hexagonais, semelhantes à Calçada dos Gigantes. Sua acústica natural e os sons misteriosos das ondas ecoando dentro dela inspiraram o compositor Felix Mendelssohn.",
+    "funFact": "O nome gaélico da caverna, Uamh-Binn, significa 'caverna da melodia'."
+  },
+  {
+    "id": "lugares-12",
+    "categoryId": "lugares",
+    "title": "O Grande Buraco Azul em Belize",
+    "content": "O Grande Buraco Azul é um gigantesco sumidouro marinho na costa de Belize. Com mais de 300 metros de diâmetro e 124 metros de profundidade, é um dos melhores locais de mergulho do mundo. Formou-se como uma caverna de calcário durante a última era glacial.",
+    "funFact": "Dentro do buraco, os mergulhadores podem encontrar estalactites gigantes, que só se formam em cavernas secas, provando que o nível do mar era muito mais baixo no passado."
+  },
+  {
+    "id": "lugares-13",
+    "categoryId": "lugares",
+    "title": "A Cidade-Fantasma de Pripyat",
+    "content": "Pripyat, na Ucrânia, era uma cidade próspera com cerca de 50.000 habitantes antes de ser evacuada às pressas em 1986, após o desastre nuclear de Chernobyl. Hoje, é uma cidade-fantasma congelada no tempo, um testemunho sombrio da era soviética.",
+    "funFact": "A icônica roda-gigante no parque de diversões de Pripyat nunca foi usada oficialmente, pois deveria ser inaugurada em 1º de maio de 1986, poucos dias após o desastre."
+  },
+  {
+    "id": "lugares-14",
+    "categoryId": "lugares",
+    "title": "A 'Biblioteca do Diabo' na República Tcheca",
+    "content": "O Klementinum, em Praga, abriga uma das bibliotecas mais bonitas do mundo, a Biblioteca Barroca. É um exemplo impressionante da arquitetura barroca, com afrescos no teto e globos históricos raros. Devido à sua aparência opulenta e misteriosa, ganhou apelidos sombrios.",
+    "funFact": "A biblioteca contém mais de 20.000 livros, muitos dos quais são raros e datam do século XVII."
+  },
+  {
+    "id": "lugares-15",
+    "categoryId": "lugares",
+    "title": "A Ilha Proibida de Niʻihau",
+    "content": "Niʻihau, no Havaí, é conhecida como a 'Ilha Proibida'. É uma ilha privada desde 1864 e o acesso é restrito a não-residentes. Seus habitantes mantêm um estilo de vida tradicional, e o havaiano é a língua principal.",
+    "funFact": "A única maneira de um turista visitar a ilha é através de um passeio de helicóptero ou de caça, que não permite muita interação com os moradores."
   },
   {
     "id": "habilidades-1",
@@ -1135,6 +1611,76 @@
     "funFact": "A velocidade média de leitura de um adulto é de cerca de 200-250 palavras por minuto, mas praticantes de leitura dinâmica podem ultrapassar 1000 palavras por minuto."
   },
   {
+    "id": "habilidades-6",
+    "categoryId": "habilidades",
+    "title": "Aprender um Novo Idioma",
+    "content": "Ser bilíngue ou multilíngue pode melhorar a função cognitiva, incluindo a memória, a atenção e a capacidade de resolver problemas. Também pode retardar o aparecimento de doenças neurodegenerativas como o Alzheimer.",
+    "funFact": "Aprender um novo idioma pode literalmente mudar a estrutura do seu cérebro, aumentando a densidade da massa cinzenta em certas áreas."
+  },
+  {
+    "id": "habilidades-7",
+    "categoryId": "habilidades",
+    "title": "Escrita Persuasiva (Copywriting)",
+    "content": "Copywriting é a habilidade de escrever textos que convencem as pessoas a tomar uma ação, seja comprar um produto, clicar em um link ou se inscrever em uma lista. É uma habilidade fundamental no marketing e nos negócios.",
+    "funFact": "Alguns dos redatores mais bem-sucedidos da história ganharam milhões de dólares escrevendo cartas de vendas e anúncios."
+  },
+  {
+    "id": "habilidades-8",
+    "categoryId": "habilidades",
+    "title": "Negociação",
+    "content": "Saber negociar é uma habilidade valiosa em quase todos os aspectos da vida, desde negociar seu salário até decidir onde jantar com os amigos. Envolve comunicação, empatia e pensamento estratégico.",
+    "funFact": "Um dos princípios da negociação de Harvard é 'separar as pessoas do problema', focando nos interesses mútuos em vez de posições rígidas."
+  },
+  {
+    "id": "habilidades-9",
+    "categoryId": "habilidades",
+    "title": "Pensamento Crítico",
+    "content": "Pensamento crítico é a análise objetiva e a avaliação de uma questão para formar um julgamento. É a habilidade de pensar de forma clara e racional, entendendo a conexão lógica entre as ideias.",
+    "funFact": "O método socrático, desenvolvido pelo filósofo grego Sócrates, é uma forma de pensamento crítico que usa uma série de perguntas para estimular o pensamento e expor contradições."
+  },
+  {
+    "id": "habilidades-10",
+    "categoryId": "habilidades",
+    "title": "Gestão do Tempo",
+    "content": "Gerenciar o tempo de forma eficaz é crucial para a produtividade e para reduzir o estresse. Técnicas como a Matriz de Eisenhower (urgente/importante) e o método Pomodoro ajudam a priorizar tarefas e manter o foco.",
+    "funFact": "A 'Lei de Parkinson' postula que 'o trabalho se expande para preencher o tempo disponível para sua conclusão'. Isso destaca a importância de definir prazos."
+  },
+  {
+    "id": "habilidades-11",
+    "categoryId": "habilidades",
+    "title": "Meditação e Mindfulness",
+    "content": "Aprender a meditar e praticar mindfulness (atenção plena) é uma habilidade para treinar a mente a se concentrar no presente. Reduz o estresse, melhora o foco e aumenta a autoconsciência.",
+    "funFact": "Estudos de neuroimagem mostram que a meditação regular pode realmente engrossar o córtex pré-frontal, a área do cérebro associada à tomada de decisões e à atenção."
+  },
+  {
+    "id": "habilidades-12",
+    "categoryId": "habilidades",
+    "title": "Cozinha Básica",
+    "content": "Saber cozinhar algumas refeições básicas é uma habilidade fundamental para a independência, a saúde e a economia. Permite controlar os ingredientes da sua comida e evitar o excesso de alimentos processados.",
+    "funFact": "Aprender a dominar técnicas básicas como refogar, assar e cozinhar pode abrir a porta para a criação de inúmeros pratos diferentes."
+  },
+  {
+    "id": "habilidades-13",
+    "categoryId": "habilidades",
+    "title": "Primeiros Socorros",
+    "content": "Ter conhecimentos básicos de primeiros socorros, como a Manobra de Heimlich ou como fazer RCP (ressuscitação cardiopulmonar), pode literalmente salvar a vida de alguém em uma emergência.",
+    "funFact": "Muitas organizações, como a Cruz Vermelha, oferecem cursos de primeiros socorros acessíveis para o público em geral."
+  },
+  {
+    "id": "habilidades-14",
+    "categoryId": "habilidades",
+    "title": "Storytelling (Contar Histórias)",
+    "content": "Contar uma boa história é uma das formas mais poderosas de comunicação humana. Uma boa narrativa pode cativar uma audiência, simplificar informações complexas e inspirar ação. É uma habilidade valiosa para líderes, professores e profissionais de marketing.",
+    "funFact": "Nossos cérebros são programados para responder a histórias. Ouvir uma narrativa envolvente pode liberar ocitocina, o que aumenta os sentimentos de empatia e conexão."
+  },
+  {
+    "id": "habilidades-15",
+    "categoryId": "habilidades",
+    "title": "Datilografia (Digitação por Toque)",
+    "content": "Aprender a digitar sem olhar para o teclado (digitação por toque) pode aumentar drasticamente sua velocidade e eficiência ao trabalhar em um computador. É uma habilidade que economiza inúmeras horas ao longo da vida.",
+    "funFact": "O layout de teclado QWERTY, o mais comum hoje, foi projetado em 1873 para máquinas de escrever, com o objetivo de diminuir a velocidade dos datilógrafos para evitar que as teclas emperrassem."
+  },
+  {
     "id": "hacks-1",
     "categoryId": "hacks",
     "title": "Descascar Alho Facilmente",
@@ -1168,6 +1714,76 @@
     "title": "Gelar Bebidas Rapidamente",
     "content": "Para gelar uma lata ou garrafa de bebida em poucos minutos, enrole-a em um papel toalha molhado e coloque-a no freezer. A evaporação da água no papel toalha acelera drasticamente o processo de resfriamento.",
     "funFact": "Adicionar sal e um pouco de água em um balde de gelo também acelera o resfriamento, pois o sal diminui o ponto de congelamento da água."
+  },
+  {
+    "id": "hacks-6",
+    "categoryId": "hacks",
+    "title": "Remover Etiquetas Adesivas sem Deixar Resíduos",
+    "content": "Aqueça a etiqueta com um secador de cabelo por alguns segundos. O calor amolecerá a cola, permitindo que a etiqueta seja removida facilmente e sem deixar para trás aquele resíduo pegajoso.",
+    "funFact": "Para resíduos de cola persistentes, um pouco de óleo de cozinha ou álcool isopropílico geralmente resolve o problema."
+  },
+  {
+    "id": "hacks-7",
+    "categoryId": "hacks",
+    "title": "Encontrar Pequenos Objetos Caídos",
+    "content": "Se você derrubar um objeto pequeno como um brinco ou um parafuso no chão, coloque uma meia-calça sobre o bocal do aspirador de pó e prenda com um elástico. Passe o aspirador na área e o objeto ficará preso na meia, sem ser sugado.",
+    "funFact": "Este método é muito mais eficiente do que procurar de joelhos com uma lanterna."
+  },
+  {
+    "id": "hacks-8",
+    "categoryId": "hacks",
+    "title": "Evitar que Óculos de Natação Embacem",
+    "content": "Esfregue uma pequena gota de shampoo de bebê ou pasta de dente no interior das lentes dos seus óculos de natação e enxágue levemente. Isso cria uma película protetora que impede a formação de condensação.",
+    "funFact": "Mergulhadores profissionais às vezes usam saliva para o mesmo propósito, mas o shampoo de bebê cheira melhor!"
+  },
+  {
+    "id": "hacks-9",
+    "categoryId": "hacks",
+    "title": "Amplificador de Som de Celular Improvisado",
+    "content": "Coloque seu celular dentro de uma tigela de cerâmica ou de um copo de vidro para amplificar o som. A forma côncava do recipiente ajuda a direcionar e aumentar as ondas sonoras.",
+    "funFact": "Este truque funciona com o mesmo princípio acústico de uma concha ou de um anfiteatro."
+  },
+  {
+    "id": "hacks-10",
+    "categoryId": "hacks",
+    "title": "Manter Bananas Frescas por Mais Tempo",
+    "content": "Enrole a coroa (a parte onde as bananas se juntam) com filme plástico. Isso retarda a liberação de gás etileno, o que faz com que as bananas amadureçam mais devagar.",
+    "funFact": "Para um efeito ainda melhor, separe as bananas e enrole a coroa de cada uma individualmente."
+  },
+  {
+    "id": "hacks-11",
+    "categoryId": "hacks",
+    "title": "Abrir um Pote Emperrado",
+    "content": "Use uma luva de borracha para obter uma melhor aderência na tampa do pote. Se ainda assim não abrir, bata firmemente com a lateral de uma colher em vários pontos ao redor da borda da tampa para quebrar o vácuo.",
+    "funFact": "Passar a tampa sob água quente também funciona, pois o calor faz o metal da tampa expandir ligeiramente."
+  },
+  {
+    "id": "hacks-12",
+    "categoryId": "hacks",
+    "title": "Evitar que o Zíper da Calça Abra Sozinho",
+    "content": "Passe um chaveiro de anel através do buraco no puxador do zíper. Depois de fechar o zíper, enganche o anel no botão da calça antes de abotoá-la. O zíper ficará travado no lugar.",
+    "funFact": "Este é um truque clássico para salvar calças jeans favoritas cujo zíper já não é mais confiável."
+  },
+  {
+    "id": "hacks-13",
+    "categoryId": "hacks",
+    "title": "Fazer Gelo Transparente em Casa",
+    "content": "Para obter cubos de gelo cristalinos como os de bar, ferva a água duas vezes antes de congelá-la. Ferver a água remove o ar e as impurezas dissolvidas, que são a causa do gelo ficar turvo.",
+    "funFact": "Deixe a água esfriar após cada fervura antes de colocá-la na forma de gelo."
+  },
+  {
+    "id": "hacks-14",
+    "categoryId": "hacks",
+    "title": "Usar um Desentupidor de Pia Corretamente",
+    "content": "Para aumentar a eficácia de um desentupidor, cubra o ralo do 'ladrão' (o buraco de transbordamento perto da parte superior da pia) com um pano molhado. Isso cria um vácuo muito mais forte quando você bombeia o desentupidor.",
+    "funFact": "Existem desentupidores diferentes para pias e para vasos sanitários; os de vaso sanitário têm uma aba extra para melhor vedação."
+  },
+  {
+    "id": "hacks-15",
+    "categoryId": "hacks",
+    "title": "Testar a Qualidade das Pilhas",
+    "content": "Deixe uma pilha alcalina (AA, AAA, etc.) cair de uma pequena altura (cerca de 15 cm) em uma superfície plana. Se ela quicar uma vez e cair, está boa. Se ela quicar várias vezes, provavelmente está gasta ou vazia.",
+    "funFact": "Isso acontece porque, à medida que a pilha se esgota, a química interna muda, criando mais gás e tornando-a mais 'saltitante'."
   },
   {
     "id": "natureza-e-animais-1",
@@ -1205,6 +1821,76 @@
     "funFact": "Árvores mais velhas, conhecidas como 'árvores-mãe', usam essa rede para nutrir as mudas mais jovens que crescem à sua sombra."
   },
   {
+    "id": "natureza-e-animais-6",
+    "categoryId": "natureza-e-animais",
+    "title": "O Vombate e suas Fezes em Cubo",
+    "content": "O vombate, um marsupial australiano, é o único animal conhecido que produz fezes em formato de cubo. Eles usam esses cubos para marcar seu território, e a forma impede que rolem para longe.",
+    "funFact": "A elasticidade variável das paredes intestinais do vombate é o que molda as fezes em cubos."
+  },
+  {
+    "id": "natureza-e-animais-7",
+    "categoryId": "natureza-e-animais",
+    "title": "O Camarão-Pistola",
+    "content": "O camarão-pistola tem uma garra que pode ser fechada com tanta rapidez que cria uma bolha de cavitação. Quando a bolha colapsa, ela produz um estalo sonoro que pode atingir 210 decibéis e uma temperatura de 4.700 °C, atordoando ou matando sua presa.",
+    "funFact": "O flash de luz gerado pelo colapso da bolha é chamado de sonoluminescência."
+  },
+  {
+    "id": "natureza-e-animais-8",
+    "categoryId": "natureza-e-animais",
+    "title": "A Língua do Pica-pau",
+    "content": "A língua de um pica-pau é tão longa que se enrola ao redor de seu crânio para protegê-lo do impacto de suas bicadas. A língua e o osso hióide que a suporta funcionam como um cinto de segurança para o cérebro.",
+    "funFact": "A ponta da língua do pica-pau é farpada e pegajosa para ajudá-lo a extrair insetos de dentro da madeira."
+  },
+  {
+    "id": "natureza-e-animais-9",
+    "categoryId": "natureza-e-animais",
+    "title": "A Migração da Borboleta-Monarca",
+    "content": "Todos os anos, as borboletas-monarca viajam até 4.800 quilômetros do Canadá e dos EUA até o México para hibernar. O mais incrível é que a geração que faz a viagem de volta na primavera nunca esteve no destino antes.",
+    "funFact": "Nenhuma borboleta individual completa a viagem de ida e volta. São necessárias de 3 a 4 gerações para completar o ciclo migratório anual."
+  },
+  {
+    "id": "natureza-e-animais-10",
+    "categoryId": "natureza-e-animais",
+    "title": "O Ornitorrinco: Uma Mistura de Animais",
+    "content": "O ornitorrinco é uma das criaturas mais estranhas do mundo. É um mamífero que põe ovos, tem um bico de pato, cauda de castor e patas de lontra. Os machos também têm esporões venenosos nos tornozelos.",
+    "funFact": "Quando o primeiro espécime de ornitorrinco foi enviado para a Grã-Bretanha no século XVIII, os cientistas pensaram que era uma farsa, um animal costurado por um taxidermista."
+  },
+  {
+    "id": "natureza-e-animais-11",
+    "categoryId": "natureza-e-animais",
+    "title": "A Memória dos Elefantes",
+    "content": "A frase 'uma memória de elefante' é cientificamente precisa. Os elefantes têm cérebros grandes e complexos e demonstram uma memória notável, especialmente para locais de água e para reconhecer outros elefantes e humanos, mesmo após muitos anos.",
+    "funFact": "Os elefantes também demonstram emoções complexas, como luto, e são conhecidos por visitar os ossos de seus parentes falecidos."
+  },
+  {
+    "id": "natureza-e-animais-12",
+    "categoryId": "natureza-e-animais",
+    "title": "Bioluminescência: A Luz Viva",
+    "content": "A bioluminescência é a produção e emissão de luz por um organismo vivo. É comum em criaturas do fundo do mar, insetos (como vaga-lumes) e fungos. É usada para atrair presas, acasalar ou se defender.",
+    "funFact": "Cerca de 90% da vida nas profundezas do oceano produz algum tipo de bioluminescência."
+  },
+  {
+    "id": "natureza-e-animais-13",
+    "categoryId": "natureza-e-animais",
+    "title": "O Pepino-do-mar e sua Defesa Bizarra",
+    "content": "Quando ameaçado, algumas espécies de pepino-do-mar podem expelir partes de seus órgãos internos (suas 'árvores respiratórias') através do ânus. Esses órgãos pegajosos e tóxicos podem emaranhar ou envenenar um predador.",
+    "funFact": "Não se preocupe, o pepino-do-mar pode regenerar completamente seus órgãos internos em poucas semanas."
+  },
+  {
+    "id": "natureza-e-animais-14",
+    "categoryId": "natureza-e-animais",
+    "title": "Os Olhos da Rena Mudam de Cor",
+    "content": "Os olhos das renas que vivem no Ártico mudam de cor com as estações. Eles são dourados no verão e azuis no inverno. A mudança de cor ajuda-as a ver melhor nos diferentes níveis de luz das longas noites de inverno e dias de verão.",
+    "funFact": "Acredita-se que esta seja uma adaptação única entre os mamíferos."
+  },
+  {
+    "id": "natureza-e-animais-15",
+    "categoryId": "natureza-e-animais",
+    "title": "A Planta que 'Dança'",
+    "content": "A Codariocalyx motorius, também conhecida como a planta que dança ou telégrafo, move seus pequenos folíolos laterais em movimentos rápidos e elípticos. Acredita-se que este movimento ajuda a planta a maximizar a absorção de luz solar.",
+    "funFact": "A planta parece dançar ao som de música, mas na verdade está respondendo a vibrações sonoras e à luz."
+  },
+  {
     "id": "universo-e-astronomia-1",
     "categoryId": "universo-e-astronomia",
     "title": "Chuva de Diamantes em Outros Planetas",
@@ -1238,6 +1924,76 @@
     "title": "A Velocidade da Luz e o Passado",
     "content": "A luz leva tempo para viajar pelo espaço. Quando olhamos para as estrelas, não as vemos como são agora, mas como eram no passado. A luz do Sol, por exemplo, leva 8 minutos para chegar à Terra. A luz da estrela mais próxima, Proxima Centauri, leva mais de 4 anos.",
     "funFact": "Quando olhamos para a Galáxia de Andrômeda a olho nu, estamos vendo luz que viajou por 2,5 milhões de anos para chegar até nós. Estamos, literalmente, olhando para o passado distante."
+  },
+  {
+    "id": "universo-e-astronomia-6",
+    "categoryId": "universo-e-astronomia",
+    "title": "Buracos Negros Não 'Sugam'",
+    "content": "Ao contrário da ficção científica, buracos negros não 'sugam' objetos como um aspirador de pó. Eles são objetos com uma gravidade extremamente forte. Você precisa chegar muito perto do seu 'horizonte de eventos' para não conseguir mais escapar.",
+    "funFact": "Se o Sol fosse substituído por um buraco negro de mesma massa, a Terra continuaria orbitando-o normalmente. Só ficaria muito escuro e frio."
+  },
+  {
+    "id": "universo-e-astronomia-7",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Cheiro do Espaço",
+    "content": "Astronautas que retornam de caminhadas espaciais relatam um cheiro distinto em seus trajes. Eles o descrevem como uma mistura de metal quente, fumaça de solda e bife queimado. Acredita-se que seja o cheiro de compostos chamados hidrocarbonetos policíclicos aromáticos.",
+    "funFact": "A Via Láctea pode ter gosto de framboesa! Cientistas encontraram formiato de etila no centro da galáxia, o mesmo composto químico que dá o sabor às framboesas."
+  },
+  {
+    "id": "universo-e-astronomia-8",
+    "categoryId": "universo-e-astronomia",
+    "title": "Um Dia em Vênus é Mais Longo que um Ano em Vênus",
+    "content": "Vênus tem uma rotação extremamente lenta. Leva 243 dias terrestres para Vênus completar uma rotação sobre seu eixo (um 'dia' venusiano). No entanto, leva apenas 225 dias terrestres para completar uma órbita ao redor do Sol (um 'ano' venusiano).",
+    "funFact": "Vênus também gira na direção oposta à da maioria dos outros planetas, um fenômeno chamado rotação retrógrada."
+  },
+  {
+    "id": "universo-e-astronomia-9",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Nêutrons: Densidade Extrema",
+    "content": "Uma estrela de nêutrons é o núcleo colapsado de uma estrela supergigante. Elas são incrivelmente densas. Apenas uma colher de chá de material de uma estrela de nêutrons pesaria cerca de 6 bilhões de toneladas.",
+    "funFact": "As estrelas de nêutrons também giram muito rápido. Algumas podem girar centenas de vezes por segundo, emitindo feixes de radiação como um farol cósmico (essas são chamadas de pulsares)."
+  },
+  {
+    "id": "universo-e-astronomia-10",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Grande Mancha Vermelha de Júpiter está Encolhendo",
+    "content": "A Grande Mancha Vermelha é uma tempestade anticiclônica gigante na atmosfera de Júpiter, maior que o planeta Terra. No entanto, observações ao longo do último século mostram que a tempestade está encolhendo e pode desaparecer em algumas décadas.",
+    "funFact": "A tempestade já foi grande o suficiente para engolir três Terras, mas hoje tem 'apenas' o tamanho de uma Terra e meia."
+  },
+  {
+    "id": "universo-e-astronomia-11",
+    "categoryId": "universo-e-astronomia",
+    "title": "Silêncio Absoluto no Espaço",
+    "content": "O espaço é um vácuo quase perfeito, o que significa que não há meio para as ondas sonoras se propagarem. Portanto, não importa quão grande seja uma explosão cósmica, ela ocorreria em completo silêncio.",
+    "funFact": "Os sons dramáticos que ouvimos em filmes de ficção científica são puramente para efeito cinematográfico."
+  },
+  {
+    "id": "universo-e-astronomia-12",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Maioria do Universo é Invisível",
+    "content": "Tudo o que podemos ver – estrelas, planetas, galáxias – representa menos de 5% de todo o universo. O restante é composto por matéria escura (cerca de 27%) e energia escura (cerca de 68%), ambas misteriosas e invisíveis.",
+    "funFact": "A matéria escura não interage com a luz, sendo detectada apenas por seus efeitos gravitacionais. A energia escura é a força que está acelerando a expansão do universo."
+  },
+  {
+    "id": "universo-e-astronomia-13",
+    "categoryId": "universo-e-astronomia",
+    "title": "Há um Planeta Feito de Diamante",
+    "content": "O exoplaneta 55 Cancri e, localizado a cerca de 40 anos-luz de distância, é apelidado de 'planeta de diamante'. Acredita-se que sua superfície seja composta em grande parte de grafite e diamante, em vez de água e granito.",
+    "funFact": "O planeta tem o dobro do tamanho da Terra, mas oito vezes a sua massa, e orbita sua estrela em apenas 18 horas."
+  },
+  {
+    "id": "universo-e-astronomia-14",
+    "categoryId": "universo-e-astronomia",
+    "title": "Pegadas na Lua Podem Durar Milhões de Anos",
+    "content": "Como não há atmosfera, vento ou água na Lua, as pegadas deixadas pelos astronautas do programa Apollo, bem como as marcas dos rovers, permanecerão perfeitamente preservadas por um tempo incrivelmente longo.",
+    "funFact": "A única coisa que poderia apagá-las seria o impacto direto de um micrometeorito."
+  },
+  {
+    "id": "universo-e-astronomia-15",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Via Láctea e Andrômeda Vão Colidir",
+    "content": "Nossa galáxia, a Via Láctea, está em rota de colisão com nossa vizinha, a Galáxia de Andrômeda. As duas estão se aproximando a uma velocidade de cerca de 110 quilômetros por segundo.",
+    "funFact": "Não se preocupe, a colisão só acontecerá em cerca de 4,5 bilhões de anos. As chances de estrelas individuais colidirem são extremamente pequenas devido às vastas distâncias entre elas."
   },
   {
     "id": "musica-1",
@@ -1275,6 +2031,76 @@
     "funFact": "Kurt Cobain só descobriu que 'Teen Spirit' era uma marca de desodorante meses depois que a música já era um sucesso mundial."
   },
   {
+    "id": "musica-6",
+    "categoryId": "musica",
+    "title": "A Música Mais Longa do Mundo",
+    "content": "Uma peça musical chamada 'As Slow as Possible' de John Cage está sendo tocada em um órgão em uma igreja na Alemanha. A performance começou em 2001 e está programada para durar 639 anos, terminando em 2640.",
+    "funFact": "As mudanças de nota são eventos raros, com pausas que duram meses ou até anos. A última mudança de nota atraiu uma grande multidão."
+  },
+  {
+    "id": "musica-7",
+    "categoryId": "musica",
+    "title": "O Primeiro 'Sample' da História",
+    "content": "A técnica de 'sampling', que é a base do hip-hop e da música eletrônica, tem raízes na 'musique concrète' dos anos 1940. Pierre Schaeffer, um compositor francês, foi pioneiro em gravar sons do cotidiano e manipulá-los para criar composições musicais.",
+    "funFact": "Sua obra 'Étude aux chemins de fer' (Estudo das ferrovias) de 1948, feita inteiramente de sons de trem, é considerada uma das primeiras composições a usar samples."
+  },
+  {
+    "id": "musica-8",
+    "categoryId": "musica",
+    "title": "O Efeito 'Ouvido de Minhoca' (Earworm)",
+    "content": "Um 'earworm' é aquela música cativante que fica presa na sua cabeça. Ocorre quando uma pequena seção de uma música, geralmente de 15 a 30 segundos, fica repetindo em um loop mental. Músicas simples e repetitivas são mais propensas a se tornarem earworms.",
+    "funFact": "Mascar chiclete pode ajudar a se livrar de um 'earworm', pois interfere no processo de repetição mental da música."
+  },
+  {
+    "id": "musica-9",
+    "categoryId": "musica",
+    "title": "O Som que Apenas os Jovens Podem Ouvir",
+    "content": "O 'Som de Mosquito' é um tom de alta frequência (cerca de 17.4 kHz) que a maioria das pessoas com mais de 25 anos não consegue ouvir devido à perda auditiva natural relacionada à idade (presbiacusia).",
+    "funFact": "O som foi usado por adolescentes como um toque de celular que seus professores não podiam ouvir e também por lojistas para dispersar jovens que ficavam vadiando em frente às suas lojas."
+  },
+  {
+    "id": "musica-10",
+    "categoryId": "musica",
+    "title": "A Origem do Heavy Metal",
+    "content": "O termo 'heavy metal' para descrever um gênero musical apareceu pela primeira vez na letra da música 'Born to Be Wild' da banda Steppenwolf em 1968, na frase 'heavy metal thunder'.",
+    "funFact": "No entanto, bandas como Black Sabbath, Led Zeppelin e Deep Purple são consideradas as pioneiras que definiram o som do gênero no início dos anos 70."
+  },
+  {
+    "id": "musica-11",
+    "categoryId": "musica",
+    "title": "O Álbum Mais Vendido de Todos os Tempos",
+    "content": "O álbum 'Thriller' de Michael Jackson, lançado em 1982, é o álbum mais vendido da história da música, com vendas estimadas entre 70 e 100 milhões de cópias em todo o mundo.",
+    "funFact": "O videoclipe de 'Thriller', com 14 minutos de duração, revolucionou a produção de vídeos musicais e é considerado um marco cultural."
+  },
+  {
+    "id": "musica-12",
+    "categoryId": "musica",
+    "title": "A Guerra das Correntes Contínuas e Alternadas na Música",
+    "content": "O Theremin, um dos primeiros instrumentos musicais eletrônicos, foi inventado em 1920. É o único instrumento que se toca sem contato físico. O músico controla o tom e o volume movendo as mãos perto de duas antenas.",
+    "funFact": "O som etéreo e assustador do Theremin foi usado em muitas trilhas sonoras de filmes de ficção científica dos anos 50 e na música tema da série de TV 'Midsomer Murders'."
+  },
+  {
+    "id": "musica-13",
+    "categoryId": "musica",
+    "title": "O Recorde de Velocidade do Rap",
+    "content": "O rapper americano Twista já deteve o Recorde Mundial do Guinness por ser o rapper mais rápido em 1992, capaz de pronunciar 598 sílabas em 55 segundos. Desde então, outros rappers, como Eminem e Rebel XD, quebraram esse recorde.",
+    "funFact": "A habilidade de fazer rap em alta velocidade é conhecida como 'chopper'."
+  },
+  {
+    "id": "musica-14",
+    "categoryId": "musica",
+    "title": "A Afinação Padrão da Guitarra não é Acaso",
+    "content": "A afinação padrão da guitarra (E-A-D-G-B-E) evoluiu ao longo de séculos. Ela foi projetada para facilitar a transição entre acordes comuns e a execução de escalas, equilibrando a facilidade de digitação com uma boa ressonância harmônica.",
+    "funFact": "A única exceção no padrão de quartas perfeitas entre as cordas é o intervalo entre Sol e Si, que é uma terça maior. Isso facilita a formação de acordes abertos."
+  },
+  {
+    "id": "musica-15",
+    "categoryId": "musica",
+    "title": "A Canção Mais Gravada da História",
+    "content": "A música 'Yesterday' dos Beatles é uma das canções com mais covers na história, com mais de 1.600 versões gravadas por diferentes artistas.",
+    "funFact": "Paul McCartney sonhou com a melodia da música e, ao acordar, correu para um piano para não esquecê-la. Por semanas, ele perguntou a pessoas do ramo musical se elas já tinham ouvido a melodia antes, com medo de tê-la plagiado inconscientemente."
+  },
+  {
     "title": "O Paradoxo do Navio de Teseu",
     "content": "Se um navio tem todas as suas peças de madeira substituídas ao longo do tempo, ele ainda é o mesmo navio? Este antigo paradoxo filosófico questiona a natureza da identidade e da mudança.",
     "funFact": "Não há uma resposta única para o paradoxo, e ele continua a ser debatido por filósofos até hoje.",
@@ -1310,3 +2136,5 @@
     "categoryId": "filosofia"
   }
 ]
+
+    

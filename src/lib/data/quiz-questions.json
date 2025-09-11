@@ -141,6 +141,76 @@
     "explanation": "As hemácias, também chamadas de glóbulos vermelhos, contêm hemoglobina, que transporta oxigênio pelo corpo."
   },
   {
+    "id": "quiz-saude-11",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o nome da condição caracterizada pela perda de densidade óssea, tornando os ossos frágeis?",
+    "options": [
+      "Artrite",
+      "Osteoporose",
+      "Escoliose",
+      "Gota"
+    ],
+    "correctAnswer": "Osteoporose",
+    "explanation": "A osteoporose é uma doença metabólica em que os ossos se tornam progressivamente mais porosos e frágeis, aumentando o risco de fraturas."
+  },
+  {
+    "id": "quiz-saude-12",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que são anticorpos?",
+    "options": [
+      "Bactérias que causam doenças",
+      "Vírus que atacam o sistema imunológico",
+      "Proteínas produzidas pelo sistema imunológico para combater patógenos",
+      "Células que transportam oxigênio"
+    ],
+    "correctAnswer": "Proteínas produzidas pelo sistema imunológico para combater patógenos",
+    "explanation": "Anticorpos são proteínas especializadas que identificam e neutralizam invasores como vírus e bactérias."
+  },
+  {
+    "id": "quiz-saude-13",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual dos seguintes é um macronutriente essencial?",
+    "options": [
+      "Vitamina C",
+      "Ferro",
+      "Proteína",
+      "Cálcio"
+    ],
+    "correctAnswer": "Proteína",
+    "explanation": "Macronutrientes são necessários em grandes quantidades. São eles: proteínas, carboidratos e gorduras. Vitaminas e minerais são micronutrientes."
+  },
+  {
+    "id": "quiz-saude-14",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual glândula é frequentemente chamada de 'glândula mestra' do corpo por regular muitas outras glândulas endócrinas?",
+    "options": [
+      "Tireoide",
+      "Pâncreas",
+      "Glândula adrenal",
+      "Glândula pituitária (Hipófise)"
+    ],
+    "correctAnswer": "Glândula pituitária (Hipófise)",
+    "explanation": "A glândula pituitária, ou hipófise, controla a função da maioria das outras glândulas endócrinas e, por isso, é chamada de glândula mestra."
+  },
+  {
+    "id": "quiz-saude-15",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "O que o acrônimo IMC significa em um contexto de saúde?",
+    "options": [
+      "Índice de Massa Corporal",
+      "Índice Metabólico Comum",
+      "Intensidade Máxima Cardíaca",
+      "Índice de Músculo Corporal"
+    ],
+    "correctAnswer": "Índice de Massa Corporal",
+    "explanation": "O IMC é uma medida internacional usada para calcular se uma pessoa está no peso ideal, relacionando peso e altura."
+  },
+  {
     "id": "quiz-bem-estar-1",
     "categoryId": "bem-estar",
     "difficulty": "easy",
@@ -1121,3 +1191,5 @@
     "categoryId": "filosofia"
   }
 ]
+
+    
