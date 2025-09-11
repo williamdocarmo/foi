@@ -50,7 +50,6 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [agreed, setAgreed] = useState(false);
-  const [isCreatingAccount, setIsCreatingAccount] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleGoogleSignIn = async () => {
@@ -88,8 +87,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     setIsLoading(true);
     try {
         const methods = await fetchSignInMethodsForEmail(auth, email);
-        setIsCreatingAccount(methods.length === 0);
-
+        
         if (methods.length > 0) {
             // Email exists, try to sign in
             await signInWithEmailAndPassword(auth, email, password);
@@ -98,12 +96,12 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                 description: 'Login realizado com sucesso.',
             });
         } else {
+            // Email does not exist, check for agreement and create a new account
              if (!agreed) {
                 toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
                 setIsLoading(false);
                 return;
             }
-            // Email does not exist, create a new account
             await createUserWithEmailAndPassword(auth, email, password);
              toast({
                 title: 'Conta Criada!',
@@ -118,6 +116,8 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
             message = 'Senha incorreta. Tente novamente.'
         } else if (error.code === 'auth/weak-password') {
             message = 'A senha deve ter pelo menos 6 caracteres.'
+        } else if (error.code === 'auth/email-already-in-use') {
+             message = 'Este e-mail já está em uso por outra conta.'
         }
         toast({
             title: 'Erro de Autenticação',
@@ -189,7 +189,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                         Li e concordo com os Termos de Uso
                         </label>
                         <p className="text-sm text-muted-foreground">
-                        Você pode ver os termos de uso <Link href="/terms" className="underline">aqui</Link>.
+                         Você pode ver os termos de uso <Link href="/terms" className="underline" target="_blank">aqui</Link>.
                         </p>
                     </div>
                  </div>
