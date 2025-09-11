@@ -14,11 +14,11 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
   const Icon = (LucideIcons as any)[category.icon as any] as React.ElementType;
 
   return (
-    <Card className="h-full transform transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl">
+    <Card className="h-full transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
       <CardContent className="flex flex-col items-center justify-center p-6 text-center">
         <Link href={`/curiosity/${category.id}`} className="group block">
           <div
-            className="mb-4 rounded-full p-4"
+            className="mb-4 inline-block rounded-full p-4 transition-colors group-hover:bg-accent/20"
             style={{ backgroundColor: `${category.color}20` }}
           >
             {Icon && <Icon className="h-10 w-10" style={{ color: category.color }} />}
