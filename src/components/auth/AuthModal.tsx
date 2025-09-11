@@ -59,10 +59,6 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     }
     setIsLoading(true);
     const provider = new GoogleAuthProvider();
-    provider.setCustomParameters({
-      'auth_domain': 'app.foiumaideia.com'
-    });
-
     try {
       await signInWithPopup(auth, provider);
       toast({
@@ -74,7 +70,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
       console.error(error);
       toast({
         title: 'Erro de Login',
-        description: 'Não foi possível fazer login com o Google.',
+        description: 'Não foi possível fazer login com o Google. Verifique a configuração do Firebase.',
         variant: 'destructive',
       });
     } finally {
@@ -115,15 +111,13 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
         setIsOpen(false);
     } catch (error: any) {
         console.error(error);
-        let message = 'Ocorreu um erro. Verifique suas credenciais.';
+        let message = 'Ocorreu um erro. Verifique suas credenciais ou a configuração do Firebase.';
         if (error.code === 'auth/wrong-password') {
             message = 'Senha incorreta. Tente novamente.'
         } else if (error.code === 'auth/weak-password') {
             message = 'A senha deve ter pelo menos 6 caracteres.'
         } else if (error.code === 'auth/email-already-in-use') {
              message = 'Este e-mail já está em uso por outra conta.'
-        } else if (error.code === 'auth/unauthorized-domain') {
-             message = 'O domínio do aplicativo não está autorizado. Verifique a configuração no Firebase.'
         }
         toast({
             title: 'Erro de Autenticação',
