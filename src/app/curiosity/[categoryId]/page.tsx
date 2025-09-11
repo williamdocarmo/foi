@@ -10,12 +10,12 @@ type CuriosityPageProps = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default async function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
+export default function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
   const { categoryId } = params;
   const initialCuriosityId = searchParams?.curiosity as string;
 
   const category = getCategoryById(categoryId);
-  const curiosities = await getCuriositiesByCategoryId(categoryId);
+  const curiosities = getCuriositiesByCategoryId(categoryId);
 
   if (!category) {
     notFound();

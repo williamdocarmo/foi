@@ -1,4 +1,3 @@
-
 import type { Category, Curiosity, QuizQuestion } from './types';
 import categoriesData from './data/categories.json';
 import curiositiesData from './data/curiosities.json';
@@ -6,32 +5,48 @@ import quizQuestionsData from './data/quiz-questions.json';
 
 export const categories: Category[] = categoriesData;
 
-// Type guard to ensure data is treated as Curiosity[]
 const allCuriosities: Curiosity[] = curiositiesData as Curiosity[];
 const allQuizQuestions: QuizQuestion[] = quizQuestionsData as QuizQuestion[];
 
-export const getCategoryById = (id: string): Category | undefined => {
+/**
+ * Finds a category by its ID.
+ * @param id The ID of the category to find.
+ * @returns The category object or undefined if not found.
+ */
+export function getCategoryById(id: string): Category | undefined {
   return categories.find(c => c.id === id);
 }
 
-export async function getCuriositiesByCategoryId(categoryId: string): Promise<Curiosity[]> {
-  // We use a Promise to keep the async signature, even though it resolves immediately.
-  // This makes it consistent with potential future data-fetching strategies.
-  return Promise.resolve(
-    allCuriosities.filter(c => c.categoryId === categoryId)
-  );
+/**
+ * Retrieves all curiosities for a given category ID.
+ * @param categoryId The ID of the category.
+ * @returns An array of curiosities for that category.
+ */
+export function getCuriositiesByCategoryId(categoryId: string): Curiosity[] {
+  return allCuriosities.filter(c => c.categoryId === categoryId);
 }
 
-export async function getQuizQuestionsByCategoryId(categoryId: string): Promise<QuizQuestion[]> {
-  return Promise.resolve(
-    allQuizQuestions.filter(q => q.categoryId === categoryId)
-  );
+/**
+ * Retrieves all quiz questions for a given category ID.
+ * @param categoryId The ID of the category.
+ * @returns An array of quiz questions for that category.
+ */
+export function getQuizQuestionsByCategoryId(categoryId: string): QuizQuestion[] {
+  return allQuizQuestions.filter(q => q.categoryId === categoryId);
 }
 
-export async function getAllCuriosities(): Promise<Curiosity[]> {
-  return Promise.resolve(allCuriosities);
+/**
+ * Retrieves all curiosities from the data source.
+ * @returns An array of all curiosities.
+ */
+export function getAllCuriosities(): Curiosity[] {
+  return allCuriosities;
 }
 
-export async function getAllQuizQuestions(): Promise<QuizQuestion[]> {
-    return Promise.resolve(allQuizQuestions);
+/**
+ * Retrieves all quiz questions from the data source.
+ * @returns An array of all quiz questions.
+ */
+export function getAllQuizQuestions(): QuizQuestion[] {
+  return allQuizQuestions;
 }

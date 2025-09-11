@@ -5,7 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton';
-import { Suspense } from 'react';
 import * as LucideIcons from 'lucide-react';
 
 function CategoryCard({ category }: { category: ReturnType<typeof getCategoryById> }) {
@@ -53,15 +52,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/50 to-accent/60 dark:from-primary/90 dark:via-primary/70 dark:to-accent/70" />
         <div className="container relative z-10 flex flex-col items-center text-center">
           <h1 className="animate-bounce-in font-headline text-5xl font-extrabold tracking-tighter text-primary-foreground drop-shadow-lg md:text-7xl">
-            Foi uma ideia 💡
+            Você Sabia?
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90 md:text-xl">
             Descubra curiosidades fascinantes, teste seus conhecimentos e aprenda algo novo todos os dias.
           </p>
           <div className="mt-8">
-            <Suspense fallback={<Button size="lg">Carregando...</Button>}>
-              <RandomCuriosityButton />
-            </Suspense>
+            <RandomCuriosityButton />
           </div>
         </div>
       </section>

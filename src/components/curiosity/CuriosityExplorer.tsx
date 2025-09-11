@@ -24,10 +24,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const isOnline = useOnlineStatus();
 
-  const [allCuriosities, setAllCuriosities] = useState<Curiosity[]>([]);
-  useEffect(() => {
-    getAllCuriosities().then(setAllCuriosities);
-  }, []);
+  const allCuriosities = useMemo(() => getAllCuriosities(), []);
 
   const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
