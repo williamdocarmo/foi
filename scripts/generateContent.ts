@@ -22,7 +22,7 @@ const RETRY_DELAY_MS = 5000; // 5 seconds delay between retries
 const MAX_RETRIES = 3;
 const API_CALL_DELAY_MS = 2000; // 2 seconds delay between API calls for different categories
 
-const dataDir = path.join(__dirname, "../src/lib/data");
+const dataDir = path.join(__dirname, "../data");
 
 function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));

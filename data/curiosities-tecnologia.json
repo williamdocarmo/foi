@@ -1,0 +1,98 @@
+
+[
+  {
+    "title": "A Origem do 'Bug' de Computador",
+    "content": "O termo 'bug' para descrever uma falha em um sistema de computador foi popularizado por Grace Hopper, uma pioneira da computação. Em 1947, sua equipe encontrou uma mariposa (um 'bug', em inglês) presa em um relé do computador Harvard Mark II, causando um mau funcionamento. Eles removeram o inseto e o prenderam no diário de bordo, anotando: 'Primeiro caso real de bug sendo encontrado'.",
+    "funFact": "O diário de bordo com a mariposa está em exibição no Museu Nacional de História Americana."
+  },
+  {
+    "title": "O Primeiro Mouse de Computador",
+    "content": "O primeiro mouse de computador foi inventado por Douglas Engelbart em 1964. Era uma caixa de madeira com duas rodas de metal na parte inferior e foi apelidado de 'mouse' porque o cabo que saía dele lembrava o rabo de um rato.",
+    "funFact": "Engelbart nunca recebeu royalties por sua invenção, pois a patente expirou antes de o mouse se tornar um produto de consumo em massa."
+  },
+  {
+    "title": "O Tamanho do Primeiro 'Disco Rígido'",
+    "content": "O primeiro disco rígido comercial, o IBM 350, foi lançado em 1956. Ele tinha o tamanho de dois refrigeradores, pesava mais de uma tonelada e podia armazenar apenas 5 megabytes de dados.",
+    "funFact": "Hoje, um cartão microSD do tamanho de uma unha pode armazenar mais de 200.000 vezes essa quantidade de dados."
+  },
+  {
+    "title": "Por que o @ (Arroba)?",
+    "content": "O símbolo @ foi escolhido por Ray Tomlinson em 1971 para separar o nome do usuário do nome do servidor de destino em endereços de e-mail. Ele escolheu o símbolo porque era raramente usado em nomes próprios, evitando confusão. A lógica era 'usuário @ servidor'.",
+    "funFact": "Antes de ser usado em e-mails, o símbolo @ era usado principalmente em contabilidade para significar 'à taxa de' (por exemplo, 5 maçãs @ $1 cada)."
+  },
+  {
+    "title": "A Primeira Câmera Digital",
+    "content": "A primeira câmera digital foi inventada em 1975 por Steven Sasson, um engenheiro da Kodak. O dispositivo pesava 3,6 kg, levava 23 segundos para gravar uma única imagem em preto e branco em uma fita cassete e tinha uma resolução de 0.01 megapixels.",
+    "funFact": "A Kodak, ironicamente, engavetou o projeto por medo de que ele ameaçasse seu lucrativo negócio de filmes fotográficos."
+  },
+  {
+    "title": "A Origem da Internet",
+    "content": "A internet surgiu na década de 1960, como um projeto militar americano chamado ARPANET, com o objetivo de criar uma rede de comunicação descentralizada e resistente a ataques.",
+    "funFact": "O primeiro email foi enviado em 1971.",
+    "id": "tecnologia-6",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Primeira Programação",
+    "content": "Ada Lovelace, no século XIX, é considerada a primeira programadora da história, ao descrever um algoritmo para a máquina analítica de Charles Babbage, que nunca foi construída na época.",
+    "funFact": "O algoritmo de Ada Lovelace era para calcular números de Bernoulli.",
+    "id": "tecnologia-7",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "O Poder dos Smartphones",
+    "content": "A capacidade de processamento de um smartphone moderno supera a dos computadores usados para levar o homem à Lua.",
+    "funFact": "Seu smartphone tem mais poder computacional do que todos os computadores combinados que existiam em 1970.",
+    "id": "tecnologia-8",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Evolução dos Discos Rígidos",
+    "content": "Os primeiros discos rígidos eram enormes, pesando centenas de quilos e armazenando apenas alguns megabytes de dados. Hoje, um disco rígido do tamanho de uma mão consegue armazenar terabytes.",
+    "funFact": "Um disco rígido de 1956 ocupava um cômodo inteiro.",
+    "id": "tecnologia-9",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas (IoT) conecta bilhões de dispositivos à internet, desde eletrodomésticos a carros, permitindo a coleta e troca de dados em tempo real.",
+    "funFact": "Estima-se que em 2025, haverá mais de 75 bilhões de dispositivos conectados à internet.",
+    "id": "tecnologia-10",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Guerra Fria e a Internet",
+    "content": "A internet, como a conhecemos, teve suas origens na Guerra Fria.  A necessidade de comunicação descentralizada e resistente a ataques levou ao desenvolvimento de ARPANET, precursora da internet moderna.",
+    "funFact": "ARPANET inicialmente conectava apenas quatro computadores.",
+    "id": "tecnologia-11",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "O Impacto da Tecnologia na Agricultura",
+    "content": "A tecnologia de precisão na agricultura, usando drones, sensores e inteligência artificial, otimiza o uso de recursos como água e fertilizantes, aumentando a produtividade e reduzindo o impacto ambiental.",
+    "funFact": "Sensores em solo podem monitorar em tempo real a umidade e a necessidade de irrigação.",
+    "id": "tecnologia-12",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Tecnologia Assistiva e a Inclusão",
+    "content": "A tecnologia assistiva desenvolve ferramentas e dispositivos que ajudam pessoas com deficiência a superar barreiras e participar mais plenamente da sociedade.  Isso inclui softwares de leitura de tela, próteses inteligentes e muito mais.",
+    "funFact": "Impressoras 3D estão revolucionando a criação de próteses personalizadas e de baixo custo.",
+    "id": "tecnologia-13",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Energia Renovável e a Tecnologia",
+    "content": "A tecnologia desempenha um papel crucial na transição para energias renováveis, com avanços em painéis solares mais eficientes, turbinas eólicas mais potentes e sistemas de armazenamento de energia mais eficazes.",
+    "funFact": "A eficiência dos painéis solares aumentou significativamente nas últimas décadas.",
+    "id": "tecnologia-14",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Mineração de Dados e a Privacidade",
+    "content": "A mineração de dados, embora útil para empresas e pesquisas, levanta preocupações significativas sobre privacidade.  O uso de algoritmos para analisar grandes conjuntos de dados pode revelar informações pessoais sensíveis.",
+    "funFact": "Regulamentações de privacidade de dados, como o GDPR, buscam proteger os indivíduos do uso indevido de seus dados.",
+    "id": "tecnologia-15",
+    "categoryId": "tecnologia"
+  }
+]

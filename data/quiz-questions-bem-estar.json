@@ -1,0 +1,143 @@
+
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é recomendada pela maioria dos médicos para a saúde cardiovascular?",
+    "options": [
+      "Natação",
+      "Levantamento de peso",
+      "Corrida",
+      "Ioga"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "A corrida é uma atividade aeróbica eficaz para fortalecer o coração e os pulmões.",
+    "id": "quiz-bem-estar-1",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal característica da síndrome de burnout?",
+    "options": [
+      "Falta de motivação e exaustão emocional",
+      "Ansiedade generalizada",
+      "Depressão crônica",
+      "Distúrbios do sono"
+    ],
+    "correctAnswer": "Falta de motivação e exaustão emocional",
+    "explanation": "A síndrome de burnout é caracterizada por exaustão emocional, cinismo e falta de eficácia profissional.",
+    "id": "quiz-bem-estar-2",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio está fortemente associado à sensação de bem-estar e felicidade?",
+    "options": [
+      "Adrenalina",
+      "Cortisol",
+      "Serotonina",
+      "Melatonina"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina é um neurotransmissor que regula o humor, o sono, o apetite e outras funções cognitivas e desempenha um papel crucial no bem-estar.",
+    "id": "quiz-bem-estar-3",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quantas horas de sono são recomendadas para a maioria dos adultos por noite?",
+    "options": [
+      "4-5 horas",
+      "6-7 horas",
+      "7-9 horas",
+      "10-12 horas"
+    ],
+    "correctAnswer": "7-9 horas",
+    "explanation": "A maioria dos adultos precisa de 7 a 9 horas de sono de qualidade por noite para funcionar adequadamente.",
+    "id": "quiz-bem-estar-4",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A prática regular de mindfulness está associada à redução de qual sintoma?",
+    "options": [
+      "Ganho de peso",
+      "Pressão arterial elevada",
+      "Aumento da ansiedade",
+      "Redução da criatividade"
+    ],
+    "correctAnswer": "Aumento da ansiedade",
+    "explanation": "O mindfulness ajuda a regular a resposta ao estresse, reduzindo a ansiedade e melhorando a regulação emocional.",
+    "id": "quiz-bem-estar-5",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é geralmente considerada uma boa forma de aliviar o estresse?",
+    "options": [
+      "Assistir TV",
+      "Jogar videogame",
+      "Meditar",
+      "Trabalhar horas extras"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "A meditação é uma técnica comprovada para reduzir o estresse e melhorar a saúde mental.",
+    "id": "quiz-bem-estar-6",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A dieta mediterrânea é frequentemente associada a quais benefícios para a saúde?",
+    "options": [
+      "Aumento de peso e pressão alta",
+      "Redução do risco de doenças cardíacas e alguns tipos de câncer",
+      "Problemas digestivos e inflamação",
+      "Diminuição da imunidade e maior risco de infecções"
+    ],
+    "correctAnswer": "Redução do risco de doenças cardíacas e alguns tipos de câncer",
+    "explanation": "A dieta mediterrânea, rica em frutas, vegetais, grãos integrais e azeite de oliva, é associada a uma redução significativa no risco de diversas doenças crônicas.",
+    "id": "quiz-bem-estar-7",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito se refere à capacidade de se adaptar e lidar com situações adversas, mostrando resiliência?",
+    "options": [
+      "Autoestima",
+      "Inteligência Emocional",
+      "Resiliência",
+      "Empatia"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Resiliência é a capacidade de se recuperar de adversidades, traumas, tragédias, ameaças ou fontes significativas de estresse.",
+    "id": "quiz-bem-estar-8",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Manter um diário de gratidão está associado a qual impacto na saúde mental?",
+    "options": [
+      "Aumento da ansiedade e depressão",
+      "Diminuição da auto-estima e confiança",
+      "Melhora no humor e aumento da positividade",
+      "Nenhum impacto significativo"
+    ],
+    "correctAnswer": "Melhora no humor e aumento da positividade",
+    "explanation": "A prática regular de listar coisas pelas quais se sente grato está associada a uma melhora no humor e no bem-estar geral.",
+    "id": "quiz-bem-estar-9",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de comportamento que promove o autocuidado?",
+    "options": [
+      "Dormir pouco",
+      "Ignorar as necessidades físicas",
+      "Priorizar o trabalho acima de tudo",
+      "Praticar exercícios regularmente"
+    ],
+    "correctAnswer": "Praticar exercícios regularmente",
+    "explanation": "A atividade física regular é um importante componente do autocuidado, contribuindo para a saúde física e mental.",
+    "id": "quiz-bem-estar-10",
+    "categoryId": "bem-estar"
+  }
+]

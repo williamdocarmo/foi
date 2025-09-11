@@ -1,0 +1,63 @@
+
+[
+  {
+    "title": "As 5 Linguagens do Amor",
+    "content": "O Dr. Gary Chapman propôs que as pessoas expressam e recebem amor de 5 maneiras principais: Palavras de Afirmação, Tempo de Qualidade, Receber Presentes, Atos de Serviço e Toque Físico. Entender a linguagem do seu parceiro é crucial para um relacionamento saudável.",
+    "funFact": "Muitos conflitos em relacionamentos surgem quando os parceiros têm linguagens de amor diferentes e não percebem que estão expressando afeto de maneiras que o outro não entende."
+  },
+  {
+    "title": "O Efeito de Exposição Mera",
+    "content": "Temos uma tendência psicológica a desenvolver uma preferência por coisas (ou pessoas) simplesmente porque estamos familiarizados com elas. Quanto mais você vê alguém, maior a probabilidade de começar a gostar dessa pessoa.",
+    "funFact": "É por isso que a convivência no trabalho ou na escola é um dos gatilhos mais comuns para o início de amizades e romances."
+  },
+  {
+    "title": "A Regra dos 36 Perguntas",
+    "content": "Um estudo do psicólogo Arthur Aron desenvolveu um conjunto de 36 perguntas que se aprofundam progressivamente, projetadas para criar intimidade e acelerar a conexão entre duas pessoas. O experimento termina com os dois se olhando nos olhos por 4 minutos em silêncio.",
+    "funFact": "Um artigo do New York Times sobre este estudo se tornou viral, com muitas pessoas testando as perguntas e relatando ter se apaixonado."
+  },
+  {
+    "title": "O Poder do Contato Visual",
+    "content": "Manter contato visual prolongado com alguém pode criar sentimentos de atração e conexão. Isso ocorre porque o contato visual libera feniletilamina, um composto químico associado à sensação de estar apaixonado.",
+    "funFact": "Em muitas culturas, evitar o contato visual é um sinal de desrespeito, enquanto em outras, o contato visual direto pode ser visto como agressivo."
+  },
+  {
+    "title": "Rir Juntos Fortalece os Laços",
+    "content": "Casais que riem juntos tendem a ter relacionamentos mais satisfatórios e duradouros. O humor compartilhado e as piadas internas criam um senso de união e ajudam a aliviar o estresse e a superar momentos difíceis.",
+    "funFact": "Estudos mostram que o ato de rir libera endorfinas, os 'hormônios da felicidade', que fortalecem os laços sociais."
+  },
+  {
+    "title": "A Importância do Tempo de Qualidade",
+    "content": "Passar tempo de qualidade juntos, sem distrações como celulares ou TV, fortalece os laços e melhora a comunicação no relacionamento.  Priorizar momentos presenciais e focados um no outro é crucial para a intimidade.",
+    "funFact": "Estudos mostram que casais que praticam 'datas' regulares demonstram maior satisfação conjugal.",
+    "id": "relacionamentos-6",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "O Impacto das Pequenas Atenções",
+    "content": "Gestos simples, como deixar um bilhete carinhoso ou preparar o café da manhã para o parceiro, demonstram afeto e cuidado, impactando positivamente a relação a longo prazo.  São demonstrações de amor que constroem uma base sólida.",
+    "funFact": "Pequenos atos de gentileza ativam a liberação de oxitocina, o hormônio do amor e do vínculo.",
+    "id": "relacionamentos-7",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "A Necessidade de Espaço Individual",
+    "content": "Manter a individualidade e os próprios interesses é fundamental para um relacionamento saudável. Respeitar o espaço pessoal do parceiro e cultivar atividades individuais contribui para a preservação da identidade e da saúde mental de cada um.",
+    "funFact": "Casais que mantêm atividades separadas tendem a ter menos conflitos e maior admiração mútua.",
+    "id": "relacionamentos-8",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "A Arte da Escuta Ativa",
+    "content": "Escute verdadeiramente o que seu parceiro está dizendo, sem interromper ou planejar sua resposta.  Demonstrar empatia e compreensão através da escuta ativa demonstra respeito e fortalece a conexão emocional.",
+    "funFact": "A escuta ativa libera endorfinas, melhorando o humor e fortalecendo o vínculo entre as pessoas.",
+    "id": "relacionamentos-9",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "title": "A Evolução da Atração",
+    "content": "A atração em um relacionamento evolui com o tempo. A atração inicial, muitas vezes física, transforma-se em um apego profundo baseado em confiança, respeito e cumplicidade.",
+    "funFact": "A atração a longo prazo é mais fortemente influenciada pela compatibilidade emocional e intelectual do que pela aparência física.",
+    "id": "relacionamentos-10",
+    "categoryId": "relacionamentos"
+  }
+]

@@ -1,34 +1,46 @@
+
 import type { Category, Curiosity, QuizQuestion } from './types';
 import categoriesData from './data/categories.json';
-
-// Import all curiosities and quiz questions dynamically
-// This is a placeholder as we can't use dynamic imports easily in a way that satisfies bundling for all environments.
-// The data loading logic is now more of a conceptual guide for how to structure the data.
-// In a real-world scenario, you would fetch this data from an API or use a more sophisticated loading mechanism.
+import fs from 'fs/promises';
+import path from 'path';
 
 export const categories: Category[] = categoriesData;
 
 // Helper functions now dynamically import data based on category ID
 export const getCategoryById = (id: string) => categories.find(c => c.id === id);
 
-export async function getCuriositiesByCategoryId(categoryId: string): Promise<Curiosity[]> {
+// Use a simple cache to avoid re-reading files from disk on every request in development
+const dataCache = new Map<string, any>();
+
+async function readJsonFile<T>(filePath: string): Promise<T[]> {
+  if (process.env.NODE_ENV === 'development' && dataCache.has(filePath)) {
+    return dataCache.get(filePath) as T[];
+  }
+
   try {
-    const curiosities = await import(`./data/curiosities-${categoryId}.json`);
-    return curiosities.default;
+    const fullPath = path.join(process.cwd(), filePath);
+    const fileContent = await fs.readFile(fullPath, 'utf-8');
+    const data = JSON.parse(fileContent);
+    
+    if (process.env.NODE_ENV === 'development') {
+      dataCache.set(filePath, data);
+    }
+    
+    return data;
   } catch (error) {
-    console.warn(`No curiosities found for category ${categoryId}`);
-    return [];
+    // console.error(`Error reading file ${filePath}:`, error);
+    return []; // Return empty array if file doesn't exist or is invalid
   }
 }
 
+export async function getCuriositiesByCategoryId(categoryId: string): Promise<Curiosity[]> {
+  const curiosities = await readJsonFile<Curiosity>(`data/curiosities-${categoryId}.json`);
+  return curiosities;
+}
+
 export async function getQuizQuestionsByCategoryId(categoryId: string): Promise<QuizQuestion[]> {
-  try {
-    const questions = await import(`./data/quiz-questions-${categoryId}.json`);
-    return questions.default;
-  } catch (error) {
-    console.warn(`No quiz questions found for category ${categoryId}`);
-    return [];
-  }
+  const questions = await readJsonFile<QuizQuestion>(`data/quiz-questions-${categoryId}.json`);
+  return questions;
 }
 
 export async function getAllCuriosities(): Promise<Curiosity[]> {

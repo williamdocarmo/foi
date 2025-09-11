@@ -1,0 +1,73 @@
+
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual é um sinal importante de um relacionamento saudável?",
+    "options": [
+      "Controle excessivo do parceiro",
+      "Comunicação aberta e honesta",
+      "Ciúme possessivo",
+      "Falta de confiança mútua"
+    ],
+    "correctAnswer": "Comunicação aberta e honesta",
+    "explanation": "A comunicação aberta e honesta é fundamental para construir e manter um relacionamento saudável e forte.",
+    "id": "quiz-relacionamentos-1",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estilo de apego é caracterizado por uma ansiedade intensa em relação à proximidade e à rejeição?",
+    "options": [
+      "Apego seguro",
+      "Apego ansioso-preocupado",
+      "Apego evasivo-desconfiado",
+      "Apego desorganizado"
+    ],
+    "correctAnswer": "Apego ansioso-preocupado",
+    "explanation": "Indivíduos com apego ansioso-preocupado temem a rejeição e buscam constantemente a validação do parceiro.",
+    "id": "quiz-relacionamentos-2",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em qual fase do desenvolvimento de um relacionamento, geralmente, os casais enfrentam conflitos relacionados à intimidade e à autonomia?",
+    "options": [
+      "Fase de paixão",
+      "Fase de compromisso",
+      "Fase de construção",
+      "Fase de resolução de conflitos"
+    ],
+    "correctAnswer": "Fase de construção",
+    "explanation": "A fase de construção do relacionamento é marcada por um balanço entre a necessidade de intimidade e a preservação da individualidade, o que pode levar a conflitos.",
+    "id": "quiz-relacionamentos-3",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é uma estratégia eficaz para lidar com conflitos em um relacionamento?",
+    "options": [
+      "Evitar a discussão",
+      "Gritar e acusar o parceiro",
+      "Comunicar-se assertivamente e buscar soluções em conjunto",
+      "Ignorar os problemas na esperança de que desapareçam"
+    ],
+    "correctAnswer": "Comunicar-se assertivamente e buscar soluções em conjunto",
+    "explanation": "A comunicação assertiva permite expressar suas necessidades e opiniões sem agredir o outro, enquanto a busca por soluções conjuntas fortalece o relacionamento.",
+    "id": "quiz-relacionamentos-4",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa empatia em um relacionamento?",
+    "options": [
+      "Se colocar no lugar do outro e entender seus sentimentos",
+      "Ser sempre de acordo com o parceiro",
+      "Dominar a conversa",
+      "Ignorar os sentimentos do parceiro"
+    ],
+    "correctAnswer": "Se colocar no lugar do outro e entender seus sentimentos",
+    "explanation": "Empatia é a capacidade de compreender e compartilhar os sentimentos de outra pessoa, essencial para um relacionamento saudável e compreensivo.",
+    "id": "quiz-relacionamentos-5",
+    "categoryId": "relacionamentos"
+  }
+]

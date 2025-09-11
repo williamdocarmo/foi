@@ -17,8 +17,8 @@ export async function GET() {
       },
       {
         src: "/icons/icon-512x512.png",
-        sizes": "512x512",
-        type": "image/png",
+        "sizes": "512x512",
+        "type": "image/png",
       },
     ],
   };

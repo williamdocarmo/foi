@@ -1,0 +1,73 @@
+
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso palhaço do filme 'IT'?",
+    "options": [
+      "Ronald McDonald",
+      "Pennywise",
+      "Bozo",
+      "Krusty"
+    ],
+    "correctAnswer": "Pennywise",
+    "explanation": "Pennywise, o palhaço dançarino, é o antagonista principal do livro e da adaptação cinematográfica de 'IT'.",
+    "id": "quiz-entretenimento-1",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual série de TV foi a primeira a ser transmitida em cores nos EUA?",
+    "options": [
+      "I Love Lucy",
+      "The Honeymooners",
+      "Bonanza",
+      "Gunsmoke"
+    ],
+    "correctAnswer": "Bonanza",
+    "explanation": "Embora alguns episódios de outras séries tivessem sido transmitidos em cores antes, 'Bonanza' foi a primeira série regular em cores nos EUA.",
+    "id": "quiz-entretenimento-2",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual diretor é conhecido por sua colaboração frequente com o compositor Hans Zimmer?",
+    "options": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Christopher Nolan e Hans Zimmer colaboraram em vários filmes de sucesso, incluindo a trilogia 'Batman' e 'Inception'.",
+    "id": "quiz-entretenimento-3",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual plataforma de streaming é conhecida pelo seu catálogo extenso de documentários?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "HBO Max",
+      "Amazon Prime Video"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "A Netflix tem uma vasta biblioteca de documentários originais e licenciados.",
+    "id": "quiz-entretenimento-4",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico de tiro em primeira pessoa popularizou o modo Battle Royale?",
+    "options": [
+      "Call of Duty: Modern Warfare",
+      "Halo",
+      "Counter-Strike",
+      "PlayerUnknown's Battlegrounds"
+    ],
+    "correctAnswer": "PlayerUnknown's Battlegrounds",
+    "explanation": "Embora outros jogos tivessem elementos de Battle Royale antes, PUBG popularizou o modo e inspirou muitos outros jogos.",
+    "id": "quiz-entretenimento-5",
+    "categoryId": "entretenimento"
+  }
+]

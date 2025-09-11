@@ -1,0 +1,63 @@
+
+[
+  {
+    "title": "O Efeito Dunning-Kruger",
+    "content": "É um viés cognitivo no qual pessoas com baixo conhecimento em um assunto superestimam sua própria habilidade, enquanto especialistas tendem a subestimar a deles. Em resumo, os incompetentes são tão incompetentes que não conseguem ver a própria incompetência.",
+    "funFact": "O efeito foi demonstrado em um estudo onde estudantes com as piores notas em um teste de lógica foram os que mais superestimaram seu desempenho."
+  },
+  {
+    "title": "O Viés de Confirmação",
+    "content": "Temos uma tendência natural de procurar, interpretar e lembrar de informações que confirmam nossas crenças pré-existentes, enquanto ignoramos ou descartamos informações que as contradizem. É por isso que é tão difícil mudar de ideia.",
+    "funFact": "Este viés é uma das principais razões para a polarização de opiniões em debates políticos e sociais."
+  },
+  {
+    "title": "O Efeito Espectador",
+    "content": "Quanto maior o número de pessoas presentes em uma situação de emergência, menor a probabilidade de alguém intervir. As pessoas tendem a assumir que outra pessoa vai ajudar, um fenômeno chamado 'difusão de responsabilidade'.",
+    "funFact": "O estudo deste efeito foi inspirado pelo assassinato de Kitty Genovese em 1964, onde dezenas de vizinhos ouviram seus gritos, mas ninguém chamou a polícia a tempo."
+  },
+  {
+    "title": "A Síndrome do Impostor",
+    "content": "É um padrão psicológico no qual uma pessoa duvida de suas realizações e tem um medo persistente de ser exposta como uma 'fraude'. É surpreendentemente comum entre pessoas de alto desempenho, como cientistas e executivos.",
+    "funFact": "Estima-se que cerca de 70% das pessoas experimentarão pelo menos um episódio desta síndrome em suas vidas."
+  },
+  {
+    "title": "O Efeito Pigmaleão",
+    "content": "Nossas expectativas sobre outras pessoas podem influenciar o desempenho delas. Se um professor acredita que um aluno é brilhante, ele tende a tratar o aluno de forma diferente, o que, por sua vez, leva o aluno a ter um desempenho melhor, confirmando a crença inicial.",
+    "funFact": "O nome vem da lenda grega de Pigmaleão, um escultor que se apaixonou por uma estátua que ele mesmo esculpiu, e a deusa Afrodite a trouxe à vida."
+  },
+  {
+    "title": "A Mente Erra em Estimativas de Tempo",
+    "content": "Nosso cérebro não é muito bom em julgar o tempo que passou.  Experiências agradáveis parecem mais curtas do que realmente foram, enquanto experiências desagradáveis parecem durar mais.",
+    "funFact": "Essa distorção de tempo é afetada por fatores como idade e níveis de excitação.",
+    "id": "psicologia-6",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "A Importância do Sono para a Memória",
+    "content": "Dormir é essencial para consolidar memórias. Durante o sono, o cérebro processa e organiza informações aprendidas durante o dia, melhorando o aprendizado e a retenção.",
+    "funFact": "A privação do sono afeta diretamente a capacidade de formar novas memórias.",
+    "id": "psicologia-7",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "O Poder da Sugestão",
+    "content": "A sugestão pode ter um impacto significativo em nossos pensamentos, comportamentos e percepções.  Experimentos demonstram como sugestões sutis podem influenciar nossas escolhas e crenças.",
+    "funFact": "A hipnose é um exemplo extremo da força da sugestão.",
+    "id": "psicologia-8",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "A Psicologia das Cores",
+    "content": "As cores afetam nosso humor e comportamento de maneiras sutis, mas poderosas.  Por exemplo, o azul é frequentemente associado à calma, enquanto o vermelho pode estimular excitação.",
+    "funFact": "Muitas empresas usam a psicologia das cores em seus designs de marketing para influenciar as decisões dos consumidores.",
+    "id": "psicologia-9",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "Pensamentos Automáticos",
+    "content": "Muitos de nossos pensamentos ocorrem de forma automática, sem que tenhamos consciência deles. Esses pensamentos automáticos influenciam nossas emoções e comportamentos, mesmo que não os percebamos.",
+    "funFact": "Terapia cognitivo-comportamental (TCC) se concentra em identificar e modificar esses pensamentos automáticos negativos.",
+    "id": "psicologia-10",
+    "categoryId": "psicologia"
+  }
+]

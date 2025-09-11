@@ -1,0 +1,213 @@
+
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual o menor valor de nota em circulação no Brasil?",
+    "options": [
+      "R$ 1,00",
+      "R$ 2,00",
+      "R$ 5,00",
+      "R$ 10,00"
+    ],
+    "correctAnswer": "R$ 1,00",
+    "explanation": "A nota de R$ 1,00 é a menor nota em circulação atualmente.",
+    "id": "quiz-dinheiro-1",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla IOF?",
+    "options": [
+      "Imposto sobre Operações Financeiras",
+      "Imposto sobre Operações de Importação",
+      "Imposto sobre Operações de Exportação",
+      "Imposto sobre Operações de Investimento"
+    ],
+    "correctAnswer": "Imposto sobre Operações Financeiras",
+    "explanation": "IOF é a sigla para Imposto sobre Operações Financeiras, um imposto que incide sobre diversas operações financeiras.",
+    "id": "quiz-dinheiro-2",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do sistema de pagamento instantâneo do Banco Central do Brasil?",
+    "options": [
+      "PIX",
+      "TED",
+      "DOC",
+      "Visa"
+    ],
+    "correctAnswer": "PIX",
+    "explanation": "O PIX é um sistema de pagamentos instantâneos criado pelo Banco Central do Brasil.",
+    "id": "quiz-dinheiro-3",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a taxa SELIC e qual sua função principal?",
+    "options": [
+      "Taxa de juros básica da economia brasileira, utilizada como referência para outras taxas de juros.",
+      "Taxa de câmbio do dólar americano em relação ao real brasileiro.",
+      "Índice que mede a inflação no Brasil.",
+      "Taxa de juros cobrada em empréstimos internacionais pelo Brasil."
+    ],
+    "correctAnswer": "Taxa de juros básica da economia brasileira, utilizada como referência para outras taxas de juros.",
+    "explanation": "A SELIC (Sistema Especial de Liquidação e Custódia) é a taxa de juros básica da economia brasileira e serve como referência para outras taxas de juros no país.",
+    "id": "quiz-dinheiro-4",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre ações e títulos de renda fixa?",
+    "options": [
+      "Ações representam participação no capital de uma empresa, enquanto títulos de renda fixa representam um empréstimo.",
+      "Ações garantem retorno fixo, enquanto títulos de renda fixa garantem retorno variável.",
+      "Ações são mais arriscadas que títulos de renda fixa, enquanto ações são mais seguras.",
+      "Não há diferença significativa entre ações e títulos de renda fixa."
+    ],
+    "correctAnswer": "Ações representam participação no capital de uma empresa, enquanto títulos de renda fixa representam um empréstimo.",
+    "explanation": "Ações representam a propriedade de uma parte de uma empresa, enquanto títulos de renda fixa representam um empréstimo feito a uma empresa ou governo, com retorno pré-determinado.",
+    "id": "quiz-dinheiro-5",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o menor valor de uma nota de real em circulação no Brasil?",
+    "options": [
+      "R$ 2,00",
+      "R$ 5,00",
+      "R$ 10,00",
+      "R$ 20,00"
+    ],
+    "correctAnswer": "R$ 2,00",
+    "explanation": "A menor nota de real em circulação é a nota de R$ 2,00.",
+    "id": "quiz-dinheiro-6",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla 'IPCA'?",
+    "options": [
+      "Índice de Preços ao Consumidor Amplo",
+      "Índice de Preços ao Consumidor Abrangente",
+      "Índice de Preços de Construção Amplo",
+      "Índice de Preços Agrícolas do Consumidor"
+    ],
+    "correctAnswer": "Índice de Preços ao Consumidor Amplo",
+    "explanation": "O IPCA mede a inflação no Brasil, refletindo a variação dos preços de uma cesta de bens e serviços.",
+    "id": "quiz-dinheiro-7",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre ações e títulos de renda fixa?",
+    "options": [
+      "Ações representam participação em uma empresa, enquanto títulos de renda fixa são empréstimos.",
+      "Ações oferecem maior risco e potencial de retorno, enquanto títulos de renda fixa são mais conservadores.",
+      "Ações são negociadas em bolsas de valores, enquanto títulos de renda fixa não são.",
+      "Todas as alternativas estão corretas."
+    ],
+    "correctAnswer": "Todas as alternativas estão corretas.",
+    "explanation": "Ações representam a propriedade de uma parte de uma empresa e oferecem maior risco e retorno. Títulos de renda fixa são empréstimos, geralmente com retorno previsível e menor risco.",
+    "id": "quiz-dinheiro-8",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um cheque sem fundo?",
+    "options": [
+      "Um cheque emitido com valor superior ao saldo da conta.",
+      "Um cheque emitido com data futura.",
+      "Um cheque emitido em nome de pessoa jurídica.",
+      "Um cheque emitido para pagamento de serviços públicos."
+    ],
+    "correctAnswer": "Um cheque emitido com valor superior ao saldo da conta.",
+    "explanation": "Um cheque sem fundo é aquele que não pode ser pago porque o emissor não possui saldo suficiente em sua conta bancária.",
+    "id": "quiz-dinheiro-9",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas opções NÃO é uma forma de pagamento?",
+    "options": [
+      "Cartão de crédito",
+      "Pix",
+      "Bitcoin",
+      "Teletransporte"
+    ],
+    "correctAnswer": "Teletransporte",
+    "explanation": "Teletransporte é um conceito de ficção científica; as outras opções são métodos de pagamento reais.",
+    "id": "quiz-dinheiro-10",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do imposto cobrado sobre a renda das pessoas físicas?",
+    "options": [
+      "IPVA",
+      "IPTU",
+      "IRRF",
+      "ICMS"
+    ],
+    "correctAnswer": "IRRF",
+    "explanation": "O Imposto de Renda da Pessoa Física (IRRF) é cobrado anualmente sobre a renda auferida no ano anterior.",
+    "id": "quiz-dinheiro-11",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é inflação?",
+    "options": [
+      "Aumento na produção de bens e serviços",
+      "Diminuição geral dos preços de bens e serviços",
+      "Aumento geral dos preços de bens e serviços",
+      "Estabilidade nos preços de bens e serviços"
+    ],
+    "correctAnswer": "Aumento geral dos preços de bens e serviços",
+    "explanation": "Inflação é o aumento contínuo e generalizado no nível de preços de uma economia.",
+    "id": "quiz-dinheiro-12",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal objetivo de um fundo de investimento?",
+    "options": [
+      "Oferecer empréstimos para empresas",
+      "Garantir a devolução do capital investido com juros fixos",
+      "Gerar rentabilidade para os investidores",
+      "Financiar projetos de infraestrutura"
+    ],
+    "correctAnswer": "Gerar rentabilidade para os investidores",
+    "explanation": "Fundos de investimento buscam, em sua essência, aumentar o patrimônio dos investidores através da aplicação do capital em diferentes ativos.",
+    "id": "quiz-dinheiro-13",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que significa 'depreciação' no contexto financeiro?",
+    "options": [
+      "Aumento do valor de um ativo ao longo do tempo",
+      "Aumento da taxa de juros",
+      "Redução do valor de um ativo ao longo do tempo",
+      "Pagamento de dividendos aos acionistas"
+    ],
+    "correctAnswer": "Redução do valor de um ativo ao longo do tempo",
+    "explanation": "A depreciação representa a perda de valor de um bem tangível devido ao desgaste, uso ou obsolescência.",
+    "id": "quiz-dinheiro-14",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre juros simples e juros compostos?",
+    "options": [
+      "Não há diferença entre ambos",
+      "Nos juros simples, os juros são calculados apenas sobre o capital inicial, enquanto nos juros compostos, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+      "Nos juros compostos, os juros são calculados apenas sobre o capital inicial, enquanto nos juros simples, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+      "Os juros simples são mais vantajosos para o investidor"
+    ],
+    "correctAnswer": "Nos juros simples, os juros são calculados apenas sobre o capital inicial, enquanto nos juros compostos, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+    "explanation": "A principal diferença reside na base de cálculo dos juros: nos simples, apenas sobre o principal; nos compostos, sobre o principal acrescido dos juros acumulados.",
+    "id": "quiz-dinheiro-15",
+    "categoryId": "dinheiro"
+  }
+]
