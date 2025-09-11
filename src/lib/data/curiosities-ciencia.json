@@ -1,0 +1,10 @@
+
+[
+  {
+    "id": "ciencia-1",
+    "categoryId": "ciencia",
+    "title": "O Som no Espaço",
+    "content": "O espaço é um vácuo, o que significa que não há meio para as ondas sonoras se propagarem. Portanto, é completamente silencioso.",
+    "funFact": "Apesar disso, os planetas e estrelas emitem ondas de rádio que podem ser convertidas em som."
+  }
+]

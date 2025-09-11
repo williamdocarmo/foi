@@ -6,12 +6,12 @@ type QuizPageProps = {
   params: { categoryId: string };
 };
 
-export default function QuizPage({ params }: QuizPageProps) {
+export default async function QuizPage({ params }: QuizPageProps) {
   const { categoryId } = params;
   const category = getCategoryById(categoryId);
-  const questions = getQuizQuestionsByCategoryId(categoryId);
+  const questions = await getQuizQuestionsByCategoryId(categoryId);
 
-  if (!category || questions.length === 0) {
+  if (!category) {
     notFound();
   }
 

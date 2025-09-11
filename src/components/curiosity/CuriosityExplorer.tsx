@@ -1,4 +1,3 @@
-// src/components/curiosity/CuriosityExplorer.tsx
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
@@ -10,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { curiosities as allCuriosities } from "@/lib/data";
+import { getAllCuriosities } from "@/lib/data";
 import Link from "next/link";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
@@ -24,6 +23,11 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const isOnline = useOnlineStatus();
+
+  const [allCuriosities, setAllCuriosities] = useState<Curiosity[]>([]);
+  useEffect(() => {
+    getAllCuriosities().then(setAllCuriosities);
+  }, []);
 
   const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
@@ -58,13 +62,14 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   };
   
   const surpriseMe = () => {
+    if (allCuriosities.length === 0) return;
     const unreadCuriosities = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
     const pool = unreadCuriosities.length > 0 ? unreadCuriosities : allCuriosities;
     const randomCuriosity = pool[Math.floor(Math.random() * pool.length)];
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
   };
   
-  const progress = ((currentIndex + 1) / curiosities.length) * 100;
+  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
   const explorerIcons = {
     'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
@@ -72,12 +77,13 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
   };
 
-  if (!currentCuriosity) {
+  if (curiosities.length === 0) {
     return (
-        <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
-            <p className="text-muted-foreground">Parece que não há nada aqui ainda.</p>
-            <Button asChild className="mt-4">
+            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {category.name}.</p>
+             <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo usando o script de geração.</p>
+            <Button asChild className="mt-6">
                 <Link href="/">Voltar ao Início</Link>
             </Button>
         </div>
