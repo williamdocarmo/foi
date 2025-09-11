@@ -14,9 +14,9 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
   const Icon = (LucideIcons as any)[category.icon as any] as React.ElementType;
 
   return (
-    <Link href={`/curiosity/${category.id}`} className="group block">
-      <Card className="h-full transform transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl">
-        <CardContent className="flex flex-col items-center justify-center p-6 text-center">
+    <Card className="h-full transform transition-transform duration-300 ease-in-out group-hover:-translate-y-2 group-hover:shadow-2xl">
+      <CardContent className="flex flex-col items-center justify-center p-6 text-center">
+        <Link href={`/curiosity/${category.id}`} className="group block">
           <div
             className="mb-4 rounded-full p-4"
             style={{ backgroundColor: `${category.color}20` }}
@@ -25,12 +25,12 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
           </div>
           <h3 className="font-headline text-xl font-bold">{category.name}</h3>
           <p className="mt-2 text-sm text-muted-foreground">{category.description}</p>
-          <Button variant="outline" size="sm" asChild className="mt-4">
-            <Link href={`/quiz/${category.id}`}>Iniciar Quiz</Link>
-          </Button>
-        </CardContent>
-      </Card>
-    </Link>
+        </Link>
+        <Button variant="outline" size="sm" asChild className="mt-4">
+          <Link href={`/quiz/${category.id}`}>Iniciar Quiz</Link>
+        </Button>
+      </CardContent>
+    </Card>
   );
 }
 
