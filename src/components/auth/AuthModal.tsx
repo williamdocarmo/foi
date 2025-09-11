@@ -59,6 +59,10 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     }
     setIsLoading(true);
     const provider = new GoogleAuthProvider();
+    provider.setCustomParameters({
+      'auth_domain': 'app.foiumaideia.com'
+    });
+
     try {
       await signInWithPopup(auth, provider);
       toast({
@@ -118,6 +122,8 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
             message = 'A senha deve ter pelo menos 6 caracteres.'
         } else if (error.code === 'auth/email-already-in-use') {
              message = 'Este e-mail já está em uso por outra conta.'
+        } else if (error.code === 'auth/unauthorized-domain') {
+             message = 'O domínio do aplicativo não está autorizado. Verifique a configuração no Firebase.'
         }
         toast({
             title: 'Erro de Autenticação',
