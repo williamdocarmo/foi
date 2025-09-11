@@ -1,19 +1,17 @@
 // src/components/curiosity/CuriosityExplorer.tsx
 "use client";
 
-import { useState, useEffect, useMemo, useTransition } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Bot, WifiOff } from "lucide-react";
+import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { curiosities as allCuriosities } from "@/lib/data";
-import { generateAICuriosity } from "@/ai/flows/ai-generated-curiosity";
-import { useToast } from "@/hooks/use-toast";
-import { useOnlineStatus } from "@/hooks/useOnlineStatus";
+import Link from "next/link";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -21,22 +19,18 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
-export default function CuriosityExplorer({ category, curiosities: initialCuriosities, initialCuriosityId }: CuriosityExplorerProps) {
+export default function CuriosityExplorer({ category, curiosities, initialCuriosityId }: CuriosityExplorerProps) {
   const router = useRouter();
-  const { toast } = useToast();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
-  const [isPending, startTransition] = useTransition();
-  const isOnline = useOnlineStatus();
-
-  const [curiosities, setCuriosities] = useState<Curiosity[]>(initialCuriosities);
 
   const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
       const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
-    return 0;
-  }, [initialCuriosityId, curiosities]);
+    const lastReadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    return lastReadIndex !== -1 ? lastReadIndex : 0;
+  }, [initialCuriosityId, curiosities, stats.readCuriosities]);
   
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
 
@@ -48,12 +42,6 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
       markCuriosityAsRead(currentCuriosity.id);
     }
   }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
-
-  useEffect(() => {
-    // When the user comes back online, we might want to allow generation
-    // This effect doesn't need to do anything, but it makes the component re-render
-    // when isOnline changes, which is what we want.
-  }, [isOnline]);
 
   const goToNext = () => {
     if (currentIndex < curiosities.length - 1) {
@@ -74,32 +62,6 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
   };
   
-  const handleGenerateCuriosity = () => {
-    startTransition(async () => {
-      try {
-        const result = await generateAICuriosity({ categoryId: category.id, categoryName: category.name });
-        const newCuriosity: Curiosity = {
-          id: `ai-${category.id}-${Date.now()}`,
-          categoryId: category.id,
-          title: result.title,
-          content: result.content,
-          funFact: result.funFact,
-          isNew: true, // Flag to indicate it's a new one for animation
-        };
-        setCuriosities(prev => [...prev, newCuriosity]);
-        // Automatically move to the newly generated curiosity
-        setCurrentIndex(curiosities.length);
-      } catch (error) {
-        console.error("Failed to generate AI curiosity:", error);
-        toast({
-          title: "Erro ao gerar curiosidade",
-          description: "Não foi possível criar uma nova curiosidade. Por favor, tente novamente.",
-          variant: "destructive",
-        });
-      }
-    });
-  };
-
   const progress = ((currentIndex + 1) / curiosities.length) * 100;
   
   const explorerIcons = {
@@ -112,7 +74,7 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
     <div className="flex flex-col gap-8">
       <Card
         key={currentCuriosity.id}
-        className={`overflow-hidden shadow-2xl ${currentCuriosity.isNew ? 'animate-slide-in-up' : ''}`}
+        className="overflow-hidden shadow-2xl"
         style={{ borderLeft: `5px solid ${category.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
@@ -147,15 +109,9 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
           {isLastCuriosity ? (
-            isOnline ? (
-              <Button onClick={handleGenerateCuriosity} disabled={isPending}>
-                {isPending ? "Gerando..." : <>Gerar com IA <Bot className="ml-2 h-4 w-4" /></>}
-              </Button>
-            ) : (
-              <Button disabled>
-                Fim da categoria (offline) <WifiOff className="ml-2 h-4 w-4" />
-              </Button>
-            )
+            <Button asChild>
+                <Link href="/">Voltar ao Início</Link>
+            </Button>
           ) : (
             <Button onClick={goToNext}>
               Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
