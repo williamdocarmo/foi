@@ -16,6 +16,8 @@ import {
 } from 'firebase/auth';
 import { Separator } from '../ui/separator';
 import { Mail, Key, User } from 'lucide-react';
+import { Checkbox } from '../ui/checkbox';
+import Link from 'next/link';
 
 type AuthModalProps = {
   isOpen: boolean;
@@ -47,9 +49,15 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
   const { toast } = useToast();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [agreed, setAgreed] = useState(false);
+  const [isCreatingAccount, setIsCreatingAccount] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleGoogleSignIn = async () => {
+    if (!agreed) {
+        toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
+        return;
+    }
     setIsLoading(true);
     const provider = new GoogleAuthProvider();
     try {
@@ -71,7 +79,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     }
   };
   
-  const handleEmailSignIn = async (e: React.FormEvent) => {
+  const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !password) {
         toast({ title: 'Erro', description: 'Por favor, preencha e-mail e senha.', variant: 'destructive'});
@@ -80,6 +88,8 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     setIsLoading(true);
     try {
         const methods = await fetchSignInMethodsForEmail(auth, email);
+        setIsCreatingAccount(methods.length === 0);
+
         if (methods.length > 0) {
             // Email exists, try to sign in
             await signInWithEmailAndPassword(auth, email, password);
@@ -88,6 +98,11 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                 description: 'Login realizado com sucesso.',
             });
         } else {
+             if (!agreed) {
+                toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
+                setIsLoading(false);
+                return;
+            }
             // Email does not exist, create a new account
             await createUserWithEmailAndPassword(auth, email, password);
              toast({
@@ -119,9 +134,9 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-center text-2xl font-headline">Acesse sua Conta</DialogTitle>
+          <DialogTitle className="text-center text-2xl font-headline">Acesse ou Crie sua Conta</DialogTitle>
           <DialogDescription className="text-center">
-            Salve seu progresso e continue sua jornada de aprendizado em qualquer dispositivo.
+            O progresso é salvo no seu navegador. Crie uma conta para sincronizar entre dispositivos.
           </DialogDescription>
         </DialogHeader>
         
@@ -137,7 +152,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                 </div>
             </div>
 
-            <form onSubmit={handleEmailSignIn} className="space-y-4">
+            <form onSubmit={handleEmailAuth} className="space-y-4">
                 <div className="grid w-full items-center gap-1.5">
                     <Label htmlFor="email"><Mail className='inline-block mr-1'/> E-mail</Label>
                     <Input 
@@ -163,6 +178,22 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                         disabled={isLoading}
                     />
                 </div>
+                
+                 <div className="items-top flex space-x-2">
+                    <Checkbox id="terms" checked={agreed} onCheckedChange={(checked) => setAgreed(checked as boolean)} />
+                    <div className="grid gap-1.5 leading-none">
+                        <label
+                        htmlFor="terms"
+                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                        Li e concordo com os Termos de Uso
+                        </label>
+                        <p className="text-sm text-muted-foreground">
+                        Você pode ver os termos de uso <Link href="/terms" className="underline">aqui</Link>.
+                        </p>
+                    </div>
+                 </div>
+                
                 <Button type="submit" className="w-full" disabled={isLoading}>
                    {isLoading ? 'Verificando...' : <><User className='mr-2'/> Entrar ou Criar Conta</>}
                 </Button>
