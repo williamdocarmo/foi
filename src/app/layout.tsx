@@ -3,6 +3,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import AppHeader from '@/components/layout/AppHeader';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 const APP_NAME = "Você sabia?";
 const APP_DESCRIPTION = "Um jogo educativo de curiosidades e quiz que funciona offline.";
@@ -48,9 +49,11 @@ export default function RootLayout({
           'flex flex-col'
         )}
       >
-        <AppHeader />
-        <main className="flex-1">{children}</main>
-        <Toaster />
+        <TooltipProvider delayDuration={0}>
+          <AppHeader />
+          <main className="flex-1">{children}</main>
+          <Toaster />
+        </TooltipProvider>
       </body>
     </html>
   );

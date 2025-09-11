@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { GameStats } from '@/lib/types';
 import { isToday, isYesterday } from 'date-fns';
 import { auth, db } from '@/lib/firebase';
-import { onAuthStateChanged } from 'firebase/auth';
+import { onAuthStateChanged, User } from 'firebase/auth';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 const LOCAL_GAME_STATS_KEY = 'idea-spark-stats';
@@ -23,54 +23,74 @@ const defaultStats: GameStats = {
 export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [userId, setUserId] = useState<string | null>(null);
+  const [user, setUser] = useState<User | null>(null);
 
-  const loadStats = useCallback(async (uid: string | null) => {
+  const syncStats = useCallback(async (uid: string, localStats: GameStats) => {
+    const docRef = doc(db, 'userStats', uid);
+    const docSnap = await getDoc(docRef);
+    let cloudStats: GameStats | null = null;
+  
+    if (docSnap.exists()) {
+      cloudStats = docSnap.data() as GameStats;
+    }
+  
+    // Merge logic: Local stats are usually more up-to-date.
+    // We prioritize local stats but take the longest streak from cloud if it's higher.
+    const mergedStats: GameStats = {
+      ...defaultStats, // ensure all keys are present
+      ...cloudStats,
+      ...localStats,
+      longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
+      // Simple merge for quiz scores - could be more sophisticated
+      quizScores: {...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {})},
+      // Ensure readCuriosities is a merged, unique list
+      readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])]
+    };
+
+    mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
+  
+    await setDoc(docRef, mergedStats, { merge: true });
+    return mergedStats;
+  }, []);
+
+  const loadStats = useCallback(async (authedUser: User | null) => {
+    setIsLoaded(false);
     try {
-      if (uid) {
-        // User is logged in, load from Firestore
-        const docRef = doc(db, 'userStats', uid);
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          const cloudStats = docSnap.data() as GameStats;
-          setStats(processDateLogic(cloudStats));
-        } else {
-          // No stats in Firestore, check local storage and migrate
-          const localStats = loadLocalStats();
-          const migratedStats = { ...localStats, currentStreak: 1, lastPlayedDate: new Date().toISOString() };
-          setStats(migratedStats);
-          await setDoc(docRef, migratedStats);
-        }
+      const localStats = loadLocalStats();
+      if (authedUser) {
+        const finalStats = await syncStats(authedUser.uid, localStats);
+        setStats(processDateLogic(finalStats));
+        localStorage.removeItem(LOCAL_GAME_STATS_KEY); // Clear local after migrating
       } else {
-        // User is not logged in, load from local storage
-        setStats(loadLocalStats());
+        setStats(localStats);
       }
     } catch (error) {
       console.error("Failed to load game stats:", error);
-      setStats(loadLocalStats());
+      setStats(loadLocalStats()); // Fallback to local
     } finally {
       setIsLoaded(true);
     }
-  }, []);
+  }, [syncStats]);
+
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      const newUserId = user ? user.uid : null;
-      setUserId(newUserId);
-      loadStats(newUserId);
+    const unsubscribe = onAuthStateChanged(auth, (authedUser) => {
+      setUser(authedUser);
+      loadStats(authedUser);
     });
     return () => unsubscribe();
   }, [loadStats]);
 
   const processDateLogic = (statsToProcess: GameStats): GameStats => {
     const today = new Date();
-    if (statsToProcess.lastPlayedDate) {
-      const lastPlayed = new Date(statsToProcess.lastPlayedDate);
+    const newStats = {...statsToProcess};
+    if (newStats.lastPlayedDate) {
+      const lastPlayed = new Date(newStats.lastPlayedDate);
       if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
-        statsToProcess.currentStreak = 0; // Reset streak
+        newStats.currentStreak = 0; // Reset streak
       }
     }
-    return statsToProcess;
+    return newStats;
   };
 
   const loadLocalStats = (): GameStats => {
@@ -82,23 +102,37 @@ export function useGameStats() {
     } catch (error) {
       console.error("Failed to load local game stats:", error);
     }
-    return { ...defaultStats, currentStreak: 1, lastPlayedDate: new Date().toISOString() };
+    // Initialize first-time players with a streak and last played date
+    return { ...defaultStats, currentStreak: 0, lastPlayedDate: null };
   };
 
   const updateStats = useCallback(async (newStats: Partial<GameStats>) => {
-    const updated = { ...stats, ...newStats };
-    setStats(updated);
+    setStats(prevStats => {
+      const updated = { ...prevStats, ...newStats };
+      
+      // Save stats
+      (async () => {
+        try {
+          if (user) {
+            const userRef = doc(db, 'userStats', user.uid);
+            // Also save user's display name and photo for the ranking
+            const dataToSave = {
+              ...updated,
+              displayName: user.displayName || user.email?.split('@')[0],
+              photoURL: user.photoURL
+            };
+            await setDoc(userRef, dataToSave, { merge: true });
+          } else {
+            localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(updated));
+          }
+        } catch (error) {
+          console.error("Failed to save game stats:", error);
+        }
+      })();
 
-    try {
-      if (userId) {
-        await setDoc(doc(db, 'userStats', userId), updated, { merge: true });
-      } else {
-        localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(updated));
-      }
-    } catch (error) {
-      console.error("Failed to save game stats:", error);
-    }
-  }, [stats, userId]);
+      return updated;
+    });
+  }, [user]);
 
   const markCuriosityAsRead = useCallback((curiosityId: string) => {
     if (stats.readCuriosities.includes(curiosityId)) {
@@ -110,19 +144,21 @@ export function useGameStats() {
     
     const today = new Date();
     let newCurrentStreak = stats.currentStreak;
-    if (!stats.lastPlayedDate || !isToday(new Date(stats.lastPlayedDate))) {
-      if (stats.lastPlayedDate && isYesterday(new Date(stats.lastPlayedDate))) {
-        newCurrentStreak += 1;
-      } else {
-        newCurrentStreak = 1;
-      }
+    let newLastPlayed = stats.lastPlayedDate ? new Date(stats.lastPlayedDate) : null;
+    
+    if (!newLastPlayed || !isToday(newLastPlayed)) {
+       if (newLastPlayed && isYesterday(newLastPlayed)) {
+         newCurrentStreak += 1;
+       } else {
+         newCurrentStreak = 1;
+       }
     }
 
     const newLongestStreak = Math.max(stats.longestStreak, newCurrentStreak);
     
     let newExplorerStatus: GameStats['explorerStatus'] = 'Iniciante';
-    if (newTotalRead > 50) newExplorerStatus = 'Expert';
-    else if (newTotalRead > 10) newExplorerStatus = 'Explorador';
+    if (newTotalRead >= 50) newExplorerStatus = 'Expert';
+    else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
 
     const newCombos = Math.floor(newTotalRead / 5);
 
@@ -146,5 +182,5 @@ export function useGameStats() {
     updateStats({ quizScores: newScores });
   }, [stats.quizScores, updateStats]);
 
-  return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user: auth.currentUser };
+  return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user };
 }

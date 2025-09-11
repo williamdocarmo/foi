@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Lightbulb, BookOpen, Flame, Trophy, LogIn, LogOut, User } from 'lucide-react';
+import { Lightbulb, BookOpen, Flame, Trophy, LogIn, LogOut, User, BarChart } from 'lucide-react';
 import { useGameStats } from '@/hooks/useGameStats';
 import OfflineIndicator from '@/components/shared/OfflineIndicator';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { Button } from '@/components/ui/button';
 import AuthModal from '@/components/auth/AuthModal';
 import { auth } from '@/lib/firebase';
@@ -53,7 +53,6 @@ export default function AppHeader() {
           </Link>
           
           <div className="flex flex-1 items-center justify-end space-x-2 md:space-x-4">
-            <TooltipProvider delayDuration={0}>
               <div className="flex items-center space-x-2 md:space-x-4 text-sm font-medium text-muted-foreground">
                 {isLoaded ? (
                   <>
@@ -79,23 +78,34 @@ export default function AppHeader() {
                     
                      <Tooltip>
                       <TooltipTrigger asChild>
-                        <Link href="/profile" className="flex items-center gap-1">
+                        <Link href="/profile" className="flex items-center gap-1 hover:text-foreground">
                           <Trophy className="h-4 w-4 text-yellow-500" />
                           <span className='hidden sm:inline-block'>Conquistas</span>
                         </Link>
                       </TooltipTrigger>
                       <TooltipContent>Ver Conquistas e Perfil</TooltipContent>
                     </Tooltip>
+
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <Link href="/ranking" className="flex items-center gap-1 hover:text-foreground">
+                          <BarChart className="h-4 w-4 text-blue-500" />
+                          <span className='hidden sm:inline-block'>Ranking</span>
+                        </Link>
+                      </TooltipTrigger>
+                      <TooltipContent>Ver Ranking de Jogadores</TooltipContent>
+                    </Tooltip>
+
                   </>
                 ) : (
                   <>
                     <Skeleton className="h-5 w-8" />
                     <Skeleton className="h-5 w-8" />
                     <Skeleton className="h-5 w-20" />
+                     <Skeleton className="h-5 w-20" />
                   </>
                 )}
               </div>
-            </TooltipProvider>
 
             <OfflineIndicator />
 
@@ -122,6 +132,12 @@ export default function AppHeader() {
                        <Link href="/profile">
                          <Trophy className="mr-2 h-4 w-4" />
                          <span>Minhas Conquistas</span>
+                       </Link>
+                    </DropdownMenuItem>
+                     <DropdownMenuItem asChild>
+                       <Link href="/ranking">
+                         <BarChart className="mr-2 h-4 w-4" />
+                         <span>Ranking Global</span>
                        </Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />

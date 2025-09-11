@@ -1,4 +1,6 @@
 import ProfileClient from '@/components/profile/ProfileClient';
+import { ShareButton } from '@/components/profile/ShareButton';
+import { Card, CardContent } from '@/components/ui/card';
 
 export default function ProfilePage() {
 
@@ -9,6 +11,13 @@ export default function ProfilePage() {
             <p className="text-muted-foreground mt-2">Acompanhe sua jornada de conhecimento e suas conquistas!</p>
         </div>
         <ProfileClient />
+        <Card className="mt-6">
+          <CardContent className="p-6 text-center">
+            <h3 className="font-headline text-xl font-bold">Gostando do Desafio?</h3>
+            <p className="text-muted-foreground mt-2 mb-4">Compartilhe com seus amigos e veja quem sabe mais!</p>
+            <ShareButton />
+          </CardContent>
+        </Card>
     </div>
   );
 }
