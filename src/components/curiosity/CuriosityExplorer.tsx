@@ -139,7 +139,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
       
       <div className="flex justify-center">
          <Button variant="ghost" onClick={surpriseMe}>
-            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me!
+            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me com uma curiosidade aleatória
          </Button>
       </div>
 

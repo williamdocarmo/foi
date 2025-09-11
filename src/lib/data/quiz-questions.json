@@ -1049,5 +1049,75 @@
     ],
     "correctAnswer": "Itália",
     "explanation": "A Torre Inclinada de Pisa é o campanário da catedral da cidade italiana de Pisa."
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a principal premissa da teoria do Big Bang?",
+    "options": [
+      "O universo está encolhendo",
+      "O universo sempre existiu em seu estado atual",
+      "O universo começou a partir de um ponto extremamente quente e denso",
+      "O universo é estático e imutável"
+    ],
+    "correctAnswer": "O universo começou a partir de um ponto extremamente quente e denso",
+    "explanation": "A teoria do Big Bang postula que o universo se expandiu a partir de um estado inicial de altíssima densidade e temperatura.",
+    "id": "quiz-filosofia-156",
+    "categoryId": "filosofia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é 'solipsismo' na filosofia?",
+    "options": [
+      "A crença de que apenas a própria mente tem certeza de existir",
+      "A crença de que tudo é matéria",
+      "A teoria de que o conhecimento vem apenas da experiência",
+      "A ideia de que a moralidade é relativa"
+    ],
+    "correctAnswer": "A crença de que apenas a própria mente tem certeza de existir",
+    "explanation": "O solipsismo é a visão filosófica de que apenas a própria consciência é real e que o mundo externo e outras mentes não podem ser conhecidos e podem não existir.",
+    "id": "quiz-filosofia-157",
+    "categoryId": "filosofia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Na filosofia de Aristóteles, qual é a 'causa final' de um objeto?",
+    "options": [
+      "O material do qual é feito",
+      "A forma ou o design do objeto",
+      "O agente que o criou",
+      "O propósito ou a razão de sua existência"
+    ],
+    "correctAnswer": "O propósito ou a razão de sua existência",
+    "explanation": "Aristóteles descreveu quatro causas. A 'causa final' (telos) é o propósito ou o fim para o qual algo é feito, sua razão de ser.",
+    "id": "quiz-filosofia-158",
+    "categoryId": "filosofia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que René Descartes quis dizer com a frase 'Penso, logo existo' (Cogito, ergo sum)?",
+    "options": [
+      "Que pensar é a única atividade que importa",
+      "Que a existência é puramente mental",
+      "Que o próprio ato de duvidar de sua existência prova que você existe para duvidar",
+      "Que apenas pessoas inteligentes existem"
+    ],
+    "correctAnswer": "Que o próprio ato de duvidar de sua existência prova que você existe para duvidar",
+    "explanation": "Descartes usou essa frase como seu primeiro princípio indubitável. Ele percebeu que, mesmo que pudesse duvidar de tudo, não poderia duvidar de que ele, como um ser pensante, existia.",
+    "id": "quiz-filosofia-159",
+    "categoryId": "filosofia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual filósofo é mais associado ao conceito de 'o contrato social'?",
+    "options": [
+      "Platão",
+      "Aristóteles",
+      "Jean-Jacques Rousseau",
+      "Nietzsche"
+    ],
+    "correctAnswer": "Jean-Jacques Rousseau",
+    "explanation": "Embora outros tenham discutido a ideia, Rousseau é um dos mais famosos teóricos do contrato social, argumentando que as pessoas voluntariamente cedem algumas liberdades individuais em troca da proteção do estado.",
+    "id": "quiz-filosofia-160",
+    "categoryId": "filosofia"
   }
 ]

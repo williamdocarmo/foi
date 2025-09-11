@@ -1273,7 +1273,40 @@
     "title": "Por que 'Smells Like Teen Spirit'?",
     "content": "O título do maior sucesso do Nirvana, 'Smells Like Teen Spirit', veio de uma pichação que a amiga de Kurt Cobain, Kathleen Hanna, escreveu na parede de seu quarto: 'Kurt smells like Teen Spirit'. Ela se referia a uma marca de desodorante feminino popular na época, usada pela então namorada de Cobain.",
     "funFact": "Kurt Cobain só descobriu que 'Teen Spirit' era uma marca de desodorante meses depois que a música já era um sucesso mundial."
+  },
+  {
+    "title": "O Paradoxo do Navio de Teseu",
+    "content": "Se um navio tem todas as suas peças de madeira substituídas ao longo do tempo, ele ainda é o mesmo navio? Este antigo paradoxo filosófico questiona a natureza da identidade e da mudança.",
+    "funFact": "Não há uma resposta única para o paradoxo, e ele continua a ser debatido por filósofos até hoje.",
+    "id": "filosofia-151",
+    "categoryId": "filosofia"
+  },
+  {
+    "title": "O Mito da Caverna de Platão",
+    "content": "Platão descreveu prisioneiros em uma caverna que só veem sombras projetadas na parede, acreditando que elas são a realidade. A filosofia é o processo de sair da caverna para ver o mundo real (o mundo das ideias).",
+    "funFact": "Essa alegoria é uma das mais famosas da filosofia ocidental e explora a diferença entre percepção e realidade.",
+    "id": "filosofia-152",
+    "categoryId": "filosofia"
+  },
+  {
+    "title": "O Imperativo Categórico de Kant",
+    "content": "Immanuel Kant propôs que as ações morais devem seguir regras universais. O imperativo categórico diz: 'Aja apenas de acordo com aquela máxima pela qual você pode, ao mesmo tempo, querer que ela se torne uma lei universal'.",
+    "funFact": "Isso significa que, para uma ação ser moral, ela deve ser aplicável a todos, em todas as situações, sem contradição.",
+    "id": "filosofia-153",
+    "categoryId": "filosofia"
+  },
+  {
+    "title": "O Existencialismo de Sartre",
+    "content": "Jean-Paul Sartre argumentou que 'a existência precede a essência'. Isso significa que nascemos sem um propósito definido e somos 'condenados a ser livres' para criar nosso próprio significado e valores através de nossas escolhas.",
+    "funFact": "Sartre recusou o Prêmio Nobel de Literatura em 1964, afirmando que um escritor não deveria se permitir ser transformado em uma instituição.",
+    "id": "filosofia-154",
+    "categoryId": "filosofia"
+  },
+  {
+    "title": "O Super-Homem de Nietzsche",
+    "content": "Friedrich Nietzsche introduziu o conceito do 'Übermensch' (Super-Homem ou Além-do-Homem), um indivíduo que supera a moralidade tradicional para criar seus próprios valores e viver a vida em seu máximo potencial criativo.",
+    "funFact": "O conceito foi frequentemente mal interpretado, especialmente pelo regime nazista, contra a vontade de Nietzsche.",
+    "id": "filosofia-155",
+    "categoryId": "filosofia"
   }
 ]
-
-    

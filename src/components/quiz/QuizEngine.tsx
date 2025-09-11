@@ -15,7 +15,7 @@ type QuizEngineProps = {
   questions: QuizQuestion[];
 };
 
-const QUESTION_TIME = 15; // 15 seconds per question
+const QUESTION_TIME = 20; // 20 seconds per question
 
 export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [gameState, setGameState] = useState<'playing' | 'finished'>('playing');

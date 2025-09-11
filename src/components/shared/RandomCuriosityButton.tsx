@@ -28,7 +28,7 @@ export function RandomCuriosityButton() {
       disabled={allCuriosities.length === 0}
     >
       <Sparkles className="mr-2 h-5 w-5" />
-      Surpreenda-me!
+      Surpreenda-me com uma curiosidade aleatória
     </Button>
   );
 }
