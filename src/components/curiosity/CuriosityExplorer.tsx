@@ -12,6 +12,7 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { curiosities as allCuriosities } from "@/lib/data";
 import Link from "next/link";
+import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -22,6 +23,7 @@ type CuriosityExplorerProps = {
 export default function CuriosityExplorer({ category, curiosities, initialCuriosityId }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
+  const isOnline = useOnlineStatus();
 
   const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
@@ -33,7 +35,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   }, [initialCuriosityId, curiosities, stats.readCuriosities]);
   
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
-
+  
   const currentCuriosity = curiosities[currentIndex];
   const isLastCuriosity = currentIndex === curiosities.length - 1;
 
@@ -69,6 +71,18 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
     'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
   };
+
+  if (!currentCuriosity) {
+    return (
+        <div className="flex flex-col items-center justify-center text-center">
+            <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
+            <p className="text-muted-foreground">Parece que não há nada aqui ainda.</p>
+            <Button asChild className="mt-4">
+                <Link href="/">Voltar ao Início</Link>
+            </Button>
+        </div>
+    );
+  }
 
   return (
     <div className="flex flex-col gap-8">
