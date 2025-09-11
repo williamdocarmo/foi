@@ -1177,6 +1177,8 @@
     "categoryId": "filosofia"
   },
   {
+    "id": "quiz-filosofia-160",
+    "categoryId": "filosofia",
     "difficulty": "easy",
     "question": "Qual filósofo é mais associado ao conceito de 'o contrato social'?",
     "options": [
@@ -1186,10 +1188,9 @@
       "Nietzsche"
     ],
     "correctAnswer": "Jean-Jacques Rousseau",
-    "explanation": "Embora outros tenham discutido a ideia, Rousseau é um dos mais famosos teóricos do contrato social, argumentando que as pessoas voluntariamente cedem algumas liberdades individuais em troca da proteção do estado.",
-    "id": "quiz-filosofia-160",
-    "categoryId": "filosofia"
+    "explanation": "Embora outros tenham discutido a ideia, Rousseau é um dos mais famosos teóricos do contrato social, argumentando que as pessoas voluntariamente cedem algumas liberdades individuais em troca da proteção do estado."
   }
 ]
+
 
     

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
@@ -58,13 +58,26 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     }
   };
   
-  const surpriseMe = () => {
-    if (allCuriosities.length === 0) return;
-    const unreadCuriosities = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
-    const pool = unreadCuriosities.length > 0 ? unreadCuriosities : allCuriosities;
+  const surpriseMe = useCallback(() => {
+    if (allCuriosities.length <= 1) return;
+  
+    // Filter out the current curiosity to avoid selecting it again
+    const filteredCuriosities = allCuriosities.filter(c => c.id !== currentCuriosity.id);
+    
+    // Prefer unread curiosities from the filtered list
+    const unreadCuriosities = filteredCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
+    
+    const pool = unreadCuriosities.length > 0 ? unreadCuriosities : filteredCuriosities;
+    
     const randomCuriosity = pool[Math.floor(Math.random() * pool.length)];
+    
+    // Navigate to the new curiosity's category page
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
-  };
+    
+    // If we are already on the correct category page, we might need to manually update the state
+    // For simplicity, the navigation handles the state refresh.
+  
+  }, [allCuriosities, stats.readCuriosities, router, currentCuriosity?.id]);
   
   const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
@@ -74,7 +87,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
   };
 
-  if (curiosities.length === 0) {
+  if (!currentCuriosity) {
     return (
         <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
@@ -91,7 +104,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     <div className="flex flex-col gap-8">
       <Card
         key={currentCuriosity.id}
-        className="overflow-hidden shadow-2xl"
+        className="overflow-hidden shadow-2xl animate-slide-in-up"
         style={{ borderLeft: `5px solid ${category.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
@@ -173,3 +186,5 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     </div>
   );
 }
+
+    

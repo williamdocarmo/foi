@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import type { Category, QuizQuestion } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,22 +25,24 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
   const [isAnswered, setIsAnswered] = useState(false);
   const [totalTime, setTotalTime] = useState(0);
+  const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
   
   const { addQuizResult } = useGameStats();
 
-  const currentQuestion = questions[currentQuestionIndex];
+  const shuffledQuestions = useMemo(() => questions.sort(() => Math.random() - 0.5), [questions]);
+  const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
   const handleNextQuestion = useCallback(() => {
     setIsAnswered(false);
     setSelectedAnswer(null);
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < shuffledQuestions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
       setTimeLeft(QUESTION_TIME);
     } else {
       setGameState('finished');
       addQuizResult(category.id, score);
     }
-  }, [currentQuestionIndex, questions.length, category.id, score, addQuizResult]);
+  }, [currentQuestionIndex, shuffledQuestions.length, category.id, score, addQuizResult]);
 
   useEffect(() => {
     if (gameState !== 'playing' || isAnswered) return;
@@ -70,6 +72,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
 
     if (option === currentQuestion.correctAnswer) {
       setScore(prev => prev + 10 + timeLeft); // Score based on correctness and time
+      setCorrectAnswersCount(prev => prev + 1);
     }
 
     setTimeout(handleNextQuestion, 2000);
@@ -83,18 +86,12 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setTimeLeft(QUESTION_TIME);
     setIsAnswered(false);
     setTotalTime(0);
+    setCorrectAnswersCount(0);
   }
 
   if (gameState === 'finished') {
-    const accuracy = (score > 0 ? (score - (questions.length * timeLeft)) / (questions.length * 10) * 100 : 0);
-    const correctAnswers = questions.reduce((acc, q, i) => {
-        // This is a simplified calculation for correct answers based on a base score.
-        // A more robust system would store which answers were correct.
-        return acc + (score > (i * 10) ? 1 : 0);
-    }, 0);
-    
     return (
-        <Card className="w-full max-w-lg text-center">
+        <Card className="w-full max-w-lg text-center animate-bounce-in">
             <CardHeader>
                 <CardTitle className="flex items-center justify-center gap-2 font-headline text-3xl">
                     <Award className="h-8 w-8 text-accent"/>
@@ -111,7 +108,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                      <div className="flex items-center gap-2 rounded-lg bg-muted p-4">
                         <Target className="h-6 w-6 text-green-500" />
                         <div>
-                            <p className="font-bold">{correctAnswers} / {questions.length}</p>
+                            <p className="font-bold">{correctAnswersCount} / {shuffledQuestions.length}</p>
                             <p className="text-sm text-muted-foreground">Acertos</p>
                         </div>
                     </div>
@@ -151,8 +148,8 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                 <span>{timeLeft}</span>
             </div>
         </div>
-        <Progress value={(currentQuestionIndex / questions.length) * 100} className="mt-2" />
-        <CardDescription className="pt-2 text-center">Pergunta {currentQuestionIndex + 1} de {questions.length}</CardDescription>
+        <Progress value={( (currentQuestionIndex + 1) / shuffledQuestions.length) * 100} className="mt-2" />
+        <CardDescription className="pt-2 text-center">Pergunta {currentQuestionIndex + 1} de {shuffledQuestions.length}</CardDescription>
       </CardHeader>
       <CardContent className="p-6 text-center">
         <p className="mb-8 text-xl font-semibold">{currentQuestion.question}</p>
@@ -166,8 +163,8 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                 key={option}
                 variant="outline"
                 size="lg"
-                className={cn("h-auto min-h-[4rem] justify-start whitespace-normal text-left",
-                    isAnswered && isCorrect && "border-green-500 bg-green-500/10 text-green-700",
+                className={cn("h-auto min-h-[4rem] justify-start whitespace-normal text-left transition-all duration-300",
+                    isAnswered && isCorrect && "border-green-500 bg-green-500/10 text-green-700 transform scale-105",
                     isAnswered && isWrong && "border-destructive bg-destructive/10 text-destructive",
                 )}
                 onClick={() => handleAnswerSelect(option)}
@@ -183,7 +180,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           })}
         </div>
          {isAnswered && (
-             <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground">
+             <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground animate-fade-in">
                  <p><span className="font-bold">Explicação:</span> {currentQuestion.explanation}</p>
             </div>
          )}
@@ -191,3 +188,5 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     </Card>
   );
 }
+
+    
