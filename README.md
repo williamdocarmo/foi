@@ -13,15 +13,21 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
 3.  **Git:** É o sistema de controle de versão usado para gerenciar o histórico do código e para fazer o deploy em plataformas como a Vercel.
     *   Você pode baixar em [git-scm.com](https://git-scm.com/).
 4.  **Java Development Kit (JDK):** Necessário para a ferramenta `bubblewrap` funcionar e gerar o pacote do aplicativo Android.
-    *   O Bubblewrap pode instalar uma versão própria, mas ter o JDK (versão 11 ou superior) pré-instalado pode ajudar.
+    *   O Bubblewrap pode instalar uma versão própria, mas ter o JDK (versão 11 ou superior) pré-instalado pode ajudar a evitar problemas.
 
 ## ⚙️ Rodando o Projeto Localmente
 
-1.  **Instale as dependências:**
+1.  **Crie o arquivo de ambiente:**
+    Copie o exemplo `.env.example` para um novo arquivo chamado `.env` e preencha com sua chave de API do Google Gemini.
+    ```bash
+    cp .env.example .env
+    ```
+
+2.  **Instale as dependências:**
     ```bash
     npm install
     ```
-2.  **Inicie o servidor de desenvolvimento:**
+3.  **Inicie o servidor de desenvolvimento:**
     ```bash
     npm run dev
     ```
@@ -60,42 +66,36 @@ A Vercel se conecta ao seu repositório Git para automatizar o processo de deplo
     *   Adicione uma variável com o nome: `GEMINI_API_KEY`.
     *   No campo de valor, cole a sua chave da API do Google Gemini.
 5.  Clique em **"Deploy"**. A Vercel irá construir e publicar seu site.
-6.  Ao final, você receberá uma URL pública, como `https://app.foiumaideia.com`. **Esta é a sua URL de produção!** Guarde-a para o próximo passo.
+6.  Ao final, você receberá uma URL pública, como `https://voce-sabia-app-seunome.vercel.app`. **Guarde esta é a sua URL de produção!** Ela será usada no próximo passo. Para um domínio mais profissional como `app.foiumaideia.com`, você pode configurar um domínio personalizado nas configurações do projeto na Vercel.
 
 ---
 
 ## 📦 Gerando o App para Android (Google Play Store)
 
-Com sua URL de produção da Vercel em mãos (`https://app.foiumaideia.com`), você pode usar a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
+Com sua URL de produção em mãos (`https://app.foiumaideia.com` ou a URL da Vercel), você pode usar a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
 
-### Passo 1: Construir a Versão de Produção do App
-
-Antes de empacotar, você precisa ter a versão final do site construída localmente.
+### Passo 1: Instalar o Bubblewrap
 
 ```bash
-npm run build
+npm install -g @bubblewrap/cli
 ```
 
 ### Passo 2: Empacotar com o Bubblewrap
 
-1.  **Instale o Bubblewrap globalmente (se ainda não o fez):**
-    ```bash
-    npm install -g @bubblewrap/cli
-    ```
-
-2.  **Inicialize o Projeto Bubblewrap:**
+1.  **Inicialize o Projeto Bubblewrap:**
     Rode o comando de inicialização usando a sua URL de produção e o nome correto do manifesto (`.webmanifest`):
 
     ```bash
     bubblewrap init --manifest https://app.foiumaideia.com/manifest.webmanifest
     ```
-    *   O Bubblewrap fará algumas perguntas. Na maioria dos casos, você pode simplesmente pressionar `Enter` para aceitar os padrões, pois ele pegará as informações do seu arquivo de manifesto.
+    *   O Bubblewrap fará algumas perguntas. Na maioria dos casos, você pode simplesmente pressionar `Enter` para aceitar os padrões, pois ele pegará as informações do seu arquivo de manifesto. Preste atenção no `signing key password`, guarde a senha que você definir.
 
-3.  **Gere o Pacote do App (.aab):**
+2.  **Gere o Pacote do App (.aab):**
     Após a inicialização, rode o comando de build:
     ```bash
     bubblewrap build
     ```
+    *   Ele pedirá a senha da chave que você definiu no passo anterior.
     *   Isso criará um arquivo chamado `app-release-signed.aab`. **Este é o arquivo que você enviará para a Google Play Console.**
 
 ---
@@ -104,7 +104,7 @@ npm run build
 
 No iOS, não há um "pacote" como no Android. Os usuários podem adicionar seu site PWA diretamente à tela de início, e ele se comportará como um aplicativo nativo.
 
-1.  Abra a **URL de produção** do seu site (`https://app.foiumaideia.com`) no navegador **Safari**.
+1.  Abra a **URL de produção** do seu site no navegador **Safari**.
 2.  Toque no ícone de **Compartilhar** (um quadrado com uma seta para cima).
 3.  Role para baixo e selecione a opção **"Adicionar à Tela de Início"**.
 4.  Confirme o nome do aplicativo e toque em "Adicionar".

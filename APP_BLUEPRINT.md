@@ -75,7 +75,7 @@ O conteúdo é organizado em 20 categorias temáticas, cada uma com curiosidades
 ## 6. Funcionalidade PWA e Publicação
 
 ### 6.1. Progressive Web App (PWA)
-- **URL de Produção:** `https://app.foiumaideia.com/`
+- **URL de Produção:** `https://app.foiumaideia.com`
 - O aplicativo é um PWA totalmente funcional offline, com manifesto e service worker configurados.
 - Otimizado para "Adicionar à Tela de Início" tanto no Android quanto no iOS.
 

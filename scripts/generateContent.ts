@@ -108,8 +108,11 @@ async function main() {
   const allCuriosities: Curiosity[] = await readJsonFile(allCuriositiesPath);
   const allQuizQuestions: QuizQuestion[] = await readJsonFile(allQuizzesPath);
 
+  let newCuriositiesCount = 0;
+  let newQuizzesCount = 0;
+
   for (const category of categories) {
-    console.log(`\nGerando conteúdo para a categoria: ${category.name}`);
+    console.log(`\nProcessando categoria: ${category.name}`);
 
     // --- Geração de Curiosidades ---
     const existingCuriosityTitles = allCuriosities
@@ -118,8 +121,8 @@ async function main() {
 
     const newCuriosities = await generateCuriosities(category.name, CURIOSITIES_PER_CATEGORY, existingCuriosityTitles);
     
-    if (newCuriosities && newCuriosities.length > 0) {
-        let maxId = allCuriosities.length;
+    if (newCuriosities && Array.isArray(newCuriosities) && newCuriosities.length > 0) {
+        let maxId = allCuriosities.length > 0 ? Math.max(...allCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
         const curiositiesToAdd = newCuriosities.map((c: any) => {
             maxId++;
             return {
@@ -129,7 +132,10 @@ async function main() {
             };
         });
         allCuriosities.push(...curiositiesToAdd);
-        console.log(`- ${newCuriosities.length} novas curiosidades para ${category.name}`);
+        newCuriositiesCount += curiositiesToAdd.length;
+        console.log(`- ${curiositiesToAdd.length} novas curiosidades para ${category.name}`);
+    } else {
+        console.log(`- Nenhuma curiosidade nova gerada para ${category.name}`);
     }
 
     await sleep(API_CALL_DELAY_MS); // Pause between API calls
@@ -141,8 +147,8 @@ async function main() {
     
     const newQuestions = await generateQuizQuestions(category.name, QUIZ_QUESTIONS_PER_CATEGORY, existingQuestionStrings);
     
-    if (newQuestions && newQuestions.length > 0) {
-        let maxId = allQuizQuestions.length;
+    if (newQuestions && Array.isArray(newQuestions) && newQuestions.length > 0) {
+        let maxId = allQuizQuestions.length > 0 ? Math.max(...allQuizQuestions.map(q => parseInt(q.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
         const questionsToAdd = newQuestions.map((q: any) => {
             maxId++;
             return {
@@ -152,18 +158,29 @@ async function main() {
             };
         });
       allQuizQuestions.push(...questionsToAdd);
-      console.log(`- ${newQuestions.length} novas perguntas de quiz para ${category.name}`);
+      newQuizzesCount += questionsToAdd.length;
+      console.log(`- ${questionsToAdd.length} novas perguntas de quiz para ${category.name}`);
+    } else {
+        console.log(`- Nenhum quiz novo gerado para ${category.name}`);
     }
 
     await sleep(API_CALL_DELAY_MS); // Pause before the next category
   }
 
   // Save all changes at the end
-  await fs.writeFile(allCuriositiesPath, JSON.stringify(allCuriosities, null, 2));
-  console.log(`\nTotal de ${allCuriosities.length} curiosidades salvas em ${allCuriositiesPath}`);
+  if (newCuriositiesCount > 0) {
+    await fs.writeFile(allCuriositiesPath, JSON.stringify(allCuriosities, null, 2));
+    console.log(`\nTotal de ${allCuriosities.length} curiosidades salvas em ${allCuriositiesPath}`);
+  }
   
-  await fs.writeFile(allQuizzesPath, JSON.stringify(allQuizQuestions, null, 2));
-  console.log(`Total de ${allQuizQuestions.length} perguntas de quiz salvas em ${allQuizzesPath}`);
+  if (newQuizzesCount > 0) {
+    await fs.writeFile(allQuizzesPath, JSON.stringify(allQuizQuestions, null, 2));
+    console.log(`Total de ${allQuizQuestions.length} perguntas de quiz salvas em ${allQuizzesPath}`);
+  }
+
+  if (newCuriositiesCount === 0 && newQuizzesCount === 0) {
+    console.log("\nNenhum conteúdo novo foi gerado nesta execução.");
+  }
 
   console.log("\nProcesso de geração de conteúdo concluído!");
 }
