@@ -1,25 +1,109 @@
 
 [
   {
-    "title": "O Poder do Hábito",
-    "content": "Estudos mostram que cerca de 40% das nossas ações diárias não são decisões, mas sim hábitos. Mudar um hábito-chave, como fazer exercícios pela manhã, pode desencadear uma reação em cadeia de mudanças positivas em outras áreas da sua vida.",
-    "funFact": "O cérebro economiza energia transformando rotinas em hábitos, liberando recursos mentais para tarefas mais complexas.",
-    "id": "autoajuda-1",
-    "categoryId": "autoajuda"
+    "id": "saude-1",
+    "categoryId": "saude",
+    "title": "O Coração Humano",
+    "content": "Seu coração bate cerca de 100.000 vezes por dia, bombeando aproximadamente 7.500 litros de sangue por todo o corpo. Em uma vida inteira, isso é sangue suficiente para encher 3 superpetroleiros.",
+    "funFact": "O coração de uma mulher geralmente bate um pouco mais rápido que o de um homem."
   },
   {
-    "title": "A Regra dos 2 Minutos",
-    "content": "Para combater a procrastinação, comece um novo hábito fazendo-o por apenas dois minutos. Quer ler mais? Leia uma página. Quer correr? Apenas calce o tênis. A ideia é tornar o início da tarefa tão fácil que você não tenha desculpas para não começar.",
-    "funFact": "Essa técnica foi popularizada por James Clear em seu livro 'Hábitos Atômicos'.",
-    "id": "autoajuda-2",
-    "categoryId": "autoajuda"
+    "id": "saude-2",
+    "categoryId": "saude",
+    "title": "A Pele é o Maior Órgão",
+    "content": "A pele é o maior órgão do corpo humano, cobrindo uma área de cerca de 2 metros quadrados em um adulto médio. Ela nos protege contra germes, regula a temperatura do corpo e nos permite ter o sentido do tato.",
+    "funFact": "Perdemos cerca de 30.000 a 40.000 células da pele a cada minuto."
   },
   {
-    "title": "Visualização Criativa",
-    "content": "Atletas de elite frequentemente usam a técnica de visualização, imaginando-se executando suas performances com perfeição. Fazer o mesmo com seus objetivos pode aumentar sua confiança e preparar sua mente para o sucesso.",
-    "funFact": "Estudos de neurociência mostram que visualizar uma ação ativa as mesmas áreas do cérebro que a execução real da ação.",
-    "id": "autoajuda-3",
-    "categoryId": "autoajuda"
+    "id": "saude-3",
+    "categoryId": "saude",
+    "title": "A Força do Ácido Estomacal",
+    "content": "O ácido clorídrico em seu estômago é tão forte que poderia dissolver uma lâmina de barbear. A parede do estômago é protegida por uma camada espessa de muco que se renova a cada poucas horas.",
+    "funFact": "Esse ácido é essencial para matar bactérias nocivas nos alimentos que comemos."
+  },
+  {
+    "id": "saude-4",
+    "categoryId": "saude",
+    "title": "A Vasta Rede de Vasos Sanguíneos",
+    "content": "Se você pudesse esticar todos os vasos sanguíneos de um adulto (artérias, veias e capilares) em uma única linha, ela teria mais de 96.000 quilômetros de comprimento. Isso é o suficiente para dar mais de duas voltas ao redor da Terra.",
+    "funFact": "A maioria desses vasos são os capilares, que são mais finos que um fio de cabelo."
+  },
+  {
+    "id": "saude-5",
+    "categoryId": "saude",
+    "title": "O Cérebro e a Eletricidade",
+    "content": "Enquanto está acordado, seu cérebro gera entre 10 e 23 watts de energia elétrica. Isso é o suficiente para acender uma lâmpada pequena.",
+    "funFact": "O cérebro consome cerca de 20% do oxigênio e das calorias do corpo, apesar de representar apenas 2% do peso corporal."
+  },
+  {
+    "id": "saude-6",
+    "categoryId": "saude",
+    "title": "Seu intestino tem mais neurônios que seu cérebro?",
+    "content": "Seu sistema digestivo possui um complexo sistema nervoso chamado sistema nervoso entérico, que contém mais de 100 milhões de neurônios. É por isso que às vezes o seu intestino sente antes de sua cabeça.",
+    "funFact": "Ele é tão complexo que é frequentemente referido como 'o segundo cérebro'."
+  },
+  {
+    "id": "saude-7",
+    "categoryId": "saude",
+    "title": "O poder do espirro",
+    "content": "Um espirro pode atingir velocidades de até 160 km/h e liberar milhares de gotículas respiratórias, que podem espalhar germes a uma distância considerável.",
+    "funFact": "É impossível ficar com os olhos abertos enquanto espirra."
+  },
+  {
+    "id": "saude-8",
+    "categoryId": "saude",
+    "title": "A importância do sono",
+    "content": "Durante o sono, seu corpo se regenera, reparando tecidos e consolidando memórias. Dormir pouco pode aumentar o risco de doenças crônicas.",
+    "funFact": "Você pode queimar até 50 calorias por hora enquanto dorme."
+  },
+  {
+    "id": "saude-9",
+    "categoryId": "saude",
+    "title": "Seu nariz é um super-detetor de odores",
+    "content": "Seu nariz pode distinguir trilhões de cheiros diferentes. Isso ajuda você a identificar alimentos estragados e outros perigos.",
+    "funFact": "Seu olfato pode ser afetado por suas emoções."
+  },
+  {
+    "id": "saude-10",
+    "categoryId": "saude",
+    "title": "A pele, o maior órgão do corpo",
+    "content": "Sua pele é um órgão complexo que protege contra infecções, regula a temperatura corporal e elimina toxinas. Cuide bem dela!",
+    "funFact": "Sua pele se regenera completamente a cada 27 dias."
+  },
+  {
+    "id": "saude-11",
+    "categoryId": "saude",
+    "title": "A Mágica da Regeneração do Fígado",
+    "content": "O fígado possui uma incrível capacidade de regeneração. Mesmo após a remoção de uma parte significativa, ele consegue se reconstruir completamente.",
+    "funFact": "Em alguns casos, até 75% do fígado pode ser removido e ele ainda se regenera totalmente."
+  },
+  {
+    "id": "saude-12",
+    "categoryId": "saude",
+    "title": "Os Ossos Vivos",
+    "content": "Os ossos não são estáticos; eles são tecidos vivos que estão em constante processo de renovação e reconstrução.",
+    "funFact": "A estrutura óssea do corpo humano é totalmente renovada a cada 10 anos."
+  },
+  {
+    "id": "saude-13",
+    "categoryId": "saude",
+    "title": "A Importância da Microbiota Intestinal",
+    "content": "Seu intestino abriga trilhões de bactérias que influenciam sua digestão, imunidade e até mesmo seu humor. Um desequilíbrio dessa microbiota pode levar a problemas de saúde.",
+    "funFact": "Existem mais bactérias em seu intestino do que células no seu corpo."
+  },
+  {
+    "id": "saude-14",
+    "categoryId": "saude",
+    "title": "O Poder da Respiração Consciente",
+    "content": "A respiração profunda e consciente pode reduzir o estresse, melhorar a qualidade do sono e até mesmo fortalecer o sistema imunológico.",
+    "funFact": "A prática regular de respiração consciente pode ajudar a regular a resposta do corpo ao cortisol, o hormônio do estresse."
+  },
+  {
+    "id": "saude-15",
+    "categoryId": "saude",
+    "title": "A Surpreendente Elasticidade dos Pulmões",
+    "content": "Seus pulmões são órgãos extremamente elásticos, expandindo e contraindo milhões de vezes durante a sua vida, sem perder significativamente sua função.",
+    "funFact": "Se você pudesse esticar todos os alvéolos pulmonares, eles cobririam uma área equivalente a uma quadra de tênis."
   },
   {
     "id": "bem-estar-1",
@@ -29,11 +113,319 @@
     "funFact": "Estudos mostram que a meditação pode realmente alterar a estrutura do cérebro."
   },
   {
+    "id": "bem-estar-2",
+    "categoryId": "bem-estar",
     "title": "A Importância do Sono",
     "content": "Dormir bem é crucial para o bem-estar. Durante o sono, o corpo se recupera e conserta tecidos, fortalecendo o sistema imunológico e melhorando a função cognitiva.",
-    "funFact": "A privação do sono pode levar ao aumento de peso, pois afeta os hormônios que regulam o apetite.",
-    "id": "bem-estar-2",
-    "categoryId": "bem-estar"
+    "funFact": "A privação do sono pode levar ao aumento de peso, pois afeta os hormônios que regulam o apetite."
+  },
+  {
+    "id": "bem-estar-3",
+    "categoryId": "bem-estar",
+    "title": "O Poder do Contato com a Natureza",
+    "content": "Passar tempo ao ar livre, em contato com a natureza, reduz o estresse e a ansiedade, melhorando o humor e a sensação de bem-estar geral.",
+    "funFact": "Estudos mostram que até mesmo olhar para imagens da natureza pode ter efeitos positivos na saúde mental."
+  },
+  {
+    "id": "bem-estar-4",
+    "categoryId": "bem-estar",
+    "title": "A Mente Grata",
+    "content": "Praticar a gratidão, focando nas coisas boas da vida, aumenta os níveis de felicidade e reduz a negatividade, contribuindo significativamente para o bem-estar emocional.",
+    "funFact": "Escrever em um diário sobre o que você é grato pode potencializar os benefícios da gratidão."
+  },
+  {
+    "id": "bem-estar-5",
+    "categoryId": "bem-estar",
+    "title": "Atividade Física e o Humor",
+    "content": "A atividade física regular libera endorfinas, que atuam como analgésicos naturais e melhoram o humor, combatendo a depressão e a ansiedade.",
+    "funFact": "Apenas 30 minutos de exercício por dia já podem fazer uma grande diferença na sua saúde mental e física."
+  },
+  {
+    "id": "bem-estar-6",
+    "categoryId": "bem-estar",
+    "title": "A Importância das Relações Sociais",
+    "content": "Conectar-se com outras pessoas, cultivando relacionamentos fortes e saudáveis, é essencial para a saúde mental e o bem-estar emocional. Sentir-se amado e pertencente é fundamental.",
+    "funFact": "Ter um forte sistema de apoio social está associado à maior longevidade."
+  },
+  {
+    "id": "bem-estar-7",
+    "categoryId": "bem-estar",
+    "title": "A Ciência da Risada",
+    "content": "O riso libera endorfinas, hormônios que atuam como analgésicos naturais e melhoram o humor, reduzindo o estresse e a ansiedade. Uma boa gargalhada pode até fortalecer o sistema imunológico.",
+    "funFact": "Um estudo mostrou que o ato de assistir a vídeos engraçados pode aumentar a imunidade contra doenças."
+  },
+  {
+    "id": "bem-estar-8",
+    "categoryId": "bem-estar",
+    "title": "A Magia da Aromaterapia",
+    "content": "Certos aromas, como lavanda e camomila, têm propriedades calmantes e relaxantes, auxiliando no combate à insônia e à ansiedade. Usar óleos essenciais pode ser uma forma natural de promover o bem-estar.",
+    "funFact": "O aroma de limão pode melhorar o foco e a concentração."
+  },
+  {
+    "id": "bem-estar-9",
+    "categoryId": "bem-estar",
+    "title": "Os Benefícios da Hidratação",
+    "content": "A água é essencial para o funcionamento do corpo e influencia diretamente no nosso bem-estar. A desidratação pode causar fadiga, dores de cabeça e até afetar o humor.",
+    "funFact": "Cerca de 60% do corpo humano é composto por água."
+  },
+  {
+    "id": "bem-estar-10",
+    "categoryId": "bem-estar",
+    "title": "O Poder do Toque",
+    "content": "O contato físico, como abraços e carinhos, libera ocitocina, o hormônio do amor, que reduz o estresse e promove a sensação de bem-estar e conexão social.",
+    "funFact": "O toque pode ser tão importante quanto a fala na comunicação humana."
+  },
+  {
+    "id": "bem-estar-11",
+    "categoryId": "bem-estar",
+    "title": "A Importância da Organização",
+    "content": "Um ambiente organizado e livre de desordem contribui para uma mente mais calma e focada, reduzindo o estresse e melhorando a produtividade. Manter a casa organizada pode impactar positivamente o bem-estar emocional.",
+    "funFact": "A desorganização pode ser uma fonte de estresse silencioso que afeta o humor e o sono."
+  },
+  {
+    "id": "dinheiro-1",
+    "categoryId": "dinheiro",
+    "title": "O Efeito dos Juros Compostos",
+    "content": "Albert Einstein supostamente chamou os juros compostos de 'a oitava maravilha do mundo'. Eles são os juros que você ganha sobre os juros já acumulados, fazendo seu dinheiro crescer de forma exponencial ao longo do tempo.",
+    "funFact": "Se você investir R$100 por mês com um retorno de 8% ao ano, em 40 anos terá mais de R$350.000, embora tenha investido apenas R$48.000."
+  },
+  {
+    "id": "dinheiro-2",
+    "categoryId": "dinheiro",
+    "title": "A Origem do Símbolo do Dólar ($)",
+    "content": "A teoria mais aceita é que o símbolo '$' evoluiu a partir da abreviação 'ps' para 'pesos', a moeda espanhola que era amplamente utilizada nas Américas. Com o tempo, o 'p' e o 's' foram sobrepostos, formando o símbolo que conhecemos.",
+    "funFact": "O primeiro uso oficial do símbolo do dólar em uma impressão foi nos Estados Unidos em 1797."
+  },
+  {
+    "id": "dinheiro-3",
+    "categoryId": "dinheiro",
+    "title": "Inflação, o 'Imposto Invisível'",
+    "content": "A inflação é o aumento geral dos preços, que faz com que seu dinheiro perca poder de compra ao longo do tempo. Por isso, é crucial que seus investimentos rendam acima da inflação para que seu patrimônio realmente cresça.",
+    "funFact": "Se a inflação for de 5% ao ano, R$100 hoje comprarão o equivalente a R$95 no próximo ano."
+  },
+  {
+    "id": "dinheiro-4",
+    "categoryId": "dinheiro",
+    "title": "O que é um 'Orçamento Base Zero'?",
+    "content": "No orçamento base zero, cada centavo da sua renda é alocado para uma finalidade específica (gastos, poupança, investimentos) no início do mês. O objetivo é que 'Renda - Despesas = Zero', garantindo que todo o seu dinheiro trabalhe para você.",
+    "funFact": "Essa metodologia força uma revisão constante dos seus gastos, eliminando despesas desnecessárias."
+  },
+  {
+    "id": "dinheiro-5",
+    "categoryId": "dinheiro",
+    "title": "Diversificação: Não Coloque Todos os Ovos na Mesma Cesta",
+    "content": "Diversificar seus investimentos significa espalhar seu dinheiro por diferentes tipos de ativos (ações, títulos, imóveis, etc.). Isso reduz o risco, pois se um ativo tiver um desempenho ruim, os outros podem compensar.",
+    "funFact": "O economista Harry Markowitz ganhou o Prêmio Nobel em 1990 por sua 'Teoria Moderna do Portfólio', que formalizou matematicamente os benefícios da diversificação."
+  },
+  {
+    "id": "dinheiro-6",
+    "categoryId": "dinheiro",
+    "title": "A Origem do Dinheiro",
+    "content": "O dinheiro, como o conhecemos, não surgiu de uma só vez. Ele evoluiu gradualmente, começando com o escambo e, posteriormente, com o uso de objetos de valor como conchas, gado e metais preciosos.",
+    "funFact": "As primeiras moedas foram cunhadas na Lídia, na Ásia Menor, por volta do século VII a.C."
+  },
+  {
+    "id": "dinheiro-7",
+    "categoryId": "dinheiro",
+    "title": "O Papel Moeda e sua História",
+    "content": "O papel moeda, inicialmente feito de papel de algodão ou linho, surgiu na China durante a dinastia Tang (618-907 d.C.), muito antes de ser adotado no Ocidente.",
+    "funFact": "No início, o papel moeda chinês era respaldado por metais preciosos, mas com o tempo isso deixou de ser o caso em várias ocasiões, resultando em inflação."
+  },
+  {
+    "id": "dinheiro-8",
+    "categoryId": "dinheiro",
+    "title": "O Poder da Psicologia no Dinheiro",
+    "content": "Nosso relacionamento com o dinheiro é fortemente influenciado pela psicologia. Fatores como aversão à perda, vieses cognitivos e apego emocional impactam nossas decisões financeiras.",
+    "funFact": "A perda de uma quantia em dinheiro geralmente causa um impacto emocional duas vezes maior do que o ganho da mesma quantia."
+  },
+  {
+    "id": "dinheiro-9",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro Digital e Criptomoedas",
+    "content": "As moedas digitais e as criptomoedas, como o Bitcoin, representam uma revolução no sistema financeiro, oferecendo novas formas de transação e gestão de dinheiro, descentralizadas e independentes de instituições tradicionais.",
+    "funFact": "A primeira transação de Bitcoin ocorreu em 2010, quando 10.000 Bitcoins foram trocados por duas pizzas."
+  },
+  {
+    "id": "dinheiro-10",
+    "categoryId": "dinheiro",
+    "title": "A Influência do Dinheiro na Sociedade",
+    "content": "O dinheiro desempenha um papel crucial na estrutura social, influenciando as relações de poder, a distribuição de recursos e a desigualdade econômica globalmente.",
+    "funFact": "A desigualdade de riqueza global está aumentando, com uma pequena percentagem da população detendo a maior parte da riqueza mundial."
+  },
+  {
+    "id": "dinheiro-11",
+    "categoryId": "dinheiro",
+    "title": "A 'Maldição' do Dinheiro Fácil",
+    "content": "Ganhar dinheiro rapidamente, sem esforço ou planejamento, pode ser prejudicial. A falta de trabalho árduo e aprendizado associados pode levar a um mau gerenciamento financeiro e a decisões impulsivas, comprometendo o sucesso a longo prazo.",
+    "funFact": "Muitos ganhadores de loteria enfrentam problemas financeiros após algum tempo, devido a essa falta de preparação."
+  },
+  {
+    "id": "dinheiro-12",
+    "categoryId": "dinheiro",
+    "title": "O Poder da Negociação",
+    "content": "A habilidade de negociar preços e condições pode economizar ou gerar quantias significativas de dinheiro ao longo da vida. A negociação eficaz envolve pesquisa, planejamento e habilidades de comunicação.",
+    "funFact": "Mesmo pequenas reduções de preço em compras frequentes se somam a economias consideráveis com o tempo."
+  },
+  {
+    "id": "dinheiro-13",
+    "categoryId": "dinheiro",
+    "title": "A Economia da Experiência",
+    "content": "Gastar dinheiro em experiências, como viagens e eventos, tende a gerar mais felicidade duradoura do que gastar em bens materiais. As memórias e emoções associadas às experiências valem mais do que o valor monetário dos objetos.",
+    "funFact": "Estudos mostram que a felicidade associada à compra de um novo carro diminui significativamente mais rápido do que a felicidade associada a uma viagem memorável."
+  },
+  {
+    "id": "dinheiro-14",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro e Relações",
+    "content": "O dinheiro pode impactar significativamente as relações pessoais. A falta de transparência ou conflitos financeiros podem criar tensões e até mesmo romper laços. Comunicação aberta e planejamento conjunto são cruciais para manter relações saudáveis.",
+    "funFact": "O dinheiro é uma das principais causas de divórcios."
+  },
+  {
+    "id": "dinheiro-15",
+    "categoryId": "dinheiro",
+    "title": "O Custo Oculto do Crédito",
+    "content": "Utilizar o crédito sem planejamento cuidadoso pode resultar em altos custos com juros e taxas, levando a um ciclo de dívidas difícil de quebrar. Compreender as taxas de juros e as condições do empréstimo é essencial.",
+    "funFact": "Os juros cobrados em cartões de crédito podem ultrapassar 100% ao ano em alguns casos."
+  },
+  {
+    "id": "futuro-1",
+    "categoryId": "futuro",
+    "title": "Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas refere-se à rede de objetos físicos ('coisas') equipados com sensores e software que se conectam e trocam dados com outros dispositivos pela internet. Sua geladeira poderá avisar quando o leite acabar e fazer o pedido sozinha.",
+    "funFact": "Estima-se que haverá mais de 75 bilhões de dispositivos IoT conectados no mundo até 2025."
+  },
+  {
+    "id": "futuro-2",
+    "categoryId": "futuro",
+    "title": "Carne Cultivada em Laboratório",
+    "content": "Cientistas estão desenvolvendo carne cultivada a partir de células animais em laboratório, sem a necessidade de abater animais. Isso promete reduzir o impacto ambiental da pecuária e oferecer uma alternativa mais sustentável.",
+    "funFact": "O primeiro hambúrguer de carne de laboratório, apresentado em 2013, custou mais de 300.000 dólares para ser produzido."
+  },
+  {
+    "id": "futuro-3",
+    "categoryId": "futuro",
+    "title": "Impressão 4D",
+    "content": "Enquanto a impressão 3D cria objetos estáticos, a impressão 4D cria objetos que podem mudar de forma ou se auto-montar ao longo do tempo em resposta a um estímulo, como calor, luz ou água. Imagine um móvel que se monta sozinho quando você o tira da caixa.",
+    "funFact": "A 'quarta dimensão' na impressão 4D é o tempo."
+  },
+  {
+    "id": "futuro-4",
+    "categoryId": "futuro",
+    "title": "Interfaces Cérebro-Computador (BCI)",
+    "content": "BCIs são tecnologias que permitem a comunicação direta entre o cérebro e um dispositivo externo. No futuro, poderemos controlar computadores, smartphones ou até mesmo membros protéticos apenas com o pensamento.",
+    "funFact": "Empresas como a Neuralink, de Elon Musk, estão na vanguarda do desenvolvimento de BCIs implantáveis e de alta largura de banda."
+  },
+  {
+    "id": "futuro-5",
+    "categoryId": "futuro",
+    "title": "Computação Quântica",
+    "content": "Computadores quânticos usam os princípios da mecânica quântica para realizar cálculos muito mais rápido do que os computadores clássicos. Eles têm o potencial de revolucionar áreas como a medicina, a ciência dos materiais e a inteligência artificial.",
+    "funFact": "Um bit quântico, ou 'qubit', pode ser 0, 1 ou ambos ao mesmo tempo, um fenômeno chamado superposição."
+  },
+  {
+    "id": "futuro-6",
+    "categoryId": "futuro",
+    "title": "Cidades Inteligentes",
+    "content": "O futuro das cidades envolve a integração de tecnologias para melhorar a vida dos cidadãos. Imagine cidades com infraestruturas otimizadas, transportes eficientes e serviços personalizados.",
+    "funFact": "Algumas cidades já estão implementando sensores para monitorar o tráfego em tempo real e ajustar os semáforos, reduzindo congestionamentos."
+  },
+  {
+    "id": "futuro-7",
+    "categoryId": "futuro",
+    "title": "A Era da IA",
+    "content": "A Inteligência Artificial está mudando rapidamente o mundo, automatizando tarefas, aprimorando a saúde e impulsionando a inovação em diversos setores.",
+    "funFact": "Estima-se que a IA criará milhões de novos empregos, mesmo que automatize outros."
+  },
+  {
+    "id": "futuro-8",
+    "categoryId": "futuro",
+    "title": "Exploração Espacial",
+    "content": "O futuro da exploração espacial inclui viagens a Marte e além, com o objetivo de colonizar outros planetas e buscar recursos.",
+    "funFact": "Empresas privadas estão desempenhando um papel cada vez maior na corrida espacial."
+  },
+  {
+    "id": "futuro-9",
+    "categoryId": "futuro",
+    "title": "Realidade Virtual e Aumentada",
+    "content": "A RV e RA transformarão a maneira como interagimos com o mundo digital e físico, impactando desde jogos e entretenimento até educação e medicina.",
+    "funFact": "A tecnologia de realidade mista já está sendo usada em cirurgias complexas."
+  },
+  {
+    "id": "futuro-10",
+    "categoryId": "futuro",
+    "title": "Biotecnologia e a Vida Longa",
+    "content": "Avanços na biotecnologia prometem revolucionar a saúde, aumentando a expectativa de vida e combatendo doenças com maior eficácia.",
+    "funFact": "Pesquisas em genética e nanotecnologia podem levar ao desenvolvimento de tratamentos para o envelhecimento."
+  },
+  {
+    "id": "tecnologia-1",
+    "categoryId": "tecnologia",
+    "title": "A Origem do 'Bug' de Computador",
+    "content": "O termo 'bug' para descrever uma falha em um sistema de computador foi popularizado por Grace Hopper, uma pioneira da computação. Em 1947, sua equipe encontrou uma mariposa (um 'bug', em inglês) presa em um relé do computador Harvard Mark II, causando um mau funcionamento. Eles removeram o inseto e o prenderam no diário de bordo, anotando: 'Primeiro caso real de bug sendo encontrado'.",
+    "funFact": "O diário de bordo com a mariposa está em exibição no Museu Nacional de História Americana."
+  },
+  {
+    "id": "tecnologia-2",
+    "categoryId": "tecnologia",
+    "title": "O Primeiro Mouse de Computador",
+    "content": "O primeiro mouse de computador foi inventado por Douglas Engelbart em 1964. Era uma caixa de madeira com duas rodas de metal na parte inferior e foi apelidado de 'mouse' porque o cabo que saía dele lembrava o rabo de um rato.",
+    "funFact": "Engelbart nunca recebeu royalties por sua invenção, pois a patente expirou antes de o mouse se tornar um produto de consumo em massa."
+  },
+  {
+    "id": "tecnologia-3",
+    "categoryId": "tecnologia",
+    "title": "O Tamanho do Primeiro 'Disco Rígido'",
+    "content": "O primeiro disco rígido comercial, o IBM 350, foi lançado em 1956. Ele tinha o tamanho de dois refrigeradores, pesava mais de uma tonelada e podia armazenar apenas 5 megabytes de dados.",
+    "funFact": "Hoje, um cartão microSD do tamanho de uma unha pode armazenar mais de 200.000 vezes essa quantidade de dados."
+  },
+  {
+    "id": "tecnologia-4",
+    "categoryId": "tecnologia",
+    "title": "Por que o @ (Arroba)?",
+    "content": "O símbolo @ foi escolhido por Ray Tomlinson em 1971 para separar o nome do usuário do nome do servidor de destino em endereços de e-mail. Ele escolheu o símbolo porque era raramente usado em nomes próprios, evitando confusão. A lógica era 'usuário @ servidor'.",
+    "funFact": "Antes de ser usado em e-mails, o símbolo @ era usado principalmente em contabilidade para significar 'à taxa de' (por exemplo, 5 maçãs @ $1 cada)."
+  },
+  {
+    "id": "tecnologia-5",
+    "categoryId": "tecnologia",
+    "title": "A Primeira Câmera Digital",
+    "content": "A primeira câmera digital foi inventada em 1975 por Steven Sasson, um engenheiro da Kodak. O dispositivo pesava 3,6 kg, levava 23 segundos para gravar uma única imagem em preto e branco em uma fita cassete e tinha uma resolução de 0.01 megapixels.",
+    "funFact": "A Kodak, ironicamente, engavetou o projeto por medo de que ele ameaçasse seu lucrativo negócio de filmes fotográficos."
+  },
+  {
+    "id": "tecnologia-6",
+    "categoryId": "tecnologia",
+    "title": "A Origem da Internet",
+    "content": "A internet surgiu na década de 1960, como um projeto militar americano chamado ARPANET, com o objetivo de criar uma rede de comunicação descentralizada e resistente a ataques.",
+    "funFact": "O primeiro email foi enviado em 1971."
+  },
+  {
+    "id": "tecnologia-7",
+    "categoryId": "tecnologia",
+    "title": "A Primeira Programação",
+    "content": "Ada Lovelace, no século XIX, é considerada a primeira programadora da história, ao descrever um algoritmo para a máquina analítica de Charles Babbage, que nunca foi construída na época.",
+    "funFact": "O algoritmo de Ada Lovelace era para calcular números de Bernoulli."
+  },
+  {
+    "id": "tecnologia-8",
+    "categoryId": "tecnologia",
+    "title": "O Poder dos Smartphones",
+    "content": "A capacidade de processamento de um smartphone moderno supera a dos computadores usados para levar o homem à Lua.",
+    "funFact": "Seu smartphone tem mais poder computacional do que todos os computadores combinados que existiam em 1970."
+  },
+  {
+    "id": "tecnologia-9",
+    "categoryId": "tecnologia",
+    "title": "A Evolução dos Discos Rígidos",
+    "content": "Os primeiros discos rígidos eram enormes, pesando centenas de quilos e armazenando apenas alguns megabytes de dados. Hoje, um disco rígido do tamanho de uma mão consegue armazenar terabytes.",
+    "funFact": "Um disco rígido de 1956 ocupava um cômodo inteiro."
+  },
+  {
+    "id": "tecnologia-10",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas (IoT) conecta bilhões de dispositivos à internet, desde eletrodomésticos a carros, permitindo a coleta e troca de dados em tempo real.",
+    "funFact": "Estima-se que em 2025, haverá mais de 75 bilhões de dispositivos conectados à internet."
   },
   {
     "id": "ciencia-1",
@@ -43,248 +435,845 @@
     "funFact": "Apesar disso, os planetas e estrelas emitem ondas de rádio que podem ser convertidas em som."
   },
   {
+    "id": "ciencia-2",
+    "categoryId": "ciencia",
     "title": "A Água é Anômala",
     "content": "A água é uma das poucas substâncias que se expande ao congelar, o que permite que o gelo flutue na água e proteja a vida aquática em climas frios.",
-    "funFact": "Se a água não fosse anômala, a vida na Terra seria bem diferente!",
-    "id": "ciencia-2",
-    "categoryId": "ciencia"
+    "funFact": "Se a água não fosse anômala, a vida na Terra seria bem diferente!"
   },
   {
+    "id": "ciencia-3",
+    "categoryId": "ciencia",
+    "title": "A Matéria Escura é Misteriosa",
+    "content": "A matéria escura compõe cerca de 27% do universo, mas não podemos vê-la ou detectá-la diretamente, apenas através de seus efeitos gravitacionais.",
+    "funFact": "Apesar de invisível, a matéria escura desempenha um papel crucial na formação das galáxias."
+  },
+  {
+    "id": "ciencia-4",
+    "categoryId": "ciencia",
+    "title": "O DNA é uma Molécula Gigante",
+    "content": "Se você esticasse todo o DNA de uma única célula humana, ele mediria cerca de 2 metros de comprimento.",
+    "funFact": "Cada célula do seu corpo possui uma cópia completa do seu genoma!"
+  },
+  {
+    "id": "ciencia-5",
+    "categoryId": "ciencia",
+    "title": "O Universo está em Expansão",
+    "content": "O universo está em constante expansão, e essa expansão está acelerando. Isso é chamado de energia escura.",
+    "funFact": "A energia escura é um mistério ainda maior que a matéria escura para os cientistas."
+  },
+  {
+    "id": "ciencia-6",
+    "categoryId": "ciencia",
+    "title": "A Relatividade de Einstein",
+    "content": "A teoria da relatividade de Einstein revolucionou nossa compreensão do espaço, tempo e gravidade. Ela afirma que o tempo é relativo e depende da velocidade e da gravidade.",
+    "funFact": "O GPS só funciona corretamente porque leva em conta os efeitos da relatividade!"
+  },
+  {
+    "id": "ciencia-7",
+    "categoryId": "ciencia",
+    "title": "A Origem dos Elementos",
+    "content": "A maioria dos elementos químicos que compõem o universo, incluindo aqueles essenciais à vida, foram forjados no coração de estrelas moribundas através de processos de fusão nuclear. Quando essas estrelas explodem em supernovas, esses elementos são lançados para o espaço, formando novas estrelas e planetas.",
+    "funFact": "O ouro que temos na Terra veio de supernovas!"
+  },
+  {
+    "id": "ciencia-8",
+    "categoryId": "ciencia",
+    "title": "A Biodiversidade Subaquática",
+    "content": "Estima-se que existam milhões de espécies de seres vivos nos oceanos, a grande maioria ainda desconhecida pela ciência. A exploração das profundezas oceânicas revela constantemente novas formas de vida e ecossistemas surpreendentes.",
+    "funFact": "Há mais espécies de vida no oceano do que na terra."
+  },
+  {
+    "id": "ciencia-9",
+    "categoryId": "ciencia",
+    "title": "O Impacto de Microrganismos",
+    "content": "Microrganismos, como bactérias e fungos, desempenham papéis cruciais nos ecossistemas globais, desde a decomposição de matéria orgânica até a fixação de nitrogênio para o crescimento das plantas. Sua influência é vasta e fundamental para a vida na Terra.",
+    "funFact": "Existem mais bactérias no seu corpo do que células humanas!"
+  },
+  {
+    "id": "ciencia-10",
+    "categoryId": "ciencia",
+    "title": "O Enigma da Consciência",
+    "content": "A consciência, a capacidade de experiência subjetiva, permanece um dos maiores mistérios da ciência. Apesar dos avanços em neurociência, ainda não compreendemos completamente como a atividade cerebral gera a sensação de 'ser'.",
+    "funFact": "Não existe um único consenso científico sobre como a consciência surge."
+  },
+  {
+    "id": "ciencia-11",
+    "categoryId": "ciencia",
+    "title": "A Busca por Vida Extraterrestre",
+    "content": "A busca por vida extraterrestre é um dos esforços científicos mais ambiciosos e fascinantes. Utilizando telescópios potentes e missões espaciais, cientistas vasculham o universo na esperança de encontrar evidências de vida além da Terra.",
+    "funFact": "Existem bilhões de galáxias, cada uma contendo bilhões de estrelas – as chances de existir vida em outro lugar são estatisticamente significativas."
+  },
+  {
+    "id": "cultura-1",
+    "categoryId": "cultura",
     "title": "A Origem do Cinema",
     "content": "O cinema como o conhecemos começou com os irmãos Lumière em 1895, na França. A primeira exibição pública de um filme foi 'A Saída dos Operários da Fábrica Lumière', que durava menos de um minuto e chocou a audiência.",
-    "funFact": "A lenda de que o público fugiu do cinema pensando que um trem vinha em sua direção durante a exibição de 'A Chegada de um Trem à Estação' é provavelmente um exagero.",
-    "id": "cultura-1",
-    "categoryId": "cultura"
+    "funFact": "A lenda de que o público fugiu do cinema pensando que um trem vinha em sua direção durante a exibição de 'A Chegada de um Trem à Estação' é provavelmente um exagero."
   },
   {
+    "id": "cultura-2",
+    "categoryId": "cultura",
     "title": "O Festival das Cores na Índia",
     "content": "O Holi, conhecido como o 'Festival das Cores', é uma celebração hindu que comemora a chegada da primavera e a vitória do bem contra o mal. As pessoas jogam pós coloridos (gulal) e água umas nas outras em uma festa vibrante.",
-    "funFact": "Originalmente, os pós coloridos eram feitos de plantas medicinais e flores, como a cúrcuma e o neem.",
-    "id": "cultura-2",
-    "categoryId": "cultura"
+    "funFact": "Originalmente, os pós coloridos eram feitos de plantas medicinais e flores, como a cúrcuma e o neem."
   },
   {
-    "title": "O Efeito dos Juros Compostos",
-    "content": "Albert Einstein supostamente chamou os juros compostos de 'a oitava maravilha do mundo'. Eles são os juros que você ganha sobre os juros já acumulados, fazendo seu dinheiro crescer de forma exponencial ao longo do tempo.",
-    "funFact": "Se você investir R$100 por mês com um retorno de 8% ao ano, em 40 anos terá mais de R$350.000, embora tenha investido apenas R$48.000.",
-    "id": "dinheiro-1",
-    "categoryId": "dinheiro"
+    "id": "cultura-3",
+    "categoryId": "cultura",
+    "title": "Por que 'Mona Lisa' é Tão Famosa?",
+    "content": "Além da técnica inovadora do 'sfumato' de Leonardo da Vinci, a fama da Mona Lisa explodiu em 1911, quando foi roubada do Museu do Louvre. O roubo e a subsequente recuperação dois anos depois a transformaram em um ícone global.",
+    "funFact": "A Mona Lisa não tem sobrancelhas nem cílios, o que era comum na moda florentina da época, onde as mulheres os removiam."
   },
   {
-    "title": "A Origem do Símbolo do Dólar ($)",
-    "content": "A teoria mais aceita é que o símbolo '$' evoluiu a partir da abreviação 'ps' para 'pesos', a moeda espanhola que era amplamente utilizada nas Américas. Com o tempo, o 'p' e o 's' foram sobrepostos, formando o símbolo que conhecemos.",
-    "funFact": "O primeiro uso oficial do símbolo do dólar em uma impressão foi nos Estados Unidos em 1797.",
-    "id": "dinheiro-2",
-    "categoryId": "dinheiro"
+    "id": "cultura-4",
+    "categoryId": "cultura",
+    "title": "A Arte da Caligrafia Japonesa (Shodō)",
+    "content": "Shodō (書道), ou 'o caminho da escrita', é uma forma de arte e meditação no Japão. Usando um pincel (fude), tinta (sumi) e papel de arroz (washi), o artista busca expressar a beleza e a emoção através dos caracteres.",
+    "funFact": "No Shodō, um traço não pode ser corrigido. A pincelada reflete o estado de espírito do artista naquele exato momento."
   },
   {
-    "title": "O Som de Star Wars",
-    "content": "O icônico som do sabre de luz em Star Wars foi criado por Ben Burtt, o designer de som da saga. Ele combinou o zumbido de um motor de projetor de filme antigo com o ruído de uma televisão com defeito.",
-    "funFact": "O rugido do Chewbacca é uma mistura de sons de ursos, morsas, leões e texugos.",
-    "id": "entretenimento-1",
-    "categoryId": "entretenimento"
+    "id": "cultura-5",
+    "categoryId": "cultura",
+    "title": "A História por Trás do Carnaval do Rio",
+    "content": "O Carnaval do Rio de Janeiro tem suas raízes no 'Entrudo', um festival de origem portuguesa onde as pessoas jogavam água, farinha e ovos umas nas outras. As escolas de samba, com seus desfiles grandiosos, só surgiram no início do século XX.",
+    "funFact": "O Sambódromo da Marquês de Sapucaí foi projetado por Oscar Niemeyer e inaugurado em 1984."
   },
   {
-    "title": "O Oscar é Banhado a Ouro",
-    "content": "A famosa estatueta do Oscar é feita de bronze sólido e banhada em ouro de 24 quilates. Durante a Segunda Guerra Mundial, devido à escassez de metal, as estatuetas foram feitas de gesso pintado.",
-    "funFact": "O nome oficial do prêmio é 'Academy Award of Merit'. O apelido 'Oscar' surgiu, supostamente, quando uma bibliotecária da Academia achou que a estatueta parecia com seu tio Oscar.",
-    "id": "entretenimento-2",
-    "categoryId": "entretenimento"
+    "id": "cultura-6",
+    "categoryId": "cultura",
+    "title": "A Cultura do Silêncio na Biblioteca",
+    "content": "O silêncio em bibliotecas é uma norma cultural em muitos países, representando respeito pelo estudo e pela concentração. No entanto, em algumas culturas, o ambiente barulhento é visto como sinal de vida e atividade.",
+    "funFact": "Existem bibliotecas 'silenciosas' e bibliotecas 'conversacionais' em algumas cidades, refletindo a diversidade de preferências culturais."
   },
   {
-    "title": "Internet das Coisas (IoT)",
-    "content": "A Internet das Coisas refere-se à rede de objetos físicos ('coisas') equipados com sensores e software que se conectam e trocam dados com outros dispositivos pela internet. Sua geladeira poderá avisar quando o leite acabar e fazer o pedido sozinha.",
-    "funFact": "Estima-se que haverá mais de 75 bilhões de dispositivos IoT conectados no mundo até 2025.",
-    "id": "futuro-1",
-    "categoryId": "futuro"
+    "id": "cultura-7",
+    "categoryId": "cultura",
+    "title": "A Importância dos Gestos Culturais",
+    "content": "Um simples gesto, como um aperto de mão ou um aceno de cabeça, pode ter significados completamente diferentes em culturas diversas. A interpretação incorreta pode levar a mal-entendidos.",
+    "funFact": "Em algumas culturas, o contato visual prolongado é considerado um sinal de respeito, enquanto em outras pode ser interpretado como agressividade."
   },
   {
-    "title": "Carne Cultivada em Laboratório",
-    "content": "Cientistas estão desenvolvendo carne cultivada a partir de células animais em laboratório, sem a necessidade de abater animais. Isso promete reduzir o impacto ambiental da pecuária e oferecer uma alternativa mais sustentável.",
-    "funFact": "O primeiro hambúrguer de carne de laboratório, apresentado em 2013, custou mais de 300.000 dólares para ser produzido.",
-    "id": "futuro-2",
-    "categoryId": "futuro"
+    "id": "cultura-8",
+    "categoryId": "cultura",
+    "title": "A Evolução das Linguagens de Programação",
+    "content": "As linguagens de programação, apesar de serem ferramentas tecnológicas, também refletem a cultura da inovação e da colaboração, evoluindo constantemente com a necessidade de resolver problemas e criar novas tecnologias.",
+    "funFact": "A linguagem de programação COBOL, criada na década de 1950, ainda é usada em muitos sistemas financeiros, demonstrando a longevidade de algumas culturas tecnológicas."
   },
   {
-    "title": "Aprender a Codificar",
-    "content": "Aprender uma linguagem de programação, como Python ou JavaScript, é uma das habilidades mais valiosas do século XXI. Ela não só abre portas para carreiras em tecnologia, mas também desenvolve o pensamento lógico e a capacidade de resolver problemas complexos.",
-    "funFact": "A primeira programadora da história foi Ada Lovelace, uma matemática britânica que escreveu o primeiro algoritmo destinado a ser processado por uma máquina em 1843.",
-    "id": "habilidades-1",
-    "categoryId": "habilidades"
+    "id": "cultura-9",
+    "categoryId": "cultura",
+    "title": "A Cultura do Consumo e a Moda",
+    "content": "A indústria da moda reflete e influencia as tendências culturais, sendo um espelho das mudanças sociais, políticas e econômicas. O consumo de moda é um fenômeno global com implicações culturais profundas.",
+    "funFact": "A 'fast fashion' é um exemplo de como a cultura do consumo afeta a produção de roupas, com impactos ambientais e sociais significativos."
   },
   {
-    "title": "A Arte de Falar em Público",
-    "content": "O medo de falar em público, ou glossofobia, é um dos mais comuns no mundo. Praticar a oratória pode impulsionar sua carreira, melhorar sua autoconfiança e permitir que você compartilhe suas ideias de forma clara e impactante.",
-    "funFact": "Estudos mostram que as pessoas frequentemente temem mais falar em público do que a própria morte.",
-    "id": "habilidades-2",
-    "categoryId": "habilidades"
+    "id": "cultura-10",
+    "categoryId": "cultura",
+    "title": "A Cultura dos Memes na Internet",
+    "content": "Memes na internet são uma forma de expressão cultural que evolui rapidamente e reflete o humor, as preocupações e os valores de uma geração conectada. Eles se espalham globalmente, adaptando-se a diferentes culturas.",
+    "funFact": "A rápida disseminação e adaptação dos memes demonstram a fluidez e a interconexão da cultura digital contemporânea."
   },
   {
-    "title": "Descascar Alho Facilmente",
-    "content": "Coloque os dentes de alho em um pote com tampa (como um pote de vidro) e agite vigorosamente por cerca de 20 segundos. As cascas se soltarão quase que magicamente, economizando tempo e esforço.",
-    "funFact": "Este truque funciona melhor com cabeças de alho inteiras, pois a agitação faz com que os próprios dentes batam uns nos outros e se descasquem.",
-    "id": "hacks-1",
-    "categoryId": "hacks"
-  },
-  {
-    "title": "Evitar que a Panela Transborde",
-    "content": "Coloque uma colher de pau atravessada sobre a boca de uma panela com água fervente. A madeira, por ser hidrofóbica e não conduzir bem o calor, quebra as bolhas quando elas a tocam, impedindo que a água suba e transborde.",
-    "funFact": "Isso funciona porque a espuma da fervura é composta por bolhas instáveis de vapor. A colher 'estoura' essas bolhas.",
-    "id": "hacks-2",
-    "categoryId": "hacks"
-  },
-  {
+    "id": "historia-1",
+    "categoryId": "historia",
     "title": "A Guerra mais Curta da História",
     "content": "A Guerra Anglo-Zanzibari, travada entre o Reino Unido e o Sultanato de Zanzibar em 27 de agosto de 1896, durou apenas 38 minutos. Ela começou após o sultão se recusar a renunciar e terminou com a rendição de Zanzibar.",
-    "funFact": "O bombardeio britânico destruiu completamente o palácio do sultão e sua frota em menos de 40 minutos.",
-    "id": "historia-1",
-    "categoryId": "historia"
+    "funFact": "O bombardeio britânico destruiu completamente o palácio do sultão e sua frota em menos de 40 minutos."
   },
   {
-    "title": "Gar tenedores Eram Mal Vistos",
-    "content": "Na Idade Média, o uso de garfos na Europa era considerado escandaloso e afeminado. A Igreja via o garfo como um instrumento 'diabólico' e acreditava que a comida, um presente de Deus, deveria ser tocada com as mãos.",
-    "funFact": "A popularização do garfo na Europa só aconteceu por volta do século XVIII, principalmente através da nobreza italiana.",
     "id": "historia-2",
-    "categoryId": "historia"
+    "categoryId": "historia",
+    "title": "Garfos Eram Mal Vistos",
+    "content": "Na Idade Média, o uso de garfos na Europa era considerado escandaloso e afeminado. A Igreja via o garfo como um instrumento 'diabólico' e acreditava que a comida, um presente de Deus, deveria ser tocada com as mãos.",
+    "funFact": "A popularização do garfo na Europa só aconteceu por volta do século XVIII, principalmente através da nobreza italiana."
   },
   {
-    "title": "A Cidade Submersa de Shicheng",
-    "content": "Na China, existe uma cidade antiga perfeitamente preservada debaixo d'água. Shicheng, ou 'Cidade do Leão', foi intencionalmente inundada em 1959 para a construção de uma usina hidrelétrica. Hoje, é um destino popular para mergulhadores.",
-    "funFact": "A cidade foi fundada há mais de 1.300 anos durante a dinastia Tang, e suas muralhas, templos e casas permanecem intactos sob o Lago Qiandao.",
-    "id": "lugares-1",
-    "categoryId": "lugares"
+    "id": "historia-3",
+    "categoryId": "historia",
+    "title": "A Grande Praga da Dança de 1518",
+    "content": "Em 1518, na cidade de Estrasburgo, uma mulher chamada Frau Troffea começou a dançar fervorosamente na rua. Em uma semana, dezenas de pessoas se juntaram a ela, e em um mês, eram centenas. Muitos dançaram até a morte por exaustão ou ataque cardíaco.",
+    "funFact": "Até hoje, a causa exata dessa 'epidemia' de dança é um mistério, com teorias variando de envenenamento por fungos a histeria em massa."
   },
   {
-    "title": "A Ilha das Bonecas, México",
-    "content": "Perto da Cidade do México, a Isla de las Muñecas é uma ilha assustadora coberta por centenas de bonecas velhas e deterioradas penduradas em árvores. A lenda diz que o antigo zelador da ilha começou a pendurá-las para apaziguar o espírito de uma menina que se afogou ali.",
-    "funFact": "O local se tornou uma atração turística macabra, e os visitantes costumam levar mais bonecas para adicionar à coleção.",
-    "id": "lugares-2",
-    "categoryId": "lugares"
+    "id": "historia-4",
+    "categoryId": "historia",
+    "title": "Os Incríveis Soldados-Urso da Polônia",
+    "content": "Durante a Segunda Guerra Mundial, soldados poloneses adotaram um filhote de urso-pardo, a quem chamaram de Wojtek. Ele foi oficialmente alistado no exército, com a patente de soldado, e ajudava a carregar munição pesada durante as batalhas.",
+    "funFact": "Após a guerra, Wojtek se aposentou e viveu no Zoológico de Edimburgo, na Escócia, onde era frequentemente visitado por seus ex-companheiros de exército."
   },
   {
+    "id": "historia-5",
+    "categoryId": "historia",
+    "title": "A Invenção do Saco de Chá",
+    "content": "O saco de chá foi inventado por acidente. Em 1908, um comerciante de chá de Nova York chamado Thomas Sullivan começou a enviar amostras de chá para seus clientes em pequenos sacos de seda. Os clientes, sem saber, mergulharam os sacos inteiros em água quente, e a conveniência pegou.",
+    "funFact": "Sullivan inicialmente ficou desapontado, pois sua intenção era que os clientes abrissem os sacos e usassem o chá solto."
+  },
+  {
+    "id": "historia-6",
+    "categoryId": "historia",
+    "title": "A Biblioteca de Alexandria: Um Tesouro Perdido",
+    "content": "A Biblioteca de Alexandria, no Egito antigo, foi uma das maiores e mais importantes bibliotecas do mundo antigo, contendo inúmeros rolos de papiro com conhecimento acumulado por séculos. Sua destruição é um marco da perda irreparável de conhecimento.",
+    "funFact": "Estima-se que a biblioteca continha mais de 500.000 rolos, representando uma quantidade colossal de informação."
+  },
+  {
+    "id": "historia-7",
+    "categoryId": "historia",
+    "title": "A Invenção do Papel",
+    "content": "A invenção do papel na China, por volta do século II d.C., revolucionou a comunicação e a preservação do conhecimento, substituindo materiais mais caros e menos práticos, como papiro e pergaminho. Sua disseminação teve impacto global profundo.",
+    "funFact": "Inicialmente, o papel era feito de fibras de cânhamo e linho."
+  },
+  {
+    "id": "historia-8",
+    "categoryId": "historia",
+    "title": "O Impacto da Peste Negra",
+    "content": "A Peste Negra, que assolou a Europa na Idade Média, causou uma mortandade significativa, alterando profundamente a estrutura social, econômica e demográfica da Europa. A escassez de mão de obra impactou profundamente o sistema feudal.",
+    "funFact": "Estima-se que a Peste Negra matou entre 30% e 60% da população europeia."
+  },
+  {
+    "id": "historia-9",
+    "categoryId": "historia",
+    "title": "A História da Escrita",
+    "content": "A escrita evoluiu gradualmente, passando por diferentes sistemas, desde os pictogramas até os alfabetos fonéticos que usamos hoje. Esta evolução permitiu uma comunicação mais eficiente e a preservação de histórias e culturas.",
+    "funFact": "A escrita cuneiforme, utilizada pelos sumérios, é um dos primeiros sistemas de escrita conhecidos."
+  },
+  {
+    "id": "historia-10",
+    "categoryId": "historia",
+    "title": "As Pirâmides do Egito: Símbolos de Poder e Engenharia",
+    "content": "As pirâmides egípcias, construídas há milhares de anos, demonstram a sofisticada engenharia e organização social do antigo Egito. Elas são monumentos grandiosos que ainda hoje fascinam estudiosos e turistas.",
+    "funFact": "A Grande Pirâmide de Gizé foi a estrutura mais alta do mundo por mais de 3.800 anos."
+  },
+  {
+    "id": "misterios-1",
+    "categoryId": "misterios",
     "title": "O Manuscrito Voynich",
     "content": "O Manuscrito Voynich é um livro ilustrado do século XV escrito em um idioma ou código completamente desconhecido. Apesar dos esforços de inúmeros criptógrafos e linguistas, ninguém jamais conseguiu decifrá-lo. Suas ilustrações mostram plantas, diagramas astronômicos e figuras humanas bizarras.",
-    "funFact": "A análise do carbono-14 datou o pergaminho do início do século XV, mas sua origem e propósito permanecem um mistério total.",
-    "id": "misterios-1",
-    "categoryId": "misterios"
+    "funFact": "A análise do carbono-14 datou o pergaminho do início do século XV, mas sua origem e propósito permanecem um mistério total."
   },
   {
+    "id": "misterios-2",
+    "categoryId": "misterios",
     "title": "O Desaparecimento de Amelia Earhart",
     "content": "Em 1937, a pioneira da aviação Amelia Earhart desapareceu sobre o Oceano Pacífico enquanto tentava dar a volta ao mundo. Nenhuma pista conclusiva de seu avião ou de seu navegador, Fred Noonan, jamais foi encontrada, gerando inúmeras teorias.",
-    "funFact": "Uma das teorias sugere que eles podem ter pousado em uma ilha deserta e sobrevivido por um tempo como náufragos.",
-    "id": "misterios-2",
-    "categoryId": "misterios"
+    "funFact": "Uma das teorias sugere que eles podem ter pousado em uma ilha deserta e sobrevivido por um tempo como náufragos."
   },
   {
-    "title": "O Acorde Misterioso dos Beatles",
-    "content": "A música 'A Hard Day's Night' dos Beatles começa com um acorde de guitarra instantaneamente reconhecível, mas por décadas ninguém sabia ao certo como ele era tocado. Apenas em 2004 um matemático usou uma análise de Fourier para decifrar a combinação exata de notas tocadas por George Harrison, John Lennon e Paul McCartney.",
-    "funFact": "O acorde é uma mistura complexa de notas de uma guitarra de 12 cordas, um violão de 6 cordas e um baixo, além de um acorde de piano adicionado na mixagem.",
-    "id": "musica-1",
-    "categoryId": "musica"
+    "id": "misterios-3",
+    "categoryId": "misterios",
+    "title": "O Sinal 'Wow!'",
+    "content": "Em 1977, um radiotelescópio detectou um sinal de rádio forte e de banda estreita vindo do espaço. O sinal durou 72 segundos e era tão incomum que o astrônomo Jerry Ehman circulou a impressão dos dados e escreveu 'Wow!' ao lado. A origem do sinal nunca foi explicada ou detectada novamente.",
+    "funFact": "O sinal veio da direção da constelação de Sagitário e correspondia exatamente às características esperadas de um sinal de uma civilização extraterrestre inteligente."
   },
   {
-    "title": "Queen e o Videoclipe",
-    "content": "A música 'Bohemian Rhapsody' do Queen, lançada em 1975, é amplamente creditada por popularizar o videoclipe como uma ferramenta de marketing. A banda criou o vídeo para não ter que se apresentar no programa de TV britânico Top of the Pops, e o sucesso foi tão grande que outras bandas começaram a fazer o mesmo.",
-    "funFact": "O vídeo inteiro foi filmado em apenas 4 horas e custou cerca de £4.500 na época.",
-    "id": "musica-2",
-    "categoryId": "musica"
+    "id": "misterios-4",
+    "categoryId": "misterios",
+    "title": "As Linhas de Nazca",
+    "content": "As Linhas de Nazca são geoglifos gigantes feitos no deserto do Peru há mais de 2.000 anos. As figuras incluem animais como macacos, aranhas e beija-flores, e são tão grandes que só podem ser vistas por completo do ar. Seu propósito exato é desconhecido.",
+    "funFact": "A figura da aranha é anatomicamente perfeita, incluindo um órgão reprodutor na ponta de uma das pernas que só é visível com um microscópio."
   },
   {
-    "title": "Polvos Têm Três Corações",
-    "content": "Os polvos são criaturas fascinantes com três corações. Dois corações bombeiam sangue através das brânquias (os órgãos respiratórios), enquanto o terceiro e maior coração circula o sangue para o resto do corpo.",
-    "funFact": "O sangue do polvo é azul porque usa uma proteína à base de cobre chamada hemocianina para transportar oxigênio, em vez da hemoglobina à base de ferro que temos.",
-    "id": "natureza-e-animais-1",
-    "categoryId": "natureza-e-animais"
+    "id": "misterios-5",
+    "categoryId": "misterios",
+    "title": "O Triângulo das Bermudas",
+    "content": "O Triângulo das Bermudas é uma área no Oceano Atlântico onde, supostamente, um número anormalmente alto de navios e aviões desapareceu em circunstâncias misteriosas. Embora muitas explicações tenham sido propostas, de anomalias magnéticas a atividade alienígena, a maioria dos cientistas considera o fenômeno uma lenda.",
+    "funFact": "A Guarda Costeira dos EUA não reconhece a existência do Triângulo das Bermudas, afirmando que a área tem o mesmo número de acidentes que qualquer outra região de tráfego intenso."
   },
   {
-    "title": "O Som Mais Alto do Planeta",
-    "content": "O som mais alto já registrado por um animal é o chamado da baleia-azul. Seus cantos podem atingir 188 decibéis e podem ser ouvidos a mais de 800 quilômetros de distância debaixo d'água.",
-    "funFact": "O som é tão potente que pode ser prejudicial aos ouvidos humanos se estivermos muito perto.",
-    "id": "natureza-e-animais-2",
-    "categoryId": "natureza-e-animais"
+    "id": "misterios-6",
+    "categoryId": "misterios",
+    "title": "A Civilização de Mohenjo-daro",
+    "content": "Mohenjo-daro, uma cidade da Civilização do Vale do Indo, desapareceu misteriosamente há milhares de anos. Sua tecnologia avançada para a época e o súbito abandono deixam muitas perguntas sem respostas.",
+    "funFact": "Ruínas de Mohenjo-daro showram evidências de um sistema de drenagem sofisticado, muito à frente de seu tempo."
   },
   {
-    "title": "O Efeito Dunning-Kruger",
-    "content": "É um viés cognitivo no qual pessoas com baixo conhecimento em um assunto superestimam sua própria habilidade, enquanto especialistas tendem a subestimar a deles. Em resumo, os incompetentes são tão incompetentes que não conseguem ver a própria incompetência.",
-    "funFact": "O efeito foi demonstrado em um estudo onde estudantes com as piores notas em um teste de lógica foram os que mais superestimaram seu desempenho.",
-    "id": "psicologia-1",
-    "categoryId": "psicologia"
+    "id": "misterios-7",
+    "categoryId": "misterios",
+    "title": "O Enigma de Sacsayhuamán",
+    "content": "As enormes pedras de Sacsayhuamán, perto de Cusco, Peru, encaixam-se com uma precisão impressionante. A tecnologia necessária para sua construção e o propósito exato da fortaleza permanecem desconhecidos.",
+    "funFact": "Algumas pedras de Sacsayhuamán são tão grandes que seu transporte e posicionamento ainda hoje seriam um desafio enorme."
   },
   {
-    "title": "O Viés de Confirmação",
-    "content": "Temos uma tendência natural de procurar, interpretar e lembrar de informações que confirmam nossas crenças pré-existentes, enquanto ignoramos ou descartamos informações que as contradizem. É por isso que é tão difícil mudar de ideia.",
-    "funFact": "Este viés é uma das principais razões para a polarização de opiniões em debates políticos e sociais.",
-    "id": "psicologia-2",
-    "categoryId": "psicologia"
+    "id": "misterios-8",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento da Ilha de Sandy",
+    "content": "A ilha de Sandy, localizada no Oceano Índico, existia em mapas por décadas, mas desapareceu completamente. Sua existência real e seu posterior sumiço são um mistério geográfico intrigante.",
+    "funFact": "Há teorias que sugerem que a ilha nunca existiu, sendo apenas um erro cartográfico."
   },
   {
+    "id": "misterios-9",
+    "categoryId": "misterios",
+    "title": "As Esferas de Pedra da Costa Rica",
+    "content": "Centenas de esferas de pedra gigantes foram encontradas na Costa Rica. Sua criação, propósito e a identidade de seus criadores permanecem um mistério arqueológico.",
+    "funFact": "Algumas das esferas são tão perfeitamente esféricas que a tecnologia utilizada para criá-las é considerada surpreendentemente avançada para a época."
+  },
+  {
+    "id": "misterios-10",
+    "categoryId": "misterios",
+    "title": "A Floresta de Pedra de Shilin",
+    "content": "Na China, a Floresta de Pedra de Shilin é uma paisagem surreal de formações rochosas com formato de árvores. O processo geológico exato que criou este espetáculo natural ainda não é totalmente compreendido.",
+    "funFact": "A Floresta de Pedra de Shilin é tão singular que foi designada Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "entretenimento-1",
+    "categoryId": "entretenimento",
+    "title": "O Som de Star Wars",
+    "content": "O icônico som do sabre de luz em Star Wars foi criado por Ben Burtt, o designer de som da saga. Ele combinou o zumbido de um motor de projetor de filme antigo com o ruído de uma televisão com defeito.",
+    "funFact": "O rugido do Chewbacca é uma mistura de sons de ursos, morsas, leões e texugos."
+  },
+  {
+    "id": "entretenimento-2",
+    "categoryId": "entretenimento",
+    "title": "O Oscar é Banhado a Ouro",
+    "content": "A famosa estatueta do Oscar é feita de bronze sólido e banhada em ouro de 24 quilates. Durante a Segunda Guerra Mundial, devido à escassez de metal, as estatuetas foram feitas de gesso pintado.",
+    "funFact": "O nome oficial do prêmio é 'Academy Award of Merit'. O apelido 'Oscar' surgiu, supostamente, quando uma bibliotecária da Academia achou que a estatueta parecia com seu tio Oscar."
+  },
+  {
+    "id": "entretenimento-3",
+    "categoryId": "entretenimento",
+    "title": "A Cicatriz de Harry Potter",
+    "content": "Ao longo dos oito filmes da saga Harry Potter, o ator Daniel Radcliffe usou a maquiagem da cicatriz em forma de raio cerca de 5.800 vezes. Ela foi aplicada não apenas em sua testa, mas também na de seus dublês.",
+    "funFact": "A localização e o formato da cicatriz nos filmes são diferentes dos descritos nos livros, onde ela fica no meio da testa."
+  },
+  {
+    "id": "entretenimento-4",
+    "categoryId": "entretenimento",
+    "title": "O Segredo do Central Perk",
+    "content": "O famoso sofá laranja do Central Perk, na série 'Friends', foi encontrado em um porão do estúdio da Warner Bros. Ele estava rasgado e velho, mas foi escolhido por seu visual único e se tornou um ícone da cultura pop.",
+    "funFact": "A maioria das 'xícaras de café' vistas na série estava, na verdade, vazia ou continha apenas um pouco de água para evitar derramamentos."
+  },
+  {
+    "id": "entretenimento-5",
+    "categoryId": "entretenimento",
+    "title": "A Voz Original do Mickey Mouse",
+    "content": "De 1928 a 1947, a voz original do Mickey Mouse foi feita pelo próprio Walt Disney. Ele teve que assumir o papel porque não encontrava ninguém que conseguisse fazer a voz aguda que ele imaginava para o personagem.",
+    "funFact": "As primeiras palavras de Mickey Mouse em um desenho animado foram 'Hot dogs!' no curta 'The Karnival Kid' de 1929."
+  },
+  {
+    "id": "entretenimento-6",
+    "categoryId": "entretenimento",
+    "title": "A Origem do Bingo",
+    "content": "O Bingo, popular jogo de azar, surgiu na Itália no século XVI, como uma forma de ensinar matemática a crianças. Só se popularizou nos EUA no século XX.",
+    "funFact": "O nome \"Bingo\" surgiu por acaso, quando uma jogadora exclamou \"Bingo!\" ao completar sua cartela."
+  },
+  {
+    "id": "entretenimento-7",
+    "categoryId": "entretenimento",
+    "title": "A Evolução dos Videogames",
+    "content": "Os primeiros videogames eram extremamente simples, com gráficos rudimentares. Hoje, a indústria de games movimenta bilhões e produz gráficos quase fotorealistas.",
+    "funFact": "Pong, lançado em 1972, é considerado um dos primeiros videogames de sucesso comercial."
+  },
+  {
+    "id": "entretenimento-8",
+    "categoryId": "entretenimento",
+    "title": "Os Primeiros Desenhos Animados",
+    "content": "Os desenhos animados eram inicialmente projetados a partir de milhares de desenhos individuais, desenhados à mão, um trabalho meticuloso e demorado.",
+    "funFact": "A animação stop-motion foi um dos precursores da animação digital, usando objetos físicos em lugar de desenhos."
+  },
+  {
+    "id": "entretenimento-9",
+    "categoryId": "entretenimento",
+    "title": "A História do Circo",
+    "content": "A arte circense possui origens antigas, remonta à Roma Antiga e foi evoluindo ao longo dos séculos, incorporando diversas tradições culturais.",
+    "funFact": "Os Circos modernos surgiram na Inglaterra no século XVIII, combinando diferentes tipos de espetáculos."
+  },
+  {
+    "id": "entretenimento-10",
+    "categoryId": "entretenimento",
+    "title": "A Influência da Música no Cinema",
+    "content": "A trilha sonora é fundamental para criar a atmosfera e o impacto emocional em filmes. As músicas muitas vezes se tornam tão icônicas quanto os próprios filmes.",
+    "funFact": "Algumas trilhas sonoras se tornaram álbuns de grande sucesso, vendendo milhões de cópias independente do filme."
+  },
+  {
+    "id": "relacionamentos-1",
+    "categoryId": "relacionamentos",
     "title": "As 5 Linguagens do Amor",
     "content": "O Dr. Gary Chapman propôs que as pessoas expressam e recebem amor de 5 maneiras principais: Palavras de Afirmação, Tempo de Qualidade, Receber Presentes, Atos de Serviço e Toque Físico. Entender a linguagem do seu parceiro é crucial para um relacionamento saudável.",
-    "funFact": "Muitos conflitos em relacionamentos surgem quando os parceiros têm linguagens de amor diferentes e não percebem que estão expressando afeto de maneiras que o outro não entende.",
-    "id": "relacionamentos-1",
-    "categoryId": "relacionamentos"
+    "funFact": "Muitos conflitos em relacionamentos surgem quando os parceiros têm linguagens de amor diferentes e não percebem que estão expressando afeto de maneiras que o outro não entende."
   },
   {
+    "id": "relacionamentos-2",
+    "categoryId": "relacionamentos",
     "title": "O Efeito de Exposição Mera",
     "content": "Temos uma tendência psicológica a desenvolver uma preferência por coisas (ou pessoas) simplesmente porque estamos familiarizados com elas. Quanto mais você vê alguém, maior a probabilidade de começar a gostar dessa pessoa.",
-    "funFact": "É por isso que a convivência no trabalho ou na escola é um dos gatilhos mais comuns para o início de amizades e romances.",
-    "id": "relacionamentos-2",
-    "categoryId": "relacionamentos"
+    "funFact": "É por isso que a convivência no trabalho ou na escola é um dos gatilhos mais comuns para o início de amizades e romances."
   },
   {
-    "title": "O Coração Humano",
-    "content": "Seu coração bate cerca de 100.000 vezes por dia, bombeando aproximadamente 7.500 litros de sangue por todo o corpo. Em uma vida inteira, isso é sangue suficiente para encher 3 superpetroleiros.",
-    "funFact": "O coração de uma mulher geralmente bate um pouco mais rápido que o de um homem.",
-    "id": "saude-1",
-    "categoryId": "saude"
+    "id": "relacionamentos-3",
+    "categoryId": "relacionamentos",
+    "title": "A Regra dos 36 Perguntas",
+    "content": "Um estudo do psicólogo Arthur Aron desenvolveu um conjunto de 36 perguntas que se aprofundam progressivamente, projetadas para criar intimidade e acelerar a conexão entre duas pessoas. O experimento termina com os dois se olhando nos olhos por 4 minutos em silêncio.",
+    "funFact": "Um artigo do New York Times sobre este estudo se tornou viral, com muitas pessoas testando as perguntas e relatando ter se apaixonado."
   },
   {
-    "title": "A Pele é o Maior Órgão",
-    "content": "A pele é o maior órgão do corpo humano, cobrindo uma área de cerca de 2 metros quadrados em um adulto médio. Ela nos protege contra germes, regula a temperatura do corpo e nos permite ter o sentido do tato.",
-    "funFact": "Perdemos cerca de 30.000 a 40.000 células da pele a cada minuto.",
-    "id": "saude-2",
-    "categoryId": "saude"
+    "id": "relacionamentos-4",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Contato Visual",
+    "content": "Manter contato visual prolongado com alguém pode criar sentimentos de atração e conexão. Isso ocorre porque o contato visual libera feniletilamina, um composto químico associado à sensação de estar apaixonado.",
+    "funFact": "Em muitas culturas, evitar o contato visual é um sinal de desrespeito, enquanto em outras, o contato visual direto pode ser visto como agressivo."
   },
   {
-    "title": "A Origem do 'Bug' de Computador",
-    "content": "O termo 'bug' para descrever uma falha em um sistema de computador foi popularizado por Grace Hopper, uma pioneira da computação. Em 1947, sua equipe encontrou uma mariposa (um 'bug', em inglês) presa em um relé do computador Harvard Mark II, causando um mau funcionamento. Eles removeram o inseto e o prenderam no diário de bordo, anotando: 'Primeiro caso real de bug sendo encontrado'.",
-    "funFact": "O diário de bordo com a mariposa está em exibição no Museu Nacional de História Americana.",
-    "id": "tecnologia-1",
-    "categoryId": "tecnologia"
+    "id": "relacionamentos-5",
+    "categoryId": "relacionamentos",
+    "title": "Rir Juntos Fortalece os Laços",
+    "content": "Casais que riem juntos tendem a ter relacionamentos mais satisfatórios e duradouros. O humor compartilhado e as piadas internas criam um senso de união e ajudam a aliviar o estresse e a superar momentos difíceis.",
+    "funFact": "Estudos mostram que o ato de rir libera endorfinas, os 'hormônios da felicidade', que fortalecem os laços sociais."
   },
   {
-    "title": "O Primeiro Mouse de Computador",
-    "content": "O primeiro mouse de computador foi inventado por Douglas Engelbart em 1964. Era uma caixa de madeira com duas rodas de metal na parte inferior e foi apelidado de 'mouse' porque o cabo que saía dele lembrava o rabo de um rato.",
-    "funFact": "Engelbart nunca recebeu royalties por sua invenção, pois a patente expirou antes de o mouse se tornar um produto de consumo em massa.",
-    "id": "tecnologia-2",
-    "categoryId": "tecnologia"
+    "id": "relacionamentos-6",
+    "categoryId": "relacionamentos",
+    "title": "A Importância do Tempo de Qualidade",
+    "content": "Passar tempo de qualidade juntos, sem distrações como celulares ou TV, fortalece os laços e melhora a comunicação no relacionamento. Priorizar momentos presenciais e focados um no outro é crucial para a intimidade.",
+    "funFact": "Estudos mostram que casais que praticam 'datas' regulares demonstram maior satisfação conjugal."
   },
   {
-    "title": "Chuva de Diamantes em Outros Planetas",
-    "content": "Em planetas gigantes gasosos como Júpiter e Saturno, a atmosfera é tão extrema que a pressão pode esmagar o carbono, transformando-o em diamantes. Os cientistas acreditam que 'chuvas de diamantes' ocorrem nesses planetas, com pedras de até um centímetro de diâmetro.",
-    "funFact": "Também se acredita que Urano e Netuno tenham oceanos de diamante líquido com 'icebergs' de diamante sólido flutuando neles.",
-    "id": "universo-e-astronomia-1",
-    "categoryId": "universo-e-astronomia"
+    "id": "relacionamentos-7",
+    "categoryId": "relacionamentos",
+    "title": "O Impacto das Pequenas Atenções",
+    "content": "Gestos simples, como deixar um bilhete carinhoso ou preparar o café da manhã para o parceiro, demonstram afeto e cuidado, impactando positivamente a relação a longo prazo. São demonstrações de amor que constroem uma base sólida.",
+    "funFact": "Pequenos atos de gentileza ativam a liberação de oxitocina, o hormônio do amor e do vínculo."
   },
   {
-    "title": "O Maior Vulcão do Sistema Solar",
-    "content": "O maior vulcão conhecido no nosso sistema solar não está na Terra, mas em Marte. O Olympus Mons é um vulcão-escudo com cerca de 25 quilômetros de altura, quase três vezes a altura do Monte Everest, e sua base cobriria a área do estado do Arizona.",
-    "funFact": "Por ser tão grande e ter encostas suaves, se você estivesse no topo do Olympus Mons, não conseguiria ver a base do vulcão, pois ele se estenderia além do horizonte.",
-    "id": "universo-e-astronomia-2",
-    "categoryId": "universo-e-astronomia"
+    "id": "relacionamentos-8",
+    "categoryId": "relacionamentos",
+    "title": "A Necessidade de Espaço Individual",
+    "content": "Manter a individualidade e os próprios interesses é fundamental para um relacionamento saudável. Respeitar o espaço pessoal do parceiro e cultivar atividades individuais contribui para a preservação da identidade e da saúde mental de cada um.",
+    "funFact": "Casais que mantêm atividades separadas tendem a ter menos conflitos e maior admiração mútua."
   },
   {
+    "id": "relacionamentos-9",
+    "categoryId": "relacionamentos",
+    "title": "A Arte da Escuta Ativa",
+    "content": "Escute verdadeiramente o que seu parceiro está dizendo, sem interromper ou planejar sua resposta. Demonstrar empatia e compreensão através da escuta ativa demonstra respeito e fortalece a conexão emocional.",
+    "funFact": "A escuta ativa libera endorfinas, melhorando o humor e fortalecendo o vínculo entre as pessoas."
+  },
+  {
+    "id": "relacionamentos-10",
+    "categoryId": "relacionamentos",
+    "title": "A Evolução da Atração",
+    "content": "A atração em um relacionamento evolui com o tempo. A atração inicial, muitas vezes física, transforma-se em um apego profundo baseado em confiança, respeito e cumplicidade.",
+    "funFact": "A atração a longo prazo é mais fortemente influenciada pela compatibilidade emocional e intelectual do que pela aparência física."
+  },
+  {
+    "id": "psicologia-1",
+    "categoryId": "psicologia",
+    "title": "O Efeito Dunning-Kruger",
+    "content": "É um viés cognitivo no qual pessoas com baixo conhecimento em um assunto superestimam sua própria habilidade, enquanto especialistas tendem a subestimar a deles. Em resumo, os incompetentes são tão incompetentes que não conseguem ver a própria incompetência.",
+    "funFact": "O efeito foi demonstrado em um estudo onde estudantes com as piores notas em um teste de lógica foram os que mais superestimaram seu desempenho."
+  },
+  {
+    "id": "psicologia-2",
+    "categoryId": "psicologia",
+    "title": "O Viés de Confirmação",
+    "content": "Temos uma tendência natural de procurar, interpretar e lembrar de informações que confirmam nossas crenças pré-existentes, enquanto ignoramos ou descartamos informações que as contradizem. É por isso que é tão difícil mudar de ideia.",
+    "funFact": "Este viés é uma das principais razões para a polarização de opiniões em debates políticos e sociais."
+  },
+  {
+    "id": "psicologia-3",
+    "categoryId": "psicologia",
+    "title": "O Efeito Espectador",
+    "content": "Quanto maior o número de pessoas presentes em uma situação de emergência, menor a probabilidade de alguém intervir. As pessoas tendem a assumir que outra pessoa vai ajudar, um fenômeno chamado 'difusão de responsabilidade'.",
+    "funFact": "O estudo deste efeito foi inspirado pelo assassinato de Kitty Genovese em 1964, onde dezenas de vizinhos ouviram seus gritos, mas ninguém chamou a polícia a tempo."
+  },
+  {
+    "id": "psicologia-4",
+    "categoryId": "psicologia",
+    "title": "A Síndrome do Impostor",
+    "content": "É um padrão psicológico no qual uma pessoa duvida de suas realizações e tem um medo persistente de ser exposta como uma 'fraude'. É surpreendentemente comum entre pessoas de alto desempenho, como cientistas e executivos.",
+    "funFact": "Estima-se que cerca de 70% das pessoas experimentarão pelo menos um episódio desta síndrome em suas vidas."
+  },
+  {
+    "id": "psicologia-5",
+    "categoryId": "psicologia",
+    "title": "O Efeito Pigmaleão",
+    "content": "Nossas expectativas sobre outras pessoas podem influenciar o desempenho delas. Se um professor acredita que um aluno é brilhante, ele tende a tratar o aluno de forma diferente, o que, por sua vez, leva o aluno a ter um desempenho melhor, confirmando a crença inicial.",
+    "funFact": "O nome vem da lenda grega de Pigmaleão, um escultor que se apaixonou por uma estátua que ele mesmo esculpiu, e a deusa Afrodite a trouxe à vida."
+  },
+  {
+    "id": "psicologia-6",
+    "categoryId": "psicologia",
+    "title": "A Mente Erra em Estimativas de Tempo",
+    "content": "Nosso cérebro não é muito bom em julgar o tempo que passou. Experiências agradáveis parecem mais curtas do que realmente foram, enquanto experiências desagradáveis parecem durar mais.",
+    "funFact": "Essa distorção de tempo é afetada por fatores como idade e níveis de excitação."
+  },
+  {
+    "id": "psicologia-7",
+    "categoryId": "psicologia",
+    "title": "A Importância do Sono para a Memória",
+    "content": "Dormir é essencial para consolidar memórias. Durante o sono, o cérebro processa e organiza informações aprendidas durante o dia, melhorando o aprendizado e a retenção.",
+    "funFact": "A privação do sono afeta diretamente a capacidade de formar novas memórias."
+  },
+  {
+    "id": "psicologia-8",
+    "categoryId": "psicologia",
+    "title": "O Poder da Sugestão",
+    "content": "A sugestão pode ter um impacto significativo em nossos pensamentos, comportamentos e percepções. Experimentos demonstram como sugestões sutis podem influenciar nossas escolhas e crenças.",
+    "funFact": "A hipnose é um exemplo extremo da força da sugestão."
+  },
+  {
+    "id": "psicologia-9",
+    "categoryId": "psicologia",
+    "title": "A Psicologia das Cores",
+    "content": "As cores afetam nosso humor e comportamento de maneiras sutis, mas poderosas. Por exemplo, o azul é frequentemente associado à calma, enquanto o vermelho pode estimular excitação.",
+    "funFact": "Muitas empresas usam a psicologia das cores em seus designs de marketing para influenciar as decisões dos consumidores."
+  },
+  {
+    "id": "psicologia-10",
+    "categoryId": "psicologia",
+    "title": "Pensamentos Automáticos",
+    "content": "Muitos de nossos pensamentos ocorrem de forma automática, sem que tenhamos consciência deles. Esses pensamentos automáticos influenciam nossas emoções e comportamentos, mesmo que não os percebamos.",
+    "funFact": "Terapia cognitivo-comportamental (TCC) se concentra em identificar e modificar esses pensamentos automáticos negativos."
+  },
+  {
+    "id": "autoajuda-1",
+    "categoryId": "autoajuda",
+    "title": "O Poder do Hábito",
+    "content": "Estudos mostram que cerca de 40% das nossas ações diárias não são decisões, mas sim hábitos. Mudar um hábito-chave, como fazer exercícios pela manhã, pode desencadear uma reação em cadeia de mudanças positivas em outras áreas da sua vida.",
+    "funFact": "O cérebro economiza energia transformando rotinas em hábitos, liberando recursos mentais para tarefas mais complexas."
+  },
+  {
+    "id": "autoajuda-2",
+    "categoryId": "autoajuda",
+    "title": "A Regra dos 2 Minutos",
+    "content": "Para combater a procrastinação, comece um novo hábito fazendo-o por apenas dois minutos. Quer ler mais? Leia uma página. Quer correr? Apenas calce o tênis. A ideia é tornar o início da tarefa tão fácil que você não tenha desculpas para não começar.",
+    "funFact": "Essa técnica foi popularizada por James Clear em seu livro 'Hábitos Atômicos'."
+  },
+  {
+    "id": "autoajuda-3",
+    "categoryId": "autoajuda",
+    "title": "Visualização Criativa",
+    "content": "Atletas de elite frequentemente usam a técnica de visualização, imaginando-se executando suas performances com perfeição. Fazer o mesmo com seus objetivos pode aumentar sua confiança e preparar sua mente para o sucesso.",
+    "funFact": "Estudos de neurociência mostram que visualizar uma ação ativa as mesmas áreas do cérebro que a execução real da ação."
+  },
+  {
+    "id": "autoajuda-4",
+    "categoryId": "autoajuda",
+    "title": "A Importância da Gratidão",
+    "content": "Manter um diário de gratidão, anotando três coisas pelas quais você é grato todos os dias, pode aumentar significativamente seus níveis de felicidade e otimismo, além de melhorar a qualidade do sono.",
+    "funFact": "Pessoas gratas tendem a ter uma pressão arterial mais baixa e um sistema imunológico mais forte."
+  },
+  {
+    "id": "autoajuda-5",
+    "categoryId": "autoajuda",
+    "title": "O Efeito 'Como se'",
+    "content": "Para se sentir mais confiante ou feliz, aja 'como se' você já fosse. Sorria mesmo sem vontade, adote uma postura ereta e confiante. A psicologia mostra que nossas ações podem influenciar nossas emoções, e não apenas o contrário.",
+    "funFact": "Estudos de Amy Cuddy em Harvard popularizaram a ideia das 'posturas de poder' para aumentar a testosterona e diminuir o cortisol."
+  },
+  {
+    "id": "autoajuda-6",
+    "categoryId": "autoajuda",
+    "title": "A Ilusão do 'Pensamento Positivo' Puro",
+    "content": "Muitos livros de autoajuda pregam o pensamento positivo exclusivamente. A realidade é mais complexa. Aceitar e processar emoções negativas, como a tristeza ou a raiva, é crucial para o crescimento pessoal e o bem-estar mental. Suprimir esses sentimentos pode ser prejudicial a longo prazo.",
+    "funFact": "A psicologia moderna enfatiza a aceitação e o processamento de emoções, não apenas a supressão delas."
+  },
+  {
+    "id": "autoajuda-7",
+    "categoryId": "autoajuda",
+    "title": "O Impacto da 'Síndrome do Impostor'",
+    "content": "A síndrome do impostor, aquela sensação de que você não merece o sucesso que alcançou, afeta muitas pessoas, inclusive profissionais de sucesso. Reconhecer e lidar com essa síndrome é vital para construir autoconfiança e celebrar conquistas.",
+    "funFact": "Estudos sugerem que a síndrome do impostor é mais comum em indivíduos altamente capazes."
+  },
+  {
+    "id": "autoajuda-8",
+    "categoryId": "autoajuda",
+    "title": "A Percepção de Tempo e as Metas",
+    "content": "Nossa percepção de tempo influencia a forma como estabelecemos e alcançamos metas. Definir metas com prazos realistas, dividindo-as em etapas menores, e celebrar cada conquista, ajuda a gerenciar a sensação de frustração e impulsiona a motivação.",
+    "funFact": "O cérebro percebe o tempo de forma subjetiva, podendo distorcer a duração de eventos dependendo do contexto."
+  },
+  {
+    "id": "autoajuda-9",
+    "categoryId": "autoajuda",
+    "title": "A Importância do Sono na Autoestima",
+    "content": "A privação do sono impacta negativamente a auto-estima e a capacidade de lidar com situações estressantes. Priorizar o sono de qualidade melhora o humor, a concentração e a capacidade de se auto-regular emocionalmente, contribuindo para uma maior autoconfiança.",
+    "funFact": "Durante o sono, o cérebro consolida memórias e processa informações essenciais para o aprendizado e o bem-estar."
+  },
+  {
+    "id": "autoajuda-10",
+    "categoryId": "autoajuda",
+    "title": "O Papel da Procrastinação na Auto-Sabotagem",
+    "content": "Procrastinar não é apenas sobre preguiça; frequentemente, é um mecanismo de defesa contra a ansiedade e o medo do fracasso. Identificar e entender as raízes da procrastinação é fundamental para superá-la e construir uma relação mais saudável com as próprias metas.",
+    "funFact": "A procrastinação pode ser um sintoma de condições como transtorno de ansiedade e depressão."
+  },
+  {
+    "id": "viagens-1",
+    "categoryId": "viagens",
     "title": "O Passaporte Mais Poderoso do Mundo",
     "content": "O 'poder' de um passaporte é medido pelo número de países que seu portador pode visitar sem a necessidade de um visto prévio. Países como Japão, Singapura e Alemanha frequentemente estão no topo do ranking, dando acesso a mais de 190 destinos.",
-    "funFact": "A cor do passaporte geralmente tem um significado geográfico ou político. Passaportes de países da União Europeia são cor de vinho, enquanto os de países da CARICOM são azuis.",
-    "id": "viagens-1",
-    "categoryId": "viagens"
+    "funFact": "A cor do passaporte geralmente tem um significado geográfico ou político. Passaportes de países da União Europeia são cor de vinho, enquanto os de países da CARICOM são azuis."
   },
   {
+    "id": "viagens-2",
+    "categoryId": "viagens",
     "title": "Por que as Janelas dos Aviões são Redondas?",
     "content": "As janelas dos aviões comerciais são redondas ou ovais por uma razão de segurança crucial. Janelas quadradas criam pontos de estresse nos cantos, que podem levar a rachaduras na fuselagem devido à pressurização. Duas quedas de avião no início da aviação a jato foram atribuídas a janelas quadradas.",
-    "funFact": "Há um pequeno buraco na parte inferior da janela do avião para regular a pressão do ar entre as vidraças interna e externa.",
-    "id": "viagens-2",
-    "categoryId": "viagens"
+    "funFact": "Há um pequeno buraco na parte inferior da janela do avião para regular a pressão do ar entre as vidraças interna e externa."
+  },
+  {
+    "id": "viagens-3",
+    "categoryId": "viagens",
+    "title": "A Cidade Mais Visitada do Mundo",
+    "content": "Embora Paris e Londres sejam destinos icônicos, cidades como Bangkok e Hong Kong frequentemente disputam o título de cidade mais visitada do mundo por turistas internacionais, recebendo dezenas de milhões de visitantes por ano.",
+    "funFact": "O turismo representa uma parte significativa da economia de muitos países, superando até mesmo indústrias como a automobilística."
+  },
+  {
+    "id": "viagens-4",
+    "categoryId": "viagens",
+    "title": "Jet Lag é Pior Viajando para o Leste",
+    "content": "O jet lag, ou dissincronia circadiana, tende a ser mais severo quando se viaja para o leste. Isso ocorre porque viajar para leste 'encurta' o dia, o que é mais difícil para o nosso relógio biológico se ajustar do que 'alongar' o dia ao viajar para oeste.",
+    "funFact": "A regra geral é que você precisa de um dia de recuperação para cada fuso horário que cruzar."
+  },
+  {
+    "id": "viagens-5",
+    "categoryId": "viagens",
+    "title": "O País Mais Pequeno do Mundo",
+    "content": "O Vaticano, localizado dentro de Roma, é o menor país independente do mundo, tanto em área (cerca de 44 hectares) quanto em população (cerca de 800 pessoas). É possível caminhar através do país em menos de 20 minutos.",
+    "funFact": "O Vaticano tem sua própria estação de correios, que emite seus próprios selos, e uma estação de trem. Sua economia depende da venda de selos, souvenirs e doações."
+  },
+  {
+    "id": "viagens-6",
+    "categoryId": "viagens",
+    "title": "A Origem da Mala de Viagem",
+    "content": "As malas de viagem, como as conhecemos hoje, evoluíram de simples baús de madeira e cestos de vime. A incorporação de rodinhas e materiais resistentes aconteceu gradualmente ao longo dos anos, impulsionada pela necessidade de transporte mais fácil e seguro de pertences durante as viagens.",
+    "funFact": "Algumas malas antigas eram decoradas com intrincados trabalhos de marchetaria e metais preciosos, refletindo o status social de seus donos."
+  },
+  {
+    "id": "viagens-7",
+    "categoryId": "viagens",
+    "title": "A História dos Hotéis",
+    "content": "Os hotéis, em sua forma primitiva, existiam desde a antiguidade, como pousadas para viajantes e peregrinos. A ideia de um hotel como um estabelecimento com serviços padronizados e luxo só se desenvolveu mais tarde, com o surgimento do transporte ferroviário e do turismo em massa.",
+    "funFact": "O primeiro hotel com elevador foi construído em 1870."
+  },
+  {
+    "id": "viagens-8",
+    "categoryId": "viagens",
+    "title": "A Influência das Viagens na Arte",
+    "content": "As viagens têm sido uma grande fonte de inspiração para artistas ao longo da história. De paisagens exuberantes a culturas exóticas, as experiências em viagens alimentam a criatividade e se refletem em pinturas, esculturas, literatura e música.",
+    "funFact": "Muitos pintores impressionistas, como Monet e Renoir, retrataram em suas obras as paisagens que viram durante suas viagens pela França."
+  },
+  {
+    "id": "viagens-9",
+    "categoryId": "viagens",
+    "title": "A Psicologia das Viagens",
+    "content": "Viajar pode ter efeitos profundos na nossa saúde mental, proporcionando novas perspectivas, reduzindo o estresse e aumentando a autoconfiança. No entanto, também pode gerar ansiedade e desafios de adaptação.",
+    "funFact": "Estudos mostram que viajar regularmente pode aumentar a criatividade e a capacidade de resolução de problemas."
+  },
+  {
+    "id": "viagens-10",
+    "categoryId": "viagens",
+    "title": "Viagens e Sustentabilidade",
+    "content": "O turismo, embora beneficie muitas economias, também impacta o meio ambiente. A busca por viagens mais sustentáveis, com foco na redução de carbono e no respeito às culturas locais, tem se tornado cada vez mais importante.",
+    "funFact": "O turismo sustentável contribui para a preservação de ecossistemas e para a geração de renda em comunidades locais."
+  },
+  {
+    "id": "lugares-1",
+    "categoryId": "lugares",
+    "title": "A Cidade Submersa de Shicheng",
+    "content": "Na China, existe uma cidade antiga perfeitamente preservada debaixo d'água. Shicheng, ou 'Cidade do Leão', foi intencionalmente inundada em 1959 para a construção de uma usina hidrelétrica. Hoje, é um destino popular para mergulhadores.",
+    "funFact": "A cidade foi fundada há mais de 1.300 anos durante a dinastia Tang, e suas muralhas, templos e casas permanecem intactos sob o Lago Qiandao."
+  },
+  {
+    "id": "lugares-2",
+    "categoryId": "lugares",
+    "title": "A Ilha das Bonecas, México",
+    "content": "Perto da Cidade do México, a Isla de las Muñecas é uma ilha assustadora coberta por centenas de bonecas velhas e deterioradas penduradas em árvores. A lenda diz que o antigo zelador da ilha começou a pendurá-las para apaziguar o espírito de uma menina que se afogou ali.",
+    "funFact": "O local se tornou uma atração turística macabra, e os visitantes costumam levar mais bonecas para adicionar à coleção."
+  },
+  {
+    "id": "lugares-3",
+    "categoryId": "lugares",
+    "title": "O Deserto Florido do Atacama",
+    "content": "O Deserto do Atacama, no Chile, é o lugar não polar mais seco do mundo. No entanto, a cada poucos anos, após chuvas raras e intensas, o deserto se transforma em um espetacular campo de flores cor-de-rosa, um fenômeno conhecido como 'desierto florido'.",
+    "funFact": "As sementes e bulbos dessas flores podem permanecer dormentes no subsolo por décadas, esperando pela quantidade certa de água para germinar."
+  },
+  {
+    "id": "lugares-4",
+    "categoryId": "lugares",
+    "title": "A 'Porta para o Inferno'",
+    "content": "A Cratera de Gás de Darvaza, no Turcomenistão, é um buraco gigante que queima continuamente desde 1971. Geólogos soviéticos atearam fogo para conter a propagação de gás metano, esperando que queimasse em poucos dias, mas ele queima até hoje.",
+    "funFact": "A cratera tem cerca de 70 metros de diâmetro e 30 metros de profundidade, criando uma visão impressionante, especialmente à noite."
+  },
+  {
+    "id": "lugares-5",
+    "categoryId": "lugares",
+    "title": "A Praia de Areia Rosa das Bahamas",
+    "content": "Na Harbour Island, nas Bahamas, existe uma praia famosa por sua areia de cor rosa pálido. A cor vem de minúsculos organismos marinhos com conchas vermelhas chamados foraminíferos, que são misturados com a areia branca e pedaços de coral pela maré.",
+    "funFact": "A praia se estende por quase 5 quilômetros e é considerada uma das praias mais bonitas do mundo."
+  },
+  {
+    "id": "habilidades-1",
+    "categoryId": "habilidades",
+    "title": "Aprender a Codificar",
+    "content": "Aprender uma linguagem de programação, como Python ou JavaScript, é uma das habilidades mais valiosas do século XXI. Ela não só abre portas para carreiras em tecnologia, mas também desenvolve o pensamento lógico e a capacidade de resolver problemas complexos.",
+    "funFact": "A primeira programadora da história foi Ada Lovelace, uma matemática britânica que escreveu o primeiro algoritmo destinado a ser processado por uma máquina em 1843."
+  },
+  {
+    "id": "habilidades-2",
+    "categoryId": "habilidades",
+    "title": "A Arte de Falar em Público",
+    "content": "O medo de falar em público, ou glossofobia, é um dos mais comuns no mundo. Praticar a oratória pode impulsionar sua carreira, melhorar sua autoconfiança e permitir que você compartilhe suas ideias de forma clara e impactante.",
+    "funFact": "Estudos mostram que as pessoas frequentemente temem mais falar em público do que a própria morte."
+  },
+  {
+    "id": "habilidades-3",
+    "categoryId": "habilidades",
+    "title": "Tocar um Instrumento Musical",
+    "content": "Aprender a tocar um instrumento musical, como violão ou piano, melhora a memória, a coordenação motora e a disciplina. Além disso, é uma ótima maneira de aliviar o estresse e expressar a criatividade.",
+    "funFact": "Tocar um instrumento musical envolve praticamente todas as áreas do cérebro ao mesmo tempo, especialmente os córtices visual, auditivo e motor."
+  },
+  {
+    "id": "habilidades-4",
+    "categoryId": "habilidades",
+    "title": "Inteligência Emocional",
+    "content": "Inteligência emocional é a capacidade de reconhecer, entender e gerenciar suas próprias emoções e as dos outros. É uma habilidade crucial para a liderança, o trabalho em equipe e para construir relacionamentos saudáveis.",
+    "funFact": "Daniel Goleman, que popularizou o termo em seu livro de 1995, argumenta que a inteligência emocional pode ser mais importante para o sucesso na vida do que o QI."
+  },
+  {
+    "id": "habilidades-5",
+    "categoryId": "habilidades",
+    "title": "Leitura Dinâmica",
+    "content": "A leitura dinâmica é um conjunto de técnicas que permitem ler mais rápido sem perder a compreensão. Envolve reduzir a 'subvocalização' (a voz na sua cabeça enquanto lê) e treinar seus olhos para se moverem mais rapidamente pelo texto.",
+    "funFact": "A velocidade média de leitura de um adulto é de cerca de 200-250 palavras por minuto, mas praticantes de leitura dinâmica podem ultrapassar 1000 palavras por minuto."
+  },
+  {
+    "id": "hacks-1",
+    "categoryId": "hacks",
+    "title": "Descascar Alho Facilmente",
+    "content": "Coloque os dentes de alho em um pote com tampa (como um pote de vidro) e agite vigorosamente por cerca de 20 segundos. As cascas se soltarão quase que magicamente, economizando tempo e esforço.",
+    "funFact": "Este truque funciona melhor com cabeças de alho inteiras, pois a agitação faz com que os próprios dentes batam uns nos outros e se descasquem."
+  },
+  {
+    "id": "hacks-2",
+    "categoryId": "hacks",
+    "title": "Evitar que a Panela Transborde",
+    "content": "Coloque uma colher de pau atravessada sobre a boca de uma panela com água fervente. A madeira, por ser hidrofóbica e não conduzir bem o calor, quebra as bolhas quando elas a tocam, impedindo que a água suba e transborde.",
+    "funFact": "Isso funciona porque a espuma da fervura é composta por bolhas instáveis de vapor. A colher 'estoura' essas bolhas."
+  },
+  {
+    "id": "hacks-3",
+    "categoryId": "hacks",
+    "title": "Tirar o Cheiro de Alho das Mãos",
+    "content": "Depois de cortar alho, esfregue as mãos em uma superfície de aço inoxidável (como a pia da cozinha ou uma colher) sob água corrente. O aço reage com os compostos de enxofre do alho, neutralizando o odor.",
+    "funFact": "Existem até 'sabonetes' de aço inoxidável vendidos especificamente para essa finalidade."
+  },
+  {
+    "id": "hacks-4",
+    "categoryId": "hacks",
+    "title": "Organizar Cabos com Clipes de Papel",
+    "content": "Use clipes de papel grandes para organizar os cabos na beirada da sua mesa. Prenda os clipes na mesa e passe os conectores dos cabos (USB, carregador, etc.) pelas alças do clipe. Eles ficarão sempre ao seu alcance e não cairão.",
+    "funFact": "O clipe de papel como o conhecemos hoje foi patenteado na Noruega em 1899 e se tornou um símbolo de resistência durante a Segunda Guerra Mundial."
+  },
+  {
+    "id": "hacks-5",
+    "categoryId": "hacks",
+    "title": "Gelar Bebidas Rapidamente",
+    "content": "Para gelar uma lata ou garrafa de bebida em poucos minutos, enrole-a em um papel toalha molhado e coloque-a no freezer. A evaporação da água no papel toalha acelera drasticamente o processo de resfriamento.",
+    "funFact": "Adicionar sal e um pouco de água em um balde de gelo também acelera o resfriamento, pois o sal diminui o ponto de congelamento da água."
+  },
+  {
+    "id": "natureza-e-animais-1",
+    "categoryId": "natureza-e-animais",
+    "title": "Polvos Têm Três Corações",
+    "content": "Os polvos são criaturas fascinantes com três corações. Dois corações bombeiam sangue através das brânquias (os órgãos respiratórios), enquanto o terceiro e maior coração circula o sangue para o resto do corpo.",
+    "funFact": "O sangue do polvo é azul porque usa uma proteína à base de cobre chamada hemocianina para transportar oxigênio, em vez da hemoglobina à base de ferro que temos."
+  },
+  {
+    "id": "natureza-e-animais-2",
+    "categoryId": "natureza-e-animais",
+    "title": "O Som Mais Alto do Planeta",
+    "content": "O som mais alto já registrado por um animal é o chamado da baleia-azul. Seus cantos podem atingir 188 decibéis e podem ser ouvidos a mais de 800 quilômetros de distância debaixo d'água.",
+    "funFact": "O som é tão potente que pode ser prejudicial aos ouvidos humanos se estivermos muito perto."
+  },
+  {
+    "id": "natureza-e-animais-3",
+    "categoryId": "natureza-e-animais",
+    "title": "A Imortalidade da Água-Viva 'Imortal'",
+    "content": "A espécie de água-viva Turritopsis dohrnii é considerada biologicamente imortal. Quando enfrenta estresse, fome ou envelhecimento, ela pode reverter seu ciclo de vida de volta a um estágio de pólipo, essencialmente 'renascendo' e começando de novo.",
+    "funFact": "Teoricamente, esse ciclo pode se repetir indefinidamente, tornando-a o único animal conhecido com essa capacidade."
+  },
+  {
+    "id": "natureza-e-animais-4",
+    "categoryId": "natureza-e-animais",
+    "title": "A Preguiça e seu Ecossistema Ambulante",
+    "content": "O pelo da preguiça é tão denso e cresce em uma direção incomum (de baixo para cima) que abriga um ecossistema inteiro. Mariposas, besouros, baratas e até mesmo algas vivem em seu pelo, ajudando na camuflagem do animal.",
+    "funFact": "A preguiça desce de sua árvore apenas uma vez por semana para defecar, um comportamento arriscado que ainda intriga os cientistas."
+  },
+  {
+    "id": "natureza-e-animais-5",
+    "categoryId": "natureza-e-animais",
+    "title": "Árvores Podem se Comunicar",
+    "content": "As árvores em uma floresta estão conectadas por uma rede subterrânea de fungos chamada 'micorriza'. Através dessa 'Wood Wide Web', elas podem compartilhar nutrientes, água e até mesmo enviar sinais de alerta sobre ataques de pragas ou doenças umas para as outras.",
+    "funFact": "Árvores mais velhas, conhecidas como 'árvores-mãe', usam essa rede para nutrir as mudas mais jovens que crescem à sua sombra."
+  },
+  {
+    "id": "universo-e-astronomia-1",
+    "categoryId": "universo-e-astronomia",
+    "title": "Chuva de Diamantes em Outros Planetas",
+    "content": "Em planetas gigantes gasosos como Júpiter e Saturno, a atmosfera é tão extrema que a pressão pode esmagar o carbono, transformando-o em diamantes. Os cientistas acreditam que 'chuvas de diamantes' ocorrem nesses planetas, com pedras de até um centímetro de diâmetro.",
+    "funFact": "Também se acredita que Urano e Netuno tenham oceanos de diamante líquido com 'icebergs' de diamante sólido flutuando neles."
+  },
+  {
+    "id": "universo-e-astronomia-2",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Maior Vulcão do Sistema Solar",
+    "content": "O maior vulcão conhecido no nosso sistema solar não está na Terra, mas em Marte. O Olympus Mons é um vulcão-escudo com cerca de 25 quilômetros de altura, quase três vezes a altura do Monte Everest, e sua base cobriria a área do estado do Arizona.",
+    "funFact": "Por ser tão grande e ter encostas suaves, se você estivesse no topo do Olympus Mons, não conseguiria ver a base do vulcão, pois ele se estenderia além do horizonte."
+  },
+  {
+    "id": "universo-e-astronomia-3",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Som do Espaço",
+    "content": "Embora o espaço seja um vácuo e não possa transmitir ondas sonoras, os corpos celestes emitem ondas de rádio. Cientistas da NASA conseguem converter essas emissões em sons audíveis. O som de um buraco negro, por exemplo, é um zumbido profundo e assustador.",
+    "funFact": "As 'canções' de Saturno, captadas pela sonda Cassini, são uma série de assobios e estalos de rádio causados pela sua aurora."
+  },
+  {
+    "id": "universo-e-astronomia-4",
+    "categoryId": "universo-e-astronomia",
+    "title": "Há Mais Estrelas no Universo do que Grãos de Areia na Terra",
+    "content": "Os astrônomos estimam que existam centenas de bilhões de galáxias no universo observável, e cada uma delas contém centenas de bilhões de estrelas. O número total é tão vasto que supera em muito o número de todos os grãos de areia em todas as praias e desertos do nosso planeta.",
+    "funFact": "Isso significa que a probabilidade de existir vida em outros planetas, do ponto de vista estatístico, é bastante alta."
+  },
+  {
+    "id": "universo-e-astronomia-5",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Velocidade da Luz e o Passado",
+    "content": "A luz leva tempo para viajar pelo espaço. Quando olhamos para as estrelas, não as vemos como são agora, mas como eram no passado. A luz do Sol, por exemplo, leva 8 minutos para chegar à Terra. A luz da estrela mais próxima, Proxima Centauri, leva mais de 4 anos.",
+    "funFact": "Quando olhamos para a Galáxia de Andrômeda a olho nu, estamos vendo luz que viajou por 2,5 milhões de anos para chegar até nós. Estamos, literalmente, olhando para o passado distante."
+  },
+  {
+    "id": "musica-1",
+    "categoryId": "musica",
+    "title": "O Acorde Misterioso dos Beatles",
+    "content": "A música 'A Hard Day's Night' dos Beatles começa com um acorde de guitarra instantaneamente reconhecível, mas por décadas ninguém sabia ao certo como ele era tocado. Apenas em 2004 um matemático usou uma análise de Fourier para decifrar a combinação exata de notas tocadas por George Harrison, John Lennon e Paul McCartney.",
+    "funFact": "O acorde é uma mistura complexa de notas de uma guitarra de 12 cordas, um violão de 6 cordas e um baixo, além de um acorde de piano adicionado na mixagem."
+  },
+  {
+    "id": "musica-2",
+    "categoryId": "musica",
+    "title": "Queen e o Videoclipe",
+    "content": "A música 'Bohemian Rhapsody' do Queen, lançada em 1975, é amplamente creditada por popularizar o videoclipe como uma ferramenta de marketing. A banda criou o vídeo para não ter que se apresentar no programa de TV britânico Top of the Pops, e o sucesso foi tão grande que outras bandas começaram a fazer o mesmo.",
+    "funFact": "O vídeo inteiro foi filmado em apenas 4 horas e custou cerca de £4.500 na época."
+  },
+  {
+    "id": "musica-3",
+    "categoryId": "musica",
+    "title": "A Origem do 'Autotune'",
+    "content": "O efeito vocal Autotune, famoso por seu uso robótico na música pop, foi originalmente desenvolvido por um engenheiro que trabalhava em sismologia. Ele estava usando tecnologia de análise de ondas sísmicas para encontrar petróleo e percebeu que o mesmo princípio poderia ser usado para corrigir o tom de um cantor.",
+    "funFact": "A música 'Believe' da Cher, de 1998, foi a primeira a usar o Autotune como um efeito vocal proeminente e intencional, definindo uma tendência que dura até hoje."
+  },
+  {
+    "id": "musica-4",
+    "categoryId": "musica",
+    "title": "O Silêncio de John Cage",
+    "content": "O compositor experimental John Cage criou uma peça chamada 4'33\" (quatro minutos e trinta e três segundos) que consiste em os músicos não tocarem seus instrumentos por toda a duração da peça. A 'música' é, na verdade, os sons ambientes da sala e da plateia durante esse tempo.",
+    "funFact": "Cage queria mostrar que o silêncio absoluto não existe e que os sons ao nosso redor são, por si só, uma forma de música."
+  },
+  {
+    "id": "musica-5",
+    "categoryId": "musica",
+    "title": "Por que 'Smells Like Teen Spirit'?",
+    "content": "O título do maior sucesso do Nirvana, 'Smells Like Teen Spirit', veio de uma pichação que a amiga de Kurt Cobain, Kathleen Hanna, escreveu na parede de seu quarto: 'Kurt smells like Teen Spirit'. Ela se referia a uma marca de desodorante feminino popular na época, usada pela então namorada de Cobain.",
+    "funFact": "Kurt Cobain só descobriu que 'Teen Spirit' era uma marca de desodorante meses depois que a música já era um sucesso mundial."
   }
 ]
+
+    

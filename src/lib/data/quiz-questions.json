@@ -1,367 +1,1053 @@
 
 [
-    {
-        "difficulty": "easy",
-        "question": "Qual é um princípio fundamental da maioria das filosofias de autoajuda?",
-        "options": [
-          "Aceitação incondicional de si mesmo",
-          "Busca constante de aprovação externa",
-          "Negação de emoções negativas",
-          "Foco exclusivo nos defeitos pessoais"
-        ],
-        "correctAnswer": "Aceitação incondicional de si mesmo",
-        "explanation": "A autoaceitação é um pilar para o crescimento pessoal e o bem-estar, permitindo lidar com desafios de forma mais construtiva.",
-        "id": "quiz-autoajuda-1",
-        "categoryId": "autoajuda"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual técnica de gerenciamento de tempo é frequentemente recomendada em livros de autoajuda para melhorar a produtividade?",
-        "options": [
-          "Procrastinação estratégica",
-          "Multitarefa contínua",
-          "Método Pomodoro",
-          "Trabalho contínuo sem pausas"
-        ],
-        "correctAnswer": "Método Pomodoro",
-        "explanation": "O Método Pomodoro, com seus intervalos de trabalho e descanso, ajuda a manter o foco e a evitar o esgotamento.",
-        "id": "quiz-autoajuda-2",
-        "categoryId": "autoajuda"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual atividade física é recomendada pela maioria dos médicos para a saúde cardiovascular?",
-        "options": [
-          "Natação",
-          "Levantamento de peso",
-          "Corrida",
-          "Ioga"
-        ],
-        "correctAnswer": "Corrida",
-        "explanation": "A corrida é uma atividade aeróbica eficaz para fortalecer o coração e os pulmões.",
-        "id": "quiz-bem-estar-1",
-        "categoryId": "bem-estar"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual a principal característica da síndrome de burnout?",
-        "options": [
-          "Falta de motivação e exaustão emocional",
-          "Ansiedade generalizada",
-          "Depressão crônica",
-          "Distúrbios do sono"
-        ],
-        "correctAnswer": "Falta de motivação e exaustão emocional",
-        "explanation": "A síndrome de burnout é caracterizada por exaustão emocional, cinismo e falta de eficácia profissional.",
-        "id": "quiz-bem-estar-2",
-        "categoryId": "bem-estar"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual o planeta mais próximo do Sol?",
-        "options": [
-          "Terra",
-          "Marte",
-          "Vênus",
-          "Mercúrio"
-        ],
-        "correctAnswer": "Mercúrio",
-        "explanation": "Mercúrio é o planeta mais próximo do Sol em nosso sistema solar.",
-        "id": "quiz-ciencia-1",
-        "categoryId": "ciencia"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual a fórmula química da água?",
-        "options": [
-          "CO2",
-          "NaCl",
-          "H2O",
-          "O2"
-        ],
-        "correctAnswer": "H2O",
-        "explanation": "A água é composta por dois átomos de hidrogênio e um átomo de oxigênio.",
-        "id": "quiz-ciencia-2",
-        "categoryId": "ciencia"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual país é conhecido pela Torre Eiffel?",
-        "options": [
-          "Inglaterra",
-          "Estados Unidos",
-          "França",
-          "Itália"
-        ],
-        "correctAnswer": "França",
-        "explanation": "A Torre Eiffel é um monumento icônico localizado em Paris, França.",
-        "id": "quiz-cultura-1",
-        "categoryId": "cultura"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual é a principal religião praticada no Japão?",
-        "options": [
-          "Cristianismo",
-          "Islamismo",
-          "Budismo",
-          "Hinduísmo"
-        ],
-        "correctAnswer": "Budismo",
-        "explanation": "Embora existam outras religiões no Japão, o Budismo é a religião predominante.",
-        "id": "quiz-cultura-2",
-        "categoryId": "cultura"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual o menor valor de nota em circulação no Brasil?",
-        "options": [
-          "R$ 1,00",
-          "R$ 2,00",
-          "R$ 5,00",
-          "R$ 10,00"
-        ],
-        "correctAnswer": "R$ 1,00",
-        "explanation": "A nota de R$ 1,00 é a menor nota em circulação atualmente.",
-        "id": "quiz-dinheiro-1",
-        "categoryId": "dinheiro"
-      },
-      {
-        "difficulty": "medium",
-        "question": "O que significa a sigla IOF?",
-        "options": [
-          "Imposto sobre Operações Financeiras",
-          "Imposto sobre Operações de Importação",
-          "Imposto sobre Operações de Exportação",
-          "Imposto sobre Operações de Investimento"
-        ],
-        "correctAnswer": "Imposto sobre Operações Financeiras",
-        "explanation": "IOF é a sigla para Imposto sobre Operações Financeiras, um imposto que incide sobre diversas operações financeiras.",
-        "id": "quiz-dinheiro-2",
-        "categoryId": "dinheiro"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual o nome do famoso palhaço do filme 'IT'?",
-        "options": [
-          "Ronald McDonald",
-          "Pennywise",
-          "Bozo",
-          "Krusty"
-        ],
-        "correctAnswer": "Pennywise",
-        "explanation": "Pennywise, o palhaço dançarino, é o antagonista principal do livro e da adaptação cinematográfica de 'IT'.",
-        "id": "quiz-entretenimento-1",
-        "categoryId": "entretenimento"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual série de TV foi a primeira a ser transmitida em cores nos EUA?",
-        "options": [
-          "I Love Lucy",
-          "The Honeymooners",
-          "Bonanza",
-          "Gunsmoke"
-        ],
-        "correctAnswer": "Bonanza",
-        "explanation": "Embora alguns episódios de outras séries tivessem sido transmitidos em cores antes, 'Bonanza' foi a primeira série regular em cores nos EUA.",
-        "id": "quiz-entretenimento-2",
-        "categoryId": "entretenimento"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual tecnologia já está sendo amplamente usada para auxiliar na previsão do tempo?",
-        "options": [
-          "Inteligência Artificial",
-          "Máquinas de escrever",
-          "Relógios de sol",
-          "Telégrafos"
-        ],
-        "correctAnswer": "Inteligência Artificial",
-        "explanation": "A IA analisa grandes conjuntos de dados para prever padrões climáticos com maior precisão.",
-        "id": "quiz-futuro-1",
-        "categoryId": "futuro"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual o principal desafio para a viabilização de viagens espaciais comerciais de longa duração?",
-        "options": [
-          "Custo financeiro",
-          "Falta de tecnologia",
-          "Falta de interesse público",
-          "Radiação espacial"
-        ],
-        "correctAnswer": "Radiação espacial",
-        "explanation": "A exposição prolongada à radiação espacial representa um sério risco para a saúde dos astronautas.",
-        "id": "quiz-futuro-2",
-        "categoryId": "futuro"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Em que ano terminou a Segunda Guerra Mundial?",
-        "options": [
-          "1943",
-          "1945",
-          "1948",
-          "1950"
-        ],
-        "correctAnswer": "1945",
-        "explanation": "A Segunda Guerra Mundial terminou oficialmente em 2 de setembro de 1945, com a rendição formal do Japão.",
-        "id": "quiz-historia-1",
-        "categoryId": "historia"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual o nome do tratado que pôs fim à Primeira Guerra Mundial?",
-        "options": [
-          "Tratado de Versalhes",
-          "Tratado de Tordesilhas",
-          "Tratado de Utrecht",
-          "Tratado de Paris"
-        ],
-        "correctAnswer": "Tratado de Versalhes",
-        "explanation": "O Tratado de Versalhes foi assinado em 28 de junho de 1919, oficialmente pondo fim à Primeira Guerra Mundial.",
-        "id": "quiz-historia-2",
-        "categoryId": "historia"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual o nome do famoso triângulo das Bermudas?",
-        "options": [
-          "Triângulo das Ilhas Canárias",
-          "Triângulo do Atlântico Norte",
-          "Triângulo do Dragão",
-          "Triângulo das Bermudas"
-        ],
-        "correctAnswer": "Triângulo das Bermudas",
-        "explanation": "O Triângulo das Bermudas é uma região no Oceano Atlântico associada a misteriosas desaparecimentos de navios e aeronaves.",
-        "id": "quiz-misterios-1",
-        "categoryId": "misterios"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual civilização construiu as Linhas de Nazca?",
-        "options": [
-          "Inca",
-          "Asteca",
-          "Nazca",
-          "Maia"
-        ],
-        "correctAnswer": "Nazca",
-        "explanation": "As Linhas de Nazca são gigantescos geoglifos no deserto do Peru, criados pela civilização Nazca.",
-        "id": "quiz-misterios-2",
-        "categoryId": "misterios"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual ramo da psicologia se concentra no estudo do comportamento observável?",
-        "options": [
-          "Psicologia Cognitiva",
-          "Psicologia da Personalidade",
-          "Psicologia Comportamental",
-          "Psicologia Social"
-        ],
-        "correctAnswer": "Psicologia Comportamental",
-        "explanation": "A psicologia comportamental, também conhecida como behaviorismo, foca em comportamentos observáveis e aprendidos através de condicionamento.",
-        "id": "quiz-psicologia-1",
-        "categoryId": "psicologia"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual teoria da personalidade propõe que a personalidade é moldada por conflitos inconscientes entre o id, o ego e o superego?",
-        "options": [
-          "Teoria dos Traços",
-          "Teoria Humanista",
-          "Teoria Psicanalítica",
-          "Teoria Cognitivo-Comportamental"
-        ],
-        "correctAnswer": "Teoria Psicanalítica",
-        "explanation": "A teoria psicanalítica de Sigmund Freud enfatiza a influência de forças inconscientes na personalidade e o papel dos conflitos entre o id (desejos primitivos), o ego (realidade) e o superego (moralidade).",
-        "id": "quiz-psicologia-2",
-        "categoryId": "psicologia"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual é um sinal importante de um relacionamento saudável?",
-        "options": [
-          "Controle excessivo do parceiro",
-          "Comunicação aberta e honesta",
-          "Ciúme possessivo",
-          "Falta de confiança mútua"
-        ],
-        "correctAnswer": "Comunicação aberta e honesta",
-        "explanation": "A comunicação aberta e honesta é fundamental para construir e manter um relacionamento saudável e forte.",
-        "id": "quiz-relacionamentos-1",
-        "categoryId": "relacionamentos"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual estilo de apego é caracterizado por uma ansiedade intensa em relação à proximidade e à rejeição?",
-        "options": [
-          "Apego seguro",
-          "Apego ansioso-preocupado",
-          "Apego evasivo-desconfiado",
-          "Apego desorganizado"
-        ],
-        "correctAnswer": "Apego ansioso-preocupado",
-        "explanation": "Indivíduos com apego ansioso-preocupado temem a rejeição e buscam constantemente a validação do parceiro.",
-        "id": "quiz-relacionamentos-2",
-        "categoryId": "relacionamentos"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual a principal função do coração?",
-        "options": [
-          "Transportar oxigênio para os pulmões",
-          "Regular a temperatura corporal",
-          "Bombear sangue para o corpo",
-          "Filtrar impurezas do sangue"
-        ],
-        "correctAnswer": "Bombear sangue para o corpo",
-        "explanation": "O coração é o órgão responsável por impulsionar o sangue oxigenado para todo o corpo.",
-        "id": "quiz-saude-1",
-        "categoryId": "saude"
-      },
-      {
-        "difficulty": "medium",
-        "question": "Qual vitamina é crucial para a absorção de cálcio?",
-        "options": [
-          "Vitamina A",
-          "Vitamina C",
-          "Vitamina D",
-          "Vitamina B12"
-        ],
-        "correctAnswer": "Vitamina D",
-        "explanation": "A vitamina D auxilia na absorção de cálcio, essencial para a saúde óssea.",
-        "id": "quiz-saude-2",
-        "categoryId": "saude"
-      },
-      {
-        "difficulty": "easy",
-        "question": "Qual destes dispositivos NÃO é um dispositivo de entrada?",
-        "options": [
-          "Teclado",
-          "Mouse",
-          "Impressora",
-          "Scanner"
-        ],
-        "correctAnswer": "Impressora",
-        "explanation": "Impressoras são dispositivos de saída, enviando informações do computador para um meio físico.",
-        "id": "quiz-tecnologia-1",
-        "categoryId": "tecnologia"
-      },
-      {
-        "difficulty": "medium",
-        "question": "O que significa a sigla HTML?",
-        "options": [
-          "HyperText Markup Language",
-          "High-Tech Machine Language",
-          "Hyperlink Transfer Markup Language",
-          "Home Tool Markup Language"
-        ],
-        "correctAnswer": "HyperText Markup Language",
-        "explanation": "HTML é a linguagem de marcação usada para criar páginas web.",
-        "id": "quiz-tecnologia-2",
-        "categoryId": "tecnologia"
-      }
+  {
+    "id": "quiz-saude-1",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a principal função do coração?",
+    "options": [
+      "Transportar oxigênio para os pulmões",
+      "Regular a temperatura corporal",
+      "Bombear sangue para o corpo",
+      "Filtrar impurezas do sangue"
+    ],
+    "correctAnswer": "Bombear sangue para o corpo",
+    "explanation": "O coração é o órgão responsável por impulsionar o sangue oxigenado para todo o corpo."
+  },
+  {
+    "id": "quiz-saude-2",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual vitamina é crucial para a absorção de cálcio?",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D auxilia na absorção de cálcio, essencial para a saúde óssea."
+  },
+  {
+    "id": "quiz-saude-3",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual condição médica é caracterizada pelo acúmulo de placa nas artérias, levando ao estreitamento dos vasos sanguíneos?",
+    "options": [
+      "Aterosclerose",
+      "Hipertensão",
+      "Diabetes",
+      "Insuficiência cardíaca"
+    ],
+    "correctAnswer": "Aterosclerose",
+    "explanation": "A aterosclerose é o acúmulo de gordura, colesterol e outras substâncias nas artérias, levando ao endurecimento e estreitamento."
+  },
+  {
+    "id": "quiz-saude-4",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Quantos litros de água um adulto deve beber por dia, aproximadamente?",
+    "options": [
+      "1 litro",
+      "2 litros",
+      "3 litros",
+      "4 litros"
+    ],
+    "correctAnswer": "2 litros",
+    "explanation": "A recomendação de ingestão de água varia, mas 2 litros por dia é um bom ponto de partida para a maioria dos adultos."
+  },
+  {
+    "id": "quiz-saude-5",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual o principal benefício do exercício físico regular para a saúde cardiovascular?",
+    "options": [
+      "Aumento da pressão arterial",
+      "Diminuição da frequência cardíaca em repouso",
+      "Aumento do colesterol ruim (LDL)",
+      "Diminuição da flexibilidade"
+    ],
+    "correctAnswer": "Diminuição da frequência cardíaca em repouso",
+    "explanation": "O exercício físico regular fortalece o coração, melhorando sua eficiência e diminuindo a frequência cardíaca em repouso."
+  },
+  {
+    "id": "quiz-saude-6",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual alimento é conhecido por ser uma boa fonte de fibras?",
+    "options": [
+      "Pizza",
+      "Sorvete",
+      "Aveia",
+      "Refrigerante"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é rica em fibras solúveis e insolúveis, importantes para a saúde digestiva."
+  },
+  {
+    "id": "quiz-saude-7",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual destes fatores é um indicador chave de saúde mental positiva?",
+    "options": [
+      "Sono irregular",
+      "Isolamento social",
+      "Resiliência",
+      "Pensamentos negativos recorrentes"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "A resiliência é a capacidade de se recuperar de adversidades, um fator crucial para a saúde mental."
+  },
+  {
+    "id": "quiz-saude-8",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual o corpo transforma os alimentos em energia?",
+    "options": [
+      "Fotossíntese",
+      "Respiração celular",
+      "Digestão",
+      "Metabolismo"
+    ],
+    "correctAnswer": "Metabolismo",
+    "explanation": "O metabolismo engloba todas as reações químicas que ocorrem no corpo para manter a vida, incluindo a transformação de alimentos em energia."
+  },
+  {
+    "id": "quiz-saude-9",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual destas atividades é considerada exercício aeróbico?",
+    "options": [
+      "Levantamento de peso",
+      "Yoga",
+      "Natação",
+      "Flexões"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "Natação é um exercício que requer aumento do consumo de oxigênio pelo corpo, caracterizando-se como aeróbico."
+  },
+  {
+    "id": "quiz-saude-10",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual o principal componente do sangue que transporta oxigênio?",
+    "options": [
+      "Plasma",
+      "Plaquetas",
+      "Glóbulos brancos",
+      "Hemácias"
+    ],
+    "correctAnswer": "Hemácias",
+    "explanation": "As hemácias, também chamadas de glóbulos vermelhos, contêm hemoglobina, que transporta oxigênio pelo corpo."
+  },
+  {
+    "id": "quiz-bem-estar-1",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade física é recomendada pela maioria dos médicos para a saúde cardiovascular?",
+    "options": [
+      "Natação",
+      "Levantamento de peso",
+      "Corrida",
+      "Ioga"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "A corrida é uma atividade aeróbica eficaz para fortalecer o coração e os pulmões."
+  },
+  {
+    "id": "quiz-bem-estar-2",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual a principal característica da síndrome de burnout?",
+    "options": [
+      "Falta de motivação e exaustão emocional",
+      "Ansiedade generalizada",
+      "Depressão crônica",
+      "Distúrbios do sono"
+    ],
+    "correctAnswer": "Falta de motivação e exaustão emocional",
+    "explanation": "A síndrome de burnout é caracterizada por exaustão emocional, cinismo e falta de eficácia profissional."
+  },
+  {
+    "id": "quiz-bem-estar-3",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual hormônio está fortemente associado à sensação de bem-estar e felicidade?",
+    "options": [
+      "Adrenalina",
+      "Cortisol",
+      "Serotonina",
+      "Melatonina"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina é um neurotransmissor que regula o humor, o sono, o apetite e outras funções cognitivas e desempenha um papel crucial no bem-estar."
+  },
+  {
+    "id": "quiz-bem-estar-4",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Quantas horas de sono são recomendadas para a maioria dos adultos por noite?",
+    "options": [
+      "4-5 horas",
+      "6-7 horas",
+      "7-9 horas",
+      "10-12 horas"
+    ],
+    "correctAnswer": "7-9 horas",
+    "explanation": "A maioria dos adultos precisa de 7 a 9 horas de sono de qualidade por noite para funcionar adequadamente."
+  },
+  {
+    "id": "quiz-bem-estar-5",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A prática regular de mindfulness está associada à redução de qual sintoma?",
+    "options": [
+      "Ganho de peso",
+      "Pressão arterial elevada",
+      "Ansiedade",
+      "Redução da criatividade"
+    ],
+    "correctAnswer": "Ansiedade",
+    "explanation": "O mindfulness ajuda a regular a resposta ao estresse, reduzindo a ansiedade e melhorando a regulação emocional."
+  },
+  {
+    "id": "quiz-dinheiro-1",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o menor valor de uma nota de real em circulação no Brasil?",
+    "options": [
+      "R$ 2,00",
+      "R$ 5,00",
+      "R$ 10,00",
+      "R$ 20,00"
+    ],
+    "correctAnswer": "R$ 2,00",
+    "explanation": "A menor nota de real em circulação é a nota de R$ 2,00."
+  },
+  {
+    "id": "quiz-dinheiro-2",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que significa a sigla 'IPCA'?",
+    "options": [
+      "Índice de Preços ao Consumidor Amplo",
+      "Índice de Preços ao Consumidor Abrangente",
+      "Índice de Preços de Construção Amplo",
+      "Índice de Preços Agrícolas do Consumidor"
+    ],
+    "correctAnswer": "Índice de Preços ao Consumidor Amplo",
+    "explanation": "O IPCA mede a inflação no Brasil, refletindo a variação dos preços de uma cesta de bens e serviços."
+  },
+  {
+    "id": "quiz-dinheiro-3",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre ações e títulos de renda fixa?",
+    "options": [
+      "Ações representam participação em uma empresa, enquanto títulos de renda fixa são empréstimos.",
+      "Ações oferecem maior risco e potencial de retorno, enquanto títulos de renda fixa são mais conservadores.",
+      "Ações são negociadas em bolsas de valores, enquanto títulos de renda fixa não são.",
+      "Todas as alternativas estão corretas."
+    ],
+    "correctAnswer": "Todas as alternativas estão corretas.",
+    "explanation": "Ações representam a propriedade de uma parte de uma empresa e oferecem maior risco e retorno. Títulos de renda fixa são empréstimos, geralmente com retorno previsível e menor risco."
+  },
+  {
+    "id": "quiz-dinheiro-4",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um cheque sem fundo?",
+    "options": [
+      "Um cheque emitido com valor superior ao saldo da conta.",
+      "Um cheque emitido com data futura.",
+      "Um cheque emitido em nome de pessoa jurídica.",
+      "Um cheque emitido para pagamento de serviços públicos."
+    ],
+    "correctAnswer": "Um cheque emitido com valor superior ao saldo da conta.",
+    "explanation": "Um cheque sem fundo é aquele que não pode ser pago porque o emissor não possui saldo suficiente em sua conta bancária."
+  },
+  {
+    "id": "quiz-dinheiro-5",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual dessas opções NÃO é uma forma de pagamento?",
+    "options": [
+      "Cartão de crédito",
+      "Pix",
+      "Bitcoin",
+      "Teletransporte"
+    ],
+    "correctAnswer": "Teletransporte",
+    "explanation": "Teletransporte é um conceito de ficção científica; as outras opções são métodos de pagamento reais."
+  },
+  {
+    "id": "quiz-futuro-1",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual dessas tecnologias é mais comumente associada ao conceito de 'casas inteligentes'?",
+    "options": [
+      "Impressoras 3D",
+      "Realidade Virtual",
+      "Internet das Coisas (IoT)",
+      "Energia Nuclear"
+    ],
+    "correctAnswer": "Internet das Coisas (IoT)",
+    "explanation": "A Internet das Coisas permite que diversos aparelhos domésticos se conectem e sejam controlados remotamente."
+  },
+  {
+    "id": "quiz-futuro-2",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal impacto ambiental previsto para o aumento do nível do mar devido às mudanças climáticas?",
+    "options": [
+      "Aumento da biodiversidade marinha",
+      "Redução da ocorrência de furacões",
+      "Inundações costeiras e deslocamento populacional",
+      "Diminuição da temperatura global"
+    ],
+    "correctAnswer": "Inundações costeiras e deslocamento populacional",
+    "explanation": "O aumento do nível do mar ameaça áreas costeiras baixas, levando a inundações e forçando a migração de populações."
+  },
+  {
+    "id": "quiz-futuro-3",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual a principal barreira ética relacionada ao desenvolvimento da inteligência artificial (IA)?",
+    "options": [
+      "Custo de desenvolvimento",
+      "Disponibilidade de dados",
+      "Viés algorítmico e discriminação",
+      "Falta de profissionais qualificados"
+    ],
+    "correctAnswer": "Viés algorítmico e discriminação",
+    "explanation": "IA treinada com dados tendenciosos pode perpetuar e até amplificar preconceitos existentes na sociedade."
+  },
+  {
+    "id": "quiz-futuro-4",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual área de pesquisa foca na criação de materiais com propriedades melhoradas em comparação com materiais naturais?",
+    "options": [
+      "Biotecnologia",
+      "Nanotecnologia",
+      "Engenharia Genética",
+      "Ciência da Computação"
+    ],
+    "correctAnswer": "Nanotecnologia",
+    "explanation": "A nanotecnologia manipula materiais em escala nanométrica, permitindo a criação de materiais com propriedades únicas e aprimoradas."
+  },
+  {
+    "id": "quiz-futuro-5",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual forma de transporte é frequentemente associada a um futuro mais sustentável?",
+    "options": [
+      "Aviões supersônicos",
+      "Carros a gasolina",
+      "Veículos elétricos",
+      "Navios cargueiros"
+    ],
+    "correctAnswer": "Veículos elétricos",
+    "explanation": "Veículos elétricos reduzem a emissão de gases poluentes em comparação com veículos a combustão interna."
+  },
+  {
+    "id": "quiz-tecnologia-1",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destes sistemas operacionais é desenvolvido pelo Google?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "correctAnswer": "Android",
+    "explanation": "Android é um sistema operacional móvel desenvolvido pelo Google."
+  },
+  {
+    "id": "quiz-tecnologia-2",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual a principal função de um firewall?",
+    "options": [
+      "Acelerar a velocidade da internet",
+      "Criar backups de arquivos",
+      "Monitorar e controlar o tráfego de rede",
+      "Instalar softwares"
+    ],
+    "correctAnswer": "Monitorar e controlar o tráfego de rede",
+    "explanation": "Um firewall monitora e controla o tráfego de rede, bloqueando acessos não autorizados."
+  },
+  {
+    "id": "quiz-tecnologia-3",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual linguagem de programação é tipicamente usada para desenvolver aplicativos para iOS?",
+    "options": [
+      "Java",
+      "Python",
+      "C#",
+      "Swift"
+    ],
+    "correctAnswer": "Swift",
+    "explanation": "Swift é a linguagem de programação principal para o desenvolvimento de aplicativos iOS, embora outras possam ser usadas em conjunto."
+  },
+  {
+    "id": "quiz-tecnologia-4",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa a sigla RAM?",
+    "options": [
+      "Read-Only Memory",
+      "Random Access Memory",
+      "Read Access Memory",
+      "Remote Access Memory"
+    ],
+    "correctAnswer": "Random Access Memory",
+    "explanation": "RAM significa Random Access Memory, memória de acesso aleatório, usada para armazenamento temporário de dados."
+  },
+  {
+    "id": "quiz-tecnologia-5",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a conexão sem fio à internet?",
+    "options": [
+      "Cabo de rede",
+      "Modem",
+      "Impressora",
+      "Roteador"
+    ],
+    "correctAnswer": "Roteador",
+    "explanation": "Um roteador permite a conexão sem fio (Wi-Fi) à internet, distribuindo o sinal para múltiplos dispositivos."
+  },
+  {
+    "id": "quiz-ciencia-1",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o maior órgão do corpo humano?",
+    "options": [
+      "Coração",
+      "Cérebro",
+      "Fígado",
+      "Pele"
+    ],
+    "correctAnswer": "Pele",
+    "explanation": "A pele é o maior órgão do corpo humano, cobrindo toda a sua superfície."
+  },
+  {
+    "id": "quiz-ciencia-2",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual gás é mais abundante na atmosfera terrestre?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de Carbono",
+      "Argônio"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "O nitrogênio constitui aproximadamente 78% da atmosfera terrestre."
+  },
+  {
+    "id": "quiz-ciencia-3",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o princípio físico que explica o funcionamento de um avião?",
+    "options": [
+      "Segunda Lei de Newton",
+      "Terceira Lei de Newton",
+      "Lei da Conservação de Energia",
+      "Lei da Gravitação Universal"
+    ],
+    "correctAnswer": "Terceira Lei de Newton",
+    "explanation": "A sustentação de um avião é baseada na Terceira Lei de Newton (ação e reação), onde a força para cima é gerada pela ação das asas sobre o ar."
+  },
+  {
+    "id": "quiz-ciencia-4",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a unidade de medida de energia?",
+    "options": [
+      "Watt",
+      "Joule",
+      "Newton",
+      "Pascal"
+    ],
+    "correctAnswer": "Joule",
+    "explanation": "O Joule (J) é a unidade de medida de energia no Sistema Internacional de Unidades (SI)."
+  },
+  {
+    "id": "quiz-ciencia-5",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual a água muda do estado líquido para o estado gasoso?",
+    "options": [
+      "Condensação",
+      "Evaporação",
+      "Solidificação",
+      "Sublimação"
+    ],
+    "correctAnswer": "Evaporação",
+    "explanation": "Evaporação é a mudança de estado físico da água do líquido para gasoso."
+  },
+  {
+    "id": "quiz-cultura-1",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pela Torre Eiffel?",
+    "options": [
+      "Inglaterra",
+      "Estados Unidos",
+      "França",
+      "Itália"
+    ],
+    "correctAnswer": "França",
+    "explanation": "A Torre Eiffel é um monumento icônico localizado em Paris, França."
+  },
+  {
+    "id": "quiz-cultura-2",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual é a principal religião praticada no Japão?",
+    "options": [
+      "Cristianismo",
+      "Islamismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "Embora existam outras religiões no Japão, o Budismo é a religião predominante."
+  },
+  {
+    "id": "quiz-cultura-3",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento artístico se caracterizava por retratar o inconsciente e os sonhos?",
+    "options": [
+      "Impressionismo",
+      "Realismo",
+      "Surrealismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Surrealismo",
+    "explanation": "O Surrealismo explorava a imaginação e o mundo onírico, representando-os em suas obras de arte."
+  },
+  {
+    "id": "quiz-cultura-4",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual dança folclórica é tradicional do México?",
+    "options": [
+      "Tango",
+      "Flamenco",
+      "Samba",
+      "Jarabe Tapatío"
+    ],
+    "correctAnswer": "Jarabe Tapatío",
+    "explanation": "O Jarabe Tapatío, conhecido como a dança do chapéu mexicano, é considerado a dança nacional do México."
+  },
+  {
+    "id": "quiz-cultura-5",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Em qual continente se localiza o Taj Mahal?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Sul"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "O Taj Mahal está localizado na Índia, um país asiático."
+  },
+  {
+    "id": "quiz-historia-1",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que ano terminou a Segunda Guerra Mundial?",
+    "options": [
+      "1943",
+      "1945",
+      "1948",
+      "1950"
+    ],
+    "correctAnswer": "1945",
+    "explanation": "A Segunda Guerra Mundial terminou oficialmente em 2 de setembro de 1945, com a rendição formal do Japão."
+  },
+  {
+    "id": "quiz-historia-2",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do tratado que pôs fim à Primeira Guerra Mundial?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Tordesilhas",
+      "Tratado de Utrecht",
+      "Tratado de Paris"
+    ],
+    "correctAnswer": "Tratado de Versalhes",
+    "explanation": "O Tratado de Versalhes foi assinado em 28 de junho de 1919, oficialmente pondo fim à Primeira Guerra Mundial."
+  },
+  {
+    "id": "quiz-historia-3",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual civilização antiga desenvolveu o primeiro sistema de escrita conhecido como cuneiforme?",
+    "options": [
+      "Egípcios",
+      "Gregos",
+      "Sumérios",
+      "Romanos"
+    ],
+    "correctAnswer": "Sumérios",
+    "explanation": "A escrita cuneiforme foi desenvolvida pelos Sumérios na Mesopotâmia, por volta de 3200 a.C."
+  },
+  {
+    "id": "quiz-historia-4",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "John Adams",
+      "Benjamin Franklin"
+    ],
+    "correctAnswer": "George Washington",
+    "explanation": "George Washington foi o primeiro presidente dos Estados Unidos, servindo de 1789 a 1797."
+  },
+  {
+    "id": "quiz-historia-5",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente se localiza o Egito?",
+    "options": [
+      "Europa",
+      "Ásia",
+      "América do Sul",
+      "África"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Egito está localizado no continente africano, na região nordeste."
+  },
+  {
+    "id": "quiz-misterios-1",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso monstro que supostamente habita um lago na Escócia?",
+    "options": [
+      "Pé Grande",
+      "Chupa-cabra",
+      "Monstro do Lago Ness",
+      "Kraken"
+    ],
+    "correctAnswer": "Monstro do Lago Ness",
+    "explanation": "O Monstro do Lago Ness, ou Nessie, é uma criatura lendária que supostamente vive no Lago Ness, na Escócia."
+  },
+  {
+    "id": "quiz-misterios-2",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual civilização construiu as misteriosas Linhas de Nazca?",
+    "options": [
+      "Inca",
+      "Asteca",
+      "Nazca",
+      "Maia"
+    ],
+    "correctAnswer": "Nazca",
+    "explanation": "As Linhas de Nazca são gigantescos geoglifos no deserto do Peru, criados pela civilização Nazca entre 500 a.C. e 500 d.C."
+  },
+  {
+    "id": "quiz-misterios-3",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual a teoria mais aceita para o desaparecimento da civilização Minoica em Creta?",
+    "options": [
+      "Invasão dos Micênicos",
+      "Erupção vulcânica de Thera",
+      "Epidemia",
+      "Mudança climática"
+    ],
+    "correctAnswer": "Erupção vulcânica de Thera",
+    "explanation": "A erupção do vulcão Thera (Santorini) é considerada a causa mais provável para o fim da civilização Minoica, embora outros fatores possam ter contribuído."
+  },
+  {
+    "id": "quiz-misterios-4",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "O que são 'Círculos nas Plantações' (Crop Circles)?",
+    "options": [
+      "Formações geológicas naturais",
+      "Padrões complexos criados em campos de cultivo",
+      "Antigos locais de rituais",
+      "Ninhos de pássaros gigantes"
+    ],
+    "correctAnswer": "Padrões complexos criados em campos de cultivo",
+    "explanation": "Círculos nas plantações são padrões geométricos que aparecem misteriosamente em campos de cereais. Sua origem é muito debatida."
+  },
+  {
+    "id": "quiz-misterios-5",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "O Triângulo das Bermudas está localizado em qual oceano?",
+    "options": [
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Atlântico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Atlântico",
+    "explanation": "O Triângulo das Bermudas é uma área vagamente definida na parte ocidental do Oceano Atlântico Norte."
+  },
+  {
+    "id": "quiz-entretenimento-1",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso palhaço do filme 'IT'?",
+    "options": [
+      "Ronald McDonald",
+      "Pennywise",
+      "Bozo",
+      "Krusty"
+    ],
+    "correctAnswer": "Pennywise",
+    "explanation": "Pennywise, o palhaço dançarino, é o antagonista principal do livro e da adaptação cinematográfica de 'IT'."
+  },
+  {
+    "id": "quiz-entretenimento-2",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual série de TV foi a primeira a ser transmitida em cores nos EUA?",
+    "options": [
+      "I Love Lucy",
+      "The Honeymooners",
+      "Bonanza",
+      "Gunsmoke"
+    ],
+    "correctAnswer": "Bonanza",
+    "explanation": "Embora alguns episódios de outras séries tivessem sido transmitidos em cores antes, 'Bonanza' foi a primeira série regular em cores nos EUA."
+  },
+  {
+    "id": "quiz-entretenimento-3",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual diretor é conhecido por sua colaboração frequente com o compositor Hans Zimmer?",
+    "options": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Steven Spielberg",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Christopher Nolan e Hans Zimmer colaboraram em vários filmes de sucesso, incluindo a trilogia 'Batman' e 'Inception'."
+  },
+  {
+    "id": "quiz-entretenimento-4",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual plataforma de streaming é conhecida pelo seu catálogo extenso de documentários?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "HBO Max",
+      "Amazon Prime Video"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "A Netflix tem uma vasta biblioteca de documentários originais e licenciados."
+  },
+  {
+    "id": "quiz-entretenimento-5",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico de tiro em primeira pessoa popularizou o modo Battle Royale?",
+    "options": [
+      "Call of Duty: Modern Warfare",
+      "Halo",
+      "Counter-Strike",
+      "PlayerUnknown's Battlegrounds"
+    ],
+    "correctAnswer": "PlayerUnknown's Battlegrounds",
+    "explanation": "Embora outros jogos tivessem elementos de Battle Royale antes, PUBG popularizou o modo e inspirou muitos outros jogos."
+  },
+  {
+    "id": "quiz-relacionamentos-1",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é um sinal importante de um relacionamento saudável?",
+    "options": [
+      "Controle excessivo do parceiro",
+      "Comunicação aberta e honesta",
+      "Ciúme possessivo",
+      "Falta de confiança mútua"
+    ],
+    "correctAnswer": "Comunicação aberta e honesta",
+    "explanation": "A comunicação aberta e honesta é fundamental para construir e manter um relacionamento saudável e forte."
+  },
+  {
+    "id": "quiz-relacionamentos-2",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual estilo de apego é caracterizado por uma ansiedade intensa em relação à proximidade e à rejeição?",
+    "options": [
+      "Apego seguro",
+      "Apego ansioso-preocupado",
+      "Apego evasivo-desconfiado",
+      "Apego desorganizado"
+    ],
+    "correctAnswer": "Apego ansioso-preocupado",
+    "explanation": "Indivíduos com apego ansioso-preocupado temem a rejeição e buscam constantemente a validação do parceiro."
+  },
+  {
+    "id": "quiz-relacionamentos-3",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Em qual fase do desenvolvimento de um relacionamento, geralmente, os casais enfrentam conflitos relacionados à intimidade e à autonomia?",
+    "options": [
+      "Fase de paixão",
+      "Fase de compromisso",
+      "Fase de construção",
+      "Fase de resolução de conflitos"
+    ],
+    "correctAnswer": "Fase de construção",
+    "explanation": "A fase de construção do relacionamento é marcada por um balanço entre a necessidade de intimidade e a preservação da individualidade, o que pode levar a conflitos."
+  },
+  {
+    "id": "quiz-relacionamentos-4",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual é uma estratégia eficaz para lidar com conflitos em um relacionamento?",
+    "options": [
+      "Evitar a discussão",
+      "Gritar e acusar o parceiro",
+      "Comunicar-se assertivamente e buscar soluções em conjunto",
+      "Ignorar os problemas na esperança de que desapareçam"
+    ],
+    "correctAnswer": "Comunicar-se assertivamente e buscar soluções em conjunto",
+    "explanation": "A comunicação assertiva permite expressar suas necessidades e opiniões sem agredir o outro, enquanto a busca por soluções conjuntas fortalece o relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-5",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que significa empatia em um relacionamento?",
+    "options": [
+      "Se colocar no lugar do outro e entender seus sentimentos",
+      "Ser sempre de acordo com o parceiro",
+      "Dominar a conversa",
+      "Ignorar os sentimentos do parceiro"
+    ],
+    "correctAnswer": "Se colocar no lugar do outro e entender seus sentimentos",
+    "explanation": "Empatia é a capacidade de compreender e compartilhar os sentimentos de outra pessoa, essencial para um relacionamento saudável e compreensivo."
+  },
+  {
+    "id": "quiz-psicologia-1",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual ramo da psicologia se concentra no estudo do comportamento observável?",
+    "options": [
+      "Psicologia Cognitiva",
+      "Psicologia da Personalidade",
+      "Psicologia Comportamental",
+      "Psicologia Social"
+    ],
+    "correctAnswer": "Psicologia Comportamental",
+    "explanation": "A psicologia comportamental, também conhecida como behaviorismo, foca em comportamentos observáveis e aprendidos através de condicionamento."
+  },
+  {
+    "id": "quiz-psicologia-2",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual teoria da personalidade propõe que a personalidade é moldada por conflitos inconscientes entre o id, o ego e o superego?",
+    "options": [
+      "Teoria dos Traços",
+      "Teoria Humanista",
+      "Teoria Psicanalítica",
+      "Teoria Cognitivo-Comportamental"
+    ],
+    "correctAnswer": "Teoria Psicanalítica",
+    "explanation": "A teoria psicanalítica de Sigmund Freud enfatiza a influência de forças inconscientes na personalidade e o papel dos conflitos entre o id (desejos primitivos), o ego (realidade) e o superego (moralidade)."
+  },
+  {
+    "id": "quiz-psicologia-3",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual é o nome do fenômeno psicológico onde a exposição repetida a um estímulo leva a uma diminuição da resposta?",
+    "options": [
+      "Sensibilização",
+      "Habituação",
+      "Imprinting",
+      "Extinção"
+    ],
+    "correctAnswer": "Habituação",
+    "explanation": "A habituação é um processo de aprendizagem não-associativa onde a resposta a um estímulo repetido diminui ao longo do tempo."
+  },
+  {
+    "id": "quiz-psicologia-4",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é um viés de confirmação?",
+    "options": [
+      "Tendência a buscar informações que confirmem crenças preexistentes",
+      "Tendência a superestimar a própria habilidade",
+      "Tendência a julgar eventos passados como previsíveis",
+      "Tendência a atribuir causas internas para o sucesso e externas para o fracasso"
+    ],
+    "correctAnswer": "Tendência a buscar informações que confirmem crenças preexistentes",
+    "explanation": "O viés de confirmação é a tendência cognitiva de favorecer informações que confirmem suas crenças e descartar informações que as contradigam."
+  },
+  {
+    "id": "quiz-psicologia-5",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual desses é um método de pesquisa frequentemente usado em psicologia?",
+    "options": [
+      "Observação sistemática",
+      "Entrevistas",
+      "Questionários",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Observação sistemática, entrevistas e questionários são todos métodos de pesquisa comuns utilizados em psicologia para coletar dados e testar hipóteses."
+  },
+  {
+    "id": "quiz-autoajuda-1",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual é um princípio fundamental da maioria das filosofias de autoajuda?",
+    "options": [
+      "Aceitação incondicional de si mesmo",
+      "Busca constante de aprovação externa",
+      "Negação de emoções negativas",
+      "Foco exclusivo nos defeitos pessoais"
+    ],
+    "correctAnswer": "Aceitação incondicional de si mesmo",
+    "explanation": "A autoaceitação é um pilar para o crescimento pessoal e o bem-estar, permitindo lidar com desafios de forma mais construtiva."
+  },
+  {
+    "id": "quiz-autoajuda-2",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de tempo é frequentemente recomendada em livros de autoajuda para melhorar a produtividade?",
+    "options": [
+      "Procrastinação estratégica",
+      "Multitarefa contínua",
+      "Método Pomodoro",
+      "Trabalho contínuo sem pausas"
+    ],
+    "correctAnswer": "Método Pomodoro",
+    "explanation": "O Método Pomodoro, com seus intervalos de trabalho e descanso, ajuda a manter o foco e a evitar o esgotamento."
+  },
+  {
+    "id": "quiz-autoajuda-3",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "A síndrome do impostor, frequentemente discutida em livros de autoajuda, é caracterizada por:",
+    "options": [
+      "Sensação de superioridade e arrogância",
+      "Confiança excessiva nas próprias habilidades",
+      "Medo constante de fracasso e autopromoção exagerada",
+      "Dúvida persistente sobre as próprias competências e conquistas, apesar do sucesso"
+    ],
+    "correctAnswer": "Dúvida persistente sobre as próprias competências e conquistas, apesar do sucesso",
+    "explanation": "A síndrome do impostor é marcada por uma discrepância entre o sucesso percebido e a autopercepção de capacidade."
+  },
+  {
+    "id": "quiz-autoajuda-4",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual conceito é central na prática da mindfulness?",
+    "options": [
+      "Pensamento obsessivo sobre o futuro",
+      "Preocupação constante com o passado",
+      "Concentração plena no momento presente",
+      "Supressão de emoções e pensamentos"
+    ],
+    "correctAnswer": "Concentração plena no momento presente",
+    "explanation": "Mindfulness envolve prestar atenção ao momento presente sem julgamento, cultivando a consciência."
+  },
+  {
+    "id": "quiz-autoajuda-5",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que geralmente é considerado um obstáculo para o crescimento pessoal?",
+    "options": [
+      "Estabelecimento de metas realistas",
+      "Autocompaixão",
+      "Pensamento positivo",
+      "Medo do fracasso"
+    ],
+    "correctAnswer": "Medo do fracasso",
+    "explanation": "O medo do fracasso pode paralisar a ação e impedir que as pessoas busquem novas oportunidades de crescimento."
+  },
+  {
+    "id": "quiz-viagens-1",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual é a cidade mais populosa do mundo?",
+    "options": [
+      "Tóquio",
+      "Xangai",
+      "São Paulo",
+      "Delhi"
+    ],
+    "correctAnswer": "Tóquio",
+    "explanation": "Tóquio, no Japão, é consistentemente classificada como a área metropolitana mais populosa do mundo."
+  },
+  {
+    "id": "quiz-viagens-2",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "A Grande Muralha da China é visível do espaço a olho nu?",
+    "options": [
+      "Sim, claramente",
+      "Sim, mas apenas em dias claros",
+      "Não, isso é um mito popular",
+      "Sim, mas apenas da Lua"
+    ],
+    "correctAnswer": "Não, isso é um mito popular",
+    "explanation": "Contrariamente à crença popular, a Grande Muralha não é visível da órbita baixa da Terra a olho nu. Ela é muito estreita para ser distinguida."
+  },
+  {
+    "id": "quiz-viagens-3",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome da antiga cidade inca situada no alto dos Andes, no Peru?",
+    "options": [
+      "Chichén Itzá",
+      "Tikal",
+      "Machu Picchu",
+      "Teotihuacan"
+    ],
+    "correctAnswer": "Machu Picchu",
+    "explanation": "Machu Picchu é uma cidadela inca do século XV situada em uma cordilheira a 2.430 metros acima do nível do mar."
+  },
+  {
+    "id": "quiz-viagens-4",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso por seus canais, tamancos de madeira e moinhos de vento?",
+    "options": [
+      "Bélgica",
+      "Holanda (Países Baixos)",
+      "Dinamarca",
+      "Suécia"
+    ],
+    "correctAnswer": "Holanda (Países Baixos)",
+    "explanation": "Esses são símbolos icônicos da cultura e da paisagem holandesa."
+  },
+  {
+    "id": "quiz-viagens-5",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "A Torre de Pisa, famosa por sua inclinação, está localizada em qual país?",
+    "options": [
+      "França",
+      "Espanha",
+      "Grécia",
+      "Itália"
+    ],
+    "correctAnswer": "Itália",
+    "explanation": "A Torre Inclinada de Pisa é o campanário da catedral da cidade italiana de Pisa."
+  }
 ]
