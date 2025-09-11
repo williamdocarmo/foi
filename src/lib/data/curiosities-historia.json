@@ -24,5 +24,40 @@
     "title": "A Invenção do Saco de Chá",
     "content": "O saco de chá foi inventado por acidente. Em 1908, um comerciante de chá de Nova York chamado Thomas Sullivan começou a enviar amostras de chá para seus clientes em pequenos sacos de seda. Os clientes, sem saber, mergulharam os sacos inteiros em água quente, e a conveniência pegou.",
     "funFact": "Sullivan inicialmente ficou desapontado, pois sua intenção era que os clientes abrissem os sacos e usassem o chá solto."
+  },
+  {
+    "title": "A Biblioteca de Alexandria: Um Tesouro Perdido",
+    "content": "A Biblioteca de Alexandria, no Egito antigo, foi uma das maiores e mais importantes bibliotecas do mundo antigo, contendo inúmeros rolos de papiro com conhecimento acumulado por séculos.  Sua destruição é um marco da perda irreparável de conhecimento.",
+    "funFact": "Estima-se que a biblioteca continha mais de 500.000 rolos,  representando uma quantidade colossal de informação.",
+    "id": "historia-6",
+    "categoryId": "historia"
+  },
+  {
+    "title": "A Invenção do Papel",
+    "content": "A invenção do papel na China, por volta do século II d.C., revolucionou a comunicação e a preservação do conhecimento, substituindo materiais mais caros e menos práticos, como papiro e pergaminho. Sua disseminação teve impacto global profundo.",
+    "funFact": "Inicialmente, o papel era feito de fibras de cânhamo e linho.",
+    "id": "historia-7",
+    "categoryId": "historia"
+  },
+  {
+    "title": "O Impacto da Peste Negra",
+    "content": "A Peste Negra, que assolou a Europa na Idade Média, causou uma mortandade significativa, alterando profundamente a estrutura social, econômica e demográfica da Europa. A escassez de mão de obra impactou profundamente o sistema feudal.",
+    "funFact": "Estima-se que a Peste Negra matou entre 30% e 60% da população europeia.",
+    "id": "historia-8",
+    "categoryId": "historia"
+  },
+  {
+    "title": "A História da Escrita",
+    "content": "A escrita evoluiu gradualmente, passando por diferentes sistemas, desde os pictogramas até os alfabetos fonéticos que usamos hoje.  Esta evolução permitiu uma comunicação mais eficiente e a preservação de histórias e culturas.",
+    "funFact": "A escrita cuneiforme, utilizada pelos sumérios, é um dos primeiros sistemas de escrita conhecidos.",
+    "id": "historia-9",
+    "categoryId": "historia"
+  },
+  {
+    "title": "As Pirâmides do Egito: Símbolos de Poder e Engenharia",
+    "content": "As pirâmides egípcias, construídas há milhares de anos, demonstram a sofisticada engenharia e organização social do antigo Egito. Elas são monumentos grandiosos que ainda hoje fascinam estudiosos e turistas.",
+    "funFact": "A Grande Pirâmide de Gizé foi a estrutura mais alta do mundo por mais de 3.800 anos.",
+    "id": "historia-10",
+    "categoryId": "historia"
   }
 ]

@@ -68,5 +68,75 @@
     "explanation": "O mindfulness ajuda a regular a resposta ao estresse, reduzindo a ansiedade e melhorando a regulação emocional.",
     "id": "quiz-bem-estar-5",
     "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é geralmente considerada uma boa forma de aliviar o estresse?",
+    "options": [
+      "Assistir TV",
+      "Jogar videogame",
+      "Meditar",
+      "Trabalhar horas extras"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "A meditação é uma técnica comprovada para reduzir o estresse e melhorar a saúde mental.",
+    "id": "quiz-bem-estar-6",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A dieta mediterrânea é frequentemente associada a quais benefícios para a saúde?",
+    "options": [
+      "Aumento de peso e pressão alta",
+      "Redução do risco de doenças cardíacas e alguns tipos de câncer",
+      "Problemas digestivos e inflamação",
+      "Diminuição da imunidade e maior risco de infecções"
+    ],
+    "correctAnswer": "Redução do risco de doenças cardíacas e alguns tipos de câncer",
+    "explanation": "A dieta mediterrânea, rica em frutas, vegetais, grãos integrais e azeite de oliva, é associada a uma redução significativa no risco de diversas doenças crônicas.",
+    "id": "quiz-bem-estar-7",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito se refere à capacidade de se adaptar e lidar com situações adversas, mostrando resiliência?",
+    "options": [
+      "Autoestima",
+      "Inteligência Emocional",
+      "Resiliência",
+      "Empatia"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Resiliência é a capacidade de se recuperar de adversidades, traumas, tragédias, ameaças ou fontes significativas de estresse.",
+    "id": "quiz-bem-estar-8",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Manter um diário de gratidão está associado a qual impacto na saúde mental?",
+    "options": [
+      "Aumento da ansiedade e depressão",
+      "Diminuição da auto-estima e confiança",
+      "Melhora no humor e aumento da positividade",
+      "Nenhum impacto significativo"
+    ],
+    "correctAnswer": "Melhora no humor e aumento da positividade",
+    "explanation": "A prática regular de listar coisas pelas quais se sente grato está associada a uma melhora no humor e no bem-estar geral.",
+    "id": "quiz-bem-estar-9",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de comportamento que promove o autocuidado?",
+    "options": [
+      "Dormir pouco",
+      "Ignorar as necessidades físicas",
+      "Priorizar o trabalho acima de tudo",
+      "Praticar exercícios regularmente"
+    ],
+    "correctAnswer": "Praticar exercícios regularmente",
+    "explanation": "A atividade física regular é um importante componente do autocuidado, contribuindo para a saúde física e mental.",
+    "id": "quiz-bem-estar-10",
+    "categoryId": "bem-estar"
   }
 ]

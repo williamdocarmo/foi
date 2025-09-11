@@ -1,3 +1,4 @@
+
 [
   {
     "title": "O Coração Humano",
@@ -57,6 +58,41 @@
     "content": "Sua pele é um órgão complexo que protege contra infecções, regula a temperatura corporal e elimina toxinas. Cuide bem dela!",
     "funFact": "Sua pele se regenera completamente a cada 27 dias.",
     "id": "saude-10",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Mágica da Regeneração do Fígado",
+    "content": "O fígado possui uma incrível capacidade de regeneração.  Mesmo após a remoção de uma parte significativa, ele consegue se reconstruir completamente.",
+    "funFact": "Em alguns casos, até 75% do fígado pode ser removido e ele ainda se regenera totalmente.",
+    "id": "saude-11",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Ossos Vivos",
+    "content": "Os ossos não são estáticos; eles são tecidos vivos que estão em constante processo de renovação e reconstrução.",
+    "funFact": "A estrutura óssea do corpo humano é totalmente renovada a cada 10 anos.",
+    "id": "saude-12",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Microbiota Intestinal",
+    "content": "Seu intestino abriga trilhões de bactérias que influenciam sua digestão, imunidade e até mesmo seu humor. Um desequilíbrio dessa microbiota pode levar a problemas de saúde.",
+    "funFact": "Existem mais bactérias em seu intestino do que células no seu corpo.",
+    "id": "saude-13",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Poder da Respiração Consciente",
+    "content": "A respiração profunda e consciente pode reduzir o estresse, melhorar a qualidade do sono e até mesmo fortalecer o sistema imunológico.",
+    "funFact": "A prática regular de respiração consciente pode ajudar a regular a resposta do corpo ao cortisol, o hormônio do estresse.",
+    "id": "saude-14",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Surpreendente Elasticidade dos Pulmões",
+    "content": "Seus pulmões são órgãos extremamente elásticos, expandindo e contraindo milhões de vezes durante a sua vida, sem perder significativamente sua função.",
+    "funFact": "Se você pudesse esticar todos os alvéolos pulmonares, eles cobririam uma área equivalente a uma quadra de tênis.",
+    "id": "saude-15",
     "categoryId": "saude"
   }
 ]

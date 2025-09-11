@@ -1,3 +1,4 @@
+
 [
   {
     "title": "A Origem do 'Bug' de Computador",
@@ -57,6 +58,41 @@
     "content": "A Internet das Coisas (IoT) conecta bilhões de dispositivos à internet, desde eletrodomésticos a carros, permitindo a coleta e troca de dados em tempo real.",
     "funFact": "Estima-se que em 2025, haverá mais de 75 bilhões de dispositivos conectados à internet.",
     "id": "tecnologia-10",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Guerra Fria e a Internet",
+    "content": "A internet, como a conhecemos, teve suas origens na Guerra Fria.  A necessidade de comunicação descentralizada e resistente a ataques levou ao desenvolvimento de ARPANET, precursora da internet moderna.",
+    "funFact": "ARPANET inicialmente conectava apenas quatro computadores.",
+    "id": "tecnologia-11",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "O Impacto da Tecnologia na Agricultura",
+    "content": "A tecnologia de precisão na agricultura, usando drones, sensores e inteligência artificial, otimiza o uso de recursos como água e fertilizantes, aumentando a produtividade e reduzindo o impacto ambiental.",
+    "funFact": "Sensores em solo podem monitorar em tempo real a umidade e a necessidade de irrigação.",
+    "id": "tecnologia-12",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Tecnologia Assistiva e a Inclusão",
+    "content": "A tecnologia assistiva desenvolve ferramentas e dispositivos que ajudam pessoas com deficiência a superar barreiras e participar mais plenamente da sociedade.  Isso inclui softwares de leitura de tela, próteses inteligentes e muito mais.",
+    "funFact": "Impressoras 3D estão revolucionando a criação de próteses personalizadas e de baixo custo.",
+    "id": "tecnologia-13",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Energia Renovável e a Tecnologia",
+    "content": "A tecnologia desempenha um papel crucial na transição para energias renováveis, com avanços em painéis solares mais eficientes, turbinas eólicas mais potentes e sistemas de armazenamento de energia mais eficazes.",
+    "funFact": "A eficiência dos painéis solares aumentou significativamente nas últimas décadas.",
+    "id": "tecnologia-14",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Mineração de Dados e a Privacidade",
+    "content": "A mineração de dados, embora útil para empresas e pesquisas, levanta preocupações significativas sobre privacidade.  O uso de algoritmos para analisar grandes conjuntos de dados pode revelar informações pessoais sensíveis.",
+    "funFact": "Regulamentações de privacidade de dados, como o GDPR, buscam proteger os indivíduos do uso indevido de seus dados.",
+    "id": "tecnologia-15",
     "categoryId": "tecnologia"
   }
 ]

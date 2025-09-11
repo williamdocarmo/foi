@@ -1,0 +1,72 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso triângulo das Bermudas?",
+    "options": [
+      "Triângulo das Ilhas Canárias",
+      "Triângulo do Atlântico Norte",
+      "Triângulo do Dragão",
+      "Triângulo das Bermudas"
+    ],
+    "correctAnswer": "Triângulo das Bermudas",
+    "explanation": "O Triângulo das Bermudas é uma região no Oceano Atlântico associada a misteriosas desaparecimentos de navios e aeronaves.",
+    "id": "quiz-misterios-1",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual civilização construiu as Linhas de Nazca?",
+    "options": [
+      "Inca",
+      "Asteca",
+      "Nazca",
+      "Maia"
+    ],
+    "correctAnswer": "Nazca",
+    "explanation": "As Linhas de Nazca são gigantescos geoglifos no deserto do Peru, criados pela civilização Nazca.",
+    "id": "quiz-misterios-2",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a teoria mais aceita para o desaparecimento da civilização Minoica em Creta?",
+    "options": [
+      "Invasão dos Micênicos",
+      "Erupção vulcânica de Thera",
+      "Epidemia",
+      "Mudança climática"
+    ],
+    "correctAnswer": "Erupção vulcânica de Thera",
+    "explanation": "A erupção do vulcão Thera (Santorini) é considerada a causa mais provável para o fim da civilização Minoica, embora outras fatores possam ter contribuído.",
+    "id": "quiz-misterios-3",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a 'Cryptids'?",
+    "options": [
+      "Criaturas lendárias ou mitológicas",
+      "Objetos celestiais desconhecidos",
+      "Fenômenos inexplicáveis da natureza",
+      "Símbolos antigos de civilizações perdidas"
+    ],
+    "correctAnswer": "Criaturas lendárias ou mitológicas",
+    "explanation": "Cryptids são criaturas que supostamente existem, mas ainda não foram comprovadamente identificadas pela ciência.",
+    "id": "quiz-misterios-4",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em qual local ocorrem os avistamentos de 'monstros lacustres' mais relatados?",
+    "options": [
+      "Lago Ness, Escócia",
+      "Lago Titicaca, Peru e Bolívia",
+      "Loch Awe, Escócia",
+      "Lago Superior, América do Norte"
+    ],
+    "correctAnswer": "Lago Ness, Escócia",
+    "explanation": "O Lago Ness, na Escócia, é mundialmente conhecido pelos relatados avistamentos do Monstro de Loch Ness.",
+    "id": "quiz-misterios-5",
+    "categoryId": "misterios"
+  }
+]

@@ -24,5 +24,40 @@
     "title": "O País Mais Pequeno do Mundo",
     "content": "O Vaticano, localizado dentro de Roma, é o menor país independente do mundo, tanto em área (cerca de 44 hectares) quanto em população (cerca de 800 pessoas). É possível caminhar através do país em menos de 20 minutos.",
     "funFact": "O Vaticano tem sua própria estação de correios, que emite seus próprios selos, e uma estação de trem. Sua economia depende da venda de selos, souvenirs e doações."
+  },
+  {
+    "title": "A Origem da Mala de Viagem",
+    "content": "As malas de viagem, como as conhecemos hoje, evoluíram de simples baús de madeira e cestos de vime.  A incorporação de rodinhas e materiais resistentes aconteceu gradualmente ao longo dos anos, impulsionada pela necessidade de transporte mais fácil e seguro de pertences durante as viagens.",
+    "funFact": "Algumas malas antigas eram decoradas com intrincados trabalhos de marchetaria e metais preciosos, refletindo o status social de seus donos.",
+    "id": "viagens-6",
+    "categoryId": "viagens"
+  },
+  {
+    "title": "A História dos Hotéis",
+    "content": "Os hotéis, em sua forma primitiva, existiam desde a antiguidade, como pousadas para viajantes e peregrinos.  A ideia de um hotel como um estabelecimento com serviços padronizados e luxo só se desenvolveu mais tarde, com o surgimento do transporte ferroviário e do turismo em massa.",
+    "funFact": "O primeiro hotel com elevador foi construído em 1870.",
+    "id": "viagens-7",
+    "categoryId": "viagens"
+  },
+  {
+    "title": "A Influência das Viagens na Arte",
+    "content": "As viagens têm sido uma grande fonte de inspiração para artistas ao longo da história.  De paisagens exuberantes a culturas exóticas, as experiências em viagens alimentam a criatividade e se refletem em pinturas, esculturas, literatura e música.",
+    "funFact": "Muitos pintores impressionistas, como Monet e Renoir, retrataram em suas obras as paisagens que viram durante suas viagens pela França.",
+    "id": "viagens-8",
+    "categoryId": "viagens"
+  },
+  {
+    "title": "A Psicologia das Viagens",
+    "content": "Viajar pode ter efeitos profundos na nossa saúde mental, proporcionando novas perspectivas, reduzindo o estresse e aumentando a autoconfiança.  No entanto, também pode gerar ansiedade e desafios de adaptação.",
+    "funFact": "Estudos mostram que viajar regularmente pode aumentar a criatividade e a capacidade de resolução de problemas.",
+    "id": "viagens-9",
+    "categoryId": "viagens"
+  },
+  {
+    "title": "Viagens e Sustentabilidade",
+    "content": "O turismo, embora beneficie muitas economias, também impacta o meio ambiente.  A busca por viagens mais sustentáveis, com foco na redução de carbono e no respeito às culturas locais, tem se tornado cada vez mais importante.",
+    "funFact": "O turismo sustentável contribui para a preservação de ecossistemas e para a geração de renda em comunidades locais.",
+    "id": "viagens-10",
+    "categoryId": "viagens"
   }
 ]

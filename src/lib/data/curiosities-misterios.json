@@ -24,5 +24,40 @@
     "title": "O Triângulo das Bermudas",
     "content": "O Triângulo das Bermudas é uma área no Oceano Atlântico onde, supostamente, um número anormalmente alto de navios e aviões desapareceu em circunstâncias misteriosas. Embora muitas explicações tenham sido propostas, de anomalias magnéticas a atividade alienígena, a maioria dos cientistas considera o fenômeno uma lenda.",
     "funFact": "A Guarda Costeira dos EUA não reconhece a existência do Triângulo das Bermudas, afirmando que a área tem o mesmo número de acidentes que qualquer outra região de tráfego intenso."
+  },
+  {
+    "title": "A Civilização de Mohenjo-daro",
+    "content": "Mohenjo-daro, uma cidade da Civilização do Vale do Indo, desapareceu misteriosamente há milhares de anos.  Sua tecnologia avançada para a época e o súbito abandono deixam muitas perguntas sem respostas.",
+    "funFact": "Ruínas de Mohenjo-daro mostram evidências de um sistema de drenagem sofisticado, muito à frente de seu tempo.",
+    "id": "misterios-6",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "O Enigma de Sacsayhuamán",
+    "content": "As enormes pedras de Sacsayhuamán, perto de Cusco, Peru, encaixam-se com uma precisão impressionante.  A tecnologia necessária para sua construção e o propósito exato da fortaleza permanecem desconhecidos.",
+    "funFact": "Algumas pedras de Sacsayhuamán são tão grandes que seu transporte e posicionamento ainda hoje seriam um desafio enorme.",
+    "id": "misterios-7",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "O Desaparecimento da Ilha de Sandy",
+    "content": "A ilha de Sandy, localizada no Oceano Índico, existia em mapas por décadas, mas desapareceu completamente.  Sua existência real e seu posterior sumiço são um mistério geográfico intrigante.",
+    "funFact": "Há teorias que sugerem que a ilha nunca existiu, sendo apenas um erro cartográfico.",
+    "id": "misterios-8",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "As Esferas de Pedra da Costa Rica",
+    "content": "Centenas de esferas de pedra gigantes foram encontradas na Costa Rica. Sua criação, propósito e a identidade de seus criadores permanecem um mistério arqueológico.",
+    "funFact": "Algumas das esferas são tão perfeitamente esféricas que a tecnologia utilizada para criá-las é considerada surpreendentemente avançada para a época.",
+    "id": "misterios-9",
+    "categoryId": "misterios"
+  },
+  {
+    "title": "A Floresta de Pedra de Shilin",
+    "content": "Na China, a Floresta de Pedra de Shilin é uma paisagem surreal de formações rochosas com formato de árvores.  O processo geológico exato que criou este espetáculo natural ainda não é totalmente compreendido.",
+    "funFact": "A Floresta de Pedra de Shilin é tão singular que foi designada Patrimônio Mundial da UNESCO.",
+    "id": "misterios-10",
+    "categoryId": "misterios"
   }
 ]

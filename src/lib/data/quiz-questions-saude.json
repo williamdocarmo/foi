@@ -68,5 +68,75 @@
     "explanation": "O exercício físico regular fortalece o coração, melhorando sua eficiência e diminuindo a frequência cardíaca em repouso.",
     "id": "quiz-saude-5",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é conhecido por ser uma boa fonte de fibras?",
+    "options": [
+      "Pizza",
+      "Sorvete",
+      "Aveia",
+      "Refrigerante"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é rica em fibras solúveis e insolúveis, importantes para a saúde digestiva.",
+    "id": "quiz-saude-6",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes fatores é um indicador chave de saúde mental positiva?",
+    "options": [
+      "Sono irregular",
+      "Isolamento social",
+      "Resiliência",
+      "Pensamentos negativos recorrentes"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "A resiliência é a capacidade de se recuperar de adversidades, um fator crucial para a saúde mental.",
+    "id": "quiz-saude-7",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual o corpo transforma os alimentos em energia?",
+    "options": [
+      "Fotossíntese",
+      "Respiração celular",
+      "Digestão",
+      "Metabolismo"
+    ],
+    "correctAnswer": "Metabolismo",
+    "explanation": "O metabolismo engloba todas as reações químicas que ocorrem no corpo para manter a vida, incluindo a transformação de alimentos em energia.",
+    "id": "quiz-saude-8",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas atividades é considerada exercício aeróbico?",
+    "options": [
+      "Levantamento de peso",
+      "Yoga",
+      "Natação",
+      "Flexões"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "Natação é um exercício que requer aumento do consumo de oxigênio pelo corpo, caracterizando-se como aeróbico.",
+    "id": "quiz-saude-9",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal componente do sangue que transporta oxigênio?",
+    "options": [
+      "Plasma",
+      "Plaquetas",
+      "Glóbulos brancos",
+      "Hemácias"
+    ],
+    "correctAnswer": "Hemácias",
+    "explanation": "As hemácias, também chamadas de glóbulos vermelhos, contêm hemoglobina, que transporta oxigênio pelo corpo.",
+    "id": "quiz-saude-10",
+    "categoryId": "saude"
   }
 ]

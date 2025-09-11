@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 import AppHeader from '@/components/layout/AppHeader';
 
 export const metadata: Metadata = {
-  title: 'Idea Spark | Foi uma ideia 💡',
+  title: 'Você sabia? | Um jogo de curiosidades',
   description: 'Um jogo educativo de curiosidades e quiz que funciona offline.',
 };
 

@@ -138,5 +138,75 @@
     "explanation": "Teletransporte é um conceito de ficção científica; as outras opções são métodos de pagamento reais.",
     "id": "quiz-dinheiro-10",
     "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do imposto cobrado sobre a renda das pessoas físicas?",
+    "options": [
+      "IPVA",
+      "IPTU",
+      "IRRF",
+      "ICMS"
+    ],
+    "correctAnswer": "IRRF",
+    "explanation": "O Imposto de Renda da Pessoa Física (IRRF) é cobrado anualmente sobre a renda auferida no ano anterior.",
+    "id": "quiz-dinheiro-11",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é inflação?",
+    "options": [
+      "Aumento na produção de bens e serviços",
+      "Diminuição geral dos preços de bens e serviços",
+      "Aumento geral dos preços de bens e serviços",
+      "Estabilidade nos preços de bens e serviços"
+    ],
+    "correctAnswer": "Aumento geral dos preços de bens e serviços",
+    "explanation": "Inflação é o aumento contínuo e generalizado no nível de preços de uma economia.",
+    "id": "quiz-dinheiro-12",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal objetivo de um fundo de investimento?",
+    "options": [
+      "Oferecer empréstimos para empresas",
+      "Garantir a devolução do capital investido com juros fixos",
+      "Gerar rentabilidade para os investidores",
+      "Financiar projetos de infraestrutura"
+    ],
+    "correctAnswer": "Gerar rentabilidade para os investidores",
+    "explanation": "Fundos de investimento buscam, em sua essência, aumentar o patrimônio dos investidores através da aplicação do capital em diferentes ativos.",
+    "id": "quiz-dinheiro-13",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que significa 'depreciação' no contexto financeiro?",
+    "options": [
+      "Aumento do valor de um ativo ao longo do tempo",
+      "Aumento da taxa de juros",
+      "Redução do valor de um ativo ao longo do tempo",
+      "Pagamento de dividendos aos acionistas"
+    ],
+    "correctAnswer": "Redução do valor de um ativo ao longo do tempo",
+    "explanation": "A depreciação representa a perda de valor de um bem tangível devido ao desgaste, uso ou obsolescência.",
+    "id": "quiz-dinheiro-14",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre juros simples e juros compostos?",
+    "options": [
+      "Não há diferença entre ambos",
+      "Nos juros simples, os juros são calculados apenas sobre o capital inicial, enquanto nos juros compostos, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+      "Nos juros compostos, os juros são calculados apenas sobre o capital inicial, enquanto nos juros simples, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+      "Os juros simples são mais vantajosos para o investidor"
+    ],
+    "correctAnswer": "Nos juros simples, os juros são calculados apenas sobre o capital inicial, enquanto nos juros compostos, os juros são calculados sobre o capital inicial mais os juros acumulados.",
+    "explanation": "A principal diferença reside na base de cálculo dos juros: nos simples, apenas sobre o principal; nos compostos, sobre o principal acrescido dos juros acumulados.",
+    "id": "quiz-dinheiro-15",
+    "categoryId": "dinheiro"
   }
 ]

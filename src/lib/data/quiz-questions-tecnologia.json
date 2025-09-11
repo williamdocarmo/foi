@@ -68,5 +68,75 @@
     "explanation": "1 Terabyte (TB) é muito maior do que 8 Gigabytes (GB) ou a capacidade de um CD-ROM ou disco de 3,5 polegadas.",
     "id": "quiz-tecnologia-5",
     "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes sistemas operacionais é desenvolvido pelo Google?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Android",
+      "iOS"
+    ],
+    "correctAnswer": "Android",
+    "explanation": "Android é um sistema operacional móvel desenvolvido pelo Google.",
+    "id": "quiz-tecnologia-6",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função de um firewall?",
+    "options": [
+      "Acelerar a velocidade da internet",
+      "Criar backups de arquivos",
+      "Monitorar e controlar o tráfego de rede",
+      "Instalar softwares"
+    ],
+    "correctAnswer": "Monitorar e controlar o tráfego de rede",
+    "explanation": "Um firewall monitora e controla o tráfego de rede, bloqueando acessos não autorizados.",
+    "id": "quiz-tecnologia-7",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual linguagem de programação é tipicamente usada para desenvolver aplicativos para iOS?",
+    "options": [
+      "Java",
+      "Python",
+      "C#",
+      "Swift"
+    ],
+    "correctAnswer": "Swift",
+    "explanation": "Swift é a linguagem de programação principal para o desenvolvimento de aplicativos iOS, embora outras possam ser usadas em conjunto.",
+    "id": "quiz-tecnologia-8",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla RAM?",
+    "options": [
+      "Read-Only Memory",
+      "Random Access Memory",
+      "Read Access Memory",
+      "Remote Access Memory"
+    ],
+    "correctAnswer": "Random Access Memory",
+    "explanation": "RAM significa Random Access Memory, memória de acesso aleatório, usada para armazenamento temporário de dados.",
+    "id": "quiz-tecnologia-9",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a conexão sem fio à internet?",
+    "options": [
+      "Cabo de rede",
+      "Modem",
+      "Impressora",
+      "Roteador"
+    ],
+    "correctAnswer": "Roteador",
+    "explanation": "Um roteador permite a conexão sem fio (Wi-Fi) à internet, distribuindo o sinal para múltiplos dispositivos.",
+    "id": "quiz-tecnologia-10",
+    "categoryId": "tecnologia"
   }
 ]

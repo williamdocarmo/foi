@@ -68,5 +68,75 @@
     "explanation": "A energia solar é uma fonte limpa e abundante, com custos de produção que estão diminuindo constantemente.",
     "id": "quiz-futuro-5",
     "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas tecnologias é mais comumente associada ao conceito de 'casas inteligentes'?",
+    "options": [
+      "Impressoras 3D",
+      "Realidade Virtual",
+      "Internet das Coisas (IoT)",
+      "Energia Nuclear"
+    ],
+    "correctAnswer": "Internet das Coisas (IoT)",
+    "explanation": "A Internet das Coisas permite que diversos aparelhos domésticos se conectem e sejam controlados remotamente.",
+    "id": "quiz-futuro-6",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal impacto ambiental previsto para o aumento do nível do mar devido às mudanças climáticas?",
+    "options": [
+      "Aumento da biodiversidade marinha",
+      "Redução da ocorrência de furacões",
+      "Inundações costeiras e deslocamento populacional",
+      "Diminuição da temperatura global"
+    ],
+    "correctAnswer": "Inundações costeiras e deslocamento populacional",
+    "explanation": "O aumento do nível do mar ameaça áreas costeiras baixas, levando a inundações e forçando a migração de populações.",
+    "id": "quiz-futuro-7",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal barreira ética relacionada ao desenvolvimento da inteligência artificial (IA)?",
+    "options": [
+      "Custo de desenvolvimento",
+      "Disponibilidade de dados",
+      "Viés algorítmico e discriminação",
+      "Falta de profissionais qualificados"
+    ],
+    "correctAnswer": "Viés algorítmico e discriminação",
+    "explanation": "IA treinada com dados tendenciosos pode perpetuar e até amplificar preconceitos existentes na sociedade.",
+    "id": "quiz-futuro-8",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual área de pesquisa foca na criação de materiais com propriedades melhoradas em comparação com materiais naturais?",
+    "options": [
+      "Biotecnologia",
+      "Nanotecnologia",
+      "Engenharia Genética",
+      "Ciência da Computação"
+    ],
+    "correctAnswer": "Nanotecnologia",
+    "explanation": "A nanotecnologia manipula materiais em escala nanométrica, permitindo a criação de materiais com propriedades únicas e aprimoradas.",
+    "id": "quiz-futuro-9",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual forma de transporte é frequentemente associada a um futuro mais sustentável?",
+    "options": [
+      "Aviões supersônicos",
+      "Carros a gasolina",
+      "Veículos elétricos",
+      "Navios cargueiros"
+    ],
+    "correctAnswer": "Veículos elétricos",
+    "explanation": "Veículos elétricos reduzem a emissão de gases poluentes em comparação com veículos a combustão interna.",
+    "id": "quiz-futuro-10",
+    "categoryId": "futuro"
   }
 ]

@@ -1,3 +1,4 @@
+
 [
   {
     "id": "ciencia-1",
@@ -39,6 +40,41 @@
     "content": "A teoria da relatividade de Einstein revolucionou nossa compreensão do espaço, tempo e gravidade.  Ela afirma que o tempo é relativo e depende da velocidade e da gravidade.",
     "funFact": "O GPS só funciona corretamente porque leva em conta os efeitos da relatividade!",
     "id": "ciencia-6",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "A Origem dos Elementos",
+    "content": "A maioria dos elementos químicos que compõem o universo, incluindo aqueles essenciais à vida, foram forjados no coração de estrelas moribundas através de processos de fusão nuclear.  Quando essas estrelas explodem em supernovas, esses elementos são lançados para o espaço, formando novas estrelas e planetas.",
+    "funFact": "O ouro que temos na Terra veio de supernovas!",
+    "id": "ciencia-7",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "A Biodiversidade Subaquática",
+    "content": "Estima-se que existam milhões de espécies de seres vivos nos oceanos, a grande maioria ainda desconhecida pela ciência.  A exploração das profundezas oceânicas revela constantemente novas formas de vida e ecossistemas surpreendentes.",
+    "funFact": "Há mais espécies de vida no oceano do que na terra.",
+    "id": "ciencia-8",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "O Impacto de Microrganismos",
+    "content": "Microrganismos, como bactérias e fungos, desempenham papéis cruciais nos ecossistemas globais, desde a decomposição de matéria orgânica até a fixação de nitrogênio para o crescimento das plantas.  Sua influência é vasta e fundamental para a vida na Terra.",
+    "funFact": "Existem mais bactérias no seu corpo do que células humanas!",
+    "id": "ciencia-9",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "O Enigma da Consciência",
+    "content": "A consciência, a capacidade de experiência subjetiva, permanece um dos maiores mistérios da ciência.  Apesar dos avanços em neurociência, ainda não compreendemos completamente como a atividade cerebral gera a sensação de 'ser'.",
+    "funFact": "Não existe um único consenso científico sobre como a consciência surge.",
+    "id": "ciencia-10",
+    "categoryId": "ciencia"
+  },
+  {
+    "title": "A Busca por Vida Extraterrestre",
+    "content": "A busca por vida extraterrestre é um dos esforços científicos mais ambiciosos e fascinantes.  Utilizando telescópios potentes e missões espaciais, cientistas vasculham o universo na esperança de encontrar evidências de vida além da Terra.",
+    "funFact": "Existem bilhões de galáxias, cada uma contendo bilhões de estrelas – as chances de existir vida em outro lugar são estatisticamente significativas.",
+    "id": "ciencia-11",
     "categoryId": "ciencia"
   }
 ]

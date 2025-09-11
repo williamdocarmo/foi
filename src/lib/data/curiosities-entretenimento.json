@@ -24,5 +24,40 @@
     "title": "A Voz Original do Mickey Mouse",
     "content": "De 1928 a 1947, a voz original do Mickey Mouse foi feita pelo próprio Walt Disney. Ele teve que assumir o papel porque não encontrava ninguém que conseguisse fazer a voz aguda que ele imaginava para o personagem.",
     "funFact": "As primeiras palavras de Mickey Mouse em um desenho animado foram 'Hot dogs!' no curta 'The Karnival Kid' de 1929."
+  },
+  {
+    "title": "A Origem do Bingo",
+    "content": "O Bingo, popular jogo de azar, surgiu na Itália no século XVI, como uma forma de ensinar matemática a crianças. Só se popularizou nos EUA no século XX.",
+    "funFact": "O nome \"Bingo\" surgiu por acaso, quando uma jogadora exclamou \"Bingo!\" ao completar sua cartela.",
+    "id": "entretenimento-6",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "A Evolução dos Videogames",
+    "content": "Os primeiros videogames eram extremamente simples, com gráficos rudimentares. Hoje, a indústria de games movimenta bilhões e produz gráficos quase fotorealistas.",
+    "funFact": "Pong, lançado em 1972, é considerado um dos primeiros videogames de sucesso comercial.",
+    "id": "entretenimento-7",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "Os Primeiros Desenhos Animados",
+    "content": "Os desenhos animados eram inicialmente projetados a partir de milhares de desenhos individuais, desenhados à mão, um trabalho meticuloso e demorado.",
+    "funFact": "A animação stop-motion foi um dos precursores da animação digital, usando objetos físicos em lugar de desenhos.",
+    "id": "entretenimento-8",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "A História do Circo",
+    "content": "A arte circense possui origens antigas, remonta à Roma Antiga e foi evoluindo ao longo dos séculos, incorporando diversas tradições culturais.",
+    "funFact": "Os Circos modernos surgiram na Inglaterra no século XVIII, combinando diferentes tipos de espetáculos.",
+    "id": "entretenimento-9",
+    "categoryId": "entretenimento"
+  },
+  {
+    "title": "A Influência da Música no Cinema",
+    "content": "A trilha sonora é fundamental para criar a atmosfera e o impacto emocional em filmes.  As músicas muitas vezes se tornam tão icônicas quanto os próprios filmes.",
+    "funFact": "Algumas trilhas sonoras se tornaram álbuns de grande sucesso, vendendo milhões de cópias independente do filme.",
+    "id": "entretenimento-10",
+    "categoryId": "entretenimento"
   }
 ]

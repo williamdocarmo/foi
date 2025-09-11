@@ -1,3 +1,4 @@
+
 [
   {
     "id": "bem-estar-1",
@@ -39,6 +40,41 @@
     "content": "Conectar-se com outras pessoas, cultivando relacionamentos fortes e saudáveis, é essencial para a saúde mental e o bem-estar emocional. Sentir-se amado e pertencente é fundamental.",
     "funFact": "Ter um forte sistema de apoio social está associado à maior longevidade.",
     "id": "bem-estar-6",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Risada",
+    "content": "O riso libera endorfinas, hormônios que atuam como analgésicos naturais e melhoram o humor, reduzindo o estresse e a ansiedade.  Uma boa gargalhada pode até fortalecer o sistema imunológico.",
+    "funFact": "Um estudo mostrou que o ato de assistir a vídeos engraçados pode aumentar a imunidade contra doenças.",
+    "id": "bem-estar-7",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Aromaterapia",
+    "content": "Certos aromas, como lavanda e camomila, têm propriedades calmantes e relaxantes, auxiliando no combate à insônia e à ansiedade.  Usar óleos essenciais pode ser uma forma natural de promover o bem-estar.",
+    "funFact": "O aroma de limão pode melhorar o foco e a concentração.",
+    "id": "bem-estar-8",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Os Benefícios da Hidratação",
+    "content": "A água é essencial para o funcionamento do corpo e influencia diretamente no nosso bem-estar.  A desidratação pode causar fadiga, dores de cabeça e até afetar o humor.",
+    "funFact": "Cerca de 60% do corpo humano é composto por água.",
+    "id": "bem-estar-9",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Toque",
+    "content": "O contato físico, como abraços e carinhos, libera ocitocina, o hormônio do amor, que reduz o estresse e promove a sensação de bem-estar e conexão social.",
+    "funFact": "O toque pode ser tão importante quanto a fala na comunicação humana.",
+    "id": "bem-estar-10",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Importância da Organização",
+    "content": "Um ambiente organizado e livre de desordem contribui para uma mente mais calma e focada, reduzindo o estresse e melhorando a produtividade. Manter a casa organizada pode impactar positivamente o bem-estar emocional.",
+    "funFact": "A desorganização pode ser uma fonte de estresse silencioso que afeta o humor e o sono.",
+    "id": "bem-estar-11",
     "categoryId": "bem-estar"
   }
 ]

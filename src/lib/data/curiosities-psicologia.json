@@ -24,5 +24,40 @@
     "title": "O Efeito Pigmaleão",
     "content": "Nossas expectativas sobre outras pessoas podem influenciar o desempenho delas. Se um professor acredita que um aluno é brilhante, ele tende a tratar o aluno de forma diferente, o que, por sua vez, leva o aluno a ter um desempenho melhor, confirmando a crença inicial.",
     "funFact": "O nome vem da lenda grega de Pigmaleão, um escultor que se apaixonou por uma estátua que ele mesmo esculpiu, e a deusa Afrodite a trouxe à vida."
+  },
+  {
+    "title": "A Mente Erra em Estimativas de Tempo",
+    "content": "Nosso cérebro não é muito bom em julgar o tempo que passou.  Experiências agradáveis parecem mais curtas do que realmente foram, enquanto experiências desagradáveis parecem durar mais.",
+    "funFact": "Essa distorção de tempo é afetada por fatores como idade e níveis de excitação.",
+    "id": "psicologia-6",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "A Importância do Sono para a Memória",
+    "content": "Dormir é essencial para consolidar memórias. Durante o sono, o cérebro processa e organiza informações aprendidas durante o dia, melhorando o aprendizado e a retenção.",
+    "funFact": "A privação do sono afeta diretamente a capacidade de formar novas memórias.",
+    "id": "psicologia-7",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "O Poder da Sugestão",
+    "content": "A sugestão pode ter um impacto significativo em nossos pensamentos, comportamentos e percepções.  Experimentos demonstram como sugestões sutis podem influenciar nossas escolhas e crenças.",
+    "funFact": "A hipnose é um exemplo extremo da força da sugestão.",
+    "id": "psicologia-8",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "A Psicologia das Cores",
+    "content": "As cores afetam nosso humor e comportamento de maneiras sutis, mas poderosas.  Por exemplo, o azul é frequentemente associado à calma, enquanto o vermelho pode estimular excitação.",
+    "funFact": "Muitas empresas usam a psicologia das cores em seus designs de marketing para influenciar as decisões dos consumidores.",
+    "id": "psicologia-9",
+    "categoryId": "psicologia"
+  },
+  {
+    "title": "Pensamentos Automáticos",
+    "content": "Muitos de nossos pensamentos ocorrem de forma automática, sem que tenhamos consciência deles. Esses pensamentos automáticos influenciam nossas emoções e comportamentos, mesmo que não os percebamos.",
+    "funFact": "Terapia cognitivo-comportamental (TCC) se concentra em identificar e modificar esses pensamentos automáticos negativos.",
+    "id": "psicologia-10",
+    "categoryId": "psicologia"
   }
 ]

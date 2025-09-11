@@ -24,5 +24,40 @@
     "title": "A História por Trás do Carnaval do Rio",
     "content": "O Carnaval do Rio de Janeiro tem suas raízes no 'Entrudo', um festival de origem portuguesa onde as pessoas jogavam água, farinha e ovos umas nas outras. As escolas de samba, com seus desfiles grandiosos, só surgiram no início do século XX.",
     "funFact": "O Sambódromo da Marquês de Sapucaí foi projetado por Oscar Niemeyer e inaugurado em 1984."
+  },
+  {
+    "title": "A Cultura do Silêncio na Biblioteca",
+    "content": "O silêncio em bibliotecas é uma norma cultural em muitos países, representando respeito pelo estudo e pela concentração.  No entanto, em algumas culturas, o ambiente barulhento é visto como sinal de vida e atividade.",
+    "funFact": "Existem bibliotecas 'silenciosas' e bibliotecas 'conversacionais' em algumas cidades, refletindo a diversidade de preferências culturais.",
+    "id": "cultura-6",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "A Importância dos Gestos Culturais",
+    "content": "Um simples gesto, como um aperto de mão ou um aceno de cabeça, pode ter significados completamente diferentes em culturas diversas.  A interpretação incorreta pode levar a mal-entendidos.",
+    "funFact": "Em algumas culturas, o contato visual prolongado é considerado um sinal de respeito, enquanto em outras pode ser interpretado como agressividade.",
+    "id": "cultura-7",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "A Evolução das Linguagens de Programação",
+    "content": "As linguagens de programação, apesar de serem ferramentas tecnológicas, também refletem a cultura da inovação e da colaboração, evoluindo constantemente com a necessidade de resolver problemas e criar novas tecnologias.",
+    "funFact": "A linguagem de programação COBOL, criada na década de 1950, ainda é usada em muitos sistemas financeiros, demonstrando a longevidade de algumas culturas tecnológicas.",
+    "id": "cultura-8",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "A Cultura do Consumo e a Moda",
+    "content": "A indústria da moda reflete e influencia as tendências culturais, sendo um espelho das mudanças sociais, políticas e econômicas.  O consumo de moda é um fenômeno global com implicações culturais profundas.",
+    "funFact": "A 'fast fashion' é um exemplo de como a cultura do consumo afeta a produção de roupas, com impactos ambientais e sociais significativos.",
+    "id": "cultura-9",
+    "categoryId": "cultura"
+  },
+  {
+    "title": "A Cultura dos Memes na Internet",
+    "content": "Memes na internet são uma forma de expressão cultural que evolui rapidamente e reflete o humor, as preocupações e os valores de uma geração conectada. Eles se espalham globalmente, adaptando-se a diferentes culturas.",
+    "funFact": "A rápida disseminação e adaptação dos memes demonstram a fluidez e a interconexão da cultura digital contemporânea.",
+    "id": "cultura-10",
+    "categoryId": "cultura"
   }
 ]

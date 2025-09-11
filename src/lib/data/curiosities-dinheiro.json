@@ -1,3 +1,4 @@
+
 [
   {
     "title": "O Efeito dos Juros Compostos",
@@ -57,6 +58,41 @@
     "content": "O dinheiro desempenha um papel crucial na estrutura social, influenciando as relações de poder, a distribuição de recursos e a desigualdade econômica globalmente.",
     "funFact": "A desigualdade de riqueza global está aumentando, com uma pequena percentagem da população detendo a maior parte da riqueza mundial.",
     "id": "dinheiro-10",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "A 'Maldição' do Dinheiro Fácil",
+    "content": "Ganhar dinheiro rapidamente, sem esforço ou planejamento, pode ser prejudicial.  A falta de trabalho árduo e aprendizado associados pode levar a um mau gerenciamento financeiro e a decisões impulsivas, comprometendo o sucesso a longo prazo.",
+    "funFact": "Muitos ganhadores de loteria enfrentam problemas financeiros após algum tempo, devido a essa falta de preparação.",
+    "id": "dinheiro-11",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "O Poder da Negociação",
+    "content": "A habilidade de negociar preços e condições pode economizar ou gerar quantias significativas de dinheiro ao longo da vida.  A negociação eficaz envolve pesquisa, planejamento e habilidades de comunicação.",
+    "funFact": "Mesmo pequenas reduções de preço em compras frequentes se somam a economias consideráveis com o tempo.",
+    "id": "dinheiro-12",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "A Economia da Experiência",
+    "content": "Gastar dinheiro em experiências, como viagens e eventos, tende a gerar mais felicidade duradoura do que gastar em bens materiais.  As memórias e emoções associadas às experiências valem mais do que o valor monetário dos objetos.",
+    "funFact": "Estudos mostram que a felicidade associada à compra de um novo carro diminui significativamente mais rápido do que a felicidade associada a uma viagem memorável.",
+    "id": "dinheiro-13",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "Dinheiro e Relações",
+    "content": "O dinheiro pode impactar significativamente as relações pessoais.  A falta de transparência ou conflitos financeiros podem criar tensões e até mesmo romper laços.  Comunicação aberta e planejamento conjunto são cruciais para manter relações saudáveis.",
+    "funFact": "O dinheiro é uma das principais causas de divórcios.",
+    "id": "dinheiro-14",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "O Custo Oculto do Crédito",
+    "content": "Utilizar o crédito sem planejamento cuidadoso pode resultar em altos custos com juros e taxas, levando a um ciclo de dívidas difícil de quebrar.  Compreender as taxas de juros e as condições do empréstimo é essencial.",
+    "funFact": "Os juros cobrados em cartões de crédito podem ultrapassar 100% ao ano em alguns casos.",
+    "id": "dinheiro-15",
     "categoryId": "dinheiro"
   }
 ]
