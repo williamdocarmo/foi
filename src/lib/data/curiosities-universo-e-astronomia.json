@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "Chuva de Diamantes em Outros Planetas",
+    "content": "Em planetas gigantes gasosos como Júpiter e Saturno, a atmosfera é tão extrema que a pressão pode esmagar o carbono, transformando-o em diamantes. Os cientistas acreditam que 'chuvas de diamantes' ocorrem nesses planetas, com pedras de até um centímetro de diâmetro.",
+    "funFact": "Também se acredita que Urano e Netuno tenham oceanos de diamante líquido com 'icebergs' de diamante sólido flutuando neles."
+  },
+  {
+    "title": "O Maior Vulcão do Sistema Solar",
+    "content": "O maior vulcão conhecido no nosso sistema solar não está na Terra, mas em Marte. O Olympus Mons é um vulcão-escudo com cerca de 25 quilômetros de altura, quase três vezes a altura do Monte Everest, e sua base cobriria a área do estado do Arizona.",
+    "funFact": "Por ser tão grande e ter encostas suaves, se você estivesse no topo do Olympus Mons, não conseguiria ver a base do vulcão, pois ele se estenderia além do horizonte."
+  },
+  {
+    "title": "O Som do Espaço",
+    "content": "Embora o espaço seja um vácuo e não possa transmitir ondas sonoras, os corpos celestes emitem ondas de rádio. Cientistas da NASA conseguem converter essas emissões em sons audíveis. O som de um buraco negro, por exemplo, é um zumbido profundo e assustador.",
+    "funFact": "As 'canções' de Saturno, captadas pela sonda Cassini, são uma série de assobios e estalos de rádio causados pela sua aurora."
+  },
+  {
+    "title": "Há Mais Estrelas no Universo do que Grãos de Areia na Terra",
+    "content": "Os astrônomos estimam que existam centenas de bilhões de galáxias no universo observável, e cada uma delas contém centenas de bilhões de estrelas. O número total é tão vasto que supera em muito o número de todos os grãos de areia em todas as praias e desertos do nosso planeta.",
+    "funFact": "Isso significa que a probabilidade de existir vida em outros planetas, do ponto de vista estatístico, é bastante alta."
+  },
+  {
+    "title": "A Velocidade da Luz e o Passado",
+    "content": "A luz leva tempo para viajar pelo espaço. Quando olhamos para as estrelas, não as vemos como são agora, mas como eram no passado. A luz do Sol, por exemplo, leva 8 minutos para chegar à Terra. A luz da estrela mais próxima, Proxima Centauri, leva mais de 4 anos.",
+    "funFact": "Quando olhamos para a Galáxia de Andrômeda a olho nu, estamos vendo luz que viajou por 2,5 milhões de anos para chegar até nós. Estamos, literalmente, olhando para o passado distante."
+  }
+]

@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "A Origem do Cinema",
+    "content": "O cinema como o conhecemos começou com os irmãos Lumière em 1895, na França. A primeira exibição pública de um filme foi 'A Saída dos Operários da Fábrica Lumière', que durava menos de um minuto e chocou a audiência.",
+    "funFact": "A lenda de que o público fugiu do cinema pensando que um trem vinha em sua direção durante a exibição de 'A Chegada de um Trem à Estação' é provavelmente um exagero."
+  },
+  {
+    "title": "O Festival das Cores na Índia",
+    "content": "O Holi, conhecido como o 'Festival das Cores', é uma celebração hindu que comemora a chegada da primavera e a vitória do bem contra o mal. As pessoas jogam pós coloridos (gulal) e água umas nas outras em uma festa vibrante.",
+    "funFact": "Originalmente, os pós coloridos eram feitos de plantas medicinais e flores, como a cúrcuma e o neem."
+  },
+  {
+    "title": "Por que 'Mona Lisa' é Tão Famosa?",
+    "content": "Além da técnica inovadora do 'sfumato' de Leonardo da Vinci, a fama da Mona Lisa explodiu em 1911, quando foi roubada do Museu do Louvre. O roubo e a subsequente recuperação dois anos depois a transformaram em um ícone global.",
+    "funFact": "A Mona Lisa não tem sobrancelhas nem cílios, o que era comum na moda florentina da época, onde as mulheres os removiam."
+  },
+  {
+    "title": "A Arte da Caligrafia Japonesa (Shodō)",
+    "content": "Shodō (書道), ou 'o caminho da escrita', é uma forma de arte e meditação no Japão. Usando um pincel (fude), tinta (sumi) e papel de arroz (washi), o artista busca expressar a beleza e a emoção através dos caracteres.",
+    "funFact": "No Shodō, um traço não pode ser corrigido. A pincelada reflete o estado de espírito do artista naquele exato momento."
+  },
+  {
+    "title": "A História por Trás do Carnaval do Rio",
+    "content": "O Carnaval do Rio de Janeiro tem suas raízes no 'Entrudo', um festival de origem portuguesa onde as pessoas jogavam água, farinha e ovos umas nas outras. As escolas de samba, com seus desfiles grandiosos, só surgiram no início do século XX.",
+    "funFact": "O Sambódromo da Marquês de Sapucaí foi projetado por Oscar Niemeyer e inaugurado em 1984."
+  }
+]

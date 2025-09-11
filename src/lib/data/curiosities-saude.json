@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "O Coração Humano",
+    "content": "Seu coração bate cerca de 100.000 vezes por dia, bombeando aproximadamente 7.500 litros de sangue por todo o corpo. Em uma vida inteira, isso é sangue suficiente para encher 3 superpetroleiros.",
+    "funFact": "O coração de uma mulher geralmente bate um pouco mais rápido que o de um homem."
+  },
+  {
+    "title": "A Pele é o Maior Órgão",
+    "content": "A pele é o maior órgão do corpo humano, cobrindo uma área de cerca de 2 metros quadrados em um adulto médio. Ela nos protege contra germes, regula a temperatura do corpo e nos permite ter o sentido do tato.",
+    "funFact": "Perdemos cerca de 30.000 a 40.000 células da pele a cada minuto."
+  },
+  {
+    "title": "A Força do Ácido Estomacal",
+    "content": "O ácido clorídrico em seu estômago é tão forte que poderia dissolver uma lâmina de barbear. A parede do estômago é protegida por uma camada espessa de muco que se renova a cada poucas horas.",
+    "funFact": "Esse ácido é essencial para matar bactérias nocivas nos alimentos que comemos."
+  },
+  {
+    "title": "A Vasta Rede de Vasos Sanguíneos",
+    "content": "Se você pudesse esticar todos os vasos sanguíneos de um adulto (artérias, veias e capilares) em uma única linha, ela teria mais de 96.000 quilômetros de comprimento. Isso é o suficiente para dar mais de duas voltas ao redor da Terra.",
+    "funFact": "A maioria desses vasos são os capilares, que são mais finos que um fio de cabelo."
+  },
+  {
+    "title": "O Cérebro e a Eletricidade",
+    "content": "Enquanto está acordado, seu cérebro gera entre 10 e 23 watts de energia elétrica. Isso é o suficiente para acender uma lâmpada pequena.",
+    "funFact": "O cérebro consome cerca de 20% do oxigênio e das calorias do corpo, apesar de representar apenas 2% do peso corporal."
+  }
+]

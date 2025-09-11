@@ -1,3 +1,4 @@
+
 [
   { "id": "saude", "name": "Saúde", "icon": "Heart", "emoji": "🩺", "description": "Corpo humano e medicina.", "color": "#EF5350" },
   { "id": "bem-estar", "name": "Bem-estar", "icon": "Leaf", "emoji": "🌱", "description": "Vida saudável e equilibrada.", "color": "#66BB6A" },
@@ -17,6 +18,6 @@
   { "id": "habilidades", "name": "Habilidades", "icon": "Target", "emoji": "🛠️", "description": "Desenvolva novas competências.", "color": "#78909C" },
   { "id": "hacks", "name": "Hacks do Dia a Dia", "icon": "Lightbulb", "emoji": "💡", "description": "Truques úteis para facilitar a vida.", "color": "#FFCA28" },
   { "id": "natureza-e-animais", "name": "Natureza e Animais", "icon": "PawPrint", "emoji": "🐾", "description": "O reino animal e fenômenos naturais.", "color": "#4CAF50" },
-  { "id": "universo-e-astronomia", "name": "Universo e Astronomia", "icon": "MilkyWay", "emoji": "🌌", "description": "Segredos do cosmos e das galáxias.", "color": "#3F51B5" },
+  { "id": "universo-e-astronomia", "name": "Universo e Astronomia", "icon": "Sparkles", "emoji": "🌌", "description": "Segredos do cosmos e das galáxias.", "color": "#3F51B5" },
   { "id": "musica", "name": "Música", "icon": "Music", "emoji": "🎵", "description": "História de bandas, artistas e gêneros.", "color": "#E91E63" }
 ]

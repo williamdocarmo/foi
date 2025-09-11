@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas refere-se à rede de objetos físicos ('coisas') equipados com sensores e software que se conectam e trocam dados com outros dispositivos pela internet. Sua geladeira poderá avisar quando o leite acabar e fazer o pedido sozinha.",
+    "funFact": "Estima-se que haverá mais de 75 bilhões de dispositivos IoT conectados no mundo até 2025."
+  },
+  {
+    "title": "Carne Cultivada em Laboratório",
+    "content": "Cientistas estão desenvolvendo carne cultivada a partir de células animais em laboratório, sem a necessidade de abater animais. Isso promete reduzir o impacto ambiental da pecuária e oferecer uma alternativa mais sustentável.",
+    "funFact": "O primeiro hambúrguer de carne de laboratório, apresentado em 2013, custou mais de 300.000 dólares para ser produzido."
+  },
+  {
+    "title": "Impressão 4D",
+    "content": "Enquanto a impressão 3D cria objetos estáticos, a impressão 4D cria objetos que podem mudar de forma ou se auto-montar ao longo do tempo em resposta a um estímulo, como calor, luz ou água. Imagine um móvel que se monta sozinho quando você o tira da caixa.",
+    "funFact": "A 'quarta dimensão' na impressão 4D é o tempo."
+  },
+  {
+    "title": "Interfaces Cérebro-Computador (BCI)",
+    "content": "BCIs são tecnologias que permitem a comunicação direta entre o cérebro e um dispositivo externo. No futuro, poderemos controlar computadores, smartphones ou até mesmo membros protéticos apenas com o pensamento.",
+    "funFact": "Empresas como a Neuralink, de Elon Musk, estão na vanguarda do desenvolvimento de BCIs implantáveis e de alta largura de banda."
+  },
+  {
+    "title": "Computação Quântica",
+    "content": "Computadores quânticos usam os princípios da mecânica quântica para realizar cálculos muito mais rápido do que os computadores clássicos. Eles têm o potencial de revolucionar áreas como a medicina, a ciência dos materiais e a inteligência artificial.",
+    "funFact": "Um bit quântico, ou 'qubit', pode ser 0, 1 ou ambos ao mesmo tempo, um fenômeno chamado superposição."
+  }
+]

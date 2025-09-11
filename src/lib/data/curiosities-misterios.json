@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "O Manuscrito Voynich",
+    "content": "O Manuscrito Voynich é um livro ilustrado do século XV escrito em um idioma ou código completamente desconhecido. Apesar dos esforços de inúmeros criptógrafos e linguistas, ninguém jamais conseguiu decifrá-lo. Suas ilustrações mostram plantas, diagramas astronômicos e figuras humanas bizarras.",
+    "funFact": "A análise do carbono-14 datou o pergaminho do início do século XV, mas sua origem e propósito permanecem um mistério total."
+  },
+  {
+    "title": "O Desaparecimento de Amelia Earhart",
+    "content": "Em 1937, a pioneira da aviação Amelia Earhart desapareceu sobre o Oceano Pacífico enquanto tentava dar a volta ao mundo. Nenhuma pista conclusiva de seu avião ou de seu navegador, Fred Noonan, jamais foi encontrada, gerando inúmeras teorias.",
+    "funFact": "Uma das teorias sugere que eles podem ter pousado em uma ilha deserta e sobrevivido por um tempo como náufragos."
+  },
+  {
+    "title": "O Sinal 'Wow!'",
+    "content": "Em 1977, um radiotelescópio detectou um sinal de rádio forte e de banda estreita vindo do espaço. O sinal durou 72 segundos e era tão incomum que o astrônomo Jerry Ehman circulou a impressão dos dados e escreveu 'Wow!' ao lado. A origem do sinal nunca foi explicada ou detectada novamente.",
+    "funFact": "O sinal veio da direção da constelação de Sagitário e correspondia exatamente às características esperadas de um sinal de uma civilização extraterrestre inteligente."
+  },
+  {
+    "title": "As Linhas de Nazca",
+    "content": "As Linhas de Nazca são geoglifos gigantes feitos no deserto do Peru há mais de 2.000 anos. As figuras incluem animais como macacos, aranhas e beija-flores, e são tão grandes que só podem ser vistas por completo do ar. Seu propósito exato é desconhecido.",
+    "funFact": "A figura da aranha é anatomicamente perfeita, incluindo um órgão reprodutor na ponta de uma das pernas que só é visível com um microscópio."
+  },
+  {
+    "title": "O Triângulo das Bermudas",
+    "content": "O Triângulo das Bermudas é uma área no Oceano Atlântico onde, supostamente, um número anormalmente alto de navios e aviões desapareceu em circunstâncias misteriosas. Embora muitas explicações tenham sido propostas, de anomalias magnéticas a atividade alienígena, a maioria dos cientistas considera o fenômeno uma lenda.",
+    "funFact": "A Guarda Costeira dos EUA não reconhece a existência do Triângulo das Bermudas, afirmando que a área tem o mesmo número de acidentes que qualquer outra região de tráfego intenso."
+  }
+]

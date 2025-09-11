@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "O Acorde Misterioso dos Beatles",
+    "content": "A música 'A Hard Day's Night' dos Beatles começa com um acorde de guitarra instantaneamente reconhecível, mas por décadas ninguém sabia ao certo como ele era tocado. Apenas em 2004 um matemático usou uma análise de Fourier para decifrar a combinação exata de notas tocadas por George Harrison, John Lennon e Paul McCartney.",
+    "funFact": "O acorde é uma mistura complexa de notas de uma guitarra de 12 cordas, um violão de 6 cordas e um baixo, além de um acorde de piano adicionado na mixagem."
+  },
+  {
+    "title": "Queen e o Videoclipe",
+    "content": "A música 'Bohemian Rhapsody' do Queen, lançada em 1975, é amplamente creditada por popularizar o videoclipe como uma ferramenta de marketing. A banda criou o vídeo para não ter que se apresentar no programa de TV britânico Top of the Pops, e o sucesso foi tão grande que outras bandas começaram a fazer o mesmo.",
+    "funFact": "O vídeo inteiro foi filmado em apenas 4 horas e custou cerca de £4.500 na época."
+  },
+  {
+    "title": "A Origem do 'Autotune'",
+    "content": "O efeito vocal Autotune, famoso por seu uso robótico na música pop, foi originalmente desenvolvido por um engenheiro que trabalhava em sismologia. Ele estava usando tecnologia de análise de ondas sísmicas para encontrar petróleo e percebeu que o mesmo princípio poderia ser usado para corrigir o tom de um cantor.",
+    "funFact": "A música 'Believe' da Cher, de 1998, foi a primeira a usar o Autotune como um efeito vocal proeminente e intencional, definindo uma tendência que dura até hoje."
+  },
+  {
+    "title": "O Silêncio de John Cage",
+    "content": "O compositor experimental John Cage criou uma peça chamada 4'33\" (quatro minutos e trinta e três segundos) que consiste em os músicos não tocarem seus instrumentos por toda a duração da peça. A 'música' é, na verdade, os sons ambientes da sala e da plateia durante esse tempo.",
+    "funFact": "Cage queria mostrar que o silêncio absoluto não existe e que os sons ao nosso redor são, por si só, uma forma de música."
+  },
+  {
+    "title": "Por que 'Smells Like Teen Spirit'?",
+    "content": "O título do maior sucesso do Nirvana, 'Smells Like Teen Spirit', veio de uma pichação que a amiga de Kurt Cobain, Kathleen Hanna, escreveu na parede de seu quarto: 'Kurt smells like Teen Spirit'. Ela se referia a uma marca de desodorante feminino popular na época, usada pela então namorada de Cobain.",
+    "funFact": "Kurt Cobain só descobriu que 'Teen Spirit' era uma marca de desodorante meses depois que a música já era um sucesso mundial."
+  }
+]

@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "O Passaporte Mais Poderoso do Mundo",
+    "content": "O 'poder' de um passaporte é medido pelo número de países que seu portador pode visitar sem a necessidade de um visto prévio. Países como Japão, Singapura e Alemanha frequentemente estão no topo do ranking, dando acesso a mais de 190 destinos.",
+    "funFact": "A cor do passaporte geralmente tem um significado geográfico ou político. Passaportes de países da União Europeia são cor de vinho, enquanto os de países da CARICOM são azuis."
+  },
+  {
+    "title": "Por que as Janelas dos Aviões são Redondas?",
+    "content": "As janelas dos aviões comerciais são redondas ou ovais por uma razão de segurança crucial. Janelas quadradas criam pontos de estresse nos cantos, que podem levar a rachaduras na fuselagem devido à pressurização. Duas quedas de avião no início da aviação a jato foram atribuídas a janelas quadradas.",
+    "funFact": "Há um pequeno buraco na parte inferior da janela do avião para regular a pressão do ar entre as vidraças interna e externa."
+  },
+  {
+    "title": "A Cidade Mais Visitada do Mundo",
+    "content": "Embora Paris e Londres sejam destinos icônicos, cidades como Bangkok e Hong Kong frequentemente disputam o título de cidade mais visitada do mundo por turistas internacionais, recebendo dezenas de milhões de visitantes por ano.",
+    "funFact": "O turismo representa uma parte significativa da economia de muitos países, superando até mesmo indústrias como a automobilística."
+  },
+  {
+    "title": "Jet Lag é Pior Viajando para o Leste",
+    "content": "O jet lag, ou dissincronia circadiana, tende a ser mais severo quando se viaja para o leste. Isso ocorre porque viajar para leste 'encurta' o dia, o que é mais difícil para o nosso relógio biológico se ajustar do que 'alongar' o dia ao viajar para oeste.",
+    "funFact": "A regra geral é que você precisa de um dia de recuperação para cada fuso horário que cruzar."
+  },
+  {
+    "title": "O País Mais Pequeno do Mundo",
+    "content": "O Vaticano, localizado dentro de Roma, é o menor país independente do mundo, tanto em área (cerca de 44 hectares) quanto em população (cerca de 800 pessoas). É possível caminhar através do país em menos de 20 minutos.",
+    "funFact": "O Vaticano tem sua própria estação de correios, que emite seus próprios selos, e uma estação de trem. Sua economia depende da venda de selos, souvenirs e doações."
+  }
+]

@@ -1,0 +1,28 @@
+
+[
+  {
+    "title": "O Efeito dos Juros Compostos",
+    "content": "Albert Einstein supostamente chamou os juros compostos de 'a oitava maravilha do mundo'. Eles são os juros que você ganha sobre os juros já acumulados, fazendo seu dinheiro crescer de forma exponencial ao longo do tempo.",
+    "funFact": "Se você investir R$100 por mês com um retorno de 8% ao ano, em 40 anos terá mais de R$350.000, embora tenha investido apenas R$48.000."
+  },
+  {
+    "title": "A Origem do Símbolo do Dólar ($)",
+    "content": "A teoria mais aceita é que o símbolo '$' evoluiu a partir da abreviação 'ps' para 'pesos', a moeda espanhola que era amplamente utilizada nas Américas. Com o tempo, o 'p' e o 's' foram sobrepostos, formando o símbolo que conhecemos.",
+    "funFact": "O primeiro uso oficial do símbolo do dólar em uma impressão foi nos Estados Unidos em 1797."
+  },
+  {
+    "title": "Inflação, o 'Imposto Invisível'",
+    "content": "A inflação é o aumento geral dos preços, que faz com que seu dinheiro perca poder de compra ao longo do tempo. Por isso, é crucial que seus investimentos rendam acima da inflação para que seu patrimônio realmente cresça.",
+    "funFact": "Se a inflação for de 5% ao ano, R$100 hoje comprarão o equivalente a R$95 no próximo ano."
+  },
+  {
+    "title": "O que é um 'Orçamento Base Zero'?",
+    "content": "No orçamento base zero, cada centavo da sua renda é alocado para uma finalidade específica (gastos, poupança, investimentos) no início do mês. O objetivo é que 'Renda - Despesas = Zero', garantindo que todo o seu dinheiro trabalhe para você.",
+    "funFact": "Essa metodologia força uma revisão constante dos seus gastos, eliminando despesas desnecessárias."
+  },
+  {
+    "title": "Diversificação: Não Coloque Todos os Ovos na Mesma Cesta",
+    "content": "Diversificar seus investimentos significa espalhar seu dinheiro por diferentes tipos de ativos (ações, títulos, imóveis, etc.). Isso reduz o risco, pois se um ativo tiver um desempenho ruim, os outros podem compensar.",
+    "funFact": "O economista Harry Markowitz ganhou o Prêmio Nobel em 1990 por sua 'Teoria Moderna do Portfólio', que formalizou matematicamente os benefícios da diversificação."
+  }
+]
