@@ -15,6 +15,7 @@ export type Curiosity = {
   title: string;
   content: string;
   funFact?: string;
+  isNew?: boolean;
 };
 
 export type QuizQuestion = {

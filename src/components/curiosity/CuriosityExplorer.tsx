@@ -7,12 +7,13 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Bot } from "lucide-react";
+import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Bot, WifiOff } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { curiosities as allCuriosities } from "@/lib/data";
 import { generateAICuriosity } from "@/ai/flows/ai-generated-curiosity";
 import { useToast } from "@/hooks/use-toast";
+import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -25,6 +26,7 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
   const { toast } = useToast();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const [isPending, startTransition] = useTransition();
+  const isOnline = useOnlineStatus();
 
   const [curiosities, setCuriosities] = useState<Curiosity[]>(initialCuriosities);
 
@@ -47,18 +49,28 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
     }
   }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
 
+  useEffect(() => {
+    // When the user comes back online, we might want to allow generation
+    // This effect doesn't need to do anything, but it makes the component re-render
+    // when isOnline changes, which is what we want.
+  }, [isOnline]);
+
   const goToNext = () => {
-    if (!isLastCuriosity) {
+    if (currentIndex < curiosities.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const goToPrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + curiosities.length) % curiosities.length);
+    if (currentIndex > 0) {
+      setCurrentIndex((prevIndex) => prevIndex - 1);
+    }
   };
   
   const surpriseMe = () => {
-    const randomCuriosity = allCuriosities[Math.floor(Math.random() * allCuriosities.length)];
+    const unreadCuriosities = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
+    const pool = unreadCuriosities.length > 0 ? unreadCuriosities : allCuriosities;
+    const randomCuriosity = pool[Math.floor(Math.random() * pool.length)];
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
   };
   
@@ -72,9 +84,11 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
           title: result.title,
           content: result.content,
           funFact: result.funFact,
+          isNew: true, // Flag to indicate it's a new one for animation
         };
         setCuriosities(prev => [...prev, newCuriosity]);
-        goToNext();
+        // Automatically move to the newly generated curiosity
+        setCurrentIndex(curiosities.length);
       } catch (error) {
         console.error("Failed to generate AI curiosity:", error);
         toast({
@@ -97,7 +111,8 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
   return (
     <div className="flex flex-col gap-8">
       <Card
-        className="overflow-hidden shadow-2xl"
+        key={currentCuriosity.id}
+        className={`overflow-hidden shadow-2xl ${currentCuriosity.isNew ? 'animate-slide-in-up' : ''}`}
         style={{ borderLeft: `5px solid ${category.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
@@ -132,9 +147,15 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
           {isLastCuriosity ? (
-             <Button onClick={handleGenerateCuriosity} disabled={isPending}>
-              {isPending ? "Gerando..." : <>Gerar com IA <Bot className="ml-2 h-4 w-4" /></>}
-            </Button>
+            isOnline ? (
+              <Button onClick={handleGenerateCuriosity} disabled={isPending}>
+                {isPending ? "Gerando..." : <>Gerar com IA <Bot className="ml-2 h-4 w-4" /></>}
+              </Button>
+            ) : (
+              <Button disabled>
+                Fim da categoria (offline) <WifiOff className="ml-2 h-4 w-4" />
+              </Button>
+            )
           ) : (
             <Button onClick={goToNext}>
               Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
@@ -145,14 +166,14 @@ export default function CuriosityExplorer({ category, curiosities: initialCurios
       
       <div className="flex justify-center">
          <Button variant="ghost" onClick={surpriseMe}>
-            <Sparkles className="mr-2 h-4 w-4" /> Outra categoria
+            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me!
          </Button>
       </div>
 
        <Card className="mt-4">
         <CardHeader>
           <CardTitle className="flex items-center">
-            {isLoaded && explorerIcons[stats.explorerStatus]}
+            {isLoaded && stats.explorerStatus && explorerIcons[stats.explorerStatus]}
             Status do Explorador
           </CardTitle>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
