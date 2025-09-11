@@ -38,3 +38,15 @@ Agora vem a parte principal. Você usará uma ferramenta do próprio Google cham
     bubblewrap build
     ```
     Isso criará um arquivo chamado `app-release-signed.aab`. **Este é o arquivo que você enviará para a Google Play Store.**
+
+
+
+
+
+
+git init
+git add .
+git commit -m "Primeiro commit"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_SEU_REPO.git
+git push -u origin main
