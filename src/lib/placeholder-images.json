@@ -1,3 +1,10 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract purple and yellow energy waves creating a dynamic and futuristic background.",
+      "imageUrl": "https://picsum.photos/seed/1/1200/800",
+      "imageHint": "abstract technology"
+    }
+  ]
 }
