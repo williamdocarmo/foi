@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { getAllCuriosities } from "@/lib/data";
+import { getAllCuriosities, getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
 import Link from "next/link";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
@@ -19,26 +19,42 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
-export default function CuriosityExplorer({ category, curiosities, initialCuriosityId }: CuriosityExplorerProps) {
+export default function CuriosityExplorer({ 
+    category: initialCategory, 
+    curiosities: initialCuriosities, 
+    initialCuriosityId 
+}: CuriosityExplorerProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const isOnline = useOnlineStatus();
 
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
+  
+  const [currentCategory, setCurrentCategory] = useState<Category>(initialCategory);
+  const [currentCuriosities, setCurrentCuriosities] = useState<Curiosity[]>(initialCuriosities);
 
-  const initialIndex = useMemo(() => {
-    if (initialCuriosityId) {
-      const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
+  const getInitialIndex = useCallback(() => {
+    const curiosityIdFromUrl = initialCuriosityId || searchParams.get('curiosity');
+    if (curiosityIdFromUrl) {
+      const foundIndex = currentCuriosities.findIndex(c => c.id === curiosityIdFromUrl);
       if (foundIndex !== -1) return foundIndex;
     }
-    const lastReadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    const lastReadIndex = currentCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
     return lastReadIndex !== -1 ? lastReadIndex : 0;
-  }, [initialCuriosityId, curiosities, stats.readCuriosities]);
+  }, [initialCuriosityId, searchParams, currentCuriosities, stats.readCuriosities]);
+
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex());
+
+  // Update state if category or curiosities change via navigation
+  useEffect(() => {
+    setCurrentCategory(initialCategory);
+    setCurrentCuriosities(initialCuriosities);
+    setCurrentIndex(getInitialIndex());
+  }, [initialCategory, initialCuriosities, getInitialIndex]);
   
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
-  
-  const currentCuriosity = curiosities[currentIndex];
-  const isLastCuriosity = currentIndex === curiosities.length - 1;
+  const currentCuriosity = currentCuriosities[currentIndex];
+  const isLastCuriosity = currentIndex === currentCuriosities.length - 1;
 
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
@@ -47,7 +63,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
 
   const goToNext = () => {
-    if (currentIndex < curiosities.length - 1) {
+    if (currentIndex < currentCuriosities.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   };
@@ -61,25 +77,26 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
   const surpriseMe = useCallback(() => {
     if (allCuriosities.length <= 1) return;
   
-    // Filter out the current curiosity to avoid selecting it again
     const filteredCuriosities = allCuriosities.filter(c => c.id !== currentCuriosity.id);
-    
-    // Prefer unread curiosities from the filtered list
     const unreadCuriosities = filteredCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
-    
     const pool = unreadCuriosities.length > 0 ? unreadCuriosities : filteredCuriosities;
-    
     const randomCuriosity = pool[Math.floor(Math.random() * pool.length)];
-    
-    // Navigate to the new curiosity's category page
-    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
-    
-    // If we are already on the correct category page, we might need to manually update the state
-    // For simplicity, the navigation handles the state refresh.
+
+    const newCategory = getCategoryById(randomCuriosity.categoryId);
+    const newCuriosities = getCuriositiesByCategoryId(randomCuriosity.categoryId);
+    const newIndex = newCuriosities.findIndex(c => c.id === randomCuriosity.id);
+
+    if (newCategory) {
+      setCurrentCategory(newCategory);
+      setCurrentCuriosities(newCuriosities);
+      setCurrentIndex(newIndex >= 0 ? newIndex : 0);
+      // Update URL without a full page reload for better UX
+      router.replace(`/curiosity/${newCategory.id}?curiosity=${randomCuriosity.id}`, { scroll: false });
+    }
   
   }, [allCuriosities, stats.readCuriosities, router, currentCuriosity?.id]);
   
-  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
+  const progress = currentCuriosities.length > 0 ? ((currentIndex + 1) / currentCuriosities.length) * 100 : 0;
   
   const explorerIcons = {
     'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
@@ -91,7 +108,7 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     return (
         <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
-            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {category.name}.</p>
+            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {currentCategory.name}.</p>
              <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo usando o script de geração.</p>
             <Button asChild className="mt-6">
                 <Link href="/">Voltar ao Início</Link>
@@ -105,16 +122,16 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
       <Card
         key={currentCuriosity.id}
         className="overflow-hidden shadow-2xl animate-slide-in-up"
-        style={{ borderLeft: `5px solid ${category.color}` }}
+        style={{ borderLeft: `5px solid ${currentCategory.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <span className="text-3xl">{category.emoji}</span>
-                    <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
+                    <span className="text-3xl">{currentCategory.emoji}</span>
+                    <CardTitle className="font-headline text-2xl">{currentCategory.name}</CardTitle>
                 </div>
                  <Badge variant="secondary" className="whitespace-nowrap">
-                    {currentIndex + 1} / {curiosities.length}
+                    {currentIndex + 1} / {currentCuriosities.length}
                 </Badge>
             </div>
             <Progress value={progress} className="mt-4 h-2" />
@@ -186,5 +203,3 @@ export default function CuriosityExplorer({ category, curiosities, initialCurios
     </div>
   );
 }
-
-    
