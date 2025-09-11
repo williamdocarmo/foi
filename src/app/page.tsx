@@ -55,7 +55,7 @@ export default function Home() {
             Você Sabia?
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90 md:text-xl">
-            Descubra curiosidades fascinantes, teste seus conhecimentos e aprenda algo novo todos os dias.
+            Descubra curiosidades fascinantes, teste seu conhecimento com quizzes e aprenda algo novo todo dia.
           </p>
           <div className="mt-8">
             <RandomCuriosityButton />
