@@ -1,0 +1,72 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é recomendada pela maioria dos médicos para a saúde cardiovascular?",
+    "options": [
+      "Natação",
+      "Levantamento de peso",
+      "Corrida",
+      "Ioga"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "A corrida é uma atividade aeróbica eficaz para fortalecer o coração e os pulmões.",
+    "id": "quiz-bem-estar-1",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal característica da síndrome de burnout?",
+    "options": [
+      "Falta de motivação e exaustão emocional",
+      "Ansiedade generalizada",
+      "Depressão crônica",
+      "Distúrbios do sono"
+    ],
+    "correctAnswer": "Falta de motivação e exaustão emocional",
+    "explanation": "A síndrome de burnout é caracterizada por exaustão emocional, cinismo e falta de eficácia profissional.",
+    "id": "quiz-bem-estar-2",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio está fortemente associado à sensação de bem-estar e felicidade?",
+    "options": [
+      "Adrenalina",
+      "Cortisol",
+      "Serotonina",
+      "Melatonina"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina é um neurotransmissor que regula o humor, o sono, o apetite e outras funções cognitivas e desempenha um papel crucial no bem-estar.",
+    "id": "quiz-bem-estar-3",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quantas horas de sono são recomendadas para a maioria dos adultos por noite?",
+    "options": [
+      "4-5 horas",
+      "6-7 horas",
+      "7-9 horas",
+      "10-12 horas"
+    ],
+    "correctAnswer": "7-9 horas",
+    "explanation": "A maioria dos adultos precisa de 7 a 9 horas de sono de qualidade por noite para funcionar adequadamente.",
+    "id": "quiz-bem-estar-4",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A prática regular de mindfulness está associada à redução de qual sintoma?",
+    "options": [
+      "Ganho de peso",
+      "Pressão arterial elevada",
+      "Aumento da ansiedade",
+      "Redução da criatividade"
+    ],
+    "correctAnswer": "Aumento da ansiedade",
+    "explanation": "O mindfulness ajuda a regular a resposta ao estresse, reduzindo a ansiedade e melhorando a regulação emocional.",
+    "id": "quiz-bem-estar-5",
+    "categoryId": "bem-estar"
+  }
+]

@@ -1,4 +1,3 @@
-
 [
   {
     "title": "O Coração Humano",
@@ -24,5 +23,40 @@
     "title": "O Cérebro e a Eletricidade",
     "content": "Enquanto está acordado, seu cérebro gera entre 10 e 23 watts de energia elétrica. Isso é o suficiente para acender uma lâmpada pequena.",
     "funFact": "O cérebro consome cerca de 20% do oxigênio e das calorias do corpo, apesar de representar apenas 2% do peso corporal."
+  },
+  {
+    "title": "Seu intestino tem mais neurônios que seu cérebro?",
+    "content": "Seu sistema digestivo possui um complexo sistema nervoso chamado sistema nervoso entérico, que contém mais de 100 milhões de neurônios.  É por isso que às vezes o seu intestino sente antes de sua cabeça.",
+    "funFact": "Ele é tão complexo que é frequentemente referido como 'o segundo cérebro'.",
+    "id": "saude-6",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O poder do espirro",
+    "content": "Um espirro pode atingir velocidades de até 160 km/h e liberar milhares de gotículas respiratórias, que podem espalhar germes a uma distância considerável.",
+    "funFact": "É impossível ficar com os olhos abertos enquanto espirra.",
+    "id": "saude-7",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A importância do sono",
+    "content": "Durante o sono, seu corpo se regenera, reparando tecidos e consolidando memórias. Dormir pouco pode aumentar o risco de doenças crônicas.",
+    "funFact": "Você pode queimar até 50 calorias por hora enquanto dorme.",
+    "id": "saude-8",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Seu nariz é um super-detetor de odores",
+    "content": "Seu nariz pode distinguir trilhões de cheiros diferentes.  Isso ajuda você a identificar alimentos estragados e outros perigos.",
+    "funFact": "Seu olfato pode ser afetado por suas emoções.",
+    "id": "saude-9",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A pele, o maior órgão do corpo",
+    "content": "Sua pele é um órgão complexo que protege contra infecções, regula a temperatura corporal e elimina toxinas. Cuide bem dela!",
+    "funFact": "Sua pele se regenera completamente a cada 27 dias.",
+    "id": "saude-10",
+    "categoryId": "saude"
   }
 ]

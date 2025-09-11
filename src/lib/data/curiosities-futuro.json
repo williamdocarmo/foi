@@ -58,5 +58,40 @@
     "funFact": "Pesquisas em genética e nanotecnologia podem levar ao desenvolvimento de tratamentos para o envelhecimento.",
     "id": "futuro-10",
     "categoryId": "futuro"
+  },
+  {
+    "title": "Cidades Inteligentes",
+    "content": "O futuro das cidades envolve a integração de tecnologias para otimizar recursos, melhorar a qualidade de vida e reduzir o impacto ambiental.  Sistemas inteligentes irão gerenciar o tráfego, o consumo de energia e a coleta de lixo de forma mais eficiente.",
+    "funFact": "Algumas cidades já estão testando carros autônomos que se comunicam entre si para evitar congestionamentos.",
+    "id": "futuro-11",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da Biotecnologia",
+    "content": "Avanços na biotecnologia prometem revolucionar a medicina, a agricultura e a indústria.  Terapias genéticas personalizadas, alimentos mais nutritivos e sustentáveis e materiais biodegradáveis são apenas algumas das possibilidades.",
+    "funFact": "A edição genética CRISPR-Cas9 pode corrigir defeitos genéticos que causam doenças.",
+    "id": "futuro-12",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Exploração Espacial",
+    "content": "A exploração espacial se tornará mais acessível e focada na colonização de outros planetas e na busca por recursos.  Missões tripuladas a Marte e a criação de bases lunares são metas próximas.",
+    "funFact": "Existem planos para minerar asteroides em busca de recursos valiosos como metais preciosos e água.",
+    "id": "futuro-13",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Realidade Virtual e Aumentada",
+    "content": "A RV e RA irão transformar a maneira como interagimos com o mundo digital e físico, impactando áreas como entretenimento, educação, saúde e trabalho. Experiências imersivas e interativas estarão presentes em diversos aspectos da vida cotidiana.",
+    "funFact": "A realidade virtual já é usada para treinar cirurgiões e pilotos.",
+    "id": "futuro-14",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Inteligência Artificial",
+    "content": "A IA desempenhará um papel cada vez mais importante em nossas vidas, automatizando tarefas, auxiliando na tomada de decisões e impulsionando a inovação em diversos setores. No entanto, questões éticas e de segurança precisarão ser cuidadosamente consideradas.",
+    "funFact": "A IA já é usada para diagnosticar doenças com precisão superior à de alguns médicos.",
+    "id": "futuro-15",
+    "categoryId": "futuro"
   }
 ]

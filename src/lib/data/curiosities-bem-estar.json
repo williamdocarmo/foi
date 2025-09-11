@@ -1,4 +1,3 @@
-
 [
   {
     "id": "bem-estar-1",
@@ -6,5 +5,40 @@
     "title": "Benefícios da Meditação",
     "content": "A meditação regular pode reduzir o estresse, melhorar a concentração e promover uma sensação geral de bem-estar.",
     "funFact": "Estudos mostram que a meditação pode realmente alterar a estrutura do cérebro."
+  },
+  {
+    "title": "A Importância do Sono",
+    "content": "Dormir bem é crucial para o bem-estar. Durante o sono, o corpo se recupera e conserta tecidos, fortalecendo o sistema imunológico e melhorando a função cognitiva.",
+    "funFact": "A privação do sono pode levar ao aumento de peso, pois afeta os hormônios que regulam o apetite.",
+    "id": "bem-estar-2",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Contato com a Natureza",
+    "content": "Passar tempo ao ar livre, em contato com a natureza, reduz o estresse e a ansiedade, melhorando o humor e a sensação de bem-estar geral.",
+    "funFact": "Estudos mostram que até mesmo olhar para imagens da natureza pode ter efeitos positivos na saúde mental.",
+    "id": "bem-estar-3",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mente Grata",
+    "content": "Praticar a gratidão, focando nas coisas boas da vida, aumenta os níveis de felicidade e reduz a negatividade, contribuindo significativamente para o bem-estar emocional.",
+    "funFact": "Escrever em um diário sobre o que você é grato pode potencializar os benefícios da gratidão.",
+    "id": "bem-estar-4",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Atividade Física e o Humor",
+    "content": "A atividade física regular libera endorfinas, que atuam como analgésicos naturais e melhoram o humor, combatendo a depressão e a ansiedade.",
+    "funFact": "Apenas 30 minutos de exercício por dia já podem fazer uma grande diferença na sua saúde mental e física.",
+    "id": "bem-estar-5",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Importância das Relações Sociais",
+    "content": "Conectar-se com outras pessoas, cultivando relacionamentos fortes e saudáveis, é essencial para a saúde mental e o bem-estar emocional. Sentir-se amado e pertencente é fundamental.",
+    "funFact": "Ter um forte sistema de apoio social está associado à maior longevidade.",
+    "id": "bem-estar-6",
+    "categoryId": "bem-estar"
   }
 ]

@@ -1,4 +1,3 @@
-
 [
   {
     "title": "O Efeito dos Juros Compostos",
@@ -24,5 +23,40 @@
     "title": "Diversificação: Não Coloque Todos os Ovos na Mesma Cesta",
     "content": "Diversificar seus investimentos significa espalhar seu dinheiro por diferentes tipos de ativos (ações, títulos, imóveis, etc.). Isso reduz o risco, pois se um ativo tiver um desempenho ruim, os outros podem compensar.",
     "funFact": "O economista Harry Markowitz ganhou o Prêmio Nobel em 1990 por sua 'Teoria Moderna do Portfólio', que formalizou matematicamente os benefícios da diversificação."
+  },
+  {
+    "title": "A Origem do Dinheiro",
+    "content": "O dinheiro, como o conhecemos, não surgiu de uma só vez.  Ele evoluiu gradualmente, começando com o escambo e, posteriormente, com o uso de objetos de valor como conchas, gado e metais preciosos.",
+    "funFact": "As primeiras moedas foram cunhadas na Lídia, na Ásia Menor, por volta do século VII a.C.",
+    "id": "dinheiro-6",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "O Papel Moeda e sua História",
+    "content": "O papel moeda, inicialmente feito de papel de algodão ou linho, surgiu na China durante a dinastia Tang (618-907 d.C.), muito antes de ser adotado no Ocidente.",
+    "funFact": "No início, o papel moeda chinês era respaldado por metais preciosos, mas com o tempo isso deixou de ser o caso em várias ocasiões, resultando em inflação.",
+    "id": "dinheiro-7",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "O Poder da Psicologia no Dinheiro",
+    "content": "Nosso relacionamento com o dinheiro é fortemente influenciado pela psicologia.  Fatores como aversão à perda, vieses cognitivos e apego emocional impactam nossas decisões financeiras.",
+    "funFact": "A perda de uma quantia em dinheiro geralmente causa um impacto emocional duas vezes maior do que o ganho da mesma quantia.",
+    "id": "dinheiro-8",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "Dinheiro Digital e Criptomoedas",
+    "content": "As moedas digitais e as criptomoedas, como o Bitcoin, representam uma revolução no sistema financeiro, oferecendo novas formas de transação e gestão de dinheiro, descentralizadas e independentes de instituições tradicionais.",
+    "funFact": "A primeira transação de Bitcoin ocorreu em 2010, quando 10.000 Bitcoins foram trocados por duas pizzas.",
+    "id": "dinheiro-9",
+    "categoryId": "dinheiro"
+  },
+  {
+    "title": "A Influência do Dinheiro na Sociedade",
+    "content": "O dinheiro desempenha um papel crucial na estrutura social, influenciando as relações de poder, a distribuição de recursos e a desigualdade econômica globalmente.",
+    "funFact": "A desigualdade de riqueza global está aumentando, com uma pequena percentagem da população detendo a maior parte da riqueza mundial.",
+    "id": "dinheiro-10",
+    "categoryId": "dinheiro"
   }
 ]
