@@ -1,4 +1,3 @@
-
 [
   {
     "title": "A Origem do 'Bug' de Computador",
@@ -24,5 +23,40 @@
     "title": "A Primeira Câmera Digital",
     "content": "A primeira câmera digital foi inventada em 1975 por Steven Sasson, um engenheiro da Kodak. O dispositivo pesava 3,6 kg, levava 23 segundos para gravar uma única imagem em preto e branco em uma fita cassete e tinha uma resolução de 0.01 megapixels.",
     "funFact": "A Kodak, ironicamente, engavetou o projeto por medo de que ele ameaçasse seu lucrativo negócio de filmes fotográficos."
+  },
+  {
+    "title": "A Origem da Internet",
+    "content": "A internet surgiu na década de 1960, como um projeto militar americano chamado ARPANET, com o objetivo de criar uma rede de comunicação descentralizada e resistente a ataques.",
+    "funFact": "O primeiro email foi enviado em 1971.",
+    "id": "tecnologia-6",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Primeira Programação",
+    "content": "Ada Lovelace, no século XIX, é considerada a primeira programadora da história, ao descrever um algoritmo para a máquina analítica de Charles Babbage, que nunca foi construída na época.",
+    "funFact": "O algoritmo de Ada Lovelace era para calcular números de Bernoulli.",
+    "id": "tecnologia-7",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "O Poder dos Smartphones",
+    "content": "A capacidade de processamento de um smartphone moderno supera a dos computadores usados para levar o homem à Lua.",
+    "funFact": "Seu smartphone tem mais poder computacional do que todos os computadores combinados que existiam em 1970.",
+    "id": "tecnologia-8",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Evolução dos Discos Rígidos",
+    "content": "Os primeiros discos rígidos eram enormes, pesando centenas de quilos e armazenando apenas alguns megabytes de dados. Hoje, um disco rígido do tamanho de uma mão consegue armazenar terabytes.",
+    "funFact": "Um disco rígido de 1956 ocupava um cômodo inteiro.",
+    "id": "tecnologia-9",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Internet das Coisas (IoT)",
+    "content": "A Internet das Coisas (IoT) conecta bilhões de dispositivos à internet, desde eletrodomésticos a carros, permitindo a coleta e troca de dados em tempo real.",
+    "funFact": "Estima-se que em 2025, haverá mais de 75 bilhões de dispositivos conectados à internet.",
+    "id": "tecnologia-10",
+    "categoryId": "tecnologia"
   }
 ]

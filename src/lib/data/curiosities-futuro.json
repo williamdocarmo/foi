@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Internet das Coisas (IoT)",
@@ -24,5 +23,40 @@
     "title": "Computação Quântica",
     "content": "Computadores quânticos usam os princípios da mecânica quântica para realizar cálculos muito mais rápido do que os computadores clássicos. Eles têm o potencial de revolucionar áreas como a medicina, a ciência dos materiais e a inteligência artificial.",
     "funFact": "Um bit quântico, ou 'qubit', pode ser 0, 1 ou ambos ao mesmo tempo, um fenômeno chamado superposição."
+  },
+  {
+    "title": "Cidades Inteligentes",
+    "content": "O futuro das cidades envolve a integração de tecnologias para melhorar a vida dos cidadãos.  Imagine cidades com infraestruturas otimizadas, transportes eficientes e serviços personalizados.",
+    "funFact": "Algumas cidades já estão implementando sensores para monitorar o tráfego em tempo real e ajustar os semáforos, reduzindo congestionamentos.",
+    "id": "futuro-6",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da IA",
+    "content": "A Inteligência Artificial está mudando rapidamente o mundo, automatizando tarefas, aprimorando a saúde e impulsionando a inovação em diversos setores.",
+    "funFact": "Estima-se que a IA criará milhões de novos empregos, mesmo que automatize outros.",
+    "id": "futuro-7",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Exploração Espacial",
+    "content": "O futuro da exploração espacial inclui viagens a Marte e além, com o objetivo de colonizar outros planetas e buscar recursos.",
+    "funFact": "Empresas privadas estão desempenhando um papel cada vez maior na corrida espacial.",
+    "id": "futuro-8",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Realidade Virtual e Aumentada",
+    "content": "A RV e RA transformarão a maneira como interagimos com o mundo digital e físico, impactando desde jogos e entretenimento até educação e medicina.",
+    "funFact": "A tecnologia de realidade mista já está sendo usada em cirurgias complexas.",
+    "id": "futuro-9",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Biotecnologia e a Vida Longa",
+    "content": "Avanços na biotecnologia prometem revolucionar a saúde, aumentando a expectativa de vida e combatendo doenças com maior eficácia.",
+    "funFact": "Pesquisas em genética e nanotecnologia podem levar ao desenvolvimento de tratamentos para o envelhecimento.",
+    "id": "futuro-10",
+    "categoryId": "futuro"
   }
 ]

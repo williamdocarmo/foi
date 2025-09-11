@@ -1,0 +1,72 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual tecnologia já está sendo amplamente usada para auxiliar na previsão do tempo?",
+    "options": [
+      "Inteligência Artificial",
+      "Máquinas de escrever",
+      "Relógios de sol",
+      "Telégrafos"
+    ],
+    "correctAnswer": "Inteligência Artificial",
+    "explanation": "A IA analisa grandes conjuntos de dados para prever padrões climáticos com maior precisão.",
+    "id": "quiz-futuro-1",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal desafio para a viabilização de viagens espaciais comerciais de longa duração?",
+    "options": [
+      "Custo financeiro",
+      "Falta de tecnologia",
+      "Falta de interesse público",
+      "Radiação espacial"
+    ],
+    "correctAnswer": "Radiação espacial",
+    "explanation": "A exposição prolongada à radiação espacial representa um sério risco para a saúde dos astronautas.",
+    "id": "quiz-futuro-2",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito futurista busca criar um sistema computacional imitando o cérebro humano em sua complexidade?",
+    "options": [
+      "Internet das Coisas",
+      "Big Data",
+      "Computação Quântica",
+      "Inteligência Artificial Geral"
+    ],
+    "correctAnswer": "Inteligência Artificial Geral",
+    "explanation": "A AGI visa criar uma IA com capacidades cognitivas comparáveis às dos humanos, superando a IA atual.",
+    "id": "quiz-futuro-3",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual área de desenvolvimento tecnológico promete revolucionar a medicina personalizada no futuro?",
+    "options": [
+      "Realidade Virtual",
+      "Biotecnologia",
+      "Nanotecnologia",
+      "Robótica"
+    ],
+    "correctAnswer": "Biotecnologia",
+    "explanation": "A biotecnologia permite o desenvolvimento de terapias personalizadas e diagnósticos mais precisos.",
+    "id": "quiz-futuro-4",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fonte de energia renovável é considerada uma das mais promissoras para o futuro, devido à sua abundância e baixo impacto ambiental?",
+    "options": [
+      "Petróleo",
+      "Carvão",
+      "Energia nuclear",
+      "Energia solar"
+    ],
+    "correctAnswer": "Energia solar",
+    "explanation": "A energia solar é uma fonte limpa e abundante, com custos de produção que estão diminuindo constantemente.",
+    "id": "quiz-futuro-5",
+    "categoryId": "futuro"
+  }
+]

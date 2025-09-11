@@ -1,0 +1,72 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta mais próximo do Sol?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Vênus",
+      "Mercúrio"
+    ],
+    "correctAnswer": "Mercúrio",
+    "explanation": "Mercúrio é o planeta mais próximo do Sol em nosso sistema solar.",
+    "id": "quiz-ciencia-1",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a fórmula química da água?",
+    "options": [
+      "CO2",
+      "NaCl",
+      "H2O",
+      "O2"
+    ],
+    "correctAnswer": "H2O",
+    "explanation": "A água é composta por dois átomos de hidrogênio e um átomo de oxigênio.",
+    "id": "quiz-ciencia-2",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual as plantas convertem energia solar em energia química?",
+    "options": [
+      "Respiração",
+      "Fermentação",
+      "Fotossíntese",
+      "Quimiossíntese"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas usam a luz solar, água e dióxido de carbono para produzir glicose e oxigênio.",
+    "id": "quiz-ciencia-3",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é DNA?",
+    "options": [
+      "Uma unidade de energia",
+      "Uma molécula que carrega informação genética",
+      "Um tipo de proteína",
+      "Um tipo de carboidrato"
+    ],
+    "correctAnswer": "Uma molécula que carrega informação genética",
+    "explanation": "O DNA (ácido desoxirribonucleico) é uma molécula que carrega as instruções genéticas para o desenvolvimento e funcionamento de todos os organismos vivos.",
+    "id": "quiz-ciencia-4",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água a 0°C e pressão atmosférica normal?",
+    "options": [
+      "Gasoso",
+      "Líquido",
+      "Sólido",
+      "Plasma"
+    ],
+    "correctAnswer": "Sólido",
+    "explanation": "A 0°C e pressão atmosférica normal, a água se encontra em seu ponto de congelamento, ou seja, no estado sólido (gelo).",
+    "id": "quiz-ciencia-5",
+    "categoryId": "ciencia"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual o menor valor de nota em circulação no Brasil?",
+    "options": [
+      "R$ 1,00",
+      "R$ 2,00",
+      "R$ 5,00",
+      "R$ 10,00"
+    ],
+    "correctAnswer": "R$ 1,00",
+    "explanation": "A nota de R$ 1,00 é a menor nota em circulação atualmente.",
+    "id": "quiz-dinheiro-1",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla IOF?",
+    "options": [
+      "Imposto sobre Operações Financeiras",
+      "Imposto sobre Operações de Importação",
+      "Imposto sobre Operações de Exportação",
+      "Imposto sobre Operações de Investimento"
+    ],
+    "correctAnswer": "Imposto sobre Operações Financeiras",
+    "explanation": "IOF é a sigla para Imposto sobre Operações Financeiras, um imposto que incide sobre diversas operações financeiras.",
+    "id": "quiz-dinheiro-2",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do sistema de pagamento instantâneo do Banco Central do Brasil?",
+    "options": [
+      "PIX",
+      "TED",
+      "DOC",
+      "Visa"
+    ],
+    "correctAnswer": "PIX",
+    "explanation": "O PIX é um sistema de pagamentos instantâneos criado pelo Banco Central do Brasil.",
+    "id": "quiz-dinheiro-3",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a taxa SELIC e qual sua função principal?",
+    "options": [
+      "Taxa de juros básica da economia brasileira, utilizada como referência para outras taxas de juros.",
+      "Taxa de câmbio do dólar americano em relação ao real brasileiro.",
+      "Índice que mede a inflação no Brasil.",
+      "Taxa de juros cobrada em empréstimos internacionais pelo Brasil."
+    ],
+    "correctAnswer": "Taxa de juros básica da economia brasileira, utilizada como referência para outras taxas de juros.",
+    "explanation": "A SELIC (Sistema Especial de Liquidação e Custódia) é a taxa de juros básica da economia brasileira e serve como referência para outras taxas de juros no país.",
+    "id": "quiz-dinheiro-4",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre ações e títulos de renda fixa?",
+    "options": [
+      "Ações representam participação no capital de uma empresa, enquanto títulos de renda fixa representam um empréstimo.",
+      "Ações garantem retorno fixo, enquanto títulos de renda fixa garantem retorno variável.",
+      "Ações são mais arriscadas que títulos de renda fixa, enquanto ações são mais seguras.",
+      "Não há diferença significativa entre ações e títulos de renda fixa."
+    ],
+    "correctAnswer": "Ações representam participação no capital de uma empresa, enquanto títulos de renda fixa representam um empréstimo.",
+    "explanation": "Ações representam a propriedade de uma parte de uma empresa, enquanto títulos de renda fixa representam um empréstimo feito a uma empresa ou governo, com retorno pré-determinado.",
+    "id": "quiz-dinheiro-5",
+    "categoryId": "dinheiro"
+  }
+]
