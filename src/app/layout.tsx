@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   applicationName: APP_NAME,
   title: 'Você sabia? | Um jogo de curiosidades',
   description: APP_DESCRIPTION,
-  manifest: '/manifest.json',
+  manifest: '/manifest.webmanifest',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
