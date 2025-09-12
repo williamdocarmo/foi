@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
@@ -26,34 +26,26 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
-
-  const initialIndex = useMemo(() => {
+  
+  const getInitialIndex = useCallback(() => {
     if (initialCuriosityId) {
       const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
     
     if (isLoaded) {
-      const lastReadId = stats.lastReadCuriosity?.[category.id];
-      if (lastReadId) {
-          const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
-          if (lastReadIndex !== -1 && lastReadIndex < curiosities.length - 1) {
-              return lastReadIndex + 1;
-          }
-      }
-
       const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
       if (firstUnreadIndex !== -1) return firstUnreadIndex;
     }
     
     return 0;
-  }, [initialCuriosityId, curiosities, isLoaded, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
+  }, [initialCuriosityId, curiosities, isLoaded, stats.readCuriosities]);
 
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
-
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
+  
   useEffect(() => {
-    setCurrentIndex(initialIndex);
-  }, [initialIndex]);
+    setCurrentIndex(getInitialIndex());
+  }, [getInitialIndex, isLoaded]);
 
   const currentCuriosity = curiosities[currentIndex];
 
@@ -65,10 +57,10 @@ export default function CuriosityExplorer({
   
   useEffect(() => {
     if (currentCuriosity) {
-        const url = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
+        const url = `/curiosity/${category.id}?curiosity=${currentCuriosity.id}`;
         window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
     }
-  }, [currentIndex, currentCuriosity]);
+  }, [currentIndex, currentCuriosity, category.id]);
 
   const goToNext = () => {
     if (currentIndex < curiosities.length - 1) {
@@ -95,15 +87,9 @@ export default function CuriosityExplorer({
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
-    if (randomCuriosity.categoryId !== category.id) {
-      router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
-    } else {
-      const newIndex = curiosities.findIndex(c => c.id === randomCuriosity.id);
-      if (newIndex !== -1) {
-        setCurrentIndex(newIndex);
-      }
-    }
-  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router, category.id, curiosities]);
+    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
+
+  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
   
   const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
