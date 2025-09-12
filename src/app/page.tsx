@@ -14,8 +14,8 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
 
   return (
     <Card className="h-full transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
-      <CardContent className="flex flex-col items-center justify-center p-6 text-center">
-        <Link href={`/curiosity/${category.id}`} className="group block">
+      <CardContent className="flex h-full flex-col items-center justify-center p-6 text-center">
+        <Link href={`/curiosity/${category.id}`} className="group block flex-grow">
           <div
             className="mb-4 inline-block rounded-full p-4 transition-colors group-hover:bg-accent/20"
             style={{ backgroundColor: `${category.color}20` }}
@@ -25,9 +25,6 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
           <h3 className="font-headline text-xl font-bold">{category.name}</h3>
           <p className="mt-2 text-sm text-muted-foreground">{category.description}</p>
         </Link>
-        <Button variant="outline" size="sm" asChild className="mt-4">
-          <Link href={`/quiz/${category.id}`}>Iniciar Quiz</Link>
-        </Button>
       </CardContent>
     </Card>
   );

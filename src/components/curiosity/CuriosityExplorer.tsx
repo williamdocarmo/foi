@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap } from "lucide-react";
+import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap, HelpCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities, getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
@@ -145,7 +145,7 @@ export default function CuriosityExplorer({
 
   return (
     <div className="flex flex-col gap-8">
-      <Card
+       <Card
         key={currentCuriosity.id}
         className="overflow-hidden shadow-2xl animate-slide-in-up"
         style={{ borderLeft: `5px solid ${currentCategory.color}` }}
@@ -163,19 +163,30 @@ export default function CuriosityExplorer({
             <Progress value={progress} className="mt-4 h-2" />
         </CardHeader>
         <CardContent className="p-6 md:p-8">
-          <h2 className="mb-4 font-headline text-3xl font-bold text-primary">
-            {currentCuriosity.title}
-          </h2>
-          <p className="text-lg leading-relaxed text-foreground/80">
-            {currentCuriosity.content}
-          </p>
-          {currentCuriosity.funFact && (
-            <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
-              <p className="font-semibold text-accent-foreground">
-                <span className="font-bold">Fato Curioso:</span> {currentCuriosity.funFact}
-              </p>
-            </div>
-          )}
+          <div className="mb-6 border-b pb-6">
+            <h2 className="mb-4 font-headline text-3xl font-bold text-primary">
+              {currentCuriosity.title}
+            </h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+              {currentCuriosity.content}
+            </p>
+            {currentCuriosity.funFact && (
+              <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
+                <p className="font-semibold text-accent-foreground">
+                  <span className="font-bold">Fato Curioso:</span> {currentCuriosity.funFact}
+                </p>
+              </div>
+            )}
+          </div>
+           <div className="text-center">
+            <h3 className="font-headline text-lg font-semibold">Pronto para testar seu conhecimento?</h3>
+            <Button asChild size="lg" className="mt-2">
+                <Link href={`/quiz/${currentCategory.id}`}>
+                    <HelpCircle className="mr-2 h-5 w-5" />
+                    Iniciar Quiz de {currentCategory.name}
+                </Link>
+            </Button>
+           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
           <Button variant="outline" onClick={goToPrev} disabled={currentIndex === 0}>
