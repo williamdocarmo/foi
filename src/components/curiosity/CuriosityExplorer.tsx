@@ -34,13 +34,29 @@ export default function CuriosityExplorer({
   const [currentCuriosities, setCurrentCuriosities] = useState<Curiosity[]>(initialCuriosities);
 
   const getInitialIndex = useCallback(() => {
+    // 1. If a specific curiosity ID is in the URL, use it.
     if (initialCuriosityId) {
       const foundIndex = initialCuriosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
-    const lastReadIndex = initialCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    return lastReadIndex !== -1 ? lastReadIndex : 0;
-  }, [initialCuriosityId, initialCuriosities, stats.readCuriosities]);
+    
+    // 2. Check if we have a last-read curiosity for this specific category.
+    const lastReadId = stats.lastReadCuriosity?.[initialCategory.id];
+    if (lastReadId) {
+        const lastReadIndex = initialCuriosities.findIndex(c => c.id === lastReadId);
+        // If it's not the last one in the list, start at the next one.
+        if (lastReadIndex !== -1 && lastReadIndex < initialCuriosities.length - 1) {
+            return lastReadIndex + 1;
+        }
+    }
+
+    // 3. Fallback: find the first unread curiosity in this category.
+    const firstUnreadIndex = initialCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    if (firstUnreadIndex !== -1) return firstUnreadIndex;
+    
+    // 4. If all are read, just start from the beginning.
+    return 0;
+  }, [initialCuriosityId, initialCuriosities, stats.readCuriosities, stats.lastReadCuriosity, initialCategory.id]);
 
   const [currentIndex, setCurrentIndex] = useState(getInitialIndex());
 
@@ -56,7 +72,7 @@ export default function CuriosityExplorer({
 
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
-      markCuriosityAsRead(currentCuriosity.id);
+      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
   }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
 

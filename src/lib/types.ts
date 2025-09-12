@@ -19,7 +19,7 @@ export type Curiosity = {
 };
 
 export type QuizQuestion = {
-  id: string;
+  id: 'easy' | 'medium' | 'hard';
   categoryId: string;
   difficulty: 'easy' | 'medium' | 'hard';
   question: string;
@@ -37,4 +37,5 @@ export type GameStats = {
   quizScores: { [categoryId: string]: { score: number; date: string }[] };
   explorerStatus: 'Iniciante' | 'Explorador' | 'Expert';
   combos: number;
+  lastReadCuriosity: { [categoryId: string]: string } | null;
 };

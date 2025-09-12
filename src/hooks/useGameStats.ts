@@ -18,6 +18,7 @@ const defaultStats: GameStats = {
   quizScores: {},
   explorerStatus: 'Iniciante',
   combos: 0,
+  lastReadCuriosity: null,
 };
 
 const processDateLogic = (statsToProcess: GameStats): GameStats => {
@@ -36,7 +37,9 @@ const loadLocalStats = (): GameStats => {
   try {
     const storedStats = localStorage.getItem(LOCAL_GAME_STATS_KEY);
     if (storedStats) {
-      return processDateLogic(JSON.parse(storedStats));
+      const parsedStats = JSON.parse(storedStats);
+      // Ensure new fields exist on old local storage data
+      return processDateLogic({ ...defaultStats, ...parsedStats });
     }
   } catch (error) {
     console.error("Failed to load local game stats:", error);
@@ -102,7 +105,8 @@ export function useGameStats() {
             ...localStats,
             longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
             quizScores: {...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {})},
-            readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])]
+            readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])],
+            lastReadCuriosity: { ...(cloudStats?.lastReadCuriosity || {}), ...(localStats.lastReadCuriosity || {}) },
           };
           mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
           
@@ -131,8 +135,11 @@ export function useGameStats() {
   }, []);
 
 
-  const markCuriosityAsRead = useCallback((curiosityId: string) => {
+  const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
     if (stats.readCuriosities.includes(curiosityId)) {
+       // Even if already read, update the lastReadCuriosity to save progress
+      const newLastRead = { ...stats.lastReadCuriosity, [categoryId]: curiosityId };
+      updateAndSaveStats({ lastReadCuriosity: newLastRead }, user);
       return;
     }
     
@@ -159,6 +166,8 @@ export function useGameStats() {
 
     const newCombos = Math.floor(newTotalRead / 5) - Math.floor(stats.totalCuriositiesRead / 5) + stats.combos;
 
+    const newLastRead = { ...stats.lastReadCuriosity, [categoryId]: curiosityId };
+
     updateAndSaveStats({
       totalCuriositiesRead: newTotalRead,
       readCuriosities: newReadCuriosities,
@@ -166,7 +175,8 @@ export function useGameStats() {
       longestStreak: newLongestStreak,
       lastPlayedDate: today.toISOString(),
       explorerStatus: newExplorerStatus,
-      combos: newCombos
+      combos: newCombos,
+      lastReadCuriosity: newLastRead,
     }, user);
   }, [stats, updateAndSaveStats, user]);
   
