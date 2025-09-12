@@ -26,32 +26,37 @@ export default function CuriosityExplorer({
 }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
-  const allCuriosities = useMemo(() => getAllCuriosities(), []);
   
-  const initialIndex = useMemo(() => {
+  const getInitialIndex = useCallback(() => {
     if (initialCuriosityId) {
-      const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
-      if (foundIndex !== -1) return foundIndex;
+        const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
+        if (foundIndex !== -1) return foundIndex;
     }
-    
-    // Fallback if not loaded yet or no unread curiosities
-    return 0;
-  }, [initialCuriosityId, curiosities]);
+    const lastReadId = stats.lastReadCuriosity?.[category.id];
+    if (lastReadId) {
+        const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
+        if (lastReadIndex !== -1 && lastReadIndex < curiosities.length -1) {
+            return lastReadIndex + 1;
+        }
+    }
+    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
+  }, [initialCuriosityId, curiosities, stats.lastReadCuriosity, stats.readCuriosities, category.id]);
 
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
-
-  // When props change (e.g., navigating to a different category), reset the index.
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
+  
+  // This effect synchronizes the index if the category or data changes
   useEffect(() => {
-    setCurrentIndex(initialIndex);
-  }, [initialIndex]);
-
+    setCurrentIndex(getInitialIndex());
+  }, [category, curiosities, getInitialIndex]);
+  
   const currentCuriosity = curiosities[currentIndex];
 
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
+  }, [currentCuriosity, isLoaded, markCuriosityAsRead, category.id]);
   
   useEffect(() => {
     if (currentCuriosity) {
@@ -73,6 +78,7 @@ export default function CuriosityExplorer({
   };
   
   const surpriseMe = useCallback(() => {
+    const allCuriosities = getAllCuriosities();
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
@@ -87,7 +93,7 @@ export default function CuriosityExplorer({
     
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
-  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
+  }, [stats.readCuriosities, currentCuriosity?.id, router]);
   
   const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
