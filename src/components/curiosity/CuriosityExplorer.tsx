@@ -1,8 +1,8 @@
 
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,48 +26,49 @@ export default function CuriosityExplorer({
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
+  const pathname = usePathname();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  const getInitialIndex = useCallback(() => {
+  // Initialize state ONCE, preventing re-calculation on every render.
+  // This is the key to fixing the infinite loop.
+  const [currentIndex, setCurrentIndex] = useState(() => {
+     if (!isLoaded) return 0; // Temporary index, will be corrected by useEffect
+
     if (initialCuriosityId) {
         const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
         if (foundIndex !== -1) return foundIndex;
     }
-    const lastReadId = stats.lastReadCuriosity?.[category.id];
-    if (lastReadId) {
-        const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
-        if (lastReadIndex !== -1 && lastReadIndex < curiosities.length -1) {
-            return lastReadIndex + 1;
-        }
-    }
     const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
     return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-  }, [initialCuriosityId, curiosities, stats.lastReadCuriosity, stats.readCuriosities, category.id]);
+  });
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // This effect ensures the index is set once the stats are loaded.
+  // This effect runs only when the dependencies change, preventing loops.
   useEffect(() => {
     if (isLoaded) {
-      setCurrentIndex(getInitialIndex());
+      const initialIndex = (() => {
+        if (initialCuriosityId) {
+          const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
+          if (foundIndex !== -1) return foundIndex;
+        }
+        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+        return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
+      })();
+      setCurrentIndex(initialIndex);
     }
-  }, [isLoaded, getInitialIndex]);
-  
+  }, [initialCuriosityId, isLoaded, curiosities, stats.readCuriosities]);
+
+
   const currentCuriosity = curiosities[currentIndex];
 
+  // This effect marks the curiosity as read only when the index actually changes.
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
+      // Update URL safely without triggering re-renders that cause loops.
+      const newUrl = `${pathname}?curiosity=${currentCuriosity.id}`;
+      window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
     }
-  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
-  
-  useEffect(() => {
-    if (currentCuriosity) {
-        const url = `/curiosity/${category.id}?curiosity=${currentCuriosity.id}`;
-        // Use replaceState to avoid adding to the browser history on each change
-        window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
-    }
-  }, [currentIndex, category.id, currentCuriosity]);
+  }, [currentIndex, currentCuriosity, isLoaded, markCuriosityAsRead, pathname]);
 
   const goToNext = () => {
     if (currentIndex < curiosities.length - 1) {
@@ -120,7 +121,6 @@ export default function CuriosityExplorer({
     );
   }
   
-  // Render a loading state or null while currentIndex is not ready
   if (!isLoaded || !currentCuriosity) {
     return (
          <div className="flex flex-col gap-8">
@@ -183,7 +183,7 @@ export default function CuriosityExplorer({
               {currentCuriosity.title}
             </h2>
             <p className="text-lg leading-relaxed text-foreground/80">
-              {currentCuriosity.content}
+              {currentCurriotisy.content}
             </p>
             {currentCuriosity.funFact && (
               <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
@@ -249,5 +249,3 @@ export default function CuriosityExplorer({
     </div>
   );
 }
-
-    

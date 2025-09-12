@@ -40,5 +40,3 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
     </div>
   );
 }
-
-    
