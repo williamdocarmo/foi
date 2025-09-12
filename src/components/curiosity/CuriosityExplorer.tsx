@@ -65,7 +65,7 @@ export default function CuriosityExplorer({
     setCurrentCategory(initialCategory);
     setCurrentCuriosities(initialCuriosities);
     setCurrentIndex(getInitialIndex());
-  }, [initialCategory, initialCuriosities, getInitialIndex]);
+  }, [initialCategory, initialCuriosities]);
   
   const currentCuriosity = currentCuriosities[currentIndex];
   const isLastCuriosity = currentIndex === currentCuriosities.length - 1;
@@ -81,7 +81,7 @@ export default function CuriosityExplorer({
         const url = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
         window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
     }
-  }, [currentIndex, currentCuriosity]);
+  }, [currentCuriosity]);
 
 
   const goToNext = () => {
