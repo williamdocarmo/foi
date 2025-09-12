@@ -6,12 +6,11 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap, HelpCircle, Home } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { getAllCuriosities, getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
+import { getAllCuriosities } from "@/lib/data";
 import Link from "next/link";
-import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -30,36 +29,30 @@ export default function CuriosityExplorer({
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
   
   const getInitialIndex = useCallback(() => {
-    // 1. If a specific curiosity ID is in the URL, use it.
     if (initialCuriosityId) {
       const foundIndex = currentCuriosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
     
-    // 2. Check if we have a last-read curiosity for this specific category.
     const lastReadId = stats.lastReadCuriosity?.[currentCategory.id];
     if (lastReadId) {
         const lastReadIndex = currentCuriosities.findIndex(c => c.id === lastReadId);
-        // If it's not the last one in the list, start at the next one.
         if (lastReadIndex !== -1 && lastReadIndex < currentCuriosities.length - 1) {
             return lastReadIndex + 1;
         }
     }
 
-    // 3. Fallback: find the first unread curiosity in this category.
     const firstUnreadIndex = currentCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
     if (firstUnreadIndex !== -1) return firstUnreadIndex;
     
-    // 4. If all are read, just start from the beginning.
     return 0;
   }, [initialCuriosityId, currentCuriosities, stats.readCuriosities, stats.lastReadCuriosity, currentCategory.id]);
 
-  const [currentIndex, setCurrentIndex] = useState(getInitialIndex());
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
 
-  // This effect resets the index ONLY when the category or the set of curiosities changes.
   useEffect(() => {
     setCurrentIndex(getInitialIndex());
-  }, [currentCategory, currentCuriosities, getInitialIndex]);
+  }, [currentCategory.id, initialCuriosityId, getInitialIndex]);
   
   const currentCuriosity = currentCuriosities[currentIndex];
   const isLastCuriosity = currentIndex === currentCuriosities.length - 1;
@@ -68,7 +61,7 @@ export default function CuriosityExplorer({
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
+  }, [currentCuriosity, markCuriosityAsRead, isLoaded]);
 
   useEffect(() => {
     if (currentCuriosity) {
@@ -94,18 +87,15 @@ export default function CuriosityExplorer({
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
-    // Prefer unread curiosities
     const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity.id);
   
     if (unread.length > 0) {
       randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
     } else {
-      // If all are read, pick any random one that is not the current one
       const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity.id);
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
-    // Use router to navigate, which will re-render the page with new props
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
   }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
@@ -181,7 +171,7 @@ export default function CuriosityExplorer({
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
           {isLastCuriosity ? (
-            <Button asChild>
+             <Button asChild>
                 <Link href="/">
                   <Home className="mr-2 h-4 w-4" />
                   Voltar ao Início
