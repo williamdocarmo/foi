@@ -182,5 +182,5 @@ export function useGameStats() {
     updateStats({ quizScores: newScores });
   }, [stats.quizScores, updateStats]);
 
-  return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user };
+  return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
 }

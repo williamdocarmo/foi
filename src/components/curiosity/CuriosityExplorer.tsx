@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,7 +25,6 @@ export default function CuriosityExplorer({
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const isOnline = useOnlineStatus();
 
@@ -35,14 +34,13 @@ export default function CuriosityExplorer({
   const [currentCuriosities, setCurrentCuriosities] = useState<Curiosity[]>(initialCuriosities);
 
   const getInitialIndex = useCallback(() => {
-    const curiosityIdFromUrl = initialCuriosityId || searchParams.get('curiosity');
-    if (curiosityIdFromUrl) {
-      const foundIndex = currentCuriosities.findIndex(c => c.id === curiosityIdFromUrl);
+    if (initialCuriosityId) {
+      const foundIndex = initialCuriosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
-    const lastReadIndex = currentCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    const lastReadIndex = initialCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
     return lastReadIndex !== -1 ? lastReadIndex : 0;
-  }, [initialCuriosityId, searchParams, currentCuriosities, stats.readCuriosities]);
+  }, [initialCuriosityId, initialCuriosities, stats.readCuriosities]);
 
   const [currentIndex, setCurrentIndex] = useState(getInitialIndex());
 
@@ -62,6 +60,14 @@ export default function CuriosityExplorer({
     }
   }, [currentIndex, currentCuriosity, markCuriosityAsRead, isLoaded]);
 
+  useEffect(() => {
+    if (currentCuriosity) {
+        const url = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
+        window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
+    }
+  }, [currentIndex, currentCuriosity]);
+
+
   const goToNext = () => {
     if (currentIndex < currentCuriosities.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
@@ -77,24 +83,28 @@ export default function CuriosityExplorer({
   const surpriseMe = useCallback(() => {
     if (allCuriosities.length <= 1) return;
   
-    const filteredCuriosities = allCuriosities.filter(c => c.id !== currentCuriosity.id);
-    const unreadCuriosities = filteredCuriosities.filter(c => !stats.readCuriosities.includes(c.id));
-    const pool = unreadCuriosities.length > 0 ? unreadCuriosities : filteredCuriosities;
-    const randomCuriosity = pool[Math.floor(Math.random() * pool.length)];
-
+    let randomCuriosity: Curiosity;
+    // Prefer unread curiosities
+    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity.id);
+  
+    if (unread.length > 0) {
+      randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
+    } else {
+      // If all are read, pick any random one that is not the current one
+      const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity.id);
+      randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
+    }
+  
     const newCategory = getCategoryById(randomCuriosity.categoryId);
     const newCuriosities = getCuriositiesByCategoryId(randomCuriosity.categoryId);
     const newIndex = newCuriosities.findIndex(c => c.id === randomCuriosity.id);
-
-    if (newCategory) {
+  
+    if (newCategory && newIndex !== -1) {
       setCurrentCategory(newCategory);
       setCurrentCuriosities(newCuriosities);
-      setCurrentIndex(newIndex >= 0 ? newIndex : 0);
-      // Update URL without a full page reload for better UX
-      router.replace(`/curiosity/${newCategory.id}?curiosity=${randomCuriosity.id}`, { scroll: false });
+      setCurrentIndex(newIndex);
     }
-  
-  }, [allCuriosities, stats.readCuriosities, router, currentCuriosity?.id]);
+  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id]);
   
   const progress = currentCuriosities.length > 0 ? ((currentIndex + 1) / currentCuriosities.length) * 100 : 0;
   

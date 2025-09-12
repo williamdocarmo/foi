@@ -1,4 +1,3 @@
-
 [
   {
     "id": "quiz-saude-1",
@@ -1189,5 +1188,1335 @@
     ],
     "correctAnswer": "Jean-Jacques Rousseau",
     "explanation": "Embora outros tenham discutido a ideia, Rousseau é um dos mais famosos teóricos do contrato social, argumentando que as pessoas voluntariamente cedem algumas liberdades individuais em troca da proteção do estado."
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas opções é uma fruta rica em vitamina C?",
+    "options": [
+      "Banana",
+      "Maçã",
+      "Laranja",
+      "Abacate"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é uma excelente fonte de vitamina C, um antioxidante importante para o sistema imunológico.",
+    "id": "quiz-saude-161",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal fator de risco para o desenvolvimento de diabetes tipo 2?",
+    "options": [
+      "Excesso de consumo de proteínas",
+      "Falta de exercícios físicos",
+      "Consumo excessivo de frutas cítricas",
+      "Deficiência de vitamina D"
+    ],
+    "correctAnswer": "Falta de exercícios físicos",
+    "explanation": "A falta de atividade física contribui significativamente para o desenvolvimento da resistência à insulina, um fator chave na diabetes tipo 2.",
+    "id": "quiz-saude-162",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes sintomas é comumente associado à depressão?",
+    "options": [
+      "Aumento de energia",
+      "Insônia",
+      "Hiperatividade",
+      "Aumento do apetite"
+    ],
+    "correctAnswer": "Insônia",
+    "explanation": "A insônia, ou dificuldade para dormir, é um sintoma comum da depressão, afetando o ciclo de sono-vigília.",
+    "id": "quiz-saude-163",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a microbiota intestinal e qual sua importância para a saúde?",
+    "options": [
+      "Um tipo de bactéria causadora de doenças intestinais",
+      "Um conjunto de microrganismos que vivem no intestino e influenciam a digestão e imunidade",
+      "Um tipo de vírus que afeta o sistema digestivo",
+      "Uma substância produzida pelo fígado para auxiliar na digestão"
+    ],
+    "correctAnswer": "Um conjunto de microrganismos que vivem no intestino e influenciam a digestão e imunidade",
+    "explanation": "A microbiota intestinal é um ecossistema complexo de bactérias, fungos e outros microrganismos que desempenham um papel crucial na saúde digestiva, imunológica e metabólica.",
+    "id": "quiz-saude-164",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo fisiológico que regula a temperatura corporal?",
+    "options": [
+      "Termorregulação",
+      "Homeostase",
+      "Metabolismo",
+      "Respiração celular"
+    ],
+    "correctAnswer": "Termorregulação",
+    "explanation": "A termorregulação é o processo pelo qual o corpo mantém sua temperatura interna dentro de uma faixa estreita, apesar das variações na temperatura ambiente.",
+    "id": "quiz-saude-165",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é geralmente considerada uma boa prática para reduzir o estresse?",
+    "options": [
+      "Assistir TV por várias horas",
+      "Comer alimentos processados",
+      "Meditar por 10 minutos",
+      "Jogar videogame por horas"
+    ],
+    "correctAnswer": "Meditar por 10 minutos",
+    "explanation": "A meditação é uma técnica comprovada para reduzir o estresse e melhorar a saúde mental.",
+    "id": "quiz-bem-estar-166",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A chamada 'dieta mediterrânea' é frequentemente associada a quais benefícios para a saúde?",
+    "options": [
+      "Aumento do risco de doenças cardíacas",
+      "Redução do risco de obesidade e diabetes tipo 2",
+      "Diminuição da expectativa de vida",
+      "Aumento do colesterol ruim (LDL)"
+    ],
+    "correctAnswer": "Redução do risco de obesidade e diabetes tipo 2",
+    "explanation": "A dieta mediterrânea, rica em frutas, vegetais, azeite e peixe, está associada a uma melhor saúde cardiovascular e menor risco de doenças crônicas.",
+    "id": "quiz-bem-estar-167",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a resiliência se manifesta em indivíduos que enfrentam adversidades?",
+    "options": [
+      "Apatia e falta de motivação para superar desafios",
+      "Aceitação passiva das dificuldades sem tentativa de superação",
+      "Capacidade de se adaptar e superar desafios com maior facilidade",
+      "Tendência ao isolamento social e evitação de situações estressantes"
+    ],
+    "correctAnswer": "Capacidade de se adaptar e superar desafios com maior facilidade",
+    "explanation": "Resiliência é a capacidade de se recuperar de situações adversas, adaptando-se e aprendendo com as experiências.",
+    "id": "quiz-bem-estar-168",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é um dos principais benefícios da conexão social para o bem-estar?",
+    "options": [
+      "Aumento do estresse e ansiedade",
+      "Diminuição da autoestima e autoconfiança",
+      "Sentimento de isolamento e solidão",
+      "Sentimento de pertencimento e apoio emocional"
+    ],
+    "correctAnswer": "Sentimento de pertencimento e apoio emocional",
+    "explanation": "Conexões sociais fortes fornecem suporte emocional, sentido de pertencimento e reduzem o sentimento de isolamento.",
+    "id": "quiz-bem-estar-169",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito está fortemente ligado a um melhor funcionamento cognitivo e memória?",
+    "options": [
+      "Sedentarismo",
+      "Falta de sono regular",
+      "Consumo excessivo de açúcar",
+      "Prática regular de exercícios físicos"
+    ],
+    "correctAnswer": "Prática regular de exercícios físicos",
+    "explanation": "Exercícios físicos aumentam o fluxo sanguíneo para o cérebro, melhorando a função cognitiva e a memória.",
+    "id": "quiz-bem-estar-170",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes NÃO é um tipo de investimento?",
+    "options": [
+      "Ações",
+      "Tesouro Direto",
+      "Caderneta de Poupança",
+      "Cheque Pré-datado"
+    ],
+    "correctAnswer": "Cheque Pré-datado",
+    "explanation": "Um cheque pré-datado é um método de pagamento, não um investimento.",
+    "id": "quiz-dinheiro-171",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa o termo 'inflação'?",
+    "options": [
+      "Aumento geral e persistente no nível de preços de bens e serviços",
+      "Diminuição geral e persistente no nível de preços de bens e serviços",
+      "Aumento na taxa de juros",
+      "Diminuição na taxa de juros"
+    ],
+    "correctAnswer": "Aumento geral e persistente no nível de preços de bens e serviços",
+    "explanation": "Inflação representa a perda do poder de compra da moeda ao longo do tempo.",
+    "id": "quiz-dinheiro-172",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o papel de um banco central na economia?",
+    "options": [
+      "Regular o sistema financeiro, controlar a inflação e emitir moeda",
+      "Gerir as contas públicas e arrecadar impostos",
+      "Construir e manter a infraestrutura do país",
+      "Regular o mercado de trabalho"
+    ],
+    "correctAnswer": "Regular o sistema financeiro, controlar a inflação e emitir moeda",
+    "explanation": "O banco central desempenha um papel crucial na estabilidade econômica de um país.",
+    "id": "quiz-dinheiro-173",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um 'mercado de ações'?",
+    "options": [
+      "Um local físico onde se negocia ações de empresas",
+      "Um sistema eletrônico global de negociação de ações",
+      "Um tipo de investimento de baixo risco",
+      "Um mecanismo de regulação governamental para a economia"
+    ],
+    "correctAnswer": "Um sistema eletrônico global de negociação de ações",
+    "explanation": "Embora existam bolsas de valores físicas, o mercado de ações é principalmente um sistema eletrônico interconectado.",
+    "id": "quiz-dinheiro-174",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre juros simples e juros compostos?",
+    "options": [
+      "Os juros simples são calculados apenas sobre o principal, enquanto os juros compostos são calculados sobre o principal mais os juros acumulados",
+      "Os juros simples são mais vantajosos para o investidor, enquanto os juros compostos são mais vantajosos para o tomador de empréstimo",
+      "Não há diferença entre juros simples e juros compostos",
+      "Os juros simples são aplicados em empréstimos de curto prazo, e os juros compostos em empréstimos de longo prazo."
+    ],
+    "correctAnswer": "Os juros simples são calculados apenas sobre o principal, enquanto os juros compostos são calculados sobre o principal mais os juros acumulados",
+    "explanation": "A capitalização dos juros é a principal diferença entre os dois sistemas, levando a um crescimento exponencial nos juros compostos.",
+    "id": "quiz-dinheiro-175",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fonte de energia renovável é mais frequentemente associada à energia solar?",
+    "options": [
+      "Energia eólica",
+      "Energia geotérmica",
+      "Energia fotovoltaica",
+      "Energia nuclear"
+    ],
+    "correctAnswer": "Energia fotovoltaica",
+    "explanation": "A energia fotovoltaica converte diretamente a luz solar em eletricidade.",
+    "id": "quiz-futuro-176",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual conceito futuro promete revolucionar a forma como interagimos com a internet e dispositivos digitais?",
+    "options": [
+      "Internet das Coisas (IoT)",
+      "Realidade Virtual (RV)",
+      "Metaverso",
+      "Computação em nuvem"
+    ],
+    "correctAnswer": "Metaverso",
+    "explanation": "O metaverso é um conceito de mundo virtual imersivo e persistente, onde os usuários podem interagir entre si e com ambientes digitais.",
+    "id": "quiz-futuro-177",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual desafio tecnológico crucial precisa ser superado para viabilizar o transporte espacial comercial em larga escala?",
+    "options": [
+      "Desenvolvimento de motores mais potentes",
+      "Redução do custo de lançamento",
+      "Criação de habitats espaciais sustentáveis",
+      "Todas as alternativas anteriores"
+    ],
+    "correctAnswer": "Todas as alternativas anteriores",
+    "explanation": "Todos os três desafios são cruciais para o sucesso do transporte espacial comercial em larga escala.",
+    "id": "quiz-futuro-178",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual desenvolvimento na biotecnologia tem potencial para revolucionar a medicina e o tratamento de doenças?",
+    "options": [
+      "Edição genética CRISPR",
+      "Impressão 3D de órgãos",
+      "Medicina personalizada",
+      "Todas as alternativas anteriores"
+    ],
+    "correctAnswer": "Todas as alternativas anteriores",
+    "explanation": "Todas as três tecnologias têm o potencial de revolucionar a medicina e o tratamento de doenças.",
+    "id": "quiz-futuro-179",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas profissões provavelmente terá maior demanda no futuro devido à automação e à inteligência artificial?",
+    "options": [
+      "Motorista de caminhão",
+      "Caixa de supermercado",
+      "Analista de dados",
+      "Operador de telemarketing"
+    ],
+    "correctAnswer": "Analista de dados",
+    "explanation": "A análise de dados será crucial para entender e gerenciar os dados gerados pela automação e IA.",
+    "id": "quiz-futuro-180",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes dispositivos de armazenamento é tipicamente o mais lento?",
+    "options": [
+      "SSD",
+      "HDD",
+      "Pen Drive USB 3.0",
+      "Memória RAM"
+    ],
+    "correctAnswer": "HDD",
+    "explanation": "Os Discos Rígidos (HDDs) são mais lentos que os SSDs devido à sua natureza mecânica.",
+    "id": "quiz-tecnologia-181",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual protocolo é comumente usado para navegação na web?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SSH"
+    ],
+    "correctAnswer": "HTTP",
+    "explanation": "O protocolo HTTP (Hypertext Transfer Protocol) é a base da comunicação entre navegadores web e servidores web.",
+    "id": "quiz-tecnologia-182",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que significa a sigla 'API' no contexto da tecnologia?",
+    "options": [
+      "Advanced Programming Interface",
+      "Application Programming Interface",
+      "Abstract Programming Interface",
+      "Automated Process Interface"
+    ],
+    "correctAnswer": "Application Programming Interface",
+    "explanation": "API significa Interface de Programação de Aplicativos, permitindo que diferentes softwares se comuniquem e troquem dados.",
+    "id": "quiz-tecnologia-183",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia permite a criação de páginas web dinâmicas e interativas?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "JavaScript é a linguagem de programação mais comumente usada para criar funcionalidades interativas em páginas web.",
+    "id": "quiz-tecnologia-184",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é um 'bit' em termos de computação?",
+    "options": [
+      "Um conjunto de 8 bytes",
+      "Uma unidade de armazenamento de 1024 bytes",
+      "A menor unidade de informação, representando 0 ou 1",
+      "Um tipo de processador"
+    ],
+    "correctAnswer": "A menor unidade de informação, representando 0 ou 1",
+    "explanation": "Um bit é o elemento fundamental da informação digital, representando um valor binário (0 ou 1).",
+    "id": "quiz-tecnologia-185",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta mais próximo do Sol?",
+    "options": [
+      "Marte",
+      "Vênus",
+      "Terra",
+      "Júpiter"
+    ],
+    "correctAnswer": "Vênus",
+    "explanation": "Vênus é o segundo planeta a partir do Sol, sendo o mais próximo.",
+    "id": "quiz-ciencia-186",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o processo pelo qual as plantas convertem energia solar em energia química?",
+    "options": [
+      "Respiração",
+      "Fermentação",
+      "Fotossíntese",
+      "Transpiração"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo que utiliza a energia solar para converter dióxido de carbono e água em glicose e oxigênio.",
+    "id": "quiz-ciencia-187",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a teoria que descreve a origem e evolução do universo?",
+    "options": [
+      "Teoria da Relatividade Geral",
+      "Teoria da Evolução",
+      "Teoria do Big Bang",
+      "Teoria da Tectônica de Placas"
+    ],
+    "correctAnswer": "Teoria do Big Bang",
+    "explanation": "A Teoria do Big Bang é o modelo cosmológico predominante para o universo, descrevendo sua expansão a partir de um estado inicial extremamente denso e quente.",
+    "id": "quiz-ciencia-188",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função do DNA?",
+    "options": [
+      "Produzir energia para as células",
+      "Transportar oxigênio pelo sangue",
+      "Armazenar informação genética",
+      "Regular a temperatura corporal"
+    ],
+    "correctAnswer": "Armazenar informação genética",
+    "explanation": "O DNA (ácido desoxirribonucleico) contém as instruções genéticas para o desenvolvimento e funcionamento de todos os seres vivos.",
+    "id": "quiz-ciencia-189",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual estado físico da matéria possui forma e volume definidos?",
+    "options": [
+      "Gasoso",
+      "Líquido",
+      "Plasma",
+      "Sólido"
+    ],
+    "correctAnswer": "Sólido",
+    "explanation": "A matéria no estado sólido possui forma e volume constantes devido à forte ligação entre suas partículas.",
+    "id": "quiz-ciencia-190",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é tradicionalmente associado à cultura irlandesa?",
+    "options": [
+      "Violino",
+      "Flauta",
+      "Bateria",
+      "Cítara"
+    ],
+    "correctAnswer": "Flauta",
+    "explanation": "A flauta irlandesa, ou tin whistle, é um instrumento muito popular e icônico da música tradicional irlandesa.",
+    "id": "quiz-cultura-191",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o nome do famoso festival de música e artes que acontece anualmente em Burning Man, Nevada?",
+    "options": [
+      "Coachella",
+      "Lollapalooza",
+      "Burning Man",
+      "Glastonbury"
+    ],
+    "correctAnswer": "Burning Man",
+    "explanation": "Burning Man é conhecido por sua arte, música, expressão pessoal e comunidade temporária no deserto.",
+    "id": "quiz-cultura-192",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual filosofia chinesa enfatiza a harmonia com a natureza e a importância do equilíbrio Yin e Yang?",
+    "options": [
+      "Confucionismo",
+      "Taoismo",
+      "Legalismo",
+      "Budismo"
+    ],
+    "correctAnswer": "Taoismo",
+    "explanation": "O Taoismo, ou Daoísmo, busca a compreensão e a harmonia com o Tao, a força fundamental do universo.",
+    "id": "quiz-cultura-193",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual dessas festas é tipicamente celebrada com fantasias?",
+    "options": [
+      "Natal",
+      "Dia das Mães",
+      "Dia dos Namorados",
+      "Halloween"
+    ],
+    "correctAnswer": "Halloween",
+    "explanation": "O Halloween, ou Dia das Bruxas, é uma festa associada a fantasias, doces e histórias de terror.",
+    "id": "quiz-cultura-194",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual comida é considerada um prato nacional da Itália?",
+    "options": [
+      "Paella",
+      "Sushi",
+      "Pizza",
+      "Curry"
+    ],
+    "correctAnswer": "Pizza",
+    "explanation": "Embora existam muitas variações regionais, a pizza é amplamente reconhecida como um prato nacional italiano.",
+    "id": "quiz-cultura-195",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual evento marcou o início da Idade Média?",
+    "options": [
+      "A queda do Império Romano do Ocidente",
+      "A invenção da imprensa",
+      "A descoberta da América",
+      "A Revolução Francesa"
+    ],
+    "correctAnswer": "A queda do Império Romano do Ocidente",
+    "explanation": "A queda do Império Romano do Ocidente em 476 d.C. é tradicionalmente considerada o marco inicial da Idade Média.",
+    "id": "quiz-historia-196",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual foi a principal causa da Guerra Fria?",
+    "options": [
+      "Disputas territoriais na Ásia",
+      "Divergências ideológicas entre os EUA e a URSS",
+      "Crise econômica global",
+      "Corrida espacial"
+    ],
+    "correctAnswer": "Divergências ideológicas entre os EUA e a URSS",
+    "explanation": "A Guerra Fria foi uma consequência direta das diferentes ideologias capitalista (EUA) e comunista (URSS), que levaram a um conflito geopolítico prolongado.",
+    "id": "quiz-historia-197",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual imperador romano foi assassinado em 44 a.C., desencadeando um período de instabilidade política?",
+    "options": [
+      "Augusto",
+      "Nero",
+      "Júlio César",
+      "Constantino"
+    ],
+    "correctAnswer": "Júlio César",
+    "explanation": "O assassinato de Júlio César marcou o fim da República Romana e o início de um período conturbado que culminou com o estabelecimento do Império.",
+    "id": "quiz-historia-198",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em que século ocorreu a Renascença?",
+    "options": [
+      "Século XVIII",
+      "Século XV",
+      "Século X",
+      "Século III"
+    ],
+    "correctAnswer": "Século XV",
+    "explanation": "Embora a Renascença tenha se estendido por vários séculos, seu início é geralmente associado ao século XV.",
+    "id": "quiz-historia-199",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual império foi conquistado por Alexandre, o Grande?",
+    "options": [
+      "Império Romano",
+      "Império Bizantino",
+      "Império Persa",
+      "Império Asteca"
+    ],
+    "correctAnswer": "Império Persa",
+    "explanation": "Alexandre, o Grande, conquistou o vasto Império Persa no século IV a.C., expandindo seu domínio por grande parte do mundo antigo.",
+    "id": "quiz-historia-200",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso manuscrito medieval repleto de símbolos e imagens enigmáticas?",
+    "options": [
+      "Manuscrito Voynich",
+      "Código Da Vinci",
+      "Livro de Kells",
+      "Códice de Dresde"
+    ],
+    "correctAnswer": "Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro ilustrado do início do século XV, escrito em uma língua ou código ainda não decifrado.",
+    "id": "quiz-misterios-201",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o mistério por trás das estátuas da Ilha de Páscoa?",
+    "options": [
+      "Sua construção inexplicavelmente rápida",
+      "A origem de seus escultores e sua repentina extinção",
+      "A função exata dos moais e sua disposição",
+      "Sua relação com civilizações extraterrestres"
+    ],
+    "correctAnswer": "A origem de seus escultores e sua repentina extinção",
+    "explanation": "Ainda há debate sobre como os moais foram construídos e transportados, e o que causou o declínio da civilização Rapa Nui.",
+    "id": "quiz-misterios-202",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a hipótese mais aceita para o desaparecimento dos moradores da ilha de Roanoke?",
+    "options": [
+      "Ataque de nativos americanos",
+      "Epidemia desconhecida",
+      "Assalto de piratas",
+      "Integração com uma tribo nativa"
+    ],
+    "correctAnswer": "Integração com uma tribo nativa",
+    "explanation": "Embora não haja provas definitivas, a teoria da assimilação pelos povos indígenas é uma das mais aceitas, embora outras possibilidades ainda existam.",
+    "id": "quiz-misterios-203",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a 'Máquina de Anticítera'?",
+    "options": [
+      "Uma arma antiga de destruição em massa",
+      "Um mecanismo complexo de previsão astronômica",
+      "Uma máquina de criptografia romana",
+      "Uma relíquia religiosa egípcia"
+    ],
+    "correctAnswer": "Um mecanismo complexo de previsão astronômica",
+    "explanation": "A Máquina de Anticítera é um mecanismo de engrenagens sofisticado encontrado em um naufrágio, capaz de prever eventos astronômicos.",
+    "id": "quiz-misterios-204",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Aonde levaria o 'Mapa de Vinland'?",
+    "options": [
+      "À América do Sul",
+      "À Groenlândia e Vinlândia (América do Norte)",
+      "À Ásia",
+      "À Austrália"
+    ],
+    "correctAnswer": "À Groenlândia e Vinlândia (América do Norte)",
+    "explanation": "O mapa é uma representação cartográfica medieval que supostamente mostra a região da Groenlândia e da América do Norte.",
+    "id": "quiz-misterios-205",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso personagem de desenho animado amarelo e amigo de Bart Simpson?",
+    "options": [
+      "Lisa Simpson",
+      "Milhouse Van Houten",
+      "Nelson Muntz",
+      "Homer Simpson"
+    ],
+    "correctAnswer": "Homer Simpson",
+    "explanation": "Homer Simpson é o pai de Bart e um dos personagens principais da série animada Os Simpsons.",
+    "id": "quiz-entretenimento-206",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual banda britânica lançou o álbum 'Abbey Road'?",
+    "options": [
+      "The Rolling Stones",
+      "Queen",
+      "The Beatles",
+      "Led Zeppelin"
+    ],
+    "correctAnswer": "The Beatles",
+    "explanation": "'Abbey Road' é um dos álbuns mais icônicos da banda The Beatles, lançado em 1969.",
+    "id": "quiz-entretenimento-207",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual filme de animação da Pixar ganhou o Oscar de Melhor Filme em 2010?",
+    "options": [
+      "WALL-E",
+      "Up",
+      "Toy Story 3",
+      "Ratatouille"
+    ],
+    "correctAnswer": "Up",
+    "explanation": "Up foi um marco para a Pixar, sendo o primeiro filme de animação a ser indicado e ganhar o Oscar de Melhor Filme.",
+    "id": "quiz-entretenimento-208",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual atriz interpretou a personagem principal no filme 'La La Land'?",
+    "options": [
+      "Emma Stone",
+      "Margot Robbie",
+      "Jennifer Lawrence",
+      "Scarlett Johansson"
+    ],
+    "correctAnswer": "Emma Stone",
+    "explanation": "Emma Stone interpretou Mia Dolan, a aspirante a atriz no filme musical 'La La Land'.",
+    "id": "quiz-entretenimento-209",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual jogo de videogame é conhecido por seus personagens encantadores e mundo aberto de Hyrule?",
+    "options": [
+      "The Legend of Zelda",
+      "Super Mario Odyssey",
+      "Grand Theft Auto V",
+      "Fortnite"
+    ],
+    "correctAnswer": "The Legend of Zelda",
+    "explanation": "A série The Legend of Zelda é famosa por seus personagens memoráveis e seus vastos mundos abertos.",
+    "id": "quiz-entretenimento-210",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é uma boa maneira de mostrar apreço ao seu parceiro?",
+    "options": [
+      "Ignorar suas necessidades",
+      "Criticá-lo constantemente",
+      "Expressar gratidão e afeto",
+      "Ser passivo-agressivo"
+    ],
+    "correctAnswer": "Expressar gratidão e afeto",
+    "explanation": "Expressar gratidão e afeto fortalece o vínculo e demonstra cuidado.",
+    "id": "quiz-relacionamentos-211",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como você pode melhorar a comunicação em um relacionamento?",
+    "options": [
+      "Sempre interromper o parceiro para dar sua opinião",
+      "Assumir que você sabe o que o parceiro está pensando",
+      "Escutar ativamente e expressar suas necessidades com clareza",
+      "Evitar discussões a todo custo"
+    ],
+    "correctAnswer": "Escutar ativamente e expressar suas necessidades com clareza",
+    "explanation": "Comunicação eficaz envolve escuta ativa e expressão clara de sentimentos e necessidades.",
+    "id": "quiz-relacionamentos-212",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o impacto da falta de limites saudáveis em um relacionamento?",
+    "options": [
+      "Fortalece a confiança e a intimidade",
+      "Promove um ambiente de respeito mútuo",
+      "Contribui para um relacionamento equilibrado e saudável",
+      "Pode levar a ressentimento, confusão de papéis e desgaste emocional"
+    ],
+    "correctAnswer": "Pode levar a ressentimento, confusão de papéis e desgaste emocional",
+    "explanation": "Limites saudáveis são essenciais para definir papéis, respeitar o espaço individual e evitar o esgotamento emocional.",
+    "id": "quiz-relacionamentos-213",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual atitude é crucial para resolver conflitos de forma construtiva?",
+    "options": [
+      "Culpar o parceiro pelos problemas",
+      "Recusar-se a dialogar sobre o conflito",
+      "Manter uma postura defensiva e inflexível",
+      "Buscar compreender a perspectiva do parceiro e encontrar soluções em conjunto"
+    ],
+    "correctAnswer": "Buscar compreender a perspectiva do parceiro e encontrar soluções em conjunto",
+    "explanation": "Resolver conflitos requer empatia, comunicação aberta e a busca por soluções que atendam às necessidades de ambos.",
+    "id": "quiz-relacionamentos-214",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é essencial para manter a chama da paixão acesa em um relacionamento a longo prazo?",
+    "options": [
+      "Negligência e falta de atenção",
+      "Rotina monótona e previsível",
+      "Dedicação à rotina e ao trabalho",
+      "Tempo de qualidade, comunicação e demonstrações de afeto"
+    ],
+    "correctAnswer": "Tempo de qualidade, comunicação e demonstrações de afeto",
+    "explanation": "Manter a paixão exige investimento contínuo em tempo de qualidade, comunicação aberta e demonstrações de afeto.",
+    "id": "quiz-relacionamentos-215",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual afirmação melhor representa a ideia central do pensamento positivo?",
+    "options": [
+      "Concentrar-se apenas nos aspectos negativos da vida para aprender com eles.",
+      "Manter uma atitude otimista, mesmo diante de desafios.",
+      "Ignorar completamente os problemas e dificuldades.",
+      "Buscar a perfeição em todas as áreas da vida."
+    ],
+    "correctAnswer": "Manter uma atitude otimista, mesmo diante de desafios.",
+    "explanation": "O pensamento positivo foca em cultivar uma perspectiva otimista e acreditar na capacidade de superar obstáculos.",
+    "id": "quiz-autoajuda-216",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A definição de 'Resiliência' em um contexto de autoajuda é:",
+    "options": [
+      "A capacidade de evitar completamente situações estressantes.",
+      "A habilidade de se recuperar de adversidades e traumas.",
+      "A tendência a se sentir constantemente sobrecarregado.",
+      "A incapacidade de lidar com mudanças na vida."
+    ],
+    "correctAnswer": "A habilidade de se recuperar de adversidades e traumas.",
+    "explanation": "Resiliência se refere à capacidade de superar desafios e se adaptar a situações difíceis.",
+    "id": "quiz-autoajuda-217",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual destes conceitos NÃO é tipicamente associado à definição de Inteligência Emocional?",
+    "options": [
+      "Autoconsciência",
+      "Empatia",
+      "Autossabotagem",
+      "Autogestão"
+    ],
+    "correctAnswer": "Autossabotagem",
+    "explanation": "Embora a autossabotagem seja um comportamento que pode impactar a vida, ela não é um componente da Inteligência Emocional, mas sim um comportamento que a inteligência emocional busca mitigar.",
+    "id": "quiz-autoajuda-218",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Estabelecer metas SMART é uma técnica frequentemente utilizada em livros de autoajuda. O que significa a letra 'M' em SMART?",
+    "options": [
+      "Motivacional",
+      "Mensurável",
+      "Mantenível",
+      "Magnífico"
+    ],
+    "correctAnswer": "Mensurável",
+    "explanation": "SMART é um acrônimo para Specific, Measurable, Achievable, Relevant, and Time-bound.  'M' representa 'Mensurável', significando que a meta deve ser quantificável.",
+    "id": "quiz-autoajuda-219",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito é frequentemente recomendado em livros de autoajuda para melhorar o bem-estar mental?",
+    "options": [
+      "Passar horas todos os dias nas redes sociais.",
+      "Dormir menos de 4 horas por noite.",
+      "Praticar exercícios físicos regularmente.",
+      "Isolar-se socialmente para evitar conflitos."
+    ],
+    "correctAnswer": "Praticar exercícios físicos regularmente.",
+    "explanation": "A prática regular de exercícios físicos é comprovadamente benéfica para a saúde mental e física.",
+    "id": "quiz-autoajuda-220",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes países é conhecido por suas pirâmides?",
+    "options": [
+      "Brasil",
+      "China",
+      "Egito",
+      "Canadá"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "O Egito é famoso pelas suas antigas pirâmides, construídas como tumbas para faraós.",
+    "id": "quiz-viagens-221",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do maior deserto do mundo?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto do Atacama",
+      "Deserto da Arábia",
+      "Deserto de Gobi"
+    ],
+    "correctAnswer": "Deserto do Saara",
+    "explanation": "O Deserto do Saara abrange uma vasta área na África do Norte.",
+    "id": "quiz-viagens-222",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre um cruzeiro e um tour?",
+    "options": [
+      "A duração da viagem",
+      "O meio de transporte utilizado",
+      "O tipo de destino visitado",
+      "A profundidade da experiência cultural"
+    ],
+    "correctAnswer": "O meio de transporte utilizado",
+    "explanation": "Cruzeiros utilizam navios para viajar entre diferentes destinos, enquanto tours geralmente envolvem outros meios de transporte terrestre, como ônibus ou avião.",
+    "id": "quiz-viagens-223",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes é um exemplo de transporte público internacional?",
+    "options": [
+      "Táxi",
+      "Ônibus urbano",
+      "Trem bala",
+      "Avião"
+    ],
+    "correctAnswer": "Avião",
+    "explanation": "Os aviões são amplamente usados para viagens internacionais, conectando diferentes países.",
+    "id": "quiz-viagens-224",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes itens geralmente se leva em uma mochila de viagem?",
+    "options": [
+      "Cadeira de balanço",
+      "Geladeira",
+      "Roupas",
+      "Carro"
+    ],
+    "correctAnswer": "Roupas",
+    "explanation": "As roupas são um item essencial para qualquer viagem, garantindo conforto e adaptação ao clima.",
+    "id": "quiz-viagens-225",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior oceano do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico cobre aproximadamente um terço da superfície da Terra.",
+    "id": "quiz-lugares-226",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em qual continente se encontra o deserto do Saara?",
+    "options": [
+      "América do Sul",
+      "África",
+      "Ásia",
+      "Austrália"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O deserto do Saara é o maior deserto quente do mundo, localizado na África.",
+    "id": "quiz-lugares-227",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Cidade Eterna'?",
+    "options": [
+      "Atenas",
+      "Roma",
+      "Alexandria",
+      "Constantinopla"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é chamada de 'Cidade Eterna' devido à sua longa e contínua história e influência na cultura ocidental.",
+    "id": "quiz-lugares-228",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país abriga o Monte Everest?",
+    "options": [
+      "Índia",
+      "China",
+      "Nepal",
+      "Butão"
+    ],
+    "correctAnswer": "Nepal",
+    "explanation": "Embora parte do Everest esteja na China, o cume se encontra no Nepal.",
+    "id": "quiz-lugares-229",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a capital da França?",
+    "options": [
+      "Berlim",
+      "Londres",
+      "Paris",
+      "Madri"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é a capital e a maior cidade da França.",
+    "id": "quiz-lugares-230",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual habilidade é crucial para um bom trabalho em equipe?",
+    "options": [
+      "Competitividade",
+      "Comunicação",
+      "Individualismo",
+      "Autossuficiência"
+    ],
+    "correctAnswer": "Comunicação",
+    "explanation": "A comunicação eficaz é fundamental para a colaboração e o sucesso em equipe.",
+    "id": "quiz-habilidades-231",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais frequentemente associada à resolução criativa de problemas?",
+    "options": [
+      "Pensamento linear",
+      "Pensamento crítico",
+      "Pensamento analítico",
+      "Pensamento lateral"
+    ],
+    "correctAnswer": "Pensamento lateral",
+    "explanation": "O pensamento lateral envolve abordar problemas de forma inovadora e não convencional.",
+    "id": "quiz-habilidades-232",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A capacidade de entender e gerenciar suas próprias emoções e as dos outros é conhecida como:",
+    "options": [
+      "Inteligência emocional",
+      "Inteligência lógica",
+      "Inteligência espacial",
+      "Inteligência cinestésica"
+    ],
+    "correctAnswer": "Inteligência emocional",
+    "explanation": "A inteligência emocional abrange autoconsciência, autorregulação, motivação, empatia e habilidades sociais.",
+    "id": "quiz-habilidades-233",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual habilidade é essencial para aprender novas informações e adaptar-se a mudanças?",
+    "options": [
+      "Procrastinação",
+      "Adaptabilidade",
+      "Resistência à mudança",
+      "Rigidez"
+    ],
+    "correctAnswer": "Adaptabilidade",
+    "explanation": "A adaptabilidade permite que você aprenda e se ajuste a novas situações e informações.",
+    "id": "quiz-habilidades-234",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual habilidade envolve a capacidade de organizar e gerenciar seu tempo de forma eficaz?",
+    "options": [
+      "Procrastinação",
+      "Preguiça",
+      "Gerenciamento de tempo",
+      "Desorganização"
+    ],
+    "correctAnswer": "Gerenciamento de tempo",
+    "explanation": "O gerenciamento de tempo permite que você priorize tarefas e cumpra prazos.",
+    "id": "quiz-habilidades-235",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Para evitar que seus sapatos de couro fiquem molhados em dias chuvosos, você pode:",
+    "options": [
+      "Usar um impermeabilizante antes de sair.",
+      "Usar sacolas plásticas dentro dos sapatos.",
+      "Deixá-los secar ao sol após o uso.",
+      "Nenhuma das opções acima ajudará muito."
+    ],
+    "correctAnswer": "Usar um impermeabilizante antes de sair.",
+    "explanation": "Impermeabilizantes criam uma barreira protetora contra a umidade.",
+    "id": "quiz-hacks-236",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como você pode remover facilmente um anel preso no seu dedo?",
+    "options": [
+      "Forçar a remoção.",
+      "Usar sabão e água fria.",
+      "Usar óleo vegetal ou creme.",
+      "Mergulhar o dedo em água quente."
+    ],
+    "correctAnswer": "Usar óleo vegetal ou creme.",
+    "explanation": "O óleo lubrifica a pele e o anel, facilitando a remoção.  Água quente pode inchar o dedo, piorando a situação.",
+    "id": "quiz-hacks-237",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Você precisa organizar cabos e fios emaranhado atrás de sua mesa. Qual solução é mais eficiente e organizada a longo prazo?",
+    "options": [
+      "Usar prendedores de roupas para juntar os fios.",
+      "Enrolar os cabos soltos e prendê-los com fita adesiva.",
+      "Utilizar abraçadeiras de velcro ou organizadores de cabos.",
+      "Deixar tudo como está, pois é menos trabalho."
+    ],
+    "correctAnswer": "Utilizar abraçadeiras de velcro ou organizadores de cabos.",
+    "explanation": "Abraçadeiras e organizadores são reutilizáveis, fáceis de usar e permitem uma gestão mais organizada dos cabos a longo prazo.",
+    "id": "quiz-hacks-238",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Para evitar que seus óculos embacem em dias frios e úmidos, você pode:",
+    "options": [
+      "Limpar com um pano seco.",
+      "Passar sabão em barra e depois enxaguar.",
+      "Soprar com força para limpar o vapor.",
+      "Usar um spray antiembaçante."
+    ],
+    "correctAnswer": "Passar sabão em barra e depois enxaguar.",
+    "explanation": "Uma fina camada de sabão cria uma superfície que impede a formação de condensação.",
+    "id": "quiz-hacks-239",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Seu celular caiu na água. Qual a melhor ação imediata?",
+    "options": [
+      "Ligá-lo para ver se funciona.",
+      "Secá-lo com um secador de cabelo.",
+      "Enrolá-lo em arroz cru.",
+      "Retirá-lo da água e desligá-lo imediatamente."
+    ],
+    "correctAnswer": "Retirá-lo da água e desligá-lo imediatamente.",
+    "explanation": "Remover da água e desligar imediatamente minimiza danos elétricos. Os outros métodos podem piorar a situação.",
+    "id": "quiz-hacks-240",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior animal terrestre?",
+    "options": [
+      "Elefante Africano",
+      "Baleia Azul",
+      "Girafa",
+      "Rinoceronte"
+    ],
+    "correctAnswer": "Elefante Africano",
+    "explanation": "O elefante africano é o maior animal terrestre vivo, pesando até 6 toneladas.",
+    "id": "quiz-natureza-e-animais-241",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes animais é conhecido por sua capacidade de mimetismo?",
+    "options": [
+      "Leão",
+      "Camelo",
+      "Camaleão",
+      "Zebra"
+    ],
+    "correctAnswer": "Camaleão",
+    "explanation": "Os camaleões são mestres do mimetismo, mudando de cor para se camuflar no ambiente.",
+    "id": "quiz-natureza-e-animais-242",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o processo pelo qual as plantas convertem energia solar em energia química?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas usam a luz solar, água e dióxido de carbono para produzir glicose (energia) e oxigênio.",
+    "id": "quiz-natureza-e-animais-243",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes animais é um mamífero marinho?",
+    "options": [
+      "Tubarão",
+      "Foca",
+      "Polvo",
+      "Estrela-do-mar"
+    ],
+    "correctAnswer": "Foca",
+    "explanation": "As focas são mamíferos marinhos que respiram ar e amamentam seus filhotes.",
+    "id": "quiz-natureza-e-animais-244",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do processo pelo qual as árvores perdem suas folhas no outono?",
+    "options": [
+      "Florescimento",
+      "Fotossíntese",
+      "Abscisão",
+      "Germinação"
+    ],
+    "correctAnswer": "Abscisão",
+    "explanation": "A abscisão é o processo natural de separação de partes de uma planta, como as folhas no outono.",
+    "id": "quiz-natureza-e-animais-245",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta mais próximo do Sol?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Vênus",
+      "Mercúrio"
+    ],
+    "correctAnswer": "Mercúrio",
+    "explanation": "Mercúrio é o planeta mais próximo do Sol em nosso sistema solar.",
+    "id": "quiz-universo-e-astronomia-246",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a fase da Lua quando não é possível vê-la do nosso planeta?",
+    "options": [
+      "Lua Cheia",
+      "Lua Nova",
+      "Quarto Crescente",
+      "Quarto Minguante"
+    ],
+    "correctAnswer": "Lua Nova",
+    "explanation": "Durante a Lua Nova, o lado iluminado da Lua está voltado para o Sol e o lado escuro está voltado para a Terra, tornando-a invisível.",
+    "id": "quiz-universo-e-astronomia-247",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno que ocorre quando um planeta passa na frente de uma estrela, causando uma diminuição temporária do brilho da estrela?",
+    "options": [
+      "Supernova",
+      "Eclipse",
+      "Trânsito",
+      "Conjunção"
+    ],
+    "correctAnswer": "Trânsito",
+    "explanation": "Um trânsito ocorre quando um planeta passa diretamente entre uma estrela e um observador, bloqueando parcialmente a luz da estrela.",
+    "id": "quiz-universo-e-astronomia-248",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a maior estrela conhecida?",
+    "options": [
+      "Sirius",
+      "Betelgeuse",
+      "Rigel",
+      "UY Scuti"
+    ],
+    "correctAnswer": "UY Scuti",
+    "explanation": "UY Scuti é atualmente considerada a maior estrela conhecida, com um raio estimado em cerca de 1700 vezes o raio do Sol.",
+    "id": "quiz-universo-e-astronomia-249",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é uma constelação?",
+    "options": [
+      "Um planeta",
+      "Uma galáxia",
+      "Um grupo de estrelas que parecem formar um padrão",
+      "Um tipo de estrela"
+    ],
+    "correctAnswer": "Um grupo de estrelas que parecem formar um padrão",
+    "explanation": "Constelações são padrões aparentes formados por grupos de estrelas, vistas da Terra.",
+    "id": "quiz-universo-e-astronomia-250",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é conhecido por suas cordas e caixa de ressonância?",
+    "options": [
+      "Flauta",
+      "Violino",
+      "Bateria",
+      "Trombone"
+    ],
+    "correctAnswer": "Violino",
+    "explanation": "O violino é um instrumento de corda conhecido por sua caixa de ressonância que amplifica o som.",
+    "id": "quiz-musica-251",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual compositor clássico é famoso pela sua ópera 'A Flauta Mágica'?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Joseph Haydn"
+    ],
+    "correctAnswer": "Wolfgang Amadeus Mozart",
+    "explanation": "A Flauta Mágica é uma das óperas mais famosas de Mozart.",
+    "id": "quiz-musica-252",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual gênero musical surgiu no final dos anos 60 e é caracterizado por letras complexas e experimentações sonoras?",
+    "options": [
+      "Disco",
+      "Funk",
+      "Progressive Rock",
+      "Pop"
+    ],
+    "correctAnswer": "Progressive Rock",
+    "explanation": "O Progressive Rock é conhecido por suas longas canções, mudanças de tempo e complexidade musical.",
+    "id": "quiz-musica-253",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual banda britânica liderada por John Lennon e Paul McCartney influenciou inúmeras gerações de músicos?",
+    "options": [
+      "The Rolling Stones",
+      "The Who",
+      "The Beatles",
+      "Pink Floyd"
+    ],
+    "correctAnswer": "The Beatles",
+    "explanation": "Os Beatles são uma das bandas mais influentes e populares de todos os tempos.",
+    "id": "quiz-musica-254",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é tipicamente um instrumento de percussão?",
+    "options": [
+      "Violoncelo",
+      "Trompete",
+      "Guitarra",
+      "Bumbo"
+    ],
+    "correctAnswer": "Bumbo",
+    "explanation": "O bumbo é um instrumento de percussão tocado com baquetas ou pés.",
+    "id": "quiz-musica-255",
+    "categoryId": "musica"
   }
 ]
