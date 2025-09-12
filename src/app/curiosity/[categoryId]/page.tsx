@@ -12,7 +12,7 @@ type CuriosityPageProps = {
 
 export default function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
   const { categoryId } = params;
-  const initialCuriosityId = searchParams?.curiosity as string;
+  const { curiosity: initialCuriosityId } = searchParams;
 
   const category = getCategoryById(categoryId);
   const curiosities = getCuriositiesByCategoryId(categoryId);
@@ -34,7 +34,7 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
         <CuriosityExplorer 
             category={category} 
             curiosities={curiosities} 
-            initialCuriosityId={initialCuriosityId}
+            initialCuriosityId={initialCuriosityId as string | undefined}
         />
     </div>
   );
