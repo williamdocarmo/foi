@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useMemo, useCallback } from "react";
@@ -6,7 +7,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
@@ -27,7 +28,7 @@ export default function CuriosityExplorer({
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
   
-  const getInitialIndex = useCallback(() => {
+  const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
       const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
@@ -41,11 +42,13 @@ export default function CuriosityExplorer({
     return 0;
   }, [initialCuriosityId, curiosities, isLoaded, stats.readCuriosities]);
 
-  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
-  
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+
+  // This effect ensures that if the initialIndex changes (e.g., due to navigation or props update),
+  // the currentIndex is updated accordingly. This is safer than multiple complex useEffects.
   useEffect(() => {
-    setCurrentIndex(getInitialIndex());
-  }, [getInitialIndex, isLoaded]);
+    setCurrentIndex(initialIndex);
+  }, [initialIndex]);
 
   const currentCuriosity = curiosities[currentIndex];
 
@@ -60,7 +63,7 @@ export default function CuriosityExplorer({
         const url = `/curiosity/${category.id}?curiosity=${currentCuriosity.id}`;
         window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
     }
-  }, [currentIndex, currentCuriosity, category.id]);
+  }, [currentIndex, category.id, currentCuriosity]);
 
   const goToNext = () => {
     if (currentIndex < curiosities.length - 1) {
@@ -114,9 +117,15 @@ export default function CuriosityExplorer({
 
   return (
     <div className="flex flex-col gap-8">
-        <div className="flex justify-between items-center">
-            <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
-        </div>
+      <div className="flex justify-between items-center">
+        <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
+        <Button variant="outline" asChild>
+          <Link href={`/quiz/${category.id}`}>
+            <HelpCircle className="mr-2 h-4 w-4" />
+            Iniciar Quiz
+          </Link>
+        </Button>
+      </div>
 
        <Card
         key={currentCuriosity.id}
@@ -156,9 +165,18 @@ export default function CuriosityExplorer({
           <Button variant="outline" onClick={goToPrev} disabled={currentIndex === 0}>
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
-            <Button onClick={goToNext} disabled={currentIndex === curiosities.length - 1}>
-              Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
-            </Button>
+           {currentIndex === curiosities.length - 1 ? (
+              <Button asChild>
+                <Link href="/">
+                    <Home className="mr-2 h-4 w-4" />
+                    Voltar ao início
+                </Link>
+              </Button>
+            ) : (
+               <Button onClick={goToNext}>
+                  Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
+               </Button>
+            )}
         </CardFooter>
       </Card>
       
@@ -198,3 +216,5 @@ export default function CuriosityExplorer({
     </div>
   );
 }
+
+    
