@@ -20,106 +20,49 @@ const defaultStats: GameStats = {
   combos: 0,
 };
 
+const processDateLogic = (statsToProcess: GameStats): GameStats => {
+  const today = new Date();
+  const newStats = {...statsToProcess};
+  if (newStats.lastPlayedDate) {
+    const lastPlayed = new Date(newStats.lastPlayedDate);
+    if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
+      newStats.currentStreak = 0; // Reset streak if played more than a day ago
+    }
+  }
+  return newStats;
+};
+
+const loadLocalStats = (): GameStats => {
+  try {
+    const storedStats = localStorage.getItem(LOCAL_GAME_STATS_KEY);
+    if (storedStats) {
+      return processDateLogic(JSON.parse(storedStats));
+    }
+  } catch (error) {
+    console.error("Failed to load local game stats:", error);
+  }
+  return { ...defaultStats };
+};
+
+
 export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
 
-  const syncStats = useCallback(async (uid: string, localStats: GameStats) => {
-    const docRef = doc(db, 'userStats', uid);
-    const docSnap = await getDoc(docRef);
-    let cloudStats: GameStats | null = null;
-  
-    if (docSnap.exists()) {
-      cloudStats = docSnap.data() as GameStats;
-    }
-  
-    // Merge logic: Local stats are usually more up-to-date.
-    // We prioritize local stats but take the longest streak from cloud if it's higher.
-    const mergedStats: GameStats = {
-      ...defaultStats, // ensure all keys are present
-      ...cloudStats,
-      ...localStats,
-      longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-      // Simple merge for quiz scores - could be more sophisticated
-      quizScores: {...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {})},
-      // Ensure readCuriosities is a merged, unique list
-      readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])]
-    };
-
-    mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
-  
-    await setDoc(docRef, mergedStats, { merge: true });
-    return mergedStats;
-  }, []);
-
-  const loadStats = useCallback(async (authedUser: User | null) => {
-    setIsLoaded(false);
-    try {
-      const localStats = loadLocalStats();
-      if (authedUser) {
-        const finalStats = await syncStats(authedUser.uid, localStats);
-        setStats(processDateLogic(finalStats));
-        localStorage.removeItem(LOCAL_GAME_STATS_KEY); // Clear local after migrating
-      } else {
-        setStats(localStats);
-      }
-    } catch (error) {
-      console.error("Failed to load game stats:", error);
-      setStats(loadLocalStats()); // Fallback to local
-    } finally {
-      setIsLoaded(true);
-    }
-  }, [syncStats]);
-
-
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (authedUser) => {
-      setUser(authedUser);
-      loadStats(authedUser);
-    });
-    return () => unsubscribe();
-  }, [loadStats]);
-
-  const processDateLogic = (statsToProcess: GameStats): GameStats => {
-    const today = new Date();
-    const newStats = {...statsToProcess};
-    if (newStats.lastPlayedDate) {
-      const lastPlayed = new Date(newStats.lastPlayedDate);
-      if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
-        newStats.currentStreak = 0; // Reset streak
-      }
-    }
-    return newStats;
-  };
-
-  const loadLocalStats = (): GameStats => {
-    try {
-      const storedStats = localStorage.getItem(LOCAL_GAME_STATS_KEY);
-      if (storedStats) {
-        return processDateLogic(JSON.parse(storedStats));
-      }
-    } catch (error) {
-      console.error("Failed to load local game stats:", error);
-    }
-    // Initialize first-time players with a streak and last played date
-    return { ...defaultStats, currentStreak: 0, lastPlayedDate: null };
-  };
-
-  const updateStats = useCallback(async (newStats: Partial<GameStats>) => {
+  const updateAndSaveStats = useCallback(async (newStats: Partial<GameStats>, currentUser: User | null) => {
     setStats(prevStats => {
       const updated = { ...prevStats, ...newStats };
       
-      // Save stats
+      // Save stats asynchronously
       (async () => {
         try {
-          if (user) {
-            const userRef = doc(db, 'userStats', user.uid);
-            // Also save user's display name and photo for the ranking
+          if (currentUser) {
+            const userRef = doc(db, 'userStats', currentUser.uid);
             const dataToSave = {
               ...updated,
-              displayName: user.displayName || user.email?.split('@')[0],
-              photoURL: user.photoURL
+              displayName: currentUser.displayName || currentUser.email?.split('@')[0],
+              photoURL: currentUser.photoURL
             };
             await setDoc(userRef, dataToSave, { merge: true });
           } else {
@@ -132,7 +75,61 @@ export function useGameStats() {
 
       return updated;
     });
-  }, [user]);
+  }, []);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
+      setUser(authedUser);
+      setIsLoaded(false);
+
+      try {
+        if (authedUser) {
+          // User is logged in
+          const docRef = doc(db, 'userStats', authedUser.uid);
+          const docSnap = await getDoc(docRef);
+          
+          let cloudStats: GameStats | null = null;
+          if (docSnap.exists()) {
+            cloudStats = docSnap.data() as GameStats;
+          }
+
+          // Merge with local stats, if any
+          const localStats = loadLocalStats();
+          
+          const mergedStats: GameStats = {
+            ...defaultStats,
+            ...cloudStats,
+            ...localStats,
+            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
+            quizScores: {...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {})},
+            readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])]
+          };
+          mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
+          
+          const finalStats = processDateLogic(mergedStats);
+          setStats(finalStats);
+
+          // Save the merged result back to Firestore and clear local storage
+          await setDoc(docRef, finalStats, { merge: true });
+          localStorage.removeItem(LOCAL_GAME_STATS_KEY);
+
+        } else {
+          // User is not logged in, load from local storage
+          const localStats = loadLocalStats();
+          setStats(localStats);
+        }
+      } catch (error) {
+        console.error("Failed to load/sync game stats:", error);
+        // Fallback to local stats in case of any error
+        setStats(loadLocalStats());
+      } finally {
+        setIsLoaded(true);
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
+
 
   const markCuriosityAsRead = useCallback((curiosityId: string) => {
     if (stats.readCuriosities.includes(curiosityId)) {
@@ -162,7 +159,7 @@ export function useGameStats() {
 
     const newCombos = Math.floor(newTotalRead / 5) - Math.floor(stats.totalCuriositiesRead / 5) + stats.combos;
 
-    updateStats({
+    updateAndSaveStats({
       totalCuriositiesRead: newTotalRead,
       readCuriosities: newReadCuriosities,
       currentStreak: newCurrentStreak,
@@ -170,8 +167,8 @@ export function useGameStats() {
       lastPlayedDate: today.toISOString(),
       explorerStatus: newExplorerStatus,
       combos: newCombos
-    });
-  }, [stats, updateStats]);
+    }, user);
+  }, [stats, updateAndSaveStats, user]);
   
   const addQuizResult = useCallback((categoryId: string, score: number) => {
     const newScores = { ...stats.quizScores };
@@ -179,8 +176,13 @@ export function useGameStats() {
         newScores[categoryId] = [];
     }
     newScores[categoryId].push({ score, date: new Date().toISOString() });
-    updateStats({ quizScores: newScores });
-  }, [stats.quizScores, updateStats]);
+    updateAndSaveStats({ quizScores: newScores }, user);
+  }, [stats.quizScores, updateAndSaveStats, user]);
+
+  const updateStats = useCallback((newStats: Partial<GameStats>) => {
+    updateAndSaveStats(newStats, user);
+  }, [updateAndSaveStats, user]);
+
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
 }
