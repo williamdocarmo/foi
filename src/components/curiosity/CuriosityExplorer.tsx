@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
@@ -19,8 +19,8 @@ type CuriosityExplorerProps = {
 };
 
 export default function CuriosityExplorer({ 
-    category: currentCategory, 
-    curiosities: currentCuriosities, 
+    category, 
+    curiosities, 
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
@@ -30,32 +30,32 @@ export default function CuriosityExplorer({
   
   const getInitialIndex = useCallback(() => {
     if (initialCuriosityId) {
-      const foundIndex = currentCuriosities.findIndex(c => c.id === initialCuriosityId);
+      const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
     
-    const lastReadId = stats.lastReadCuriosity?.[currentCategory.id];
+    const lastReadId = stats.lastReadCuriosity?.[category.id];
     if (lastReadId) {
-        const lastReadIndex = currentCuriosities.findIndex(c => c.id === lastReadId);
-        if (lastReadIndex !== -1 && lastReadIndex < currentCuriosities.length - 1) {
+        const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
+        if (lastReadIndex !== -1 && lastReadIndex < curiosities.length - 1) {
             return lastReadIndex + 1;
         }
     }
 
-    const firstUnreadIndex = currentCuriosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
     if (firstUnreadIndex !== -1) return firstUnreadIndex;
     
     return 0;
-  }, [initialCuriosityId, currentCuriosities, stats.readCuriosities, stats.lastReadCuriosity, currentCategory.id]);
+  }, [initialCuriosityId, curiosities, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
 
   const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
 
   useEffect(() => {
     setCurrentIndex(getInitialIndex());
-  }, [currentCategory.id, initialCuriosityId, getInitialIndex]);
+  }, [category.id, initialCuriosityId, getInitialIndex]);
   
-  const currentCuriosity = currentCuriosities[currentIndex];
-  const isLastCuriosity = currentIndex === currentCuriosities.length - 1;
+  const currentCuriosity = curiosities[currentIndex];
+  const isLastCuriosity = currentIndex === curiosities.length - 1;
 
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
@@ -72,7 +72,7 @@ export default function CuriosityExplorer({
 
 
   const goToNext = () => {
-    if (currentIndex < currentCuriosities.length - 1) {
+    if (currentIndex < curiosities.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   };
@@ -87,12 +87,12 @@ export default function CuriosityExplorer({
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
-    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity.id);
+    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity?.id);
   
     if (unread.length > 0) {
       randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
     } else {
-      const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity.id);
+      const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity?.id);
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
@@ -100,7 +100,7 @@ export default function CuriosityExplorer({
 
   }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
   
-  const progress = currentCuriosities.length > 0 ? ((currentIndex + 1) / currentCuriosities.length) * 100 : 0;
+  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
   const explorerIcons = {
     'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
@@ -112,7 +112,7 @@ export default function CuriosityExplorer({
     return (
         <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
-            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {currentCategory.name}.</p>
+            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {category.name}.</p>
              <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo usando o script de geração.</p>
             <Button asChild className="mt-6">
                 <Link href="/">Voltar ao Início</Link>
@@ -126,22 +126,22 @@ export default function CuriosityExplorer({
        <Card
         key={currentCuriosity.id}
         className="overflow-hidden shadow-2xl animate-slide-in-up"
-        style={{ borderLeft: `5px solid ${currentCategory.color}` }}
+        style={{ borderLeft: `5px solid ${category.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <span className="text-3xl">{currentCategory.emoji}</span>
-                    <CardTitle className="font-headline text-2xl">{currentCategory.name}</CardTitle>
+                    <span className="text-3xl">{category.emoji}</span>
+                    <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
                 </div>
                  <Badge variant="secondary" className="whitespace-nowrap">
-                    {currentIndex + 1} / {currentCuriosities.length}
+                    {currentIndex + 1} / {curiosities.length}
                 </Badge>
             </div>
             <Progress value={progress} className="mt-4 h-2" />
         </CardHeader>
         <CardContent className="p-6 md:p-8">
-          <div className="mb-6 border-b pb-6">
+          <div className="mb-6">
             <h2 className="mb-4 font-headline text-3xl font-bold text-primary">
               {currentCuriosity.title}
             </h2>
@@ -156,15 +156,6 @@ export default function CuriosityExplorer({
               </div>
             )}
           </div>
-           <div className="text-center">
-            <h3 className="font-headline text-lg font-semibold">Pronto para testar seu conhecimento?</h3>
-            <Button asChild size="lg" className="mt-2">
-                <Link href={`/quiz/${currentCategory.id}`}>
-                    <HelpCircle className="mr-2 h-5 w-5" />
-                    Iniciar Quiz de {currentCategory.name}
-                </Link>
-            </Button>
-           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
           <Button variant="outline" onClick={goToPrev} disabled={currentIndex === 0}>

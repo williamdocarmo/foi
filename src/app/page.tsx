@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { categories, getCategoryById } from '@/lib/data';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton';
 import * as LucideIcons from 'lucide-react';
+import { HelpCircle, Rocket } from 'lucide-react';
 
 function CategoryCard({ category }: { category: ReturnType<typeof getCategoryById> }) {
   if (!category) return null;
@@ -13,19 +14,33 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
   const Icon = (LucideIcons as any)[category.icon as any] as React.ElementType;
 
   return (
-    <Card className="h-full transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
-      <CardContent className="flex h-full flex-col items-center justify-center p-6 text-center">
-        <Link href={`/curiosity/${category.id}`} className="group block flex-grow">
-          <div
-            className="mb-4 inline-block rounded-full p-4 transition-colors group-hover:bg-accent/20"
-            style={{ backgroundColor: `${category.color}20` }}
-          >
-            {Icon && <Icon className="h-10 w-10" style={{ color: category.color }} />}
-          </div>
-          <h3 className="font-headline text-xl font-bold">{category.name}</h3>
-          <p className="mt-2 text-sm text-muted-foreground">{category.description}</p>
-        </Link>
+    <Card className="flex h-full flex-col overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
+      <CardHeader className="flex-grow">
+        <div
+          className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
+          style={{ backgroundColor: `${category.color}20` }}
+        >
+          {Icon && <Icon className="h-8 w-8" style={{ color: category.color }} />}
+        </div>
+        <CardTitle className="text-center font-headline">{category.name}</CardTitle>
+      </CardHeader>
+      <CardContent className="flex-grow text-center">
+        <p className="text-sm text-muted-foreground">{category.description}</p>
       </CardContent>
+      <div className="mt-auto grid grid-cols-2 gap-2 p-4">
+        <Button variant="outline" asChild>
+          <Link href={`/curiosity/${category.id}`}>
+            <Rocket className="mr-2 h-4 w-4" />
+            Explorar
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link href={`/quiz/${category.id}`}>
+            <HelpCircle className="mr-2 h-4 w-4" />
+            Quiz
+          </Link>
+        </Button>
+      </div>
     </Card>
   );
 }
