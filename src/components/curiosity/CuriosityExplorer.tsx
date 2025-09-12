@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
@@ -25,17 +25,15 @@ export default function CuriosityExplorer({
 }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
-
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
-  
-  const [currentIndex, setCurrentIndex] = useState(() => {
+
+  const initialIndex = useMemo(() => {
     if (initialCuriosityId) {
       const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
     
-    // Check for isLoaded before accessing stats
-    if(isLoaded) {
+    if (isLoaded) {
       const lastReadId = stats.lastReadCuriosity?.[category.id];
       if (lastReadId) {
           const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
@@ -49,16 +47,21 @@ export default function CuriosityExplorer({
     }
     
     return 0;
-  });
+  }, [initialCuriosityId, curiosities, isLoaded, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
+
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+
+  useEffect(() => {
+    setCurrentIndex(initialIndex);
+  }, [initialIndex]);
 
   const currentCuriosity = curiosities[currentIndex];
-  const isLastCuriosity = currentIndex === curiosities.length - 1;
 
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, markCuriosityAsRead, isLoaded, category.id]);
+  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
   
   useEffect(() => {
     if (currentCuriosity) {
@@ -67,16 +70,15 @@ export default function CuriosityExplorer({
     }
   }, [currentIndex, currentCuriosity]);
 
-
   const goToNext = () => {
     if (currentIndex < curiosities.length - 1) {
-      setCurrentIndex((prevIndex) => prevIndex + 1);
+      setCurrentIndex(prevIndex => prevIndex + 1);
     }
   };
 
   const goToPrev = () => {
     if (currentIndex > 0) {
-      setCurrentIndex((prevIndex) => prevIndex - 1);
+      setCurrentIndex(prevIndex => prevIndex - 1);
     }
   };
   
@@ -93,9 +95,15 @@ export default function CuriosityExplorer({
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
-    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
-
-  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
+    if (randomCuriosity.categoryId !== category.id) {
+      router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
+    } else {
+      const newIndex = curiosities.findIndex(c => c.id === randomCuriosity.id);
+      if (newIndex !== -1) {
+        setCurrentIndex(newIndex);
+      }
+    }
+  }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router, category.id, curiosities]);
   
   const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
@@ -105,7 +113,7 @@ export default function CuriosityExplorer({
     'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
   };
 
-  if (!currentCuriosity) {
+  if (curiosities.length === 0) {
     return (
         <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
@@ -120,6 +128,16 @@ export default function CuriosityExplorer({
 
   return (
     <div className="flex flex-col gap-8">
+        <div className="flex justify-between items-center">
+            <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
+            <Button asChild variant="default">
+                <Link href={`/quiz/${category.id}`}>
+                    <HelpCircle className="mr-2 h-4 w-4" />
+                    Testar meu Conhecimento
+                </Link>
+            </Button>
+        </div>
+
        <Card
         key={currentCuriosity.id}
         className="overflow-hidden shadow-2xl animate-slide-in-up"
@@ -158,18 +176,9 @@ export default function CuriosityExplorer({
           <Button variant="outline" onClick={goToPrev} disabled={currentIndex === 0}>
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
-          {isLastCuriosity ? (
-             <Button asChild>
-                <Link href="/">
-                  <Home className="mr-2 h-4 w-4" />
-                  Voltar ao Início
-                  </Link>
-            </Button>
-          ) : (
-            <Button onClick={goToNext}>
+            <Button onClick={goToNext} disabled={currentIndex === curiosities.length - 1}>
               Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
             </Button>
-          )}
         </CardFooter>
       </Card>
       
@@ -209,3 +218,5 @@ export default function CuriosityExplorer({
     </div>
   );
 }
+
+    
