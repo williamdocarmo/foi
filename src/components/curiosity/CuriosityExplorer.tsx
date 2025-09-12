@@ -130,12 +130,6 @@ export default function CuriosityExplorer({
     <div className="flex flex-col gap-8">
         <div className="flex justify-between items-center">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
-            <Button asChild variant="default">
-                <Link href={`/quiz/${category.id}`}>
-                    <HelpCircle className="mr-2 h-4 w-4" />
-                    Testar meu Conhecimento
-                </Link>
-            </Button>
         </div>
 
        <Card
@@ -218,5 +212,3 @@ export default function CuriosityExplorer({
     </div>
   );
 }
-
-    
