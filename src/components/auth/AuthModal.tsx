@@ -18,6 +18,7 @@ import { Separator } from '../ui/separator';
 import { Mail, Key, User } from 'lucide-react';
 import { Checkbox } from '../ui/checkbox';
 import Link from 'next/link';
+import { siteConfig } from '@/config/site';
 
 type AuthModalProps = {
   isOpen: boolean;
@@ -189,7 +190,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                         Li e concordo com os Termos de Uso
                         </label>
                         <p className="text-sm text-muted-foreground">
-                         Você pode ver os termos de uso <Link href="https://app.foiumaideia.com/terms" className="underline" target="_blank">aqui</Link>.
+                         Você pode ver os termos de uso <Link href={`${siteConfig.url}/terms`} className="underline" target="_blank">aqui</Link>.
                         </p>
                     </div>
                  </div>
