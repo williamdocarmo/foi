@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap, HelpCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap, HelpCircle, Home } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities, getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
@@ -194,7 +194,10 @@ export default function CuriosityExplorer({
           </Button>
           {isLastCuriosity ? (
             <Button asChild>
-                <Link href="/">Voltar ao Início</Link>
+                <Link href="/">
+                  <Home className="mr-2 h-4 w-4" />
+                  Voltar ao Início
+                  </Link>
             </Button>
           ) : (
             <Button onClick={goToNext}>
