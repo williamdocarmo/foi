@@ -12,6 +12,7 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
 import Link from "next/link";
+import { Skeleton } from "../ui/skeleton";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -63,6 +64,7 @@ export default function CuriosityExplorer({
   useEffect(() => {
     if (currentCuriosity) {
         const url = `/curiosity/${category.id}?curiosity=${currentCuriosity.id}`;
+        // Use replaceState to avoid adding to the browser history on each change
         window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
     }
   }, [currentIndex, category.id, currentCuriosity]);
@@ -247,3 +249,5 @@ export default function CuriosityExplorer({
     </div>
   );
 }
+
+    
