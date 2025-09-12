@@ -28,32 +28,28 @@ export default function CuriosityExplorer({
 
   const allCuriosities = useMemo(() => getAllCuriosities(), []);
   
-  const getInitialIndex = useCallback(() => {
+  const [currentIndex, setCurrentIndex] = useState(() => {
     if (initialCuriosityId) {
       const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (foundIndex !== -1) return foundIndex;
     }
     
-    const lastReadId = stats.lastReadCuriosity?.[category.id];
-    if (lastReadId) {
-        const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
-        if (lastReadIndex !== -1 && lastReadIndex < curiosities.length - 1) {
-            return lastReadIndex + 1;
-        }
-    }
+    if(stats.isLoaded) {
+      const lastReadId = stats.lastReadCuriosity?.[category.id];
+      if (lastReadId) {
+          const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
+          if (lastReadIndex !== -1 && lastReadIndex < curiosities.length - 1) {
+              return lastReadIndex + 1;
+          }
+      }
 
-    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    if (firstUnreadIndex !== -1) return firstUnreadIndex;
+      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+      if (firstUnreadIndex !== -1) return firstUnreadIndex;
+    }
     
     return 0;
-  }, [initialCuriosityId, curiosities, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
+  });
 
-  const [currentIndex, setCurrentIndex] = useState(() => getInitialIndex());
-
-  useEffect(() => {
-    setCurrentIndex(getInitialIndex());
-  }, [category.id, initialCuriosityId, getInitialIndex]);
-  
   const currentCuriosity = curiosities[currentIndex];
   const isLastCuriosity = currentIndex === curiosities.length - 1;
 
@@ -61,14 +57,14 @@ export default function CuriosityExplorer({
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, markCuriosityAsRead, isLoaded]);
-
+  }, [currentCuriosity, markCuriosityAsRead, isLoaded, category.id]);
+  
   useEffect(() => {
     if (currentCuriosity) {
         const url = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
         window.history.replaceState({ ...window.history.state, as: url, url: url }, '', url);
     }
-  }, [currentCuriosity]);
+  }, [currentIndex, currentCuriosity]);
 
 
   const goToNext = () => {
@@ -96,6 +92,9 @@ export default function CuriosityExplorer({
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
+    // Instead of pushing, which adds to history, we'll just set the state to trigger a re-render with new data
+    // This requires the parent component to handle the logic of fetching the new category and curiosities.
+    // For simplicity with the current structure, router.push is the way to go.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
   }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
