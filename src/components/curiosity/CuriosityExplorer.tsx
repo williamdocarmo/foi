@@ -43,12 +43,14 @@ export default function CuriosityExplorer({
     return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
   }, [initialCuriosityId, curiosities, stats.lastReadCuriosity, stats.readCuriosities, category.id]);
 
-  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
-  
-  // This effect synchronizes the index if the category or data changes
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // This effect ensures the index is set once the stats are loaded.
   useEffect(() => {
-    setCurrentIndex(getInitialIndex());
-  }, [category, curiosities, getInitialIndex]);
+    if (isLoaded) {
+      setCurrentIndex(getInitialIndex());
+    }
+  }, [isLoaded, getInitialIndex]);
   
   const currentCuriosity = curiosities[currentIndex];
 
@@ -56,7 +58,7 @@ export default function CuriosityExplorer({
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, isLoaded, markCuriosityAsRead, category.id]);
+  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
   
   useEffect(() => {
     if (currentCuriosity) {
@@ -115,6 +117,34 @@ export default function CuriosityExplorer({
         </div>
     );
   }
+  
+  // Render a loading state or null while currentIndex is not ready
+  if (!isLoaded || !currentCuriosity) {
+    return (
+         <div className="flex flex-col gap-8">
+            <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
+            <Card className="overflow-hidden shadow-2xl animate-pulse">
+                <CardHeader className="bg-muted/30 p-4">
+                     <div className="flex items-center justify-between">
+                         <div className="h-8 w-1/2 bg-muted-foreground/20 rounded"></div>
+                         <div className="h-6 w-1/6 bg-muted-foreground/20 rounded"></div>
+                     </div>
+                     <div className="h-2 w-full bg-muted-foreground/20 rounded-full mt-4"></div>
+                </CardHeader>
+                <CardContent className="p-6 md:p-8">
+                    <div className="h-8 w-3/4 bg-muted-foreground/20 rounded mb-4"></div>
+                    <div className="h-5 w-full bg-muted-foreground/20 rounded mb-2"></div>
+                    <div className="h-5 w-full bg-muted-foreground/20 rounded mb-2"></div>
+                    <div className="h-5 w-2/3 bg-muted-foreground/20 rounded"></div>
+                </CardContent>
+                <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
+                    <div className="h-10 w-32 bg-muted-foreground/20 rounded"></div>
+                    <div className="h-10 w-40 bg-muted-foreground/20 rounded"></div>
+                </CardFooter>
+            </Card>
+         </div>
+    )
+  }
 
   return (
     <div className="flex flex-col gap-8">
@@ -130,7 +160,7 @@ export default function CuriosityExplorer({
 
        <Card
         key={currentCuriosity.id}
-        className="overflow-hidden shadow-2xl animate-slide-in-up"
+        className="overflow-hidden shadow-2xl"
         style={{ borderLeft: `5px solid ${category.color}` }}
       >
         <CardHeader className="bg-muted/30 p-4">
