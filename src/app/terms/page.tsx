@@ -2,6 +2,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function TermsOfServicePage() {
+  const today = new Date().toLocaleDateString('pt-BR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+
   return (
     <div className="container mx-auto max-w-4xl py-8 md:py-12">
       <Card>
@@ -9,7 +15,7 @@ export default function TermsOfServicePage() {
           <CardTitle className="font-headline text-3xl">Termos de Uso</CardTitle>
         </CardHeader>
         <CardContent className="prose prose-lg max-w-none dark:prose-invert">
-          <p>Última atualização: [DATA]</p>
+          <p>Última atualização: {today}</p>
           
           <h2>1. Aceitação dos Termos</h2>
           <p>

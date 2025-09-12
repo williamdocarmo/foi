@@ -96,7 +96,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                 description: 'Login realizado com sucesso.',
             });
         } else {
-            // Email does not exist, check for agreement and create a new account
+            // Email does not exist, create a new account
              if (!agreed) {
                 toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
                 setIsLoading(false);
@@ -189,7 +189,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                         Li e concordo com os Termos de Uso
                         </label>
                         <p className="text-sm text-muted-foreground">
-                         Você pode ver os termos de uso <Link href="/terms" className="underline" target="_blank">aqui</Link>.
+                         Você pode ver os termos de uso <Link href="https://app.foiumaideia.com/terms" className="underline" target="_blank">aqui</Link>.
                         </p>
                     </div>
                  </div>
