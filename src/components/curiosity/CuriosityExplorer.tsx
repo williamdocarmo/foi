@@ -1,7 +1,6 @@
-
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
@@ -29,11 +28,8 @@ export default function CuriosityExplorer({
   const pathname = usePathname();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  // Initialize state ONCE, preventing re-calculation on every render.
-  // This is the key to fixing the infinite loop.
   const [currentIndex, setCurrentIndex] = useState(() => {
-     if (!isLoaded) return 0; // Temporary index, will be corrected by useEffect
-
+    if (!isLoaded) return 0;
     if (initialCuriosityId) {
         const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
         if (foundIndex !== -1) return foundIndex;
@@ -42,7 +38,6 @@ export default function CuriosityExplorer({
     return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
   });
 
-  // This effect runs only when the dependencies change, preventing loops.
   useEffect(() => {
     if (isLoaded) {
       const initialIndex = (() => {
@@ -60,11 +55,9 @@ export default function CuriosityExplorer({
 
   const currentCuriosity = curiosities[currentIndex];
 
-  // This effect marks the curiosity as read only when the index actually changes.
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
-      // Update URL safely without triggering re-renders that cause loops.
       const newUrl = `${pathname}?curiosity=${currentCuriosity.id}`;
       window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
     }
@@ -183,7 +176,7 @@ export default function CuriosityExplorer({
               {currentCuriosity.title}
             </h2>
             <p className="text-lg leading-relaxed text-foreground/80">
-              {currentCurriotisy.content}
+              {currentCuriosity.content}
             </p>
             {currentCuriosity.funFact && (
               <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
