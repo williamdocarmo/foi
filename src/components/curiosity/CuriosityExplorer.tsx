@@ -34,18 +34,13 @@ export default function CuriosityExplorer({
       if (foundIndex !== -1) return foundIndex;
     }
     
-    if (isLoaded) {
-      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-      if (firstUnreadIndex !== -1) return firstUnreadIndex;
-    }
-    
+    // Fallback if not loaded yet or no unread curiosities
     return 0;
-  }, [initialCuriosityId, curiosities, isLoaded, stats.readCuriosities]);
+  }, [initialCuriosityId, curiosities]);
 
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
 
-  // This effect ensures that if the initialIndex changes (e.g., due to navigation or props update),
-  // the currentIndex is updated accordingly. This is safer than multiple complex useEffects.
+  // When props change (e.g., navigating to a different category), reset the index.
   useEffect(() => {
     setCurrentIndex(initialIndex);
   }, [initialIndex]);
