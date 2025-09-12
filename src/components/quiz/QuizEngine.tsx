@@ -6,7 +6,7 @@ import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle } from "lucide-react";
+import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
@@ -31,7 +31,14 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const { stats, addQuizResult, updateStats } = useGameStats();
   const isOnline = useOnlineStatus();
 
-  const shuffledQuestions = useMemo(() => questions.sort(() => Math.random() - 0.5), [questions]);
+  // State to hold the shuffled questions, initialized after hydration
+  const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([]);
+
+  useEffect(() => {
+    // Shuffle questions only on the client-side to prevent hydration mismatch
+    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+  }, [questions]);
+
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
   const handleNextQuestion = useCallback(() => {
@@ -47,7 +54,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   }, [currentQuestionIndex, shuffledQuestions.length, category.id, score, addQuizResult]);
 
   useEffect(() => {
-    if (gameState !== 'playing' || isAnswered) return;
+    if (gameState !== 'playing' || isAnswered || shuffledQuestions.length === 0) return;
 
     const timer = setInterval(() => {
       setTimeLeft(prev => {
@@ -63,7 +70,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [currentQuestionIndex, gameState, isAnswered, handleNextQuestion]);
+  }, [currentQuestionIndex, gameState, isAnswered, handleNextQuestion, shuffledQuestions.length]);
   
   const handleAnswerSelect = async (option: string) => {
     if (isAnswered) return;
@@ -99,9 +106,11 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setIsAnswered(false);
     setTotalTime(0);
     setCorrectAnswersCount(0);
+    // Re-shuffle for the new game
+    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
   }
 
-  if (shuffledQuestions.length === 0) {
+  if (questions.length === 0) {
      return (
         <Card className="w-full max-w-lg text-center animate-bounce-in">
             <CardHeader>
@@ -172,6 +181,23 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
             </CardFooter>
         </Card>
     );
+  }
+
+  // Loading state while questions are being shuffled on the client
+  if (!currentQuestion) {
+    return (
+        <Card className="w-full max-w-2xl">
+             <CardHeader>
+                <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-6 text-center">
+                <div className="flex flex-col items-center gap-4">
+                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                    <p className="text-muted-foreground">Embaralhando perguntas...</p>
+                </div>
+            </CardContent>
+        </Card>
+    )
   }
 
 
