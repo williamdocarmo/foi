@@ -160,7 +160,7 @@ export function useGameStats() {
     if (newTotalRead >= 50) newExplorerStatus = 'Expert';
     else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
 
-    const newCombos = Math.floor(newTotalRead / 5);
+    const newCombos = Math.floor(newTotalRead / 5) - Math.floor(stats.totalCuriositiesRead / 5) + stats.combos;
 
     updateStats({
       totalCuriositiesRead: newTotalRead,

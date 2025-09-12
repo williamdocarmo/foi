@@ -6,12 +6,10 @@ import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, Lightbulb } from "lucide-react";
+import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { getIntelligentFeedback } from "@/ai/flows/feedback-flow";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
-import { Skeleton } from "../ui/skeleton";
 
 type QuizEngineProps = {
   category: Category;
@@ -29,8 +27,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [isAnswered, setIsAnswered] = useState(false);
   const [totalTime, setTotalTime] = useState(0);
   const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
-  const [intelligentFeedback, setIntelligentFeedback] = useState<string | null>(null);
-  const [isFeedbackLoading, setIsFeedbackLoading] = useState(false);
   
   const { stats, addQuizResult, updateStats } = useGameStats();
   const isOnline = useOnlineStatus();
@@ -41,7 +37,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const handleNextQuestion = useCallback(() => {
     setIsAnswered(false);
     setSelectedAnswer(null);
-    setIntelligentFeedback(null);
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
       setTimeLeft(QUESTION_TIME);
@@ -60,7 +55,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           clearInterval(timer);
           setIsAnswered(true); // Times up
           setTotalTime(t => t + (QUESTION_TIME - (prev - 1)))
-          setTimeout(handleNextQuestion, intelligentFeedback ? 4000 : 2000);
+          setTimeout(handleNextQuestion, 2000);
           return 0;
         }
         return prev - 1;
@@ -68,7 +63,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [currentQuestionIndex, gameState, isAnswered, handleNextQuestion, intelligentFeedback]);
+  }, [currentQuestionIndex, gameState, isAnswered, handleNextQuestion]);
   
   const handleAnswerSelect = async (option: string) => {
     if (isAnswered) return;
@@ -83,25 +78,9 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     if (isCorrect) {
       setScore(prev => prev + 10 + timeLeft); // Score based on correctness and time
       setCorrectAnswersCount(prev => prev + 1);
-    } else {
-      if (isOnline) {
-        setIsFeedbackLoading(true);
-        try {
-          const feedback = await getIntelligentFeedback({
-            question: currentQuestion.question,
-            correctAnswer: currentQuestion.correctAnswer,
-            userAnswer: option
-          });
-          setIntelligentFeedback(feedback.intelligentExplanation);
-        } catch (error) {
-          console.error("Failed to get intelligent feedback", error);
-        } finally {
-          setIsFeedbackLoading(false);
-        }
-      }
     }
 
-    setTimeout(handleNextQuestion, isCorrect ? 2000 : 4000);
+    setTimeout(handleNextQuestion, 2000);
   };
   
   const useCombo = () => {
@@ -110,7 +89,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
       handleAnswerSelect(currentQuestion.correctAnswer);
     }
   }
-
 
   const restartQuiz = () => {
     setGameState('playing');
@@ -121,7 +99,31 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setIsAnswered(false);
     setTotalTime(0);
     setCorrectAnswersCount(0);
-    setIntelligentFeedback(null);
+  }
+
+  if (shuffledQuestions.length === 0) {
+     return (
+        <Card className="w-full max-w-lg text-center animate-bounce-in">
+            <CardHeader>
+                <CardTitle className="flex items-center justify-center gap-2 font-headline text-3xl">
+                    <HelpCircle className="h-8 w-8 text-accent"/>
+                    Quiz em Breve!
+                </CardTitle>
+                <CardDescription>Ainda não há perguntas para a categoria {category.name}.</CardDescription>
+            </CardHeader>
+            <CardContent>
+                <p className="text-muted-foreground">Nosso gerador de conteúdo está trabalhando. Volte mais tarde para testar seus conhecimentos!</p>
+            </CardContent>
+            <CardFooter>
+                 <Button asChild className="w-full">
+                    <Link href="/">
+                        <Home className="mr-2 h-4 w-4" />
+                        Voltar para o Início
+                    </Link>
+                </Button>
+            </CardFooter>
+        </Card>
+    );
   }
 
   if (gameState === 'finished') {
@@ -214,24 +216,14 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
             );
           })}
         </div>
-         {isAnswered && (
+         {isAnswered && ! (selectedAnswer === currentQuestion.correctAnswer) && (
              <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground animate-fade-in">
-                 {isFeedbackLoading ? (
-                   <div className="space-y-2">
-                      <Skeleton className="h-4 w-1/4" />
-                      <Skeleton className="h-4 w-full" />
-                      <Skeleton className="h-4 w-3/4" />
-                   </div>
-                 ) : intelligentFeedback ? (
-                     <p><Lightbulb className="inline-block mr-2 text-yellow-500"/> <span className="font-bold">Feedback IA:</span> {intelligentFeedback}</p>
-                 ) : (
-                    <p><span className="font-bold">Explicação:</span> {currentQuestion.explanation}</p>
-                 )}
+                <p><span className="font-bold">Explicação:</span> {currentQuestion.explanation}</p>
             </div>
          )}
       </CardContent>
        <CardFooter className="flex-col sm:flex-row justify-end gap-2">
-        {isOnline && stats.combos > 0 && !isAnswered && (
+        {stats.combos > 0 && !isAnswered && (
             <Button variant="secondary" size="sm" onClick={useCombo} disabled={isAnswered}>
                <HelpCircle className="mr-2 h-4 w-4"/> Usar Combo ({stats.combos})
             </Button>

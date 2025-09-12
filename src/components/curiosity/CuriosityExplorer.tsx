@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp } from "lucide-react";
+import { ArrowLeft, ArrowRight, Rocket, Sparkles, Trophy, Star, TrendingUp, Zap } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities, getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";

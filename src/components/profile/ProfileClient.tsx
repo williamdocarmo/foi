@@ -118,7 +118,7 @@ export default function ProfileClient() {
             </CardHeader>
             <CardContent>
                 <div className="text-2xl font-bold">{stats.combos}</div>
-                 <p className="text-xs text-muted-foreground">Bônus por 5 leituras</p>
+                 <p className="text-xs text-muted-foreground">Ganhos a cada 5 lidas</p>
             </CardContent>
         </Card>
       </div>
