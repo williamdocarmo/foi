@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useRouter, useSearchParams, usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,32 +25,35 @@ export default function CuriosityExplorer({
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
-  const pathname = usePathname();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
   const [currentIndex, setCurrentIndex] = useState(() => {
-    if (!isLoaded) return 0;
     if (initialCuriosityId) {
         const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
         if (foundIndex !== -1) return foundIndex;
     }
-    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
+    // This will be re-evaluated once stats are loaded
+    return 0;
   });
 
+  const [hasInitialized, setHasInitialized] = useState(false);
+
   useEffect(() => {
-    if (isLoaded) {
-      const initialIndex = (() => {
+    if (isLoaded && !hasInitialized) {
+        let startIndex = 0;
         if (initialCuriosityId) {
-          const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
-          if (foundIndex !== -1) return foundIndex;
+            const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
+            if (foundIndex !== -1) {
+                startIndex = foundIndex;
+            }
+        } else {
+            const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+            startIndex = firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
         }
-        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-        return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-      })();
-      setCurrentIndex(initialIndex);
+        setCurrentIndex(startIndex);
+        setHasInitialized(true);
     }
-  }, [initialCuriosityId, isLoaded, curiosities, stats.readCuriosities]);
+  }, [isLoaded, hasInitialized, curiosities, initialCuriosityId, stats.readCuriosities]);
 
 
   const currentCuriosity = curiosities[currentIndex];
@@ -58,21 +61,15 @@ export default function CuriosityExplorer({
   useEffect(() => {
     if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
-      const newUrl = `${pathname}?curiosity=${currentCuriosity.id}`;
-      window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
     }
-  }, [currentIndex, currentCuriosity, isLoaded, markCuriosityAsRead, pathname]);
+  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
 
   const goToNext = () => {
-    if (currentIndex < curiosities.length - 1) {
-      setCurrentIndex(prevIndex => prevIndex + 1);
-    }
+    setCurrentIndex(prevIndex => Math.min(prevIndex + 1, curiosities.length - 1));
   };
 
   const goToPrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(prevIndex => prevIndex - 1);
-    }
+    setCurrentIndex(prevIndex => Math.max(prevIndex - 1, 0));
   };
   
   const surpriseMe = useCallback(() => {
@@ -114,7 +111,7 @@ export default function CuriosityExplorer({
     );
   }
   
-  if (!isLoaded || !currentCuriosity) {
+  if (!isLoaded || !currentCuriosity || !hasInitialized) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
