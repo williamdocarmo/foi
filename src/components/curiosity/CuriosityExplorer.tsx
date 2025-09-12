@@ -48,7 +48,7 @@ export default function CuriosityExplorer({
     return 0;
   }, [initialCuriosityId, curiosities, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
 
-  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
+  const [currentIndex, setCurrentIndex] = useState(() => getInitialIndex());
 
   useEffect(() => {
     setCurrentIndex(getInitialIndex());
