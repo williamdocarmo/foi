@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -28,41 +29,45 @@ export default function CuriosityExplorer({
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
   const [currentIndex, setCurrentIndex] = useState(() => {
-    if (initialCuriosityId) {
-        const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
-        if (foundIndex !== -1) return foundIndex;
+    if (!isLoaded) return 0; // Return a default, will be re-calculated in useEffect
+    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    const initialIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
+
+    if (initialIndex !== -1) {
+      return initialIndex;
     }
-    // This will be re-evaluated once stats are loaded
-    return 0;
+    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
   });
 
   const [hasInitialized, setHasInitialized] = useState(false);
 
+  // This effect runs only once when `isLoaded` becomes true.
+  // It correctly sets the initial index without causing loops.
   useEffect(() => {
     if (isLoaded && !hasInitialized) {
-        let startIndex = 0;
-        if (initialCuriosityId) {
-            const foundIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
-            if (foundIndex !== -1) {
-                startIndex = foundIndex;
-            }
-        } else {
-            const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-            startIndex = firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-        }
-        setCurrentIndex(startIndex);
-        setHasInitialized(true);
+      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+      const initialIndexFromUrl = curiosities.findIndex(c => c.id === initialCuriosityId);
+
+      let startIndex = 0;
+      if (initialIndexFromUrl !== -1) {
+        startIndex = initialIndexFromUrl;
+      } else if (firstUnreadIndex !== -1) {
+        startIndex = firstUnreadIndex;
+      }
+      
+      setCurrentIndex(startIndex);
+      setHasInitialized(true);
     }
   }, [isLoaded, hasInitialized, curiosities, initialCuriosityId, stats.readCuriosities]);
 
-
   const currentCuriosity = curiosities[currentIndex];
 
+  // This effect marks a curiosity as read only when the current one changes.
   useEffect(() => {
-    if (currentCuriosity && isLoaded) {
+    if (currentCuriosity && isLoaded && hasInitialized) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, isLoaded, markCuriosityAsRead]);
+  }, [currentCuriosity, isLoaded, hasInitialized, markCuriosityAsRead]);
 
   const goToNext = () => {
     setCurrentIndex(prevIndex => Math.min(prevIndex + 1, curiosities.length - 1));
@@ -77,15 +82,18 @@ export default function CuriosityExplorer({
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
+    // Prefer unread curiosities that are not the current one
     const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity?.id);
   
     if (unread.length > 0) {
       randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
     } else {
+      // If all are read, pick any other one
       const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity?.id);
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
+    // Navigate to the new curiosity's page, which will re-render the component correctly
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
   }, [stats.readCuriosities, currentCuriosity?.id, router]);
@@ -103,7 +111,7 @@ export default function CuriosityExplorer({
         <div className="flex flex-col items-center justify-center text-center p-8">
             <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
             <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {category.name}.</p>
-             <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo usando o script de geração.</p>
+            <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo executando: `npm run generate-content`</p>
             <Button asChild className="mt-6">
                 <Link href="/">Voltar ao Início</Link>
             </Button>
@@ -118,20 +126,20 @@ export default function CuriosityExplorer({
             <Card className="overflow-hidden shadow-2xl animate-pulse">
                 <CardHeader className="bg-muted/30 p-4">
                      <div className="flex items-center justify-between">
-                         <div className="h-8 w-1/2 bg-muted-foreground/20 rounded"></div>
-                         <div className="h-6 w-1/6 bg-muted-foreground/20 rounded"></div>
+                         <Skeleton className="h-8 w-1/2" />
+                         <Skeleton className="h-6 w-1/6" />
                      </div>
-                     <div className="h-2 w-full bg-muted-foreground/20 rounded-full mt-4"></div>
+                     <Skeleton className="h-2 w-full mt-4" />
                 </CardHeader>
-                <CardContent className="p-6 md:p-8">
-                    <div className="h-8 w-3/4 bg-muted-foreground/20 rounded mb-4"></div>
-                    <div className="h-5 w-full bg-muted-foreground/20 rounded mb-2"></div>
-                    <div className="h-5 w-full bg-muted-foreground/20 rounded mb-2"></div>
-                    <div className="h-5 w-2/3 bg-muted-foreground/20 rounded"></div>
+                <CardContent className="p-6 md:p-8 space-y-3">
+                    <Skeleton className="h-8 w-3/4" />
+                    <Skeleton className="h-5 w-full" />
+                    <Skeleton className="h-5 w-full" />
+                    <Skeleton className="h-5 w-2/3" />
                 </CardContent>
                 <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
-                    <div className="h-10 w-32 bg-muted-foreground/20 rounded"></div>
-                    <div className="h-10 w-40 bg-muted-foreground/20 rounded"></div>
+                    <Skeleton className="h-10 w-32" />
+                    <Skeleton className="h-10 w-40" />
                 </CardFooter>
             </Card>
          </div>
