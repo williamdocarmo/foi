@@ -34,7 +34,8 @@ export default function CuriosityExplorer({
       if (foundIndex !== -1) return foundIndex;
     }
     
-    if(stats.isLoaded) {
+    // Check for isLoaded before accessing stats
+    if(isLoaded) {
       const lastReadId = stats.lastReadCuriosity?.[category.id];
       if (lastReadId) {
           const lastReadIndex = curiosities.findIndex(c => c.id === lastReadId);
@@ -92,9 +93,6 @@ export default function CuriosityExplorer({
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
-    // Instead of pushing, which adds to history, we'll just set the state to trigger a re-render with new data
-    // This requires the parent component to handle the logic of fetching the new category and curiosities.
-    // For simplicity with the current structure, router.push is the way to go.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
   }, [allCuriosities, stats.readCuriosities, currentCuriosity?.id, router]);
