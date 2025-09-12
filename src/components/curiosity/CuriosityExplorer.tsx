@@ -216,5 +216,3 @@ export default function CuriosityExplorer({
     </div>
   );
 }
-
-    

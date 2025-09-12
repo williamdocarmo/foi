@@ -1,3 +1,4 @@
+
 import { getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
 import { notFound } from "next/navigation";
 import CuriosityExplorer from "@/components/curiosity/CuriosityExplorer";
