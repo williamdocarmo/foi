@@ -2,7 +2,6 @@
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth, browserPopupRedirectResolver } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
-import { siteConfig } from '@/config/site';
 
 const firebaseConfig = {
   projectId: "studio-4977373253-2de1c",
@@ -16,17 +15,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-// Get Auth instance and explicitly set the authDomain
+// Use browserPopupRedirectResolver to ensure the popup flow works correctly,
+// especially with custom domains. The authorized domain configuration you did
+// in the Google Cloud Console is the correct way to handle the domain display.
 const auth = getAuth(app, {
-    // This forces the popup to use your custom domain.
-    // It's a more reliable way to ensure the correct domain is shown.
     popupRedirectResolver: browserPopupRedirectResolver,
 });
-auth.tenantId = null;
-if (typeof window !== 'undefined' && window.location.hostname === new URL(siteConfig.url).hostname) {
-    auth.config.authDomain = new URL(siteConfig.url).hostname;
-}
-
 
 const db = getFirestore(app);
 
