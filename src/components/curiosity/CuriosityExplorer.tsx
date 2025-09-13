@@ -186,7 +186,7 @@ export default function CuriosityExplorer({
                     <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
                 </div>
                  <Badge variant="secondary" className="whitespace-nowrap">
-                    {currentIndex + 1} / {curiosities.length}
+                    Curiosidade #{currentIndex + 1}
                 </Badge>
             </div>
             <Progress value={progress} className="mt-4 h-2" />

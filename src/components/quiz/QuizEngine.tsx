@@ -37,7 +37,10 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([]);
 
   useEffect(() => {
-    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+    // Avoid hydration mismatch by shuffling on the client
+    if (questions.length > 0) {
+        setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+    }
   }, [questions]);
 
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
@@ -82,12 +85,11 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setTotalTime(t => t + timeTaken);
 
     const isCorrect = option === currentQuestion.correctAnswer;
-    let delay = DELAY_AFTER_WRONG_MS;
+    let delay = isCorrect ? DELAY_AFTER_CORRECT_MS : DELAY_AFTER_WRONG_MS;
 
     if (isCorrect) {
       setScore(prev => prev + 10 + timeLeft);
       setCorrectAnswersCount(prev => prev + 1);
-      delay = DELAY_AFTER_CORRECT_MS;
     }
 
     setTimeout(handleNextQuestion, delay);
@@ -216,7 +218,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
             </div>
         </div>
         <Progress value={( (currentQuestionIndex + 1) / shuffledQuestions.length) * 100} className="mt-2" />
-        <CardDescription className="pt-2 text-center">Pergunta {currentQuestionIndex + 1} de {shuffledQuestions.length}</CardDescription>
+        <CardDescription className="pt-2 text-center">Pergunta {currentQuestionIndex + 1}</CardDescription>
       </CardHeader>
       <CardContent className="p-6 text-center">
         <p className="mb-8 text-xl font-semibold">{currentQuestion.question}</p>
