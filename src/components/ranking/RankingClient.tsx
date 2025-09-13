@@ -1,30 +1,12 @@
 "use client";
 
-import { useEffect, useState } from 'react';
-import { getTopUsers, type GetTopUsersOutput } from '@/ai/flows/ranking-flow';
+import type { GetTopUsersOutput } from '@/ai/flows/ranking-flow';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Skeleton } from '@/components/ui/skeleton';
 import { Medal, Trophy } from 'lucide-react';
 
-export default function RankingClient() {
-  const [ranking, setRanking] = useState<GetTopUsersOutput['users']>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    async function fetchRanking() {
-      try {
-        setIsLoading(true);
-        const result = await getTopUsers({ count: 5 });
-        setRanking(result.users);
-      } catch (error) {
-        console.error("Failed to fetch ranking:", error);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-    fetchRanking();
-  }, []);
+// O componente agora é mais 'burro'. Ele apenas recebe os dados e os renderiza.
+export default function RankingList({ initialUsers }: { initialUsers: GetTopUsersOutput['users'] }) {
 
   const getMedalColor = (rank: number) => {
     switch (rank) {
@@ -35,24 +17,7 @@ export default function RankingClient() {
     }
   }
 
-  if (isLoading) {
-    return (
-      <div className="space-y-4">
-        {[...Array(5)].map((_, i) => (
-          <Card key={i} className="flex items-center p-4">
-            <Skeleton className="h-6 w-6 mr-4" />
-            <Skeleton className="h-12 w-12 rounded-full" />
-            <div className="ml-4 flex-1 space-y-2">
-              <Skeleton className="h-4 w-1/2" />
-              <Skeleton className="h-4 w-1/4" />
-            </div>
-          </Card>
-        ))}
-      </div>
-    );
-  }
-
-  if (ranking.length === 0) {
+  if (initialUsers.length === 0) {
     return (
       <Card>
         <CardContent className="p-6 text-center">
@@ -68,7 +33,7 @@ export default function RankingClient() {
 
   return (
     <div className="space-y-4 animate-slide-in-up">
-      {ranking.map((user, index) => (
+      {initialUsers.map((user, index) => (
         <Card key={index} className="flex items-center p-4 transition-all hover:bg-muted/50">
           <div className={`flex h-8 w-8 items-center justify-center font-bold text-xl ${getMedalColor(user.rank)}`}>
             {user.rank <= 3 ? <Medal className="h-6 w-6 fill-current" /> : user.rank}
