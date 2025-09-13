@@ -1,4 +1,3 @@
-
 [
   {
     "id": "quiz-religiao-1",
@@ -69,5 +68,873 @@
     ],
     "correctAnswer": "O nascimento de Jesus",
     "explanation": "O Natal, celebrado em 25 de dezembro, é a festa cristã que comemora o nascimento de Jesus Cristo."
+  },
+  {
+    "id": "quiz-religiao-6",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o símbolo mais reconhecido do Cristianismo?",
+    "options": [
+      "Estrela de Davi",
+      "Lua crescente",
+      "Cruz",
+      "Yin e Yang"
+    ],
+    "correctAnswer": "Cruz",
+    "explanation": "A cruz é o símbolo mais universalmente reconhecido do cristianismo, representando a crucificação e ressurreição de Jesus Cristo.  Uma curiosidade é que o formato exato da cruz variou ao longo da história."
+  },
+  {
+    "id": "quiz-religiao-7",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Em qual cidade sagrada os muçulmanos realizam a peregrinação Hajj?",
+    "options": [
+      "Jerusalém",
+      "Meca",
+      "Medina",
+      "Damasco"
+    ],
+    "correctAnswer": "Meca",
+    "explanation": "Meca é a cidade mais sagrada do Islã, local de nascimento do profeta Maomé e onde se encontra a Caaba, estrutura central para as orações muçulmanas.  A peregrinação Hajj é um dos cinco pilares do Islã."
+  },
+  {
+    "id": "quiz-religiao-8",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual é o livro sagrado do Hinduísmo?",
+    "options": [
+      "Bíblia",
+      "Torá",
+      "Alcorão",
+      "Vedas"
+    ],
+    "correctAnswer": "Vedas",
+    "explanation": "As Vedas são uma coleção de hinos, rituais e textos filosóficos considerados textos sagrados no Hinduísmo.  Existem quatro Vedas principais: Rigveda, Samaveda, Yajurveda e Atharvaveda."
+  },
+  {
+    "id": "quiz-religiao-9",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença doutrinária entre o Protestantismo e o Catolicismo?",
+    "options": [
+      "A crença na Trindade",
+      "A importância da Bíblia",
+      "A autoridade do Papa",
+      "A existência de Deus"
+    ],
+    "correctAnswer": "A autoridade do Papa",
+    "explanation": "O Catolicismo reconhece a autoridade suprema do Papa, enquanto o Protestantismo rejeita a autoridade papal, enfatizando a interpretação individual da Bíblia. A Reforma Protestante do século XVI marcou esta separação."
+  },
+  {
+    "id": "quiz-religiao-10",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual filosofia religiosa enfatiza o desapego material e o caminho do meio?",
+    "options": [
+      "Taoísmo",
+      "Confucionismo",
+      "Jainismo",
+      "Budismo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "O Budismo prega o desapego aos bens materiais e a busca pela iluminação através do caminho do meio, evitando os extremos de ascetismo e indulgência.  O conceito de 'Nirvana' é central para esta filosofia."
+  },
+  {
+    "id": "quiz-religiao-11",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual conceito teológico se refere à crença em um único Deus?",
+    "options": [
+      "Politeísmo",
+      "Monoteísmo",
+      "Agnosticismo",
+      "Ateísmo"
+    ],
+    "correctAnswer": "Monoteísmo",
+    "explanation": "Monoteísmo é a crença em um único Deus, em contraste com politeísmo (crença em múltiplos deuses).  Judaísmo, Cristianismo e Islamismo são exemplos de religiões monoteístas."
+  },
+  {
+    "id": "quiz-religiao-12",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual é o nome do jejum de 40 dias praticado na Quaresma?",
+    "options": [
+      "Ramadã",
+      "Yom Kippur",
+      "Lent",
+      "Navratri"
+    ],
+    "correctAnswer": "Lent",
+    "explanation": "A Quaresma, um período de jejum e penitência para os cristãos, culmina na Páscoa.  A duração de 40 dias é simbólica, referenciando os 40 dias que Jesus passou no deserto."
+  },
+  {
+    "id": "quiz-religiao-13",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre o sunismo e o xiismo no Islã?",
+    "options": [
+      "A crença em Alá",
+      "A leitura do Alcorão",
+      "A sucessão do profeta Maomé",
+      "As práticas de oração"
+    ],
+    "correctAnswer": "A sucessão do profeta Maomé",
+    "explanation": "A principal cisão no Islã está na sucessão de Maomé. O sunismo segue os sucessores eleitos (califas), enquanto o xiismo acredita que Ali, genro de Maomé, deveria ter sido o seu sucessor legítimo."
+  },
+  {
+    "id": "quiz-religiao-14",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual movimento religioso enfatiza a experiência direta de Deus e a busca pela iluminação interior?",
+    "options": [
+      "Protestantismo",
+      "Catolicismo",
+      "Misticismo",
+      "Ateísmo"
+    ],
+    "correctAnswer": "Misticismo",
+    "explanation": "O misticismo, presente em diversas religiões, enfatiza a união direta com o divino,  a experiência espiritual interior e a contemplação mística, transcendendo a teologia tradicional."
+  },
+  {
+    "id": "quiz-religiao-15",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o significado do termo 'Samsara' no Budismo e Hinduísmo?",
+    "options": [
+      "Iluminação",
+      "Liberação",
+      "Ciclo de renascimentos",
+      "Deus Criador"
+    ],
+    "correctAnswer": "Ciclo de renascimentos",
+    "explanation": "Samsara descreve o ciclo contínuo de morte e renascimento, impulsionado pelo karma, que termina somente com a iluminação e o escape para o Nirvana ou Moksha."
+  },
+  {
+    "id": "quiz-religiao-16",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual é o livro sagrado do Judaísmo?",
+    "options": [
+      "Alcorão",
+      "Bíblia",
+      "Torá",
+      "Vedas"
+    ],
+    "correctAnswer": "Torá",
+    "explanation": "A Torá, os cinco primeiros livros da Bíblia, são considerados o texto sagrado central do Judaísmo.  Contém a lei e a história do povo judeu desde a criação."
+  },
+  {
+    "id": "quiz-religiao-17",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual festival celebra a colheita no Judaísmo?",
+    "options": [
+      "Páscoa",
+      "Hanukkah",
+      "Sukkot",
+      "Purim"
+    ],
+    "correctAnswer": "Sukkot",
+    "explanation": "Sukkot, também conhecida como a Festa das Cabanas, é uma celebração da colheita e um agradecimento pela bênção da terra. Os judeus constroem cabanas temporárias, simbolizando o tempo que os israelitas passaram no deserto."
+  },
+  {
+    "id": "quiz-religiao-18",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual a figura central do Cristianismo?",
+    "options": [
+      "Moisés",
+      "Maomé",
+      "Buda",
+      "Jesus"
+    ],
+    "correctAnswer": "Jesus",
+    "explanation": "Jesus Cristo é a figura central do Cristianismo, considerado o filho de Deus e o Messias pelos cristãos. Sua vida, morte e ressurreição formam a base da fé cristã."
+  },
+  {
+    "id": "quiz-religiao-19",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o nome do jejum islâmico que ocorre durante o mês lunar de Ramadã?",
+    "options": [
+      "Lent",
+      "Yom Kippur",
+      "Ramadã",
+      "Navratri"
+    ],
+    "correctAnswer": "Ramadã",
+    "explanation": "O Ramadã é o nono mês do calendário islâmico, um período de jejum, oração e reflexão espiritual para os muçulmanos.  É um dos cinco pilares do Islã."
+  },
+  {
+    "id": "quiz-religiao-20",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual escola budista enfatiza a prática da meditação Vipassanā?",
+    "options": [
+      "Zen Budismo",
+      "Budismo Theravada",
+      "Budismo Mahayana",
+      "Budismo Vajrayana"
+    ],
+    "correctAnswer": "Budismo Theravada",
+    "explanation": "O Budismo Theravada, a tradição mais antiga do Budismo, dá grande ênfase à prática da meditação Vipassanā (insight), buscando o desenvolvimento da sabedoria e da iluminação pessoal."
+  },
+  {
+    "id": "quiz-religiao-21",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o conceito central da teologia da libertação?",
+    "options": [
+      "A salvação individual",
+      "A justiça social",
+      "A vida após a morte",
+      "A interpretação literal da Bíblia"
+    ],
+    "correctAnswer": "A justiça social",
+    "explanation": "A teologia da libertação é um movimento teológico católico que enfatiza a libertação dos oprimidos e a justiça social como parte essencial da fé cristã."
+  },
+  {
+    "id": "quiz-religiao-22",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre o Budismo Mahayana e o Theravada?",
+    "options": [
+      "A crença em Buda",
+      "A prática da meditação",
+      "O caminho para a iluminação",
+      "O foco na compaixão e na salvação de todos os seres"
+    ],
+    "correctAnswer": "O foco na compaixão e na salvação de todos os seres",
+    "explanation": "O Mahayana enfatiza a Bodhisattva ideal, que adia a própria iluminação para ajudar todos os seres a alcançar o Nirvana. O Theravada, mais focado no indivíduo."
+  },
+  {
+    "id": "quiz-religiao-23",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual religião é associada ao Templo Dourado?",
+    "options": [
+      "Hinduísmo",
+      "Budismo",
+      "Sikhismo",
+      "Jainismo"
+    ],
+    "correctAnswer": "Sikhismo",
+    "explanation": "O Templo Dourado, ou Harmandir Sahib, é o local mais sagrado do Sikhismo, localizado em Amritsar, na Índia."
+  },
+  {
+    "id": "quiz-religiao-24",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o principal livro sagrado do Zoroastrismo?",
+    "options": [
+      "Vedas",
+      "Avesta",
+      "Torá",
+      "Alcorão"
+    ],
+    "correctAnswer": "Avesta",
+    "explanation": "O Avesta é uma coleção de textos sagrados do Zoroastrismo, uma das religiões mais antigas do mundo.  Contém hinos, rituais e leis religiosas."
+  },
+  {
+    "id": "quiz-religiao-25",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual festival celebra a iluminação de Buda?",
+    "options": [
+      "Diwali",
+      "Wesak",
+      "Eid al-Fitr",
+      "Hanukkah"
+    ],
+    "correctAnswer": "Wesak",
+    "explanation": "Wesak, também conhecido como Buddha Purnima, celebra o nascimento, iluminação e morte de Buda."
+  },
+  {
+    "id": "quiz-religiao-26",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual é o conceito de 'Atman' no Hinduísmo?",
+    "options": [
+      "Alma individual",
+      "Universo",
+      "Deus supremo",
+      "Karma"
+    ],
+    "correctAnswer": "Alma individual",
+    "explanation": "Atman é a essência individual, a alma imortal que transmigra através de diversas vidas. A união do Atman com o Brahman (o Absoluto) é o objetivo final."
+  },
+  {
+    "id": "quiz-religiao-27",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual é o significado da palavra 'Sharia' no Islã?",
+    "options": [
+      "Oração",
+      "Jejum",
+      "Lei religiosa",
+      "Peregrinação"
+    ],
+    "correctAnswer": "Lei religiosa",
+    "explanation": "A Sharia é a lei islâmica, derivada do Alcorão e da Sunnah (tradição profética). Ela abrange diversos aspectos da vida muçulmana, desde rituais religiosos até leis civis."
+  },
+  {
+    "id": "quiz-religiao-28",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o nome do dia sagrado para os judeus?",
+    "options": [
+      "Domingo",
+      "Sexta-feira",
+      "Sábado",
+      "Quinta-feira"
+    ],
+    "correctAnswer": "Sábado",
+    "explanation": "O sábado, ou Shabat, é o dia de descanso e oração para os judeus, um dia para se conectar com a família e a comunidade."
+  },
+  {
+    "id": "quiz-religiao-29",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o papel do Dalai Lama no Budismo Tibetano?",
+    "options": [
+      "Líder espiritual e político",
+      "Professor de meditação",
+      "Monge erudito",
+      "Guardião de textos sagrados"
+    ],
+    "correctAnswer": "Líder espiritual e político",
+    "explanation": "Tradicionalmente, o Dalai Lama era o líder espiritual e político do Tibete.  Apesar do exílio, ele continua sendo uma figura influente no Budismo Tibetano."
+  },
+  {
+    "id": "quiz-religiao-30",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre o conceito de 'Moksha' e 'Nirvana'?",
+    "options": [
+      "Não há diferença significativa",
+      "Moksha é a libertação no Hinduísmo, Nirvana no Budismo",
+      "Moksha é um estado temporário, Nirvana permanente",
+      "Moksha é individual, Nirvana coletivo"
+    ],
+    "correctAnswer": "Moksha é a libertação no Hinduísmo, Nirvana no Budismo",
+    "explanation": "Ambas representam a libertação do ciclo de renascimento, mas Moksha está no contexto hinduísta e Nirvana no budista."
+  },
+  {
+    "id": "quiz-religiao-31",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a doutrina cristã que se refere à união das três pessoas divinas em uma única essência?",
+    "options": [
+      "Trindade",
+      "Encarnação",
+      "Ressurreição",
+      "Ascensão"
+    ],
+    "correctAnswer": "Trindade",
+    "explanation": "A Trindade é a crença central no Cristianismo na união de Deus Pai, Deus Filho (Jesus Cristo) e Deus Espírito Santo em uma só divindade."
+  },
+  {
+    "id": "quiz-religiao-32",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Em qual país surgiu o Budismo?",
+    "options": [
+      "Índia",
+      "China",
+      "Nepal",
+      "Tibete"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Budismo surgiu na Índia com Siddhartha Gautama, o Buda, no século VI a.C."
+  },
+  {
+    "id": "quiz-religiao-33",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o nome do mês sagrado do Islã?",
+    "options": [
+      "Ramadã",
+      "Shawwal",
+      "Muharram",
+      "Rajab"
+    ],
+    "correctAnswer": "Ramadã",
+    "explanation": "Ramadã é o nono mês do calendário islâmico, onde os muçulmanos jejuam do nascer ao pôr do sol."
+  },
+  {
+    "id": "quiz-religiao-34",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual destes é um dos dez mandamentos?",
+    "options": [
+      "Ama a teu próximo",
+      "Não matarás",
+      "Não roubarás",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Os Dez Mandamentos são um conjunto de leis éticas e religiosas dadas por Deus a Moisés, de acordo com a tradição judaico-cristã."
+  },
+  {
+    "id": "quiz-religiao-35",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o significado do termo 'Tao' no Taoísmo?",
+    "options": [
+      "Caminho",
+      "Verdade",
+      "Deus",
+      "Destino"
+    ],
+    "correctAnswer": "Caminho",
+    "explanation": "Tao significa o 'Caminho' ou 'princípio fundamental' que governa o universo.  Seguir o Tao é viver em harmonia com a natureza e a ordem cósmica."
+  },
+  {
+    "id": "quiz-religiao-36",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o propósito da prática da oração no Islã?",
+    "options": [
+      "Conectar-se com Alá",
+      "Purificar a alma",
+      "Buscar perdão",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A oração (salat) é um dos cinco pilares do Islã e tem múltiplos propósitos espirituais."
+  },
+  {
+    "id": "quiz-religiao-37",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual festival celebra o nascimento de Krishna?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Janmashtami",
+      "Raksha Bandhan"
+    ],
+    "correctAnswer": "Janmashtami",
+    "explanation": "Janmashtami é um festival hindu que celebra o nascimento de Krishna, uma importante divindade hindu."
+  },
+  {
+    "id": "quiz-religiao-38",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um monge e um leigo no Budismo?",
+    "options": [
+      "Os monges vivem em comunidade, os leigos não",
+      "Os monges renunciam aos bens materiais, os leigos não",
+      "Os monges dedicam-se à prática religiosa em tempo integral, os leigos não",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Há distinções significativas na prática e no estilo de vida entre monges e leigos no Budismo."
+  },
+  {
+    "id": "quiz-religiao-39",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'ahimsa' no Jainismo?",
+    "options": [
+      "Não violência",
+      "Meditação",
+      "Ascetismo",
+      "Liberdade"
+    ],
+    "correctAnswer": "Não violência",
+    "explanation": "Ahimsa é um princípio central do Jainismo, que enfatiza a não violência em todas as suas formas, incluindo pensamentos, palavras e ações."
+  },
+  {
+    "id": "quiz-religiao-40",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual movimento religioso promoveu a não-cooperação e a resistência pacífica contra o domínio britânico na Índia?",
+    "options": [
+      "Hinduísmo",
+      "Budismo",
+      "Jainismo",
+      "Satyagraha"
+    ],
+    "correctAnswer": "Satyagraha",
+    "explanation": "Satyagraha, liderado por Mahatma Gandhi, usou a resistência não-violenta para desafiar o governo colonial britânico."
+  },
+  {
+    "id": "quiz-religiao-41",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual a capital do estado da Cidade do Vaticano?",
+    "options": [
+      "Roma",
+      "Cidade do Vaticano",
+      "Milão",
+      "Veneza"
+    ],
+    "correctAnswer": "Cidade do Vaticano",
+    "explanation": "A Cidade do Vaticano é um país independente e o centro da Igreja Católica Romana, governado pelo Papa."
+  },
+  {
+    "id": "quiz-religiao-42",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o símbolo associado à paz e à não-violência no Jainismo?",
+    "options": [
+      "Espada",
+      "Flor de lótus",
+      "Pomba",
+      "Roda"
+    ],
+    "correctAnswer": "Roda",
+    "explanation": "A roda representa o ciclo de renascimento e a busca pela libertação. Curiosidade: O símbolo da roda também é usado em outras religiões, com significados similares."
+  },
+  {
+    "id": "quiz-religiao-43",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Em qual religião a palavra 'karma' desempenha um papel central?",
+    "options": [
+      "Cristianismo",
+      "Islamismo",
+      "Hinduísmo",
+      "Zoroastrismo"
+    ],
+    "correctAnswer": "Hinduísmo",
+    "explanation": "Karma refere-se às ações e suas consequências. Curiosidade: O conceito de Karma também é importante no Budismo e no Jainismo."
+  },
+  {
+    "id": "quiz-religiao-44",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o principal livro sagrado do Sikhismo?",
+    "options": [
+      "Bhagavad Gita",
+      "Guru Granth Sahib",
+      "Tripitaka",
+      "Torá"
+    ],
+    "correctAnswer": "Guru Granth Sahib",
+    "explanation": "É a escritura central do Sikhismo, contendo hinos e ensinamentos de gurus sikhs. Curiosidade: É considerado um guru vivo pelos sikhs."
+  },
+  {
+    "id": "quiz-religiao-45",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual escola filosófica budista enfatiza a prática da compaixão universal?",
+    "options": [
+      "Theravada",
+      "Mahayana",
+      "Vajrayana",
+      "Zen"
+    ],
+    "correctAnswer": "Mahayana",
+    "explanation": "O Mahayana enfatiza a Bodhisattva ideal, que busca a iluminação para beneficiar todos os seres. Curiosidade: O Mahayana é a escola mais difundida no leste asiático."
+  },
+  {
+    "id": "quiz-religiao-46",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual a festa religiosa que celebra a ressurreição de Jesus?",
+    "options": [
+      "Natal",
+      "Páscoa",
+      "Pentecostes",
+      "Ascensão"
+    ],
+    "correctAnswer": "Páscoa",
+    "explanation": "A Páscoa celebra a vitória de Cristo sobre a morte. Curiosidade: A data da Páscoa é móvel, baseada no calendário lunar."
+  },
+  {
+    "id": "quiz-religiao-47",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o nome do festival hindu que celebra a vitória do bem sobre o mal?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Pongal",
+      "Raksha Bandhan"
+    ],
+    "correctAnswer": "Diwali",
+    "explanation": "Diwali é um festival de luzes que simboliza a vitória da luz sobre a escuridão. Curiosidade: É comemorado com fogos de artifício e luzes."
+  },
+  {
+    "id": "quiz-religiao-48",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual a corrente religiosa que acredita na reencarnação e no ciclo de samsara?",
+    "options": [
+      "Cristianismo",
+      "Islamismo",
+      "Hinduísmo",
+      "Judaísmo"
+    ],
+    "correctAnswer": "Hinduísmo",
+    "explanation": "O Hinduísmo acredita no ciclo de nascimentos e mortes até o moksha (libertação). Curiosidade: O Budismo também acredita em reencarnação, mas com uma perspectiva diferente."
+  },
+  {
+    "id": "quiz-religiao-49",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o conceito teológico que descreve a crença na existência simultânea de Deus e do mundo?",
+    "options": [
+      "Deísmo",
+      "Panteísmo",
+      "Panenteísmo",
+      "Ateísmo"
+    ],
+    "correctAnswer": "Panenteísmo",
+    "explanation": "O Panenteísmo afirma que Deus está presente em todo o universo, mas transcende-o. Curiosidade: O Panenteísmo se diferencia do Panteísmo, que identifica Deus com o universo."
+  },
+  {
+    "id": "quiz-religiao-50",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual movimento religioso enfatiza a experiência mística e a união com o Divino através da contemplação e da prática ascética?",
+    "options": [
+      "Protestantismo",
+      "Catolicismo",
+      "Misticismo Cristão",
+      "Neopaganismo"
+    ],
+    "correctAnswer": "Misticismo Cristão",
+    "explanation": "O Misticismo Cristão busca uma união pessoal e direta com Deus. Curiosidade: Grandes figuras místicas incluem Santa Teresa de Ávila e São João da Cruz."
+  },
+  {
+    "id": "quiz-religiao-51",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a ramificação do Judaísmo que enfatiza a observância estrita da lei judaica e a manutenção de uma identidade separada da sociedade maior?",
+    "options": [
+      "Reforma",
+      "Conservador",
+      "Ortodoxo",
+      "Reconstrucionista"
+    ],
+    "correctAnswer": "Ortodoxo",
+    "explanation": "O Judaísmo Ortodoxo segue rigorosamente a Halakha (lei judaica). Curiosidade: Existem diferentes níveis de observância dentro do Judaísmo Ortodoxo."
+  },
+  {
+    "id": "quiz-religiao-52",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o nome do texto sagrado que contém os ensinamentos fundamentais do Zoroastrismo?",
+    "options": [
+      "Avesta",
+      "Zend-Avesta",
+      "Gathas",
+      "Yasna"
+    ],
+    "correctAnswer": "Avesta",
+    "explanation": "O Avesta contém hinos, liturgias e leis. Curiosidade: Parte do Avesta se perdeu ao longo do tempo."
+  },
+  {
+    "id": "quiz-religiao-53",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual religião é frequentemente associada à construção de estupas?",
+    "options": [
+      "Cristianismo",
+      "Islamismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "Estupas são estruturas que abrigam relíquias budistas. Curiosidade: Existem estupas de diversos tamanhos e estilos arquitetônicos."
+  },
+  {
+    "id": "quiz-religiao-54",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o nome do livro sagrado do Jainismo?",
+    "options": [
+      "Agamas",
+      "Upanishads",
+      "Vedas",
+      "Tripitaka"
+    ],
+    "correctAnswer": "Agamas",
+    "explanation": "Os Agamas contêm os ensinamentos dos 24 Tirthankaras. Curiosidade: Existem diferentes escolas de pensamento dentro do Jainismo, cada uma com suas próprias versões dos Agamas."
+  },
+  {
+    "id": "quiz-religiao-55",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o nome do fundador do Sikhismo?",
+    "options": [
+      "Mahavira",
+      "Buda",
+      "Guru Nanak",
+      "Zoroastro"
+    ],
+    "correctAnswer": "Guru Nanak",
+    "explanation": "Guru Nanak fundou o Sikhismo no século XV. Curiosidade: O Sikhismo é uma religião relativamente jovem comparada a outras grandes religiões."
+  },
+  {
+    "id": "quiz-religiao-56",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual religião originou-se na Índia e se espalhou pela Ásia e além, ensinando a atingir o nirvana?",
+    "options": [
+      "Zoroastrismo",
+      "Jainismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "O Budismo ensina a libertação do ciclo de renascimento através do Nirvana. Curiosidade: Existem diversas escolas e tradições dentro do Budismo."
+  },
+  {
+    "id": "quiz-religiao-57",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o conceito central da filosofia taoísta?",
+    "options": [
+      "Moksha",
+      "Nirvana",
+      "Tao",
+      "Karma"
+    ],
+    "correctAnswer": "Tao",
+    "explanation": "O Tao representa o caminho ou a ordem natural do universo. Curiosidade: O Taoísmo enfatiza a harmonia com a natureza e a vida simples."
+  },
+  {
+    "id": "quiz-religiao-58",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o festival judaico que celebra a libertação do Egito?",
+    "options": [
+      "Purim",
+      "Hanukkah",
+      "Shavuot",
+      "Pessach"
+    ],
+    "correctAnswer": "Pessach",
+    "explanation": "A Páscoa judaica celebra a libertação dos israelitas da escravidão no Egito. Curiosidade: É comemorado com um Seder especial."
+  },
+  {
+    "id": "quiz-religiao-59",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o nome do período de jejum e penitência de 40 dias observado na tradição cristã?",
+    "options": [
+      "Ramadã",
+      "Lent",
+      "Quaresma",
+      "Advento"
+    ],
+    "correctAnswer": "Quaresma",
+    "explanation": "A Quaresma é um período de reflexão e preparação para a Páscoa. Curiosidade: A data de início da Quaresma varia a cada ano."
+  },
+  {
+    "id": "quiz-religiao-60",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença teológica entre o calvinismo e o luteranismo?",
+    "options": [
+      "A natureza da eucaristia",
+      "A predestinação",
+      "O papel da bíblia",
+      "A autoridade papal"
+    ],
+    "correctAnswer": "A predestinação",
+    "explanation": "O Calvinismo enfatiza mais a predestinação divina do que o Luteranismo. Curiosidade:  Tanto o Calvinismo quanto o Luteranismo são ramos do Protestantismo."
+  },
+  {
+    "id": "quiz-religiao-61",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual corrente do pensamento islâmico enfatiza o raciocínio e a interpretação da lei islâmica através da razão?",
+    "options": [
+      "Sunismo",
+      "Xiismo",
+      "Sufismo",
+      "Ash'arismo"
+    ],
+    "correctAnswer": "Ash'arismo",
+    "explanation": "O Ash'arismo é uma escola de teologia islâmica que utiliza a razão na interpretação da lei islâmica. Curiosidade:  Outras escolas de pensamento islâmico podem priorizar diferentes métodos de interpretação."
+  },
+  {
+    "id": "quiz-religiao-62",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o nome do mês sagrado islâmico?",
+    "options": [
+      "Muharram",
+      "Ramadã",
+      "Shawwal",
+      "Dhul-Hijjah"
+    ],
+    "correctAnswer": "Ramadã",
+    "explanation": "Durante o Ramadã, os muçulmanos jejuam do nascer ao pôr do sol. Curiosidade:  O Ramadã é um mês de reflexão, oração e caridade."
+  },
+  {
+    "id": "quiz-religiao-63",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual a prática religiosa central no Sikhismo?",
+    "options": [
+      "Jejum",
+      "Oração",
+      "Meditação",
+      "Simran"
+    ],
+    "correctAnswer": "Simran",
+    "explanation": "Simran é a repetição de mantras e nomes sagrados. Curiosidade: A prática regular do Simran é considerada essencial para a vida espiritual Sikh."
+  },
+  {
+    "id": "quiz-religiao-64",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o conceito budista que se refere à ilusão ou sofrimento?",
+    "options": [
+      "Nirvana",
+      "Samsara",
+      "Dukkha",
+      "Karma"
+    ],
+    "correctAnswer": "Dukkha",
+    "explanation": "Dukkha é a realidade fundamental do sofrimento. Curiosidade:  A compreensão e superação do Dukkha são centrais para o caminho budista para a libertação."
+  },
+  {
+    "id": "quiz-religiao-65",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o significado do termo 'Sharia' no Islamismo?",
+    "options": [
+      "Caridade",
+      "Jejum",
+      "Lei islâmica",
+      "Peregrinação"
+    ],
+    "correctAnswer": "Lei islâmica",
+    "explanation": "A Sharia abrange os aspectos da vida diária, moral e religiosa dos muçulmanos. Curiosidade: A interpretação da Sharia varia entre diferentes escolas de pensamento islâmico."
+  },
+  {
+    "id": "quiz-religiao-66",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o conceito hindu que se refere à alma individual?",
+    "options": [
+      "Atman",
+      "Brahman",
+      "Karma",
+      "Moksha"
+    ],
+    "correctAnswer": "Atman",
+    "explanation": "Atman é a essência espiritual individual. Curiosidade:  O Hinduísmo propõe a unidade entre o Atman e o Brahman (alma cósmica)."
+  },
+  {
+    "id": "quiz-religiao-67",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual o nome da corrente mística islâmica que enfatiza a experiência direta de Deus através da contemplação e da prática espiritual?",
+    "options": [
+      "Sunismo",
+      "Xiismo",
+      "Sufismo",
+      "Hanbalismo"
+    ],
+    "correctAnswer": "Sufismo",
+    "explanation": "Os Sufis buscam a união com Deus através de práticas espirituais. Curiosidade: O Sufismo é caracterizado por diversas ordens e tradições."
   }
 ]

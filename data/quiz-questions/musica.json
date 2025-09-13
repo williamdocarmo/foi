@@ -530,5 +530,257 @@
     ],
     "correctAnswer": "Michael Jackson",
     "explanation": "Michael Jackson foi apelidado de 'Rei do Pop' por sua influência revolucionária na música pop, dança e vídeos musicais."
+  },
+  {
+    "id": "quiz-musica-39",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual gênero musical é frequentemente associado a danças animadas?",
+    "options": [
+      "Blues",
+      "Música Clássica",
+      "Música Disco",
+      "Jazz"
+    ],
+    "correctAnswer": "Música Disco",
+    "explanation": "A música Disco, popular na década de 70, era famosa por suas batidas dançantes e ritmos vibrantes. Curiosidade: A bola de espelhos é um elemento icônico das pistas de dança Disco."
+  },
+  {
+    "id": "quiz-musica-40",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual compositor famoso é conhecido pela sua ópera 'A Flauta Mágica'?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Bach",
+      "Haydn"
+    ],
+    "correctAnswer": "Mozart",
+    "explanation": "Wolfgang Amadeus Mozart compôs 'A Flauta Mágica', uma ópera de grande sucesso que integra elementos do teatro e da fantasia. Curiosidade: A ópera apresenta personagens emblemáticos, como a Rainha da Noite."
+  },
+  {
+    "id": "quiz-musica-41",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual a técnica vocal que consiste em produzir sons extremamente agudos, além da tessitura normal?",
+    "options": [
+      "Vibrato",
+      "Glissando",
+      "Falsete",
+      "Staccato"
+    ],
+    "correctAnswer": "Falsete",
+    "explanation": "O falsete é uma técnica vocal que permite atingir notas agudas que normalmente estariam fora da tessitura natural do cantor. Curiosidade: Muitos cantores utilizam o falsete para alcançar notas altas e adicionar variedade à sua performance."
+  },
+  {
+    "id": "quiz-musica-42",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Em qual década surgiu o movimento musical Punk?",
+    "options": [
+      "1950",
+      "1960",
+      "1970",
+      "1980"
+    ],
+    "correctAnswer": "1970",
+    "explanation": "O movimento Punk Rock surgiu na década de 1970, como uma reação ao rock progressivo e ao mainstream. Curiosidade: O movimento se caracterizava por letras contestadoras e uma estética DIY (faça você mesmo)."
+  },
+  {
+    "id": "quiz-musica-43",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual a escala musical com sete notas?",
+    "options": [
+      "Pentatônica",
+      "Tetratônica",
+      "Heptatônica",
+      "Octatônica"
+    ],
+    "correctAnswer": "Heptatônica",
+    "explanation": "A escala heptatônica é a escala diatônica, a base da música ocidental. Curiosidade: A escala diatônica contém intervalos maiores e menores, criando uma variedade melódica."
+  },
+  {
+    "id": "quiz-musica-44",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor barroco é conhecido por suas 'Suites para Violoncelo Solos'?",
+    "options": [
+      "Bach",
+      "Handel",
+      "Vivaldi",
+      "Telemann"
+    ],
+    "correctAnswer": "Bach",
+    "explanation": "Johann Sebastian Bach compôs as famosas 'Suites para Violoncelo Solos', obras complexas e tecnicamente desafiadoras. Curiosidade: As suites são consideradas uma das maiores obras do repertório violoncelístico."
+  },
+  {
+    "id": "quiz-musica-45",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é tipicamente usado no Jazz?",
+    "options": [
+      "Violino",
+      "Guitarra Clássica",
+      "Saxofone",
+      "Harpa"
+    ],
+    "correctAnswer": "Saxofone",
+    "explanation": "O saxofone é um instrumento de sopro fundamental no Jazz. Curiosidade:  Existem diversos tipos de saxofones, cada um com um timbre diferente."
+  },
+  {
+    "id": "quiz-musica-46",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual o nome do intervalo musical entre Dó e Sol?",
+    "options": [
+      "Terça Maior",
+      "Quarta Justa",
+      "Quinta Justa",
+      "Oitava"
+    ],
+    "correctAnswer": "Quinta Justa",
+    "explanation": "O intervalo entre Dó e Sol é uma quinta justa. Curiosidade: A quinta justa é um intervalo consonante muito importante na música."
+  },
+  {
+    "id": "quiz-musica-47",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido pelas suas complexas e dissonantes obras do período tardio?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Haydn",
+      "Schoenberg"
+    ],
+    "correctAnswer": "Schoenberg",
+    "explanation": "Arnold Schoenberg é conhecido por seu desenvolvimento da música atonal e dodecafônica. Curiosidade: Sua música desafiou as convenções harmônicas tradicionais."
+  },
+  {
+    "id": "quiz-musica-48",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual o nome do instrumento de percussão geralmente usado em orquestras?",
+    "options": [
+      "Bateria",
+      "Xilofone",
+      "Timbales",
+      "Tímpanos"
+    ],
+    "correctAnswer": "Tímpanos",
+    "explanation": "Os tímpanos são um conjunto de tambores de metal, usados para criar efeitos percussivos profundos e ricos em orquestras. Curiosidade: Os tímpanos podem ser afinados para produzir diferentes tons."
+  },
+  {
+    "id": "quiz-musica-49",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual o estilo musical conhecido por suas improvisações coletivas e geralmente utiliza instrumentos de sopro?",
+    "options": [
+      "Música Clássica",
+      "Reggae",
+      "Jazz",
+      "Rock"
+    ],
+    "correctAnswer": "Jazz",
+    "explanation": "O Jazz é famoso por suas improvisações coletivas, onde os músicos interagem e criam melodias e harmonias em conjunto. Curiosidade: O Jazz se originou nos Estados Unidos e se tornou um gênero musical internacionalmente conhecido."
+  },
+  {
+    "id": "quiz-musica-50",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor minimalismo é conhecido por suas peças repetitivas e hipnóticas?",
+    "options": [
+      "Philip Glass",
+      "Igor Stravinsky",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven"
+    ],
+    "correctAnswer": "Philip Glass",
+    "explanation": "Philip Glass é um dos compositores minimalistas mais importantes. Curiosidade: Suas peças utilizam estruturas repetitivas e transformações graduais, criando um efeito hipnótico."
+  },
+  {
+    "id": "quiz-musica-51",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual o instrumento de cordas conhecido pelo seu som profundo e grave?",
+    "options": [
+      "Violino",
+      "Viola",
+      "Violoncelo",
+      "Contrabaixo"
+    ],
+    "correctAnswer": "Contrabaixo",
+    "explanation": "O contrabaixo é o instrumento de cordas mais grave da família dos violinos. Curiosidade: Ele é essencial em diversos gêneros musicais, como o jazz e a música clássica."
+  },
+  {
+    "id": "quiz-musica-52",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual gênero musical se originou na Jamaica e é conhecido por suas batidas características?",
+    "options": [
+      "Blues",
+      "Salsa",
+      "Reggae",
+      "Funk"
+    ],
+    "correctAnswer": "Reggae",
+    "explanation": "O Reggae é um gênero musical originário da Jamaica, conhecido por sua batida característica em ritmo de offbeat. Curiosidade: Bob Marley é um dos artistas mais conhecidos de Reggae."
+  },
+  {
+    "id": "quiz-musica-53",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor contemporâneo é conhecido por sua ópera 'Nixon in China'?",
+    "options": [
+      "John Adams",
+      "Philip Glass",
+      "Steve Reich",
+      "John Cage"
+    ],
+    "correctAnswer": "John Adams",
+    "explanation": "John Adams é um compositor minimalista que alcançou fama mundial com sua ópera 'Nixon in China'. Curiosidade: A ópera aborda a histórica visita de Richard Nixon à China."
+  },
+  {
+    "id": "quiz-musica-54",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é um instrumento de percussão melódico?",
+    "options": [
+      "Bateria",
+      "Xilofone",
+      "Conga",
+      "Tamborim"
+    ],
+    "correctAnswer": "Xilofone",
+    "explanation": "O xilofone é um instrumento de percussão que utiliza placas de madeira para produzir sons musicais. Curiosidade: Existem diferentes tipos de xilofones, variando no tamanho e no número de notas."
+  },
+  {
+    "id": "quiz-musica-55",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual a diferença principal entre um concerto e uma sinfonia?",
+    "options": [
+      "O concerto é sempre para solista, a sinfonia para orquestra",
+      "O concerto é mais curto, a sinfonia mais longa",
+      "O concerto utiliza apenas instrumentos de corda, a sinfonia instrumentos de sopro",
+      "Não há uma diferença significativa"
+    ],
+    "correctAnswer": "O concerto é sempre para solista, a sinfonia para orquestra",
+    "explanation": "Concertos geralmente apresentam um solista com acompanhamento orquestral, enquanto sinfonias são obras para orquestra completa. Curiosidade: Existem concertos para vários instrumentos, como piano, violino, etc."
+  },
+  {
+    "id": "quiz-musica-56",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual o termo para o estudo da música e suas propriedades físicas?",
+    "options": [
+      "Harmonia",
+      "Rítmica",
+      "Acústica",
+      "Melodia"
+    ],
+    "correctAnswer": "Acústica",
+    "explanation": "A acústica é a ciência do som, incluindo sua produção, transmissão e efeitos. Curiosidade: O estudo da acústica é crucial para o desenvolvimento e aperfeiçoamento de instrumentos musicais."
   }
 ]
