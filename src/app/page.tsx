@@ -46,13 +46,13 @@ function CategoryCard({ category, curiositiesCount, quizzesCount }: CategoryCard
       </CardContent>
       <div className="mt-auto grid grid-cols-2 gap-2 p-4">
         <Button variant="outline" asChild disabled={curiositiesCount === 0}>
-          <Link href={`/curiosity/${category.id}`}>
+          <Link href={`/curiosity/${category.id}`} aria-label={`Explorar curiosidades sobre ${category.name}`}>
             <Rocket className="mr-2 h-4 w-4" />
             Explorar
           </Link>
         </Button>
         <Button asChild disabled={quizzesCount === 0}>
-          <Link href={`/quiz/${category.id}`}>
+          <Link href={`/quiz/${category.id}`} aria-label={`Iniciar quiz sobre ${category.name}`}>
             <HelpCircle className="mr-2 h-4 w-4" />
             Quiz
           </Link>

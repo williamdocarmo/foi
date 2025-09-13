@@ -190,7 +190,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                 </div>
             </CardContent>
             <CardFooter className="flex-col gap-2 sm:flex-row">
-                 <Button onClick={restartQuiz} className="w-full">
+                 <Button onClick={restartQuiz} className="w-full" aria-label="Jogar novamente">
                     <Repeat className="mr-2 h-4 w-4" />
                     Jogar Novamente
                 </Button>
@@ -236,6 +236,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                 )}
                 onClick={() => handleAnswerSelect(option)}
                 disabled={isAnswered}
+                aria-label={`Resposta: ${option}`}
               >
                 <div className="flex w-full items-center justify-between">
                     <span>{option}</span>
@@ -254,7 +255,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
       </CardContent>
        <CardFooter className="flex-col sm:flex-row justify-end gap-2">
         {stats.combos > 0 && !isAnswered && (
-            <Button variant="secondary" size="sm" onClick={useCombo} disabled={isAnswered}>
+            <Button variant="secondary" size="sm" onClick={useCombo} disabled={isAnswered} aria-label={`Usar combo para pular pergunta. Combos restantes: ${stats.combos}`}>
                <HelpCircle className="mr-2 h-4 w-4"/> Usar Combo ({stats.combos})
             </Button>
         )}

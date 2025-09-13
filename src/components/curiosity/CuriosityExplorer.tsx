@@ -205,7 +205,7 @@ export default function CuriosityExplorer({
           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
-          <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0}>
+          <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0} aria-label="Curiosidade anterior">
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
            {currentIndex === curiosities.length - 1 ? (
@@ -216,7 +216,7 @@ export default function CuriosityExplorer({
                 </Link>
               </Button>
             ) : (
-               <Button onClick={handleNext}>
+               <Button onClick={handleNext} aria-label="Próxima curiosidade">
                   Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
                </Button>
             )}
@@ -224,7 +224,7 @@ export default function CuriosityExplorer({
       </Card>
       
       <div className="flex justify-center">
-         <Button variant="ghost" onClick={surpriseMe}>
+         <Button variant="ghost" onClick={surpriseMe} aria-label="Surpreenda-me com uma curiosidade aleatória">
             <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me com uma curiosidade aleatória
          </Button>
       </div>
