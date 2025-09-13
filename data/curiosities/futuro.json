@@ -1,0 +1,1647 @@
+[
+  {
+    "title": "Cidades Subterrâneas",
+    "content": "O aumento da população e as mudanças climáticas podem impulsionar a construção de cidades subterrâneas no futuro.",
+    "funFact": "Algumas cidades subterrâneas já existem, como Coober Pedy na Austrália.",
+    "id": "futuro-1",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Comida Cultivada em Laboratório",
+    "content": "A carne e outros alimentos cultivados em laboratório podem se tornar mais comuns, reduzindo o impacto ambiental da pecuária.",
+    "id": "futuro-2",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Transporte Hiperloop",
+    "content": "O sistema de transporte hiperloop, que utiliza cápsulas que se movem em tubos de vácuo, pode revolucionar as viagens de longa distância.",
+    "id": "futuro-3",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Energia de Fusão Nuclear",
+    "content": "A energia de fusão nuclear, que imita o processo do sol, pode fornecer uma fonte de energia limpa e quase inesgotável.",
+    "id": "futuro-4",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Realidade Virtual e Aumentada Imersivas",
+    "content": "A RV e RA podem se tornar tão realistas que será difícil distinguir do mundo real, com aplicações em diversos setores.",
+    "id": "futuro-5",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Implantes Cerebrais",
+    "content": "Implantes cerebrais podem melhorar funções cognitivas, curar doenças neurológicas e até permitir a comunicação direta com máquinas.",
+    "id": "futuro-6",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Internet Quântica",
+    "content": "A internet quântica pode fornecer uma comunicação segura e inquebrável, revolucionando a segurança de dados.",
+    "id": "futuro-7",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Turismo Espacial",
+    "content": "O turismo espacial pode se tornar uma realidade, permitindo que mais pessoas experimentem a viagem ao espaço.",
+    "id": "futuro-8",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Robôs Humanoides Avançados",
+    "content": "Robôs humanoides podem se tornar indistinguíveis de humanos, desempenhando funções complexas na sociedade.",
+    "id": "futuro-9",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Impressão 3D de Órgãos",
+    "content": "A impressão 3D de órgãos pode revolucionar a medicina, oferecendo uma solução para a escassez de órgãos para transplantes.",
+    "id": "futuro-10",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Metaversos Integrados",
+    "content": "Vários metaversos podem se integrar, criando um ambiente virtual global interconectado.",
+    "id": "futuro-11",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Inteligência Artificial Generalizada",
+    "content": "A IAG, uma IA com capacidade cognitiva comparável à humana, poderia trazer avanços tecnológicos sem precedentes, mas também riscos significativos.",
+    "id": "futuro-12",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Nanorrobótica na Medicina",
+    "content": "Nanorrobôs podem ser usados para tratar doenças no nível celular, oferecendo terapias mais precisas e eficazes.",
+    "id": "futuro-13",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Agricultura Vertical",
+    "content": "A agricultura vertical, que utiliza prédios para cultivar alimentos, pode aumentar a produção e reduzir a pegada de carbono.",
+    "id": "futuro-14",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Recursos Espaciais",
+    "content": "A exploração espacial pode levar à extração de recursos valiosos, como água e minerais, de asteroides e outros corpos celestes.",
+    "id": "futuro-15",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Biotecnologia Aplicada à Agricultura",
+    "content": "A biotecnologia pode desenvolver plantas mais resistentes a pragas e mudanças climáticas, melhorando a segurança alimentar.",
+    "id": "futuro-16",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novas Fontes de Energia Renováveis",
+    "content": "O desenvolvimento de novas tecnologias de energia renovável, como a energia das ondas e a energia geotérmica, pode reduzir a dependência de combustíveis fósseis.",
+    "id": "futuro-17",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Transporte Autônomo",
+    "content": "Veículos autônomos podem revolucionar o transporte, aumentando a segurança e a eficiência.",
+    "id": "futuro-18",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Cidades Inteligentes",
+    "content": "Cidades inteligentes, que usam tecnologia para otimizar o funcionamento urbano, podem melhorar a qualidade de vida dos cidadãos.",
+    "id": "futuro-19",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Educação Personalizada",
+    "content": "A tecnologia pode permitir a criação de planos de estudo personalizados, adaptando-se às necessidades individuais de cada aluno.",
+    "id": "futuro-20",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Trabalho Remoto generalizado",
+    "content": "O trabalho remoto pode se tornar a norma, oferecendo mais flexibilidade e equilíbrio entre vida profissional e pessoal.",
+    "id": "futuro-21",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Aumento da expectativa de vida",
+    "content": "Avanços na medicina e na biotecnologia podem levar a um aumento significativo da expectativa de vida humana.",
+    "id": "futuro-22",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Realidade Mista",
+    "content": "A realidade mista combina elementos do mundo real e virtual, criando experiências imersivas e interativas.",
+    "id": "futuro-23",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Big Data e Previsibilidade",
+    "content": "O Big Data pode ser usado para prever e prevenir desastres naturais, pandemias e outras crises.",
+    "id": "futuro-24",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Sensores Corporais Avançados",
+    "content": "Sensores vestíveis e implantáveis podem monitorar constantemente a saúde, alertando sobre potenciais problemas.",
+    "id": "futuro-25",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Medicina Regenerativa",
+    "content": "A medicina regenerativa pode reparar ou substituir tecidos e órgãos danificados, revolucionando o tratamento de doenças.",
+    "id": "futuro-26",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Inteligência Artificial na Arte",
+    "content": "A IA pode auxiliar artistas na criação de novas obras de arte, explorando novas formas de expressão.",
+    "id": "futuro-27",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Computação Quântica",
+    "content": "A computação quântica pode resolver problemas complexos que são impossíveis de resolver com os computadores atuais.",
+    "id": "futuro-28",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Colonização de outros planetas",
+    "content": "A colonização de outros planetas pode se tornar uma realidade, oferecendo uma solução para a superpopulação da Terra.",
+    "id": "futuro-29",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Energia Solar Espacial",
+    "content": "A energia solar espacial, que coleta energia solar no espaço e a transmite para a Terra, pode fornecer uma fonte de energia limpa e abundante.",
+    "id": "futuro-30",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Biocombustíveis Avançados",
+    "content": "Biocombustíveis avançados, produzidos a partir de algas e outras fontes renováveis, podem substituir os combustíveis fósseis.",
+    "id": "futuro-31",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Materiais Auto-Reparadores",
+    "content": "Materiais auto-reparadores podem prolongar a vida útil de produtos e infraestruturas, reduzindo o desperdício.",
+    "id": "futuro-32",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Baterias de Estado Sólido",
+    "content": "Baterias de estado sólido podem ter uma maior densidade de energia e maior segurança do que as baterias de íon de lítio atuais.",
+    "id": "futuro-33",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Biometria Avançada",
+    "content": "A biometria avançada pode se tornar mais precisa e segura, sendo utilizada para autenticação e segurança.",
+    "id": "futuro-34",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Redes Neurais Profundas",
+    "content": "Redes neurais profundas podem processar grandes quantidades de dados, impulsionando avanços em diversos campos.",
+    "id": "futuro-35",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Internet das Coisas (IoT) Expandida",
+    "content": "A IoT se expandirá para conectar bilhões de dispositivos, criando um mundo altamente interconectado.",
+    "id": "futuro-36",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Blockchain além das Criptomoedas",
+    "content": "A tecnologia blockchain pode revolucionar diversos setores, como saúde, supply chain e votação.",
+    "id": "futuro-37",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Computação Cognitiva",
+    "content": "A computação cognitiva pode simular o raciocínio humano, auxiliando na tomada de decisões complexas.",
+    "id": "futuro-38",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Educação Virtual Imersiva",
+    "content": "As salas de aula virtuais podem oferecer experiências de aprendizagem imersivas e interativas.",
+    "id": "futuro-39",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novos Modelos de Governo",
+    "content": "A tecnologia pode levar a novos modelos de governo mais eficientes e transparentes.",
+    "id": "futuro-40",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Desenvolvimento Sustentável Integrado",
+    "content": "O desenvolvimento sustentável será integrado em todos os aspectos da vida, da economia à energia.",
+    "id": "futuro-41",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Medicina Preventiva Personalizada",
+    "content": "A medicina preventiva personalizada pode prever e prevenir doenças com base no perfil genético individual.",
+    "id": "futuro-42",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Inteligência Artificial Explicável",
+    "content": "A IA explicável permitirá entender como as IAs tomam decisões, aumentando a confiança e a transparência.",
+    "id": "futuro-43",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Robótica na Exploração Oceânica",
+    "content": "Robôs submarinos podem explorar as profundezas oceânicas, revelando os mistérios do fundo do mar.",
+    "id": "futuro-44",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Escarcidade de Água",
+    "content": "Novas tecnologias de dessalinização e gestão de recursos hídricos prometem acabar com a escassez de água potável em muitas regiões do mundo.",
+    "id": "futuro-45",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era do Genoma Personalizado",
+    "content": "Medicamentos e tratamentos serão cada vez mais personalizados, baseados em nosso código genético individual.",
+    "id": "futuro-46",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novos Materiais Biodegradáveis",
+    "content": "Plásticos e outros materiais biodegradáveis ​​e compostáveis revolucionarão a indústria e a gestão de resíduos.",
+    "id": "futuro-47",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Revolução da Bioimpressão 4D",
+    "content": "A bioimpressão 4D permitirá a criação de estruturas complexas que se auto-montam e respondem a estímulos externos.",
+    "id": "futuro-48",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Inteligência Artificial para Criar Arte",
+    "content": "IA será usada para criar novas formas de arte, música e literatura, expandindo as fronteiras da criatividade humana.",
+    "id": "futuro-49",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Ascensão da Biologia Sintética",
+    "content": "A biologia sintética permitirá a criação de organismos vivos com funções específicas, revolucionando a indústria e a medicina.",
+    "id": "futuro-50",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura de Precisão",
+    "content": "Sensores, drones e IA otimizarão a produção agrícola, reduzindo o uso de recursos e aumentando a produtividade.",
+    "id": "futuro-51",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Computadores Biológicos",
+    "content": "Computadores baseados em sistemas biológicos serão mais eficientes e consumirão menos energia do que os computadores eletrônicos atuais.",
+    "id": "futuro-52",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Declínio das Doenças Infecciosas",
+    "content": "Novas vacinas e tratamentos farão com que muitas doenças infecciosas sejam erradicadas ou controladas.",
+    "id": "futuro-53",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Economia Circular em Ação",
+    "content": "A economia circular reduzirá o desperdício e os impactos ambientais, promovendo a reutilização e reciclagem de materiais.",
+    "id": "futuro-54",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Exploração do Oceano Profundo",
+    "content": "Novas tecnologias permitirão a exploração e o mapeamento detalhado do oceano profundo, revelando novas espécies e recursos.",
+    "id": "futuro-55",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Desenvolvimento de Novas Vacinas",
+    "content": "Vacinas eficazes contra doenças como o câncer, Alzheimer e HIV serão desenvolvidas.",
+    "id": "futuro-56",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Redes de Energia Inteligentes",
+    "content": "Redes elétricas inteligentes otimizarão a distribuição e o consumo de energia, reduzindo desperdícios e custos.",
+    "id": "futuro-57",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Educação",
+    "content": "A educação será personalizada de acordo com as necessidades e estilos de aprendizagem individuais.",
+    "id": "futuro-58",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Pobreza Extrema?",
+    "content": "O avanço tecnológico e a cooperação global podem levar ao fim da pobreza extrema em muitas regiões do mundo.",
+    "id": "futuro-59",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho Humano",
+    "content": "A IA e a automação mudarão o mercado de trabalho, criando novas oportunidades e exigindo novas habilidades.",
+    "id": "futuro-60",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novas Formas de Armazenamento de Energia",
+    "content": "Novas tecnologias de armazenamento de energia, como baterias de fluxo e hidrogênio, serão essenciais para a transição energética.",
+    "id": "futuro-61",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Surgimento de Novas Profissões",
+    "content": "O avanço tecnológico criará novas profissões que ainda não podemos imaginar.",
+    "id": "futuro-62",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Construções Sustentáveis e Ecoeficientes",
+    "content": "Edifícios mais sustentáveis e eficientes em termos de energia serão construídos para minimizar o impacto ambiental.",
+    "id": "futuro-63",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era dos Materiais Inteligentes",
+    "content": "Materiais que respondem a estímulos externos, como temperatura e luz, serão usados em diversas aplicações.",
+    "id": "futuro-64",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Conexão Universal de Alta Velocidade",
+    "content": "O acesso à internet de alta velocidade será universal, conectando bilhões de pessoas em todo o mundo.",
+    "id": "futuro-65",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Monitoração da Saúde em Tempo Real",
+    "content": "Dispositivos vestíveis e sensores permitirão a monitoração da saúde em tempo real, permitindo intervenções precoces.",
+    "id": "futuro-66",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Medicina Preventiva",
+    "content": "A medicina preventiva será personalizada, focando na prevenção de doenças com base em fatores de risco individuais.",
+    "id": "futuro-67",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Exploração do Espaço Profundo",
+    "content": "Missões espaciais explorarão planetas e luas distantes, em busca de vida e recursos.",
+    "id": "futuro-68",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Desenvolvimento da Engenharia Genética",
+    "content": "A engenharia genética permitirá a cura de doenças genéticas e a criação de novas espécies.",
+    "id": "futuro-69",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Gestão Inteligente de Resíduos",
+    "content": "Sistemas inteligentes de gestão de resíduos minimizarão o impacto ambiental e recuperarão recursos valiosos.",
+    "id": "futuro-70",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Criogenia para Preservação de Órgãos",
+    "content": "A criogenia será usada para preservar órgãos para transplante por longos períodos.",
+    "id": "futuro-71",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Ciência Cidadã em Ação",
+    "content": "Cidadãos comuns participarão ativamente de pesquisas científicas, contribuindo com dados e observações.",
+    "id": "futuro-72",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Transformação da Mobilidade Urbana",
+    "content": "Novas formas de transporte público sustentáveis e eficientes transformarão as cidades.",
+    "id": "futuro-73",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Integração da IA em Todas as Áreas",
+    "content": "A IA será integrada em praticamente todos os setores, otimizando processos e tomando decisões.",
+    "id": "futuro-74",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Cultura Globalizada e Hibridizada",
+    "content": "A globalização levará a uma cultura mais hibridizada, com a mistura de diferentes tradições e costumes.",
+    "id": "futuro-75",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Democratização do Acesso à Informação",
+    "content": "O acesso à informação será mais democrático e equitativo, com o uso de tecnologias que superam barreiras geográficas.",
+    "id": "futuro-76",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novos Modelos de Governança Global",
+    "content": "Novos modelos de governança global serão necessários para lidar com os desafios da globalização.",
+    "id": "futuro-77",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Desenvolvimento de Biomateriais Inteligentes",
+    "content": "Biomateriais inteligentes serão capazes de se adaptar às necessidades do corpo humano, melhorando a qualidade de vida.",
+    "id": "futuro-78",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da Energia Limpa e Abundante",
+    "content": "A energia limpa e renovável será abundante e acessível para todos, reduzindo a dependência de combustíveis fósseis.",
+    "id": "futuro-79",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Simbiose Homem-Máquina",
+    "content": "A simbiose homem-máquina permitirá o aumento das capacidades físicas e cognitivas dos seres humanos.",
+    "id": "futuro-80",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Fome Global?",
+    "content": "A tecnologia e a inovação na agricultura podem ajudar a acabar com a fome global.",
+    "id": "futuro-81",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Cura do Câncer?",
+    "content": "Novos tratamentos e terapias podem levar à cura de diferentes tipos de câncer.",
+    "id": "futuro-82",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novas Fronteiras na Neurociência",
+    "content": "Descobertas na neurociência levarão a novas formas de tratar doenças neurológicas e melhorar a saúde mental.",
+    "id": "futuro-83",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Reconstrução de Ecossistemas Degradados",
+    "content": "Novas tecnologias e estratégias serão usadas para reconstruir ecossistemas degradados e restaurar a biodiversidade.",
+    "id": "futuro-84",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Exploração de Asteroides",
+    "content": "Asteroides serão explorados em busca de recursos valiosos como metais e água.",
+    "id": "futuro-85",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Moda",
+    "content": "A moda será cada vez mais personalizada, com roupas feitas sob medida para cada indivíduo.",
+    "id": "futuro-86",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da Biomimética Avançada",
+    "content": "A biomimética permitirá o desenvolvimento de novas tecnologias inspiradas na natureza.",
+    "id": "futuro-87",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Privacidade de Dados",
+    "content": "Com a crescente coleta de dados, a proteção da privacidade individual se tornará ainda mais crucial. Novas tecnologias e regulamentações serão essenciais para equilibrar inovação e segurança.",
+    "id": "futuro-88",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Evolução da Democracia Digital",
+    "content": "O voto eletrônico e plataformas de participação cidadã online poderão revolucionar a forma como as democracias funcionam, mas também apresentarão desafios em relação à segurança e à inclusão digital.",
+    "id": "futuro-89",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Impacto da IA na Justiça",
+    "content": "A IA poderá auxiliar na análise de grandes volumes de dados jurídicos, mas também levanta preocupações sobre imparcialidade e a possibilidade de algoritmos tendenciosos.",
+    "id": "futuro-90",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho Criativo",
+    "content": "A IA poderá automatizar tarefas repetitivas, mas a criatividade e a inteligência emocional humana continuarão sendo essenciais em muitas profissões.",
+    "id": "futuro-91",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Psicologia do Metaverso",
+    "content": "A imersão em mundos virtuais poderá ter impactos significativos na saúde mental e no bem-estar psicológico das pessoas.  O estudo da interação humano-computador será crucial.",
+    "id": "futuro-92",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Ética da Engenharia Genética",
+    "content": "A edição genética humana levanta questões éticas complexas sobre consentimento, justiça e os limites da intervenção humana na natureza.",
+    "id": "futuro-93",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Desenvolvimento da Neurotecnologia",
+    "content": "Interfaces cérebro-computador poderão revolucionar a interação humana com a tecnologia, mas também trazem dilemas éticos sobre privacidade mental e controle.",
+    "id": "futuro-94",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Segurança Cibernética",
+    "content": "À medida que a tecnologia evolui, novas ameaças cibernéticas surgirão, exigindo a constante inovação em sistemas de segurança e defesa.",
+    "id": "futuro-95",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Impacto da Automação na Economia",
+    "content": "A automação poderá deslocar trabalhadores de algumas áreas, exigindo a adaptação do mercado de trabalho e a implementação de políticas de requalificação.",
+    "id": "futuro-96",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Alimentação Sustentável",
+    "content": "Soluções inovadoras serão necessárias para alimentar uma população crescente com métodos de produção mais sustentáveis e eficientes.",
+    "id": "futuro-97",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Papel da Biologia Sintética na Indústria",
+    "content": "A criação de organismos sintéticos poderá revolucionar a produção de materiais, medicamentos e outras substâncias, mas exige uma abordagem responsável.",
+    "id": "futuro-98",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Gestão de Recursos Hídricos no Futuro",
+    "content": "Novas tecnologias de dessalinização e gestão eficiente de recursos hídricos serão cruciais para enfrentar a escassez de água.",
+    "id": "futuro-99",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Exploração Ártica",
+    "content": "O derretimento do gelo ártico abre novas possibilidades de exploração de recursos, mas também acentua as preocupações ambientais e geopolíticas.",
+    "id": "futuro-100",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro das Relações Internacionais",
+    "content": "A globalização e a interdependência crescente entre nações exigem novas formas de cooperação internacional para enfrentar desafios globais.",
+    "id": "futuro-101",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Evolução da Arte Digital",
+    "content": "Novas tecnologias de criação e exibição de arte digital irão expandir as fronteiras da expressão artística.",
+    "id": "futuro-102",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Medicina de Precisão",
+    "content": "Tratamentos médicos personalizados, baseados no genoma individual, poderão revolucionar o cuidado com a saúde.",
+    "id": "futuro-103",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Música",
+    "content": "A IA poderá compor músicas, mas a emoção e a singularidade da expressão humana continuarão a ser valorizadas.",
+    "id": "futuro-104",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Integração da IA na Educação",
+    "content": "A IA poderá auxiliar professores e personalizar o aprendizado, mas o papel do professor humano continua fundamental.",
+    "id": "futuro-105",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Arquitetura Sustentável",
+    "content": "Novos materiais e tecnologias de construção serão necessários para criar edifícios mais eficientes e integrados ao meio ambiente.",
+    "id": "futuro-106",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro das Cidades Costeiras",
+    "content": "As cidades costeiras precisarão se adaptar à elevação do nível do mar e aos eventos climáticos extremos.",
+    "id": "futuro-107",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Gestão de Desastres Naturais no Futuro",
+    "content": "Novas tecnologias de previsão e resposta a desastres naturais serão essenciais para minimizar os danos e salvar vidas.",
+    "id": "futuro-108",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cultura Popular",
+    "content": "As tendências culturais serão cada vez mais influenciadas pela tecnologia e pela globalização.",
+    "id": "futuro-109",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Impacto da IA no Esporte",
+    "content": "A IA poderá ser utilizada para melhorar o desempenho dos atletas e a experiência dos espectadores.",
+    "id": "futuro-110",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Moda Sustentável",
+    "content": "A indústria da moda precisará se adaptar para reduzir seu impacto ambiental e promover práticas mais sustentáveis.",
+    "id": "futuro-111",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Comércio Eletrônico",
+    "content": "A experiência de compra online será cada vez mais personalizada e integrada à realidade aumentada e virtual.",
+    "id": "futuro-112",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Turismo Responsável",
+    "content": "O turismo precisará se adaptar para minimizar seu impacto ambiental e social, promovendo o desenvolvimento sustentável das comunidades locais.",
+    "id": "futuro-113",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Geração de Energia Geotérmica",
+    "content": "A exploração da energia geotérmica poderá se tornar uma fonte de energia limpa e sustentável cada vez mais importante.",
+    "id": "futuro-114",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Segurança Alimentar Global",
+    "content": "Novas tecnologias e práticas agrícolas serão essenciais para garantir o acesso a alimentos saudáveis e nutritivos para todos.",
+    "id": "futuro-115",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Logística e Distribuição",
+    "content": "A automação e a inteligência artificial transformarão a maneira como os produtos são transportados e distribuídos.",
+    "id": "futuro-116",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Resíduos Sólidos",
+    "content": "Novas tecnologias de reciclagem e tratamento de resíduos serão essenciais para reduzir a poluição e promover a economia circular.",
+    "id": "futuro-117",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Pesquisa Espacial",
+    "content": "A exploração espacial continuará a fornecer novas descobertas científicas e tecnológicas.",
+    "id": "futuro-118",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Telemedicina",
+    "content": "A telemedicina expandirá o acesso a cuidados de saúde de qualidade, especialmente em áreas remotas.",
+    "id": "futuro-119",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biodiversidade",
+    "content": "A conservação da biodiversidade será crucial para a saúde do planeta e o bem-estar humano.",
+    "id": "futuro-120",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Oceano",
+    "content": "A proteção dos oceanos será essencial para garantir a saúde dos ecossistemas marinhos e os recursos que eles fornecem.",
+    "id": "futuro-121",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Ar Limpo",
+    "content": "Soluções inovadoras para reduzir a poluição do ar serão essenciais para melhorar a qualidade de vida nas cidades.",
+    "id": "futuro-122",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Habitação Social",
+    "content": "Soluções inovadoras em habitação serão essenciais para garantir o acesso a moradias dignas para todos.",
+    "id": "futuro-123",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Acesso à Água Potável",
+    "content": "Novas tecnologias e estratégias de gestão de recursos hídricos serão essenciais para garantir o acesso à água potável para todos.",
+    "id": "futuro-124",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Mobilidade Urbana Sustentável",
+    "content": "Novos modelos de transporte público e soluções de mobilidade sustentável serão essenciais para reduzir a congestionamento e a poluição nas cidades.",
+    "id": "futuro-125",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Ciência Cidadã",
+    "content": "A participação da sociedade na ciência e na inovação será cada vez mais importante para solucionar desafios globais.",
+    "id": "futuro-126",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho Colaborativo",
+    "content": "Plataformas online facilitarão a colaboração global, permitindo que pessoas de diferentes lugares trabalhem juntas em projetos complexos.",
+    "funFact": "A colaboração remota já aumentou significativamente a produtividade em muitas indústrias.",
+    "id": "futuro-127",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da Personalização Genética",
+    "content": "Avanços na edição genética permitirão a personalização de tratamentos médicos e prevenção de doenças com base no perfil genético individual.",
+    "funFact": "A CRISPR-Cas9, uma técnica de edição genética, revolucionou o campo da biotecnologia.",
+    "id": "futuro-128",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Energia Oceânica",
+    "content": "O aproveitamento da energia das ondas e das marés se tornará uma fonte significativa de energia renovável.",
+    "funFact": "A energia das ondas é uma fonte de energia limpa e sustentável, ainda pouco explorada.",
+    "id": "futuro-129",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Aumento da Vida Selvagem Urbana",
+    "content": "Cidades mais verdes e sustentáveis atrairão mais animais e plantas, criando ecossistemas urbanos mais ricos.",
+    "funFact": "Já existem projetos que integram a natureza no planejamento urbano para melhorar a qualidade de vida.",
+    "id": "futuro-130",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Declínio do Consumo de Carne",
+    "content": "Alternativas à carne, como proteínas cultivadas em laboratório e alimentos à base de plantas, ganharão popularidade, reduzindo o consumo de carne animal.",
+    "funFact": "O cultivo de carne em laboratório é uma alternativa mais sustentável do que o abate de animais.",
+    "id": "futuro-131",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Obsolescência Programada?",
+    "content": "A pressão da sociedade por produtos mais duráveis e sustentáveis pode levar ao fim da obsolescência programada de eletrônicos e outros bens de consumo.",
+    "funFact": "Leis e regulamentações estão sendo implementadas para combater a obsolescência programada.",
+    "id": "futuro-132",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Biomateriais para Construção",
+    "content": "Materiais de construção biodegradáveis e sustentáveis, como tijolos de cogumelos e concreto de algas, serão amplamente utilizados.",
+    "funFact": "A utilização de biomateriais pode diminuir a pegada de carbono da indústria da construção.",
+    "id": "futuro-133",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Monitoramento Ambiental Global",
+    "content": "Redes de sensores espalhadas pelo mundo monitorarão a qualidade do ar, da água e do solo em tempo real, auxiliando na prevenção de desastres ambientais.",
+    "funFact": "A IoT (Internet das Coisas) desempenhará um papel crucial na monitoração ambiental.",
+    "id": "futuro-134",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cibersegurança",
+    "content": "Novas tecnologias de segurança cibernética, como a criptografia quântica, serão essenciais para proteger dados em um mundo cada vez mais conectado.",
+    "funFact": "A criptografia quântica promete maior segurança que os métodos tradicionais.",
+    "id": "futuro-135",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Educação Baseada em IA",
+    "content": "A inteligência artificial personalizará o aprendizado, adaptando-se ao ritmo e estilo de cada aluno.",
+    "funFact": "Plataformas de educação online já utilizam IA para personalizar o conteúdo e o feedback.",
+    "id": "futuro-136",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Escassez de Terras Raras?",
+    "content": "Novos métodos de extração e reciclagem, além de materiais substitutos, poderão reduzir a dependência de terras raras.",
+    "funFact": "Terras raras são essenciais para diversos dispositivos eletrônicos, mas sua extração tem impactos ambientais.",
+    "id": "futuro-137",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Aumento da Personalização da Moda",
+    "content": "A impressão 3D e outras tecnologias de personalização permitirão a criação de roupas sob medida para cada indivíduo.",
+    "funFact": "A moda personalizada já está surgindo, com empresas oferecendo serviços de ajustes e customização.",
+    "id": "futuro-138",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Mobilidade Aérea Urbana",
+    "content": "Veículos aéreos autônomos, como drones e táxis voadores, revolucionarão o transporte urbano.",
+    "funFact": "Prototipos de táxis voadores já estão em fase de testes em algumas cidades.",
+    "id": "futuro-139",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era da Biologia Sintética",
+    "content": "A biologia sintética permitirá a criação de novas formas de vida e a modificação de organismos existentes para fins específicos.",
+    "funFact": "A biologia sintética tem potencial para revolucionar a medicina, a agricultura e a indústria.",
+    "id": "futuro-140",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Democratização do Espaço",
+    "content": "O custo mais baixo do acesso ao espaço poderá tornar o turismo espacial e a pesquisa científica espacial mais acessíveis.",
+    "funFact": "Empresas privadas estão investindo em tecnologias para reduzir o custo dos lançamentos espaciais.",
+    "id": "futuro-141",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "Novas Abordagens para o Tratamento do Câncer",
+    "content": "Terapias personalizadas, imunoterapia e outras abordagens inovadoras revolucionarão o tratamento do câncer.",
+    "funFact": "A imunoterapia, que utiliza o próprio sistema imunológico do paciente para combater o câncer, tem apresentado resultados promissores.",
+    "id": "futuro-142",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Recursos Hídricos",
+    "content": "Tecnologias avançadas de dessalinização, reuso de água e conservação de água serão essenciais para garantir o acesso à água potável.",
+    "funFact": "A dessalinização é uma tecnologia que pode transformar a água salgada em água potável, mas ainda é cara e consome muita energia.",
+    "id": "futuro-143",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Era das Cidades Sustentáveis",
+    "content": "Cidades projetadas para reduzir sua pegada de carbono, otimizar o uso de recursos e melhorar a qualidade de vida.",
+    "funFact": "Muitas cidades já estão implementando projetos de sustentabilidade urbana.",
+    "id": "futuro-144",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho Autônomo",
+    "content": "A crescente automação e a tecnologia digital estão impulsionando o crescimento do trabalho autônomo, criando novas oportunidades e desafios para os trabalhadores.",
+    "id": "futuro-145",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Impacto da Biotecnologia no Esporte",
+    "content": "A biotecnologia está revolucionando o esporte, desde aprimoramento do desempenho até tratamentos mais eficazes para lesões.",
+    "id": "futuro-146",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia Geotérmica",
+    "content": "A energia geotérmica está se tornando uma fonte de energia renovável mais acessível e sustentável, com potencial para alimentar cidades inteiras.",
+    "id": "futuro-147",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Bioinformática",
+    "content": "A bioinformática desempenhará um papel crucial na análise de dados genômicos complexos, acelerando o desenvolvimento de novos medicamentos e tratamentos personalizados.",
+    "id": "futuro-148",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Genética Sintética",
+    "content": "A criação de novas sequências de DNA abrirá caminho para novas formas de combater doenças e produzir materiais inovadores.",
+    "id": "futuro-149",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Ciência de Dados",
+    "content": "A análise massiva de dados ajudará a prever e mitigar crises futuras, desde desastres naturais até pandemias.",
+    "id": "futuro-150",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Design Genético",
+    "content": "A edição de genes poderá ser utilizada para prevenir doenças hereditárias e melhorar a saúde humana em geral.",
+    "id": "futuro-151",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia das Ondas",
+    "content": "A exploração da energia cinética das ondas do mar se tornará uma fonte de energia renovável significativa.",
+    "id": "futuro-152",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Proteção Ambiental",
+    "content": "Tecnologias inovadoras desempenharão um papel chave na recuperação de ecossistemas e na mitigação das mudanças climáticas.",
+    "id": "futuro-153",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Reciclagem Avançada",
+    "content": "Novos processos de reciclagem permitirão a recuperação eficiente de materiais e recursos, minimizando o desperdício.",
+    "id": "futuro-154",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Turismo Sustentável",
+    "content": "Experiências turísticas focadas na natureza e na preservação cultural dominarão o setor.",
+    "id": "futuro-155",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Governança Global",
+    "content": "Novos modelos de governança global buscarão soluções colaborativas para problemas transnacionais.",
+    "id": "futuro-156",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Comércio Justo",
+    "content": "Modelos de comércio que garantam a equidade e a sustentabilidade se tornarão a norma.",
+    "id": "futuro-157",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura Orgânica",
+    "content": "A agricultura orgânica se expandirá significativamente, atendendo à crescente demanda por alimentos saudáveis e sustentáveis.",
+    "id": "futuro-158",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Psicologia Positiva",
+    "content": "A promoção da felicidade e do bem-estar será central no cuidado com a saúde mental.",
+    "id": "futuro-159",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Marinha",
+    "content": "Descobertas inovadoras na biologia marinha levarão a novos medicamentos e tecnologias sustentáveis.",
+    "id": "futuro-160",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Armazenagem de Dados",
+    "content": "Novas tecnologias de armazenamento de dados permitirão a preservação de informações por períodos inimagináveis atualmente.",
+    "id": "futuro-161",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Educação Ambiental",
+    "content": "A educação ambiental se integrará a todos os níveis de ensino, promovendo a conscientização e a ação.",
+    "id": "futuro-162",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cartografia",
+    "content": "A cartografia se tornará altamente precisa e detalhada, permitindo uma compreensão mais profunda do nosso planeta.",
+    "id": "futuro-163",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Arquitetura Bioclimática",
+    "content": "Edifícios projetados para integrar-se harmoniosamente com o meio ambiente serão a norma.",
+    "id": "futuro-164",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Indústria Espacial Comercial",
+    "content": "O espaço se tornará mais acessível, impulsionando o crescimento de uma indústria espacial comercial vibrante.",
+    "id": "futuro-165",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro das Comunidades Virtuais",
+    "content": "Comunidades online cada vez mais ricas e interativas irão conectar pessoas ao redor do mundo.",
+    "id": "futuro-166",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Logística de Drones",
+    "content": "Drones desempenharão um papel central na logística de entrega, transporte e monitoramento.",
+    "id": "futuro-167",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Inteligência Artificial na Educação",
+    "content": "A IA personalizará a aprendizagem, oferecendo experiências educacionais adaptadas às necessidades individuais.",
+    "id": "futuro-168",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia Eólica Offshore",
+    "content": "A exploração da energia eólica em alto mar se tornará uma fonte crucial de energia limpa.",
+    "id": "futuro-169",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Design Urbano Sustentável",
+    "content": "O design urbano priorizará a mobilidade sustentável, a biodiversidade e o bem-estar dos cidadãos.",
+    "id": "futuro-170",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Riscos Globais",
+    "content": "Novos sistemas e modelos preditivos melhorarão a preparação para crises globais.",
+    "id": "futuro-171",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Moda Circular",
+    "content": "A indústria da moda abraçará a circularidade, minimizando o impacto ambiental e promovendo a sustentabilidade.",
+    "id": "futuro-172",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cibernética",
+    "content": "A integração de sistemas cibernéticos e biológicos revolucionará diversos campos.",
+    "id": "futuro-173",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Sintética na Indústria",
+    "content": "A biologia sintética criará novas soluções industriais, mais eficientes e sustentáveis.",
+    "id": "futuro-174",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Direito Internacional",
+    "content": "Novas legislações abordarão os desafios de um mundo globalizado e interconectado.",
+    "id": "futuro-175",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Proteção Oceânica",
+    "content": "Novas tecnologias e estratégias serão empregadas para a preservação dos oceanos e da vida marinha.",
+    "id": "futuro-176",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Pesquisa Antártica",
+    "content": "A Antártica será objeto de pesquisa crucial para a compreensão das mudanças climáticas e da vida em ambientes extremos.",
+    "id": "futuro-177",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia Hidrogênica",
+    "content": "O hidrogênio verde desempenhará um papel importante na transição para uma economia de baixo carbono.",
+    "id": "futuro-178",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Bio-arquitetura",
+    "content": "A construção com materiais biológicos criará estruturas mais sustentáveis e integradas ao meio ambiente.",
+    "id": "futuro-179",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Geoengenharia",
+    "content": "Tecnologias de geoengenharia serão desenvolvidas para mitigar os efeitos das mudanças climáticas.",
+    "id": "futuro-180",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Justiça Restaurativa",
+    "content": "Soluções de justiça que focam na reparação e na reconciliação se tornarão cada vez mais importantes.",
+    "id": "futuro-181",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Computacional",
+    "content": "A biologia computacional usará algoritmos para modelar sistemas biológicos complexos, acelerando descobertas em medicina e biotecnologia.",
+    "id": "futuro-182",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Neurotecnologia Aplicada à Educação",
+    "content": "Dispositivos neurotecnológicos poderão monitorar a atividade cerebral dos alunos, adaptando o ensino às suas necessidades individuais.",
+    "id": "futuro-183",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Transporte Aéreo Autônomo",
+    "content": "Os drones e veículos aéreos autônomos revolucionarão a logística, entrega e transporte de passageiros, principalmente em áreas remotas.",
+    "id": "futuro-184",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Medicina Espacial",
+    "content": "Tratamentos médicos personalizados serão desenvolvidos para astronautas em missões espaciais de longa duração.",
+    "id": "futuro-185",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Robótica Subaquática",
+    "content": "Robôs subaquáticos explorarão os oceanos de forma autônoma, mapeando o fundo marinho e descobrindo novas espécies.",
+    "id": "futuro-186",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Geração de Energia a partir de Ondas",
+    "content": "Dispositivos inovadores converterão a energia das ondas oceânicas em eletricidade limpa e renovável em larga escala.",
+    "id": "futuro-187",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Construção Modular",
+    "content": "Prédios serão construídos em módulos pré-fabricados, agilizando a construção e reduzindo custos.",
+    "id": "futuro-188",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Monitorização da Qualidade do Ar em Tempo Real",
+    "content": "Sensores inteligentes monitorarão a qualidade do ar em tempo real, alertando sobre poluição e melhorando a saúde pública.",
+    "id": "futuro-189",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura de Precisão com Drones",
+    "content": "Drones equipados com sensores analisarão plantações, otimizando o uso de água, fertilizantes e pesticidas.",
+    "id": "futuro-190",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Bio-Remediação",
+    "content": "Microrganismos geneticamente modificados serão usados para limpar poluentes ambientais de forma eficiente e sustentável.",
+    "id": "futuro-191",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Ciência Cidadã em Pesquisas Espaciais",
+    "content": "Cidadãos comuns participarão de projetos científicos espaciais, analisando dados e contribuindo para descobertas.",
+    "id": "futuro-192",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Gestão Inteligente de Tráfego Aéreo",
+    "content": "Sistemas de inteligência artificial controlarão o tráfego aéreo, otimizando rotas e melhorando a segurança.",
+    "id": "futuro-193",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Armazenagem de Energia em Escala Massiva",
+    "content": "Novas tecnologias permitirão armazenar grandes quantidades de energia renovável, garantindo fornecimento contínuo.",
+    "id": "futuro-194",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Produção de Alimentos em Ambientes Extremos",
+    "content": "Tecnologias inovadoras permitirão cultivar alimentos em ambientes inóspitos, como desertos e espaço.",
+    "id": "futuro-195",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Experiência de Compras Online",
+    "content": "A inteligência artificial personalizará as recomendações de produtos online, otimizando as compras individuais.",
+    "id": "futuro-196",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cibersegurança Baseada em IA",
+    "content": "A inteligência artificial será fundamental na detecção e prevenção de ataques cibernéticos sofisticados.",
+    "id": "futuro-197",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Arquitetura Paramétrica",
+    "content": "Algoritmos projetarão e construirão edifícios complexos e personalizados, otimizando o uso de recursos.",
+    "id": "futuro-198",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biodiversidade Urbana",
+    "content": "Cidades serão planejadas para integrar e proteger a biodiversidade, criando espaços verdes e sustentáveis.",
+    "id": "futuro-199",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Reciclagem de Plásticos Avançada",
+    "content": "Novas tecnologias reciclarão plásticos de forma eficiente, criando um ciclo de vida fechado para esses materiais.",
+    "id": "futuro-200",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Personalização da Saúde Mental",
+    "content": "Tratamentos e terapias de saúde mental serão personalizados, utilizando dados e inteligência artificial.",
+    "id": "futuro-201",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia Nuclear de Quarta Geração",
+    "content": "Reações nucleares de quarta geração serão mais seguras, eficientes e sustentáveis que as atuais.",
+    "id": "futuro-202",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Diagnóstico Médico por Imagens",
+    "content": "Novas tecnologias de imagem médica proporcionarão diagnósticos mais precisos e precoces.",
+    "id": "futuro-203",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "A Exploração de Recursos Minerais em Asteroides",
+    "content": "Asteroides serão explorados para extrair recursos minerais valiosos, impactando a economia global.",
+    "id": "futuro-204",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Sintética na Indústria Têxtil",
+    "content": "A biologia sintética criará novos materiais sustentáveis para a indústria têxtil, reduzindo o impacto ambiental.",
+    "id": "futuro-205",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Engenharia Genética em Agricultura",
+    "content": "Plantas geneticamente modificadas serão mais resistentes a pragas e secas, aumentando a produção de alimentos.",
+    "id": "futuro-206",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Telemedicina em Áreas Remotas",
+    "content": "A telemedicina facilitará o acesso a cuidados de saúde em áreas remotas, utilizando tecnologias de comunicação avançadas.",
+    "id": "futuro-207",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Recursos Hídricos em Áreas Áridas",
+    "content": "Novas tecnologias de gestão de recursos hídricos serão essenciais para o desenvolvimento sustentável em áreas áridas.",
+    "id": "futuro-208",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Mobilidade Urbana Sustentável em Cidades Megalópolis",
+    "content": "Soluções inovadoras de transporte público e individual serão implementadas em megalópoles, reduzindo a poluição.",
+    "id": "futuro-209",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Educação Inclusiva com Tecnologia Assistiva",
+    "content": "Tecnologias assistivas revolucionarão a educação inclusiva, atendendo às necessidades de alunos com deficiência.",
+    "id": "futuro-210",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Robótica na Exploração Polar",
+    "content": "Robôs resistentes ao frio extremo explorarão os polos terrestres, coletando dados científicos e monitorando o meio ambiente.",
+    "id": "futuro-211",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Design de Interação Homem-Máquina Intuitivo",
+    "content": "Interfaces homem-máquina serão mais intuitivas e naturais, facilitando a interação com dispositivos tecnológicos.",
+    "id": "futuro-212",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura Orgânica em Escala Industrial",
+    "content": "Novas técnicas e tecnologias tornarão a agricultura orgânica mais eficiente e produtiva em larga escala.",
+    "id": "futuro-213",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Desastres Naturais com Inteligência Artificial",
+    "content": "A inteligência artificial preverá e responderá a desastres naturais, minimizando danos e salvando vidas.",
+    "id": "futuro-214",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Construção de Estruturas Subaquáticas",
+    "content": "Novas tecnologias de construção permitirão criar estruturas subaquáticas robustas e sustentáveis.",
+    "id": "futuro-215",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Personalização da Música com IA",
+    "content": "A inteligência artificial criará trilhas sonoras personalizadas, adaptadas ao humor, atividades e preferências individuais.",
+    "id": "futuro-216",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Impressão 3D em Construção Civil",
+    "content": "A impressão 3D revolucionará a construção civil, criando edifícios complexos e sustentáveis de forma rápida e eficiente.",
+    "id": "futuro-217",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Moda Sustentável com Materiais Reciclados",
+    "content": "A moda sustentável utilizará cada vez mais materiais reciclados, reduzindo o impacto ambiental da indústria têxtil.",
+    "id": "futuro-218",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Fim da Escarcidade de Água?",
+    "content": "Novas tecnologias de dessalinização e gestão de recursos hídricos podem contribuir para resolver a escassez de água em diversas regiões do mundo.",
+    "id": "futuro-219",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Sintética na Indústria de Vestuário",
+    "content": "Tecidos inteligentes, autolimpantes e biodegradáveis, criados com materiais sintéticos, revolucionarão a moda.",
+    "id": "futuro-220",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Turismo de Aventura Espacial",
+    "content": "Viagens espaciais para explorar outros planetas se tornarão mais acessíveis, abrindo novas fronteiras para o turismo.",
+    "id": "futuro-221",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cibersegurança Quântica",
+    "content": "Novas tecnologias de criptografia quântica protegerão dados contra ataques de computadores quânticos.",
+    "id": "futuro-222",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Arquitetura Subaquática",
+    "content": "Cidades subaquáticas sustentáveis, construídas com materiais resistentes à pressão e projetadas para a vida marinha.",
+    "id": "futuro-223",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura em Ambientes Desérticos",
+    "content": "Técnicas inovadoras de irrigação e cultivos resistentes à seca transformarão desertos em terras férteis.",
+    "id": "futuro-224",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Engenharia Genética na Cura de Doenças",
+    "content": "Terapias genéticas precisas e eficazes para curar doenças genéticas e até mesmo o câncer.",
+    "id": "futuro-225",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biometria Comportamental",
+    "content": "Sistemas de segurança avançados que reconhecem indivíduos através de padrões de comportamento.",
+    "id": "futuro-226",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia de Ondas",
+    "content": "Exploração da energia cinética das ondas do mar para gerar eletricidade limpa e renovável.",
+    "id": "futuro-227",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Manufatura Aditiva (Impressão 3D)",
+    "content": "Impressão 3D de casas, carros e até mesmo órgãos humanos, revolucionando a produção em massa.",
+    "id": "futuro-228",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Robótica na Exploração Espacial",
+    "content": "Robôs autônomos explorarão planetas e asteroides, coletando dados e preparando o caminho para a colonização.",
+    "id": "futuro-229",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Medicina Personalizada com IA",
+    "content": "Diagnósticos e tratamentos médicos personalizados, baseados em dados genéticos e estilo de vida.",
+    "id": "futuro-230",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Logística com Drones Autônomos",
+    "content": "Entregas rápidas e eficientes de mercadorias por meio de drones autônomos, revolucionando o transporte.",
+    "id": "futuro-231",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Educação em Realidade Virtual",
+    "content": "Experiências de aprendizagem imersivas e interativas, que transformam o processo educacional.",
+    "id": "futuro-232",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Construção com Materiais Bio-inspirados",
+    "content": "Edifícios construídos com materiais sustentáveis e biodegradáveis, inspirados na natureza.",
+    "id": "futuro-233",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Proteção de Dados Pessoais com Blockchain",
+    "content": "Criação de sistemas mais seguros e transparentes para proteger dados pessoais com tecnologias blockchain.",
+    "id": "futuro-234",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura Subaquática",
+    "content": "Cultivo de algas e plantas aquáticas em larga escala, proporcionando alimentos sustentáveis e nutritivos.",
+    "id": "futuro-235",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho Colaborativo entre Humanos e Inteligência Artificial",
+    "content": "IA auxiliando humanos em tarefas complexas, otimizando produtividade e criatividade.",
+    "id": "futuro-236",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Economia Circular",
+    "content": "Minimização de resíduos e maximização da reutilização de materiais, criando um sistema econômico sustentável.",
+    "id": "futuro-237",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Indústria Espacial Privada",
+    "content": "Empresas privadas liderando a exploração espacial, desenvolvendo novas tecnologias e impulsionando a inovação.",
+    "id": "futuro-238",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Ciência Cidadã em Pesquisa Oceânica",
+    "content": "Cidadãos participando ativamente de pesquisas científicas sobre os oceanos, coletando dados e contribuindo para a preservação marinha.",
+    "id": "futuro-239",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Recursos Hídricos com IA",
+    "content": "Sistemas inteligentes de gerenciamento de água, otimizando o uso e a distribuição de recursos hídricos.",
+    "id": "futuro-240",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Moda Personalizada com Impressão 3D",
+    "content": "Roupas personalizadas criadas sob demanda, utilizando impressão 3D para criar designs únicos e sob medida.",
+    "id": "futuro-241",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Segurança Alimentar Global com Biotecnologia",
+    "content": "Culturas geneticamente modificadas, resistentes a pragas e mudanças climáticas, garantindo segurança alimentar global.",
+    "id": "futuro-242",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Medicina Regenerativa",
+    "content": "Cultivo de tecidos e órgãos humanos em laboratório, revolucionando o tratamento de doenças e lesões.",
+    "id": "futuro-243",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Construção de Estruturas em Ambientes Extremos",
+    "content": "Desenvolvimento de tecnologias inovadoras para construir estruturas resistentes em ambientes inóspitos, como no espaço ou no fundo do mar.",
+    "id": "futuro-244",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Monitoração de Saúde Remota",
+    "content": "Dispositivos vestíveis e sensores monitoram a saúde em tempo real, fornecendo dados para prevenção e tratamento.",
+    "id": "futuro-245",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Educação Personalizada com IA",
+    "content": "Plataformas de aprendizagem adaptativas, personalizadas às necessidades e ritmo de cada aluno.",
+    "id": "futuro-246",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biomimética na Engenharia",
+    "content": "Inspiração na natureza para criar estruturas, materiais e sistemas mais eficientes e sustentáveis.",
+    "id": "futuro-247",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Energia eólica Offshore",
+    "content": "Exploração da energia eólica em alto mar, com turbinas gigantes gerando energia limpa e abundante.",
+    "id": "futuro-248",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Gestão de Resíduos com IA",
+    "content": "Sistemas inteligentes de gerenciamento de resíduos, otimizando a reciclagem e o tratamento de lixo.",
+    "id": "futuro-249",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Neurotecnologia Aplicada à Reabilitação",
+    "content": "Interfaces cérebro-computador e implantes cerebrais que auxiliam na recuperação de lesões neurológicas.",
+    "id": "futuro-250",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Sintética na Moda",
+    "content": "Tecidos biodegradáveis, tingimentos naturais e criação de materiais com propriedades inovadoras a partir de fontes sustentáveis revolucionarão a indústria da moda.",
+    "id": "futuro-251",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Exploração Lunar",
+    "content": "Mineração de recursos lunares, construção de bases permanentes e a possibilidade de utilizar a Lua como plataforma para futuras missões espaciais.",
+    "id": "futuro-252",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Educação para a Sustentabilidade",
+    "content": "A educação focará em soluções sustentáveis, consciência ambiental e habilidades para um mundo com recursos limitados.",
+    "id": "futuro-253",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Trabalho com IA Colaborativa",
+    "content": "Inteligência Artificial e humanos trabalhando em conjunto, otimizando a produtividade e criatividade em diversas áreas.",
+    "id": "futuro-254",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biotecnologia na Alimentação",
+    "content": "Alimentos mais nutritivos, resistentes a pragas e com maior produtividade, reduzindo impactos ambientais.",
+    "id": "futuro-255",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro das Redes de Sensores Ambientais",
+    "content": "Monitoramento em tempo real da qualidade do ar, água e solo, permitindo respostas mais rápidas a desastres ambientais.",
+    "id": "futuro-256",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biologia Marinha na Proteção Oceânica",
+    "content": "Novos métodos para limpar os oceanos de poluentes, restaurar ecossistemas marinhos e proteger a biodiversidade.",
+    "id": "futuro-257",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro das Comunidades Sustentáveis",
+    "content": "Comunidades autossuficientes em energia, recursos e alimentos, construídas com foco em minimalismo e sustentabilidade.",
+    "id": "futuro-258",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Personalização da Música",
+    "content": "Algoritmos de IA criarão trilhas sonoras personalizadas, adaptando-se ao humor, atividade e preferências do ouvinte.",
+    "id": "futuro-259",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Ciência Cidadã na Conservação da Biodiversidade",
+    "content": "Cidadãos participando ativamente da coleta de dados e monitoramento da biodiversidade, auxiliando na conservação de espécies.",
+    "id": "futuro-260",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Turismo de Experiências Imersivas",
+    "content": "Realidade virtual e aumentada combinadas com viagens para criar experiências turísticas únicas e imersivas.",
+    "id": "futuro-261",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Agricultura de Precisão com IA",
+    "content": "IA otimizando recursos, prevendo safras e reduzindo o uso de água e pesticidas, maximizando a produção agrícola.",
+    "id": "futuro-262",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Cibersegurança em um Mundo Conectado",
+    "content": "Novas tecnologias e estratégias para proteger dados e sistemas contra ameaças cibernéticas cada vez mais sofisticadas.",
+    "id": "futuro-263",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Engenharia Genética na Produção de Alimentos",
+    "content": "Cultivos mais resistentes a mudanças climáticas, pragas e doenças, com maior valor nutricional e menor impacto ambiental.",
+    "id": "futuro-264",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Economia Circular na Indústria",
+    "content": "Reduzir o desperdício, reutilizar materiais e reciclar de forma eficiente, criando um sistema econômico sustentável.",
+    "id": "futuro-265",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro do Design de Interação Homem-Máquina",
+    "content": "Interfaces intuitivas e personalizadas, que se adaptam às necessidades e preferências dos usuários, melhorando a experiência.",
+    "id": "futuro-266",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Biomimética na Engenharia Civil",
+    "content": "Construções inspiradas na natureza, utilizando materiais e estruturas que imitam os sistemas biológicos, mais sustentáveis e eficientes.",
+    "id": "futuro-267",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Moda Sustentável com Materiais Biodegradáveis",
+    "content": "Roupas feitas de materiais biodegradáveis e reciclados, reduzindo o impacto ambiental da indústria da moda.",
+    "id": "futuro-268",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Engenharia Genética na Medicina",
+    "content": "Terapias gênicas para tratar doenças genéticas, criando novas abordagens para a cura e prevenção de doenças.",
+    "id": "futuro-269",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Personalização da Saúde Mental",
+    "content": "Tratamentos personalizados para problemas de saúde mental, utilizando IA e dados para criar planos de tratamento adaptados.",
+    "id": "futuro-270",
+    "categoryId": "futuro"
+  },
+  {
+    "title": "O Futuro da Exploração de Recursos Minerais em Asteroides",
+    "content": "Extração de recursos valiosos de asteroides, como metais preciosos e água, para uso na Terra e no espaço.",
+    "id": "futuro-271",
+    "categoryId": "futuro"
+  }
+]

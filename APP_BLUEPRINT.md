@@ -28,80 +28,37 @@
 - **Layout:** Limpo, responsivo, moderno, priorizando componentes ShadCN para uma UI consistente.
 - **Notificações:** Componentes "Toast" devem ser usados exclusivamente para exibir erros.
 
-## 4. Estrutura de Dados
+## 4. Estrutura de Dados e Conteúdo
 
-A base de conteúdo do aplicativo é composta por arquivos JSON locais, garantindo a funcionalidade offline.
+A base de conteúdo do aplicativo foi reestruturada para máxima escalabilidade e manutenibilidade, com um sistema de geração de conteúdo robusto.
 
-### 4.1. `src/lib/data/categories.json`
-Define as categorias temáticas do app.
-```json
-[
-  {
-    "id": "string",       // Identificador único (ex: "historia")
-    "name": "string",     // Nome exibido (ex: "História")
-    "icon": "string",     // Nome do ícone de `lucide-react` (ex: "BookOpen")
-    "emoji": "string",    // Emoji para representação visual (ex: "📜")
-    "description": "string",
-    "color": "string"     // Cor hexadecimal para a categoria (ex: "#A1887F")
-  }
-]
-```
+### 4.1. Estrutura de Arquivos de Dados
+- **`src/lib/data/categories.json`**: Arquivo central que define as categorias temáticas do app. É a "fonte da verdade" para as categorias existentes.
+- **`data/curiosities/*.json`**: O conteúdo das curiosidades agora é **dividido em um arquivo JSON por categoria** (ex: `data/curiosities/historia.json`). Isso facilita a manutenção e evita o gerenciamento de um único arquivo monolítico.
+- **`data/quiz-questions/*.json`**: Similarmente, as perguntas dos quizzes são **divididas em um arquivo JSON por categoria** (ex: `data/quiz-questions/historia.json`).
 
-### 4.2. `src/lib/data/curiosities.json`
-Armazena todas as curiosidades.
-```json
-[
-  {
-    "id": "string",          // ID único (ex: "historia-1")
-    "categoryId": "string",  // ID da categoria correspondente
-    "title": "string",
-    "content": "string",
-    "funFact": "string"    // Fato divertido opcional
-  }
-]
-```
+### 4.2. Carregamento Dinâmico de Dados (`src/lib/data.ts`)
+O arquivo `src/lib/data.ts` foi refatorado para **carregar dinamicamente** todos os arquivos JSON dos diretórios `data/curiosities` e `data/quiz-questions`. Isso significa que:
+- O sistema é **robusto a erros**: adicionar ou remover uma categoria não quebra a aplicação.
+- A aplicação sempre lê o conteúdo mais atualizado, sem depender de importações estáticas.
 
-### 4.3. `src/lib/data/quiz-questions.json`
-Armazena todas as perguntas dos quizzes.
-```json
-[
-  {
-    "id": "string",               // ID único (ex: "quiz-historia-1")
-    "categoryId": "string",       // ID da categoria correspondente
-    "difficulty": "string",       // 'easy', 'medium', ou 'hard'
-    "question": "string",
-    "options": ["string", "string", "string", "string"], // Array de 4 opções
-    "correctAnswer": "string",    // O texto exato da resposta correta
-    "explanation": "string"       // Explicação que aparece após a resposta
-  }
-]
-```
-
-### 4.4. Modelo de Dados (Firestore)
+### 4.3. Modelo de Dados (Firestore)
 Para usuários autenticados, os dados de jogo são sincronizados na coleção `userStats` do Firestore.
 
 **Coleção:** `userStats`
 **Documento:** `[uid_do_usuario]`
-
 ```json
 {
-  // Campos do GameStats
   "totalCuriositiesRead": "number",
-  "readCuriosities": ["string"], // Array de IDs das curiosidades lidas
+  "readCuriosities": ["string"],
   "currentStreak": "number",
   "longestStreak": "number",
-  "lastPlayedDate": "string", // Formato ISO (ex: "2023-10-27T10:00:00.000Z")
-  "quizScores": {
-    "[categoryId]": [
-      { "score": "number", "date": "string" }
-    ]
-  },
+  "lastPlayedDate": "string", // ISO format
+  "quizScores": { "[categoryId]": [{ "score": "number", "date": "string" }] },
   "explorerStatus": "string", // 'Iniciante', 'Explorador', ou 'Expert'
   "combos": "number",
-
-  // Campos de Perfil do Usuário (para o Ranking)
   "displayName": "string",
-  "photoURL": "string" // URL da foto de perfil
+  "photoURL": "string"
 }
 ```
 
@@ -112,44 +69,31 @@ Para usuários autenticados, os dados de jogo são sincronizados na coleção `u
   - **Iniciante:** 0-9 curiosidades lidas.
   - **Explorador:** 10-49 curiosidades lidas.
   - **Expert:** 50+ curiosidades lidas.
-- **Sequência (Streak):**
-  - A `currentStreak` aumenta em 1 se o usuário ler uma curiosidade em um dia consecutivo ao `lastPlayedDate`.
-  - Se o intervalo for maior que um dia, a `currentStreak` é resetada para 1.
-  - A `longestStreak` armazena o maior valor que a `currentStreak` já atingiu.
-- **Combos:**
-  - O usuário ganha **1 Combo** a cada 5 curiosidades lidas.
-  - Combos podem ser usados durante um quiz para acertar a pergunta atual automaticamente.
+- **Sequência (Streak):** Aumenta a cada dia consecutivo de leitura.
+- **Combos:** Ganhos a cada 5 curiosidades lidas, usáveis para pular perguntas no quiz.
 
 ### 5.2. Sincronização de Dados (`useGameStats`)
-- O hook `useGameStats` gerencia o estado do jogo.
-- **Para convidados:** Os dados são salvos no `localStorage`.
-- **Para usuários logados:**
-  - No login, os dados do `localStorage` são mesclados com os do Firestore (priorizando os dados mais recentes/maiores) e depois o `localStorage` é limpo.
-  - Todas as atualizações subsequentes são salvas diretamente no Firestore.
+- O hook gerencia o estado do jogo, salvando no `localStorage` para convidados.
+- Para usuários logados, sincroniza os dados com o Firestore, mesclando o progresso local ao fazer login e depois salvando tudo na nuvem.
 
-### 5.3. Funcionalidades de IA (Genkit Flows)
-Os fluxos de IA são construídos para expansão futura e podem não estar ativos na versão inicial focada no offline.
-- **`generateContent.ts` (Script):** Um script de Node.js que usa a API do Gemini para popular os arquivos JSON de curiosidades e quizzes, garantindo que não haja conteúdo duplicado.
-- **`ranking-flow.ts`:** Um fluxo que busca os 5 melhores usuários no Firestore, ordenados por `totalCuriositiesRead`, para alimentar a página de Ranking.
-- **`feedback-flow.ts`:** (Futuro) Gera uma explicação personalizada quando um usuário erra uma pergunta no quiz, comparando a resposta errada com a correta.
-- **`ai-quiz-generator.ts`:** (Futuro) Gera um quiz personalizado com base em uma lista de curiosidades fornecida.
-- **`ai-adaptive-learning.ts`:** (Futuro) Analisa o histórico de quizzes para sugerir novas categorias e ajustar a dificuldade.
+### 5.3. Geração de Conteúdo com IA (`scripts/generateContent.ts`)
+O script de geração de conteúdo foi **completamente refatorado** para ser robusto e escalável, ideal para gerar milhares de itens.
+- **Validação e Limpeza:** O script agora valida o conteúdo existente contra as categorias em `categories.json` e **remove automaticamente** curiosidades ou quizzes "órfãos" (de categorias deletadas), garantindo consistência.
+- **Geração em Lotes (Batching):** Para evitar falhas de API, o script gera conteúdo em lotes menores (ex: 50 itens por vez) até atingir a meta definida.
+- **Salvamento Progressivo:** O progresso é salvo no disco a cada lote, permitindo que o script seja interrompido e retomado sem perda de dados.
+- **Controle de Duplicação Eficiente:** Utiliza a estrutura de dados `Set` para verificar eficientemente se um título ou pergunta já existe, prevenindo duplicatas mesmo com grandes volumes.
+- **Paralelismo Controlado:** Utiliza `p-limit` para processar várias categorias simultaneamente (com um limite para não sobrecarregar a API), acelerando drasticamente o tempo total de geração.
 
 ## 6. Arquitetura de Componentes React
 
-A interface é construída com componentes reutilizáveis e otimizados para performance.
-- **`AppHeader`:** Cabeçalho persistente que exibe as estatísticas do jogo (`totalCuriositiesRead`, `currentStreak`) e o status de autenticação do usuário.
-- **`AuthModal`:** Modal para login/cadastro com Google ou E-mail/Senha. Gerencia o fluxo de autenticação com o Firebase.
-- **`CategoryCard`:** Card na tela inicial que representa uma categoria, contendo seu ícone, nome, descrição e botões para explorar ou iniciar um quiz.
-- **`CuriosityExplorer`:** Componente principal para a leitura de curiosidades. **Foi completamente refatorado para garantir estabilidade e performance**, seguindo padrões de desenvolvimento sênior. A lógica agora utiliza um estado mínimo (`currentIndex`) e inicializa a primeira curiosidade a ser exibida de forma segura e controlada (apenas uma vez após a montagem), eliminando a causa de loops de renderização. A marcação de curiosidades como lidas é um efeito colateral controlado, disparado apenas pela navegação do usuário, garantindo previsibilidade.
-- **`QuizEngine`:** Gerencia toda a lógica do quiz: estado do jogo (jogando/finalizado), pergunta atual, tempo (60 segundos por pergunta), pontuação, seleção de respostas e exibição da tela de resultados. Para evitar erros de hidratação, o embaralhamento das perguntas ocorre de forma segura no cliente, com um estado de carregamento explícito para melhorar a percepção de performance.
-- **`ProfileClient`:** Exibe as estatísticas completas do perfil do usuário, incluindo nível, progresso e um gráfico de desempenho nos quizzes.
-- **`RankingClient`:** Invoca o `ranking-flow` para buscar e exibir a lista dos melhores jogadores. **A página de ranking foi otimizada com a estratégia de Streaming via Next.js `Suspense`**. A busca de dados agora ocorre no servidor, e um esqueleto de carregamento é exibido instantaneamente enquanto os dados são carregados em segundo plano, melhorando drasticamente a percepção de velocidade para o usuário.
-
-## 7. PWA e Publicação
-- O aplicativo é um PWA totalmente funcional offline. O `manifest.webmanifest` e um `service-worker` (gerado por `next-pwa`) garantem a capacidade de instalação e o cache de assets.
-- O `README.md` contém o guia detalhado para gerar o pacote `.aab` para a Google Play Store usando o **Bubblewrap CLI** e para instruir usuários de iOS a "Adicionar à Tela de Início".
-- **URL de Produção:** `https://app.foiumaideia.com`
+A interface é construída com componentes reutilizáveis e otimizados.
+- **`AppHeader`:** Exibe estatísticas do jogo e status de autenticação.
+- **`AuthModal`:** Modal para login/cadastro com Firebase.
+- **`CategoryCard`:** Card de categoria na tela inicial.
+- **`CuriosityExplorer`:** Componente refatorado para performance. Usa estado mínimo (`currentIndex`) e inicializa de forma segura para evitar loops de renderização. **A contagem total de curiosidades foi removida** para focar na descoberta e não criar uma sensação de "fim de jogo".
+- **`QuizEngine`:** Gerencia a lógica do quiz. O embaralhamento de perguntas ocorre no cliente para evitar erros de hidratação. O tempo de espera para a próxima pergunta foi ajustado: **10 segundos para respostas erradas** (dando tempo para ler a explicação) e 2 segundos para respostas corretas. **A contagem total de perguntas foi removida** para melhorar a imersão.
+- **`ProfileClient`:** Exibe as estatísticas completas do usuário.
+- **`RankingClient`:** Otimizado com **Streaming via `Suspense`**. A busca de dados ocorre no servidor, e um esqueleto de carregamento é exibido instantaneamente, melhorando a percepção de velocidade.
 
 ---
-*Este documento foi atualizado para refletir uma arquitetura detalhada, incluindo modelos de dados, lógica de gamificação e estrutura de componentes, facilitando o desenvolvimento e a manutenção.*
+*Este documento foi atualizado para refletir uma arquitetura mais madura e escalável, focada em performance, resiliência na geração de dados e melhorias na experiência do usuário.*

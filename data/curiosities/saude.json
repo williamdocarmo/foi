@@ -1,0 +1,545 @@
+[
+  {
+    "title": "A Importância da Respiração",
+    "content": "A respiração adequada melhora a oxigenação do cérebro, aumentando a concentração e a memória.",
+    "funFact": "Bebês respiram até duas vezes mais rápido que adultos.",
+    "id": "saude-1",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Poder do Sono",
+    "content": "Dormir bem consolida memórias e ajuda a regular o humor e o apetite.",
+    "id": "saude-2",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Hidratação Essencial",
+    "content": "A água é vital para todas as funções corporais, desde a digestão até a regulação da temperatura.",
+    "id": "saude-3",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Benefícios da Exposição Solar",
+    "content": "O sol é fonte de vitamina D, essencial para a saúde óssea e imunológica.",
+    "funFact": "A quantidade ideal de sol varia com a localização geográfica e o tom de pele.",
+    "id": "saude-4",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Mente e o Corpo Conectados",
+    "content": "Estresse crônico pode causar problemas físicos, como dores de cabeça e problemas digestivos.",
+    "id": "saude-5",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Higiene Bucal",
+    "content": "A saúde bucal está ligada à saúde do coração e de outros órgãos.",
+    "funFact": "A placa bacteriana começa a se formar em apenas 20 minutos após a escovação.",
+    "id": "saude-6",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Probióticos para a Flora Intestinal",
+    "content": "Probióticos ajudam a manter o equilíbrio da flora intestinal, essencial para a digestão e imunidade.",
+    "id": "saude-7",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Alimentos Anti-Inflamatórios",
+    "content": "Frutas, legumes e peixes ricos em ômega-3 têm propriedades anti-inflamatórias.",
+    "id": "saude-8",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Papel da Vitamina C",
+    "content": "A vitamina C é um poderoso antioxidante que fortalece o sistema imunológico.",
+    "id": "saude-9",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios do Exercício Físico",
+    "content": "Exercícios regulares reduzem o risco de doenças cardíacas, diabetes e alguns tipos de câncer.",
+    "id": "saude-10",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Mental",
+    "content": "Cuidar da saúde mental é tão importante quanto cuidar da saúde física.",
+    "id": "saude-11",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Cérebro",
+    "content": "Atividades que desafiam o cérebro, como aprender algo novo, ajudam a prevenir o declínio cognitivo.",
+    "id": "saude-12",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Pele",
+    "content": "Usar protetor solar diariamente ajuda a prevenir o envelhecimento precoce e o câncer de pele.",
+    "id": "saude-13",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Vacinação",
+    "content": "As vacinas protegem contra doenças graves e altamente contagiosas.",
+    "id": "saude-14",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Alimentos Ricos em Fibras",
+    "content": "Fibras são essenciais para a saúde digestiva, regulando o intestino e prevenindo a constipação.",
+    "id": "saude-15",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Prevenção",
+    "content": "Exames regulares e hábitos saudáveis ajudam a prevenir doenças.",
+    "id": "saude-16",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Açúcar",
+    "content": "O consumo excessivo de açúcar aumenta o risco de obesidade, diabetes e doenças cardíacas.",
+    "id": "saude-17",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde dos Ossos",
+    "content": "O cálcio e a vitamina D são essenciais para a saúde óssea, prevenindo a osteoporose.",
+    "id": "saude-18",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Higiene das Mãos",
+    "content": "Lavar as mãos com frequência previne a propagação de doenças infecciosas.",
+    "id": "saude-19",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Sono Rem",
+    "content": "O sono REM é crucial para a consolidação da memória e o processamento emocional.",
+    "id": "saude-20",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Ritmo Circadiano",
+    "content": "Manter um ritmo circadiano regular melhora o sono, o humor e o sistema imunológico.",
+    "id": "saude-21",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Ferro",
+    "content": "O ferro é essencial para a produção de hemoglobina, que transporta oxigênio pelo corpo.",
+    "id": "saude-22",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde dos Olhos",
+    "content": "Alimentos ricos em antioxidantes, como frutas e vegetais, contribuem para a saúde ocular.",
+    "id": "saude-23",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Meditação",
+    "content": "A meditação reduz o estresse, a ansiedade e melhora a concentração.",
+    "id": "saude-24",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Cardiovascular",
+    "content": "Manter a saúde cardiovascular previne doenças como infarto e derrame.",
+    "id": "saude-25",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Poluição",
+    "content": "A poluição do ar pode causar problemas respiratórios e outros problemas de saúde.",
+    "id": "saude-26",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Hidratação Durante o Exercício",
+    "content": "Manter-se hidratado durante o exercício previne a desidratação e melhora o desempenho.",
+    "id": "saude-27",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Consulta Médica Regular",
+    "content": "Consultas médicas regulares permitem a detecção precoce de doenças.",
+    "id": "saude-28",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Tabagismo",
+    "content": "O tabagismo aumenta o risco de vários tipos de câncer e doenças respiratórias.",
+    "id": "saude-29",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Iodo",
+    "content": "O iodo é essencial para o funcionamento da tireoide.",
+    "id": "saude-30",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Fígado",
+    "content": "O fígado desempenha funções vitais, como filtrar o sangue e produzir proteínas.",
+    "id": "saude-31",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde dos Rins",
+    "content": "Os rins filtram os resíduos do sangue e regulam a pressão arterial.",
+    "id": "saude-32",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Vitamina B12",
+    "content": "A vitamina B12 é essencial para a formação de células sanguíneas e o funcionamento do sistema nervoso.",
+    "id": "saude-33",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Próstata",
+    "content": "Exames regulares são importantes para a detecção precoce do câncer de próstata.",
+    "id": "saude-34",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde dos Pulmões",
+    "content": "Evitar a poluição e o tabagismo é crucial para a saúde pulmonar.",
+    "id": "saude-35",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Álcool",
+    "content": "O consumo excessivo de álcool aumenta o risco de cirrose hepática e outros problemas de saúde.",
+    "id": "saude-36",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Pele e o Sono",
+    "content": "Um sono adequado contribui para a regeneração celular da pele.",
+    "id": "saude-37",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Atividade Física Mental",
+    "content": "Quebra-cabeças e jogos de memória estimulam a atividade cerebral.",
+    "id": "saude-38",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Magnésio",
+    "content": "O magnésio é essencial para a contração muscular e a transmissão de impulsos nervosos.",
+    "id": "saude-39",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Tireoide",
+    "content": "A tireoide regula o metabolismo e a função de diversos órgãos.",
+    "id": "saude-40",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Flora Intestinal no Sistema Imunológico",
+    "content": "Uma flora intestinal equilibrada reforça o sistema imunológico.",
+    "id": "saude-41",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Alimentos Ricos em Antioxidantes",
+    "content": "Antioxidantes combatem os radicais livres, protegendo as células do dano oxidativo.",
+    "id": "saude-42",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde Bucal e a Diabetes",
+    "content": "Pessoas com diabetes têm maior risco de problemas bucais.",
+    "id": "saude-43",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Equilíbrio Ácido-Base",
+    "content": "Manter o equilíbrio ácido-base é essencial para diversas funções corporais.",
+    "id": "saude-44",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Estresse na Imunidade",
+    "content": "O estresse crônico pode suprimir o sistema imunológico.",
+    "id": "saude-45",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Benefícios da Alimentação Consciente",
+    "content": "A alimentação consciente melhora a digestão e a relação com os alimentos.",
+    "id": "saude-46",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde Auditiva",
+    "content": "A exposição prolongada a ruídos altos pode causar danos irreversíveis à audição. Proteja seus ouvidos!",
+    "id": "saude-47",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Biodisponibilidade",
+    "content": "A biodisponibilidade de nutrientes varia de acordo com a forma como os alimentos são processados e ingeridos.",
+    "id": "saude-48",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Sono na Imunidade",
+    "content": "Dormir bem fortalece o sistema imunológico, tornando o corpo mais resistente a doenças.",
+    "id": "saude-49",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde das Articulações",
+    "content": "Exercícios regulares e uma dieta equilibrada ajudam a manter a saúde das articulações.",
+    "id": "saude-50",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Vitamina D",
+    "content": "A vitamina D é essencial para a absorção de cálcio e para a saúde óssea.",
+    "id": "saude-51",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Papel do Zinco",
+    "content": "O zinco desempenha um papel crucial no sistema imunológico e na cicatrização de feridas.",
+    "id": "saude-52",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Sistema Linfático",
+    "content": "O sistema linfático é crucial para a remoção de toxinas e resíduos do corpo.",
+    "id": "saude-53",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Água para os Rins",
+    "content": "Beber bastante água é fundamental para a saúde dos rins e para a eliminação de toxinas.",
+    "id": "saude-54",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Aromaterapia",
+    "content": "Certos óleos essenciais podem aliviar o estresse e promover o relaxamento.",
+    "id": "saude-55",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Reprodutiva",
+    "content": "Cuidados regulares com a saúde reprodutiva são essenciais para a prevenção de doenças.",
+    "id": "saude-56",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Desidratação",
+    "content": "A desidratação, mesmo leve, pode afetar o desempenho físico e cognitivo.",
+    "id": "saude-57",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Metabolismo",
+    "content": "Um metabolismo saudável é fundamental para a manutenção do peso e da energia.",
+    "id": "saude-58",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Genética na Saúde",
+    "content": "A genética desempenha um papel importante na predisposição a certas doenças.",
+    "id": "saude-59",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Sistema Nervoso",
+    "content": "Uma dieta rica em nutrientes e exercícios regulares são cruciais para a saúde do sistema nervoso.",
+    "id": "saude-60",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Proteína na Dieta",
+    "content": "A proteína é essencial para a construção e reparação dos tecidos corporais.",
+    "id": "saude-61",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Reflexologia",
+    "content": "A reflexologia pode ajudar a aliviar o estresse e melhorar a circulação.",
+    "id": "saude-62",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Glândula Adrenal",
+    "content": "A glândula adrenal desempenha um papel crucial na resposta ao estresse.",
+    "id": "saude-63",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Cafeína na Saúde",
+    "content": "O consumo excessivo de cafeína pode causar ansiedade e insônia.",
+    "id": "saude-64",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Potássio",
+    "content": "O potássio é essencial para a função muscular e para a regulação da pressão arterial.",
+    "id": "saude-65",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Hidroterapia",
+    "content": "A hidroterapia pode aliviar dores musculares e melhorar a mobilidade.",
+    "id": "saude-66",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Vesícula Biliar",
+    "content": "Uma dieta equilibrada e rica em fibras é importante para a saúde da vesícula biliar.",
+    "id": "saude-67",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Sedentarismo",
+    "content": "O sedentarismo aumenta o risco de diversas doenças crônicas.",
+    "id": "saude-68",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Sexual",
+    "content": "A saúde sexual é um aspecto importante da saúde geral e do bem-estar.",
+    "id": "saude-69",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Acupuntura",
+    "content": "A acupuntura pode ajudar a aliviar a dor e reduzir o estresse.",
+    "id": "saude-70",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Pâncreas",
+    "content": "O pâncreas desempenha um papel crucial na digestão e na regulação do açúcar no sangue.",
+    "id": "saude-71",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Obesidade",
+    "content": "A obesidade aumenta o risco de diversas doenças crônicas, como diabetes e doenças cardíacas.",
+    "id": "saude-72",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância do Selênio",
+    "content": "O selênio é um antioxidante importante que protege as células dos danos causados pelos radicais livres.",
+    "id": "saude-73",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios do Yoga",
+    "content": "O yoga pode melhorar a flexibilidade, a força e reduzir o estresse.",
+    "id": "saude-74",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Glândula Pineal",
+    "content": "A glândula pineal regula o ritmo circadiano e a produção de melatonina.",
+    "id": "saude-75",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto do Estresse Oxidativo",
+    "content": "O estresse oxidativo pode danificar as células e contribuir para o envelhecimento precoce.",
+    "id": "saude-76",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Gastrointestinal",
+    "content": "A saúde gastrointestinal está intimamente ligada à saúde geral.",
+    "id": "saude-77",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Osteopatia",
+    "content": "A osteopatia pode ajudar a aliviar dores musculoesqueléticas e melhorar a postura.",
+    "id": "saude-78",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Sistema Endócrino",
+    "content": "O sistema endócrino regula diversas funções corporais, incluindo o crescimento e o metabolismo.",
+    "id": "saude-79",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Desnutrição",
+    "content": "A desnutrição pode levar a deficiências de nutrientes e enfraquecer o sistema imunológico.",
+    "id": "saude-80",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Saúde Ocular",
+    "content": "Exames regulares de vista são essenciais para a prevenção de problemas oculares.",
+    "id": "saude-81",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Terapia Cognitivo-Comportamental (TCC)",
+    "content": "A TCC pode ajudar a lidar com problemas emocionais e comportamentais.",
+    "id": "saude-82",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde do Sistema Renal",
+    "content": "Os rins desempenham um papel crucial na filtração do sangue e na eliminação de resíduos.",
+    "id": "saude-83",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Falta de Sono",
+    "content": "A falta de sono pode afetar o humor, o desempenho cognitivo e a saúde física.",
+    "id": "saude-84",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Biomecânica",
+    "content": "A biomecânica estuda o movimento do corpo e como ele afeta a saúde.",
+    "id": "saude-85",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Quiropraxia",
+    "content": "A quiropraxia pode ajudar a aliviar dores na coluna vertebral e melhorar a mobilidade.",
+    "id": "saude-86",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Saúde da Microbiota",
+    "content": "A microbiota intestinal desempenha um papel crucial na digestão e na imunidade.",
+    "id": "saude-87",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Doença Celíaca",
+    "content": "A doença celíaca requer uma dieta isenta de glúten para evitar danos intestinais.",
+    "id": "saude-88",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Importância da Cromoterapia",
+    "content": "A cromoterapia utiliza cores para promover o equilíbrio e o bem-estar.",
+    "id": "saude-89",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Os Benefícios da Musicoterapia",
+    "content": "A musicoterapia pode ajudar a reduzir o estresse, aliviar a dor e melhorar o humor.",
+    "id": "saude-90",
+    "categoryId": "saude"
+  }
+]
