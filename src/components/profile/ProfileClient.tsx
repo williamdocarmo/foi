@@ -4,7 +4,7 @@ import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { Trophy, Star, TrendingUp, BookOpen, Flame, Zap, BarChart3, Medal } from "lucide-react";
 import { Progress } from "../ui/progress";
-import { getCategoryById } from "@/lib/data";
+import type { Category } from "@/lib/types"; // Importar o tipo Category
 import { Skeleton } from "../ui/skeleton";
 import {
   BarChart,
@@ -17,8 +17,12 @@ import {
 } from 'recharts';
 import { useIsMobile } from "@/hooks/use-mobile";
 
+// O componente agora recebe as categorias como prop
+type ProfileClientProps = {
+    categories: Category[];
+};
 
-export default function ProfileClient() {
+export default function ProfileClient({ categories }: ProfileClientProps) {
   const { stats, isLoaded } = useGameStats();
   const isMobile = useIsMobile();
   
@@ -39,6 +43,9 @@ export default function ProfileClient() {
      'Explorador': 'Expert (50 lidas)',
      'Expert': 'Você é uma lenda!',
   }
+
+  // A função para buscar a categoria agora usa a prop
+  const getCategoryById = (id: string) => categories.find(c => c.id === id);
 
   const quizChartData = Object.entries(stats.quizScores).map(([categoryId, scores]) => {
     const category = getCategoryById(categoryId);
