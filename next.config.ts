@@ -13,7 +13,7 @@ const withPWA = require('next-pwa')({
   runtimeCaching: [
     // Cache para fontes do Google
     {
-      urlPattern: /^https://fonts\.googleapis\.com\/.*/i,
+      urlPattern: /^https:\/\/fonts\\.googleapis\\.com\/.*/i,
       handler: 'CacheFirst',
       options: {
         cacheName: 'google-fonts-cache',
@@ -25,7 +25,7 @@ const withPWA = require('next-pwa')({
     },
     // Cache para os arquivos de fontes (woff2)
      {
-      urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+      urlPattern: /^https:\/\/fonts\\.gstatic\\.com\/.*/i,
       handler: 'CacheFirst',
       options: {
         cacheName: 'gstatic-fonts-cache',
