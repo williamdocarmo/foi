@@ -37,7 +37,7 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
 
 ## 🧠 Gerando e Publicando Novo Conteúdo
 
-O conteúdo de curiosidades e quizzes do aplicativo é gerado por IA e armazenado em arquivos JSON dentro de `src/lib/data/`. Para que o novo conteúdo apareça no seu site publicado (deploy), você precisa seguir estes passos:
+O conteúdo de curiosidades e quizzes do aplicativo é gerado por IA e armazenado em arquivos JSON dentro de `data/`. Para que o novo conteúdo apareça no seu site publicado (deploy), você precisa seguir estes passos:
 
 ### Passo 1: Gere o Conteúdo Localmente
 
@@ -45,7 +45,7 @@ Rode o seguinte comando no seu terminal:
 ```bash
 npm run generate-content
 ```
-Isso irá gerar novas curiosidades e perguntas, adicionando-as aos arquivos `curiosities.json` e `quiz-questions.json`.
+Isso irá gerar novas curiosidades e perguntas, adicionando-as aos arquivos JSON correspondentes em `data/curiosities` e `data/quiz-questions`. O script é resiliente e pode ser interrompido e retomado, pois ele verifica o conteúdo existente antes de gerar novos itens.
 
 ### Passo 2: Adicione, "Comite" e Publique as Mudanças
 
@@ -53,7 +53,7 @@ Isso irá gerar novas curiosidades e perguntas, adicionando-as aos arquivos `cur
 
 1.  **Adicione os arquivos modificados:**
     ```bash
-    git add src/lib/data/curiosities.json src/lib/data/quiz-questions.json
+    git add data/
     ```
 2.  **Crie um "commit" (um ponto de salvamento):**
     ```bash
@@ -103,27 +103,46 @@ A Vercel se conecta ao seu repositório Git para automatizar o processo de deplo
 
 ---
 
-## 📦 Gerando o App para Android (Google Play Store)
+## 📦 Qual o Tamanho do Aplicativo? (iOS e Android)
 
-Com sua URL de produção em mãos (`https://app.foiumaideia.com` ou a URL da Vercel), você pode usar a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
+Uma das maiores vantagens deste projeto ser um **Progressive Web App (PWA)** é que ele é extremamente leve para o usuário final.
 
-### Passo 1: Instalar o Bubblewrap
+### Para Android (via Google Play Store)
 
-```bash
-npm install -g @bubblewrap/cli
-```
+*   **Tamanho do Download Inicial:** Muito pequeno, geralmente **entre 2 MB e 5 MB**.
+*   **Como funciona:** O pacote (`.aab`) que enviamos para a Play Store é um invólucro leve (chamado de Trusted Web Activity ou TWA). Ele não contém todo o aplicativo. Sua principal função é abrir o seu site em tela cheia, sem a barra de endereço do navegador, proporcionando uma experiência de app nativo. O conteúdo real (curiosidades, imagens, etc.) é carregado da internet e salvo no cache do dispositivo pelo Service Worker para permitir o uso offline.
 
-### Passo 2: Empacotar com o Bubblewrap
+### Para iOS (via "Adicionar à Tela de Início")
 
-1.  **Inicialize o Projeto Bubblewrap:**
-    Rode o comando de inicialização usando a sua URL de produção e o nome correto do manifesto (`.webmanifest`):
+*   **Tamanho do Download:** **Praticamente zero.**
+*   **Como funciona:** No iOS, não há um download da App Store. O usuário simplesmente salva um atalho do site na tela de início. O espaço ocupado é o cache do navegador Safari, que armazena os arquivos necessários para o funcionamento offline. O tamanho cresce conforme o usuário interage com o app, mas o impacto inicial é mínimo.
+
+Em ambos os casos, a experiência é de um aplicativo rápido, que não consome muito espaço no dispositivo do usuário e que se atualiza automaticamente sempre que você publica uma nova versão do site.
+
+---
+
+## 📱 Gerando o App para as Lojas
+
+Com sua URL de produção em mãos (`https://app.foiumaideia.com` ou a URL da Vercel), você pode empacotar o PWA para as lojas.
+
+### Gerando para Android (Google Play Store)
+
+Use a ferramenta **Bubblewrap** para criar o pacote `.aab` que será enviado para a Google Play Store.
+
+1.  **Instale o Bubblewrap (globalmente):**
+    ```bash
+    npm install -g @bubblewrap/cli
+    ```
+
+2.  **Empacote o PWA:**
+    Rode o comando de inicialização usando a sua URL de produção e o nome correto do manifesto (`manifest.webmanifest`):
 
     ```bash
     bubblewrap init --manifest https://app.foiumaideia.com/manifest.webmanifest
     ```
-    *   O Bubblewrap fará algumas perguntas. Na maioria dos casos, você pode simplesmente pressionar `Enter` para aceitar os padrões, pois ele pegará as informações do seu arquivo de manifesto. Preste atenção no `signing key password`, guarde a senha que você definir.
+    *   O Bubblewrap fará algumas perguntas. Na maioria dos casos, você pode pressionar `Enter` para aceitar os padrões, pois ele pegará as informações do seu arquivo de manifesto. Preste atenção no `signing key password`, guarde a senha que você definir.
 
-2.  **Gere o Pacote do App (.aab):**
+3.  **Gere o Pacote do App (.aab):**
     Após a inicialização, rode o comando de build:
     ```bash
     bubblewrap build
@@ -131,15 +150,13 @@ npm install -g @bubblewrap/cli
     *   Ele pedirá a senha da chave que você definiu no passo anterior.
     *   Isso criará um arquivo chamado `app-release-signed.aab`. **Este é o arquivo que você enviará para a Google Play Console.**
 
----
+### "Instalando" no iOS (Adicionar à Tela de Início)
 
-## 📱 "Instalando" o App no iOS (PWA)
-
-No iOS, não há um "pacote" como no Android. Os usuários podem adicionar seu site PWA diretamente à tela de início, e ele se comportará como um aplicativo nativo.
+No iOS, a "instalação" de um PWA é um processo manual para o usuário, mas o resultado é um ícone na tela de início que abre o app em tela cheia, com funcionalidades offline.
 
 1.  Abra a **URL de produção** do seu site no navegador **Safari**.
 2.  Toque no ícone de **Compartilhar** (um quadrado com uma seta para cima).
 3.  Role para baixo e selecione a opção **"Adicionar à Tela de Início"**.
 4.  Confirme o nome do aplicativo e toque em "Adicionar".
 
-O ícone do "Você Sabia?" aparecerá na tela de início. Ao abri-lo por lá, ele não terá a barra de endereço do navegador e funcionará offline.
+O ícone do "Você Sabia?" aparecerá na tela de início do usuário.
