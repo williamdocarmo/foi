@@ -137,14 +137,14 @@ Os fluxos de IA são construídos para expansão futura e podem não estar ativo
 
 ## 6. Arquitetura de Componentes React
 
-A interface é construída com componentes reutilizáveis.
+A interface é construída com componentes reutilizáveis e otimizados para performance.
 - **`AppHeader`:** Cabeçalho persistente que exibe as estatísticas do jogo (`totalCuriositiesRead`, `currentStreak`) e o status de autenticação do usuário.
 - **`AuthModal`:** Modal para login/cadastro com Google ou E-mail/Senha. Gerencia o fluxo de autenticação com o Firebase.
 - **`CategoryCard`:** Card na tela inicial que representa uma categoria, contendo seu ícone, nome, descrição e botões para explorar ou iniciar um quiz.
-- **`CuriosityExplorer`:** Componente principal para a leitura de curiosidades. Gerencia o estado da curiosidade atual (índice), navegação (próximo/anterior), e a lógica do botão "Surpreenda-me".
-- **`QuizEngine`:** Gerencia toda a lógica do quiz: estado do jogo (jogando/finalizado), pergunta atual, tempo, pontuação, seleção de respostas e exibição da tela de resultados.
+- **`CuriosityExplorer`:** Componente principal para a leitura de curiosidades. **Foi completamente refatorado para garantir estabilidade e performance**, seguindo padrões de desenvolvimento sênior. A lógica agora utiliza um estado mínimo (`currentIndex`) e inicializa a primeira curiosidade a ser exibida de forma segura e controlada (apenas uma vez após a montagem), eliminando a causa de loops de renderização. A marcação de curiosidades como lidas é um efeito colateral controlado, disparado apenas pela navegação do usuário, garantindo previsibilidade.
+- **`QuizEngine`:** Gerencia toda a lógica do quiz: estado do jogo (jogando/finalizado), pergunta atual, tempo (60 segundos por pergunta), pontuação, seleção de respostas e exibição da tela de resultados. Para evitar erros de hidratação, o embaralhamento das perguntas ocorre de forma segura no cliente, com um estado de carregamento explícito para melhorar a percepção de performance.
 - **`ProfileClient`:** Exibe as estatísticas completas do perfil do usuário, incluindo nível, progresso e um gráfico de desempenho nos quizzes.
-- **`RankingClient`:** Invoca o `ranking-flow` para buscar e exibir a lista dos melhores jogadores.
+- **`RankingClient`:** Invoca o `ranking-flow` para buscar e exibir a lista dos melhores jogadores. **A página de ranking foi otimizada com a estratégia de Streaming via Next.js `Suspense`**. A busca de dados agora ocorre no servidor, e um esqueleto de carregamento é exibido instantaneamente enquanto os dados são carregados em segundo plano, melhorando drasticamente a percepção de velocidade para o usuário.
 
 ## 7. PWA e Publicação
 - O aplicativo é um PWA totalmente funcional offline. O `manifest.webmanifest` e um `service-worker` (gerado por `next-pwa`) garantem a capacidade de instalação e o cache de assets.
