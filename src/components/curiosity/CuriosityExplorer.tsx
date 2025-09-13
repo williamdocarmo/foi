@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useEffect, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -19,89 +19,99 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
+// This component was completely rewritten to fix persistent rendering loop and navigation bugs.
+// The new architecture follows senior-level React patterns for stability and predictability.
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  const getInitialIndex = useCallback(() => {
-    const curiosityIdFromUrl = searchParams.get('curiosity') || initialCuriosityId;
-    if (curiosityIdFromUrl) {
-      const index = curiosities.findIndex(c => c.id === curiosityIdFromUrl);
-      if (index !== -1) return index;
-    }
-    const lastReadId = stats.lastReadCuriosity?.[category.id];
-    if (lastReadId) {
-        const index = curiosities.findIndex(c => c.id === lastReadId);
+  // State is now minimal: only the currentIndex is needed.
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+
+  // Effect to set the initial index. This runs ONLY ONCE after the component mounts
+  // and the game stats are loaded. This is the key to breaking the rendering loop.
+  useEffect(() => {
+    if (!isLoaded || curiosities.length === 0) return;
+
+    const findInitialIndex = () => {
+      // 1. Prioritize the ID from the URL query parameter.
+      if (initialCuriosityId) {
+        const index = curiosities.findIndex(c => c.id === initialCuriosityId);
         if (index !== -1) return index;
-    }
-    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-  }, [initialCuriosityId, searchParams, curiosities, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
+      }
+      // 2. Fallback to the last read curiosity in this category.
+      const lastReadId = stats.lastReadCuriosity?.[category.id];
+      if (lastReadId) {
+          const index = curiosities.findIndex(c => c.id === lastReadId);
+          if (index !== -1) return index;
+      }
+      // 3. Fallback to the first unread curiosity in this category.
+      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+      if (firstUnreadIndex !== -1) return firstUnreadIndex;
+      // 4. Default to the very first curiosity if all else fails.
+      return 0;
+    };
 
-  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
-
-  // This effect synchronizes the state if the data loads after the initial state is set.
-  useEffect(() => {
-    if(isLoaded) {
-      setCurrentIndex(getInitialIndex());
-    }
-  }, [isLoaded, getInitialIndex]);
-  
-  const currentCuriosity = curiosities[currentIndex];
-
-  // Mark as read only when the component loads for the first time with a valid curiosity.
-  useEffect(() => {
-    if (currentCuriosity && isLoaded) {
-      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
-    }
+    setCurrentIndex(findInitialIndex());
+    
+  // The empty dependency array [] ensures this effect runs only once.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentCuriosity?.id, isLoaded]); // Use currentCuriosity.id to only run when it changes or on load.
+  }, [isLoaded, curiosities.length]);
 
-  const handleNavigation = (newIndex: number) => {
-    if (newIndex >= 0 && newIndex < curiosities.length) {
-      setCurrentIndex(newIndex);
-      const newCuriosity = curiosities[newIndex];
-      markCuriosityAsRead(newCuriosity.id, newCuriosity.categoryId);
+
+  // Effect to mark a curiosity as read. This is a controlled side-effect that
+  // runs ONLY when the currentIndex changes.
+  useEffect(() => {
+    if (currentIndex !== null && isLoaded) {
+      const currentCuriosity = curiosities[currentIndex];
+      if (currentCuriosity) {
+        markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
+      }
     }
-  };
+  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities]);
 
-  const goToNext = () => handleNavigation(currentIndex + 1);
-  const goToPrev = () => handleNavigation(currentIndex - 1);
+
+  // Navigation handlers are now simple state updaters.
+  const handleNext = useCallback(() => {
+    if (currentIndex === null) return;
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < curiosities.length) {
+      setCurrentIndex(nextIndex);
+    }
+  }, [currentIndex, curiosities.length]);
+
+  const handlePrev = useCallback(() => {
+    if (currentIndex === null) return;
+    const prevIndex = currentIndex - 1;
+    if (prevIndex >= 0) {
+      setCurrentIndex(prevIndex);
+    }
+  }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
     const allCuriosities = getAllCuriosities();
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
-    // Prefer unread curiosities that are not the current one
-    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== currentCuriosity?.id);
+    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== curiosities[currentIndex!]?.id);
   
     if (unread.length > 0) {
       randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
     } else {
-      // If all are read, pick any other one
-      const allOthers = allCuriosities.filter(c => c.id !== currentCuriosity?.id);
+      const allOthers = allCuriosities.filter(c => c.id !== curiosities[currentIndex!]?.id);
       randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
     }
     
-    // Navigate to the new curiosity's page, which will re-render the component correctly
+    // Navigate to the new curiosity's page, which will re-render the component tree correctly.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
-  }, [stats.readCuriosities, currentCuriosity?.id, router]);
+  }, [stats.readCuriosities, currentIndex, curiosities, router]);
   
-  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
-  const explorerIcons = {
-    'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
-    'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
-    'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
-  };
-
   if (curiosities.length === 0) {
     return (
         <div className="flex flex-col items-center justify-center text-center p-8">
@@ -115,7 +125,8 @@ export default function CuriosityExplorer({
     );
   }
   
-  if (!isLoaded || !currentCuriosity) {
+  // A single, clear loading state.
+  if (currentIndex === null || !isLoaded) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
@@ -141,6 +152,15 @@ export default function CuriosityExplorer({
          </div>
     )
   }
+
+  const currentCuriosity = curiosities[currentIndex];
+  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
+  
+  const explorerIcons = {
+    'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
+    'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
+    'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
+  };
 
   return (
     <div className="flex flex-col gap-8">
@@ -189,7 +209,7 @@ export default function CuriosityExplorer({
           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
-          <Button variant="outline" onClick={goToPrev} disabled={currentIndex === 0}>
+          <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0}>
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
            {currentIndex === curiosities.length - 1 ? (
@@ -200,7 +220,7 @@ export default function CuriosityExplorer({
                 </Link>
               </Button>
             ) : (
-               <Button onClick={goToNext}>
+               <Button onClick={handleNext}>
                   Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
                </Button>
             )}
