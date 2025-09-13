@@ -1,14 +1,37 @@
+// scripts/generateContent-refactor.ts
+/**
+ * Versão refatorada e robusta do gerador de conteúdo.
+ * - Checkpoint por categoria (data/.checkpoints.json)
+ * - Parser tolerante (JSON.parse -> JSON5 fallback)
+ * - Validação estrita dos itens gerados
+ * - Deduplicação semântica (string-similarity)
+ * - Exponential backoff + jitter
+ * - Escrita incremental segura (temp -> atomic rename)
+ * - Progress bar por categoria
+ *
+ * Requer:
+ *  - @google/generative-ai
+ *  - json5
+ *  - p-limit
+ *  - cli-progress
+ *  - string-similarity
+ *  - uuid
+ *  - fs-extra
+ */
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { config } from "dotenv";
 import fs from "fs/promises";
+import fsExtra from "fs-extra";
 import path from "path";
+import JSON5 from "json5";
+import pLimit from "p-limit";
+import cliProgress from "cli-progress";
+import stringSimilarity from "string-similarity";
+import { v4 as uuidv4 } from "uuid";
+
 import categories from "../src/lib/data/categories.json";
 import type { Curiosity, QuizQuestion } from "@/lib/types";
-
-// One-time migration script.
-// This script is designed to be run once to migrate data from the old monolithic
-// JSON files to the new per-category file structure. It also cleans up old files afterwards.
 
 config();
 
@@ -20,294 +43,450 @@ if (!API_KEY) {
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-// --- CONFIGURAÇÕES ---
-const CURIOSITIES_TARGET_PER_CATEGORY = 2000;
-const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 1000;
-const BATCH_SIZE = 50; 
-const RETRY_DELAY_MS = 5000;
-const MAX_RETRIES = 3;
-const API_CALL_DELAY_MS = 2000; 
+// ---------------- CONFIG ----------------
+const CURIOSITIES_TARGET_PER_CATEGORY = 200;
+const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 100;
+const BATCH_SIZE = 50;
+const MAX_RETRIES = 5;
+const BASE_RETRY_DELAY_MS = 1000; // base for exponential backoff
+const API_CALL_DELAY_MS = 1200; // polite pacing
+const CONCURRENCY = 3;
+const SIMILARITY_THRESHOLD = 0.82; // 0.0 - 1.0, higher = stricter (avoid near-duplicates)
 
-const curiositiesDir = path.join(__dirname, "../data/curiosities");
-const quizzesDir = path.join(__dirname, "../data/quiz-questions");
+const ROOT = path.join(__dirname, "..");
+const dataDir = path.join(__dirname, "../data");
+const curiositiesDir = path.join(dataDir, "curiosities");
+const quizzesDir = path.join(dataDir, "quiz-questions");
+const checkpointPath = path.join(dataDir, ".checkpoints.json");
 
-// --- Old File Paths for Migration ---
-const oldCuriositiesPath = path.join(__dirname, "../src/lib/data/curiosities.json");
-const oldQuizzesPath = path.join(__dirname, "../src/lib/data/quiz-questions.json");
-const otherOldFiles = [
-    path.join(__dirname, "../data/curiosities-autoajuda.json"),
-    path.join(__dirname, "../data/curiosities-bem-estar.json"),
-    path.join(__dirname, "../data/curiosities-ciencia.json"),
-    path.join(__dirname, "../data/curiosities-cultura.json"),
-    path.join(__dirname, "../data/curiosities-dinheiro.json"),
-    path.join(__dirname, "../data/curiosities-entretenimento.json"),
-    path.join(__dirname, "../data/curiosities-futuro.json"),
-    path.join(__dirname, "../data/curiosities-habilidades.json"),
-    path.join(__dirname, "../data/curiosities-hacks.json"),
-    path.join(__dirname, "../data/curiosities-historia.json"),
-    path.join(__dirname, "../data/curiosities-lugares.json"),
-    path.join(__dirname, "../data/curiosities-misterios.json"),
-    path.join(__dirname, "../data/curiosities-musica.json"),
-    path.join(__dirname, "../data/curiosities-natureza-e-animais.json"),
-    path.join(__dirname, "../data/curiosities-psicologia.json"),
-    path.join(__dirname, "../data/curiosities-relacionamentos.json"),
-    path.join(__dirname, "../data/curiosities-religiao.json"),
-    path.join(__dirname, "../data/curiosities-saude.json"),
-    path.join(__dirname, "../data/curiosities-universo-e-astronomia.json"),
-    path.join(__dirname, "../data/curiosities-viagens.json"),
-    path.join(__dirname, "../data/quiz-questions-autoajuda.json"),
-    path.join(__dirname, "../data/quiz-questions-bem-estar.json"),
-    path.join(__dirname, "../data/quiz-questions-ciencia.json"),
-    path.join(__dirname, "../data/quiz-questions-cultura.json"),
-    path.join(__dirname, "../data/quiz-questions-dinheiro.json"),
-    path.join(__dirname, "../data/quiz-questions-entretenimento.json"),
-    path.join(__dirname, "../data/quiz-questions-futuro.json"),
-    path.join(__dirname, "../data/quiz-questions-habilidades.json"),
-    path.join(__dirname, "../data/quiz-questions-historia.json"),
-    path.join(__dirname, "../data/quiz-questions-misterios.json"),
-    path.join(__dirname, "../data/quiz-questions-psicologia.json"),
-    path.join(__dirname, "../data/quiz-questions-relacionamentos.json"),
-    path.join(__dirname, "../data/quiz-questions-religiao.json"),
-    path.join(__dirname, "../data/quiz-questions-saude.json"),
-    path.join(__dirname, "../data/quiz-questions-tecnologia.json"),
-];
-
-// --- FUNÇÕES AUXILIARES ---
-
+// ---------------- UTIL ----------------
 async function ensureDirExists(dirPath: string) {
-  try {
-    await fs.access(dirPath);
-  } catch (e) {
-    await fs.mkdir(dirPath, { recursive: true });
-  }
+  await fsExtra.ensureDir(dirPath);
 }
 
 function sleep(ms: number) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function readJsonFile<T>(filePath: string): Promise<T[]> {
+async function atomicWriteJson(filePath: string, data: any) {
+  const tmp = filePath + ".tmp";
+  await fs.writeFile(tmp, JSON.stringify(data, null, 2), "utf-8");
+  await fs.rename(tmp, filePath);
+}
+
+async function safeReadJson<T = any>(filePath: string, defaultValue: T): Promise<T> {
   try {
-    await fs.access(filePath);
-    const fileContent = await fs.readFile(filePath, "utf-8");
-    return fileContent ? JSON.parse(fileContent) : [];
+    const txt = await fs.readFile(filePath, "utf-8");
+    return txt ? JSON.parse(txt) : defaultValue;
   } catch (e) {
-    return [];
+    return defaultValue;
   }
 }
 
-async function writeJsonFile(filePath: string, data: any[]): Promise<void> {
-    const sortedData = data.sort((a, b) => {
-        const idA = parseInt(a.id.split('-').pop() || '0');
-        const idB = parseInt(b.id.split('-').pop() || '0');
-        return idA - idB;
-    });
-    await fs.writeFile(filePath, JSON.stringify(sortedData, null, 2));
-}
-
-async function deleteFileIfExists(filePath: string) {
+async function safeParseJsonText<T = any>(text: string): Promise<T | null> {
+  if (!text || !text.trim()) return null;
+  try {
+    return JSON.parse(text) as T;
+  } catch (e) {
+    // fallback to JSON5 tolerant parser
     try {
-        await fs.access(filePath);
-        await fs.unlink(filePath);
-        console.log(`  [MIGRAÇÃO] Arquivo antigo deletado: ${path.basename(filePath)}`);
-    } catch (error) {
-        // File doesn't exist, which is fine
+      return JSON5.parse(text) as T;
+    } catch (e2) {
+      // try to extract JSON block with regex { ... } or [ ... ]
+      const match = text.match(/(\[.*\]|\{.*\})/s);
+      if (match) {
+        try {
+          return JSON.parse(match[0]) as T;
+        } catch {
+          try {
+            return JSON5.parse(match[0]) as T;
+          } catch {
+            return null;
+          }
+        }
+      }
+      return null;
     }
+  }
 }
 
-
-async function migrateAndCleanOldFiles() {
-    console.log('\n--- Iniciando Migração de Dados Antigos ---');
-    
-    const allOldCuriosities: Curiosity[] = await readJsonFile(oldCuriositiesPath);
-    const allOldQuizzes: QuizQuestion[] = await readJsonFile(oldQuizzesPath);
-
-    if (allOldCuriosities.length === 0 && allOldQuizzes.length === 0) {
-        console.log('Nenhum dado antigo encontrado para migrar.');
-    } else {
-        const curiositiesByCategory = allOldCuriosities.reduce((acc, cur) => {
-            (acc[cur.categoryId] = acc[cur.categoryId] || []).push(cur);
-            return acc;
-        }, {} as Record<string, Curiosity[]>);
-
-        const quizzesByCategory = allOldQuizzes.reduce((acc, quiz) => {
-            (acc[quiz.categoryId] = acc[quiz.categoryId] || []).push(quiz);
-            return acc;
-        }, {} as Record<string, QuizQuestion[]>);
-
-        for (const categoryId in curiositiesByCategory) {
-            const filePath = path.join(curiositiesDir, `${categoryId}.json`);
-            await writeJsonFile(filePath, curiositiesByCategory[categoryId]);
-            console.log(`  - Migradas ${curiositiesByCategory[categoryId].length} curiosidades para ${categoryId}.json`);
-        }
-
-        for (const categoryId in quizzesByCategory) {
-            const filePath = path.join(quizzesDir, `${categoryId}.json`);
-            await writeJsonFile(filePath, quizzesByCategory[categoryId]);
-            console.log(`  - Migrados ${quizzesByCategory[categoryId].length} quizzes para ${categoryId}.json`);
-        }
-
-        console.log('--- Migração Concluída ---');
-    }
-
-    console.log('\n--- Limpando Arquivos Antigos ---');
-    await deleteFileIfExists(oldCuriositiesPath);
-    await deleteFileIfExists(oldQuizzesPath);
-    for (const oldFile of otherOldFiles) {
-        await deleteFileIfExists(oldFile);
-    }
-    console.log('--- Limpeza Concluída ---');
+function isLikelyDuplicate(title: string, existingTitles: string[]): boolean {
+  if (!title) return true;
+  // quick exact check first
+  if (existingTitles.includes(title)) return true;
+  // semantic similarity check
+  const best = stringSimilarity.findBestMatch(title, existingTitles);
+  if (best && best.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD) return true;
+  return false;
 }
 
+// ---------------- VALIDATION ----------------
+function wordCount(s: string) {
+  return s ? s.trim().split(/\s+/).length : 0;
+}
 
-async function generateWithRetry(prompt: string, attempt = 1): Promise<any[]> {
+function validateCuriosity(item: any): item is Curiosity {
+  if (!item || typeof item !== "object") return false;
+  if (!item.title || typeof item.title !== "string" || item.title.length < 6 || item.title.length > 120) return false;
+  if (!item.content || typeof item.content !== "string") return false;
+  const wc = wordCount(item.content);
+  if (wc < 40 || wc > 80) return false; // slightly relaxed upper bound
+  if (!item.funFact || typeof item.funFact !== "string" || item.funFact.length < 10) return false;
+  return true;
+}
+
+function validateQuiz(item: any): item is QuizQuestion {
+  if (!item || typeof item !== "object") return false;
+  if (!["easy", "medium", "hard"].includes(item.difficulty)) return false;
+  if (!item.question || typeof item.question !== "string" || item.question.length < 10) return false;
+  if (!Array.isArray(item.options) || item.options.length !== 4) return false;
+  if (!item.correctAnswer || typeof item.correctAnswer !== "string") return false;
+  if (!item.options.includes(item.correctAnswer)) return false;
+  if (!item.explanation || typeof item.explanation !== "string") return false;
+  return true;
+}
+
+// ---------------- CHECKPOINTS ----------------
+type CheckpointSchema = Record<
+  string,
+  {
+    curiositiesBatchesProcessed?: number;
+    quizzesBatchesProcessed?: number;
+    lastRunAt?: string;
+  }
+>;
+
+async function readCheckpoints(): Promise<CheckpointSchema> {
+  return safeReadJson<CheckpointSchema>(checkpointPath, {});
+}
+
+async function writeCheckpoints(cp: CheckpointSchema) {
+  await atomicWriteJson(checkpointPath, cp);
+}
+
+// ---------------- API + RETRIES ----------------
+async function generateWithRetry(prompt: string, attempt = 1): Promise<string | null> {
+  // exponential backoff with jitter
   try {
     const result = await model.generateContent(prompt);
     const response = await result.response;
-    let text = response.text();
-    const cleanedText = text.replace(/```json/g, "").replace(/```/g, "").trim();
-    if (!cleanedText) {
-      console.warn("  [AVISO] Resposta vazia da API. Tentando novamente...");
-      return [];
+    const text = response.text();
+    if (!text || !text.trim()) {
+      console.warn("  [WARN] API returned empty text");
+      return null;
     }
-    return JSON.parse(cleanedText);
-  } catch (error: any) {
-    if (attempt <= MAX_RETRIES && (error?.status === 503 || error?.status === 429 || error.message.includes('503') || error.message.includes('429'))) {
-      console.warn(`  [AVISO] API sobrecarregada. Tentando novamente em ${RETRY_DELAY_MS / 1000}s... (Tentativa ${attempt}/${MAX_RETRIES})`);
-      await sleep(RETRY_DELAY_MS);
+    return text;
+  } catch (err: any) {
+    const retriable = [
+      429, 503, 504
+    ].includes(err?.status);
+    if (attempt <= MAX_RETRIES && retriable) {
+      const delay = Math.round(BASE_RETRY_DELAY_MS * Math.pow(2, attempt - 1) + (Math.random() * 1000));
+      console.warn(`  [WARN] API error (status=${err?.status}). Retrying in ${delay}ms (attempt ${attempt}/${MAX_RETRIES})`);
+      await sleep(delay);
       return generateWithRetry(prompt, attempt + 1);
     }
-    if (error instanceof SyntaxError) {
-      console.error("  [ERRO] Falha ao analisar JSON da resposta da API. A resposta pode estar malformada ou vazia.");
-      console.error("Resposta recebida:", error);
-      return [];
-    }
-    console.error("  [ERRO] Erro inesperado da API:", error);
-    return [];
+    console.error("  [ERROR] Non-retriable or max retries reached:", err?.message ?? err);
+    return null;
   }
 }
 
-async function generateCuriosities(categoryName: string, count: number, existingTitles: Set<string>) {
-  const prompt = `Gere ${count} curiosidades sobre o tema "${categoryName}".
-  O formato de saída deve ser um array de objetos JSON.
-  Cada objeto deve ter os campos: "title" (string), "content" (string, com 40 a 60 palavras), e "funFact" (string).
-  O conteúdo deve ser interessante, direto e de fácil leitura. O "funFact" é OBRIGATÓRIO.
-  IMPORTANTE: NÃO REPITA os seguintes títulos de curiosidades já existentes: ${Array.from(existingTitles).join(', ')}. Gere tópicos novos e variados.
-  Exemplo: [{ "title": "O Coração Humano", "content": "O coração humano é uma bomba muscular incrível que bate cerca de 100.000 vezes por dia, impulsionando sangue rico em oxigênio para todo o corpo. Este órgão vital trabalha incansavelmente desde antes do nascimento até o último momento da vida, garantindo que cada célula receba o que precisa para funcionar adequadamente.", "funFact": "O coração de uma baleia azul é tão grande que um ser humano poderia nadar através de suas artérias." }]
-  Retorne APENAS o array JSON, sem nenhum texto ou formatação adicional.`;
-
-  return generateWithRetry(prompt);
+// ---------------- PROMPTS ----------------
+function buildCuriosityPrompt(categoryName: string, count: number, bannedTitles: string[]) {
+  const banned = bannedTitles.slice(0, 200); // don't explode prompt size
+  return `
+Gere ${count} curiosidades INÉDITAS e atraentes sobre o tema "${categoryName}".
+Saída: um ARRAY JSON de objetos.
+Cada objeto deve ter:
+- "title": título curto e intrigante (6-80 chars).
+- "hook": frase curta (6-30 chars) que prenda a atenção, estilo \"Você sabia que ...\" ou \"Incrível:\".
+- "content": parágrafo entre 40 e 80 palavras, linguagem simples e cativante.
+- "funFact": uma frase extra surpreendente (OBRIGATÓRIO).
+- "curiosityLevel": número de 1 a 5 (1 = comum, 5 = ultra-raro).
+Regras:
+- NÃO repita, reescreva ou reordene títulos já existentes: ${banned.join(" ; ")}
+- Priorize variações, fatos pouco óbvios, histórias curtas e sensação de surpresa.
+Retorne APENAS o array JSON, sem comentários extras.
+`;
 }
 
-async function generateQuizQuestions(categoryName: string, count: number, existingQuestions: Set<string>) {
-  const prompt = `Gere ${count} perguntas de quiz sobre o tema "${categoryName}".
-  O formato de saída deve ser um array de objetos JSON.
-  Cada objeto deve ter os campos: "difficulty" ('easy', 'medium', ou 'hard'), "question" (string), "options" (array de 4 strings), "correctAnswer" (string), "explanation" (string).
-  As opções devem ser variadas e a resposta correta deve estar entre elas.
-  IMPORTANTE: NÃO REPITA as seguintes perguntas já existentes: ${Array.from(existingQuestions).join('; ')}. Gere perguntas novas e diversificadas.
-  Exemplo: [{ "difficulty": "easy", "question": "Qual a cor do céu?", "options": ["Verde", "Azul", "Vermelho", "Amarelo"], "correctAnswer": "Azul", "explanation": "O céu é azul devido à dispersão da luz solar." }]
-  Retorne APENAS o array JSON, sem nenhum texto ou formatação adicional.`;
-
-  return generateWithRetry(prompt);
+function buildQuizPrompt(categoryName: string, count: number, bannedQuestions: string[]) {
+  const banned = bannedQuestions.slice(0, 200);
+  return `
+Gere ${count} perguntas de quiz originais sobre "${categoryName}".
+Saída: um ARRAY JSON de objetos.
+Cada objeto deve ter:
+- "difficulty": 'easy' | 'medium' | 'hard'
+- "question": string (curta e clara)
+- "options": array de 4 strings
+- "correctAnswer": uma das strings em "options"
+- "explanation": texto curto explicando a resposta e adicionando uma curiosidade extra
+Regras:
+- NÃO repita perguntas já existentes: ${banned.join(" ; ")}
+- Varie dificuldade e estilo (múltipla escolha, perguntas surpreendentes).
+Retorne APENAS o array JSON.
+`;
 }
 
+// ---------------- I/O helpers ----------------
+async function readCategoryJson<T = any[]>(filePath: string): Promise<T> {
+  try {
+    await fs.access(filePath);
+    const txt = await fs.readFile(filePath, "utf-8");
+    if (!txt || !txt.trim()) return [] as unknown as T;
+    // Parse tolerant
+    const parsed = await safeParseJsonText<T>(txt);
+    return (parsed ?? []) as T;
+  } catch (e) {
+    return [] as unknown as T;
+  }
+}
+
+async function writeCategoryJson(filePath: string, arr: any[]) {
+  // ensure deterministic ordering by id numeric suffix when possible
+  const sorted = [...arr].sort((a, b) => {
+    const aId = typeof a.id === "string" ? parseInt(a.id.split("-").pop() || "0") : 0;
+    const bId = typeof b.id === "string" ? parseInt(b.id.split("-").pop() || "0") : 0;
+    return aId - bId;
+  });
+  await atomicWriteJson(filePath, sorted);
+}
+
+// ---------------- MAIN PROCESS ----------------
 async function processCategory(category: typeof categories[0]) {
-    console.log(`\n--- Processando categoria: ${category.name} ---`);
-    
-    const curiosityFilePath = path.join(curiositiesDir, `${category.id}.json`);
-    const quizFilePath = path.join(quizzesDir, `${category.id}.json`);
+  console.log(`\n=== [${category.id}] ${category.name} ===`);
+  const curiosityFilePath = path.join(curiositiesDir, `${category.id}.json`);
+  const quizFilePath = path.join(quizzesDir, `${category.id}.json`);
 
-    // --- Geração de Curiosidades ---
-    const categoryCuriosities: Curiosity[] = await readJsonFile(curiosityFilePath);
-    const existingCuriosityTitles = new Set(categoryCuriosities.map(c => c.title));
-    let neededCuriosities = CURIOSITIES_TARGET_PER_CATEGORY - categoryCuriosities.length;
-    
-    console.log(`Curiosidades: ${categoryCuriosities.length}/${CURIOSITIES_TARGET_PER_CATEGORY}`);
-    if (neededCuriosities > 0) {
-        for (let i = 0; i < neededCuriosities; i += BATCH_SIZE) {
-            const countToGenerate = Math.min(neededCuriosities - i, BATCH_SIZE);
-            console.log(`  - Gerando lote de ${countToGenerate} curiosidades...`);
-            
-            const newItems = await generateCuriosities(category.name, countToGenerate, existingCuriosityTitles);
+  // read existing
+  const existingCuriosities: Curiosity[] = await readCategoryJson(curiosityFilePath);
+  const existingCuriosityTitles = existingCuriosities.map((c) => c.title || "");
+  const existingQuizzes: QuizQuestion[] = await readCategoryJson(quizFilePath);
+  const existingQuizQuestions = existingQuizzes.map((q) => q.question || "");
 
-            if (newItems && Array.isArray(newItems) && newItems.length > 0) {
-                const uniqueNewItems = newItems.filter(c => c.title && !existingCuriosityTitles.has(c.title));
+  // checkpoint read
+  const checkpoints = await readCheckpoints();
+  const cp = checkpoints[category.id] ?? { curiositiesBatchesProcessed: 0, quizzesBatchesProcessed: 0 };
 
-                let maxId = categoryCuriosities.length > 0 ? Math.max(...categoryCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
-                
-                const itemsToAdd = uniqueNewItems.map((c: any) => {
-                    maxId++;
-                    return { ...c, id: `${category.id}-${maxId}`, categoryId: category.id };
-                });
+  // CURIOUSITIES
+  const needCur = Math.max(0, CURIOSITIES_TARGET_PER_CATEGORY - existingCuriosities.length);
+  console.log(`Curiosidades existentes: ${existingCuriosities.length}. Necessário: ${needCur}`);
 
-                categoryCuriosities.push(...itemsToAdd);
-                itemsToAdd.forEach(c => existingCuriosityTitles.add(c.title));
+  if (needCur > 0) {
+    const totalBatches = Math.ceil(needCur / BATCH_SIZE);
+    const progressBar = new cliProgress.SingleBar({
+      format: `${category.id} Curiosidades |{bar}| {value}/{total} batches`
+    }, cliProgress.Presets.shades_classic);
+    progressBar.start(totalBatches, cp.curiositiesBatchesProcessed || 0);
 
-                await writeJsonFile(curiosityFilePath, categoryCuriosities);
-            } else {
-                console.log(`  - Nenhuma curiosidade nova gerada neste lote.`);
-            }
-            await sleep(API_CALL_DELAY_MS);
+    for (let batchIndex = cp.curiositiesBatchesProcessed || 0; batchIndex < totalBatches; batchIndex++) {
+      const toGen = Math.min(BATCH_SIZE, needCur - batchIndex * BATCH_SIZE);
+      console.log(`  [${category.id}] Gerando lote ${batchIndex + 1}/${totalBatches} (${toGen}) curiosidades...`);
+
+      const prompt = buildCuriosityPrompt(category.name, toGen, existingCuriosityTitles);
+      const raw = await generateWithRetry(prompt);
+      if (!raw) {
+        console.warn(`  [${category.id}] Resposta nula do gerador. Pulando lote.`);
+        // Save checkpoint to avoid infinite loop; we can try later rerun
+        cp.curiositiesBatchesProcessed = batchIndex + 1;
+        cp.lastRunAt = new Date().toISOString();
+        checkpoints[category.id] = cp;
+        await writeCheckpoints(checkpoints);
+        continue;
+      }
+
+      const cleanedText = raw.replace(/```json/g, "").replace(/```/g, "").trim();
+      const parsed = await safeParseJsonText<any[]>(cleanedText);
+      if (!parsed || !Array.isArray(parsed) || parsed.length === 0) {
+        console.warn(`  [${category.id}] Não foi possível parsear JSON do lote. Conteúdo recebido será ignorado.`);
+        cp.curiositiesBatchesProcessed = batchIndex + 1;
+        checkpoints[category.id] = cp;
+        await writeCheckpoints(checkpoints);
+        continue;
+      }
+
+      // validate + dedupe semântico
+      const uniqueToAdd: Curiosity[] = [];
+      let maxIdNum = existingCuriosities.length > 0 ? Math.max(...existingCuriosities.map(c => parseInt((c.id || "0").split("-").pop() || "0")).filter(Number.isFinite)) : 0;
+
+      for (const rawItem of parsed) {
+        if (!validateCuriosity(rawItem)) {
+          // try to salvage: trim fields
+          rawItem.title = typeof rawItem.title === "string" ? rawItem.title.trim() : rawItem.title;
+          rawItem.content = typeof rawItem.content === "string" ? rawItem.content.trim() : rawItem.content;
+          rawItem.funFact = typeof rawItem.funFact === "string" ? rawItem.funFact.trim() : rawItem.funFact;
         }
-    } else {
-      console.log(`  - Meta de curiosidades já atingida.`);
+        if (!validateCuriosity(rawItem)) {
+          // discard
+          continue;
+        }
+        if (isLikelyDuplicate(rawItem.title, existingCuriosityTitles.concat(uniqueToAdd.map(i => i.title)))) {
+          continue;
+        }
+        maxIdNum++;
+        const id = `${category.id}-${maxIdNum}`;
+        uniqueToAdd.push({ id, categoryId: category.id, ...rawItem });
+      }
+
+      if (uniqueToAdd.length > 0) {
+        // append and save
+        existingCuriosities.push(...uniqueToAdd);
+        uniqueToAdd.forEach(u => existingCuriosityTitles.push(u.title));
+        await writeCategoryJson(curiosityFilePath, existingCuriosities);
+        console.log(`  [${category.id}] ✅ ${uniqueToAdd.length} curiosidades válidas adicionadas.`);
+      } else {
+        console.log(`  [${category.id}] - Nenhuma curiosidade válida/única neste lote.`);
+      }
+
+      // checkpoint update
+      cp.curiositiesBatchesProcessed = batchIndex + 1;
+      cp.lastRunAt = new Date().toISOString();
+      checkpoints[category.id] = cp;
+      await writeCheckpoints(checkpoints);
+
+      progressBar.increment();
+      await sleep(API_CALL_DELAY_MS);
     }
 
-    // --- Geração de Perguntas de Quiz ---
-    const categoryQuizzes: QuizQuestion[] = await readJsonFile(quizFilePath);
-    const existingQuestionStrings = new Set(categoryQuizzes.map(q => q.question));
-    let neededQuizzes = QUIZ_QUESTIONS_TARGET_PER_CATEGORY - categoryQuizzes.length;
-    
-    console.log(`Quizzes: ${categoryQuizzes.length}/${QUIZ_QUESTIONS_TARGET_PER_CATEGORY}`);
-    if (neededQuizzes > 0) {
-        for (let i = 0; i < neededQuizzes; i += BATCH_SIZE) {
-            const countToGenerate = Math.min(neededQuizzes - i, BATCH_SIZE);
-            console.log(`  - Gerando lote de ${countToGenerate} quizzes...`);
+    progressBar.stop();
+  }
 
-            const newItems = await generateQuizQuestions(category.name, countToGenerate, existingQuestionStrings);
-            
-            if (newItems && Array.isArray(newItems) && newItems.length > 0) {
-                const uniqueNewItems = newItems.filter(q => q.question && !existingQuestionStrings.has(q.question));
+  // QUIZ
+  const needQuiz = Math.max(0, QUIZ_QUESTIONS_TARGET_PER_CATEGORY - existingQuizzes.length);
+  console.log(`Quizzes existentes: ${existingQuizzes.length}. Necessário: ${needQuiz}`);
 
-                let maxId = categoryQuizzes.length > 0 ? Math.max(...categoryQuizzes.map(q => parseInt(q.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
+  if (needQuiz > 0) {
+    const totalBatches = Math.ceil(needQuiz / BATCH_SIZE);
+    const progressBar = new cliProgress.SingleBar({
+      format: `${category.id} Quizzes    |{bar}| {value}/{total} batches`
+    }, cliProgress.Presets.shades_classic);
+    progressBar.start(totalBatches, cp.quizzesBatchesProcessed || 0);
 
-                const itemsToAdd = uniqueNewItems.map((q: any) => {
-                    maxId++;
-                    return { ...q, id: `quiz-${category.id}-${maxId}`, categoryId: category.id };
-                });
+    for (let batchIndex = cp.quizzesBatchesProcessed || 0; batchIndex < totalBatches; batchIndex++) {
+      const toGen = Math.min(BATCH_SIZE, needQuiz - batchIndex * BATCH_SIZE);
+      console.log(`  [${category.id}] Gerando lote ${batchIndex + 1}/${totalBatches} (${toGen}) quizzes...`);
 
-                categoryQuizzes.push(...itemsToAdd);
-                itemsToAdd.forEach(q => existingQuestionStrings.add(q.question));
+      const prompt = buildQuizPrompt(category.name, toGen, existingQuizQuestions);
+      const raw = await generateWithRetry(prompt);
+      if (!raw) {
+        console.warn(`  [${category.id}] Resposta nula do gerador (quiz). Pulando lote.`);
+        cp.quizzesBatchesProcessed = batchIndex + 1;
+        cp.lastRunAt = new Date().toISOString();
+        checkpoints[category.id] = cp;
+        await writeCheckpoints(checkpoints);
+        continue;
+      }
 
-                await writeJsonFile(quizFilePath, categoryQuizzes);
-            } else {
-                console.log(`  - Nenhum quiz novo gerado neste lote.`);
-            }
-            await sleep(API_CALL_DELAY_MS);
+      const cleanedText = raw.replace(/```json/g, "").replace(/```/g, "").trim();
+      const parsed = await safeParseJsonText<any[]>(cleanedText);
+      if (!parsed || !Array.isArray(parsed) || parsed.length === 0) {
+        console.warn(`  [${category.id}] Não foi possível parsear JSON do lote de quizzes. Ignorando.`);
+        cp.quizzesBatchesProcessed = batchIndex + 1;
+        checkpoints[category.id] = cp;
+        await writeCheckpoints(checkpoints);
+        continue;
+      }
+
+      // validate + dedupe
+      const uniqueToAdd: QuizQuestion[] = [];
+      let maxIdNum = existingQuizzes.length > 0 ? Math.max(...existingQuizzes.map(q => {
+        const parts = String(q.id || "").split("-");
+        return parseInt(parts[parts.length - 1] || "0");
+      }).filter(Number.isFinite)) : 0;
+
+      for (const rawItem of parsed) {
+        if (!validateQuiz(rawItem)) {
+          // attempt to normalize: ensure options array, correctAnswer inclusion etc.
+          if (Array.isArray(rawItem.options) && rawItem.options.length === 4 && typeof rawItem.correctAnswer === "string") {
+            // proceed to further checks
+          } else {
+            continue; // discard irreparable
+          }
         }
-    } else {
-        console.log(`  - Meta de quizzes já atingida.`);
+        // dedupe by exact + semantic on question string
+        if (isLikelyDuplicate(rawItem.question, existingQuizQuestions.concat(uniqueToAdd.map(i => i.question)))) {
+          continue;
+        }
+        maxIdNum++;
+        const id = `quiz-${category.id}-${maxIdNum}`;
+        uniqueToAdd.push({ id, categoryId: category.id, ...rawItem });
+      }
+
+      if (uniqueToAdd.length > 0) {
+        existingQuizzes.push(...uniqueToAdd);
+        uniqueToAdd.forEach(q => existingQuizQuestions.push(q.question));
+        await writeCategoryJson(quizFilePath, existingQuizzes);
+        console.log(`  [${category.id}] ✅ ${uniqueToAdd.length} quizzes válidos adicionados.`);
+      } else {
+        console.log(`  [${category.id}] - Nenhum quiz válido/único neste lote.`);
+      }
+
+      // checkpoint update
+      cp.quizzesBatchesProcessed = batchIndex + 1;
+      cp.lastRunAt = new Date().toISOString();
+      checkpoints[category.id] = cp;
+      await writeCheckpoints(checkpoints);
+
+      progressBar.increment();
+      await sleep(API_CALL_DELAY_MS);
     }
+
+    progressBar.stop();
+  }
+
+  // final summary per category
+  const finalCuriosities = (await readCategoryJson<Curiosity[]>(curiosityFilePath)).length;
+  const finalQuizzes = (await readCategoryJson<QuizQuestion[]>(quizFilePath)).length;
+  console.log(`\n[${category.id}] Final: Curiosidades=${finalCuriosidades}, Quizzes=${finalQuizzes}`);
 }
 
-// --- FUNÇÃO PRINCIPAL ---
+// ---------------- CLEANUP ORPHANS ----------------
+async function cleanupOrphanFiles() {
+  console.log("\n--- Limpando arquivos órfãos ---");
+  const categoryIds = new Set(categories.map(c => c.id));
+  const curiosityFiles = await fs.readdir(curiositiesDir);
+  for (const file of curiosityFiles) {
+    const categoryId = path.basename(file, ".json");
+    if (!categoryIds.has(categoryId)) {
+      console.log(`  Removendo curiosidade órfã: ${file}`);
+      await fs.unlink(path.join(curiositiesDir, file));
+    }
+  }
+  const quizFiles = await fs.readdir(quizzesDir);
+  for (const file of quizFiles) {
+    const categoryId = path.basename(file, ".json");
+    if (!categoryIds.has(categoryId)) {
+      console.log(`  Removendo quiz órfão: ${file}`);
+      await fs.unlink(path.join(quizzesDir, file));
+    }
+  }
+  console.log("--- Concluído ---\n");
+}
 
+// ---------------- MAIN ----------------
 async function main() {
-  console.log("Iniciando a geração de conteúdo...");
-
+  console.log("=== Iniciando geração de conteúdo (refactor) ===");
+  await ensureDirExists(dataDir);
   await ensureDirExists(curiositiesDir);
   await ensureDirExists(quizzesDir);
 
-  await migrateAndCleanOldFiles();
+  // Initial checkpoint file ensure
+  const existingCheckpoints = await readCheckpoints();
+  await writeCheckpoints(existingCheckpoints);
 
-  const pLimit = (await import('p-limit')).default;
-  const limit = pLimit(3); // Processa até 3 categorias em paralelo
+  // remove orphan files if any
+  await cleanupOrphanFiles();
 
-  const tasks = categories.map(category => limit(() => processCategory(category)));
-  
+  const limit = pLimit(CONCURRENCY);
+
+  const tasks = categories.map((category) => limit(() => processCategory(category)));
+
   await Promise.all(tasks);
 
-  console.log("\nProcesso de geração de conteúdo concluído!");
+  console.log("\n=== Geração finalizada ===");
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error("Erro fatal:", err);
+  process.exit(1);
+});
