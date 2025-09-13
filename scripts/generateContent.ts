@@ -31,7 +31,7 @@ import stringSimilarity from "string-similarity";
 import { v4 as uuidv4 } from "uuid";
 
 import categories from "../src/lib/data/categories.json";
-import type { Curiosity, QuizQuestion } from "@/lib/types";
+import type { Curiosity, QuizQuestion } from "../src/lib/types";
 
 config();
 
@@ -437,7 +437,7 @@ async function processCategory(category: typeof categories[0]) {
   // final summary per category
   const finalCuriosities = (await readCategoryJson<Curiosity[]>(curiosityFilePath)).length;
   const finalQuizzes = (await readCategoryJson<QuizQuestion[]>(quizFilePath)).length;
-  console.log(`\n[${category.id}] Final: Curiosidades=${finalCuriosidades}, Quizzes=${finalQuizzes}`);
+  console.log(`\n[${category.id}] Final: Curiosidades=${finalCuriosities}, Quizzes=${finalQuizzes}`);
 }
 
 // ---------------- CLEANUP ORPHANS ----------------
