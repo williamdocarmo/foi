@@ -16,7 +16,10 @@ type QuizEngineProps = {
   questions: QuizQuestion[];
 };
 
-const QUESTION_TIME = 60; // Increased from 50 to 60 seconds
+const QUESTION_TIME = 60; 
+const DELAY_AFTER_CORRECT_MS = 2000;
+const DELAY_AFTER_WRONG_MS = 10000;
+
 
 export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [gameState, setGameState] = useState<'playing' | 'finished'>('playing');
@@ -31,11 +34,9 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const { stats, addQuizResult, updateStats } = useGameStats();
   const isOnline = useOnlineStatus();
 
-  // State to hold the shuffled questions, initialized after hydration
   const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([]);
 
   useEffect(() => {
-    // Shuffle questions only on the client-side to prevent hydration mismatch
     setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
   }, [questions]);
 
@@ -62,7 +63,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           clearInterval(timer);
           setIsAnswered(true); // Times up
           setTotalTime(t => t + (QUESTION_TIME - (prev - 1)))
-          setTimeout(handleNextQuestion, 2000);
+          setTimeout(handleNextQuestion, DELAY_AFTER_WRONG_MS); // User didn't answer, treat as wrong
           return 0;
         }
         return prev - 1;
@@ -81,13 +82,15 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setTotalTime(t => t + timeTaken);
 
     const isCorrect = option === currentQuestion.correctAnswer;
+    let delay = DELAY_AFTER_WRONG_MS;
 
     if (isCorrect) {
-      setScore(prev => prev + 10 + timeLeft); // Score based on correctness and time
+      setScore(prev => prev + 10 + timeLeft);
       setCorrectAnswersCount(prev => prev + 1);
+      delay = DELAY_AFTER_CORRECT_MS;
     }
 
-    setTimeout(handleNextQuestion, 2000);
+    setTimeout(handleNextQuestion, delay);
   };
   
   const useCombo = () => {
@@ -106,7 +109,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setIsAnswered(false);
     setTotalTime(0);
     setCorrectAnswersCount(0);
-    // Re-shuffle for the new game to avoid client/server mismatch on hydration
     setShuffledQuestions([]); 
     setTimeout(() => setShuffledQuestions([...questions].sort(() => Math.random() - 0.5)), 0);
   }
@@ -136,7 +138,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     );
   }
   
-  // Loading state while questions are being shuffled on the client
   if (shuffledQuestions.length === 0) {
     return (
         <Card className="w-full max-w-2xl">
