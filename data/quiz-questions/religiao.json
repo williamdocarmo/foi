@@ -1,1 +1,73 @@
-[]
+
+[
+  {
+    "id": "quiz-religiao-1",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual é o livro sagrado do Islamismo?",
+    "options": [
+      "A Bíblia",
+      "A Torá",
+      "O Alcorão",
+      "O Vedas"
+    ],
+    "correctAnswer": "O Alcorão",
+    "explanation": "O Alcorão é o livro sagrado do Islã, que os muçulmanos acreditam ser a palavra literal de Deus (Alá) revelada ao profeta Maomé."
+  },
+  {
+    "id": "quiz-religiao-2",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "No Budismo, o que o 'Nirvana' representa?",
+    "options": [
+      "Um paraíso celestial",
+      "A união com o deus criador",
+      "A libertação do ciclo de sofrimento e reencarnação",
+      "Um ritual de purificação"
+    ],
+    "correctAnswer": "A libertação do ciclo de sofrimento e reencarnação",
+    "explanation": "Nirvana é o objetivo final do Budismo, representando um estado de paz suprema e a extinção do sofrimento ao escapar do ciclo de renascimentos (Samsara)."
+  },
+  {
+    "id": "quiz-religiao-3",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Quem é considerado o patriarca comum do Judaísmo, Cristianismo e Islamismo?",
+    "options": [
+      "Moisés",
+      "Jesus",
+      "Maomé",
+      "Abraão"
+    ],
+    "correctAnswer": "Abraão",
+    "explanation": "Abraão é uma figura central nas três maiores religiões monoteístas do mundo, sendo reverenciado como um patriarca e profeta por judeus, cristãos e muçulmanos."
+  },
+  {
+    "id": "quiz-religiao-4",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual destes é um dos cinco pilares do Islã?",
+    "options": [
+      "Meditação diária",
+      "A peregrinação a Meca (Hajj)",
+      "A leitura completa da Torá",
+      "O batismo"
+    ],
+    "correctAnswer": "A peregrinação a Meca (Hajj)",
+    "explanation": "Os cinco pilares do Islã são: a declaração de fé (Shahada), a oração (Salat), a caridade (Zakat), o jejum no Ramadã (Sawm) e a peregrinação a Meca (Hajj), que deve ser feita ao menos uma vez na vida, se possível."
+  },
+  {
+    "id": "quiz-religiao-5",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual evento é comemorado pelos cristãos no dia de Natal?",
+    "options": [
+      "A ressurreição de Jesus",
+      "A criação do mundo",
+      "O nascimento de Jesus",
+      "A chegada do Espírito Santo"
+    ],
+    "correctAnswer": "O nascimento de Jesus",
+    "explanation": "O Natal, celebrado em 25 de dezembro, é a festa cristã que comemora o nascimento de Jesus Cristo."
+  }
+]

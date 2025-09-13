@@ -1,1 +1,38 @@
-[]
+
+[
+  {
+    "id": "religiao-1",
+    "categoryId": "religiao",
+    "title": "O Budismo e o Caminho do Meio",
+    "content": "O Budismo, fundado por Siddhartha Gautama, não é centrado em um deus criador, mas em um caminho para a iluminação. A filosofia se baseia no 'Caminho do Meio', que prega o equilíbrio entre os extremos da autoindulgência e da automortificação para alcançar o fim do sofrimento.",
+    "funFact": "Siddhartha Gautama era um príncipe que viveu uma vida de luxo antes de abandonar tudo em busca de respostas espirituais."
+  },
+  {
+    "id": "religiao-2",
+    "categoryId": "religiao",
+    "title": "A Pedra Negra de Meca",
+    "content": "No centro da Grande Mesquita de Meca, no Islã, está a Caaba, que contém a Pedra Negra. Muçulmanos acreditam que a pedra foi enviada do céu por Alá. Durante a peregrinação (Hajj), os fiéis tentam tocar ou beijar a pedra como um ato de devoção.",
+    "funFact": "Cientificamente, a Pedra Negra é frequentemente descrita como um meteorito, embora sua origem exata permaneça um mistério."
+  },
+  {
+    "id": "religiao-3",
+    "categoryId": "religiao",
+    "title": "O Vaticano: O Menor País do Mundo",
+    "content": "O Vaticano, sede da Igreja Católica, é o menor estado soberano do mundo, tanto em área quanto em população. Ele opera como uma monarquia absoluta eletiva, onde o Papa detém plenos poderes legislativo, executivo e judicial. Sua economia é baseada em doações e turismo.",
+    "funFact": "A Guarda Suíça, o exército do Vaticano, usa um uniforme colorido que, segundo a lenda, foi desenhado por Michelangelo, embora não haja provas disso."
+  },
+  {
+    "id": "religiao-4",
+    "categoryId": "religiao",
+    "title": "O Conceito de Carma no Hinduísmo",
+    "content": "No Hinduísmo, o 'carma' é a lei de causa e efeito, onde as ações de uma pessoa (boas ou más) determinam seu futuro nesta e nas próximas vidas. Não é um castigo divino, mas uma consequência natural das próprias escolhas, influenciando o ciclo de reencarnação (Samsara).",
+    "funFact": "Existem três tipos de carma no Hinduísmo: o que está sendo criado agora, o que já foi criado e está sendo vivido, e o que está guardado para o futuro."
+  },
+  {
+    "id": "religiao-5",
+    "categoryId": "religiao",
+    "title": "A Torá e os Pergaminhos do Mar Morto",
+    "content": "A Torá é o livro sagrado central do Judaísmo, compreendendo os cinco primeiros livros da Bíblia. A descoberta dos Manuscritos do Mar Morto em 1947 foi monumental, pois continham alguns dos textos bíblicos mais antigos já encontrados, validando a precisão histórica de muitas passagens da Torá.",
+    "funFact": "Os Manuscritos do Mar Morto foram encontrados por um pastor beduíno que procurava uma cabra perdida em uma caverna."
+  }
+]
