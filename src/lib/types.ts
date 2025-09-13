@@ -14,12 +14,12 @@ export type Curiosity = {
   categoryId: string;
   title: string;
   content: string;
-  funFact?: string;
+  funFact: string; // Agora é obrigatório
   isNew?: boolean;
 };
 
 export type QuizQuestion = {
-  id: 'easy' | 'medium' | 'hard';
+  id: string; // ID único, não difficulty
   categoryId: string;
   difficulty: 'easy' | 'medium' | 'hard';
   question: string;

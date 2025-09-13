@@ -6,9 +6,8 @@ import path from "path";
 import categories from "../src/lib/data/categories.json";
 import type { Curiosity, QuizQuestion } from "@/lib/types";
 
-// One-time migration script.
-// This script is designed to be run once to migrate data from the old monolithic
-// JSON files to the new per-category file structure. It also cleans up old files afterwards.
+// Script de geração de conteúdo completamente refatorado para ser mais robusto,
+// resiliente e gerar dados de maior qualidade, conforme análise crítica.
 
 config();
 
@@ -30,47 +29,7 @@ const API_CALL_DELAY_MS = 2000;
 
 const curiositiesDir = path.join(__dirname, "../data/curiosities");
 const quizzesDir = path.join(__dirname, "../data/quiz-questions");
-
-// --- Old File Paths for Migration ---
-const oldCuriositiesPath = path.join(__dirname, "../src/lib/data/curiosities.json");
-const oldQuizzesPath = path.join(__dirname, "../src/lib/data/quiz-questions.json");
-const otherOldFiles = [
-    path.join(__dirname, "../data/curiosities-autoajuda.json"),
-    path.join(__dirname, "../data/curiosities-bem-estar.json"),
-    path.join(__dirname, "../data/curiosities-ciencia.json"),
-    path.join(__dirname, "../data/curiosities-cultura.json"),
-    path.join(__dirname, "../data/curiosities-dinheiro.json"),
-    path.join(__dirname, "../data/curiosities-entretenimento.json"),
-    path.join(__dirname, "../data/curiosities-futuro.json"),
-    path.join(__dirname, "../data/curiosities-habilidades.json"),
-    path.join(__dirname, "../data/curiosities-hacks.json"),
-    path.join(__dirname, "../data/curiosities-historia.json"),
-    path.join(__dirname, "../data/curiosities-lugares.json"),
-    path.join(__dirname, "../data/curiosities-misterios.json"),
-    path.join(__dirname, "../data/curiosities-musica.json"),
-    path.join(__dirname, "../data/curiosities-natureza-e-animais.json"),
-    path.join(__dirname, "../data/curiosities-psicologia.json"),
-    path.join(__dirname, "../data/curiosities-relacionamentos.json"),
-    path.join(__dirname, "../data/curiosities-religiao.json"),
-    path.join(__dirname, "../data/curiosities-saude.json"),
-    path.join(__dirname, "../data/curiosities-universo-e-astronomia.json"),
-    path.join(__dirname, "../data/curiosities-viagens.json"),
-    path.join(__dirname, "../data/quiz-questions-autoajuda.json"),
-    path.join(__dirname, "../data/quiz-questions-bem-estar.json"),
-    path.join(__dirname, "../data/quiz-questions-ciencia.json"),
-    path.join(__dirname, "../data/quiz-questions-cultura.json"),
-    path.join(__dirname, "../data/quiz-questions-dinheiro.json"),
-    path.join(__dirname, "../data/quiz-questions-entretenimento.json"),
-    path.join(__dirname, "../data/quiz-questions-futuro.json"),
-    path.join(__dirname, "../data/quiz-questions-habilidades.json"),
-    path.join(__dirname, "../data/quiz-questions-historia.json"),
-    path.join(__dirname, "../data/quiz-questions-misterios.json"),
-    path.join(__dirname, "../data/quiz-questions-psicologia.json"),
-    path.join(__dirname, "../data/quiz-questions-relacionamentos.json"),
-    path.join(__dirname, "../data/quiz-questions-religiao.json"),
-    path.join(__dirname, "../data/quiz-questions-saude.json"),
-    path.join(__dirname, "../data/quiz-questions-tecnologia.json"),
-];
+const dataDir = path.join(__dirname, "../data");
 
 // --- FUNÇÕES AUXILIARES ---
 
@@ -105,58 +64,29 @@ async function writeJsonFile(filePath: string, data: any[]): Promise<void> {
     await fs.writeFile(filePath, JSON.stringify(sortedData, null, 2));
 }
 
-async function deleteFileIfExists(filePath: string) {
-    try {
-        await fs.access(filePath);
-        await fs.unlink(filePath);
-        console.log(`  [MIGRAÇÃO] Arquivo antigo deletado: ${path.basename(filePath)}`);
-    } catch (error) {
-        // File doesn't exist, which is fine
-    }
-}
-
-
-async function migrateAndCleanOldFiles() {
-    console.log('\n--- Iniciando Migração de Dados Antigos ---');
+// Remove arquivos órfãos de categorias que não existem mais
+async function cleanupOrphanFiles() {
+    console.log('\n--- Verificando e limpando arquivos órfãos ---');
+    const categoryIds = new Set(categories.map(c => c.id));
     
-    const allOldCuriosities: Curiosity[] = await readJsonFile(oldCuriositiesPath);
-    const allOldQuizzes: QuizQuestion[] = await readJsonFile(oldQuizzesPath);
-
-    if (allOldCuriosities.length === 0 && allOldQuizzes.length === 0) {
-        console.log('Nenhum dado antigo encontrado para migrar.');
-    } else {
-        const curiositiesByCategory = allOldCuriosities.reduce((acc, cur) => {
-            (acc[cur.categoryId] = acc[cur.categoryId] || []).push(cur);
-            return acc;
-        }, {} as Record<string, Curiosity[]>);
-
-        const quizzesByCategory = allOldQuizzes.reduce((acc, quiz) => {
-            (acc[quiz.categoryId] = acc[quiz.categoryId] || []).push(quiz);
-            return acc;
-        }, {} as Record<string, QuizQuestion[]>);
-
-        for (const categoryId in curiositiesByCategory) {
-            const filePath = path.join(curiositiesDir, `${categoryId}.json`);
-            await writeJsonFile(filePath, curiositiesByCategory[categoryId]);
-            console.log(`  - Migradas ${curiositiesByCategory[categoryId].length} curiosidades para ${categoryId}.json`);
+    const curiosityFiles = await fs.readdir(curiositiesDir);
+    for (const file of curiosityFiles) {
+        const categoryId = path.basename(file, '.json');
+        if (!categoryIds.has(categoryId)) {
+            console.log(`  - Removendo curiosidade órfã: ${file}`);
+            await fs.unlink(path.join(curiositiesDir, file));
         }
-
-        for (const categoryId in quizzesByCategory) {
-            const filePath = path.join(quizzesDir, `${categoryId}.json`);
-            await writeJsonFile(filePath, quizzesByCategory[categoryId]);
-            console.log(`  - Migrados ${quizzesByCategory[categoryId].length} quizzes para ${categoryId}.json`);
-        }
-
-        console.log('--- Migração Concluída ---');
     }
 
-    console.log('\n--- Limpando Arquivos Antigos ---');
-    await deleteFileIfExists(oldCuriositiesPath);
-    await deleteFileIfExists(oldQuizzesPath);
-    for (const oldFile of otherOldFiles) {
-        await deleteFileIfExists(oldFile);
+    const quizFiles = await fs.readdir(quizzesDir);
+    for (const file of quizFiles) {
+        const categoryId = path.basename(file, '.json');
+        if (!categoryIds.has(categoryId)) {
+            console.log(`  - Removendo quiz órfão: ${file}`);
+            await fs.unlink(path.join(quizzesDir, file));
+        }
     }
-    console.log('--- Limpeza Concluída ---');
+     console.log('--- Verificação Concluída ---');
 }
 
 
@@ -190,8 +120,8 @@ async function generateWithRetry(prompt: string, attempt = 1): Promise<any[]> {
 async function generateCuriosities(categoryName: string, count: number, existingTitles: Set<string>) {
   const prompt = `Gere ${count} curiosidades sobre o tema "${categoryName}".
   O formato de saída deve ser um array de objetos JSON.
-  Cada objeto deve ter os campos: "title" (string), "content" (string, com 40 a 60 palavras), e "funFact" (string).
-  O conteúdo deve ser interessante, direto e de fácil leitura. O "funFact" é OBRIGATÓRIO.
+  Cada objeto deve ter os campos: "title" (string), "content" (string, entre 40 e 60 palavras), e "funFact" (string).
+  O conteúdo deve ser interessante, direto e de fácil leitura. O "funFact" é OBRIGATÓRIO e deve causar surpresa.
   IMPORTANTE: NÃO REPITA os seguintes títulos de curiosidades já existentes: ${Array.from(existingTitles).join(', ')}. Gere tópicos novos e variados.
   Exemplo: [{ "title": "O Coração Humano", "content": "O coração humano é uma bomba muscular incrível que bate cerca de 100.000 vezes por dia, impulsionando sangue rico em oxigênio para todo o corpo. Este órgão vital trabalha incansavelmente desde antes do nascimento até o último momento da vida, garantindo que cada célula receba o que precisa para funcionar adequadamente.", "funFact": "O coração de uma baleia azul é tão grande que um ser humano poderia nadar através de suas artérias." }]
   Retorne APENAS o array JSON, sem nenhum texto ou formatação adicional.`;
@@ -231,7 +161,7 @@ async function processCategory(category: typeof categories[0]) {
             const newItems = await generateCuriosities(category.name, countToGenerate, existingCuriosityTitles);
 
             if (newItems && Array.isArray(newItems) && newItems.length > 0) {
-                const uniqueNewItems = newItems.filter(c => c.title && !existingCuriosityTitles.has(c.title));
+                const uniqueNewItems = newItems.filter(c => c.title && c.funFact && !existingCuriosityTitles.has(c.title));
 
                 let maxId = categoryCuriosities.length > 0 ? Math.max(...categoryCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
                 
@@ -240,10 +170,15 @@ async function processCategory(category: typeof categories[0]) {
                     return { ...c, id: `${category.id}-${maxId}`, categoryId: category.id };
                 });
 
-                categoryCuriosities.push(...itemsToAdd);
-                itemsToAdd.forEach(c => existingCuriosityTitles.add(c.title));
+                if (itemsToAdd.length > 0) {
+                    categoryCuriosities.push(...itemsToAdd);
+                    itemsToAdd.forEach(c => existingCuriosityTitles.add(c.title));
+                    await writeJsonFile(curiosityFilePath, categoryCuriosities);
+                     console.log(`  - ✅ ${itemsToAdd.length} novas curiosidades salvas.`);
+                } else {
+                    console.log(`  - Nenhuma curiosidade única gerada neste lote.`);
+                }
 
-                await writeJsonFile(curiosityFilePath, categoryCuriosities);
             } else {
                 console.log(`  - Nenhuma curiosidade nova gerada neste lote.`);
             }
@@ -276,10 +211,15 @@ async function processCategory(category: typeof categories[0]) {
                     return { ...q, id: `quiz-${category.id}-${maxId}`, categoryId: category.id };
                 });
 
-                categoryQuizzes.push(...itemsToAdd);
-                itemsToAdd.forEach(q => existingQuestionStrings.add(q.question));
+                if (itemsToAdd.length > 0) {
+                    categoryQuizzes.push(...itemsToAdd);
+                    itemsToAdd.forEach(q => existingQuestionStrings.add(q.question));
+                    await writeJsonFile(quizFilePath, categoryQuizzes);
+                    console.log(`  - ✅ ${itemsToAdd.length} novos quizzes salvos.`);
+                } else {
+                     console.log(`  - Nenhum quiz único gerado neste lote.`);
+                }
 
-                await writeJsonFile(quizFilePath, categoryQuizzes);
             } else {
                 console.log(`  - Nenhum quiz novo gerado neste lote.`);
             }
@@ -293,12 +233,12 @@ async function processCategory(category: typeof categories[0]) {
 // --- FUNÇÃO PRINCIPAL ---
 
 async function main() {
-  console.log("Iniciando a geração de conteúdo...");
+  console.log("Iniciando o script de geração e manutenção de conteúdo...");
 
   await ensureDirExists(curiositiesDir);
   await ensureDirExists(quizzesDir);
 
-  await migrateAndCleanOldFiles();
+  await cleanupOrphanFiles();
 
   const pLimit = (await import('p-limit')).default;
   const limit = pLimit(3); // Processa até 3 categorias em paralelo
