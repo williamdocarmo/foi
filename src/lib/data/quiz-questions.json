@@ -6494,5 +6494,75 @@
     "explanation": "Antonio Vivaldi compôs 'As Quatro Estações'.",
     "id": "quiz-musica-539",
     "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas fontes de energia é considerada renovável?",
+    "options": [
+      "Petróleo",
+      "Carvão",
+      "Energia eólica",
+      "Gás natural"
+    ],
+    "correctAnswer": "Energia eólica",
+    "explanation": "Energia eólica é gerada pelo vento, uma fonte natural e renovável.",
+    "id": "quiz-futuro-540",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal desafio para a implementação de carros autônomos em larga escala?",
+    "options": [
+      "Custo de produção",
+      "Legislação inadequada",
+      "Segurança e confiabilidade do sistema",
+      "Falta de infraestrutura"
+    ],
+    "correctAnswer": "Segurança e confiabilidade do sistema",
+    "explanation": "Garantir a segurança e a confiabilidade dos sistemas de direção autônoma é crucial para a adoção em larga escala.",
+    "id": "quiz-futuro-541",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito futurista busca a integração perfeita entre a inteligência humana e a artificial?",
+    "options": [
+      "Biohacking",
+      "Transumanismo",
+      "Biomimética",
+      "Nanotecnologia"
+    ],
+    "correctAnswer": "Transumanismo",
+    "explanation": "O transumanismo busca transcender as limitações humanas através da tecnologia, incluindo a integração com a IA.",
+    "id": "quiz-futuro-542",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia promete revolucionar a agricultura no futuro, aumentando a produtividade e a sustentabilidade?",
+    "options": [
+      "Agricultura orgânica",
+      "Agricultura vertical",
+      "Agricultura tradicional",
+      "Pesticidas sintéticos"
+    ],
+    "correctAnswer": "Agricultura vertical",
+    "explanation": "A agricultura vertical permite o cultivo de alimentos em espaços verticais, otimizando o uso de recursos e aumentando a produtividade.",
+    "id": "quiz-futuro-543",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas profissões provavelmente terá um aumento significativo na demanda no futuro?",
+    "options": [
+      "Faxineiro",
+      "Caixa de supermercado",
+      "Desenvolvedor de software",
+      "Operador de telemarketing"
+    ],
+    "correctAnswer": "Desenvolvedor de software",
+    "explanation": "A crescente dependência da tecnologia impulsionará a demanda por profissionais de desenvolvimento de software.",
+    "id": "quiz-futuro-544",
+    "categoryId": "futuro"
   }
 ]
