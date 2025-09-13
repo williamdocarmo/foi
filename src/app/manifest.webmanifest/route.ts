@@ -1,7 +1,8 @@
-import { MetadataRoute } from 'next'
+import { NextResponse } from 'next/server'
+import type { MetadataRoute } from 'next'
  
-export function GET(): MetadataRoute.Manifest {
-  return {
+export function GET(): NextResponse<MetadataRoute.Manifest> {
+  return NextResponse.json({
     name: 'Você Sabia?',
     short_name: 'Você Sabia?',
     description: 'Um jogo educativo de curiosidades e quiz que funciona offline.',
@@ -21,5 +22,5 @@ export function GET(): MetadataRoute.Manifest {
         type: 'image/png',
       },
     ],
-  }
+  })
 }
