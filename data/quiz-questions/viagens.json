@@ -908,5 +908,285 @@
     ],
     "correctAnswer": "Rússia",
     "explanation": "A Rússia possui a maior área territorial de todos os países do mundo. Uma curiosidade é que a Rússia abrange nove fusos horários."
+  },
+  {
+    "id": "quiz-viagens-66",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a capital da Itália?",
+    "options": [
+      "Roma",
+      "Milão",
+      "Veneza",
+      "Florença"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é a capital da Itália, um país repleto de história e cultura, lar do Coliseu e do Vaticano."
+  },
+  {
+    "id": "quiz-viagens-67",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual oceano banha a costa oeste dos Estados Unidos?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico é o maior oceano do mundo e banha a costa oeste de muitos países, incluindo os EUA."
+  },
+  {
+    "id": "quiz-viagens-68",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é conhecido pelas suas casas coloridas em Santorini?",
+    "options": [
+      "Itália",
+      "Grécia",
+      "Espanha",
+      "Portugal"
+    ],
+    "correctAnswer": "Grécia",
+    "explanation": "Santorini, na Grécia, é famosa pelas suas casas brancas e azuis, construídas em encostas vulcânicas."
+  },
+  {
+    "id": "quiz-viagens-69",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um hostel e um hotel?",
+    "options": [
+      "Preço: Hostels são sempre mais baratos.",
+      "Localização: Hostels sempre ficam em centros urbanos.",
+      "Serviços: Hostels oferecem mais serviços.",
+      "Quartos: Hostels geralmente têm quartos compartilhados."
+    ],
+    "correctAnswer": "Quartos: Hostels geralmente têm quartos compartilhados.",
+    "explanation": "A principal diferença é o tipo de acomodação. Hostels geralmente oferecem quartos compartilhados, enquanto hotéis oferecem quartos privativos."
+  },
+  {
+    "id": "quiz-viagens-70",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o fenômeno atmosférico que cria as auroras boreais?",
+    "options": [
+      "Erupções vulcânicas",
+      "Tempestades solares",
+      "Reflexão da luz lunar",
+      "Ondas sísmicas"
+    ],
+    "correctAnswer": "Tempestades solares",
+    "explanation": "As auroras boreais são causadas pela interação de partículas carregadas do sol com a atmosfera terrestre. Uma curiosidade é que elas também ocorrem no hemisfério sul, sendo chamadas de auroras austrais."
+  },
+  {
+    "id": "quiz-viagens-71",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a capital do Reino Unido?",
+    "options": [
+      "Londres",
+      "Edimburgo",
+      "Cardiff",
+      "Belfast"
+    ],
+    "correctAnswer": "Londres",
+    "explanation": "Londres é a capital do Reino Unido, um país com uma rica história e uma cultura vibrante."
+  },
+  {
+    "id": "quiz-viagens-72",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual destes destinos é conhecido por sua arquitetura Art Nouveau?",
+    "options": [
+      "Paris, França",
+      "Barcelona, Espanha",
+      "Roma, Itália",
+      "Nova Iorque, EUA"
+    ],
+    "correctAnswer": "Barcelona, Espanha",
+    "explanation": "Barcelona abriga muitas obras arquitetônicas de Antoni Gaudí, um mestre do Art Nouveau."
+  },
+  {
+    "id": "quiz-viagens-73",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual continente abriga o Egito?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "África",
+      "América"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Egito está localizado na África, especificamente no nordeste do continente."
+  },
+  {
+    "id": "quiz-viagens-74",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso pela produção de café?",
+    "options": [
+      "Brasil",
+      "China",
+      "Canadá",
+      "Austrália"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "O Brasil é um dos maiores produtores de café do mundo, e o café brasileiro é famoso mundialmente por sua qualidade."
+  },
+  {
+    "id": "quiz-viagens-75",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre turismo sustentável e ecoturismo?",
+    "options": [
+      "Não há diferença, são sinônimos.",
+      "Ecoturismo foca apenas em ambientes naturais, enquanto turismo sustentável abrange todos os tipos de viagem.",
+      "Turismo sustentável foca apenas no lucro, ecoturismo foca na preservação.",
+      "Ecoturismo é mais caro que turismo sustentável."
+    ],
+    "correctAnswer": "Ecoturismo foca apenas em ambientes naturais, enquanto turismo sustentável abrange todos os tipos de viagem.",
+    "explanation": "Embora relacionados, o ecoturismo é um subconjunto do turismo sustentável.  O ecoturismo se concentra em experiências na natureza com um mínimo impacto ambiental, enquanto o turismo sustentável é mais amplo, considerando o impacto socioeconômico e ambiental."
+  },
+  {
+    "id": "quiz-viagens-76",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre viajar de avião e de trem?",
+    "options": [
+      "Custo: aviões são sempre mais baratos.",
+      "Velocidade: aviões são sempre mais rápidos.",
+      "Conforto: trens são sempre mais confortáveis.",
+      "Impacto ambiental: trens tem um impacto menor."
+    ],
+    "correctAnswer": "Velocidade: aviões são sempre mais rápidos.",
+    "explanation": "Aviões são significativamente mais rápidos que trens, embora o custo e o conforto possam variar dependendo das classes e rotas."
+  },
+  {
+    "id": "quiz-viagens-77",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a cidade conhecida como a 'Capital Mundial do Turismo de Aventura'?",
+    "options": [
+      "Kathmandu, Nepal",
+      "Queenstown, Nova Zelândia",
+      "Machu Picchu, Peru",
+      "Banff, Canadá"
+    ],
+    "correctAnswer": "Queenstown, Nova Zelândia",
+    "explanation": "Queenstown, na Nova Zelândia, é reconhecida mundialmente pelas suas atividades de aventura, como bungee jump e rafting."
+  },
+  {
+    "id": "quiz-viagens-78",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a importância de verificar a validade do seu passaporte antes de uma viagem internacional?",
+    "options": [
+      "Não é importante, a imigração aceita passaportes vencidos.",
+      "É importante para evitar multas.",
+      "É crucial para poder entrar no país de destino.",
+      "É importante apenas se você for ficar mais de 3 meses."
+    ],
+    "correctAnswer": "É crucial para poder entrar no país de destino.",
+    "explanation": "A maioria dos países exige que os viajantes internacionais apresentem um passaporte válido para entrada e saída do país."
+  },
+  {
+    "id": "quiz-viagens-79",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o impacto do turismo de massa na biodiversidade local?",
+    "options": [
+      "Não há impacto negativo.",
+      "Pode causar a perda de habitat e perturbar a vida selvagem.",
+      "Gera empregos locais, sem impacto negativo.",
+      "Aumenta a conscientização sobre a preservação ambiental."
+    ],
+    "correctAnswer": "Pode causar a perda de habitat e perturbar a vida selvagem.",
+    "explanation": "O turismo de massa não gerenciado pode levar à degradação ambiental, afetando habitats e espécies locais."
+  },
+  {
+    "id": "quiz-viagens-80",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual país abriga a Muralha da China?",
+    "options": [
+      "Japão",
+      "Índia",
+      "China",
+      "Coréia do Sul"
+    ],
+    "correctAnswer": "China",
+    "explanation": "A Grande Muralha da China é uma das maravilhas do mundo antigo, um símbolo da cultura e história chinesa."
+  },
+  {
+    "id": "quiz-viagens-81",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual tipo de seguro de viagem cobre evacuação médica de emergência?",
+    "options": [
+      "Seguro de bagagem",
+      "Seguro de cancelamento de viagem",
+      "Seguro de saúde para viagem internacional",
+      "Seguro de vida"
+    ],
+    "correctAnswer": "Seguro de saúde para viagem internacional",
+    "explanation": "Um bom seguro de saúde para viagem internacional geralmente inclui cobertura para evacuação médica, um item essencial para viajantes em locais remotos ou com sistemas de saúde limitados."
+  },
+  {
+    "id": "quiz-viagens-82",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o principal meio de transporte em Veneza?",
+    "options": [
+      "Carro",
+      "Trem",
+      "Vaporetto",
+      "Avião"
+    ],
+    "correctAnswer": "Vaporetto",
+    "explanation": "Veneza é famosa por seus canais, e o vaporetto (barco-ônibus) é o principal meio de transporte público. Curiosidade: Veneza também utiliza gondolas, mas principalmente para turismo."
+  },
+  {
+    "id": "quiz-viagens-83",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país abriga o deserto do Atacama?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Bolívia",
+      "Argentina"
+    ],
+    "correctAnswer": "Chile",
+    "explanation": "O deserto do Atacama, no Chile, é um dos lugares mais secos do mundo. Curiosidade:  Apesar da aridez, o deserto abriga uma surpreendente biodiversidade."
+  },
+  {
+    "id": "quiz-viagens-84",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o oceano maior do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico",
+      "Oceano Pacífico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico é o maior e mais profundo oceano do mundo, cobrindo mais de um terço da superfície da Terra. Curiosidade: Ele contém a Fossa das Marianas, o ponto mais profundo dos oceanos."
+  },
+  {
+    "id": "quiz-viagens-85",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o oceano que banha a costa leste da América do Sul?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Atlântico",
+    "explanation": "O Oceano Atlântico banha a costa leste da América do Sul. Curiosidade: A corrente do Brasil é uma corrente marítima quente que flui ao longo da costa brasileira."
   }
 ]

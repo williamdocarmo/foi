@@ -782,5 +782,327 @@
     ],
     "correctAnswer": "A Reforma Protestante",
     "explanation": "A Reforma Protestante agravou as tensões religiosas e políticas na Europa, culminando na Guerra dos Trinta Anos. Curiosidade: A guerra envolveu potências europeias e teve um grande impacto na demografia e na geopolítica da Europa."
+  },
+  {
+    "id": "quiz-historia-57",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente fica a China?",
+    "options": [
+      "América do Sul",
+      "África",
+      "Europa",
+      "Ásia"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A China está localizada no leste da Ásia. É o país mais populoso do mundo, com uma história rica e longa."
+  },
+  {
+    "id": "quiz-historia-58",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Quem inventou o telefone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Benjamin Franklin"
+    ],
+    "correctAnswer": "Alexander Graham Bell",
+    "explanation": "Alexander Graham Bell patenteou o telefone em 1876.  Uma curiosidade é que a primeira frase dita por telefone foi 'Mr. Watson, venha aqui, preciso de você!'"
+  },
+  {
+    "id": "quiz-historia-59",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual evento marcou o início da Idade Moderna?",
+    "options": [
+      "Queda do Império Romano do Ocidente",
+      "A invenção da imprensa",
+      "As Cruzadas",
+      "O Renascimento"
+    ],
+    "correctAnswer": "Queda do Império Romano do Ocidente",
+    "explanation": "A queda do Império Romano do Ocidente em 476 d.C. é geralmente considerada o marco que separa a Idade Média da Idade Moderna, embora o processo fosse gradual."
+  },
+  {
+    "id": "quiz-historia-60",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual tratado dividiu a América do Norte entre Espanha, Portugal, França e Grã-Bretanha?",
+    "options": [
+      "Tratado de Tordesilhas",
+      "Tratado de Utrecht",
+      "Tratado de Versalhes",
+      "Tratado de Paris (1783)"
+    ],
+    "correctAnswer": "Tratado de Tordesilhas",
+    "explanation": "Embora o Tratado de Tordesilhas tenha dividido principalmente a América do Sul, também afetou a América do Norte, definindo uma linha de demarcação para as terras a oeste e a leste."
+  },
+  {
+    "id": "quiz-historia-61",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual foi o principal catalisador para o início da Revolução Científica?",
+    "options": [
+      "A publicação do 'Princípia Mathematica'",
+      "A invenção do telescópio",
+      "A Reforma Protestante",
+      "Um conjunto de fatores interligados, incluindo o humanismo e o desenvolvimento de novas tecnologias"
+    ],
+    "correctAnswer": "Um conjunto de fatores interligados, incluindo o humanismo e o desenvolvimento de novas tecnologias",
+    "explanation": "A Revolução Científica foi um processo complexo com múltiplas causas. O humanismo e as novas tecnologias desempenharam papeis cruciais, mas não houve um único evento desencadeador."
+  },
+  {
+    "id": "quiz-historia-62",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Coliseu?",
+    "options": [
+      "Grécia",
+      "Egito",
+      "Itália",
+      "França"
+    ],
+    "correctAnswer": "Itália",
+    "explanation": "O Coliseu está localizado em Roma, Itália. Era um enorme anfiteatro usado para entretenimento público no Império Romano."
+  },
+  {
+    "id": "quiz-historia-63",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Quem foi o principal rival de Napoleão Bonaparte?",
+    "options": [
+      "Rei Luís XVI",
+      "Czar Nicolau I",
+      "Arthur Wellesley (Duque de Wellington)",
+      "Rei Jorge III"
+    ],
+    "correctAnswer": "Arthur Wellesley (Duque de Wellington)",
+    "explanation": "O Duque de Wellington liderou as forças britânicas na Batalha de Waterloo, que resultou na derrota definitiva de Napoleão."
+  },
+  {
+    "id": "quiz-historia-64",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual era a principal fonte de conflito entre as potências europeias antes da Primeira Guerra Mundial?",
+    "options": [
+      "Disputas coloniais",
+      "Questões religiosas",
+      "Rivalidades comerciais",
+      "Uma combinação de nacionalismo, militarismo, alianças e disputas territoriais"
+    ],
+    "correctAnswer": "Uma combinação de nacionalismo, militarismo, alianças e disputas territoriais",
+    "explanation": "A Primeira Guerra Mundial foi resultado de uma complexa teia de fatores interligados, não apenas um único problema."
+  },
+  {
+    "id": "quiz-historia-65",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que cidade ocorreu o evento conhecido como 'O Massacre de Boston'?",
+    "options": [
+      "Nova York",
+      "Filadélfia",
+      "Boston",
+      "Washington D.C."
+    ],
+    "correctAnswer": "Boston",
+    "explanation": "O Massacre de Boston, ocorrido em 1770, foi um incidente chave que elevou as tensões entre as colónias americanas e a Grã-Bretanha."
+  },
+  {
+    "id": "quiz-historia-66",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico surgiu como reação ao Impressionismo?",
+    "options": [
+      "Realismo",
+      "Cubismo",
+      "Pós-Impressionismo",
+      "Barroco"
+    ],
+    "correctAnswer": "Pós-Impressionismo",
+    "explanation": "O Pós-Impressionismo surgiu como uma resposta ao Impressionismo, mantendo alguns aspectos mas explorando novas direções estilísticas e temáticas."
+  },
+  {
+    "id": "quiz-historia-67",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do movimento político que defendia a criação de uma 'República Soviética Mundial'?",
+    "options": [
+      "Anarquismo",
+      "Comunismo",
+      "Socialismo",
+      "Trotskismo"
+    ],
+    "correctAnswer": "Comunismo",
+    "explanation": "O comunismo, idealizado por Marx e Engels, visava a criação de uma sociedade sem classes e sem Estados-nação, culminando numa 'ditadura do proletariado' global."
+  },
+  {
+    "id": "quiz-historia-68",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual foi o principal resultado da Guerra dos Trinta Anos?",
+    "options": [
+      "A unificação da Alemanha",
+      "A ascensão da Espanha como potência mundial",
+      "O enfraquecimento do Sacro Império Romano-Germânico",
+      "O fim do feudalismo na Europa"
+    ],
+    "correctAnswer": "O enfraquecimento do Sacro Império Romano-Germânico",
+    "explanation": "A Guerra dos Trinta Anos enfraqueceu significativamente o Sacro Império Romano-Germânico, levando a mudanças significativas na geografia política da Europa."
+  },
+  {
+    "id": "quiz-historia-69",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual a importância da Magna Carta (1215)?",
+    "options": [
+      "Estabeleceu o direito divino dos reis",
+      "Criou o primeiro parlamento inglês",
+      "Limitou o poder do monarca inglês",
+      "Abriu caminho para o absolutismo na Inglaterra"
+    ],
+    "correctAnswer": "Limitou o poder do monarca inglês",
+    "explanation": "A Magna Carta foi um documento crucial que, pela primeira vez, estabeleceu limites para o poder do rei, garantindo certos direitos aos barões e, mais tarde, inspirando movimentos por liberdade e direitos individuais."
+  },
+  {
+    "id": "quiz-historia-70",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o papel do movimento de Reforma Protestante na ascensão do nacionalismo europeu?",
+    "options": [
+      "Não teve influência direta",
+      "Fortaleceu o poder do Papa e do Império Romano-Germânico",
+      "Criou a unidade religiosa na Europa",
+      "Enfraqueceu o poder da Igreja Católica e permitiu a formação de Estados mais independentes"
+    ],
+    "correctAnswer": "Enfraqueceu o poder da Igreja Católica e permitiu a formação de Estados mais independentes",
+    "explanation": "A Reforma Protestante contribuiu para o desenvolvimento de Estados-nação mais independentes, que se opunham ao poder central da Igreja Católica."
+  },
+  {
+    "id": "quiz-historia-71",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que ano terminou a Segunda Guerra Mundial?",
+    "options": [
+      "1943",
+      "1945",
+      "1947",
+      "1949"
+    ],
+    "correctAnswer": "1945",
+    "explanation": "A Segunda Guerra Mundial terminou com a rendição do Japão em 1945 após os ataques atômicos em Hiroshima e Nagasaki."
+  },
+  {
+    "id": "quiz-historia-72",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual foi o papel de Otto von Bismarck na unificação da Alemanha?",
+    "options": [
+      "Ele era um forte opositor da unificação alemã",
+      "Ele liderou a luta pela independência da Alemanha da França",
+      "Ele utilizou uma política de 'ferro e sangue' para unificar os estados alemães",
+      "Ele negociou a unificação alemã com a ajuda da Áustria"
+    ],
+    "correctAnswer": "Ele utilizou uma política de 'ferro e sangue' para unificar os estados alemães",
+    "explanation": "Otto von Bismarck foi o principal arquiteto da unificação alemã no século XIX, utilizando uma estratégia militar e diplomática conhecida como 'ferro e sangue'."
+  },
+  {
+    "id": "quiz-historia-73",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o impacto da Peste Negra na Europa Medieval?",
+    "options": [
+      "Pouco impacto, visto que a população se recuperou rapidamente",
+      "Um declínio na população e mudanças sociais e econômicas significativas",
+      "Um aumento na religiosidade e na fé na Igreja Católica",
+      "A unificação dos reinos europeus contra a peste"
+    ],
+    "correctAnswer": "Um declínio na população e mudanças sociais e econômicas significativas",
+    "explanation": "A Peste Negra dizimou uma grande porção da população europeia, afetando profundamente a estrutura social, econômica e política da época."
+  },
+  {
+    "id": "quiz-historia-74",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Quem pintou a obra 'A Noite Estrelada'?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Pablo Picasso"
+    ],
+    "correctAnswer": "Vincent van Gogh",
+    "explanation": "A Noite Estrelada é uma das obras mais famosas e conhecidas do pintor pós-impressionista Vincent van Gogh."
+  },
+  {
+    "id": "quiz-historia-75",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento que se opôs ao Iluminismo enfatizando o sentimento e a intuição?",
+    "options": [
+      "Classicismo",
+      "Renascimento",
+      "Romantismo",
+      "Barroco"
+    ],
+    "correctAnswer": "Romantismo",
+    "explanation": "O Romantismo surgiu como uma reação contra o racionalismo e o objetivismo do Iluminismo, enfatizando a emoção, a intuição e a individualidade."
+  },
+  {
+    "id": "quiz-historia-76",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o papel da imprensa de Gutenberg no desenvolvimento do Renascimento?",
+    "options": [
+      "Não teve nenhum impacto significativo",
+      "Aumentou a disseminação de informações e ideias",
+      "Tornou a arte menos acessível",
+      "Enfraqueceu o poder da Igreja Católica"
+    ],
+    "correctAnswer": "Aumentou a disseminação de informações e ideias",
+    "explanation": "A invenção da imprensa permitiu a rápida e ampla disseminação de livros e informações, o que foi fundamental para a difusão de novas ideias durante o Renascimento."
+  },
+  {
+    "id": "quiz-historia-77",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual evento marcou o início da Primeira Guerra Mundial?",
+    "options": [
+      "O atentado de Sarajevo",
+      "A invasão da Polônia",
+      "A crise de Cuba",
+      "O afogamento do Lusitânia"
+    ],
+    "correctAnswer": "O atentado de Sarajevo",
+    "explanation": "O assassinato do Arquiduque Francisco Ferdinando em Sarajevo desencadeou uma série de eventos que levaram à Primeira Guerra Mundial. Curiosidade: O atentado foi realizado pelo nacionalista sérvio Gavrilo Princip."
+  },
+  {
+    "id": "quiz-historia-78",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual tratado pôs fim à Guerra Franco-Prussiana?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Tordesilhas",
+      "Tratado de Frankfurt",
+      "Tratado de Paris (1856)"
+    ],
+    "correctAnswer": "Tratado de Frankfurt",
+    "explanation": "Assinado em 10 de maio de 1871, o Tratado de Frankfurt formalizou a anexação da Alsácia-Lorena pela Alemanha, marcando o fim da Guerra Franco-Prussiana. Curiosidade: A Alsácia-Lorena voltou para a França após a Primeira Guerra Mundial."
+  },
+  {
+    "id": "quiz-historia-79",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente fica a Índia?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Sul"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Índia está localizada no subcontinente indiano, na Ásia.  Curiosidade: A Índia é o maior país da região em termos de população."
   }
 ]

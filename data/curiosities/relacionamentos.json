@@ -106,5 +106,194 @@
     "content": "Bocejos sincronizados em casais podem indicar uma forte ligação emocional e empatia. Estudos sugerem que essa sincronia reflete a capacidade de se conectar profundamente com o outro, espelhando reações fisiológicas.  Isso vai além da simples imitação, mostrando uma conexão neural profunda.",
     "funFact": "A sincronia de bocejos é mais comum em pessoas com laços estreitos e confiança mútua.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-13",
+    "categoryId": "relacionamentos",
+    "title": "A Simetria dos Sorrisos Contagiosos",
+    "hook": "Incrível: sorrisos sincronizados!",
+    "content": "Estudos demonstram que casais apaixonados tendem a sincronizar seus sorrisos inconscientemente.  Essa sincronia, além de demonstrar conexão emocional profunda, também pode prever a estabilidade do relacionamento a longo prazo.  É uma dança sutil de alegria compartilhada, um reflexo da cumplicidade construída com o tempo.",
+    "funFact": "A sincronia de sorrisos é tão forte que pode ser detectada até mesmo em fotos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-14",
+    "categoryId": "relacionamentos",
+    "title": "A Influência Subliminar das Cores",
+    "hook": "Surpreendente: as cores...",
+    "content": "A cor das roupas que usamos pode inconscientemente afetar a percepção que nosso parceiro tem de nós. Tons quentes podem transmitir calor e paixão, enquanto cores frias podem sugerir calma e segurança. Experimente! Descubra o impacto das cores na dinâmica do seu relacionamento.",
+    "funFact": "O vermelho, especialmente, é associado à paixão e atração.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-15",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Conexão Olfativa",
+    "hook": "Incrível: seu cheiro influencia!",
+    "content": "Nossos receptores olfativos são poderosos. Um estudo mostrou que o cheiro de um parceiro pode acionar a liberação de hormônios ligados ao bem-estar e ao afeto.  O aroma de alguém amado pode ser mais impactante que você imagina, criando uma resposta física inconsciente de proximidade e segurança.",
+    "funFact": "Seu perfume pode ser um afrodisíaco subconsciente para seu parceiro!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-16",
+    "categoryId": "relacionamentos",
+    "title": "A Música do Silêncio Conectado",
+    "hook": "Incrível: o silêncio pode fortalecer laços!",
+    "content": "Muitas vezes, acreditamos que a comunicação constante é vital.  Mas, momentos de silêncio compartilhado, sem desconforto, criam uma conexão profunda e segura, permitindo a cada um processar e apreciar a presença do outro. É um tipo de intimidade silenciosa que fortalece os laços.",
+    "funFact": "Estudo mostra que casais que compartilham silêncios confortáveis relatam maior satisfação no relacionamento.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-17",
+    "categoryId": "relacionamentos",
+    "title": "O Poder da Escuta Intuitiva",
+    "hook": "Surpreendente:",
+    "content": "Saber ouvir não é apenas escutar as palavras.  É captar as emoções por trás delas, o tom, o contexto.  A escuta intuitiva demonstra empatia e conexão profunda, mostrando que você se importa com o que o outro realmente sente, além do que ele verbaliza.",
+    "funFact": "A escuta intuitiva reduz conflitos e aumenta a confiança.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-18",
+    "categoryId": "relacionamentos",
+    "title": "A Química do Primeiro Encontro",
+    "hook": "Incrível: seu corpo já sabe!",
+    "content": "Seu corpo libera uma cascata de hormônios no primeiro encontro, mesmo que você não perceba conscientemente.  A adrenalina, dopamina e ocitocina criam uma sensação única.  A intensidade depende da compatibilidade, influenciando o futuro do relacionamento. Essa resposta fisiológica é muito mais complexa do que imaginamos.",
+    "funFact": "Seu sistema imunológico até mesmo avalia a compatibilidade genética do outro!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-19",
+    "categoryId": "relacionamentos",
+    "title": "A Ritmicidade do Coração Conectado",
+    "hook": "Incrível: batimentos sincronizados!",
+    "content": "Estudos mostram que o ritmo cardíaco de casais apaixonados tende a se sincronizar durante momentos de intensa conexão emocional.  Essa sincronia fisiológica reflete a profunda interdependência e empatia que se desenvolvem em relacionamentos íntimos. É como se os corações literalmente batessem em uníssono.",
+    "funFact": "A sincronia cardíaca é mais forte em casais que se conhecem há mais tempo e demonstram maior nível de intimidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-20",
+    "categoryId": "relacionamentos",
+    "title": "A Simbiose da Respiração",
+    "hook": "Incrível: sincronia respiratória revela intimidade!",
+    "content": "Subconscientemente, casais apaixonados tendem a sincronizar sua respiração durante conversas íntimas.  Esse espelhamento fisiológico demonstra uma profunda conexão e empatia, indicando um alto nível de conforto e compreensão mútua. Estudos demonstram que quanto maior a sincronia, mais forte o vínculo.",
+    "funFact": "Até mesmo a frequência cardíaca pode se sincronizar em casais profundamente conectados!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-21",
+    "categoryId": "relacionamentos",
+    "title": "A Linguagem Secreta dos Dedos",
+    "hook": "Surpreendente: os dedos falam!",
+    "content": "A maneira como casais se tocam sutilmente com os dedos – um leve toque, um roçar – revela muito sobre a dinâmica do relacionamento.  A delicadeza ou a firmeza do toque indicam a intimidade e o nível de conforto entre eles.",
+    "funFact": "Até a pressão aplicada em um toque pode revelar o grau de afeição!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-22",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Beijos",
+    "hook": "Incrível: a ciência dos beijos!",
+    "content": "A pressão, a duração e a localização de um beijo revelam muito sobre a dinâmica do casal. Estudos mostram que beijos mais longos e apaixonados indicam maior satisfação relacional. Já beijos rápidos e na testa sugerem afeto mais contido.  A intensidade também varia de cultura para cultura.",
+    "funFact": "A pressão aplicada num beijo pode revelar até mesmo o nível de atração!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-23",
+    "categoryId": "relacionamentos",
+    "title": "A Neuroquímica do Perdão",
+    "hook": "Incrível: o perdão muda seu cérebro!",
+    "content": "Perdoar ativa regiões cerebrais associadas à recompensa e reduz a atividade em áreas ligadas ao estresse.  A liberação de endorfinas promove bem-estar, melhorando a saúde mental e fortalecendo o relacionamento.  É um ato de autocuidado tão importante quanto o cuidado com o outro.",
+    "funFact": "Estudos mostram que perdoar também reduz a pressão arterial!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-24",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Intimidade Compartilhada",
+    "hook": "Incrível: a intimidade influencia o sono!",
+    "content": "Dormir abraçado(a) libera ocitocina, hormônio que reduz o estresse e melhora a qualidade do sono.  Pesquisas mostram que casais que dormem juntos, em contato físico, têm ciclos de sono mais regulares e profundos do que aqueles que dormem separados. Isso demonstra uma conexão biológica profunda.",
+    "funFact": "Casais que dormem juntos têm um sistema imunológico mais forte!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-25",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Apelidos Íntimos",
+    "hook": "Surpreendente: apelidos...",
+    "content": "Apelidos carinhosos revelam muito sobre a dinâmica de um casal.  A escolha do apelido, seu tom e frequência de uso refletem o nível de intimidade, afeto e até mesmo a personalidade de cada indivíduo na relação. Um estudo revela padrões culturais interessantes.",
+    "funFact": "Apelidos podem mudar ao longo da relação, refletindo sua evolução!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-26",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Compartilhamento Alimentar",
+    "hook": "Incrível: o ato de...",
+    "content": "Compartilhar uma refeição é um ritual que fortalece os laços.  O ato de comer junto promove a sensação de pertencimento e proximidade, estimulando a liberação de hormônios que reforçam a conexão emocional.  Até a escolha dos pratos pode dizer muito!",
+    "funFact": "Compartilhar comida reduz os níveis de cortisol (hormônio do estresse)!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-27",
+    "categoryId": "relacionamentos",
+    "title": "A Psicologia da Distância Ideal",
+    "hook": "Incrível: o espaço físico importa!",
+    "content": "A proximidade física ideal em um relacionamento varia muito, mas estudos mostram que uma distância confortável, nem muito perto nem muito longe, facilita a comunicação e cria um equilíbrio perfeito entre intimidade e individualidade.  A percepção individual desse espaço ideal define a saúde relacional.",
+    "funFact": "Até a disposição de móveis pode influenciar a dinâmica do casal!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-28",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Pés Inconsciente",
+    "hook": "Incrível: seus pés revelam atração!",
+    "content": "Observe sutilmente a direção dos pés de alguém durante uma conversa. Se eles apontam para você, é um sinal inconsciente de interesse e atração.  A posição dos pés é um indicador não verbal poderoso, muitas vezes mais sincero que as palavras.",
+    "funFact": "Até mesmo em grupos, os pés 'apontam' para a pessoa mais atraente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-29",
+    "categoryId": "relacionamentos",
+    "title": "A Simetria dos Ritmos Cardíacos",
+    "hook": "Incrível: corações sincronizados!",
+    "content": "Estudos demonstram que casais apaixonados tendem a apresentar leves sincronizações em seus batimentos cardíacos durante momentos de profunda conexão emocional.  Essa sincronia sutil reflete a forte ligação e empatia entre eles, mostrando como o amor pode influenciar até mesmo os ritmos biológicos mais básicos.  A ciência confirma a magia do amor!",
+    "funFact": "A sincronia cardíaca pode ser medida com tecnologia de ponta e é mais forte em relacionamentos duradouros e saudáveis.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-30",
+    "categoryId": "relacionamentos",
+    "title": "O Poder dos Micro-gestos",
+    "hook": "Você sabia que...",
+    "content": "Os micro-gestos faciais, quase imperceptíveis a olho nu, revelam muito sobre o real sentimento de alguém durante uma conversa. Um leve franzir de sobrancelha, um sutil sorriso torto – essas nuances comunicam emoções que palavras não conseguem expressar, e podem ser a chave para uma compreensão mais profunda em um relacionamento.",
+    "funFact": "Esses micro-gestos são difíceis de controlar conscientemente, tornando-os indicadores verdadeiros de emoções.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-31",
+    "categoryId": "relacionamentos",
+    "title": "A Linguagem do Toque Prolongado",
+    "hook": "Você sabia?",
+    "content": "Um toque suave e prolongado, como segurar uma mão por alguns segundos a mais que o habitual, transmite segurança e afeição. Esse tipo de contato físico reforça a ligação emocional e proporciona uma sensação de conforto e pertencimento ao parceiro, criando uma intimidade sutil.",
+    "funFact": "O toque prolongado libera ocitocina, o hormônio do amor.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-32",
+    "categoryId": "relacionamentos",
+    "title": "O Poder da Escuta Empática",
+    "hook": "Intrigante:",
+    "content": "Escuta empática, onde se busca entender o ponto de vista do parceiro sem julgamento, fortalece a confiança e aprofunda a ligação.  Essa escuta atenta demonstra respeito e cuidado, criando um ambiente seguro para a comunicação e a resolução de conflitos.",
+    "funFact": "A escuta empática liberta ocitocina, o hormônio do vínculo.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "relacionamentos-33",
+    "categoryId": "relacionamentos",
+    "title": "A Orquestra dos Ritmos Biológicos",
+    "hook": "Incrível: casais sincronizam batimentos!",
+    "content": "Estudos demonstram que casais apaixonados, em momentos de profunda conexão, apresentam uma surpreendente sincronia em seus ritmos cardíacos e respiratórios.  Essa sincronia fisiológica reflete a profunda ligação emocional e o nível de empatia compartilhada.  A ciência comprova a harmonia biofísica do amor.",
+    "funFact": "Essa sincronia pode ser medida por sensores de alta precisão!",
+    "curiosityLevel": 4
   }
 ]

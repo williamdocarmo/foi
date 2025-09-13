@@ -726,5 +726,467 @@
     ],
     "correctAnswer": "Ignorar os sentimentos do outro",
     "explanation": "Minimizar os sentimentos desqualifica a experiência do outro. Curiosidade: Minimizar é uma forma de abuso emocional."
+  },
+  {
+    "id": "quiz-relacionamentos-53",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual ato demonstra carinho em um relacionamento platônico?",
+    "options": [
+      "Comprar um carro caro.",
+      "Escrever uma carta sincera.",
+      "Dar um presente material de luxo.",
+      "Pagar uma conta."
+    ],
+    "correctAnswer": "Escrever uma carta sincera.",
+    "explanation": "Cartas sinceras demonstram afeto e cuidado sem o peso de expectativas românticas.  Curiosidade:  A escrita à mão ativa áreas do cérebro associadas à emoção, tornando-a uma forma poderosa de comunicação afetiva."
+  },
+  {
+    "id": "quiz-relacionamentos-54",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual estilo de comunicação é mais eficaz para resolver conflitos?",
+    "options": [
+      "Agredir verbalmente.",
+      "Comunicacao não-violenta (CNV).",
+      "Ignorar o problema.",
+      "Gritar até o outro ceder."
+    ],
+    "correctAnswer": "Comunicacao não-violenta (CNV).",
+    "explanation": "A CNV foca na empatia e na expressão clara das necessidades. Curiosidade: A CNV foi desenvolvida por Marshall Rosenberg e promove relacionamentos mais saudáveis."
+  },
+  {
+    "id": "quiz-relacionamentos-55",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual comportamento pode ser um sinal de 'codependência'?",
+    "options": [
+      "Estabelecer limites saudáveis.",
+      "Priorizar suas próprias necessidades.",
+      "Negligenciar suas próprias necessidades para agradar o parceiro.",
+      "Manter uma individualidade forte."
+    ],
+    "correctAnswer": "Negligenciar suas próprias necessidades para agradar o parceiro.",
+    "explanation": "Codependência é uma dinâmica relacional desequilibrada. Curiosidade: A terapia pode ajudar a identificar e superar a codependência."
+  },
+  {
+    "id": "quiz-relacionamentos-56",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual fenômeno psicológico explica a tendência a idealizar um parceiro no início de um relacionamento?",
+    "options": [
+      "Projeção",
+      "Minimização",
+      "Idealização romântica",
+      "Gaslighting"
+    ],
+    "correctAnswer": "Idealização romântica",
+    "explanation": "Idealização romântica envolve a atribuição de qualidades positivas exageradas ao parceiro. Curiosidade: Essa fase costuma ser passageira, e a realidade do relacionamento emerge com o tempo."
+  },
+  {
+    "id": "quiz-relacionamentos-57",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Como a 'seletividade cognitiva' afeta a percepção de um relacionamento?",
+    "options": [
+      "Aumenta a objetividade na avaliação do relacionamento.",
+      "Promove uma visão mais realista do relacionamento.",
+      "Torna mais fácil identificar os defeitos do parceiro.",
+      "Causa uma distorção na percepção dos aspectos negativos do relacionamento."
+    ],
+    "correctAnswer": "Causa uma distorção na percepção dos aspectos negativos do relacionamento.",
+    "explanation": "A seletividade cognitiva faz com que nos foquemos nos aspectos positivos e minimizemos os negativos. Curiosidade:  Este viés cognitivo é comum em relacionamentos, mas pode ser prejudicial a longo prazo."
+  },
+  {
+    "id": "quiz-relacionamentos-58",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Em qual situação a comunicação assertiva é mais crucial?",
+    "options": [
+      "Celebrando um aniversário",
+      "Assistindo TV juntos",
+      "Resolvendo um conflito",
+      "Compartilhando um hobby"
+    ],
+    "correctAnswer": "Resolvendo um conflito",
+    "explanation": "A comunicação assertiva, expressando suas necessidades e ouvindo ativamente o outro, é vital para a resolução de conflitos saudáveis.  Evita mal-entendidos e permite encontrar soluções mutuamente satisfatórias."
+  },
+  {
+    "id": "quiz-relacionamentos-59",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que caracteriza o 'efeito halo' em um relacionamento?",
+    "options": [
+      "Tendência a superestimar os pontos negativos do parceiro",
+      "Percepção distorcida baseada em uma característica positiva",
+      "Desejo de controlar o parceiro completamente",
+      "Falta de comunicação e afeto"
+    ],
+    "correctAnswer": "Percepção distorcida baseada em uma característica positiva",
+    "explanation": "O efeito halo ocorre quando uma característica positiva (ex: beleza) influencia a percepção de outras características, mesmo que não estejam relacionadas.  Isso pode levar a idealizações irreais no início do relacionamento. Curiosidade: esse efeito é menos comum em relacionamentos duradouros."
+  },
+  {
+    "id": "quiz-relacionamentos-60",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é uma boa maneira de demonstrar gratidão ao seu parceiro?",
+    "options": [
+      "Fazer reclamações constantes",
+      "Ignorar seus esforços",
+      "Expressar sua apreciação verbalmente",
+      "Criticar suas ações"
+    ],
+    "correctAnswer": "Expressar sua apreciação verbalmente",
+    "explanation": "Agradecer abertamente fortalece o vínculo e mostra ao seu parceiro que você valoriza os gestos dele.  Uma simples frase de agradecimento pode fazer toda a diferença."
+  },
+  {
+    "id": "quiz-relacionamentos-61",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual estilo de apego tende a se afastar quando se sente sufocado?",
+    "options": [
+      "Apego ansioso",
+      "Apego seguro",
+      "Apego evitativo",
+      "Apego desorganizado"
+    ],
+    "correctAnswer": "Apego evitativo",
+    "explanation": "Indivíduos com apego evitativo valorizam a independência e podem se sentir sobrecarregados com muita proximidade.  Curiosamente, eles muitas vezes escondem suas vulnerabilidades por medo de rejeição."
+  },
+  {
+    "id": "quiz-relacionamentos-62",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Como a 'seletividade cognitiva' afeta a percepção inicial de um parceiro?",
+    "options": [
+      "Faz com que você veja apenas os defeitos do outro",
+      "Causa uma visão realista e imparcial",
+      "Amplifica os aspectos positivos e minimiza os negativos",
+      "Gera indiferença em relação ao parceiro"
+    ],
+    "correctAnswer": "Amplifica os aspectos positivos e minimiza os negativos",
+    "explanation": "A seletividade cognitiva faz com que no início nos foquemos nos aspectos positivos do parceiro, ignorando ou minimizando os negativos.  Com o tempo, essa visão tende a se equilibrar."
+  },
+  {
+    "id": "quiz-relacionamentos-63",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que é essencial para uma boa comunicação em um relacionamento?",
+    "options": [
+      "Só ouvir o que quer",
+      "Interromper constantemente",
+      "Falar apenas de si mesmo",
+      "Ouvir atentamente e se expressar claramente"
+    ],
+    "correctAnswer": "Ouvir atentamente e se expressar claramente",
+    "explanation": "A comunicação eficaz envolve tanto a expressão clara de suas próprias necessidades quanto a escuta ativa do seu parceiro. A empatia é chave."
+  },
+  {
+    "id": "quiz-relacionamentos-64",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual comportamento demonstra vulnerabilidade saudável em um relacionamento?",
+    "options": [
+      "Sempre concordar com o parceiro",
+      "Esconder seus sentimentos",
+      "Compartilhar seus medos e inseguranças",
+      "Criticar constantemente"
+    ],
+    "correctAnswer": "Compartilhar seus medos e inseguranças",
+    "explanation": "A vulnerabilidade é a chave para a intimidade.  Compartilhar seus sentimentos, mesmo os negativos, demonstra confiança e fortalece o vínculo."
+  },
+  {
+    "id": "quiz-relacionamentos-65",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual teoria descreve a tendência de repetir padrões relacionais aprendidos na infância?",
+    "options": [
+      "Teoria da troca social",
+      "Teoria do apego",
+      "Teoria da equidade",
+      "Teoria da interação simbólica"
+    ],
+    "correctAnswer": "Teoria do apego",
+    "explanation": "A teoria do apego sugere que nossos primeiros relacionamentos moldam nossos padrões de relacionamento futuros.  Experiências da infância influenciam como buscamos e mantemos conexões adultas."
+  },
+  {
+    "id": "quiz-relacionamentos-66",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual destas ações demonstra mais respeito em um relacionamento?",
+    "options": [
+      "Controlar o outro",
+      "Ignorar suas opiniões",
+      "Valorizar suas opiniões",
+      "Ser possessivo"
+    ],
+    "correctAnswer": "Valorizar suas opiniões",
+    "explanation": "Respeitar as opiniões e perspectivas do outro é fundamental para um relacionamento saudável e equilibrado.  A escuta ativa e a valorização mútua são essenciais."
+  },
+  {
+    "id": "quiz-relacionamentos-67",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Como a 'anedonia' pode se manifestar em um relacionamento?",
+    "options": [
+      "Aumento da libido",
+      "Intensa alegria e satisfação",
+      "Incapacidade de sentir prazer ou alegria",
+      "Intensa vontade de se conectar"
+    ],
+    "correctAnswer": "Incapacidade de sentir prazer ou alegria",
+    "explanation": "A anedonia, a incapacidade de sentir prazer, pode afetar a capacidade de desfrutar momentos íntimos e felizes em um relacionamento, impactando negativamente a dinâmica do casal."
+  },
+  {
+    "id": "quiz-relacionamentos-68",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual comportamento pode indicar 'codependência' em um relacionamento?",
+    "options": [
+      "Independência e autoconfiança",
+      "Limites claros e saudáveis",
+      "Necessidade excessiva de aprovação do parceiro",
+      "Comunicação assertiva e eficaz"
+    ],
+    "correctAnswer": "Necessidade excessiva de aprovação do parceiro",
+    "explanation": "A codependência se caracteriza pela dependência excessiva da validação e aprovação do outro, muitas vezes em detrimento da própria identidade e autoestima."
+  },
+  {
+    "id": "quiz-relacionamentos-69",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual é o papel da 'empatia' na resolução de conflitos?",
+    "options": [
+      "Ignorar os sentimentos do parceiro",
+      "Concentrar-se apenas nas suas próprias necessidades",
+      "Entender a perspectiva do outro",
+      "Culpar o parceiro pelo conflito"
+    ],
+    "correctAnswer": "Entender a perspectiva do outro",
+    "explanation": "A empatia, a capacidade de se colocar no lugar do outro, é crucial para a resolução de conflitos construtiva.  Entender a perspectiva do seu parceiro permite uma comunicação mais eficaz e colaboração."
+  },
+  {
+    "id": "quiz-relacionamentos-70",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como a 'minimização' se manifesta em um relacionamento?",
+    "options": [
+      "Validando os sentimentos do parceiro",
+      "Exagerando os problemas",
+      "Desvalorizando os sentimentos do parceiro",
+      "Ouvindo atentamente"
+    ],
+    "correctAnswer": "Desvalorizando os sentimentos do parceiro",
+    "explanation": "A minimização invalida as experiências e emoções do parceiro, fazendo-o sentir-se menosprezado e sem importância."
+  },
+  {
+    "id": "quiz-relacionamentos-71",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual comportamento pode indicar 'gaslighting' em um relacionamento?",
+    "options": [
+      "Demonstrando apoio incondicional",
+      "Validando as experiências do parceiro",
+      "Fazendo o parceiro duvidar de sua própria sanidade",
+      "Comunicando-se abertamente e honestamente"
+    ],
+    "correctAnswer": "Fazendo o parceiro duvidar de sua própria sanidade",
+    "explanation": "Gaslighting é uma forma de manipulação que faz com que a vítima questione sua própria percepção da realidade.  É um sinal claro de abuso emocional."
+  },
+  {
+    "id": "quiz-relacionamentos-72",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Como a 'projeção' pode afetar a dinâmica de um relacionamento?",
+    "options": [
+      "Promove a compreensão mútua",
+      "Fortalece a confiança e o respeito",
+      "Causa conflitos e mal-entendidos ao atribuir características próprias ao outro",
+      "Melhora a comunicação e resolução de conflitos"
+    ],
+    "correctAnswer": "Causa conflitos e mal-entendidos ao atribuir características próprias ao outro",
+    "explanation": "A projeção consiste em atribuir inconscientemente os próprios sentimentos, pensamentos ou características a outra pessoa, causando distorções na percepção e conflitos."
+  },
+  {
+    "id": "quiz-relacionamentos-73",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "O que é 'ansiedade de separação' em um relacionamento?",
+    "options": [
+      "Desejo intenso de estar sozinho",
+      "Medo excessivo de perder o parceiro",
+      "Incapacidade de demonstrar afeto",
+      "Desinteresse pelo parceiro"
+    ],
+    "correctAnswer": "Medo excessivo de perder o parceiro",
+    "explanation": "A ansiedade de separação é um medo intenso e persistente de separação de um ente querido. Em relacionamentos, isso pode levar à insegurança e comportamentos controladores."
+  },
+  {
+    "id": "quiz-relacionamentos-74",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Como a 'teoria da interpenetração' explica a intimidade?",
+    "options": [
+      "Através da competição",
+      "Através da troca gradual de informações pessoais",
+      "Através da independência total",
+      "Através da negação de sentimentos"
+    ],
+    "correctAnswer": "Através da troca gradual de informações pessoais",
+    "explanation": "A teoria da interpenetração sugere que a intimidade cresce à medida que os parceiros compartilham informações pessoais e tornam-se mais vulneráveis uns com os outros."
+  },
+  {
+    "id": "quiz-relacionamentos-75",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual destas atividades fortalece a conexão?",
+    "options": [
+      "Jogar videogame sozinho",
+      "Assistir TV em silêncio",
+      "Sair para jantar juntos",
+      "Trabalhar separadamente"
+    ],
+    "correctAnswer": "Sair para jantar juntos",
+    "explanation": "Compartilhando experiências e criando memórias juntos, vocês constroem laços afetivos mais fortes."
+  },
+  {
+    "id": "quiz-relacionamentos-76",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "O que significa 'culpabilizar' em um relacionamento?",
+    "options": [
+      "Assumir responsabilidades",
+      "Comunicar sentimentos abertamente",
+      "Fazer com que o outro se sinta culpado",
+      "Resolver conflitos pacificamente"
+    ],
+    "correctAnswer": "Fazer com que o outro se sinta culpado",
+    "explanation": "Manipulação emocional que busca o controle através do sentimento de culpa."
+  },
+  {
+    "id": "quiz-relacionamentos-77",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual comportamento demonstra respeito?",
+    "options": [
+      "Interromper constantemente",
+      "Controlar o parceiro",
+      "Ouvir atentamente",
+      "Ignorar opiniões"
+    ],
+    "correctAnswer": "Ouvir atentamente",
+    "explanation": "Demonstrar respeito envolve valorizar as opiniões e sentimentos do outro, prestando atenção ao que ele tem a dizer."
+  },
+  {
+    "id": "quiz-relacionamentos-78",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual conceito explica a idealização inicial em um relacionamento?",
+    "options": [
+      "Teoria da troca social",
+      "Apego ansioso",
+      "Efeito halo",
+      "Dissonância cognitiva"
+    ],
+    "correctAnswer": "Efeito halo",
+    "explanation": "O efeito halo descreve a tendência de atribuir características positivas a alguém com base em uma característica positiva perceptível."
+  },
+  {
+    "id": "quiz-relacionamentos-79",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Demonstrar gratidão envolve:",
+    "options": [
+      "Reclamar constantemente",
+      "Ignorar os gestos do outro",
+      "Expressar apreço",
+      "Ser indiferente"
+    ],
+    "correctAnswer": "Expressar apreço",
+    "explanation": "Agradecer e reconhecer os gestos positivos fortalece o relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-80",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual destas ações demonstra mais respeito?",
+    "options": [
+      "Interromper",
+      "Criticar",
+      "Escutar",
+      "Ignorar"
+    ],
+    "correctAnswer": "Escutar",
+    "explanation": "Escutar demonstra consideração pela opinião do outro."
+  },
+  {
+    "id": "quiz-relacionamentos-81",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como a 'anedonia' pode se manifestar?",
+    "options": [
+      "Aumento da alegria",
+      "Maior interesse em atividades",
+      "Diminuição do prazer",
+      "Intensificação dos sentimentos"
+    ],
+    "correctAnswer": "Diminuição do prazer",
+    "explanation": "Anedonia é a incapacidade de sentir prazer, impactando a experiência compartilhada no relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-82",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual teoria descreve a repetição de padrões relacionais da infância?",
+    "options": [
+      "Teoria da troca social",
+      "Teoria do apego",
+      "Teoria da interpenetração",
+      "Teoria da atribuição"
+    ],
+    "correctAnswer": "Teoria do apego",
+    "explanation": "A teoria do apego sugere que nossos estilos de apego, formados na infância, influenciam nossos relacionamentos adultos."
+  },
+  {
+    "id": "quiz-relacionamentos-83",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como a 'minimização' se manifesta?",
+    "options": [
+      "Exagerando problemas",
+      "Ignorando sentimentos",
+      "Ampliando conflitos",
+      "Resolvendo problemas imediatamente"
+    ],
+    "correctAnswer": "Ignorando sentimentos",
+    "explanation": "Minimização desvaloriza os sentimentos e experiências do parceiro."
+  },
+  {
+    "id": "quiz-relacionamentos-84",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual comportamento pode indicar 'gaslighting'?",
+    "options": [
+      "Apoio constante",
+      "Comunicação aberta",
+      "Manipulação da realidade",
+      "Respeito mútuo"
+    ],
+    "correctAnswer": "Manipulação da realidade",
+    "explanation": "Gaslighting envolve a manipulação da realidade para fazer a vítima duvidar de sua sanidade."
+  },
+  {
+    "id": "quiz-relacionamentos-85",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual comportamento demonstra respeito em um relacionamento?",
+    "options": [
+      "Interromper constantemente",
+      "Desvalorizar as opiniões do outro",
+      "Ouvir atentamente e validar os sentimentos",
+      "Controlar o outro"
+    ],
+    "correctAnswer": "Ouvir atentamente e validar os sentimentos",
+    "explanation": "Respeito envolve valorizar a opinião e os sentimentos do outro, mesmo que não concorde com eles.  Ouvir atentamente e validar as emoções do parceiro demonstra respeito e cria um ambiente de confiança. Curiosidade: O respeito mútuo é a base de qualquer relacionamento saudável."
   }
 ]

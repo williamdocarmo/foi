@@ -782,5 +782,243 @@
     ],
     "correctAnswer": "Acústica",
     "explanation": "A acústica é a ciência do som, incluindo sua produção, transmissão e efeitos. Curiosidade: O estudo da acústica é crucial para o desenvolvimento e aperfeiçoamento de instrumentos musicais."
+  },
+  {
+    "id": "quiz-musica-57",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento é geralmente considerado o 'rei dos instrumentos'?",
+    "options": [
+      "Violino",
+      "Órgão",
+      "Piano",
+      "Violoncelo"
+    ],
+    "correctAnswer": "Órgão",
+    "explanation": "O órgão, devido ao seu tamanho, poder e variedade de sons, é frequentemente considerado o 'rei dos instrumentos'. Curiosamente, os órgãos de tubos podem ter milhares de tubos de diferentes tamanhos e materiais."
+  },
+  {
+    "id": "quiz-musica-58",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual gênero musical é conhecido por suas raízes no sul dos Estados Unidos e enfatiza a narrativa?",
+    "options": [
+      "Blues",
+      "Jazz",
+      "Country",
+      "Rock and Roll"
+    ],
+    "correctAnswer": "Country",
+    "explanation": "A música country conta histórias da vida rural e das experiências do povo americano do sul.  Uma curiosidade é que o banjo, instrumento crucial no country, tem origens africanas."
+  },
+  {
+    "id": "quiz-musica-59",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual compositor clássico é famoso pela sua ópera 'O Barbeiro de Sevilha'?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Rossini",
+      "Bach"
+    ],
+    "correctAnswer": "Rossini",
+    "explanation": "Gioachino Rossini compôs 'O Barbeiro de Sevilha', uma ópera buffa muito popular. Curiosamente, a ópera é baseada em uma peça de teatro anterior."
+  },
+  {
+    "id": "quiz-musica-60",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual instrumento de corda geralmente acompanha um cantor de blues?",
+    "options": [
+      "Guitarra",
+      "Violino",
+      "Violoncelo",
+      "Harpa"
+    ],
+    "correctAnswer": "Guitarra",
+    "explanation": "A guitarra é um instrumento fundamental no blues, frequentemente usada para criar riffs e solos memoráveis.  A guitarra slide é uma variação particularmente popular no estilo."
+  },
+  {
+    "id": "quiz-musica-61",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor do século XX é conhecido por suas complexas composições atonais?",
+    "options": [
+      "Igor Stravinsky",
+      "Arnold Schoenberg",
+      "Claude Debussy",
+      "Sergei Rachmaninoff"
+    ],
+    "correctAnswer": "Arnold Schoenberg",
+    "explanation": "Schoenberg foi um pioneiro da música atonal, abandonando a tonalidade tradicional.  Uma curiosidade é que ele desenvolveu o método de composição de doze tons."
+  },
+  {
+    "id": "quiz-musica-62",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual a nota mais alta no piano?",
+    "options": [
+      "Dó",
+      "Si",
+      "Dó#",
+      "Lá"
+    ],
+    "correctAnswer": "Dó",
+    "explanation": "A nota mais alta no piano é o Dó, embora a oitava específica varie dependendo do modelo do piano. A frequência desta nota é geralmente em torno de 4186 Hz."
+  },
+  {
+    "id": "quiz-musica-63",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual é a diferença principal entre uma balada e um blues?",
+    "options": [
+      "A balada é mais rápida que o blues",
+      "A balada é mais curta que o blues",
+      "A balada foca em narrativa, enquanto o blues em emoção",
+      "O blues usa mais instrumentos que a balada"
+    ],
+    "correctAnswer": "A balada foca em narrativa, enquanto o blues em emoção",
+    "explanation": "Embora ambas possam ser lentas e melancólicas, a balada prioriza a história, enquanto o blues se concentra na expressão emocional e no uso de determinadas progressões de acordes."
+  },
+  {
+    "id": "quiz-musica-64",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual o nome da técnica vocal que consiste em cantar duas ou mais notas simultaneamente?",
+    "options": [
+      "Vibrato",
+      "Glissando",
+      "Overtone singing",
+      "Multiphonics"
+    ],
+    "correctAnswer": "Multiphonics",
+    "explanation": "Multiphonics é a técnica de produzir múltiplas notas simultaneamente com um único instrumento de sopro ou pela voz. Curiosamente, é muito usada em música contemporânea."
+  },
+  {
+    "id": "quiz-musica-65",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual gênero musical se caracteriza por improvisação coletiva e uso de instrumentos de sopro?",
+    "options": [
+      "Rock",
+      "Pop",
+      "Jazz",
+      "Clássica"
+    ],
+    "correctAnswer": "Jazz",
+    "explanation": "O jazz é conhecido pela improvisação, geralmente feita por um grupo de músicos, com foco em instrumentos como o saxofone, trompete e trombone. A improvisação é a alma do jazz."
+  },
+  {
+    "id": "quiz-musica-66",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual instrumento de percussão é tipicamente usado em sambas?",
+    "options": [
+      "Xilofone",
+      "Pandeiro",
+      "Vibrafone",
+      "Timbales"
+    ],
+    "correctAnswer": "Pandeiro",
+    "explanation": "O pandeiro é um instrumento essencial no samba, marcando o ritmo e a energia da música. Curiosidade: O pandeiro tem origem árabe e chegou ao Brasil com os colonizadores."
+  },
+  {
+    "id": "quiz-musica-67",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor do período romântico é conhecido por suas sinfonias programáticas?",
+    "options": [
+      "Beethoven",
+      "Bach",
+      "Haydn",
+      "Berlioz"
+    ],
+    "correctAnswer": "Berlioz",
+    "explanation": "Hector Berlioz foi um mestre das sinfonias programáticas, que contam uma história ou evocam imagens específicas. Curiosidade: Sua 'Symphonie fantastique' é um exemplo brilhante desse estilo."
+  },
+  {
+    "id": "quiz-musica-68",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes gêneros musicais surgiu no século XX?",
+    "options": [
+      "Barroco",
+      "Renascentista",
+      "Rock and Roll",
+      "Medieval"
+    ],
+    "correctAnswer": "Rock and Roll",
+    "explanation": "O Rock and Roll surgiu na década de 1950, nos Estados Unidos. Curiosidade: É considerado por muitos o marco inicial da música popular contemporânea."
+  },
+  {
+    "id": "quiz-musica-69",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento musical que enfatizava a expressão emocional intensa e o virtuosismo?",
+    "options": [
+      "Barroco",
+      "Classicismo",
+      "Romantismo",
+      "Impressionismo"
+    ],
+    "correctAnswer": "Romantismo",
+    "explanation": "O Romantismo, do século XIX, valorizava a emoção e a individualidade na música. Curiosidade: Compositores como Beethoven, Chopin e Schubert foram figuras centrais desse movimento."
+  },
+  {
+    "id": "quiz-musica-70",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor serialista é conhecido por suas obras atonais e rigorosamente estruturadas?",
+    "options": [
+      "Debussy",
+      "Schoenberg",
+      "Stravinsky",
+      "Bartok"
+    ],
+    "correctAnswer": "Schoenberg",
+    "explanation": "Arnold Schoenberg foi um pioneiro da música serial, abandonando a tonalidade tradicional. Curiosidade: Ele desenvolveu a técnica dodecafônica, utilizando os doze tons da escala cromática."
+  },
+  {
+    "id": "quiz-musica-71",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento geralmente acompanha um cantor de folk?",
+    "options": [
+      "Bateria",
+      "Saxofone",
+      "Violão",
+      "Trompete"
+    ],
+    "correctAnswer": "Violão",
+    "explanation": "O violão é um instrumento essencial na música folk, muitas vezes usado para acompanhar cantores e fornecer harmonia. Curiosidade: O violão evoluiu de instrumentos antigos como o alaúde."
+  },
+  {
+    "id": "quiz-musica-72",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor minimalista é conhecido por suas obras repetitivas e hipnóticas, como 'Einstein on the Beach'?",
+    "options": [
+      "Philip Glass",
+      "Steve Reich",
+      "John Cage",
+      "Terry Riley"
+    ],
+    "correctAnswer": "Philip Glass",
+    "explanation": "Philip Glass é uma figura chave no minimalismo musical. Curiosidade: Suas obras são frequentemente usadas em filmes e peças teatrais."
+  },
+  {
+    "id": "quiz-musica-73",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento é conhecido por suas cordas vibrantes?",
+    "options": [
+      "Violino",
+      "Bateria",
+      "Trompete",
+      "Flauta"
+    ],
+    "correctAnswer": "Violino",
+    "explanation": "O violino é um instrumento de corda conhecido por seu som brilhante e expressivo.  Curiosidade: O violino é frequentemente considerado o instrumento solo mais versátil da orquestra."
   }
 ]

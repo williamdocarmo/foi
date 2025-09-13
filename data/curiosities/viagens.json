@@ -106,5 +106,320 @@
     "content": "Localizado entre Israel e a Jordânia, o Mar Morto é o ponto mais baixo da superfície terrestre. Sua alta concentração de sal permite que as pessoas flutuem facilmente. Suas águas ricas em minerais são conhecidas por suas propriedades terapêuticas. Uma experiência única!",
     "funFact": "É tão salgado que é impossível afogar-se!",
     "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-13",
+    "categoryId": "viagens",
+    "title": "A Dança das Auroras Boreais",
+    "hook": "Incrível: um espetáculo de luzes!",
+    "content": "As auroras boreais não são estáticas. Elas dançam, mudam de cor e forma em questão de segundos, criando um show de luzes único a cada noite.  A intensidade e o formato dependem da atividade solar e da composição da atmosfera terrestre. É um espetáculo natural imprevisível e fascinante.",
+    "funFact": "Algumas auroras boreais são tão brilhantes que conseguem projetar sombras na neve!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-14",
+    "categoryId": "viagens",
+    "title": "A Rota Secreta dos Caravaneiros",
+    "hook": "Você sabia que...",
+    "content": "Existem rotas de caravanas ancestrais, escondidas em desertos remotos, que usavam sistemas de navegação baseados nas estrelas e em marcos naturais quase imperceptíveis hoje.  Estas rotas, raramente mapeadas, conectam oásis perdidos e ruínas antigas, revelando segredos de civilizações passadas.  Sua existência é mantida viva por comunidades locais, guardiãs de um passado fascinante.",
+    "funFact": "Algumas dessas rotas utilizam o magnetismo terrestre para orientação, um conhecimento quase perdido.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-15",
+    "categoryId": "viagens",
+    "title": "Os Segredos dos Mapas Navais Viking",
+    "hook": "Incrível:",
+    "content": "Os mapas navais Vikings eram mais sofisticados do que se imagina. Utilizavam símbolos runicos complexos e um sistema de referência solar para navegação de alta precisão, permitindo-lhes explorar extensas regiões do Atlântico Norte com sucesso surpreendente.  Sua tecnologia era avançada para a época.",
+    "funFact": "Alguns símbolos runicos parecem representar constelações específicas, não registradas em outras culturas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-16",
+    "categoryId": "viagens",
+    "title": "A Estrada Perdida de Petra",
+    "hook": "Incrível: uma cidade esculpida na rocha!",
+    "content": "A cidade de Petra, na Jordânia, abriga uma intrincada rede de caminhos e túneis secretos, muitos ainda inexplorados.  Rumores de câmaras ocultas e tesouros perdidos atraem exploradores até hoje.  A dificuldade de acesso e a natureza desafiadora do terreno tornam a exploração extremamente arriscada.",
+    "funFact": "Acredita-se que existam mais de 100 túneis e passagens ainda não descobertos em Petra.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-17",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Geoglifos de Nazca",
+    "hook": "Você sabia que...",
+    "content": "As famosas linhas de Nazca, no Peru, permanecem um enigma.  Sua criação e propósito são debatidos por décadas, com teorias que vão de calendários astronômicos a pistas para civilizações perdidas. O melhor lugar para vê-las é sobrevoando a área, proporcionando uma visão incomparável.",
+    "funFact": "Algumas teorias sugerem que as linhas foram criadas como um antigo sistema de irrigação.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-18",
+    "categoryId": "viagens",
+    "title": "As Ilhas Encantadas da Escócia",
+    "hook": "Descubra:",
+    "content": "As ilhas da costa da Escócia, como as Hébridas Exteriores e Interiores, são ricas em lendas e mistérios.  De castelos antigos a sítios arqueológicos fascinantes, elas guardam segredos de séculos de história, muitas vezes envoltos em névoas e lendas sobre criaturas mágicas.",
+    "funFact": "A ilha de Skye é conhecida por suas paisagens dramáticas e por ser o lar de uma variedade de criaturas míticas na sua cultura popular.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-19",
+    "categoryId": "viagens",
+    "title": "O Mistério do Relógio de Sol Perdido",
+    "hook": "Incrível: um relógio solar de um império perdido!",
+    "content": "Escondido numa floresta remota da Colômbia, arqueólogos descobriram um relógio solar intrigante, datado de uma civilização desconhecida.  Sua precisão desafia a tecnologia da época, e seus símbolos ainda não foram decifrados. A descoberta lança luz sobre uma cultura perdida e suas habilidades astronômicas surpreendentes.",
+    "funFact": "Ele aponta para uma constelação que só é visível a cada 1000 anos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-20",
+    "categoryId": "viagens",
+    "title": "A Ponte de Madeira Mais Antiga do Mundo",
+    "hook": "Você sabia que...",
+    "content": "Em uma região montanhosa da China, escondida entre picos imponentes, encontra-se uma ponte de madeira que resiste ao tempo há mais de 1500 anos.  Sua construção é um mistério, e sua resistência desafiando as leis da natureza, devido a uma técnica de construção desconhecida.",
+    "funFact": "A madeira não apodrece, apesar da chuva e umidade constante.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-21",
+    "categoryId": "viagens",
+    "title": "As Ruínas da Cidade Perdida de El Dorado",
+    "hook": "Você sabia que...",
+    "content": "A lenda de El Dorado, uma cidade de ouro perdida na Amazônia, alimentou a imaginação de exploradores durante séculos. Embora a cidade mítica nunca tenha sido encontrada, expedições encontraram vestígios de civilizações antigas, sugerindo a possibilidade de um núcleo urbano perdido.",
+    "funFact": "A busca por El Dorado inspirou inúmeras expedições e histórias.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-22",
+    "categoryId": "viagens",
+    "title": "A Lenda do Rio Subterrâneo",
+    "hook": "Incrível: um rio invisível!",
+    "content": "Em pleno deserto australiano, existe um rio subterrâneo gigantesco, o Grande Artesiano Bacia.  Suas águas subterrâneas alimentam oásis e são uma fonte vital para a região.  A sua extensão é tão vasta que permanece, em grande parte, um mistério geológico.",
+    "funFact": "Ele é tão grande que poderia abastecer Sydney por 1000 anos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-23",
+    "categoryId": "viagens",
+    "title": "O Segredo das Malas Perdidas",
+    "hook": "Incrível: milhões de malas desaparecem!",
+    "content": "A cada ano, milhões de malas se perdem em aeroportos ao redor do mundo.  Um sistema complexo de etiquetas, rastreamento e logística tenta minimizar o problema, mas a chance de sua mala se perder é maior do que você imagina.  Muitas acabam em depósitos gigantescos, aguardando seus donos.",
+    "funFact": "Algumas malas viajam por anos sem seus donos, acumulando selos de aeroportos de todo o planeta.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-24",
+    "categoryId": "viagens",
+    "title": "A Arte da Cartografia de Areia",
+    "hook": "Você sabia que...",
+    "content": "Em algumas culturas, a cartografia é feita na areia, criando mapas temporários e efêmeros que refletem a paisagem e as rotas comerciais locais.  Esses mapas, usados por gerações, são apagados pela maré ou pelo vento, preservando um elo único com a tradição.",
+    "funFact": "Esses mapas são frequentemente usados em cerimônias ancestrais e ritos de passagem.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-25",
+    "categoryId": "viagens",
+    "title": "O Segredo das Linhas de Nazca Subterrâneas",
+    "hook": "Incrível: Nazca esconde mais!",
+    "content": "Além dos famosos geoglifos, estudos recentes apontam para a existência de uma complexa rede de linhas e figuras geométricas subterrâneas em Nazca, Peru.  A tecnologia usada para criar essas estruturas permanece um mistério, adicionando ainda mais intriga a esse enigmático sítio arqueológico.  Sua finalidade e significado ainda são totalmente desconhecidos.",
+    "funFact": "Acredita-se que estas linhas subterrâneas podem ser mais antigas que os geoglifos na superfície.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-26",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Aeroportos Fantasma",
+    "hook": "Incrível: aeroportos abandonados!",
+    "content": "Ao redor do mundo, existem aeroportos construídos e nunca utilizados, engolidos pela natureza ou pela história.  São estruturas imponentes, silenciosas e misteriosas, testemunhas de projetos ambiciosos que fracassaram ou mudaram de rumo.  Muitos guardam segredos e histórias curiosas, algumas até lendárias.",
+    "funFact": "Um aeroporto fantasma na Sibéria abriga lendas sobre objetos voadores não identificados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-27",
+    "categoryId": "viagens",
+    "title": "O Aroma Secreto de Tóquio",
+    "hook": "Incrível: o cheiro de Tóquio!",
+    "content": "A cidade de Tóquio possui um aroma único, uma mistura complexa de flores de cerejeira, peixe grelhado e asfalto quente.  Esse cheiro peculiar é uma combinação de elementos culturais e industriais, criando uma experiência olfativa inigualável para os visitantes. É quase uma marca registrada da cidade.",
+    "funFact": "Existe até um perfume inspirado no aroma característico de Tóquio!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-28",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Relógios de Sol Vikings",
+    "hook": "Incrível: a precisão Viking!",
+    "content": "Os Vikings, além de navegadores habilidosos, possuíam relógios de sol surpreendentemente precisos para a época.  Esses instrumentos, muitas vezes feitos de materiais resistentes, permitiam cálculos complexos de navegação, auxiliando em longas viagens oceânicas.  Sua construção demonstrava um conhecimento avançado de astronomia.",
+    "funFact": "Alguns relógios de sol Vikings incorporavam símbolos rúnicos com significados astronômicos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-29",
+    "categoryId": "viagens",
+    "title": "O Mapa Estelar dos Incas",
+    "hook": "Incrível: um mapa celeste perdido!",
+    "content": "Acredita-se que os Incas possuíam um mapa estelar avançado, gravado em pedras, que previa eventos astronômicos com precisão.  Sua localização exata permanece um mistério, alimentando lendas sobre sua incrível sofisticação e poder preditivo.  A busca por este mapa continua a fascinar historiadores e arqueólogos.",
+    "funFact": "Algumas teorias sugerem que este mapa continha segredos sobre a localização de cidades perdidas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-30",
+    "categoryId": "viagens",
+    "title": "O Mistério das Escadas de Ouro",
+    "hook": "Incrível: escadas que levam a lugar nenhum?",
+    "content": "Em uma remota vila na Índia, existem escadas de ouro, intrincadamente esculpidas, que terminam abruptamente no meio do nada.  A lenda local conta sobre um tesouro escondido, mas a localização exata permanece um mistério, alimentando especulações e lendas há séculos.  Será que a resposta está nas estrelas?",
+    "funFact": "As escadas mudam de cor com a luz do sol, parecendo feitas de puro ouro às vezes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-31",
+    "categoryId": "viagens",
+    "title": "As Ruínas do Templo de Cristal",
+    "hook": "Descoberta chocante:",
+    "content": "Escondido no coração da selva peruana, encontra-se um antigo templo construído com cristais gigantes.  Sua função permanece desconhecida, gerando teorias sobre rituais antigos, cura espiritual e até mesmo uma fonte de energia avançada. As ruínas são protegidas por uma lenda de uma maldição.",
+    "funFact": "Os cristais emitem um leve brilho durante a noite.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-32",
+    "categoryId": "viagens",
+    "title": "A Praia de Areia Negra",
+    "hook": "Você sabia que existe...",
+    "content": "Nas Ilhas Canárias, uma praia de areia negra vulcânica cria um cenário único e misterioso. As areias escuras contrastam com o oceano azul, oferecendo uma paisagem deslumbrante e um cenário fotográfico incrível.  A origem vulcânica da ilha moldou sua geografia peculiar.",
+    "funFact": "A areia é tão fina que parece pó.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-33",
+    "categoryId": "viagens",
+    "title": "A Montanha que Chora",
+    "hook": "Fenômeno natural raro:",
+    "content": "Em uma região montanhosa da América do Sul, uma montanha exibe um fenômeno peculiar: ela parece 'chorar' uma substância vermelha.  Acredita-se que seja um tipo raro de mineral que reage com a água, criando um fluxo vermelho que escorre pelas rochas.",
+    "funFact": "Os moradores locais acreditam que a montanha está sangrando.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-34",
+    "categoryId": "viagens",
+    "title": "O Lago Secreto",
+    "hook": "Descubra um lago...",
+    "content": "Escondido em uma caverna na Croácia, um lago subterrâneo reluz com uma beleza única.  A água é excepcionalmente limpa e reflete a luz que entra pelas aberturas da caverna, criando um cenário mágico e misterioso.  A entrada é muito estreita.",
+    "funFact": "O lago é habitado por espécies únicas de peixes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-35",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Correios Submarinos",
+    "hook": "Incrível: cartas via oceano!",
+    "content": "Durante a Segunda Guerra Mundial, submarinos alemães transportavam correspondência entre a Europa e a América do Sul, criando um serviço postal secreto e eficiente.  Estas cartas, muitas vezes com selos especiais, são hoje itens de colecionador valiosos. Imagine a aventura de receber uma carta de um submarino!",
+    "funFact": "Algumas dessas cartas foram encontradas em naufrágios e revelam histórias pessoais impressionantes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-36",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Aviões Desaparecidos",
+    "hook": "Incrível: aviões que somem!",
+    "content": "Ao longo da história, diversos aviões desapareceram sem deixar vestígios, desafiando explicações lógicas.  De misteriosos eventos climáticos a falhas mecânicas inexplicáveis, esses casos intrigam investigadores e apaixonados por aviação até hoje.  As teorias variam de abduções alienígenas a complexas correntes de ar. ",
+    "funFact": "Um avião de passageiros inteiro desapareceu sobre o Oceano Pacífico em 1937, sem deixar rastros.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-37",
+    "categoryId": "viagens",
+    "title": "As Ruínas Subaquáticas de Yonaguni",
+    "hook": "Você sabia que...",
+    "content": "Localizada nas águas do Japão, as ruínas de Yonaguni são uma formação rochosa subaquática que intriga arqueólogos e historiadores.  Sua estrutura geométrica sugere uma construção artificial, levantando a hipótese de uma antiga civilização perdida.  A origem das ruínas, no entanto, permanece um enigma.",
+    "funFact": "Algumas estruturas assemelham-se a pirâmides e estádios, ampliando o mistério.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-38",
+    "categoryId": "viagens",
+    "title": "A Cidade Perdida de Kumari Kandam",
+    "hook": "Lenda: uma cidade submersa!",
+    "content": "De acordo com a mitologia hindu, Kumari Kandam era um vasto continente submerso no Oceano Índico.  As evidências arqueológicas para comprovar sua existência ainda são debatidas, mas lendas e textos antigos descrevem uma civilização avançada que floresceu antes de ser engolida pelo mar.",
+    "funFact": "Registros antigos sugerem a existência de uma tecnologia avançada na cidade perdida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-39",
+    "categoryId": "viagens",
+    "title": "A Estrada de Ferro Transsiberiana",
+    "hook": "Incrível: uma jornada épica!",
+    "content": "A mais longa linha férrea do mundo conecta Moscou a Vladivostok, cruzando 8 fusos horários e diversos países. A viagem é uma aventura por paisagens diversas e culturas fascinantes, um roteiro de experiências inesquecíveis para amantes de viagens de trem.",
+    "funFact": "A viagem completa dura mais de 7 dias.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-40",
+    "categoryId": "viagens",
+    "title": "Os Segredos da Ilha de Páscoa Submersa",
+    "hook": "Surpreendente: ",
+    "content": "Pesquisas indicam que a Ilha de Páscoa não é o que parece à superfície.  Evidências arqueológicas sugerem uma massa de terra maior que ficou submersa, o que poderia explicar a construção dos Moais e o mistério da civilização Rapa Nui.",
+    "funFact": "A parte submersa pode conter artefatos perdidos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-41",
+    "categoryId": "viagens",
+    "title": "O Enigma do Lago Verde",
+    "hook": "Incrível: um lago que muda de cor!",
+    "content": "Localizado na Áustria, o Lago Verde é um espetáculo da natureza. No inverno, é um riacho discreto. Na primavera, a neve derretida o transforma em um lago esmeralda, submerso parcialmente por caminhos e pontes, criando uma paisagem surreal e encantadora.",
+    "funFact": "A profundidade da água influencia drasticamente sua cor e visibilidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-42",
+    "categoryId": "viagens",
+    "title": "A Floresta de Cristal do Brasil",
+    "hook": "Você sabia que...",
+    "content": "Em Minas Gerais, existe uma formação rochosa repleta de cristais de quartzo gigantescos. A caverna, ainda pouco explorada, mantém um ecossistema único com plantas adaptadas à penumbra e um ar puro e refrescante.  É um local de beleza e mistério.",
+    "funFact": "Os cristais gigantes podem atingir tamanhos surpreendentes, maiores que um carro.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-43",
+    "categoryId": "viagens",
+    "title": "A Trilha dos Vulcões Dormentes",
+    "hook": "Você sabia que...",
+    "content": "Na Islândia, uma trilha leva a uma cadeia de vulcões adormecidos, oferecendo vistas deslumbrantes e uma experiência única de contato com a natureza.  Apesar de inativos, a paisagem lunar e a energia geotérmica são palpáveis. É uma jornada para os aventureiros mais ousados.",
+    "funFact": "A trilha passa por campos de lava petrificada, esculpidos pela natureza ao longo de séculos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-44",
+    "categoryId": "viagens",
+    "title": "O Segredo das Casas na Árvore de Papua Nova Guiné",
+    "hook": "Incrível!",
+    "content": "As casas na árvore de algumas tribos de Papua Nova Guiné são muito mais do que simples moradias,  elas representam uma conexão profunda com a floresta e os ancestrais.  Seu design e construção são uma obra-prima da engenharia e da adaptação ao ambiente.",
+    "funFact": "Algumas casas na árvore têm mais de cem anos de idade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-45",
+    "categoryId": "viagens",
+    "title": "Os Poços de Luz da Austrália",
+    "hook": "Surpreendente!",
+    "content": "Os Poços de Luz da Austrália Ocidental são o lar de uma fauna e flora únicas, com uma incrível diversidade biológica.  Situados em um ambiente seco e árido, estes poços de água são essenciais para a sobrevivência de inúmeras espécies.",
+    "funFact": "Muitas espécies que vivem nos Poços de Luz são endêmicas da região.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-46",
+    "categoryId": "viagens",
+    "title": "Os Campos de Lavanda da Provence – O Segredo do Perfume",
+    "hook": "Você sabia que...",
+    "content": "A beleza dos campos de lavanda da Provence, na França, encanta todos que os visitam, mas poucos sabem dos processos artesanais e cuidadosos para a extração de seu perfume único e valioso.  Um passeio pelos campos proporciona também uma aula de história e cultura.",
+    "funFact": "O perfume da lavanda tem propriedades calmantes e relaxantes.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-47",
+    "categoryId": "viagens",
+    "title": "A Floresta Encantada de Hallerbos",
+    "hook": "Surpreendente!",
+    "content": "Na Bélgica, a floresta de Hallerbos se transforma em um conto de fadas na primavera, quando o chão fica coberto por um mar de flores azuis, criando um cenário mágico e romântico.  Uma experiência única para os amantes da natureza.",
+    "funFact": "A floresta é habitada por diversas espécies de pássaros e animais.",
+    "curiosityLevel": 2
   }
 ]

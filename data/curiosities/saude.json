@@ -631,5 +631,122 @@
     "content": "A variabilidade da frequência cardíaca (VFC) é um indicador importante da saúde cardiovascular e do equilíbrio do sistema nervoso autônomo.  Uma VFC baixa pode sinalizar risco de doenças cardíacas.  Práticas como meditação e exercícios regulares ajudam a aumentar a VFC.",
     "funFact": "A VFC pode ser medida com dispositivos simples e monitorada para acompanhar a sua saúde.",
     "curiosityLevel": 2
+  },
+  {
+    "id": "saude-101",
+    "categoryId": "saude",
+    "title": "A Cura Secreta do Riso",
+    "hook": "Incrível: o riso cura!",
+    "content": "O riso, além de ser contagiante e prazeroso, libera endorfinas, hormônios que atuam como analgésicos naturais e reduzem o estresse.  Estudos demonstram que o riso pode melhorar a imunidade, reduzir a pressão arterial e até mesmo prolongar a vida.  Reserve alguns minutos ao dia para sorrir e rir, e veja os benefícios para sua saúde física e mental.",
+    "funFact": "Uma boa gargalhada pode queimar até 40 calorias!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-102",
+    "categoryId": "saude",
+    "title": "O Poder da Microrganismos Intestinais",
+    "hook": "Você sabia que...",
+    "content": "Seu intestino abriga trilhões de bactérias, fungos e outros microrganismos que compõem sua microbiota intestinal.  Este ecossistema complexo influencia a digestão, imunidade, humor e até mesmo o risco de doenças crônicas.  Uma microbiota equilibrada é fundamental para a saúde geral, e pode ser influenciada pela sua dieta e estilo de vida.",
+    "funFact": "Há mais células bacterianas no seu intestino do que células humanas em todo o seu corpo!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-103",
+    "categoryId": "saude",
+    "title": "Os Segredos da Saliva",
+    "hook": "Incrível:",
+    "content": "Sua saliva, além de auxiliar na digestão, possui propriedades antibacterianas e de reparação tecidual.  Ela contém enzimas que combatem bactérias e vírus, protegendo sua boca e garganta de infecções.  Manter a boca hidratada e uma boa higiene bucal são essenciais para garantir a saúde da sua saliva.",
+    "funFact": "A saliva contém fatores de crescimento que auxiliam na regeneração dos tecidos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-104",
+    "categoryId": "saude",
+    "title": "A Incrível Força do Toque",
+    "hook": "Incrível: o poder do toque físico.",
+    "content": "O toque físico, além de criar conexões emocionais, possui um impacto profundo na saúde física.  Estudos demonstram que abraços e carícias liberam ocitocina, hormônio que reduz o estresse e melhora o sistema imunológico.  Isso reforça a importância do contato físico para o bem-estar geral.",
+    "funFact": "A falta de toque físico pode levar à depressão e ansiedade, tão graves quanto a falta de comida.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-105",
+    "categoryId": "saude",
+    "title": "A Química da Felicidade",
+    "hook": "Você sabia que...",
+    "content": "A felicidade não é apenas uma sensação, mas uma complexa reação química no cérebro. Neurotransmissores como a dopamina, serotonina e endorfina estão envolvidos nesse processo. Atividades que promovem a liberação dessas substâncias, como exercícios e meditação, podem aumentar a sensação de bem-estar.",
+    "funFact": "Sorrir, mesmo que forçado, pode realmente te deixar mais feliz!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-106",
+    "categoryId": "saude",
+    "title": "A Ciência da Cura Através do Toque",
+    "hook": "Incrível: o poder do toque!",
+    "content": "O toque humano, além do afeto, libera ocitocina, hormônio que reduz o estresse e a dor.  Estudos demonstram que um simples abraço pode melhorar a imunidade e o humor. A terapia de toque, como a massagem, utiliza essa capacidade curativa para aliviar tensões musculares e promover o bem-estar geral. É uma demonstração surpreendente do poder da conexão humana na saúde.",
+    "funFact": "Um abraço de 20 segundos pode aumentar significativamente os níveis de ocitocina.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-107",
+    "categoryId": "saude",
+    "title": "O Segredo da Sua Segunda Pele",
+    "hook": "Incrível: seu intestino...",
+    "content": "Seu intestino abriga trilhões de bactérias que influenciam sua saúde de maneiras surpreendentes, desde a imunidade até a saúde mental.  A diversidade dessa microbiota intestinal é crucial; uma microbiota rica e equilibrada está associada a um sistema imunológico mais forte e a uma melhor saúde mental.  Cuide bem do seu 'segundo cérebro'.",
+    "funFact": "Algumas pesquisas sugerem que a composição da sua microbiota intestinal pode até influenciar seu humor e comportamento!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-108",
+    "categoryId": "saude",
+    "title": "A Ciência do Bocejo Contagioso",
+    "hook": "Você sabia que...",
+    "content": "O bocejo contagioso não é apenas um comportamento social.  Estudos sugerem que ele pode ter um papel na regulação da temperatura cerebral e na sincronização do estado de alerta entre indivíduos.  Bocejar junto pode ser um reflexo de empatia e conexão social.",
+    "funFact": "Bebês bocejam menos que adultos, e a capacidade de bocejar contagiosamente só se desenvolve mais tarde na infância.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-109",
+    "categoryId": "saude",
+    "title": "O Poder Curativo do Riso",
+    "hook": "Incrível:",
+    "content": "O riso é uma poderosa ferramenta terapêutica. Estudos demonstram que ele aumenta a imunidade, reduz o estresse e até mesmo alivia a dor.  Uma boa gargalhada libera endorfinas, neurotransmissores que atuam como analgésicos naturais e melhoram o humor.  Ria mais!",
+    "funFact": "Uma sessão de risada pode aumentar significativamente o seu nível de imunoglobulina A (IgA), um anticorpo importante na defesa do seu sistema imunológico.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-110",
+    "categoryId": "saude",
+    "title": "A Ciência da Sua Segunda Pele",
+    "hook": "Incrível: sua pele se regenera!",
+    "content": "A pele, nosso maior órgão, está em constante renovação.  Células mortas são substituídas a cada 28 dias, aproximadamente.  Este processo incrível envolve a proliferação e migração de células, mostrando a complexa biologia que mantém nossa pele saudável e protetora.  O ritmo dessa renovação pode ser afetado por fatores como idade, dieta e exposição solar.",
+    "funFact": "Você perde cerca de 50 milhões de células de pele por dia!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-111",
+    "categoryId": "saude",
+    "title": "O Mistério da Temperatura Corporal",
+    "hook": "Incrível: sua temperatura...",
+    "content": "A temperatura corporal humana não é sempre estável em 36,5°C. Ela varia ao longo do dia, sendo mais baixa pela manhã e mais alta à noite. Essa flutuação é natural e influenciada por diversos fatores, incluindo a atividade física, a alimentação e o ciclo circadiano.  Entender essas variações pode auxiliar no diagnóstico de diversas condições de saúde.",
+    "funFact": "A temperatura corporal também pode variar de acordo com o seu sexo e até mesmo com a sua genética!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-112",
+    "categoryId": "saude",
+    "title": "A Surpreendente Ciência do Bocejo",
+    "hook": "Incrível: o bocejo é...",
+    "content": "O bocejo, além de contagioso, desempenha um papel crucial na regulação da temperatura cerebral.  Resfriar o cérebro através do bocejo melhora o foco e o desempenho cognitivo.  É uma resposta fisiológica que ajuda a manter a homeostase do nosso sistema nervoso central, essencial para a saúde mental e física.  A frequência dos bocejos pode até indicar mudanças no estado de alerta e na performance cerebral.",
+    "funFact": "Bocejos mais longos e frequentes podem estar associados à fadiga e a necessidade de descanso.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-113",
+    "categoryId": "saude",
+    "title": "A Ciência do Toque Terapêutico",
+    "hook": "Incrível: o toque pode...",
+    "content": "O toque físico, seja um abraço ou uma massagem suave, libera ocitocina, o hormônio do amor e do bem-estar. Isso reduz os níveis de cortisol, o hormônio do estresse, promovendo relaxamento e sensação de segurança. Estudos demonstram que o toque terapêutico pode aliviar a dor, reduzir a ansiedade e melhorar o humor, demonstrando um impacto significativo na saúde mental e física.",
+    "funFact": "Bebês que recebem mais contato físico desenvolvem melhor o sistema imunológico.",
+    "curiosityLevel": 4
   }
 ]

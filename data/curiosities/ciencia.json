@@ -286,5 +286,518 @@
     "content": "A simetria é uma constante na natureza, desde os flocos de neve até a disposição das folhas em um caule.  Porém,  a assimetria também desempenha um papel crucial, conferindo funcionalidade e adaptação às espécies.  A ciência busca entender esse equilíbrio complexo.",
     "funFact": "A assimetria pode ser uma vantagem evolutiva, permitindo maior mobilidade ou eficiência.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-33",
+    "categoryId": "ciencia",
+    "title": "A Dança dos Neutrinos",
+    "hook": "Incrível: Neutrinos viajam...",
+    "content": "Os neutrinos, partículas subatômicas quase sem massa, atravessam a Terra sem parar, bilhões deles a cada segundo.  Sua interação com a matéria é tão fraca que conseguem passar por planetas inteiros.  Estudar esses fantasmas subatômicos nos ajuda a entender os segredos do universo.",
+    "funFact": "Mais neutrinos passam por você a cada segundo do que grãos de areia existem na Terra!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-34",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Matéria Escura Galáctica",
+    "hook": "Incrível: a matéria escura se comporta de forma diferente em diferentes galáxias!",
+    "content": "Observações recentes sugerem que a matéria escura não se distribui uniformemente em todas as galáxias.  Em algumas, ela parece mais concentrada no centro, enquanto em outras está mais difusa. Isso desafia os modelos cosmológicos atuais e abre novas perguntas sobre a natureza dessa substância enigmática.",
+    "funFact": "Algumas teorias sugerem que a matéria escura pode interagir consigo mesma de formas que ainda não compreendemos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-35",
+    "categoryId": "ciencia",
+    "title": "A Biologia dos Cristais Biológicos",
+    "hook": "Você sabia que alguns seres vivos criam cristais?",
+    "content": "Muitos organismos, de bactérias a animais, produzem cristais para diversas funções, como proteção, armazenamento ou até mesmo para a estruturação de seus tecidos.  A formação desses cristais biológicos é um processo complexo e fascinante, ainda com muitos mistérios a serem desvendados.",
+    "funFact": "Alguns cristais biológicos podem ser usados em biotecnologia para desenvolver novos materiais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-36",
+    "categoryId": "ciencia",
+    "title": "O Segredo das Bolhas de Sabão",
+    "hook": "Incrível: a física de uma bolha!",
+    "content": "As finas películas de água que formam as bolhas de sabão são um espetáculo de tensão superficial e interferência de luz.  Sua curta vida é um microcosmo de forças físicas delicadas, refletindo um arco-íris efêmero.  A beleza e a fragilidade de uma bolha revelam princípios científicos complexos.",
+    "funFact": "Uma bolha de sabão perfeita é uma esfera quase perfeita devido à minimização da tensão superficial.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-37",
+    "categoryId": "ciencia",
+    "title": "O Enigma da Força Nuclear Forte",
+    "hook": "Incrível: a força que mantém o universo unido!",
+    "content": "A força nuclear forte é a mais poderosa das quatro forças fundamentais da natureza, responsável por manter os prótons e nêutrons unidos no núcleo atômico.  Sua intensidade é tão grande que supera a repulsão eletromagnética entre os prótons, evitando a desintegração dos átomos.  Entender completamente essa força é crucial para avançar em áreas como energia nuclear e física de partículas.",
+    "funFact": "A força nuclear forte é 100 trilhões de vezes mais forte que a força gravitacional!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-38",
+    "categoryId": "ciencia",
+    "title": "A Física do Vento Solar",
+    "hook": "Você sabia que o Sol 'sopra'?",
+    "content": "O vento solar é um fluxo constante de partículas carregadas emitidas pela coroa solar.  Essa 'brisa solar' afeta a magnetosfera da Terra, causando auroras boreais e interferindo em sistemas de comunicação e satélites. Entender sua dinâmica é essencial para proteger nossa infraestrutura tecnológica.",
+    "funFact": "O vento solar pode atingir velocidades de milhões de quilômetros por hora!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-39",
+    "categoryId": "ciencia",
+    "title": "A Química da Fermentação",
+    "hook": "Incrível: o poder dos microrganismos!",
+    "content": "A fermentação, um processo metabólico realizado por microrganismos, tem sido usada por séculos na produção de alimentos e bebidas.  De iogurtes a vinhos, a ação de bactérias e leveduras transforma ingredientes simples em produtos complexos e saborosos.  A biotecnologia moderna explora esse processo para criar biocombustíveis e outras substâncias úteis.",
+    "funFact": "A fermentação de alimentos também aumenta sua digestibilidade e valor nutricional!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-40",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Empatia",
+    "hook": "Você sabia que a empatia é um processo neural?",
+    "content": "A empatia, a capacidade de compartilhar e compreender os sentimentos dos outros, é um fenômeno complexo estudado pela neurociência.  Pesquisas mostram a ativação de áreas cerebrais específicas quando observamos ou imaginamos o sofrimento alheio, revelando as bases biológicas desse importante comportamento social.",
+    "funFact": "Bebês já demonstram sinais de empatia logo nos primeiros meses de vida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-41",
+    "categoryId": "ciencia",
+    "title": "A Ecologia dos Microrganismos do Solo",
+    "hook": "Você sabia que o solo é um mundo vivo?",
+    "content": "O solo abriga uma incrível biodiversidade de microrganismos, essenciais para a saúde dos ecossistemas terrestres.  Esses microrganismos desempenham funções vitais como decomposição de matéria orgânica, ciclagem de nutrientes e manutenção da fertilidade do solo. A compreensão de sua complexa interação é crucial para garantir a segurança alimentar e a saúde ambiental.",
+    "funFact": "Um punhado de solo pode conter bilhões de microrganismos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-42",
+    "categoryId": "ciencia",
+    "title": "A Ciência da Conservação da Água",
+    "hook": "Incrível: a escassez de água potável!",
+    "content": "A escassez de água potável é um desafio global crescente, exigindo o desenvolvimento de tecnologias e estratégias inovadoras para sua gestão sustentável.  A ciência desempenha um papel crucial na busca por soluções, desde a dessalinização da água do mar até o desenvolvimento de métodos de irrigação eficientes.",
+    "funFact": "Apenas uma pequena porcentagem da água da Terra é potável.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-43",
+    "categoryId": "ciencia",
+    "title": "A Matemática da Criptografia",
+    "hook": "Você sabia que a matemática protege seus dados?",
+    "content": "A criptografia, a ciência da escrita e leitura de mensagens secretas, se baseia em princípios matemáticos complexos para garantir a segurança da informação.  Algoritmos sofisticados garantem a confidencialidade e a integridade dos dados em transações online e outros sistemas sensíveis.",
+    "funFact": "A criptografia moderna utiliza conceitos matemáticos avançados, como números primos e teoria dos grupos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-44",
+    "categoryId": "ciencia",
+    "title": "A Ciência da Evolução da Linguagem",
+    "hook": "Incrível: a origem da fala!",
+    "content": "A evolução da linguagem humana é um enigma fascinante que envolve linguística, antropologia e neurociência.  Pesquisas investigam as origens da comunicação simbólica, as mudanças na estrutura cerebral e os fatores sociais que contribuíram para o desenvolvimento da linguagem como a conhecemos.",
+    "funFact": "Não há consenso científico sobre como a linguagem humana surgiu.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-45",
+    "categoryId": "ciencia",
+    "title": "A Química dos Aromas",
+    "hook": "Incrível: a ciência dos cheiros!",
+    "content": "A percepção de aromas é um processo complexo que envolve a interação de moléculas voláteis com receptores olfativos no nariz.  A química dos aromas estuda a estrutura molecular dessas substâncias e sua relação com as sensações olfativas, permitindo a criação de perfumes, fragrâncias e aditivos alimentares.",
+    "funFact": "Nosso olfato pode detectar trilhões de diferentes odores.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-46",
+    "categoryId": "ciencia",
+    "title": "A Ciência da Fotossíntese Artificial",
+    "hook": "Incrível: imitando a natureza para criar energia!",
+    "content": "Cientistas estão desenvolvendo sistemas de fotossíntese artificial para produzir energia limpa a partir da luz solar.  Mimetizando o processo natural realizado pelas plantas, esses sistemas prometem uma fonte de energia renovável e sustentável, contribuindo para a transição para uma sociedade de baixo carbono.",
+    "funFact": "A fotossíntese artificial ainda está em fase de desenvolvimento, mas já mostra resultados promissores.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-47",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Simbiose",
+    "hook": "Incrível: a cooperação entre seres vivos!",
+    "content": "A simbiose é a interação próxima e duradoura entre duas espécies diferentes.  Essas relações podem ser mutualistas (benéficas para ambas as espécies), comensais (benéficas para uma e neutras para a outra) ou parasíticas (benéficas para uma e prejudiciais para a outra).  Compreender a simbiose é fundamental para entender a ecologia e a evolução da vida.",
+    "funFact": "Muitos animais dependem de relações simbióticas para sobreviver.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-48",
+    "categoryId": "ciencia",
+    "title": "A Zoologia dos Animais Bioluminescentes",
+    "hook": "Incrível: animais que brilham no escuro!",
+    "content": "Bioluminescência é a produção e emissão de luz por organismos vivos.  Muitas espécies marinhas, como águas-vivas e alguns peixes, utilizam a bioluminescência para atrair presas, se comunicar ou se defender de predadores.  Estudar seus mecanismos bioquímicos pode inspirar novas tecnologias de iluminação.",
+    "funFact": "A bioluminescência é um fenômeno químico que não gera calor.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-49",
+    "categoryId": "ciencia",
+    "title": "A Geofísica do Magnetismo Terrestre",
+    "hook": "Você sabia que a Terra tem um campo magnético?",
+    "content": "O campo magnético terrestre protege a Terra de partículas carregadas do Sol, criando uma barreira invisível que nos protege de radiação prejudicial.  Estudar seu comportamento e variações é essencial para entender os processos internos da Terra e seus efeitos na atmosfera.",
+    "funFact": "O campo magnético terrestre já se inverteu muitas vezes ao longo da história do planeta.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-50",
+    "categoryId": "ciencia",
+    "title": "A Física da Antimatéria",
+    "hook": "Você sabia que existe uma 'imagem espelhada' da matéria?",
+    "content": "A antimatéria é composta por antipartículas, que têm a mesma massa das partículas de matéria, mas com cargas opostas.  A aniquilação de matéria e antimatéria libera uma quantidade enorme de energia.  Entender a antimatéria é fundamental para compreender os primeiros momentos do universo.",
+    "funFact": "A aniquilação de uma pequena quantidade de matéria e antimatéria libera uma quantidade enorme de energia.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-51",
+    "categoryId": "ciencia",
+    "title": "O Impacto da Música no Crescimento das Plantas",
+    "hook": "Incrível: Plantas 'escutam' música?",
+    "content": "Estudos demonstram que diferentes frequências sonoras influenciam o crescimento e o desenvolvimento das plantas, afetando a absorção de nutrientes e a produção hormonal.  Algumas frequências estimulam o crescimento, enquanto outras podem inibir.  A música clássica, por exemplo, tem mostrado resultados positivos em diversas pesquisas.",
+    "funFact": "Certas plantas demonstram preferência por estilos musicais específicos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-52",
+    "categoryId": "ciencia",
+    "title": "A Ciência por Trás da Percepção de Cores",
+    "hook": "Você sabia que...",
+    "content": "Nossa percepção de cores é um complexo processo neural.  O cérebro interpreta os sinais luminosos captados pelos cones e bastonetes na retina, criando a experiência subjetiva da cor.  Diferentes culturas e idiomas categorizam as cores de maneiras distintas, demonstrando a complexidade do fenômeno.",
+    "funFact": "Algumas pessoas possuem uma percepção de cores diferente da maioria, uma condição conhecida como daltonismo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-53",
+    "categoryId": "ciencia",
+    "title": "A Química dos Sabores Artificiais",
+    "hook": "Você sabia que...",
+    "content": "A indústria alimentícia utiliza compostos químicos para criar sabores artificiais que imitam os naturais.  A percepção desses sabores pelo paladar é um processo complexo que envolve a interação entre moléculas e receptores na língua. Algumas moléculas podem enganar o cérebro!",
+    "funFact": "Muitos sabores artificiais são mais intensos do que seus equivalentes naturais.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-54",
+    "categoryId": "ciencia",
+    "title": "A Oceanografia das Correntes Oceânicas Profundas",
+    "hook": "Surpreendente: Oceanos ocultos!",
+    "content": "As correntes oceânicas profundas são sistemas de circulação de água que transportam calor, nutrientes e oxigênio por todo o planeta.  Esses sistemas influenciam o clima global e a distribuição de vida marinha, sendo essenciais para o equilíbrio do ecossistema marinho.",
+    "funFact": "As correntes profundas podem levar centenas de anos para completar um ciclo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-55",
+    "categoryId": "ciencia",
+    "title": "A Antropologia da Evolução Humana",
+    "hook": "Você sabia que...",
+    "content": "A evolução humana é um processo complexo e contínuo que envolve a seleção natural e a adaptação a diferentes ambientes.  A compreensão dos nossos ancestrais e suas características é fundamental para entender a nossa própria origem e a diversidade humana.",
+    "funFact": "Nossos ancestrais eram muito diferentes de nós, fisicamente e comportamentalmente.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-56",
+    "categoryId": "ciencia",
+    "title": "O Segredo da Bioeletricidade em Plantas",
+    "hook": "Incrível: plantas geram eletricidade!",
+    "content": "Algumas plantas produzem pequenas correntes elétricas para comunicação, defesa contra herbívoros e até mesmo para o crescimento.  Este fenômeno, pouco conhecido, é um exemplo fascinante da complexa biologia vegetal, revelando a sofisticação das plantas em um nível microscópico.  Pesquisas ainda investigam o potencial uso dessa bioeletricidade.",
+    "funFact": "A sensibilidade elétrica de plantas pode detectar mudanças no ambiente antes mesmo de serem perceptíveis para os humanos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-57",
+    "categoryId": "ciencia",
+    "title": "A Ciência dos Cristais de Neve Únicos",
+    "hook": "Surpreendente:",
+    "content": "Cada floco de neve é único, apesar de formado pelo mesmo processo físico. Minúsculas variações de temperatura e umidade criam estruturas geométricas diferentes, resultando em uma surpreendente diversidade cristalina. A complexidade é tão grande que a probabilidade de dois flocos idênticos é quase nula.",
+    "funFact": "A forma do floco de neve depende das condições atmosféricas durante sua formação.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-58",
+    "categoryId": "ciencia",
+    "title": "A Química dos Pigmentos de Borboletas",
+    "hook": "Incrível:",
+    "content": "As vibrantes cores das asas de borboletas são resultado de estruturas microscópicas que refletem a luz de forma específica.  Essa nanoestrutura, além de pigmentos químicos, cria efeitos óticos surpreendentes, como iridescência e mudança de cor com o ângulo de visão.",
+    "funFact": "Algumas cores de borboleta não vem de pigmentos, mas sim de interferências de luz.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-59",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Intuicão",
+    "hook": "Você sabia que...?",
+    "content": "A intuição, muitas vezes considerada um fenômeno misterioso, pode ser explicada em parte pela neurociência como o resultado de processamento inconsciente de informações.  Nosso cérebro processa informações em um nível subconsciente que podem influenciar decisões e comportamentos de forma inexplicável.",
+    "funFact": "A intuição se baseia em experiências e padrões aprendidos inconscientemente.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-60",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Gravidade Quântica",
+    "hook": "Incrível: a gravidade...",
+    "content": "A gravidade, força que nos mantém presos à Terra, ainda é um enigma na física quântica.  Como conciliar a relatividade geral, que descreve a gravidade em larga escala, com a mecânica quântica, que governa o mundo subatômico?  A resposta permanece um desafio para os cientistas, com diversas teorias concorrentes buscando uma unificação.",
+    "funFact": "Alguns cientistas especulam que a gravidade pode ser uma força emergente, não fundamental.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-61",
+    "categoryId": "ciencia",
+    "title": "A Música das Células",
+    "hook": "Você sabia que...",
+    "content": "As células do nosso corpo emitem sinais elétricos que, quando amplificados, se assemelham a uma sinfonia complexa.  Essa 'música celular' revela informações cruciais sobre o estado de saúde das células, abrindo portas para diagnósticos precoces de doenças e tratamentos mais eficazes.",
+    "funFact": "Cada tipo de célula tem sua própria 'assinatura musical' única.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-62",
+    "categoryId": "ciencia",
+    "title": "O Enigma dos Buracos Negros Primordiais",
+    "hook": "Incrível: buracos negros...",
+    "content": "Teorias cosmológicas sugerem a existência de buracos negros primordiais, formados logo após o Big Bang.  Estes objetos hipotéticos, menores que uma partícula subatômica, poderiam ser responsáveis por parte da matéria escura do universo, mas sua detecção continua sendo um grande desafio.",
+    "funFact": "Sua descoberta poderia revolucionar nossa compreensão da formação do universo.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-63",
+    "categoryId": "ciencia",
+    "title": "A Biologia dos Cristais de Urina",
+    "hook": "Você sabia que...",
+    "content": "A forma e o tamanho dos cristais que se formam na urina podem revelar valiosas informações sobre a saúde do indivíduo.  Analisar esses minúsculos cristais ajuda no diagnóstico de problemas renais, desidratação e outras condições médicas, auxiliando no tratamento personalizado.",
+    "funFact": "A composição da dieta influencia diretamente a formação dos cristais.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-64",
+    "categoryId": "ciencia",
+    "title": "A Química do Envelhecimento",
+    "hook": "Você sabia que...",
+    "content": "O envelhecimento é um processo químico complexo, envolvendo a oxidação celular e a acumulação de danos ao DNA.  Desvendar os mecanismos químicos por trás do envelhecimento é crucial para o desenvolvimento de tratamentos que ajudem a retardar ou reverter seus efeitos.",
+    "funFact": "Telômeros, extremidades dos cromossomos, encurtam com a idade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-65",
+    "categoryId": "ciencia",
+    "title": "A estranha física dos líquidos superaquecidos",
+    "hook": "Incrível: água fervendo a 110°C!",
+    "content": "Você sabia que a água pura pode ser superaquecida, atingindo temperaturas acima do ponto de ebulição sem ferver? Isso ocorre devido à ausência de núcleos de ebulição. Uma pequena vibração ou impureza faz com que ela ferva instantaneamente e violentamente.  É um fenômeno fascinante e potencialmente perigoso.",
+    "funFact": "Um copo de água superaquecida pode ferver explosivamente ao adicionar um grão de sal.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-66",
+    "categoryId": "ciencia",
+    "title": "O efeito Mpemba: água quente congela mais rápido?",
+    "hook": "Você sabia que...",
+    "content": "Em algumas condições, água quente congela mais rápido que água fria.  O Efeito Mpemba, ainda sem explicação definitiva, desafia as leis da termodinâmica clássicas, instigando debates e pesquisas científicas.  Fatores como evaporação e convecção são apontados, mas a solução completa permanece um mistério.",
+    "funFact": "Experimentos controlados confirmam o efeito, mas sua causa permanece um enigma.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-67",
+    "categoryId": "ciencia",
+    "title": "A física do som na natureza",
+    "hook": "Harmônico:",
+    "content": "Os sons da natureza, desde o canto dos pássaros até o barulho das ondas, seguem princípios físicos bem definidos. A propagação do som, sua frequência e amplitude, influenciam a forma como os animais se comunicam e interagem com o meio ambiente.",
+    "funFact": "Ecolocalização de morcegos usa sons de alta frequência.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-68",
+    "categoryId": "ciencia",
+    "title": "A física dos raios e trovões",
+    "hook": "Tempestuoso:",
+    "content": "Raios são descargas elétricas atmosféricas que ocorrem durante tempestades.  A física envolvida inclui a separação de cargas elétricas na atmosfera, a formação de campos elétricos intensos e a descarga em forma de um plasma superaquecido. O trovão é o som produzido pela expansão rápida do ar aquecido.",
+    "funFact": "Um raio pode atingir temperaturas de 30.000°C.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-69",
+    "categoryId": "ciencia",
+    "title": "A matemática da previsão do tempo",
+    "hook": "Previsível:",
+    "content": "Modelos matemáticos complexos são usados para prever o tempo, combinando dados de observação com equações que descrevem a dinâmica da atmosfera.  A precisão da previsão depende da qualidade dos dados e da capacidade dos modelos em simular os processos atmosféricos.",
+    "funFact": "Supercomputadores são usados para processar os dados meteorológicos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-70",
+    "categoryId": "ciencia",
+    "title": "A geologia da formação de montanhas",
+    "hook": "Montanhoso:",
+    "content": "A formação de montanhas é um processo geológico que envolve a colisão de placas tectônicas.  A pressão e o calor gerados nessas colisões deformam e elevam a crosta terrestre, formando cadeias de montanhas.  A geologia busca entender a dinâmica dessas colisões e a evolução das montanhas ao longo do tempo.",
+    "funFact": "O Himalaia é a maior cadeia de montanhas do mundo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-71",
+    "categoryId": "ciencia",
+    "title": "A climatologia dos eventos climáticos extremos",
+    "hook": "Extremo:",
+    "content": "Eventos climáticos extremos, como furacões, secas e ondas de calor, estão se tornando mais frequentes e intensos devido às mudanças climáticas.  A climatologia busca entender os mecanismos que causam esses eventos e suas consequências para os ecossistemas e as sociedades humanas.",
+    "funFact": "Mudanças climáticas intensificam eventos climáticos extremos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-72",
+    "categoryId": "ciencia",
+    "title": "A física das partículas exóticas",
+    "hook": "Exótico:",
+    "content": "Além das partículas conhecidas do Modelo Padrão da física de partículas, existem partículas exóticas previstas teoricamente, como os quarks top e os bósons de Higgs. A física busca descobrir e estudar essas partículas, aprofundando nosso conhecimento das leis fundamentais da natureza.",
+    "funFact": "O bóson de Higgs confere massa a outras partículas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-73",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Biomineralização",
+    "hook": "Incrível: animais criando pedras!",
+    "content": "Alguns animais constroem estruturas incríveis usando minerais, como os recifes de corais ou conchas de moluscos.  O processo, chamado biomineralização, ainda guarda muitos mistérios sobre como esses organismos controlam a formação dos cristais com tamanha precisão. Cientistas tentam replicar esse processo para criar novos materiais.",
+    "funFact": "Alguns insetos conseguem criar estruturas ópticas complexas usando minerais, atuando como lentes naturais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-74",
+    "categoryId": "ciencia",
+    "title": "O Enigma das Ondas de Gravidade",
+    "hook": "Incrível:",
+    "content": "Ondas gravitacionais, ondulações no espaço-tempo previstas por Einstein, são detectadas através de minúsculas vibrações em detectores gigantes. A detecção dessas ondas confirma a Teoria da Relatividade Geral e abre janelas para observar eventos cósmicos extremos como colisões de buracos negros.",
+    "funFact": "A primeira detecção de ondas gravitacionais foi anunciada em 2016, um marco na astronomia.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-75",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Sinestesia",
+    "hook": "Você sabia que...",
+    "content": "Sinestesia é uma condição neurobiológica em que a estimulação de um sentido provoca a percepção automática em outro.  Por exemplo, ouvir uma nota musical pode causar a visão de uma cor específica. A base neurológica desse fenômeno permanece um mistério a ser desvendado.",
+    "funFact": "Alguns sinestésicos veem números ou letras com cores associadas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-76",
+    "categoryId": "ciencia",
+    "title": "A Geologia dos Impactos de Asteroides",
+    "hook": "Você sabia que...",
+    "content": "Impactos de asteroides desempenham um papel crucial na história da Terra, causando extinções em massa e moldando a superfície do planeta.  O estudo de crateras de impacto e suas consequências é fundamental para entender a evolução geológica e biológica da Terra.",
+    "funFact": "O impacto de Chicxulub, que causou a extinção dos dinossauros, criou uma cratera com mais de 180 km de diâmetro.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-77",
+    "categoryId": "ciencia",
+    "title": "O Segredo dos Relâmpagos em Júpiter",
+    "hook": "Incrível: Os raios de Júpiter!",
+    "content": "Os relâmpagos em Júpiter são muito mais poderosos do que na Terra, com descargas elétricas centenas de vezes mais intensas.  Estudos recentes sugerem que eles ocorrem em diferentes altitudes e com composições químicas distintas das nossas tempestades.  A atmosfera joviana, rica em amônia e água, cria um ambiente único para a formação desses fenômenos poderosos.",
+    "funFact": "Alguns relâmpagos jovianos são tão poderosos que podem durar até vários segundos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-78",
+    "categoryId": "ciencia",
+    "title": "A Música dos Vulcões",
+    "hook": "Você sabia que...",
+    "content": "Vulcões em erupção não emitem apenas lava e cinzas.  Estudos revelam que a atividade vulcânica produz vibrações infrassônicas, sons de baixa frequência inaudíveis para o ouvido humano, mas detectáveis por instrumentos científicos. Essas 'canções' vulcânicas fornecem dados valiosos sobre a dinâmica interna das erupções.",
+    "funFact": "A frequência e intensidade dessas vibrações podem predizer a magnitude de uma erupção.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-79",
+    "categoryId": "ciencia",
+    "title": "A Ecologia dos Corais Profundos",
+    "hook": "Você sabia que...",
+    "content": "Recifes de coral não se limitam a águas rasas e iluminadas.  No fundo do oceano, existem recifes que prosperam em ambientes escuros e frios, dependendo de quimiossíntese, um processo que gera energia a partir de substâncias químicas, em vez da luz solar.",
+    "funFact": "Esses corais abrigam uma biodiversidade incrível e ainda pouco estudada.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-80",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Ressurreição",
+    "hook": "Incrível:",
+    "content": "Algumas espécies de plantas e animais possuem a capacidade de sobreviver a condições extremas de seca ou congelamento, entrando em um estado de dormência e retornando à vida quando as condições se tornam favoráveis.  Esses mecanismos de 'ressurreição' são alvo de estudos científicos.",
+    "funFact": "Tartarugas-de-caixa conseguem sobreviver por décadas em estado de letargia.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-81",
+    "categoryId": "ciencia",
+    "title": "A Climatologia das Mudanças Oceânicas",
+    "hook": "Você sabia que...",
+    "content": "O oceano absorve uma grande parte do calor e do dióxido de carbono gerados pelo efeito estufa, sofrendo mudanças significativas em sua temperatura, acidez e circulação.  Estudos de climatologia oceânica são cruciais para prever e mitigar os impactos das mudanças climáticas.",
+    "funFact": "A acidificação dos oceanos ameaça a vida marinha, especialmente corais e moluscos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-82",
+    "categoryId": "ciencia",
+    "title": "O Segredo da Bioeletricidade em Árvores",
+    "hook": "Incrível: árvores geram eletricidade!",
+    "content": "Algumas árvores produzem pequenas correntes elétricas, um processo ainda pouco compreendido.  Esses sinais elétricos podem estar relacionados à comunicação entre as plantas, à defesa contra pragas ou à resposta a estresses ambientais.  A ciência ainda busca desvendar o completo funcionamento desse fenômeno fascinante.",
+    "funFact": "A força elétrica gerada por uma árvore é suficiente para acender um pequeno LED!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-83",
+    "categoryId": "ciencia",
+    "title": "A Química da Cor das Folhas no Outono",
+    "hook": "Incrível:",
+    "content": "A mudança de cor das folhas no outono é um processo químico complexo.  Com a diminuição da luz solar, a clorofila se decompõe, revelando pigmentos amarelos e vermelhos que já estavam presentes na folha, criando o espetáculo de cores outonais.",
+    "funFact": "A cor vermelha nas folhas é resultado da produção de antocianinas, pigmentos produzidos em resposta à redução de temperatura!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-84",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Plasticidade Cerebral",
+    "hook": "Você sabia que...",
+    "content": "O cérebro é um órgão plástico, capaz de se reorganizar e se adaptar ao longo da vida.  Essa plasticidade permite o aprendizado, a recuperação de lesões e a adaptação a novas experiências.  A ciência estuda como o cérebro se modifica em resposta aos estímulos.",
+    "funFact": "O cérebro adulto continua a formar novas conexões neuronais ao longo da vida!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-85",
+    "categoryId": "ciencia",
+    "title": "O Mistério dos Cristais de Gelo no Espaço",
+    "hook": "Você sabia que...",
+    "content": "Cristais de gelo encontrados em cometas e outros corpos celestes apresentam estruturas únicas, diferentes dos cristais terrestres.  Essas variações oferecem pistas cruciais sobre a formação do sistema solar e a presença de água em outros planetas.  A análise microscópica revela segredos cósmicos.",
+    "funFact": "Alguns cristais de gelo espaciais contêm moléculas orgânicas complexas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-86",
+    "categoryId": "ciencia",
+    "title": "A Física dos Ventos Planetários",
+    "hook": "Impressionante:",
+    "content": "Ventos em outros planetas são bem diferentes da Terra. Em Júpiter, por exemplo, a Grande Mancha Vermelha é uma tempestade gigante que dura séculos, impulsionada por poderosos jatos de ar. Estudar esses sistemas ajuda a compreender a dinâmica atmosférica em diferentes mundos.",
+    "funFact": "Netuno tem ventos que sopram a velocidades supersônicas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-87",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Regeneração de Répteis",
+    "hook": "Incrível:",
+    "content": "Alguns répteis, como lagartos, podem regenerar partes do corpo, como caudas, após a amputação. Este processo envolve a formação de um blastema, um grupo de células que se diferenciam para reconstruir o membro perdido.  A compreensão deste processo poderia revolucionar a medicina regenerativa.",
+    "funFact": "A cauda regenerada pode ter diferenças morfológicas em relação à original!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-88",
+    "categoryId": "ciencia",
+    "title": "A Ecologia das Florestas Subaquáticas",
+    "hook": "Você sabia que...",
+    "content": "Florestas de algas marinhas são ecossistemas ricos e importantes, com biodiversidade similar às florestas terrestres. Elas desempenham um papel crucial na absorção de CO2, na proteção costeira e na manutenção da vida marinha.  A conservação dessas florestas é vital para a saúde do oceano.",
+    "funFact": "As florestas de algas podem crescer até um metro por dia!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-89",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Consciência Quântica",
+    "hook": "Você sabia que...",
+    "content": "Algumas teorias sugerem que a consciência pode estar relacionada a fenômenos quânticos no cérebro. Essa ideia controversa, ainda em debate, tenta explicar a natureza da consciência através de princípios da física quântica, abrindo novas possibilidades para a compreensão da mente.",
+    "funFact": "A física quântica pode influenciar a biologia em nível molecular!",
+    "curiosityLevel": 5
   }
 ]

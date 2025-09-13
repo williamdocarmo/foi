@@ -768,5 +768,173 @@
     ],
     "correctAnswer": "Tamanho e massa",
     "explanation": "Buracos negros supermassivos são milhões ou bilhões de vezes mais massivos que buracos negros estelares. Curiosidade:  Acredita-se que existam buracos negros supermassivos no centro da maioria das galáxias."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-56",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico causa as estações do ano na Terra?",
+    "options": [
+      "Rotação da Terra",
+      "Translação da Terra",
+      "Precessão dos equinócios",
+      "Atividade solar"
+    ],
+    "correctAnswer": "Translação da Terra",
+    "explanation": "A inclinação do eixo de rotação da Terra em relação ao seu plano orbital (translação) ao redor do Sol é o que causa as estações do ano. Curiosidade: A duração das estações não é igual em ambos os hemisférios."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-57",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "O que é a constante de Hubble?",
+    "options": [
+      "A taxa de expansão do universo",
+      "A densidade do universo",
+      "A temperatura do universo",
+      "A idade do universo"
+    ],
+    "correctAnswer": "A taxa de expansão do universo",
+    "explanation": "A constante de Hubble mede a taxa de expansão do universo.  Sua medição é crucial para determinar a idade do universo. Curiosidade: O valor da constante de Hubble ainda é um assunto de debate entre astrônomos."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-58",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno causa as auroras boreais e austrais?",
+    "options": [
+      "Erupções solares",
+      "Impactos de meteoros",
+      "Interação do vento solar com o campo magnético terrestre",
+      "Atividades vulcânicas"
+    ],
+    "correctAnswer": "Interação do vento solar com o campo magnético terrestre",
+    "explanation": "As auroras são causadas pela interação de partículas carregadas do vento solar com a atmosfera terrestre, próximas aos polos magnéticos. Essas partículas excitam os átomos na atmosfera, fazendo-os emitir luz."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-59",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo que gera energia em estrelas?",
+    "options": [
+      "Fissão nuclear",
+      "Radioatividade",
+      "Fusão nuclear",
+      "Combustão"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "Estrelas geram energia através da fusão nuclear, onde átomos de hidrogênio se fundem para formar hélio, liberando enormes quantidades de energia no processo.  É esse processo que faz as estrelas brilharem."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-60",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual o planeta conhecido como o 'Planeta Gigante de Gelo'?",
+    "options": [
+      "Júpiter",
+      "Urano",
+      "Marte",
+      "Saturno"
+    ],
+    "correctAnswer": "Urano",
+    "explanation": "Urano é classificado como um gigante de gelo por sua composição, rica em água, metano e amônia, congeladas em sua maior parte.  Curiosidade: Urano gira de lado, com seu eixo de rotação quase paralelo ao plano de sua órbita."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-61",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico explica a mudança aparente no brilho de uma estrela?",
+    "options": [
+      "Precessão",
+      "Nutação",
+      "Cintilação",
+      "Aberração"
+    ],
+    "correctAnswer": "Cintilação",
+    "explanation": "A cintilação é o fenômeno de variação aparente do brilho de uma estrela devido à refração da luz ao atravessar a atmosfera terrestre. Curiosidade: Estrelas mais brilhantes cintilam menos do que as menos brilhantes."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-62",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é uma 'linha de absorção' em um espectro estelar?",
+    "options": [
+      "Uma emissão contínua de energia",
+      "Uma faixa de frequência onde a luz é absorvida por um elemento",
+      "Uma linha de emissão de uma estrela distante",
+      "Uma distorção causada por um buraco negro"
+    ],
+    "correctAnswer": "Uma faixa de frequência onde a luz é absorvida por um elemento",
+    "explanation": "Linhas de absorção indicam a presença de elementos químicos específicos na atmosfera da estrela. Curiosidade: A análise espectral é crucial para determinar a composição química das estrelas."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-63",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido por seus anéis proeminentes?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Saturno é famoso por seus belíssimos e extensos anéis, compostos principalmente por gelo e rocha. Curiosidade: Os anéis de Saturno não são sólidos, mas sim formados por inúmeras partículas em órbita."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-64",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno onde a gravidade de um planeta influencia a órbita de outro?",
+    "options": [
+      "Precessão",
+      "Nutação",
+      "Perturbação",
+      "Atitude"
+    ],
+    "correctAnswer": "Perturbação",
+    "explanation": "Perturbações gravitacionais são comuns no sistema solar, alterando levemente as órbitas dos planetas. Curiosidade: A descoberta de Netuno foi parcialmente baseada em perturbações na órbita de Urano."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-65",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "O que é a 'Constante de Hubble' e o que ela mede?",
+    "options": [
+      "A taxa de expansão do universo",
+      "A densidade média do universo",
+      "A massa da Via Láctea",
+      "A temperatura da radiação cósmica de fundo"
+    ],
+    "correctAnswer": "A taxa de expansão do universo",
+    "explanation": "A constante de Hubble representa a velocidade de afastamento das galáxias em relação à sua distância.  Curiosidade: Seu valor não é constante ao longo do tempo, sendo afetado pela energia escura e pela curvatura do espaço-tempo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-66",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que são os 'ventos solares'?",
+    "options": [
+      "Ventos que ocorrem em outros planetas",
+      "Partículas carregadas emitidas pelo Sol",
+      "Tempestades em planetas gasosos",
+      "Ondas de calor cósmicas"
+    ],
+    "correctAnswer": "Partículas carregadas emitidas pelo Sol",
+    "explanation": "Os ventos solares são um fluxo constante de partículas carregadas que emanam do Sol. Curiosidade:  Os ventos solares podem afetar a atmosfera terrestre e causar auroras."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-67",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "O que é o 'Paradoxo de Fermi'?",
+    "options": [
+      "A discrepância entre a alta probabilidade de vida extraterrestre e a falta de evidências",
+      "A impossibilidade de viajar mais rápido que a luz",
+      "A contradição entre a mecânica quântica e a relatividade geral",
+      "A incerteza na medição simultânea de posição e momento de uma partícula"
+    ],
+    "correctAnswer": "A discrepância entre a alta probabilidade de vida extraterrestre e a falta de evidências",
+    "explanation": "O Paradoxo de Fermi questiona a aparente contradição entre a grande probabilidade de existir vida extraterrestre e a ausência de qualquer contato ou evidência observável. Curiosidade:  Não há uma resposta definitiva para o Paradoxo de Fermi."
   }
 ]

@@ -511,5 +511,266 @@
     "content": "Algumas nebulosas planetárias exibem formas simétricas e alongadas, quase como horas-areia cósmicas. Essas formas bipolares são resultado de complexas interações magnéticas e de campos de vento estelar, revelando a beleza e a complexidade das fases finais da vida de uma estrela.",
     "funFact": "Sua forma é esculpida por campos magnéticos.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-58",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Cristal?",
+    "hook": "Incrível: cristais estelares!",
+    "content": "Algumas estrelas, em seus estágios finais, podem cristalizar-se, formando estruturas gigantescas de átomos interligados em uma rede cristalina.  Imagine um diamante cósmico, incrivelmente denso e com propriedades físicas ainda pouco compreendidas pela ciência.  Essas estrelas cristalinas são um mistério fascinante, desafiando nossos modelos atuais de evolução estelar.",
+    "funFact": "Essas estrelas podem ser tão densas que uma colher de chá pesaria bilhões de toneladas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-59",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas sem gravidade?",
+    "hook": "Você sabia que...",
+    "content": "A teoria da relatividade de Einstein sugere a possibilidade de planetas com gravidade quase nula, devido a efeitos especiais próximos a buracos negros.  Embora ainda hipotético, este cenário desafiador à nossa compreensão atual da física, abre novas possibilidades para a existência de mundos com características inimagináveis.",
+    "funFact": "Nessas regiões, a distorção do espaço-tempo poderia anular a força gravitacional, criando uma experiência de quase ausência de peso.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-60",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias em forma de anel?",
+    "hook": "Surpreendente:",
+    "content": "Existem galáxias anulares, estruturas cósmicas formadas por colisões entre galáxias espirais. O resultado é uma impressionante forma circular, onde estrelas e gás se concentram em um anel brilhante, rodeando um núcleo relativamente vazio.  Esses eventos cósmicos são testemunhos da dinâmica violenta e grandiosa do universo.",
+    "funFact": "Estas galáxias são relativamente raras, tornando-as objetos de estudo fascinantes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-61",
+    "categoryId": "universo-e-astronomia",
+    "title": "Os ventos cósmicos",
+    "hook": "Incrível:",
+    "content": "Imagine rajadas de partículas de alta energia, viajando a velocidades próximas à da luz, lançadas por buracos negros supermassivos. Esses 'ventos cósmicos' moldam galáxias inteiras, impactando sua formação e evolução. Os mecanismos por trás desses ventos ainda são objeto de intensa pesquisa científica.",
+    "funFact": "Estes ventos podem varrer gás e poeira cósmica, afetando a formação de novas estrelas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-62",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas nômades gelados",
+    "hook": "Você sabia que...",
+    "content": "Existem planetas errantes, sem estrela hospedeira, vagando pelo espaço interestelar. Alguns cientistas acreditam que esses corpos podem ser cobertos por uma espessa camada de gelo, o que poderia permitir a existência de um oceano subsuperficial, desafiando nossas ideias sobre habitabilidade planetária.",
+    "funFact": "Esses planetas podem manter sua temperatura através do decaimento radioativo em seu interior.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-63",
+    "categoryId": "universo-e-astronomia",
+    "title": "As ondas de rádio misteriosas",
+    "hook": "Intrigante:",
+    "content": "Os rápidos pulsos de rádio (FRBs) são sinais de rádio de alta energia, com duração de milissegundos, detectados em galáxias distantes. Sua origem permanece um enigma, sendo propostas várias teorias, desde colisões de estrelas de nêutrons a civilizações extraterrestres avançadas.",
+    "funFact": "Alguns FRBs se repetem, enquanto outros são eventos únicos e inexplicáveis.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-64",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas com campos magnéticos extremos",
+    "hook": "Incrível:",
+    "content": "Algumas estrelas possuem campos magnéticos milhões de vezes mais fortes que o do nosso Sol.  Esses campos magnéticos extremos influenciam a rotação estelar, os ventos estelares e a emissão de radiação. A física por trás da formação desses campos ainda é um tópico de pesquisa ativa.",
+    "funFact": "Estes campos podem afetar a vida de qualquer planeta em órbita.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-65",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com chuvas de diamantes",
+    "hook": "Incrível:",
+    "content": "Em gigantes gasosos com alta pressão e abundância de carbono, podem ocorrer chuvas de diamantes.  O carbono se cristaliza sob essas condições extremas, formando diamantes que caem em direção ao centro do planeta. É uma previsão teórica, mas estudos sugerem sua possibilidade.",
+    "funFact": "Esses diamantes seriam incrivelmente grandes e valiosos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-66",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com atmosferas de metano",
+    "hook": "Você sabia que...",
+    "content": "Existem exoplanetas com atmosferas dominadas por metano, um composto orgânico que, em certas condições, pode indicar a presença de processos biológicos. Embora não seja uma prova definitiva de vida, a detecção de metano em exoplanetas é um importante indicador para futuras investigações.",
+    "funFact": "O metano poderia ser um sinal de vida microbiana!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-67",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Segredo das Estrelas de Hélio",
+    "hook": "Incrível: Estrelas de hélio!",
+    "content": "Ao contrário das estrelas comuns formadas principalmente de hidrogênio, algumas estrelas são compostas quase que inteiramente de hélio.  Sua formação é um mistério, possivelmente envolvendo colisões estelares ou a ejeção de material de estrelas gigantes. Elas desafiam nossa compreensão da formação estelar.",
+    "funFact": "Essas estrelas são extremamente raras e desafiam os modelos tradicionais de evolução estelar.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-68",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Atmosferas de Vidro?",
+    "hook": "Você sabia que...",
+    "content": "Em alguns exoplanetas, a pressão e temperatura extremas podem criar atmosferas compostas de silicatos fundidos, criando chuvas de vidro.  Imagine um mundo com um céu chuvoso de vidro derretido! É um cenário que desafia a nossa imaginação sobre a diversidade planetária.",
+    "funFact": "Estas chuvas de vidro podem durar dias ou até semanas ininterruptas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-69",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Enigma da Matéria Escura Anômala",
+    "hook": "Você sabia que...",
+    "content": "Observações recentes sugerem que a matéria escura pode se comportar de forma diferente do que os modelos prevêem, apresentando variações em sua densidade e distribuição. Esse achado intriga os astrônomos e abre novas possibilidades para o estudo da matéria escura.",
+    "funFact": "Esta matéria escura anômala pode ser composta por partículas exóticas ainda desconhecidas pela ciência.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-70",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Oceanos Subterrâneos?",
+    "hook": "Incrível: Oceanos escondidos!",
+    "content": "Alguns corpos celestes gelados, como luas de gigantes gasosos, podem esconder vastos oceanos de água líquida sob suas superfícies congeladas.  A pressão e o calor interno mantêm a água em estado líquido, abrindo a possibilidade de vida extraterrestre.  A busca por esses oceanos subterrâneos é uma área de grande pesquisa na astrobiologia.",
+    "funFact": "Europa, uma lua de Júpiter, é considerada um dos lugares mais promissores para encontrar vida extraterrestre devido à possibilidade de um oceano subterrâneo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-71",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Nêutrons: Magnetares Extremos",
+    "hook": "Você sabia que...",
+    "content": "Algumas estrelas de nêutrons possuem campos magnéticos trilhões de vezes mais fortes que o da Terra, classificadas como magnetares.  Esses campos magnéticos são tão poderosos que podem afetar a estrutura da matéria ao seu redor, emitindo explosões de raios gama extremamente energéticas.",
+    "funFact": "O campo magnético de um magnetar é tão intenso que pode distorcer a forma dos átomos próximos a ele.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-72",
+    "categoryId": "universo-e-astronomia",
+    "title": "Explosões de Raios Gama: Desafios Cosmológicos",
+    "hook": "Incrível:",
+    "content": "Explosões de raios gama são os eventos mais energéticos do universo, liberando mais energia em segundos do que o Sol em toda a sua vida.  Sua origem permanece um mistério, embora se acredite que estejam ligadas à formação de buracos negros.",
+    "funFact": "Uma explosão de raios gama poderia obliterar a vida em um planeta próximo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-73",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Evolução Química das Nuvens Moleculares",
+    "hook": "Você sabia que...",
+    "content": "Nuvens moleculares gigantes são os locais de nascimento de estrelas. Dentro dessas nuvens, reações químicas complexas ocorrem, criando moléculas orgânicas que são os blocos de construção da vida. O estudo da química dessas nuvens nos ajuda a entender a origem da vida.",
+    "funFact": "Moléculas orgânicas complexas foram encontradas em nuvens moleculares.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-74",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Chuva de Ferro",
+    "hook": "Incrível:",
+    "content": "Em alguns exoplanetas gasosos gigantes, com temperaturas e pressões extremas, a chuva não é de água, mas sim de ferro líquido!  Os fortes ventos arrastam gotículas de ferro condensado, criando um espetáculo visualmente alucinante e totalmente diferente do que conhecemos na Terra.  A força gravitacional desses planetas é imensa, influenciando na formação dessas chuvas metálicas.",
+    "funFact": "A chuva de ferro pode atingir velocidades surpreendentes, como milhares de quilômetros por hora!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-75",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Vazio Boötes: Região Cósmica Deserta",
+    "hook": "Assombroso:",
+    "content": "Localizado na constelação de Boötes, existe um imenso vazio no espaço, uma região surpreendentemente desprovida de matéria, incluindo galáxias. Sua origem e extensão desafiam as teorias cosmológicas atuais, e sua existência levanta questionamentos sobre a estrutura em grande escala do universo.",
+    "funFact": "O Vazio Boötes é tão grande que poderia conter milhares de galáxias, mas está quase completamente vazio.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-76",
+    "categoryId": "universo-e-astronomia",
+    "title": "Ondas de Rádio Misteriosas",
+    "hook": "Intrigante:",
+    "content": "Rápidos Rádio Burst (FRBs) são rajadas extremamente poderosas de ondas de rádio que duram apenas milissegundos, mas liberam tanta energia quanto o Sol em um dia. Sua origem é um mistério, com várias teorias, incluindo colisões de estrelas de nêutrons e buracos negros.",
+    "funFact": "Alguns FRBs são repetitivos, enquanto outros são eventos únicos, aumentando o mistério.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-77",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas Nômades Gelados",
+    "hook": "Surpreendente:",
+    "content": "Existem planetas que vagam pelo espaço sem orbitar uma estrela, são os planetas nômades. Alguns estudos sugerem que muitos deles são compostos principalmente de gelo, restos da formação planetária que foram ejetados de seus sistemas estelares originais. Sua composição e características ainda são pouco conhecidas.",
+    "funFact": "Esses planetas podem manter água congelada em seu interior, apesar de não receberem luz de uma estrela.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-78",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias em Forma de Anel?",
+    "hook": "Incrível:",
+    "content": "Embora as galáxias espirais e elípticas sejam mais comuns, existem galáxias anulares, com a forma de um anel brilhante ao redor de um núcleo central mais escuro.  Sua formação é resultado de colisões com outras galáxias, criando uma onda de formação estelar que se propaga em forma de anel.",
+    "funFact": "As galáxias anulares são estruturas cósmicas relativamente raras e fascinantes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-79",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Segredo das Estrelas de Nêutrons",
+    "hook": "Mistério:",
+    "content": "As estrelas de nêutrons são objetos extremamente densos, resultado do colapso de estrelas massivas. O processo exato que leva à sua formação, especialmente em relação aos campos magnéticos intensos, ainda é um tema de intensa pesquisa e discussão entre os astrônomos.",
+    "funFact": "Uma colher de chá de matéria de uma estrela de nêutrons pesaria bilhões de toneladas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-80",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias com Forma de Bolha",
+    "hook": "Você sabia que...",
+    "content": "Algumas galáxias não são espirais ou elípticas, mas apresentam uma estrutura curiosa em forma de bolha, resultantes de eventos cósmicos violentos, como explosões de supernovas em seu centro.  Sua forma peculiar ajuda os astrônomos a entender a dinâmica de explosões e formação estelar.",
+    "funFact": "Essas 'bolhas' podem ter milhões de anos-luz de diâmetro!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-81",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério dos Exoplanetas Gelados",
+    "hook": "Incrível: Planetas de gelo!",
+    "content": "Exoplanetas gelados, distantes de suas estrelas, desafiam nossa compreensão da formação planetária.  Sua existência sugere processos ainda desconhecidos, que os mantêm em temperaturas criogênicas, mesmo em regiões aparentemente quentes.  A composição e a história destes mundos congelados são mistérios a serem desvendados.",
+    "funFact": "Alguns desses exoplanetas gelados podem abrigar oceanos subterrâneos de água líquida!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-82",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Gás Misterioso de Titã",
+    "hook": "Incrível: Titã chove metano!",
+    "content": "A maior lua de Saturno, Titã, possui uma atmosfera densa e rica em metano, formando lagos, rios e até mesmo chuvas deste gás.  A paisagem é tão estranha que lembra muito a Terra primitiva, mas com uma química radicalmente diferente.  A composição peculiar de Titã a torna um laboratório único para estudar a formação planetária.",
+    "funFact": "Os rios de metano em Titã são mais profundos do que o Grand Canyon!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-83",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias Elípticas Gigantes",
+    "hook": "Impressionante: Galáxias imensas!",
+    "content": "Algumas galáxias elípticas são incrivelmente massivas, contendo trilhões de estrelas.  Sua forma alongada e suave sugere um passado de fusões com outras galáxias, acumulando massa ao longo de bilhões de anos.  Estudá-las ajuda a entender a evolução galáctica em grande escala.",
+    "funFact": "Algumas contêm mais de 100 trilhões de estrelas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-84",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério dos Buracos Negros Intermediários",
+    "hook": "Incrível: Buracos negros perdidos!",
+    "content": "Apesar de serem bem conhecidos os buracos negros supermassivos e os de massa estelar, a existência de buracos negros intermediários (com massas entre 100 e 100.000 massas solares) ainda é um mistério. A sua detecção é complicada, mas a sua compreensão é crucial para a evolução galáctica.",
+    "funFact": "Sua existência é teorizada, mas a detecção ainda é um desafio para os astrônomos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-85",
+    "categoryId": "universo-e-astronomia",
+    "title": "Nebulosas Planetárias Bipolares: Beleza Simétrica",
+    "hook": "Incrível: Simetria cósmica!",
+    "content": "Algumas nebulosas planetárias, formadas pela morte de estrelas de massa média, exibem uma estrutura bipolar, com dois lobos simétricos. A causa dessa simetria ainda é debatida, mas acredita-se que esteja relacionada com a presença de um disco circunstelar ou de um campo magnético.",
+    "funFact": "Elas são uma demonstração magnífica da elegância da natureza!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-86",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Segredo das Estrelas de Hélio (reformulado)",
+    "hook": "Incrível: Estrelas sem hidrogênio!",
+    "content": "A formação de estrelas de hélio, raras estrelas compostas principalmente por hélio, permanece um mistério.  Sua origem pode estar ligada a colisões estelares ou a eventos específicos em sistemas binários. O estudo dessas estrelas nos ensina muito sobre a complexidade da formação estelar.",
+    "funFact": "Elas desafiam nossa compreensão da evolução estelar.",
+    "curiosityLevel": 4
   }
 ]

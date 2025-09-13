@@ -151,5 +151,815 @@
     "content": "A realidade aumentada (RA) está gradualmente se integrando ao nosso dia a dia, com aplicativos que sobrepõem informações digitais ao mundo real.  Desde jogos até instruções de montagem, a RA torna a interação com a tecnologia mais intuitiva e imersiva.",
     "funFact": "A realidade aumentada permite experiências interativas e personalizadas, criando novas possibilidades para educação, entretenimento e comércio.",
     "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-18",
+    "categoryId": "tecnologia",
+    "title": "A Lógica Fuzzy nos Aspiradores",
+    "hook": "Incrível: a lógica fuzzy em casa!",
+    "content": "Muitos aspiradores modernos utilizam a lógica fuzzy para otimizar sua limpeza.  Este sistema permite que a máquina 'pense' e ajuste sua potência e movimento de acordo com a superfície e a quantidade de sujeira detectada, resultando em uma limpeza mais eficiente e inteligente. É tecnologia 'borracha' no seu dia a dia!",
+    "funFact": "A lógica fuzzy não é exata, mas imita o raciocínio humano, permitindo decisões mais flexíveis.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-19",
+    "categoryId": "tecnologia",
+    "title": "Biometria de Comportamento: A Tecnologia do Gesto",
+    "hook": "Surpreendente:",
+    "content": "A biometria de comportamento analisa padrões de digitação, escrita à mão e outros gestos para identificar indivíduos.  Essa tecnologia é cada vez mais utilizada em sistemas de segurança, combinando a análise de padrões únicos com a precisão de softwares de IA.",
+    "funFact": "A biometria de comportamento é menos intrusiva do que outras formas de biometria.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-20",
+    "categoryId": "tecnologia",
+    "title": "A Busca pela Computação Óptica",
+    "hook": "Incrível: a luz como processador!",
+    "content": "Imagine computadores usando a luz, não eletricidade! A computação óptica promete velocidades inimagináveis, mas enfrenta desafios materiais.  Pesquisas avançam em fotônicos de silício, abrindo caminho para processadores e memórias ópticas.  A miniaturização é crucial, mas o futuro pode ser radiante (literalmente!).",
+    "funFact": "Um único fio de fibra óptica pode transportar milhões de chamadas telefônicas simultaneamente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-21",
+    "categoryId": "tecnologia",
+    "title": "Grafeno: O Material Mágico da Tech",
+    "hook": "Você sabia que...",
+    "content": "O grafeno, uma folha de carbono de um átomo de espessura, é mais forte que o aço e conduz eletricidade melhor que o cobre.  Sua flexibilidade e propriedades únicas o tornam ideal para eletrônicos flexíveis, baterias de alta capacidade e até mesmo purificação de água. A aplicação em tecnologia é quase ilimitada.",
+    "funFact": "O grafeno é quase transparente, apesar de ser um excelente condutor.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-22",
+    "categoryId": "tecnologia",
+    "title": "A Revolução dos Chips de Silício",
+    "hook": "Surpreendente:",
+    "content": "A Lei de Moore, prevendo a duplicação da potência dos chips a cada dois anos, foi desafiada, mas a inovação continua.  Novas técnicas de fabricação, como a litografia EUV, permitem a construção de chips cada vez menores e mais poderosos. Isso impulsiona a IA e outras tecnologias.",
+    "funFact": "Um único chip de computador moderno pode conter bilhões de transistores.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-23",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas (IoT) em Ação",
+    "hook": "Você sabia que...",
+    "content": "A IoT conecta bilhões de dispositivos, coletando e compartilhando dados em tempo real.  Desde smart homes até monitoramento ambiental, a IoT impulsiona a automação e a tomada de decisões baseada em dados.  A segurança e privacidade de dados são desafios significativos.",
+    "funFact": "Espera-se que bilhões de dispositivos estejam conectados à IoT nos próximos anos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-24",
+    "categoryId": "tecnologia",
+    "title": "Robótica: Mais Que Máquinas",
+    "hook": "Surpreendente:",
+    "content": "Robôs evoluem para além de tarefas repetitivas, tornando-se mais ágeis, adaptáveis e inteligentes.  A robótica colaborativa (cobots) trabalha em conjunto com humanos, melhorando a eficiência e a segurança em fábricas e outros ambientes.  A ética na robótica é um campo em crescimento.",
+    "funFact": "Existem robôs cirúrgicos capazes de realizar procedimentos complexos com precisão milimétrica.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-25",
+    "categoryId": "tecnologia",
+    "title": "Blockchain: Além das Criptomoedas",
+    "hook": "Incrível:",
+    "content": "A tecnologia blockchain, baseada em registros distribuídos e criptografia, é mais do que apenas criptomoedas.  Ela tem aplicações em supply chain management, governança, e sistemas de votação, oferecendo transparência e segurança.  A escalabilidade e o consumo de energia são desafios.",
+    "funFact": "A blockchain pode ser usada para rastrear a origem de produtos, combatendo falsificações.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-26",
+    "categoryId": "tecnologia",
+    "title": "Big Data: O Mar de Informações",
+    "hook": "Surpreendente:",
+    "content": "O Big Data envolve o processamento e análise de grandes volumes de dados para extrair insights valiosos.  Essas informações alimentam decisões estratégicas em negócios, ciências e governo,  melhorando eficiência e previsão.  A privacidade e a segurança dos dados são preocupações cruciais.",
+    "funFact": "A cada dia, são gerados mais dados do que em toda a história da humanidade até 2003.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-27",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial Explicável (XAI)",
+    "hook": "Você sabia que...",
+    "content": "A XAI busca tornar os algoritmos de IA mais transparentes e compreensíveis.  Entender como uma IA chega a uma decisão é crucial em áreas como saúde e justiça.  A XAI é um campo em desenvolvimento, mas fundamental para a confiança e adoção da IA.",
+    "funFact": "A XAI pode ajudar a identificar e corrigir vieses em algoritmos de IA.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-28",
+    "categoryId": "tecnologia",
+    "title": "Computação de Borda: Processamento Local",
+    "hook": "Surpreendente:",
+    "content": "A computação de borda processa dados mais próximos da fonte, reduzindo a latência e a dependência da nuvem.  Isso é essencial para aplicações em tempo real, como veículos autônomos e dispositivos IoT.  A segurança e a gestão de recursos são desafios importantes.",
+    "funFact": "A computação de borda permite o funcionamento de dispositivos inteligentes mesmo sem conexão à internet.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-29",
+    "categoryId": "tecnologia",
+    "title": "Sensores Inteligentes: O Olho da Máquina",
+    "hook": "Incrível:",
+    "content": "Sensores inteligentes, combinados com IA, fornecem dados ricos e contextuais.  Eles são usados em agricultura de precisão, monitoramento ambiental e segurança pública, melhorando a eficiência e a tomada de decisões.  A interoperabilidade e a análise de dados são desafios importantes.",
+    "funFact": "Sensores inteligentes podem detectar mudanças mínimas no ambiente, como vibrações ou alterações de temperatura.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-30",
+    "categoryId": "tecnologia",
+    "title": "Energia Renovável e Inteligência Artificial",
+    "hook": "Incrível:",
+    "content": "A IA otimiza a geração e distribuição de energia renovável, prevendo demanda e maximizando a eficiência de painéis solares e turbinas eólicas.  Isso contribui para a transição para energias limpas e sustentáveis.  A integração de sistemas de energia renovável e a previsão precisa de demanda são cruciais.",
+    "funFact": "A IA pode prever falhas em equipamentos de energia renovável, minimizando tempo de inatividade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-31",
+    "categoryId": "tecnologia",
+    "title": "Computação Neuromórfica: Imitando o Cérebro",
+    "hook": "Surpreendente:",
+    "content": "A computação neuromórfica imita a estrutura e o funcionamento do cérebro humano, usando chips inspirados em neurônios e sinapses.  Isso promete maior eficiência energética e capacidade de processamento para tarefas complexas.  O desenvolvimento de algoritmos e arquiteturas eficientes são desafios.",
+    "funFact": "Chips neuromórficos podem aprender e adaptar-se como o cérebro humano.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-32",
+    "categoryId": "tecnologia",
+    "title": "A Revolução da Fotografia Computacional",
+    "hook": "Surpreendente:",
+    "content": "A fotografia computacional usa algoritmos de IA para melhorar a qualidade de imagens, criando recursos como zoom super resolução e efeitos de iluminação avançados.  Isso transforma smartphones em câmeras potentes e acessíveis.  A privacidade e o processamento de imagens são desafios.",
+    "funFact": "A fotografia computacional permite a criação de imagens com detalhes impossíveis de capturar com câmeras tradicionais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-33",
+    "categoryId": "tecnologia",
+    "title": "Segurança Cibernética e Inteligência Artificial",
+    "hook": "Você sabia que...",
+    "content": "A IA se torna crucial na segurança cibernética, detectando e respondendo a ameaças em tempo real.  Algoritmos de IA analisam padrões de tráfego e identificam atividades suspeitas, protegendo sistemas contra ataques.  A evolução constante de ameaças cibernéticas é um desafio.",
+    "funFact": "A IA pode prever ataques cibernéticos antes mesmo que eles ocorram.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-34",
+    "categoryId": "tecnologia",
+    "title": "Computação em Memória: Velocidade e Eficiência",
+    "hook": "Surpreendente:",
+    "content": "A computação em memória realiza cálculos diretamente na memória, reduzindo a latência e o consumo de energia.  Essa abordagem é crucial para aplicações de IA e processamento de dados em grande escala.  O desenvolvimento de novas arquiteturas de memória é fundamental.",
+    "funFact": "A computação em memória pode acelerar o treinamento de modelos de IA em até 100 vezes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-35",
+    "categoryId": "tecnologia",
+    "title": "O Papel da Matemática na Tecnologia",
+    "hook": "Surpreendente:",
+    "content": "A matemática é fundamental para o desenvolvimento da tecnologia, fornecendo a base teórica para algoritmos, criptografia e processamento de sinais.  A matemática discreta e a álgebra linear são especialmente importantes para a ciência da computação.  O desenvolvimento de novas ferramentas matemáticas impulsiona a inovação tecnológica.",
+    "funFact": "A criptografia moderna baseia-se em conceitos matemáticos avançados.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-36",
+    "categoryId": "tecnologia",
+    "title": "Computação Distribuída: O Poder da Rede",
+    "hook": "Incrível:",
+    "content": "A computação distribuída utiliza múltiplos computadores interconectados para resolver problemas complexos.  Isso permite o processamento de grandes volumes de dados e a execução de tarefas que seriam impossíveis para um único computador.  A coordenação e a comunicação entre os computadores são desafios importantes.",
+    "funFact": "A computação distribuída é usada para processar dados do LHC (Large Hadron Collider).",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-37",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial e Previsão do Clima",
+    "hook": "Surpreendente:",
+    "content": "A IA melhora a precisão da previsão do tempo, analisando grandes conjuntos de dados e identificando padrões complexos.  Isso permite previsões mais precisas e em tempo real, auxiliando na prevenção de desastres naturais.  A disponibilidade de dados e a complexidade dos modelos climáticos são desafios.",
+    "funFact": "A IA pode prever eventos climáticos extremos com maior precisão do que modelos tradicionais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-38",
+    "categoryId": "tecnologia",
+    "title": "A Incrível Física dos Discos Rígidos",
+    "hook": "Você sabia que...",
+    "content": "Os discos rígidos armazenam dados usando magnetismo em um disco rotativo.  A precisão para ler e gravar esses dados é incrível, com cabeças de leitura/escrita que flutuam a nanômetros de distância da superfície, evitando colisões.  Tudo isso operando a altas velocidades e com alta confiabilidade.",
+    "funFact": "A cabeça de leitura de um HD é tão fina que é capaz de detectar variações minúsculas no campo magnético, representando os dados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-39",
+    "categoryId": "tecnologia",
+    "title": "O Mistério dos Dados Perdidos",
+    "hook": "Você sabia que...",
+    "content": "Uma porcentagem significativa dos dados digitais gerados diariamente se perde para sempre, devido a falhas de armazenamento, corrupção de arquivos ou simplesmente a falta de organização.  Essa perda representa um enorme desafio para a preservação da história digital e o acesso a informações cruciais.",
+    "funFact": "Estima-se que mais de 90% dos dados digitais são perdidos, inacessíveis ou corrompidos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-40",
+    "categoryId": "tecnologia",
+    "title": "A Evolução Secreta dos Teclados",
+    "hook": "Você sabia que...",
+    "content": "A trajetória dos teclados, desde as máquinas de escrever até os teclados virtuais, é repleta de inovações sutis.  A ergonomia, a resposta tátil e a própria disposição das teclas evoluíram significativamente para otimizar a velocidade e a precisão da digitação.  A busca pela perfeição na interação homem-máquina continua!",
+    "funFact": "O primeiro teclado eletrônico foi desenvolvido na década de 1960 e era usado em computadores mainframes gigantes!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-41",
+    "categoryId": "tecnologia",
+    "title": "O Impacto da Nanotecnologia na Saúde",
+    "hook": "Incrível:",
+    "content": "A nanotecnologia está revolucionando a medicina com diagnósticos mais precisos e tratamentos mais eficazes. Nanorrobôs são desenvolvidos para entregar medicamentos diretamente às células cancerígenas, minimizando os efeitos colaterais da quimioterapia.  Essa precisão microscópica abre portas para uma nova era na saúde.",
+    "funFact": "Nanopartículas de prata são usadas em curativos para acelerar a cicatrização e combater infecções!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-42",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Energia com Grafeno",
+    "hook": "Incrível:",
+    "content": "O grafeno, um material bidimensional de carbono, possui propriedades únicas que o tornam um excelente condutor de eletricidade e calor.  Sua aplicação em baterias promete revolucionar a indústria de veículos elétricos e dispositivos móveis, oferecendo maior autonomia e carregamento mais rápido.",
+    "funFact": "Uma folha de grafeno é mais forte que o aço, mas extremamente leve e flexível.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-43",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial e a Composição Musical",
+    "hook": "Você sabia que...",
+    "content": "Algoritmos de IA estão sendo usados para compor músicas em diversos estilos.  Eles analisam padrões musicais e criam novas melodias e harmonias, auxiliando compositores humanos ou mesmo criando composições completamente originais.  A música do futuro pode ser gerada por IA!",
+    "funFact": "Existem softwares de IA que podem compor músicas personalizadas para o seu humor ou estado de espírito.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-44",
+    "categoryId": "tecnologia",
+    "title": "A Revolução da Realidade Virtual na Educação",
+    "hook": "Incrível:",
+    "content": "A realidade virtual está transformando a educação, permitindo experiências de aprendizagem imersivas e interativas.  Os alunos podem visitar museus virtuais, realizar experimentos científicos em ambientes simulados e interagir com modelos 3D de órgãos humanos, tornando o aprendizado mais engajador e memorável.",
+    "funFact": "Simulações de realidade virtual podem até mesmo reproduzir eventos históricos, permitindo aos alunos 'vivenciar' o passado.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-45",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas no Espaço",
+    "hook": "Incrível:",
+    "content": "A Internet das Coisas (IoT) não se limita à Terra.  Satélites e sondas espaciais estão equipados com sensores que coletam dados e os transmitem para a Terra, permitindo monitorar o clima espacial, explorar planetas distantes e melhorar as comunicações em regiões remotas.",
+    "funFact": "A NASA utiliza a IoT para monitorar a saúde dos astronautas na Estação Espacial Internacional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-46",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial e a Personalização da Educação",
+    "hook": "Você sabia que...",
+    "content": "A IA está permitindo a criação de plataformas de educação personalizadas que adaptam o conteúdo e o ritmo de aprendizagem às necessidades individuais de cada aluno.  Sistemas inteligentes monitoram o progresso do aluno e fornecem feedback personalizado, maximizando o aprendizado.",
+    "funFact": "Plataformas de educação personalizadas com IA podem identificar lacunas no conhecimento do aluno e fornecer material de apoio específico.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-47",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial e o Diagnóstico Médico por Imagem",
+    "hook": "Incrível:",
+    "content": "A IA está melhorando a precisão e a velocidade do diagnóstico médico por imagem, analisando radiografias, tomografias e ressonâncias magnéticas para detectar doenças com maior acurácia.  A IA reduz o tempo de diagnóstico e ajuda na detecção precoce de doenças.",
+    "funFact": "Algoritmos de IA podem detectar padrões sutis em imagens médicas que podem passar despercebidos pelo olho humano.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-48",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos LEDs",
+    "hook": "Incrível: a luz que ilumina!",
+    "content": "Os LEDs, tão comuns hoje, escondem uma física fascinante.  A emissão de luz ocorre por meio da eletroluminescência, onde elétrons se recombinam em um semicondutor, liberando fótons.  A cor da luz depende do material usado, resultando em uma variedade de aplicações, desde iluminação a telas de alta definição.  Sua eficiência energética é muito superior às lâmpadas tradicionais.",
+    "funFact": "Um único LED pode durar até 100.000 horas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-49",
+    "categoryId": "tecnologia",
+    "title": "O Segredo dos Cabos de Fibra Óptica",
+    "hook": "Você sabia que...",
+    "content": "A fibra óptica revolucionou as telecomunicações, transmitindo dados através de pulsos de luz que viajam por fios de vidro extremamente finos.  A luz viaja em velocidades incríveis, permitindo transmissões rápidas e de alta capacidade.  A manipulação da luz para comunicação é um grande avanço tecnológico.",
+    "funFact": "Um único fio de fibra óptica pode transmitir mais informações do que milhões de fios de cobre!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-50",
+    "categoryId": "tecnologia",
+    "title": "A Linguagem Secreta dos Chips",
+    "hook": "Descubra:",
+    "content": "Os chips de computador falam uma linguagem binária, usando apenas 0s e 1s para representar informações.  Essa linguagem simples, porém poderosa, é a base de toda a computação moderna.  A complexidade dos softwares e sistemas operacionais se resume à manipulação desses bits minúsculos.",
+    "funFact": "Um único chip pode conter bilhões de transistores!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-51",
+    "categoryId": "tecnologia",
+    "title": "A Física Quântica nos Videogames",
+    "hook": "Incrível:",
+    "content": "A mecânica quântica, embora pareça distante, influencia diretamente a tecnologia dos videogames.  Processadores e GPUs usam princípios quânticos para lidar com bilhões de cálculos por segundo, criando mundos virtuais complexos e realistas. Sem a física quântica, a experiência de jogos seria completamente diferente.",
+    "funFact": "Os algoritmos de renderização gráfica usam equações derivadas da física quântica para simular efeitos de luz e sombra.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-52",
+    "categoryId": "tecnologia",
+    "title": "A Incrível Física dos Displays OLED",
+    "hook": "Incrível: ",
+    "content": "Os displays OLED utilizam materiais orgânicos que emitem luz quando eletricamente estimulados, criando cores vibrantes e pretos profundos sem necessidade de retroiluminação.  Sua tecnologia permite flexibilidade e economia de energia, revolucionando a indústria de telas. A precisão de cores é surpreendente, gerando imagens mais realistas.",
+    "funFact": "Você sabia que alguns OLEDs podem ser impressos em papel flexível?",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-53",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Armazenamento de Dados com DNA",
+    "hook": "Você sabia que...",
+    "content": "A densidade de armazenamento do DNA supera em muito a dos atuais dispositivos eletrônicos.  Pesquisadores estão explorando o DNA como um meio para arquivar grandes quantidades de dados de forma compacta, durável e eficiente, representando uma revolução na preservação de informações.",
+    "funFact": "Um único grama de DNA pode armazenar a informação equivalente a trilhões de terabytes!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-54",
+    "categoryId": "tecnologia",
+    "title": "A Tecnologia da Invisibilidade",
+    "hook": "Incrível: ",
+    "content": "A meta-superfície, um material artificial com propriedades ópticas únicas, permite manipular a luz para tornar objetos invisíveis a certos comprimentos de onda.  Imagine aplicações em camuflagem militar ou até mesmo em arquitetura, criando edifícios que se integram perfeitamente à paisagem.  Ainda em desenvolvimento, mas com potencial revolucionário.",
+    "funFact": "Cientistas já conseguiram esconder objetos tridimensionais de determinadas frequências de luz.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-55",
+    "categoryId": "tecnologia",
+    "title": "Computadores de DNA: O Código da Vida",
+    "hook": "Você sabia que...",
+    "content": "O DNA pode ser usado para armazenar informações digitais de forma extremamente eficiente e durável.  A estrutura molecular do DNA permite codificar dados de forma compacta, superando a capacidade dos dispositivos de armazenamento atuais. Imagine um futuro onde a informação é armazenada e recuperada usando o código genético!",
+    "funFact": "Um grama de DNA pode armazenar mais informação do que todos os dispositivos digitais já criados.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-56",
+    "categoryId": "tecnologia",
+    "title": "A Música dos Ondas de Rádio",
+    "hook": "Surpreendente: ",
+    "content": "As ondas de rádio, além de transmitir informações, podem ser manipuladas para criar sons e músicas. Através de técnicas avançadas de processamento de sinal, é possível transformar as variações de frequência das ondas em melodias complexas e harmônicas. Essa arte sonora ainda é pouco conhecida, mas promete ser fascinante.",
+    "funFact": "Há artistas que compõem música inteiramente baseada em dados de sinais de rádio.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-57",
+    "categoryId": "tecnologia",
+    "title": "Impressoras 3D de Órgãos: Uma Nova Era Médica",
+    "hook": "Incrível:",
+    "content": "A bioimpressão 3D está revolucionando a medicina, permitindo a criação de tecidos e órgãos funcionais a partir de células vivas.  Essa tecnologia permite desenvolver próteses personalizadas, testar novos medicamentos e, no futuro, talvez até mesmo criar órgãos para transplante. Um avanço sem precedentes.",
+    "funFact": "Já foram impressos em 3D tecidos humanos complexos, como vasos sanguíneos e cartilagem.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-58",
+    "categoryId": "tecnologia",
+    "title": "A Internet Quântica: Velocidade Inimaginável",
+    "hook": "Você sabia que...",
+    "content": "A internet quântica promete velocidades de transmissão de dados inimagináveis, utilizando os princípios da mecânica quântica.  Os computadores quânticos, interligados por uma rede quântica, poderão realizar cálculos complexos em frações de segundos, abrindo portas para novas tecnologias e descobertas científicas.",
+    "funFact": "A internet quântica permitirá a criação de redes de comunicação inquebráveis.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-59",
+    "categoryId": "tecnologia",
+    "title": "Robôs Autônomos que Aprendem Sozinhos",
+    "hook": "Incrível: ",
+    "content": "Através do aprendizado de máquina, robôs estão se tornando cada vez mais autônomos, capazes de aprender com suas experiências e se adaptar a novos ambientes.  Esta tecnologia está mudando a forma como as máquinas interagem com o mundo, abrindo portas para aplicações em diversos setores.",
+    "funFact": "Alguns robôs já demonstram capacidade de resolver problemas complexos sem programação explícita.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-60",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial e a Arte",
+    "hook": "Surpreendente: ",
+    "content": "A IA está se tornando uma ferramenta poderosa na criação artística, ajudando artistas a gerar novas ideias, experimentar com diferentes estilos e criar obras complexas.  A IA não substitui o artista, mas o auxilia em seu processo criativo, expandindo suas possibilidades.",
+    "funFact": "Já existem algoritmos que compõem músicas e criam pinturas indistinguíveis de obras humanas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-61",
+    "categoryId": "tecnologia",
+    "title": "Sensores que Preveem Falhas",
+    "hook": "Impressionante: ",
+    "content": "Através de análise de dados e algoritmos de machine learning, sensores avançados conseguem prever falhas em equipamentos antes mesmo que ocorram.  Isso permite manutenção preventiva, evitando interrupções e maximizando a vida útil dos sistemas. Um avanço fundamental para a indústria.",
+    "funFact": "Em alguns setores, a previsão de falhas já evita perdas na ordem de milhões de dólares anualmente.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-62",
+    "categoryId": "tecnologia",
+    "title": "Computação com Luz: O Futuro da Velocidade",
+    "hook": "Impressionante:",
+    "content": "A computação óptica utiliza a luz para processar informações, oferecendo velocidades muito superiores aos computadores eletrônicos tradicionais. Essa tecnologia é promissora para aplicações que exigem processamento de grandes quantidades de dados em tempo real, como inteligência artificial e realidade virtual.",
+    "funFact": "A luz pode transmitir informações com velocidades próximas à velocidade da luz.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-63",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial e Previsão de Desastres Naturais",
+    "hook": "Incrível:",
+    "content": "A IA está sendo utilizada para analisar grandes conjuntos de dados e prever desastres naturais com maior precisão.  Algoritmos de machine learning conseguem identificar padrões complexos que indicam a probabilidade de terremotos, tsunamis, furacões e outros eventos, permitindo uma melhor preparação e resposta.",
+    "funFact": "Sistemas de IA já conseguem prever terremotos com algumas horas de antecedência.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-64",
+    "categoryId": "tecnologia",
+    "title": "O Poder da Computação em Nuvem",
+    "hook": "Você sabia que...",
+    "content": "A computação em nuvem permite o acesso a recursos computacionais poderosos através da internet, sem a necessidade de investir em infraestrutura local.  Essa tecnologia revolucionou a forma como as empresas e indivíduos utilizam tecnologia, oferecendo escalabilidade, flexibilidade e economia de custos.",
+    "funFact": "A maior parte dos aplicativos e serviços que usamos diariamente dependem da computação em nuvem.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-65",
+    "categoryId": "tecnologia",
+    "title": "Energia Solar Concentrada: Eficiência Máxima",
+    "hook": "Você sabia que...",
+    "content": "A energia solar concentrada utiliza espelhos para concentrar a luz solar em um ponto, gerando calor para produzir eletricidade.  Essa tecnologia permite uma maior eficiência na conversão da energia solar em energia elétrica, com potencial para gerar eletricidade em larga escala.",
+    "funFact": "Usinas de energia solar concentrada já geram megawatts de eletricidade.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-66",
+    "categoryId": "tecnologia",
+    "title": "Computação de Alto Desempenho (HPC)",
+    "hook": "Você sabia que...",
+    "content": "Sistemas de computação de alto desempenho (HPC) são usados para resolver problemas complexos que exigem grande capacidade de processamento, como modelagem climática, descoberta de medicamentos e pesquisas científicas.  Esses sistemas permitem simular fenômenos complexos e realizar pesquisas que seriam impossíveis com computadores tradicionais.",
+    "funFact": "Os supercomputadores mais poderosos podem realizar trilhões de operações por segundo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-67",
+    "categoryId": "tecnologia",
+    "title": "Biometria de Íris: Segurança Aprimorada",
+    "hook": "Impressionante:",
+    "content": "A biometria de íris utiliza a escaneamento da íris do olho para autenticação, oferecendo um nível de segurança superior às outras tecnologias biométricas.  Sua precisão e segurança estão impulsionando sua adoção em diversos setores, como segurança pública e controle de acesso.",
+    "funFact": "A probabilidade de duas íris serem idênticas é extremamente baixa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-68",
+    "categoryId": "tecnologia",
+    "title": "Sensores de Imagem para Agricultura de Precisão",
+    "hook": "Incrível:",
+    "content": "Sensores avançados estão sendo utilizados na agricultura de precisão para monitorar as condições das plantações, como umidade do solo, nível de nutrientes e presença de pragas.  Essa tecnologia permite otimizar o uso de recursos, aumentando a produtividade e a sustentabilidade da agricultura.",
+    "funFact": "Drones equipados com sensores já são usados para monitorar plantações em tempo real.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-69",
+    "categoryId": "tecnologia",
+    "title": "A Mágica dos Chips de Silício",
+    "hook": "Incrível: ",
+    "content": "Os chips de silício, base da eletrônica moderna, são criados através de um processo de fotolitografia extremamente preciso.  Milhões de transistores microscópicos são impressos em uma superfície de silício, criando circuitos complexos.  Este processo, aperfeiçoado ao longo de décadas, permite a miniaturização constante dos componentes eletrônicos.",
+    "funFact": "Um único chip moderno pode conter mais transistores do que estrelas na Via Láctea!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-70",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Lasers",
+    "hook": "Impressionante:",
+    "content": "Os lasers, presentes em leitores de código de barras, aparelhos médicos e até mesmo reprodutores de Blu-ray, são baseados no princípio da emissão estimulada de radiação. Átomos excitados emitem fótons de luz coerente e monocromática, criando um feixe de luz altamente concentrado e potente.",
+    "funFact": "A luz laser pode ser tão intensa que é capaz de cortar aço!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-71",
+    "categoryId": "tecnologia",
+    "title": "O Mistério da Memória RAM",
+    "hook": "Surpreendente:",
+    "content": "A memória RAM (Random Access Memory), essencial para o funcionamento de computadores, é uma memória volátil, ou seja, perde seus dados quando o dispositivo é desligado.  Seu funcionamento é baseado em chips de memória que armazenam informações temporariamente, permitindo o acesso rápido aos dados pelos processadores.",
+    "funFact": "A velocidade da RAM influencia diretamente no desempenho do seu computador, afetando até a fluidez dos jogos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-72",
+    "categoryId": "tecnologia",
+    "title": "A Ciência por Trás do Wi-Fi",
+    "hook": "Você sabia que...",
+    "content": "A tecnologia Wi-Fi, que revolucionou a conectividade sem fio, utiliza ondas de rádio para transmitir dados entre dispositivos.  Ela opera em frequências específicas, com diferentes padrões e velocidades, dependendo do tipo de roteador e dispositivo utilizado. A modulação de ondas define a capacidade de transmissão de informações.",
+    "funFact": "A distância do sinal Wi-Fi pode ser influenciada por obstáculos e interferências, como paredes e outros aparelhos eletrônicos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-73",
+    "categoryId": "tecnologia",
+    "title": "A Tecnologia da Impressão 3D em Metal",
+    "hook": "Impressionante:",
+    "content": "A impressão 3D em metal permite a criação de objetos complexos com alta precisão a partir de pós metálicos.  Através de técnicas como sinterização a laser, camadas de pó metálico são fundidas, formando a peça tridimensional desejada, abrindo possibilidades para a fabricação de protótipos e até mesmo peças de aviões.",
+    "funFact": "A impressão 3D em metal possibilita a criação de estruturas internas complexas, impossíveis de serem feitas por métodos tradicionais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-74",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Computação Ótica",
+    "hook": "Você sabia que...",
+    "content": "A computação óptica usa a luz para processar informações, em vez de eletricidade.  Isso pode resultar em velocidades de processamento muito superiores às dos computadores eletrônicos atuais.  Pesquisas avançam em componentes ópticos para viabilizar essa tecnologia, que promete revolucionar a computação.",
+    "funFact": "A computação óptica pode consumir menos energia do que a computação eletrônica.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-75",
+    "categoryId": "tecnologia",
+    "title": "A Realidade Virtual e a Terapia",
+    "hook": "Incrível:",
+    "content": "A realidade virtual (RV) está sendo usada em terapias para tratar fobias, transtornos de estresse pós-traumático (TEPT) e outros distúrbios mentais. Simulando situações do mundo real em ambientes seguros e controlados, a RV permite que os pacientes enfrentem seus medos e trabalhem em suas dificuldades.",
+    "funFact": "A RV pode ser usada para criar exposições graduais a estímulos que provocam ansiedade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-76",
+    "categoryId": "tecnologia",
+    "title": "A Biometria do Olhar",
+    "hook": "Você sabia que...",
+    "content": "A biometria do olhar, ou biometria de íris, é uma tecnologia de segurança que utiliza padrões únicos da íris ocular para identificar indivíduos.  Sistemas avançados analisam texturas e cores complexas para criar um modelo único e intransferível, altamente preciso na identificação.",
+    "funFact": "A íris é tão única que a probabilidade de duas pessoas terem íris idênticas é praticamente nula.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-77",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial e a Previsão de Terremotos",
+    "hook": "Incrível:",
+    "content": "Algoritmos de IA estão sendo treinados para analisar grandes conjuntos de dados geofísicos, visando melhorar a precisão das previsões de terremotos.  Ao identificar padrões e anomalias sutis, a IA pode auxiliar na detecção precoce de eventos sísmicos, permitindo uma resposta mais eficaz e salvando vidas.",
+    "funFact": "A IA pode detectar padrões em dados sísmicos que são imperceptíveis aos humanos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-78",
+    "categoryId": "tecnologia",
+    "title": "A Física Escondida nos Microfones",
+    "hook": "Incrível: ",
+    "content": "Você já se perguntou como um microfone transforma ondas sonoras em sinais elétricos?  É uma dança complexa de física, onde diafragmas vibrantes movem bobinas em campos magnéticos, gerando correntes elétricas que espelham as ondas sonoras.  Este processo, aparentemente simples, é a base da comunicação moderna.",
+    "funFact": "Alguns microfones usam capacitores que variam sua carga elétrica em resposta às vibrações sonoras!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-79",
+    "categoryId": "tecnologia",
+    "title": "A Física dos Lasers de Estado Sólido",
+    "hook": "Você sabia que...",
+    "content": "Os lasers de estado sólido, presentes em leitores de DVD, apontadores laser e scanners, usam cristais dopados com íons para produzir luz coerente.  A interação entre luz e matéria no cristal cria a amplificação de luz necessária para gerar o laser.",
+    "funFact": "A pureza do cristal é crucial para a qualidade e potência do laser!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-80",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Microprocessadores",
+    "hook": "Incrível: a física quântica em seu celular!",
+    "content": "Os microprocessadores, coração dos nossos dispositivos, funcionam graças a princípios da física quântica, permitindo que bilhões de transistores operem simultaneamente.  A manipulação de elétrons em nível atômico possibilita a execução de tarefas complexas em frações de segundo.  Sem essa compreensão, a tecnologia moderna seria impensável.",
+    "funFact": "Um único transistor em um chip moderno pode ser menor que uma bactéria!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-81",
+    "categoryId": "tecnologia",
+    "title": "A Ciência dos Cabos de Fibra Óptica Submarinos",
+    "hook": "Surpreendente:",
+    "content": "A internet global depende de uma intrincada rede de cabos de fibra óptica submarinos. Esses cabos, protegidos contra a pressão e os elementos, transmitem dados a velocidades incríveis através de impulsos de luz. A manutenção desses cabos é um desafio tecnológico e logístico enorme.",
+    "funFact": "Um único cabo submarino pode conter milhares de fibras ópticas, transmitindo dados para milhões de usuários!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-82",
+    "categoryId": "tecnologia",
+    "title": "A Evolução dos Sistemas de Resfriamento de Computadores",
+    "hook": "Você sabia que...",
+    "content": "Desde os volumosos sistemas de refrigeração a ar dos primeiros computadores até os avançados sistemas de refrigeração líquida de hoje, a tecnologia de resfriamento evoluiu drasticamente para atender às demandas de processadores cada vez mais potentes.  A eficiência energética é um fator crucial.",
+    "funFact": "Alguns sistemas de resfriamento líquido usam fluidos especiais que podem suportar temperaturas extremas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-83",
+    "categoryId": "tecnologia",
+    "title": "O Segredo dos Chips de Grafeno",
+    "hook": "Você sabia que...",
+    "content": "Chips de grafeno prometem revolucionar a computação com sua incrível condutividade e flexibilidade.  Imagine dispositivos eletrônicos dobráveis e super-rápidos, consumindo pouca energia. O grafeno permite a criação de transistores menores e mais eficientes, abrindo caminho para processadores extremamente poderosos e compactos.",
+    "funFact": "O grafeno é 100 vezes mais forte que o aço e mais leve que o alumínio!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-84",
+    "categoryId": "tecnologia",
+    "title": "A Física dos Metamateriais",
+    "hook": "Surpreendente:",
+    "content": "Metamateriais são materiais artificiais com propriedades eletromagnéticas não encontradas na natureza. Eles podem manipular a luz de maneiras inimagináveis, permitindo a criação de dispositivos de invisibilidade ou lentes super-resolutivas.  A pesquisa em metamateriais está abrindo novas fronteiras na óptica e na fotônica.",
+    "funFact": "Alguns metamateriais podem 'dobrar' a luz ao redor de um objeto, tornando-o invisível.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-85",
+    "categoryId": "tecnologia",
+    "title": "Computação Quântica em Nuvem",
+    "hook": "Incrível:",
+    "content": "A computação quântica está se tornando acessível através da nuvem.  Plataformas como a IBM Q permitem que usuários acessem computadores quânticos remotamente, sem precisar de um hardware especializado.  Isso democratiza o acesso a essa tecnologia de ponta e acelera o desenvolvimento de algoritmos quânticos.",
+    "funFact": "Um computador quântico pode resolver certos problemas em segundos que levariam milhões de anos para um supercomputador clássico.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-86",
+    "categoryId": "tecnologia",
+    "title": "A Magia da Computação Holística",
+    "hook": "Você sabia que...",
+    "content": "A computação holística propõe um novo paradigma de processamento de informações, inspirado no funcionamento do cérebro humano.  Em vez de processar dados sequencialmente, busca processar informações simultaneamente, de forma distribuída e interconectada. Isso poderia levar a sistemas mais resilientes e adaptáveis.",
+    "funFact": "A computação holística se inspira no funcionamento paralelo e distribuído do cérebro.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-87",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Impressão 4D",
+    "hook": "Incrível:",
+    "content": "A impressão 4D adiciona o tempo como quarta dimensão à impressão 3D.  Objetos impressos em 4D podem mudar de forma e função com o tempo, em resposta a estímulos ambientais, como temperatura ou umidade.  Essa tecnologia tem aplicações em engenharia, medicina e robótica.",
+    "funFact": "Objetos impressos em 4D podem se auto-montar ou se modificar após a impressão.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-88",
+    "categoryId": "tecnologia",
+    "title": "A Tecnologia da Computação Biológica",
+    "hook": "Você sabia que...",
+    "content": "A computação biológica utiliza sistemas biológicos, como células vivas ou moléculas de DNA, para realizar cálculos.  Esta abordagem pode levar a computadores mais eficientes em termos de energia e com capacidade de processamento de informações complexas, como o diagnóstico de doenças.",
+    "funFact": "Computadores biológicos podem ser programados para detectar e responder a estímulos ambientais específicos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-89",
+    "categoryId": "tecnologia",
+    "title": "A Revolução da Computação Óptica",
+    "hook": "Você sabia que...",
+    "content": "A computação óptica usa a luz para processar informações, em vez de elétrons.  Isso permite velocidades de processamento incrivelmente rápidas e maior largura de banda, abrindo caminho para computadores muito mais poderosos que os atuais, com menor consumo de energia.",
+    "funFact": "A luz pode transportar muito mais informações que os elétrons.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-90",
+    "categoryId": "tecnologia",
+    "title": "Energia de Fusão Nuclear e a Tecnologia",
+    "hook": "Incrível:",
+    "content": "A energia de fusão nuclear, semelhante à do Sol, tem o potencial de revolucionar a produção de energia limpa e sustentável.  O desenvolvimento de reatores de fusão exige avanços tecnológicos significativos em materiais, supercondutores e sistemas de controle, impulsionando a inovação em diversas áreas.",
+    "funFact": "A fusão nuclear produz energia sem emissões de gases de efeito estufa.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-91",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas Subaquáticas",
+    "hook": "Surpreendente:",
+    "content": "A IoT subaquática conecta sensores e dispositivos submersos, permitindo o monitoramento de oceanos, a exploração de recursos e a proteção de ecossistemas marinhos.  Essa tecnologia enfrenta desafios únicos, como a comunicação em ambientes aquáticos e a durabilidade em altas pressões.",
+    "funFact": "Sensores subaquáticos podem monitorar a temperatura, salinidade, corrente e a vida marinha.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-92",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Sensores de Movimento",
+    "hook": "Incrível: ",
+    "content": "Os sensores de movimento, tão comuns em alarmes e smartphones, utilizam a física do efeito Doppler para detectar mudanças na frequência das ondas sonoras ou infravermelhas refletidas pelo movimento de um objeto.  Sua precisão e sensibilidade dependem de algoritmos complexos que filtram ruídos e interpretam padrões sutis de movimento. Esses sensores são mini laboratórios de física em ação!",
+    "funFact": "Alguns sensores de movimento conseguem diferenciar entre humanos e animais com base em suas características de movimento.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-93",
+    "categoryId": "tecnologia",
+    "title": "O Segredo dos Chips de Carbono",
+    "hook": "Você sabia que...",
+    "content": "Além do silício, o carbono está ganhando destaque na fabricação de chips.  Sua estrutura atômica permite criar materiais com propriedades eletrônicas únicas, abrindo portas para chips mais rápidos, eficientes e menores. Essa tecnologia ainda está em desenvolvimento, mas promete revolucionar a indústria de semicondutores.",
+    "funFact": "Chips de carbono podem operar em temperaturas muito mais altas do que os chips de silício.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-94",
+    "categoryId": "tecnologia",
+    "title": "A Música dos Processadores",
+    "hook": "Incrível:",
+    "content": "O funcionamento interno de um processador gera ondas sonoras de alta frequência, quase imperceptíveis ao ouvido humano.  Estas ondas são resultado da vibração dos transistores e outros componentes durante o processamento de dados. Cientistas estudam essas vibrações para aprimorar o design e diagnosticar problemas.",
+    "funFact": "A 'música' de um processador varia dependendo do tipo de tarefa que ele está executando.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-95",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Impressão 3D em Chocolate",
+    "hook": "Você sabia que...",
+    "content": "A impressão 3D não se limita a plásticos e metais.  A tecnologia está sendo usada para criar esculturas complexas e personalizadas de chocolate, abrindo novas possibilidades para confeitarias e designers.  Imagine chocolates com designs intrincados e sabores únicos, impressos sob demanda!",
+    "funFact": "Impressoras 3D especiais podem imprimir chocolates com diferentes texturas e recheios.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-96",
+    "categoryId": "tecnologia",
+    "title": "A Tecnologia da Purificação de Água com Luz Solar",
+    "hook": "Incrível:",
+    "content": "Sistemas inovadores usam a energia solar para purificar água contaminada, utilizando a fotocatálise para quebrar moléculas orgânicas poluentes.  Essa tecnologia é acessível e sustentável, trazendo esperança para comunidades sem acesso à água potável.  A luz solar é a chave para a limpeza.",
+    "funFact": "Alguns desses sistemas podem remover até 99,9% dos contaminantes da água.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-97",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial e a Criação de Perfumes",
+    "hook": "Você sabia que...",
+    "content": "Algoritmos de IA estão sendo usados para criar novas fragrâncias, analisando grandes conjuntos de dados sobre as preferências olfativas das pessoas.  A IA pode prever combinações de aromas que serão agradáveis, acelerando o processo de criação de perfumes e abrindo novas possibilidades para a indústria de cosméticos.",
+    "funFact": "A IA pode criar perfumes personalizados com base no perfil olfativo individual de cada pessoa.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-98",
+    "categoryId": "tecnologia",
+    "title": "Computadores que Aprendem com o Ambiente",
+    "hook": "Incrível:",
+    "content": "Pesquisadores estão desenvolvendo computadores que aprendem diretamente do ambiente físico, usando sensores e algoritmos de aprendizado de máquina para adaptar seu comportamento em tempo real.  Imagine robôs que se ajustam a ambientes desconhecidos ou sistemas que otimizam seu funcionamento em função das condições externas.",
+    "funFact": "Esses computadores podem desenvolver habilidades inesperadas através de exploração e interação.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-99",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas no Corpo Humano",
+    "hook": "Incrível:",
+    "content": "A Internet das Coisas (IoT) está se expandindo para dentro do corpo humano, com sensores implantados que monitoram funções vitais e liberam medicamentos de forma controlada.  Essa tecnologia permitirá diagnósticos mais precisos e tratamentos mais eficazes para diversas doenças, revolucionando a medicina personalizada.",
+    "funFact": "Alguns desses sensores podem enviar informações diretamente para os médicos em tempo real.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-100",
+    "categoryId": "tecnologia",
+    "title": "Computação Baseada em DNA: Armazenamento Ultradenso",
+    "hook": "Você sabia que...",
+    "content": "O DNA pode ser utilizado para armazenar dados digitais de forma extremamente eficiente, superando em densidade os melhores sistemas de armazenamento atuais.  A tecnologia ainda está em fase de desenvolvimento, mas promete revolucionar a forma como armazenamos informações, especialmente para dados de longa duração e grande volume.",
+    "funFact": "Um grama de DNA pode armazenar a informação equivalente a milhões de discos rígidos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-101",
+    "categoryId": "tecnologia",
+    "title": "A Magia dos Metamateriais",
+    "hook": "Incrível:",
+    "content": "Metamateriais são materiais artificiais com propriedades que não existem na natureza, permitindo o controle da luz e de outras ondas eletromagnéticas.  Essas propriedades podem ser usadas para criar dispositivos invisíveis, lentes super-resolutivas e antenas altamente eficientes, abrindo caminhos para tecnologias inovadoras.",
+    "funFact": "Metamateriais podem curvar a luz ao redor de objetos, tornando-os invisíveis.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-102",
+    "categoryId": "tecnologia",
+    "title": "Robôs que Criam Arte",
+    "hook": "Você sabia que...",
+    "content": "Robôs equipados com inteligência artificial estão sendo usados para criar obras de arte, explorando novas formas de expressão e desafiando a definição tradicional de arte.  A IA pode gerar imagens, esculturas e música com estilos únicos, abrindo novas fronteiras para a criatividade humana e robótica.",
+    "funFact": "Alguns robôs conseguem até mesmo imitar estilos de artistas famosos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-103",
+    "categoryId": "tecnologia",
+    "title": "Sensores que Leem Emoções",
+    "hook": "Você sabia que...",
+    "content": "Sensores avançados podem detectar mudanças sutis na expressão facial, batimentos cardíacos e outras métricas fisiológicas para determinar o estado emocional de uma pessoa.  Esta tecnologia tem aplicações em marketing, jogos e até mesmo em saúde mental, permitindo a criação de interfaces mais intuitivas e personalizadas.",
+    "funFact": "Sensores de emoção podem detectar microexpressões que passam despercebidas pela observação humana.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-104",
+    "categoryId": "tecnologia",
+    "title": "A Revolução da Agricultura Vertical",
+    "hook": "Incrível:",
+    "content": "A agricultura vertical, que utiliza sistemas de cultivo em andares em ambientes controlados, está revolucionando a produção de alimentos em áreas urbanas.  A tecnologia permite uma produção mais eficiente, sustentável e com menor impacto ambiental, contribuindo para a segurança alimentar em centros populacionais.",
+    "funFact": "A agricultura vertical pode aumentar a produção de alimentos em até 10 vezes em comparação com a agricultura tradicional.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-105",
+    "categoryId": "tecnologia",
+    "title": "O Futuro da Energia com Hidrogênio Verde",
+    "hook": "Você sabia que...",
+    "content": "O hidrogênio verde, produzido a partir de fontes de energia renováveis, é considerado um combustível limpo e sustentável para o futuro.  A tecnologia de produção e armazenamento de hidrogênio está em constante evolução, prometendo um papel crucial na transição para uma economia de baixo carbono.",
+    "funFact": "O hidrogênio verde libera apenas água como subproduto ao ser utilizado como combustível.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-106",
+    "categoryId": "tecnologia",
+    "title": "A Internet Espacial: Conectividade Global",
+    "hook": "Incrível:",
+    "content": "Constelações de satélites estão expandindo o acesso à internet para regiões remotas e mal servidas do planeta.  Esta tecnologia promete conectar bilhões de pessoas à internet, reduzindo a chamada 'divisão digital' e impulsionando o desenvolvimento econômico e social em áreas isoladas.",
+    "funFact": "Satélites de baixa órbita oferecem latência muito baixa, próxima à da internet via fibra óptica.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-107",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Microcontroladores",
+    "hook": "Incrível: a física que controla seus gadgets!",
+    "content": "Os microcontroladores, presentes em tudo, de relógios a carros, são maravilhas da miniaturização.  Sua operação depende de princípios da física de estado sólido, como o efeito túnel e a condutividade em semicondutores.  A manipulação desses efeitos permite que bilhões de transistores trabalhem em harmonia.",
+    "funFact": "Um único microcontrolador pode conter mais transistores do que estrelas na Via Láctea!",
+    "curiosityLevel": 4
   }
 ]

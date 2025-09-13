@@ -1076,5 +1076,369 @@
     ],
     "correctAnswer": "Daenerys Targaryen",
     "explanation": "Embora muitos personagens importantes existam, Daenerys é considerado o personagem principal por muitos fãs."
+  },
+  {
+    "id": "quiz-entretenimento-78",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de RPG de mesa que envolve a criação e interpretação de personagens é conhecido por suas regras complexas e vasta lore?",
+    "options": [
+      "Dungeons & Dragons",
+      "Pathfinder",
+      "Call of Cthulhu",
+      "World of Warcraft"
+    ],
+    "correctAnswer": "Dungeons & Dragons",
+    "explanation": "Dungeons & Dragons, ou D&D, é o RPG de mesa mais popular do mundo, conhecido por sua flexibilidade e profundidade. Curiosidade:  D&D influenciou muitos videogames e outras obras de ficção."
+  },
+  {
+    "id": "quiz-entretenimento-79",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem de desenho animado é famoso por sua frase 'Meus dedos estão pegando fogo!'?",
+    "options": [
+      "Pica-Pau",
+      "Papa-Léguas",
+      "Tom",
+      "Jerry"
+    ],
+    "correctAnswer": "Pica-Pau",
+    "explanation": "O Pica-Pau é conhecido por sua personalidade travessa e suas frases icônicas, incluindo 'Meus dedos estão pegando fogo!'  Curiosidade: O Pica-Pau foi criado por Walter Lantz."
+  },
+  {
+    "id": "quiz-entretenimento-80",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual banda britânica é conhecida por seu hit 'Wonderwall'?",
+    "options": [
+      "Oasis",
+      "Blur",
+      "Radiohead",
+      "The Smiths"
+    ],
+    "correctAnswer": "Oasis",
+    "explanation": "'Wonderwall' foi um dos maiores sucessos do Oasis, lançado em 1995. Curiosidade: A música foi escrita pelo vocalista Liam Gallagher."
+  },
+  {
+    "id": "quiz-entretenimento-81",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual filme de animação da Pixar apresenta um garoto que encontra um monstro peludo debaixo de sua cama?",
+    "options": [
+      "Toy Story",
+      "Procurando Nemo",
+      "Monstros S.A.",
+      "Up - Altas Aventuras"
+    ],
+    "correctAnswer": "Monstros S.A.",
+    "explanation": "Monstros S.A. conta a história de Mike Wazowski e James P. Sullivan, que trabalham em uma fábrica de sustos. Curiosidade: O filme gerou uma franquia lucrativa, incluindo sequências e spin-offs."
+  },
+  {
+    "id": "quiz-entretenimento-82",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual ator interpretou o papel de Neo na trilogia 'Matrix'?",
+    "options": [
+      "Tom Cruise",
+      "Keanu Reeves",
+      "Brad Pitt",
+      "Leonardo DiCaprio"
+    ],
+    "correctAnswer": "Keanu Reeves",
+    "explanation": "Keanu Reeves é conhecido por sua interpretação icônica de Neo na trilogia 'Matrix'. Curiosidade: As sequências de ação no filme foram inovadoras para sua época."
+  },
+  {
+    "id": "quiz-entretenimento-83",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor do período Barroco é conhecido pela sua obra 'O Messias'?",
+    "options": [
+      "Johann Sebastian Bach",
+      "George Frideric Handel",
+      "Antonio Vivaldi",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correctAnswer": "George Frideric Handel",
+    "explanation": "'O Messias' é uma oratória composta por George Frideric Handel. Curiosidade: A oratória é frequentemente apresentada durante o período natalino."
+  },
+  {
+    "id": "quiz-entretenimento-84",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual pintor impressionista é famoso por sua série de pinturas 'Nenúfares'?",
+    "options": [
+      "Claude Monet",
+      "Edgar Degas",
+      "Pierre-Auguste Renoir",
+      "Camille Pissarro"
+    ],
+    "correctAnswer": "Claude Monet",
+    "explanation": "Claude Monet é conhecido por suas pinturas impressionistas, incluindo sua série 'Nenúfares'. Curiosidade: As pinturas de Monet costumam capturar a beleza efêmera da luz e da natureza."
+  },
+  {
+    "id": "quiz-entretenimento-85",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual programa de TV apresenta competidores que cozinham para um júri?",
+    "options": [
+      "The Voice",
+      "American Idol",
+      "MasterChef",
+      "Survivor"
+    ],
+    "correctAnswer": "MasterChef",
+    "explanation": "MasterChef é uma competição culinária que testa as habilidades dos participantes na cozinha. Curiosidade: Existem versões de MasterChef em vários países ao redor do mundo."
+  },
+  {
+    "id": "quiz-entretenimento-86",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo de videogame é conhecido pelo seu mundo aberto e customização de personagens extensiva, ambientados em Tamriel?",
+    "options": [
+      "Grand Theft Auto V",
+      "The Witcher 3",
+      "Red Dead Redemption 2",
+      "The Elder Scrolls V: Skyrim"
+    ],
+    "correctAnswer": "The Elder Scrolls V: Skyrim",
+    "explanation": "Skyrim oferece um mundo vasto para explorar e um alto nível de personalização de personagem.  Curiosidade: Skyrim é conhecido por seus diversos mods criados pela comunidade."
+  },
+  {
+    "id": "quiz-entretenimento-87",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do personagem principal do filme 'O Rei Leão'?",
+    "options": [
+      "Timão",
+      "Pumba",
+      "Simba",
+      "Scar"
+    ],
+    "correctAnswer": "Simba",
+    "explanation": "Simba é o protagonista principal de 'O Rei Leão', um jovem leão que precisa assumir seu lugar como rei. Curiosidade: O filme é um clássico da Disney e um grande sucesso de bilheteria."
+  },
+  {
+    "id": "quiz-entretenimento-88",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual série de TV de ficção científica é conhecida por seu conceito de viagem no tempo paradoxal?",
+    "options": [
+      "Stranger Things",
+      "Black Mirror",
+      "Westworld",
+      "Dark"
+    ],
+    "correctAnswer": "Dark",
+    "explanation": "A série alemã 'Dark' é elogiada por sua complexa trama de viagem no tempo e múltiplos paradoxos. Curiosidade: A série utiliza uma estrutura não-linear para contar a história."
+  },
+  {
+    "id": "quiz-entretenimento-89",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo eletrônico de luta, da SNK, é conhecido por seus personagens icônicos como Terry Bogard e Kyo Kusanagi?",
+    "options": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "The King of Fighters"
+    ],
+    "correctAnswer": "The King of Fighters",
+    "explanation": "'The King of Fighters' apresenta uma vasta lista de personagens, com lutas rápidas e estilos de luta diversificados. Curiosidade: A série é conhecida por seus eventos crossover com outros jogos da SNK."
+  },
+  {
+    "id": "quiz-entretenimento-90",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual canal de TV é conhecido por seus desenhos animados de humor negro para adultos?",
+    "options": [
+      "Cartoon Network",
+      "Nickelodeon",
+      "Adult Swim",
+      "Disney Channel"
+    ],
+    "correctAnswer": "Adult Swim",
+    "explanation": "Adult Swim é um bloco de programação noturno do Cartoon Network que apresenta animações para um público adulto. Curiosidade: Adult Swim é conhecido por seu humor surreal e experimental."
+  },
+  {
+    "id": "quiz-entretenimento-91",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual artista musical é conhecido por suas performances extravagantes e estilo visual único, frequentemente incluindo fantasias e elementos teatrais?",
+    "options": [
+      "Lady Gaga",
+      "Beyoncé",
+      "Taylor Swift",
+      "Rihanna"
+    ],
+    "correctAnswer": "Lady Gaga",
+    "explanation": "Lady Gaga é reconhecida por seus shows ao vivo memoráveis, com figurinos e cenários impressionantes. Curiosidade:  Ela também atuou no cinema e compôs trilhas sonoras para filmes."
+  },
+  {
+    "id": "quiz-entretenimento-92",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual série de TV apresenta competidores que projetam e constroem casas?",
+    "options": [
+      "The Amazing Race",
+      "Survivor",
+      "Big Brother",
+      "Extreme Makeover: Home Edition"
+    ],
+    "correctAnswer": "Extreme Makeover: Home Edition",
+    "explanation": "'Extreme Makeover: Home Edition' mostra equipes reformando casas de famílias necessitadas. Curiosamente, o programa se tornou conhecido por suas reviravoltas emocionais e transformações dramáticas."
+  },
+  {
+    "id": "quiz-entretenimento-93",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual ator interpretou o papel de Sherlock Holmes em muitos filmes?",
+    "options": [
+      "Robert Downey Jr.",
+      "Benedict Cumberbatch",
+      "Basil Rathbone",
+      "Jeremy Brett"
+    ],
+    "correctAnswer": "Basil Rathbone",
+    "explanation": "Basil Rathbone interpretou Sherlock Holmes em inúmeros filmes e é considerado um dos mais icônicos intérpretes do personagem. Curiosidade: Ele interpretou o detetive em 14 filmes entre 1939 e 1946."
+  },
+  {
+    "id": "quiz-entretenimento-94",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem de desenho animado é conhecido por sua frase 'Estou gostando muito disso!'?",
+    "options": [
+      "Bob Esponja",
+      "Mickey Mouse",
+      "Pernalonga",
+      "Tom e Jerry"
+    ],
+    "correctAnswer": "Bob Esponja",
+    "explanation": "Bob Esponja Calça Quadrada é conhecido por sua alegria contagiante e sua frase icônica, 'Estou gostando muito disso!'.  Curiosidade: A esponja possui mais de 100 frases de efeito diferentes na série."
+  },
+  {
+    "id": "quiz-entretenimento-95",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual banda lançou o álbum 'Thriller'?",
+    "options": [
+      "Queen",
+      "Michael Jackson",
+      "The Beatles",
+      "AC/DC"
+    ],
+    "correctAnswer": "Michael Jackson",
+    "explanation": "O álbum 'Thriller' de Michael Jackson foi um fenômeno mundial, vendendo milhões de cópias e quebrando diversos recordes. Curiosidade: O clipe de 'Thriller' é considerado um dos melhores videoclipes de todos os tempos."
+  },
+  {
+    "id": "quiz-entretenimento-96",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual filme de Quentin Tarantino apresenta uma cena memorável de dança em um restaurante?",
+    "options": [
+      "Pulp Fiction",
+      "Kill Bill",
+      "Bastardos Inglórios",
+      "Jackie Brown"
+    ],
+    "correctAnswer": "Pulp Fiction",
+    "explanation": "A cena de dança de John Travolta e Uma Thurman em 'Pulp Fiction' é icônica e memorável. Curiosidade: A música da dança é 'You Never Can Tell' de Chuck Berry."
+  },
+  {
+    "id": "quiz-entretenimento-97",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico é conhecido pelo seu sistema de crafting de itens complexo e profundo?",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Call of Duty",
+      "Grand Theft Auto V"
+    ],
+    "correctAnswer": "Minecraft",
+    "explanation": "Minecraft é famoso por seu sistema de criação de itens, permitindo aos jogadores construir praticamente qualquer coisa. Curiosidade: O jogo foi criado por apenas uma pessoa, Notch."
+  },
+  {
+    "id": "quiz-entretenimento-98",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual diretor é conhecido por seu uso experimental de efeitos visuais e narrativa não-linear em filmes como 'Memento'?",
+    "options": [
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "David Fincher",
+      "Stanley Kubrick"
+    ],
+    "correctAnswer": "Christopher Nolan",
+    "explanation": "Christopher Nolan é conhecido por seus filmes complexos e inovadores que desafiam a percepção do público. Curiosidade: Nolan frequentemente evita o uso de CGI em favor de efeitos práticos."
+  },
+  {
+    "id": "quiz-entretenimento-99",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor clássico é conhecido por sua ópera 'As Bodas de Fígaro'?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Joseph Haydn"
+    ],
+    "correctAnswer": "Wolfgang Amadeus Mozart",
+    "explanation": "'As Bodas de Fígaro' é uma das óperas mais famosas de Mozart, conhecida por sua trama complexa e música brilhante. Curiosidade: A ópera foi baseada em uma peça de teatro de Pierre Beaumarchais."
+  },
+  {
+    "id": "quiz-entretenimento-100",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo de luta é conhecido por seus personagens únicos e estilos de luta distintos?",
+    "options": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "King of Fighters"
+    ],
+    "correctAnswer": "Street Fighter",
+    "explanation": "Street Fighter introduziu personagens icônicos como Ryu e Chun-Li e influenciou muitos jogos de luta posteriores. Curiosidade: O jogo original foi lançado em arcades em 1987."
+  },
+  {
+    "id": "quiz-entretenimento-101",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual série de TV apresenta os personagens Carrie Bradshaw, Miranda Hobbes, Charlotte York e Samantha Jones?",
+    "options": [
+      "Sex and the City",
+      "Friends",
+      "Desperate Housewives",
+      "Grey's Anatomy"
+    ],
+    "correctAnswer": "Sex and the City",
+    "explanation": "Sex and the City segue a vida amorosa e profissional de quatro amigas em Nova York. Curiosidade: A série gerou dois filmes."
+  },
+  {
+    "id": "quiz-entretenimento-102",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual diretor é conhecido por seus filmes de super-heróis da Marvel, como 'Os Vingadores'?",
+    "options": [
+      "Joss Whedon",
+      "James Gunn",
+      "Zack Snyder",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": "Joss Whedon",
+    "explanation": "Joss Whedon dirigiu o primeiro filme dos Vingadores, que foi um sucesso de bilheteria. Curiosidade: Whedon também criou a série de TV 'Buffy, a Caça-Vampiros'."
+  },
+  {
+    "id": "quiz-entretenimento-103",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de RPG de mesa é conhecido por suas regras complexas e vasta lore?",
+    "options": [
+      "Dungeons & Dragons",
+      "Pathfinder",
+      "Call of Cthulhu",
+      "Apocalypse World"
+    ],
+    "correctAnswer": "Dungeons & Dragons",
+    "explanation": "Dungeons & Dragons é o jogo de RPG de mesa mais popular do mundo, com regras complexas e um universo vasto e rico. Curiosidade: O jogo foi criado na década de 1970 e continua sendo jogado por milhões de pessoas em todo o mundo."
   }
 ]

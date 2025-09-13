@@ -950,5 +950,47 @@
     ],
     "correctAnswer": "Abelhas",
     "explanation": "As abelhas vivem em colmeias altamente organizadas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-69",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o processo pelo qual as plantas produzem seu próprio alimento?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo em que as plantas utilizam a luz solar, água e dióxido de carbono para produzir glicose (alimento) e oxigênio. Uma curiosidade: algumas plantas realizam fotossíntese  mesmo em condições de pouca luz."
+  },
+  {
+    "id": "quiz-natureza-e-animais-70",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual ave não voa e é nativa da Nova Zelândia?",
+    "options": [
+      "Pinguim",
+      "Ema",
+      "Kiwi",
+      "Avestruz"
+    ],
+    "correctAnswer": "Kiwi",
+    "explanation": "O kiwi é uma ave noturna, incapaz de voar e endêmica da Nova Zelândia. Curiosidade: Seu nome vem do som que ele emite."
+  },
+  {
+    "id": "quiz-natureza-e-animais-71",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o maior animal terrestre?",
+    "options": [
+      "Elefante Africano",
+      "Baleia Azul",
+      "Girafa",
+      "Rinoceronte"
+    ],
+    "correctAnswer": "Elefante Africano",
+    "explanation": "O elefante africano é o maior animal terrestre vivo. As baleias azuis são maiores, mas são animais marinhos."
   }
 ]

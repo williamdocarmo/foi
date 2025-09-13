@@ -151,5 +151,473 @@
     "content": "A tomada de decisões em grupo pode ser influenciada por fatores como polarização (tendência a posições extremas) e pensamento de grupo (conformismo em detrimento da crítica).  Entender esses fenômenos é crucial para otimizar a eficácia da tomada de decisões coletiva.",
     "funFact": "Grupos podem tomar decisões mais arriscadas do que indivíduos.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-18",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Nostalgia Seletiva",
+    "hook": "Incrível: Memórias felizes, distorcidas?",
+    "content": "Nossas lembranças não são registros perfeitos. A nostalgia tende a filtrar detalhes negativos, criando uma versão romantizada do passado.  Isso explica porque recordamos momentos positivos com mais intensidade do que os negativos, mesmo que não tenham sido tão significativos. É uma forma de autoproteção emocional.",
+    "funFact": "Pesquisas indicam que a nostalgia pode até mesmo fortalecer o sistema imunológico!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-19",
+    "categoryId": "psicologia",
+    "title": "A Psicologia dos Sonhos lúcidos",
+    "hook": "Surpreendente: Controlando seus sonhos.",
+    "content": "Sonhos lúcidos, onde você está ciente de que está sonhando e pode influenciar o enredo, são mais comuns do que se pensa.  Estudos sugerem que técnicas de meditação e atenção plena podem aumentar a frequência desses sonhos, permitindo uma exploração da própria mente.",
+    "funFact": "Alguns praticam sonhos lúcidos para solucionar problemas criativos ou lidar com medos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-20",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Coleção de Pedras",
+    "hook": "Incrível: rochas e a mente!",
+    "content": "A paixão por colecionar pedras, ou litofilia, revela traços de personalidade e mecanismos de coping.  Para alguns, é uma busca por ordem e controle, para outros, uma conexão com a natureza e o passado geológico.  A forma como selecionam, classificam e exibem suas pedras diz muito sobre sua organização mental.",
+    "funFact": "Estudo sugere ligação entre litofilia e transtornos obsessivo-compulsivos em alguns casos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-21",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Fome Emocional",
+    "hook": "Você sabia que...",
+    "content": "Comer por emoção, não por fome física, é mais comum do que se pensa.  Ansiedade, tristeza e tédio podem levar a compulsões alimentares, afetando a saúde física e mental.  Entender a raiz emocional da fome é crucial para um tratamento eficaz.",
+    "funFact": "Há estudos que associam a fome emocional a traumas de infância.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-22",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Auto-Enganação",
+    "hook": "Incrível: sua mente mente para você!",
+    "content": "Nosso cérebro constantemente distorce a realidade para proteger nossa autoestima.  Essa auto-enganação, embora inconsciente, influencia nossas decisões e percepções diárias, criando uma realidade subjetiva que pode ser bem diferente da realidade objetiva.  Ela pode ser tanto benéfica quanto prejudicial, dependendo do contexto.",
+    "funFact": "Estudos mostram que pessoas com alta autoestima tendem a se auto-enganar mais frequentemente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-23",
+    "categoryId": "psicologia",
+    "title": "O Impacto da Caligrafia na Personalidade",
+    "hook": "Você sabia que...",
+    "content": "A forma como você escreve pode revelar traços de sua personalidade.  A caligrafia, analisada pela grafologia, pode indicar níveis de ansiedade, impulsividade e até mesmo a capacidade de organização.  Embora não seja uma ciência exata, a grafologia oferece insights intrigantes sobre a psique humana.",
+    "funFact": "A pressão aplicada na escrita pode indicar níveis de energia e assertividade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-24",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Olhar Fixo",
+    "hook": "Incrível:",
+    "content": "Um olhar prolongado pode comunicar uma gama de emoções, de atração a ameaça. A duração, intensidade e direção do olhar são interpretadas pelo cérebro, influenciando significativamente as interações sociais e a interpretação de intenções.  A quebra de contato visual, por exemplo, pode ser interpretada de várias maneiras.",
+    "funFact": "Bebês recém-nascidos já demonstram uma preferência por rostos e olhares direcionados.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-25",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Coleção de Selos",
+    "hook": "Você sabia que...",
+    "content": "Colecionar selos não é apenas um hobby, mas também pode refletir aspectos psicológicos profundos.  A busca pela completude, a organização meticulosa e a apreciação pela história contida em cada selo revelam traços de personalidade como perfeccionismo, paciência e um fascínio pelo detalhe.",
+    "funFact": "Colecionadores muitas vezes desenvolvem conexões emocionais fortes com seus selos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-26",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Risada Nervosa",
+    "hook": "Você sabia que...",
+    "content": "A risada nervosa, apesar de parecer um mecanismo de defesa, pode revelar um desconforto significativo.  Ela surge em situações de tensão, embaraço ou ansiedade, sendo um indicador sutil de que algo não está totalmente bem.  O tom e a intensidade da risada podem variar.",
+    "funFact": "A risada nervosa é muitas vezes involuntária.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-27",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Apego a Objetos",
+    "hook": "Incrível:",
+    "content": "Nossos apegos a objetos, desde brinquedos de infância a peças de roupa, muitas vezes estão relacionados a memórias afetivas e à sensação de segurança.  Esses objetos carregam em si uma carga emocional significativa, atuando como âncoras para o nosso passado.",
+    "funFact": "A perda de um objeto significativo pode causar um luto real.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-28",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Inveja Benigna",
+    "hook": "Você sabia que...",
+    "content": "A inveja, muitas vezes vista como negativa, pode ter um lado positivo.  A inveja benigna, ou admiração com desejo de melhora, pode nos motivar a buscar o crescimento pessoal e o desenvolvimento de habilidades.  É uma questão de como lidamos com essa emoção.",
+    "funFact": "A inveja benigna pode impulsionar a produtividade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-29",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Silêncio Confortável",
+    "hook": "Incrível:",
+    "content": "O silêncio, em certas situações, pode ser mais confortante do que palavras.  Ele permite a reflexão, a conexão profunda com a outra pessoa e a compreensão silenciosa de emoções complexas.  O silêncio compartilhado pode ser mais expressivo do que qualquer fala.",
+    "funFact": "O silêncio facilita a empatia e a conexão.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-30",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Compulsão por Organização",
+    "hook": "Incrível:",
+    "content": "Para alguns, a organização não é apenas um hábito, mas uma necessidade compulsiva. Essa compulsão pode estar relacionada a uma busca por controle e ordem, em resposta a sentimentos de ansiedade ou insegurança. A organização pode se tornar um mecanismo de coping.",
+    "funFact": "A organização excessiva pode ser um sintoma de transtornos de ansiedade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-31",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Barba",
+    "hook": "Incrível: a barba revela sua personalidade?",
+    "content": "O comprimento, estilo e cuidado com a barba podem indicar traços de personalidade. Barbas longas e bem cuidadas podem sugerir autoconfiança e cuidado com a imagem, enquanto barbas desgrenhadas podem indicar rebeldia ou despreocupação.  Estudos exploram a correlação entre a barba e a percepção social.",
+    "funFact": "Homens com barba são frequentemente percebidos como mais dominantes e confiáveis.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-32",
+    "categoryId": "psicologia",
+    "title": "A Mente e a Geometria Sagrada",
+    "hook": "Incrível: formas geométricas influenciam nosso humor!",
+    "content": "Estudos demonstram que a exposição a padrões geométricos específicos, como a espiral dourada, pode induzir estados emocionais distintos.  A harmonia visual dessas formas parece afetar nossa percepção de bem-estar, reduzindo o estresse e promovendo a calma. Isso demonstra a profunda ligação entre a matemática e a experiência subjetiva.",
+    "funFact": "Até mesmo a disposição de móveis em um cômodo pode influenciar o humor e a produtividade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-33",
+    "categoryId": "psicologia",
+    "title": "O Poder da Imaginação Guiada",
+    "hook": "Você sabia que...",
+    "content": "A imaginação guiada, técnica terapêutica que utiliza a visualização criativa, pode ser eficaz no tratamento de fobias, ansiedade e até mesmo dores crônicas. Ao imaginar cenários positivos e seguros, o cérebro reage como se estivesse realmente vivenciando essas experiências, modificando respostas fisiológicas e emocionais.",
+    "funFact": "Atletas de elite usam a imaginação guiada para melhorar o desempenho.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-34",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Cheiro e Memória",
+    "hook": "Surpreendente: o olfato...",
+    "content": "O sentido do olfato possui uma ligação única com a memória, ativando áreas cerebrais associadas a emoções e lembranças. Um aroma específico pode disparar memórias vívidas e emoções intensas, mesmo após anos, devido à sua conexão direta com o sistema límbico.",
+    "funFact": "Odores podem influenciar nossa percepção de sabor.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-35",
+    "categoryId": "psicologia",
+    "title": "A Influência da Música no Humor",
+    "hook": "Incrível: a música...",
+    "content": "A música tem um poder extraordinário sobre nossas emoções, capaz de evocar alegria, tristeza, calma ou excitação.  A melodia, o ritmo e a harmonia influenciam diretamente a atividade do sistema nervoso, liberando neurotransmissores e hormônios que modulam o estado de ânimo.",
+    "funFact": "Música clássica pode reduzir a ansiedade em pacientes hospitalizados.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-36",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Intuicao Aprimorada",
+    "hook": "Incrível: sua intuição pode ser treinada!",
+    "content": "Pesquisas mostram que a intuição, muitas vezes vista como algo misterioso, pode ser desenvolvida com prática e atenção plena.  Ao aprimorar a sua consciência sobre padrões e informações subliminares, você pode fortalecer sua capacidade de tomada de decisões rápidas e eficazes, baseadas em insights quase instantâneos.  Isso pode impactar positivamente diversas áreas da sua vida.",
+    "funFact": "Experimentos demonstram que pessoas treinadas em meditação demonstram maior precisão intuitiva.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-37",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Esquecimento Proposital",
+    "hook": "Você sabia que podemos esquecer intencionalmente?",
+    "content": "Nosso cérebro, para lidar com a imensa quantidade de informações, possui mecanismos de supressão de memórias.  Podemos, conscientemente, optar por 'esquecer' memórias dolorosas ou irrelevantes, embora o processo seja complexo e nem sempre totalmente eficaz.  Entender isso ajuda a lidar com traumas e a gerenciar melhor a nossa carga mental.",
+    "funFact": "A capacidade de suprimir memórias é maior em pessoas com alta capacidade de autocontrole.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-38",
+    "categoryId": "psicologia",
+    "title": "Psicologia da Personalidade e a Grafologia",
+    "hook": "Incrível: sua letra revela sua personalidade!",
+    "content": "A grafologia, apesar de controversa, sugere que a caligrafia reflete traços de personalidade. A pressão da escrita, o tamanho das letras, e a inclinação podem indicar características como introversão, extroversão, impulsividade e organização.  Apesar de não ser uma ciência exata, oferece um ponto de vista interessante.",
+    "funFact": "Analistas gráficos conseguem identificar sinais de stress e ansiedade através da caligrafia.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-39",
+    "categoryId": "psicologia",
+    "title": "O Poder da Imaginação na Cura",
+    "hook": "Você sabia que a imaginação cura?",
+    "content": "A visualização positiva e a imaginação criativa têm demonstrado efeitos terapêuticos significativos.  Imagine-se saudável e forte; essa prática pode realmente auxiliar o corpo na recuperação de doenças, reduzindo o stress e ativando os mecanismos de autocura. É uma forma poderosa de auto-ajuda.",
+    "funFact": "Estudos mostram melhora em pacientes com dores crônicas através da técnica de visualização.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-40",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Sono e as Cores",
+    "hook": "Surpreendente: as cores afetam seu sono!",
+    "content": "As cores do seu quarto podem impactar a qualidade do seu sono. Tons azuis e verdes promovem relaxamento, enquanto tons quentes como vermelho e amarelo podem estimular a atividade cerebral, dificultando o adormecimento.  Escolha cores suaves e relaxantes para um sono mais profundo e reparador.",
+    "funFact": "A cromoterapia usa cores para auxiliar no tratamento de distúrbios do sono.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-41",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Comida e Memórias",
+    "hook": "Você sabia que a comida traz memórias?",
+    "content": "O sabor e o cheiro da comida evocam memórias poderosas e instantâneas, muitas vezes ligadas à infância e a momentos importantes.  Essa conexão entre o paladar e a memória é explicada pela interação entre o sistema gustativo e o hipocampo, região cerebral ligada à memória.",
+    "funFact": "Determinados cheiros podem resgatar memórias mais vívidas do que imagens.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-42",
+    "categoryId": "psicologia",
+    "title": "Psicologia do Apego a Lugares",
+    "hook": "Incrível: apego a lugares é normal!",
+    "content": "O apego a lugares específicos, como a casa ou locais com significado emocional, é um fenômeno psicológico comum e saudável. Sentimentos de conforto, segurança e pertencimento estão associados a estes lugares. Isso se relaciona com a formação de memórias e com o sentido de identidade.",
+    "funFact": "O apego a lugares pode ser tão forte quanto o apego a pessoas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-43",
+    "categoryId": "psicologia",
+    "title": "A Psicologia das Conversas Online",
+    "hook": "Você sabia que conversar online afeta a comunicação?",
+    "content": "A comunicação online difere da comunicação face a face por falta de linguagem corporal e tom de voz. Isso pode levar a mal entendidos e dificultar a construção de relacionamentos sólidos. A falta de nuances pode gerar interpretações errôneas e conflitos.",
+    "funFact": "Emojis são essenciais na comunicação online para compensar a falta de expressões faciais.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-44",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Micropressão",
+    "hook": "Incrível: sua pressão afeta a decisão!",
+    "content": "Estudos demonstram que leve pressão nos ombros, por exemplo, pode influenciar sutilmente a tomada de decisões, levando a escolhas mais arriscadas ou conservadoras dependendo da localização e intensidade da pressão.  Isso mostra a influência inconsciente do tato em nossos julgamentos.",
+    "funFact": "A micropressão pode até mesmo afetar o julgamento moral!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-45",
+    "categoryId": "psicologia",
+    "title": "A Mente e a Simetria Facial",
+    "hook": "Incrível: a beleza...",
+    "content": "Estudos mostram que percebemos rostos simétricos como mais atraentes. Essa preferência pode estar ligada a um mecanismo evolutivo, associando simetria a boa saúde genética.  A assimetria, por outro lado, pode ser um sinal subconsciente de doenças ou problemas de desenvolvimento.",
+    "funFact": "Bebês preferem olhar para rostos simétricos, demonstrando uma predisposição inata a essa preferência estética.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-46",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Sono e a Memória",
+    "hook": "Surpreendente: o sono...",
+    "content": "O sono desempenha um papel fundamental na consolidação da memória.  Durante o sono, o cérebro processa e organiza informações, transferindo-as da memória de curto prazo para a de longo prazo. Dormir bem é essencial para a aprendizagem e a retenção de informações.",
+    "funFact": "A privação do sono afeta negativamente a capacidade de aprendizagem e memória.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-47",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Tristeza Criativa",
+    "hook": "Incrível: A tristeza inspira!",
+    "content": "Muitos artistas e escritores encontraram na tristeza uma fonte inesgotável de inspiração.  Estudos mostram uma correlação entre estados melancólicos e a capacidade de produção artística profunda. A introspecção gerada pela tristeza pode levar a insights e criatividade únicas.  A mente, em momentos de quietude, revela seus segredos mais profundos.",
+    "funFact": "Vincent van Gogh pintou algumas de suas obras-primas durante períodos de profunda depressão.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-48",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Apego a Roupas",
+    "hook": "Você sabia que...",
+    "content": "Sentimentalismo com roupas velhas?  Mais comum que se imagina!  A psicologia explica o apego a peças de roupa por associação a memórias e experiências significativas. O conforto físico e emocional  torna difícil o descarte, criando uma ligação afetiva com o objeto.",
+    "funFact": "Há casos de pessoas que guardam roupas de pessoas falecidas por anos, mesmo sem usá-las.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-49",
+    "categoryId": "psicologia",
+    "title": "O Impacto da Caligrafia na Emoção",
+    "hook": "Surpreendente: Sua letra...",
+    "content": "Sua caligrafia pode revelar mais do que você imagina sobre seu estado emocional.  Letras miúdas podem indicar ansiedade, enquanto letras grandes sugerem extroversão.  A pressão do traço também é um indicador valioso. A grafologia é um campo que busca decifrar essas nuances.",
+    "funFact": "A caligrafia pode mudar significativamente dependendo do humor da pessoa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-50",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Sonambulismo e Memória",
+    "hook": "Você sabia que...",
+    "content": "Pessoas sonâmbulas podem ter lembranças fragmentadas ou nenhuma lembrança dos eventos ocorridos durante o episódio. Estudos mostram que a memória de eventos durante o sonambulismo é geralmente pouco nítida, ou inexistente. Mas, as memórias podem ser recuperadas com a ajuda de terapia.",
+    "funFact": "Sonambulismo pode ser agravado por estresse ou falta de sono.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-51",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Aversão à Perda",
+    "hook": "Incrível: Perder dói mais!",
+    "content": "A psicologia demonstra que a dor de perder algo é duas vezes maior que a alegria de ganhar algo equivalente.  Isso explica porque muitas vezes somos avessos a riscos, mesmo com chances de ganhos maiores. Essa aversão é um viés cognitivo poderoso que impacta nossas decisões financeiras e até mesmo relacionamentos.",
+    "funFact": "Pesquisas mostram que o cérebro processa perdas no córtex insular, associado à dor física, intensificando a sensação negativa.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-52",
+    "categoryId": "psicologia",
+    "title": "O Impacto da Cor do Quarto no Sono",
+    "hook": "Você sabia que...",
+    "content": "A cor das paredes do seu quarto pode influenciar significativamente a qualidade do seu sono. Tons azuis e verdes promovem relaxamento, enquanto cores vibrantes como vermelho ou amarelo podem estimular a atividade cerebral, dificultando o adormecimento.  Experimente pintar seu quarto de azul e veja a diferença!",
+    "funFact": "Um estudo revelou que pessoas que dormem em quartos azuis relatam ter um sono mais profundo e reparador.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-53",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do 'Síndrome do Impostor'",
+    "hook": "Incrível: Sucesso e insegurança?",
+    "content": "Mesmo pessoas de grande sucesso muitas vezes sofrem da 'Síndrome do Impostor', sentindo-se inadequadas e acreditando que seu sucesso foi fruto de sorte ou engano. Essa insegurança interna pode sabotar o progresso e a autoestima, afetando negativamente sua saúde mental.",
+    "funFact": "Até mesmo grandes líderes mundiais relataram sentir essa sensação de inadequação.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-54",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Intuicão Subconsciente",
+    "hook": "Incrível: sua intuição...",
+    "content": "A intuição, muitas vezes ignorada, é um processo complexo que envolve o processamento subconsciente de informações.  Nosso cérebro constantemente analisa dados que não chegam à consciência, gerando insights repentinos.  Esses 'achismos' podem ser surpreendentemente precisos, resultantes de uma vasta rede neural em ação. ",
+    "funFact": "Estudos demonstram que a intuição é mais acurada em pessoas com ampla experiência na área em questão.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-55",
+    "categoryId": "psicologia",
+    "title": "O Poder Curativo da Risada Sincera",
+    "hook": "Você sabia que rir...",
+    "content": "O riso, além de contagioso e prazeroso, possui um poder curativo surpreendente.  Ele libera endorfinas, hormônios que atuam como analgésicos naturais, reduzindo a percepção de dor e melhorando o humor.  Uma boa gargalhada é um verdadeiro elixir para a saúde mental e física.",
+    "funFact": "O riso estimula o sistema imunológico, aumentando a produção de células de defesa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-56",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Desapego Material Consciente",
+    "hook": "Incrível: desapegar...",
+    "content": "A prática consciente de desapego material pode trazer benefícios psicológicos significativos. Ao liberar objetos que não nos servem mais, liberamos também peso emocional e mental.  Este ato promove a sensação de leveza e facilita o foco em metas e valores pessoais, reduzindo o estresse.",
+    "funFact": "O minimalismo consciente promove o foco na experiência, e não na aquisição material.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-57",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Procrastinação Adaptativa",
+    "hook": "Incrível: procrastinar...",
+    "content": "Embora geralmente vista negativamente, a procrastinação pode ser adaptativa em certos contextos.  Às vezes, adiar uma tarefa permite a clareza mental e a obtenção de novas perspectivas, levando a uma solução mais eficiente.  É importante diferenciar a procrastinação estratégica da crônica.",
+    "funFact": "Em algumas situações, a procrastinação pode gerar criatividade inesperada.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-58",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Memória Olfativa",
+    "hook": "Você sabia que cheiros...",
+    "content": "O olfato tem uma ligação intrínseca com a memória.  Cheiros específicos podem evocar lembranças vívidas, muitas vezes com detalhes emocionais intensos, que foram esquecidas por outros meios. Isso se deve à conexão direta do bulbo olfativo com o hipocampo, região do cérebro relacionada à memória.",
+    "funFact": "A memória olfativa é uma das memórias mais duradouras.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-59",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Empatia Virtual",
+    "hook": "Incrível: sentir emoções...",
+    "content": "A empatia, a capacidade de compreender e compartilhar as emoções dos outros, também se manifesta nas interações virtuais, embora com nuances distintas.  A falta de contato físico pode afetar a intensidade da experiência empática, mas a comunicação escrita e visual ainda permite conexões significativas.",
+    "funFact": "Emojis e GIFs são utilizados para compensar a falta de expressões faciais na comunicação online.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-60",
+    "categoryId": "psicologia",
+    "title": "A Influência da Biologia no Comportamento Social",
+    "hook": "Incrível: nossos genes...",
+    "content": "Nossos genes e nossa biologia influenciam profundamente o comportamento social.  Hormônios como a oxitocina, por exemplo, desempenham um papel crucial na formação de vínculos sociais e na capacidade de empatia. Compreender a influência da biologia é essencial para a compreensão do comportamento humano.",
+    "funFact": "Variações genéticas podem influenciar a predisposição a comportamentos sociais específicos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-61",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Satisfação Pós-Compra",
+    "hook": "Você sabia que a compra...",
+    "content": "A satisfação após uma compra não depende apenas da qualidade do produto, mas também de fatores psicológicos. A expectativa, a experiência da compra e a percepção do valor influenciam a satisfação final.  Uma compra bem-sucedida aumenta a autoestima e o bem-estar.",
+    "funFact": "O marketing se aproveita de fatores psicológicos para influenciar a satisfação pós-compra.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-62",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Aceitação da Imperfeição",
+    "hook": "Você sabia que aceitar...",
+    "content": "A aceitação da imperfeição, tanto em si mesmo quanto nos outros, é um importante fator de bem-estar psicológico.  A busca incessante pela perfeição pode gerar estresse, ansiedade e baixa autoestima. A autocompaixão é fundamental para uma vida mais plena e harmoniosa.",
+    "funFact": "A imperfeição é inerente à condição humana e contribui para a singularidade de cada indivíduo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-63",
+    "categoryId": "psicologia",
+    "title": "O Impacto da Música no Foco e Concentração",
+    "hook": "Incrível: música...",
+    "content": "A música pode ser uma ferramenta poderosa para melhorar o foco e a concentração, dependendo do estilo e do ritmo. Música instrumental, sem letras, e com ritmo moderado, geralmente é a mais eficaz para tarefas que exigem atenção e concentração.",
+    "funFact": "Música clássica é frequentemente utilizada em estudos sobre o efeito da música no foco.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-64",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Autoestima e a Imagem Corporal",
+    "hook": "Você sabia que a autoestima...",
+    "content": "A autoestima está intrinsecamente ligada à imagem corporal, mas não se limita a ela. A percepção de si mesmo, os valores pessoais e as conquistas também influenciam a autoestima.  Um trabalho interno de autoaceitação é crucial para uma autoestima saudável.",
+    "funFact": "A comparação social excessiva pode prejudicar gravemente a autoestima.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-65",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Criatividade e o Sono",
+    "hook": "Você sabia que o sono...",
+    "content": "O sono desempenha um papel crucial na criatividade.  Durante o sono, o cérebro processa informações e estabelece novas conexões neurais, levando a insights e ideias inovadoras.  A privação do sono pode prejudicar a criatividade e a capacidade de resolução de problemas.",
+    "funFact": "Sonhos lúcidos podem estimular a criatividade e a resolução de problemas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-66",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Memória Muscular",
+    "hook": "Incrível: seu corpo se lembra!",
+    "content": "Você sabia que seu corpo guarda memórias em seus músculos?  A memória muscular, ou memória procedimental, permite que você realize tarefas complexas, como andar de bicicleta ou tocar um instrumento, mesmo depois de anos sem praticar.  É um tipo de memória implícita, mais resistente ao esquecimento que a memória explícita.",
+    "funFact": "Até mesmo movimentos complexos aprendidos na infância podem ser recuperados com relativa facilidade após anos de inatividade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-67",
+    "categoryId": "psicologia",
+    "title": "O Efeito 'Manhã Azul'",
+    "hook": "Você sabia que...",
+    "content": "A cor azul, pela sua associação com a calma e tranquilidade, pode impactar positivamente o humor e o sono ao amanhecer.  Pessoas que se expõem à luz azul suave pela manhã tendem a ter um despertar mais suave e um dia mais produtivo.  É um efeito sutil, mas poderoso!",
+    "funFact": "Há estudos mostrando uma melhora significativa nos níveis de cortisol (hormônio do estresse) com a exposição à luz azul matinal.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-68",
+    "categoryId": "psicologia",
+    "title": "Psicologia da 'Ansiedade Anticipatória'",
+    "hook": "Incrível:",
+    "content": "A ansiedade não se limita ao presente.  A ansiedade anticipatória é a preocupação excessiva com eventos futuros, que pode ser tão debilitante quanto a ansiedade presente.  Ela se manifesta com sintomas físicos e mentais,  impactando a qualidade de vida da pessoa.",
+    "funFact": "Essa ansiedade pode até mesmo criar sintomas físicos como dor de cabeça ou problemas estomacais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-69",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da 'Síndrome do Sobrevivente'",
+    "hook": "Incrível:",
+    "content": "A sobrevivência a um trauma pode gerar uma complexa gama de emoções, incluindo culpa, ansiedade e até mesmo um sentimento de injustiça.  A 'síndrome do sobrevivente' afeta pessoas que sobrevivem a eventos catastróficos,  onde a sobrevivência é acompanhada de uma profunda sensação de perda e culpa.",
+    "funFact": "Esta síndrome pode levar a problemas de saúde mental a longo prazo se não for tratada adequadamente.",
+    "curiosityLevel": 4
   }
 ]

@@ -712,5 +712,565 @@
     ],
     "correctAnswer": "Canadá",
     "explanation": "O Canadá possui um extenso litoral, banhado por três oceanos. Uma curiosidade é que o Canadá possui milhares de ilhas, muitas delas ainda inexploradas."
+  },
+  {
+    "id": "quiz-lugares-52",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Palácio de Buckingham?",
+    "options": [
+      "França",
+      "Reino Unido",
+      "Estados Unidos",
+      "Canadá"
+    ],
+    "correctAnswer": "Reino Unido",
+    "explanation": "O Palácio de Buckingham é a residência oficial da Família Real Britânica, localizada em Londres, Reino Unido.  Curiosidade: O palácio possui mais de 775 quartos!"
+  },
+  {
+    "id": "quiz-lugares-53",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a cidade mais alta do mundo, acima do nível do mar?",
+    "options": [
+      "La Paz",
+      "Lhasa",
+      "Quito",
+      "Bogotá"
+    ],
+    "correctAnswer": "La Paz",
+    "explanation": "La Paz, na Bolívia, é a capital mais alta do mundo. Curiosidade:  Sua altitude média é de 3.640 metros acima do nível do mar."
+  },
+  {
+    "id": "quiz-lugares-54",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga as Cataratas de Iguazu?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Paraguai",
+      "Todos os três países"
+    ],
+    "correctAnswer": "Todos os três países",
+    "explanation": "As Cataratas de Iguazu são um conjunto de cachoeiras localizado na fronteira entre Brasil, Argentina e Paraguai. Curiosidade:  O lado argentino oferece vistas mais amplas das cataratas."
+  },
+  {
+    "id": "quiz-lugares-55",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual ilha é conhecida como a 'Ilha da Páscoa'?",
+    "options": [
+      "Ilha de Páscoa",
+      "Ilha de Madagascar",
+      "Ilha de Creta",
+      "Ilha de Bornéu"
+    ],
+    "correctAnswer": "Ilha de Páscoa",
+    "explanation": "Famosa pelas suas misteriosas estátuas moai. Curiosidade:  Está localizada no Oceano Pacífico, a cerca de 3.700 km da costa do Chile."
+  },
+  {
+    "id": "quiz-lugares-56",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual cidade é famosa pelo Carnaval?",
+    "options": [
+      "Rio de Janeiro",
+      "Nova Orleans",
+      "Veneza",
+      "Tóquio"
+    ],
+    "correctAnswer": "Rio de Janeiro",
+    "explanation": "O Carnaval do Rio de Janeiro é mundialmente conhecido por suas escolas de samba e desfiles exuberantes. Curiosidade:  Milhões de pessoas participam do evento anualmente."
+  },
+  {
+    "id": "quiz-lugares-57",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país é conhecido por seus canais e moinhos de vento?",
+    "options": [
+      "Holanda",
+      "Itália",
+      "França",
+      "Alemanha"
+    ],
+    "correctAnswer": "Holanda",
+    "explanation": "A Holanda possui uma extensa rede de canais e moinhos de vento, elementos icônicos de sua paisagem e história. Curiosidade:  Muitos moinhos de vento eram usados para drenar terras baixas."
+  },
+  {
+    "id": "quiz-lugares-58",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual cidade é a capital da França?",
+    "options": [
+      "Roma",
+      "Berlim",
+      "Paris",
+      "Londres"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é conhecida pela sua arquitetura, museus, e cultura vibrante. Curiosidade: A Torre Eiffel é um dos monumentos mais visitados de Paris."
+  },
+  {
+    "id": "quiz-lugares-59",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga o deserto de Atacama?",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Peru",
+      "Bolívia"
+    ],
+    "correctAnswer": "Chile",
+    "explanation": "O deserto do Atacama é um dos lugares mais áridos do mundo. Curiosidade:  Algumas partes do deserto não veem chuva há séculos."
+  },
+  {
+    "id": "quiz-lugares-60",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Cidade Eterna'?",
+    "options": [
+      "Roma",
+      "Atenas",
+      "Constantinopla",
+      "Alexandria"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é conhecida como a 'Cidade Eterna' por sua longa e influente história. Curiosidade:  Roma foi o centro do Império Romano, deixando um legado monumental."
+  },
+  {
+    "id": "quiz-lugares-61",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital do Japão?",
+    "options": [
+      "Pequim",
+      "Seul",
+      "Tóquio",
+      "Bangkok"
+    ],
+    "correctAnswer": "Tóquio",
+    "explanation": "Tóquio é uma metrópole moderna e cosmopolita. Curiosidade: Tóquio é uma das maiores áreas metropolitanas do mundo."
+  },
+  {
+    "id": "quiz-lugares-62",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga a Grande Muralha?",
+    "options": [
+      "China",
+      "Índia",
+      "Vietnã",
+      "Coréia do Norte"
+    ],
+    "correctAnswer": "China",
+    "explanation": "A Grande Muralha da China é uma das maiores estruturas construídas pelo homem. Curiosidade: Ela foi construída ao longo de séculos por diferentes dinastias."
+  },
+  {
+    "id": "quiz-lugares-63",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Capital do Reggae'?",
+    "options": [
+      "Kingston",
+      "Montego Bay",
+      "Ocho Rios",
+      "Negril"
+    ],
+    "correctAnswer": "Kingston",
+    "explanation": "Kingston, na Jamaica, é o berço do Reggae, lar de Bob Marley e muitos outros artistas influentes. Curiosidade:  Kingston tem uma forte cultura musical e muitas atrações ligadas ao Reggae."
+  },
+  {
+    "id": "quiz-lugares-64",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual continente abriga o deserto do Saara?",
+    "options": [
+      "África",
+      "Ásia",
+      "América do Sul",
+      "Europa"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O deserto do Saara é o maior deserto quente do mundo. Curiosidade: O Saara cobre uma área maior que a dos Estados Unidos."
+  },
+  {
+    "id": "quiz-lugares-65",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual cidade é famosa pela arquitetura Art Nouveau?",
+    "options": [
+      "Bruxelas",
+      "Paris",
+      "Viena",
+      "Barcelona"
+    ],
+    "correctAnswer": "Bruxelas",
+    "explanation": "Bruxelas possui belos exemplos de arquitetura Art Nouveau, com muitos edifícios icônicos desse estilo. Curiosidade: Um dos mais famosos arquitetos Art Nouveau foi Victor Horta, que projetou muitos edifícios em Bruxelas."
+  },
+  {
+    "id": "quiz-lugares-66",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga a Estátua da Liberdade?",
+    "options": [
+      "França",
+      "Reino Unido",
+      "Estados Unidos",
+      "Canadá"
+    ],
+    "correctAnswer": "Estados Unidos",
+    "explanation": "A Estátua da Liberdade está localizada em Liberty Island, no porto de Nova York, nos Estados Unidos. Foi um presente da França para os EUA em 1886."
+  },
+  {
+    "id": "quiz-lugares-67",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital da Itália?",
+    "options": [
+      "Roma",
+      "Milão",
+      "Veneza",
+      "Florença"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é a capital da Itália e uma cidade rica em história e cultura, conhecida como a 'Cidade Eterna'."
+  },
+  {
+    "id": "quiz-lugares-68",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual continente abriga o Rio Amazonas?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Sul"
+    ],
+    "correctAnswer": "América do Sul",
+    "explanation": "O Rio Amazonas é o maior rio do mundo em volume de água e percorre a maior parte da América do Sul, sendo um importante ecossistema para a região."
+  },
+  {
+    "id": "quiz-lugares-69",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital da França?",
+    "options": [
+      "Berlim",
+      "Paris",
+      "Roma",
+      "Londres"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é a capital da França, uma cidade mundialmente famosa por sua cultura, moda, gastronomia e arquitetura."
+  },
+  {
+    "id": "quiz-lugares-70",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Taj Mahal?",
+    "options": [
+      "Paquistão",
+      "Índia",
+      "Nepal",
+      "Bangladesh"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Taj Mahal, um majestoso mausoléu de mármore branco, está localizado em Agra, na Índia, e é um Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "quiz-lugares-71",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital do Brasil?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctAnswer": "Brasília",
+    "explanation": "Brasília foi planejada e construída como a capital do Brasil no século XX. Curiosidade: Brasília é um exemplo de cidade planejada, com arquitetura moderna e um projeto urbanístico inovador."
+  },
+  {
+    "id": "quiz-lugares-72",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital da Inglaterra?",
+    "options": [
+      "Manchester",
+      "Liverpool",
+      "Londres",
+      "Birmingham"
+    ],
+    "correctAnswer": "Londres",
+    "explanation": "Londres é a capital da Inglaterra e um importante centro financeiro e cultural global. Curiosidade: Londres é uma cidade multicultural com uma rica história."
+  },
+  {
+    "id": "quiz-lugares-73",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital da Alemanha?",
+    "options": [
+      "Berlim",
+      "Paris",
+      "Roma",
+      "Londres"
+    ],
+    "correctAnswer": "Berlim",
+    "explanation": "Berlim é a capital da Alemanha, uma cidade com rica história e cultura.  Curiosidade: Berlim foi dividida durante a Guerra Fria, com a construção do Muro de Berlim."
+  },
+  {
+    "id": "quiz-lugares-74",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Em qual continente fica o Japão?",
+    "options": [
+      "África",
+      "América do Sul",
+      "Ásia",
+      "Europa"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "O Japão é um arquipélago localizado no leste da Ásia. Curiosidade: O Japão é conhecido por sua cultura única, incluindo artes marciais, animes e mangás."
+  },
+  {
+    "id": "quiz-lugares-75",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga o deserto do Namib?",
+    "options": [
+      "Egito",
+      "Namíbia",
+      "Austrália",
+      "Argélia"
+    ],
+    "correctAnswer": "Namíbia",
+    "explanation": "O Deserto do Namib é conhecido pelas suas dunas de areia gigantescas e paisagens deslumbrantes. Curiosidade: O deserto do Namib é um dos desertos mais antigos do mundo."
+  },
+  {
+    "id": "quiz-lugares-76",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a maior cidade da Austrália, em população?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ],
+    "correctAnswer": "Sydney",
+    "explanation": "Embora Melbourne seja uma forte concorrente, Sydney atualmente possui a maior população. Curiosidade: Sydney é famosa pela Opera House e pela Harbour Bridge."
+  },
+  {
+    "id": "quiz-lugares-77",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a capital da República Tcheca?",
+    "options": [
+      "Praga",
+      "Varsóvia",
+      "Bratislava",
+      "Budapeste"
+    ],
+    "correctAnswer": "Praga",
+    "explanation": "Praga é uma cidade histórica com uma arquitetura deslumbrante. Curiosidade: Praga é conhecida por sua bela Ponte Carlos e pelo Castelo de Praga."
+  },
+  {
+    "id": "quiz-lugares-78",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país é famoso pelo cultivo de café e possui a cidade de Medellín?",
+    "options": [
+      "Colômbia",
+      "Brasil",
+      "Peru",
+      "México"
+    ],
+    "correctAnswer": "Colômbia",
+    "explanation": "A Colômbia é um dos maiores produtores de café do mundo, e Medellín é uma importante cidade colombiana. Curiosidade: Medellín tem se transformado em um centro turístico com avanços em segurança e infraestrutura."
+  },
+  {
+    "id": "quiz-lugares-79",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a capital do Canadá?",
+    "options": [
+      "Toronto",
+      "Montreal",
+      "Ottawa",
+      "Vancouver"
+    ],
+    "correctAnswer": "Ottawa",
+    "explanation": "Ottawa é a capital do Canadá. Curiosidade: Ottawa é uma cidade planejada, construída ao longo do rio Ottawa."
+  },
+  {
+    "id": "quiz-lugares-80",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga o Monte Kilimanjaro?",
+    "options": [
+      "Quênia",
+      "Tanzânia",
+      "Uganda",
+      "Etiópia"
+    ],
+    "correctAnswer": "Tanzânia",
+    "explanation": "O Monte Kilimanjaro é a montanha mais alta da África. Curiosidade: O Kilimanjaro é um vulcão inativo com três picos distintos."
+  },
+  {
+    "id": "quiz-lugares-81",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a maior ilha do arquipélago indonésio?",
+    "options": [
+      "Java",
+      "Sumatra",
+      "Borneo",
+      "Nova Guiné"
+    ],
+    "correctAnswer": "Borneo",
+    "explanation": "Borneo é uma ilha compartilhada pela Indonésia, Malásia e Brunei. Curiosidade: Borneo abriga a Floresta de Dipterocarpos, uma floresta tropical rica em biodiversidade."
+  },
+  {
+    "id": "quiz-lugares-82",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual cidade é considerada a capital mundial do blues?",
+    "options": [
+      "Nova Orleans",
+      "Chicago",
+      "Memphis",
+      "Nashville"
+    ],
+    "correctAnswer": "Memphis",
+    "explanation": "Memphis é famosa por sua rica história no blues e por ser o local de nascimento de músicos lendários. Curiosidade: Beale Street em Memphis é um local icônico para os amantes de blues."
+  },
+  {
+    "id": "quiz-lugares-83",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país abriga o maior número de falantes nativos de espanhol?",
+    "options": [
+      "México",
+      "Colômbia",
+      "Espanha",
+      "Argentina"
+    ],
+    "correctAnswer": "México",
+    "explanation": "O México tem a maior população de falantes nativos de espanhol no mundo. Curiosidade:  O espanhol mexicano apresenta diversas variações regionais."
+  },
+  {
+    "id": "quiz-lugares-84",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual continente abriga o Rio Nilo?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "África",
+      "América do Sul"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O rio Nilo é um dos rios mais importantes do mundo e atravessa diversos países africanos. Curiosidade: O Nilo é um rio essencial para a história e cultura do Egito antigo."
+  },
+  {
+    "id": "quiz-lugares-85",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual cidade é conhecida por sua arquitetura art déco?",
+    "options": [
+      "Miami",
+      "Nova York",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "correctAnswer": "Miami",
+    "explanation": "Miami Beach é especialmente conhecida por seus edifícios art déco. Curiosidade:  A arquitetura art déco de Miami Beach é um atrativo turístico importante."
+  },
+  {
+    "id": "quiz-lugares-86",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual cidade é o centro financeiro da Austrália?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth"
+    ],
+    "correctAnswer": "Sydney",
+    "explanation": "Sydney abriga o mercado de ações australiano e inúmeras sedes de empresas multinacionais, consolidando sua posição como o centro financeiro. Curiosidade:  A cidade apresenta uma forte integração entre negócios e tecnologia."
+  },
+  {
+    "id": "quiz-lugares-87",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual o nome do arquipélago vulcânico da Itália?",
+    "options": [
+      "Ilhas Eólias",
+      "Ilhas Baleares",
+      "Ilhas Canárias",
+      "Ilhas Cíclades"
+    ],
+    "correctAnswer": "Ilhas Eólias",
+    "explanation": "As Ilhas Eólias são conhecidas por seus vulcões ativos e sua beleza natural. Curiosidade: Stromboli, uma das ilhas Eólias, é conhecida por suas erupções frequentes e visíveis."
+  },
+  {
+    "id": "quiz-lugares-88",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país abriga o maior número de parques nacionais?",
+    "options": [
+      "Estados Unidos",
+      "Canadá",
+      "Austrália",
+      "Rússia"
+    ],
+    "correctAnswer": "Estados Unidos",
+    "explanation": "Os Estados Unidos possuem uma vasta rede de parques nacionais, protegendo paisagens diversas. Curiosidade: O sistema de parques nacionais americanos preserva habitats importantes e impulsiona o turismo."
+  },
+  {
+    "id": "quiz-lugares-89",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual o maior lago da África?",
+    "options": [
+      "Lago Vitória",
+      "Lago Tanganica",
+      "Lago Malawi",
+      "Lago Turkana"
+    ],
+    "correctAnswer": "Lago Vitória",
+    "explanation": "O Lago Vitória é o maior lago da África por área. Curiosidade: O Lago Vitória é uma fonte importante de água doce para a região."
+  },
+  {
+    "id": "quiz-lugares-90",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a maior cidade do México?",
+    "options": [
+      "Cidade do México",
+      "Guadalajara",
+      "Monterrey",
+      "Puebla"
+    ],
+    "correctAnswer": "Cidade do México",
+    "explanation": "Cidade do México é a maior cidade do México em população. Curiosidade: Cidade do México é uma das maiores cidades do mundo."
+  },
+  {
+    "id": "quiz-lugares-91",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a maior cidade do México em população?",
+    "options": [
+      "Guadalajara",
+      "Monterrey",
+      "Puebla",
+      "Cidade do México"
+    ],
+    "correctAnswer": "Cidade do México",
+    "explanation": "A Cidade do México, apesar dos desafios urbanos, permanece a mais populosa do país e uma das maiores da América do Norte."
   }
 ]

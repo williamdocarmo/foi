@@ -782,5 +782,621 @@
     ],
     "correctAnswer": "Griot",
     "explanation": "Os Griots são contadores de histórias e cantores tradicionais da África Ocidental, muitas vezes desempenhando um papel vital na preservação da história e da cultura. Uma curiosidade é que suas performances são frequentemente improvisadas e interativas."
+  },
+  {
+    "id": "quiz-cultura-57",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso festival de cores na Índia?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Pongal",
+      "Onam"
+    ],
+    "correctAnswer": "Holi",
+    "explanation": "Holi é um festival hindu de cores que celebra a chegada da primavera.  Curiosamente, as cores usadas no Holi têm significados simbólicos, representando coisas como amor, felicidade e prosperidade."
+  },
+  {
+    "id": "quiz-cultura-58",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre o Budismo Mahayana e o Theravada?",
+    "options": [
+      "O Mahayana enfatiza a iluminação individual, enquanto o Theravada foca na iluminação de todos os seres.",
+      "O Theravada rejeita a ideia de Bodhisattvas, enquanto o Mahayana os abraça.",
+      "O Mahayana se concentra em práticas meditativas, enquanto o Theravada prioriza a recitação de mantras.",
+      "Ambas as escolas são idênticas em seus ensinamentos e práticas."
+    ],
+    "correctAnswer": "O Theravada rejeita a ideia de Bodhisattvas, enquanto o Mahayana os abraça.",
+    "explanation": "Bodhisattvas são seres iluminados que adiam seu próprio nirvana para ajudar outros a alcançar a iluminação. Esta diferença central reflete abordagens distintas em relação ao caminho para a libertação."
+  },
+  {
+    "id": "quiz-cultura-59",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual estilo arquitetônico é caracterizado pelo uso extensivo de ferro e vidro?",
+    "options": [
+      "Barroco",
+      "Gótico",
+      "Romântico",
+      "Art Nouveau"
+    ],
+    "correctAnswer": "Art Nouveau",
+    "explanation": "O Art Nouveau utilizava o ferro e o vidro para criar estruturas leves e ornamentadas.  O arquiteto Antoni Gaudí é um excelente exemplo dessa estética."
+  },
+  {
+    "id": "quiz-cultura-60",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia africana se concentra na harmonia entre os humanos e a natureza?",
+    "options": [
+      "Ubuntu",
+      "Taoísmo",
+      "Confucionismo",
+      "Zen Budismo"
+    ],
+    "correctAnswer": "Ubuntu",
+    "explanation": "Ubuntu, um conceito presente em diversas culturas africanas, enfatiza a interdependência humana e a conexão com a natureza.  Significa, aproximadamente, 'eu sou porque nós somos'."
+  },
+  {
+    "id": "quiz-cultura-61",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um totem e um fetiche?",
+    "options": [
+      "Um totem é um objeto sagrado, enquanto um fetiche é um objeto de desejo sexual.",
+      "Um totem representa um clã ou grupo, enquanto um fetiche é um objeto com poder mágico atribuído.",
+      "Não há diferença entre os dois termos; são sinônimos.",
+      "Um totem é um símbolo religioso, enquanto um fetiche é um objeto doméstico."
+    ],
+    "correctAnswer": "Um totem representa um clã ou grupo, enquanto um fetiche é um objeto com poder mágico atribuído.",
+    "explanation": "Embora ambos possam ter significado espiritual ou religioso, a sua função social e o tipo de poder que se lhes atribui são distintos.  Totemismo é um sistema de crenças, enquanto o fetichismo é uma prática."
+  },
+  {
+    "id": "quiz-cultura-62",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do instrumento musical tradicional do Japão, com cinco cordas?",
+    "options": [
+      "Shamisen",
+      "Koto",
+      "Biwa",
+      "Taiko"
+    ],
+    "correctAnswer": "Koto",
+    "explanation": "O Koto é uma cítara japonesa de dezesseis cordas, mas a forma mais simples do instrumento tem apenas cinco. É conhecido pela sua sonoridade suave e melodiosa. O Shamisen também é de cordas, mas tem três."
+  },
+  {
+    "id": "quiz-cultura-63",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico do século XVIII enfatizava a razão e a ordem?",
+    "options": [
+      "Romantismo",
+      "Barroco",
+      "Neoclassicismo",
+      "Rococó"
+    ],
+    "correctAnswer": "Neoclassicismo",
+    "explanation": "O Neoclassicismo procurou imitar a arte e a arquitetura clássicas da Grécia e Roma, valorizando a simetria, a clareza e a proporção."
+  },
+  {
+    "id": "quiz-cultura-64",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é a origem do flamenco?",
+    "options": [
+      "Portugal",
+      "Itália",
+      "Espanha",
+      "França"
+    ],
+    "correctAnswer": "Espanha",
+    "explanation": "O flamenco é uma forma de arte musical e de dança originária da região da Andaluzia, no sul da Espanha. É caracterizado por suas músicas e danças apaixonadas e expressivas."
+  },
+  {
+    "id": "quiz-cultura-65",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a arquitetura gótica e a românica?",
+    "options": [
+      "A arquitetura gótica usa arcos redondos e paredes grossas, enquanto a românica usa arcos pontiagudos e paredes finas.",
+      "A arquitetura gótica é mais simples e utilitária, enquanto a românica é mais ornamentada e decorativa.",
+      "A arquitetura gótica usa arcos pontiagudos e abóbadas nervuradas, enquanto a românica usa arcos redondos e abóbadas de berço.",
+      "Não há diferença significativa entre os dois estilos."
+    ],
+    "correctAnswer": "A arquitetura gótica usa arcos pontiagudos e abóbadas nervuradas, enquanto a românica usa arcos redondos e abóbadas de berço.",
+    "explanation": "Estas diferenças permitiram aos arquitetos góticos criar edifícios mais altos e mais complexos do que os edifícios românicos. As catedrais góticas são excelentes exemplos desta arquitetura."
+  },
+  {
+    "id": "quiz-cultura-66",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual civilização antiga desenvolveu o sistema de escrita cuneiforme?",
+    "options": [
+      "Egípcios",
+      "Gregos",
+      "Sumérios",
+      "Romanos"
+    ],
+    "correctAnswer": "Sumérios",
+    "explanation": "O cuneiforme, um dos primeiros sistemas de escrita, foi criado pelos sumérios na Mesopotâmia há mais de 5.000 anos. É caracterizado por sua escrita com cunha em tabletes de argila."
+  },
+  {
+    "id": "quiz-cultura-67",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome da festividade religiosa cristã que comemora o nascimento de Jesus?",
+    "options": [
+      "Páscoa",
+      "Natal",
+      "Pentecostes",
+      "Ascensão"
+    ],
+    "correctAnswer": "Natal",
+    "explanation": "O Natal é uma das principais festividades do cristianismo, celebrada em 25 de dezembro em muitos países. É uma época de família, presentes, e reflexão religiosa."
+  },
+  {
+    "id": "quiz-cultura-68",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico do século XX explorava a fragmentação e a colagem?",
+    "options": [
+      "Cubismo",
+      "Impressionismo",
+      "Surrealismo",
+      "Realismo"
+    ],
+    "correctAnswer": "Cubismo",
+    "explanation": "O Cubismo, liderado por Picasso e Braque, revolucionou a arte ao fragmentar imagens e representá-las de múltiplos ângulos. Curiosidade:  O Cubismo influenciou fortemente o desenvolvimento do design gráfico e da publicidade."
+  },
+  {
+    "id": "quiz-cultura-69",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia prega a busca pelo autoconhecimento através da introspecção e da meditação?",
+    "options": [
+      "Estoicismo",
+      "Existencialismo",
+      "Budismo",
+      "Confucionismo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "O Budismo, em suas diversas vertentes, enfatiza a meditação e a introspecção como caminhos para alcançar o Nirvana e libertar-se do sofrimento. Curiosidade: Existem diversas escolas de meditação budista, cada uma com suas técnicas específicas."
+  },
+  {
+    "id": "quiz-cultura-70",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre o teatro Nô e o teatro Kyogen?",
+    "options": [
+      "O Nô é cômico, enquanto o Kyogen é sério.",
+      "O Nô utiliza máscaras, o Kyogen não.",
+      "O Nô é religioso, enquanto o Kyogen é profano.",
+      "O Nô é silencioso, enquanto o Kyogen é musical."
+    ],
+    "correctAnswer": "O Nô é sério e formal, enquanto o Kyogen é cômico e informal.",
+    "explanation": "O Noh é um teatro tradicional japonês formal e sério, enquanto o Kyogen é um teatro cômico que serve como interlúdio entre as peças de Nô. Ambos são importantes para a cultura teatral japonesa."
+  },
+  {
+    "id": "quiz-cultura-71",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia africana enfatiza a interdependência entre os seres humanos e o cosmos?",
+    "options": [
+      "Ubuntu",
+      "Taoísmo",
+      "Confucionismo",
+      "Budismo"
+    ],
+    "correctAnswer": "Ubuntu",
+    "explanation": "Ubuntu, filosofia africana originária dos povos Nguni da África Austral, enfatiza a interconexão humana e a responsabilidade comunitária.  A frase 'Umubuntu' (plural de Ubuntu) significa 'humanidade para com os outros'."
+  },
+  {
+    "id": "quiz-cultura-72",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do instrumento musical tradicional do México, feito de uma cabaça e uma vara?",
+    "options": [
+      "Marimba",
+      "Sitar",
+      "Charango",
+      "Güiro"
+    ],
+    "correctAnswer": "Güiro",
+    "explanation": "O güiro é um instrumento de percussão de origem caribenha, amplamente utilizado na música mexicana e latino-americana.  Seu som raspado é único e característico."
+  },
+  {
+    "id": "quiz-cultura-73",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento arquitetônico utilizava tijolos de vidro e estruturas de aço para criar grandes espaços abertos?",
+    "options": [
+      "Art Nouveau",
+      "Art Déco",
+      "Bauhaus",
+      "Modernismo Internacional"
+    ],
+    "correctAnswer": "Modernismo Internacional",
+    "explanation": "O Modernismo Internacional se caracterizava pelo uso de materiais inovadores como aço e vidro, buscando criar espaços amplos e funcionais.  Destacou-se na arquitetura de edifícios públicos e comerciais."
+  },
+  {
+    "id": "quiz-cultura-74",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual estilo de pintura se caracteriza pelo uso de cores vibrantes e pinceladas visíveis, transmitindo movimento e luz?",
+    "options": [
+      "Realismo",
+      "Barroco",
+      "Impressionismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Impressionismo",
+    "explanation": "O Impressionismo, movimento artístico do século XIX, priorizava a captação da luz e do movimento em suas pinturas, utilizando pinceladas curtas e cores vibrantes.  Artistas como Monet e Renoir são expoentes do estilo."
+  },
+  {
+    "id": "quiz-cultura-75",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre o teatro Kabuki e o teatro Noh?",
+    "options": [
+      "O Kabuki é exclusivamente masculino, enquanto o Noh permite atrizes.",
+      "O Kabuki é mais formal, enquanto o Noh é mais informal.",
+      "O Kabuki utiliza dança e música, o Noh não.",
+      "O Kabuki é mais focado em histórias populares, enquanto o Noh em temas religiosos e mitológicos."
+    ],
+    "correctAnswer": "O Kabuki é mais focado em histórias populares, enquanto o Noh em temas religiosos e mitológicos.",
+    "explanation": "Embora ambos sejam teatros tradicionais japoneses, o Noh é mais formal e religioso, enquanto o Kabuki é mais dramático, dinâmico e focado em narrativas populares, com dança, música e efeitos especiais."
+  },
+  {
+    "id": "quiz-cultura-76",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Em qual continente está localizada a Índia?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Sul"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Índia está localizada no subcontinente indiano, na Ásia.  É um país de grande diversidade cultural e geográfica."
+  },
+  {
+    "id": "quiz-cultura-77",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do festival de luzes celebrado na Índia?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Pongal",
+      "Onam"
+    ],
+    "correctAnswer": "Diwali",
+    "explanation": "Diwali, também conhecido como Deepavali, é um festival hindu de cinco dias que celebra o triunfo da luz sobre as trevas, do bem sobre o mal, e do conhecimento sobre a ignorância."
+  },
+  {
+    "id": "quiz-cultura-78",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filósofo grego é conhecido por sua teoria das ideias?",
+    "options": [
+      "Aristóteles",
+      "Sócrates",
+      "Platão",
+      "Epicuro"
+    ],
+    "correctAnswer": "Platão",
+    "explanation": "Platão, aluno de Sócrates e mestre de Aristóteles, desenvolveu a Teoria das Ideias, que postula a existência de um mundo de formas perfeitas e imutáveis, das quais o mundo sensível é apenas uma cópia imperfeita."
+  },
+  {
+    "id": "quiz-cultura-79",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual animal é símbolo da China?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Dragão",
+      "Elefante"
+    ],
+    "correctAnswer": "Dragão",
+    "explanation": "O dragão é um símbolo mitológico da China, representando poder, sorte e fortuna.  Está profundamente enraizado na cultura e mitologia chinesa."
+  },
+  {
+    "id": "quiz-cultura-80",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome da dança tradicional do Peru, conhecida por suas roupas vibrantes e movimentos elegantes?",
+    "options": [
+      "Marinera",
+      "Cumbia",
+      "Tango",
+      "Samba"
+    ],
+    "correctAnswer": "Marinera",
+    "explanation": "A Marinera é uma dança folclórica peruana, frequentemente associada ao período de cortejo, com movimentos elegantes e roupas coloridas.  Sua música é característica e animada."
+  },
+  {
+    "id": "quiz-cultura-81",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento artístico enfatizava a representação objetiva da realidade, rejeitando o subjetivismo e o sentimentalismo?",
+    "options": [
+      "Realismo",
+      "Impressionismo",
+      "Romantismo",
+      "Surrealismo"
+    ],
+    "correctAnswer": "Realismo",
+    "explanation": "O Realismo, movimento artístico do século XIX, buscava retratar a realidade de forma objetiva e detalhada, sem idealizações ou sentimentalismo, focando em temas cotidianos e sociais."
+  },
+  {
+    "id": "quiz-cultura-82",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é berço do Tango?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Espanha",
+      "Portugal"
+    ],
+    "correctAnswer": "Argentina",
+    "explanation": "O Tango nasceu em Buenos Aires, Argentina, no final do século XIX, em bairros pobres da cidade, desenvolvendo-se como uma dança de expressão e paixão."
+  },
+  {
+    "id": "quiz-cultura-83",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do tradicional instrumento musical da Índia, semelhante a um alaúde?",
+    "options": [
+      "Sitar",
+      "Guzheng",
+      "Shamisen",
+      "Balalaika"
+    ],
+    "correctAnswer": "Sitar",
+    "explanation": "O sitar é um instrumento de corda indiano, com um som característico e melódico, amplamente utilizado na música clássica indiana."
+  },
+  {
+    "id": "quiz-cultura-84",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre o Budismo Zen e o Budismo Tibetano?",
+    "options": [
+      "O Zen enfatiza a meditação, enquanto o Tibetano foca em rituais.",
+      "O Zen é mais introspectivo, enquanto o Tibetano é mais extrovertido.",
+      "O Zen é exclusivamente asiático, enquanto o Tibetano se espalhou pelo mundo.",
+      "O Zen rejeita os deuses, enquanto o Tibetano os incorpora."
+    ],
+    "correctAnswer": "O Zen enfatiza a meditação, enquanto o Tibetano foca em rituais.",
+    "explanation": "Embora ambos sejam escolas budistas, o Zen destaca a meditação como caminho para a iluminação, enquanto o Budismo Tibetano integra práticas meditativas com rituais complexos e a veneração de divindades."
+  },
+  {
+    "id": "quiz-cultura-85",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o idioma oficial do Japão?",
+    "options": [
+      "Chinês",
+      "Coreano",
+      "Japonês",
+      "Inglês"
+    ],
+    "correctAnswer": "Japonês",
+    "explanation": "O japonês é o idioma oficial do Japão, com uma longa e rica história e uma estrutura gramatical única."
+  },
+  {
+    "id": "quiz-cultura-86",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido por seus canais e moinhos de vento?",
+    "options": [
+      "Itália",
+      "Holanda",
+      "França",
+      "Alemanha"
+    ],
+    "correctAnswer": "Holanda",
+    "explanation": "A Holanda é famosa por sua extensa rede de canais e moinhos de vento, que desempenharam um papel crucial em sua história e cultura.  Curiosidade:  Amsterdã possui mais de 1.600 pontes!"
+  },
+  {
+    "id": "quiz-cultura-87",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre o Carnaval do Rio de Janeiro e o de Veneza?",
+    "options": [
+      "Tipo de música",
+      "Localização",
+      "Usam máscaras",
+      "Data de celebração"
+    ],
+    "correctAnswer": "Usam máscaras",
+    "explanation": "O Carnaval de Veneza é famoso pelo uso de máscaras elaboradas, enquanto o Carnaval do Rio de Janeiro é conhecido por seus desfiles de escolas de samba e fantasias vibrantes. Curiosidade: As máscaras de Veneza têm uma longa história, datando do século XV."
+  },
+  {
+    "id": "quiz-cultura-88",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia africana enfatiza a responsabilidade coletiva e a harmonia com a natureza?",
+    "options": [
+      "Ubuntu",
+      "Confucionismo",
+      "Taoismo",
+      "Estoicismo"
+    ],
+    "correctAnswer": "Ubuntu",
+    "explanation": "Ubuntu é uma filosofia africana que enfatiza a interconexão entre as pessoas e a responsabilidade coletiva pelo bem-estar da comunidade.  Curiosidade:  A palavra 'Ubuntu' significa 'humanidade para com os outros' em Nguni Bantu."
+  },
+  {
+    "id": "quiz-cultura-89",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual civilização antiga é conhecida por seus hieróglifos?",
+    "options": [
+      "Sumérios",
+      "Gregos",
+      "Romanos",
+      "Egípcios"
+    ],
+    "correctAnswer": "Egípcios",
+    "explanation": "Os egípcios antigos desenvolveram um sistema de escrita complexa usando hieróglifos. Curiosidade:  A Pedra de Roseta foi crucial para decifrar os hieróglifos."
+  },
+  {
+    "id": "quiz-cultura-90",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual o nome da dança tradicional folclórica do Peru, frequentemente associada a festivais religiosos?",
+    "options": [
+      "Marinera",
+      "Tango",
+      "Samba",
+      "Flamenco"
+    ],
+    "correctAnswer": "Marinera",
+    "explanation": "A Marinera é uma dança folclórica peruana vibrante e expressiva, frequentemente interpretada durante festivais religiosos e celebrações. Curiosidade: Existem variações regionais da Marinera, cada uma com suas próprias características."
+  },
+  {
+    "id": "quiz-cultura-91",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome da capital do Japão?",
+    "options": [
+      "Tóquio",
+      "Kyoto",
+      "Osaka",
+      "Hiroshima"
+    ],
+    "correctAnswer": "Tóquio",
+    "explanation": "Tóquio é a capital e a maior cidade do Japão, um centro global de cultura e economia. Curiosidade: Tóquio já foi conhecida como Edo."
+  },
+  {
+    "id": "quiz-cultura-92",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico enfatizava a representação de imagens fragmentadas e distorcidas?",
+    "options": [
+      "Cubismo",
+      "Impressionismo",
+      "Realismo",
+      "Barroco"
+    ],
+    "correctAnswer": "Cubismo",
+    "explanation": "O Cubismo, liderado por Picasso e Braque, revolucionou a arte com suas representações fragmentadas e perspectivas múltiplas. Curiosidade: O Cubismo influenciou profundamente a arte e o design do século XX."
+  },
+  {
+    "id": "quiz-cultura-93",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é lar do Coliseu?",
+    "options": [
+      "Grécia",
+      "Egito",
+      "Itália",
+      "França"
+    ],
+    "correctAnswer": "Itália",
+    "explanation": "O Coliseu é um anfiteatro icônico em Roma, Itália, um símbolo da cultura e história romana. Curiosidade: O Coliseu abrigou espetáculos grandiosos, incluindo lutas de gladiadores."
+  },
+  {
+    "id": "quiz-cultura-94",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual estilo arquitetônico é conhecido pelo uso de arcos pontiagudos e vitrais?",
+    "options": [
+      "Românico",
+      "Gótico",
+      "Clássico",
+      "Barroco"
+    ],
+    "correctAnswer": "Gótico",
+    "explanation": "A arquitetura gótica, predominante na Europa Medieval, é reconhecida por suas características arquitetônicas distintivas, incluindo arcos pontiagudos e vitrais elaborados. Curiosidade: As catedrais góticas foram construídas para inspirar reverência e admiração."
+  },
+  {
+    "id": "quiz-cultura-95",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do idioma oficial da Espanha?",
+    "options": [
+      "Francês",
+      "Português",
+      "Inglês",
+      "Espanhol"
+    ],
+    "correctAnswer": "Espanhol",
+    "explanation": "O espanhol é a língua oficial da Espanha, falada por grande parte da população. Curiosidade: O espanhol é um dos idiomas mais falados do mundo."
+  },
+  {
+    "id": "quiz-cultura-96",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento arquitetônico enfatizava a funcionalidade e a simplicidade, rejeitando a ornamentação desnecessária?",
+    "options": [
+      "Barroco",
+      "Gótico",
+      "Art Nouveau",
+      "Bauhaus"
+    ],
+    "correctAnswer": "Bauhaus",
+    "explanation": "A Bauhaus enfatizava a forma seguindo a função e a integração da arte e da tecnologia. Curiosidade: A escola Bauhaus teve uma grande influência no design moderno do século XX."
+  },
+  {
+    "id": "quiz-cultura-97",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pela Torre Eiffel?",
+    "options": [
+      "Estados Unidos",
+      "França",
+      "Itália",
+      "Reino Unido"
+    ],
+    "correctAnswer": "França",
+    "explanation": "A Torre Eiffel é um ícone de Paris, França.  Uma curiosidade:  Ela foi construída para a Exposição Universal de 1889."
+  },
+  {
+    "id": "quiz-cultura-98",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual a cor predominante na bandeira da Índia?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Amarelo",
+      "Laranja"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A bandeira indiana tem três faixas horizontais: safran (laranja), branco e verde. Uma curiosidade: O safran simboliza coragem e sacrifício."
+  },
+  {
+    "id": "quiz-cultura-99",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual filosofia enfatiza a busca pelo 'Tao'?",
+    "options": [
+      "Budismo",
+      "Confucionismo",
+      "Taoísmo",
+      "Xintoísmo"
+    ],
+    "correctAnswer": "Taoísmo",
+    "explanation": "O Taoísmo busca a harmonia com o Tao, o princípio ordenador do universo. Uma curiosidade: O Yin e o Yang são conceitos-chave no Taoísmo."
+  },
+  {
+    "id": "quiz-cultura-100",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do estilo arquitetônico característico das igrejas medievais com arcos ogivais?",
+    "options": [
+      "Românico",
+      "Gótico",
+      "Barroco",
+      "Neoclássico"
+    ],
+    "correctAnswer": "Gótico",
+    "explanation": "A arquitetura gótica é reconhecida pelos seus arcos pontiagudos, vitrais e altura impressionante. Uma curiosidade: As catedrais góticas eram símbolos de poder da Igreja Católica."
   }
 ]

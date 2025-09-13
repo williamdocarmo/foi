@@ -2316,5 +2316,266 @@
     "content": "A medicina preventiva personalizada utilizará tecnologias para identificar riscos e prevenir doenças, aumentando a expectativa de vida.",
     "id": "futuro-383",
     "categoryId": "futuro"
+  },
+  {
+    "id": "futuro-384",
+    "categoryId": "futuro",
+    "title": "A Era dos Avatares Digitais",
+    "hook": "Você sabia que...",
+    "content": "Avatares hiper-realistas permitirão que você participe de eventos e interaja com pessoas em qualquer lugar do mundo, sem precisar se deslocar fisicamente.  Seu avatar digital poderá representar você em reuniões de trabalho, eventos sociais ou até mesmo em viagens virtuais.",
+    "funFact": "Seu avatar poderá sentir e responder ao ambiente virtual por meio de sensores conectados ao seu corpo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-385",
+    "categoryId": "futuro",
+    "title": "A Era dos Órgãos Impressos em 3D",
+    "hook": "Incrível:",
+    "content": "Imagine um futuro onde órgãos danificados são substituídos por réplicas perfeitas, impressas em 3D a partir das células do próprio paciente. Essa tecnologia revolucionária promete acabar com as longas filas de transplantes e melhorar significativamente a qualidade de vida de milhões.",
+    "funFact": "Em breve, poderão ser impressos vasos sanguíneos funcionais, complexos e totalmente personalizados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-386",
+    "categoryId": "futuro",
+    "title": "O Futuro da Música Sentida",
+    "hook": "Incrível: música que sente!",
+    "content": "Imagine fones de ouvido que não apenas reproduzem música, mas também interpretam suas emoções e ajustam a playlist para seu estado de espírito.  Sensores biométricos avançados analisariam seu ritmo cardíaco, ondas cerebrais e expressões faciais, criando uma experiência sonora personalizada e profundamente imersiva. Essa tecnologia já está em desenvolvimento inicial.",
+    "funFact": "Algumas empresas estão explorando a integração de inteligência artificial para compor músicas baseadas em suas emoções em tempo real!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-387",
+    "categoryId": "futuro",
+    "title": "Cidades que Respiram",
+    "hook": "Você sabia que...",
+    "content": "As cidades do futuro serão projetadas para otimizar a qualidade do ar, usando nanotecnologia para capturar poluentes e liberar oxigênio. Edifícios cobertos de plantas e sistemas inteligentes de ventilação tornarão os centros urbanos verdadeiros pulmões verdes. A integração de áreas verdes urbanas também reduzirá os níveis de estresse e doenças.",
+    "funFact": "Algumas pesquisas apontam para a possibilidade de criar edifícios que produzem seu próprio oxigênio!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-388",
+    "categoryId": "futuro",
+    "title": "Roupas que se Adaptam",
+    "hook": "Incrível:",
+    "content": "Imagine roupas que se ajustam automaticamente à sua temperatura corporal, mantendo você confortável em qualquer clima. Tecidos inteligentes com nanotecnologia regularão a temperatura e a umidade, adaptando-se a cada atividade física. A moda será mais sustentável, com peças duráveis e personalizáveis.",
+    "funFact": "Tecidos que mudam de cor com a temperatura já são realidade!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-389",
+    "categoryId": "futuro",
+    "title": "Turismo em Outros Planetas",
+    "hook": "Você sabia que...",
+    "content": "O turismo espacial se tornará uma realidade, permitindo que viajantes experimentem a beleza e a aventura do espaço.  Viagens para a Lua, Marte e até mesmo estações espaciais poderão ser acessíveis a mais pessoas, embora ainda com um custo elevado.",
+    "funFact": "Há empresas já vendendo passagens para viagens suborbitais!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-390",
+    "categoryId": "futuro",
+    "title": "A Cura da Doença de Alzheimer",
+    "hook": "Incrível:",
+    "content": "Avanços na neurociência e na engenharia genética podem levar à cura da doença de Alzheimer. Terapias genéticas e medicamentos personalizados poderão reparar os danos cerebrais e prevenir o desenvolvimento da doença, melhorando a qualidade de vida de milhões de pessoas.",
+    "funFact": "Pesquisas promissoras estão explorando a possibilidade de 'reprogramar' células cerebrais danificadas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-391",
+    "categoryId": "futuro",
+    "title": "Robôs que Cuidam de Nós",
+    "hook": "Você sabia que...",
+    "content": "Robôs humanoides avançados farão parte do nosso dia a dia, cuidando de idosos, crianças e pessoas com deficiência.  Esses robôs serão capazes de realizar tarefas complexas, fornecer assistência médica e oferecer companhia, melhorando a qualidade de vida e a independência.",
+    "funFact": "Existem robôs que já conseguem realizar tarefas domésticas complexas como lavar a louça!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-392",
+    "categoryId": "futuro",
+    "title": "Agricultura Espacial",
+    "hook": "Incrível:",
+    "content": "A agricultura espacial será fundamental para a colonização de outros planetas.  Tecnologias avançadas permitirão cultivar alimentos em ambientes hostis, utilizando recursos locais e sistemas de recirculação de água e nutrientes. A segurança alimentar em missões espaciais de longa duração dependerá disso.",
+    "funFact": "Já existem experimentos de cultivo de plantas em condições de baixa gravidade!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-393",
+    "categoryId": "futuro",
+    "title": "A Era dos Materiais Biológicos",
+    "hook": "Você sabia que...",
+    "content": "O futuro da construção civil pode estar em materiais cultivados em laboratório, como tijolos feitos de microrganismos e estruturas auto-reparadoras. Esses materiais 'vivos' seriam sustentáveis, adaptáveis e muito mais eficientes do que os tradicionais. Imagine prédios que crescem e se regeneram sozinhos!",
+    "funFact": "Esses biomateriais poderiam até mesmo absorver poluentes do ar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "futuro-394",
+    "categoryId": "futuro",
+    "title": "Cibernética: A Simbiose Humano-Máquina",
+    "hook": "Prepare-se para...",
+    "content": "A fronteira entre homem e máquina está cada vez mais tênue.  Implantes cibernéticos poderão restaurar funções corporais perdidas, aprimorar habilidades físicas e cognitivas, e até mesmo integrar a mente humana com a inteligência artificial.  Imagine o potencial para superar limitações humanas!",
+    "funFact": "Próteses controladas pela mente já são realidade, mas o futuro reserva interfaces cérebro-computador muito mais sofisticadas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-395",
+    "categoryId": "futuro",
+    "title": "O Futuro da Educação Holística",
+    "hook": "Descubra a...",
+    "content": "A educação do futuro será personalizada, imersiva e centrada no desenvolvimento integral do indivíduo. Realidade virtual, inteligência artificial e aprendizagem baseada em jogos transformarão a sala de aula em um ambiente dinâmico e estimulante. Cada aluno terá um plano de estudos único e adaptado às suas necessidades.",
+    "funFact": "Robôs educadores personalizados serão comuns em escolas do futuro.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-396",
+    "categoryId": "futuro",
+    "title": "Exploração de Asteroides: Mineração Espacial",
+    "hook": "Incrível: riqueza...",
+    "content": "Asteroides ricos em metais preciosos e recursos raros serão alvo de exploração espacial comercial. Empresas privadas e agências espaciais desenvolverão tecnologias para extrair esses materiais no espaço, revolucionando a indústria e a economia global. O futuro pode ser repleto de ouro espacial!",
+    "funFact": "A mineração de asteroides pode resolver a escassez de recursos na Terra.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-397",
+    "categoryId": "futuro",
+    "title": "O Fim da Escarcidade Hídrica?",
+    "hook": "Você sabia que...",
+    "content": "Tecnologias inovadoras de dessalinização, gestão de recursos hídricos e produção de água potável a partir do ar podem resolver o problema global de escassez de água potável.  Grandes avanços em nanotecnologia e biotecnologia prometem um futuro com abundância de água limpa para todos.",
+    "funFact": "No futuro, a coleta de água da atmosfera pode ser tão comum como usar uma torneira.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-398",
+    "categoryId": "futuro",
+    "title": "Cidades Flutuantes",
+    "hook": "Incrível: cidades...",
+    "content": "Com o aumento do nível do mar, cidades flutuantes podem ser a solução para o futuro. Estruturas autossustentáveis, construídas com materiais inovadores e energia renovável, fornecerão moradia e infraestrutura para milhões de pessoas.  O futuro das cidades pode estar na água.",
+    "funFact": "Protótipos de cidades flutuantes já estão em desenvolvimento em diversos países.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-399",
+    "categoryId": "futuro",
+    "title": "A Revolução da Agricultura Vertical",
+    "hook": "Cultive...",
+    "content": "Fazendas verticais, em prédios altos e controlados climaticamente, podem produzir alimentos localmente, reduzindo a necessidade de transporte e o impacto ambiental.  Essa tecnologia permite produzir mais alimentos em menos espaço, garantindo segurança alimentar em um mundo cada vez mais populoso.",
+    "funFact": "Fazendas verticais utilizam até 99% menos água do que a agricultura tradicional.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-400",
+    "categoryId": "futuro",
+    "title": "Transporte Autônomo Subaquático",
+    "hook": "Explore...",
+    "content": "Veículos subaquáticos autônomos serão essenciais para explorar os oceanos e monitorar a vida marinha.  Eles poderão coletar dados científicos, inspecionar infraestruturas submarinas e até mesmo realizar tarefas de manutenção e reparo de forma automatizada. O futuro é explorar o desconhecido.",
+    "funFact": "Robôs subaquáticos já são usados em pesquisas científicas, mas o futuro reserva veículos muito mais sofisticados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-401",
+    "categoryId": "futuro",
+    "title": "Energia das Marés",
+    "hook": "Oceano...",
+    "content": "A energia das marés, uma fonte renovável e sustentável, será explorada em larga escala para gerar eletricidade.  O movimento das marés será usado para acionar turbinas e gerar energia limpa, contribuindo para um futuro com menos dependência de combustíveis fósseis.",
+    "funFact": "A energia das marés é uma fonte de energia previsível e constante.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-402",
+    "categoryId": "futuro",
+    "title": "Turismo Espacial para Todos?",
+    "hook": "Viaje...",
+    "content": "O turismo espacial pode se tornar mais acessível no futuro, com empresas privadas desenvolvendo naves espaciais mais baratas e seguras.  Imagine a oportunidade de visitar a Estação Espacial Internacional ou até mesmo a Lua! O turismo espacial será uma nova indústria bilionária.",
+    "funFact": "Passagens para voos suborbitais já estão sendo vendidas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-403",
+    "categoryId": "futuro",
+    "title": "Bio-impressão 4D: Criando tecidos vivos",
+    "hook": "Incrível: órgãos impressos!",
+    "content": "A bio-impressão 4D vai além da 3D, imprimindo estruturas que se modificam com o tempo, reagindo ao ambiente. Imagine órgãos impressos que se adaptam ao corpo do paciente, uma revolução na medicina regenerativa.  Essa tecnologia poderá criar tecidos complexos e personalizados, abrindo novas possibilidades para transplantes e tratamentos médicos.",
+    "funFact": "A bio-impressão 4D já está sendo usada para criar vasos sanguíneos funcionais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-404",
+    "categoryId": "futuro",
+    "title": "Energia Oceânica: Ondas como fonte limpa",
+    "hook": "Impressionante:",
+    "content": "A energia das ondas é uma fonte inesgotável e limpa, capaz de alimentar cidades inteiras.  Dispositivos inovadores capturam a força do mar, convertendo-a em eletricidade sustentável.  Essa tecnologia contribuirá significativamente para a transição para um futuro de energia renovável e limpa.",
+    "funFact": "Estima-se que a energia das ondas poderia suprir até 80% do consumo global de energia.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-405",
+    "categoryId": "futuro",
+    "title": "Energia Oceânica: Ondas de Energia",
+    "hook": "Incrível:",
+    "content": "Os oceanos são uma fonte imensa de energia ainda pouco explorada.  Novas tecnologias estão sendo desenvolvidas para capturar a energia das ondas e das marés, gerando eletricidade limpa e renovável em larga escala.  Imagine cidades costeiras totalmente autossuficientes em energia!",
+    "funFact": "Algumas usinas de energia oceânica já estão em operação, mas o potencial ainda é muito maior do que se imagina.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "futuro-406",
+    "categoryId": "futuro",
+    "title": "Transporte por Tubos Magnéticos",
+    "hook": "Você sabia que...",
+    "content": "O transporte por tubos a vácuo, usando a força magnética para propulsar cápsulas a velocidades incrivelmente altas, pode revolucionar as viagens de longa distância.  Imagine ir de Nova York a Los Angeles em menos de uma hora!  A segurança e a eficiência energética são os principais desafios.",
+    "funFact": "Esses tubos poderiam até mesmo conectar cidades subterraneamente, criando uma rede de transporte verdadeiramente global.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-407",
+    "categoryId": "futuro",
+    "title": "O Futuro da Bio-Iluminação",
+    "hook": "Incrível: Plantas que brilham!",
+    "content": "Imagine cidades iluminadas por árvores geneticamente modificadas para brilharem bioluminescentemente, reduzindo drasticamente a necessidade de iluminação artificial.  Essa tecnologia, ainda em desenvolvimento, promete uma revolução na iluminação urbana sustentável e eficiente.  Além disso, poderá impactar em áreas rurais com pouca ou nenhuma eletricidade.",
+    "funFact": "Algumas espécies de fungos já possuem bioluminescência natural, inspirando a pesquisa.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-408",
+    "categoryId": "futuro",
+    "title": "Computadores Baseados em DNA",
+    "hook": "Você sabia que...",
+    "content": "O DNA pode ser programado para realizar cálculos complexos, abrindo caminho para computadores biológicos ultra-rápidos e eficientes em energia.  Essa tecnologia inovadora pode revolucionar a medicina, a ciência dos materiais e a inteligência artificial, processando informações de maneira totalmente diferente.",
+    "funFact": "Um único grama de DNA pode armazenar mais informações do que todos os computadores do mundo.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "futuro-409",
+    "categoryId": "futuro",
+    "title": "Energia Cinética Urbana",
+    "hook": "Incrível:",
+    "content": "O movimento das pessoas e veículos nas cidades pode ser convertido em energia elétrica através de novos sistemas de captação. Pisos e ruas inteligentes, equipados com geradores piezoelétricos, poderiam transformar a energia cinética em eletricidade, alimentando a iluminação pública ou outros sistemas urbanos.",
+    "funFact": "Já existem pequenos protótipos em operação, como pisos que geram energia com o tráfego de pedestres.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-410",
+    "categoryId": "futuro",
+    "title": "A Internet Sentiente?",
+    "hook": "Você sabia que...",
+    "content": "A combinação da internet das coisas com a inteligência artificial poderia levar ao desenvolvimento de uma internet “sentiente”, capaz de aprender, adaptar-se e responder às necessidades dos usuários de maneiras imprevisíveis e personalizadas.  Isso impacta a privacidade e segurança de dados.",
+    "funFact": "Já existem plataformas que simulam comportamento “sentiente” em sistemas de busca.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "futuro-411",
+    "categoryId": "futuro",
+    "title": "Reaproveitamento de Água da Chuva em Larga Escala",
+    "hook": "Incrível:",
+    "content": "Sistemas de coleta e tratamento de água da chuva em larga escala poderão garantir o acesso à água potável em regiões áridas e semiáridas.  Tecnologias avançadas de filtragem e purificação tornarão a água da chuva uma fonte confiável e sustentável.",
+    "funFact": "Algumas cidades já implementam sistemas de reaproveitamento da água da chuva em projetos pilotos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "futuro-412",
+    "categoryId": "futuro",
+    "title": "Combate ao Aquecimento Global com Geoengenharia",
+    "hook": "Você sabia que...",
+    "content": "Técnicas de geoengenharia, como a fertilização dos oceanos e a remoção de CO2 da atmosfera, podem ser usadas para mitigar os efeitos do aquecimento global.  No entanto, essas tecnologias ainda são controversas e exigem estudos cuidadosos sobre seus impactos ambientais.",
+    "funFact": "Há projetos que buscam remover CO2 da atmosfera usando técnicas inovadoras.",
+    "curiosityLevel": 4
   }
 ]

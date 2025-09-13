@@ -796,5 +796,313 @@
     ],
     "correctAnswer": "Random Access Memory",
     "explanation": "RAM é memória de acesso aleatório, volátil e usada para o funcionamento do sistema. Curiosidade: A RAM é mais rápida que o armazenamento em disco rígido."
+  },
+  {
+    "id": "quiz-tecnologia-58",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um 'cookie' na internet?",
+    "options": [
+      "Um tipo de malware",
+      "Um pequeno arquivo de texto armazenado pelo navegador",
+      "Um protocolo de comunicação",
+      "Um tipo de linguagem de programação"
+    ],
+    "correctAnswer": "Um pequeno arquivo de texto armazenado pelo navegador",
+    "explanation": "Cookies são usados para armazenar informações sobre a navegação do usuário, como preferências e histórico. Curiosidade:  Você pode gerenciar seus cookies nas configurações do seu navegador."
+  },
+  {
+    "id": "quiz-tecnologia-59",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é o 'problema do agente viajante'?",
+    "options": [
+      "Um desafio em criptografia",
+      "Um problema clássico em algoritmos de otimização",
+      "Um defeito comum em placas-mãe",
+      "Um tipo de ataque de negação de serviço"
+    ],
+    "correctAnswer": "Um problema clássico em algoritmos de otimização",
+    "explanation": "O problema do agente viajante envolve encontrar a rota mais curta que visite todos os pontos de uma lista e retorne ao ponto de partida. É um problema NP-difícil, o que significa que não existe uma solução eficiente para ele em todos os casos. Curiosidade: É usado como benchmark para testar algoritmos de otimização."
+  },
+  {
+    "id": "quiz-tecnologia-60",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual tecnologia permite a execução de múltiplos sistemas operacionais em uma mesma máquina?",
+    "options": [
+      "Virtualização",
+      "Cloud Computing",
+      "Computação Quântica",
+      "Biometria"
+    ],
+    "correctAnswer": "Virtualização",
+    "explanation": "A virtualização cria máquinas virtuais que simulam um ambiente de hardware independente.  Curiosidade:  Virtualização é amplamente usada em servidores para economizar recursos e aumentar a flexibilidade."
+  },
+  {
+    "id": "quiz-tecnologia-61",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa a sigla 'API'?",
+    "options": [
+      "Advanced Programming Interface",
+      "Application Programming Interface",
+      "Automated Process Interface",
+      "Artificial Programming Interface"
+    ],
+    "correctAnswer": "Application Programming Interface",
+    "explanation": "API é um conjunto de regras e especificações que permitem que diferentes softwares se comuniquem entre si. Curiosidade: APIs são fundamentais para a integração de diferentes serviços online."
+  },
+  {
+    "id": "quiz-tecnologia-62",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual a função principal de um firewall?",
+    "options": [
+      "Acelerar a velocidade da internet",
+      "Criptografar dados",
+      "Monitorar o tráfego de rede e bloquear acessos não autorizados",
+      "Armazenar arquivos temporariamente"
+    ],
+    "correctAnswer": "Monitorar o tráfego de rede e bloquear acessos não autorizados",
+    "explanation": "Firewalls atuam como uma barreira de segurança, protegendo seu computador ou rede de acessos maliciosos. Curiosidade: Firewalls podem ser tanto de hardware quanto de software."
+  },
+  {
+    "id": "quiz-tecnologia-63",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destes é um exemplo de sistema operacional?",
+    "options": [
+      "Microsoft Word",
+      "Google Chrome",
+      "Windows 10",
+      "Adobe Photoshop"
+    ],
+    "correctAnswer": "Windows 10",
+    "explanation": "Windows 10 é um sistema operacional amplamente utilizado. Curiosidade: Existem diversos outros sistemas operacionais, como macOS, Linux e Android."
+  },
+  {
+    "id": "quiz-tecnologia-64",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual o conceito que descreve a capacidade de um sistema de se adaptar a diferentes tamanhos de tela?",
+    "options": [
+      "Responsividade",
+      "Escalabilidade",
+      "Acessibilidade",
+      "Compatibilidade"
+    ],
+    "correctAnswer": "Responsividade",
+    "explanation": "Responsividade garante que um site ou aplicativo se ajuste automaticamente ao tamanho da tela do dispositivo. Curiosidade:  O design responsivo é crucial para uma boa experiência do usuário em dispositivos móveis."
+  },
+  {
+    "id": "quiz-tecnologia-65",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um ataque de 'man-in-the-middle'?",
+    "options": [
+      "Um ataque que inunda um servidor com tráfego",
+      "Um ataque que tenta adivinhar senhas",
+      "Um ataque onde um atacante se coloca entre duas partes que se comunicam",
+      "Um ataque que usa emails para enganar vítimas"
+    ],
+    "correctAnswer": "Um ataque onde um atacante se coloca entre duas partes que se comunicam",
+    "explanation": "Neste ataque, o atacante intercepta e manipula a comunicação entre duas partes. Curiosidade:  Usar VPNs pode ajudar a mitigar este tipo de ataque."
+  },
+  {
+    "id": "quiz-tecnologia-66",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual o conceito que descreve a prática de executar programas remotamente em um servidor?",
+    "options": [
+      "Cloud Computing",
+      "Virtualização",
+      "Programação Distribuída",
+      "Computação em Grade"
+    ],
+    "correctAnswer": "Cloud Computing",
+    "explanation": "Cloud Computing permite o acesso a recursos computacionais, como servidores e armazenamento, através da internet. Curiosidade: Existem diferentes modelos de Cloud Computing, como IaaS, PaaS e SaaS."
+  },
+  {
+    "id": "quiz-tecnologia-67",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual tecla geralmente apaga um caractere à esquerda do cursor?",
+    "options": [
+      "Delete",
+      "Enter",
+      "Backspace",
+      "Shift"
+    ],
+    "correctAnswer": "Backspace",
+    "explanation": "A tecla Backspace apaga caracteres à esquerda do cursor.  Curiosidade: O nome 'Backspace' vem do fato de que ele move o cursor para trás e apaga o caractere naquela posição."
+  },
+  {
+    "id": "quiz-tecnologia-68",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas extensões de arquivo é tipicamente associada a arquivos de áudio?",
+    "options": [
+      ".jpg",
+      ".docx",
+      ".mp3",
+      ".pdf"
+    ],
+    "correctAnswer": ".mp3",
+    "explanation": ".mp3 é uma extensão de arquivo comum para arquivos de áudio. Curiosidade: MP3 é uma sigla para MPEG Audio Layer III."
+  },
+  {
+    "id": "quiz-tecnologia-69",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual o principal objetivo de um algoritmo de ordenação?",
+    "options": [
+      "Criptografar dados",
+      "Ordenar dados em uma sequência específica",
+      "Compactar arquivos",
+      "Gerar números aleatórios"
+    ],
+    "correctAnswer": "Ordenar dados em uma sequência específica",
+    "explanation": "Algoritmos de ordenação, como o Bubble Sort e o Merge Sort, organizam dados (números, textos, etc.) em ordem crescente ou decrescente. Curiosidade: Existem diferentes algoritmos de ordenação, cada um com sua própria eficiência e complexidade."
+  },
+  {
+    "id": "quiz-tecnologia-70",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa 'cache' no contexto de um navegador web?",
+    "options": [
+      "Dados armazenados temporariamente para carregar páginas mais rapidamente",
+      "Um tipo de malware",
+      "Um formato de arquivo de imagem",
+      "Um protocolo de comunicação"
+    ],
+    "correctAnswer": "Dados armazenados temporariamente para carregar páginas mais rapidamente",
+    "explanation": "O cache do navegador armazena temporariamente dados (imagens, scripts, etc.) para acelerar o carregamento de páginas visitadas anteriormente. Curiosidade: Limpar o cache pode ajudar a resolver problemas de carregamento de páginas, mas também pode fazer com que elas carreguem mais lentamente na próxima vez."
+  },
+  {
+    "id": "quiz-tecnologia-71",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual conceito de banco de dados se refere à capacidade de manter a consistência dos dados mesmo com atualizações concorrentes?",
+    "options": [
+      "Normalização",
+      "Transação",
+      "Indexação",
+      "Agrupamento"
+    ],
+    "correctAnswer": "Transação",
+    "explanation": "Uma transação garante que as operações em um banco de dados sejam atômicas, consistentes, isoladas e duráveis (ACID).  Curiosidade: O modelo ACID é crucial para manter a integridade dos dados em sistemas de banco de dados distribuídos."
+  },
+  {
+    "id": "quiz-tecnologia-72",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual tipo de ataque cibernético explora vulnerabilidades em aplicações web para injetar código malicioso?",
+    "options": [
+      "Ataque DDoS",
+      "Phishing",
+      "SQL Injection",
+      "Man-in-the-Middle"
+    ],
+    "correctAnswer": "SQL Injection",
+    "explanation": "SQL Injection permite que atacantes injetem código SQL em entradas de formulários web para manipular o banco de dados do site. Curiosidade:  Este tipo de ataque pode levar à perda de dados, roubo de informações e comprometimento do site inteiro."
+  },
+  {
+    "id": "quiz-tecnologia-73",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a saída de áudio de um computador?",
+    "options": [
+      "Mouse",
+      "Teclado",
+      "Monitor",
+      "Caixa de som"
+    ],
+    "correctAnswer": "Caixa de som",
+    "explanation": "A caixa de som (ou alto-falante) reproduz o áudio gerado pelo computador. Curiosidade:  A qualidade do som depende de fatores como a potência da caixa de som e sua fidelidade."
+  },
+  {
+    "id": "quiz-tecnologia-74",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual protocolo é usado para transferência de arquivos?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "correctAnswer": "FTP",
+    "explanation": "FTP (File Transfer Protocol) é usado para transferir arquivos entre computadores. Curiosidade:  FTP permite o upload e download de arquivos, e pode ser usado tanto para transferência de arquivos simples quanto para transferência de arquivos grandes."
+  },
+  {
+    "id": "quiz-tecnologia-75",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um 'firewall'?",
+    "options": [
+      "Um programa antivírus",
+      "Um dispositivo de armazenamento",
+      "Um sistema de segurança de rede",
+      "Um tipo de navegador web"
+    ],
+    "correctAnswer": "Um sistema de segurança de rede",
+    "explanation": "Um firewall controla o tráfego de rede, permitindo ou bloqueando conexões com base em regras pré-definidas. Curiosidade: Firewalls podem ser instalados em roteadores, computadores ou servidores."
+  },
+  {
+    "id": "quiz-tecnologia-76",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas é uma linguagem de programação?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Word"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "JavaScript é uma linguagem de programação usada principalmente para desenvolvimento web. Curiosidade: JavaScript é diferente de Java, apesar de nomes similares."
+  },
+  {
+    "id": "quiz-tecnologia-77",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual algoritmo de criptografia é amplamente usado em HTTPS?",
+    "options": [
+      "AES",
+      "RSA",
+      "DES",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "HTTPS usa uma combinação de algoritmos, incluindo AES, RSA e outros. Curiosidade: A força da criptografia depende da escolha dos algoritmos e do tamanho da chave."
+  },
+  {
+    "id": "quiz-tecnologia-78",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual o nome do sistema operacional desenvolvido pela Apple?",
+    "options": [
+      "Windows",
+      "Linux",
+      "Android",
+      "macOS"
+    ],
+    "correctAnswer": "macOS",
+    "explanation": "macOS é o sistema operacional para computadores da Apple. Curiosidade:  macOS é baseado em Unix."
+  },
+  {
+    "id": "quiz-tecnologia-79",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um switch e um hub de rede?",
+    "options": [
+      "Um switch encaminha pacotes para um único endereço MAC, enquanto um hub encaminha para todos.",
+      "Um hub é mais rápido que um switch.",
+      "Não há diferença entre um switch e um hub.",
+      "Um switch é mais caro que um hub."
+    ],
+    "correctAnswer": "Um switch encaminha pacotes para um único endereço MAC, enquanto um hub encaminha para todos.",
+    "explanation": "Um switch identifica o endereço MAC de destino, enviando dados apenas para o dispositivo certo.  Um hub envia dados para todos os dispositivos conectados. Curiosidade: Switches oferecem melhor desempenho e segurança em redes locais."
   }
 ]

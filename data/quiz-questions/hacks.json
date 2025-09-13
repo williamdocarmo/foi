@@ -782,5 +782,383 @@
     ],
     "correctAnswer": "Usar vinagre e água",
     "explanation": "O vinagre e a água removem a sujeira e limpam o microondas. Curiosidade: aquecer a solução no microondas por alguns minutos facilita a limpeza."
+  },
+  {
+    "id": "quiz-hacks-57",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que uma cebola te faça chorar, você deve:",
+    "options": [
+      "Cortá-la debaixo d'água",
+      "Cortá-la perto de uma vela acesa",
+      "Resfriá-la na geladeira por 30 minutos antes",
+      "Usar óculos de proteção"
+    ],
+    "correctAnswer": "Resfriá-la na geladeira por 30 minutos antes",
+    "explanation": "O resfriamento reduz a liberação de enzimas que causam o choro. Curiosidade:  Mastigar um pedaço de pão enquanto corta também ajuda!"
+  },
+  {
+    "id": "quiz-hacks-58",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Qual destes itens pode remover um espinho pequeno da pele?",
+    "options": [
+      "Uma pinça",
+      "Uma fita adesiva",
+      "Um palito de dente",
+      "Todas as alternativas acima"
+    ],
+    "correctAnswer": "Todas as alternativas acima",
+    "explanation": "Todos esses itens podem ajudar a remover espinhos superficiais.  Curiosidade:  Usar uma agulha esterilizada também é uma opção, mas requer cuidado extra."
+  },
+  {
+    "id": "quiz-hacks-59",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para remover manchas de café de uma camisa branca, o ideal é:",
+    "options": [
+      "Esfregar vigorosamente com água e sabão",
+      "Aplicar água sanitária diretamente",
+      "Tratar com água fria e detergente neutro o mais rápido possível",
+      "Deixar secar ao sol antes de lavar"
+    ],
+    "correctAnswer": "Tratar com água fria e detergente neutro o mais rápido possível",
+    "explanation": "A ação rápida impede que a mancha fixe no tecido. Água quente pode fixar a mancha. Curiosidade: O vinagre branco também pode ajudar a remover manchas de café."
+  },
+  {
+    "id": "quiz-hacks-60",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover tinta de parede à óleo de um tecido delicado, sem danificá-lo?",
+    "options": [
+      "Esfregar com álcool isopropílico",
+      "Utilizar removedor de tinta específico para tecidos delicados",
+      "Aplicar vinagre branco e deixar secar ao sol",
+      "Utilizar apenas água fria e sabão neutro"
+    ],
+    "correctAnswer": "Utilizar removedor de tinta específico para tecidos delicados",
+    "explanation": "Produtos específicos são formulados para remover a tinta sem danificar as fibras.  Curiosidade:  Teste o removedor em uma área escondida do tecido antes de aplicar em toda a mancha."
+  },
+  {
+    "id": "quiz-hacks-61",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que o zíper grude, você pode:",
+    "options": [
+      "Passar sabonete",
+      "Passar grafite de lápis",
+      "Passar vaselina",
+      "Todas as alternativas acima"
+    ],
+    "correctAnswer": "Todas as alternativas acima",
+    "explanation": "Sabonete, grafite e vaselina reduzem o atrito entre os dentes do zíper. Curiosidade: Para um zíper emperrado, usar um pouco de óleo lubrificante também pode ajudar."
+  },
+  {
+    "id": "quiz-hacks-62",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover manchas de suor de roupas escuras sem danificar a cor?",
+    "options": [
+      "Usar água sanitária diluída",
+      "Aplicar vinagre branco e deixar secar ao sol",
+      "Limpar com um pano úmido e sabão neutro",
+      "Usar um removedor de manchas específico para tecidos escuros"
+    ],
+    "correctAnswer": "Aplicar vinagre branco e deixar secar ao sol",
+    "explanation": "O vinagre ajuda a neutralizar o cheiro e as manchas de suor sem desbotar a cor. Curiosidade: Um pouco de bicarbonato de sódio na lavagem também auxilia."
+  },
+  {
+    "id": "quiz-hacks-63",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que a cebola te faça chorar, o que você deve fazer?",
+    "options": [
+      "Cortá-la embaixo da água",
+      "Cortá-la com uma faca bem afiada",
+      "Resfriá-la na geladeira antes de cortar",
+      "Usar óculos de proteção"
+    ],
+    "correctAnswer": "Resfriá-la na geladeira antes de cortar",
+    "explanation": "O resfriamento reduz a liberação de enzimas que causam a irritação nos olhos.  Curiosamente, algumas pessoas também acham que mascar chiclete ajuda a distrair do ardor!"
+  },
+  {
+    "id": "quiz-hacks-64",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para remover manchas de vinho tinto de uma roupa branca, qual a melhor solução caseira?",
+    "options": [
+      "Água com sabão",
+      "Vinagre branco",
+      "Sal",
+      "Bicarbonato de sódio com água oxigenada"
+    ],
+    "correctAnswer": "Bicarbonato de sódio com água oxigenada",
+    "explanation": "A combinação age como um clareador suave e eficaz. A rapidez na ação é crucial para o sucesso.  Curiosamente, a água gaseificada também pode ajudar!"
+  },
+  {
+    "id": "quiz-hacks-65",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual solução caseira pode ajudar a remover manchas de ferrugem de uma peça de roupa branca, sem danificar o tecido?",
+    "options": [
+      "Água sanitária pura",
+      "Suco de limão com sal",
+      "Vinagre branco",
+      "Bicarbonato de sódio"
+    ],
+    "correctAnswer": "Suco de limão com sal",
+    "explanation": "O ácido cítrico do limão e o sal atuam como um removedor natural de ferrugem.  Aplicar diretamente na mancha e deixar ao sol.  Curiosamente, ácido oxálico também é eficaz mas requer cautela."
+  },
+  {
+    "id": "quiz-hacks-66",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que uma cebola te faça chorar ao cortá-la, o que você pode fazer?",
+    "options": [
+      "Cortá-la embaixo d'água",
+      "Cortá-la com uma faca cega",
+      "Resfriá-la na geladeira antes de cortar",
+      "Usar óculos de proteção"
+    ],
+    "correctAnswer": "Resfriá-la na geladeira antes de cortar",
+    "explanation": "O resfriamento diminui a liberação de enzimas que causam o choro. Curiosidade: Mastigar um chiclete enquanto corta também ajuda!"
+  },
+  {
+    "id": "quiz-hacks-67",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover eficazmente cera de vela derretida de um tapete de seda sem danificá-lo?",
+    "options": [
+      "Usar um ferro de passar roupa quente",
+      "Esfregar com água quente e sabão",
+      "Congelar o tapete",
+      "Usar um raspador de plástico e depois um pano úmido com detergente neutro"
+    ],
+    "correctAnswer": "Usar um raspador de plástico e depois um pano úmido com detergente neutro",
+    "explanation": "O raspador remove o excesso, enquanto o detergente limpa os resíduos sem danificar a seda.  Curiosidade: O gelo pode ajudar em alguns tipos de cera, mas não em tapetes delicados."
+  },
+  {
+    "id": "quiz-hacks-68",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que roupas enruguem na mala, o que é recomendado?",
+    "options": [
+      "Usar muitas roupas",
+      "Enrolar as roupas em vez de dobrá-las",
+      "Dobrar as roupas e colocá-las em sacos plásticos",
+      "Guardar as roupas em sacos a vácuo"
+    ],
+    "correctAnswer": "Enrolar as roupas em vez de dobrá-las",
+    "explanation": "Enrolar ocupa menos espaço e reduz as rugas. Curiosidade: Tecidos finos devem ser dobrados com mais cuidado."
+  },
+  {
+    "id": "quiz-hacks-69",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover um anel preso em um dedo inchado?",
+    "options": [
+      "Forçar a retirada",
+      "Lubrificar o dedo com óleo vegetal e usar fio dental",
+      "Mergulhar o dedo em água quente",
+      "Usar um creme hidratante"
+    ],
+    "correctAnswer": "Lubrificar o dedo com óleo vegetal e usar fio dental",
+    "explanation": "O óleo lubrifica e facilita a passagem do anel. O fio dental ajuda a deslizá-lo. Curiosidade: Nunca force a retirada para evitar danos!"
+  },
+  {
+    "id": "quiz-hacks-70",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para limpar a tela do seu celular sem riscá-la, o ideal é usar:",
+    "options": [
+      "Álcool isopropílico puro",
+      "Limpa vidros comum",
+      "Flanela seca",
+      "Flanela levemente umedecida com água destilada"
+    ],
+    "correctAnswer": "Flanela levemente umedecida com água destilada",
+    "explanation": "Evita arranhões e limpa sem danificar o revestimento. Curiosidade: Evite produtos químicos agressivos."
+  },
+  {
+    "id": "quiz-hacks-71",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover goma de mascar do cabelo sem cortá-lo?",
+    "options": [
+      "Usar vinagre branco",
+      "Esfregar com álcool",
+      "Congelar o cabelo",
+      "Usar manteiga de amendoim"
+    ],
+    "correctAnswer": "Congelar o cabelo",
+    "explanation": "O frio endurece a goma, facilitando a remoção. Curiosidade: Aplique suavemente para evitar quebras."
+  },
+  {
+    "id": "quiz-hacks-72",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover tinta a óleo de uma parede sem danificar a pintura?",
+    "options": [
+      "Água e sabão",
+      "Álcool",
+      "Removedor de tinta específico para o tipo de tinta",
+      "Pasta de dente"
+    ],
+    "correctAnswer": "Removedor de tinta específico para o tipo de tinta",
+    "explanation": "Cada tipo de tinta requer um removedor específico. Usar o inadequado pode danificar a parede. Curiosidade: teste em uma área discreta antes de aplicar em toda a mancha."
+  },
+  {
+    "id": "quiz-hacks-73",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como polir prata escurecida usando apenas ingredientes domésticos?",
+    "options": [
+      "Pasta de dente",
+      "Bicarbonato de sódio e vinagre",
+      "Água e sabão",
+      "Limpa-vidros"
+    ],
+    "correctAnswer": "Bicarbonato de sódio e vinagre",
+    "explanation": "A mistura cria uma pasta abrasiva suave que limpa e poli. Curiosidade: Enxague bem e seque com um pano macio."
+  },
+  {
+    "id": "quiz-hacks-74",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover manchas de café de uma roupa branca?",
+    "options": [
+      "Usar apenas água fria",
+      "Usar água sanitária",
+      "Deixar de molho em água fria com detergente",
+      "Passar um pano úmido com álcool"
+    ],
+    "correctAnswer": "Deixar de molho em água fria com detergente",
+    "explanation": "O detergente ajuda a dissolver a mancha. Água fria previne que ela se fixe. Curiosidade: quanto mais rápido você agir melhor."
+  },
+  {
+    "id": "quiz-hacks-75",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover um adesivo de uma superfície de vidro sem deixar resíduos?",
+    "options": [
+      "Usar água quente",
+      "Usar uma espátula",
+      "Usar óleo vegetal e um raspador de plástico",
+      "Usar álcool isopropílico"
+    ],
+    "correctAnswer": "Usar óleo vegetal e um raspador de plástico",
+    "explanation": "O óleo amolece a cola, facilitando a remoção sem arranhar. Curiosidade:  Um secador de cabelo também pode ajudar."
+  },
+  {
+    "id": "quiz-hacks-76",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que a salada murche rapidamente, é recomendável:",
+    "options": [
+      "Lavar e guardar na geladeira",
+      "Guardar em um saco plástico fechado",
+      "Guardar em um recipiente com papel toalha na base",
+      "Deixar em temperatura ambiente"
+    ],
+    "correctAnswer": "Guardar em um recipiente com papel toalha na base",
+    "explanation": "A toalha absorve o excesso de umidade. Curiosidade: evite lavar a salada antes de guardar."
+  },
+  {
+    "id": "quiz-hacks-77",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual a melhor maneira de remover marcas de caneta esferográfica de uma superfície de madeira polida?",
+    "options": [
+      "Álcool isopropílico",
+      "Pasta de dente",
+      "Vinagre branco",
+      "Removedor de esmalte"
+    ],
+    "correctAnswer": "Pasta de dente",
+    "explanation": "A pasta de dente é abrasiva o suficiente para remover a tinta sem danificar o polimento. Curiosidade: Esfregue suavemente em movimentos circulares."
+  },
+  {
+    "id": "quiz-hacks-78",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual solução caseira pode remover manchas de ferrugem de uma roupa branca?",
+    "options": [
+      "Vinagre branco e sal.",
+      "Água sanitária e bicarbonato.",
+      "Suco de limão e sal.",
+      "Álcool e água morna."
+    ],
+    "correctAnswer": "Suco de limão e sal.",
+    "explanation": "O ácido cítrico do limão ajuda a dissolver a ferrugem. O sal atua como abrasivo suave. Curiosidade: Deixe a peça de molho por algumas horas antes de lavar."
+  },
+  {
+    "id": "quiz-hacks-79",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para remover um anel preso no dedo, o que você pode tentar?",
+    "options": [
+      "Forçar a retirada",
+      "Usar lubrificante (sabonete ou óleo)",
+      "Esfriar o dedo",
+      "Aquecer o dedo"
+    ],
+    "correctAnswer": "Usar lubrificante (sabonete ou óleo)",
+    "explanation": "O lubrificante reduz o atrito, facilitando a retirada do anel.  Curiosidade:  água fria pode reduzir o inchaço do dedo, facilitando a remoção."
+  },
+  {
+    "id": "quiz-hacks-80",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Para remover tinta de parede à óleo de um tecido delicado, sem danificá-lo, o que você deve fazer?",
+    "options": [
+      "Esfregar com força usando água e sabão",
+      "Aplicar removedor de tinta diretamente",
+      "Usar um solvente específico para tinta à óleo em pequena área de teste primeiro",
+      "Deixar de molho em água fria"
+    ],
+    "correctAnswer": "Usar um solvente específico para tinta à óleo em pequena área de teste primeiro",
+    "explanation": "Solventes específicos podem remover a tinta sem danificar o tecido, mas é crucial testar em uma área escondida primeiro.  Curiosidade:  alguns solventes podem ser agressivos para certos tipos de tecido."
+  },
+  {
+    "id": "quiz-hacks-81",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Qual item pode ajudar a remover um espinho da pele?",
+    "options": [
+      "Uma pinça",
+      "Uma fita adesiva",
+      "Um palito de dente",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Cada um desses itens pode ajudar dependendo do tamanho e localização do espinho. A fita adesiva pode ser particularmente eficaz para espinhos pequenos."
+  },
+  {
+    "id": "quiz-hacks-82",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover manchas de vinho tinto de um tecido de algodão?",
+    "options": [
+      "Água quente e sabão",
+      "Vinagre branco e água fria",
+      "Bicarbonato de sódio e água fria",
+      "Água sanitária"
+    ],
+    "correctAnswer": "Vinagre branco e água fria",
+    "explanation": "O vinagre ajuda a neutralizar as manchas de vinho.  Curiosidade:  Aplique o vinagre diretamente na mancha e deixe agir antes de lavar."
+  },
+  {
+    "id": "quiz-hacks-83",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover manchas de ferrugem de uma peça de roupa branca, sem danificar o tecido?",
+    "options": [
+      "Água sanitária",
+      "Suco de limão e sal",
+      "Vinagre branco",
+      "Bicarbonato de sódio"
+    ],
+    "correctAnswer": "Suco de limão e sal",
+    "explanation": "O suco de limão age como um clareador natural e o sal auxilia na remoção da ferrugem.  Curiosidade:  Deixe a mistura agir por algumas horas antes de lavar a roupa."
   }
 ]

@@ -936,5 +936,187 @@
     ],
     "correctAnswer": "Sufismo",
     "explanation": "Os Sufis buscam a união com Deus através de práticas espirituais. Curiosidade: O Sufismo é caracterizado por diversas ordens e tradições."
+  },
+  {
+    "id": "quiz-religiao-68",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o livro sagrado do Cristianismo?",
+    "options": [
+      "Torá",
+      "Alcorão",
+      "Bíblia",
+      "Vedas"
+    ],
+    "correctAnswer": "Bíblia",
+    "explanation": "A Bíblia é o livro sagrado do Cristianismo, contendo o Antigo e o Novo Testamento.  Uma curiosidade é que existem diversas traduções da Bíblia, refletindo diferentes interpretações e contextos culturais."
+  },
+  {
+    "id": "quiz-religiao-69",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o símbolo mais associado ao Budismo?",
+    "options": [
+      "Cruz",
+      "Estrela de Davi",
+      "Lua Crescente",
+      "Roda do Dharma"
+    ],
+    "correctAnswer": "Roda do Dharma",
+    "explanation": "A Roda do Dharma representa o ensinamento de Buda e o caminho para a iluminação.  A roda em si simboliza o ciclo de vida, morte e renascimento."
+  },
+  {
+    "id": "quiz-religiao-70",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o significado do termo 'Atman' no Hinduísmo?",
+    "options": [
+      "Alma individual",
+      "Karma",
+      "Destino",
+      "Deus"
+    ],
+    "correctAnswer": "Alma individual",
+    "explanation": "Atman é a essência individual da alma, muitas vezes vista como parte do Brahman, a realidade última."
+  },
+  {
+    "id": "quiz-religiao-71",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual o principal conceito do Taoísmo?",
+    "options": [
+      "Karma e Reencarnação",
+      "Unidade e Harmonia com a Natureza",
+      "Ação Direta e Guerra Santa",
+      "Submissão à Vontade Divina"
+    ],
+    "correctAnswer": "Unidade e Harmonia com a Natureza",
+    "explanation": "O Taoísmo enfatiza a harmonia com o Tao (o caminho natural do universo) e a busca pela simplicidade e naturalidade.  Uma curiosidade é que o Yin e Yang são símbolos importantes na representação dessa harmonia."
+  },
+  {
+    "id": "quiz-religiao-72",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual escola filosófica budista enfatiza a vacuidade (sunyata)?",
+    "options": [
+      "Zen",
+      "Theravada",
+      "Madhyamaka",
+      "Yogacara"
+    ],
+    "correctAnswer": "Madhyamaka",
+    "explanation": "A escola Madhyamaka, fundada por Nagarjuna, enfatiza a doutrina da vacuidade (sunyata), a ideia de que todos os fenômenos são desprovidos de existência intrínseca. É uma filosofia complexa que questiona a natureza da realidade."
+  },
+  {
+    "id": "quiz-religiao-73",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o nome do jejum islâmico?",
+    "options": [
+      "Kwanzaa",
+      "Ramadã",
+      "Hanukkah",
+      "Páscoa"
+    ],
+    "correctAnswer": "Ramadã",
+    "explanation": "O Ramadã é o mês sagrado do Islã, durante o qual os muçulmanos jejuam do nascer ao pôr do sol.  Uma curiosidade é que a celebração do Eid al-Fitr marca o fim do Ramadã."
+  },
+  {
+    "id": "quiz-religiao-74",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a corrente mística islâmica que enfatiza a experiência direta de Deus?",
+    "options": [
+      "Sunismo",
+      "Xiismo",
+      "Sufismo",
+      "Salafismo"
+    ],
+    "correctAnswer": "Sufismo",
+    "explanation": "O Sufismo é uma corrente mística dentro do Islã que enfatiza a experiência direta de Deus através da contemplação, meditação e práticas espirituais.  Eles são conhecidos por seus poemas e canções espirituais."
+  },
+  {
+    "id": "quiz-religiao-75",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual a ramificação do Judaísmo que enfatiza a observância estrita da lei judaica?",
+    "options": [
+      "Reformismo",
+      "Conservadorismo",
+      "Ortodoxia",
+      "Reconstrucionismo"
+    ],
+    "correctAnswer": "Ortodoxia",
+    "explanation": "O Judaísmo Ortodoxo enfatiza a observância rigorosa da Halakha (lei judaica) em todos os aspectos da vida, incluindo costumes, rituais e leis alimentares (Kashrut). É uma corrente mais tradicional e conservadora."
+  },
+  {
+    "id": "quiz-religiao-76",
+    "categoryId": "religiao",
+    "difficulty": "hard",
+    "question": "Qual movimento religioso enfatiza a experiência mística e a união com o Divino?",
+    "options": [
+      "Protestantismo",
+      "Hinduísmo",
+      "Misticismo Cristão",
+      "Budismo Theravada"
+    ],
+    "correctAnswer": "Misticismo Cristão",
+    "explanation": "O Misticismo Cristão enfatiza a união com Deus através da contemplação e da experiência mística. Há diversas expressões do misticismo dentro do cristianismo, desde o início até os dias atuais."
+  },
+  {
+    "id": "quiz-religiao-77",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o significado do termo 'Nirvana' no Budismo?",
+    "options": [
+      "Sofrimento",
+      "Ilusão",
+      "Libertação",
+      "Reencarnação"
+    ],
+    "correctAnswer": "Libertação",
+    "explanation": "Nirvana representa a libertação do ciclo de reencarnação e do sofrimento. Curiosidade: O Nirvana é um estado de paz e iluminação suprema."
+  },
+  {
+    "id": "quiz-religiao-78",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual evento é comemorado pelos cristãos na Páscoa?",
+    "options": [
+      "O nascimento de Jesus",
+      "A ascensão de Jesus",
+      "A ressurreição de Jesus",
+      "O batismo de Jesus"
+    ],
+    "correctAnswer": "A ressurreição de Jesus",
+    "explanation": "A Páscoa celebra a ressurreição de Jesus Cristo após sua crucificação, um evento fundamental na fé cristã. É uma festa móvel, dependendo do calendário lunar."
+  },
+  {
+    "id": "quiz-religiao-79",
+    "categoryId": "religiao",
+    "difficulty": "easy",
+    "question": "Qual o símbolo mais reconhecido do Judaísmo?",
+    "options": [
+      "Cruz",
+      "Estrela de Davi",
+      "Lua Crescente",
+      "Om"
+    ],
+    "correctAnswer": "Estrela de Davi",
+    "explanation": "A Estrela de Davi, também conhecida como o Escudo de Davi, é um hexagrama que se tornou um símbolo amplamente reconhecido do Judaísmo, embora sua associação com o Judaísmo seja relativamente recente. Curiosamente, o seu uso mais antigo não está diretamente associado à religião judaica."
+  },
+  {
+    "id": "quiz-religiao-80",
+    "categoryId": "religiao",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença doutrinária entre o sunismo e o xiismo?",
+    "options": [
+      "O livro sagrado",
+      "A prática da oração",
+      "A sucessão de liderança após Maomé",
+      "A crença em um único Deus"
+    ],
+    "correctAnswer": "A sucessão de liderança após Maomé",
+    "explanation": "A principal divergência entre sunitas e xiitas reside na sucessão após a morte de Maomé. Sunitas acreditam que Abu Bakr foi o legítimo sucessor, enquanto xiitas acreditam que Ali, primo e genro de Maomé, deveria ter assumido. Curiosidade: essa diferença levou a diversas ramificações e interpretações dentro do Islamismo."
   }
 ]

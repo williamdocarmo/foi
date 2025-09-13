@@ -852,5 +852,47 @@
     ],
     "correctAnswer": "Todas as anteriores",
     "explanation": "Gerentes de projetos precisam organizar, planejar e comunicar para garantir o sucesso do projeto. Curiosidade:  A gestão de projetos é uma área multidisciplinar que envolve diversas habilidades."
+  },
+  {
+    "id": "quiz-habilidades-62",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para um bom programador?",
+    "options": [
+      "Dança",
+      "Canto",
+      "Resolução de problemas",
+      "Escultura"
+    ],
+    "correctAnswer": "Resolução de problemas",
+    "explanation": "Programar envolve identificar e resolver problemas de forma lógica e eficiente. A criatividade também é útil, mas a capacidade de resolver problemas é fundamental."
+  },
+  {
+    "id": "quiz-habilidades-63",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é crucial para um bom negociador imobiliário?",
+    "options": [
+      "Conhecimento de construção",
+      "Persuasão",
+      "Habilidades matemáticas",
+      "Programação"
+    ],
+    "correctAnswer": "Persuasão",
+    "explanation": "Um bom negociador imobiliário precisa convencer compradores e vendedores a chegarem a um acordo. Curiosidade:  A persuasão é uma habilidade que pode ser aprendida e aprimorada."
+  },
+  {
+    "id": "quiz-habilidades-64",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é importante para um bom negociador?",
+    "options": [
+      "Desenho técnico",
+      "Persuasão",
+      "Colecionar moedas",
+      "Escultura em madeira"
+    ],
+    "correctAnswer": "Persuasão",
+    "explanation": "A persuasão é crucial para influenciar os outros e alcançar acordos mutuamente benéficos. Curiosidade:  A persuasão eficaz envolve empatia, escuta ativa e construção de relacionamentos."
   }
 ]

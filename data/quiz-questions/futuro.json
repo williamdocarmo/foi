@@ -712,5 +712,257 @@
     ],
     "correctAnswer": "Criando membranas de filtragem mais densas e seletivas",
     "explanation": "Nanomateriais podem criar membranas com poros menores e seletivos, permitindo a passagem apenas de água e rejeitando sais e outras impurezas. Curiosidade: Isso reduz o consumo de energia e aumenta a eficiência do processo de dessalinização."
+  },
+  {
+    "id": "quiz-futuro-52",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual fonte de energia renovável é obtida a partir do movimento da água?",
+    "options": [
+      "Energia solar",
+      "Energia eólica",
+      "Energia hidrelétrica",
+      "Energia geotérmica"
+    ],
+    "correctAnswer": "Energia hidrelétrica",
+    "explanation": "A energia hidrelétrica utiliza a força da água em movimento para gerar eletricidade.  Curiosidade: A maior usina hidrelétrica do mundo é a Usina de Três Gargantas, na China."
+  },
+  {
+    "id": "quiz-futuro-53",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a bioimpressão 3D pode revolucionar a medicina regenerativa?",
+    "options": [
+      "Criando órgãos artificiais para transplante",
+      "Criando tecidos para enxertos",
+      "Reparando tecidos danificados",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "A bioimpressão 3D tem o potencial de criar órgãos, tecidos e reparar danos, revolucionando tratamentos médicos. Curiosidade: Já foram criados tecidos simples, como pele e cartilagem, usando essa tecnologia."
+  },
+  {
+    "id": "quiz-futuro-54",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual fonte de energia renovável é obtida do sol?",
+    "options": [
+      "Energia eólica",
+      "Energia solar",
+      "Energia geotérmica",
+      "Energia nuclear"
+    ],
+    "correctAnswer": "Energia solar",
+    "explanation": "A energia solar é obtida diretamente da luz solar, convertendo-a em eletricidade.  Curiosidade:  A eficiência das células solares tem aumentado significativamente nos últimos anos."
+  },
+  {
+    "id": "quiz-futuro-55",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal desafio para a implementação de carros voadores?",
+    "options": [
+      "Falta de tecnologia",
+      "Regulamentações de segurança",
+      "Custo excessivo",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "Carros voadores enfrentam desafios tecnológicos, regulatórios e financeiros significativos. Curiosidade: Vários protótipos já existem, mas a viabilidade comercial ainda é incerta."
+  },
+  {
+    "id": "quiz-futuro-56",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a agricultura vertical pode contribuir para a sustentabilidade?",
+    "options": [
+      "Reduzindo o uso de água",
+      "Aumentando a produção de alimentos",
+      "Diminuindo a emissão de carbono",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "A agricultura vertical oferece benefícios ambientais e de produção. Curiosidade:  É particularmente útil em áreas com pouco espaço para plantações tradicionais."
+  },
+  {
+    "id": "quiz-futuro-57",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o potencial impacto da computação quântica na descoberta de novos medicamentos?",
+    "options": [
+      "Nenhum impacto significativo",
+      "Aceleração do processo de descoberta",
+      "Diminuição da precisão das descobertas",
+      "Tornar a descoberta de medicamentos mais cara"
+    ],
+    "correctAnswer": "Aceleração do processo de descoberta",
+    "explanation": "A computação quântica pode simular moléculas complexas com muito mais eficiência, acelerando o desenvolvimento de novos medicamentos. Curiosidade: A simulação de moléculas é um gargalo computacional atualmente."
+  },
+  {
+    "id": "quiz-futuro-58",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual tecnologia permite a comunicação instantânea através de mensagens de texto?",
+    "options": [
+      "Telegrama",
+      "Correio eletrônico",
+      "Mensagens de texto (SMS)",
+      "Cartas"
+    ],
+    "correctAnswer": "Mensagens de texto (SMS)",
+    "explanation": "As mensagens de texto (SMS) permitem comunicação instantânea e curta. Curiosidade: O primeiro SMS foi enviado em 1992."
+  },
+  {
+    "id": "quiz-futuro-59",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal impacto da mineração de dados (Big Data) na personalização de anúncios?",
+    "options": [
+      "Nenhum impacto",
+      "Anúncios menos relevantes",
+      "Anúncios mais direcionados",
+      "Anúncios mais caros"
+    ],
+    "correctAnswer": "Anúncios mais direcionados",
+    "explanation": "A mineração de dados permite que empresas criem perfis de usuários e exibam anúncios altamente relevantes. Curiosidade:  Há crescentes preocupações com a privacidade relacionadas a essa prática."
+  },
+  {
+    "id": "quiz-futuro-60",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a nanotecnologia pode auxiliar na criação de baterias mais eficientes?",
+    "options": [
+      "Aumentando o tamanho das baterias",
+      "Utilizando materiais mais pesados",
+      "Criando materiais com maior densidade de energia",
+      "Diminuindo a vida útil das baterias"
+    ],
+    "correctAnswer": "Criando materiais com maior densidade de energia",
+    "explanation": "A nanotecnologia permite a criação de materiais com propriedades aprimoradas para armazenamento de energia. Curiosidade:  Isso pode levar a baterias menores e mais duradouras para dispositivos eletrônicos e veículos elétricos."
+  },
+  {
+    "id": "quiz-futuro-61",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que é um 'drone'?",
+    "options": [
+      "Um tipo de robô subaquático",
+      "Um veículo aéreo não tripulado",
+      "Um tipo de computador quântico",
+      "Um tipo de sensor ambiental"
+    ],
+    "correctAnswer": "Um veículo aéreo não tripulado",
+    "explanation": "Os drones são aeronaves controladas remotamente. Curiosidade:  São usados para diversas finalidades, incluindo fotografia, entrega de pacotes e monitoramento."
+  },
+  {
+    "id": "quiz-futuro-62",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual tecnologia pode revolucionar a produção de alimentos em ambientes hostis, como o espaço?",
+    "options": [
+      "Agricultura vertical",
+      "Biotecnologia",
+      "Nanotecnologia",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "Todas essas tecnologias têm potencial para melhorar a produção de alimentos em ambientes desafiadores. Curiosidade: A NASA investe em pesquisa para melhorar a produção de alimentos em ambientes fora da Terra."
+  },
+  {
+    "id": "quiz-futuro-63",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o impacto potencial da inteligência artificial na área de educação?",
+    "options": [
+      "Substituir completamente professores",
+      "Tornar a educação mais acessível e personalizada",
+      "Diminuir a importância do aprendizado",
+      "Aumentar o custo da educação"
+    ],
+    "correctAnswer": "Tornar a educação mais acessível e personalizada",
+    "explanation": "A IA pode ajudar a personalizar o aprendizado e tornar a educação mais acessível a pessoas em áreas remotas. Curiosidade:  Sistemas de tutoria inteligentes já estão sendo desenvolvidos."
+  },
+  {
+    "id": "quiz-futuro-64",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a blockchain pode melhorar a segurança e rastreabilidade de produtos alimentícios?",
+    "options": [
+      "Não tem impacto na segurança alimentar",
+      "Tornando os produtos mais caros",
+      "Permitindo o rastreamento completo da cadeia de suprimentos",
+      "Diminuindo a transparência na cadeia produtiva"
+    ],
+    "correctAnswer": "Permitindo o rastreamento completo da cadeia de suprimentos",
+    "explanation": "A tecnologia blockchain permite rastrear a origem e o manuseio dos alimentos, melhorando a segurança e a transparência. Curiosidade:  Isso pode ajudar a combater fraudes e garantir a qualidade dos produtos."
+  },
+  {
+    "id": "quiz-futuro-65",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Que tipo de transporte é considerado o mais sustentável para o transporte de passageiros?",
+    "options": [
+      "Avião",
+      "Carro particular",
+      "Trem",
+      "Navio"
+    ],
+    "correctAnswer": "Trem",
+    "explanation": "Os trens geralmente têm uma pegada de carbono menor por passageiro-quilômetro do que outros modos de transporte. Curiosidade: Trens elétricos são ainda mais sustentáveis."
+  },
+  {
+    "id": "quiz-futuro-66",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a biotecnologia pode contribuir para a criação de plantas mais resistentes a pragas e doenças?",
+    "options": [
+      "Usando pesticidas mais fortes",
+      "Criando plantas geneticamente modificadas",
+      "Diminuindo a diversidade genética",
+      "Ignorando o impacto ambiental"
+    ],
+    "correctAnswer": "Criando plantas geneticamente modificadas",
+    "explanation": "A biotecnologia permite a criação de plantas com genes que as tornam resistentes a pragas e doenças. Curiosidade:  Este é um tópico controverso, com debates sobre os riscos e benefícios associados."
+  },
+  {
+    "id": "quiz-futuro-67",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual a principal preocupação com o aquecimento global?",
+    "options": [
+      "Aumento da temperatura global",
+      "Derretimento das geleiras",
+      "Aumento do nível do mar",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "O aquecimento global tem múltiplos impactos negativos. Curiosidade:  Os efeitos do aquecimento global são sentidos em diferentes partes do mundo de maneiras distintas."
+  },
+  {
+    "id": "quiz-futuro-68",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual tecnologia pode ajudar na preservação da biodiversidade?",
+    "options": [
+      "Mineração de dados",
+      "Realidade virtual",
+      "Monitoramento remoto via drones",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Monitoramento remoto via drones",
+    "explanation": "Drones podem monitorar áreas remotas para rastrear espécies ameaçadas e seus habitats. Curiosidade:  Imagens de drones podem ser usadas para mapear e monitorar a biodiversidade em larga escala."
+  },
+  {
+    "id": "quiz-futuro-69",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o potencial impacto da nanotecnologia na medicina regenerativa?",
+    "options": [
+      "Nenhum impacto significativo",
+      "Criar novos materiais para implantes",
+      "Desenvolver terapias mais eficazes",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "A nanotecnologia oferece potencial para criar novos materiais e terapias para medicina regenerativa. Curiosidade:  Nanopartículas podem ser usadas para liberar medicamentos de forma direcionada."
   }
 ]

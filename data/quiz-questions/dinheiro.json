@@ -1118,5 +1118,103 @@
     ],
     "correctAnswer": "A rentabilidade do patrimônio líquido de uma empresa",
     "explanation": "O ROE indica a eficiência da empresa em gerar lucros com o capital investido pelos acionistas. Curiosidade:  Um ROE alto geralmente indica boa gestão financeira."
+  },
+  {
+    "id": "quiz-dinheiro-81",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'economizar'?",
+    "options": [
+      "Gastar dinheiro impulsivamente",
+      "Guardar dinheiro para uso futuro",
+      "Investir dinheiro em ações",
+      "Pedir dinheiro emprestado"
+    ],
+    "correctAnswer": "Guardar dinheiro para uso futuro",
+    "explanation": "Economizar significa guardar dinheiro para uso futuro, evitando gastos desnecessários.  Curiosidade: A taxa de poupança de um país é um indicador importante de sua saúde econômica."
+  },
+  {
+    "id": "quiz-dinheiro-82",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é um cheque?",
+    "options": [
+      "Um cartão de crédito",
+      "Uma ordem de pagamento",
+      "Um boleto bancário",
+      "Um título de dívida"
+    ],
+    "correctAnswer": "Uma ordem de pagamento",
+    "explanation": "Um cheque é uma ordem de pagamento emitida por uma pessoa (sacador) a um banco, para que este pague uma quantia específica a outra pessoa (beneficiário). Curiosidade: Os cheques são um método de pagamento mais antigo e, atualmente, menos usado do que outras opções digitais."
+  },
+  {
+    "id": "quiz-dinheiro-83",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que significa 'débito'?",
+    "options": [
+      "Um ativo da empresa",
+      "Um passivo da empresa",
+      "Um investimento de longo prazo",
+      "Um lucro da empresa"
+    ],
+    "correctAnswer": "Um passivo da empresa",
+    "explanation": "Débito representa uma obrigação financeira da empresa, algo que deve ser pago no futuro. Curiosidade:  O nível de endividamento de uma empresa é um fator importante na análise de sua saúde financeira."
+  },
+  {
+    "id": "quiz-dinheiro-84",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o propósito principal do dinheiro?",
+    "options": [
+      "Facilitar trocas comerciais",
+      "Armazenar valor ao longo do tempo",
+      "Demonstrar poder político",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "O dinheiro serve como meio de troca, unidade de conta, reserva de valor e padrão de pagamento diferido. Uma curiosidade: O primeiro dinheiro conhecido foi feito de conchas, há mais de 5.000 anos."
+  },
+  {
+    "id": "quiz-dinheiro-85",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que significa 'dívida pública'?",
+    "options": [
+      "A dívida de uma pessoa física.",
+      "A dívida de uma empresa privada.",
+      "A dívida total de um governo.",
+      "A dívida total de um banco."
+    ],
+    "correctAnswer": "A dívida total de um governo.",
+    "explanation": "A dívida pública representa o montante total de dinheiro que um governo deve a credores, como indivíduos, empresas e outros governos. Curiosidade: A dívida pública pode ser financiada através da emissão de títulos públicos."
+  },
+  {
+    "id": "quiz-dinheiro-86",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o principal objetivo do dinheiro?",
+    "options": [
+      "Facilitar trocas comerciais",
+      "Acumular riqueza apenas",
+      "Servir como objeto de decoração",
+      "Medir a felicidade das pessoas"
+    ],
+    "correctAnswer": "Facilitar trocas comerciais",
+    "explanation": "O dinheiro serve como intermediário nas trocas, eliminando a necessidade da barganha direta (escambo).  Curiosidade: O primeiro dinheiro conhecido foram conchas usadas como meio de troca na Ilha de Yap, na Micronesia."
+  },
+  {
+    "id": "quiz-dinheiro-87",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que significa 'valor intrínseco' de uma ação?",
+    "options": [
+      "O preço que a ação está sendo negociada no mercado",
+      "O valor real da ação baseado em seus ativos, lucros e perspectivas futuras",
+      "O valor nominal da ação descrito no certificado",
+      "O valor de mercado calculado pela média dos últimos 12 meses"
+    ],
+    "correctAnswer": "O valor real da ação baseado em seus ativos, lucros e perspectivas futuras",
+    "explanation": "O valor intrínseco é uma estimativa do valor real de uma ação, considerando diversos fatores, e não necessariamente corresponde ao preço de mercado.  Curiosidade: Investidores utilizam métodos de avaliação para estimar o valor intrínseco das ações."
   }
 ]

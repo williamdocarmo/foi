@@ -88,5 +88,356 @@
     "content": "Use o vapor do seu ferro para desamassar roupas delicadas sem precisar tocar o ferro diretamente no tecido. Segure o ferro a alguns centímetros da roupa e deixe o vapor fazer o trabalho. Ótimo para seda e outros tecidos sensíveis!",
     "funFact": "O vapor também pode remover pequenas rugas em cortinas!",
     "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-11",
+    "categoryId": "hacks",
+    "title": "Desodorize seu Carro com Café",
+    "hook": "Incrível: o café combate odores!",
+    "content": "Coloque grãos de café moído em pequenos saquinhos de tecido e espalhe-os pelo seu carro. O café absorverá os odores desagradáveis, deixando um aroma fresco e natural. Experimente diferentes tipos de café para descobrir seu favorito.  É uma solução simples, barata e eficaz.",
+    "funFact": "O café moído também pode ser usado para absorver odores de geladeira!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-12",
+    "categoryId": "hacks",
+    "title": "O Segredo do Sabonete na Porta",
+    "hook": "Você sabia que...",
+    "content": "Fixe um sabonete na parte interna da porta do armário do banheiro, para combater o mofo e a umidade. A ação do atrito e o próprio sabão criam uma barreira protetora, mantendo o ambiente mais fresco e limpo por mais tempo.",
+    "funFact": "Esse truque também funciona com pedaços de giz!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-13",
+    "categoryId": "hacks",
+    "title": "Recicle Latas de Alumínio em Arte",
+    "hook": "Incrível: transforme latas em...",
+    "content": "Latas de alumínio amassadas podem virar peças decorativas incríveis! Com um pouco de criatividade e tinta spray, crie vasos, luminárias ou porta-trecos.  Corte as latas com cuidado (use luvas!), limpe bem e solte sua imaginação.  Pense em padrões geométricos, texturas ou até mesmo colagens.",
+    "funFact": "Uma lata de alumínio leva cerca de 200 anos para se decompor na natureza.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-14",
+    "categoryId": "hacks",
+    "title": "O Poder do Carvão Ativado na Limpeza",
+    "hook": "Você sabia que o carvão...",
+    "content": "O carvão ativado, além de ser usado em filtros de água, é um excelente aliado na limpeza.  Ele absorve odores e impurezas de diversos materiais, como tapetes, roupas e até mesmo a geladeira.  Basta colocar um pouco em um saquinho de pano e deixá-lo em contato.",
+    "funFact": "O carvão ativado é usado para tratar envenenamentos por sua capacidade de absorção.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-15",
+    "categoryId": "hacks",
+    "title": "A Pasta de Dente e a Limpeza de Joias",
+    "hook": "Brilho extra para suas...",
+    "content": "A pasta de dentes não serve apenas para higiene bucal.  Sua textura abrasiva pode ajudar a remover manchas superficiais de joias de ouro ou prata. Aplique uma pequena quantidade com uma escova de cerdas macias, esfregue suavemente e enxágue com água.",
+    "funFact": "A pasta de dentes branca é melhor para esse fim do que as coloridas.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-16",
+    "categoryId": "hacks",
+    "title": "Seu Microondas como Esterilizador",
+    "hook": "Incrível: esterilize itens com o microondas!",
+    "content": "Você sabia que pode esterilizar itens como esponjas e escovas de dente no microondas?  Basta colocá-los em um recipiente com água e aquecer por alguns minutos. O calor do vapor mata bactérias e germes, deixando tudo limpo e seguro.  É uma alternativa rápida e eficaz para a esterilização tradicional.",
+    "funFact": "Até mesmo alguns tipos de brinquedos infantis podem ser esterilizados assim!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-17",
+    "categoryId": "hacks",
+    "title": "O Truque do Fita Adesiva para Celular",
+    "hook": "Você sabia que...",
+    "content": "A fita adesiva dupla face pode ser sua aliada na hora de limpar a tela do celular.  Cole um pedaço na ponta de um palito de dente, removendo poeira e pelos com precisão.  É uma forma suave, evitando arranhões e garantindo limpeza impecável sem produtos químicos.",
+    "funFact": "Funciona também para limpar as teclas do teclado!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-18",
+    "categoryId": "hacks",
+    "title": "Sabão em Pó para Limpeza de Pratas",
+    "hook": "Incrível:",
+    "content": "Dissolva uma colher de sopa de sabão em pó em água quente, mergulhe as peças de prata na solução por alguns minutos.  Esfregue suavemente com uma escova de cerdas macias e enxágue com água corrente. Seque com um pano macio.",
+    "funFact": "Para um brilho extra, use um pano de microfibra!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-19",
+    "categoryId": "hacks",
+    "title": "Seu Celular como Nível de Bolha",
+    "hook": "Incrível: seu celular...",
+    "content": "Utilize a bússola do seu smartphone como um nível de bolha improvisado!  Basta posicioná-lo sobre a superfície que deseja nivelar e observar a indicação da bússola.  A precisão pode surpreender, especialmente em pequenas nivelações. É um truque útil para pendurar quadros ou instalar prateleiras.",
+    "funFact": "A maioria dos smartphones possui um acelerômetro tão preciso que consegue detectar até pequenas inclinações.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-20",
+    "categoryId": "hacks",
+    "title": "Seu Freezer como Desumidificador",
+    "hook": "Incrível: Livre-se da umidade!",
+    "content": "Coloque uma tigela com bicarbonato de sódio aberto no seu freezer.  Ele absorverá a umidade, evitando a formação de cristais de gelo e mantendo os alimentos frescos por mais tempo.  Experimente e veja a diferença na organização e durabilidade dos seus alimentos congelados!",
+    "funFact": "O bicarbonato também neutraliza odores desagradáveis no freezer.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-21",
+    "categoryId": "hacks",
+    "title": "Amaciante de Roupas para Limpeza de Vidros",
+    "hook": "Você sabia que...",
+    "content": "Adicione algumas gotas de amaciante de roupas à água da lavagem de vidros. Isso proporciona um brilho extra e evita o acúmulo de poeira, deixando-os brilhantes e sem manchas por mais tempo. É uma solução simples e eficaz para uma limpeza impecável.",
+    "funFact": "O amaciante também ajuda a prevenir o surgimento de riscos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-22",
+    "categoryId": "hacks",
+    "title": "Óleo de Coco para Ferrugem",
+    "hook": "Incrível:",
+    "content": "Aplique óleo de coco em objetos enferrujados. Deixe agir por algumas horas ou até mesmo durante a noite.  A gordura do óleo ajuda a soltar a ferrugem, facilitando a remoção com uma escova ou esponja.  Um truque caseiro simples e eficiente.",
+    "funFact": "O óleo de coco também lubrifica as peças metálicas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-23",
+    "categoryId": "hacks",
+    "title": "Encerando o Chuveiro com Sabão",
+    "hook": "Você sabia que...",
+    "content": "Passe sabão em barra em todo o chuveiro e depois limpe com um pano seco. Isso cria uma barreira protetora contra a formação de limo e manchas de água, facilitando a limpeza futura e deixando o chuveiro com um brilho duradouro.",
+    "funFact": "Diminui significativamente o tempo de limpeza.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-24",
+    "categoryId": "hacks",
+    "title": "Pasta de Dente para Limpar Telas",
+    "hook": "Incrível:",
+    "content": "Use uma pequena quantidade de pasta de dente branca (sem gel) para limpar suavemente as telas do seu celular ou tablet.  A pasta ajuda a remover sujeira e marcas de dedos, devolvendo o brilho original às telas. Enxágue com um pano úmido e seque.",
+    "funFact": "Deixe as telas brilhantes como novas.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-25",
+    "categoryId": "hacks",
+    "title": "Desentupindo o Ralo com Aspirador",
+    "hook": "Incrível: ",
+    "content": "Um aspirador de pó pode ser seu melhor aliado contra ralos entupidos!  Basta posicionar o bico fino sobre o ralo e ligar o aspirador na função de sucção.  A força do vácuo remove os resíduos de forma eficaz e rápida, sem precisar de produtos químicos agressivos.  Experimente!",
+    "funFact": "Essa técnica funciona melhor em entupimentos menores, causados por cabelos ou detritos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-26",
+    "categoryId": "hacks",
+    "title": "Seu Guarda-Chuva como Estante Improvisada",
+    "hook": "Incrível: seu guarda-chuva...",
+    "content": "Com um pouco de criatividade, você pode transformar um guarda-chuva quebrado em uma charmosa estante para pequenos objetos. Basta usar a estrutura do guarda-chuva e prender pequenos ganchos para pendurar suas chaves, bijuterias, ou até mesmo pequenos vasos.  Personalize com tinta e crie uma peça única.",
+    "funFact": "Um guarda-chuva inutilizável pode se tornar um item de decoração original!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-27",
+    "categoryId": "hacks",
+    "title": "Desvende o Mistério do Suco de Limão na Limpeza",
+    "hook": "Incrível: Limpeza brilhante!",
+    "content": "Você sabia que o suco de limão, além de saboroso, é um poderoso aliado na limpeza?  Sua acidez natural remove manchas de inox, limpa superfícies de madeira e até mesmo clareia roupas brancas. Experimente!  Dilua em água e aplique com um pano macio.",
+    "funFact": "O limão também tira manchas de ferrugem em talheres.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-28",
+    "categoryId": "hacks",
+    "title": "Seu microondas como forno de pizza improvisado",
+    "hook": "Incrível: pizzas caseiras em minutos!",
+    "content": "Utilize uma pedra para pizza refratária no seu microondas para assar mini pizzas com rapidez e praticidade. A pedra retém o calor e confere uma textura crocante à massa, resultando em uma experiência gastronômica surpreendente. Experimente diferentes coberturas e sabores!",
+    "funFact": "A pedra para pizza absorve a umidade, impedindo que a massa fique borrachuda.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-29",
+    "categoryId": "hacks",
+    "title": "Desvende o mistério da lata de refrigerante gelada",
+    "hook": "Você sabia que...",
+    "content": "Uma lata de refrigerante gelada pode ser uma aliada na hora de gelar rapidamente outras bebidas.  Envolva a bebida que deseja gelar com a lata gelada, criando uma espécie de bolsa de gelo improvisada. O alumínio conduz o frio com eficiência!",
+    "funFact": "O processo é ainda mais eficaz se a lata estiver úmida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-30",
+    "categoryId": "hacks",
+    "title": "O poder do aspirador de pó na limpeza de tapetes",
+    "hook": "Incrível:",
+    "content": "Antes de lavar tapetes delicados, utilize o aspirador de pó com o acessório de escova para remover a poeira e sujeira superficial.  Isso evita que a água espalhe a sujeira durante a lavagem, garantindo um resultado mais limpo e eficiente.",
+    "funFact": "Aspirar antes da lavagem prolonga a vida útil do tapete.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-31",
+    "categoryId": "hacks",
+    "title": "Desvendando o Poder do Lápis de Olho",
+    "hook": "Incrível: um lápis de olho pode...",
+    "content": "Um lápis de olho quebrado pode ser sua salvação na hora de consertar um arranhão superficial em um móvel de madeira escura.  A cor escura disfarça o dano temporariamente até você ter tempo para um reparo mais completo.  Aplique suavemente o grafite, esfregando delicadamente.  Simples e eficaz!",
+    "funFact": "A mina de grafite é mais resistente do que se imagina!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-32",
+    "categoryId": "hacks",
+    "title": "Seu Copo de Iogurte, um Novo Vaso",
+    "hook": "Você sabia que...",
+    "content": "Recicle seus copinhos de iogurte plásticos! Após lavagem cuidadosa, esses copinhos são ótimos para organizar pequenos itens, como botões, miçangas ou até mesmo como pequenos vasos para mudas de plantas.  Colecione diferentes tamanhos para uma organização ainda mais eficiente.  Prático e sustentável!",
+    "funFact": "Você pode pintá-los e personalizá-los!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-33",
+    "categoryId": "hacks",
+    "title": "A Magia do Fita Crepe na Pintura",
+    "hook": "Incrível:",
+    "content": "Para evitar sujeira na pintura de paredes, use fita crepe para proteger rodapés, interruptores e tomadas.  O segredo é pressionar bem a fita para uma vedação perfeita, evitando que a tinta escorra.  Depois de seca, remova a fita com cuidado, puxando paralelamente à superfície.",
+    "funFact": "Fita crepe de boa qualidade garante um resultado profissional!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-34",
+    "categoryId": "hacks",
+    "title": "Organizador de Cabos com Rolos de Papelão",
+    "hook": "Incrível:",
+    "content": "Transforme rolos de papelão em organizadores de cabos! Corte os rolos ao tamanho desejado, decore-os com papel contact ou tecido e organize seus cabos e fios de forma prática e criativa. Mantenha sua mesa arrumada e os cabos longe de nós!",
+    "funFact": "Você pode até mesmo usar fita adesiva para fixá-los na mesa.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-35",
+    "categoryId": "hacks",
+    "title": "Abridor de Garrafas Improvisado",
+    "hook": "Você sabia que...",
+    "content": "Um martelo ou chave de fenda pode servir como um abridor de garrafas improvisado.  Apoie o gargalo da garrafa na superfície e use a ponta do martelo ou da chave de fenda como alavanca para abrir a garrafa.  CUIDADO: faça com cautela!",
+    "funFact": "Um alicate também pode funcionar!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "hacks-36",
+    "categoryId": "hacks",
+    "title": "Seu Celular como Microscópio",
+    "hook": "Incrível:",
+    "content": "Aproxime a lente da câmera do seu celular de um objeto minúsculo, usando uma lupa improvisada com uma gota de água sobre a lente.  Você verá detalhes incríveis!  Experimente observar fibras de tecido, cristais de sal ou até mesmo pequenas pragas de plantas.  É uma experiência científica caseira surpreendente!",
+    "funFact": "A resolução da câmera de alguns smartphones supera a de microscópios antigos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-37",
+    "categoryId": "hacks",
+    "title": "O Poder da Escova de Dentes Velha",
+    "hook": "Você sabia que...",
+    "content": "Uma escova de dentes velha pode ser uma ferramenta de limpeza multifuncional! Use-a para limpar cantos de difícil acesso, rejuntes, teclado do computador, ou até mesmo para remover manchas de roupas delicadas.  Basta um pouco de sabão ou pasta de dente para potencializar seu uso!",
+    "funFact": "Uma escova de dentes velha pode limpar até mesmo as ranhuras de um CD riscado!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-38",
+    "categoryId": "hacks",
+    "title": "Desembaçando Espelhos com Glicerina",
+    "hook": "Você sabia que...",
+    "content": "Para evitar o embaçamento de espelhos no banheiro, misture um pouco de glicerina com água e borrife sobre a superfície. A glicerina cria uma película que impede a condensação, deixando o espelho sempre cristalino, sem uso de produtos químicos agressivos.",
+    "funFact": "A glicerina é um ótimo umectante, atraindo a umidade do ar.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-39",
+    "categoryId": "hacks",
+    "title": "Seu Smartphone como Lupa Digital",
+    "hook": "Você sabia que...",
+    "content": "Utilize a função de zoom da câmera do seu smartphone como uma lupa digital.  Aproxime o objeto a ser ampliado e ajuste o zoom para ver detalhes minúsculos.  Ideal para leitura de letras pequenas ou observações de detalhes em objetos.",
+    "funFact": "Alguns aplicativos de lupa oferecem recursos adicionais, como congelamento de imagem e ajuste de brilho.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-40",
+    "categoryId": "hacks",
+    "title": "Sabão em Pó para Limpar Talheres",
+    "hook": "Você sabia que...",
+    "content": "Para talheres muito sujos ou com manchas difíceis, deixe-os de molho em uma solução de água morna com um pouco de sabão em pó.  O sabão em pó age como um poderoso removedor de gordura e sujeira, deixando seus talheres brilhando.",
+    "funFact": "O sabão em pó também pode ser usado para limpar manchas de roupa.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-41",
+    "categoryId": "hacks",
+    "title": "Água com Sal para Plantas Murchadas",
+    "hook": "Incrível:",
+    "content": "Regar plantas levemente murchadas com água misturada a uma colher de chá de sal pode ajudar na recuperação.  O sal ajuda a regular a absorção de água pelas raízes, revitalizando a planta.  Cuidado para não exagerar na quantidade de sal!",
+    "funFact": "O sal também pode ser usado como fertilizante em pequenas quantidades.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-42",
+    "categoryId": "hacks",
+    "title": "Desodorizando o Carro com Carvão Ativado",
+    "hook": "Você sabia que...",
+    "content": "Coloque alguns saquinhos de carvão ativado dentro do seu carro para absorver odores desagradáveis.  O carvão ativado é um poderoso absorvedor de odores, deixando o seu carro com um cheiro fresco e limpo.  Troque os saquinhos a cada 30 dias.",
+    "funFact": "O carvão ativado também pode ser usado para purificar a água.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-43",
+    "categoryId": "hacks",
+    "title": "Suco de Limão para Limpeza de Metais",
+    "hook": "Você sabia que...",
+    "content": "O suco de limão é um ótimo limpador e polidor de metais.  Aplique o suco de limão em metais, como cobre ou latão, e esfregue com um pano macio.  O suco de limão remove manchas e dá brilho aos metais.",
+    "funFact": "O suco de limão também pode ser usado para remover manchas de ferrugem.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-44",
+    "categoryId": "hacks",
+    "title": "Seu Refrigerador, um Purificador de Ar?",
+    "hook": "Incrível:",
+    "content": "Coloque uma xícara com bicarbonato de sódio aberto dentro da geladeira. Ele absorverá odores desagradáveis, mantendo o ambiente fresco e limpo por mais tempo.  Experimente trocar a xícara a cada duas semanas para melhores resultados. Você ficará surpreso com a diferença!",
+    "funFact": "O bicarbonato de sódio neutraliza os ácidos responsáveis pelos maus odores.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-45",
+    "categoryId": "hacks",
+    "title": "Seu Freezer, um Organizador de Alimentos?",
+    "hook": "Incrível:",
+    "content": "Organize seus alimentos congelados por data de validade, colocando etiquetas coloridas em sacos plásticos transparentes.  Isso evita desperdício e facilita a busca pelo que você precisa.  Um sistema simples, mas eficaz para otimizar o espaço do seu freezer e reduzir o descarte de alimentos.",
+    "funFact": "Você sabia que congelar ervas frescas em cubos de gelo com azeite preserva seu aroma e sabor para uso posterior?",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-46",
+    "categoryId": "hacks",
+    "title": "O Poder Secreto do Spray de Cabelo",
+    "hook": "Incrível:",
+    "content": "O spray de cabelo, além de domar os fios, é um aliado inesperado na hora de remover manchas de tinta fresca em tecidos. Borrife um pouco na mancha, espere alguns minutos e limpe com um pano úmido.  A fixação do spray impede a penetração da tinta.",
+    "funFact": "Ele também pode ajudar a criar um efeito anti-derrapante em luvas de borracha.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-47",
+    "categoryId": "hacks",
+    "title": "A Mágica do Removedor de Esmalte",
+    "hook": "Incrível:",
+    "content": "Você sabia que o removedor de esmalte à base de acetona pode remover manchas de tinta fresca de roupas? Aplique um pouco na mancha, deixe agir por alguns minutos e lave normalmente.  Para tecidos delicados, teste em uma área escondida primeiro.",
+    "funFact": "Também funciona em manchas de canetinha em superfícies de madeira!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-48",
+    "categoryId": "hacks",
+    "title": "O Segredo do Spray de Cabelo em Jeans",
+    "hook": "Incrível:",
+    "content": "O spray de cabelo pode ser um aliado na hora de domar aqueles fios soltos do jeans. Borrife um pouco na área rebelde e alise com os dedos.  Ideal para evitar que aqueles fios fiquem arrepiados e fora do lugar.",
+    "funFact": "Funciona maravilhosamente em qualquer tipo de tecido jeans, inclusive o mais grosso.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-49",
+    "categoryId": "hacks",
+    "title": "Seu Controle Remoto, Limpo e Brilhante!",
+    "hook": "Incrível:",
+    "content": "Use uma escova de dentes velha e um pouco de álcool isopropílico para limpar profundamente as ranhuras do seu controle remoto.  A solução remove a sujeira e as marcas de dedos, deixando-o como novo.  Certifique-se de deixar o controle secar completamente antes de usá-lo.",
+    "funFact": "A limpeza regular do controle remoto pode ajudar a evitar a propagação de germes!",
+    "curiosityLevel": 3
   }
 ]

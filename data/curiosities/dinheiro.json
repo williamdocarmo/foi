@@ -2645,5 +2645,167 @@
     "content": "Moedas contemporâneas refletem os valores, preocupações e símbolos da cultura moderna.",
     "id": "dinheiro-440",
     "categoryId": "dinheiro"
+  },
+  {
+    "id": "dinheiro-441",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro e a Guerra dos Botões",
+    "hook": "Você sabia que...",
+    "content": "A escassez de botões durante a Guerra Civil Americana impactou a economia de forma inesperada.  Botões, considerados itens triviais, tornaram-se um meio de troca valioso, refletindo a instabilidade econômica em tempos de conflito e a criatividade humana na adaptação a situações extremas.",
+    "funFact": "Coleções de botões antigos valem fortunas hoje!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-442",
+    "categoryId": "dinheiro",
+    "title": "A Lei de Gresham",
+    "hook": "Incrível:",
+    "content": "A Lei de Gresham, que estabelece que “a moeda ruim afasta a boa”, explica como, quando duas moedas com valor legal diferente circulam simultaneamente, a moeda de menor valor tende a dominar a circulação, enquanto a de maior valor é guardada ou retirada.",
+    "funFact": "Essa lei afeta a economia até hoje!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "dinheiro-443",
+    "categoryId": "dinheiro",
+    "title": "A Moeda que Desafiou a Gravidade",
+    "hook": "Incrível:",
+    "content": "Uma moeda de ouro do século XVI, encontrada recentemente, possui uma inscrição que desafia as leis da física.  A gravação, quase imperceptível a olho nu, mostra um desenho que parece flutuar livremente, sem conexão aparente com a superfície da moeda.",
+    "funFact": "Especialistas acreditam que a inscrição seja uma mensagem cifrada, ainda não decifrada.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "dinheiro-444",
+    "categoryId": "dinheiro",
+    "title": "O Dinheiro dos Piratas",
+    "hook": "Você sabia que...",
+    "content": "Os piratas do século XVIII frequentemente utilizavam moedas de diversas origens e estados de conservação, criando um sistema monetário informal e caótico.  A variedade era tão grande que o valor de cada peça era negociado caso a caso, dependendo da sua raridade e material.",
+    "funFact": "Algumas moedas eram mesmo obtidas através de saque, e outras através de troca em portos mais distantes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-445",
+    "categoryId": "dinheiro",
+    "title": "O Mistério das Moedas Romanas",
+    "hook": "Incrível: Moedas com segredos!",
+    "content": "Algumas moedas romanas continham marcas secretas, visíveis apenas sob luz ultravioleta. Essas marcas revelavam informações sobre a oficina de cunhagem e a data de produção, ajudando a combater a falsificação na época.  Esses detalhes são tão minuciosos que ainda hoje surpreendem os especialistas.",
+    "funFact": "Algumas dessas marcas eram tão sutis que só foram descobertas com tecnologias modernas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-446",
+    "categoryId": "dinheiro",
+    "title": "O Dinheiro que Cheira a Chocolate",
+    "hook": "Você sabia que...",
+    "content": "Em 1936, o governo suíço lançou um chocolate especial em formato de moeda como forma de promover o turismo. As 'moedas' eram feitas de chocolate e eram usadas apenas como lembranças, mas geraram uma grande curiosidade e impulsionaram a economia local.",
+    "funFact": "Elas eram tão populares que alguns turistas as guardavam como verdadeiras relíquias!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-447",
+    "categoryId": "dinheiro",
+    "title": "Moedas com Buracos: Uma História",
+    "hook": "Incrível:",
+    "content": "Moedas com buracos são mais antigas do que se imagina.  Em algumas culturas, o furo era utilizado para facilitar o transporte, como um colar. Em outras, o buraco indicava um valor fracionário.  A prática era comum em diversas civilizações antigas.",
+    "funFact": "O tamanho do buraco podia indicar o valor da moeda!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-448",
+    "categoryId": "dinheiro",
+    "title": "O Mistério das Moedas de Madeira",
+    "hook": "Incrível: Moedas de madeira!",
+    "content": "Algumas culturas antigas utilizaram moedas feitas de madeira, principalmente em regiões com escassez de metais.  Essas moedas, muitas vezes esculpidas com detalhes intrincados, tinham valor baseado na qualidade da madeira e na sua simbologia. Sua durabilidade, porém, era um grande desafio.",
+    "funFact": "Algumas moedas de madeira foram encontradas com inscrições que revelavam informações sobre impostos e tributos da época.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-449",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro em Formato de Concha",
+    "hook": "Você sabia que...",
+    "content": "Antes das moedas metálicas, conchas de certas espécies marinhas eram amplamente usadas como meio de troca em diversas culturas. Seu valor variava de acordo com o tamanho, a cor e a raridade da concha, refletindo a procura e a oferta.",
+    "funFact": "Existem registros históricos de casamentos onde o dote era pago em conchas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-450",
+    "categoryId": "dinheiro",
+    "title": "A Maldição do Número 13",
+    "hook": "Incrível: o medo do 13...",
+    "content": "Em alguns países, o número 13 é associado à má sorte, inclusive no contexto financeiro.  Há empresas que evitam numerar andares ou salas com o número 13, e até mesmo datas de lançamentos financeiros são alteradas para evitar essa superstição. Essa aversão afeta decisões econômicas e investimentos.",
+    "funFact": "O medo do número 13, a triscaidecafobia, afeta até mesmo o mercado de ações em alguns países!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-451",
+    "categoryId": "dinheiro",
+    "title": "O Segredo das Moedas Romanas",
+    "hook": "Incrível: ",
+    "content": "Algumas moedas romanas continham marcas secretas, quase invisíveis a olho nu, usadas para rastrear falsificações e controlar a circulação de dinheiro.  Essas marcas, muitas vezes gravadas em um ponto específico da moeda, eram conhecidas apenas por alguns oficiais do Império. A tecnologia da época era surpreendente!",
+    "funFact": "Essas marcas eram tão discretas que só eram reveladas sob luz específica ou com lentes de aumento.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-452",
+    "categoryId": "dinheiro",
+    "title": "O Dinheiro que se Come",
+    "hook": "Incrível:",
+    "content": "Em algumas culturas primitivas, o sal, o cacau ou até mesmo o chá eram usados como moeda.  Imagine pagar suas compras com uma xícara de chá ou um punhado de sal! O valor variava dependendo da qualidade e da oferta desses itens.",
+    "funFact": "O sal, em alguns períodos da história, era mais valioso que o ouro!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-453",
+    "categoryId": "dinheiro",
+    "title": "O Tesouro Subaquático",
+    "hook": "Incrível:",
+    "content": "Naufrágios carregados de ouro, prata e outras riquezas que funcionavam como moeda em épocas passadas, hoje representam tesouros submersos.  Sua descoberta ocasional altera o valor de mercado de metais preciosos e nos lembra da instabilidade do dinheiro ao longo da história.",
+    "funFact": "Muitos desses tesouros ainda não foram encontrados!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "dinheiro-454",
+    "categoryId": "dinheiro",
+    "title": "O Mistério das Moedas de Chocolate",
+    "hook": "Incrível: Moedas comestíveis!",
+    "content": "Você já imaginou uma moeda que você pode comer?  Existem registros históricos de moedas feitas de chocolate, usadas em algumas culturas antigas como meio de troca em ocasiões especiais ou como brindes.  Eram, obviamente, moedas de valor baixo e com vida útil curta, mas mostram a criatividade na busca por soluções monetárias.",
+    "funFact": "Algumas tribos utilizavam cacau em pó como dinheiro antes mesmo do chocolate sólido!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-455",
+    "categoryId": "dinheiro",
+    "title": "O Peso do Dinheiro: Literalmente!",
+    "hook": "Surpreendente:",
+    "content": "A expressão \"ter peso no bolso\" tem um significado literal em algumas culturas!  Em tempos passados, antes do dinheiro papel, o valor real de uma pessoa era determinado pelo peso físico das suas moedas e metais preciosos.  Quanto mais pesado o seu dinheiro, maior o seu poder.",
+    "funFact": "Existiam balanças especiais para pesar moedas e verificar sua autenticidade!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-456",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro e Animais: Uma Troca Inesperada",
+    "hook": "Incrível:",
+    "content": "Em algumas culturas ao longo da história, animais foram usados como moeda de troca!  Cavalos, gado e até mesmo pássaros exóticos tinham valores distintos e podiam ser negociados por bens e serviços.  Sua utilidade e valor variavam conforme a necessidade da comunidade.",
+    "funFact": "O valor de um animal podia variar de acordo com sua raça, idade e força!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "dinheiro-457",
+    "categoryId": "dinheiro",
+    "title": "Dinheiro e a Música Clássica: Uma Harmonia Inesperada",
+    "hook": "Incrível:",
+    "content": "A criação e execução de música clássica sempre teve um forte vínculo com o dinheiro.  Compositores, frequentemente, dependiam do apoio de patronos ricos para criar suas obras.  Os concertos e óperas eram eventos exclusivos, acessíveis apenas a classes sociais mais abastadas.",
+    "funFact": "Muitos compositores famosos tiveram que se submeter a trabalhos musicais menos inspiradores para sobreviver financeiramente!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "dinheiro-458",
+    "categoryId": "dinheiro",
+    "title": "O Dinheiro na Moda Sustentável: Um Novo Estilo",
+    "hook": "Você sabia que...",
+    "content": "A moda sustentável está ganhando espaço, e o dinheiro desempenha um papel crucial neste movimento.  Consumidores estão cada vez mais dispostos a pagar mais por peças de roupa produzidas de forma ética e com materiais ecologicamente responsáveis, impulsionando a economia circular.",
+    "funFact": "Algumas marcas de luxo já investem em tecnologias inovadoras para reduzir o impacto ambiental da produção têxtil!",
+    "curiosityLevel": 2
   }
 ]

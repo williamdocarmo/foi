@@ -684,5 +684,495 @@
     ],
     "correctAnswer": "'Se eu falhar neste teste, minha vida acabou.'",
     "explanation": "Pensamento catastrófico é a tendência a exagerar as consequências negativas de um evento.  É um padrão de pensamento que contribui para a ansiedade. Curiosidade: a terapia cognitivo-comportamental (TCC) pode ajudar a identificar e mudar padrões de pensamento catastrófico."
+  },
+  {
+    "id": "quiz-bem-estar-50",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade relaxante pode reduzir a tensão muscular?",
+    "options": [
+      "Correr uma maratona",
+      "Tomar um banho quente",
+      "Fazer uma prova difícil",
+      "Jogar videogame por horas"
+    ],
+    "correctAnswer": "Tomar um banho quente",
+    "explanation": "O calor da água relaxa os músculos e reduz a tensão.  Curiosidade: banhos quentes também podem melhorar o sono!"
+  },
+  {
+    "id": "quiz-bem-estar-51",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é geralmente considerado um bom exemplo de alimento rico em antioxidantes?",
+    "options": [
+      "Batata frita",
+      "Refrigerante",
+      "Doces",
+      "Morango"
+    ],
+    "correctAnswer": "Morango",
+    "explanation": "Morangos são ricos em antioxidantes que combatem os radicais livres, protegendo as células do corpo. Curiosidade: o consumo regular de antioxidantes pode auxiliar na prevenção do envelhecimento precoce."
+  },
+  {
+    "id": "quiz-bem-estar-52",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A técnica de 'mindfulness'  'escuta compassiva' envolve:",
+    "options": [
+      "Ignorar completamente os outros",
+      "Ouvir apenas o que se quer ouvir",
+      "Ouvir atentamente e com empatia",
+      "Interromper frequentemente quem está falando"
+    ],
+    "correctAnswer": "Ouvir atentamente e com empatia",
+    "explanation": "A escuta compassiva implica em prestar atenção plena às palavras e emoções do outro, sem julgamento. Curiosidade: essa técnica fortalece conexões e promove a compreensão."
+  },
+  {
+    "id": "quiz-bem-estar-53",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual destas afirmações melhor descreve a 'paradoxo do progresso'?",
+    "options": [
+      "Avanços tecnológicos sempre trazem felicidade.",
+      "O progresso tecnológico melhorou todas as áreas da vida humana.",
+      "Apesar do progresso, os níveis de felicidade e bem-estar não aumentaram proporcionalmente.",
+      "O progresso só é bom para as pessoas ricas."
+    ],
+    "correctAnswer": "Apesar do progresso, os níveis de felicidade e bem-estar não aumentaram proporcionalmente.",
+    "explanation": "A paradoxo do progresso destaca a discrepância entre o avanço tecnológico e a falta de correspondente aumento na felicidade e bem-estar. Curiosidade: isso se relaciona à nossa capacidade limitada de lidar com a complexidade da vida moderna."
+  },
+  {
+    "id": "quiz-bem-estar-54",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O conceito de 'autoeficácia' se refere a:",
+    "options": [
+      "A crença na própria capacidade de realizar tarefas e alcançar objetivos.",
+      "A capacidade de controlar os pensamentos e emoções dos outros.",
+      "A habilidade de prever o futuro com precisão.",
+      "A confiança excessiva em si mesmo, levando a riscos desnecessários."
+    ],
+    "correctAnswer": "A crença na própria capacidade de realizar tarefas e alcançar objetivos.",
+    "explanation": "A autoeficácia é um fator crucial na motivação e na realização pessoal.  Curiosidade: indivíduos com alta autoeficácia tendem a se mostrar mais resilientes diante de desafios."
+  },
+  {
+    "id": "quiz-bem-estar-55",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual destes conceitos NÃO está diretamente relacionado à 'teoria da autodeterminação'?",
+    "options": [
+      "Competência",
+      "Autonomia",
+      "Relacionamento",
+      "Condicionamento"
+    ],
+    "correctAnswer": "Condicionamento",
+    "explanation": "A teoria da autodeterminação enfatiza a autonomia, competência e relacionamento como necessidades psicológicas básicas para o bem-estar. Curiosidade: o condicionamento, embora possa influenciar comportamentos, não é um pilar central dessa teoria."
+  },
+  {
+    "id": "quiz-bem-estar-56",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Quais são os principais componentes do 'triângulo do bem-estar'?",
+    "options": [
+      "Felicidade, Saúde Física, Resiliência",
+      "Sono, Alimentação, Exercício",
+      "Conexão, Propósito, Realização",
+      "Dinheiro, Poder, Status"
+    ],
+    "correctAnswer": "Conexão, Propósito, Realização",
+    "explanation": "O modelo do 'triângulo do bem-estar' propõe que a conexão social, o propósito de vida e a realização pessoal são pilares fundamentais para uma vida plena. Curiosidade: este modelo é uma simplificação útil, mas o bem-estar é multifacetado."
+  },
+  {
+    "id": "quiz-bem-estar-57",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que significa 'cognição incorporada' no contexto do bem-estar?",
+    "options": [
+      "Pensar apenas em coisas positivas",
+      "Ignorar as sensações físicas",
+      "A influência do corpo e das sensações físicas nos nossos pensamentos e emoções",
+      "Uma forma de meditação avançada"
+    ],
+    "correctAnswer": "A influência do corpo e das sensações físicas nos nossos pensamentos e emoções",
+    "explanation": "A cognição incorporada reconhece a interconexão entre mente e corpo, destacando como as sensações físicas podem impactar nossos estados mentais. Curiosidade: práticas como ioga e mindfulness exploram este princípio."
+  },
+  {
+    "id": "quiz-bem-estar-58",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual é uma característica comum de pessoas com alta resiliência?",
+    "options": [
+      "Evitar completamente o estresse",
+      "Negar seus problemas",
+      "Ter um forte senso de autoeficácia",
+      "Se entregar à negatividade"
+    ],
+    "correctAnswer": "Ter um forte senso de autoeficácia",
+    "explanation": "A autoeficácia, ou seja, a crença na própria capacidade de superar obstáculos, é um componente essencial da resiliência. Curiosidade: resiliência não é a ausência de adversidades, mas a capacidade de se recuperar delas."
+  },
+  {
+    "id": "quiz-bem-estar-59",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "A prática regular de gratidão está associada a:",
+    "options": [
+      "Aumento do estresse",
+      "Diminuição da imunidade",
+      "Maior satisfação com a vida",
+      "Insônia crônica"
+    ],
+    "correctAnswer": "Maior satisfação com a vida",
+    "explanation": "A gratidão aumenta a positividade e a apreciação pelo que se tem, contribuindo para maior satisfação com a vida. Curiosidade: manter um diário de gratidão é uma prática eficaz para cultivar a gratidão."
+  },
+  {
+    "id": "quiz-bem-estar-60",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual hormônio é conhecido por regular o ciclo circadiano do sono?",
+    "options": [
+      "Adrenalina",
+      "Testosterona",
+      "Melatonina",
+      "Cortisol"
+    ],
+    "correctAnswer": "Melatonina",
+    "explanation": "A melatonina é um hormônio produzido pela glândula pineal, e seu aumento no sangue sinaliza ao corpo que é hora de dormir. Curiosidade: a exposição à luz azul à noite inibe a produção de melatonina."
+  },
+  {
+    "id": "quiz-bem-estar-61",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual destas estratégias pode melhorar a regulação emocional?",
+    "options": [
+      "Suprimir todas as emoções negativas",
+      "Ignorar os sentimentos",
+      "Utilizar técnicas de respiração profunda",
+      "Consumir grandes quantidades de açúcar"
+    ],
+    "correctAnswer": "Utilizar técnicas de respiração profunda",
+    "explanation": "A respiração profunda ativa o sistema nervoso parassimpático, que promove o relaxamento e ajuda a regular as emoções. Curiosidade: a respiração diafragmática é especialmente eficaz."
+  },
+  {
+    "id": "quiz-bem-estar-62",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito se relaciona com a capacidade de encontrar significado e propósito na vida?",
+    "options": [
+      "Hedonismo",
+      "Eudaimonia",
+      "Egoísmo",
+      "Nihilismo"
+    ],
+    "correctAnswer": "Eudaimonia",
+    "explanation": "A eudaimonia, conceito da filosofia grega antiga, se refere à busca de uma vida virtuosa e significativa, focada em auto-realização e propósito. Curiosidade: a eudaimonia contrasta com o hedonismo, que busca apenas o prazer."
+  },
+  {
+    "id": "quiz-bem-estar-63",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual nutriente é essencial para a produção de neurotransmissores como a dopamina e a serotonina?",
+    "options": [
+      "Sódio",
+      "Açúcar",
+      "Gordura saturada",
+      "Triptofano"
+    ],
+    "correctAnswer": "Triptofano",
+    "explanation": "O triptofano é um aminoácido essencial para a produção de serotonina e melatonina, neurotransmissores importantes para o humor e o sono. Curiosidade: alimentos ricos em triptofano incluem bananas, ovos e nozes."
+  },
+  {
+    "id": "quiz-bem-estar-64",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade física leve pode melhorar o humor?",
+    "options": [
+      "Corrida de maratona",
+      "Levantamento de peso pesado",
+      "Caminhada rápida",
+      "Escalada em rocha"
+    ],
+    "correctAnswer": "Caminhada rápida",
+    "explanation": "Uma caminhada rápida é acessível a muitos e libera endorfinas, melhorando o humor. Curiosidade:  A luz solar durante a caminhada também aumenta a produção de vitamina D, crucial para a saúde óssea e o humor."
+  },
+  {
+    "id": "quiz-bem-estar-65",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em fibra?",
+    "options": [
+      "Batata frita",
+      "Refrigerante",
+      "Doces",
+      "Aveia"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é uma excelente fonte de fibra, importante para a saúde digestiva. Curiosidade: A fibra também ajuda a regular o açúcar no sangue."
+  },
+  {
+    "id": "quiz-bem-estar-66",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual técnica de respiração é frequentemente usada para reduzir a ansiedade?",
+    "options": [
+      "Respiração rápida e superficial",
+      "Respiração de focinho de cachorro",
+      "Respiração diafragmática",
+      "Respiração ofegante"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática (ou respiração abdominal) desacelera a frequência cardíaca e reduz a resposta de estresse. Curiosidade: Também é conhecida como respiração 4-7-8."
+  },
+  {
+    "id": "quiz-bem-estar-67",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual o impacto da privação do sono no sistema imunológico?",
+    "options": [
+      "Fortalece o sistema imunológico",
+      "Não tem impacto",
+      "Enfraquece o sistema imunológico",
+      "Aumenta a imunidade a doenças virais"
+    ],
+    "correctAnswer": "Enfraquece o sistema imunológico",
+    "explanation": "A falta de sono prejudica a produção de células imunes, tornando o corpo mais suscetível a doenças. Curiosidade: 7-9 horas de sono são recomendadas para adultos."
+  },
+  {
+    "id": "quiz-bem-estar-68",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O que é a 'Teoria da Comparação Social' e como ela afeta o bem-estar?",
+    "options": [
+      "Teoria sobre a importância da competição para o sucesso",
+      "Teoria sobre a influência das redes sociais no comportamento",
+      "Teoria sobre como comparamos nossa vida com a dos outros",
+      "Teoria sobre o impacto da mídia no autoconceito"
+    ],
+    "correctAnswer": "Teoria sobre como comparamos nossa vida com a dos outros",
+    "explanation": "A Teoria da Comparação Social sugere que comparamos nossas vidas com as dos outros, influenciando nossa auto-estima e bem-estar. Curiosidade: Comparações ascendentes (com pessoas melhores) podem ser prejudiciais, enquanto as descendentes (com pessoas piores) podem ser benéficas, mas nem sempre."
+  },
+  {
+    "id": "quiz-bem-estar-69",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito explica a tendência de superestimar nossa capacidade de controlar eventos?",
+    "options": [
+      "Viés de confirmação",
+      "Ilusão de controle",
+      "Pensamento mágico",
+      "Heurística da disponibilidade"
+    ],
+    "correctAnswer": "Ilusão de controle",
+    "explanation": "A ilusão de controle é a crença infundada de que podemos controlar eventos aleatórios. Curiosidade:  Essa ilusão pode levar a tomada de decisões arriscadas."
+  },
+  {
+    "id": "quiz-bem-estar-70",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual o benefício da prática regular de mindfulness?",
+    "options": [
+      "Aumenta a ansiedade",
+      "Diminui a capacidade de foco",
+      "Aumenta a consciência do momento presente",
+      "Não afeta o estado mental"
+    ],
+    "correctAnswer": "Aumenta a consciência do momento presente",
+    "explanation": "Mindfulness aumenta a consciência do momento presente, reduzindo o estresse e melhorando a regulação emocional. Curiosidade: Existem diversas técnicas de mindfulness, como meditação, ioga e atenção plena."
+  },
+  {
+    "id": "quiz-bem-estar-71",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Como o contato com a natureza impacta o estresse?",
+    "options": [
+      "Aumenta o estresse",
+      "Não afeta o estresse",
+      "Diminui o estresse",
+      "Causa estresse em pessoas sensíveis"
+    ],
+    "correctAnswer": "Diminui o estresse",
+    "explanation": "O contato com a natureza tem demonstrado reduzir os níveis de cortisol (hormônio do estresse). Curiosidade:  Um simples passeio em um parque já pode ter efeitos benéficos."
+  },
+  {
+    "id": "quiz-bem-estar-72",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual comportamento demonstra gratidão?",
+    "options": [
+      "Reclamar constantemente",
+      "Focar apenas nos problemas",
+      "Agradecer pelas coisas boas",
+      "Ignorar os aspectos positivos"
+    ],
+    "correctAnswer": "Agradecer pelas coisas boas",
+    "explanation": "Demonstrar gratidão envolve reconhecer e apreciar as coisas positivas da vida. Curiosidade: A gratidão está associada a maior felicidade e bem-estar."
+  },
+  {
+    "id": "quiz-bem-estar-73",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito descreve a busca por experiências prazerosas e maximização do prazer?",
+    "options": [
+      "Eudaimonia",
+      "Hedonismo",
+      "Estoicismo",
+      "Minimalismo"
+    ],
+    "correctAnswer": "Hedonismo",
+    "explanation": "O hedonismo se concentra no prazer e na ausência de dor como o objetivo principal da vida. Curiosidade:  O hedonismo é frequentemente contrastado com a eudaimonia, que enfatiza o florescimento e a realização pessoal."
+  },
+  {
+    "id": "quiz-bem-estar-74",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual é um sinal de burnout?",
+    "options": [
+      "Aumento de energia",
+      "Maior produtividade",
+      "Exaustão física e emocional",
+      "Melhor capacidade de lidar com o estresse"
+    ],
+    "correctAnswer": "Exaustão física e emocional",
+    "explanation": "O burnout é caracterizado por exaustão física e emocional, cinismo e redução da eficácia profissional. Curiosidade: É comum em profissões com alta demanda e pressão."
+  },
+  {
+    "id": "quiz-bem-estar-75",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de autocuidado?",
+    "options": [
+      "Negligência própria",
+      "Excesso de trabalho",
+      "Dormir o suficiente",
+      "Adiar tarefas importantes"
+    ],
+    "correctAnswer": "Dormir o suficiente",
+    "explanation": "Dormir o suficiente é um ato fundamental de autocuidado. Curiosidade:  A privação do sono prejudica a saúde física e mental."
+  },
+  {
+    "id": "quiz-bem-estar-76",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em antioxidantes?",
+    "options": [
+      "Refrigerante",
+      "Batata frita",
+      "Frutas vermelhas",
+      "Doces"
+    ],
+    "correctAnswer": "Frutas vermelhas",
+    "explanation": "Frutas vermelhas como morangos, framboesas e mirtilos são ricos em antioxidantes, que protegem as células contra danos. Curiosidade: Antioxidantes combatem os radicais livres, que estão relacionados ao envelhecimento e a diversas doenças."
+  },
+  {
+    "id": "quiz-bem-estar-77",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual desses nutrientes é essencial para a produção de serotonina?",
+    "options": [
+      "Sódio",
+      "Potássio",
+      "Ferro",
+      "Triptofano"
+    ],
+    "correctAnswer": "Triptofano",
+    "explanation": "O triptofano é um aminoácido essencial para a produção de serotonina, um neurotransmissor relacionado ao humor e ao sono. Curiosidade: Alimentos ricos em triptofano incluem ovos, peixe e banana."
+  },
+  {
+    "id": "quiz-bem-estar-78",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade física leve é ideal para iniciantes?",
+    "options": [
+      "Corrida de maratona",
+      "Levantamento de peso pesado",
+      "Caminhada rápida",
+      "Escalada em rocha"
+    ],
+    "correctAnswer": "Caminhada rápida",
+    "explanation": "A caminhada rápida é acessível, de baixo impacto e facilmente incorporada à rotina diária.  Curiosidade:  Caminhar 30 minutos na maioria dos dias da semana já proporciona benefícios significativos para a saúde."
+  },
+  {
+    "id": "quiz-bem-estar-79",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual nutriente é essencial para a saúde óssea?",
+    "options": [
+      "Ferro",
+      "Vitamina C",
+      "Cálcio",
+      "Magnésio"
+    ],
+    "correctAnswer": "Cálcio",
+    "explanation": "O cálcio é crucial para a construção e manutenção de ossos fortes. Curiosidade: A deficiência de cálcio pode levar à osteoporose."
+  },
+  {
+    "id": "quiz-bem-estar-80",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual técnica de relaxamento envolve a concentração na respiração?",
+    "options": [
+      "Yoga",
+      "Meditação de Atenção Plena",
+      "Respiração diafragmática",
+      "Tai Chi"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática, ou respiração abdominal, é uma técnica simples e eficaz para acalmar o sistema nervoso. Curiosidade: A respiração diafragmática pode reduzir a frequência cardíaca e a pressão arterial."
+  },
+  {
+    "id": "quiz-bem-estar-81",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual é um benefício da meditação para o bem-estar?",
+    "options": [
+      "Aumentar a ansiedade",
+      "Diminuir a capacidade de concentração",
+      "Reduzir o estresse e melhorar a autoconsciência",
+      "Aumentar a irritabilidade"
+    ],
+    "correctAnswer": "Reduzir o estresse e melhorar a autoconsciência",
+    "explanation": "A meditação ajuda a regular o sistema nervoso, reduzindo o estresse e aumentando a autoconsciência. Curiosidade: Estudos mostram que a meditação pode aumentar a massa cinzenta do cérebro."
+  },
+  {
+    "id": "quiz-bem-estar-82",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual destas atividades geralmente é considerada uma boa maneira de começar um dia com mais energia e foco?",
+    "options": [
+      "Dormir até tarde",
+      "Checar as redes sociais",
+      "Fazer uma atividade física leve (como uma caminhada)",
+      "Tomar um café forte e comer um doce"
+    ],
+    "correctAnswer": "Fazer uma atividade física leve (como uma caminhada)",
+    "explanation": "A atividade física leve aumenta a circulação sanguínea, libera endorfinas e prepara o corpo e a mente para o dia.  Curiosidade:  Um estudo da Universidade de Bristol descobriu que apenas 10 minutos de caminhada podem melhorar o humor e a concentração."
+  },
+  {
+    "id": "quiz-bem-estar-83",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O 'paradoxo da escolha' sugere que ter muitas opções pode levar a:",
+    "options": [
+      "Maior satisfação com a escolha final",
+      "Maior facilidade na tomada de decisão",
+      "Menor arrependimento após a escolha",
+      "Menos satisfação e maior ansiedade"
+    ],
+    "correctAnswer": "Menor satisfação e maior ansiedade",
+    "explanation": "Ter muitas opções pode levar à sobrecarga de informação e à dificuldade em escolher, resultando em menos satisfação e mais arrependimento.  Curiosidade:  O livro 'A Paradoxo da Escolha', de Barry Schwartz, explora em detalhes este fenômeno psicológico."
+  },
+  {
+    "id": "quiz-bem-estar-84",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito psicológico descreve a tendência de buscar significado e propósito na vida, mesmo quando confrontado com adversidades, e está fortemente ligado ao bem-estar a longo prazo?",
+    "options": [
+      "Hedonismo",
+      "Eudaimonia",
+      "Autoeficácia",
+      "Resiliência"
+    ],
+    "correctAnswer": "Eudaimonia",
+    "explanation": "A eudaimonia se concentra no florescimento e na realização do potencial humano, buscando significado e propósito, enquanto o hedonismo se concentra principalmente no prazer.  Curiosidade: Aristóteles usou pela primeira vez o termo 'eudaimonia' para descrever um estado de florescimento humano."
   }
 ]

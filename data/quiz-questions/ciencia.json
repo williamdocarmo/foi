@@ -838,5 +838,383 @@
     ],
     "correctAnswer": "NaCl",
     "explanation": "O sal de cozinha é composto quimicamente por cloreto de sódio (NaCl). Uma curiosidade é que o sal é essencial para a vida, mas em excesso pode ser prejudicial à saúde."
+  },
+  {
+    "id": "quiz-ciencia-61",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o fenômeno que explica o movimento aparente das estrelas no céu noturno?",
+    "options": [
+      "Rotação da Terra",
+      "Translação da Terra",
+      "Precessão dos equinócios",
+      "Rotação das estrelas"
+    ],
+    "correctAnswer": "Rotação da Terra",
+    "explanation": "A rotação da Terra, de oeste para leste, faz com que as estrelas pareçam se mover de leste para oeste no céu. Curiosidade: A velocidade de rotação da Terra não é constante, variando em milissegundos por dia."
+  },
+  {
+    "id": "quiz-ciencia-62",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a constante de Hubble?",
+    "options": [
+      "A constante gravitacional",
+      "A taxa de expansão do universo",
+      "A velocidade da luz",
+      "A constante de Planck"
+    ],
+    "correctAnswer": "A taxa de expansão do universo",
+    "explanation": "A constante de Hubble representa a taxa de expansão do universo. Curiosidade: O valor da constante de Hubble ainda é debatido entre os cientistas."
+  },
+  {
+    "id": "quiz-ciencia-63",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre matéria escura e energia escura?",
+    "options": [
+      "Matéria escura atrai gravitacionalmente, energia escura repele.",
+      "Ambas são compostas de átomos exóticos.",
+      "Matéria escura emite luz, energia escura não.",
+      "Não há diferença, são sinônimos."
+    ],
+    "correctAnswer": "Matéria escura atrai gravitacionalmente, energia escura repele.",
+    "explanation": "A matéria escura exerce atração gravitacional, enquanto a energia escura causa a expansão acelerada do universo. Curiosidade: A natureza da matéria escura e da energia escura ainda é um mistério para a ciência."
+  },
+  {
+    "id": "quiz-ciencia-64",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual partícula subatômica não possui carga elétrica?",
+    "options": [
+      "Próton",
+      "Elétron",
+      "Nêutron",
+      "Pósitron"
+    ],
+    "correctAnswer": "Nêutron",
+    "explanation": "O nêutron é uma partícula subatômica sem carga elétrica. Curiosidade: O número de nêutrons em um átomo determina seu isótopo."
+  },
+  {
+    "id": "quiz-ciencia-65",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o símbolo químico do oxigênio?",
+    "options": [
+      "O",
+      "H",
+      "C",
+      "N"
+    ],
+    "correctAnswer": "O",
+    "explanation": "O símbolo químico do oxigênio é O. Curiosidade: O oxigênio é essencial para a respiração da maioria dos seres vivos."
+  },
+  {
+    "id": "quiz-ciencia-66",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é um quark?",
+    "options": [
+      "Uma partícula fundamental que constitui prótons e nêutrons",
+      "Um tipo de onda gravitacional",
+      "Uma unidade de medida de energia",
+      "Uma estrutura celular"
+    ],
+    "correctAnswer": "Uma partícula fundamental que constitui prótons e nêutrons",
+    "explanation": "Quarks são partículas fundamentais que compõem prótons e nêutrons. Curiosidade: Existem seis tipos de quarks: up, down, charm, strange, top e bottom."
+  },
+  {
+    "id": "quiz-ciencia-67",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual gás é o principal componente da atmosfera terrestre?",
+    "options": [
+      "Oxigênio",
+      "Hidrogênio",
+      "Nitrogênio",
+      "Dióxido de carbono"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "O nitrogênio constitui aproximadamente 78% da atmosfera terrestre. Curiosidade: O nitrogênio é essencial para a formação de proteínas."
+  },
+  {
+    "id": "quiz-ciencia-68",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual a teoria que descreve a expansão acelerada do universo?",
+    "options": [
+      "Teoria da Relatividade Restrita",
+      "Teoria do Big Bang",
+      "Teoria da Inflação Cósmica",
+      "Teoria da Relatividade Geral (com constante cosmológica)"
+    ],
+    "correctAnswer": "Teoria da Relatividade Geral (com constante cosmológica)",
+    "explanation": "A Teoria da Relatividade Geral, com a inclusão da constante cosmológica, prevê a expansão acelerada do universo. Curiosidade: A energia escura é considerada a força motriz por trás dessa expansão."
+  },
+  {
+    "id": "quiz-ciencia-69",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a força fundamental que media as interações eletromagnéticas?",
+    "options": [
+      "Força nuclear forte",
+      "Força nuclear fraca",
+      "Força gravitacional",
+      "Força eletromagnética"
+    ],
+    "correctAnswer": "Força eletromagnética",
+    "explanation": "A força eletromagnética é uma das quatro forças fundamentais da natureza, responsável por interações entre partículas carregadas eletricamente.  Uma curiosidade é que a eletricidade e o magnetismo são manifestações da mesma força."
+  },
+  {
+    "id": "quiz-ciencia-70",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é o Princípio de exclusão de Pauli?",
+    "options": [
+      "Dois elétrons não podem ocupar o mesmo estado quântico simultaneamente.",
+      "A energia de um sistema fechado permanece constante.",
+      "A entropia de um sistema isolado tende a aumentar.",
+      "A velocidade da luz no vácuo é constante."
+    ],
+    "correctAnswer": "Dois elétrons não podem ocupar o mesmo estado quântico simultaneamente.",
+    "explanation": "Este princípio fundamental da mecânica quântica explica a estrutura eletrônica dos átomos e a organização da tabela periódica.  Uma curiosidade é que ele é crucial para a estabilidade da matéria."
+  },
+  {
+    "id": "quiz-ciencia-71",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a constante de Boltzmann?",
+    "options": [
+      "Uma constante que relaciona a energia cinética de uma molécula com a temperatura.",
+      "A constante que relaciona a massa de um objeto com sua energia.",
+      "A constante que relaciona a carga elétrica de um elétron com sua massa.",
+      "A constante que relaciona a energia de um fóton com sua frequência."
+    ],
+    "correctAnswer": "Uma constante que relaciona a energia cinética de uma molécula com a temperatura.",
+    "explanation": "A constante de Boltzmann é fundamental na termodinâmica estatística, conectando o mundo microscópico das moléculas com o mundo macroscópico da temperatura. Uma curiosidade é que seu valor é aproximadamente 1.38 × 10⁻²³ J/K."
+  },
+  {
+    "id": "quiz-ciencia-72",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de rochas a partir de magma?",
+    "options": [
+      "Sedimentação",
+      "Metamorfismo",
+      "Intrusão",
+      "Magmatismo"
+    ],
+    "correctAnswer": "Magmatismo",
+    "explanation": "Rochas ígneas, como o granito e o basalto, são formadas pelo resfriamento e solidificação do magma.  Uma curiosidade é que o magma pode ser encontrado tanto na superfície (lava) quanto no interior da Terra."
+  },
+  {
+    "id": "quiz-ciencia-73",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é o efeito Casimir?",
+    "options": [
+      "O efeito de atração entre duas placas metálicas não carregadas no vácuo.",
+      "O efeito de repulsão entre duas placas metálicas carregadas no vácuo.",
+      "O efeito de atração gravitacional entre duas placas metálicas.",
+      "O efeito de repulsão eletromagnética entre duas placas metálicas."
+    ],
+    "correctAnswer": "O efeito de atração entre duas placas metálicas não carregadas no vácuo.",
+    "explanation": "Este efeito quântico demonstra a existência de flutuações de energia no vácuo, mesmo na ausência de matéria. Uma curiosidade é que ele é uma prova da existência de energia do ponto zero."
+  },
+  {
+    "id": "quiz-ciencia-74",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é um bóson de Higgs?",
+    "options": [
+      "Uma partícula elementar que confere massa a outras partículas.",
+      "Uma partícula elementar que não possui massa.",
+      "Uma partícula elementar que media a força nuclear forte.",
+      "Uma partícula elementar que media a força nuclear fraca."
+    ],
+    "correctAnswer": "Uma partícula elementar que confere massa a outras partículas.",
+    "explanation": "O bóson de Higgs foi previsto teoricamente e detectado experimentalmente, confirmando o mecanismo de Higgs. Uma curiosidade é que a sua descoberta rendeu o Prêmio Nobel de Física de 2013."
+  },
+  {
+    "id": "quiz-ciencia-75",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a supersimetria?",
+    "options": [
+      "Uma teoria que postula a existência de partículas supersimétricas.",
+      "Uma teoria que unifica todas as forças fundamentais da natureza.",
+      "Uma teoria que descreve a expansão acelerada do universo.",
+      "Uma teoria que descreve a formação das galáxias."
+    ],
+    "correctAnswer": "Uma teoria que postula a existência de partículas supersimétricas.",
+    "explanation": "A supersimetria é uma extensão do Modelo Padrão da física de partículas que prevê a existência de partículas supersimétricas correspondentes a todas as partículas conhecidas. Uma curiosidade é que, se confirmada, poderia ajudar a explicar a matéria escura."
+  },
+  {
+    "id": "quiz-ciencia-76",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a energia escura?",
+    "options": [
+      "Uma forma de energia que compõe cerca de 68% do universo e causa sua expansão acelerada.",
+      "Uma forma de matéria que compõe cerca de 27% do universo e não interage com a luz.",
+      "Uma partícula elementar que não possui massa.",
+      "Uma teoria que unifica todas as forças fundamentais da natureza."
+    ],
+    "correctAnswer": "Uma forma de energia que compõe cerca de 68% do universo e causa sua expansão acelerada.",
+    "explanation": "A energia escura é uma componente misteriosa do universo que compõe a maior parte de sua densidade de energia. Uma curiosidade é que sua natureza ainda é desconhecida."
+  },
+  {
+    "id": "quiz-ciencia-77",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da partícula subatômica que media a força nuclear fraca?",
+    "options": [
+      "Fóton",
+      "Gluon",
+      "Bóson W e Z",
+      "Gráviton"
+    ],
+    "correctAnswer": "Bóson W e Z",
+    "explanation": "Os bósons W e Z são partículas elementares que mediam a força nuclear fraca, responsável por certos tipos de decaimento radioativo. Curiosidade: A descoberta dos bósons W e Z confirmou a Teoria Eletrofraca, unificando a força eletromagnética e a força nuclear fraca."
+  },
+  {
+    "id": "quiz-ciencia-78",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água a 0°C e 1 atm?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Líquido",
+    "explanation": "A água é líquida a 0°C e 1 atm, porém, está na sua temperatura de fusão (ponto de congelamento). Uma curiosidade é que a água é uma das poucas substâncias que se expande quando congela."
+  },
+  {
+    "id": "quiz-ciencia-79",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual gás é essencial para a respiração humana?",
+    "options": [
+      "Nitrogênio",
+      "Oxigênio",
+      "Hidrogênio",
+      "Hélio"
+    ],
+    "correctAnswer": "Oxigênio",
+    "explanation": "O oxigênio é fundamental para o processo de respiração celular, onde a energia é extraída dos alimentos. Curiosamente, o oxigênio é um elemento reativo e pode causar oxidação, levando à degradação de materiais."
+  },
+  {
+    "id": "quiz-ciencia-80",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno explica o porquê do céu ser azul?",
+    "options": [
+      "Absorção da luz vermelha",
+      "Reflexão da luz azul",
+      "Espalhamento de Rayleigh",
+      "Refração da luz"
+    ],
+    "correctAnswer": "Espalhamento de Rayleigh",
+    "explanation": "O espalhamento de Rayleigh é a dispersão da luz solar pela atmosfera, sendo a luz azul espalhada mais eficientemente do que outras cores. Curiosamente, o céu em outros planetas pode ter cores diferentes, dependendo da composição da sua atmosfera."
+  },
+  {
+    "id": "quiz-ciencia-81",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a principal função do cloroplasto?",
+    "options": [
+      "Respiração celular",
+      "Produção de proteínas",
+      "Fotossíntese",
+      "Armazenamento de água"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "Os cloroplastos são organelas presentes nas células vegetais responsáveis pela fotossíntese, processo que converte energia luminosa em energia química. Uma curiosidade é que os cloroplastos têm seu próprio DNA, indicando sua origem simbiótica."
+  },
+  {
+    "id": "quiz-ciencia-82",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da partícula mediadora da força nuclear forte?",
+    "options": [
+      "Fóton",
+      "Glúon",
+      "Bóson W",
+      "Bóson Z"
+    ],
+    "correctAnswer": "Glúon",
+    "explanation": "Os glúons são responsáveis pela interação forte, que mantém os quarks unidos dentro dos prótons e nêutrons. Curiosamente, os glúons também interagem entre si, tornando a força forte muito complexa."
+  },
+  {
+    "id": "quiz-ciencia-83",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o símbolo químico do ouro?",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Hg"
+    ],
+    "correctAnswer": "Au",
+    "explanation": "O símbolo químico do ouro é Au, derivado do latim 'aurum'.  Uma curiosidade é que o ouro é um dos poucos metais encontrados na natureza em sua forma pura."
+  },
+  {
+    "id": "quiz-ciencia-84",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o fenômeno que explica o arco-íris?",
+    "options": [
+      "Reflexão",
+      "Refração e dispersão",
+      "Difração",
+      "Interferência"
+    ],
+    "correctAnswer": "Refração e dispersão",
+    "explanation": "A luz solar é refratada (curvada) e dispersa (separada em cores) pelas gotículas de água na atmosfera. Curiosidade: Um arco-íris duplo é formado quando a luz sofre dupla reflexão dentro das gotas de água."
+  },
+  {
+    "id": "quiz-ciencia-85",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a unidade de medida da força?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correctAnswer": "Newton",
+    "explanation": "O Newton (N) é a unidade SI de força. Curiosidade: Um Newton é aproximadamente a força exercida pela gravidade sobre uma maçã de tamanho médio."
+  },
+  {
+    "id": "quiz-ciencia-86",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual as estrelas produzem energia?",
+    "options": [
+      "Fissão nuclear",
+      "Fusão nuclear",
+      "Radioatividade",
+      "Combustão"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "As estrelas produzem energia através da fusão nuclear de átomos de hidrogênio em hélio. Curiosidade: Este processo libera enormes quantidades de energia, que é o que faz as estrelas brilharem."
+  },
+  {
+    "id": "quiz-ciencia-87",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o símbolo químico do carbono?",
+    "options": [
+      "Ca",
+      "C",
+      "Cl",
+      "Co"
+    ],
+    "correctAnswer": "C",
+    "explanation": "O carbono é um elemento químico fundamental para a vida na Terra.  Curiosidade: O carbono forma uma grande variedade de compostos, devido à sua capacidade de formar quatro ligações químicas."
   }
 ]

@@ -726,5 +726,201 @@
     ],
     "correctAnswer": "Cidade Submersa de Yonaguni",
     "explanation": "A Cidade Submersa de Yonaguni é uma formação rochosa subaquática com estruturas que alguns acreditam ser artificiais, talvez vestígios de uma civilização antiga.  Sua origem, no entanto, é um debate entre arqueólogos e geólogos. Uma curiosidade:  algumas estruturas se parecem com pirâmides e templos."
+  },
+  {
+    "id": "quiz-misterios-53",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual animal lendário é frequentemente associado a navios fantasmas?",
+    "options": [
+      "Kraken",
+      "Leviatã",
+      "Hidra",
+      "Fênix"
+    ],
+    "correctAnswer": "Kraken",
+    "explanation": "O Kraken, um polvo gigante da mitologia escandinava, é frequentemente associado a naufrágios e histórias de navios fantasmas.  Uma curiosidade: existem relatos de criaturas marinhas gigantes que podem ter inspirado a lenda do Kraken."
+  },
+  {
+    "id": "quiz-misterios-54",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Em qual país fica a Floresta Aokigahara, conhecida como 'Floresta Suicida'?",
+    "options": [
+      "Brasil",
+      "Estados Unidos",
+      "Japão",
+      "China"
+    ],
+    "correctAnswer": "Japão",
+    "explanation": "A Floresta Aokigahara, localizada na base do Monte Fuji, no Japão, tem uma triste reputação devido ao alto número de suicídios. Curiosidade: a densa floresta e a dificuldade de navegação contribuem para a aura misteriosa do local."
+  },
+  {
+    "id": "quiz-misterios-55",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual a teoria mais popular (embora controversa) para explicar o desaparecimento dos habitantes da Ilha de Páscoa?",
+    "options": [
+      "Invasão extraterrestre",
+      "Guerra tribal e escassez de recursos",
+      "Explosão vulcânica",
+      "Epidemia desconhecida"
+    ],
+    "correctAnswer": "Guerra tribal e escassez de recursos",
+    "explanation": "A teoria mais aceita aponta para uma combinação de conflitos internos, superpopulação e esgotamento dos recursos naturais.  Curiosidade: a construção das gigantescas estátuas Moai exigiu um esforço monumental, provavelmente contribuindo para a tensão social."
+  },
+  {
+    "id": "quiz-misterios-56",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual evento misterioso aconteceu na Sibéria em 1908?",
+    "options": [
+      "Erupção vulcânica",
+      "Tsunami gigante",
+      "Explosão de um meteorito",
+      "Terremoto catastrófico"
+    ],
+    "correctAnswer": "Explosão de um meteorito",
+    "explanation": "O Evento de Tunguska foi uma explosão de grande magnitude na Sibéria, provavelmente causada pelo impacto de um meteoroide na atmosfera. Apesar da busca extensiva, nenhum fragmento significativo do corpo celeste foi encontrado. "
+  },
+  {
+    "id": "quiz-misterios-57",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "O que torna o Manuscrito Voynich único?",
+    "options": [
+      "Sua linguagem indecifrável",
+      "Sua capa de ouro",
+      "Suas ilustrações de plantas desconhecidas",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "O Manuscrito Voynich é famoso por sua escrita indecifrável, capa de couro e ilustrações de plantas, animais e objetos aparentemente fictícios, tornando-o um enigma intrigante para criptógrafos e historiadores."
+  },
+  {
+    "id": "quiz-misterios-58",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual a teoria menos provável, mas mais divertida, sobre o desaparecimento de DB Cooper?",
+    "options": [
+      "Ele foi capturado por extraterrestres",
+      "Ele se tornou um eremita",
+      "Ele se disfarçou e viveu uma vida anônima",
+      "Ele morreu no acidente e seu corpo nunca foi encontrado"
+    ],
+    "correctAnswer": "Ele foi capturado por extraterrestres",
+    "explanation": "Embora as teorias sobre DB Cooper sejam muitas, a de que ele foi sequestrado por extraterrestres é a mais fantasiosa e improvável. A verdade provavelmente é mais mundana, mas menos interessante."
+  },
+  {
+    "id": "quiz-misterios-59",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual a característica mais intrigante dos Crop Circles?",
+    "options": [
+      "Seu tamanho colossal",
+      "Sua complexidade geométrica",
+      "Sua aparição repentina",
+      "Sua perfeição intrincada"
+    ],
+    "correctAnswer": "Sua perfeição intrincada",
+    "explanation": "Apesar de seu tamanho e complexidade, a precisão e detalhes em muitos Crop Circles são sua característica mais marcante, levando a debates sobre sua origem."
+  },
+  {
+    "id": "quiz-misterios-60",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "O que torna o caso do Incidente Dyatlov tão misterioso?",
+    "options": [
+      "As circunstâncias inexplicáveis da morte dos nove montanhistas",
+      "A ausência de uma causa óbvia de morte",
+      "As feridas estranhas encontradas nos corpos",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "O incidente de Dyatlov combina várias características peculiares que o tornam um caso envolto em mistério até hoje."
+  },
+  {
+    "id": "quiz-misterios-61",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério central do romance 'A Ilha do Tesouro'?",
+    "options": [
+      "A busca por um tesouro perdido",
+      "Um motim a bordo de um navio",
+      "Uma rivalidade entre piratas",
+      "Uma conspiração para roubar um mapa"
+    ],
+    "correctAnswer": "A busca por um tesouro perdido",
+    "explanation": "A história gira em torno da busca por um tesouro pirata escondido em uma ilha deserta.  A trama envolve aventuras, traição e a busca por um grande tesouro.  Uma curiosidade: a ilha do livro inspirou inúmeras buscas por tesouros na vida real."
+  },
+  {
+    "id": "quiz-misterios-62",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério por trás da 'Biblioteca de Alexandria'?",
+    "options": [
+      "Sua localização exata",
+      "Seu conteúdo exato",
+      "O motivo de sua destruição",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A antiga Biblioteca de Alexandria é um mistério envolvendo sua localização exata, o conteúdo da vasta coleção de rolos e o motivo de sua destruição.  A perda de conhecimento incalculável da biblioteca ainda é lamentada hoje.  Uma curiosidade: muitas especulações existem sobre seu verdadeiro conteúdo e localização."
+  },
+  {
+    "id": "quiz-misterios-63",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério por trás do desaparecimento de Amelia Earhart?",
+    "options": [
+      "Acidente de avião",
+      "Sequestro",
+      "Aterrissagem forçada em ilha deserta",
+      "Todas as alternativas são teorias"
+    ],
+    "correctAnswer": "Todas as alternativas são teorias",
+    "explanation": "O desaparecimento de Amelia Earhart permanece um dos maiores mistérios da aviação, sem uma resposta definitiva."
+  },
+  {
+    "id": "quiz-misterios-64",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual a cidade lendária, que supostamente foi destruída por uma catástrofe natural, tornando-se um dos mistérios arqueológicos mais famosos?",
+    "options": [
+      "El Dorado",
+      "Atlantis",
+      "Pompeii",
+      "Troy"
+    ],
+    "correctAnswer": "Atlantis",
+    "explanation": "A cidade perdida de Atlantis, descrita pelo filósofo Platão, é um dos mistérios mais populares da arqueologia. Curiosidade:  Diversas teorias tentam localizar a cidade, mas nenhuma delas foi comprovada."
+  },
+  {
+    "id": "quiz-misterios-65",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual criatura lendária é frequentemente associada a mares tempestuosos e naufrágios?",
+    "options": [
+      "Kraken",
+      "Leviatã",
+      "Sereia",
+      "Hidra"
+    ],
+    "correctAnswer": "Kraken",
+    "explanation": "O Kraken é uma lenda marítima de um polvo gigante que ataca navios.  Uma curiosidade:  Há relatos históricos de criaturas gigantescas nos oceanos que podem ter inspirado a lenda do Kraken."
+  },
+  {
+    "id": "quiz-misterios-66",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual criatura lendária é frequentemente associada a navios fantasmas?",
+    "options": [
+      "Kraken",
+      "Leviatã",
+      "Sereia",
+      "Hidra"
+    ],
+    "correctAnswer": "Kraken",
+    "explanation": "O Kraken, um polvo gigante da mitologia nórdica, é frequentemente associado a naufrágios e mistérios marinhos.  Sua lenda alimenta muitas histórias de navios fantasmas."
   }
 ]

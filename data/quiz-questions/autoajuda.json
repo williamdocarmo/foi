@@ -740,5 +740,117 @@
     ],
     "correctAnswer": "Ajuda a entender padrões de relacionamento e como eles impactam a autoestima e a capacidade de formar conexões saudáveis.",
     "explanation": "A teoria do apego explica como nossas experiências iniciais de apego moldam nossos relacionamentos adultos.  Compreender esse padrão pode auxiliar na construção de relacionamentos mais saudáveis. Curiosidade: John Bowlby é considerado o pai da teoria do apego."
+  },
+  {
+    "id": "quiz-autoajuda-54",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para definir uma meta eficaz?",
+    "options": [
+      "Começar imediatamente a trabalhar na meta",
+      "Definir uma meta ambiciosa e desafiadora",
+      "Escrever a meta em um papel",
+      "Definir uma meta específica, mensurável, atingível, relevante e com prazo definido (SMART)"
+    ],
+    "correctAnswer": "Definir uma meta específica, mensurável, atingível, relevante e com prazo definido (SMART)",
+    "explanation": "O método SMART garante clareza e foco.  Curiosidade:  A sigla SMART foi popularizada por Peter Drucker, um renomado consultor de gestão."
+  },
+  {
+    "id": "quiz-autoajuda-55",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Como a dissonância cognitiva pode ser usada para mudar um comportamento?",
+    "options": [
+      "Ignorando o desconforto mental",
+      "Criando uma justificativa para o comportamento atual",
+      "Criando uma incongruência entre crenças e ações para motivar mudança",
+      "Concentrando-se apenas nos aspectos positivos do comportamento"
+    ],
+    "correctAnswer": "Criando uma incongruência entre crenças e ações para motivar mudança",
+    "explanation": "A dissonância cognitiva é o desconforto causado por crenças conflitantes.  Ao criar essa incongruência, a pessoa busca resolver o desconforto, muitas vezes mudando seu comportamento. Curiosidade: Leon Festinger foi um dos primeiros psicólogos a estudar a dissonância cognitiva."
+  },
+  {
+    "id": "quiz-autoajuda-56",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre a abordagem de 'pensamento positivo' e a 'psicologia positiva'?",
+    "options": [
+      "Não há diferença significativa entre elas",
+      "O pensamento positivo ignora emoções negativas, enquanto a psicologia positiva as integra",
+      "A psicologia positiva se foca em autoajuda, enquanto o pensamento positivo não",
+      "O pensamento positivo é mais eficaz para problemas de longo prazo"
+    ],
+    "correctAnswer": "O pensamento positivo ignora emoções negativas, enquanto a psicologia positiva as integra",
+    "explanation": "O pensamento positivo, às vezes, pode ser superficial.  A psicologia positiva busca uma abordagem mais holística, reconhecendo e trabalhando com todas as emoções. Curiosidade: Martin Seligman é considerado um dos pais da psicologia positiva."
+  },
+  {
+    "id": "quiz-autoajuda-57",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de tempo é frequentemente associada à produtividade?",
+    "options": [
+      "Procrastinação estratégica",
+      "Técnica Pomodoro",
+      "Multitarefa contínua",
+      "Trabalhar até o esgotamento"
+    ],
+    "correctAnswer": "Técnica Pomodoro",
+    "explanation": "A técnica Pomodoro divide o trabalho em intervalos focados, seguidos por pausas curtas. Curiosidade: A técnica foi desenvolvida por Francesco Cirillo."
+  },
+  {
+    "id": "quiz-autoajuda-58",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a epigenética pode influenciar a nossa capacidade de mudança pessoal?",
+    "options": [
+      "Não há ligação entre epigenética e mudança pessoal",
+      "A epigenética determina totalmente nosso destino, impossibilitando mudanças",
+      "A epigenética sugere que nossos genes são imutáveis e não influenciam a mudança",
+      "A epigenética demonstra que nossos genes podem ser influenciados pelo ambiente, impactando a plasticidade neural e a capacidade de mudança."
+    ],
+    "correctAnswer": "A epigenética demonstra que nossos genes podem ser influenciados pelo ambiente, impactando a plasticidade neural e a capacidade de mudança.",
+    "explanation": "A epigenética mostra que fatores ambientais podem modificar a expressão gênica, influenciando nossa resposta ao estresse e nossa capacidade de adaptação. Curiosidade: Estudos mostram como experiências de vida podem alterar a expressão gênica, impactando a saúde mental e o comportamento."
+  },
+  {
+    "id": "quiz-autoajuda-59",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual conceito da psicologia humanista é fundamental para o crescimento pessoal?",
+    "options": [
+      "Condicionamento clássico",
+      "Reforço negativo",
+      "Autoatualização",
+      "Análise transacional"
+    ],
+    "correctAnswer": "Autoatualização",
+    "explanation": "A autoatualização, conceito chave da psicologia humanista, refere-se à tendência inata de atingir o pleno potencial humano. Curiosidade: Abraham Maslow foi um importante defensor da psicologia humanista e da teoria da autoatualização."
+  },
+  {
+    "id": "quiz-autoajuda-60",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a importância do estabelecimento de limites saudáveis?",
+    "options": [
+      "Para controlar os outros",
+      "Para evitar conflitos",
+      "Para proteger sua saúde física e mental",
+      "Para ser sempre agradável"
+    ],
+    "correctAnswer": "Para proteger sua saúde física e mental",
+    "explanation": "Estabelecer limites protege seu bem-estar ao definir o que você está e não está disposto a tolerar. Curiosidade:  Limites saudáveis são essenciais para relações interpessoais mais equilibradas."
+  },
+  {
+    "id": "quiz-autoajuda-61",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para lidar com um problema?",
+    "options": [
+      "Ignorar o problema",
+      "Buscar uma solução imediata",
+      "Reconhecer e definir o problema",
+      "Culpar os outros"
+    ],
+    "correctAnswer": "Reconhecer e definir o problema",
+    "explanation": "Antes de solucionar algo, é crucial entender o que precisa ser resolvido.  Uma curiosidade:  Definir o problema com clareza aumenta significativamente as chances de sucesso na resolução."
   }
 ]

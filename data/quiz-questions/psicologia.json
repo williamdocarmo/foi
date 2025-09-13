@@ -404,5 +404,495 @@
     ],
     "correctAnswer": "Psicobiologia",
     "explanation": "A psicobiologia investiga a relação entre os processos biológicos (genéticos, neurológicos, hormonais) e o comportamento. Curiosidade:  Usa técnicas como neuroimagem para estudar a atividade cerebral."
+  },
+  {
+    "id": "quiz-psicologia-30",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual a principal área de foco da psicologia social?",
+    "options": [
+      "O desenvolvimento infantil",
+      "A interação entre indivíduos e grupos",
+      "Os processos cognitivos",
+      "Os transtornos mentais"
+    ],
+    "correctAnswer": "A interação entre indivíduos e grupos",
+    "explanation": "A psicologia social estuda como o pensamento, os sentimentos e o comportamento das pessoas são influenciados pela presença real, imaginária ou implícita de outras pessoas.  Curiosidade:  A psicologia social tem suas raízes em experimentos clássicos como o de Asch sobre conformidade."
+  },
+  {
+    "id": "quiz-psicologia-31",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é a dissonância cognitiva?",
+    "options": [
+      "Um distúrbio de personalidade",
+      "Um estado de desconforto causado por crenças conflitantes",
+      "Um processo de tomada de decisão irracional",
+      "Uma técnica de persuasão"
+    ],
+    "correctAnswer": "Um estado de desconforto causado por crenças conflitantes",
+    "explanation": "A dissonância cognitiva é o desconforto psicológico experimentado quando se mantém duas ou mais crenças, ideias, ou valores conflitantes ao mesmo tempo, ou entre as crenças e comportamentos. Curiosidade: Festinger e Carlsmith conduziram um famoso experimento sobre dissonância cognitiva."
+  },
+  {
+    "id": "quiz-psicologia-32",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença crucial entre a psicologia positiva e a psicologia tradicional?",
+    "options": [
+      "A psicologia positiva foca em doenças mentais, enquanto a tradicional foca em comportamentos saudáveis.",
+      "A psicologia positiva foca em pontos fortes e bem-estar, enquanto a tradicional foca principalmente em transtornos.",
+      "Não há diferença significativa entre elas.",
+      "A psicologia positiva utiliza métodos diferentes, mas os objetivos são os mesmos."
+    ],
+    "correctAnswer": "A psicologia positiva foca em pontos fortes e bem-estar, enquanto a tradicional foca principalmente em transtornos.",
+    "explanation": "A psicologia positiva se concentra no que torna a vida significativa e gratificante, enquanto a psicologia tradicional tem se concentrado historicamente em doenças e problemas. Curiosidade: Martin Seligman é considerado um dos fundadores da psicologia positiva."
+  },
+  {
+    "id": "quiz-psicologia-33",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual destes é um exemplo de comportamento aprendido por condicionamento operante?",
+    "options": [
+      "Piscar quando uma luz forte é apontada para os olhos",
+      "Associação de um som com comida, levando à salivação",
+      "Um rato pressionando uma alavanca para receber comida",
+      "Uma criança chorando para chamar a atenção"
+    ],
+    "correctAnswer": "Um rato pressionando uma alavanca para receber comida",
+    "explanation": "O condicionamento operante envolve reforço e punição para moldar o comportamento.  Curiosidade: B.F. Skinner foi um importante pesquisador do condicionamento operante."
+  },
+  {
+    "id": "quiz-psicologia-34",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual o conceito que explica a tendência de superestimar a influência de fatores pessoais e subestimar a influência de fatores situacionais ao julgar o comportamento dos outros?",
+    "options": [
+      "Erro fundamental de atribuição",
+      "Viés de confirmação",
+      "Efeito de halo",
+      "Viés de ancoragem"
+    ],
+    "correctAnswer": "Erro fundamental de atribuição",
+    "explanation": "Este viés cognitivo explica porque tendemos a culpar as pessoas (atribuição disposicional) antes de considerar o contexto (atribuição situacional). Curiosidade: Este erro é menos comum em culturas coletivistas."
+  },
+  {
+    "id": "quiz-psicologia-35",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual teoria da motivação propõe que indivíduos são motivados por necessidades hierárquicas, começando pelas necessidades fisiológicas e culminando na autorrealização?",
+    "options": [
+      "Teoria da Expectativa",
+      "Teoria da Equidade",
+      "Hierarquia das Necessidades de Maslow",
+      "Teoria da Autodeterminação"
+    ],
+    "correctAnswer": "Hierarquia das Necessidades de Maslow",
+    "explanation": "A pirâmide de Maslow ilustra a hierarquia das necessidades humanas, desde as mais básicas até as mais complexas. Curiosidade: A ordem exata das necessidades na pirâmide de Maslow tem sido questionada."
+  },
+  {
+    "id": "quiz-psicologia-36",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual destes é um exemplo de heurística?",
+    "options": [
+      "Pensamento crítico",
+      "Resolução de problemas complexos",
+      "Julgamento rápido baseado em atalhos mentais",
+      "Processamento lento e cuidadoso de informações"
+    ],
+    "correctAnswer": "Julgamento rápido baseado em atalhos mentais",
+    "explanation": "As heurísticas são atalhos mentais que simplificam a tomada de decisões.  Curiosidade:  Apesar de eficientes, as heurísticas podem levar a erros de julgamento."
+  },
+  {
+    "id": "quiz-psicologia-37",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é a aptidão psicológica?",
+    "options": [
+      "Capacidade de adaptação a diferentes ambientes",
+      "Capacidade de resolver problemas matemáticos complexos",
+      "Capacidade de se comunicar eficazmente",
+      "Capacidade de aprender e resolver problemas"
+    ],
+    "correctAnswer": "Capacidade de aprender e resolver problemas",
+    "explanation": "A aptidão psicológica engloba várias capacidades cognitivas, incluindo raciocínio, memória e resolução de problemas. Curiosidade: Testes de aptidão são usados em diversos contextos, como seleção de pessoal."
+  },
+  {
+    "id": "quiz-psicologia-38",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual abordagem terapêutica enfatiza a aceitação incondicional e a empatia como ferramentas centrais?",
+    "options": [
+      "Terapia Cognitivo-Comportamental (TCC)",
+      "Psicanálise",
+      "Terapia Centrada na Pessoa",
+      "Terapia de Sistemas Familiares"
+    ],
+    "correctAnswer": "Terapia Centrada na Pessoa",
+    "explanation": "Desenvolvida por Carl Rogers, essa abordagem humanista enfatiza o potencial de auto-atualização do indivíduo. Curiosidade: A relação terapêutica é considerada o principal fator de mudança na Terapia Centrada na Pessoa."
+  },
+  {
+    "id": "quiz-psicologia-39",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual o termo para a incapacidade de formar novas memórias?",
+    "options": [
+      "Amnésia retrógrada",
+      "Amnésia anterógrada",
+      "Demência",
+      "Dislexia"
+    ],
+    "correctAnswer": "Amnésia anterógrada",
+    "explanation": "A amnésia anterógrada afeta a formação de novas memórias após um evento traumático ou doença.  Curiosidade:  O filme 'Memento' explora os efeitos da amnésia anterógrada."
+  },
+  {
+    "id": "quiz-psicologia-40",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno onde a presença de outras pessoas afeta o desempenho de uma tarefa?",
+    "options": [
+      "Facilitação social",
+      "Inibição social",
+      "Pensamento de grupo",
+      "Polarização de grupo"
+    ],
+    "correctAnswer": "Facilitação social",
+    "explanation": "A facilitação social descreve a melhora ou piora do desempenho dependendo da complexidade da tarefa e da presença de outros. Curiosidade: A presença de outros pode melhorar o desempenho em tarefas simples, mas prejudicar em tarefas complexas."
+  },
+  {
+    "id": "quiz-psicologia-41",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual o principal foco da psicologia?",
+    "options": [
+      "O estudo do corpo humano",
+      "O estudo da mente e do comportamento",
+      "O estudo da sociedade",
+      "O estudo do universo"
+    ],
+    "correctAnswer": "O estudo da mente e do comportamento",
+    "explanation": "A psicologia se concentra em compreender os processos mentais e como eles afetam o comportamento.  Curiosidade: A psicologia é uma ciência relativamente jovem, com suas raízes no século XIX."
+  },
+  {
+    "id": "quiz-psicologia-42",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual é o termo para a incapacidade de lembrar eventos passados?",
+    "options": [
+      "Amnésia anterógrada",
+      "Amnésia retrógrada",
+      "Demência",
+      "Dislexia"
+    ],
+    "correctAnswer": "Amnésia retrógrada",
+    "explanation": "A amnésia retrógrada afeta memórias antes de um evento traumático.  Curiosidade:  A amnésia retrógrada é frequentemente retratada em filmes, mas raramente é tão completa quanto é mostrada."
+  },
+  {
+    "id": "quiz-psicologia-43",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual abordagem psicológica enfatiza a importância do inconsciente?",
+    "options": [
+      "Behaviorismo",
+      "Humanismo",
+      "Psicanálise",
+      "Cognitivismo"
+    ],
+    "correctAnswer": "Psicanálise",
+    "explanation": "A psicanálise, desenvolvida por Sigmund Freud, postula que nossos comportamentos são influenciados por processos inconscientes. Curiosidade:  O conceito de 'complexo de Édipo' é uma das ideias mais conhecidas da psicanálise."
+  },
+  {
+    "id": "quiz-psicologia-44",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é o efeito Dunning-Kruger?",
+    "options": [
+      "A tendência de pessoas incompetentes superestimarem suas habilidades",
+      "A tendência de pessoas competentes subestimarem suas habilidades",
+      "A tendência de pessoas com ansiedade superestimarem os perigos",
+      "A tendência de pessoas com depressão subestimarem suas habilidades"
+    ],
+    "correctAnswer": "A tendência de pessoas incompetentes superestimarem suas habilidades",
+    "explanation": "Pessoas com baixa competência em uma área tendem a superestimar seu desempenho, enquanto pessoas altamente competentes podem subestimar suas habilidades. Curiosidade:  Esse efeito é frequentemente observado em áreas onde é difícil autoavaliar a própria competência."
+  },
+  {
+    "id": "quiz-psicologia-45",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual teoria cognitiva explica como as pessoas atribuem causas a eventos e comportamentos?",
+    "options": [
+      "Teoria da Dissonância Cognitiva",
+      "Teoria da Atribuição",
+      "Teoria do Desenvolvimento Psicossocial",
+      "Teoria das Inteligências Múltiplas"
+    ],
+    "correctAnswer": "Teoria da Atribuição",
+    "explanation": "A Teoria da Atribuição investiga como interpretamos as causas dos eventos, tanto nossos como os de outras pessoas. Curiosidade:  A teoria da atribuição tem implicações importantes em áreas como a justiça e as relações interpessoais."
+  },
+  {
+    "id": "quiz-psicologia-46",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual neurotransmissor está fortemente associado à regulação do humor e do sono?",
+    "options": [
+      "Dopamina",
+      "Serotonina",
+      "Adrenalina",
+      "GABA"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina desempenha um papel crucial na regulação do humor, sono, apetite e outros processos importantes. Curiosidade:  Muitos antidepressivos atuam aumentando os níveis de serotonina no cérebro."
+  },
+  {
+    "id": "quiz-psicologia-47",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "O que é um estímulo incondicionado?",
+    "options": [
+      "Um estímulo que não eliciou uma resposta antes do condicionamento",
+      "Uma resposta que ocorre naturalmente",
+      "Um estímulo que naturalmente eliciou uma resposta",
+      "Uma resposta aprendida"
+    ],
+    "correctAnswer": "Um estímulo que naturalmente eliciou uma resposta",
+    "explanation": "Um estímulo incondicionado é algo que naturalmente provoca uma resposta, sem aprendizado prévio. Curiosidade:  O conceito de estímulo incondicionado é fundamental para o condicionamento clássico, descoberto por Ivan Pavlov."
+  },
+  {
+    "id": "quiz-psicologia-48",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre a psicologia clínica e a psicologia conselheira?",
+    "options": [
+      "Não há diferença, os termos são sinônimos.",
+      "Psicologia clínica foca em transtornos graves, enquanto a psicologia conselheira foca em problemas mais leves de ajustamento.",
+      "Psicologia clínica realiza apenas testes, enquanto psicologia conselheira realiza apenas terapia.",
+      "Psicologia clínica trabalha com crianças, psicologia conselheira trabalha com adultos."
+    ],
+    "correctAnswer": "Psicologia clínica foca em transtornos graves, enquanto a psicologia conselheira foca em problemas mais leves de ajustamento.",
+    "explanation": "Embora haja sobreposição, a psicologia clínica geralmente lida com transtornos mentais mais graves, enquanto a psicologia conselheira foca em problemas de vida e ajustamento.  Curiosidade:  Ambos os tipos de psicólogos precisam de formação especializada e licenciamento."
+  },
+  {
+    "id": "quiz-psicologia-49",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual destes é um exemplo de viés cognitivo?",
+    "options": [
+      "Pensamento crítico",
+      "Raciocínio lógico",
+      "Viés de confirmação",
+      "Memória fotográfica"
+    ],
+    "correctAnswer": "Viés de confirmação",
+    "explanation": "O viés de confirmação é a tendência de procurar, interpretar, favorecer e recordar informações que confirmam ou apoiam nossas crenças pré-existentes. Curiosidade: Este viés pode levar a conclusões erradas e dificuldade em mudar de opinião."
+  },
+  {
+    "id": "quiz-psicologia-50",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "O que é a 'heuristica da ancoragem'?",
+    "options": [
+      "A tendência de depender excessivamente da primeira informação recebida.",
+      "A tendência de julgar a probabilidade de um evento baseado em sua semelhança com um protótipo.",
+      "A tendência de superestimar a frequência de eventos facilmente recordados.",
+      "A tendência de buscar informações que confirmem nossas crenças."
+    ],
+    "correctAnswer": "A tendência de depender excessivamente da primeira informação recebida.",
+    "explanation": "A heurística da ancoragem descreve como a primeira informação que recebemos influencia fortemente nossas decisões subsequentes, mesmo que essa informação seja irrelevante.  Curiosidade:  Esta heurística é frequentemente explorada em negociações e marketing."
+  },
+  {
+    "id": "quiz-psicologia-51",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual destes é um exemplo de reforço positivo?",
+    "options": [
+      "Retirar uma tarefa chata",
+      "Dar um doce a uma criança por bom comportamento",
+      "Ignorar um mau comportamento",
+      "Dar um castigo"
+    ],
+    "correctAnswer": "Dar um doce a uma criança por bom comportamento",
+    "explanation": "Reforço positivo envolve adicionar algo positivo para aumentar a probabilidade de um comportamento se repetir. Curiosidade: O reforço positivo é uma ferramenta poderosa em aprendizagem e modificação de comportamento."
+  },
+  {
+    "id": "quiz-psicologia-52",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual teoria sugere que a inteligência é composta por diferentes tipos de inteligência?",
+    "options": [
+      "Teoria das Inteligências Múltiplas (Gardner)",
+      "Teoria Triárquica da Inteligência (Sternberg)",
+      "Teoria g (Spearman)",
+      "Teoria da Inteligência Fluida e Cristalizada (Cattell)"
+    ],
+    "correctAnswer": "Teoria das Inteligências Múltiplas (Gardner)",
+    "explanation": "Howard Gardner propôs que a inteligência não é um construto único, mas sim uma coleção de inteligências independentes, como linguística, lógico-matemática, espacial, musical, etc. Curiosidade:  A teoria de Gardner desafiou a visão tradicional de inteligência como um fator único."
+  },
+  {
+    "id": "quiz-psicologia-53",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual o pai da psicologia moderna?",
+    "options": [
+      "Sigmund Freud",
+      "Wilhelm Wundt",
+      "Carl Jung",
+      "B.F. Skinner"
+    ],
+    "correctAnswer": "Wilhelm Wundt",
+    "explanation": "Wilhelm Wundt é creditado por estabelecer o primeiro laboratório de psicologia experimental em 1879, marcando o início da psicologia como uma ciência independente.  Uma curiosidade é que Wundt usava introspecção como método principal de pesquisa."
+  },
+  {
+    "id": "quiz-psicologia-54",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "O que é a psicologia?",
+    "options": [
+      "O estudo de plantas",
+      "O estudo da mente e do comportamento",
+      "O estudo do universo",
+      "O estudo de animais"
+    ],
+    "correctAnswer": "O estudo da mente e do comportamento",
+    "explanation": "A psicologia busca entender os processos mentais e como eles influenciam o comportamento humano.  Uma curiosidade é que a psicologia abrange diversas áreas de estudo, desde a neuropsicologia até a psicologia social."
+  },
+  {
+    "id": "quiz-psicologia-55",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "O que é o viés de confirmação?",
+    "options": [
+      "Tendência a buscar informações que contradigam nossas crenças",
+      "Tendência a evitar informações novas",
+      "Tendência a buscar informações que confirmem nossas crenças",
+      "Tendência a ignorar evidências"
+    ],
+    "correctAnswer": "Tendência a buscar informações que confirmem nossas crenças",
+    "explanation": "O viés de confirmação é uma distorção cognitiva que afeta a forma como processamos informações.  Uma curiosidade é que esse viés pode levar a crenças irracionais e resistentes a mudanças, mesmo diante de evidências contrárias."
+  },
+  {
+    "id": "quiz-psicologia-56",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno em que a presença de outros afeta o desempenho?",
+    "options": [
+      "Efeito espectador",
+      "Facilitação social",
+      "Inibição social",
+      "Polarização do grupo"
+    ],
+    "correctAnswer": "Facilitação social",
+    "explanation": "A facilitação social descreve a melhora no desempenho de tarefas simples na presença de outros.  Em tarefas complexas, pode ocorrer inibição social. Uma curiosidade é que a presença de uma audiência pode aumentar a ansiedade, impactando o desempenho."
+  },
+  {
+    "id": "quiz-psicologia-57",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual teoria da motivação propõe que indivíduos são motivados por necessidades hierárquicas?",
+    "options": [
+      "Teoria da Expectativa",
+      "Teoria da Autodeterminação",
+      "Hierarquia das Necessidades de Maslow",
+      "Teoria da Equidade"
+    ],
+    "correctAnswer": "Hierarquia das Necessidades de Maslow",
+    "explanation": "A Hierarquia das Necessidades de Maslow organiza as necessidades humanas em uma pirâmide, desde as fisiológicas até a autorrealização. Uma curiosidade é que a ordem e a rigidez dessa hierarquia tem sido questionadas por alguns pesquisadores."
+  },
+  {
+    "id": "quiz-psicologia-58",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual a principal crítica ao modelo Big Five da personalidade?",
+    "options": [
+      "É muito complexo",
+      "Não inclui aspectos culturais",
+      "É muito simplista",
+      "Não é baseado em evidências empíricas"
+    ],
+    "correctAnswer": "Não inclui aspectos culturais",
+    "explanation": "Apesar de sua popularidade, o modelo Big Five tem sido criticado por sua falta de consideração sobre como a cultura pode moldar a personalidade. Uma curiosidade é que existem modelos alternativos de personalidade que buscam integrar aspectos culturais."
+  },
+  {
+    "id": "quiz-psicologia-59",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é o efeito placebo?",
+    "options": [
+      "Efeito de um medicamento ineficaz",
+      "Efeito psicológico de um tratamento inerte",
+      "Efeito de um tratamento eficaz",
+      "Efeito colateral de um medicamento"
+    ],
+    "correctAnswer": "Efeito psicológico de um tratamento inerte",
+    "explanation": "O efeito placebo demonstra a influência da expectativa e sugestão no resultado de um tratamento.  Uma curiosidade é que esse efeito pode ser poderoso e influenciar diferentes aspectos da saúde."
+  },
+  {
+    "id": "quiz-psicologia-60",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual abordagem psicológica enfatiza a aceitação incondicional e a empatia?",
+    "options": [
+      "Psicanálise",
+      "Terapia Cognitivo-Comportamental",
+      "Terapia Centrada na Pessoa",
+      "Terapia de Comportamento Dialético"
+    ],
+    "correctAnswer": "Terapia Centrada na Pessoa",
+    "explanation": "Desenvolvida por Carl Rogers, a terapia centrada na pessoa enfatiza o potencial de crescimento inerente a cada indivíduo. Uma curiosidade é que a relação terapeuta-paciente é central nesse tipo de terapia."
+  },
+  {
+    "id": "quiz-psicologia-61",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual sensação é primariamente associada à amígdala?",
+    "options": [
+      "Felicidade",
+      "Tristeza",
+      "Medo",
+      "Raiva"
+    ],
+    "correctAnswer": "Medo",
+    "explanation": "A amígdala é uma estrutura cerebral chave no processamento de emoções, principalmente o medo. Uma curiosidade é que a amígdala também está envolvida em outros processos emocionais, como a raiva e a ansiedade."
+  },
+  {
+    "id": "quiz-psicologia-62",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "O que é a ilusão de controle?",
+    "options": [
+      "Acreditar que podemos controlar eventos aleatórios",
+      "Superestimar nossas habilidades",
+      "Subestimar nossas habilidades",
+      "Percepção distorcida da realidade"
+    ],
+    "correctAnswer": "Acreditar que podemos controlar eventos aleatórios",
+    "explanation": "A ilusão de controle é a crença infundada de que temos mais controle sobre eventos aleatórios do que realmente temos. Uma curiosidade é que jogos de azar são um exemplo comum onde a ilusão de controle pode ser observada."
+  },
+  {
+    "id": "quiz-psicologia-63",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O efeito Dunning-Kruger se refere a:",
+    "options": [
+      "A tendência de pessoas incompetentes superestimarem suas habilidades",
+      "A tendência de pessoas competentes subestimarem suas habilidades",
+      "A tendência de pessoas ansiosas superestimarem seus medos",
+      "A tendência de pessoas tímidas subestimarem suas habilidades sociais"
+    ],
+    "correctAnswer": "A tendência de pessoas incompetentes superestimarem suas habilidades",
+    "explanation": "O efeito Dunning-Kruger descreve a relação entre competência e autoconfiança.  Indivíduos com baixa competência tendem a superestimar suas habilidades, enquanto indivíduos altamente competentes podem subestimar as suas.  É um fenômeno fascinante que demonstra a dificuldade de autoavaliação."
+  },
+  {
+    "id": "quiz-psicologia-64",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Que tipo de memória é PRIMORDIALMENTE afetada pela amnésia anterógrada?",
+    "options": [
+      "Memória de longo prazo",
+      "Memória de curto prazo",
+      "Memória de trabalho",
+      "Memória implícita"
+    ],
+    "correctAnswer": "Memória de longo prazo",
+    "explanation": "A amnésia anterógrada afeta principalmente a capacidade de formar novas memórias de longo prazo após um evento traumático ou lesão cerebral.  A pessoa pode lembrar-se de eventos antes do evento, mas tem dificuldade em criar novas memórias."
   }
 ]

@@ -1,13 +1,13 @@
 {
   "dinheiro": {
-    "curiositiesBatchesProcessed": 0,
-    "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-13T18:08:41.938Z"
+    "curiositiesBatchesProcessed": 12,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T18:39:17.136Z"
   },
   "futuro": {
-    "curiositiesBatchesProcessed": 0,
-    "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-13T18:12:44.917Z"
+    "curiositiesBatchesProcessed": 13,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T18:46:23.498Z"
   },
   "tecnologia": {
     "curiositiesBatchesProcessed": 4,
@@ -20,14 +20,14 @@
     "lastRunAt": "2025-09-13T18:18:46.843Z"
   },
   "psicologia": {
-    "curiositiesBatchesProcessed": 4,
-    "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-13T18:21:24.667Z"
+    "curiositiesBatchesProcessed": 20,
+    "quizzesBatchesProcessed": 10,
+    "lastRunAt": "2025-09-13T19:18:59.634Z"
   },
   "lugares": {
-    "curiositiesBatchesProcessed": 4,
-    "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-13T18:24:12.515Z"
+    "curiositiesBatchesProcessed": 20,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T19:28:50.747Z"
   },
   "natureza-e-animais": {
     "curiositiesBatchesProcessed": 4,
@@ -38,5 +38,25 @@
     "curiositiesBatchesProcessed": 4,
     "quizzesBatchesProcessed": 2,
     "lastRunAt": "2025-09-13T18:30:33.057Z"
+  },
+  "cultura": {
+    "curiositiesBatchesProcessed": 20,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T19:00:31.778Z"
+  },
+  "entretenimento": {
+    "curiositiesBatchesProcessed": 13,
+    "quizzesBatchesProcessed": 0,
+    "lastRunAt": "2025-09-13T19:06:46.447Z"
+  },
+  "hacks": {
+    "curiositiesBatchesProcessed": 20,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T19:39:56.710Z"
+  },
+  "musica": {
+    "curiositiesBatchesProcessed": 20,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T19:52:55.104Z"
   }
 }

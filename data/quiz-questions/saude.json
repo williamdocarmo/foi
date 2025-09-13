@@ -936,5 +936,47 @@
     ],
     "correctAnswer": "Acúmulo de placa nas artérias",
     "explanation": "A aterosclerose é o acúmulo de placa nas artérias, levando ao estreitamento dos vasos sanguíneos. Curiosidade:  É um fator de risco principal para doenças cardíacas."
+  },
+  {
+    "id": "quiz-saude-68",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a principal função do sistema respiratório?",
+    "options": [
+      "Transportar nutrientes",
+      "Regular a temperatura corporal",
+      "Trocar oxigênio e dióxido de carbono",
+      "Filtrar o sangue"
+    ],
+    "correctAnswer": "Trocar oxigênio e dióxido de carbono",
+    "explanation": "O sistema respiratório é responsável pela troca gasosa, absorvendo oxigênio do ar e liberando dióxido de carbono.  Sabia que a superfície dos pulmões é aproximadamente do tamanho de uma quadra de tênis?"
+  },
+  {
+    "id": "quiz-saude-69",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual alimento é uma boa fonte de cálcio?",
+    "options": [
+      "Arroz branco",
+      "Leite",
+      "Batata",
+      "Manteiga"
+    ],
+    "correctAnswer": "Leite",
+    "explanation": "O leite é rico em cálcio, essencial para ossos e dentes fortes.  A deficiência de cálcio pode levar à osteoporose."
+  },
+  {
+    "id": "quiz-saude-70",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um vírus e uma bactéria?",
+    "options": [
+      "Vírus são maiores que bactérias",
+      "Bactérias precisam de um hospedeiro para se reproduzir, vírus não",
+      "Vírus são organismos vivos, bactérias não",
+      "Bactérias são parasitas, vírus não"
+    ],
+    "correctAnswer": "Bactérias precisam de um hospedeiro para se reproduzir, vírus não",
+    "explanation": "Bactérias são organismos unicelulares que podem se reproduzir independentemente, enquanto vírus são parasitas intracelulares obrigatórios, necessitando de uma célula hospedeira para se replicar.  Os antibióticos são eficazes contra bactérias, mas não contra vírus."
   }
 ]

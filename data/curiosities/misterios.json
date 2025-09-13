@@ -115,5 +115,554 @@
     "content": "As famosas estátuas Moai da Ilha de Páscoa escondem um mistério maior: o colapso de sua civilização.  Como uma sociedade tão avançada para criar os Moai sucumbiu?  A falta de registros escritos torna a busca por respostas um enigma arqueológico fascinante.",
     "funFact": "Pesquisas recentes indicam que a ilha sofreu um processo de desertificação muito mais rápido do que se pensava.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-14",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento dos Exploradores de Papua",
+    "hook": "Incrível: sumiram sem deixar rastros!",
+    "content": "Em 1930, uma expedição liderada por Richard Archbold desapareceu na densa floresta de Papua.  Não houve sinais de luta, apenas equipamentos abandonados.  Teorias variam de ataques tribais a encontros com animais desconhecidos. O mistério persiste até hoje, alimentando lendas locais.",
+    "funFact": "Alguns moradores juram ter visto estranhas luzes no céu naquela noite.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-15",
+    "categoryId": "misterios",
+    "title": "O Mistério da Floresta de Hoyo Negro",
+    "hook": "Incrível: ossos gigantes...",
+    "content": "Em uma caverna submersa, no México, foram encontrados restos mortais de uma megafauna extinta. O perfeito estado de conservação dos ossos gera curiosidades sobre a forma como esses animais chegaram até o local, e os fatores que levaram sua extinção.",
+    "funFact": "A caverna abriga também ossos de animais pré-históricos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-16",
+    "categoryId": "misterios",
+    "title": "O Enigma da Explosão de Tunguska",
+    "hook": "Você sabia que...",
+    "content": "Em 1908, uma explosão devastadora na Sibéria arrasou quilômetros de floresta. A causa?  Ainda um mistério.  Apesar de teorias sobre um meteoro, a falta de uma cratera significativa alimenta especulações sobre outros eventos, como um cometa ou até mesmo um objeto extraterrestre.",
+    "funFact": "A explosão foi tão poderosa quanto milhares de bombas atômicas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-17",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento da Colônia Roanoke",
+    "hook": "Incrível: Uma colônia inteira sumiu!",
+    "content": "Em 1590, a colônia inglesa de Roanoke desapareceu misteriosamente, sem deixar rastros.  Teorias variam de ataques indígenas a doenças e até mesmo uma integração com tribos locais. A única pista: a palavra 'Croatoan' gravada em uma árvore.  O que aconteceu com os colonos permanece um mistério.",
+    "funFact": "Nenhum corpo foi encontrado, apenas a palavra 'Croatoan' como um enigma.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-18",
+    "categoryId": "misterios",
+    "title": "Os Sinais de Arecibo",
+    "hook": "Incrível: Uma mensagem sem resposta!",
+    "content": "Em 1974, um sinal de rádio contendo informações básicas sobre a humanidade foi enviado para o espaço a partir do radiotelescópio de Arecibo.  Até hoje, nenhuma resposta foi recebida, levantando questões sobre a existência de vida inteligente fora da Terra e a natureza da comunicação interestelar.",
+    "funFact": "A mensagem é um conjunto de imagens binárias que representam conceitos básicos sobre a humanidade.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-19",
+    "categoryId": "misterios",
+    "title": "O Segredo das Ruínas de Nan Madol",
+    "hook": "Incrível: uma cidade submersa...",
+    "content": "Nan Madol, na Micronésia, é um complexo de ruínas de basalto construído sobre recifes de coral.  Sua construção, sem a ajuda de ferramentas modernas, permanece um mistério.  Como transportaram blocos tão grandes? Qual era a função dessa cidade? As respostas permanecem ocultas sob as águas.",
+    "funFact": "Algumas lendas locais atribuem a construção de Nan Madol a seres sobrenaturais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-20",
+    "categoryId": "misterios",
+    "title": "O Sumidouro de Oak Island",
+    "hook": "Incrível: um tesouro amaldiçoado?",
+    "content": "Oak Island, na Nova Escócia, guarda um mistério que intriga há séculos.  Diversas tentativas de encontrar um suposto tesouro pirata falharam, encontrando apenas armadilhas engenhosas.  A lenda de uma maldição que protege o tesouro contribui para o fascínio em torno desta ilha.",
+    "funFact": "Acredita-se que o poço principal tenha mais de 200 metros de profundidade e seja protegido por complexos sistemas de inundação.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-21",
+    "categoryId": "misterios",
+    "title": "O Enigma do Círculo de Avebury",
+    "hook": "Você sabia que...",
+    "content": "Maior que Stonehenge, o círculo de Avebury, na Inglaterra, apresenta um complexo sistema de pedras e valas.  Sua construção e propósito são debatidos há muito tempo, com teorias que vão de rituais religiosos a observações astronômicas. A idade exata também é uma questão incerta.",
+    "funFact": "Avebury foi, por um tempo, uma aldeia construída dentro do círculo de pedras.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-22",
+    "categoryId": "misterios",
+    "title": "O Mistério da Ilha de Poveglia",
+    "hook": "Ilha maldita?",
+    "content": "Localizada na Itália, a ilha é repleta de histórias de pesadelo.  Usada como um local de quarentena para vítimas da peste e mais tarde como um hospital psiquiátrico, é cercada por lendas macabras.  A ilha parece absorver o sofrimento do passado.",
+    "funFact": "Muitas pessoas relatam sentir uma energia negativa intensa ao visitar a ilha.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-23",
+    "categoryId": "misterios",
+    "title": "O Caso dos Relógios Parados",
+    "hook": "Incrível: relógios parados simultaneamente!",
+    "content": "Em 1966, numa pequena cidade, todos os relógios pararam ao mesmo tempo, sem explicação técnica.  Os relógios de pulso, de parede, até mesmo os atômicos apresentaram a mesma falha. A causa permanece um mistério, com teorias que vão de falhas geomagnéticas a eventos paranormais. Nenhuma solução definitiva foi encontrada.",
+    "funFact": "As investigações foram arquivadas oficialmente, mas os moradores ainda sentem um arrepio ao passarem pelo local.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-24",
+    "categoryId": "misterios",
+    "title": "O Sinal de Wow!",
+    "hook": "Você sabia que...",
+    "content": "Em 1977, o radiotelescópio Big Ear captou um sinal de rádio forte e misterioso que durou 72 segundos. Sua intensidade e características o diferenciavam de qualquer outro sinal natural ou artificial conhecido, chamando atenção pela semelhança com uma mensagem alienígena.",
+    "funFact": "Apesar de inúmeras tentativas, a origem do sinal permanece desconhecida até hoje.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-25",
+    "categoryId": "misterios",
+    "title": "O Caso do Navio Fantasma do Mar Báltico",
+    "hook": "Você sabia que...",
+    "content": "Um navio mercante foi encontrado à deriva no Mar Báltico sem tripulação e sem sinais de luta ou acidentes.  Sua carga permanecia intacta, e sua tecnologia de comunicação estava operacional, mas não se encontraram indícios sobre o desaparecimento da tripulação.",
+    "funFact": "Os pertences pessoais da tripulação também não foram encontrados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-26",
+    "categoryId": "misterios",
+    "title": "O Mistério do Buraco Negro",
+    "hook": "Incrível: objetos que desafiam a física!",
+    "content": "Buracos negros, com sua força gravitacional intensa, ainda são objetos de estudo e mistério. Como os buracos negros se formam, o que acontece com a matéria que eles absorvem, e a origem da energia que eles emitem permanecem parcialmente sem resposta.",
+    "funFact": "Buracos negros podem distorcer o tempo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-27",
+    "categoryId": "misterios",
+    "title": "O Enigma do Manuscrito Voynich",
+    "hook": "Você sabia que...",
+    "content": "Este manuscrito ilustrado do século XV permanece indecifrável.  Sua linguagem e símbolos desafiam especialistas por séculos.  Teorias vão desde uma elaborada fraude até um código complexo de uma civilização perdida.  A beleza de suas ilustrações botânicas e astronômicas só aumenta o mistério.",
+    "funFact": "Algumas páginas parecem mostrar plantas e criaturas que não existem na Terra.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-28",
+    "categoryId": "misterios",
+    "title": "O Enigma das Esculturas Submersas de Yonaguni",
+    "hook": "Incrível: uma cidade submersa?",
+    "content": "Descobertas perto da ilha de Yonaguni, no Japão, estruturas de pedra gigantescas intrigam pesquisadores.  São ruínas naturais ou uma antiga cidade perdida no mar? A precisão geométrica de algumas partes desafia explicações naturais, alimentando teorias de uma civilização avançada pré-histórica.  A profundidade e o acesso limitado dificultam as pesquisas.",
+    "funFact": "Algumas estruturas parecem ter sido deliberadamente cortadas e encaixadas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-29",
+    "categoryId": "misterios",
+    "title": "O Mistério do Sinal Cósmica de 1977",
+    "hook": "Você sabia que...",
+    "content": "Um sinal de rádio forte e estreito, detectado pelo projeto SETI em 1977, durou 72 segundos e nunca mais foi repetido. Sua origem e significado são desconhecidos, alimentando especulações sobre uma possível mensagem extraterrestre.  Sua intensidade e características únicas o tornaram icônico.",
+    "funFact": "O astrônomo Jerry Ehman anotou 'Wow!' ao lado da leitura, nomeando o evento.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-30",
+    "categoryId": "misterios",
+    "title": "A Maldição do Tesouro de Oak Island",
+    "hook": "Cuidado: uma ilha amaldiçoada?",
+    "content": "Localizada na costa da Nova Escócia, Oak Island abriga um poço misterioso, com armadilhas engenhosas que protegem o que se acredita ser um tesouro pirata.  Inúmeras tentativas de explorar o poço resultaram em mortes e falhas, alimentando a lenda de uma maldição.",
+    "funFact": "Já morreram mais de 6 pessoas enquanto buscavam o tesouro.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-31",
+    "categoryId": "misterios",
+    "title": "A Cidade Perdida de Helike",
+    "hook": "Surpreendente: engolida pelo mar!",
+    "content": "A cidade grega de Helike foi devastada por um tsunami em 373 a.C. e engolida pelo mar.  Sua localização exata permaneceu um mistério por séculos, até que descobertas recentes sugerem que ela está enterrada sob sedimentos marinhos, guardando segredos de uma civilização antiga.",
+    "funFact": "Helike era um importante centro religioso e político na Grécia Antiga.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-32",
+    "categoryId": "misterios",
+    "title": "O Enigma do Mar de Aral",
+    "hook": "Triste: um mar que secou!",
+    "content": "O Mar de Aral, outrora um grande lago na Ásia Central, quase desapareceu devido à irrigação excessiva.  A mudança dramática no ecossistema e o impacto nas comunidades locais deixam um mistério ambiental sobre a gestão de recursos hídricos e suas consequências.",
+    "funFact": "O Mar de Aral era o quarto maior lago do mundo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-33",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Cristais Gigantes de Naica",
+    "hook": "Impressionante: cristais gigantes!",
+    "content": "Na mina de Naica, no México, encontram-se cristais de selenita gigantescos, alguns com até 11 metros de comprimento.  As condições extremas de temperatura e umidade na caverna tornam sua exploração extremamente perigosa, deixando muito a ser descoberto sobre sua formação.",
+    "funFact": "A temperatura dentro da caverna chega a 58°C e a umidade a 99%.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-34",
+    "categoryId": "misterios",
+    "title": "A Floresta Submersa do Lago Kaindy",
+    "hook": "Espectáculo: árvores submersas!",
+    "content": "Localizado no Cazaquistão, o Lago Kaindy é um lago de origem sísmica que submerge uma floresta de pinheiros, criando um cenário surreal e misterioso. A combinação de água límpida e árvores submersas cria uma beleza única e um enigma geológico.",
+    "funFact": "O lago foi formado por um deslizamento de terra após um terremoto.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-35",
+    "categoryId": "misterios",
+    "title": "O Segredo dos Manuscritos de Voynich",
+    "hook": "Incrível: um código inquebrável?",
+    "content": "O Manuscrito Voynich, um livro misterioso do século XV, intriga estudiosos há séculos.  Cheio de ilustrações bizarras e um texto em uma língua desconhecida, ele resiste a todas as tentativas de decifração. Será que guarda segredos ancestrais ou é simplesmente uma elaborada farsa?",
+    "funFact": "Algumas teorias sugerem que o manuscrito é uma espécie de código de alquimia medieval.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-36",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento do Trem de Buenos Aires",
+    "hook": "Incrível: um trem inteiro sumiu!",
+    "content": "Em 1910, um trem carregado de ouro desapareceu misteriosamente entre duas estações na Argentina. Apesar de buscas intensas, nunca foi encontrado, deixando para trás apenas especulações sobre roubos ousados ou fenômenos paranormais.  A falta de evidências concretas alimenta teorias conspiratórias até hoje.",
+    "funFact": "Testemunhas relataram um brilho estranho na noite do desaparecimento.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-37",
+    "categoryId": "misterios",
+    "title": "O Enigma do Relógio de Stonehenge",
+    "hook": "Você sabia que...",
+    "content": "Apesar da fama de Stonehenge,  pouco se sabe sobre como os megalitos foram dispostos tão precisamente.  Teorias envolvendo alinhamento astronômico são abundantes, mas a precisão na construção sugere um conhecimento avançado de engenharia e astronomia, muito além do esperado para a época.",
+    "funFact": "Alguns cálculos sugerem que as pedras foram alinhadas com eventos astronômicos milhares de anos no futuro.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-38",
+    "categoryId": "misterios",
+    "title": "A Ilha Desaparecida do Pacífico",
+    "hook": "Você sabia que...",
+    "content": "Relatos de navegadores do século XIX mencionam uma ilha exuberante no Pacífico Sul, que desapareceu sem deixar vestígios.  A possibilidade de ilhas surgirem e submergirem rapidamente, devido a atividade vulcânica, é real, mas a ausência de qualquer evidência física permanece um mistério.",
+    "funFact": "Alguns cartografaram a ilha, mas sua localização atual é desconhecida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-39",
+    "categoryId": "misterios",
+    "title": "O Mistério do Som de Hum",
+    "hook": "Você sabia que...",
+    "content": "Em várias cidades ao redor do mundo, pessoas relatam ouvir um som baixo e constante, chamado de 'hum', que não pode ser explicado pela ciência.  A origem e a natureza do som permanecem um mistério, afetando a saúde e o bem-estar dos indivíduos afetados.",
+    "funFact": "O som é descrito de maneiras diferentes, de um zumbido a um ronco, dependendo da pessoa e da localização.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-40",
+    "categoryId": "misterios",
+    "title": "O Enigma da Pirâmide Subaquática",
+    "hook": "Incrível: uma pirâmide no oceano!",
+    "content": "Descoberta nas profundezas do Triângulo das Bermudas, uma estrutura piramidal de origem desconhecida intriga cientistas e teóricos da conspiração.  Sua precisão geométrica desafia explicações convencionais, alimentando especulações sobre civilizações antigas e tecnologias avançadas.  Será uma maravilha natural ou algo mais?",
+    "funFact": "Análises preliminares sugerem que a pirâmide é feita de um material desconhecido, resistente a erosão.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-41",
+    "categoryId": "misterios",
+    "title": "O Mistério das Esferas de Cristal da Sibéria",
+    "hook": "Você sabia que...",
+    "content": "Esferas de cristal perfeitas foram encontradas na Sibéria, em uma região remota e inóspita.  Seu material e origem são um completo enigma, desafiando qualquer explicação geológica conhecida.  Sua precisão sugere uma criação artificial, mas quem e como?  Permanece um dos grandes mistérios arqueológicos.",
+    "funFact": "Algumas esferas emitem um leve brilho quando expostas à luz solar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-42",
+    "categoryId": "misterios",
+    "title": "As Ruínas Submersas de Doggerland",
+    "hook": "Incrível:",
+    "content": "Sob as águas do Mar do Norte jazem os restos de Doggerland, um vasto território que ligava a Grã-Bretanha à Europa continental.  Submerso há milhares de anos, Doggerland guarda segredos de uma civilização perdida, revelando ocasionalmente artefatos que desafiam nossa compreensão do passado.",
+    "funFact": "Evidências arqueológicas sugerem a existência de uma cultura sofisticada em Doggerland.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-43",
+    "categoryId": "misterios",
+    "title": "O Sinal de Rádio Humanoide",
+    "hook": "Você sabia que...",
+    "content": "Um sinal de rádio incomum, contendo uma sequência numérica complexa, foi detectado em 2020. Sua origem é desconhecida, e sua estrutura sugere uma origem artificial, embora não se assemelhe a qualquer código conhecido. Alguns sugerem que é uma tentativa de contato alienígena.",
+    "funFact": "O sinal se repete em intervalos irregulares, o que dificulta sua decodificação.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-44",
+    "categoryId": "misterios",
+    "title": "A Cidade Perdida de Eldorado",
+    "hook": "Lendas contam:",
+    "content": "Eldorado, a lendária cidade de ouro, fascina exploradores e historiadores há séculos. Embora sua existência seja questionada, relatos de uma cidade opulenta nas selvas da América do Sul persistem, alimentando a busca por um tesouro perdido. Será apenas mito ou uma realidade escondida?",
+    "funFact": "Vários artefatos e ruínas antigas supostamente ligadas a Eldorado foram descobertos, mas sua autenticidade é debatida.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-45",
+    "categoryId": "misterios",
+    "title": "O Enigma da Ilha de Pascoa",
+    "hook": "Intrigante:",
+    "content": "A ilha de Páscoa, com seus icônicos moais, guarda muitos mistérios. Como uma pequena população construiu essas enormes estátuas e o que causou o colapso da sua civilização permanece um enigma. A escassez de recursos na ilha também intriga os estudiosos.",
+    "funFact": "As inscrições rupestres na ilha ainda não foram completamente decifradas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-46",
+    "categoryId": "misterios",
+    "title": "O Enigma da Zona do Silêncio",
+    "hook": "Silencioso:",
+    "content": "A Zona do Silêncio, no deserto mexicano, é uma região onde as ondas de rádio são inexplicavelmente bloqueadas.  A causa desse fenômeno permanece um mistério, apesar de algumas teorias envolvendo campos magnéticos e minerais do solo, ainda não completamente comprovadas.",
+    "funFact": "Objetos metálicos encontrados na Zona do Silêncio apresentam anomalias magnéticas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-47",
+    "categoryId": "misterios",
+    "title": "O Enigma da Bacia do Rio Okavango",
+    "hook": "Incrível:",
+    "content": "A Bacia do Rio Okavango, no deserto do Kalahari, é um oásis misterioso. Como um rio consegue manter um delta extenso em um ambiente tão árido? O mistério envolve a interação complexa entre o rio, a geologia subterrânea e a ecologia do deserto.",
+    "funFact": "A água do Okavango alimenta uma grande variedade de vida selvagem no deserto.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-48",
+    "categoryId": "misterios",
+    "title": "O Enigma das Pedras de Ica",
+    "hook": "Controverso:",
+    "content": "As Pedras de Ica, no Peru, apresentam imagens que desafiam a história conhecida.  A autenticidade das pedras é debatida, mas se autênticas, suas gravuras retratam avanços tecnológicos e eventos que ocorreram antes do estabelecimento da civilização humana,  sendo uma prova controversa.",
+    "funFact": "Algumas pedras mostram seres realizando cirurgias e utilizando tecnologias avançadas.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-49",
+    "categoryId": "misterios",
+    "title": "O Mistério do Monólito de Baalbek",
+    "hook": "Monumental:",
+    "content": "O Monólito de Baalbek, no Líbano, é um megálito de tamanho e precisão impressionantes. Sua construção desafia a tecnologia disponível na época, gerando debates sobre a origem dos blocos e as técnicas usadas para movê-los e montá-los com tanta precisão.",
+    "funFact": "Alguns blocos pesam mais de 1000 toneladas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-50",
+    "categoryId": "misterios",
+    "title": "O Silêncio das Profundezas Marinhas",
+    "hook": "Silencioso:",
+    "content": "As profundezas dos oceanos são um lugar de mistério e escuridão.  A ausência quase total de luz e som criam um ambiente misterioso, onde a vida encontra formas surpreendentes, ainda pouco compreendidas e que alimentam inúmeras perguntas sobre a vida em ambientes extremos.",
+    "funFact": "A pressão nas profundezas oceânicas é imensa, capaz de esmagar seres humanos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-51",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Círculos de Cultura",
+    "hook": "Extraterrestres?",
+    "content": "Círculos complexos, conhecidos como círculos de cultura, aparecem inexplicavelmente em plantações ao redor do mundo.  Apesar de teorias que atribuem sua criação a fenômenos naturais ou brincadeiras, alguns círculos apresentam uma complexidade que gera controvérsia e alimenta teorias sobre interferência extraterrestre.",
+    "funFact": "Os círculos são criados em um curto período de tempo, sem deixar vestígios.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-52",
+    "categoryId": "misterios",
+    "title": "O Silêncio do Polo Sul",
+    "hook": "Frio:",
+    "content": "O Polo Sul é um ambiente extremo, conhecido pelo seu silêncio quase absoluto, quebrando o ruído usual da natureza.  A ausência de som intenso adiciona uma camada de mistério e inquietude, ressaltando a solidão e o isolamento desse ambiente único.",
+    "funFact": "Ventos constantes e temperaturas congelantes influenciam no ambiente silencioso do Polo Sul.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-53",
+    "categoryId": "misterios",
+    "title": "O Enigma dos Gigantes de Monte Verde",
+    "hook": "Incrível: pegadas gigantes?",
+    "content": "No Chile, pegadas fossilizadas de tamanho incomum foram encontradas em Monte Verde, desafiando a cronologia estabelecida da presença humana na América. Sua origem e tamanho excedem qualquer explicação atual, gerando diversas teorias, de gigantes pré-históricos a erros de interpretação geológica.  O mistério persiste, intrigando cientistas e arqueólogos.",
+    "funFact": "Algumas pegadas medem mais de 40 centímetros de comprimento!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-54",
+    "categoryId": "misterios",
+    "title": "A Floresta Perdida do Amazonas",
+    "hook": "Você sabia que...",
+    "content": "Utilizando tecnologia LIDAR, cientistas descobriram evidências de uma gigantesca floresta escondida sob a copa da Amazônia.  Essa floresta, até então desconhecida, possui uma rica biodiversidade e  arquitetura única. Sua descoberta  revela a imensa complexidade e segredos ainda por desvendar da maior floresta tropical do mundo.",
+    "funFact": "A área da floresta perdida é comparável ao tamanho da Grã-Bretanha!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-55",
+    "categoryId": "misterios",
+    "title": "O Mistério das Esferas de Pedra da Escócia",
+    "hook": "Surpreendente!",
+    "content": "Na Escócia, foram encontradas misteriosas esferas de pedra perfeitamente esféricas, de origem e propósito desconhecidos.  Sua precisão e tamanho variável desafiam as técnicas de fabricação da época, levando a especulações sobre avanços tecnológicos perdidos ou a intervenção de forças extraterrestres.",
+    "funFact": "Algumas esferas pesam mais de 1 tonelada!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-56",
+    "categoryId": "misterios",
+    "title": "O Segredo das Ruínas Submersas de Cuba",
+    "hook": "Descoberta inacreditável!",
+    "content": "No fundo do mar cubano, foram encontradas estruturas rochosas gigantescas, que lembram ruínas de uma cidade antiga.  A origem e o propósito dessas estruturas são um enigma, e sua idade é alvo de debates entre arqueólogos e geólogos.  Seriam vestígios de uma civilização perdida ou apenas formações rochosas incomuns?",
+    "funFact": "Algumas estruturas são tão grandes quanto pirâmides!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-57",
+    "categoryId": "misterios",
+    "title": "O Caso do Navio Fantasma do Atlântico Sul",
+    "hook": "Você sabia que...",
+    "content": "Em 1872, o navio Mary Celeste foi encontrado à deriva no Oceano Atlântico, completamente vazio, sem sinais de luta ou desastre. Seu enigma persiste até hoje, com diversas teorias, de mutações climáticas a ataques de piratas ou eventos sobrenaturais. A ausência de tripulantes e o abandono perfeito intriga os pesquisadores.",
+    "funFact": "O navio estava em perfeito estado de navegação!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-58",
+    "categoryId": "misterios",
+    "title": "As Pinturas Rupestres Desaparecidas do Saara",
+    "hook": "Mistério arqueológico!",
+    "content": "Recentemente, foram encontradas evidências de pinturas rupestres em regiões desérticas do Saara, que desapareceram misteriosamente logo após sua descoberta. A natureza efêmera das pinturas e as condições climáticas extremas dificultam a sua preservação e o estudo detalhado da arte rupestre daquela região.",
+    "funFact": "As pinturas desapareceram em poucas semanas!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-59",
+    "categoryId": "misterios",
+    "title": "O Mistério das Luzes de Hessdalen",
+    "hook": "Luzes inexplicáveis!",
+    "content": "Na Noruega, luzes inexplicáveis e misteriosas aparecem no Vale de Hessdalen. Sua natureza e origem são desconhecidas, com teorias que vão desde fenômenos meteorológicos incomuns a atividade de seres extraterrestres. Observações ao longo de décadas ainda não elucidaram o mistério.",
+    "funFact": "As luzes mudam de cor e intensidade!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-60",
+    "categoryId": "misterios",
+    "title": "A Cidade Subterrânea Perdida de Derinkuyu",
+    "hook": "Incrível: uma cidade...",
+    "content": "Na Capadócia, Turquia, encontra-se Derinkuyu, uma enorme cidade subterrânea com complexos túneis, câmaras e instalações. Sua construção e função permanecem um mistério, com teorias que envolvem refúgio de guerras, culto religioso ou atividades secretas de povos antigos. Sua vastidão e complexidade impressionam.",
+    "funFact": "A cidade abriga milhares de quartos e abrigos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-61",
+    "categoryId": "misterios",
+    "title": "O Mistério das Pedras que se movem no Vale da Morte",
+    "hook": "Pedras que andam...",
+    "content": "No Vale da Morte, Califórnia, pedras deixam rastros de seu movimento no chão seco.  O fenômeno, inexplicável por muito tempo, foi recentemente atribuído a uma combinação de gelo, vento e um tipo específico de solo. Ainda assim, a combinação precisa e os caminhos complexos geram curiosidade.",
+    "funFact": "Algumas pedras pesam dezenas de quilos!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-62",
+    "categoryId": "misterios",
+    "title": "O Enigma do Triângulo das Bermudas",
+    "hook": "Você sabia que...",
+    "content": "O Triângulo das Bermudas é famoso pelos desaparecimentos inexplicáveis de navios e aviões.  Embora estudos indiquem que a taxa de acidentes na região não seja significativamente maior que em outras áreas oceânicas, a concentração de eventos misteriosos e a falta de explicações concretas alimentam as teorias conspiratórias.",
+    "funFact": "Muitas teorias envolvem eventos sobrenaturais!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-63",
+    "categoryId": "misterios",
+    "title": "As Ruínas Submersas de Dwarka",
+    "hook": "Cidade submersa!",
+    "content": "Na costa da Índia, foram encontradas estruturas submersas que supostamente seriam ruínas de Dwarka, uma lendária cidade mencionada em textos antigos.  A autenticidade e a idade das ruínas são debatidas, mas sua existência sugere a possibilidade de uma civilização avançada perdida no oceano.",
+    "funFact": "Algumas estruturas lembram complexos arquitetônicos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-64",
+    "categoryId": "misterios",
+    "title": "O Mistério das Pirâmides Submersas do Japão",
+    "hook": "Pirâmides subaquáticas!",
+    "content": "Estruturas submersas com características semelhantes a pirâmides foram detectadas no fundo do mar perto do Japão.  A origem e a idade dessas estruturas são debatidas, com teorias que vão desde formações naturais até vestígios de uma civilização perdida ou avançada tecnologia antiga.",
+    "funFact": "Algumas estruturas apresentam ângulos precisos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-65",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento da Floresta de Madagascar",
+    "hook": "Floresta sumiu!",
+    "content": "Uma significativa área florestal em Madagascar desapareceu em um curto período, sem explicação imediata.  Apesar de desmatamento ser uma possibilidade, a rapidez e a escala do desaparecimento sugerem um fator desconhecido que contribuiu significativamente para a redução da área florestal.",
+    "funFact": "A área afetada era do tamanho de um pequeno país!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-66",
+    "categoryId": "misterios",
+    "title": "O Mistério das Profundezas Oceânicas",
+    "hook": "Mistérios abissais!",
+    "content": "As profundezas dos oceanos ainda são em grande parte inexploradas, guardando mistérios biológicos, geológicos e até mesmo tecnológicos.  A pressão, a escuridão e a dificuldade de acesso dificultam a exploração e a compreensão dos ecossistemas e estruturas presentes nas fossas oceânicas.",
+    "funFact": "A maior parte do oceano permanece inexplorada!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-67",
+    "categoryId": "misterios",
+    "title": "O Enigma das Runas de Vinland",
+    "hook": "Incrível: Runas vikings...",
+    "content": "Descobertas em L'Anse aux Meadows, Canadá, as runas de Vinland geram debates acalorados.  Sua autoria e significado exato permanecem obscuros, alimentando teorias sobre viagens vikings além do esperado.  A complexidade da escrita e a falta de contexto arqueológico contribuem para o mistério.",
+    "funFact": "Algumas runas parecem indicar a presença de mulheres na expedição.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-68",
+    "categoryId": "misterios",
+    "title": "A Cidade Submersa de Shi Cheng",
+    "hook": "Impressionante: Uma cidade...",
+    "content": "Descoberta no fundo de um lago chinês, Shi Cheng, a cidade do leão, está incrivelmente preservada.  Construções antigas, esculturas e artefatos fornecem um vislumbre da vida antiga, mas muitas perguntas permanecem sem resposta sobre a história e o motivo do afogamento da cidade.",
+    "funFact": "Estátuas de Buda intactas foram encontradas no local.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-69",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Sinais de Palenque",
+    "hook": "Instigante: Hieróglifos...",
+    "content": "As inscrições de Palenque, no México, guardam segredos em seus hieróglifos. A compreensão parcial da escrita maia revela detalhes da vida real de seus governantes, mas muito de seu significado permanece oculto. O que mais os textos podem revelar sobre o passado?",
+    "funFact": "Algumas inscrições parecem prever eventos futuros.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-70",
+    "categoryId": "misterios",
+    "title": "O Enigma do Lago Subterrâneo",
+    "hook": "Incrível: um lago secreto!",
+    "content": "Escondido sob o deserto do Atacama, existe um lago subterrâneo de água doce, descoberto recentemente. Sua origem e a existência de vida nele permanecem um mistério, desafiando as teorias sobre a hidrologia da região árida.  A profundidade e extensão do lago são desconhecidas, aumentando o fascínio.",
+    "funFact": "Acredita-se que a água seja antiga, datando de milhares de anos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-71",
+    "categoryId": "misterios",
+    "title": "O Segredo das Ruínas de Iram",
+    "hook": "Você sabia que...",
+    "content": "Conhecida como a 'cidade das colunas', Iram, na Arábia Saudita, é uma cidade perdida mencionada no Alcorão.  Sua localização exata é desconhecida, alimentando lendas sobre um reino opulento que desapareceu sem deixar rastros. As ruínas, se existirem, podem conter segredos ancestrais.",
+    "funFact": "Algumas teorias apontam para uma cidade submersa pelo mar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-72",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Sinais de Nazca II",
+    "hook": "Desvendando novos mistérios:",
+    "content": "Além das famosas linhas de Nazca, novas formações geométricas foram descobertas na mesma região.  Sua finalidade e significado ainda são desconhecidos, adicionando mais camadas de complexidade ao enigma das famosas linhas. Poderiam ser um sistema de comunicação ou algo mais complexo?",
+    "funFact": "Algumas teorias sugerem ligação com eventos astronômicos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-73",
+    "categoryId": "misterios",
+    "title": "O Enigma dos Monólitos Alienígenas",
+    "hook": "Monólitos misteriosos:",
+    "content": "Em regiões remotas do planeta foram encontrados monólitos de origem desconhecida, com composições e estruturas que desafiam a tecnologia atual.  As teorias sobre sua criação variam de artefatos antigos a objetos extraterrestres, alimentando o debate sobre a nossa compreensão da história.",
+    "funFact": "Algumas estruturas emitem frequências estranhas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-74",
+    "categoryId": "misterios",
+    "title": "O Segredo do Vale Perdido",
+    "hook": "Um vale esquecido:",
+    "content": "Em uma região montanhosa do Tibete, relatos indicam a existência de um vale isolado e misterioso, onde as leis da física parecem ser diferentes.  A impossibilidade de acessar este local tornou o vale um enigma, alimentando teorias sobre dimensões alternativas e portais temporais.",
+    "funFact": "Há relatos de anomalias gravitacionais na região.",
+    "curiosityLevel": 5
   }
 ]
