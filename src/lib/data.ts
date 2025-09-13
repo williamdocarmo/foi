@@ -1,47 +1,105 @@
 // src/lib/data.ts
 import type { Category, Curiosity, QuizQuestion } from './types';
 import categoriesData from './data/categories.json';
-import fs from 'fs';
-import path from 'path';
 
-// --- Abordagem Otimizada: Pré-processamento de Dados ---
-// Os dados são lidos uma vez no início e organizados em mapas para acesso rápido.
-// Isso evita a necessidade de filtrar arrays grandes repetidamente.
+// --- Abordagem Otimizada com Importações Estáticas ---
+// Em vez de usar 'fs' para ler o sistema de arquivos em tempo de execução,
+// importamos os arquivos JSON diretamente. Isso garante que o Next.js e a Vercel
+// incluam esses arquivos no bundle de produção, evitando erros de "arquivo não encontrado".
 
-const curiositiesDir = path.join(process.cwd(), 'data/curiosities');
-const quizzesDir = path.join(process.cwd(), 'data/quiz-questions');
+import autoajudaCuriosities from '../../data/curiosities/autoajuda.json';
+import bemEstarCuriosities from '../../data/curiosities/bem-estar.json';
+import cienciaCuriosities from '../../data/curiosities/ciencia.json';
+import culturaCuriosities from '../../data/curiosities/cultura.json';
+import dinheiroCuriosities from '../../data/curiosities/dinheiro.json';
+import entretenimentoCuriosities from '../../data/curiosities/entretenimento.json';
+import futuroCuriosities from '../../data/curiosities/futuro.json';
+import hacksCuriosities from '../../data/curiosities/hacks.json';
+import habilidadesCuriosities from '../../data/curiosities/habilidades.json';
+import historiaCuriosities from '../../data/curiosities/historia.json';
+import lugaresCuriosities from '../../data/curiosities/lugares.json';
+import misteriosCuriosities from '../../data/curiosities/misterios.json';
+import musicaCuriosities from '../../data/curiosities/musica.json';
+import naturezaEAnimaisCuriosities from '../../data/curiosities/natureza-e-animais.json';
+import psicologiaCuriosities from '../../data/curiosities/psicologia.json';
+import relacionamentosCuriosities from '../../data/curiosities/relacionamentos.json';
+import religiaoCuriosities from '../../data/curiosities/religiao.json';
+import saudeCuriosities from '../../data/curiosities/saude.json';
+import tecnologiaCuriosities from '../../data/curiosities/tecnologia.json';
+import universoEAstronomiaCuriosities from '../../data/curiosities/universo-e-astronomia.json';
+import viagensCuriosities from '../../data/curiosities/viagens.json';
 
-/**
- * Lê todos os arquivos JSON de um diretório e os combina em um único array.
- * @param directory O caminho para o diretório.
- * @returns Um array com o conteúdo de todos os arquivos JSON.
- */
-function loadDataFromDirectory<T>(directory: string): T[] {
-  try {
-    const filenames = fs.readdirSync(directory);
-    const jsonData = filenames
-      .filter(filename => filename.endsWith('.json'))
-      .map(filename => {
-        const filePath = path.join(directory, filename);
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        try {
-            return JSON.parse(fileContent) as T[];
-        } catch (e) {
-            console.error(`Erro ao fazer parse do JSON no arquivo: ${filePath}`, e);
-            return []; // Retorna array vazio se o JSON for inválido
-        }
-      });
-      
-    return jsonData.flat();
-  } catch (error) {
-    console.warn(`Aviso: Diretório não encontrado: ${directory}. Retornando array vazio.`);
-    return [];
-  }
-}
+import autoajudaQuizzes from '../../data/quiz-questions/autoajuda.json';
+import bemEstarQuizzes from '../../data/quiz-questions/bem-estar.json';
+import cienciaQuizzes from '../../data/quiz-questions/ciencia.json';
+import culturaQuizzes from '../../data/quiz-questions/cultura.json';
+import dinheiroQuizzes from '../../data/quiz-questions/dinheiro.json';
+import entretenimentoQuizzes from '../../data/quiz-questions/entretenimento.json';
+import futuroQuizzes from '../../data/quiz-questions/futuro.json';
+import hacksQuizzes from '../../data/quiz-questions/hacks.json';
+import habilidadesQuizzes from '../../data/quiz-questions/habilidades.json';
+import historiaQuizzes from '../../data/quiz-questions/historia.json';
+import lugaresQuizzes from '../../data/quiz-questions/lugares.json';
+import misteriosQuizzes from '../../data/quiz-questions/misterios.json';
+import musicaQuizzes from '../../data/quiz-questions/musica.json';
+import naturezaEAnimaisQuizzes from '../../data/quiz-questions/natureza-e-animais.json';
+import psicologiaQuizzes from '../../data/quiz-questions/psicologia.json';
+import relacionamentosQuizzes from '../../data/quiz-questions/relacionamentos.json';
+import religiaoQuizzes from '../../data/quiz-questions/religiao.json';
+import saudeQuizzes from '../../data/quiz-questions/saude.json';
+import tecnologiaQuizzes from '../../data/quiz-questions/tecnologia.json';
+import universoEAstronomiaQuizzes from '../../data/quiz-questions/universo-e-astronomia.json';
+import viagensQuizzes from '../../data/quiz-questions/viagens.json';
 
 // Carrega todos os dados uma vez.
-const allCuriosities: Curiosity[] = loadDataFromDirectory<Curiosity>(curiositiesDir);
-const allQuizQuestions: QuizQuestion[] = loadDataFromDirectory<QuizQuestion>(quizzesDir);
+const allCuriosities: Curiosity[] = [
+    ...autoajudaCuriosities,
+    ...bemEstarCuriosities,
+    ...cienciaCuriosities,
+    ...culturaCuriosities,
+    ...dinheiroCuriosities,
+    ...entretenimentoCuriosities,
+    ...futuroCuriosities,
+    ...hacksCuriosities,
+    ...habilidadesCuriosities,
+    ...historiaCuriosities,
+    ...lugaresCuriosities,
+    ...misteriosCuriosities,
+    ...musicaCuriosities,
+    ...naturezaEAnimaisCuriosities,
+    ...psicologiaCuriosities,
+    ...relacionamentosCuriosities,
+    ...religiaoCuriosities,
+    ...saudeCuriosities,
+    ...tecnologiaCuriosities,
+    ...universoEAstronomiaCuriosities,
+    ...viagensCuriosities
+].flat();
+
+const allQuizQuestions: QuizQuestion[] = [
+    ...autoajudaQuizzes,
+    ...bemEstarQuizzes,
+    ...cienciaQuizzes,
+    ...culturaQuizzes,
+    ...dinheiroQuizzes,
+    ...entretenimentoQuizzes,
+    ...futuroQuizzes,
+    ...hacksQuizzes,
+    ...habilidadesQuizzes,
+    ...historiaQuizzes,
+    ...lugaresQuizzes,
+    ...misteriosQuizzes,
+    ...musicaQuizzes,
+    ...naturezaEAnimaisQuizzes,
+    ...psicologiaQuizzes,
+    ...relacionamentosQuizzes,
+    ...religiaoQuizzes,
+    ...saudeQuizzes,
+    ...tecnologiaQuizzes,
+    ...universoEAstronomiaQuizzes,
+    ...viagensQuizzes
+].flat();
+
 
 /**
  * Otimização: Cria um mapa de curiosidades por ID da categoria para acesso O(1).

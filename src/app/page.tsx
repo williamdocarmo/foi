@@ -5,18 +5,37 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton';
-import * as LucideIcons from 'lucide-react';
-import { HelpCircle, Rocket } from 'lucide-react';
+import { 
+    Heart, Leaf, DollarSign, Smartphone, Atom, Palette, BookOpen, Eye, Film, Users, Brain, TrendingUp, MapPin, Globe, Target, Lightbulb, PawPrint, Orbit, Music, Church, HelpCircle, Rocket 
+} from 'lucide-react';
 import { useMemo } from 'react';
 
 // --------------------------
-// Pre-mapeamento de ícones
+// Pre-mapeamento de ícones (Mapeamento explícito para garantir que o build do Next.js inclua os ícones)
 // --------------------------
 const iconsMap: Record<string, React.ElementType> = {
-  ...LucideIcons,
-  rocket: Rocket,
+  Heart,
+  Leaf,
+  DollarSign,
+  Rocket,
+  Smartphone,
+  Atom,
+  Palette,
+  BookOpen,
+  Eye,
+  Film,
+  Users,
+  Brain,
+  TrendingUp,
+  MapPin,
+  Globe,
+  Target,
+  Lightbulb,
+  PawPrint,
+  Orbit,
+  Music,
+  Church,
   help: HelpCircle,
-  // Adicione outros ícones que existirem nas categorias
 };
 
 interface CategoryCardProps {
@@ -28,7 +47,7 @@ interface CategoryCardProps {
 function CategoryCard({ category, curiositiesCount, quizzesCount }: CategoryCardProps) {
   if (!category) return null;
 
-  const Icon = iconsMap[category.icon] || Rocket; // fallback
+  const Icon = iconsMap[category.icon] || Rocket; // fallback para Rocket
 
   return (
     <Card className="flex h-full flex-col overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl">
