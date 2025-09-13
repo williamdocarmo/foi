@@ -50,9 +50,15 @@ async function fetchTopUsersFromFirestore(count: number): Promise<GetTopUsersOut
     });
 
     return { users };
-  } catch (error) {
-    console.error("Error fetching top users from Firestore:", error);
-    // Return empty array in case of error
+  } catch (error: any) {
+    if (error.code === 'permission-denied') {
+      console.error(
+        'Firestore API permission denied. Please enable the Firestore API in your Google Cloud project.'
+      );
+    } else {
+      console.error('Error fetching top users from Firestore:', error);
+    }
+    // Return empty array in case of error to prevent app from crashing.
     return { users: [] };
   }
 }
