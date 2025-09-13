@@ -5,7 +5,6 @@ import type { Category, QuizQuestion } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
 import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -217,7 +216,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
                 <span>{timeLeft}</span>
             </div>
         </div>
-        <Progress value={( (currentQuestionIndex + 1) / shuffledQuestions.length) * 100} className="mt-2" />
         <CardDescription className="pt-2 text-center">Pergunta {currentQuestionIndex + 1}</CardDescription>
       </CardHeader>
       <CardContent className="p-6 text-center">

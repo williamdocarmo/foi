@@ -7,7 +7,6 @@ import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
-import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { getAllCuriosities } from "@/lib/data";
 import Link from "next/link";
@@ -136,7 +135,6 @@ export default function CuriosityExplorer({
                          <Skeleton className="h-8 w-1/2" />
                          <Skeleton className="h-6 w-1/6" />
                      </div>
-                     <Skeleton className="h-2 w-full mt-4" />
                 </CardHeader>
                 <CardContent className="p-6 md:p-8 space-y-3">
                     <Skeleton className="h-8 w-3/4" />
@@ -154,7 +152,6 @@ export default function CuriosityExplorer({
   }
 
   const currentCuriosity = curiosities[currentIndex];
-  const progress = curiosities.length > 0 ? ((currentIndex + 1) / curiosities.length) * 100 : 0;
   
   const explorerIcons = {
     'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
@@ -189,7 +186,6 @@ export default function CuriosityExplorer({
                     Curiosidade #{currentIndex + 1}
                 </Badge>
             </div>
-            <Progress value={progress} className="mt-4 h-2" />
         </CardHeader>
         <CardContent className="p-6 md:p-8">
           <div className="mb-6">
