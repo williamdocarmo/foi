@@ -295,5 +295,329 @@
     "content": "Estudos demonstram que casais apaixonados, em momentos de profunda conexão, apresentam uma surpreendente sincronia em seus ritmos cardíacos e respiratórios.  Essa sincronia fisiológica reflete a profunda ligação emocional e o nível de empatia compartilhada.  A ciência comprova a harmonia biofísica do amor.",
     "funFact": "Essa sincronia pode ser medida por sensores de alta precisão!",
     "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-34",
+    "categoryId": "relacionamentos",
+    "title": "A Memória Olfativa do Amor",
+    "hook": "Incrível: o cheiro lembra!",
+    "content": "Nossos sentidos guardam lembranças poderosas, principalmente o olfato. Um perfume, um sabonete, podem trazer de volta memórias vívidas de um relacionamento, mesmo anos depois. Isso ocorre porque o bulbo olfatório tem conexões diretas com o hipocampo e a amígdala, áreas do cérebro responsáveis pela memória e emoções.  Os cheiros se tornam ancras para nossas emoções mais profundas.",
+    "funFact": "Cientistas descobriram que o cheiro de um ex-parceiro pode provocar uma resposta hormonal significativa, independente de sentimentos atuais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-35",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência do Toque Acidental",
+    "hook": "Você sabia que...?",
+    "content": "Um toque leve, quase acidental, pode despertar uma atração inusitada. Essa sensação é devido à liberação de ocitocina, o hormônio do amor, que nos conecta a outras pessoas. A leveza do toque cria uma expectativa, um mistério que pode levar a uma maior conexão.",
+    "funFact": "A duração ideal de um toque casual é entre 1 a 3 segundos para maximizar os efeitos positivos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-36",
+    "categoryId": "relacionamentos",
+    "title": "O Poder da Pausa na Conversa",
+    "hook": "Surpreendente:",
+    "content": "O silêncio, em vez de constrangimento, pode ser um poderoso elo em um relacionamento. Pausas estratégicas na conversa permitem que ambos processem as informações, criando espaço para uma escuta mais profunda e uma conexão mais genuína. Permite também que cada um expresse suas emoções sem interrupções.",
+    "funFact": "Pausas de 3 a 5 segundos em conversas íntimas aumentam a intimidade.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-37",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Sorrisos",
+    "hook": "Incrível:",
+    "content": "A maneira como um sorriso é direcionado pode revelar muito sobre a dinâmica de um relacionamento. Um sorriso genuíno, envolvendo os olhos e a boca, indica confiança e afeto. Já um sorriso tímido ou retraído pode sugerir insegurança ou falta de conforto.",
+    "funFact": "Um sorriso espontâneo leva em média 0,5 segundos a mais do que um sorriso forçado.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-38",
+    "categoryId": "relacionamentos",
+    "title": "A Influência das Cores no Humor do Casal",
+    "hook": "Você sabia que...",
+    "content": "As cores podem influenciar sutilmente o humor e a dinâmica de um relacionamento. Cores quentes como vermelho e laranja podem estimular a paixão, enquanto cores frias como azul e verde podem promover calma e tranquilidade. A escolha de cores no ambiente compartilhado pode refletir a personalidade e o estado emocional do casal.",
+    "funFact": "O azul é frequentemente associado à confiança e segurança em relacionamentos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-39",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Degraus: Ritmo e Conexão",
+    "hook": "Incrível: seu ritmo sincroniza!",
+    "content": "Um estudo recente mostrou que casais que caminham juntos, naturalmente, ajustam seus passos ao ritmo um do outro.  Essa sincronia inconsciente revela um nível profundo de conexão e compreensão, quase como uma dança silenciosa entre duas pessoas.  É uma demonstração sutil, mas poderosa, de afinidade e intimidade.",
+    "funFact": "A sincronização do ritmo cardíaco também aumenta durante momentos de intensa conexão emocional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-40",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Esquecimento Compartilhado",
+    "hook": "Você sabia que...",
+    "content": "Esquecer pequenas coisas juntos pode fortalecer um relacionamento.  Compartilhar momentos de esquecimento, rir das falhas de memória mútuas, cria uma sensação de união e normaliza a imperfeição humana.  Aceitar as fraquezas um do outro é um pilar importante para laços duradouros.",
+    "funFact": "Casal que esquece juntos, permanece unido!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-41",
+    "categoryId": "relacionamentos",
+    "title": "A Linguagem Secreta das Coceiras",
+    "hook": "Surpreendente:",
+    "content": "Um leve coçar nas costas, uma coceira sutil no braço... esses pequenos gestos aparentemente insignificantes podem revelar uma intimidade profunda.  A capacidade de se aproximar para aliviar a coceira do outro demonstra confiança e afeto, um ato de cuidado silencioso e poderoso.",
+    "funFact": "O ato de aliviar uma coceira é um ato primário de carinho.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-42",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia do Silêncio Confortável",
+    "hook": "Impressionante:",
+    "content": "O silêncio compartilhado pode ser tão eloquente quanto uma conversa.  Um silêncio confortável entre dois amantes é um sinal de segurança, compreensão e uma conexão tão profunda que as palavras se tornam desnecessárias.  É um espaço sagrado onde a presença é mais forte que qualquer palavra.",
+    "funFact": "O silêncio confortável é a linguagem do amor maduro.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-43",
+    "categoryId": "relacionamentos",
+    "title": "A Sintaxe do Abraço",
+    "hook": "Incrível: a ciência dos abraços.",
+    "content": "A duração e a pressão de um abraço revelam muito sobre a relação. Abraços curtos podem indicar formalidade, enquanto abraços longos e apertados demonstram afeto profundo. A inclinação da cabeça durante o abraço também comunica nuances de intimidade e confiança.  Observe a próxima vez que abraçar alguém!",
+    "funFact": "A liberação de ocitocina durante um abraço prolongado reforça o vínculo entre as pessoas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-44",
+    "categoryId": "relacionamentos",
+    "title": "A Geometria do Espaço Pessoal",
+    "hook": "Você sabia que...",
+    "content": "A distância física confortável entre duas pessoas varia de acordo com a cultura e o nível de intimidade.  Entender essa 'bolha' de espaço pessoal é fundamental para evitar desconforto e construir conexões saudáveis. Respeitar os limites individuais é a chave.",
+    "funFact": "A 'zona íntima' –  até 45cm – é reservada para pessoas muito próximas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-45",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência dos Olhares Furtivos",
+    "hook": "Incrível: o poder do olhar...",
+    "content": "Um olhar furtivo, rápido e discreto, pode revelar mais do que palavras. A dilatação da pupila, a duração do contato visual, a direção do olhar – tudo isso comunica desejos e emoções inconscientes.  Estudos demonstram que esses breves encontros visuais podem criar uma conexão poderosa, antecipando a intimidade.",
+    "funFact": "Um olhar furtivo pode ser mais eloquente que um discurso apaixonado.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-46",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Abraços Confortantes",
+    "hook": "Surpreendente:",
+    "content": "A duração, a força e a posição dos braços durante um abraço transmitem diferentes mensagens. Um abraço longo e apertado indica segurança, enquanto um rápido e superficial pode sugerir reserva. A altura em que o abraço acontece também influencia a dinâmica da conexão.",
+    "funFact": "Um abraço de 20 segundos libera ocitocina, o hormônio do amor.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-47",
+    "categoryId": "relacionamentos",
+    "title": "A Psicologia do Desapego Saudável",
+    "hook": "Incrível: o segredo de relacionamentos fortes.",
+    "content": "A capacidade de manter um espaço individual, mesmo em um relacionamento próximo, é crucial para a saúde emocional do casal. Cultivar hobbies, amizades e momentos de introspecção fortalece a individualidade e evita a dependência excessiva, resultando em um vínculo mais duradouro e respeitoso.  Aceitar a individualidade do outro é fundamental.",
+    "funFact": "Casais que preservam seus hobbies individuais tendem a ter conflitos menos frequentes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-48",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Gratidão Conjugal",
+    "hook": "Você sabia que agradecer fortalece laços?",
+    "content": "Expressar gratidão regularmente ao parceiro, por grandes e pequenas coisas, aumenta significativamente a satisfação no relacionamento.  Isso ativa hormônios positivos e reforça a sensação de valorização mútua, construindo um ciclo virtuoso de afeto e apreciação. A gratidão é um ato poderoso.",
+    "funFact": "A gratidão reduz a produção de cortisol, o hormônio do estresse.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-49",
+    "categoryId": "relacionamentos",
+    "title": "A Sedução Subliminar do Ritmo",
+    "hook": "Incrível: o ritmo sincronizado...",
+    "content": "Nossos corpos possuem ritmos biológicos intrincados. Estudos demonstram que casais que inconscientemente sincronizam seus ritmos respiratórios ou cardíacos durante conversas íntimas demonstram maior conexão emocional e empatia. Essa sincronia sutil cria uma sensação de harmonia e compreensão profunda, fortalecendo o vínculo afetivo.",
+    "funFact": "Até mesmo a piscada sincronizada pode indicar uma forte conexão!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-50",
+    "categoryId": "relacionamentos",
+    "title": "A Mística dos Sonhos Compartilhados",
+    "hook": "Incrível: Sonhos sincronizados!",
+    "content": "Casal relata ter sonhado com o mesmo tema na mesma noite, fenômeno raro que aponta para uma forte conexão emocional e sintonia inconsciente.  A ciência ainda busca explicações, mas a experiência reforça a misteriosa ligação entre duas mentes profundamente conectadas.  A sensação é de estar em sintonia com a alma gêmea.",
+    "funFact": "Estudos sugerem que a sincronia de sonhos pode indicar uma conexão telepática ainda não compreendida.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-51",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Olhares Indiretos",
+    "hook": "Você sabia que...",
+    "content": "O tempo que um casal evita o contato visual direto, mas se observa pela lateral, pode revelar a intensidade e a intimidade da relação.  Olhares furtivos, rápidos, mas significativos, demonstram confiança e uma cumplicidade peculiar.  Um olhar de canto revela mais do que mil palavras.",
+    "funFact": "Este comportamento é um indício de conforto e profunda familiaridade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-52",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Irritação Compartilhada",
+    "hook": "Você sabia que...",
+    "content": "Compartilhar pequenas irritações do dia-a-dia, sem julgamento, fortalece os laços.  Desabafar sobre o trânsito infernal ou a fila do supermercado aproxima os parceiros ao criar um espaço de vulnerabilidade e compreensão mútua.  O compartilhamento da negatividade, de forma leve, funciona como uma válvula de escape.",
+    "funFact": "Desabafar juntos reduz a sensação de isolamento e fortalece a empatia.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-53",
+    "categoryId": "relacionamentos",
+    "title": "A Linguagem dos Toques Acidentais",
+    "hook": "Incrível:",
+    "content": "Toques acidentais que parecem casuais, mas carregados de tensão, revelam atração.  Um leve roçar de mãos, um ombro que se encontra por acaso - esses momentos revelam a química invisível entre duas pessoas.  O toque acidental fala mais alto que muitas palavras.",
+    "funFact": "O cérebro interpreta esses toques como sinal de interesse.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-54",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Conversa Assíncrona",
+    "hook": "Incrível: ",
+    "content": "O tempo de resposta em mensagens afeta a dinâmica do relacionamento. Respostas rápidas demonstram interesse, enquanto atrasos podem gerar insegurança.  A análise da linguagem escrita também revela muito sobre o estado emocional do parceiro, mesmo em mensagens curtas.  Entender esses ritmos é fundamental para uma comunicação eficaz.",
+    "funFact": "Um estudo mostrou que atrasos de resposta superiores a 30 minutos podem aumentar em 50% a percepção de desinteresse.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-55",
+    "categoryId": "relacionamentos",
+    "title": "O Mistério dos Sonhos Interconectados",
+    "hook": "Você sabia que...",
+    "content": "Casal que dorme junto, sonha junto? Não exatamente, mas estudos demonstram uma leve correlação entre os temas dos sonhos de parceiros.  A proximidade física e emocional pode influenciar sutilmente o subconsciente, gerando temas oníricos semelhantes.  A pesquisa ainda é incipiente, mas promissora.",
+    "funFact": "Algumas culturas acreditam que sonhos compartilhados revelam um elo espiritual profundo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-56",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Movimentos Espontâneos",
+    "hook": "Surpreendente: ",
+    "content": "Observem os casais: eles inconscientemente espelham os movimentos um do outro, um sinal subliminar de conexão.  Essa sincronia física, que pode envolver gestos, postura e até mesmo o ritmo da respiração, indica empatia e afinidade.  Quanto mais forte o vínculo, mais acentuada a 'dança'.",
+    "funFact": "Essa sincronia é tão profunda que pode ser detectada até mesmo por algoritmos de inteligência artificial.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-57",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia da Intimidade Tátil",
+    "hook": "Você sabia que...",
+    "content": "A forma como um casal se toca revela muito sobre seu vínculo.  Um toque suave na mão demonstra carinho, enquanto um abraço apertado indica segurança e proteção.  A frequência e a intensidade desses toques são indicadores poderosos da dinâmica relacional.",
+    "funFact": "A pele é o maior órgão sensorial do corpo e desempenha papel fundamental na comunicação não verbal.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-58",
+    "categoryId": "relacionamentos",
+    "title": "O Ritmo Cardíaco Sincronizado",
+    "hook": "Incrível: corações batendo juntos!",
+    "content": "Estudo mostra que casais apaixonados tendem a apresentar sincronia em seus batimentos cardíacos, especialmente durante momentos de intensa conexão emocional. Essa sincronia sugere uma profunda interconexão fisiológica, além da conexão emocional.  A ciência ainda busca entender completamente esse fenômeno fascinante.",
+    "funFact": "A sincronia cardíaca pode ser medida com precisão usando tecnologia moderna.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-59",
+    "categoryId": "relacionamentos",
+    "title": "A Psicologia dos Presentes Esquecidos",
+    "hook": "Incrível:",
+    "content": "Esquecer um aniversário ou data importante pode ser um sinal de estresse ou falta de atenção, mas também pode indicar um desequilíbrio na relação. A forma como o esquecimento é lidado revela muito sobre a capacidade de comunicação e perdão do casal.",
+    "funFact": "Esquecer datas pode ser um aviso de problemas latentes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-60",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Dedos Entrelaçados",
+    "hook": "Incrível: a ciência dos toques!",
+    "content": "A maneira como entrelaçamos os dedos revela traços de personalidade e até mesmo a dinâmica do relacionamento.  Estudo aponta que o dedo que fica por cima indica quem toma mais iniciativa.  Isso reflete-se não só em gestos, mas na forma de lidar com conflitos e decisões.",
+    "funFact": "A posição dos dedos entrelaçados pode mudar ao longo da relação, mostrando evolução na dinâmica do casal.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-61",
+    "categoryId": "relacionamentos",
+    "title": "A Magia dos Olhares Furtivos",
+    "hook": "Incrível: o poder do olhar...",
+    "content": "Um olhar furtivo, rápido e discreto, pode revelar mais sobre a atração e o interesse do que horas de conversa.  Essa comunicação não-verbal, muitas vezes inconsciente, demonstra uma conexão profunda, um desejo de aproximação que transcende as palavras. A intensidade e a duração desses olhares podem indicar o nível de envolvimento.",
+    "funFact": "Estudos mostram que o cérebro reage mais intensamente a olhares furtivos do que a olhares diretos e prolongados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-62",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Esquecimento Seletivo",
+    "hook": "Você sabia que...",
+    "content": "Em relacionamentos longos, o esquecimento seletivo de pequenas brigas ou desentendimentos pode ser um sinal de saúde relacional.  A capacidade de deixar ir o passado, focando no presente e futuro, demonstra maturidade e resiliência.  Não se trata de ignorar problemas, mas sim de priorizar a harmonia.",
+    "funFact": "O cérebro prioriza memórias positivas para fortalecer o vínculo, descartando gradualmente as negativas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-63",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Toques Casuais",
+    "hook": "Surpreendente: o toque...",
+    "content": "Toques casuais, como um leve encostar de braços ou mãos, durante uma conversa, podem revelar muito sobre a dinâmica do relacionamento. A frequência e a duração destes toques indicam o nível de conforto, intimidade e conexão física entre as pessoas envolvidas.",
+    "funFact": "Toques leves e breves podem aumentar a oxitocina, o hormônio do amor e do vínculo.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-64",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência dos Bocejos Contagiosos",
+    "hook": "Incrível: a conexão invisível!",
+    "content": "Bocejos sincronizados em casais podem indicar uma forte ligação empática. Estudos sugerem que essa sincronia reflete a capacidade de se conectar emocionalmente, espelhando as reações fisiológicas um do outro.  A capacidade de 'pegar' um bocejo é associada a níveis mais altos de empatia e compreensão.",
+    "funFact": "Mesmo em videochamadas, a contagiosidade dos bocejos persiste!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-65",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência do Olhar Discreto",
+    "hook": "Incrível: o olhar diz tudo!",
+    "content": "Um rápido olhar furtivo pode revelar mais do que palavras. Estudos demonstram que microexpressões faciais, captadas em frações de segundo, transmitem emoções complexas, influenciando a dinâmica relacional. A intensidade e a duração desses olhares ocultos são pistas valiosas para decifrar o que se passa entre duas pessoas.",
+    "funFact": "Um olhar de apenas meio segundo pode comunicar mais afeto do que um longo e intenso.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-66",
+    "categoryId": "relacionamentos",
+    "title": "A Geografia dos Gestos Espontâneos",
+    "hook": "Você sabia que...",
+    "content": "A proximidade física e a espontaneidade dos gestos revelam a intimidade do casal. Um leve toque no braço, um arrumar do cabelo, um abraço inesperado – esses gestos aparentemente insignificantes constroem um mapa da intimidade, definindo a geografia da conexão entre duas pessoas.",
+    "funFact": "Gestos espelhados, inconscientes, indicam forte sintonia emocional.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-67",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Silêncio Confortável",
+    "hook": "Surpreendente:",
+    "content": "O silêncio não precisa ser desconfortável. Em relacionamentos maduros, o silêncio compartilhado pode ser um espaço de conexão profunda, onde a compreensão mútua transcende as palavras.  É um momento de intimidade, onde a presença silenciosa fala mais alto que qualquer discurso.",
+    "funFact": "O silêncio compartilhado fortalece a empatia e a intimidade.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-68",
+    "categoryId": "relacionamentos",
+    "title": "A Psicologia dos Pequenos Detalhes",
+    "hook": "Você sabia que...",
+    "content": "Detalhes aparentemente insignificantes, como a escolha de um filme, a preferência por um tipo de café ou a lembrança de um aniversário, podem revelar muito sobre o nível de comprometimento e afeição em um relacionamento.  A atenção aos pequenos detalhes demonstra carinho e cuidado.",
+    "funFact": "Lembrar de pequenos detalhes é mais significativo que grandes gestos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-69",
+    "categoryId": "relacionamentos",
+    "title": "A Ciência da Conversa Pausa",
+    "hook": "Incrível: Pausas estratégicas...",
+    "content": "Pausas estratégicas durante uma conversa fortalecem a conexão.  Elas permitem a absorção da informação, demonstram respeito e criam espaço para reflexões.  A ausência delas pode levar à sobrecarga e à incompreensão. A chave é encontrar o equilíbrio entre fluxo e pausa, respeitando os ritmos individuais.",
+    "funFact": "Um estudo mostrou que casais que inserem pausas significativas durante conversas apresentam maior satisfação conjugal.",
+    "curiosityLevel": 4
   }
 ]

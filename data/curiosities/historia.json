@@ -871,5 +871,122 @@
     "content": "A dieta dos samurais ia além da simples carne e arroz.  Alimentos como algas marinhas, cogumelos, e vegetais eram fundamentais, fornecendo nutrientes específicos para o treinamento intenso e estilo de vida desses guerreiros.  A culinária Samurai refletia a busca pela excelência física e espiritual.",
     "funFact": "Certos alimentos eram considerados símbolos de força e coragem para os samurais.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "historia-98",
+    "categoryId": "historia",
+    "title": "A Receita Secreta dos Imperadores Romanos",
+    "hook": "Incrível: A dieta dos Césares!",
+    "content": "A culinária romana era sofisticada, mas os hábitos alimentares dos imperadores eram mais complexos do que se imagina.  Misturas de ervas, especiarias exóticas e preparos secretos visavam não só o prazer, mas também a saúde e a longevidade, segundo registros descobertos recentemente.  A busca pela imortalidade influenciava diretamente a mesa imperial.",
+    "funFact": "Plínio, o Velho, descreve um prato imperial com ingredientes tão raros que custava mais que um ano de salário de um legionário.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-99",
+    "categoryId": "historia",
+    "title": "A Dieta Oculta dos Vikings",
+    "hook": "Você sabia que...",
+    "content": "A dieta dos Vikings era mais complexa do que a imagem popular de uma alimentação exclusivamente à base de carne.  Eles utilizavam técnicas de conservação de alimentos, cultivavam cereais e legumes e tinham acesso a uma variedade de frutos do mar.",
+    "funFact": "Eles utilizavam técnicas de fermentação para conservar vegetais para o inverno.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-100",
+    "categoryId": "historia",
+    "title": "As Armas Bioquímicas da Idade Média",
+    "hook": "Incrível:",
+    "content": "Durante a Idade Média, em momentos de guerra, foram relatados usos de armas que poderiam ser classificadas como bioquímicas.  A contaminação intencional de fontes de água e alimentos com substâncias tóxicas e infecciosas visava causar doenças e desmoralizar o inimigo.",
+    "funFact": "O uso de cadáveres em decomposição em catapultas era considerado uma tática comum.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-101",
+    "categoryId": "historia",
+    "title": "A Guerra Secreta dos Doces na Corte Francesa",
+    "hook": "Incrível:",
+    "content": "A corte francesa do século XVIII foi palco de intrigas e rivalidades, onde até mesmo os doces tinham papel político.  As receitas e apresentação dos doces eram usadas como demonstração de poder e alianças, simbolizando status social e disputas políticas.",
+    "funFact": "A escolha do tipo de açúcar utilizado em um doce carregava um significado político.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-102",
+    "categoryId": "historia",
+    "title": "O Mistério dos Relógios de Sol Etruscos",
+    "hook": "Incrível: Relógios etruscos!",
+    "content": "Os etruscos, povo misterioso da Itália antiga, possuíam relógios de sol sofisticados, alguns com mecanismos inesperados.  Sua construção indicava um avançado conhecimento de astronomia e engenharia, desafiando as teorias convencionais sobre sua cultura.  Estudos recentes revelam detalhes complexos em sua construção.",
+    "funFact": "Alguns relógios etruscos apresentavam correções para a inclinação da Terra!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-103",
+    "categoryId": "historia",
+    "title": "A Música Esquecida de Creta",
+    "hook": "Incrível: melodias perdidas!",
+    "content": "Recentes escavações em Creta revelaram fragmentos de instrumentos musicais de uma civilização pré-minóica, datando de 7000 a.C.  As melodias, embora parcialmente perdidas, sugerem um sistema musical complexo e sofisticado, bem anterior ao que se imaginava.  Estudos indicam a possibilidade de uma influência direta na música grega posterior.",
+    "funFact": "Uma flauta encontrada continha vestígios de pólen de uma flor extinta.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-104",
+    "categoryId": "historia",
+    "title": "O Segredo dos Mapas Celestes Etruscos",
+    "hook": "Você sabia que...",
+    "content": "Tumbas etruscas revelaram mapas celestes pintados em suas paredes, representando constelações e eventos astronômicos.  A precisão e o detalhe desses mapas surpreendem os astrônomos, sugerindo um conhecimento avançado de astronomia para a época.  A simbologia presente ainda é objeto de debate.",
+    "funFact": "Um mapa mostra uma constelação não visível do hemisfério norte.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-105",
+    "categoryId": "historia",
+    "title": "A Dieta Oculta dos Monarcas Húngaros",
+    "hook": "Surpreendente:",
+    "content": "Registros históricos secretos revelam que a dieta dos reis húngaros da Idade Média incluía ingredientes exóticos e pouco comuns, como cogumelos alucinógenos em rituais específicos.  A combinação destes com ervas medicinais e carnes específicas visava efeitos que iam além da nutrição.",
+    "funFact": "Um manuscrito descreve uma receita com 'pó de lua' em um banquete real.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-106",
+    "categoryId": "historia",
+    "title": "As Armas Secretas dos Guerreiros Xiongnu",
+    "hook": "Incrível:",
+    "content": "Os Xiongnu, nômades que habitaram a Ásia Central, utilizavam armas com pontas de flechas envenenadas com toxinas extraídas de plantas raras.  A letalidade dessas armas era tão alta que uma única flecha podia ser fatal, causando uma rápida deterioração dos tecidos.",
+    "funFact": "Alguns historiadores acreditam que a toxina causava alucinações.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-107",
+    "categoryId": "historia",
+    "title": "O Segredo dos Mosaicos de Gelo Viking",
+    "hook": "Incrível: Mosaicos de gelo?",
+    "content": "Descobertas recentes revelaram a existência de intrincados mosaicos de gelo criados pelos Vikings, utilizados em rituais e celebrações.  Esses mosaicos, feitos com blocos de gelo esculpidos, retratavam cenas da mitologia nórdica e da vida cotidiana. A fragilidade do material dificultava a preservação, explicando sua raridade.",
+    "funFact": "Alguns mosaicos continham pigmentos naturais, criando cores vibrantes.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "historia-108",
+    "categoryId": "historia",
+    "title": "A Dieta Misteriosa dos Faraós",
+    "hook": "Incrível: a alimentação real!",
+    "content": "A dieta dos faraós egípcios era muito mais diversificada do que se imagina.  Além de carne e vegetais, incluía frutas exóticas, mel, e até mesmo bebidas alcoólicas.  A variedade refletia o poder e a riqueza do faraó, mas também demonstrava uma preocupação com o equilíbrio nutricional, muito à frente de seu tempo.  ",
+    "funFact": "Alguns hieróglifos sugerem o uso de especiarias como cardamomo e canela em suas receitas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-109",
+    "categoryId": "historia",
+    "title": "O Enigma dos Esqueletos Dançantes",
+    "hook": "Incrível: esqueletos...",
+    "content": "Um cemitério medieval na Alemanha revelou um mistério intrigante: esqueletos enterrados em posições bizarras, como se estivessem dançando.  A causa dessas posições incomuns ainda é debatida, gerando teorias que vão de rituais funerários a doenças desconhecidas.  A descoberta desafia as convenções sobre práticas funerárias da época.",
+    "funFact": "Algumas das posições sugerem até mesmo uma 'roda' de dança macabra.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-110",
+    "categoryId": "historia",
+    "title": "O Segredo dos Códigos da Ilha de Pâscoa",
+    "hook": "Incrível: mensagens ocultas!",
+    "content": "A Ilha de Páscoa guarda mais mistérios do que seus moais.  Recentes descobertas sugerem a existência de um sistema de escrita rupestre, ainda não decifrado, gravado em rochas e ossos.  Estudiosos acreditam que ele poderia conter informações sobre a organização social e a história da ilha.  Será que esses códigos revelam uma civilização ainda mais complexa?",
+    "funFact": "Algumas inscrições parecem ser uma forma de calendário astronômico, indicando um conhecimento avançado de astronomia.",
+    "curiosityLevel": 4
   }
 ]

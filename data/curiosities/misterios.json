@@ -664,5 +664,302 @@
     "content": "Em uma região montanhosa do Tibete, relatos indicam a existência de um vale isolado e misterioso, onde as leis da física parecem ser diferentes.  A impossibilidade de acessar este local tornou o vale um enigma, alimentando teorias sobre dimensões alternativas e portais temporais.",
     "funFact": "Há relatos de anomalias gravitacionais na região.",
     "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-75",
+    "categoryId": "misterios",
+    "title": "O Enigma do Poço de Kola",
+    "hook": "Incrível: um buraco até o inferno?",
+    "content": "Em 1970, a URSS iniciou a perfuração do Poço Superprofundo de Kola, atingindo 12.262 metros.  Lendas surgiram sobre sons estranhos e o 'inferno', mas a realidade envolve desafios geológicos e a interrupção do projeto em 1992.  Apesar de não ser o ponto mais profundo da Terra, ainda guarda mistérios sobre a estrutura terrestre.",
+    "funFact": "Dizem que os cientistas ouviram gritos vindos do poço!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-76",
+    "categoryId": "misterios",
+    "title": "O Enigma das Esferas de Cristal da Sibéria",
+    "hook": "Incrível: esferas perfeitas!",
+    "content": "Descobertas em uma região remota da Sibéria, essas esferas de cristal de origem desconhecida desafiam explicações.  Sua perfeição geométrica e composição mineral intrigante sugerem uma origem artificial, mas não há evidências de civilizações antigas na área.  Será que são um vestígio de uma tecnologia avançada perdida?",
+    "funFact": "Algumas esferas emitem um leve brilho interno.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-77",
+    "categoryId": "misterios",
+    "title": "O Segredo das Ruínas de Iram - A Cidade dos Pilares",
+    "hook": "Incrível: uma cidade perdida!",
+    "content": "A lendária cidade de Iram, na Arábia Saudita, foi mencionada em contos antigos como uma metrópole suntuosa e inexplicavelmente desaparecida.  Pesquisas arqueológicas recentes encontraram estruturas que podem ser vestígios de Iram, mas suas origens e desaparecimento ainda são um enigma.",
+    "funFact": "Iram era chamada de 'a cidade dos pilares'.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-78",
+    "categoryId": "misterios",
+    "title": "O Segredo do Lago Subglacial Whillans",
+    "hook": "Incrível:",
+    "content": "Sob a espessa camada de gelo da Antártica, o Lago Whillans abriga um ecossistema único e misterioso.  Organismos microscópicos foram descobertos vivendo sem luz solar, desafiando nossa compreensão da vida na Terra.  Será que há mais mistérios escondidos nas profundezas geladas?",
+    "funFact": "A água do lago é surpreendentemente rica em nutrientes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-79",
+    "categoryId": "misterios",
+    "title": "As Ruínas Submersas de Alexandria II",
+    "hook": "Incrível:",
+    "content": "Novas descobertas arqueológicas subaquáticas em Alexandria revelaram estruturas e artefatos que desafiam a cronologia estabelecida, sugerindo a existência de uma cidade ou porto ainda mais antigo e sofisticado do que se imaginava.  A história de Alexandria pode ser muito mais complexa.",
+    "funFact": "Alguns artefatos apresentam inscrições em um idioma ainda não decifrado.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-80",
+    "categoryId": "misterios",
+    "title": "O Silêncio dos Sonhos lúcidos",
+    "hook": "Incrível:",
+    "content": "Durante sonhos lúcidos, onde o sonhador tem consciência de estar sonhando, o silêncio absoluto pode ser um desafio.  Pesquisas sugerem uma conexão entre o processamento auditivo cerebral e a capacidade de manipular o som em sonhos lúcidos, mas o mistério persiste.",
+    "funFact": "Alguns relatam sons impossíveis de serem reproduzidos na realidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-81",
+    "categoryId": "misterios",
+    "title": "O Enigma da Ilha Fantasma de Avani",
+    "hook": "Incrível: Uma ilha que some e aparece!",
+    "content": "Mapas antigos mencionam a Ilha de Avani, um paraíso tropical no Oceano Índico.  Mas, após várias expedições fracassadas em encontrá-la, a existência dela foi questionada.  Algumas teorias apontam para ilhas vulcânicas que surgem e desaparecem devido à atividade sísmica. Será que Avani é uma dessas ilhas efêmeras ou apenas um mito?",
+    "funFact": "Alguns marinheiros juram ter visto luzes estranhas sobre as águas onde Avani supostamente se localizava.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-82",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento do Trem de Ouro",
+    "hook": "Incrível:",
+    "content": "Em 1885, um trem carregado de ouro desapareceu misteriosamente durante uma viagem noturna nos Andes.  Nenhum vestígio foi encontrado, apesar de extensas buscas.  Teorias variam de um ataque de bandidos a eventos sobrenaturais, deixando o destino do trem e sua carga um mistério duradouro.",
+    "funFact": "Lendas locais falam de um espírito guardião que protege o ouro perdido.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-83",
+    "categoryId": "misterios",
+    "title": "A Floresta que Canta",
+    "hook": "Incrível:",
+    "content": "Em uma floresta na Amazônia, relatos descrevem sons misteriosos e melodias estranhas, que ecoam entre as árvores durante a noite.  Os sons variam em frequência e intensidade, não se encaixando em nenhuma explicação natural conhecida.  Será um fenômeno acústico peculiar ou algo mais?",
+    "funFact": "Alguns afirmam que as melodias mudam dependendo da fase da lua.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-84",
+    "categoryId": "misterios",
+    "title": "O Enigma das Esferas de Cristal Perdidas",
+    "hook": "Você sabia que...",
+    "content": "Lendas de uma civilização antiga falam de esferas de cristal de extraordinária perfeição, encontradas em cavernas secretas no Himalaia.  Essas esferas, segundo a lenda, continham vastos conhecimentos sobre o universo.  Sua existência permanece em aberto, alimentando a imaginação de pesquisadores e aventureiros.",
+    "funFact": "Alguns pesquisadores acreditam que essas esferas poderiam ser uma forma de armazenamento de energia.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-85",
+    "categoryId": "misterios",
+    "title": "A Cidade Submersa de Ys",
+    "hook": "Incrível:",
+    "content": "A lenda de Ys descreve uma cidade esplendorosa, afogada pelo mar em um dia fatídico.  Essa cidade mítica, supostamente localizada na costa da Bretanha, continua a cativar a imaginação, com inúmeras expedições em busca de seus restos ainda não localizados.",
+    "funFact": "Dizem que a cidade é habitada por sereias e espíritos marinhos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-86",
+    "categoryId": "misterios",
+    "title": "O Caso dos Desaparecimentos no Deserto Negro",
+    "hook": "Incrível:",
+    "content": "O deserto Negro, na África, é conhecido por seus estranhos eventos: desaparecimentos inexplicáveis de pessoas e veículos.  A falta de pistas e a vastidão desolada do local contribuem para o mistério.  Hipóteses vão desde mirages a fenômenos geológicos pouco compreendidos.",
+    "funFact": "Os locais dizem que um vento maligno se leva as pessoas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-87",
+    "categoryId": "misterios",
+    "title": "O Segredo da Caverna dos Ossos",
+    "hook": "Você sabia que...",
+    "content": "Uma caverna profunda, na Indonésia, contém milhares de ossos humanos, mas nenhum vestígio de violência ou doenças.  A falta de uma explicação clara sobre a sua origem e a quantidade de restos mortais deixam um mistério a ser desvendado pelos especialistas.",
+    "funFact": "Os ossos pertencem a pessoas de diferentes épocas e origens.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-88",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Manuscritos de Parchment",
+    "hook": "Você sabia que...",
+    "content": "Um conjunto de manuscritos antigos foi encontrado em um monastério remoto no Tibete. Escritos em uma língua desconhecida, os manuscritos parecem conter informações sobre uma tecnologia avançada e uma civilização perdida.  A decifração do seu conteúdo continua como um enigma fascinante.",
+    "funFact": "Dizem que os manuscritos contêm mapas de cidades perdidas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-89",
+    "categoryId": "misterios",
+    "title": "O Caso da Cidade Perdida de El Dorado II",
+    "hook": "Incrível:",
+    "content": "Novas evidências arqueológicas sugerem a possível localização de uma outra cidade perdida, semelhante à lendária El Dorado, nas selvas da Colômbia.  Explorações em andamento estão encontrando ruínas e artefatos que poderiam confirmar essa segunda cidade, ainda mais misteriosa que a original.",
+    "funFact": "A cidade teria sido construída com ouro e pedras preciosas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-90",
+    "categoryId": "misterios",
+    "title": "O Silêncio do Vale Esquecido",
+    "hook": "Você sabia que...",
+    "content": "Um vale isolado nos Montes Apalaches é conhecido pela sua ausência total de qualquer forma de vida.  Animais, plantas e até mesmo micro-organismos são ausentes neste local misterioso. A ausência de vida permanece inexplicável, criando um ecossistema inexplicavelmente silencioso e estéril.",
+    "funFact": "Equipamentos eletrônicos param de funcionar dentro do vale.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-91",
+    "categoryId": "misterios",
+    "title": "As Ruínas Submersas de Lemúria II",
+    "hook": "Incrível:",
+    "content": "Novas descobertas submarinas perto da costa da Índia encontraram estruturas que poderiam ser ruínas da lendária Lemúria, um continente perdido.  Estudos ainda estão em andamento, mas alguns arqueólogos acreditam que essas estruturas sugerem uma civilização avançada que existiu antes do dilúvio.",
+    "funFact": "Alguns pesquisadores acreditam que Lemúria era a terra natal da raça humana.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-92",
+    "categoryId": "misterios",
+    "title": "O Enigma da Pedra que Chora",
+    "hook": "Você sabia que...",
+    "content": "Uma pedra gigante na Escócia, segundo lendas locais, emite um som parecido com um choro humano à noite, especialmente durante tempestades.  Os cientistas ainda não encontraram uma explicação para este fenômeno acústico intrigante, que continua a alimentar o folclore local.",
+    "funFact": "O choro se intensifica durante eclipses lunares.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-93",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento dos Colonizadores de Antártica",
+    "hook": "Você sabia que...",
+    "content": "Uma expedição de colonização da Antártica desapareceu sem deixar rastros em 1936, durante uma tempestade.  Embora tenham sido encontrados alguns restos de seu acampamento, o destino final da expedição e suas causas permanecem desconhecidas, tornando-se um mistério envolto no gelo e na neve.",
+    "funFact": "Os últimos registros da expedição mencionavam uma estranha névoa sobre o gelo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-94",
+    "categoryId": "misterios",
+    "title": "O Segredo do Cristal Perdido de Atlântida",
+    "hook": "Incrível:",
+    "content": "Lendas falam de um cristal de poder ilimitado que pertencia à Atlântida.  Este cristal, segundo os mitos, permitia aos atlantes controlar o clima e outras forças da natureza.  Sua existência real é desconhecida, mas a busca por este cristal lendário continua.",
+    "funFact": "Dizem que o cristal está escondido em uma câmara secreta no fundo do oceano.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-95",
+    "categoryId": "misterios",
+    "title": "O Enigma do Buraco Negro Subterrâneo",
+    "hook": "Você sabia que...",
+    "content": "Um buraco gigantesco foi encontrado no fundo de um lago profundo na Rússia, sugerindo um buraco negro subterrâneo.  Sua profundidade e a ausência de qualquer rastro de material sugere um sistema de túneis e cavernas muito maior que o imaginável.",
+    "funFact": "A água do lago ao redor do buraco é extremamente fria.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-96",
+    "categoryId": "misterios",
+    "title": "O Mistério do Rio Subterrâneo",
+    "hook": "Incrível: um rio secreto!",
+    "content": "Sob o deserto do Atacama, um rio subterrâneo desconhecido flui, alimentando oásis escondidos. Sua origem e extensão permanecem um enigma, desafiando geólogos por décadas.  Seu curso é imprevisível e misterioso, alimentando especulações sobre a existência de um vasto sistema hídrico subterrâneo.",
+    "funFact": "Acredita-se que esse rio possa ter sido a fonte de água para antigas civilizações.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-97",
+    "categoryId": "misterios",
+    "title": "O Caso do Avião Desaparecido sobre o Oceano Índico",
+    "hook": "Mistério:",
+    "content": "Em 1946, um avião desapareceu misteriosamente sobre o Oceano Índico, sem deixar rastros. Apesar de extensas buscas, nada foi encontrado, incluindo destroços ou sinais de emergência.  A teoria mais provável é que ele tenha caído no mar, mas não houve qualquer confirmação.",
+    "funFact": "Não houve nenhum sinal de socorro ou comunicação antes do desaparecimento.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-98",
+    "categoryId": "misterios",
+    "title": "O Enigma das Pedras Sussurrantes",
+    "hook": "Incrível: pedras que 'conversam'?",
+    "content": "Em uma remota região da Sibéria, foram encontradas pedras que emitem sons estranhos, quase sussurros inaudíveis, quando expostas à umidade. A origem e a natureza desses sons permanecem um mistério, desafiando explicações científicas convencionais.  As vibrações são únicas e parecem se originar do interior das pedras.",
+    "funFact": "Os sons mudam dependendo da fase da lua!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-99",
+    "categoryId": "misterios",
+    "title": "O Segredo da Ilha Flutuante",
+    "hook": "Mistério:",
+    "content": "Relatos de uma ilha que aparece e desaparece no Lago Titicaca persistem há séculos.  Algumas teorias apontam para ilhas que flutuam devido a vegetação e o acúmulo de matéria orgânica.  Contudo, a periodicidade e o tamanho da ilha desafiam as explicações lógicas.",
+    "funFact": "A ilha só surge em noites de lua cheia.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-100",
+    "categoryId": "misterios",
+    "title": "O Mistério do Lago Subglacial Vostok II",
+    "hook": "Incrível: vida extraterrestre?",
+    "content": "Sob a espessa camada de gelo da Antártica, o Lago Vostok esconde segredos.  Sua água, isolada por milhões de anos, poderia abrigar formas de vida únicas, até mesmo extraterrestres.  Cientistas buscam entender sua composição e potencial biológico, enfrentando desafios tecnológicos extremos.",
+    "funFact": "Amostras de gelo revelaram DNA de organismos desconhecidos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-101",
+    "categoryId": "misterios",
+    "title": "O Segredo dos Hieróglifos Perdidos",
+    "hook": "Incrível: uma língua antiga...",
+    "content": "Descobertos em uma caverna remota, hieróglifos desafiam decifração.  Sua complexidade sugere uma civilização avançada desconhecida, com símbolos que não se assemelham a nenhum sistema linguístico conhecido.  A pedra onde foram gravados parece ser mais velha do que qualquer outro artefato similar já encontrado.",
+    "funFact": "Um dos símbolos parece representar uma tecnologia inexplicável.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-102",
+    "categoryId": "misterios",
+    "title": "O Enigma das Ruínas de Eldorado Submersas",
+    "hook": "Incrível: Uma cidade perdida debaixo d'água!",
+    "content": "Lendas falam de Eldorado, uma cidade rica em ouro. Mas e se parte dela estivesse submersa?  Pesquisas recentes apontam para anomalias no fundo do oceano Atlântico, estruturas que poderiam ser vestígios dessa mítica civilização. Será que a busca por Eldorado precisa mudar de rumo?",
+    "funFact": "Os sensores detectaram metais preciosos na área, alimentando ainda mais a lenda.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-103",
+    "categoryId": "misterios",
+    "title": "O Enigma do Rio Subterrâneo Perdido",
+    "hook": "Incrível: um rio sumiu!",
+    "content": "No coração da Amazônia, relatos de moradores locais falam de um rio subterrâneo que desapareceu misteriosamente.  Estudiosos acreditam que um fenômeno geológico pode ser o culpado, mas a falta de evidências concretas mantém o mistério vivo. A localização exata permanece desconhecida, alimentando lendas locais.",
+    "funFact": "Dizem que o rio possuía propriedades curativas, segundo os índios da região.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-104",
+    "categoryId": "misterios",
+    "title": "O Mistério do Lago Subterrâneo de Cristal",
+    "hook": "Incrível: um lago de cristal!",
+    "content": "Descubra a lenda de um lago subterrâneo repleto de cristais gigantescos, escondido sob uma densa floresta amazônica.  Sua existência é questionada por cientistas, mas relatos locais persistem, descrevendo um brilho intenso emanando do solo.  A busca por esse tesouro natural permanece um enigma.",
+    "funFact": "Dizem que os cristais cantam quando tocados pela água da chuva.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-105",
+    "categoryId": "misterios",
+    "title": "O Mistério do Manuscrito de Voynich II",
+    "hook": "Incrível: um código que ninguém decifra!",
+    "content": "O Manuscrito de Voynich continua a desafiar especialistas.  Sua linguagem e ilustrações bizarras, repletas de plantas desconhecidas e diagramas complexos, alimentam teorias de uma cifra inquebrável ou até mesmo uma mensagem de outra dimensão.  Será que guardará segredos perdidos para sempre?",
+    "funFact": "Algumas teorias sugerem que o manuscrito é uma elaborada farsa do século XVI.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-106",
+    "categoryId": "misterios",
+    "title": "A Floresta Silenciosa de Aokigahara",
+    "hook": "Você sabia que...",
+    "content": "Localizada na base do Monte Fuji, Aokigahara é uma floresta sinistra conhecida como o 'Mar de Árvores'.  Seu silêncio opressor e o labirinto de árvores densas a tornaram um local sombrio, associado a suicídios e mistérios inexplicáveis.  Será que a floresta esconde mais segredos?",
+    "funFact": "Bússolas deixam de funcionar corretamente dentro da floresta.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-107",
+    "categoryId": "misterios",
+    "title": "A Cidade Submersa de Kanchenjunga",
+    "hook": "Descoberta chocante:",
+    "content": "Lendas locais falam de uma cidade próspera submersa nas profundezas do lago glacial perto do Monte Kanchenjunga.  Embora não haja provas concretas, a persistência dos relatos e as características geológicas da região alimentam a especulação sobre a existência dessa cidade perdida.",
+    "funFact": "Imagens de sonar revelaram estruturas incomuns no fundo do lago.",
+    "curiosityLevel": 3
   }
 ]

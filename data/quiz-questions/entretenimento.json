@@ -1440,5 +1440,257 @@
     ],
     "correctAnswer": "Dungeons & Dragons",
     "explanation": "Dungeons & Dragons é o jogo de RPG de mesa mais popular do mundo, com regras complexas e um universo vasto e rico. Curiosidade: O jogo foi criado na década de 1970 e continua sendo jogado por milhões de pessoas em todo o mundo."
+  },
+  {
+    "id": "quiz-entretenimento-104",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem icônico da Disney é conhecido por seu chapéu de mago?",
+    "options": [
+      "Mickey Mouse",
+      "Donald Duck",
+      "Micky Mouse",
+      "Gato Félix"
+    ],
+    "correctAnswer": "Mickey Mouse",
+    "explanation": "Mickey Mouse é um dos personagens mais icônicos da Disney e é frequentemente retratado com seu chapéu de mago. Uma curiosidade interessante é que Mickey Mouse foi o primeiro personagem de desenho animado a receber uma estrela na Calçada da Fama de Hollywood."
+  },
+  {
+    "id": "quiz-entretenimento-105",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual banda britânica liderou a 'British Invasion' na década de 1960?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks"
+    ],
+    "correctAnswer": "The Beatles",
+    "explanation": "Os Beatles foram uma das bandas mais influentes de todos os tempos, revolucionando a música popular com suas melodias cativantes e letras inovadoras. Eles venderam mais de 600 milhões de álbuns mundialmente."
+  },
+  {
+    "id": "quiz-entretenimento-106",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual diretor é conhecido por seu estilo visual único e uso extensivo de close-ups?",
+    "options": [
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Quentin Tarantino",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "Alfred Hitchcock",
+    "explanation": "Alfred Hitchcock, mestre do suspense, é famoso pelo seu uso inteligente de close-ups para criar tensão e suspense. Uma curiosidade é que ele fez uma aparição em quase todos os seus filmes."
+  },
+  {
+    "id": "quiz-entretenimento-107",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual série de TV cult é conhecida por sua narrativa não-linear e enigmas complexos?",
+    "options": [
+      "Lost",
+      "The X-Files",
+      "Twin Peaks",
+      "The Twilight Zone"
+    ],
+    "correctAnswer": "Lost",
+    "explanation": "Lost é famosa por sua narrativa complexa e interconectada, mantendo os espectadores engajados em desvendar os mistérios da ilha. A série gerou discussões acaloradas entre os fãs até hoje, alimentando diversas teorias."
+  },
+  {
+    "id": "quiz-entretenimento-108",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor minimalista é conhecido por suas peças musicais repetitivas e hipnóticas?",
+    "options": [
+      "Philip Glass",
+      "Steve Reich",
+      "Terry Riley",
+      "La Monte Young"
+    ],
+    "correctAnswer": "Philip Glass",
+    "explanation": "Philip Glass é um dos compositores minimalistas mais conhecidos, com suas obras sendo usadas em filmes e peças de teatro. Uma curiosidade é que ele estudou música na Julliard School em Nova Iorque."
+  },
+  {
+    "id": "quiz-entretenimento-109",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico revolucionou o gênero de jogos de mundo aberto?",
+    "options": [
+      "Grand Theft Auto V",
+      "The Elder Scrolls V: Skyrim",
+      "The Legend of Zelda: Breath of the Wild",
+      "Minecraft"
+    ],
+    "correctAnswer": "The Elder Scrolls V: Skyrim",
+    "explanation": "Embora muitos jogos tenham contribuído para o gênero, Skyrim estabeleceu um padrão de mundo aberto detalhado e imersivo, influenciando profundamente os jogos que o seguiram.  A sua longevidade é um testemunho da sua qualidade."
+  },
+  {
+    "id": "quiz-entretenimento-110",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual artista é conhecido por sua arte abstrata e uso de cores vibrantes, muitas vezes inspiradas na natureza?",
+    "options": [
+      "Piet Mondrian",
+      "Wassily Kandinsky",
+      "Kazimir Malevich",
+      "Jackson Pollock"
+    ],
+    "correctAnswer": "Wassily Kandinsky",
+    "explanation": "Kandinsky foi um pioneiro da arte abstrata, buscando expressar emoções e ideias através da cor e da forma.  Ele acreditava que a música e a pintura compartilhavam uma linguagem universal."
+  },
+  {
+    "id": "quiz-entretenimento-111",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual atriz é conhecida por seu papel icônico em 'Sex and the City'?",
+    "options": [
+      "Sarah Jessica Parker",
+      "Kristin Davis",
+      "Cynthia Nixon",
+      "Kim Cattrall"
+    ],
+    "correctAnswer": "Sarah Jessica Parker",
+    "explanation": "Sarah Jessica Parker interpretou Carrie Bradshaw, a protagonista da série, que se tornou um ícone da moda e do estilo de vida moderno. A série influenciou a cultura popular durante anos."
+  },
+  {
+    "id": "quiz-entretenimento-112",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de RPG de mesa é conhecido por sua complexidade e sistema de regras detalhado, ambientado em um mundo de fantasia?",
+    "options": [
+      "Dungeons & Dragons",
+      "Pathfinder",
+      "Call of Cthulhu",
+      "Warhammer Fantasy Roleplay"
+    ],
+    "correctAnswer": "Dungeons & Dragons",
+    "explanation": "Dungeons & Dragons (D&D) é um dos jogos de RPG mais populares do mundo, tendo impactado profundamente a cultura nerd e a indústria de jogos.  Suas regras e universo rico têm se expandido ao longo de décadas."
+  },
+  {
+    "id": "quiz-entretenimento-113",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo de luta da Capcom apresenta os personagens Ryu e Ken?",
+    "options": [
+      "Street Fighter II",
+      "Tekken",
+      "Mortal Kombat",
+      "King of Fighters"
+    ],
+    "correctAnswer": "Street Fighter II",
+    "explanation": "Street Fighter II popularizou os jogos de luta e estabeleceu um modelo para muitos jogos que se seguiram, utilizando botões para executar golpes especiais. O jogo se tornou um fenómeno global."
+  },
+  {
+    "id": "quiz-entretenimento-114",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem de desenho animado é conhecido por sua frase 'D'oh!'?",
+    "options": [
+      "Homer Simpson",
+      "Peter Griffin",
+      "Bart Simpson",
+      "Stewie Griffin"
+    ],
+    "correctAnswer": "Homer Simpson",
+    "explanation": "Homer Simpson, o patriarca da família Simpson, é famoso por sua exclamação de frustração 'D'oh!', que se tornou uma expressão popular na cultura pop.  A frase foi criada por Dan Castellaneta, a voz de Homer."
+  },
+  {
+    "id": "quiz-entretenimento-115",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de luta é conhecido por seus personagens únicos e estilos de luta distintos, com foco em personagens de diferentes épocas e culturas?",
+    "options": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "Samurai Shodown"
+    ],
+    "correctAnswer": "Samurai Shodown",
+    "explanation": "Samurai Shodown, diferente de outros jogos de luta focados em lutadores modernos, apresenta um elenco de personagens de samurai e espadachins de diferentes épocas e origens, refletindo a cultura japonesa."
+  },
+  {
+    "id": "quiz-entretenimento-116",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual série de TV apresenta os personagens Carrie Bradshaw, Miranda Hobbes, Charlotte York e Samantha Jones, explorando as complexidades das relações femininas em uma cidade grande?",
+    "options": [
+      "Friends",
+      "Sex and the City",
+      "Desperate Housewives",
+      "Gilmore Girls"
+    ],
+    "correctAnswer": "Sex and the City",
+    "explanation": "Sex and the City se tornou um fenômeno cultural pela sua honestidade em retratar a vida de mulheres na cidade de Nova York, abordando temas como amizade, romance, carreira e a busca pela identidade."
+  },
+  {
+    "id": "quiz-entretenimento-117",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de RPG de mesa é conhecido por suas regras complexas e vasta lore, ambientado em um mundo de fantasia rico em detalhes e história?",
+    "options": [
+      "Dungeons & Dragons",
+      "Pathfinder",
+      "Call of Cthulhu",
+      "Warhammer Fantasy Roleplay"
+    ],
+    "correctAnswer": "Dungeons & Dragons",
+    "explanation": "Dungeons & Dragons é o jogo de RPG de mesa mais famoso do mundo, com uma história rica e um sistema de regras que evoluiu ao longo de décadas, criando um vasto universo para jogadores explorarem."
+  },
+  {
+    "id": "quiz-entretenimento-118",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual diretor é conhecido por seu estilo visual único e uso extensivo de close-ups, criando suspense e intensidade em seus filmes?",
+    "options": [
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Orson Welles",
+      "Francis Ford Coppola"
+    ],
+    "correctAnswer": "Alfred Hitchcock",
+    "explanation": "Alfred Hitchcock é conhecido por seu domínio da técnica cinematográfica, utilizando close-ups e outros recursos visuais para criar suspense e manipular as emoções do espectador.  Seu estilo influenciou gerações de cineastas."
+  },
+  {
+    "id": "quiz-entretenimento-119",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual série de TV cult é conhecida por sua narrativa não-linear e enigmas complexos, mantendo o público envolvido em especulações e teorias?",
+    "options": [
+      "Lost",
+      "Twin Peaks",
+      "The X-Files",
+      "Stranger Things"
+    ],
+    "correctAnswer": "Lost",
+    "explanation": "Lost é uma série de TV famosa por sua narrativa não-linear, mistério e personagens complexos. A série deixou muitos mistérios sem solução, o que alimentou debates e teorias entre os fãs."
+  },
+  {
+    "id": "quiz-entretenimento-120",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual compositor minimalista é conhecido por suas peças musicais repetitivas e hipnóticas, explorando a simplicidade e a repetição?",
+    "options": [
+      "Philip Glass",
+      "Steve Reich",
+      "Terry Riley",
+      "John Cage"
+    ],
+    "correctAnswer": "Philip Glass",
+    "explanation": "Philip Glass é um dos compositores minimalistas mais reconhecidos, conhecido por sua música repetitiva e hipnótica, muitas vezes usada em filmes e peças teatrais."
+  },
+  {
+    "id": "quiz-entretenimento-121",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico revolucionou o gênero de jogos de mundo aberto, estabelecendo novos padrões de exploração e liberdade para os jogadores?",
+    "options": [
+      "Grand Theft Auto III",
+      "The Elder Scrolls V: Skyrim",
+      "The Legend of Zelda: Ocarina of Time",
+      "Minecraft"
+    ],
+    "correctAnswer": "The Legend of Zelda: Ocarina of Time",
+    "explanation": "The Legend of Zelda: Ocarina of Time é amplamente considerado um marco no gênero de mundo aberto, embora não seja tão aberto como os jogos modernos, introduzindo um mundo vastamente explorável e imersivo."
   }
 ]

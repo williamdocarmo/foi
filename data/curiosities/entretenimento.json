@@ -844,5 +844,212 @@
     "content": "Dublar animes exige mais que apenas falar as falas. Os dubladores precisam entender o contexto cultural, a emoção e a personalidade de cada personagem para criar uma interpretação fiel e envolvente.  Expressão, tom de voz e sincronia labial são essenciais.",
     "funFact": "Alguns dubladores fazem a voz de vários personagens dentro da mesma série.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-95",
+    "categoryId": "entretenimento",
+    "title": "A Origem do Meme do Gato 'Grumpy'",
+    "hook": "Incrível: a história de...",
+    "content": "Tardar Sauce, a gata birrenta que inspirou o meme 'Grumpy Cat', nasceu com nanismo e displasia.  Sua expressão naturalmente rabugenta conquistou a internet, tornando-se um ícone da cultura digital.  Sua dona, Tabatha Bundesen, soube capitalizar a fama, criando produtos e livros com a imagem do felino. ",
+    "funFact": "Grumpy Cat gerou milhões em lucros, provando o poder inesperado de um meme felino.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-96",
+    "categoryId": "entretenimento",
+    "title": "Os Segredos da Música Binaural",
+    "hook": "Você sabia que...",
+    "content": "A música binaural, gravada com frequências ligeiramente diferentes em cada ouvido, cria um efeito de batimento que pode induzir estados mentais alterados, como relaxamento profundo ou foco intenso.  Sua eficácia é debatida, mas seu uso em meditação e terapias alternativas é crescente.",
+    "funFact": "A música binaural pode ser usada para induzir estados alterados de consciência, sem o uso de drogas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-97",
+    "categoryId": "entretenimento",
+    "title": "A História Escondida dos Cinemas Drive-in",
+    "hook": "Você sabia que...",
+    "content": "Os cinemas drive-in, populares nos EUA na década de 1950 e 60, permitiam assistir filmes do conforto do seu carro.  Sua popularidade declinou com o advento da TV a cabo e das multisalas, mas alguns ainda existem, mantendo viva a nostalgia de uma época.",
+    "funFact": " Muitos drive-ins tinham alto-falantes específicos para cada carro, transmitindo o áudio diretamente aos espectadores.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-98",
+    "categoryId": "entretenimento",
+    "title": "A História Esquecida dos Circos Itinerantes",
+    "hook": "Incrível: Os circos...",
+    "content": "Antes dos grandes espetáculos em arenas fixas, existiam os circos itinerantes, verdadeiras caravanas de entretenimento que cruzavam o país, levando magia e aventura a pequenas vilas.  Suas histórias, repletas de perigos e desafios, são quase lendárias, muitas vezes perdidas no tempo. Os artistas viajavam em condições precárias, enfrentando intempéries e o desafio constante de conquistar a plateia. ",
+    "funFact": "Alguns circos itinerantes utilizavam animais exóticos e treinados, que muitas vezes eram a principal atração.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-99",
+    "categoryId": "entretenimento",
+    "title": "O Segredo dos Festivais de Música Subaquáticos",
+    "hook": "Você sabia que...",
+    "content": "Existem festivais de música realizados em ambientes subaquáticos, criando uma experiência sensorial única para os participantes. A música é amplificada de forma peculiar e os sons se propagam de maneira diferente, criando um ambiente mágico e surreal. A imersão na água também influencia a percepção do som, amplificando a experiência.",
+    "funFact": "A visibilidade subaquática muitas vezes é limitada, adicionando um toque misterioso à atmosfera do evento.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "entretenimento-100",
+    "categoryId": "entretenimento",
+    "title": "A Era Dourada dos Shows de Variedades",
+    "hook": "Incrível:",
+    "content": "Os shows de variedades do início do século XX eram uma mistura eclética de talentos, misturando acrobacias, mágica, música e comédia em um só espetáculo. Essas apresentações eram grandiosas e elaboradas, com figurinos exuberantes e cenários impressionantes, oferecendo um entretenimento para todos os gostos.",
+    "funFact": "Muitos astros de cinema e teatro iniciaram suas carreiras nesses shows de variedades.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-101",
+    "categoryId": "entretenimento",
+    "title": "O Impacto dos Jogos de RPG em Mesa na Literatura",
+    "hook": "Você sabia que...",
+    "content": "Muitos autores de ficção modernos utilizaram a estrutura e a dinâmica dos jogos de RPG em mesa para criar seus mundos literários. Criando complexas narrativas e personagens que são frutos da colaboração entre o mestre e seus jogadores. Isso gerou novas formas de contar histórias.",
+    "funFact": "Alguns jogos RPG geraram franquias de livros e filmes mundialmente conhecidos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-102",
+    "categoryId": "entretenimento",
+    "title": "A Ascensão dos E-sports e a Psicologia do Competidor",
+    "hook": "Incrível:",
+    "content": "Os eSports transformaram jogadores em atletas profissionais, submetendo-os à pressão de competições de alto nível. A psicologia esportiva se tornou crucial, lidando com a ansiedade, o foco e a resiliência dos competidores, fatores que influenciam diretamente no desempenho e na saúde mental dos jogadores.",
+    "funFact": "Há universidades oferecendo bolsas de estudo para jogadores de eSports.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-103",
+    "categoryId": "entretenimento",
+    "title": "Os Segredos da Animação em Areia",
+    "hook": "Você sabia que...",
+    "content": "A animação em areia, uma forma de stop motion, utiliza areia colorida para criar imagens em movimento. Cada grão de areia é meticulosamente manipulado para criar cenas únicas, resultando em animações de beleza hipnótica e singular. Esta técnica requer habilidade artística e muita paciência.",
+    "funFact": "A animação em areia é usada em comerciais, filmes e videoclipes, criando atmosferas mágicas e oníricas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-104",
+    "categoryId": "entretenimento",
+    "title": "A Música Perdida dos Festivais de Música Medieval",
+    "hook": "Incrível:",
+    "content": "Os festivais de música medieval, embora menos conhecidos, eram eventos vibrantes e populares na época. A música, frequentemente instrumental, era executada em instrumentos tradicionais, criando uma atmosfera única e envolvente. Pouca documentação sobre a música desses festivais sobreviveu, perdendo-se a riqueza musical.",
+    "funFact": "Muitas músicas medievais eram cantadas em latim, refletindo a influência da igreja na cultura da época.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-105",
+    "categoryId": "entretenimento",
+    "title": "A Origem Obscura dos Jogos de Cartas Colecionáveis",
+    "hook": "Você sabia que...",
+    "content": "Os jogos de cartas colecionáveis, como Magic: The Gathering, evoluíram a partir de jogos mais simples, e foram influenciados por jogos de tabuleiro e jogos de cartas tradicionais. A complexidade das regras e a estratégia necessária tornaram os jogos de cartas colecionáveis um desafio intelectual.",
+    "funFact": "O mercado de cartas colecionáveis movimenta milhões de dólares em todo o mundo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-106",
+    "categoryId": "entretenimento",
+    "title": "A Era de Ouro dos Cinemas Drive-in",
+    "hook": "Incrível:",
+    "content": "Os cinemas drive-in, populares nos EUA em meados do século XX, ofereciam uma experiência única de assistir a filmes no conforto do seu carro. Esses cinemas ao ar livre permitiam às famílias desfrutar de filmes juntos, e também eram um local de encontro social e familiar.",
+    "funFact": "Muitos cinemas drive-in incluíam playgrounds e outras atividades para as crianças.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-107",
+    "categoryId": "entretenimento",
+    "title": "A Psicologia do Design de Jogos de Escape",
+    "hook": "Você sabia que...",
+    "content": "Os jogos de escape, também conhecidos como escape rooms, são projetados para estimular a criatividade, o trabalho em equipe e a resolução de problemas. Os designers destes jogos usam princípios da psicologia para criar desafios que são desafiadores, mas não impossíveis.",
+    "funFact": "Os jogos de escape são usados em treinamentos corporativos para aprimorar o trabalho em equipe.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-108",
+    "categoryId": "entretenimento",
+    "title": "A Música Secreta dos Anúncios Rádiofônicos Antigos",
+    "hook": "Você sabia que...",
+    "content": "Os anúncios de rádio do passado utilizavam jingles memoráveis e muitas vezes enigmáticos.  A música era composta para prender a atenção do ouvinte e associar a marca a uma melodia inesquecível.  Muitas dessas músicas caíram no esquecimento, mas eram bastante sofisticadas para a época.",
+    "funFact": "Algumas dessas músicas antigas ressurgiram como samples em músicas modernas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-109",
+    "categoryId": "entretenimento",
+    "title": "A Arte Perdida dos Bonecos de Palha",
+    "hook": "Você sabia que...",
+    "content": "Os bonecos de palha, peças de madeira articuladas que dão origem ao teatro de fantoches, eram frequentemente usados para contar histórias populares e satirizar acontecimentos sociais.  Sua construção era minuciosa e a manipulação requeria habilidade manual excepcional, hoje em dia uma técnica quase desaparecida.",
+    "funFact": "Alguns bonecos de palha antigos foram utilizados em rituais e cerimônias religiosas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "entretenimento-110",
+    "categoryId": "entretenimento",
+    "title": "A História Escondida dos Circos de Pulgas",
+    "hook": "Incrível:",
+    "content": "Os circos de pulgas, uma forma de entretenimento curiosa, utilizavam pulgas treinadas para realizar pequenas acrobacias e performances. Apesar de parecer uma atração insólita, os circos de pulgas eram um sucesso de público e demonstravam o nível de habilidade e paciência dos adestradores.",
+    "funFact": "Para treinar uma pulga, era necessário utilizar métodos de condicionamento operante durante semanas ou meses.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "entretenimento-111",
+    "categoryId": "entretenimento",
+    "title": "O Impacto da Televisão na Arte",
+    "hook": "Você sabia que...",
+    "content": "A televisão teve um impacto profundo na arte, tanto como meio de expressão quanto como ferramenta para o consumo artístico.  Novos formatos artísticos surgiram em conjunto com o desenvolvimento da televisão, influenciando a produção e o acesso a obras de arte.",
+    "funFact": "A televisão gerou novas formas de narrativas visuais, influenciando o cinema, a publicidade e outros meios artísticos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-112",
+    "categoryId": "entretenimento",
+    "title": "O Impacto do Podcast na Literatura",
+    "hook": "Você sabia que...",
+    "content": "O podcast se tornou um novo formato de contar histórias, que mistura a narrativa sonora com entrevistas e recursos audiovisuais. A narrativa sonora permite maior interação e envolvimento com o ouvinte e tem se mostrado um formato eficiente de alcançar um público maior.",
+    "funFact": "Muitos autores de livros utilizam podcasts para compartilhar suas histórias, promover suas obras e conectar com seus leitores.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-113",
+    "categoryId": "entretenimento",
+    "title": "A História dos Jogos de Vídeo Online",
+    "hook": "Você sabia que...",
+    "content": "A evolução dos jogos de vídeo online revolucionou a experiência de jogo, permitindo que pessoas ao redor do mundo jogassem juntas e interagissem em tempo real. Essa nova forma de entretenimento permitiu que pessoas de lugares diferentes se conectassem através de jogos.",
+    "funFact": "Os jogos online geraram uma nova economia digital e um mercado global de entretenimento.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-114",
+    "categoryId": "entretenimento",
+    "title": "A História dos Festivais de Teatro de Rua",
+    "hook": "Incrível:",
+    "content": "Os festivais de teatro de rua são eventos vibrante que levam arte e cultura para as ruas. Essas apresentações ao ar livre criam uma atmosfera interativa e informal, com a participação do público de forma ativa e próxima aos artistas.",
+    "funFact": "Muitos festivais de teatro de rua são gratuitos e abertos ao público.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-115",
+    "categoryId": "entretenimento",
+    "title": "A Música Perdida dos Circos de Pulgas",
+    "hook": "Incrível: a melodia secreta!",
+    "content": "Os circos de pulgas, populares no século XIX, possuíam uma trilha sonora única, composta por pequenas caixas de música e instrumentos minúsculos.  As melodias, muitas vezes obscuras e quase inaudíveis, eram selecionadas para criar uma atmosfera peculiar e misteriosa para as apresentações.  Imagine o desafio de orquestrar um concerto para insetos!",
+    "funFact": "Algumas peças musicais foram encontradas gravadas em cilindros de cera, um verdadeiro tesouro para os amantes da história da música.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-116",
+    "categoryId": "entretenimento",
+    "title": "A Incrível História dos Brinquedos que Nunca Foram Lançados",
+    "hook": "Incrível: Brinquedos que nunca chegaram às lojas!",
+    "content": "A indústria de brinquedos é repleta de protótipos e ideias que nunca chegaram às prateleiras. De bonecos com designs estranhos a jogos com mecânicas inovadoras, muitos protótipos foram abandonados por diferentes motivos, seja por falhas de produção, falta de interesse do público ou simplesmente por mudanças de estratégia das empresas. Alguns desses projetos, entretanto, ainda circulam entre colecionadores, revelando um lado obscuro e fascinante do setor.",
+    "funFact": "Um protótipo de um boneco de super-herói dos anos 80, com um design futurista e armas laser, foi encontrado há poucos anos em um sótão, intacto.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-117",
+    "categoryId": "entretenimento",
+    "title": "A Música Perdida dos Festivais de Música Subaquática",
+    "hook": "Surpreendente: Música debaixo d'água!",
+    "content": "Pouco conhecidos, os festivais de música subaquática oferecem uma experiência única e sensorial.  Imagine a música reverberando através da água, criando uma atmosfera quase etérea.  Apesar de desafiadores em termos de logística e tecnologia, estes eventos mostram a criatividade humana em busca de novas formas de entretenimento, explorando os limites do som e do ambiente.",
+    "funFact": "Para que a música seja audível embaixo d'água, são utilizados dispositivos especiais de transmissão de som, permitindo a experiência.",
+    "curiosityLevel": 5
   }
 ]

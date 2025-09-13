@@ -1150,5 +1150,86 @@
     "content": "A biologia sintética busca projetar e construir novas formas de vida ou modificar organismos existentes para gerar funções específicas, como a produção de biocombustíveis, medicamentos ou a biorremediação de poluentes.  Essa área emergente da ciência apresenta grandes potenciais e desafios éticos.",
     "funFact": "A biologia sintética já permitiu a criação de organismos capazes de produzir novas moléculas e materiais.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-129",
+    "categoryId": "ciencia",
+    "title": "A Ciência do Silêncio",
+    "hook": "Incrível: o som da ausência.",
+    "content": "O silêncio, muitas vezes ignorado, é um fenômeno físico com propriedades surpreendentes. A ausência total de som é um ambiente raríssimo na Terra, e seu estudo revela detalhes sobre a propagação de ondas sonoras, a absorção de vibrações e a percepção auditiva humana.  A pesquisa nesse campo tem implicações na construção de ambientes acústicos ideais e na compreensão de distúrbios auditivos.",
+    "funFact": "O silêncio absoluto é tão incomum que pode causar desconforto e ansiedade em algumas pessoas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-130",
+    "categoryId": "ciencia",
+    "title": "A Biologia das Gotas de Orvalho",
+    "hook": "Você sabia que...",
+    "content": "As gotas de orvalho, além de belas, revelam princípios físicos fascinantes de tensão superficial, capilaridade e adesão. A forma esférica perfeita, a forma como se aderem às superfícies e a sua interação com a luz abrem portas para estudos sobre microscopia, nanotecnologia e otimização de superfícies. O seu estudo até auxilia na melhoria de sistemas de coleta de água.",
+    "funFact": "A composição química da gota de orvalho pode refletir a poluição atmosférica.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-131",
+    "categoryId": "ciencia",
+    "title": "A Matemática das Nuvens Lentamente Evolutivas",
+    "hook": "Você sabia que...",
+    "content": "As nuvens, aparentemente estáticas, seguem padrões matemáticos complexos de convecção, difusão e condensação.  Estudar a sua dinâmica e a formação das estruturas nublares permite aperfeiçoar modelos climáticos, prever fenômenos meteorológicos extremos, e até mesmo compreender a dinâmica atmosférica de outros planetas.",
+    "funFact": "A forma das nuvens está relacionada com a estabilidade e turbulência da atmosfera.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-132",
+    "categoryId": "ciencia",
+    "title": "A Física dos Raios Cósmicos",
+    "hook": "Incrível:",
+    "content": "Partículas de alta energia que bombardeiam a Terra constantemente, os raios cósmicos são originários de eventos cósmicos violentos, como explosões de supernovas. Seu estudo permite insights sobre os processos astrofísicos mais energéticos do universo e também tem implicações na tecnologia, afetando o funcionamento de satélites e computadores.",
+    "funFact": "Alguns raios cósmicos possuem energia superior à de uma bola de tênis em alta velocidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-133",
+    "categoryId": "ciencia",
+    "title": "A Química dos Pigmentos Bioluminescentes",
+    "hook": "Você sabia que...",
+    "content": "A bioluminescência, a capacidade de organismos vivos emitirem luz, é um fenômeno químico fascinante.  A compreensão das reações químicas que geram essa luz tem aplicações em biotecnologia, medicina e na criação de novas fontes de iluminação sustentáveis. A diversidade de cores e intensidades nos diferentes organismos é surpreendente.",
+    "funFact": "Existem fungos que brilham no escuro como lanternas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-134",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Ansiedade",
+    "hook": "Incrível:",
+    "content": "A ansiedade, apesar de uma experiência subjetiva, possui bases neurobiológicas complexas e ainda não totalmente compreendidas. Estudar os mecanismos neurais envolvidos na ansiedade é essencial para o desenvolvimento de tratamentos mais eficazes e menos invasivos, melhorando a qualidade de vida de milhões de pessoas.",
+    "funFact": "A ansiedade pode afetar a memória e o aprendizado.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-135",
+    "categoryId": "ciencia",
+    "title": "A Ecologia dos Sistemas Subterrâneos",
+    "hook": "Você sabia que...",
+    "content": "Ecossistemas subterrâneos, como cavernas e aquíferos, abrigam uma biodiversidade incrível e única, adaptada a condições extremas de escuridão, pressão e escassez de recursos. A pesquisa nesses ambientes contribui para a compreensão da evolução da vida em condições desafiadoras e para a preservação desses frágeis ecossistemas.",
+    "funFact": "Existem espécies que vivem em cavernas há milhões de anos, sem nunca ver a luz do sol.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-136",
+    "categoryId": "ciencia",
+    "title": "A Física dos Cristais Líquidos",
+    "hook": "Incrível:",
+    "content": "Cristais líquidos são uma fase da matéria com propriedades únicas, intermediárias entre sólidos e líquidos.  Eles são usados em telas de LCD, mas suas propriedades ópticas e eletro-óticas surpreendentes têm potencial para avanços em diversas áreas, incluindo sensores, displays e dispositivos fotônicos.",
+    "funFact": "Cristais líquidos são capazes de mudar de cor e transparência com a aplicação de um campo elétrico.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-137",
+    "categoryId": "ciencia",
+    "title": "A Astronomia das Estrelas de Neutróns",
+    "hook": "Você sabia que...",
+    "content": "Estrelas de nêutrons são objetos extremamente densos, formados após a explosão de supernovas.  Seu estudo fornece informações essenciais sobre a física nuclear em condições extremas e também sobre a evolução estelar. Seu campo gravitacional imenso causa efeitos interessantes na luz e tempo próximo a ela.",
+    "funFact": "Uma colher de chá de matéria de uma estrela de nêutrons pesaria bilhões de toneladas.",
+    "curiosityLevel": 4
   }
 ]

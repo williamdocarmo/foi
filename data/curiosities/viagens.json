@@ -421,5 +421,122 @@
     "content": "Na Bélgica, a floresta de Hallerbos se transforma em um conto de fadas na primavera, quando o chão fica coberto por um mar de flores azuis, criando um cenário mágico e romântico.  Uma experiência única para os amantes da natureza.",
     "funFact": "A floresta é habitada por diversas espécies de pássaros e animais.",
     "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-48",
+    "categoryId": "viagens",
+    "title": "A Cidade Perdida de Nan Madol",
+    "hook": "Incrível: Uma Veneza do Pacífico!",
+    "content": "Nan Madol, na Micronésia, é um complexo de ilhas artificiais construído há séculos.  Sua construção permanece um mistério, com enormes blocos de basalto interligados por canais.  A ausência de ferramentas de metal na época torna o feito ainda mais espantoso.  A sua história e seus segredos permanecem um mistério fascinante para arqueólogos.",
+    "funFact": "Acredita-se que a cidade foi construída por seres sobrenaturais!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-49",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Túneis de Coober Pedy",
+    "hook": "Você sabia que...",
+    "content": "Coober Pedy, na Austrália, é uma cidade subterrânea onde as casas são escavadas na rocha. O calor extremo do deserto fez com que a população criasse esta habitação singular. Essa peculiaridade protege os moradores não só do calor, mas também dos ventos fortes e das tempestades de areia. ",
+    "funFact": "A cidade possui até um cinema subterrâneo!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-50",
+    "categoryId": "viagens",
+    "title": "O Mistério do Mar de Aral",
+    "hook": "Impressionante:",
+    "content": "O Mar de Aral, localizado na Ásia Central, era um dos maiores lagos do mundo, mas sofreu uma drástica redução de tamanho devido à irrigação descontrolada.  Sua diminuição causou impactos ambientais e sociais devastadores para as comunidades locais,  deixando atrás apenas um leito de sal. ",
+    "funFact": "Embarcação encalhadas em um deserto de sal são um testemunho silencioso do desastre.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-51",
+    "categoryId": "viagens",
+    "title": "A Floresta Subaquática de Kaindy",
+    "hook": "Incrível:",
+    "content": "Localizada no Cazaquistão, a floresta subaquática de Kaindy é um cenário surreal. Um terremoto em 1911 criou uma barragem natural que inundou um vale inteiro, submergindo pinheiros. Agora, as árvores emergem das águas cristalinas, um espetáculo notável para mergulhadores e fotógrafos.",
+    "funFact": "As árvores parcialmente submersas parecem árvores fantasmas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-52",
+    "categoryId": "viagens",
+    "title": "A Cachoeira Subterrânea de São Lourenço",
+    "hook": "Incrível:",
+    "content": "Em São Lourenço, Minas Gerais, Brasil, encontra-se uma cachoeira que surpreende pelo seu acesso peculiar. Para chegar à cachoeira, é necessário descer por um poço e nadar por um túnel subterrâneo, revelando uma bela cachoeira em um ambiente natural singular.",
+    "funFact": "A cachoeira é um segredo escondido a poucos metros da cidade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-53",
+    "categoryId": "viagens",
+    "title": "A Estrada do Sal de Uyuni",
+    "hook": "Maravilhoso:",
+    "content": "Na Bolívia, a Salar de Uyuni é o maior deserto de sal do mundo, criando um horizonte deslumbrante que parece se estender até o infinito. A paisagem de sal é tão plana que cria um efeito espelho com o céu. ",
+    "funFact": "A perspectiva infinita pode ser um pouco surreal.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-54",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Hotéis-Cápsula",
+    "hook": "Incrível: ",
+    "content": "No Japão, hotéis-cápsula oferecem acomodações minúsculas, mas eficientes.  Sua história remonta aos anos 1970, como solução para viajantes com orçamento limitado.  Apesar do espaço reduzido, eles incluem recursos como TV, internet e, às vezes, até mesmo um pequeno chuveiro privativo.",
+    "funFact": "Alguns hotéis-cápsula são temáticos, oferecendo experiências únicas, como um cápsula inspirada em um vagão de trem.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-55",
+    "categoryId": "viagens",
+    "title": "O Enigma do Aeroporto Deserto",
+    "hook": "Incrível: um aeroporto fantasma!",
+    "content": "Abandonado há décadas, um aeroporto no meio do nada intriga pesquisadores.  Teorias sobre experimentos secretos e até mesmo atividades paranormais cercam sua história misteriosa, sem pistas claras sobre sua função original.  A vegetação tomou conta das pistas, e o silêncio reina absoluto.",
+    "funFact": "Dizem que luzes estranhas são vistas à noite.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-56",
+    "categoryId": "viagens",
+    "title": "O Segredo das Ilhas Flutuantes",
+    "hook": "Você sabia que...",
+    "content": "Existem ilhas flutuantes, não no Titicaca, mas em um lago remoto na Ásia. Essas ilhas são feitas de vegetação e sustentam comunidades isoladas, que vivem em perfeita harmonia com a natureza.  Sua existência é um mistério para a ciência moderna.",
+    "funFact": "As ilhas se movem lentamente ao longo dos anos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-57",
+    "categoryId": "viagens",
+    "title": "A Lenda do Lago Encantado",
+    "hook": "Incrível: um lago que muda de cor!",
+    "content": "O Lago Clitheroe, na Inglaterra, é conhecido por suas águas que mudam de cor drasticamente dependendo da luz e da estação. De um verde esmeralda vibrante a um azul profundo misterioso, suas mudanças são um espetáculo natural único.  A lenda local conta que o lago é encantado, protegendo um tesouro perdido.",
+    "funFact": "Suas mudanças de cor são causadas por algas microscópicas que reagem à luminosidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-58",
+    "categoryId": "viagens",
+    "title": "A Cidade Esquecida de Kayaköy",
+    "hook": "Incrível: uma cidade fantasma!",
+    "content": "Kayaköy, na Turquia, é uma cidade grega abandonada que agora serve como um museu a céu aberto. Ruínas de casas de pedra se misturam à natureza, criando um cenário misterioso e encantador. Explore suas ruas silenciosas e imagine a vida que um dia floresceu ali.  Um lugar para refletir sobre o passado.",
+    "funFact": "Muitas casas ainda conservam seus móveis e objetos pessoais, congelados no tempo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-59",
+    "categoryId": "viagens",
+    "title": "A Busca pelo Rio Perdido",
+    "hook": "Incrível: um rio secreto!",
+    "content": "Em meio à densa floresta amazônica, existe a lenda de um rio subterrâneo que nunca foi encontrado.  Exploradores e cientistas buscam pistas há décadas, mas o rio permanece um mistério.  Seu curso, sua extensão, tudo permanece desconhecido, alimentando a imaginação de aventureiros.",
+    "funFact": "Dizem que as águas do rio possuem propriedades curativas místicas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-60",
+    "categoryId": "viagens",
+    "title": "O Enigma das Ilhas Voadoras",
+    "hook": "Você sabia que...",
+    "content": "Ilhas artificiais, construídas em bambu e juncos, flutuam nos lagos da região de Tonle Sap, no Camboja.  As mudanças no nível da água as movem, criando um cenário surreal e único. Habitadas por comunidades locais, estas ilhas são um ecossistema à parte.",
+    "funFact": "As casas nessas ilhas são construídas sobre palafitas que se movem com a água.",
+    "curiosityLevel": 3
   }
 ]

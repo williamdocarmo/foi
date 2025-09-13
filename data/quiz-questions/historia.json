@@ -1104,5 +1104,19 @@
     ],
     "correctAnswer": "Ásia",
     "explanation": "A Índia está localizada no subcontinente indiano, na Ásia.  Curiosidade: A Índia é o maior país da região em termos de população."
+  },
+  {
+    "id": "quiz-historia-80",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do tratado que encerrou a Guerra Franco-Prussiana?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Tordesilhas",
+      "Tratado de Frankfurt",
+      "Tratado de Paris (1783)"
+    ],
+    "correctAnswer": "Tratado de Frankfurt",
+    "explanation": "O Tratado de Frankfurt, assinado em 10 de maio de 1871, oficialmente encerrou a Guerra Franco-Prussiana. Curiosidade: Este tratado resultou na perda de territórios franceses para a recém-unificada Alemanha e na imposição de pesadas indenizações."
   }
 ]

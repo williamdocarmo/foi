@@ -45,9 +45,9 @@
     "lastRunAt": "2025-09-13T19:00:31.778Z"
   },
   "entretenimento": {
-    "curiositiesBatchesProcessed": 13,
-    "quizzesBatchesProcessed": 0,
-    "lastRunAt": "2025-09-13T19:06:46.447Z"
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 8,
+    "lastRunAt": "2025-09-13T21:24:45.571Z"
   },
   "hacks": {
     "curiositiesBatchesProcessed": 20,
@@ -60,8 +60,13 @@
     "lastRunAt": "2025-09-13T19:52:55.104Z"
   },
   "ciencia": {
-    "curiositiesBatchesProcessed": 14,
-    "quizzesBatchesProcessed": 0,
-    "lastRunAt": "2025-09-13T21:16:17.916Z"
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T21:20:10.000Z"
+  },
+  "autoajuda": {
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 8,
+    "lastRunAt": "2025-09-13T21:32:55.570Z"
   }
 }

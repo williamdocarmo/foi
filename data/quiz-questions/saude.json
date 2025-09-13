@@ -978,5 +978,89 @@
     ],
     "correctAnswer": "Bactérias precisam de um hospedeiro para se reproduzir, vírus não",
     "explanation": "Bactérias são organismos unicelulares que podem se reproduzir independentemente, enquanto vírus são parasitas intracelulares obrigatórios, necessitando de uma célula hospedeira para se replicar.  Os antibióticos são eficazes contra bactérias, mas não contra vírus."
+  },
+  {
+    "id": "quiz-saude-71",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual o principal órgão responsável pela filtragem do sangue?",
+    "options": [
+      "Coração",
+      "Pulmões",
+      "Rins",
+      "Fígado"
+    ],
+    "correctAnswer": "Rins",
+    "explanation": "Os rins filtram o sangue, removendo resíduos e excesso de água.  Curiosidade: Os rins produzem cerca de 1 litro de urina por dia."
+  },
+  {
+    "id": "quiz-saude-72",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual vitamina é essencial para a saúde dos ossos?",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina E"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D auxilia na absorção de cálcio, crucial para a saúde óssea. Curiosidade:  A exposição solar é uma importante fonte de vitamina D."
+  },
+  {
+    "id": "quiz-saude-73",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que é a dislipidemia?",
+    "options": [
+      "Inflamação das articulações",
+      "Níveis anormais de lipídeos no sangue",
+      "Doença pulmonar obstrutiva crônica",
+      "Infecção bacteriana da pele"
+    ],
+    "correctAnswer": "Níveis anormais de lipídeos no sangue",
+    "explanation": "Dislipidemia refere-se a níveis elevados de colesterol e/ou triglicerídeos no sangue, aumentando o risco de doenças cardíacas. Curiosidade: Uma dieta equilibrada e exercício físico ajudam a controlar a dislipidemia."
+  },
+  {
+    "id": "quiz-saude-74",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual destas atividades é um exemplo de exercício isométrico?",
+    "options": [
+      "Corrida",
+      "Natação",
+      "Plank",
+      "Ciclismo"
+    ],
+    "correctAnswer": "Plank",
+    "explanation": "Exercícios isométricos envolvem contração muscular sem movimento articular.  Curiosidade: O Plank fortalece músculos do core, melhorando a postura e a estabilidade."
+  },
+  {
+    "id": "quiz-saude-75",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a função da leptina no corpo?",
+    "options": [
+      "Regular a temperatura corporal",
+      "Controlar a produção de insulina",
+      "Regular o apetite e o gasto energético",
+      "Aumentar a produção de hormônios do crescimento"
+    ],
+    "correctAnswer": "Regular o apetite e o gasto energético",
+    "explanation": "A leptina, hormônio produzido pelo tecido adiposo, sinaliza ao cérebro a saciedade, regulando o consumo alimentar. Curiosidade: Níveis baixos de leptina podem levar à obesidade."
+  },
+  {
+    "id": "quiz-saude-76",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual a principal função da insulina?",
+    "options": [
+      "Regular a pressão arterial",
+      "Controlar a temperatura corporal",
+      "Regular os níveis de glicose no sangue",
+      "Aumentar a produção de hormônios tireoidianos"
+    ],
+    "correctAnswer": "Regular os níveis de glicose no sangue",
+    "explanation": "A insulina, hormônio produzido pelo pâncreas, facilita a entrada de glicose nas células. Curiosidade: A deficiência de insulina leva ao diabetes mellitus tipo 1."
   }
 ]

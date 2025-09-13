@@ -1216,5 +1216,145 @@
     ],
     "correctAnswer": "C",
     "explanation": "O carbono é um elemento químico fundamental para a vida na Terra.  Curiosidade: O carbono forma uma grande variedade de compostos, devido à sua capacidade de formar quatro ligações químicas."
+  },
+  {
+    "id": "quiz-ciencia-88",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual processo físico explica a formação de um arco-íris?",
+    "options": [
+      "Difração",
+      "Interferência",
+      "Refração e reflexão",
+      "Polarização"
+    ],
+    "correctAnswer": "Refração e reflexão",
+    "explanation": "A luz solar é refratada (quebrada) e refletida pelas gotículas de água na atmosfera, separando as cores do espectro visível. Curiosamente, cada pessoa vê um arco-íris único, pois a posição relativa do observador em relação ao sol e as gotas de chuva afetam o que é visto."
+  },
+  {
+    "id": "quiz-ciencia-89",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual processo biológico converte energia solar em energia química?",
+    "options": [
+      "Respiração",
+      "Fermentação",
+      "Fotossíntese",
+      "Digestão"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas utilizam a luz solar, água e dióxido de carbono para produzir glicose (energia) e oxigênio. Um fato interessante é que as plantas liberam oxigênio como um subproduto da fotossíntese."
+  },
+  {
+    "id": "quiz-ciencia-90",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da partícula elementar que media a força nuclear forte?",
+    "options": [
+      "Bóson W",
+      "Bóson Z",
+      "Glúon",
+      "Fóton"
+    ],
+    "correctAnswer": "Glúon",
+    "explanation": "Os glúons são responsáveis por manter os quarks unidos dentro dos prótons e nêutrons.  Uma curiosidade é que os glúons também interagem entre si, tornando a força nuclear forte extremamente complexa."
+  },
+  {
+    "id": "quiz-ciencia-91",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água a 25°C e pressão atmosférica normal?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Líquido",
+    "explanation": "A água é líquida em temperatura ambiente.  Curiosidade:  A água é uma das poucas substâncias que existe naturalmente nos três estados físicos na Terra."
+  },
+  {
+    "id": "quiz-ciencia-92",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o principal gás presente no ar que respiramos?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Hidrogênio"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "O nitrogênio compõe cerca de 78% da atmosfera terrestre. Curiosidade: Apesar de ser inerte para a maioria dos organismos, o nitrogênio é essencial para a formação de proteínas."
+  },
+  {
+    "id": "quiz-ciencia-93",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a força que mantém os planetas em órbita em torno do Sol?",
+    "options": [
+      "Força eletromagnética",
+      "Força nuclear forte",
+      "Força gravitacional",
+      "Força nuclear fraca"
+    ],
+    "correctAnswer": "Força gravitacional",
+    "explanation": "A gravidade é a força fundamental que atrai objetos com massa um para o outro. Curiosidade: A força gravitacional do Sol é o que mantém todo o nosso sistema solar unido."
+  },
+  {
+    "id": "quiz-ciencia-94",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água a temperatura ambiente?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Líquido",
+    "explanation": "A água em temperatura ambiente (aproximadamente 25°C) encontra-se em estado líquido.  Curiosidade: A água é uma das poucas substâncias que existem naturalmente nos três estados físicos (sólido, líquido e gasoso) na Terra."
+  },
+  {
+    "id": "quiz-ciencia-95",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um cometa e um asteroide?",
+    "options": [
+      "Composição química",
+      "Tamanho",
+      "Órbita",
+      "Todos os itens acima"
+    ],
+    "correctAnswer": "Todos os itens acima",
+    "explanation": "Cometas são compostos principalmente de gelo e poeira, com órbitas mais elípticas e muitas vezes visíveis a olho nu. Asteroides são rochosos, com órbitas geralmente mais circulares e menos visíveis. Curiosidade: Alguns asteroides podem ter origem em cometas que perderam seu gelo."
+  },
+  {
+    "id": "quiz-ciencia-96",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno causa as estações do ano na Terra?",
+    "options": [
+      "A distância da Terra ao Sol",
+      "A rotação da Terra",
+      "A inclinação do eixo da Terra",
+      "A órbita elíptica da Terra"
+    ],
+    "correctAnswer": "A inclinação do eixo da Terra",
+    "explanation": "A inclinação de 23,5 graus do eixo da Terra em relação à sua órbita ao redor do Sol causa as estações.  Curiosidade: Os hemisférios Norte e Sul experimentam estações opostas."
+  },
+  {
+    "id": "quiz-ciencia-97",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual fenômeno explica a formação de um arco-íris?",
+    "options": [
+      "Reflexão",
+      "Refração e reflexão",
+      "Difração",
+      "Interferência"
+    ],
+    "correctAnswer": "Refração e reflexão",
+    "explanation": "A luz solar é refratada (mudança de direção) e refletida pelas gotículas de água na atmosfera, separando as cores do espectro visível. Curiosidade: para ver um arco-íris, o Sol precisa estar atrás de você."
   }
 ]

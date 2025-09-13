@@ -852,5 +852,61 @@
     ],
     "correctAnswer": "Reconhecer e definir o problema",
     "explanation": "Antes de solucionar algo, é crucial entender o que precisa ser resolvido.  Uma curiosidade:  Definir o problema com clareza aumenta significativamente as chances de sucesso na resolução."
+  },
+  {
+    "id": "quiz-autoajuda-62",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para resolver um problema?",
+    "options": [
+      "Ignorar o problema",
+      "Identificar o problema",
+      "Buscar ajuda imediatamente",
+      "Criar um plano complexo"
+    ],
+    "correctAnswer": "Identificar o problema",
+    "explanation": "Antes de qualquer solução, é crucial reconhecer e definir claramente o problema.  Curiosidade:  A definição clara do problema é a base da maioria das metodologias de resolução de problemas, desde a simples lista de tarefas até abordagens mais complexas."
+  },
+  {
+    "id": "quiz-autoajuda-63",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para estabelecer uma meta?",
+    "options": [
+      "Definir um prazo",
+      "Escrever a meta",
+      "Identificar a meta",
+      "Celebrar o sucesso"
+    ],
+    "correctAnswer": "Identificar a meta",
+    "explanation": "Antes de qualquer coisa, você precisa saber exatamente o que quer alcançar.  Curiosidade: Definir metas claras e concisas aumenta suas chances de sucesso em 50%."
+  },
+  {
+    "id": "quiz-autoajuda-64",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a principal vantagem de definir metas realistas?",
+    "options": [
+      "Aumenta a autoestima.",
+      "Minimiza a frustração e aumenta a motivação.",
+      "Garante o sucesso imediato.",
+      "Elimina a necessidade de planejamento."
+    ],
+    "correctAnswer": "Minimiza a frustração e aumenta a motivação.",
+    "explanation": "Metas realistas são alcançáveis, o que mantém o ânimo e evita a sensação de fracasso.  Curiosidade:  O efeito Dunning-Kruger descreve como a falta de habilidade pode levar a superestimar sua competência, resultando em metas irrealistas."
+  },
+  {
+    "id": "quiz-autoajuda-65",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para lidar com o estresse?",
+    "options": [
+      "Ignorar o problema",
+      "Reconhecer e nomear o estresse",
+      "Tomar café forte",
+      "Assistir TV por horas"
+    ],
+    "correctAnswer": "Reconhecer e nomear o estresse",
+    "explanation": "O primeiro passo para lidar com o estresse é reconhecê-lo.  Ignorar só piora.  Curiosidade: O estresse crônico pode afetar o sistema imunológico."
   }
 ]

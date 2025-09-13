@@ -619,5 +619,140 @@
     "content": "Substitua metas gigantescas por pequenas conquistas diárias.  Definir micro-objetivos, como ler uma página de um livro ou fazer cinco minutos de exercícios, gera um senso de realização contínua e te mantém motivado. A consistência é a chave para o sucesso!",
     "funFact": "Micro-objetivos aumentam a autoconfiança em 40%!",
     "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-70",
+    "categoryId": "autoajuda",
+    "title": "A Ciência do Esquecimento Seletivo",
+    "hook": "Incrível: seu cérebro te protege!",
+    "content": "O esquecimento seletivo, muitas vezes visto como negativo, pode ser um mecanismo de defesa mental.  Seu cérebro prioriza memórias relevantes, reduzindo a sobrecarga de informações.  Entender esse processo ajuda a lidar com traumas e ansiedades, focando no presente e no futuro.  Aprender a selecionar o que guardar e o que liberar é chave para o bem-estar.",
+    "funFact": "Pesquisas mostram que o esquecimento pode até melhorar o humor!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-71",
+    "categoryId": "autoajuda",
+    "title": "A Ciência da Postura e a Autoconfiança",
+    "hook": "Incrível: sua postura...",
+    "content": "A maneira como você se senta ou fica em pé afeta diretamente sua autoconfiança. Uma postura ereta, com os ombros para trás, transmite segurança e poder, influenciando positivamente seu humor e percepção de si mesmo. Experimente! Altere sua postura e observe a mudança interna.",
+    "funFact": "Estudos mostram que pessoas com postura confiante são percebidas como mais competentes, mesmo sem dizer uma palavra.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-72",
+    "categoryId": "autoajuda",
+    "title": "A Magia do 'Esquecer'",
+    "hook": "Incrível: Esquecer pode ser bom!",
+    "content": "Nosso cérebro esquece informações inúteis para otimizar o funcionamento.  A capacidade de esquecer o passado negativo, por exemplo, é fundamental para a autoajuda.  Isso libera espaço mental para foco em novas oportunidades e aprendizados.  Aprender a 'esquecer' estrategicamente é uma poderosa ferramenta de autodesenvolvimento.",
+    "funFact": "Pesquisas mostram que esquecer memórias negativas melhora o humor e reduz o estresse em até 30%.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-73",
+    "categoryId": "autoajuda",
+    "title": "O Poder da Coleção de Botões",
+    "hook": "Você sabia que...",
+    "content": "Colecionar botões pode ser um hobby terapêutico surpreendente! A organização, a busca por peças únicas e a contemplação da variedade de cores e texturas promovem a calma e a concentração,  auxiliando no alívio do estresse e melhorando o foco.  Desenvolva essa terapia peculiar.",
+    "funFact": "Alguns colecionadores de botões relatam redução significativa nos níveis de ansiedade após sessões de organização.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-74",
+    "categoryId": "autoajuda",
+    "title": "A Neurociência do Cheiro do Café",
+    "hook": "Você sabia que...",
+    "content": "O aroma do café pela manhã pode influenciar positivamente nosso humor e estado de alerta, preparando-nos para o dia com mais foco e energia.  Associar o cheiro a momentos positivos potencializa ainda mais esse efeito.  Explore o poder dos aromas na sua rotina matinal.",
+    "funFact": "O cheiro do café aumenta a produção de dopamina, neurotransmissor associado à sensação de prazer e recompensa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-75",
+    "categoryId": "autoajuda",
+    "title": "A Magia do 'Esquecer' Seletivamente",
+    "hook": "Incrível: seu cérebro te ajuda!",
+    "content": "Nosso cérebro esquece informações inúteis para otimizar a memória. Mas, e se você pudesse 'esquecer' traumas ou pensamentos negativos? Técnicas de reprogramação mental exploram esse poder, ajudando a reescrever narrativas internas e focar no positivo.  Aprenda a usar o esquecimento a seu favor!",
+    "funFact": "O esquecimento é essencial para a saúde mental; sem ele, seríamos sobrecarregados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-76",
+    "categoryId": "autoajuda",
+    "title": "A Psicologia da Coleção de Chaves",
+    "hook": "Incrível: suas chaves...",
+    "content": "A forma como organizamos nossas chaves revela muito sobre nossa personalidade e gestão de responsabilidades.  Uma coleção extensa pode indicar um desejo de controle, enquanto chaves soltas refletem uma abordagem mais despreocupada.  A análise da sua coleção de chaves pode trazer insights surpreendentes sobre sua organização pessoal.",
+    "funFact": "Estudo recente indica correlação entre organização de chaves e pontualidade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-77",
+    "categoryId": "autoajuda",
+    "title": "Autoajuda e a Ciência da Luminosidade",
+    "hook": "Incrível: a luz...",
+    "content": "A exposição à luz natural melhora o humor e a produtividade.  Criar um ambiente de trabalho ou estudo bem iluminado influencia o bem-estar e a disposição.  Aproveitar a luz solar diariamente ajuda na produção de vitamina D e no combate à depressão sazonal.",
+    "funFact": "A falta de luz natural pode desencadear desordens do sono e humor.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-78",
+    "categoryId": "autoajuda",
+    "title": "A Magia da Micro-Pausa Consciente",
+    "hook": "Você sabia que...",
+    "content": "Pausas curtas e conscientes ao longo do dia, dedicadas à respiração profunda ou à observação do ambiente, podem aumentar sua capacidade de foco e reduzir a sensação de sobrecarga.  Pequenos momentos de pausa geram grandes resultados em sua capacidade de concentração.",
+    "funFact": "Apenas 5 minutos de pausa consciente podem melhorar significativamente o desempenho mental.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "autoajuda-79",
+    "categoryId": "autoajuda",
+    "title": "A Ciência da Escolha do Calçado",
+    "hook": "Incrível: seus sapatos...",
+    "content": "A escolha do calçado pode impactar seu humor e produtividade. Sapatos confortáveis promovem bem-estar físico e mental, reduzindo o estresse e melhorando o foco. Já sapatos desconfortáveis podem levar a dores e irritabilidade, afetando sua autoestima e capacidade de realização.  Experimente! ",
+    "funFact": "Um estudo revelou que pessoas que usam sapatos confortáveis relatam maior satisfação com a vida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-80",
+    "categoryId": "autoajuda",
+    "title": "A Ciência da Procrastinação Criativa",
+    "hook": "Incrível: procrastinar pode ser útil!",
+    "content": "Procrastinar, para muitos, é sinônimo de preguiça. Mas estudos mostram que pausas estratégicas, antes de uma tarefa, podem aumentar a criatividade e a produtividade. O cérebro processa informações em segundo plano, gerando novas ideias.  O truque está em definir limites e não deixar a procrastinação se tornar um hábito.",
+    "funFact": "Muitos grandes artistas e inventores eram mestres na arte da procrastinação estratégica!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-81",
+    "categoryId": "autoajuda",
+    "title": "O Poder da Respiração Ritmada",
+    "hook": "Você sabia que...",
+    "content": "A respiração ritmada, com padrões específicos de inalação e exalação, pode regular a resposta do corpo ao estresse, diminuindo a ansiedade e melhorando o foco.  Experimente técnicas como a respiração 4-7-8 (4 segundos inspirando, 7 segurando, 8 expirando) para sentir os efeitos calmantes.",
+    "funFact": "A respiração ritmada é usada em diversas práticas ancestrais, como o Yoga e a Meditação, para alcançar estados de paz mental.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-82",
+    "categoryId": "autoajuda",
+    "title": "A Psicologia da Cor da Sua Caneta",
+    "hook": "Impressionante:",
+    "content": "A cor da caneta que você usa para escrever pode influenciar seu estado de espírito e até mesmo a criatividade.  Cores vibrantes estimulam a energia e a ousadia, enquanto cores mais suaves promovem a calma e a concentração. Experimente e descubra qual cor te ajuda mais!",
+    "funFact": "Em alguns estudos, canetas azuis são associadas a melhor memorização.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "autoajuda-83",
+    "categoryId": "autoajuda",
+    "title": "O Poder Subestimado das Pausas Oculares",
+    "hook": "Descubra:",
+    "content": "Em tempos de telas constantes, pausas oculares regulares são essenciais para a saúde mental e física.  Olhar para longe, focando em objetos distantes, relaxa os músculos oculares e previne a fadiga visual.  Incorpore pausas de 5 minutos a cada hora de trabalho.",
+    "funFact": "A cada 20 minutos, tente olhar para algo a 20 pés de distância por 20 segundos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-84",
+    "categoryId": "autoajuda",
+    "title": "A Cura Silenciosa do Desenho",
+    "hook": "Incrível: Desenhar cura!",
+    "content": "A arte do desenho, muitas vezes subestimada, pode ser uma poderosa ferramenta de autoajuda. O ato criativo de transferir emoções e pensamentos para o papel promove o autoconhecimento e a liberação de tensões, reduzindo a ansiedade e o estresse.  Experimente! Descubra a calmaria que flui da ponta do lápis.",
+    "funFact": "Estudo recente indica que desenhar por apenas 15 minutos reduz em até 30% os níveis de cortisol (hormônio do estresse).",
+    "curiosityLevel": 4
   }
 ]

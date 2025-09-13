@@ -922,5 +922,33 @@
     ],
     "correctAnswer": "Kraken",
     "explanation": "O Kraken, um polvo gigante da mitologia nórdica, é frequentemente associado a naufrágios e mistérios marinhos.  Sua lenda alimenta muitas histórias de navios fantasmas."
+  },
+  {
+    "id": "quiz-misterios-67",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério envolvendo a desaparecida colonia de Roanoke?",
+    "options": [
+      "Doença",
+      "Ataque indígena",
+      "Expedição malsucedida",
+      "O desaparecimento sem deixar vestígios"
+    ],
+    "correctAnswer": "O desaparecimento sem deixar vestígios",
+    "explanation": "A colônia desapareceu sem deixar vestígios, com apenas a palavra \"Croatoan\" gravada em uma árvore, tornando o seu destino um grande mistério."
+  },
+  {
+    "id": "quiz-misterios-68",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "O que há de tão peculiar na estrutura subaquática perto de Yonaguni, Japão, que alimenta debates sobre sua origem?",
+    "options": [
+      "Sua formação geométrica semelhante a uma estrutura artificial",
+      "A datação imprecisa de seus materiais",
+      "A ausência de evidências sobre como foi criada",
+      "Todas as alternativas anteriores"
+    ],
+    "correctAnswer": "Todas as alternativas anteriores",
+    "explanation": "A estrutura subaquática de Yonaguni apresenta características geométricas que suscitam debates sobre sua origem natural ou artificial,  devido à sua complexidade e imprecisão na sua datação."
   }
 ]

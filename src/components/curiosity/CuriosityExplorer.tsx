@@ -10,7 +10,6 @@ import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
-import { categories, curiositiesByCategory } from "@/lib/data";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -18,70 +17,57 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
-// This component was completely rewritten to fix persistent rendering loop and navigation bugs.
-// The new architecture follows senior-level React patterns for stability and predictability.
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
     initialCuriosityId 
 }: CuriosityExplorerProps) {
-  const router = useRouter();
+  const router = useRouter(); // Manteremos o router para outras possíveis navegações
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
+
+  const initialIndex = useMemo(() => {
+    if (!isLoaded || curiosities.length === 0) return null;
+
+    if (initialCuriosityId) {
+      const index = curiosities.findIndex(c => c.id === initialCuriosityId);
+      if (index !== -1) return index;
+    }
+
+    const lastReadId = stats.lastReadCuriosity?.[category.id];
+    if (lastReadId) {
+      const index = curiosities.findIndex(c => c.id === lastReadId);
+      if (index !== -1) return index;
+    }
+
+    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    if (firstUnreadIndex !== -1) return firstUnreadIndex;
+
+    return 0;
+  }, [curiosities, initialCuriosityId, stats.lastReadCuriosity, stats.readCuriosities, category.id, isLoaded]);
   
-  // State is now minimal: only the currentIndex is needed.
-  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+  const [currentIndex, setCurrentIndex] = useState<number | null>(initialIndex);
 
-  // Memoize all available curiosity IDs for the surpriseMe function
-  const allCuriosityIds = useMemo(() => {
-    return categories.flatMap(cat => 
-        (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
-    );
-  }, []);
-
-  // Effect to set the initial index. This runs ONLY ONCE after the component mounts
-  // and the game stats are loaded. This is the key to breaking the rendering loop.
+  // Efeito para sincronizar o estado quando o initialIndex for calculado após o carregamento dos stats
   useEffect(() => {
-    if (!isLoaded || curiosities.length === 0) return;
+    if (currentIndex === null && initialIndex !== null) {
+      setCurrentIndex(initialIndex);
+    }
+  }, [initialIndex, currentIndex]);
 
-    const findInitialIndex = () => {
-      // 1. Prioritize the ID from the URL query parameter.
-      if (initialCuriosityId) {
-        const index = curiosities.findIndex(c => c.id === initialCuriosityId);
-        if (index !== -1) return index;
-      }
-      // 2. Fallback to the last read curiosity in this category.
-      const lastReadId = stats.lastReadCuriosity?.[category.id];
-      if (lastReadId) {
-          const index = curiosities.findIndex(c => c.id === lastReadId);
-          if (index !== -1) return index;
-      }
-      // 3. Fallback to the first unread curiosity in this category.
-      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-      if (firstUnreadIndex !== -1) return firstUnreadIndex;
-      // 4. Default to the very first curiosity if all else fails.
-      return 0;
-    };
-
-    setCurrentIndex(findInitialIndex());
-    
-  // The empty dependency array [] ensures this effect runs only once.
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoaded, curiosities.length, initialCuriosityId, category.id]);
-
-
-  // Effect to mark a curiosity as read. This is a controlled side-effect that
-  // runs ONLY when the currentIndex changes.
   useEffect(() => {
     if (currentIndex !== null && isLoaded) {
       const currentCuriosity = curiosities[currentIndex];
       if (currentCuriosity) {
+        // Atualiza a URL sem recarregar a página, para que o compartilhamento funcione
+        const newUrl = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
+        window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
+
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
-  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities]);
+  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities, router]);
 
 
-  // Navigation handlers are now simple state updaters.
   const handleNext = useCallback(() => {
     if (currentIndex === null) return;
     const nextIndex = currentIndex + 1;
@@ -99,23 +85,26 @@ export default function CuriosityExplorer({
   }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
-    if (allCuriosityIds.length <= 1) return;
-  
-    const currentId = curiosities[currentIndex!]?.id;
-    let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
-  
-    let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
+    if (curiosities.length <= 1) return;
 
-    if (unreadIds.length > 0) {
-        availableIds = unreadIds;
+    const currentId = curiosities[currentIndex!]?.id;
+    let available = curiosities.filter(c => c.id !== currentId);
+  
+    // Prioriza as não lidas dentro da categoria atual
+    const unread = available.filter(c => !stats.readCuriosities.includes(c.id));
+    if (unread.length > 0) {
+      available = unread;
     }
 
-    const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
-    
-    // Navigate to the new curiosity's page, which will re-render the component tree correctly.
-    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
+    const randomIndex = Math.floor(Math.random() * available.length);
+    const randomCuriosity = available[randomIndex];
 
-  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
+    // Encontra o índice global na lista original `curiosities`
+    const newIndex = curiosities.findIndex(c => c.id === randomCuriosity.id);
+    if (newIndex !== -1) {
+        setCurrentIndex(newIndex);
+    }
+  }, [curiosities, currentIndex, stats.readCuriosities]);
   
   
   if (curiosities.length === 0) {
@@ -131,7 +120,6 @@ export default function CuriosityExplorer({
     );
   }
   
-  // A single, clear loading state.
   if (currentIndex === null || !isLoaded) {
     return (
          <div className="flex flex-col gap-8">
