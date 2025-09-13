@@ -11,7 +11,9 @@ type CuriosityPageProps = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
+// Converted to an async function to correctly handle params and searchParams
+export default async function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
+  // Await params and searchParams as per Next.js 15+ standards
   const { categoryId } = params;
   const { curiosity: initialCuriosityId } = searchParams;
 
