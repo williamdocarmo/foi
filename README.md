@@ -33,11 +33,38 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
     ```
     O aplicativo estará disponível em `http://localhost:9002`.
 
-4.  **(Opcional) Gere novo conteúdo:**
-    Para popular os arquivos JSON com novas curiosidades e perguntas de quiz usando IA, rode o seguinte comando:
+---
+
+## 🧠 Gerando e Publicando Novo Conteúdo
+
+O conteúdo de curiosidades e quizzes do aplicativo é gerado por IA e armazenado em arquivos JSON dentro de `src/lib/data/`. Para que o novo conteúdo apareça no seu site publicado (deploy), você precisa seguir estes passos:
+
+### Passo 1: Gere o Conteúdo Localmente
+
+Rode o seguinte comando no seu terminal:
+```bash
+npm run generate-content
+```
+Isso irá gerar novas curiosidades e perguntas, adicionando-as aos arquivos `curiosities.json` e `quiz-questions.json`.
+
+### Passo 2: Adicione, "Comite" e Publique as Mudanças
+
+**Este é o passo mais importante.** A Vercel só pode usar os arquivos que estão no seu repositório do GitHub. Após gerar o conteúdo, você precisa salvar essas alterações no Git.
+
+1.  **Adicione os arquivos modificados:**
     ```bash
-    npm run generate-content
+    git add src/lib/data/curiosities.json src/lib/data/quiz-questions.json
     ```
+2.  **Crie um "commit" (um ponto de salvamento):**
+    ```bash
+    git commit -m "Adiciona novo conteúdo de curiosidades e quizzes"
+    ```
+3.  **Envie para o GitHub:**
+    ```bash
+    git push
+    ```
+
+Assim que você fizer o `push`, a Vercel irá detectar as mudanças nos arquivos de conteúdo e iniciar um novo deploy. Em poucos minutos, seu site estará atualizado com as novas curiosidades e perguntas.
 
 ---
 
