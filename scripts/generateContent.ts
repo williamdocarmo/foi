@@ -44,8 +44,8 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // ---------------- CONFIG ----------------
-const CURIOSITIES_TARGET_PER_CATEGORY = 200;
-const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 100;
+const CURIOSITIES_TARGET_PER_CATEGORY = 500;
+const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 250;
 const BATCH_SIZE = 50;
 const MAX_RETRIES = 5;
 const BASE_RETRY_DELAY_MS = 1000; // base for exponential backoff

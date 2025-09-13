@@ -1,4 +1,3 @@
-
 [
   {
     "difficulty": "easy",
@@ -139,5 +138,803 @@
     "explanation": "As hemácias, também chamadas de glóbulos vermelhos, contêm hemoglobina, que transporta oxigênio pelo corpo.",
     "id": "quiz-saude-10",
     "categoryId": "saude"
+  },
+  {
+    "id": "quiz-saude-11",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de proteína vegetal?",
+    "options": [
+      "Arroz branco",
+      "Laranja",
+      "Lentilhas",
+      "Banana"
+    ],
+    "correctAnswer": "Lentilhas",
+    "explanation": "Lentilhas são uma excelente fonte de proteína vegetal, rica em fibras e nutrientes.  Sabia que uma xícara de lentilhas cozidas contém cerca de 18 gramas de proteína?"
+  },
+  {
+    "id": "quiz-saude-12",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Quantos minutos de atividade física moderada são recomendados por dia para adultos?",
+    "options": [
+      "15",
+      "30",
+      "60",
+      "90"
+    ],
+    "correctAnswer": "30",
+    "explanation": "Pelo menos 30 minutos de atividade física moderada na maioria dos dias da semana são recomendados para adultos.  Caminhar, nadar e dançar são exemplos."
+  },
+  {
+    "id": "quiz-saude-13",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual o principal benefício da ingestão regular de ômega-3?",
+    "options": [
+      "Melhora a digestão",
+      "Aumenta a massa muscular",
+      "Reduz a inflamação",
+      "Aumenta a pressão arterial"
+    ],
+    "correctAnswer": "Reduz a inflamação",
+    "explanation": "Ômega-3s são ácidos graxos essenciais com propriedades anti-inflamatórias, importantes para a saúde cardiovascular e cerebral.  São encontrados em peixes gordurosos como salmão."
+  },
+  {
+    "id": "quiz-saude-14",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que significa o termo 'hipertensão'?",
+    "options": [
+      "Pressão arterial baixa",
+      "Níveis altos de açúcar no sangue",
+      "Pressão arterial alta",
+      "Colesterol alto"
+    ],
+    "correctAnswer": "Pressão arterial alta",
+    "explanation": "Hipertensão, ou pressão arterial alta, é um fator de risco para doenças cardíacas e derrames.  É importante monitorar regularmente a pressão arterial."
+  },
+  {
+    "id": "quiz-saude-15",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual hormônio é crucial para regular o açúcar no sangue?",
+    "options": [
+      "Adrenalina",
+      "Insulina",
+      "Testosterona",
+      "Tiroxina"
+    ],
+    "correctAnswer": "Insulina",
+    "explanation": "A insulina, produzida pelo pâncreas, é essencial para o transporte da glicose do sangue para as células.  A deficiência de insulina leva ao diabetes."
+  },
+  {
+    "id": "quiz-saude-16",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destas atividades é considerada um exercício de fortalecimento muscular?",
+    "options": [
+      "Natação",
+      "Yoga",
+      "Levantamento de peso",
+      "Corrida"
+    ],
+    "correctAnswer": "Levantamento de peso",
+    "explanation": "O levantamento de peso é um exercício de resistência que aumenta a força e a massa muscular.  Combine com exercícios aeróbicos para uma saúde completa."
+  },
+  {
+    "id": "quiz-saude-17",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual mineral é essencial para a formação de ossos e dentes fortes?",
+    "options": [
+      "Ferro",
+      "Potássio",
+      "Sódio",
+      "Cálcio"
+    ],
+    "correctAnswer": "Cálcio",
+    "explanation": "O cálcio é vital para a saúde óssea.  Uma dieta rica em cálcio e exposição à luz solar (para produção de vitamina D) são cruciais."
+  },
+  {
+    "id": "quiz-saude-18",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a condição que se caracteriza pela perda progressiva da massa óssea?",
+    "options": [
+      "Osteoporose",
+      "Artrite",
+      "Fibromialgia",
+      "Esclerose Múltipla"
+    ],
+    "correctAnswer": "Osteoporose",
+    "explanation": "A osteoporose aumenta o risco de fraturas.  Exercícios de suporte de peso e uma dieta rica em cálcio e vitamina D podem ajudar na prevenção."
+  },
+  {
+    "id": "quiz-saude-19",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a principal função do fígado?",
+    "options": [
+      "Transportar oxigênio",
+      "Filtrar o sangue",
+      "Produzir hormônios",
+      "Digestão de proteínas"
+    ],
+    "correctAnswer": "Filtrar o sangue",
+    "explanation": "O fígado desempenha muitas funções, incluindo filtrar o sangue, processar nutrientes e produzir bile.  É um órgão vital."
+  },
+  {
+    "id": "quiz-saude-20",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual vitamina é importante para a saúde da visão?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina A",
+      "Vitamina K"
+    ],
+    "correctAnswer": "Vitamina A",
+    "explanation": "A vitamina A é essencial para a saúde dos olhos, prevenindo problemas como cegueira noturna.  Encontrada em vegetais de folhas escuras e cenoura."
+  },
+  {
+    "id": "quiz-saude-21",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de respiração celular que produz a maior parte da energia do corpo?",
+    "options": [
+      "Glicólise",
+      "Ciclo de Krebs",
+      "Cadeia de transporte de elétrons",
+      "Fermentação"
+    ],
+    "correctAnswer": "Cadeia de transporte de elétrons",
+    "explanation": "A cadeia de transporte de elétrons na mitocôndria é a etapa final da respiração celular, gerando a maior parte do ATP (energia celular). "
+  },
+  {
+    "id": "quiz-saude-22",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes é um sintoma comum de desidratação?",
+    "options": [
+      "Aumento de energia",
+      "Pele hidratada",
+      "Sede excessiva",
+      "Aumento da frequência cardíaca"
+    ],
+    "correctAnswer": "Sede excessiva",
+    "explanation": "A sede é um sinal claro de desidratação.  Outros sintomas incluem tontura, fadiga e urina escura."
+  },
+  {
+    "id": "quiz-saude-23",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual é o principal componente do ar que respiramos?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Argônio"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "Embora o oxigênio seja crucial, o nitrogênio compõe cerca de 78% do ar que respiramos.  É um gás inerte."
+  },
+  {
+    "id": "quiz-saude-24",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual doença é causada pela deficiência de vitamina B12?",
+    "options": [
+      "Raquitismo",
+      "Escorbuto",
+      "Anemia perniciosa",
+      "Beribéri"
+    ],
+    "correctAnswer": "Anemia perniciosa",
+    "explanation": "A anemia perniciosa é uma forma de anemia causada pela incapacidade do corpo de absorver vitamina B12. "
+  },
+  {
+    "id": "quiz-saude-25",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina C?",
+    "options": [
+      "Carne vermelha",
+      "Batata",
+      "Laranja",
+      "Arroz"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é uma ótima fonte de vitamina C, um antioxidante importante para o sistema imunológico. "
+  },
+  {
+    "id": "quiz-saude-26",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que significa a sigla IMC?",
+    "options": [
+      "Índice de Massa Corporal",
+      "Índice de Metabolismo Celular",
+      "Índice de Massa Muscular",
+      "Índice de Medidas Corporais"
+    ],
+    "correctAnswer": "Índice de Massa Corporal",
+    "explanation": "O IMC é uma medida utilizada para avaliar se o peso de uma pessoa está adequado para a sua altura."
+  },
+  {
+    "id": "quiz-saude-27",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a função dos glóbulos brancos no sangue?",
+    "options": [
+      "Transportar oxigênio",
+      "Coagular o sangue",
+      "Combater infecções",
+      "Transportar nutrientes"
+    ],
+    "correctAnswer": "Combater infecções",
+    "explanation": "Os glóbulos brancos, ou leucócitos, são células do sistema imunológico responsáveis por combater infecções e doenças."
+  },
+  {
+    "id": "quiz-saude-28",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes é um sinal de boa saúde mental?",
+    "options": [
+      "Isolamento social",
+      "Pensamentos negativos constantes",
+      "Resiliência",
+      "Falta de motivação"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Resiliência é a capacidade de superar adversidades e se recuperar de situações difíceis, um aspecto importante da saúde mental."
+  },
+  {
+    "id": "quiz-saude-29",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual a diferença entre vírus e bactérias?",
+    "options": [
+      "Não há diferença",
+      "Vírus são maiores que bactérias",
+      "Bactérias são tratadas com antivirais",
+      "Vírus precisam de uma célula hospedeira para se reproduzir"
+    ],
+    "correctAnswer": "Vírus precisam de uma célula hospedeira para se reproduzir",
+    "explanation": "Vírus são parasitas intracelulares obrigatórios, necessitando de uma célula hospedeira para se reproduzir. Bactérias são organismos unicelulares que podem se reproduzir independentemente."
+  },
+  {
+    "id": "quiz-saude-30",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre exercícios aeróbicos e anaeróbicos?",
+    "options": [
+      "Não há diferença",
+      "Aeróbicos usam oxigênio, anaeróbicos não",
+      "Anaeróbicos usam oxigênio, aeróbicos não",
+      "Aeróbicos são mais intensos que anaeróbicos"
+    ],
+    "correctAnswer": "Aeróbicos usam oxigênio, anaeróbicos não",
+    "explanation": "Exercícios aeróbicos utilizam oxigênio para produzir energia, enquanto exercícios anaeróbicos produzem energia sem oxigênio, como em atividades de alta intensidade e curta duração."
+  },
+  {
+    "id": "quiz-saude-31",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual o corpo remove resíduos?",
+    "options": [
+      "Respiração",
+      "Digestão",
+      "Excreção",
+      "Circulação"
+    ],
+    "correctAnswer": "Excreção",
+    "explanation": "A excreção é o processo de remoção de resíduos metabólicos do corpo, incluindo urina, suor e fezes."
+  },
+  {
+    "id": "quiz-saude-32",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual destes alimentos é uma boa fonte de ferro?",
+    "options": [
+      "Leite",
+      "Abacate",
+      "Espinafre",
+      "Cenoura"
+    ],
+    "correctAnswer": "Espinafre",
+    "explanation": "O espinafre é uma boa fonte de ferro não-heme, embora a absorção possa ser melhorada com o consumo de vitamina C."
+  },
+  {
+    "id": "quiz-saude-33",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual é o papel da flora intestinal na saúde?",
+    "options": [
+      "Não tem papel relevante",
+      "Ajuda na digestão e absorção de nutrientes",
+      "Causa doenças intestinais",
+      "Produz hormônios sexuais"
+    ],
+    "correctAnswer": "Ajuda na digestão e absorção de nutrientes",
+    "explanation": "A flora intestinal, ou microbiota, desempenha um papel crucial na digestão, imunidade e produção de vitaminas."
+  },
+  {
+    "id": "quiz-saude-34",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "O que é a taxa metabólica basal?",
+    "options": [
+      "A quantidade de calorias queimadas em repouso",
+      "A quantidade de água consumida diariamente",
+      "A quantidade de exercícios realizados semanalmente",
+      "A quantidade de sono necessário diariamente"
+    ],
+    "correctAnswer": "A quantidade de calorias queimadas em repouso",
+    "explanation": "A taxa metabólica basal (TMB) é a quantidade de energia que o corpo gasta em repouso para manter as funções vitais."
+  },
+  {
+    "id": "quiz-saude-35",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual é o impacto do estresse crônico na saúde?",
+    "options": [
+      "Nenhum impacto",
+      "Melhora o sistema imunológico",
+      "Aumenta o risco de doenças crônicas",
+      "Aumenta a produção de energia"
+    ],
+    "correctAnswer": "Aumenta o risco de doenças crônicas",
+    "explanation": "O estresse crônico está associado a um aumento do risco de doenças cardíacas, diabetes, ansiedade e depressão."
+  },
+  {
+    "id": "quiz-saude-36",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de formação de novas células?",
+    "options": [
+      "Apoptose",
+      "Citose",
+      "Mitose",
+      "Meiose"
+    ],
+    "correctAnswer": "Mitose",
+    "explanation": "A mitose é o processo de divisão celular que resulta em duas células filhas idênticas à célula-mãe."
+  },
+  {
+    "id": "quiz-saude-37",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual é a importância do sono para a saúde?",
+    "options": [
+      "Não é importante",
+      "Ajuda na recuperação física e mental",
+      "Aumenta a fome",
+      "Diminui a concentração"
+    ],
+    "correctAnswer": "Ajuda na recuperação física e mental",
+    "explanation": "O sono é essencial para a reparação celular, consolidação da memória e regulação do humor."
+  },
+  {
+    "id": "quiz-saude-38",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que é uma dieta equilibrada?",
+    "options": [
+      "Comer apenas um tipo de alimento",
+      "Consumir todos os grupos alimentares em quantidades adequadas",
+      "Comer apenas alimentos orgânicos",
+      "Comer o quanto quiser"
+    ],
+    "correctAnswer": "Consumir todos os grupos alimentares em quantidades adequadas",
+    "explanation": "Uma dieta equilibrada inclui frutas, legumes, grãos, proteínas e laticínios em proporções adequadas para garantir todos os nutrientes necessários."
+  },
+  {
+    "id": "quiz-saude-39",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a relação entre a microbiota intestinal e o sistema imunológico?",
+    "options": [
+      "Não há relação",
+      "A microbiota inibe o sistema imunológico",
+      "A microbiota fortalece o sistema imunológico",
+      "A microbiota não afeta o sistema imunológico"
+    ],
+    "correctAnswer": "A microbiota fortalece o sistema imunológico",
+    "explanation": "A microbiota intestinal desempenha um papel crucial no desenvolvimento e na regulação do sistema imunológico."
+  },
+  {
+    "id": "quiz-saude-40",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual é a principal função dos pulmões?",
+    "options": [
+      "Bombear sangue",
+      "Digestão dos alimentos",
+      "Troca gasosa",
+      "Armazenar oxigênio"
+    ],
+    "correctAnswer": "Troca gasosa",
+    "explanation": "Os pulmões são responsáveis pela troca de oxigênio e dióxido de carbono entre o sangue e o ar."
+  },
+  {
+    "id": "quiz-saude-41",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que é colesterol HDL?",
+    "options": [
+      "Colesterol ruim",
+      "Colesterol bom",
+      "Tipo de açúcar no sangue",
+      "Tipo de gordura saturada"
+    ],
+    "correctAnswer": "Colesterol bom",
+    "explanation": "O colesterol HDL (lipoproteína de alta densidade) é considerado o colesterol bom, pois ajuda a remover o colesterol ruim das artérias."
+  },
+  {
+    "id": "quiz-saude-42",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de envelhecimento celular?",
+    "options": [
+      "Senescência",
+      "Apoptose",
+      "Mitose",
+      "Meiose"
+    ],
+    "correctAnswer": "Senescência",
+    "explanation": "A senescência celular é o processo pelo qual as células param de se dividir e entram em um estado de envelhecimento."
+  },
+  {
+    "id": "quiz-saude-43",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a importância da hidratação para o corpo?",
+    "options": [
+      "Não é importante",
+      "Regula a temperatura corporal",
+      "Aumenta a fome",
+      "Diminui a concentração"
+    ],
+    "correctAnswer": "Regula a temperatura corporal",
+    "explanation": "A água é essencial para regular a temperatura corporal, transportar nutrientes e eliminar toxinas."
+  },
+  {
+    "id": "quiz-saude-44",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que são radicais livres?",
+    "options": [
+      "Moléculas estáveis",
+      "Moléculas instáveis que danificam as células",
+      "Tipo de vitamina",
+      "Tipo de mineral"
+    ],
+    "correctAnswer": "Moléculas instáveis que danificam as células",
+    "explanation": "Os radicais livres são moléculas instáveis que podem danificar as células e contribuir para o envelhecimento e doenças."
+  },
+  {
+    "id": "quiz-saude-45",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o papel dos antioxidantes na saúde?",
+    "options": [
+      "Causam danos às células",
+      "Protegem as células dos danos dos radicais livres",
+      "Aumentam a produção de radicais livres",
+      "Não tem papel na saúde"
+    ],
+    "correctAnswer": "Protegem as células dos danos dos radicais livres",
+    "explanation": "Os antioxidantes neutralizam os radicais livres, protegendo as células dos danos oxidativos."
+  },
+  {
+    "id": "quiz-saude-46",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual é o melhor tipo de gordura para a saúde?",
+    "options": [
+      "Gorduras saturadas",
+      "Gorduras trans",
+      "Gorduras monoinsaturadas",
+      "Gorduras polinsaturadas"
+    ],
+    "correctAnswer": "Gorduras monoinsaturadas",
+    "explanation": "Gorduras monoinsaturadas e polinsaturadas são consideradas gorduras saudáveis e benéficas para o corpo."
+  },
+  {
+    "id": "quiz-saude-47",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual o papel da vitamina D na saúde?",
+    "options": [
+      "Fortalecimento dos ossos",
+      "Regulação da pressão arterial",
+      "Melhora a digestão",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A vitamina D é essencial para a saúde óssea, regulação da pressão arterial e imunidade."
+  },
+  {
+    "id": "quiz-saude-48",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre saúde física e saúde mental?",
+    "options": [
+      "Não há diferença",
+      "Saúde física é o bem-estar físico, saúde mental é o bem-estar emocional e psicológico",
+      "Saúde física é a ausência de doença, saúde mental é a presença de felicidade",
+      "Saúde física é mais importante que saúde mental"
+    ],
+    "correctAnswer": "Saúde física é o bem-estar físico, saúde mental é o bem-estar emocional e psicológico",
+    "explanation": "Ambas são interdependentes e essenciais para um bem-estar completo."
+  },
+  {
+    "id": "quiz-saude-49",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual atividade física aumenta a capacidade respiratória?",
+    "options": [
+      "Levantamento de peso",
+      "Yoga",
+      "Natação",
+      "Caminhada"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "A natação é uma atividade que exige esforço respiratório e melhora a capacidade pulmonar."
+  },
+  {
+    "id": "quiz-saude-50",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a principal função do sistema imunológico?",
+    "options": [
+      "Regular a temperatura corporal",
+      "Transportar oxigênio pelo corpo",
+      "Proteger o corpo contra doenças",
+      "Processar alimentos para obter energia"
+    ],
+    "correctAnswer": "Proteger o corpo contra doenças",
+    "explanation": "O sistema imunológico defende o corpo contra invasores como bactérias, vírus e fungos.  Curiosidade:  Seu sistema imunológico é tão complexo quanto o cérebro humano!"
+  },
+  {
+    "id": "quiz-saude-51",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de vitamina C?",
+    "options": [
+      "Carne vermelha",
+      "Arroz branco",
+      "Laranja",
+      "Batata frita"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é rica em vitamina C, um antioxidante importante para a saúde imunológica. Curiosidade:  A vitamina C é uma vitamina hidrossolúvel, o que significa que o corpo não a armazena."
+  },
+  {
+    "id": "quiz-saude-52",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que é a síndrome metabólica?",
+    "options": [
+      "Uma infecção viral comum",
+      "Um conjunto de condições que aumentam o risco de doenças cardíacas, diabetes e derrame",
+      "Uma doença autoimune que afeta as articulações",
+      "Um tipo de alergia alimentar"
+    ],
+    "correctAnswer": "Um conjunto de condições que aumentam o risco de doenças cardíacas, diabetes e derrame",
+    "explanation": "A síndrome metabólica inclui hipertensão, níveis elevados de açúcar no sangue, excesso de gordura abdominal e níveis anormais de colesterol. Curiosidade:  Mudanças no estilo de vida, como dieta e exercícios, podem ajudar a gerenciar a síndrome metabólica."
+  },
+  {
+    "id": "quiz-saude-53",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual hormônio regula o ciclo menstrual feminino?",
+    "options": [
+      "Insulina",
+      "Adrenalina",
+      "Estrógeno",
+      "Testosterona"
+    ],
+    "correctAnswer": "Estrógeno",
+    "explanation": "O estrógeno desempenha um papel crucial no desenvolvimento sexual feminino e no ciclo menstrual. Curiosidade: Os níveis de estrógeno flutuam ao longo do ciclo menstrual."
+  },
+  {
+    "id": "quiz-saude-54",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o papel da microbiota intestinal na prevenção de doenças autoimunes?",
+    "options": [
+      "Não tem relação comprovada",
+      "Aumenta a inflamação intestinal, piorando as doenças autoimunes",
+      "Regula a resposta imunológica, diminuindo a probabilidade de desenvolver doenças autoimunes",
+      "Produz anticorpos que atacam o próprio organismo, exacerbando a doença"
+    ],
+    "correctAnswer": "Regula a resposta imunológica, diminuindo a probabilidade de desenvolver doenças autoimunes",
+    "explanation": "A microbiota intestinal saudável ajuda a educar o sistema imunológico, prevenindo reações autoimunes. Curiosidade:  Desequilíbrios na microbiota intestinal (disbiose) estão associados a várias doenças autoimunes."
+  },
+  {
+    "id": "quiz-saude-55",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o mecanismo de ação dos anti-inflamatórios não esteroidais (AINEs)?",
+    "options": [
+      "Bloqueio da produção de histamina",
+      "Inibição da enzima ciclooxigenase (COX)",
+      "Estimulação da produção de cortisol",
+      "Aumento da produção de leucotrienos"
+    ],
+    "correctAnswer": "Inibição da enzima ciclooxigenase (COX)",
+    "explanation": "Os AINEs reduzem a inflamação ao inibir a COX, enzima responsável pela produção de prostaglandinas, mediadores da inflamação. Curiosidade: O uso prolongado de AINEs pode causar problemas gastrointestinais."
+  },
+  {
+    "id": "quiz-saude-56",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual a principal função dos rins?",
+    "options": [
+      "Digestão de alimentos",
+      "Filtração do sangue",
+      "Produção de hormônios",
+      "Transporte de oxigênio"
+    ],
+    "correctAnswer": "Filtração do sangue",
+    "explanation": "Os rins filtram o sangue, removendo resíduos e excesso de água. Curiosidade:  Os rins também produzem hormônios importantes para a regulação da pressão arterial e produção de glóbulos vermelhos."
+  },
+  {
+    "id": "quiz-saude-57",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual o melhor tipo de exercício para fortalecer os ossos?",
+    "options": [
+      "Natação",
+      "Yoga",
+      "Corrida",
+      "Musculação"
+    ],
+    "correctAnswer": "Musculação",
+    "explanation": "Exercícios de peso, como musculação, estimulam a formação óssea. Curiosidade:  A densidade mineral óssea diminui com a idade, mas exercícios podem ajudar a prevenir a osteoporose."
+  },
+  {
+    "id": "quiz-saude-58",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "O que é apneia do sono?",
+    "options": [
+      "Doença causada por falta de vitamina D",
+      "Condição em que a respiração para repetidamente durante o sono",
+      "Distúrbio que causa dor nas articulações",
+      "Tipo de alergia alimentar"
+    ],
+    "correctAnswer": "Condição em que a respiração para repetidamente durante o sono",
+    "explanation": "A apneia do sono pode levar à sonolência diurna excessiva e outros problemas de saúde. Curiosidade:  A perda de peso e tratamentos como CPAP podem ajudar a tratar a apneia do sono."
+  },
+  {
+    "id": "quiz-saude-59",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual nutriente é essencial para a formação de hemoglobina?",
+    "options": [
+      "Vitamina C",
+      "Cálcio",
+      "Ferro",
+      "Magnésio"
+    ],
+    "correctAnswer": "Ferro",
+    "explanation": "O ferro é crucial para a produção de hemoglobina, proteína que transporta oxigênio no sangue. Curiosidade: A deficiência de ferro pode levar à anemia."
+  },
+  {
+    "id": "quiz-saude-60",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o processo que converte alimentos em energia utilizável pelo corpo?",
+    "options": [
+      "Digestão",
+      "Respiração",
+      "Metabolismo",
+      "Circulação"
+    ],
+    "correctAnswer": "Metabolismo",
+    "explanation": "O metabolismo engloba todas as reações químicas que ocorrem no corpo para converter alimentos em energia. Curiosidade:  A taxa metabólica basal varia de pessoa para pessoa."
+  },
+  {
+    "id": "quiz-saude-61",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre estresse agudo e estresse crônico?",
+    "options": [
+      "Não há diferença significativa",
+      "O estresse agudo é breve e o crônico é prolongado",
+      "O estresse agudo é benéfico e o crônico é prejudicial",
+      "O estresse agudo afeta a mente e o crônico o corpo"
+    ],
+    "correctAnswer": "O estresse agudo é breve e o crônico é prolongado",
+    "explanation": "O estresse agudo é uma resposta natural a situações desafiadoras, enquanto o crônico, prolongado, pode causar sérios danos à saúde. Curiosidade:  Técnicas de manejo do estresse, como meditação e ioga, podem ser úteis."
+  },
+  {
+    "id": "quiz-saude-62",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes é um sinal de desidratação?",
+    "options": [
+      "Pele hidratada",
+      "Urina clara e abundante",
+      "Sede excessiva",
+      "Energia elevada"
+    ],
+    "correctAnswer": "Sede excessiva",
+    "explanation": "A sede é um sinal importante de desidratação. Curiosidade:  Beber água regularmente é essencial para a saúde."
+  },
+  {
+    "id": "quiz-saude-63",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o papel da leptina na regulação do apetite?",
+    "options": [
+      "Aumenta o apetite",
+      "Diminui o apetite",
+      "Não tem relação com o apetite",
+      "Regula o metabolismo basal"
+    ],
+    "correctAnswer": "Diminui o apetite",
+    "explanation": "A leptina, hormônio produzido pelo tecido adiposo, sinaliza ao cérebro a saciedade, diminuindo o apetite. Curiosidade:  A resistência à leptina pode contribuir para a obesidade."
+  },
+  {
+    "id": "quiz-saude-64",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "Qual o mecanismo de ação da insulina?",
+    "options": [
+      "Aumenta os níveis de glicose no sangue",
+      "Diminui os níveis de glicose no sangue",
+      "Aumenta a pressão arterial",
+      "Diminui a frequência cardíaca"
+    ],
+    "correctAnswer": "Diminui os níveis de glicose no sangue",
+    "explanation": "A insulina facilita a entrada de glicose nas células, reduzindo sua concentração no sangue. Curiosidade:  A deficiência de insulina leva ao diabetes tipo 1."
+  },
+  {
+    "id": "quiz-saude-65",
+    "categoryId": "saude",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em fibras?",
+    "options": [
+      "Pizza",
+      "Refrigerante",
+      "Aveia",
+      "Sorvete"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é uma excelente fonte de fibras, importantes para a saúde digestiva. Curiosidade:  As fibras insolúveis promovem o funcionamento intestinal regular."
+  },
+  {
+    "id": "quiz-saude-66",
+    "categoryId": "saude",
+    "difficulty": "medium",
+    "question": "Qual vitamina é importante para a saúde dos olhos?",
+    "options": [
+      "Vitamina K",
+      "Vitamina A",
+      "Vitamina B12",
+      "Vitamina D"
+    ],
+    "correctAnswer": "Vitamina A",
+    "explanation": "A vitamina A é essencial para a visão, contribuindo para a saúde da retina. Curiosidade:  A deficiência de vitamina A pode levar à cegueira noturna."
+  },
+  {
+    "id": "quiz-saude-67",
+    "categoryId": "saude",
+    "difficulty": "hard",
+    "question": "O que é a aterosclerose?",
+    "options": [
+      "Infecção bacteriana",
+      "Acúmulo de placa nas artérias",
+      "Doença autoimune",
+      "Tipo de câncer"
+    ],
+    "correctAnswer": "Acúmulo de placa nas artérias",
+    "explanation": "A aterosclerose é o acúmulo de placa nas artérias, levando ao estreitamento dos vasos sanguíneos. Curiosidade:  É um fator de risco principal para doenças cardíacas."
   }
 ]

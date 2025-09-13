@@ -1,0 +1,110 @@
+[
+  {
+    "id": "viagens-1",
+    "categoryId": "viagens",
+    "title": "A Ilha Perdida de São Brandão",
+    "hook": "Incrível: Uma lenda marítima!",
+    "content": "A Ilha Perdida de São Brandão, mencionada em manuscritos medievais, intriga estudiosos até hoje.  Sua localização exata é desconhecida, alimentando teorias sobre ilhas efêmeras, ilusões de óptica ou mesmo um local real, perdido ao tempo.  A saga do santo e suas viagens repletas de mistério continuam a fascinar.",
+    "funFact": "Alguns acreditam que a ilha era uma visão de um navio fantasma.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-2",
+    "categoryId": "viagens",
+    "title": "Os Mapas Secretos dos Piratas",
+    "hook": "Tesouros: Mapas...",
+    "content": "Os mapas dos piratas eram muitas vezes desenhados com símbolos ocultos e pistas enigmáticas, com o objetivo de esconder a localização de seus tesouros de outros piratas e autoridades.  A decifração desses mapas é um desafio para historiadores e caçadores de tesouros.",
+    "funFact": "Alguns mapas usavam sistemas de coordenadas inusitados.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-3",
+    "categoryId": "viagens",
+    "title": "A Cidade Submersa de Shicheng",
+    "hook": "Incrível: Uma cidade inteira...",
+    "content": "Shicheng, na China, é uma cidade antiga submersa no fundo de um lago artificial.  Templos, casas e ruas permanecem intactos sob a água, criando um cenário surreal e misterioso.  Arqueólogos ainda exploram seus segredos, revelando a vida cotidiana de seus habitantes há séculos. Uma verdadeira cápsula do tempo subaquática!",
+    "funFact": "É possível mergulhar e explorar ruínas de mais de 1300 anos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-4",
+    "categoryId": "viagens",
+    "title": "O Enigma do Lago Natron",
+    "hook": "Você sabia que...",
+    "content": "O Lago Natron, na Tanzânia, possui águas alcalinas tão corrosivas que petrificam animais que se aproximam. Criaturas que morrem perto da água são transformadas em estátuas naturais, um processo de mumificação único. A paisagem surreal é um espetáculo aterrorizante e fascinante.",
+    "funFact": "Aves que pousam na água podem se transformar em pedra!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-5",
+    "categoryId": "viagens",
+    "title": "A Floresta de Pedra de Madagascar",
+    "hook": "Prepare-se para se surpreender...",
+    "content": "As formações rochosas de Madagascar parecem uma floresta petrificada, um cenário de outro planeta. Esculpidas pelo vento e pela chuva por milênios, estas estruturas de arenito oferecem uma jornada única e uma vista de tirar o fôlego. Uma paisagem que transcende a imaginação!",
+    "funFact": "Algumas formações têm mais de 20 metros de altura!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-6",
+    "categoryId": "viagens",
+    "title": "As Ilhas Flutuantes do Titicaca",
+    "hook": "Incrível arquitetura...",
+    "content": "As ilhas flutuantes do Lago Titicaca, no Peru e na Bolívia, são construídas com totora, uma planta aquática.  As comunidades que vivem nessas ilhas mantém uma tradição milenar, adaptando-se a um estilo de vida único em um ambiente instável.  Um testemunho de resiliência e engenhosidade.",
+    "funFact": "As ilhas são completamente orgânicas e se movem lentamente com o lago!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-7",
+    "categoryId": "viagens",
+    "title": "O Deserto de Cristal",
+    "hook": "Você sabia que existem...",
+    "content": "O Deserto de Cristal, no Atacama, no Chile, é um dos lugares mais secos da Terra, com gigantescos cristais de sal esculpindo uma paisagem sobrenatural.  A beleza desolada e a ausência de vida criam uma atmosfera única e marcante. Uma paisagem alienígena!",
+    "funFact": "Alguns cristais pesam toneladas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-8",
+    "categoryId": "viagens",
+    "title": "A Estrada do Fim do Mundo",
+    "hook": "Prepare-se para uma aventura...",
+    "content": "A Ruta 40, na Argentina, atravessa mais de 5 mil quilômetros, serpenteando por paisagens deslumbrantes, desde as montanhas andinas até os lagos patagônicos. Esta icônica rota oferece uma experiência de viagem inesquecível, cruzando regiões remotas e culturas distintas. Uma jornada épica!",
+    "funFact": "A estrada cruza três zonas climáticas diferentes!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-9",
+    "categoryId": "viagens",
+    "title": "O Vulcão Sangrento de Dallol",
+    "hook": "Prepare-se para se assustar...",
+    "content": "O vulcão Dallol, na Etiópia, é um dos lugares mais inóspitos e coloridos da Terra. Com sua paisagem surreal, fontes termais quentes e piscinas de água altamente ácida, ele forma um cenário alienígena com cores vibrantes. Um lugar que lembra outro planeta.",
+    "funFact": "A temperatura média anual é superior a 34 graus Celsius!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-10",
+    "categoryId": "viagens",
+    "title": "O Deserto de Atacama, o mais árido do mundo",
+    "hook": "Incrível: Deserto...",
+    "content": "Situado no Chile, o Deserto do Atacama é um dos lugares mais secos do planeta.  Sua paisagem árida e desolada abriga um ecossistema único e fascinante,  com algumas áreas que não viram chuva por décadas. Um lugar de beleza extrema e contraste.",
+    "funFact": "Algumas partes não registram chuva há mais de 400 anos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-11",
+    "categoryId": "viagens",
+    "title": "O Caminho Inca, uma jornada histórica",
+    "hook": "Você sabia que...",
+    "content": "O Caminho Inca, no Peru, é uma antiga rede de trilhas que ligava o Império Inca.  A trilha mais famosa leva a Machu Picchu e oferece uma experiência inesquecível, cruzando montanhas, florestas e sítios arqueológicos. Uma viagem para a história.",
+    "funFact": "A trilha original possuía mais de 40.000 km de extensão!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-12",
+    "categoryId": "viagens",
+    "title": "O Mar Morto, o ponto mais baixo da Terra",
+    "hook": "Prepare-se para flutuar...",
+    "content": "Localizado entre Israel e a Jordânia, o Mar Morto é o ponto mais baixo da superfície terrestre. Sua alta concentração de sal permite que as pessoas flutuem facilmente. Suas águas ricas em minerais são conhecidas por suas propriedades terapêuticas. Uma experiência única!",
+    "funFact": "É tão salgado que é impossível afogar-se!",
+    "curiosityLevel": 2
+  }
+]

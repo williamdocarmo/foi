@@ -1,0 +1,65 @@
+[
+  {
+    "id": "musica-1",
+    "categoryId": "musica",
+    "title": "O Segredo por Trás do Assobio de Mozart",
+    "hook": "Incrível: ",
+    "content": "Mozart, além de gênio, era um mestre do assobio.  Ele compunha e improvisava melodias complexas usando apenas o assobio, um talento raramente registrado em suas anotações.  Acredita-se que essa habilidade influenciou sua escrita musical, adicionando nuances sutis e inesperadas em suas composições.",
+    "funFact": "Há registros de que Mozart usava o assobio para compor em segredo, evitando distrações.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "musica-2",
+    "categoryId": "musica",
+    "title": "A Música do Silêncio",
+    "hook": "Incrível: O poder do silêncio na música.",
+    "content": "O silêncio, muitas vezes esquecido, é um elemento fundamental na composição musical.  Pausas estratégicas criam tensão, enfatizam notas subsequentes e permitem que o ouvinte processe a informação musical.  Desde a música clássica até o jazz, o uso do silêncio varia, mas seu impacto é sempre significativo.  O silêncio pode ser tão poderoso quanto qualquer nota tocada.",
+    "funFact": "Há composições inteiramente baseadas no silêncio, explorando sua capacidade expressiva.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "musica-3",
+    "categoryId": "musica",
+    "title": "O Mistério da Escala Maçônica",
+    "hook": "Incrível: Uma escala musical secreta?",
+    "content": "Diz a lenda que os maçons utilizavam uma escala musical secreta em suas cerimônias.  Embora não haja evidências concretas, a especulação persiste, adicionando um toque de mistério à história da música e à própria ordem maçônica. A busca por essa escala hipotética continua.",
+    "funFact": "Algumas teorias associam essa escala a frequências específicas com efeitos supostamente esotéricos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "musica-4",
+    "categoryId": "musica",
+    "title": "A Influência da Música na Guerra",
+    "hook": "Incrível: O poder da música na guerra.",
+    "content": "A música foi usada em guerras para diversos fins: como propaganda, para aumentar a moral das tropas, e mesmo como forma de tortura psicológica.  A análise da música de épocas de guerra pode revelar muito sobre o contexto histórico e a mentalidade da época.",
+    "funFact": "Marchas militares foram meticulosamente compostas para motivar soldados e manter a ordem.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "musica-5",
+    "categoryId": "musica",
+    "title": "A Música dos Tubarões",
+    "hook": "Incrível: tubarões se comunicam musicalmente?",
+    "content": "Estudos recentes sugerem que tubarões utilizam baixas frequências sonoras para se comunicar, criando uma espécie de 'música' submarina.  Essas comunicações, ainda pouco compreendidas, parecem envolver a localização de presas e a interação social entre os animais.  A complexidade dessa 'linguagem' sonora é surpreendente.",
+    "funFact": "Algumas espécies conseguem detectar vibrações a quilômetros de distância!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "musica-6",
+    "categoryId": "musica",
+    "title": "O Ritmo do Coração Musical",
+    "hook": "Você sabia que...",
+    "content": "A pulsação rítmica da música pode afetar diretamente a frequência cardíaca do ouvinte, sincronizando-a com o ritmo da composição.  Isso explica a sensação de energia ou calma que diferentes gêneros musicais provocam, mostrando a profunda ligação entre música e fisiologia humana.",
+    "funFact": "Músicas lentas podem reduzir a frequência cardíaca em até 10 batimentos por minuto!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "musica-7",
+    "categoryId": "musica",
+    "title": "O Enigma da Melodia Perdida de Bach",
+    "hook": "Incrível: uma partitura desaparecida!",
+    "content": "Um manuscrito com uma suposta obra inédita de Johann Sebastian Bach desapareceu misteriosamente do Arquivo Estatal de Leipzig em 1945.  Acredita-se que continha uma peça para órgão de complexidade excepcional, nunca antes ouvida.  A busca por esse tesouro musical continua até hoje, alimentando a imaginação dos estudiosos.",
+    "funFact": "Há rumores de que a partitura foi escondida por um colecionador privado.",
+    "curiosityLevel": 4
+  }
+]

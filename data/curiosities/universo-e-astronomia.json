@@ -1,0 +1,515 @@
+[
+  {
+    "id": "universo-e-astronomia-1",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Enigma do Buraco Negro Duplo",
+    "hook": "Incrível: Buracos negros se fundem!",
+    "content": "Recentes observações detectaram a colisão de dois buracos negros supermassivos, gerando ondas gravitacionais incrivelmente poderosas.  O evento, captado por detectores terrestres, forneceu dados valiosos sobre a dinâmica desses objetos cósmicos enigmáticos e sua influência na estrutura do espaço-tempo. A energia liberada foi simplesmente colossal.",
+    "funFact": "A fusão liberou mais energia em um instante do que todas as estrelas da Via Láctea juntas em um ano!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-2",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas Vagabundos: Perdidos no Espaço",
+    "hook": "Você sabia que existem planetas sem estrela?",
+    "content": "Existem planetas errantes, sem uma estrela hospedeira, vagando pela vastidão do espaço interestelar.  Sua origem é um mistério, mas acredita-se que eles foram ejetados de seus sistemas solares originais.  Esses planetas solitários, frios e escuros, representam um capítulo ainda pouco compreendido da formação planetária.",
+    "funFact": "Estima-se que existam bilhões desses planetas em nossa galáxia!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-3",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Dança Cósmica das Galáxias",
+    "hook": "As galáxias se atraem!",
+    "content": "As galáxias não estão estáticas; elas interagem gravitacionalmente, orbitando umas às outras em complexas danças cósmicas.  Essas interações podem resultar em colisões espetaculares, remodelando as galáxias e desencadeando a formação de novas estrelas. A Via Láctea, por exemplo, está em rota de colisão com Andrômeda.",
+    "funFact": "A colisão da Via Láctea com Andrômeda acontecerá em bilhões de anos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-4",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Neutróns: Gigantes Compactos",
+    "hook": "Incrível: Uma colher pesa bilhões de toneladas!",
+    "content": "Estrelas de nêutrons são os restos extremamente densos de estrelas massivas que explodiram como supernovas.  Uma colher de chá de material de uma estrela de nêutrons pesaria bilhões de toneladas na Terra. Sua rotação extremamente rápida gera poderosos campos magnéticos.",
+    "funFact": "Seu campo magnético é trilhões de vezes mais forte que o da Terra!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-5",
+    "categoryId": "universo-e-astronomia",
+    "title": "Nuvens de poeira cósmica: Berçários estelares",
+    "hook": "Você sabia que as estrelas nascem em berçários?",
+    "content": "Enormes nuvens de gás e poeira interestelar, chamadas nebulosas, são os locais de nascimento de estrelas.  Dentro dessas nebulosas, a gravidade faz com que o gás e a poeira se aglomerem, formando protoestrelas que eventualmente se tornam estrelas brilhantes.  É um processo contínuo de criação estelar.",
+    "funFact": "Algumas nebulosas são tão grandes que podem conter milhares de estrelas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-6",
+    "categoryId": "universo-e-astronomia",
+    "title": "O brilho misterioso dos Quasares",
+    "hook": "Quasares: os objetos mais brilhantes!",
+    "content": "Quasares são os objetos mais brilhantes e distantes do universo.  Eles são alimentados por buracos negros supermassivos nos centros de galáxias distantes.  Sua energia é liberada pela matéria que cai em direção ao buraco negro, produzindo um brilho intenso que pode ser visto a bilhões de anos-luz.",
+    "funFact": "Um único quasar pode superar o brilho de trilhões de estrelas!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-7",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Expansão Acelerada do Universo",
+    "hook": "O universo está crescendo!",
+    "content": "Observações recentes demonstram que a expansão do universo está acelerando.  Essa aceleração é atribuída a uma misteriosa força chamada energia escura, que compõe a maior parte da massa-energia do universo e sua natureza ainda é um grande enigma para a ciência.",
+    "funFact": "A energia escura representa cerca de 70% do universo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-8",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Matéria Escura: Um Mistério Cósmico",
+    "hook": "Você sabia que a matéria escura é invisível?",
+    "content": "A matéria escura é uma forma de matéria invisível que constitui a maior parte da massa do universo.  Ela não interage com a luz, mas sua presença é inferida através de seus efeitos gravitacionais sobre a matéria visível.  Sua natureza precisa continua sendo um dos maiores mistérios da astrofísica.",
+    "funFact": "A matéria escura representa cerca de 25% do universo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-9",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Anéis além de Saturno",
+    "hook": "Incrível: Júpiter, Urano e Netuno também tem anéis!",
+    "content": "Embora os anéis de Saturno sejam os mais conhecidos, Júpiter, Urano e Netuno também possuem sistemas de anéis, embora sejam menos brilhantes e menos extensos que os de Saturno.  Esses anéis são compostos por partículas de gelo e poeira, e sua origem e evolução ainda são objetos de estudo.",
+    "funFact": "Os anéis de Urano são muito escuros, quase invisíveis!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-10",
+    "categoryId": "universo-e-astronomia",
+    "title": "Supernovas: Mortes Estelares Explosivas",
+    "hook": "Você sabia que estrelas explodem?",
+    "content": "Supernovas são explosões estelares extremamente energéticas que marcam o fim da vida de estrelas massivas.  Esses eventos são tão brilhantes que podem superar brevemente o brilho de toda a sua galáxia. As supernovas são cruciais para a dispersão de elementos pesados no universo.",
+    "funFact": "Uma supernova pode brilhar mais que bilhões de sóis!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-11",
+    "categoryId": "universo-e-astronomia",
+    "title": "Pulsares: Faróis Cósmicos",
+    "hook": "Você sabia que existem estrelas que piscam?",
+    "content": "Pulsares são estrelas de nêutrons que giram rapidamente e emitem feixes de radiação eletromagnética.  Esses feixes varrem o espaço como um farol, e quando o feixe atinge a Terra, detectamos pulsos regulares de radiação.  São objetos extremamente densos e com campos magnéticos intensos.",
+    "funFact": "Um pulsar pode girar centenas de vezes por segundo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-12",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Grande Mancha Vermelha de Júpiter",
+    "hook": "Incrível: Uma tempestade gigante!",
+    "content": "A Grande Mancha Vermelha de Júpiter é uma enorme tempestade anticiclônica que persiste há pelo menos 400 anos.  É muito maior que a Terra e é um dos fenômenos mais notáveis do nosso Sistema Solar. Sua dinâmica e longevidade continuam a intrigar os cientistas.",
+    "funFact": "A tempestade é tão grande que poderia engolir a Terra inteira!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-13",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Vida Extraterrestre",
+    "hook": "Estamos sozinhos no universo?",
+    "content": "A busca por vida extraterrestre é um dos maiores desafios científicos.  Com o avanço da tecnologia, mais exoplanetas habitáveis estão sendo descobertos, aumentando as chances de encontrarmos evidências de vida além da Terra.  A busca envolve a detecção de bioassinaturas em planetas distantes.",
+    "funFact": "Existem bilhões de bilhões de estrelas na Via Láctea!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-14",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Radiação Cósmica de Fundo",
+    "hook": "Você sabia que existe um eco do Big Bang?",
+    "content": "A radiação cósmica de fundo em micro-ondas (CMB) é um brilho fraco e uniforme que permeia todo o universo.  Ela é considerada o eco do Big Bang, a explosão primordial que deu origem ao universo.  O estudo do CMB fornece informações valiosas sobre os estágios iniciais do universo.",
+    "funFact": "A CMB é a radiação mais antiga que podemos observar!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-15",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Nebulosa do Caranguejo: Restos de uma Supernova",
+    "hook": "Você sabia que existem nebulosas?",
+    "content": "A Nebulosa do Caranguejo é um remanescente de supernova, o resultado da explosão de uma estrela massiva observada em 1054.  Ela contém um pulsar no seu centro, que gira rapidamente e emite radiação.  É um objeto fascinante para estudar a evolução estelar.",
+    "funFact": "A nebulosa está se expandindo a uma velocidade incrível!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-16",
+    "categoryId": "universo-e-astronomia",
+    "title": "Anãs Brancas: Restos Estelares Compactos",
+    "hook": "Incrível: Estrelas do tamanho da Terra!",
+    "content": "Anãs brancas são restos estelares densos, do tamanho da Terra, que restam após a morte de estrelas de massa baixa ou média.  Elas são suportadas pela pressão de degeneração eletrônica, evitando que entrem em colapso sob sua própria gravidade. Com o tempo, se resfriam e escurecem.",
+    "funFact": "Uma colher de chá de material de uma anã branca pesaria toneladas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-17",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Água em Marte",
+    "hook": "Existe água em Marte?",
+    "content": "A busca por evidências de água em Marte é uma prioridade na exploração espacial.  A descoberta de gelo de água e possíveis fluxos de água salgada aumentam a possibilidade de que o planeta vermelho já abrigou ou ainda abriga vida microbiana. O estudo de Marte é crucial para entendermos a evolução dos planetas rochosos.",
+    "funFact": "A água em Marte pode estar em forma de gelo ou sob a superfície!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-18",
+    "categoryId": "universo-e-astronomia",
+    "title": "Cometas: Visitantes Gelados do Sistema Solar",
+    "hook": "Você sabia que cometas são bolas de gelo e poeira?",
+    "content": "Cometas são corpos celestes compostos por gelo, poeira e rochas.  Quando se aproximam do Sol, o gelo sublima, liberando gás e poeira, formando uma cauda brilhante. Cometas são restos da formação do Sistema Solar e podem fornecer informações sobre sua história.",
+    "funFact": "Alguns cometas têm caudas que se estendem por milhões de quilômetros!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-19",
+    "categoryId": "universo-e-astronomia",
+    "title": "Asteroides: Vestígios da Formação Planetária",
+    "hook": "Incrível: Milhões de asteroides!",
+    "content": "Asteroides são corpos rochosos relativamente pequenos que orbitam o Sol, principalmente no cinturão de asteroides entre Marte e Júpiter.  Eles são considerados vestígios da formação do Sistema Solar e podem fornecer informações sobre sua composição e evolução. A colisão de um asteroide com a Terra pode ter consequências catastróficas.",
+    "funFact": "O cinturão de asteroides contém milhões de asteroides!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-20",
+    "categoryId": "universo-e-astronomia",
+    "title": "Meteoritos: Mensageiros do Espaço",
+    "hook": "Você sabia que pedras caem do céu?",
+    "content": "Meteoritos são fragmentos de asteroides ou cometas que sobrevivem à passagem pela atmosfera terrestre e atingem o solo.  Eles podem fornecer informações valiosas sobre a composição de outros corpos celestes e a história do Sistema Solar. O estudo de meteoritos é crucial para entender a origem do nosso sistema planetário.",
+    "funFact": "Alguns meteoritos contêm moléculas orgânicas!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-21",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Calendário Cósmico: Uma Escala de Tempo do Universo",
+    "hook": "Incrível: 13,8 bilhões de anos em um ano!",
+    "content": "O calendário cósmico é uma representação da história do universo em uma escala de tempo de um ano.  Nesse calendário, o Big Bang ocorre em 1º de janeiro e eventos significativos, como a formação do Sistema Solar, são representados em datas específicas.  É uma forma útil de visualizar a escala de tempo cósmica.",
+    "funFact": "A existência humana é apenas um pequeno instante nesse calendário!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-22",
+    "categoryId": "universo-e-astronomia",
+    "title": "As Constelações: Padrões Estelares no Céu",
+    "hook": "Você sabia que as constelações são apenas padrões visuais?",
+    "content": "As constelações são grupos de estrelas que parecem formar padrões no céu noturno.  Embora esses padrões sejam apenas projeções visuais, eles têm sido usados pelas diferentes culturas para contar histórias e navegar.  As constelações são úteis para localizar objetos celestes no céu.",
+    "funFact": "As estrelas de uma constelação podem estar a distâncias muito diferentes!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "universo-e-astronomia-23",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Via Láctea: Nossa Galáxia Espiral",
+    "hook": "Incrível: Bilhões de estrelas!",
+    "content": "A Via Láctea é uma galáxia espiral onde se encontra o nosso Sistema Solar.  Ela contém bilhões de estrelas, gás, poeira e matéria escura.  Sua estrutura espiral é formada por braços onde se concentram a maior parte das estrelas. A Via Láctea faz parte de um grupo de galáxias chamado Grupo Local.",
+    "funFact": "A Via Láctea tem um diâmetro de cerca de 100.000 anos-luz!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-24",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Luz das Estrelas: Viagens pelo Espaço",
+    "hook": "Você sabia que a luz das estrelas viaja anos-luz?",
+    "content": "A luz das estrelas leva anos, ou mesmo milhões de anos, para chegar à Terra.  A distância da estrela determina quanto tempo a luz leva para viajar até nós. Observar as estrelas é como olhar para o passado, pois vemos a luz como era quando foi emitida.",
+    "funFact": "A luz do Sol leva aproximadamente 8 minutos para chegar à Terra!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "universo-e-astronomia-25",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Lua: Nossa Companheira Celestial",
+    "hook": "Incrível: A força gravitacional da Lua causa marés!",
+    "content": "A Lua é o único satélite natural da Terra.  Sua gravidade influencia as marés oceânicas, e sua presença no céu tem influenciado a cultura e a mitologia humana desde a antiguidade.  A Lua desempenha um papel importante no equilíbrio ambiental da Terra.",
+    "funFact": "A Lua está se afastando lentamente da Terra!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "universo-e-astronomia-26",
+    "categoryId": "universo-e-astronomia",
+    "title": "Eclipses Solares: Um Fenômeno Cósmico",
+    "hook": "Você sabia que a Lua bloqueia o Sol?",
+    "content": "Os eclipses solares ocorrem quando a Lua passa entre o Sol e a Terra, bloqueando parcial ou totalmente a luz solar.  Eclipses solares totais são eventos raros e impressionantes.  O estudo dos eclipses fornece informações sobre a órbita da Lua e a estrutura do Sol.",
+    "funFact": "Eclipses solares totais são visíveis apenas em uma pequena área da Terra!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-27",
+    "categoryId": "universo-e-astronomia",
+    "title": "Eclipses Lunares: A Sombra da Terra na Lua",
+    "hook": "Incrível: A Terra projeta uma sombra na Lua!",
+    "content": "Os eclipses lunares ocorrem quando a Terra passa entre o Sol e a Lua, projetando sua sombra na Lua.  Durante um eclipse lunar total, a Lua adquire uma tonalidade avermelhada devido à refração da luz solar na atmosfera terrestre.  É um espetáculo celeste notável.",
+    "funFact": "A cor avermelhada da Lua durante um eclipse lunar é conhecida como 'Lua de Sangue'!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-28",
+    "categoryId": "universo-e-astronomia",
+    "title": "Auroras Boreal e Austral: Luzes do Céu Noturno",
+    "hook": "Você sabia que existem luzes no céu polar?",
+    "content": "As auroras boreais (no hemisfério norte) e as auroras austrais (no hemisfério sul) são espetáculos de luz que ocorrem nas regiões polares.  Elas são causadas pela interação de partículas carregadas do Sol com a atmosfera terrestre.  As auroras são um fenômeno natural de beleza estonteante.",
+    "funFact": "As auroras podem ter diversas cores, incluindo verde, vermelho e azul!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-29",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Sol: Nossa Estrela Vital",
+    "hook": "Incrível: O Sol é uma bola de gás!",
+    "content": "O Sol é uma estrela de sequência principal, uma gigantesca bola de gás incandescente que fornece luz e calor à Terra.  Sua energia é produzida por reações de fusão nuclear em seu núcleo.  O Sol é crucial para a vida na Terra.",
+    "funFact": "O Sol contém 99,86% da massa do Sistema Solar!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "universo-e-astronomia-30",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Atmosfera do Sol: Camadas de Gás",
+    "hook": "Você sabia que o Sol tem uma atmosfera?",
+    "content": "A atmosfera do Sol é composta por várias camadas, incluindo a fotosfera (superfície visível), a cromosfera e a coroa (camada externa).  A coroa é muito mais quente que a fotosfera, um fenômeno que ainda é objeto de estudo.  Erupções solares e ejeções de massa coronal ocorrem na atmosfera solar.",
+    "funFact": "A temperatura da coroa solar pode atingir milhões de graus Celsius!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-31",
+    "categoryId": "universo-e-astronomia",
+    "title": "Os Planetas Rochosos: Mercúrio, Vênus, Terra e Marte",
+    "hook": "Incrível: Planetas rochosos são diferentes!",
+    "content": "Mercúrio, Vênus, Terra e Marte são os planetas rochosos do nosso Sistema Solar, caracterizados por superfícies sólidas.  Eles são menores e mais densos que os planetas gigantes gasosos.  Cada um tem características únicas que refletem sua história geológica e evolução.",
+    "funFact": "Mercúrio é o planeta mais próximo do Sol!",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "universo-e-astronomia-32",
+    "categoryId": "universo-e-astronomia",
+    "title": "Satélites Naturais: Luas Orbitando Planetas",
+    "hook": "Incrível: Júpiter tem mais de 70 luas!",
+    "content": "Satélites naturais, ou luas, são objetos celestes que orbitam planetas.  Júpiter e Saturno têm um grande número de satélites, alguns dos quais são bastante grandes e interessantes.  Estudar as luas ajuda a entender a formação e a evolução dos sistemas planetários.",
+    "funFact": "Titã, lua de Saturno, tem uma atmosfera mais densa que a da Terra!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-33",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Cinturão de Kuiper: Região Transnetuniana",
+    "hook": "Você sabia que existe uma região além de Netuno?",
+    "content": "O Cinturão de Kuiper é uma região do Sistema Solar além da órbita de Netuno, contendo milhares de objetos gelados, incluindo planetas anões como Plutão.  Esses objetos são remanescentes da formação do Sistema Solar e podem fornecer informações sobre sua história.",
+    "funFact": "Plutão é considerado um planeta anão e reside no Cinturão de Kuiper!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-34",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Nuvem de Oort: Uma Esfera de Cometas",
+    "hook": "Incrível: Uma esfera de cometas envolve o Sistema Solar!",
+    "content": "A Nuvem de Oort é uma região hipotética que cerca o Sistema Solar a uma distância muito grande, contendo trilhões de cometas.  Acredita-se que seja a fonte de muitos cometas de longo período que visitam o Sistema Solar interno.  Sua existência é inferida, ainda não foi confirmada diretamente.",
+    "funFact": "A Nuvem de Oort pode ser uma esfera de gelo e poeira com um raio de um ano-luz!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-35",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Hélio: Gigantes Raros",
+    "hook": "Incrível: Estrelas sem hidrogênio!",
+    "content": "Ao contrário da maioria das estrelas, que se formam principalmente de hidrogênio, as estrelas de hélio são formadas quase exclusivamente por hélio.  Sua formação é um mistério ainda não totalmente compreendido, possivelmente resultando de colisões estelares ou da evolução de sistemas binários.  Elas são muito raras e representam um capítulo fascinante da evolução estelar.",
+    "funFact": "Algumas estrelas de hélio podem ter massas superiores a 0,5 massas solares, desafiando as teorias iniciais sobre sua formação.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-36",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Chuvas de Vidro",
+    "hook": "Você sabia que...",
+    "content": "Em alguns exoplanetas, a atmosfera é tão quente e densa que chuvas de vidro são uma realidade!  O calor extremo vaporiza os silicatos, que se condensam em gotículas de vidro na alta atmosfera e caem em forma de chuva. É uma visão surreal, e um dos muitos exemplos da diversidade extrema de mundos além do nosso sistema solar.",
+    "funFact": "Essas chuvas de vidro podem atingir velocidades incríveis, devido à intensa gravidade de alguns desses planetas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-37",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias Canibais: Fusões Cósmicas",
+    "hook": "Impressionante: Galáxias se devoram!",
+    "content": "As galáxias, apesar de sua imensa extensão, não são entidades estáticas.  Através da força gravitacional, galáxias menores são frequentemente 'engolidas' por outras maiores, em um processo chamado canibalismo galáctico.  Nossa própria Via Láctea já consumiu outras galáxias menores ao longo de sua história.",
+    "funFact": "Esse processo de fusão pode resultar em mudanças drásticas na forma e estrutura da galáxia maior.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-38",
+    "categoryId": "universo-e-astronomia",
+    "title": "Ondas Gravitacionais: Eco do Big Bang",
+    "hook": "Descubra: As ondas do tempo!",
+    "content": "As ondas gravitacionais são ondulações no espaço-tempo, previstas por Einstein e detectadas pela primeira vez em 2015.  Elas são geradas por eventos cósmicos extremamente energéticos, como a colisão de buracos negros.  Seu estudo oferece informações inigualáveis sobre os eventos mais violentos do universo e os primeiros momentos após o Big Bang.",
+    "funFact": "A detecção de ondas gravitacionais abriu uma nova janela para a observação do universo, a astronomia gravitacional.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-39",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Matéria Escura: Um Mistério Persistente",
+    "hook": "Você sabia que...",
+    "content": "A matéria escura compõe cerca de 85% da matéria do universo, mas permanece invisível aos nossos telescópios.  Sua existência é inferida através de seus efeitos gravitacionais sobre a matéria visível. A sua natureza exata é um dos maiores mistérios da astrofísica moderna.",
+    "funFact": "Acredita-se que a matéria escura desempenha um papel crucial na formação e estrutura de galáxias.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-40",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Energia Escura: A Força Repulsiva",
+    "hook": "Incrível: O universo está acelerando!",
+    "content": "A energia escura é uma força misteriosa que está acelerando a expansão do universo.  Ao contrário da gravidade, ela exerce uma força repulsiva, empurrando as galáxias umas das outras.  Sua natureza é ainda mais enigmática que a da matéria escura.",
+    "funFact": "A energia escura constitui cerca de 68% da densidade de energia total do universo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-41",
+    "categoryId": "universo-e-astronomia",
+    "title": "Anãs Marrons: Estrelas Falhas",
+    "hook": "Você sabia que...",
+    "content": "As anãs marrons são objetos celestes intermediários entre planetas gigantes e estrelas.  Elas não possuem massa suficiente para iniciar a fusão nuclear de hidrogênio em seu núcleo, mas podem fundir deutério, um isótopo de hidrogênio.  Elas são difíceis de detectar e ainda pouco conhecidas.",
+    "funFact": "Anãs marrons emitem principalmente radiação infravermelha.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-42",
+    "categoryId": "universo-e-astronomia",
+    "title": "Nuvens Moleculares Gigantes: Berçários Estelares",
+    "hook": "Você sabia que...",
+    "content": "Estas imensas nuvens de gás e poeira são o local de nascimento das estrelas. As nuvens moleculares gigantes são frias e densas, criando condições ideais para que o colapso gravitacional forme estrelas. Sua estrutura complexa é um campo de intensa pesquisa.",
+    "funFact": "Uma única nuvem molecular gigante pode conter matéria suficiente para formar milhões de estrelas.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-43",
+    "categoryId": "universo-e-astronomia",
+    "title": "Efeito de Lente Gravitacional: Amplificação Cósmica",
+    "hook": "Impressionante: A gravidade como lente!",
+    "content": "A gravidade de objetos massivos, como galáxias, pode curvar a trajetória da luz, atuando como uma lente gravitacional. Este efeito amplia a luz de objetos distantes, permitindo a observação de galáxias e objetos muito mais distantes do que seria possível sem essa amplificação.",
+    "funFact": "Este efeito nos permite observar objetos extremamente distantes, próximos ao início do universo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-44",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Grande Atração: Uma Força Misteriosa",
+    "hook": "Impressionante: Uma atração invisível!",
+    "content": "O Grupo Local de galáxias, incluindo a Via Láctea, está sendo puxado em direção a um ponto no espaço conhecido como a Grande Atração.  A causa deste movimento não é totalmente compreendida, possivelmente devido a uma grande concentração de massa escura.",
+    "funFact": "A Grande Atração é tão poderosa que afeta o movimento de centenas de milhões de galáxias.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-45",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Atmosferas Extremamente Densas",
+    "hook": "Incrível: Atmosferas sufocantes!",
+    "content": "Existem planetas com atmosferas tão densas que a pressão na superfície é milhares de vezes maior que a da Terra. Imagine o peso de inúmeras toneladas sobre você! Essa pressão extrema deforma rochas e metais, criando paisagens inimagináveis.  A composição química dessas atmosferas também é surpreendente, com gases tóxicos e densidades impossíveis de serem replicadas em laboratório.",
+    "funFact": "Em alguns desses planetas, a chuva é de metais líquidos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-46",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Quase Zero Gravidade?",
+    "hook": "Você sabia que...",
+    "content": "Existem estrelas tão massivas que a força da sua própria gravidade é quase anulada pela força da radiação emitida. Esse equilíbrio delicado faz com que elas se expandam até tamanhos colossais, mas sem explodir imediatamente.  É um estado de equilíbrio instável e de curta duração na vida estelar.",
+    "funFact": "Algumas chegam a ter diâmetros maiores que a órbita de Júpiter!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-47",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias Anãs: Gigantes Subestimadas",
+    "hook": "Incrível:",
+    "content": "Embora pequenas em comparação com galáxias como a Via Láctea, as galáxias anãs desempenham um papel crucial na formação e evolução das galáxias maiores. Elas são ricas em matéria escura e podem ser consideradas blocos de construção fundamentais no universo.  Sua abundância é surpreendente.",
+    "funFact": "A Via Láctea 'canibalizou' inúmeras galáxias anãs ao longo de sua história!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-48",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Força Misteriosa do Vazio",
+    "hook": "Incrível:",
+    "content": "Existem vastas regiões do universo, chamadas de vazios, que são quase completamente desprovidas de matéria.  A sua origem e o que as mantém tão vazias são um mistério, mas sua influência na estrutura em larga escala do universo é significativa.",
+    "funFact": "Alguns vazios são tão grandes que poderiam conter centenas de galáxias!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-49",
+    "categoryId": "universo-e-astronomia",
+    "title": "Poeira de Estrelas Antigas",
+    "hook": "Você sabia que...",
+    "content": "A poeira cósmica que observamos hoje contém elementos forjados no coração de estrelas que morreram há bilhões de anos.  Nós somos, literalmente, feitos de poeira de estrelas.  A análise desta poeira revela a história da formação e evolução do universo.",
+    "funFact": "Cada átomo do seu corpo já fez parte de uma estrela!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-50",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Efeito de Lente Gravitacional",
+    "hook": "Incrível:",
+    "content": "Objetos massivos, como galáxias, podem distorcer a luz que passa por perto, agindo como lentes gravitacionais.  Esse fenômeno permite que os astrônomos observem objetos distantes e fracos que, de outra forma, seriam invisíveis. É uma ferramenta poderosa para sondar o universo profundo.",
+    "funFact": "Podemos ver galáxias muito distantes, amplificadas pela gravidade de galáxias mais próximas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-51",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Calendário Cósmico em Detalhe",
+    "hook": "Incrível:",
+    "content": "Se o universo fosse comprimido em um único ano, a história da Terra seria um mero instante no último dia de Dezembro, destacando a imensidão de tempo envolvida na história cósmica.  Essa escala temporal nos permite compreender a grandeza do universo e nosso lugar nele.",
+    "funFact": "A humanidade apareceria apenas nos últimos segundos do dia 31 de Dezembro!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-52",
+    "categoryId": "universo-e-astronomia",
+    "title": "As Constelações em Evolução",
+    "hook": "Incrível:",
+    "content": "As constelações que vemos hoje não são estáticas; as estrelas se movem lentamente no espaço, o que significa que a forma das constelações mudará gradualmente ao longo de milhares de anos.  No futuro distante, o céu noturno terá um aspecto muito diferente.",
+    "funFact": "Em milhões de anos, as constelações como as conhecemos terão desaparecido!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-53",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Oceanos de Metano",
+    "hook": "Incrível: mares de metano!",
+    "content": "Em alguns exoplanetas, a temperatura e pressão permitem a existência de oceanos de metano líquido, um cenário totalmente diferente do que conhecemos na Terra.  Imagine mares de um líquido inflamável, refletindo uma luz avermelhada e etérea sob o céu de um exoplaneta distante. Esses mundos alienígenas oferecem vislumbres de química e física extraterrestres fascinantes.",
+    "funFact": "Chuvas de metano líquido são uma possibilidade em alguns desses planetas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-54",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Galáxia Fantasma",
+    "hook": "Assombroso:",
+    "content": "Descoberta recentemente, a galáxia NGC 1277 é uma galáxia elíptica que apresenta uma composição estelar surpreendentemente antiga, sem quase nenhuma formação de estrelas recentes. Isso questiona os modelos atuais sobre a evolução galáctica e sugere que existem caminhos evolutivos ainda desconhecidos.",
+    "funFact": "Ela parece estar 'presa no tempo'.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-55",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Anéis de Poeira",
+    "hook": "Incrível:",
+    "content": "Além dos anéis de gelo famosos de Saturno, outros planetas podem apresentar sistemas de anéis feitos de poeira. Estes anéis são mais difíceis de observar, mas sua existência revela dinâmicas orbitais complexas e a interação gravitacional entre planetas e seus satélites.",
+    "funFact": "Júpiter, Urano e Netuno também possuem anéis de poeira.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-56",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Enigma dos Rápidos Rádio Burst",
+    "hook": "Misterioso:",
+    "content": "Os FRBs (Fast Radio Bursts) são explosões de energia de rádio extremamente poderosas e de curta duração que se originam de locais distantes do universo.  Sua origem e mecanismo ainda são um enigma que desafia os astrônomos, com teorias variando de colisões de estrelas de nêutrons a atividade alienígena.",
+    "funFact": "Eles liberam mais energia em milissegundos do que o Sol em um ano.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-57",
+    "categoryId": "universo-e-astronomia",
+    "title": "Nebulosas Planetárias Bipolares",
+    "hook": "Você sabia que...",
+    "content": "Algumas nebulosas planetárias exibem formas simétricas e alongadas, quase como horas-areia cósmicas. Essas formas bipolares são resultado de complexas interações magnéticas e de campos de vento estelar, revelando a beleza e a complexidade das fases finais da vida de uma estrela.",
+    "funFact": "Sua forma é esculpida por campos magnéticos.",
+    "curiosityLevel": 3
+  }
+]

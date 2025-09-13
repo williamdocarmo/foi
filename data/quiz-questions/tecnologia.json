@@ -1,0 +1,800 @@
+[
+  {
+    "id": "quiz-tecnologia-1",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destes NÃO é um sistema operacional?",
+    "options": [
+      "Windows",
+      "Android",
+      "Chrome",
+      "macOS"
+    ],
+    "correctAnswer": "Chrome",
+    "explanation": "Chrome é um navegador web, enquanto os outros são sistemas operacionais.  Curiosidade: O Chrome OS é um sistema operacional baseado no Chrome, mas o próprio Chrome não é um SO."
+  },
+  {
+    "id": "quiz-tecnologia-2",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "O que significa a sigla CPU?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Power Unit",
+      "Computer Processing Utility"
+    ],
+    "correctAnswer": "Central Processing Unit",
+    "explanation": "CPU significa Unidade Central de Processamento, o 'cérebro' do seu computador. Curiosidade: A velocidade de um CPU é medida em GHz (gigahertz)."
+  },
+  {
+    "id": "quiz-tecnologia-3",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas unidades de armazenamento é geralmente a mais rápida?",
+    "options": [
+      "Disco rígido (HDD)",
+      "SSD (Solid State Drive)",
+      "Pendrive",
+      "Cartão de memória"
+    ],
+    "correctAnswer": "SSD (Solid State Drive)",
+    "explanation": "SSDs são significativamente mais rápidos que HDDs porque não possuem partes móveis. Curiosidade:  SSDs usam memória flash para armazenar dados."
+  },
+  {
+    "id": "quiz-tecnologia-4",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual linguagem de programação é conhecida por sua utilização em desenvolvimento web frontend?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "JavaScript é essencial para interatividade e dinâmica em páginas web. Curiosidade: Apesar do nome, JavaScript tem pouca relação com Java."
+  },
+  {
+    "id": "quiz-tecnologia-5",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um algoritmo?",
+    "options": [
+      "Um tipo de software malicioso",
+      "Um conjunto de instruções para resolver um problema",
+      "Um tipo de hardware",
+      "Uma linguagem de programação"
+    ],
+    "correctAnswer": "Um conjunto de instruções para resolver um problema",
+    "explanation": "Algoritmos são a base da programação e são usados em diversas áreas da computação. Curiosidade:  Até receitas de bolo podem ser consideradas algoritmos!"
+  },
+  {
+    "id": "quiz-tecnologia-6",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual o protocolo usado para navegação segura na internet?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "HTTPS",
+      "SMTP"
+    ],
+    "correctAnswer": "HTTPS",
+    "explanation": "HTTPS utiliza criptografia para proteger a comunicação entre o navegador e o servidor. Curiosidade:  O 'S' em HTTPS significa 'Secure'."
+  },
+  {
+    "id": "quiz-tecnologia-7",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre RAM e ROM?",
+    "options": [
+      "RAM é permanente, ROM é volátil",
+      "RAM é volátil, ROM é permanente",
+      "Ambas são voláteis",
+      "Ambas são permanentes"
+    ],
+    "correctAnswer": "RAM é volátil, ROM é permanente",
+    "explanation": "RAM (memória de acesso aleatório) é temporária e perde os dados quando o computador é desligado. ROM (memória somente leitura) é permanente e retém informações mesmo sem energia. Curiosidade: A BIOS do seu computador reside na ROM."
+  },
+  {
+    "id": "quiz-tecnologia-8",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um firewall?",
+    "options": [
+      "Um tipo de software antivírus",
+      "Um sistema de segurança que controla o tráfego de rede",
+      "Um tipo de hardware de armazenamento",
+      "Um protocolo de comunicação"
+    ],
+    "correctAnswer": "Um sistema de segurança que controla o tráfego de rede",
+    "explanation": "Firewalls protegem sua rede contra acessos não autorizados. Curiosidade: Firewalls podem ser tanto de software quanto de hardware."
+  },
+  {
+    "id": "quiz-tecnologia-9",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual tecnologia permite a comunicação sem fio entre dispositivos próximos?",
+    "options": [
+      "Ethernet",
+      "Wi-Fi",
+      "Bluetooth",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Bluetooth",
+    "explanation": "Bluetooth é uma tecnologia de comunicação de curto alcance. Curiosidade: Bluetooth recebeu o nome em homenagem ao rei dinamarquês Harald Blåtand (Bluetooth)."
+  },
+  {
+    "id": "quiz-tecnologia-10",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual destes NÃO é um exemplo de software de edição de imagem?",
+    "options": [
+      "Adobe Photoshop",
+      "GIMP",
+      "Microsoft Word",
+      "Paint.NET"
+    ],
+    "correctAnswer": "Microsoft Word",
+    "explanation": "Microsoft Word é um processador de texto, enquanto os outros são softwares de edição de imagem. Curiosidade: O GIMP é uma alternativa gratuita e de código aberto ao Photoshop."
+  },
+  {
+    "id": "quiz-tecnologia-11",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual tecla de atalho geralmente copia um item selecionado?",
+    "options": [
+      "Ctrl+V",
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+Z"
+    ],
+    "correctAnswer": "Ctrl+C",
+    "explanation": "Ctrl+C copia o item selecionado para a área de transferência. Curiosidade:  Ctrl+X corta o item selecionado."
+  },
+  {
+    "id": "quiz-tecnologia-12",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "O que significa URL?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "Unified Resource Locator",
+      "Unique Resource Locator"
+    ],
+    "correctAnswer": "Uniform Resource Locator",
+    "explanation": "URL é o endereço de um recurso na internet. Curiosidade: URLs podem apontar para páginas web, imagens, vídeos, etc."
+  },
+  {
+    "id": "quiz-tecnologia-13",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual o significado de 'bug' em programação?",
+    "options": [
+      "Um vírus de computador",
+      "Um erro no código",
+      "Um tipo de malware",
+      "Uma atualização de software"
+    ],
+    "correctAnswer": "Um erro no código",
+    "explanation": "Um bug é um defeito no código que causa um comportamento inesperado. Curiosidade: A origem da palavra 'bug' na informática é uma lenda que envolve uma mariposa encontrada em um computador."
+  },
+  {
+    "id": "quiz-tecnologia-14",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre código fonte e código compilado?",
+    "options": [
+      "Não há diferença",
+      "Código fonte é escrito em linguagem de máquina, código compilado é escrito em linguagem de alto nível",
+      "Código fonte é escrito em linguagem de alto nível, código compilado é escrito em linguagem de máquina",
+      "Código fonte é executado diretamente, código compilado precisa de um interpretador"
+    ],
+    "correctAnswer": "Código fonte é escrito em linguagem de alto nível, código compilado é escrito em linguagem de máquina",
+    "explanation": "Código fonte é legível por humanos; código compilado é traduzido para instruções que o computador entende diretamente. Curiosidade: Compiladores convertem o código fonte em código de máquina."
+  },
+  {
+    "id": "quiz-tecnologia-15",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual a função de um modem?",
+    "options": [
+      "Converter sinais digitais em analógicos e vice-versa",
+      "Armazenar dados",
+      "Processar informações",
+      "Imprimir documentos"
+    ],
+    "correctAnswer": "Converter sinais digitais em analógicos e vice-versa",
+    "explanation": "Modems permitem a comunicação entre computadores através de linhas telefônicas ou outras conexões. Curiosidade:  A palavra 'modem' vem da contração de 'modulador-demodulador'."
+  },
+  {
+    "id": "quiz-tecnologia-16",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas extensões de arquivo é comumente associada a arquivos de imagem?",
+    "options": [
+      ".txt",
+      ".doc",
+      ".jpg",
+      ".exe"
+    ],
+    "correctAnswer": ".jpg",
+    "explanation": ".jpg é uma extensão comum para arquivos de imagem JPEG. Curiosidade:  Existem muitos outros formatos de imagem, como PNG, GIF, TIFF, etc."
+  },
+  {
+    "id": "quiz-tecnologia-17",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um banco de dados relacional?",
+    "options": [
+      "Um banco de dados que armazena informações em tabelas relacionadas",
+      "Um banco de dados que armazena informações em um formato hierárquico",
+      "Um banco de dados que armazena informações em um formato de chave-valor",
+      "Um banco de dados que armazena informações em arquivos separados"
+    ],
+    "correctAnswer": "Um banco de dados que armazena informações em tabelas relacionadas",
+    "explanation": "Bancos de dados relacionais usam o modelo relacional para organizar os dados. Curiosidade: SQL (Structured Query Language) é a linguagem comum usada para interagir com bancos de dados relacionais."
+  },
+  {
+    "id": "quiz-tecnologia-18",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual tecnologia permite o acesso à internet via satélite?",
+    "options": [
+      "DSL",
+      "Cabo",
+      "Fibra óptica",
+      "Satélite"
+    ],
+    "correctAnswer": "Satélite",
+    "explanation": "Conexões via satélite usam satélites para transmitir dados. Curiosidade: Conexões via satélite costumam ter maior latência que conexões terrestres."
+  },
+  {
+    "id": "quiz-tecnologia-19",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual a função de um roteador?",
+    "options": [
+      "Enviar e receber emails",
+      "Imprimir documentos",
+      "Direcionar o tráfego de rede",
+      "Armazenar arquivos"
+    ],
+    "correctAnswer": "Direcionar o tráfego de rede",
+    "explanation": "Roteadores conectam múltiplos dispositivos à internet e gerenciam o fluxo de dados. Curiosidade: Roteadores podem ter diferentes funcionalidades como firewall e QoS (Quality of Service)."
+  },
+  {
+    "id": "quiz-tecnologia-20",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual destes é um exemplo de linguagem de marcação?",
+    "options": [
+      "Java",
+      "Python",
+      "HTML",
+      "C#"
+    ],
+    "correctAnswer": "HTML",
+    "explanation": "HTML (HyperText Markup Language) é usada para estruturar páginas web. Curiosidade: XML e XHTML são outras linguagens de marcação."
+  },
+  {
+    "id": "quiz-tecnologia-21",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é virtualização?",
+    "options": [
+      "Criar um sistema operacional virtual",
+      "Criar um servidor virtual",
+      "Criar um ambiente computacional simulado",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Virtualização permite a criação de múltiplos ambientes computacionais em um único hardware. Curiosidade: Virtualização é usada em cloud computing, data centers, e em máquinas pessoais."
+  },
+  {
+    "id": "quiz-tecnologia-22",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual dispositivo de entrada é usado para controlar um cursor na tela?",
+    "options": [
+      "Impressora",
+      "Monitor",
+      "Mouse",
+      "Teclado"
+    ],
+    "correctAnswer": "Mouse",
+    "explanation": "O mouse é um dispositivo apontador. Curiosidade:  Existem diferentes tipos de mouse, como mouse óptico e mouse trackball."
+  },
+  {
+    "id": "quiz-tecnologia-23",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um sistema de gerenciamento de banco de dados (SGBD)?",
+    "options": [
+      "Software para gerenciar bancos de dados",
+      "Hardware para armazenar dados",
+      "Um tipo de linguagem de programação",
+      "Um protocolo de comunicação"
+    ],
+    "correctAnswer": "Software para gerenciar bancos de dados",
+    "explanation": "SGBDs como MySQL, PostgreSQL e Oracle, fornecem ferramentas para criar, manipular e acessar bancos de dados. Curiosidade:  SGBDs garantem a integridade e segurança dos dados."
+  },
+  {
+    "id": "quiz-tecnologia-24",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é uma API?",
+    "options": [
+      "Interface de Programação de Aplicativos",
+      "Aplicativo de Programação Interativa",
+      "Interface de Programação de Aplicações",
+      "Aplicativo de Programação Independente"
+    ],
+    "correctAnswer": "Interface de Programação de Aplicativos",
+    "explanation": "APIs permitem que diferentes softwares se comuniquem e troquem dados. Curiosidade:  Muitos serviços online disponibilizam APIs para que desenvolvedores possam integrar suas aplicações."
+  },
+  {
+    "id": "quiz-tecnologia-25",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual extensão de arquivo indica um arquivo de vídeo?",
+    "options": [
+      ".txt",
+      ".pdf",
+      ".mp4",
+      ".docx"
+    ],
+    "correctAnswer": ".mp4",
+    "explanation": ".mp4 é um formato de vídeo comum. Curiosidade:  Existem muitos outros formatos de vídeo, como AVI, MOV, MKV, etc."
+  },
+  {
+    "id": "quiz-tecnologia-26",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa 'cloud computing'?",
+    "options": [
+      "Armazenamento de dados em nuvem",
+      "Processamento de dados em servidores remotos",
+      "Armazenamento e processamento de dados em servidores remotos",
+      "Um tipo de software antivírus"
+    ],
+    "correctAnswer": "Armazenamento e processamento de dados em servidores remotos",
+    "explanation": "Cloud computing oferece serviços de computação sob demanda através da internet. Curiosidade:  Exemplos de provedores de cloud computing são AWS, Azure e Google Cloud."
+  },
+  {
+    "id": "quiz-tecnologia-27",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um algoritmo de criptografia?",
+    "options": [
+      "Um algoritmo para comprimir dados",
+      "Um algoritmo para codificar e decodificar informações",
+      "Um algoritmo para proteger hardware",
+      "Um algoritmo para melhorar a velocidade da internet"
+    ],
+    "correctAnswer": "Um algoritmo para codificar e decodificar informações",
+    "explanation": "Algoritmos de criptografia são usados para proteger informações confidenciais. Curiosidade: Existem diferentes tipos de criptografia, como simétrica e assimétrica."
+  },
+  {
+    "id": "quiz-tecnologia-28",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual tecla de atalho geralmente desfaz a última ação?",
+    "options": [
+      "Ctrl+C",
+      "Ctrl+V",
+      "Ctrl+Z",
+      "Ctrl+X"
+    ],
+    "correctAnswer": "Ctrl+Z",
+    "explanation": "Ctrl+Z desfaz a última ação. Curiosidade: Ctrl+Y refaz a última ação desfeita."
+  },
+  {
+    "id": "quiz-tecnologia-29",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual a função de um driver?",
+    "options": [
+      "Acelerar a velocidade do computador",
+      "Controlar um dispositivo de hardware",
+      "Proteger o computador de vírus",
+      "Aumentar a memória RAM"
+    ],
+    "correctAnswer": "Controlar um dispositivo de hardware",
+    "explanation": "Drivers permitem que o sistema operacional se comunique com dispositivos de hardware. Curiosidade: Drivers precisam ser atualizados periodicamente para melhor desempenho e compatibilidade."
+  },
+  {
+    "id": "quiz-tecnologia-30",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um sistema operacional de tempo real?",
+    "options": [
+      "Um sistema operacional para jogos",
+      "Um sistema operacional que garante que as tarefas sejam executadas dentro de um tempo limite predefinido",
+      "Um sistema operacional para dispositivos móveis",
+      "Um sistema operacional para servidores"
+    ],
+    "correctAnswer": "Um sistema operacional que garante que as tarefas sejam executadas dentro de um tempo limite predefinido",
+    "explanation": "Sistemas operacionais de tempo real são críticos em aplicações onde a resposta rápida é essencial. Curiosidade:  São usados em sistemas de controle industrial, aviônicos e outros sistemas embarcados."
+  },
+  {
+    "id": "quiz-tecnologia-31",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas unidades de armazenamento tem a menor capacidade?",
+    "options": [
+      "Disco rígido de 1TB",
+      "SSD de 512GB",
+      "Pendrive de 8GB",
+      "Cartão de memória de 128GB"
+    ],
+    "correctAnswer": "Pendrive de 8GB",
+    "explanation": "Pendrives geralmente têm capacidades menores que outros dispositivos de armazenamento. Curiosidade: As capacidades de armazenamento estão sempre crescendo!"
+  },
+  {
+    "id": "quiz-tecnologia-32",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um malware?",
+    "options": [
+      "Um tipo de software benéfico",
+      "Um tipo de software malicioso",
+      "Um tipo de hardware",
+      "Um tipo de linguagem de programação"
+    ],
+    "correctAnswer": "Um tipo de software malicioso",
+    "explanation": "Malware inclui vírus, worms, trojans, etc. Curiosidade:  Antivirus são softwares projetados para detectar e remover malware."
+  },
+  {
+    "id": "quiz-tecnologia-33",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um ataque DDoS?",
+    "options": [
+      "Ataque de negação de serviço distribuído",
+      "Ataque de negação de serviço direto",
+      "Ataque de negação de acesso distribuído",
+      "Ataque de negação de acesso direto"
+    ],
+    "correctAnswer": "Ataque de negação de serviço distribuído",
+    "explanation": "Ataques DDoS sobrecarregam um servidor com tráfego de múltiplas fontes. Curiosidade:  Ataques DDoS podem tornar um serviço inacessível para usuários legítimos."
+  },
+  {
+    "id": "quiz-tecnologia-34",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destes é um exemplo de navegador web?",
+    "options": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Google Chrome",
+      "Microsoft Excel"
+    ],
+    "correctAnswer": "Google Chrome",
+    "explanation": "Google Chrome é um popular navegador web. Curiosidade:  Existem muitos outros navegadores, como Firefox, Safari, Edge, etc."
+  },
+  {
+    "id": "quiz-tecnologia-35",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual protocolo é usado para enviar emails?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "HTTPS"
+    ],
+    "correctAnswer": "SMTP",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) é usado para enviar emails. Curiosidade:  POP3 e IMAP são protocolos usados para receber emails."
+  },
+  {
+    "id": "quiz-tecnologia-36",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um sistema embarcado?",
+    "options": [
+      "Um sistema operacional para computadores",
+      "Um sistema computacional dedicado a uma tarefa específica",
+      "Um sistema de segurança para computadores",
+      "Um tipo de software antivírus"
+    ],
+    "correctAnswer": "Um sistema computacional dedicado a uma tarefa específica",
+    "explanation": "Sistemas embarcados são encontrados em diversos dispositivos, como carros, eletrodomésticos e smartphones. Curiosidade:  Sistemas embarcados geralmente têm recursos limitados de hardware."
+  },
+  {
+    "id": "quiz-tecnologia-37",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual tecla de atalho geralmente abre o menu iniciar no Windows?",
+    "options": [
+      "Alt+Tab",
+      "Ctrl+Alt+Del",
+      "Windows",
+      "Ctrl+Shift"
+    ],
+    "correctAnswer": "Windows",
+    "explanation": "A tecla do Windows abre o menu iniciar. Curiosidade:  A combinação de teclas varia dependendo do sistema operacional."
+  },
+  {
+    "id": "quiz-tecnologia-38",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um site responsivo?",
+    "options": [
+      "Um site que é rápido de carregar",
+      "Um site que se adapta a diferentes tamanhos de tela",
+      "Um site que é seguro",
+      "Um site que é fácil de navegar"
+    ],
+    "correctAnswer": "Um site que se adapta a diferentes tamanhos de tela",
+    "explanation": "Sites responsivos se ajustam automaticamente à tela do dispositivo. Curiosidade:  O design responsivo é importante para uma boa experiência do usuário em dispositivos móveis."
+  },
+  {
+    "id": "quiz-tecnologia-39",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um blockchain?",
+    "options": [
+      "Uma base de dados distribuída e imutável",
+      "Um tipo de criptomoeda",
+      "Um tipo de software de segurança",
+      "Um tipo de protocolo de comunicação"
+    ],
+    "correctAnswer": "Uma base de dados distribuída e imutável",
+    "explanation": "Blockchains são usados em criptomoedas e outras aplicações que exigem transparência e segurança. Curiosidade: A tecnologia blockchain tem diversas aplicações além das criptomoedas."
+  },
+  {
+    "id": "quiz-tecnologia-40",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual a função de um scanner?",
+    "options": [
+      "Imprimir documentos",
+      "Copiar documentos",
+      "Digitalizar documentos",
+      "Criar documentos"
+    ],
+    "correctAnswer": "Digitalizar documentos",
+    "explanation": "Scanners convertem documentos físicos em arquivos digitais. Curiosidade:  Existem scanners de diferentes tipos, como scanners planos e scanners de mão."
+  },
+  {
+    "id": "quiz-tecnologia-41",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que é um algoritmo de busca?",
+    "options": [
+      "Um algoritmo para ordenar dados",
+      "Um algoritmo para encontrar informações em uma base de dados",
+      "Um algoritmo para criptografar informações",
+      "Um algoritmo para comprimir dados"
+    ],
+    "correctAnswer": "Um algoritmo para encontrar informações em uma base de dados",
+    "explanation": "Algoritmos de busca são usados em mecanismos de busca e bancos de dados. Curiosidade:  Existem diferentes algoritmos de busca, cada um com suas vantagens e desvantagens."
+  },
+  {
+    "id": "quiz-tecnologia-42",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um sistema de arquivos?",
+    "options": [
+      "Um método para organizar arquivos em um dispositivo de armazenamento",
+      "Um tipo de software antivírus",
+      "Um tipo de linguagem de programação",
+      "Um protocolo de comunicação"
+    ],
+    "correctAnswer": "Um método para organizar arquivos em um dispositivo de armazenamento",
+    "explanation": "Sistemas de arquivos como NTFS, FAT32 e ext4, gerenciam como os arquivos são armazenados e acessados. Curiosidade: Diferentes sistemas operacionais usam diferentes sistemas de arquivos."
+  },
+  {
+    "id": "quiz-tecnologia-43",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a entrada de dados através da escrita?",
+    "options": [
+      "Mouse",
+      "Monitor",
+      "Teclado",
+      "Impressora"
+    ],
+    "correctAnswer": "Teclado",
+    "explanation": "O teclado é um dispositivo de entrada primário para inserir texto e comandos em um computador. Curiosidade: O primeiro teclado mecânico foi inventado em 1868, muito antes dos computadores modernos!"
+  },
+  {
+    "id": "quiz-tecnologia-44",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual destas unidades de medida representa a maior quantidade de dados?",
+    "options": [
+      "Kilobyte",
+      "Megabyte",
+      "Gigabyte",
+      "Terabyte"
+    ],
+    "correctAnswer": "Terabyte",
+    "explanation": "Um Terabyte (TB) é a maior unidade listada, representando 1024 Gigabytes. Curiosidade: Um único disco rígido moderno pode armazenar vários Terabytes de dados."
+  },
+  {
+    "id": "quiz-tecnologia-45",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa a sigla 'GUI' em computação?",
+    "options": [
+      "Graphical User Interface",
+      "Graphic Utility Interface",
+      "General Utility Interface",
+      "Gaming User Interface"
+    ],
+    "correctAnswer": "Graphical User Interface",
+    "explanation": "GUI representa 'Graphical User Interface', ou Interface Gráfica do Usuário.  Curiosidade: As GUIs tornaram os computadores muito mais acessíveis ao público em geral, substituindo as interfaces de linha de comando."
+  },
+  {
+    "id": "quiz-tecnologia-46",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual linguagem de programação é frequentemente usada para desenvolvimento de aplicativos móveis para Android?",
+    "options": [
+      "Swift",
+      "Python",
+      "Java",
+      "C#"
+    ],
+    "correctAnswer": "Java",
+    "explanation": "Java é uma das linguagens principais para o desenvolvimento de aplicativos Android. Curiosidade: Kotlin tem ganhado popularidade como alternativa a Java para desenvolvimento Android."
+  },
+  {
+    "id": "quiz-tecnologia-47",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual protocolo é usado para transferir arquivos entre computadores?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "correctAnswer": "FTP",
+    "explanation": "FTP (File Transfer Protocol) é especificamente projetado para transferência de arquivos. Curiosidade: FTP frequentemente utiliza conexões separadas para controle e transferência de dados."
+  },
+  {
+    "id": "quiz-tecnologia-48",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "O que é um 'cache' em um sistema computacional?",
+    "options": [
+      "Um tipo de malware",
+      "Uma forma de criptografia",
+      "Memória de armazenamento temporário de alta velocidade",
+      "Um tipo de banco de dados"
+    ],
+    "correctAnswer": "Memória de armazenamento temporário de alta velocidade",
+    "explanation": "O cache armazena dados frequentemente acessados para acelerar o desempenho. Curiosidade:  Os caches podem existir em diferentes níveis, desde o cache da CPU até caches em servidores web."
+  },
+  {
+    "id": "quiz-tecnologia-49",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual conceito de programação representa a capacidade de um objeto herdar propriedades e métodos de outro objeto?",
+    "options": [
+      "Polimorfismo",
+      "Encapsulamento",
+      "Herança",
+      "Abstração"
+    ],
+    "correctAnswer": "Herança",
+    "explanation": "A herança é um pilar fundamental da programação orientada a objetos. Curiosidade: A herança permite reutilização de código e organização eficiente de classes."
+  },
+  {
+    "id": "quiz-tecnologia-50",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual tipo de ataque cibernético envolve o envio de um grande volume de tráfego para sobrecarregar um servidor?",
+    "options": [
+      "Phishing",
+      "Man-in-the-middle",
+      "SQL Injection",
+      "DDoS"
+    ],
+    "correctAnswer": "DDoS",
+    "explanation": "DDoS (Distributed Denial of Service) utiliza múltiplas fontes para realizar o ataque. Curiosidade:  Ataques DDoS podem levar sites inteiros fora do ar."
+  },
+  {
+    "id": "quiz-tecnologia-51",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual formato de arquivo de imagem é conhecido por sua capacidade de compressão sem perdas?",
+    "options": [
+      "JPEG",
+      "GIF",
+      "PNG",
+      "BMP"
+    ],
+    "correctAnswer": "PNG",
+    "explanation": "PNG oferece compressão sem perdas, mantendo a qualidade da imagem. Curiosidade: PNG suporta transparência, ao contrário do JPEG."
+  },
+  {
+    "id": "quiz-tecnologia-52",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual tecla de atalho geralmente salva um documento?",
+    "options": [
+      "Ctrl+Z",
+      "Ctrl+X",
+      "Ctrl+C",
+      "Ctrl+S"
+    ],
+    "correctAnswer": "Ctrl+S",
+    "explanation": "Ctrl+S é o atalho universal para salvar. Curiosidade: Em alguns sistemas, pode ser Cmd+S em vez de Ctrl+S."
+  },
+  {
+    "id": "quiz-tecnologia-53",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um roteador e um switch?",
+    "options": [
+      "Roteadores gerenciam tráfego entre redes, switches gerenciam tráfego dentro de uma rede.",
+      "Roteadores são mais rápidos que switches.",
+      "Roteadores usam cabo coaxial, switches usam cabo de rede.",
+      "Não há diferença significativa entre roteadores e switches."
+    ],
+    "correctAnswer": "Roteadores gerenciam tráfego entre redes, switches gerenciam tráfego dentro de uma rede.",
+    "explanation": "Roteadores trabalham com endereços IP, enquanto switches operam com endereços MAC. Curiosidade:  Um roteador pode ter um ou mais switches embutidos."
+  },
+  {
+    "id": "quiz-tecnologia-54",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "O que significa IoT?",
+    "options": [
+      "Internet of Things",
+      "Internet Operating Technology",
+      "Internal Operating Technology",
+      "Internet of Telecommunications"
+    ],
+    "correctAnswer": "Internet of Things",
+    "explanation": "IoT refere-se a dispositivos conectados à internet. Curiosidade: A IoT já conecta bilhões de dispositivos globalmente."
+  },
+  {
+    "id": "quiz-tecnologia-55",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual tecnologia permite a comunicação entre dispositivos sem fio usando ondas de rádio?",
+    "options": [
+      "Bluetooth",
+      "Ethernet",
+      "HDMI",
+      "USB"
+    ],
+    "correctAnswer": "Bluetooth",
+    "explanation": "Bluetooth é uma tecnologia de comunicação de curto alcance. Curiosidade: Bluetooth tem várias versões, com cada versão oferecendo maior velocidade e alcance."
+  },
+  {
+    "id": "quiz-tecnologia-56",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual extensão de arquivo é tipicamente associada a documentos do Microsoft Word?",
+    "options": [
+      ".pdf",
+      ".jpg",
+      ".exe",
+      ".docx"
+    ],
+    "correctAnswer": ".docx",
+    "explanation": ".docx é o formato padrão para documentos do Word. Curiosidade: .doc era o formato antigo, agora substituído pelo .docx."
+  },
+  {
+    "id": "quiz-tecnologia-57",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "O que significa a sigla RAM?",
+    "options": [
+      "Read-Only Memory",
+      "Random Access Memory",
+      "Read Access Memory",
+      "Random Output Memory"
+    ],
+    "correctAnswer": "Random Access Memory",
+    "explanation": "RAM é memória de acesso aleatório, volátil e usada para o funcionamento do sistema. Curiosidade: A RAM é mais rápida que o armazenamento em disco rígido."
+  }
+]

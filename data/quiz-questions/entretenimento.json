@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "quiz-entretenimento-1",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual série da Netflix é conhecida por seu universo de super-heróis?",
+    "options": [
+      "Stranger Things",
+      "The Crown",
+      "La Casa de Papel",
+      "Demolidor"
+    ],
+    "correctAnswer": "Demolidor",
+    "explanation": "Demolidor foi uma das primeiras séries de super-heróis da Marvel na Netflix.  Curiosamente, o ator Charlie Cox que interpretou o Demolidor reprisou o papel em produções da Marvel Studios posteriormente."
+  },
+  {
+    "id": "quiz-entretenimento-2",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual diretor é conhecido por seus filmes de ficção científica com visuais deslumbrantes?",
+    "options": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Wes Anderson"
+    ],
+    "correctAnswer": "Denis Villeneuve",
+    "explanation": "Denis Villeneuve é aclamado por seu trabalho em filmes como 'Blade Runner 2049' e 'Duna', conhecidos por seus visuais impressionantes.  A atenção aos detalhes em seus cenários é notável."
+  },
+  {
+    "id": "quiz-entretenimento-3",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor escreveu a trilha sonora icônica para o filme 'O Poderoso Chefão'?",
+    "options": [
+      "Hans Zimmer",
+      "John Williams",
+      "Nino Rota",
+      "Ennio Morricone"
+    ],
+    "correctAnswer": "Nino Rota",
+    "explanation": "Nino Rota compôs a música inesquecível de 'O Poderoso Chefão'. Curiosamente, parte da trilha sonora foi posteriormente substituída para evitar problemas de direitos autorais."
+  },
+  {
+    "id": "quiz-entretenimento-4",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Em qual plataforma de streaming você pode assistir a maioria dos filmes da Disney?",
+    "options": [
+      "Netflix",
+      "HBO Max",
+      "Amazon Prime Video",
+      "Disney+"
+    ],
+    "correctAnswer": "Disney+",
+    "explanation": "Disney+ é a plataforma de streaming dedicada aos filmes e séries da Disney, Pixar, Marvel, Star Wars e National Geographic."
+  },
+  {
+    "id": "quiz-entretenimento-5",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual banda britânica liderada por Freddie Mercury alcançou fama mundial?",
+    "options": [
+      "The Beatles",
+      "Rolling Stones",
+      "Queen",
+      "Pink Floyd"
+    ],
+    "correctAnswer": "Queen",
+    "explanation": "Queen, com Freddie Mercury nos vocais, é uma das bandas de rock mais influentes e aclamadas de todos os tempos.  Sua música transcende gerações."
+  },
+  {
+    "id": "quiz-entretenimento-6",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo eletrônico revolucionou os jogos de tiro em primeira pessoa (FPS)?",
+    "options": [
+      "Doom",
+      "Pac-Man",
+      "Super Mario Bros.",
+      "Tetris"
+    ],
+    "correctAnswer": "Doom",
+    "explanation": "Doom, lançado em 1993, é considerado um marco na história dos jogos FPS, definindo muitos padrões do gênero que perduram até hoje."
+  },
+  {
+    "id": "quiz-entretenimento-7",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual desses artistas é conhecido por suas pinturas expressionistas?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Vincent van Gogh",
+      "Pablo Picasso"
+    ],
+    "correctAnswer": "Vincent van Gogh",
+    "explanation": "Van Gogh é um dos mais importantes artistas pós-impressionistas, famoso por seu estilo expressionista vibrante e intenso."
+  },
+  {
+    "id": "quiz-entretenimento-8",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual livro de J.R.R. Tolkien inicia a trilogia 'O Senhor dos Anéis'?",
+    "options": [
+      "A Sociedade do Anel",
+      "As Duas Torres",
+      "O Retorno do Rei",
+      "O Hobbit"
+    ],
+    "correctAnswer": "A Sociedade do Anel",
+    "explanation": "'A Sociedade do Anel' é o primeiro livro da trilogia épica de Tolkien, que deu origem a diversas adaptações para o cinema e outros meios."
+  },
+  {
+    "id": "quiz-entretenimento-9",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do famoso festival de música e artes que acontece anualmente em Nevada?",
+    "options": [
+      "Coachella",
+      "Lollapalooza",
+      "Burning Man",
+      "Glastonbury"
+    ],
+    "correctAnswer": "Burning Man",
+    "explanation": "Burning Man é um evento anual que celebra a arte, a comunidade e a autoexpressão no deserto de Black Rock, Nevada."
+  },
+  {
+    "id": "quiz-entretenimento-10",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem icônico é conhecido por sua frase 'Hasta la vista, baby'?",
+    "options": [
+      "Terminator",
+      "Rambo",
+      "Indiana Jones",
+      "James Bond"
+    ],
+    "correctAnswer": "Terminator",
+    "explanation": "Arnold Schwarzenegger imortalizou a frase como o ciborgue T-800 em 'Exterminador do Futuro 2'."
+  },
+  {
+    "id": "quiz-entretenimento-11",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual programa de TV apresenta competidores lutando por prêmios em provas físicas e mentais?",
+    "options": [
+      "The Voice",
+      "American Idol",
+      "Survivor",
+      "Dancing with the Stars"
+    ],
+    "correctAnswer": "Survivor",
+    "explanation": "Survivor é um reality show que desafia participantes a sobreviverem em ambientes isolados e competir por prêmios em dinheiro."
+  },
+  {
+    "id": "quiz-entretenimento-12",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual a nacionalidade do famoso arquiteto Antoni Gaudí?",
+    "options": [
+      "Italiano",
+      "Francês",
+      "Espanhol",
+      "Português"
+    ],
+    "correctAnswer": "Espanhol",
+    "explanation": "Antoni Gaudí foi um arquiteto catalão, conhecido por suas obras arquitetônicas únicas e extravagantes em Barcelona, como a Sagrada Família."
+  },
+  {
+    "id": "quiz-entretenimento-13",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual artista é conhecido por suas obras pop art?",
+    "options": [
+      "Leonardo da Vinci",
+      "Andy Warhol",
+      "Michelangelo",
+      "Pablo Picasso"
+    ],
+    "correctAnswer": "Andy Warhol",
+    "explanation": "Andy Warhol foi um pioneiro da Pop Art, famoso por suas serigrafias de ícones da cultura pop."
+  },
+  {
+    "id": "quiz-entretenimento-14",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do jogo de tabuleiro estratégico onde jogadores constroem impérios?",
+    "options": [
+      "Monopoly",
+      "Scrabble",
+      "Risk",
+      "Cluedo"
+    ],
+    "correctAnswer": "Risk",
+    "explanation": "Risk é um jogo de tabuleiro de estratégia onde jogadores competem pelo controle mundial."
+  },
+  {
+    "id": "quiz-entretenimento-15",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor escreveu a ópera 'Carmen'?",
+    "options": [
+      "Giuseppe Verdi",
+      "Wolfgang Amadeus Mozart",
+      "Richard Wagner",
+      "Georges Bizet"
+    ],
+    "correctAnswer": "Georges Bizet",
+    "explanation": "'Carmen' é uma das óperas mais populares de todos os tempos, conhecida por sua música vibrante e personagens memoráveis."
+  },
+  {
+    "id": "quiz-entretenimento-16",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual canal de TV é conhecido por seus programas de notícias?",
+    "options": [
+      "Cartoon Network",
+      "Nickelodeon",
+      "CNN",
+      "Discovery Channel"
+    ],
+    "correctAnswer": "CNN",
+    "explanation": "A CNN (Cable News Network) é um canal de notícias por assinatura a cabo de notícias 24 horas por dia, 7 dias por semana."
+  },
+  {
+    "id": "quiz-entretenimento-17",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual banda de rock é conhecida por seus álbuns conceituais?",
+    "options": [
+      "The Beatles",
+      "Led Zeppelin",
+      "The Rolling Stones",
+      "Pink Floyd"
+    ],
+    "correctAnswer": "Pink Floyd",
+    "explanation": "Pink Floyd é famosa por seus álbuns conceituais, como 'The Dark Side of the Moon' e 'The Wall'."
+  },
+  {
+    "id": "quiz-entretenimento-18",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do festival de cinema que acontece anualmente em Cannes?",
+    "options": [
+      "Festival de Cinema de Veneza",
+      "Festival de Cinema de Sundance",
+      "Festival de Cinema de Cannes",
+      "Festival de Cinema de Berlim"
+    ],
+    "correctAnswer": "Festival de Cinema de Cannes",
+    "explanation": "O Festival de Cinema de Cannes é um dos mais prestigiados festivais de cinema do mundo."
+  },
+  {
+    "id": "quiz-entretenimento-19",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual animação da Disney apresenta uma princesa que se transforma em sereia?",
+    "options": [
+      "A Pequena Sereia",
+      "A Bela Adormecida",
+      "Branca de Neve",
+      "Cinderela"
+    ],
+    "correctAnswer": "A Pequena Sereia",
+    "explanation": "A Pequena Sereia conta a história de Ariel, uma princesa sereia que sonha em ser humana."
+  },
+  {
+    "id": "quiz-entretenimento-20",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual ator interpretou o personagem de James Bond na série de filmes 007?",
+    "options": [
+      "Tom Cruise",
+      "Harrison Ford",
+      "Sean Connery",
+      "Leonardo DiCaprio"
+    ],
+    "correctAnswer": "Sean Connery",
+    "explanation": "Sean Connery foi um dos primeiros e mais icônicos atores a interpretar o papel de James Bond."
+  },
+  {
+    "id": "quiz-entretenimento-21",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do primeiro filme da franquia 'Star Wars'?",
+    "options": [
+      "O Império Contra-Ataca",
+      "O Retorno de Jedi",
+      "Uma Nova Esperança",
+      "A Ameaça Fantasma"
+    ],
+    "correctAnswer": "Uma Nova Esperança",
+    "explanation": "'Uma Nova Esperança' foi o primeiro filme da saga Star Wars, lançado em 1977."
+  },
+  {
+    "id": "quiz-entretenimento-22",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual plataforma de streaming é conhecida por seu conteúdo original de comédia?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "HBO Max",
+      "Amazon Prime Video"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "A Netflix investe fortemente em séries e filmes de comédia originais."
+  },
+  {
+    "id": "quiz-entretenimento-23",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do programa de TV que apresenta competidores que constroem estruturas com blocos de Lego?",
+    "options": [
+      "Lego Masters",
+      "Nailed It!",
+      "The Great British Bake Off",
+      "Top Chef"
+    ],
+    "correctAnswer": "Lego Masters",
+    "explanation": "Lego Masters é um programa de TV que celebra a criatividade e construção com Lego."
+  },
+  {
+    "id": "quiz-entretenimento-24",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome da famosa ópera de Giacomo Puccini que se passa na China?",
+    "options": [
+      "La Bohème",
+      "Tosca",
+      "Madama Butterfly",
+      "Turandot"
+    ],
+    "correctAnswer": "Turandot",
+    "explanation": "Turandot é uma ópera famosa por sua música dramática e tema oriental."
+  },
+  {
+    "id": "quiz-entretenimento-25",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual jogo de cartas é conhecido por suas estratégias e blefes?",
+    "options": [
+      "Paciência",
+      "Truco",
+      "Poker",
+      "Canastra"
+    ],
+    "correctAnswer": "Poker",
+    "explanation": "O Poker é um jogo de cartas baseado em estratégia, probabilidade e blefe."
+  },
+  {
+    "id": "quiz-entretenimento-26",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual atriz é conhecida por seu papel em 'Friends'?",
+    "options": [
+      "Jennifer Aniston",
+      "Julia Roberts",
+      "Cameron Diaz",
+      "Drew Barrymore"
+    ],
+    "correctAnswer": "Jennifer Aniston",
+    "explanation": "Jennifer Aniston interpretou Rachel Green na famosa série de comédia 'Friends'."
+  },
+  {
+    "id": "quiz-entretenimento-27",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual escritor é conhecido pela série de livros 'Harry Potter'?",
+    "options": [
+      "J.R.R. Tolkien",
+      "Stephen King",
+      "J.K. Rowling",
+      "George Orwell"
+    ],
+    "correctAnswer": "J.K. Rowling",
+    "explanation": "J.K. Rowling escreveu a série de livros 'Harry Potter', que se tornou um fenômeno mundial."
+  },
+  {
+    "id": "quiz-entretenimento-28",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do grupo musical conhecido pelo hit 'Bohemian Rhapsody'?",
+    "options": [
+      "The Beatles",
+      "Queen",
+      "Rolling Stones",
+      "Led Zeppelin"
+    ],
+    "correctAnswer": "Queen",
+    "explanation": "Queen é uma banda de rock famosa por suas músicas icônicas, como 'Bohemian Rhapsody'."
+  },
+  {
+    "id": "quiz-entretenimento-29",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do festival de música que acontece anualmente em Coachella Valley, Califórnia?",
+    "options": [
+      "Lollapalooza",
+      "Coachella",
+      "Bonnaroo",
+      "Austin City Limits"
+    ],
+    "correctAnswer": "Coachella",
+    "explanation": "Coachella é um festival de música e artes que atrai milhares de pessoas a cada ano."
+  },
+  {
+    "id": "quiz-entretenimento-30",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual diretor é conhecido por seu estilo visual único e uso de efeitos especiais práticos?",
+    "options": [
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "Tim Burton",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": "Tim Burton",
+    "explanation": "Tim Burton é conhecido por seu estilo visual gótico e uso de efeitos especiais práticos em seus filmes."
+  },
+  {
+    "id": "quiz-entretenimento-31",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual plataforma de streaming é mais conhecida por seus documentários?",
+    "options": [
+      "Netflix",
+      "Disney+",
+      "Amazon Prime Video",
+      "Hulu"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "A Netflix tem um extenso catálogo de documentários originais e de terceiros."
+  },
+  {
+    "id": "quiz-entretenimento-32",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico é conhecido por seu mundo aberto e customização de personagens?",
+    "options": [
+      "Minecraft",
+      "Fortnite",
+      "Call of Duty",
+      "Grand Theft Auto V"
+    ],
+    "correctAnswer": "Grand Theft Auto V",
+    "explanation": "Grand Theft Auto V é um jogo eletrônico conhecido por seu mundo aberto imenso e opções de customização extensivas."
+  },
+  {
+    "id": "quiz-entretenimento-33",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor escreveu a ópera 'A Flauta Mágica'?",
+    "options": [
+      "Giuseppe Verdi",
+      "Wolfgang Amadeus Mozart",
+      "Richard Wagner",
+      "Giacomo Puccini"
+    ],
+    "correctAnswer": "Wolfgang Amadeus Mozart",
+    "explanation": "'A Flauta Mágica' é uma ópera icônica de Mozart."
+  },
+  {
+    "id": "quiz-entretenimento-34",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual artista pintou a Mona Lisa?",
+    "options": [
+      "Michelangelo",
+      "Raphael",
+      "Leonardo da Vinci",
+      "Donatello"
+    ],
+    "correctAnswer": "Leonardo da Vinci",
+    "explanation": "A Mona Lisa é uma das obras de arte mais famosas do mundo."
+  },
+  {
+    "id": "quiz-entretenimento-35",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual série de TV é conhecida por seus personagens intrigantes e reviravoltas?",
+    "options": [
+      "Friends",
+      "The Office",
+      "Game of Thrones",
+      "Grey's Anatomy"
+    ],
+    "correctAnswer": "Game of Thrones",
+    "explanation": "Game of Thrones é conhecida por seus personagens complexos e reviravoltas chocantes."
+  },
+  {
+    "id": "quiz-entretenimento-36",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de tabuleiro é conhecido por suas negociações e compra de propriedades?",
+    "options": [
+      "Risk",
+      "Scrabble",
+      "Monopoly",
+      "Clue"
+    ],
+    "correctAnswer": "Monopoly",
+    "explanation": "Monopoly é um jogo de tabuleiro onde jogadores compram e vendem propriedades."
+  },
+  {
+    "id": "quiz-entretenimento-37",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual banda é conhecida pelo hit 'Smells Like Teen Spirit'?",
+    "options": [
+      "Nirvana",
+      "Pearl Jam",
+      "Red Hot Chili Peppers",
+      "Green Day"
+    ],
+    "correctAnswer": "Nirvana",
+    "explanation": "Nirvana foi uma banda grunge icônica dos anos 90."
+  },
+  {
+    "id": "quiz-entretenimento-38",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do jogo eletrônico que popularizou o gênero 'battle royale'?",
+    "options": [
+      "Fortnite",
+      "Minecraft",
+      "Call of Duty",
+      "PUBG"
+    ],
+    "correctAnswer": "PUBG",
+    "explanation": "PlayerUnknown's Battlegrounds (PUBG) foi um dos primeiros jogos a popularizar o gênero 'battle royale'."
+  },
+  {
+    "id": "quiz-entretenimento-39",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual ator interpretou o papel principal no filme 'Forrest Gump'?",
+    "options": [
+      "Tom Hanks",
+      "Robert De Niro",
+      "Al Pacino",
+      "Jack Nicholson"
+    ],
+    "correctAnswer": "Tom Hanks",
+    "explanation": "Tom Hanks ganhou um Oscar por sua atuação em 'Forrest Gump'."
+  },
+  {
+    "id": "quiz-entretenimento-40",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual série de TV é conhecida por seus personagens excêntricos e humor negro?",
+    "options": [
+      "The Simpsons",
+      "Family Guy",
+      "South Park",
+      "American Dad!"
+    ],
+    "correctAnswer": "South Park",
+    "explanation": "South Park é uma série de comédia animada conhecida por seu humor satírico e irreverente."
+  },
+  {
+    "id": "quiz-entretenimento-41",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual país é o lar do famoso Festival de Cannes?",
+    "options": [
+      "Estados Unidos",
+      "França",
+      "Itália",
+      "Reino Unido"
+    ],
+    "correctAnswer": "França",
+    "explanation": "O Festival de Cannes acontece anualmente em Cannes, França. É um dos festivais de cinema mais prestigiados do mundo."
+  },
+  {
+    "id": "quiz-entretenimento-42",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual personagem de desenho animado é conhecido por dizer 'Aih, meu Deus!'?",
+    "options": [
+      "Homer Simpson",
+      "Peter Griffin",
+      "Bart Simpson",
+      "Stewie Griffin"
+    ],
+    "correctAnswer": "Homer Simpson",
+    "explanation": "Homer Simpson, do desenho animado Os Simpsons, é famoso por suas exclamações, incluindo 'Aih, meu Deus!'"
+  },
+  {
+    "id": "quiz-entretenimento-43",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual banda lançou o álbum 'Nevermind' em 1991?",
+    "options": [
+      "Pearl Jam",
+      "Nirvana",
+      "Red Hot Chili Peppers",
+      "Soundgarden"
+    ],
+    "correctAnswer": "Nirvana",
+    "explanation": "'Nevermind' catapultou o Nirvana para a fama mundial, com a música 'Smells Like Teen Spirit' se tornando um hino da geração grunge."
+  },
+  {
+    "id": "quiz-entretenimento-44",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual ator interpretou o papel de Aragorn na trilogia 'O Senhor dos Anéis'?",
+    "options": [
+      "Viggo Mortensen",
+      "Orlando Bloom",
+      "Elijah Wood",
+      "Ian McKellen"
+    ],
+    "correctAnswer": "Viggo Mortensen",
+    "explanation": "Viggo Mortensen foi escolhido para o papel de Aragorn relativamente tarde na produção, substituindo o ator inicialmente escalado."
+  },
+  {
+    "id": "quiz-entretenimento-45",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de videogame introduziu o conceito de 'open world' amplamente reconhecido como pioneiro do gênero?",
+    "options": [
+      "Grand Theft Auto V",
+      "The Elder Scrolls V: Skyrim",
+      "The Legend of Zelda: Ocarina of Time",
+      "Minecraft"
+    ],
+    "correctAnswer": "The Legend of Zelda: Ocarina of Time",
+    "explanation": "Embora outros jogos tivessem elementos de mundo aberto, Ocarina of Time é considerado por muitos como o primeiro a realmente popularizar o conceito e a estrutura de mundo aberto em 3D."
+  },
+  {
+    "id": "quiz-entretenimento-46",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual diretor é conhecido por seu estilo visual distinto em filmes como 'Pulp Fiction'?",
+    "options": [
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "Steven Spielberg",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "Quentin Tarantino",
+    "explanation": "Quentin Tarantino é conhecido por seu diálogo rápido, violência estilizada e referências à cultura pop em seus filmes."
+  },
+  {
+    "id": "quiz-entretenimento-47",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual compositor contemporâneo é conhecido por suas trilhas sonoras minimalistas e atmosféricas?",
+    "options": [
+      "Hans Zimmer",
+      "John Williams",
+      "Jóhann Jóhannsson",
+      "Danny Elfman"
+    ],
+    "correctAnswer": "Jóhann Jóhannsson",
+    "explanation": "Jóhann Jóhannsson compôs trilhas sonoras para filmes como 'A Theory of Everything' e 'Arrival', caracterizadas por sua atmosfera e minimalismo."
+  },
+  {
+    "id": "quiz-entretenimento-48",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do personagem principal do filme 'Toy Story'?",
+    "options": [
+      "Woody",
+      "Buzz Lightyear",
+      "Mr. Potato Head",
+      "Slinky Dog"
+    ],
+    "correctAnswer": "Woody",
+    "explanation": "Woody é o xerife brinquedo e o protagonista principal de 'Toy Story'."
+  },
+  {
+    "id": "quiz-entretenimento-49",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual a famosa frase de abertura de 'The Simpsons'?",
+    "options": [
+      "D'oh!",
+      "Excellent!",
+      "Cowabunga!",
+      "Mmm, donuts."
+    ],
+    "correctAnswer": "D'oh!",
+    "explanation": "A icônica exclamação 'D'oh!' de Homer Simpson é frequentemente usada para expressar frustração ou irritação."
+  },
+  {
+    "id": "quiz-entretenimento-50",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Em qual ano foi lançado o primeiro álbum dos Beatles?",
+    "options": [
+      "1962",
+      "1963",
+      "1964",
+      "1965"
+    ],
+    "correctAnswer": "1963",
+    "explanation": "O primeiro álbum dos Beatles, 'Please Please Me', foi lançado em 22 de março de 1963 no Reino Unido."
+  },
+  {
+    "id": "quiz-entretenimento-51",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do cachorro de Scooby-Doo?",
+    "options": [
+      "Scrappy-Doo",
+      "Spike",
+      "Astro",
+      "Scooby-Doo"
+    ],
+    "correctAnswer": "Scooby-Doo",
+    "explanation": "Scooby-Doo é o próprio personagem! O nome dele é o mesmo do desenho."
+  },
+  {
+    "id": "quiz-entretenimento-52",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do jogo de luta criado pela Capcom que apresenta Ryu e Ken?",
+    "options": [
+      "Street Fighter",
+      "Mortal Kombat",
+      "Tekken",
+      "King of Fighters"
+    ],
+    "correctAnswer": "Street Fighter",
+    "explanation": "Street Fighter é uma das séries de jogos de luta mais populares de todos os tempos, com Ryu e Ken como personagens principais."
+  },
+  {
+    "id": "quiz-entretenimento-53",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual artista é conhecido por sua série de pinturas 'Sunflower'?",
+    "options": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": "Vincent van Gogh",
+    "explanation": "Van Gogh pintou várias versões de 'Girassóis', que são consideradas algumas de suas obras mais icônicas."
+  },
+  {
+    "id": "quiz-entretenimento-54",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual série de TV apresenta os personagens Carrie, Samantha, Charlotte e Miranda?",
+    "options": [
+      "Sex and the City",
+      "Friends",
+      "The Golden Girls",
+      "Desperate Housewives"
+    ],
+    "correctAnswer": "Sex and the City",
+    "explanation": "Sex and the City segue a vida e as relações de quatro amigas em Nova York."
+  },
+  {
+    "id": "quiz-entretenimento-55",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do diretor conhecido por seus filmes de super-heróis da Marvel como 'Avengers'?",
+    "options": [
+      "Christopher Nolan",
+      "J.J. Abrams",
+      "Zack Snyder",
+      "Joss Whedon"
+    ],
+    "correctAnswer": "Joss Whedon",
+    "explanation": "Joss Whedon dirigiu o primeiro filme dos Avengers, que foi um grande sucesso de bilheteria."
+  },
+  {
+    "id": "quiz-entretenimento-56",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual jogo de RPG é conhecido por seu extenso e detalhado sistema de classes e habilidades?",
+    "options": [
+      "World of Warcraft",
+      "The Elder Scrolls V: Skyrim",
+      "Diablo III",
+      "Path of Exile"
+    ],
+    "correctAnswer": "Path of Exile",
+    "explanation": "Path of Exile é conhecido por sua vasta árvore de habilidades e construção de personagens."
+  },
+  {
+    "id": "quiz-entretenimento-57",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual a nacionalidade do famoso mágico David Copperfield?",
+    "options": [
+      "Inglês",
+      "Francês",
+      "Americano",
+      "Canadense"
+    ],
+    "correctAnswer": "Americano",
+    "explanation": "David Copperfield nasceu nos Estados Unidos e é conhecido por seus incríveis truques de mágica."
+  },
+  {
+    "id": "quiz-entretenimento-58",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do museu em Paris que abriga a Mona Lisa?",
+    "options": [
+      "Museu do Louvre",
+      "Museu d'Orsay",
+      "Centro Pompidou",
+      "Museu Rodin"
+    ],
+    "correctAnswer": "Museu do Louvre",
+    "explanation": "O Museu do Louvre é um dos museus mais famosos do mundo e abriga obras-primas como a Mona Lisa."
+  },
+  {
+    "id": "quiz-entretenimento-59",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do primeiro filme da franquia 'Jurassic Park'?",
+    "options": [
+      "Jurassic World",
+      "The Lost World: Jurassic Park",
+      "Jurassic Park III",
+      "Jurassic Park"
+    ],
+    "correctAnswer": "Jurassic Park",
+    "explanation": "Jurassic Park foi lançado em 1993 e foi um sucesso de bilheteria mundial."
+  },
+  {
+    "id": "quiz-entretenimento-60",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do personagem principal de 'Harry Potter'?",
+    "options": [
+      "Hermione Granger",
+      "Ron Weasley",
+      "Albus Dumbledore",
+      "Harry Potter"
+    ],
+    "correctAnswer": "Harry Potter",
+    "explanation": "Harry Potter é o protagonista principal dos livros e filmes."
+  },
+  {
+    "id": "quiz-entretenimento-61",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome da banda que cantou 'Stairway to Heaven'?",
+    "options": [
+      "Led Zeppelin",
+      "Queen",
+      "The Rolling Stones",
+      "Pink Floyd"
+    ],
+    "correctAnswer": "Led Zeppelin",
+    "explanation": "'Stairway to Heaven' é uma das músicas mais icônicas do Led Zeppelin."
+  },
+  {
+    "id": "quiz-entretenimento-62",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual designer de moda é conhecido por suas roupas extravagantes e uso de cores vibrantes?",
+    "options": [
+      "Coco Chanel",
+      "Yves Saint Laurent",
+      "Jean Paul Gaultier",
+      "Elsa Schiaparelli"
+    ],
+    "correctAnswer": "Jean Paul Gaultier",
+    "explanation": "Jean Paul Gaultier é conhecido por seu estilo ousado e excêntrico."
+  },
+  {
+    "id": "quiz-entretenimento-63",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do personagem icônico de desenhos animados, um rato que vive em Nova York?",
+    "options": [
+      "Mickey Mouse",
+      "Bugs Bunny",
+      "Pateta",
+      "Donald Duck"
+    ],
+    "correctAnswer": "Mickey Mouse",
+    "explanation": "Mickey Mouse é o icônico personagem da Disney e um dos mais populares personagens de desenhos animados de todos os tempos."
+  },
+  {
+    "id": "quiz-entretenimento-64",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do jogo eletrônico de plataforma conhecido por seu personagem Mario?",
+    "options": [
+      "Sonic the Hedgehog",
+      "Pac-Man",
+      "Super Mario Bros.",
+      "Donkey Kong"
+    ],
+    "correctAnswer": "Super Mario Bros.",
+    "explanation": "Super Mario Bros. é um dos jogos mais populares e influentes de todos os tempos."
+  },
+  {
+    "id": "quiz-entretenimento-65",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do compositor que escreveu 'The Nutcracker'?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Pyotr Ilyich Tchaikovsky",
+      "Johann Sebastian Bach"
+    ],
+    "correctAnswer": "Pyotr Ilyich Tchaikovsky",
+    "explanation": "O quebra-nozes é um dos balés mais famosos do mundo, composto por Tchaikovsky."
+  },
+  {
+    "id": "quiz-entretenimento-66",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual a emissora de televisão conhecida pelo seu jornalismo investigativo?",
+    "options": [
+      "CNN",
+      "BBC",
+      "Fox News",
+      "Todas as Anteriores"
+    ],
+    "correctAnswer": "Todas as Anteriores",
+    "explanation": "CNN, BBC e Fox News são conhecidas por sua cobertura jornalística, incluindo investigações."
+  },
+  {
+    "id": "quiz-entretenimento-67",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome do ator que interpretou o personagem de Sherlock Holmes em muitos filmes?",
+    "options": [
+      "Robert Downey Jr.",
+      "Benedict Cumberbatch",
+      "Johnny Depp",
+      "Basil Rathbone"
+    ],
+    "correctAnswer": "Basil Rathbone",
+    "explanation": "Basil Rathbone interpretou Sherlock Holmes em inúmeros filmes clássicos."
+  },
+  {
+    "id": "quiz-entretenimento-68",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do programa de rádio britânico de comédia conhecido por suas esquetes e personagens icônicos?",
+    "options": [
+      "Monty Python's Flying Circus",
+      "The Goon Show",
+      "I'm Sorry I Haven't a Clue",
+      "Round the Horne"
+    ],
+    "correctAnswer": "The Goon Show",
+    "explanation": "The Goon Show influenciou muitas comédias posteriores com seu estilo absurdo e personagens memoráveis."
+  },
+  {
+    "id": "quiz-entretenimento-69",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual a plataforma de streaming conhecida por documentários populares da Netflix?",
+    "options": [
+      "Netflix",
+      "Hulu",
+      "Amazon Prime Video",
+      "Disney+"
+    ],
+    "correctAnswer": "Netflix",
+    "explanation": "Netflix investe em documentários originais e licenciados com grande sucesso."
+  },
+  {
+    "id": "quiz-entretenimento-70",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual cantora é conhecida por seu hit 'Like a Rolling Stone'?",
+    "options": [
+      "Madonna",
+      "Britney Spears",
+      "Beyoncé",
+      "Bob Dylan"
+    ],
+    "correctAnswer": "Bob Dylan",
+    "explanation": "Embora cantada por Dylan, a versão mais famosa e conhecida é a original do artista."
+  },
+  {
+    "id": "quiz-entretenimento-71",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual artista de rua é conhecido por seus grafites coloridos e icônicos?",
+    "options": [
+      "Banksy",
+      "Jean-Michel Basquiat",
+      "Keith Haring",
+      "Blek le Rat"
+    ],
+    "correctAnswer": "Banksy",
+    "explanation": "Banksy é um artista misterioso e anônimo conhecido por seu ativismo e grafites em locais públicos."
+  },
+  {
+    "id": "quiz-entretenimento-72",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do jogo de tabuleiro que envolve a compra e venda de propriedades?",
+    "options": [
+      "Monopoly",
+      "Scrabble",
+      "Cluedo",
+      "Risk"
+    ],
+    "correctAnswer": "Monopoly",
+    "explanation": "O Monopoly é um jogo clássico de tabuleiro conhecido por seu tema de negócios imobiliários."
+  },
+  {
+    "id": "quiz-entretenimento-73",
+    "categoryId": "entretenimento",
+    "difficulty": "medium",
+    "question": "Qual o nome da animação da Disney sobre uma princesa que deseja ser uma exploradora?",
+    "options": [
+      "Moana",
+      "Brave",
+      "Tangled",
+      "Frozen"
+    ],
+    "correctAnswer": "Moana",
+    "explanation": "Moana é uma princesa que se embarca em uma jornada para salvar sua ilha."
+  },
+  {
+    "id": "quiz-entretenimento-74",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do programa de TV de reality show onde competidores projetam e constroem casas?",
+    "options": [
+      "The Amazing Race",
+      "Survivor",
+      "Project Runway",
+      "Extreme Makeover: Home Edition"
+    ],
+    "correctAnswer": "Extreme Makeover: Home Edition",
+    "explanation": "Extreme Makeover: Home Edition transformava a vida de famílias necessitadas reformando suas casas."
+  },
+  {
+    "id": "quiz-entretenimento-75",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso festival de música que ocorre anualmente em Coachella Valley?",
+    "options": [
+      "Coachella",
+      "Lollapalooza",
+      "Bonnaroo",
+      "Austin City Limits"
+    ],
+    "correctAnswer": "Coachella",
+    "explanation": "Coachella é conhecido por sua mistura de artistas populares e seus ambientes artísticos."
+  },
+  {
+    "id": "quiz-entretenimento-76",
+    "categoryId": "entretenimento",
+    "difficulty": "hard",
+    "question": "Qual o nome do famoso jogo de RPG de mesa que envolve a criação e interpretação de personagens?",
+    "options": [
+      "Dungeons & Dragons",
+      "Pathfinder",
+      "Call of Cthulhu",
+      "Warhammer Fantasy Roleplay"
+    ],
+    "correctAnswer": "Dungeons & Dragons",
+    "explanation": "Dungeons & Dragons é o jogo de RPG de mesa mais popular e influente do mundo."
+  },
+  {
+    "id": "quiz-entretenimento-77",
+    "categoryId": "entretenimento",
+    "difficulty": "easy",
+    "question": "Qual o nome da personagem principal da série de TV 'Game of Thrones'?",
+    "options": [
+      "Daenerys Targaryen",
+      "Sansa Stark",
+      "Arya Stark",
+      "Cersei Lannister"
+    ],
+    "correctAnswer": "Daenerys Targaryen",
+    "explanation": "Embora muitos personagens importantes existam, Daenerys é considerado o personagem principal por muitos fãs."
+  }
+]

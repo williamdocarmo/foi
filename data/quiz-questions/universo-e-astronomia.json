@@ -1,0 +1,772 @@
+[
+  {
+    "id": "quiz-universo-e-astronomia-1",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Marte",
+      "Vênus",
+      "Mercúrio",
+      "Terra"
+    ],
+    "correctAnswer": "Mercúrio",
+    "explanation": "Mercúrio é o planeta mais próximo do Sol, orbitando a uma distância média de 57,9 milhões de quilômetros.  Curiosidade: Um dia em Mercúrio dura aproximadamente 59 dias terrestres!"
+  },
+  {
+    "id": "quiz-universo-e-astronomia-2",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Júpiter",
+      "Saturno",
+      "Marte"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é um gigante gasoso, tão grande que poderia conter todos os outros planetas do nosso sistema solar dentro dele. Curiosidade: A Grande Mancha Vermelha de Júpiter é uma tempestade maior que a Terra!"
+  },
+  {
+    "id": "quiz-universo-e-astronomia-3",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico causa as marés na Terra?",
+    "options": [
+      "Rotação da Terra",
+      "Vento solar",
+      "Ação gravitacional da Lua e do Sol",
+      "Vulcanismo submarino"
+    ],
+    "correctAnswer": "Ação gravitacional da Lua e do Sol",
+    "explanation": "A atração gravitacional da Lua, principalmente, e também do Sol, causa o movimento das marés. Curiosidade: As marés mais altas ocorrem durante a lua cheia e a lua nova."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-4",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é uma estrela de nêutrons?",
+    "options": [
+      "Um tipo de planeta rochoso",
+      "Um buraco negro em miniatura",
+      "O remanescente extremamente denso de uma estrela massiva",
+      "Um tipo de nebulosa"
+    ],
+    "correctAnswer": "O remanescente extremamente denso de uma estrela massiva",
+    "explanation": "Uma estrela de nêutrons é formada após a explosão de uma supernova.  Curiosidade: Estrelas de nêutrons são incrivelmente densas; uma colher de chá pesaria bilhões de toneladas na Terra!"
+  },
+  {
+    "id": "quiz-universo-e-astronomia-5",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a unidade de medida da distância entre estrelas?",
+    "options": [
+      "quilômetro",
+      "metro",
+      "ano-luz",
+      "parsec"
+    ],
+    "correctAnswer": "ano-luz",
+    "explanation": "O ano-luz é a distância que a luz percorre em um ano.  Curiosidade: Um parsec é outra unidade de distância usada em astronomia, equivalente a 3,26 anos-luz."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-6",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "O que é a Via Láctea?",
+    "options": [
+      "Uma nebulosa planetária",
+      "Uma galáxia espiral",
+      "Um aglomerado de estrelas",
+      "Um tipo de constelação"
+    ],
+    "correctAnswer": "Uma galáxia espiral",
+    "explanation": "A Via Láctea é uma galáxia espiral onde se localiza o nosso Sistema Solar. Curiosidade: A Via Láctea contém bilhões de estrelas."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-7",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido como o 'Planeta Vermelho'?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Vênus",
+      "Saturno"
+    ],
+    "correctAnswer": "Marte",
+    "explanation": "Marte tem uma superfície avermelhada devido à presença de óxido de ferro. Curiosidade: Marte possui duas luas, Fobos e Deimos."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-8",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico é responsável pela formação de anéis ao redor de planetas gasosos?",
+    "options": [
+      "Erupções vulcânicas",
+      "Impactos de asteroides",
+      "Forças de maré e gravidade",
+      "Vento solar"
+    ],
+    "correctAnswer": "Forças de maré e gravidade",
+    "explanation": "Os anéis são formados por partículas de gelo, poeira e rocha que são mantidas em órbita pelo equilíbrio entre a gravidade do planeta e a força centrífuga. Curiosidade: Os anéis de Saturno são os mais famosos, mas Júpiter, Urano e Netuno também possuem anéis."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-9",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre um cometa e um asteroide?",
+    "options": [
+      "Composição química",
+      "Tamanho",
+      "Órbita",
+      "Temperatura"
+    ],
+    "correctAnswer": "Composição química e órbita",
+    "explanation": "Cometas são compostos principalmente de gelo e poeira e possuem órbitas mais excêntricas, enquanto asteroides são rochosos e possuem órbitas mais circulares, geralmente no cinturão de asteroides. Curiosidade: Alguns cometas podem ter caudas que se estendem por milhões de quilômetros."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-10",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual a fase da Lua que ocorre entre a lua nova e a lua cheia?",
+    "options": [
+      "Lua minguante",
+      "Lua crescente",
+      "Lua cheia",
+      "Lua nova"
+    ],
+    "correctAnswer": "Lua crescente",
+    "explanation": "A lua crescente é a fase em que a parte iluminada da Lua está aumentando. Curiosidade: A forma da Lua crescente muda a cada dia."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-11",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é uma nebulosa?",
+    "options": [
+      "Um tipo de estrela",
+      "Uma nuvem de gás e poeira no espaço",
+      "Um buraco negro",
+      "Um planeta anão"
+    ],
+    "correctAnswer": "Uma nuvem de gás e poeira no espaço",
+    "explanation": "Nebulosas são regiões de formação estelar. Curiosidade: Algumas nebulosas são remanescente de supernovas."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-12",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual teoria explica a origem e a evolução do universo?",
+    "options": [
+      "Teoria da Relatividade Geral",
+      "Teoria do Big Bang",
+      "Teoria da Gravitação Universal",
+      "Teoria da Evolução"
+    ],
+    "correctAnswer": "Teoria do Big Bang",
+    "explanation": "A Teoria do Big Bang postula que o universo se originou de um estado extremamente denso e quente e tem se expandido desde então. Curiosidade: A radiação cósmica de fundo em micro-ondas é uma evidência observacional da Teoria do Big Bang."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-13",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o nome do nosso satélite natural?",
+    "options": [
+      "Sol",
+      "Marte",
+      "Lua",
+      "Vênus"
+    ],
+    "correctAnswer": "Lua",
+    "explanation": "A Lua é o único satélite natural da Terra. Curiosidade: A Lua influencia as marés da Terra."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-14",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um eclipse solar?",
+    "options": [
+      "A sombra da Terra na Lua",
+      "A sombra da Lua na Terra",
+      "O alinhamento de três planetas",
+      "Uma explosão solar"
+    ],
+    "correctAnswer": "A sombra da Lua na Terra",
+    "explanation": "Um eclipse solar ocorre quando a Lua passa entre o Sol e a Terra, bloqueando a luz do Sol. Curiosidade: Nunca se deve olhar diretamente para o sol durante um eclipse solar sem proteção adequada."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-15",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a constelação mais facilmente reconhecível no hemisfério sul?",
+    "options": [
+      "Ursa Maior",
+      "Orion",
+      "Cruzeiro do Sul",
+      "Andrômeda"
+    ],
+    "correctAnswer": "Cruzeiro do Sul",
+    "explanation": "O Cruzeiro do Sul é uma constelação pequena, mas facilmente identificável por sua forma de cruz. Curiosidade: O Cruzeiro do Sul é usado para localizar o Polo Sul Celeste."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-16",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido pelos seus anéis?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Saturno é famoso pelos seus anéis proeminentes, compostos principalmente de gelo e rocha. Curiosidade: Os anéis de Saturno são tão finos que quase não são visíveis de lado."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-17",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é uma supernova?",
+    "options": [
+      "A formação de uma estrela",
+      "A morte explosiva de uma estrela",
+      "Um tipo de galáxia",
+      "Um buraco negro"
+    ],
+    "correctAnswer": "A morte explosiva de uma estrela",
+    "explanation": "Uma supernova é uma explosão estelar extremamente poderosa. Curiosidade: Supernovas são responsáveis por espalhar elementos pesados pelo universo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-18",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é o nome do fenômeno onde um buraco negro distorce a luz?",
+    "options": [
+      "Efeito Doppler",
+      "Efeito Casimir",
+      "Lente gravitacional",
+      "Efeito Compton"
+    ],
+    "correctAnswer": "Lente gravitacional",
+    "explanation": "A lente gravitacional ocorre quando a gravidade de um objeto massivo, como um buraco negro, curva a trajetória da luz. Curiosidade: A lente gravitacional pode ser usada para estudar objetos distantes."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-19",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido como o 'Gigante Gasoso'?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Mercúrio"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é o maior planeta do nosso sistema solar e é composto principalmente de gás. Curiosidade: Júpiter tem uma grande mancha vermelha, que é uma tempestade gigante."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-20",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um exoplaneta?",
+    "options": [
+      "Um planeta em nosso sistema solar",
+      "Um planeta fora do nosso sistema solar",
+      "Um tipo de estrela",
+      "Um asteroide"
+    ],
+    "correctAnswer": "Um planeta fora do nosso sistema solar",
+    "explanation": "Exoplanetas são planetas que orbitam estrelas além do nosso Sol. Curiosidade: Milhares de exoplanetas já foram descobertos."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-21",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a diferença entre uma galáxia espiral e uma galáxia elíptica?",
+    "options": [
+      "Forma",
+      "Composição",
+      "Tamanho",
+      "Distância da Terra"
+    ],
+    "correctAnswer": "Forma",
+    "explanation": "Galáxias espirais têm braços espirais distintos, enquanto galáxias elípticas têm uma forma mais arredondada ou alongada. Curiosidade: A Via Láctea é uma galáxia espiral."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-22",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é a estrela mais próxima da Terra?",
+    "options": [
+      "Sirius",
+      "Polaris",
+      "Próxima Centauri",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Próxima Centauri",
+    "explanation": "Próxima Centauri é uma estrela anã vermelha localizada no sistema estelar Alpha Centauri. Curiosidade: Próxima Centauri é muito mais pequena e fria que o nosso Sol."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-23",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um pulsar?",
+    "options": [
+      "Uma estrela em formação",
+      "Uma estrela de nêutrons que gira rapidamente",
+      "Um buraco negro",
+      "Uma nebulosa"
+    ],
+    "correctAnswer": "Uma estrela de nêutrons que gira rapidamente",
+    "explanation": "Pulsars emitem feixes de radiação que são detectados como pulsos regulares na Terra. Curiosidade:  Pulsars são altamente magnetizados."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-24",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a teoria que sugere a existência de matéria escura?",
+    "options": [
+      "Teoria da Relatividade",
+      "Teoria do Big Bang",
+      "Teoria da Gravitação",
+      "Modelo Padrão da Cosmologia"
+    ],
+    "correctAnswer": "Modelo Padrão da Cosmologia",
+    "explanation": "Observações sugerem que a matéria escura constitui a maior parte da matéria no universo, e o Modelo Padrão da Cosmologia incorpora a sua existência para explicar as observações cosmológicas. Curiosidade: A natureza exata da matéria escura ainda é um mistério."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-25",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido por ter um grande número de luas?",
+    "options": [
+      "Marte",
+      "Saturno",
+      "Júpiter",
+      "Urano"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter tem mais de 70 luas conhecidas. Curiosidade: Quatro das maiores luas de Júpiter foram descobertas por Galileu Galilei."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-26",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um quasar?",
+    "options": [
+      "Um tipo de estrela",
+      "Um buraco negro supermassivo em um núcleo de galáxia",
+      "Uma galáxia anã",
+      "Um asteroide"
+    ],
+    "correctAnswer": "Um buraco negro supermassivo em um núcleo de galáxia",
+    "explanation": "Quasares são extremamente brilhantes e distantes. Curiosidade: A energia de um quasar é produzida pela acreção de matéria em um buraco negro supermassivo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-27",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a força fundamental que governa a estrutura em larga escala do universo?",
+    "options": [
+      "Força eletromagnética",
+      "Força nuclear forte",
+      "Força nuclear fraca",
+      "Gravidade"
+    ],
+    "correctAnswer": "Gravidade",
+    "explanation": "A gravidade é a força fundamental que governa a formação de estrelas, galáxias e a estrutura em larga escala do universo. Curiosidade: A gravidade é a força mais fraca das quatro forças fundamentais, mas seu alcance é infinito."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-28",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o nome da nossa galáxia?",
+    "options": [
+      "Andrômeda",
+      "Triângulo",
+      "Via Láctea",
+      "Magalhães"
+    ],
+    "correctAnswer": "Via Láctea",
+    "explanation": "Nossa galáxia é uma galáxia espiral barrada. Curiosidade: A Via Láctea tem a forma de um disco achatado."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-29",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um asteroide?",
+    "options": [
+      "Um corpo celeste de gelo e poeira",
+      "Um pequeno corpo rochoso que orbita o Sol",
+      "Um pedaço de um cometa",
+      "Um fragmento de um planeta"
+    ],
+    "correctAnswer": "Um pequeno corpo rochoso que orbita o Sol",
+    "explanation": "Asteroides são encontrados principalmente no cinturão de asteroides entre Marte e Júpiter. Curiosidade: Alguns asteroides podem ser tão grandes quanto planetas anões."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-30",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a constante cosmológica?",
+    "options": [
+      "Uma constante física relacionada à energia escura",
+      "A velocidade da luz",
+      "A constante gravitacional",
+      "A constante de Planck"
+    ],
+    "correctAnswer": "Uma constante física relacionada à energia escura",
+    "explanation": "A constante cosmológica representa a energia do vácuo do espaço. Curiosidade: Ela explica a expansão acelerada do universo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-31",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um cometa?",
+    "options": [
+      "Um corpo celeste de gelo e poeira",
+      "Um pequeno corpo rochoso que orbita o Sol",
+      "Um pedaço de um planeta",
+      "Uma estrela que morreu"
+    ],
+    "correctAnswer": "Um corpo celeste de gelo e poeira",
+    "explanation": "Cometas podem desenvolver uma cauda brilhante quando se aproximam do Sol. Curiosidade:  O núcleo de um cometa é chamado de coma."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-32",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a diferença entre um meteoro e um meteorito?",
+    "options": [
+      "Tamanho",
+      "Composição",
+      "Localização",
+      "Velocidade"
+    ],
+    "correctAnswer": "Localização",
+    "explanation": "Um meteoro é um meteoroide que entra na atmosfera terrestre e queima; um meteorito é um meteoro que chega ao solo. Curiosidade: Muitos meteoritos são encontrados em desertos."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-33",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o maior satélite natural do nosso sistema solar?",
+    "options": [
+      "Lua",
+      "Titã",
+      "Ganimedes",
+      "Calisto"
+    ],
+    "correctAnswer": "Ganimedes",
+    "explanation": "Ganimedes é uma lua de Júpiter. Curiosidade: Ganimedes é maior que o planeta Mercúrio."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-34",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um eclipse lunar?",
+    "options": [
+      "A sombra da Terra na Lua",
+      "A sombra da Lua na Terra",
+      "O alinhamento de três planetas",
+      "Uma explosão lunar"
+    ],
+    "correctAnswer": "A sombra da Terra na Lua",
+    "explanation": "Um eclipse lunar ocorre quando a Terra passa entre o Sol e a Lua, bloqueando a luz do Sol. Curiosidade: Durante um eclipse lunar total, a Lua pode ficar avermelhada."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-35",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é o nome da força que faz com que as galáxias se afastem umas das outras?",
+    "options": [
+      "Gravidade",
+      "Força nuclear forte",
+      "Energia escura",
+      "Força eletromagnética"
+    ],
+    "correctAnswer": "Energia escura",
+    "explanation": "A energia escura é uma forma de energia misteriosa que compõe cerca de 68% do universo. Curiosidade: A natureza da energia escura ainda é um mistério."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-36",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido pelos seus ventos extremamente fortes?",
+    "options": [
+      "Terra",
+      "Vênus",
+      "Marte",
+      "Netuno"
+    ],
+    "correctAnswer": "Netuno",
+    "explanation": "Netuno tem ventos que podem atingir velocidades superiores a 2.100 km/h. Curiosidade: Netuno é um gigante de gelo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-37",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual é a constelação que abriga a estrela Sirius?",
+    "options": [
+      "Ursa Maior",
+      "Orion",
+      "Cão Maior",
+      "Leão"
+    ],
+    "correctAnswer": "Cão Maior",
+    "explanation": "Sirius é a estrela mais brilhante do céu noturno. Curiosidade: Sirius é uma estrela binária."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-38",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é o nome do processo pelo qual as estrelas geram energia?",
+    "options": [
+      "Fissão nuclear",
+      "Fusão nuclear",
+      "Radioatividade",
+      "Combustão"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "As estrelas geram energia fundindo átomos de hidrogênio em hélio. Curiosidade: Essa fusão nuclear libera enormes quantidades de energia."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-39",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta tem o dia mais longo?",
+    "options": [
+      "Terra",
+      "Vênus",
+      "Marte",
+      "Júpiter"
+    ],
+    "correctAnswer": "Vênus",
+    "explanation": "Um dia em Vênus dura mais de 243 dias terrestres. Curiosidade: Vênus gira em sentido retrógrado."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-40",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual é o nome da faixa de asteroides localizada entre Marte e Júpiter?",
+    "options": [
+      "Cinturão de Kuiper",
+      "Nuvem de Oort",
+      "Cinturão de Asteroides",
+      "Cinturão de Edgeworth-Kuiper"
+    ],
+    "correctAnswer": "Cinturão de Asteroides",
+    "explanation": "O cinturão de asteroides contém milhões de asteroides de vários tamanhos. Curiosidade:  A maioria dos asteroides do cinturão é composta de rocha e metal."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-41",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a unidade de medida da luminosidade de uma estrela?",
+    "options": [
+      "Parsec",
+      "Ano-luz",
+      "Magnitude",
+      "Watts"
+    ],
+    "correctAnswer": "Magnitude",
+    "explanation": "A magnitude aparente indica o brilho de uma estrela como vista da Terra. Curiosidade: Escalas de magnitude mais baixas correspondem a estrelas mais brilhantes."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-42",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido como o 'planeta anão'?",
+    "options": [
+      "Marte",
+      "Plutão",
+      "Mercúrio",
+      "Vênus"
+    ],
+    "correctAnswer": "Plutão",
+    "explanation": "Plutão foi reclassificado como um planeta anão em 2006.  Curiosidade: Plutão tem cinco luas conhecidas."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-43",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual fase da Lua acontece quando não conseguimos vê-la?",
+    "options": [
+      "Lua Cheia",
+      "Lua Crescente",
+      "Lua Minguante",
+      "Lua Nova"
+    ],
+    "correctAnswer": "Lua Nova",
+    "explanation": "Durante a Lua Nova, a face iluminada da Lua está voltada para o Sol, e não para a Terra.  Curiosidade:  Eclipses solares só acontecem durante a Lua Nova."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-44",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é a 'Zona Habitável' em relação a sistemas estelares?",
+    "options": [
+      "Região onde a vida é definitivamente encontrada",
+      "Região ao redor de uma estrela onde a temperatura permite a existência de água líquida na superfície de um planeta",
+      "Região onde há maior concentração de asteroides",
+      "Região onde os planetas orbitam mais rápido"
+    ],
+    "correctAnswer": "Região ao redor de uma estrela onde a temperatura permite a existência de água líquida na superfície de um planeta",
+    "explanation": "A zona habitável depende da luminosidade da estrela.  Curiosidade:  O tamanho da zona habitável varia de estrela para estrela."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-45",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico é responsável pelo brilho das estrelas?",
+    "options": [
+      "Fusão nuclear",
+      "Combustão",
+      "Radioatividade",
+      "Reflexão da luz solar"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "Estrelas geram energia através da fusão nuclear de hidrogênio em hélio em seus núcleos. Curiosidade:  Essa fusão libera enormes quantidades de energia na forma de luz e calor."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-46",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "O que é o paradoxo de Fermi?",
+    "options": [
+      "A aparente contradição entre a alta probabilidade de existência de vida extraterrestre e a falta de evidências observacionais",
+      "A impossibilidade de viajar mais rápido que a luz",
+      "A expansão acelerada do universo",
+      "A origem da matéria escura"
+    ],
+    "correctAnswer": "A aparente contradição entre a alta probabilidade de existência de vida extraterrestre e a falta de evidências observacionais",
+    "explanation": "O paradoxo de Fermi questiona por que, considerando a imensidão do universo e a idade dele, ainda não encontramos nenhuma evidência de outras civilizações.  Curiosidade:  Existem muitas teorias tentando resolver esse paradoxo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-47",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual o nome do maior satélite natural de Júpiter?",
+    "options": [
+      "Europa",
+      "Io",
+      "Ganímedes",
+      "Calisto"
+    ],
+    "correctAnswer": "Ganímedes",
+    "explanation": "Ganímedes é maior que o planeta Mercúrio! Curiosidade: Ganímedes possui um campo magnético próprio."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-48",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que são pulsares?",
+    "options": [
+      "Estrelas jovens em formação",
+      "Restos de supernovas que giram rapidamente e emitem radiação",
+      "Nuvens de gás e poeira interestelar",
+      "Planetas com anéis de poeira"
+    ],
+    "correctAnswer": "Restos de supernovas que giram rapidamente e emitem radiação",
+    "explanation": "Pulsares são estrelas de nêutrons que giram rapidamente e emitem feixes de radiação. Curiosidade:  Seu pulso regular é extremamente preciso."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-49",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual é a principal diferença entre a matéria escura e a energia escura?",
+    "options": [
+      "A matéria escura atrai gravitacionalmente, enquanto a energia escura repele",
+      "A matéria escura é visível, enquanto a energia escura não é",
+      "A matéria escura é composta de átomos, enquanto a energia escura não",
+      "Ambas são a mesma coisa, apenas nomeadas de forma diferente"
+    ],
+    "correctAnswer": "A matéria escura atrai gravitacionalmente, enquanto a energia escura repele",
+    "explanation": "A matéria escura afeta a gravidade, enquanto a energia escura acelera a expansão do universo. Curiosidade: Ambas compõem a maior parte da massa-energia do universo, mas ainda são pouco compreendidas."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-50",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido por ter um grande ponto vermelho?",
+    "options": [
+      "Netuno",
+      "Júpiter",
+      "Saturno",
+      "Marte"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "A Grande Mancha Vermelha é uma tempestade gigante que existe há séculos. Curiosidade:  É maior que a Terra!"
+  },
+  {
+    "id": "quiz-universo-e-astronomia-51",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "Qual é a unidade de medida astronômica usada para medir distâncias entre estrelas?",
+    "options": [
+      "Metro",
+      "Quilômetro",
+      "Unidade Astronômica (UA)",
+      "Ano-luz"
+    ],
+    "correctAnswer": "Ano-luz",
+    "explanation": "Um ano-luz é a distância que a luz percorre em um ano. Curiosidade:  É uma unidade muito grande, cerca de 9,461 × 10^12 quilômetros."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-52",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual teoria cosmológica descreve a evolução do universo desde o Big Bang?",
+    "options": [
+      "Teoria das Cordas",
+      "Teoria da Relatividade Geral",
+      "Modelo Lambda-CDM",
+      "Teoria do Estado Estacionário"
+    ],
+    "correctAnswer": "Modelo Lambda-CDM",
+    "explanation": "O Modelo Lambda-CDM é o modelo cosmológico padrão que descreve a evolução do universo, incorporando a matéria escura, a energia escura e a constante cosmológica. Curiosidade:  Ainda há questões em aberto nesse modelo."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-53",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual o nome da constelação que abriga a estrela Polar?",
+    "options": [
+      "Ursa Maior",
+      "Ursa Menor",
+      "Cassiopeia",
+      "Andrômeda"
+    ],
+    "correctAnswer": "Ursa Menor",
+    "explanation": "A estrela Polar, também conhecida como Polaris, indica o norte. Curiosidade:  Sua posição no céu é quase fixa."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-54",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "medium",
+    "question": "O que é um meteorito?",
+    "options": [
+      "Um meteoro que atinge a superfície da Terra",
+      "Uma estrela cadente",
+      "Uma rocha espacial em órbita",
+      "Uma bola de fogo no espaço"
+    ],
+    "correctAnswer": "Um meteoro que atinge a superfície da Terra",
+    "explanation": "Meteoritos são pedaços de rocha ou metal que sobrevivem à passagem pela atmosfera e chegam à Terra. Curiosidade:  Muitos meteoritos contêm informações valiosas sobre a formação do sistema solar."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-55",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um buraco negro supermassivo e um buraco negro estelar?",
+    "options": [
+      "Tamanho e massa",
+      "Composição química",
+      "Rotação",
+      "Temperatura"
+    ],
+    "correctAnswer": "Tamanho e massa",
+    "explanation": "Buracos negros supermassivos são milhões ou bilhões de vezes mais massivos que buracos negros estelares. Curiosidade:  Acredita-se que existam buracos negros supermassivos no centro da maioria das galáxias."
+  }
+]

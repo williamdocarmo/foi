@@ -1,0 +1,744 @@
+[
+  {
+    "id": "quiz-autoajuda-1",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa crucial na maioria dos processos de autoajuda?",
+    "options": [
+      "Definir metas",
+      "Mudar hábitos",
+      "Buscar apoio externo",
+      "Aceitar-se"
+    ],
+    "correctAnswer": "Aceitar-se",
+    "explanation": "Antes de mudar, é preciso reconhecer a situação atual.  A autoaceitação é fundamental para o crescimento pessoal. Curiosidade:  A psicologia positiva enfatiza a importância da aceitação como base para o bem-estar."
+  },
+  {
+    "id": "quiz-autoajuda-2",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de tempo é frequentemente recomendada em livros de autoajuda?",
+    "options": [
+      "Método Pomodoro",
+      "GTD (Getting Things Done)",
+      "Matriz de Eisenhower",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Pomodoro, GTD e a Matriz de Eisenhower são técnicas populares para otimizar a produtividade e o tempo. Curiosidade: O método Pomodoro foi criado na década de 1980 por Francesco Cirillo."
+  },
+  {
+    "id": "quiz-autoajuda-3",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre mindfulness e meditação?",
+    "options": [
+      "Mindfulness é uma técnica, meditação é um estado mental",
+      "Meditação é uma prática formal, mindfulness é a atenção plena no dia a dia",
+      "Não há diferença significativa",
+      "Mindfulness requer foco absoluto, meditação não"
+    ],
+    "correctAnswer": "Meditação é uma prática formal, mindfulness é a atenção plena no dia a dia",
+    "explanation": "Embora relacionadas, a meditação é uma prática formal, enquanto o mindfulness é a capacidade de prestar atenção ao momento presente, integrando-se ao cotidiano. Curiosidade: A prática regular de mindfulness está associada à redução do estresse e da ansiedade."
+  },
+  {
+    "id": "quiz-autoajuda-4",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa resiliência?",
+    "options": [
+      "Capacidade de superar desafios",
+      "Ter sempre otimismo",
+      "Evitar conflitos",
+      "Ser independente"
+    ],
+    "correctAnswer": "Capacidade de superar desafios",
+    "explanation": "Resiliência é a capacidade de se adaptar e superar adversidades. Curiosidade: Pessoas resilientes frequentemente demonstram adaptabilidade e aprendizado com as experiências."
+  },
+  {
+    "id": "quiz-autoajuda-5",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual conceito chave está ligado à programação neurolinguística (PNL)?",
+    "options": [
+      "Pensamento positivo",
+      "Visualização criativa",
+      "Modelagem de sucesso",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A PNL utiliza técnicas como pensamento positivo, visualização e modelagem para alcançar objetivos. Curiosidade: A PNL foi desenvolvida nas décadas de 1970 e 1980."
+  },
+  {
+    "id": "quiz-autoajuda-6",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a psicologia positiva difere da psicologia tradicional?",
+    "options": [
+      "Foco em traumas vs. pontos fortes",
+      "Tratamento de doenças vs. promoção do bem-estar",
+      "Abordagem individual vs. grupal",
+      "Nenhuma diferença significativa"
+    ],
+    "correctAnswer": "Tratamento de doenças vs. promoção do bem-estar",
+    "explanation": "Psicologia tradicional foca em tratar doenças mentais, enquanto a psicologia positiva busca promover o bem-estar e o florescimento humano. Curiosidade: Martin Seligman é considerado um dos fundadores da psicologia positiva."
+  },
+  {
+    "id": "quiz-autoajuda-7",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que é um 'círculo vicioso' em contexto de autoajuda?",
+    "options": [
+      "Um ciclo de pensamentos positivos",
+      "Um padrão repetitivo de comportamentos negativos",
+      "Um objetivo de curto prazo",
+      "Um método de resolução de conflitos"
+    ],
+    "correctAnswer": "Um padrão repetitivo de comportamentos negativos",
+    "explanation": "Um círculo vicioso é um padrão de comportamento que se repete e leva a resultados negativos.  Curiosidade: Quebrar um círculo vicioso geralmente exige identificar gatilhos e desenvolver novas estratégias de resposta."
+  },
+  {
+    "id": "quiz-autoajuda-8",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual é a principal ideia por trás do conceito de 'mindset'?",
+    "options": [
+      "Inteligência inata",
+      "Habilidades fixas",
+      "Crenças que moldam comportamentos",
+      "Personalidade imutável"
+    ],
+    "correctAnswer": "Crenças que moldam comportamentos",
+    "explanation": "O mindset se refere às crenças que temos sobre nossas habilidades e capacidade de crescimento. Curiosidade: Carol Dweck popularizou o conceito de 'mindset' com sua pesquisa sobre mindset de crescimento e mindset fixo."
+  },
+  {
+    "id": "quiz-autoajuda-9",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre inteligência emocional e inteligência cognitiva?",
+    "options": [
+      "Uma é inata, a outra é aprendida",
+      "Uma trata de raciocínio lógico, a outra de gerenciamento de emoções",
+      "Não há diferença significativa",
+      "Uma é medida por testes de QI, a outra não"
+    ],
+    "correctAnswer": "Uma trata de raciocínio lógico, a outra de gerenciamento de emoções",
+    "explanation": "Inteligência cognitiva envolve habilidades racionais, enquanto a inteligência emocional abrange habilidades sociais e gerenciamento de emoções. Curiosidade: Daniel Goleman popularizou o conceito de inteligência emocional."
+  },
+  {
+    "id": "quiz-autoajuda-10",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa 'autocompaixão'?",
+    "options": [
+      "Rigidez consigo mesmo",
+      "Egoísmo extremo",
+      "Tratamento gentil para si mesmo",
+      "Desprezo pelos próprios erros"
+    ],
+    "correctAnswer": "Tratamento gentil para si mesmo",
+    "explanation": "Autocompaixão envolve tratar a si mesmo com bondade, compreensão e aceitação, especialmente em momentos de dificuldade. Curiosidade: Kristin Neff é uma pesquisadora pioneira no estudo da autocompaixão."
+  },
+  {
+    "id": "quiz-autoajuda-11",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual técnica de respiração é frequentemente usada para reduzir o estresse?",
+    "options": [
+      "Respiração diafragmática",
+      "Respiração rápida e superficial",
+      "Respiração ritmada com apneia",
+      "Respiração hiperventilação"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática, ou respiração profunda, ativa o sistema nervoso parassimpático, promovendo calma. Curiosidade: A respiração diafragmática é usada em diversas práticas de relaxamento, como yoga e meditação."
+  },
+  {
+    "id": "quiz-autoajuda-12",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual é a crítica mais comum à indústria de autoajuda?",
+    "options": [
+      "Falta de embasamento científico",
+      "Preocupação excessiva com a positividade",
+      "Promessa de resultados rápidos e irreais",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A indústria de autoajuda enfrenta críticas por falta de rigor científico, ênfase excessiva na positividade tóxica e promessas enganosas de transformação rápida. Curiosidade: Muitos autores de autoajuda não possuem formação acadêmica em psicologia ou áreas afins."
+  },
+  {
+    "id": "quiz-autoajuda-13",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa estabelecer limites saudáveis?",
+    "options": [
+      "Ser rude com os outros",
+      "Dizer 'sim' a tudo",
+      "Priorizar suas necessidades e bem-estar",
+      "Isolar-se socialmente"
+    ],
+    "correctAnswer": "Priorizar suas necessidades e bem-estar",
+    "explanation": "Estabelecer limites saudáveis significa proteger seu tempo, energia e bem-estar emocional. Curiosidade: Limites saudáveis contribuem para relacionamentos mais equilibrados e saudáveis."
+  },
+  {
+    "id": "quiz-autoajuda-14",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a importância da visualização em processos de autoajuda?",
+    "options": [
+      "Melhorar a memória",
+      "Aumentar a criatividade",
+      "Programar o subconsciente para alcançar metas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A visualização pode auxiliar na memória, criatividade e na programação mental para atingir objetivos. Curiosidade: Atletas de alto rendimento frequentemente utilizam a visualização para melhorar o desempenho."
+  },
+  {
+    "id": "quiz-autoajuda-15",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre afirmações positivas e autossabotagem?",
+    "options": [
+      "Afirmações são pensamentos negativos, autossabotagem é positiva",
+      "Afirmações reforçam crenças positivas, autossabotagem as minam",
+      "Não há diferença significativa",
+      "Afirmações são ações, autossabotagem são pensamentos"
+    ],
+    "correctAnswer": "Afirmações reforçam crenças positivas, autossabotagem as minam",
+    "explanation": "Afirmações positivas buscam reforçar crenças positivas, enquanto a autossabotagem consiste em ações ou pensamentos que impedem o progresso. Curiosidade: A autossabotagem muitas vezes tem raízes em inseguranças e medos."
+  },
+  {
+    "id": "quiz-autoajuda-16",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa 'autoeficácia'?",
+    "options": [
+      "Confiança em suas habilidades",
+      "Superficialidade",
+      "Depressão",
+      "Medo do fracasso"
+    ],
+    "correctAnswer": "Confiança em suas habilidades",
+    "explanation": "Autoeficácia é a crença na própria capacidade de alcançar sucesso em uma tarefa específica. Curiosidade: Albert Bandura é considerado o principal pesquisador sobre autoeficácia."
+  },
+  {
+    "id": "quiz-autoajuda-17",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual ferramenta é frequentemente utilizada para rastrear hábitos e progressos em autoajuda?",
+    "options": [
+      "Planilha de Excel",
+      "Aplicativos de rastreamento de hábitos",
+      "Diário pessoal",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Planilhas, aplicativos e diários são ferramentas úteis para monitorar o progresso em direção aos objetivos. Curiosidade: Muitos aplicativos de rastreamento de hábitos utilizam gamificação para aumentar a motivação."
+  },
+  {
+    "id": "quiz-autoajuda-18",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a teoria da fixação de objetivos SMART pode auxiliar em processos de autoajuda?",
+    "options": [
+      "Definir metas claras, mensuráveis, alcançáveis, relevantes e com prazo definido",
+      "Evitar a definição de metas",
+      "Criar metas complexas e abrangentes",
+      "Ignorar a importância da definição de metas"
+    ],
+    "correctAnswer": "Definir metas claras, mensuráveis, alcançáveis, relevantes e com prazo definido",
+    "explanation": "A metodologia SMART proporciona estrutura e clareza na definição de objetivos, facilitando o processo de autoajuda. Curiosidade: A sigla SMART é um acrônimo em inglês para Specific, Measurable, Achievable, Relevant, e Time-bound."
+  },
+  {
+    "id": "quiz-autoajuda-19",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que é gratidão?",
+    "options": [
+      "Reclamação constante",
+      "Atitude negativa",
+      "Reconhecimento pelo que se tem",
+      "Desejo de mais coisas"
+    ],
+    "correctAnswer": "Reconhecimento pelo que se tem",
+    "explanation": "Gratidão é o sentimento de apreciação pelo que se possui. Curiosidade: A prática regular da gratidão está associada ao aumento da felicidade e bem-estar."
+  },
+  {
+    "id": "quiz-autoajuda-20",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual o papel da comunicação assertiva na autoajuda?",
+    "options": [
+      "Expressar-se agressivamente",
+      "Submeter-se às vontades dos outros",
+      "Expressar suas necessidades de forma respeitosa",
+      "Evitar conflitos a todo custo"
+    ],
+    "correctAnswer": "Expressar suas necessidades de forma respeitosa",
+    "explanation": "A comunicação assertiva permite expressar necessidades e opiniões sem agredir ou se submeter aos outros. Curiosidade: A comunicação assertiva é uma habilidade fundamental para relacionamentos saudáveis."
+  },
+  {
+    "id": "quiz-autoajuda-21",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como o conceito de 'serenidade' se relaciona com a autoajuda?",
+    "options": [
+      "Busca por perfeição",
+      "Aceitação da imperfeição",
+      "Controle absoluto sobre a vida",
+      "Rejeição das emoções"
+    ],
+    "correctAnswer": "Aceitação da imperfeição",
+    "explanation": "Serenidade implica em aceitar a imperfeição da vida e das próprias limitações. Curiosidade: A serenidade é frequentemente associada à prática da meditação e mindfulness."
+  },
+  {
+    "id": "quiz-autoajuda-22",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa 'procrastinação'?",
+    "options": [
+      "Ação imediata",
+      "Adiamento de tarefas",
+      "Organização impecável",
+      "Planejamento eficaz"
+    ],
+    "correctAnswer": "Adiamento de tarefas",
+    "explanation": "Procrastinação é o ato de adiar tarefas que deveriam ser feitas. Curiosidade: A procrastinação pode ser gerida com técnicas de gerenciamento de tempo e priorização de tarefas."
+  },
+  {
+    "id": "quiz-autoajuda-23",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a importância do perdão (tanto para si mesmo quanto para os outros) na autoajuda?",
+    "options": [
+      "Manter a raiva e ressentimento",
+      "Ignorar os erros cometidos",
+      "Liberar-se de sentimentos negativos e promover o bem-estar",
+      "Vingar-se"
+    ],
+    "correctAnswer": "Liberar-se de sentimentos negativos e promover o bem-estar",
+    "explanation": "O perdão é um processo que ajuda a liberar sentimentos negativos e a promover a paz interior. Curiosidade: Perdoar não significa esquecer, mas sim deixar de carregar o peso emocional da mágoa."
+  },
+  {
+    "id": "quiz-autoajuda-24",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como o conceito de 'equilíbrio' se aplica à autoajuda?",
+    "options": [
+      "Priorizar apenas um aspecto da vida",
+      "Negligenciar necessidades pessoais",
+      "Buscar harmonia entre diferentes áreas da vida",
+      "Superar desafios sem descanso"
+    ],
+    "correctAnswer": "Buscar harmonia entre diferentes áreas da vida",
+    "explanation": "Equilíbrio em autoajuda significa encontrar harmonia entre trabalho, relacionamentos, saúde física e mental, lazer etc. Curiosidade:  A busca pelo equilíbrio é um processo contínuo e adaptável às mudanças da vida."
+  },
+  {
+    "id": "quiz-autoajuda-25",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira coisa a fazer ao estabelecer uma meta?",
+    "options": [
+      "Ignorar os obstáculos",
+      "Começar imediatamente a trabalhar",
+      "Definir a meta especificamente",
+      "Desistir ao primeiro obstáculo"
+    ],
+    "correctAnswer": "Definir a meta especificamente",
+    "explanation": "Uma meta bem definida é crucial para o sucesso. Curiosidade: Metas claras e concisas aumentam as chances de atingi-las."
+  },
+  {
+    "id": "quiz-autoajuda-26",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "O que são 'pensamentos catastróficos'?",
+    "options": [
+      "Pensamentos positivos e otimistas",
+      "Pensamentos racionais e objetivos",
+      "Pensamentos exagerados e negativos sobre o futuro",
+      "Pensamentos criativos e inovadores"
+    ],
+    "correctAnswer": "Pensamentos exagerados e negativos sobre o futuro",
+    "explanation": "Pensamentos catastróficos são previsões negativas e exageradas sobre eventos futuros. Curiosidade: Técnicas de cognição podem auxiliar a lidar com esses pensamentos."
+  },
+  {
+    "id": "quiz-autoajuda-27",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a terapia cognitivo-comportamental (TCC) se relaciona com a autoajuda?",
+    "options": [
+      "A TCC é contrária aos princípios da autoajuda",
+      "A autoajuda substitui a TCC",
+      "A autoajuda pode complementar os princípios da TCC",
+      "A TCC não tem relação com a autoajuda"
+    ],
+    "correctAnswer": "A autoajuda pode complementar os princípios da TCC",
+    "explanation": "Algumas técnicas de autoajuda se baseiam nos princípios da TCC, mas a TCC é uma terapia profissional. Curiosidade: A TCC é uma terapia eficaz para diversos problemas psicológicos."
+  },
+  {
+    "id": "quiz-autoajuda-28",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que é um diário de gratidão?",
+    "options": [
+      "Um diário para reclamar",
+      "Um diário para anotar os objetivos",
+      "Um diário para registrar coisas pelas quais você é grato",
+      "Um diário para registrar tarefas"
+    ],
+    "correctAnswer": "Um diário para registrar coisas pelas quais você é grato",
+    "explanation": "Um diário de gratidão foca nos aspectos positivos da vida. Curiosidade: Escrever no diário da gratidão regularmente aumenta a felicidade e bem-estar."
+  },
+  {
+    "id": "quiz-autoajuda-29",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual o papel da autoestima na autoajuda?",
+    "options": [
+      "Irrelevante para o processo de autoajuda",
+      "Obstáculo para o crescimento",
+      "Fundamental para a motivação e crescimento pessoal",
+      "Apenas para pessoas com baixa autoestima"
+    ],
+    "correctAnswer": "Fundamental para a motivação e crescimento pessoal",
+    "explanation": "Alta autoestima impulsiona a motivação e capacidade de superação. Curiosidade: A autoestima pode ser trabalhada com técnicas específicas."
+  },
+  {
+    "id": "quiz-autoajuda-30",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a psicologia humanista contribui para a autoajuda?",
+    "options": [
+      "Ignora as necessidades individuais",
+      "Foca em problemas do passado",
+      "Enfatiza o potencial humano para crescimento e autorrealização",
+      "Desvaloriza a experiência subjetiva"
+    ],
+    "correctAnswer": "Enfatiza o potencial humano para crescimento e autorrealização",
+    "explanation": "A psicologia humanista inspira muitos métodos de autoajuda. Curiosidade: Abraham Maslow e Carl Rogers são figuras importantes da psicologia humanista."
+  },
+  {
+    "id": "quiz-autoajuda-31",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa 'autoconhecimento'?",
+    "options": [
+      "Desconhecimento de si mesmo",
+      "Ignorar os próprios sentimentos",
+      "Compreensão de seus pontos fortes e fracos",
+      "Julgamento severo de si mesmo"
+    ],
+    "correctAnswer": "Compreensão de seus pontos fortes e fracos",
+    "explanation": "Autoconhecimento é fundamental para o crescimento pessoal. Curiosidade: O autoconhecimento é um processo contínuo e evolutivo."
+  },
+  {
+    "id": "quiz-autoajuda-32",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a importância do estabelecimento de metas realistas na autoajuda?",
+    "options": [
+      "Definir metas impossíveis para se superar",
+      "Desconsiderar os recursos e limitações",
+      "Definir metas alcançáveis para manter a motivação",
+      "Ignorar a importância das metas"
+    ],
+    "correctAnswer": "Definir metas alcançáveis para manter a motivação",
+    "explanation": "Metas realistas são mais motivadoras e aumentam as chances de sucesso. Curiosidade: Metas muito ambiciosas podem levar à frustração e ao abandono do processo."
+  },
+  {
+    "id": "quiz-autoajuda-33",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a neurociência contribui para a compreensão dos mecanismos da autoajuda?",
+    "options": [
+      "Não tem relação com a autoajuda",
+      "Desmente a eficácia das técnicas de autoajuda",
+      "Oferece insights sobre como o cérebro aprende e se adapta",
+      "Desconsidera a experiência subjetiva"
+    ],
+    "correctAnswer": "Oferece insights sobre como o cérebro aprende e se adapta",
+    "explanation": "A neurociência ajuda a compreender como as técnicas de autoajuda afetam o cérebro. Curiosidade: Estudos de neuroimagem revelam mudanças cerebrais após a prática de mindfulness."
+  },
+  {
+    "id": "quiz-autoajuda-34",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que é importante considerar ao buscar ajuda profissional para questões de autoajuda?",
+    "options": [
+      "Buscar qualquer profissional",
+      "Depender exclusivamente de conselhos online",
+      "Pesquisar credenciais e experiência do profissional",
+      "Ignorar as indicações de profissionais"
+    ],
+    "correctAnswer": "Pesquisar credenciais e experiência do profissional",
+    "explanation": "É fundamental buscar profissionais qualificados. Curiosidade: Nem todas as pessoas precisam de terapia, mas se necessário é crucial buscar ajuda adequada."
+  },
+  {
+    "id": "quiz-autoajuda-35",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a diferença entre 'ansiedade' e 'estresse'?",
+    "options": [
+      "São sinônimos",
+      "Ansiedade é um estado crônico, estresse é agudo",
+      "Ansiedade é física, estresse é mental",
+      "Não há diferença"
+    ],
+    "correctAnswer": "Ansiedade é um estado crônico, estresse é agudo",
+    "explanation": "Embora relacionados, a ansiedade é mais duradoura e generalizada que o estresse. Curiosidade: Técnicas de gerenciamento de estresse podem ajudar a reduzir a ansiedade."
+  },
+  {
+    "id": "quiz-autoajuda-36",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como o conceito de 'aceitação' difere de 'conformismo'?",
+    "options": [
+      "São sinônimos",
+      "Aceitação implica em passividade, conformismo em ação",
+      "Aceitação é sobre reconhecer a realidade, conformismo sobre ceder à pressão social",
+      "Não há diferença"
+    ],
+    "correctAnswer": "Aceitação é sobre reconhecer a realidade, conformismo sobre ceder à pressão social",
+    "explanation": "Aceitação é sobre reconhecimento, enquanto conformismo é sobre ceder à pressão externa. Curiosidade: A aceitação é uma etapa importante para mudanças positivas, enquanto o conformismo pode ser prejudicial à autonomia."
+  },
+  {
+    "id": "quiz-autoajuda-37",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a primeira etapa para gerenciar sua saúde mental?",
+    "options": [
+      "Negar os problemas",
+      "Ignorar os sinais",
+      "Buscar apoio profissional",
+      "Isolar-se"
+    ],
+    "correctAnswer": "Buscar apoio profissional",
+    "explanation": "Não tenha vergonha de pedir ajuda profissional.  Curiosidade: Existem vários tipos de ajuda disponíveis, desde psicólogos até grupos de apoio."
+  },
+  {
+    "id": "quiz-autoajuda-38",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Como a prática de exercícios físicos influencia a autoajuda?",
+    "options": [
+      "Agrava a ansiedade",
+      "Não tem impacto",
+      "Libera endorfinas que melhoram o humor e reduzem o estresse",
+      "Causa fadiga e impede o foco"
+    ],
+    "correctAnswer": "Libera endorfinas que melhoram o humor e reduzem o estresse",
+    "explanation": "O exercício físico ajuda a lidar com o estresse e a melhorar a saúde mental. Curiosidade: Uma caminhada diária já pode trazer benefícios significativos."
+  },
+  {
+    "id": "quiz-autoajuda-39",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual a crítica principal à abordagem de 'pensamento positivo' em excesso?",
+    "options": [
+      "É ineficaz",
+      "É muito simples",
+      "Pode minimizar sentimentos negativos importantes",
+      "Não tem desvantagens"
+    ],
+    "correctAnswer": "Pode minimizar sentimentos negativos importantes",
+    "explanation": "Ignorar ou suprimir emoções negativas pode ser prejudicial a longo prazo. Curiosidade: O equilíbrio entre positividade e realismo é crucial para o bem-estar."
+  },
+  {
+    "id": "quiz-autoajuda-40",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a importância do sono na autoajuda?",
+    "options": [
+      "Irrelevante",
+      "Obstáculo ao crescimento",
+      "Essencial para a recuperação física e mental",
+      "Impeditivo para a produtividade"
+    ],
+    "correctAnswer": "Essencial para a recuperação física e mental",
+    "explanation": "Sono adequado é fundamental para o bem-estar físico e mental. Curiosidade: A privação do sono afeta negativamente o humor, o foco e o desempenho cognitivo."
+  },
+  {
+    "id": "quiz-autoajuda-41",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Como a nutrição se relaciona com a autoajuda?",
+    "options": [
+      "Não tem relação",
+      "Impede a felicidade",
+      "Afeta o humor, a energia e o foco",
+      "Não é importante"
+    ],
+    "correctAnswer": "Afeta o humor, a energia e o foco",
+    "explanation": "Uma alimentação equilibrada fornece energia e nutrientes essenciais para o bem-estar. Curiosidade:  Uma dieta rica em frutas, verduras e legumes contribui para a saúde mental."
+  },
+  {
+    "id": "quiz-autoajuda-42",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a prática da gratidão pode influenciar a resiliência?",
+    "options": [
+      "Diminui a resiliência",
+      "Não tem relação",
+      "Aumenta a capacidade de lidar com adversidades",
+      "É irrelevante para a resiliência"
+    ],
+    "correctAnswer": "Aumenta a capacidade de lidar com adversidades",
+    "explanation": "A gratidão promove uma perspectiva positiva que aumenta a resiliência. Curiosidade: Expressar gratidão a outras pessoas também fortalece os laços sociais e o suporte emocional."
+  },
+  {
+    "id": "quiz-autoajuda-43",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a principal vantagem de definir metas SMART?",
+    "options": [
+      "São mais fáceis de lembrar.",
+      "São mais específicas e alcançáveis.",
+      "Requerem menos esforço.",
+      "São mais inspiradoras."
+    ],
+    "correctAnswer": "São mais específicas e alcançáveis.",
+    "explanation": "SMART significa Specific, Measurable, Achievable, Relevant, Time-bound.  A especificidade e a mensurabilidade garantem foco e progresso rastreável. Uma curiosidade: a metodologia SMART é amplamente utilizada em gestão de projetos, além da autoajuda."
+  },
+  {
+    "id": "quiz-autoajuda-44",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "O que significa 'mindfulness'?",
+    "options": [
+      "Pensar positivamente.",
+      "Meditar por horas a fio.",
+      "Prestar atenção ao momento presente sem julgamento.",
+      "Visualizar o futuro ideal."
+    ],
+    "correctAnswer": "Prestar atenção ao momento presente sem julgamento.",
+    "explanation": "Mindfulness é a prática de atenção plena ao momento presente. Curiosamente, a prática regular de mindfulness tem sido associada à redução de sintomas de ansiedade e depressão."
+  },
+  {
+    "id": "quiz-autoajuda-45",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual técnica NÃO é comumente usada para gerenciar o estresse?",
+    "options": [
+      "Respiração diafragmática",
+      "Meditação transcendental",
+      "Pensamentos catastróficos",
+      "Yoga"
+    ],
+    "correctAnswer": "Pensamentos catastróficos",
+    "explanation": "Pensamentos catastróficos intensificam o estresse.  As outras opções são técnicas comprovadamente eficazes para gerenciar o estresse. Curiosidade: a prática regular de exercícios físicos também é um ótimo aliado contra o estresse."
+  },
+  {
+    "id": "quiz-autoajuda-46",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre autocompaixão e egoísmo?",
+    "options": [
+      "Não há diferença, são sinônimos.",
+      "Autocompaixão envolve bondade e aceitação de si mesmo, enquanto o egoísmo foca apenas nas próprias necessidades sem considerar os outros.",
+      "Autocompaixão é sobre se punir, egoísmo é sobre se recompensar.",
+      "Autocompaixão é para pessoas fracas, egoísmo é para pessoas fortes."
+    ],
+    "correctAnswer": "Autocompaixão envolve bondade e aceitação de si mesmo, enquanto o egoísmo foca apenas nas próprias necessidades sem considerar os outros.",
+    "explanation": "A autocompaixão inclui bondade, compreensão e aceitação em relação a si mesmo, mesmo diante de erros.  O egoísmo, por outro lado, é centrado em si e desconsidera as necessidades dos outros.  Curiosidade: praticar a autocompaixão está associado a maior bem-estar psicológico."
+  },
+  {
+    "id": "quiz-autoajuda-47",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a 'teoria da dissonância cognitiva' pode ser aplicada à autoajuda?",
+    "options": [
+      "Ignorando-a completamente.",
+      "Usando-a para justificar comportamentos negativos.",
+      "Utilizando-a para identificar e resolver conflitos internos entre crenças e ações.",
+      "Não se aplica à autoajuda."
+    ],
+    "correctAnswer": "Utilizando-a para identificar e resolver conflitos internos entre crenças e ações.",
+    "explanation": "A dissonância cognitiva descreve o desconforto que sentimos quando nossas crenças e ações conflitam. Em autoajuda, podemos usar essa teoria para identificar e mudar crenças limitantes que impedem o progresso. Curiosidade: Leon Festinger foi o psicólogo que formulou a teoria da dissonância cognitiva."
+  },
+  {
+    "id": "quiz-autoajuda-48",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Qual o papel da 'epigenética' na autoajuda?",
+    "options": [
+      "Não tem nenhum papel.",
+      "Sugere que nossos genes determinam totalmente nosso sucesso na autoajuda.",
+      "Demonstra a influência do ambiente na expressão gênica, sugerindo que mudanças de hábitos podem afetar nossa biologia e bem-estar.",
+      "É irrelevante para o desenvolvimento pessoal."
+    ],
+    "correctAnswer": "Demonstra a influência do ambiente na expressão gênica, sugerindo que mudanças de hábitos podem afetar nossa biologia e bem-estar.",
+    "explanation": "A epigenética mostra que nossos genes não são um destino fixo, mas que o ambiente (incluindo nossos hábitos e pensamentos) pode influenciar sua expressão. Mudanças positivas podem ter impactos biológicos positivos. Curiosidade: a meditação, por exemplo, já demonstrou alterações epigenéticas em estudos científicos."
+  },
+  {
+    "id": "quiz-autoajuda-49",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual destes NÃO é um exemplo de técnica de respiração para relaxamento?",
+    "options": [
+      "Respiração alternada (Nadi Shodhana)",
+      "Respiração de fogo (Kapalabhati)",
+      "Respiração abdominal (diafragmática)",
+      "Respiração 4-7-8"
+    ],
+    "correctAnswer": "Respiração de fogo (Kapalabhati)",
+    "explanation": "Kapalabhati é uma técnica de respiração vigorosa, usada em práticas de yoga para energizar o corpo, não para relaxamento. As outras opções são técnicas respiratórias que promovem relaxamento. Curiosidade: a respiração diafragmática é uma técnica simples, porém eficaz, que pode ser praticada em qualquer lugar."
+  },
+  {
+    "id": "quiz-autoajuda-50",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "Qual conceito chave da psicologia positiva pode ser aplicado para aumentar a resiliência?",
+    "options": [
+      "Pensamento negativo",
+      "Forças e virtudes",
+      "Análise transacional",
+      "Autossabotagem"
+    ],
+    "correctAnswer": "Forças e virtudes",
+    "explanation": "Identificar e utilizar suas forças e virtudes ajuda a construir resiliência e a lidar com adversidades. A psicologia positiva se concentra em aspectos positivos da vida. Curiosidade: a psicologia positiva surgiu como uma reação à ênfase na doença e na patologia na psicologia tradicional."
+  },
+  {
+    "id": "quiz-autoajuda-51",
+    "categoryId": "autoajuda",
+    "difficulty": "medium",
+    "question": "O que representa um 'círculo vicioso' em autoajuda?",
+    "options": [
+      "Um ciclo positivo de reforço.",
+      "Um padrão de pensamentos e comportamentos negativos que se repetem.",
+      "Um método eficaz de resolução de problemas.",
+      "Um conjunto de metas bem definidas."
+    ],
+    "correctAnswer": "Um padrão de pensamentos e comportamentos negativos que se repetem.",
+    "explanation": "Um círculo vicioso é um padrão negativo que se perpetua, como ansiedade levando a evitação, que então aumenta a ansiedade.  Quebrar esse ciclo é crucial para o progresso. Curiosidade: identificar os gatilhos que iniciam o ciclo vicioso é um passo importante para rompê-lo."
+  },
+  {
+    "id": "quiz-autoajuda-52",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual ferramenta ajuda a monitorar hábitos e progresso?",
+    "options": [
+      "Máquina do tempo",
+      "Agenda eletrônica",
+      "Planilha ou aplicativo de rastreamento de hábitos",
+      "Livro de receitas"
+    ],
+    "correctAnswer": "Planilha ou aplicativo de rastreamento de hábitos",
+    "explanation": "Planilhas ou aplicativos permitem monitorar hábitos diários e visualizar o progresso, mantendo a motivação.  Há inúmeros aplicativos disponíveis para isso.  Curiosidade: o hábito de registrar o progresso aumenta a probabilidade de sucesso."
+  },
+  {
+    "id": "quiz-autoajuda-53",
+    "categoryId": "autoajuda",
+    "difficulty": "hard",
+    "question": "Como a teoria do apego se relaciona com a autoajuda?",
+    "options": [
+      "Não tem relação.",
+      "Ajuda a entender padrões de relacionamento e como eles impactam a autoestima e a capacidade de formar conexões saudáveis.",
+      "Sugere que todos os relacionamentos são negativos.",
+      "É irrelevante para o desenvolvimento pessoal."
+    ],
+    "correctAnswer": "Ajuda a entender padrões de relacionamento e como eles impactam a autoestima e a capacidade de formar conexões saudáveis.",
+    "explanation": "A teoria do apego explica como nossas experiências iniciais de apego moldam nossos relacionamentos adultos.  Compreender esse padrão pode auxiliar na construção de relacionamentos mais saudáveis. Curiosidade: John Bowlby é considerado o pai da teoria do apego."
+  }
+]

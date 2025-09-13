@@ -1,0 +1,74 @@
+[
+  {
+    "id": "autoajuda-1",
+    "categoryId": "autoajuda",
+    "title": "O Poder Secreto da Rotina Matinal",
+    "hook": "Incrível: sua manhã define seu dia!",
+    "content": "Uma rotina matinal bem estruturada, mesmo que simples, pode impulsionar sua produtividade e bem-estar significativamente.  Comece com pequenos passos, como beber água, meditar ou se alongar.  A consistência é chave para colher os benefícios a longo prazo.  Experimente e veja a diferença incrível em sua energia e foco.",
+    "funFact": "Estudo aponta que 80% das pessoas de alta performance possuem uma rotina matinal.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-2",
+    "categoryId": "autoajuda",
+    "title": "A Mente Subconsciente e a Autoajuda",
+    "hook": "Você sabia que...",
+    "content": "A autoajuda, muitas vezes, se concentra em mudar nossos pensamentos conscientes. Mas o poder real reside no subconsciente!  Programá-lo positivamente, através de técnicas como afirmações e visualizações, pode gerar resultados transformadores em sua vida.  Explore esse universo oculto e desbloqueie seu potencial interno.",
+    "funFact": "Seu subconsciente processa informações 60.000 vezes mais rápido que sua mente consciente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-3",
+    "categoryId": "autoajuda",
+    "title": "O Poder do Perdão na Autoestima",
+    "hook": "Incrível:",
+    "content": "Perdoar a si mesmo e aos outros é um ato de autocompaixão que impacta profundamente sua autoestima.  Libertar-se de ressentimentos e culpas permite que você se mova para frente, com mais leveza e confiança. O perdão não é esquecer, mas se libertar da carga emocional negativa.",
+    "funFact": "Perdoar ativa áreas do cérebro associadas à felicidade e recompensa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-4",
+    "categoryId": "autoajuda",
+    "title": "Seu Corpo Fala: Autoajuda Somática",
+    "hook": "Descubra:",
+    "content": "Seu corpo guarda memórias e emoções que influenciam seus pensamentos e ações. A autoajuda somática explora essa conexão, usando técnicas como yoga e meditação para liberar tensões físicas e mentais, promovendo bem-estar e equilíbrio emocional. Ouça o que seu corpo te diz!",
+    "funFact": "A tensão muscular crônica pode exacerbar sintomas de ansiedade e depressão.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "autoajuda-5",
+    "categoryId": "autoajuda",
+    "title": "A Ciência da Gratidão: Mais que um clichê",
+    "hook": "Surpreendente:",
+    "content": "A gratidão não é apenas um sentimento positivo, mas um poderoso mecanismo de mudança. Estudos demonstram que praticar a gratidão diariamente aumenta os níveis de serotonina e dopamina, melhorando o humor, o sono e o sistema imunológico. Comece a agradecer!",
+    "funFact": "Neurocientistas comprovaram a ação da gratidão em áreas cerebrais ligadas à felicidade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-6",
+    "categoryId": "autoajuda",
+    "title": "A Importância do Sono na Autotransformação",
+    "hook": "Incrível:",
+    "content": "A privação do sono impacta diretamente sua capacidade de se autoconhecer e de mudar seus hábitos.  Dormir bem é essencial para a consolidação da memória, o processamento emocional e a regeneração celular, fatores cruciais para o sucesso em qualquer processo de autoajuda.",
+    "funFact": "Durante o sono, seu cérebro limpa toxinas e consolida memórias importantes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "autoajuda-7",
+    "categoryId": "autoajuda",
+    "title": "Alimentos e o Equilíbrio Emocional",
+    "hook": "Descubra:",
+    "content": "Sua alimentação influencia diretamente seu humor e suas emoções. Uma dieta equilibrada, rica em nutrientes, contribui para uma melhor regulação hormonal e neurotransmissor, impactando positivamente sua capacidade de lidar com o estresse e as emoções.  Alimente sua mente e seu corpo!",
+    "funFact": "Certos alimentos podem aumentar a produção de serotonina, o hormônio do bem-estar.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "autoajuda-8",
+    "categoryId": "autoajuda",
+    "title": "A Importância da Rotina e da Disciplina",
+    "hook": "Incrível:",
+    "content": "Criar uma rotina consistente e manter a disciplina é essencial para o sucesso a longo prazo.  Uma rotina estruturada ajuda a manter o foco, aumentar a produtividade e a criar hábitos positivos, contribuindo para uma vida mais equilibrada e plena.",
+    "funFact": "A rotina libera energia mental para focar em outras atividades.",
+    "curiosityLevel": 2
+  }
+]

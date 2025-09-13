@@ -1,0 +1,730 @@
+[
+  {
+    "id": "quiz-relacionamentos-1",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é a base de um relacionamento saudável?",
+    "options": [
+      "Dinheiro",
+      "Atração física",
+      "Comunicação aberta",
+      "Interesses em comum"
+    ],
+    "correctAnswer": "Comunicação aberta",
+    "explanation": "A comunicação honesta e aberta é fundamental para resolver conflitos e construir confiança.  Curiosamente, estudos mostram que casais que se comunicam efetivamente relatam maior satisfação conjugal."
+  },
+  {
+    "id": "quiz-relacionamentos-2",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual estilo de apego geralmente busca independência, mas também aprecia a intimidade?",
+    "options": [
+      "Ansioso",
+      "Evitativo",
+      "Preocupado",
+      "Seguro"
+    ],
+    "correctAnswer": "Seguro",
+    "explanation": "Indivíduos com apego seguro conseguem equilibrar a necessidade de autonomia com a busca por conexões significativas.  A pesquisa indica que esse estilo está associado a relacionamentos mais duradouros e saudáveis."
+  },
+  {
+    "id": "quiz-relacionamentos-3",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'Ghosting' em um relacionamento?",
+    "options": [
+      "Terminar um relacionamento com uma longa carta explicativa",
+      "Ignorar todas as tentativas de contato do parceiro",
+      "Ter uma conversa franca sobre os problemas do relacionamento",
+      "Planejar um futuro juntos"
+    ],
+    "correctAnswer": "Ignorar todas as tentativas de contato do parceiro",
+    "explanation": "Ghosting é uma forma de término de relacionamento extremamente dolorosa, caracterizada pelo desaparecimento repentino sem explicação.  É considerado um comportamento imaturo e pouco respeitoso."
+  },
+  {
+    "id": "quiz-relacionamentos-4",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que é essencial para resolver conflitos em um relacionamento?",
+    "options": [
+      "Gritar até a outra pessoa ceder",
+      "Ignorar o problema",
+      "Compromisso e escuta ativa",
+      "Culpar o outro"
+    ],
+    "correctAnswer": "Compromisso e escuta ativa",
+    "explanation": "Aprender a ouvir e a encontrar soluções em conjunto é crucial.  A comunicação não violenta é uma ferramenta útil para resolver conflitos de forma construtiva."
+  },
+  {
+    "id": "quiz-relacionamentos-5",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual a importância do espaço pessoal em um relacionamento?",
+    "options": [
+      "Insignificante, casais devem estar sempre juntos",
+      "Importante para evitar conflitos",
+      "Essencial para manter a individualidade e a saúde mental",
+      "Uma questão de preferência individual, sem muita importância"
+    ],
+    "correctAnswer": "Essencial para manter a individualidade e a saúde mental",
+    "explanation": "Manter a individualidade e os próprios hobbies fortalece o relacionamento.  Um relacionamento saudável não exige a total dependência ou ausência de espaço pessoal."
+  },
+  {
+    "id": "quiz-relacionamentos-6",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que significa 'Love bombing' em um relacionamento?",
+    "options": [
+      "Dar pequenos presentes com frequência",
+      "Demonstrar afeto excessivo e intenso no início do relacionamento",
+      "Ter muitas discussões e desentendimentos",
+      "Dar espaço ao outro"
+    ],
+    "correctAnswer": "Demonstrar afeto excessivo e intenso no início do relacionamento",
+    "explanation": "Love bombing é uma tática de manipulação que envolve um excesso de afeto no início para controlar a outra pessoa.  É um sinal de alerta em um relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-7",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual atitude demonstra respeito em um relacionamento?",
+    "options": [
+      "Controlar o outro",
+      "Criticar constantemente",
+      "Ouvir atentamente",
+      "Ignorar as opiniões do parceiro"
+    ],
+    "correctAnswer": "Ouvir atentamente",
+    "explanation": "Respeitar a opinião do outro é fundamental.  A escuta ativa demonstra respeito e cria um ambiente de confiança."
+  },
+  {
+    "id": "quiz-relacionamentos-8",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como lidar com ciúmes em um relacionamento?",
+    "options": [
+      "Controlar o parceiro",
+      "Ignorar os sentimentos",
+      "Comunicar abertamente e construir confiança",
+      "Culpar o parceiro pela insegurança"
+    ],
+    "correctAnswer": "Comunicar abertamente e construir confiança",
+    "explanation": "O ciúme é um sentimento natural, mas a comunicação aberta e a confiança mútua são ferramentas essenciais para lidar com ele de forma saudável."
+  },
+  {
+    "id": "quiz-relacionamentos-9",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual é a diferença entre paixão e amor?",
+    "options": [
+      "Não há diferença, são sinônimos.",
+      "A paixão é intensa e passageira, enquanto o amor é mais profundo e duradouro.",
+      "A paixão é superficial, o amor é egoísta.",
+      "A paixão é racional, o amor é irracional."
+    ],
+    "correctAnswer": "A paixão é intensa e passageira, enquanto o amor é mais profundo e duradouro.",
+    "explanation": "A paixão é muitas vezes confundida com amor, mas o amor envolve compromisso, respeito e afeto duradouro.  O triângulo do amor (íntimidade, paixão e compromisso) de Sternberg explica essa diferença."
+  },
+  {
+    "id": "quiz-relacionamentos-10",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é um sinal de um relacionamento abusivo?",
+    "options": [
+      "Muita risada",
+      "Respeito mútuo",
+      "Controle excessivo do parceiro",
+      "Comunicação aberta"
+    ],
+    "correctAnswer": "Controle excessivo do parceiro",
+    "explanation": "Controle excessivo, seja físico ou emocional, é um sinal de alerta grave. Se você ou alguém que você conhece está em uma situação de abuso, procure ajuda."
+  },
+  {
+    "id": "quiz-relacionamentos-11",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual é a importância da empatia em um relacionamento?",
+    "options": [
+      "Desnecessária, cada um cuida de si",
+      "Ajuda na resolução de conflitos",
+      "Gera dependência emocional",
+      "Impede a individualidade"
+    ],
+    "correctAnswer": "Ajuda na resolução de conflitos",
+    "explanation": "A empatia ajuda a entender a perspectiva do outro, facilitando a comunicação e a resolução de conflitos de forma construtiva."
+  },
+  {
+    "id": "quiz-relacionamentos-12",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'gaslighting' em um relacionamento?",
+    "options": [
+      "Dar presentes caros",
+      "Fazer o outro duvidar da própria sanidade",
+      "Ser honesto e transparente",
+      "Apoiar os sonhos do parceiro"
+    ],
+    "correctAnswer": "Fazer o outro duvidar da própria sanidade",
+    "explanation": "Gaslighting é uma forma de manipulação que faz a vítima questionar sua própria memória e percepção da realidade. É uma forma de abuso psicológico."
+  },
+  {
+    "id": "quiz-relacionamentos-13",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual atividade fortalece a conexão em um relacionamento?",
+    "options": [
+      "Assistir TV separadamente",
+      "Jogar videogame sozinho",
+      "Fazer atividades juntos",
+      "Ficar em silêncio"
+    ],
+    "correctAnswer": "Fazer atividades juntos",
+    "explanation": "Compartilhando experiências e momentos juntos fortalece o vínculo e cria memórias positivas."
+  },
+  {
+    "id": "quiz-relacionamentos-14",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como demonstrar carinho em um relacionamento?",
+    "options": [
+      "Somente com presentes",
+      "Através de palavras, gestos e ações",
+      "Exclusivamente com demonstrações físicas",
+      "Apenas através de atos de serviço"
+    ],
+    "correctAnswer": "Através de palavras, gestos e ações",
+    "explanation": "O carinho se manifesta de diferentes formas e é essencial para nutrir o relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-15",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é um 'compromisso' em um relacionamento?",
+    "options": [
+      "Apenas um acordo legal",
+      "Uma promessa de estar junto, independentemente das dificuldades",
+      "Algo que se impõe ao outro",
+      "Uma obrigação sem reciprocidade"
+    ],
+    "correctAnswer": "Uma promessa de estar junto, independentemente das dificuldades",
+    "explanation": "O compromisso envolve a decisão consciente de permanecer no relacionamento, mesmo em momentos desafiadores."
+  },
+  {
+    "id": "quiz-relacionamentos-16",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é a importância do perdão em um relacionamento?",
+    "options": [
+      "Desnecessário, esquecer o passado",
+      "Ajuda a superar conflitos e seguir em frente",
+      "Significa concordar com a ação",
+      "Permite que o mesmo erro se repita"
+    ],
+    "correctAnswer": "Ajuda a superar conflitos e seguir em frente",
+    "explanation": "O perdão é um processo que permite curar feridas e construir um relacionamento mais forte."
+  },
+  {
+    "id": "quiz-relacionamentos-17",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual é a diferença entre amizade e amor?",
+    "options": [
+      "Não existe diferença, são sinônimos.",
+      "A amizade é baseada em interesses em comum, o amor é mais profundo.",
+      "Amizade é superficial, o amor é passageiro.",
+      "Amizade é unilateral, o amor é bilateral."
+    ],
+    "correctAnswer": "A amizade é baseada em interesses em comum, o amor é mais profundo.",
+    "explanation": "Embora haja sobreposição, o amor geralmente envolve maior intensidade emocional e compromisso."
+  },
+  {
+    "id": "quiz-relacionamentos-18",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'stonewalling' em um relacionamento?",
+    "options": [
+      "Ter uma conversa sincera",
+      "Retirar-se emocionalmente da interação",
+      "Fazer concessões",
+      "Resolver os conflitos com facilidade"
+    ],
+    "correctAnswer": "Retirar-se emocionalmente da interação",
+    "explanation": "Stonewalling é uma forma de evitar o conflito, mas contribui para a distância emocional no relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-19",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual a importância da confiança em um relacionamento?",
+    "options": [
+      "Desnecessária, a desconfiança é saudável.",
+      "Fundamental para a segurança e a intimidade",
+      "Gera dependência excessiva",
+      "Impede a individualidade"
+    ],
+    "correctAnswer": "Fundamental para a segurança e a intimidade",
+    "explanation": "A confiança é a base de um relacionamento saudável, permitindo a vulnerabilidade e a intimidade."
+  },
+  {
+    "id": "quiz-relacionamentos-20",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como construir intimidade em um relacionamento?",
+    "options": [
+      "Somente através de relações sexuais",
+      "Compartilhando pensamentos e sentimentos",
+      "Exclusivamente através de atividades externas",
+      "Mantendo distância física"
+    ],
+    "correctAnswer": "Compartilhando pensamentos e sentimentos",
+    "explanation": "A intimidade envolve compartilhar vulnerabilidades e criar uma conexão emocional profunda."
+  },
+  {
+    "id": "quiz-relacionamentos-21",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'triangulação' em um relacionamento?",
+    "options": [
+      "Desenvolver hobbies em conjunto",
+      "Incluir um terceiro na dinâmica do casal para criar tensão",
+      "Comunicar abertamente e resolver problemas",
+      "Manter a individualidade e espaço pessoal"
+    ],
+    "correctAnswer": "Incluir um terceiro na dinâmica do casal para criar tensão",
+    "explanation": "Triangulação é uma forma de manipulação que envolve trazer um terceiro para criar confusão e desestabilizar o relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-22",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que é importante para manter a chama da paixão acesa?",
+    "options": [
+      "Rotina e previsibilidade",
+      "Desenvolvimento pessoal e novidades",
+      "Ignorar o parceiro",
+      "Comunicar apenas o necessário"
+    ],
+    "correctAnswer": "Desenvolvimento pessoal e novidades",
+    "explanation": "Manter a espontaneidade e o interesse mútuo é importante para evitar a rotina."
+  },
+  {
+    "id": "quiz-relacionamentos-23",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como lidar com diferenças em um relacionamento?",
+    "options": [
+      "Imposição da própria vontade",
+      "Negação das diferenças",
+      "Aceitação e respeito mútuo",
+      "Terminar o relacionamento"
+    ],
+    "correctAnswer": "Aceitação e respeito mútuo",
+    "explanation": "As diferenças são normais e podem enriquecer o relacionamento se houver respeito e comunicação."
+  },
+  {
+    "id": "quiz-relacionamentos-24",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'projeção' em um relacionamento?",
+    "options": [
+      "Atribuir os próprios defeitos ao parceiro",
+      "Compartilhar sonhos e aspirações",
+      "Sentir-se confortável com o outro",
+      "Ter comunicação aberta e honesta"
+    ],
+    "correctAnswer": "Atribuir os próprios defeitos ao parceiro",
+    "explanation": "Projeção é um mecanismo de defesa que envolve atribuir suas próprias características negativas a outra pessoa."
+  },
+  {
+    "id": "quiz-relacionamentos-25",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como demonstrar gratidão em um relacionamento?",
+    "options": [
+      "Dar por garantido",
+      "Expressar verbalmente e através de ações",
+      "Ignorar os gestos do outro",
+      "Criticar constantemente"
+    ],
+    "correctAnswer": "Expressar verbalmente e através de ações",
+    "explanation": "Demonstrar gratidão fortalece o vínculo e cria um ambiente positivo."
+  },
+  {
+    "id": "quiz-relacionamentos-26",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'codependência' em um relacionamento?",
+    "options": [
+      "Dependência mútua e saudável",
+      "Dependência excessiva e insalubre",
+      "Independência e autonomia",
+      "Respeito mútuo e individualidade"
+    ],
+    "correctAnswer": "Dependência excessiva e insalubre",
+    "explanation": "A codependência é uma dinâmica desequilibrada onde uma pessoa se torna excessivamente dependente da outra."
+  },
+  {
+    "id": "quiz-relacionamentos-27",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é um bom sinal de um relacionamento saudável?",
+    "options": [
+      "Controle excessivo",
+      "Falta de comunicação",
+      "Respeito mútuo",
+      "Desconfiança constante"
+    ],
+    "correctAnswer": "Respeito mútuo",
+    "explanation": "O respeito é fundamental para um relacionamento saudável e duradouro."
+  },
+  {
+    "id": "quiz-relacionamentos-28",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como lidar com a traição em um relacionamento?",
+    "options": [
+      "Ignorar o ocorrido",
+      "Buscar ajuda profissional e comunicação aberta",
+      "Culpar apenas um dos parceiros",
+      "Vingar-se"
+    ],
+    "correctAnswer": "Buscar ajuda profissional e comunicação aberta",
+    "explanation": "A traição é um evento traumático que requer trabalho e comunicação para superação."
+  },
+  {
+    "id": "quiz-relacionamentos-29",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'minimização' em um relacionamento?",
+    "options": [
+      "Exagerar os problemas",
+      "Dar valor aos sentimentos do outro",
+      "Desvalorizar as emoções e experiências do parceiro",
+      "Resolver os conflitos abertamente"
+    ],
+    "correctAnswer": "Desvalorizar as emoções e experiências do parceiro",
+    "explanation": "Minimizar as experiências do outro é uma forma de invalidar suas emoções e criar um ambiente de desconfiança."
+  },
+  {
+    "id": "quiz-relacionamentos-30",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual atitude demonstra vulnerabilidade em um relacionamento?",
+    "options": [
+      "Ser sempre forte",
+      "Compartilhar sentimentos e inseguranças",
+      "Manter uma fachada de perfeição",
+      "Criticar o parceiro"
+    ],
+    "correctAnswer": "Compartilhar sentimentos e inseguranças",
+    "explanation": "A vulnerabilidade é fundamental para criar uma conexão profunda e duradoura."
+  },
+  {
+    "id": "quiz-relacionamentos-31",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como lidar com as expectativas em um relacionamento?",
+    "options": [
+      "Impor suas expectativas ao outro",
+      "Negociar e comunicar abertamente as expectativas",
+      "Ignorar as expectativas",
+      "Ter expectativas irreais"
+    ],
+    "correctAnswer": "Negociar e comunicar abertamente as expectativas",
+    "explanation": "A comunicação clara sobre expectativas ajuda a evitar conflitos e desapontamentos."
+  },
+  {
+    "id": "quiz-relacionamentos-32",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'deriva emocional' em um relacionamento?",
+    "options": [
+      "Crescer juntos",
+      "Distanciamento gradual e perda da conexão",
+      "Fortalecimento do vínculo",
+      "Aumento da comunicação e intimidade"
+    ],
+    "correctAnswer": "Distanciamento gradual e perda da conexão",
+    "explanation": "A deriva emocional é um processo gradual de distanciamento que pode levar ao término do relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-33",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é a importância do tempo de qualidade em um relacionamento?",
+    "options": [
+      "Desnecessário, cada um com sua vida",
+      "Fundamental para fortalecer o vínculo",
+      "Gera dependência excessiva",
+      "Impede a individualidade"
+    ],
+    "correctAnswer": "Fundamental para fortalecer o vínculo",
+    "explanation": "Dedicação de tempo de qualidade fortalece os laços e cria momentos inesquecíveis."
+  },
+  {
+    "id": "quiz-relacionamentos-34",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "O que é 'ciclo de abuso' em um relacionamento?",
+    "options": [
+      "Uma sequência de momentos positivos",
+      "Um padrão de tensão, violência e pedido de desculpas",
+      "Uma comunicação saudável",
+      "Respeito mútuo e confiança"
+    ],
+    "correctAnswer": "Um padrão de tensão, violência e pedido de desculpas",
+    "explanation": "O ciclo de abuso é um padrão recorrente de comportamentos abusivos que prendem a vítima em um ciclo de violência."
+  },
+  {
+    "id": "quiz-relacionamentos-35",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que é um ato de serviço em um relacionamento?",
+    "options": [
+      "Dar presentes",
+      "Fazer algo útil para o parceiro",
+      "Expressar afeto verbalmente",
+      "Demonstrar carinho físico"
+    ],
+    "correctAnswer": "Fazer algo útil para o parceiro",
+    "explanation": "Atos de serviço demonstram carinho e cuidado através de ações práticas."
+  },
+  {
+    "id": "quiz-relacionamentos-36",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como lidar com a rotina em um relacionamento?",
+    "options": [
+      "Aceitar a rotina passivamente",
+      "Incorporar novidades e atividades diferentes",
+      "Ignorar a rotina",
+      "Culpar o parceiro"
+    ],
+    "correctAnswer": "Incorporar novidades e atividades diferentes",
+    "explanation": "Incorporar novas experiências ajuda a manter o relacionamento animado e interessante."
+  },
+  {
+    "id": "quiz-relacionamentos-37",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é a importância da comunicação não-violenta?",
+    "options": [
+      "Desnecessária em relacionamentos saudáveis",
+      "Ajuda a expressar sentimentos sem agredir",
+      "Causa passividade",
+      "Gera conflitos"
+    ],
+    "correctAnswer": "Ajuda a expressar sentimentos sem agredir",
+    "explanation": "A comunicação não-violenta promove diálogo construtivo e respeito."
+  },
+  {
+    "id": "quiz-relacionamentos-38",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual ato demonstra carinho não-romântico?",
+    "options": [
+      "Um abraço apertado",
+      "Um beijo apaixonado",
+      "Um jantar romântico",
+      "Um presente caro"
+    ],
+    "correctAnswer": "Um abraço apertado",
+    "explanation": "Abraçar alguém demonstra afeto e conforto sem necessidade de romance.  Curiosidade: O abraço libera ocitocina, o hormônio do amor e do vínculo."
+  },
+  {
+    "id": "quiz-relacionamentos-39",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Em qual situação o 'jeito de ser' de cada um deve ser mais flexibilizado em um relacionamento?",
+    "options": [
+      "Em discussões acaloradas",
+      "Durante atividades de lazer",
+      "Em momentos de intimidade",
+      "Durante compromissos sociais"
+    ],
+    "correctAnswer": "Em discussões acaloradas",
+    "explanation": "Flexibilidade é crucial para resolver conflitos, buscando compreensão mútua. Curiosidade:  Aprender a linguagem corporal do seu parceiro pode melhorar significativamente a comunicação durante discussões."
+  },
+  {
+    "id": "quiz-relacionamentos-40",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "A 'Anedonia',  em um relacionamento, se caracteriza por:",
+    "options": [
+      "Falta de empatia pelo parceiro",
+      "Incapacidade de sentir prazer nas atividades compartilhadas",
+      "Ciúmes excessivo e possessivo",
+      "Desejo incontrolável de terminar o relacionamento"
+    ],
+    "correctAnswer": "Incapacidade de sentir prazer nas atividades compartilhadas",
+    "explanation": "Anedonia é a incapacidade de sentir prazer, e em um relacionamento, pode indicar problemas sérios que necessitam de ajuda profissional. Curiosidade: Anedonia pode ser um sintoma de depressão."
+  },
+  {
+    "id": "quiz-relacionamentos-41",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que é mais importante para uma boa comunicação?",
+    "options": [
+      "Falar muito",
+      "Escutar atentamente",
+      "Ter razão",
+      "Gritar para ser ouvido"
+    ],
+    "correctAnswer": "Escutar atentamente",
+    "explanation": "A escuta ativa permite a compreensão das necessidades do outro. Curiosidade: A comunicação não-verbal representa a maior parte da comunicação humana."
+  },
+  {
+    "id": "quiz-relacionamentos-42",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual destas atitudes demonstra maior comprometimento em um relacionamento?",
+    "options": [
+      "Fazer planos de curto prazo",
+      "Compartilhar apenas alegrias",
+      "Manter segredos",
+      "Resolver conflitos juntos"
+    ],
+    "correctAnswer": "Resolver conflitos juntos",
+    "explanation": "Resolver conflitos demonstra maturidade e desejo de construir algo duradouro. Curiosidade: Casais que resolvem conflitos juntos tendem a ter relacionamentos mais duradouros e felizes."
+  },
+  {
+    "id": "quiz-relacionamentos-43",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual conceito psicológico explica a tendência de buscar parceiros com padrões familiares de relacionamento?",
+    "options": [
+      "Apego ansioso",
+      "Apego evitativo",
+      "Projeção",
+      "Repetição Compulsiva"
+    ],
+    "correctAnswer": "Repetição Compulsiva",
+    "explanation": "A repetição compulsiva leva a reproduzir padrões de relacionamento aprendidos na infância, mesmo que sejam negativos. Curiosidade: Terapia pode ajudar a identificar e romper com esses padrões."
+  },
+  {
+    "id": "quiz-relacionamentos-44",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que NÃO é uma forma saudável de lidar com a frustração em um relacionamento?",
+    "options": [
+      "Comunicar abertamente",
+      "Buscar soluções juntos",
+      "Culpar o parceiro",
+      "Encontrar um hobby individual"
+    ],
+    "correctAnswer": "Culpar o parceiro",
+    "explanation": "Culpar gera ressentimento e dificulta a resolução de problemas. Curiosidade: Aprender a expressar suas emoções de forma assertiva é fundamental para um relacionamento saudável."
+  },
+  {
+    "id": "quiz-relacionamentos-45",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual a melhor abordagem para discutir um assunto delicado com seu parceiro?",
+    "options": [
+      "Escolher um momento de estresse",
+      "Usar sarcasmo para aliviar a tensão",
+      "Utilizar frases acusatórias",
+      "Escolher um momento calmo e privado"
+    ],
+    "correctAnswer": "Escolher um momento calmo e privado",
+    "explanation": "Um ambiente calmo permite uma conversa produtiva. Curiosidade: Iniciar a conversa com um elogio pode facilitar a comunicação."
+  },
+  {
+    "id": "quiz-relacionamentos-46",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual teoria de apego descreve a busca por proximidade e validação constantes do parceiro?",
+    "options": [
+      "Apego seguro",
+      "Apego ansioso",
+      "Apego evitativo",
+      "Apego desorganizado"
+    ],
+    "correctAnswer": "Apego ansioso",
+    "explanation": "Indivíduos com apego ansioso buscam segurança e validação através da proximidade. Curiosidade: Apegos inseguros podem ser trabalhados em terapia."
+  },
+  {
+    "id": "quiz-relacionamentos-47",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "O que significa priorizar o relacionamento?",
+    "options": [
+      "Ignorar seus próprios interesses",
+      "Dedicação e investimento de tempo e energia",
+      "Controlar o parceiro",
+      "Fazer tudo que o parceiro quer"
+    ],
+    "correctAnswer": "Dedicação e investimento de tempo e energia",
+    "explanation": "Priorizar significa valorizar e dedicar esforços para o sucesso do relacionamento. Curiosidade: Pequenos gestos de carinho podem fazer grande diferença na priorização."
+  },
+  {
+    "id": "quiz-relacionamentos-48",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Como construir confiança em um relacionamento?",
+    "options": [
+      "Ser controlador",
+      "Manter segredos",
+      "Ser honesto e transparente",
+      "Ser possessivo"
+    ],
+    "correctAnswer": "Ser honesto e transparente",
+    "explanation": "Honestidade e transparência são pilares da confiança. Curiosidade: Pequenas mentiras podem minar a confiança a longo prazo."
+  },
+  {
+    "id": "quiz-relacionamentos-49",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual é o efeito da 'seletividade cognitiva' em um relacionamento?",
+    "options": [
+      "Maior tolerância a defeitos do parceiro",
+      "Maior foco nos defeitos do parceiro",
+      "Objetividade na avaliação do parceiro",
+      "Imparcialidade na percepção do parceiro"
+    ],
+    "correctAnswer": "Maior foco nos defeitos do parceiro",
+    "explanation": "A seletividade cognitiva faz com que nos concentremos mais nos aspectos negativos. Curiosidade:  Estar ciente desse viés ajuda a manter um olhar equilibrado sobre o relacionamento."
+  },
+  {
+    "id": "quiz-relacionamentos-50",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual atitude fortalece a intimidade emocional?",
+    "options": [
+      "Competição",
+      "Julgamento",
+      "Vulnerabilidade",
+      "Indiferença"
+    ],
+    "correctAnswer": "Vulnerabilidade",
+    "explanation": "Compartilhar sentimentos e medos aprofunda a conexão. Curiosidade: Intimidade emocional leva a um relacionamento mais profundo e significativo."
+  },
+  {
+    "id": "quiz-relacionamentos-51",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual fator contribui para a 'deriva emocional' em um relacionamento?",
+    "options": [
+      "Comunicação frequente",
+      "Respeito mútuo",
+      "Falta de atenção e investimento",
+      "Compartilhamento de atividades"
+    ],
+    "correctAnswer": "Falta de atenção e investimento",
+    "explanation": "Falta de atenção e investimento emocional distancia os parceiros. Curiosidade: Reavivar a chama da paixão requer esforço e dedicação."
+  },
+  {
+    "id": "quiz-relacionamentos-52",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual comportamento representa 'minimização' em um relacionamento?",
+    "options": [
+      "Exagerar os problemas",
+      "Ignorar os sentimentos do outro",
+      "Resolver os conflitos rapidamente",
+      "Ouvir atentamente"
+    ],
+    "correctAnswer": "Ignorar os sentimentos do outro",
+    "explanation": "Minimizar os sentimentos desqualifica a experiência do outro. Curiosidade: Minimizar é uma forma de abuso emocional."
+  }
+]

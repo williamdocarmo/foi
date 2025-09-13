@@ -1,0 +1,842 @@
+[
+  {
+    "id": "quiz-ciencia-1",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o planeta mais próximo do Sol?",
+    "options": [
+      "Marte",
+      "Vênus",
+      "Mercúrio",
+      "Terra"
+    ],
+    "correctAnswer": "Mercúrio",
+    "explanation": "Mercúrio é o planeta mais próximo do Sol, orbitando a uma distância média de aproximadamente 58 milhões de quilômetros.  Sua proximidade com o Sol faz com que ele experimente temperaturas extremas, com dias extremamente quentes e noites geladas."
+  },
+  {
+    "id": "quiz-ciencia-2",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o gás mais abundante na atmosfera terrestre?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Argônio",
+      "Dióxido de Carbono"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "O nitrogênio compõe aproximadamente 78% da atmosfera terrestre. É essencial para a vida, embora a maioria dos seres vivos não consiga utilizá-lo diretamente da atmosfera."
+  },
+  {
+    "id": "quiz-ciencia-3",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o processo pelo qual as plantas produzem seu próprio alimento?",
+    "options": [
+      "Respiração",
+      "Digestão",
+      "Fotossíntese",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese utiliza a energia solar, água e dióxido de carbono para produzir glicose (alimento) e oxigênio. Um processo fundamental para a vida na Terra."
+  },
+  {
+    "id": "quiz-ciencia-4",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a unidade básica da vida?",
+    "options": [
+      "Átomo",
+      "Molécula",
+      "Célula",
+      "Tecido"
+    ],
+    "correctAnswer": "Célula",
+    "explanation": "A célula é a unidade estrutural e funcional básica de todos os organismos vivos. Existem células procariontes (sem núcleo definido) e eucariontes (com núcleo definido)."
+  },
+  {
+    "id": "quiz-ciencia-5",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual a força fundamental que é responsável pela radioatividade?",
+    "options": [
+      "Força Gravitacional",
+      "Força Eletromagnética",
+      "Força Nuclear Forte",
+      "Força Nuclear Fraca"
+    ],
+    "correctAnswer": "Força Nuclear Fraca",
+    "explanation": "A força nuclear fraca é responsável pela decadência radioativa, onde núcleos instáveis se transformam em outros mais estáveis, emitindo partículas."
+  },
+  {
+    "id": "quiz-ciencia-6",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é um buraco negro?",
+    "options": [
+      "Uma estrela em explosão",
+      "Um corpo celeste com gravidade extremamente forte",
+      "Um tipo de nebulosa",
+      "Um vazio no espaço"
+    ],
+    "correctAnswer": "Um corpo celeste com gravidade extremamente forte",
+    "explanation": "Um buraco negro é uma região no espaço-tempo com gravidade tão intensa que nada, nem mesmo a luz, pode escapar. Eles são formados pelo colapso gravitacional de estrelas muito massivas."
+  },
+  {
+    "id": "quiz-ciencia-7",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual a fórmula química da água?",
+    "options": [
+      "CO2",
+      "NaCl",
+      "H2O",
+      "O2"
+    ],
+    "correctAnswer": "H2O",
+    "explanation": "H2O representa duas moléculas de hidrogênio e uma de oxigênio, formando a água. É essencial para a vida na Terra."
+  },
+  {
+    "id": "quiz-ciencia-8",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo pelo qual a água passa do estado líquido para o gasoso?",
+    "options": [
+      "Solidificação",
+      "Fusão",
+      "Evaporação",
+      "Condensação"
+    ],
+    "correctAnswer": "Evaporação",
+    "explanation": "Evaporação é a mudança de estado físico da água do líquido para o gasoso, ocorrendo em temperaturas abaixo do ponto de ebulição."
+  },
+  {
+    "id": "quiz-ciencia-9",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual a camada da atmosfera onde os aviões geralmente voam?",
+    "options": [
+      "Troposfera",
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correctAnswer": "Troposfera",
+    "explanation": "A troposfera é a camada mais baixa da atmosfera, onde ocorrem os fenômenos climáticos e a maior parte do voo comercial."
+  },
+  {
+    "id": "quiz-ciencia-10",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual elemento químico é fundamental para a formação de ossos e dentes?",
+    "options": [
+      "Ferro",
+      "Sódio",
+      "Cálcio",
+      "Potássio"
+    ],
+    "correctAnswer": "Cálcio",
+    "explanation": "O cálcio é um mineral essencial para a formação e manutenção de ossos e dentes saudáveis."
+  },
+  {
+    "id": "quiz-ciencia-11",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a Teoria da Relatividade?",
+    "options": [
+      "Uma teoria sobre a origem do universo",
+      "Uma teoria sobre a natureza do tempo e do espaço",
+      "Uma teoria sobre a composição das estrelas",
+      "Uma teoria sobre a força da gravidade"
+    ],
+    "correctAnswer": "Uma teoria sobre a natureza do tempo e do espaço",
+    "explanation": "A Teoria da Relatividade de Einstein descreve a relação entre o espaço, o tempo, a gravidade e o movimento, revolucionando a nossa compreensão do universo."
+  },
+  {
+    "id": "quiz-ciencia-12",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual cientista formulou a teoria da evolução por seleção natural?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Gregor Mendel",
+      "Charles Darwin"
+    ],
+    "correctAnswer": "Charles Darwin",
+    "explanation": "Charles Darwin propôs a teoria da evolução por seleção natural, explicando como as espécies se adaptam ao ambiente ao longo do tempo."
+  },
+  {
+    "id": "quiz-ciencia-13",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do maior oceano da Terra?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico",
+      "Oceano Pacífico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico cobre mais de um terço da superfície da Terra e é conhecido por sua profundidade e variedade de vida marinha."
+  },
+  {
+    "id": "quiz-ciencia-14",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da partícula subatômica que possui carga elétrica negativa?",
+    "options": [
+      "Próton",
+      "Nêutron",
+      "Elétron",
+      "Pósitron"
+    ],
+    "correctAnswer": "Elétron",
+    "explanation": "Os elétrons orbitam o núcleo atômico e possuem carga elétrica negativa, contrastando com a carga positiva dos prótons."
+  },
+  {
+    "id": "quiz-ciencia-15",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "O que é DNA?",
+    "options": [
+      "Uma proteína",
+      "Uma molécula que carrega informação genética",
+      "Uma célula",
+      "Um órgão"
+    ],
+    "correctAnswer": "Uma molécula que carrega informação genética",
+    "explanation": "O DNA (ácido desoxirribonucleico) contém as instruções genéticas para o desenvolvimento e funcionamento de todos os seres vivos."
+  },
+  {
+    "id": "quiz-ciencia-16",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do planeta conhecido como 'planeta vermelho'?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Marte",
+    "explanation": "Marte é chamado de 'planeta vermelho' devido à sua coloração avermelhada, causada pela presença de óxido de ferro em sua superfície."
+  },
+  {
+    "id": "quiz-ciencia-17",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a constante de Planck?",
+    "options": [
+      "Uma constante que relaciona a energia de um fóton com sua frequência",
+      "Uma constante que descreve a força da gravidade",
+      "Uma constante que define a velocidade da luz",
+      "Uma constante que relaciona a massa e a energia"
+    ],
+    "correctAnswer": "Uma constante que relaciona a energia de um fóton com sua frequência",
+    "explanation": "A constante de Planck é fundamental na mecânica quântica, relacionando a energia de um fóton com sua frequência.  Seu valor é aproximadamente 6.626 x 10^-34 J.s."
+  },
+  {
+    "id": "quiz-ciencia-18",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o processo de formação de rochas a partir de sedimentos?",
+    "options": [
+      "Metamorfismo",
+      "Intrusão",
+      "Deposição",
+      "Litificação"
+    ],
+    "correctAnswer": "Litificação",
+    "explanation": "A litificação é o processo de compactação e cimentação de sedimentos, transformando-os em rochas sedimentares."
+  },
+  {
+    "id": "quiz-ciencia-19",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água em 0°C?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Sólido",
+    "explanation": "A água congela a 0°C e passa do estado líquido para o sólido."
+  },
+  {
+    "id": "quiz-ciencia-20",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de montanhas?",
+    "options": [
+      "Erosão",
+      "Deposição",
+      "Orogênese",
+      "Vulcanismo"
+    ],
+    "correctAnswer": "Orogênese",
+    "explanation": "A orogênese é o processo geológico de formação de montanhas, resultante de movimentos tectônicos."
+  },
+  {
+    "id": "quiz-ciencia-21",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da força que mantém os planetas em órbita ao redor do Sol?",
+    "options": [
+      "Força elétrica",
+      "Força magnética",
+      "Força gravitacional",
+      "Força nuclear"
+    ],
+    "correctAnswer": "Força gravitacional",
+    "explanation": "A força gravitacional, descrita por Newton, mantém os planetas em órbita ao redor do Sol e a Lua em órbita ao redor da Terra."
+  },
+  {
+    "id": "quiz-ciencia-22",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome da estrela mais próxima da Terra?",
+    "options": [
+      "Sirius",
+      "Próxima Centauri",
+      "Vega",
+      "Betelgeuse"
+    ],
+    "correctAnswer": "Próxima Centauri",
+    "explanation": "Próxima Centauri é uma estrela anã vermelha localizada no sistema estelar Alpha Centauri."
+  },
+  {
+    "id": "quiz-ciencia-23",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o fenômeno responsável pelas marés?",
+    "options": [
+      "Vento",
+      "Correntes marítimas",
+      "Força gravitacional da Lua e do Sol",
+      "Temperatura da água"
+    ],
+    "correctAnswer": "Força gravitacional da Lua e do Sol",
+    "explanation": "A atração gravitacional da Lua e do Sol é a principal causa das marés oceânicas."
+  },
+  {
+    "id": "quiz-ciencia-24",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é o efeito Doppler?",
+    "options": [
+      "A mudança na frequência de uma onda devido ao movimento relativo entre a fonte e o observador",
+      "A refração da luz ao passar por um meio diferente",
+      "A difração da luz ao redor de um obstáculo",
+      "A interferência de duas ondas"
+    ],
+    "correctAnswer": "A mudança na frequência de uma onda devido ao movimento relativo entre a fonte e o observador",
+    "explanation": "O efeito Doppler explica por que a sirene de uma ambulância muda de tom quando se aproxima ou se afasta."
+  },
+  {
+    "id": "quiz-ciencia-25",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual as plantas liberam água na forma de vapor?",
+    "options": [
+      "Fotossíntese",
+      "Respiração",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Transpiração",
+    "explanation": "A transpiração é o processo pelo qual as plantas liberam água na forma de vapor pelos estômatos de suas folhas."
+  },
+  {
+    "id": "quiz-ciencia-26",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a camada externa do Sol?",
+    "options": [
+      "Núcleo",
+      "Zona radiativa",
+      "Zona convectiva",
+      "Coroa"
+    ],
+    "correctAnswer": "Coroa",
+    "explanation": "A coroa solar é a camada mais externa da atmosfera do Sol, visível durante eclipses solares."
+  },
+  {
+    "id": "quiz-ciencia-27",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é um quasar?",
+    "options": [
+      "Uma estrela de nêutrons",
+      "Um buraco negro supermassivo",
+      "Um tipo de galáxia",
+      "Um objeto celeste que emite forte radiação"
+    ],
+    "correctAnswer": "Um objeto celeste que emite forte radiação",
+    "explanation": "Quasares são núcleos ativos de galáxias, alimentados por buracos negros supermassivos, emitindo enorme quantidade de energia."
+  },
+  {
+    "id": "quiz-ciencia-28",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo que transforma a energia solar em energia elétrica?",
+    "options": [
+      "Combustão",
+      "Fissão nuclear",
+      "Fotovoltaico",
+      "Fusão nuclear"
+    ],
+    "correctAnswer": "Fotovoltaico",
+    "explanation": "As células fotovoltaicas convertem diretamente a luz solar em eletricidade."
+  },
+  {
+    "id": "quiz-ciencia-29",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome da escala usada para medir a intensidade de terremotos?",
+    "options": [
+      "Escala Richter",
+      "Escala Celsius",
+      "Escala Fahrenheit",
+      "Escala Beaufort"
+    ],
+    "correctAnswer": "Escala Richter",
+    "explanation": "Embora substituída pela escala de magnitude de momento, a escala Richter ainda é comumente usada para medir a magnitude de terremotos."
+  },
+  {
+    "id": "quiz-ciencia-30",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a constante de Avogadro?",
+    "options": [
+      "O número de partículas em uma mole de substância",
+      "A massa de um átomo",
+      "O volume de um gás",
+      "A carga elétrica de um elétron"
+    ],
+    "correctAnswer": "O número de partículas em uma mole de substância",
+    "explanation": "A constante de Avogadro é aproximadamente 6.022 x 10^23, representando o número de entidades (átomos, moléculas, íons etc.) em um mol de qualquer substância."
+  },
+  {
+    "id": "quiz-ciencia-31",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual gás é produzido pela respiração humana?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Hidrogênio"
+    ],
+    "correctAnswer": "Dióxido de carbono",
+    "explanation": "A respiração celular produz dióxido de carbono como um produto residual."
+  },
+  {
+    "id": "quiz-ciencia-32",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de novas rochas a partir de rochas existentes?",
+    "options": [
+      "Deposição",
+      "Metamorfismo",
+      "Erosão",
+      "Sedimentação"
+    ],
+    "correctAnswer": "Metamorfismo",
+    "explanation": "O metamorfismo transforma rochas existentes em novas rochas sob altas temperaturas e pressões."
+  },
+  {
+    "id": "quiz-ciencia-33",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é o princípio da incerteza de Heisenberg?",
+    "options": [
+      "É impossível medir simultaneamente a posição e o momento de uma partícula com precisão infinita",
+      "É impossível prever o comportamento de partículas subatômicas",
+      "A energia e o tempo são inversamente proporcionais",
+      "A massa e a energia são equivalentes"
+    ],
+    "correctAnswer": "É impossível medir simultaneamente a posição e o momento de uma partícula com precisão infinita",
+    "explanation": "O princípio da incerteza de Heisenberg é um pilar da mecânica quântica, limitando a precisão com que certas propriedades de uma partícula podem ser conhecidas."
+  },
+  {
+    "id": "quiz-ciencia-34",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é um gigante gasoso, muito maior que a Terra."
+  },
+  {
+    "id": "quiz-ciencia-35",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo pelo qual o DNA é copiado?",
+    "options": [
+      "Transcrição",
+      "Tradução",
+      "Replicação",
+      "Mutação"
+    ],
+    "correctAnswer": "Replicação",
+    "explanation": "A replicação do DNA é crucial para a hereditariedade."
+  },
+  {
+    "id": "quiz-ciencia-36",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a entropia?",
+    "options": [
+      "A energia total de um sistema",
+      "A medida da desordem de um sistema",
+      "A força de atração entre moléculas",
+      "A taxa de reação química"
+    ],
+    "correctAnswer": "A medida da desordem de um sistema",
+    "explanation": "A segunda lei da termodinâmica afirma que a entropia de um sistema isolado tende a aumentar."
+  },
+  {
+    "id": "quiz-ciencia-37",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o elemento químico representado pelo símbolo 'O'?",
+    "options": [
+      "Oxigênio",
+      "Ouro",
+      "Osmio",
+      "Ósmio"
+    ],
+    "correctAnswer": "Oxigênio",
+    "explanation": "Oxigênio é essencial para a respiração."
+  },
+  {
+    "id": "quiz-ciencia-38",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual o nome da força que causa a aceleração dos objetos em queda livre?",
+    "options": [
+      "Força elétrica",
+      "Força magnética",
+      "Força gravitacional",
+      "Força nuclear"
+    ],
+    "correctAnswer": "Força gravitacional",
+    "explanation": "A força gravitacional atrai objetos com massa."
+  },
+  {
+    "id": "quiz-ciencia-39",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é o princípio de Arquimedes?",
+    "options": [
+      "Um corpo imerso em um fluido sofre uma força de empuxo igual ao peso do fluido deslocado",
+      "A pressão em um fluido é transmitida igualmente em todas as direções",
+      "A velocidade de um fluido é inversamente proporcional à sua pressão",
+      "A temperatura de um fluido afeta sua densidade"
+    ],
+    "correctAnswer": "Um corpo imerso em um fluido sofre uma força de empuxo igual ao peso do fluido deslocado",
+    "explanation": "O princípio de Arquimedes explica a flutuação de objetos em fluidos."
+  },
+  {
+    "id": "quiz-ciencia-40",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo de mudança de estado físico de sólido para líquido?",
+    "options": [
+      "Solidificação",
+      "Fusão",
+      "Evaporação",
+      "Sublimação"
+    ],
+    "correctAnswer": "Fusão",
+    "explanation": "Fusão é o nome técnico do derretimento."
+  },
+  {
+    "id": "quiz-ciencia-41",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a principal função do cloroplasto em uma célula vegetal?",
+    "options": [
+      "Produção de proteínas",
+      "Armazenamento de água",
+      "Fotossíntese",
+      "Respiração celular"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "Os cloroplastos são o local da fotossíntese."
+  },
+  {
+    "id": "quiz-ciencia-42",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual as plantas convertem luz solar em energia?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas utilizam a energia solar, água e dióxido de carbono para produzir glicose (energia) e oxigênio.  Uma curiosidade é que algumas plantas realizam fotossíntese em diferentes comprimentos de onda, permitindo adaptação a ambientes com baixa luminosidade."
+  },
+  {
+    "id": "quiz-ciencia-43",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água a 100°C ao nível do mar?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Gasoso",
+    "explanation": "A 100°C ao nível do mar, a água entra em ebulição e muda do estado líquido para o gasoso (vapor). A pressão atmosférica influencia o ponto de ebulição."
+  },
+  {
+    "id": "quiz-ciencia-44",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre uma estrela e um planeta?",
+    "options": [
+      "Tamanho",
+      "Composição",
+      "Produção de luz",
+      "Órbita"
+    ],
+    "correctAnswer": "Produção de luz",
+    "explanation": "Estrelas produzem sua própria luz através de reações de fusão nuclear, enquanto planetas refletem a luz de uma estrela.  Uma curiosidade: exoplanetas são planetas que orbitam estrelas fora do nosso sistema solar e são encontrados em uma variedade de tamanhos e composições."
+  },
+  {
+    "id": "quiz-ciencia-45",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual fenômeno explica as mudanças de estação na Terra?",
+    "options": [
+      "Rotação da Terra",
+      "Translação da Terra",
+      "Precessão dos equinócios",
+      "Atividade solar"
+    ],
+    "correctAnswer": "Translação da Terra",
+    "explanation": "A inclinação do eixo de rotação da Terra em relação ao plano de sua órbita (translação) ao redor do Sol é o que causa as estações do ano.  A curiosidade é que as estações não começam ao mesmo tempo em todos os lugares do planeta."
+  },
+  {
+    "id": "quiz-ciencia-46",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a constante cosmológica?",
+    "options": [
+      "Uma constante que descreve a expansão do universo",
+      "Uma constante que descreve a força gravitacional",
+      "Uma constante que descreve a velocidade da luz",
+      "Uma constante que descreve a massa de um elétron"
+    ],
+    "correctAnswer": "Uma constante que descreve a expansão do universo",
+    "explanation": "A constante cosmológica, introduzida por Einstein, representa a densidade de energia do vácuo e influencia a expansão do universo.  Curiosamente, sua descoberta indica que a expansão do universo está acelerando."
+  },
+  {
+    "id": "quiz-ciencia-47",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual o nome da partícula elementar responsável pela força nuclear fraca?",
+    "options": [
+      "Fóton",
+      "Glúon",
+      "Bósons W e Z",
+      "Gráviton"
+    ],
+    "correctAnswer": "Bósons W e Z",
+    "explanation": "Os bósons W e Z são partículas mediadoras da força nuclear fraca, responsável por processos como a radioatividade beta.  A curiosidade é que essas partículas são muito massivas em comparação com outras partículas elementares."
+  },
+  {
+    "id": "quiz-ciencia-48",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo de formação de gelo a partir de água?",
+    "options": [
+      "Fusão",
+      "Vaporização",
+      "Solidificação",
+      "Sublimação"
+    ],
+    "correctAnswer": "Solidificação",
+    "explanation": "Solidificação é a mudança de estado físico de líquido para sólido. Uma curiosidade é que a água se expande ao congelar, diferentemente da maioria das substâncias."
+  },
+  {
+    "id": "quiz-ciencia-49",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "O que é um isótopo?",
+    "options": [
+      "Átomo com número diferente de prótons",
+      "Átomo com número diferente de elétrons",
+      "Átomo com número diferente de nêutrons",
+      "Molécula com número diferente de átomos"
+    ],
+    "correctAnswer": "Átomo com número diferente de nêutrons",
+    "explanation": "Isótopos são átomos do mesmo elemento com o mesmo número de prótons, mas diferente número de nêutrons. Alguns isótopos são radioativos. Uma curiosidade: o carbono-14 é um isótopo usado na datação de materiais orgânicos."
+  },
+  {
+    "id": "quiz-ciencia-50",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual gás contribui mais para o efeito estufa?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de Carbono",
+      "Hidrogênio"
+    ],
+    "correctAnswer": "Dióxido de Carbono",
+    "explanation": "Embora outros gases contribuam, o dióxido de carbono é o principal gás estufa, aprisionando calor na atmosfera. Uma curiosidade é que a atividade humana tem aumentado significativamente as concentrações de CO2 na atmosfera."
+  },
+  {
+    "id": "quiz-ciencia-51",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é a teoria da relatividade geral?",
+    "options": [
+      "Teoria sobre a natureza da luz",
+      "Teoria sobre a gravidade como curvatura do espaço-tempo",
+      "Teoria sobre a natureza do átomo",
+      "Teoria sobre a evolução das espécies"
+    ],
+    "correctAnswer": "Teoria sobre a gravidade como curvatura do espaço-tempo",
+    "explanation": "A relatividade geral descreve a gravidade não como uma força, mas como uma curvatura do espaço-tempo causada pela massa e energia.  Uma curiosidade é que a relatividade geral prevê a existência de ondas gravitacionais, detectadas pela primeira vez em 2015."
+  },
+  {
+    "id": "quiz-ciencia-52",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo de divisão celular em células somáticas?",
+    "options": [
+      "Meiose",
+      "Mitose",
+      "Gametogênese",
+      "Fertilização"
+    ],
+    "correctAnswer": "Mitose",
+    "explanation": "A mitose é um tipo de divisão celular que resulta em duas células-filhas geneticamente idênticas. A meiose, por outro lado, produz gametas."
+  },
+  {
+    "id": "quiz-ciencia-53",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual a unidade básica de matéria?",
+    "options": [
+      "Átomo",
+      "Molécula",
+      "Célula",
+      "Eletrón"
+    ],
+    "correctAnswer": "Átomo",
+    "explanation": "O átomo é a unidade básica de matéria, composto por prótons, nêutrons e elétrons. Uma curiosidade é que a maioria do átomo é espaço vazio."
+  },
+  {
+    "id": "quiz-ciencia-54",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "O que é a difusão?",
+    "options": [
+      "Movimento de substâncias de alta para baixa concentração",
+      "Movimento de substâncias de baixa para alta concentração",
+      "Movimento de água através de uma membrana semipermeável",
+      "Movimento de partículas em um fluido em repouso"
+    ],
+    "correctAnswer": "Movimento de substâncias de alta para baixa concentração",
+    "explanation": "A difusão é o movimento de partículas de uma região de alta concentração para uma região de baixa concentração até atingir o equilíbrio.  A curiosidade é que a difusão é um processo passivo, não requer energia."
+  },
+  {
+    "id": "quiz-ciencia-55",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre uma reação endotérmica e uma exotérmica?",
+    "options": [
+      "Endotérmica absorve calor, exotérmica libera calor",
+      "Endotérmica libera calor, exotérmica absorve calor",
+      "Ambas absorvem calor",
+      "Ambas liberam calor"
+    ],
+    "correctAnswer": "Endotérmica absorve calor, exotérmica libera calor",
+    "explanation": "Reações endotérmicas absorvem calor do ambiente, enquanto reações exotérmicas liberam calor para o ambiente.  A curiosidade é que a combustão é um exemplo clássico de reação exotérmica."
+  },
+  {
+    "id": "quiz-ciencia-56",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a função principal do RNA?",
+    "options": [
+      "Armazenamento de informações genéticas",
+      "Transporte de informações genéticas",
+      "Síntese de proteínas",
+      "Catalisação de reações"
+    ],
+    "correctAnswer": "Transporte de informações genéticas",
+    "explanation": "O RNA transporta as informações genéticas do DNA para o ribossomo, onde as proteínas são sintetizadas. Uma curiosidade é que existem diferentes tipos de RNA, cada um com uma função específica."
+  },
+  {
+    "id": "quiz-ciencia-57",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual os animais obtêm energia a partir dos alimentos?",
+    "options": [
+      "Fotossíntese",
+      "Respiração celular",
+      "Fermentação",
+      "Osmose"
+    ],
+    "correctAnswer": "Respiração celular",
+    "explanation": "A respiração celular é o processo pelo qual as células dos animais quebram moléculas de alimento para liberar energia na forma de ATP.  Uma curiosidade é que a respiração celular ocorre nas mitocôndrias das células."
+  },
+  {
+    "id": "quiz-ciencia-58",
+    "categoryId": "ciencia",
+    "difficulty": "hard",
+    "question": "O que é um acelerador de partículas?",
+    "options": [
+      "Máquina que acelera partículas subatômicas a altas velocidades",
+      "Máquina que desacelera partículas subatômicas",
+      "Máquina que mede a massa de partículas",
+      "Máquina que detecta partículas subatômicas"
+    ],
+    "correctAnswer": "Máquina que acelera partículas subatômicas a altas velocidades",
+    "explanation": "Aceleradores de partículas são usados para acelerar partículas subatômicas a altas velocidades para estudar suas propriedades e colisões. O Grande Colisor de Hádrons (LHC) é um exemplo famoso.  Uma curiosidade é que os aceleradores de partículas também são usados em aplicações médicas, como a radioterapia."
+  },
+  {
+    "id": "quiz-ciencia-59",
+    "categoryId": "ciencia",
+    "difficulty": "medium",
+    "question": "Qual a força fundamental que mantém os núcleos atômicos unidos?",
+    "options": [
+      "Força gravitacional",
+      "Força eletromagnética",
+      "Força nuclear forte",
+      "Força nuclear fraca"
+    ],
+    "correctAnswer": "Força nuclear forte",
+    "explanation": "A força nuclear forte é a força que mantém os prótons e nêutrons unidos no núcleo atômico, superando a repulsão eletrostática entre os prótons.  Uma curiosidade é que a força nuclear forte é muito mais intensa que a força eletromagnética, mas atua em distâncias muito menores."
+  },
+  {
+    "id": "quiz-ciencia-60",
+    "categoryId": "ciencia",
+    "difficulty": "easy",
+    "question": "Qual a composição química do sal de cozinha?",
+    "options": [
+      "NaCl",
+      "H2O",
+      "CO2",
+      "O2"
+    ],
+    "correctAnswer": "NaCl",
+    "explanation": "O sal de cozinha é composto quimicamente por cloreto de sódio (NaCl). Uma curiosidade é que o sal é essencial para a vida, mas em excesso pode ser prejudicial à saúde."
+  }
+]

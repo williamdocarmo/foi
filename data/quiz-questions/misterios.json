@@ -1,0 +1,730 @@
+[
+  {
+    "id": "quiz-misterios-1",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério que envolve o desaparecimento de Amelia Earhart?",
+    "options": [
+      "Sequestro por espiões japoneses",
+      "Acidente aéreo no Oceano Pacífico",
+      "Aterrissagem em ilha deserta e posterior morte",
+      "Fugida para uma nova vida"
+    ],
+    "correctAnswer": "Acidente aéreo no Oceano Pacífico",
+    "explanation": "Embora existam várias teorias, a mais aceita é um acidente no Oceano Pacífico, devido à falta de combustível.  Curiosamente, buscas recentes encontraram destroços possivelmente relacionados ao seu avião."
+  },
+  {
+    "id": "quiz-misterios-2",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o nome do famoso manuscrito ainda indecifrável?",
+    "options": [
+      "Manuscrito Voynich",
+      "Códice de Dresda",
+      "Manuscrito de Beale",
+      "Livro de Enoch"
+    ],
+    "correctAnswer": "Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro ilustrado repleto de um texto desconhecido e símbolos enigmáticos.  Até hoje, ninguém conseguiu decifrá-lo completamente. Uma curiosidade: ele é considerado um dos livros mais misteriosos do mundo."
+  },
+  {
+    "id": "quiz-misterios-3",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual a teoria mais aceita sobre a formação das Linhas de Nazca?",
+    "options": [
+      "Construídas por extraterrestres",
+      "Rituais religiosos pré-colombianos",
+      "Marcações para navegação aérea antiga",
+      "Obras de arte natural"
+    ],
+    "correctAnswer": "Rituais religiosos pré-colombianos",
+    "explanation": "Embora a teoria extraterrestre seja popular, a mais aceita é a de rituais religiosos.  Curiosamente, estudos recentes sugerem que as linhas podem ter sido usadas para monitorar o ciclo das chuvas."
+  },
+  {
+    "id": "quiz-misterios-4",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Em qual local ocorreu o desaparecimento de Jimmy Hoffa?",
+    "options": [
+      "Nova York",
+      "Los Angeles",
+      "Detroit",
+      "Chicago"
+    ],
+    "correctAnswer": "Detroit",
+    "explanation": "O sindicalista Jimmy Hoffa desapareceu misteriosamente em Detroit, em 1975. Seu corpo nunca foi encontrado, alimentando inúmeras teorias conspiratórias. Uma curiosidade: O caso gerou diversas teorias, incluindo a de que ele teria sido enterrado no estádio de um time de futebol americano."
+  },
+  {
+    "id": "quiz-misterios-5",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "O que é a 'Floresta Suicida' no Japão?",
+    "options": [
+      "Uma floresta com alta taxa de suicídios",
+      "Uma floresta com alta incidência de ataques de animais",
+      "Uma floresta com fenômenos paranormais",
+      "Uma floresta com árvores que liberam gases tóxicos"
+    ],
+    "correctAnswer": "Uma floresta com alta taxa de suicídios",
+    "explanation": "A Floresta de Aokigahara, também conhecida como 'Floresta Suicida', registra um alto número de suicídios anualmente.  Curiosamente, há iniciativas para reduzir o número de mortes, com a instalação de placas de alerta e patrulhamento."
+  },
+  {
+    "id": "quiz-misterios-6",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério por trás do 'Gato de Cheshire' em Alice no País das Maravilhas?",
+    "options": [
+      "Sua capacidade de desaparecer gradualmente",
+      "Sua habilidade de prever o futuro",
+      "Sua ligação com o mundo subterrâneo",
+      "Seu controle sobre o tempo"
+    ],
+    "correctAnswer": "Sua capacidade de desaparecer gradualmente",
+    "explanation": "O gato de Cheshire é famoso por sua capacidade de desaparecer gradualmente, deixando apenas o seu sorriso.  Curiosamente, este é um exemplo de personificação, comum em literatura infantil."
+  },
+  {
+    "id": "quiz-misterios-7",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o fenômeno misterioso associado ao Triângulo das Bermudas?",
+    "options": [
+      "Desaparecimentos inexplicáveis de navios e aeronaves",
+      "Ondas gigantes e tempestades frequentes",
+      "Atividades vulcânicas submarinas",
+      "Ataques de criaturas marinhas gigantes"
+    ],
+    "correctAnswer": "Desaparecimentos inexplicáveis de navios e aeronaves",
+    "explanation": "O Triângulo das Bermudas é conhecido pelos misteriosos desaparecimentos de navios e aviões.  Curiosamente, muitos desses desaparecimentos são atribuídos a erros humanos ou condições climáticas adversas."
+  },
+  {
+    "id": "quiz-misterios-8",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério central do romance 'O Código Da Vinci'?",
+    "options": [
+      "A busca pelo Santo Graal",
+      "A descoberta de um segredo sobre Jesus Cristo",
+      "A localização de um tesouro perdido",
+      "A conspiração para controlar a Igreja Católica"
+    ],
+    "correctAnswer": "A descoberta de um segredo sobre Jesus Cristo",
+    "explanation": "O romance gira em torno da descoberta de um segredo sobre a vida de Jesus Cristo e Maria Madalena.  Curiosamente, o livro gerou muitas discussões sobre a história da religião e a veracidade dos fatos relatados."
+  },
+  {
+    "id": "quiz-misterios-9",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério por trás da 'Porta dos Deuses' no Peru?",
+    "options": [
+      "Sua precisão na construção",
+      "Sua associação com entidades extraterrestres",
+      "Sua função desconhecida",
+      "Sua invulnerabilidade a terremotos"
+    ],
+    "correctAnswer": "Sua função desconhecida",
+    "explanation": "A 'Porta dos Deuses' é uma estrutura de pedra no Peru cuja função exata permanece desconhecida. Curiosamente, sua precisão na construção sugere avançados conhecimentos de engenharia para a época."
+  },
+  {
+    "id": "quiz-misterios-10",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério envolvendo a Ilha de Páscoa?",
+    "options": [
+      "O desaparecimento de seus habitantes originais",
+      "A construção das Moais",
+      "A origem de sua escrita",
+      "A descoberta de tesouros perdidos"
+    ],
+    "correctAnswer": "A construção das Moais",
+    "explanation": "A construção das gigantescas estátuas de Moais na Ilha de Páscoa é um grande mistério devido à falta de evidências claras sobre como foram construídas e transportadas. Uma curiosidade: existem teorias que envolvem o uso de troncos de árvores para o transporte das estátuas."
+  },
+  {
+    "id": "quiz-misterios-11",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual enigma famoso envolve um navio fantasma?",
+    "options": [
+      "O Mary Celeste",
+      "O Titanic",
+      "O Lusitânia",
+      "O Andrea Doria"
+    ],
+    "correctAnswer": "O Mary Celeste",
+    "explanation": "O Mary Celeste foi encontrado à deriva no Atlântico, completamente vazio, com suas mercadorias intactas.  Uma curiosidade: o mistério do desaparecimento da tripulação permanece um enigma até os dias de hoje."
+  },
+  {
+    "id": "quiz-misterios-12",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério que envolve o 'Caso Dyatlov'?",
+    "options": [
+      "Uma morte em massa inexplicável na montanha Ural",
+      "O desaparecimento de uma expedição arqueológica na Sibéria",
+      "Um assassinato misterioso em um trem",
+      "O desaparecimento de um grupo de alpinistas no Himalaia"
+    ],
+    "correctAnswer": "Uma morte em massa inexplicável na montanha Ural",
+    "explanation": "Nove montanhistas morreram sob circunstâncias inexplicáveis nos Montes Urais.  Uma curiosidade: existem teorias que envolvem uma avalanche, uma infrassom, ou até mesmo uma intervenção alienígena."
+  },
+  {
+    "id": "quiz-misterios-13",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "O que é o enigma de Jack, o Estripador?",
+    "options": [
+      "Uma série de assassinatos em série não resolvidos",
+      "Um roubo de joias misterioso",
+      "Um incêndio criminoso",
+      "Um sequestro de criança"
+    ],
+    "correctAnswer": "Uma série de assassinatos em série não resolvidos",
+    "explanation": "Jack, o Estripador, é conhecido por uma série de assassinatos de prostitutas em Londres no século XIX.  Uma curiosidade: a identidade do assassino continua um mistério até hoje, inspirando inúmeras teorias."
+  },
+  {
+    "id": "quiz-misterios-14",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério central do filme 'O Sexto Sentido'?",
+    "options": [
+      "Um médico com problemas mentais",
+      "Uma criança que vê mortos",
+      "Uma família que vive assombrada",
+      "Um detetive investigando um crime paranormal"
+    ],
+    "correctAnswer": "Uma criança que vê mortos",
+    "explanation": "O filme gira em torno de um garoto que consegue ver e interagir com espíritos.  Uma curiosidade: O final chocante do filme é famoso por sua reviravolta inesperada."
+  },
+  {
+    "id": "quiz-misterios-15",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério que envolve a desaparecida Cidade de Atlântida?",
+    "options": [
+      "Uma cidade avançada tecnologicamente afundada no mar",
+      "Uma civilização que viveu em Marte",
+      "Uma sociedade secreta que guarda conhecimentos ancestrais",
+      "Um planeta desaparecido do nosso sistema solar"
+    ],
+    "correctAnswer": "Uma cidade avançada tecnologicamente afundada no mar",
+    "explanation": "A lenda de Atlântida descreve uma cidade avançada tecnologicamente que teria sido afundada no oceano.  Curiosamente, a história de Atlântida continua inspirando pesquisas e interpretações diversas."
+  },
+  {
+    "id": "quiz-misterios-16",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "O que é o Fenômeno de Filadélfia?",
+    "options": [
+      "Um experimento de teletransporte",
+      "Um caso de abdução alienígena",
+      "Um evento de chuva de meteoros",
+      "Uma erupção vulcânica"
+    ],
+    "correctAnswer": "Um experimento de teletransporte",
+    "explanation": "O Fenômeno Filadélfia é uma suposta experiência militar que teria envolvido o teletransporte de um navio.  Curiosamente, a veracidade da história é bastante questionada."
+  },
+  {
+    "id": "quiz-misterios-17",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério envolvendo os Crop Circles?",
+    "options": [
+      "Sua origem desconhecida",
+      "Sua conexão com antigas civilizações",
+      "Sua influência em eventos climáticos",
+      "Sua capacidade de prever o futuro"
+    ],
+    "correctAnswer": "Sua origem desconhecida",
+    "explanation": "Crop circles são padrões misteriosos que aparecem em plantações de cereais.  Curiosamente, muitas são feitas por artistas, mas outras permanecem inexplicáveis."
+  },
+  {
+    "id": "quiz-misterios-18",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério envolvendo o manuscrito de Voynich?",
+    "options": [
+      "Sua linguagem desconhecida",
+      "Sua origem desconhecida",
+      "Sua relação com magia e alquimia",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O manuscrito de Voynich é famoso por sua linguagem e origem desconhecidas e por sua ligação com temas de magia e alquimia.  Uma curiosidade: ainda hoje é objeto de pesquisa por especialistas em criptografia e linguística."
+  },
+  {
+    "id": "quiz-misterios-19",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Onde desapareceram os colonos de Roanoke?",
+    "options": [
+      "Nova York",
+      "Virgínia",
+      "Massachusetts",
+      "Carolina do Sul"
+    ],
+    "correctAnswer": "Virgínia",
+    "explanation": "A colônia desapareceu misteriosamente na ilha de Roanoke, na Virgínia, sem deixar pistas.  Uma curiosidade:  A única pista encontrada foi a palavra 'Croatoan' gravada numa árvore."
+  },
+  {
+    "id": "quiz-misterios-20",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual a teoria mais popular sobre a Área 51?",
+    "options": [
+      "É um centro de pesquisas sobre energias alternativas",
+      "É um local de testes de armas nucleares",
+      "É uma base de estudos de ovnis e tecnologia alienígena",
+      "É um centro de treinamento de astronautas"
+    ],
+    "correctAnswer": "É uma base de estudos de ovnis e tecnologia alienígena",
+    "explanation": "A Área 51 é associada a teorias de conspiração sobre extraterrestres, apesar de ser uma base de testes da Força Aérea dos EUA.  Curiosamente, a existência oficial do local só foi confirmada relativamente recentemente."
+  },
+  {
+    "id": "quiz-misterios-21",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério da 'Sombra de Tunguska'?",
+    "options": [
+      "Uma explosão gigante de origem desconhecida",
+      "Uma queda de meteorito não encontrada",
+      "Um experimento científico secreto",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A explosão de Tunguska foi um evento de grande magnitude sem uma causa totalmente definida.  Curiosamente, há diversas teorias sobre sua origem, incluindo a de um cometa ou um asteroide explodindo na atmosfera."
+  },
+  {
+    "id": "quiz-misterios-22",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério da múmia de Taklamakan?",
+    "options": [
+      "Sua origem desconhecida",
+      "Sua preservação incrivelmente bem-sucedida",
+      "Seus vestígios de DNA único",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A múmia de Taklamakan apresenta características únicas, com origem, preservação e DNA não completamente esclarecidos. Curiosamente, sua aparência sugere traços caucasóides numa região tipicamente asiática."
+  },
+  {
+    "id": "quiz-misterios-23",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a 'Pedra de Rosetta'?",
+    "options": [
+      "Sua escrita hieroglífica indecifrável",
+      "Sua descoberta acidental",
+      "Sua importância para a tradução de hieróglifos egípcios",
+      "Sua ligação a eventos sobrenaturais"
+    ],
+    "correctAnswer": "Sua importância para a tradução de hieróglifos egípcios",
+    "explanation": "A Pedra de Rosetta foi crucial para decifrar a escrita hieroglífica egípcia. Curiosamente, sua descoberta foi essencial para a compreensão da história egípcia antiga."
+  },
+  {
+    "id": "quiz-misterios-24",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual mistério envolve o 'Cofre de Beale'?",
+    "options": [
+      "Sua localização desconhecida",
+      "Seu código indecifrável",
+      "Seu conteúdo supostamente valiosíssimo",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O Cofre de Beale é um mistério envolvendo um tesouro escondido cuja localização e conteúdo são protegidos por um código ainda parcialmente indecifrável. Uma curiosidade: apenas uma das três partes do código já foi decifrada."
+  },
+  {
+    "id": "quiz-misterios-25",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério envolvendo o desaparecimento de DB Cooper?",
+    "options": [
+      "Sequestro de avião e resgate de dinheiro",
+      "Fuga para uma vida nova",
+      "Acidente aéreo",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Sequestro de avião e resgate de dinheiro",
+    "explanation": "DB Cooper sequestrou um avião, resgatou um grande valor em dinheiro e desapareceu sem deixar vestígios. Curiosamente, seu paradeiro ainda é desconhecido e alimenta diversas especulações."
+  },
+  {
+    "id": "quiz-misterios-26",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério central do desaparecimento de Maura Murray?",
+    "options": [
+      "Acidente de carro",
+      "Fuga voluntária",
+      "Sequestro",
+      "Morte não esclarecida"
+    ],
+    "correctAnswer": "Morte não esclarecida",
+    "explanation": "O desaparecimento de Maura Murray envolve diversas teorias, mas a verdade permanece desconhecida até hoje. Curiosamente, o caso gera grande debate entre teorias conspiratórias e acidentes."
+  },
+  {
+    "id": "quiz-misterios-27",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a 'Cidade Submersa de Yonaguni'?",
+    "options": [
+      "Sua origem natural ou artificial",
+      "Sua idade desconhecida",
+      "Sua possível ligação a uma civilização antiga",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A Cidade Submersa de Yonaguni é uma formação rochosa subaquática com características intrigantes, suscitando debates sobre sua origem natural ou artificial e sua possível ligação com civilizações antigas. Curiosamente, sua idade e origem permanecem em debate entre especialistas."
+  },
+  {
+    "id": "quiz-misterios-28",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "O que é o Enigma de Kryptos?",
+    "options": [
+      "Uma escultura com mensagens criptografadas",
+      "Um jogo de enigmas em um livro antigo",
+      "Um código secreto militar",
+      "Um sistema de criptografia extraterrestre"
+    ],
+    "correctAnswer": "Uma escultura com mensagens criptografadas",
+    "explanation": "Kryptos é uma escultura com mensagens criptografadas que ainda não foram totalmente decifradas. Curiosamente, partes do código já foram quebradas por especialistas, mas algumas seções permanecem um mistério."
+  },
+  {
+    "id": "quiz-misterios-29",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério do 'Desaparecimento de Madeleine McCann'?",
+    "options": [
+      "Sequestro de criança",
+      "Acidente",
+      "Fuga com a família",
+      "Morte não esclarecida"
+    ],
+    "correctAnswer": "Sequestro de criança",
+    "explanation": "O desaparecimento de Madeleine McCann é um dos casos mais conhecidos de sequestro de criança, onde várias teorias circulam. Curiosamente, as buscas continuam e o caso permanece em aberto."
+  },
+  {
+    "id": "quiz-misterios-30",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério do 'Assassino do Zodíaco'?",
+    "options": [
+      "Sua identidade não revelada",
+      "Sua série de cartas codificadas",
+      "Seus assassinatos cruéis e planejados",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O Assassino do Zodíaco é um criminoso que até hoje não foi identificado, conhecido por uma série de assassinatos e cartas com códigos criptográficos. Curiosamente, alguns códigos foram decifrados, mas outros ainda permanecem um mistério."
+  },
+  {
+    "id": "quiz-misterios-31",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o mistério do 'Caso Elisa Lam'?",
+    "options": [
+      "Morte em hotel",
+      "Vídeo misterioso em elevador",
+      "Possível suicídio",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O caso de Elisa Lam envolve uma morte em um hotel, um vídeo misterioso de seu comportamento no elevador, e diversas teorias sobre seu desaparecimento. Curiosamente, a causa da morte permanece controversa."
+  },
+  {
+    "id": "quiz-misterios-32",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o mistério envolvendo o 'Evento de Tunguska'?",
+    "options": [
+      "Explosão atmosférica sem crateras",
+      "Origem desconhecida",
+      "Vestígios de uma explosão massiva",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O Evento de Tunguska é conhecido pela explosão sem crateras, origem desconhecida, e evidências de uma explosão gigantesca na Sibéria. Curiosamente, várias teorias circulam, mas uma conclusão definitiva ainda é ausente."
+  },
+  {
+    "id": "quiz-misterios-33",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o mistério da 'Mansão Winchester'?",
+    "options": [
+      "Seu design labiríntico",
+      "Suas supostas atividades paranormais",
+      "A história da sua proprietária, Sarah Winchester",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A Mansão Winchester é famosa por seu design complexo, relatos de atividades paranormais, e a história peculiar de sua proprietária, que a construiu para apaziguar espíritos. Curiosamente, permanece um local popular para amantes do mistério."
+  },
+  {
+    "id": "quiz-misterios-34",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual criatura lendária é frequentemente associada a mistérios marinhos?",
+    "options": [
+      "Kraken",
+      "Dragão",
+      "Fênix",
+      "Esfinge"
+    ],
+    "correctAnswer": "Kraken",
+    "explanation": "O Kraken é uma lenda marítima de um polvo gigante, frequentemente associado a naufrágios e mistérios do mar.  Uma curiosidade:  algumas descrições do Kraken podem ter sido inspiradas em observações de lulas gigantes."
+  },
+  {
+    "id": "quiz-misterios-35",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Em qual local misterioso se diz que objetos desaparecem inexplicavelmente?",
+    "options": [
+      "Triângulo das Bermudas",
+      "Floresta Negra",
+      "Deserto do Atacama",
+      "Montanhas Rochosas"
+    ],
+    "correctAnswer": "Triângulo das Bermudas",
+    "explanation": "O Triângulo das Bermudas é uma área no Oceano Atlântico associada a desaparecimentos inexplicáveis de navios e aeronaves.  Curiosamente, estudos estatísticos questionam a frequência de tais eventos comparado a outras áreas oceânicas."
+  },
+  {
+    "id": "quiz-misterios-36",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno inexplicável que envolve círculos gigantes na plantação de cereais?",
+    "options": [
+      "Crop Circles",
+      "Agroglifos",
+      "Circulos de Ceres",
+      "Formações Agrícolas"
+    ],
+    "correctAnswer": "Crop Circles",
+    "explanation": "Crop Circles, ou círculos nas plantações, são formações geométricas complexas que aparecem em campos de cereais.  Apesar de muitas serem falsas, a origem de algumas permanece um mistério. Uma curiosidade: muitos acreditam que são feitos por extraterrestres."
+  },
+  {
+    "id": "quiz-misterios-37",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual o nome do famoso manuscrito ilustrado que permanece indecifrável?",
+    "options": [
+      "Manuscrito Voynich",
+      "Código da Vinci",
+      "Livro de Enoch",
+      "Códice Gigas"
+    ],
+    "correctAnswer": "Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro ilustrado do século XV, escrito em uma linguagem desconhecida e com ilustrações enigmáticas.  Até hoje, ninguém decifrou seu conteúdo. Uma curiosidade:  Sua autoria e propósito permanecem totalmente obscuros."
+  },
+  {
+    "id": "quiz-misterios-38",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual a teoria mais aceita, embora controversa, para explicar o desaparecimento da civilização da Ilha de Páscoa?",
+    "options": [
+      "Ecocídio",
+      "Guerra tribal",
+      "Doenças",
+      "Contato extraterrestre"
+    ],
+    "correctAnswer": "Ecocídio",
+    "explanation": "A teoria do ecocídio sugere que o povo Rapa Nui esgotou seus recursos naturais, levando ao colapso da civilização.  É uma teoria controversa, mas a evidência arqueológica apóia, em parte, essa hipótese. Uma curiosidade:  a ilha demonstra a fragilidade dos ecossistemas."
+  },
+  {
+    "id": "quiz-misterios-39",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual incidente misterioso envolve a morte de nove estudantes na montanha Ural, na Rússia?",
+    "options": [
+      "Incidente de Dyatlov",
+      "Tragédia de Tunguska",
+      "Incidente de Roswell",
+      "Mistério de Oak Island"
+    ],
+    "correctAnswer": "Incidente de Dyatlov",
+    "explanation": "O Incidente de Dyatlov, em 1959, envolveu a morte inexplicável de nove estudantes durante uma expedição de montanhismo.  As circunstâncias da morte e a falta de explicação definitiva perpetuam o mistério. Uma curiosidade: as teorias variam de avalanches a experimentos militares secretos."
+  },
+  {
+    "id": "quiz-misterios-40",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual enigmática estrutura pré-colombiana no Peru é frequentemente associada a mistérios e teorias alienígenas?",
+    "options": [
+      "Sacsayhuamán",
+      "Machu Picchu",
+      "Porta do Sol",
+      "Porta dos Deuses"
+    ],
+    "correctAnswer": "Porta dos Deuses",
+    "explanation": "A Porta dos Deuses, no Peru, é uma estrutura de pedra com aberturas que alguns acreditam possuir propriedades enigmáticas ou sobrenaturais.  Sua função original e construção geram muitas especulações. Uma curiosidade:  muitas teorias associam-na a energia cósmica ou tecnologia avançada."
+  },
+  {
+    "id": "quiz-misterios-41",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o nome da floresta no Japão associada a altas taxas de suicídio e eventos misteriosos?",
+    "options": [
+      "Floresta de Aokigahara",
+      "Floresta de Nara",
+      "Floresta de Shikoku",
+      "Floresta de Hokkaido"
+    ],
+    "correctAnswer": "Floresta de Aokigahara",
+    "explanation": "A Floresta de Aokigahara, também conhecida como 'Floresta Suicida', é uma área associada a um alto número de suicídios.  Sua atmosfera sombria e geografia contribuem para sua aura misteriosa. Uma curiosidade:  a floresta é um local popular para trilhas, apesar de sua reputação."
+  },
+  {
+    "id": "quiz-misterios-42",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o desaparecimento de um avião com um sequestrador que nunca foi encontrado?",
+    "options": [
+      "Desaparecimento de Amelia Earhart",
+      "Incidente de DB Cooper",
+      "Desaparecimento de Maura Murray",
+      "Caso do Zodíaco"
+    ],
+    "correctAnswer": "Incidente de DB Cooper",
+    "explanation": "Em 1971, um homem conhecido como DB Cooper sequestrou um avião, recebeu um resgate e pulou de paraquedas, nunca mais sendo visto.  Sua identidade e paradeiro permanecem desconhecidos. Uma curiosidade:  o dinheiro do resgate nunca foi recuperado por completo."
+  },
+  {
+    "id": "quiz-misterios-43",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual o nome do assassino em série que aterrorizou a região da Baía de São Francisco na década de 1960 e 70, e nunca foi pego?",
+    "options": [
+      "Jack, o Estripador",
+      "Assassino do Zodíaco",
+      "Ted Bundy",
+      "Jeffrey Dahmer"
+    ],
+    "correctAnswer": "Assassino do Zodíaco",
+    "explanation": "O Assassino do Zodíaco foi um serial killer que enviou cartas enigmáticas para a imprensa, zombando das autoridades.  Sua identidade continua um mistério até hoje. Uma curiosidade:  algumas das suas cartas nunca foram completamente decifradas."
+  },
+  {
+    "id": "quiz-misterios-44",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual evento inexplicável aconteceu na Sibéria em 1908, deixando uma vasta área devastada?",
+    "options": [
+      "Explosão de Tunguska",
+      "Queda do Meteoro de Chelyabinsk",
+      "Incidente de Dyatlov",
+      "Erupção do Monte Vesuvio"
+    ],
+    "correctAnswer": "Explosão de Tunguska",
+    "explanation": "A Explosão de Tunguska foi uma poderosa explosão na Sibéria que devastou uma ampla área florestal.  Sua causa exata ainda é debatida, com a teoria mais aceita sendo o impacto de um meteoro. Uma curiosidade:  nenhuma cratera foi encontrada no local, o que alimenta as teorias mais exóticas."
+  },
+  {
+    "id": "quiz-misterios-45",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual cidade lendária, supostamente perdida no oceano, é um dos mais famosos mistérios arqueológicos?",
+    "options": [
+      "El Dorado",
+      "Atlantis",
+      "Shambala",
+      "Agartha"
+    ],
+    "correctAnswer": "Atlantis",
+    "explanation": "A Atlântida é uma cidade lendária descrita pelo filósofo Platão, que supostamente foi engolfada pelo mar.  Sua existência real é um tema de debate e especulação. Uma curiosidade:  muitos locais ao redor do mundo foram sugeridos como possíveis vestígios de Atlântida."
+  },
+  {
+    "id": "quiz-misterios-46",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual enigma criptográfico, esculpido em uma escultura, ainda não foi completamente decifrado?",
+    "options": [
+      "Enigma de Kryptos",
+      "Código Beale",
+      "Manuscrito Voynich",
+      "Pedra de Rosetta"
+    ],
+    "correctAnswer": "Enigma de Kryptos",
+    "explanation": "O Enigma de Kryptos é uma escultura com quatro partes de mensagens criptografadas.  Três seções foram decifradas, mas a quarta permanece um mistério. Uma curiosidade:  O artista, Jim Sanborn, mantém em segredo alguns elementos da solução."
+  },
+  {
+    "id": "quiz-misterios-47",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual o nome do navio associado ao clássico conto de um navio fantasma?",
+    "options": [
+      "Mary Celeste",
+      "Titanic",
+      "Flying Dutchman",
+      "Queen Mary"
+    ],
+    "correctAnswer": "Mary Celeste",
+    "explanation": "A Mary Celeste é um navio encontrado à deriva no oceano, completamente vazio, sem nenhum vestígio da tripulação ou de algum evento violento.  Sua história permanece um enigma. Uma curiosidade:  várias teorias são apresentadas, como mutinies, ataques de baleias e ondas gigantes."
+  },
+  {
+    "id": "quiz-misterios-48",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual a misteriosa mansão na Califórnia, construída com um design labiríntico e associada a uma viúva rica?",
+    "options": [
+      "Mansão Hearst Castle",
+      "Casa Loma",
+      "Mansão Winchester",
+      "Greystone Park"
+    ],
+    "correctAnswer": "Mansão Winchester",
+    "explanation": "A Mansão Winchester, na Califórnia, é famosa por seu projeto labiríntico, construído aparentemente sem planejamento.  Seu mistério está associado às crenças de sua proprietária, Sarah Winchester. Uma curiosidade:  muitos acreditam que ela construiu a casa para apaziguar espíritos."
+  },
+  {
+    "id": "quiz-misterios-49",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual mistério envolve um conjunto de códigos que, se decifrados, supostamente revelariam a localização de um tesouro escondido?",
+    "options": [
+      "Código da Vinci",
+      "Manuscrito Voynich",
+      "Cofre de Beale",
+      "Enigma de Kryptos"
+    ],
+    "correctAnswer": "Cofre de Beale",
+    "explanation": "O Cofre de Beale contém três códigos que, se decifrados, revelariam a localização de um tesouro enterrado.  Somente um dos códigos foi decifrado até hoje. Uma curiosidade:  várias pessoas tentaram decifrar os códigos, sem sucesso até o momento."
+  },
+  {
+    "id": "quiz-misterios-50",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual aviadora famosa desapareceu misteriosamente sobre o Oceano Pacífico?",
+    "options": [
+      "Amelia Earhart",
+      "Bessie Coleman",
+      "Jacqueline Cochran",
+      "Ruth Elder"
+    ],
+    "correctAnswer": "Amelia Earhart",
+    "explanation": "Amelia Earhart desapareceu durante uma tentativa de circum-navegação do mundo em 1937.  O paradeiro dela e de sua aeronave permanecem desconhecidos. Uma curiosidade:  várias teorias tentam explicar seu desaparecimento, incluindo falhas mecânicas, pouso forçado, e até mesmo sequestro."
+  },
+  {
+    "id": "quiz-misterios-51",
+    "categoryId": "misterios",
+    "difficulty": "medium",
+    "question": "Qual evento de desaparecimento misterioso envolve uma jovem que sumiu durante uma viagem de carro?",
+    "options": [
+      "Desaparecimento de Maura Murray",
+      "Desaparecimento de Madeleine McCann",
+      "Caso Elisa Lam",
+      "Desaparecimento de Natalee Holloway"
+    ],
+    "correctAnswer": "Desaparecimento de Maura Murray",
+    "explanation": "Maura Murray desapareceu misteriosamente em 2004 após um acidente de carro.  Apesar de investigações extensas, seu paradeiro permanece desconhecido. Uma curiosidade:  muitos acreditam que Maura teve um encontro infeliz com alguém no dia de seu desaparecimento."
+  },
+  {
+    "id": "quiz-misterios-52",
+    "categoryId": "misterios",
+    "difficulty": "hard",
+    "question": "Qual estrutura subaquática perto de Yonaguni, Japão, é um potencial mistério arqueológico com debates sobre sua origem?",
+    "options": [
+      "Cidade Submersa de Yonaguni",
+      "Cidade Submersa de Dwarka",
+      "Atlântida",
+      "Cidade Submersa de Pavlopetri"
+    ],
+    "correctAnswer": "Cidade Submersa de Yonaguni",
+    "explanation": "A Cidade Submersa de Yonaguni é uma formação rochosa subaquática com estruturas que alguns acreditam ser artificiais, talvez vestígios de uma civilização antiga.  Sua origem, no entanto, é um debate entre arqueólogos e geólogos. Uma curiosidade:  algumas estruturas se parecem com pirâmides e templos."
+  }
+]

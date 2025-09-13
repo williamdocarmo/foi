@@ -1,1 +1,856 @@
-[]
+[
+  {
+    "id": "quiz-habilidades-1",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é crucial para um bom trabalho em equipe?",
+    "options": [
+      "Competitividade",
+      "Individualismo",
+      "Comunicação",
+      "Silencio"
+    ],
+    "correctAnswer": "Comunicação",
+    "explanation": "A comunicação eficaz é a base de qualquer equipe bem-sucedida.  Uma curiosidade: estudos mostram que equipes com boa comunicação são até 25% mais produtivas."
+  },
+  {
+    "id": "quiz-habilidades-2",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais transferível entre diferentes carreiras?",
+    "options": [
+      "Conhecimento de software específico",
+      "Proficiência em um idioma estrangeiro",
+      "Habilidades de resolução de problemas",
+      "Experiência em um setor específico"
+    ],
+    "correctAnswer": "Habilidades de resolução de problemas",
+    "explanation": "A resolução de problemas é uma habilidade transversal aplicável em quase qualquer profissão. Curiosidade:  A capacidade de resolver problemas complexos é valorizada em todos os setores."
+  },
+  {
+    "id": "quiz-habilidades-3",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual a diferença crucial entre 'habilidades duras' e 'habilidades macias'?",
+    "options": [
+      "Duração do aprendizado",
+      "Importância para o sucesso",
+      "Nível de complexidade",
+      "Transferibilidade entre carreiras"
+    ],
+    "correctAnswer": "Transferibilidade entre carreiras",
+    "explanation": "Habilidades duras são técnicas e específicas, enquanto habilidades macias são interpessoais e mais facilmente transferíveis. Curiosidade:  Habilidades macias são cada vez mais valorizadas pelos empregadores."
+  },
+  {
+    "id": "quiz-habilidades-4",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para um bom cozinheiro?",
+    "options": [
+      "Dançar",
+      "Cantar",
+      "Ler",
+      "Medir ingredientes"
+    ],
+    "correctAnswer": "Medir ingredientes",
+    "explanation": "A precisão na culinária muitas vezes se reflete na qualidade do resultado final. Curiosidade: Os chefs de cozinha mais renomados são conhecidos por sua atenção aos detalhes e precisão."
+  },
+  {
+    "id": "quiz-habilidades-5",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais importante para um programador?",
+    "options": [
+      "Caligrafia",
+      "Decoração de interiores",
+      "Lógica",
+      "Dança"
+    ],
+    "correctAnswer": "Lógica",
+    "explanation": "A lógica é fundamental para a escrita de código limpo e eficiente. Curiosidade: muitos programadores utilizam a lógica matemática para resolver problemas complexos."
+  },
+  {
+    "id": "quiz-habilidades-6",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva é mais relacionada à capacidade de aprender rapidamente?",
+    "options": [
+      "Memória de curto prazo",
+      "Pensamento crítico",
+      "Atenção sustentada",
+      "Metacognição"
+    ],
+    "correctAnswer": "Metacognição",
+    "explanation": "A metacognição, ou seja, a capacidade de pensar sobre o próprio pensamento, é chave para o aprendizado estratégico e eficiente. Curiosidade:  indivíduos com alta metacognição aprendem de maneira mais rápida e eficiente."
+  },
+  {
+    "id": "quiz-habilidades-7",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual destas habilidades é essencial para um bom vendedor?",
+    "options": [
+      "Desenho técnico",
+      "Programação",
+      "Comunicação",
+      "Mecânica"
+    ],
+    "correctAnswer": "Comunicação",
+    "explanation": "A comunicação é crucial para construir relações e persuadir clientes. Curiosidade: a comunicação corporal representa uma grande porcentagem da comunicação eficaz de um vendedor."
+  },
+  {
+    "id": "quiz-habilidades-8",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é vital para um bom negociador?",
+    "options": [
+      "Competitividade agressiva",
+      "Escuta ativa",
+      "Domínio da oratória",
+      "Apresentação impecável"
+    ],
+    "correctAnswer": "Escuta ativa",
+    "explanation": "Compreender as necessidades do outro lado é essencial para uma negociação bem-sucedida. Curiosidade: bons negociadores são ótimos ouvintes."
+  },
+  {
+    "id": "quiz-habilidades-9",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade permite que alguém se adapte rapidamente a novas situações?",
+    "options": [
+      "Pensamento linear",
+      "Pensamento crítico",
+      "Pensamento lateral",
+      "Pensamento convergente"
+    ],
+    "correctAnswer": "Pensamento lateral",
+    "explanation": "O pensamento lateral permite encontrar soluções criativas para problemas inesperados. Curiosidade: Edward de Bono é conhecido por suas contribuições para o pensamento lateral."
+  },
+  {
+    "id": "quiz-habilidades-10",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual destas habilidades é mais importante para um bom escritor?",
+    "options": [
+      "Conhecimento de física",
+      "Criatividade",
+      "Física Quântica",
+      "Cálculo"
+    ],
+    "correctAnswer": "Criatividade",
+    "explanation": "A criatividade é essencial para criar histórias e textos envolventes. Curiosidade: Muitos escritores utilizam técnicas de brainstorming para estimular a criatividade."
+  },
+  {
+    "id": "quiz-habilidades-11",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é crucial para um bom líder?",
+    "options": [
+      "Obediência",
+      "Ego",
+      "Delegação",
+      "Auto-promoção"
+    ],
+    "correctAnswer": "Delegação",
+    "explanation": "Delegar tarefas eficazmente permite que o líder se concentre em tarefas estratégicas. Curiosidade:  Líderes eficazes sabem delegar e confiar na equipe."
+  },
+  {
+    "id": "quiz-habilidades-12",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual destas habilidades melhor prevê o sucesso empreendedor?",
+    "options": [
+      "Conhecimento financeiro profundo",
+      "Habilidades de marketing avançadas",
+      "Resiliência",
+      "Network extensa"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "A capacidade de superar obstáculos é crucial para o sucesso em empreendimentos. Curiosidade:  Empreendedores resilientes tendem a ter maior probabilidade de sucesso."
+  },
+  {
+    "id": "quiz-habilidades-13",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é importante para um bom professor?",
+    "options": [
+      "Paciência",
+      "Impaciência",
+      "Irritabilidade",
+      "Desânimo"
+    ],
+    "correctAnswer": "Paciência",
+    "explanation": "A paciência é essencial para lidar com alunos de diferentes ritmos de aprendizado. Curiosidade:  professores pacientes são mais eficazes em suas aulas."
+  },
+  {
+    "id": "quiz-habilidades-14",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é mais importante para um bom médico?",
+    "options": [
+      "Habilidades manuais",
+      "Boa memória",
+      "Diagnóstico preciso",
+      "Conhecimento da anatomia"
+    ],
+    "correctAnswer": "Diagnóstico preciso",
+    "explanation": "Um diagnóstico preciso é fundamental para o tratamento eficaz do paciente. Curiosidade:  O desenvolvimento de novas tecnologias de imagem tem melhorado a precisão do diagnóstico."
+  },
+  {
+    "id": "quiz-habilidades-15",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é frequentemente subestimada, mas crucial para o sucesso profissional?",
+    "options": [
+      "Networking",
+      "Inteligência emocional",
+      "Proficiência em informática",
+      "Habilidades de apresentação"
+    ],
+    "correctAnswer": "Inteligência emocional",
+    "explanation": "A inteligência emocional, ou capacidade de entender e gerenciar emoções próprias e alheias, impacta significativamente as relações interpessoais. Curiosidade:  Pessoas com alta inteligência emocional são mais bem sucedidas em suas carreiras."
+  },
+  {
+    "id": "quiz-habilidades-16",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade ajuda a organizar ideias e informações?",
+    "options": [
+      "Escrever",
+      "Ler",
+      "Ouvir",
+      "Pensamento crítico"
+    ],
+    "correctAnswer": "Pensamento crítico",
+    "explanation": "O pensamento crítico permite avaliar e organizar informações de forma eficiente. Curiosidade:  O pensamento crítico é um conjunto de habilidades que podem ser desenvolvidas com a prática."
+  },
+  {
+    "id": "quiz-habilidades-17",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é essencial para resolver problemas complexos?",
+    "options": [
+      "Pensamento criativo",
+      "Pensamento analítico",
+      "Pensamento estratégico",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Problemas complexos exigem diferentes tipos de pensamento para chegar a uma solução. Curiosidade:  a combinação de diferentes formas de pensamento melhora o processo de resolução de problemas."
+  },
+  {
+    "id": "quiz-habilidades-18",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é mais importante para a inovação?",
+    "options": [
+      "Pensamento convergente",
+      "Pensamento divergente",
+      "Pensamento crítico",
+      "Pensamento analítico"
+    ],
+    "correctAnswer": "Pensamento divergente",
+    "explanation": "O pensamento divergente gera diversas ideias, impulsionando a inovação. Curiosidade:  o brainstorming é uma técnica que estimula o pensamento divergente."
+  },
+  {
+    "id": "quiz-habilidades-19",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual destas habilidades é essencial para um bom jogador de xadrez?",
+    "options": [
+      "Velocidade",
+      "Força",
+      "Estratégias",
+      "Flexibilidade"
+    ],
+    "correctAnswer": "Estratégias",
+    "explanation": "A estratégia é fundamental para o planejamento e execução de jogadas no xadrez. Curiosidade:  o xadrez é conhecido por ser um jogo que exige estratégia e planejamento a longo prazo."
+  },
+  {
+    "id": "quiz-habilidades-20",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade permite a alguém aprender de forma eficiente com seus erros?",
+    "options": [
+      "Resiliência",
+      "Auto-consciência",
+      "Adaptabilidade",
+      "Metacognição"
+    ],
+    "correctAnswer": "Metacognição",
+    "explanation": "A metacognição permite refletir sobre o processo de aprendizagem e identificar pontos a melhorar. Curiosidade:  pessoas com alta metacognição aprendem a partir de seus erros de forma mais eficiente."
+  },
+  {
+    "id": "quiz-habilidades-21",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva está mais associada à capacidade de tomar decisões eficazes?",
+    "options": [
+      "Memória",
+      "Atenção",
+      "Raciocínio",
+      "Criatividade"
+    ],
+    "correctAnswer": "Raciocínio",
+    "explanation": "O raciocínio permite avaliar diferentes opções e tomar decisões informadas. Curiosidade:  o raciocínio lógico é essencial para tomada de decisões eficazes."
+  },
+  {
+    "id": "quiz-habilidades-22",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade permite entender e responder às nuances da linguagem?",
+    "options": [
+      "Leitura rápida",
+      "Vocabulário extenso",
+      "Inteligência linguística",
+      "Escrita clara"
+    ],
+    "correctAnswer": "Inteligência linguística",
+    "explanation": "A inteligência linguística é a capacidade de usar a linguagem de forma eficaz. Curiosidade:  a inteligência linguística é uma das inteligências múltiplas propostas por Howard Gardner."
+  },
+  {
+    "id": "quiz-habilidades-23",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para uma boa apresentação?",
+    "options": [
+      "Organização",
+      "Comunicação",
+      "Confiança",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Uma boa apresentação requer organização, comunicação e confiança. Curiosidade:  a preparação é crucial para uma apresentação de sucesso."
+  },
+  {
+    "id": "quiz-habilidades-24",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais importante para um bom gerente de projetos?",
+    "options": [
+      "Organização",
+      "Planejamento",
+      "Liderança",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Um gerente de projetos precisa de organização, planejamento e liderança. Curiosidade:  a gestão de projetos é uma área que exige diversas habilidades."
+  },
+  {
+    "id": "quiz-habilidades-25",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é crucial para a adaptação a um ambiente de trabalho em constante mudança?",
+    "options": [
+      "Resiliência",
+      "Aprendizado contínuo",
+      "Adaptabilidade",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Adaptar-se a mudanças requer resiliência, aprendizado contínuo e adaptabilidade. Curiosidade:  a capacidade de adaptação é cada vez mais valorizada no mercado de trabalho."
+  },
+  {
+    "id": "quiz-habilidades-26",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade ajuda a resolver conflitos de forma pacífica?",
+    "options": [
+      "Negociação",
+      "Mediação",
+      "Comunicação",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Resolver conflitos requer negociação, mediação e comunicação. Curiosidade:  a resolução de conflitos é uma habilidade importante em todos os ambientes."
+  },
+  {
+    "id": "quiz-habilidades-27",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é fundamental para a colaboração em projetos online?",
+    "options": [
+      "Comunicação escrita clara",
+      "Gestão de tempo",
+      "Organização digital",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A colaboração online requer comunicação escrita clara, gestão de tempo e organização digital. Curiosidade:  as ferramentas de colaboração online facilitam o trabalho em equipe."
+  },
+  {
+    "id": "quiz-habilidades-28",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade te ajuda a entender o ponto de vista dos outros?",
+    "options": [
+      "Empatia",
+      "Simpatia",
+      "Compaixão",
+      "Tolerância"
+    ],
+    "correctAnswer": "Empatia",
+    "explanation": "Empatia é a capacidade de se colocar no lugar do outro. Curiosidade:  a empatia é uma habilidade crucial para construir relacionamentos saudáveis."
+  },
+  {
+    "id": "quiz-habilidades-29",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade permite a você se manter focado em tarefas complexas?",
+    "options": [
+      "Gerenciamento de tempo",
+      "Organização",
+      "Autodisciplina",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Manter o foco em tarefas complexas requer gerenciamento de tempo, organização e autodisciplina. Curiosidade:  técnicas de foco como Pomodoro podem auxiliar."
+  },
+  {
+    "id": "quiz-habilidades-30",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade está no centro da aprendizagem contínua e da adaptação?",
+    "options": [
+      "Curiosidade",
+      "Resiliência",
+      "Pensamento crítico",
+      "Metacognição"
+    ],
+    "correctAnswer": "Metacognição",
+    "explanation": "A metacognição é a capacidade de pensar sobre o seu próprio processo de pensamento. Curiosidade:  A metacognição permite identificar gaps de conhecimento e direcionar o aprendizado de forma eficiente."
+  },
+  {
+    "id": "quiz-habilidades-31",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para um bom artesão?",
+    "options": [
+      "Precisão",
+      "Paciência",
+      "Criatividade",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Um bom artesão precisa de precisão, paciência e criatividade. Curiosidade:  o trabalho artesanal valoriza o detalhe e a perfeição."
+  },
+  {
+    "id": "quiz-habilidades-32",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais importante para um bom bibliotecário?",
+    "options": [
+      "Organização",
+      "Pesquisa",
+      "Atendimento ao público",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Um bom bibliotecário precisa de organização, pesquisa e atendimento ao público. Curiosidade:  as bibliotecas são espaços que valorizam a organização e o acesso à informação."
+  },
+  {
+    "id": "quiz-habilidades-33",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é crucial para a construção de uma rede de contatos sólida?",
+    "options": [
+      "Networking",
+      "Comunicação",
+      "Inteligência emocional",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Construir uma rede de contatos sólida requer networking, comunicação e inteligência emocional. Curiosidade:  uma rede de contatos sólida pode abrir muitas portas no mercado de trabalho."
+  },
+  {
+    "id": "quiz-habilidades-34",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para andar de bicicleta?",
+    "options": [
+      "Leitura",
+      "Equilíbrio",
+      "Cálculo",
+      "Escrita"
+    ],
+    "correctAnswer": "Equilíbrio",
+    "explanation": "O equilíbrio é fundamental para manter-se ereto e controlar a bicicleta. Curiosidade: O aprendizado do equilíbrio em bicicleta também melhora o equilíbrio em outras atividades!"
+  },
+  {
+    "id": "quiz-habilidades-35",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual destas habilidades facilita a comunicação online?",
+    "options": [
+      "Caligrafia",
+      "Ortografia",
+      "Escultura",
+      "Cozinhar"
+    ],
+    "correctAnswer": "Ortografia",
+    "explanation": "Uma boa ortografia garante clareza e evita mal-entendidos em mensagens escritas. Curiosidade: A ortografia correta influencia a percepção de profissionalismo na comunicação digital."
+  },
+  {
+    "id": "quiz-habilidades-36",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é menos valorizada, mas crucial para o sucesso em vendas?",
+    "options": [
+      "Persuasão",
+      "Empatia",
+      "Apresentação",
+      "Resiliência"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Lidar com rejeições é parte integrante das vendas.  Curiosidade:  Vendedores resilientes tendem a ter mais sucesso a longo prazo, superando as dificuldades."
+  },
+  {
+    "id": "quiz-habilidades-37",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva é fundamental para a programação eficiente de algoritmos complexos?",
+    "options": [
+      "Memória fotográfica",
+      "Pensamento crítico",
+      "Velocidade de digitação",
+      "Habilidades artísticas"
+    ],
+    "correctAnswer": "Pensamento crítico",
+    "explanation": "Programar exige a habilidade de decompor problemas, pensar logicamente e solucionar erros. Curiosidade:  Algoritmos eficientes são resultado de um processo iterativo de pensamento crítico e refinamento."
+  },
+  {
+    "id": "quiz-habilidades-38",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é frequentemente negligenciada em líderes, mas essencial para motivar equipes?",
+    "options": [
+      "Delegação",
+      "Tomada de decisão",
+      "Comunicação",
+      "Escuta ativa"
+    ],
+    "correctAnswer": "Escuta ativa",
+    "explanation": "Entender as necessidades e preocupações da equipe é crucial para a motivação. Curiosidade: Líderes que escutam ativamente constroem confiança e fortalecem relacionamentos."
+  },
+  {
+    "id": "quiz-habilidades-39",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é crucial para um bom jardineiro?",
+    "options": [
+      "Cálculo",
+      "Música",
+      "Pintura",
+      "Paciência"
+    ],
+    "correctAnswer": "Paciência",
+    "explanation": "O cultivo de plantas requer tempo e espera para o crescimento. Curiosidade: A paciência em jardinagem ensina a importância de cuidar do processo a longo prazo."
+  },
+  {
+    "id": "quiz-habilidades-40",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade permite que um músico improvise eficazmente?",
+    "options": [
+      "Leitura rápida",
+      "Memorização",
+      "Criatividade musical",
+      "Conhecimento teórico"
+    ],
+    "correctAnswer": "Criatividade musical",
+    "explanation": "A improvisação requer a capacidade de criar música espontaneamente. Curiosidade: A improvisação melhora com a prática e o desenvolvimento da musicalidade."
+  },
+  {
+    "id": "quiz-habilidades-41",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva está mais relacionada à capacidade de resolver problemas de forma inovadora?",
+    "options": [
+      "Pensamento convergente",
+      "Pensamento divergente",
+      "Memória de longo prazo",
+      "Processamento de linguagem"
+    ],
+    "correctAnswer": "Pensamento divergente",
+    "explanation": "Pensamento divergente gera múltiplas ideias e abordagens para um problema. Curiosidade: O brainstorming é uma técnica que estimula o pensamento divergente."
+  },
+  {
+    "id": "quiz-habilidades-42",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade melhora com a prática de jogos de estratégia?",
+    "options": [
+      "Velocidade de digitação",
+      "Memória a curto prazo",
+      "Planejamento estratégico",
+      "Habilidades motoras finas"
+    ],
+    "correctAnswer": "Planejamento estratégico",
+    "explanation": "Jogos de estratégia exigem pensar em diferentes cenários e planejar ações futuras. Curiosidade: O xadrez é um ótimo exemplo de jogo que aprimora o planejamento estratégico."
+  },
+  {
+    "id": "quiz-habilidades-43",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é mais importante para um designer de jogos em criar uma experiência imersiva?",
+    "options": [
+      "Programação",
+      "Design gráfico",
+      "Narrativa",
+      "Modelagem 3D"
+    ],
+    "correctAnswer": "Narrativa",
+    "explanation": "Uma boa narrativa cria uma conexão emocional com o jogador, tornando a experiência mais imersiva. Curiosidade:  Uma história bem contada pode fazer um jogo simples ser memorável."
+  },
+  {
+    "id": "quiz-habilidades-44",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade ajuda a entender mapas e rotas?",
+    "options": [
+      "Canto",
+      "Desenho",
+      "Orientação espacial",
+      "Escrita"
+    ],
+    "correctAnswer": "Orientação espacial",
+    "explanation": "Orientação espacial permite visualizar e se localizar no espaço. Curiosidade:  A orientação espacial é essencial para navegação, seja em ambientes físicos ou virtuais."
+  },
+  {
+    "id": "quiz-habilidades-45",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais importante para um bom negociador imobiliário?",
+    "options": [
+      "Conhecimento de Direito",
+      "Persuasão",
+      "Conhecimento de informática",
+      "Habilidades manuais"
+    ],
+    "correctAnswer": "Persuasão",
+    "explanation": "Persuadir compradores e vendedores é crucial para fechar negócios. Curiosidade: Boas habilidades de comunicação e persuasão são essenciais em qualquer negociação."
+  },
+  {
+    "id": "quiz-habilidades-46",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é crucial para um cientista de dados em lidar com grandes conjuntos de dados?",
+    "options": [
+      "Habilidades artísticas",
+      "Comunicação oral",
+      "Análise estatística",
+      "Habilidades musicais"
+    ],
+    "correctAnswer": "Análise estatística",
+    "explanation": "A análise estatística permite extrair insights significativos de grandes conjuntos de dados. Curiosidade:  A ciência de dados requer uma sólida compreensão de métodos estatísticos."
+  },
+  {
+    "id": "quiz-habilidades-47",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é necessária para tocar um instrumento musical?",
+    "options": [
+      "Leitura de mapas",
+      "Coordenação motora fina",
+      "Habilidades matemáticas",
+      "Escrever poesia"
+    ],
+    "correctAnswer": "Coordenação motora fina",
+    "explanation": "Coordenação motora fina é essencial para controlar os dedos e os movimentos precisos necessários. Curiosidade:  A prática musical melhora a coordenação motora fina e a destreza."
+  },
+  {
+    "id": "quiz-habilidades-48",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é crucial para um bom cirurgião?",
+    "options": [
+      "Paciência",
+      "Precisão",
+      "Empatia",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Todas as habilidades citadas são essenciais para um bom cirurgião. Curiosidade: A combinação de precisão, paciência e empatia é crucial para o sucesso cirúrgico."
+  },
+  {
+    "id": "quiz-habilidades-49",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é menos óbvia, mas essencial para um bom escritor de ficção científica?",
+    "options": [
+      "Criatividade",
+      "Conhecimento científico",
+      "Imaginação",
+      "Pensamento crítico"
+    ],
+    "correctAnswer": "Conhecimento científico",
+    "explanation": "A ficção científica precisa ser plausível, mesmo sendo ficção. Curiosidade: A pesquisa e o conhecimento científico ajudam a criar mundos e tecnologias mais convincentes."
+  },
+  {
+    "id": "quiz-habilidades-50",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é crucial para um arquiteto projetar estruturas seguras e eficazes?",
+    "options": [
+      "Pintura",
+      "Escultura",
+      "Conhecimento de materiais de construção",
+      "Escrita criativa"
+    ],
+    "correctAnswer": "Conhecimento de materiais de construção",
+    "explanation": "Um arquiteto precisa entender as propriedades dos materiais para garantir a segurança e a funcionalidade. Curiosidade: A escolha correta de materiais é fundamental para a durabilidade e a resistência das construções."
+  },
+  {
+    "id": "quiz-habilidades-51",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é importante para um bom fotógrafo?",
+    "options": [
+      "Escrever poemas",
+      "Compor música",
+      "Composição",
+      "Pintar quadros"
+    ],
+    "correctAnswer": "Composição",
+    "explanation": "Composição refere-se a como os elementos são organizados na imagem. Curiosidade:  A regra dos terços é um princípio básico de composição fotográfica."
+  },
+  {
+    "id": "quiz-habilidades-52",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é essencial para um bom piloto de avião?",
+    "options": [
+      "Coordenação motora fina",
+      "Controle de emoções sob pressão",
+      "Ambas as anteriores",
+      "Nenhuma das anteriores"
+    ],
+    "correctAnswer": "Ambas as anteriores",
+    "explanation": "Tanto a coordenação motora fina quanto o controle emocional são cruciais para voar. Curiosidade: Pilotos precisam de treinamento rigoroso para desenvolver essas habilidades."
+  },
+  {
+    "id": "quiz-habilidades-53",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é crucial para um cientista conduzir experimentos rigorosos?",
+    "options": [
+      "Pensamento analítico",
+      "Criatividade",
+      "Comunicação",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cientistas precisam de pensamento analítico para analisar dados, criatividade para conceber experimentos e comunicação para disseminar seus resultados. Curiosidade: A colaboração e a comunicação são cada vez mais importantes na ciência."
+  },
+  {
+    "id": "quiz-habilidades-54",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva está fortemente relacionada à capacidade de aprender línguas estrangeiras?",
+    "options": [
+      "Memória de curto prazo",
+      "Memória de longo prazo",
+      "Habilidades linguísticas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Todas as habilidades mencionadas contribuem para o aprendizado de línguas. Curiosidade: A imersão em um ambiente de língua estrangeira pode acelerar o aprendizado."
+  },
+  {
+    "id": "quiz-habilidades-55",
+    "categoryId": "habilidades",
+    "difficulty": "easy",
+    "question": "Qual habilidade é crucial para um bom professor de educação física?",
+    "options": [
+      "Jogar xadrez",
+      "Resolver equações",
+      "Coordenação motora",
+      "Escrever romances"
+    ],
+    "correctAnswer": "Coordenação motora",
+    "explanation": "Um professor de educação física precisa demonstrar e ensinar movimentos. Curiosidade:  A prática regular de exercícios melhora a coordenação motora."
+  },
+  {
+    "id": "quiz-habilidades-56",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é menos óbvia, mas crucial para um bom músico de banda?",
+    "options": [
+      "Tocar um instrumento",
+      "Ler partituras",
+      "Trabalho em equipe",
+      "Composição musical"
+    ],
+    "correctAnswer": "Trabalho em equipe",
+    "explanation": "Músicos de banda precisam colaborar e coordenar suas ações. Curiosidade:  A capacidade de trabalhar em equipe é essencial para criar música colaborativa."
+  },
+  {
+    "id": "quiz-habilidades-57",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade cognitiva permite que um cientista desenvolva hipóteses testáveis?",
+    "options": [
+      "Pensamento crítico",
+      "Pensamento criativo",
+      "Pensamento analítico",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cientistas usam todas essas habilidades para formular e testar hipóteses. Curiosidade:  O método científico depende de um processo iterativo de pensamento crítico, criativo e analítico."
+  },
+  {
+    "id": "quiz-habilidades-58",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é importante para um bom técnico de suporte?",
+    "options": [
+      "Paciência",
+      "Capacidade de comunicação",
+      "Habilidades de resolução de problemas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Técnicos de suporte precisam de paciência, comunicação e resolução de problemas para ajudar os usuários. Curiosidade:  A boa comunicação é fundamental para entender o problema do usuário e explicar as soluções."
+  },
+  {
+    "id": "quiz-habilidades-59",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é menos óbvia, mas crucial para um bom gerente de marketing?",
+    "options": [
+      "Conhecimento de marketing digital",
+      "Análise de dados",
+      "Criatividade",
+      "Pensamento estratégico"
+    ],
+    "correctAnswer": "Análise de dados",
+    "explanation": "Os dados são essenciais para a tomada de decisões em marketing. Curiosidade: A análise de dados permite rastrear o desempenho das campanhas e otimizar os resultados."
+  },
+  {
+    "id": "quiz-habilidades-60",
+    "categoryId": "habilidades",
+    "difficulty": "hard",
+    "question": "Qual habilidade é menos óbvia, mas crucial para um bom artista?",
+    "options": [
+      "Técnica",
+      "Visão criativa",
+      "Resiliência",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Artistas precisam de técnica, visão criativa e resiliência para superar desafios. Curiosidade:  A arte envolve um processo iterativo de criação e refinamento."
+  },
+  {
+    "id": "quiz-habilidades-61",
+    "categoryId": "habilidades",
+    "difficulty": "medium",
+    "question": "Qual habilidade é essencial para um bom gerente de projetos?",
+    "options": [
+      "Organização",
+      "Planejamento",
+      "Comunicação",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Gerentes de projetos precisam organizar, planejar e comunicar para garantir o sucesso do projeto. Curiosidade:  A gestão de projetos é uma área multidisciplinar que envolve diversas habilidades."
+  }
+]

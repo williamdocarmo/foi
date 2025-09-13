@@ -1,0 +1,786 @@
+[
+  {
+    "id": "quiz-hacks-1",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que o zíper grude, o que você pode passar nele?",
+    "options": [
+      "Sabonete",
+      "Álcool",
+      "Parafina",
+      "Cola"
+    ],
+    "correctAnswer": "Parafina",
+    "explanation": "A parafina lubrifica o zíper, facilitando o deslizamento. Uma vela também funciona! Sabia que os zíperes foram inventados em 1893?"
+  },
+  {
+    "id": "quiz-hacks-2",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual técnica pode ajudar a remover manchas de vinho tinto de um tapete?",
+    "options": [
+      "Água fria e sabão",
+      "Água sanitária",
+      "Sal e água fria",
+      "Álcool"
+    ],
+    "correctAnswer": "Sal e água fria",
+    "explanation": "O sal absorve o vinho antes que ele penetre nas fibras.  A ação rápida é crucial!  Dica extra: use um pano branco para limpar, evitando a transferência de cor."
+  },
+  {
+    "id": "quiz-hacks-3",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual solução caseira pode ajudar a remover arranhões superficiais de móveis de madeira?",
+    "options": [
+      "Pasta de dente branca",
+      "Vinagre",
+      "Bicarbonato de sódio",
+      "Óleo de cozinha"
+    ],
+    "correctAnswer": "Pasta de dente branca",
+    "explanation": "A pasta de dente abrasiva remove suavemente os arranhões. Aplique em pequena quantidade e esfregue com um pano macio.  A maioria das pastas de dente são feitas com abrasivos suaves! "
+  },
+  {
+    "id": "quiz-hacks-4",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que a cebola te faça chorar ao cortá-la?",
+    "options": [
+      "Usar óculos",
+      "Cortar embaixo d'água",
+      "Congelar a cebola",
+      "Respirar pela boca"
+    ],
+    "correctAnswer": "Cortar embaixo d'água",
+    "explanation": "A água impede a liberação dos compostos irritantes.  Mastigar chiclete também funciona, pois ajuda a manter a boca ocupada!"
+  },
+  {
+    "id": "quiz-hacks-5",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual destes itens pode ser usado para limpar um teclado de computador?",
+    "options": [
+      "Álcool isopropílico",
+      "Água e sabão",
+      "Limpa vidros",
+      "Desinfetante"
+    ],
+    "correctAnswer": "Álcool isopropílico",
+    "explanation": "Álcool isopropílico limpa eficazmente e seca rapidamente, evitando danos aos componentes eletrônicos. Nunca mergulhe o teclado na água!"
+  },
+  {
+    "id": "quiz-hacks-6",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Para remover um anel preso no dedo, qual técnica é mais eficaz?",
+    "options": [
+      "Forçar",
+      "Lubrificar com óleo",
+      "Usar fio dental",
+      "Mergulhar em água fria"
+    ],
+    "correctAnswer": "Lubrificar com óleo",
+    "explanation": "O óleo reduz o atrito, permitindo que o anel deslize mais facilmente.  O óleo vegetal ou de bebê são boas opções. Nunca force o anel, pois pode machucar o dedo."
+  },
+  {
+    "id": "quiz-hacks-7",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Qual destes alimentos pode ajudar a remover manchas de ferrugem?",
+    "options": [
+      "Limão",
+      "Tomate",
+      "Batata",
+      "Cebola"
+    ],
+    "correctAnswer": "Limão",
+    "explanation": "O ácido cítrico do limão ajuda a dissolver a ferrugem. Esfregue a área afetada com um pedaço de limão e depois limpe com água."
+  },
+  {
+    "id": "quiz-hacks-8",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para remover manchas de café de roupas, o ideal é:",
+    "options": [
+      "Lavar com água fria",
+      "Usar alvejante",
+      "Usar água sanitária",
+      "Lavar com água quente e sabão"
+    ],
+    "correctAnswer": "Lavar com água fria",
+    "explanation": "A água quente fixa a mancha.  A água fria ajuda a remover a mancha de café antes que ela se fixe nas fibras do tecido."
+  },
+  {
+    "id": "quiz-hacks-9",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como você pode prolongar a vida útil de um ramo de flores cortadas?",
+    "options": [
+      "Adicionar açúcar à água",
+      "Adicionar sal à água",
+      "Adicionar vinagre à água",
+      "Adicionar refrigerante à água"
+    ],
+    "correctAnswer": "Adicionar açúcar à água",
+    "explanation": "O açúcar fornece alimento para as flores.  Também é importante trocar a água regularmente e cortar as hastes em ângulo."
+  },
+  {
+    "id": "quiz-hacks-10",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Qual destes objetos pode ajudar a tirar um espinho da pele?",
+    "options": [
+      "Pinça",
+      "Agulha",
+      "Fita adesiva",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada opção pode ser útil dependendo do tamanho e localização do espinho. A pinça é ideal para espinhos visíveis. A agulha pode ajudar a remover espinhos superficiais. A fita adesiva pode ajudar a puxar espinhos pequenos."
+  },
+  {
+    "id": "quiz-hacks-11",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover chiclete do cabelo?",
+    "options": [
+      "Usar vinagre",
+      "Usar manteiga de amendoim",
+      "Usar óleo vegetal",
+      "Usar gel de cabelo"
+    ],
+    "correctAnswer": "Usar manteiga de amendoim",
+    "explanation": "A manteiga de amendoim amolece o chiclete, facilitando a remoção. Aplique uma boa quantidade e depois penteie suavemente."
+  },
+  {
+    "id": "quiz-hacks-12",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual é a melhor maneira de remover cera de vela de um tecido?",
+    "options": [
+      "Usar ferro de passar roupas com papel absorvente",
+      "Usar água quente e sabão",
+      "Usar solvente",
+      "Congelar o tecido"
+    ],
+    "correctAnswer": "Usar ferro de passar roupas com papel absorvente",
+    "explanation": "O calor do ferro derrete a cera, e o papel absorve a cera derretida.  É importante usar um papel absorvente para evitar manchar o tecido."
+  },
+  {
+    "id": "quiz-hacks-13",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que a panela grude, é recomendável:",
+    "options": [
+      "Untar com óleo antes de aquecer",
+      "Usar alta temperatura",
+      "Usar detergente em excesso",
+      "Não pré-aquecer a panela"
+    ],
+    "correctAnswer": "Untar com óleo antes de aquecer",
+    "explanation": "Uma fina camada de óleo cria uma barreira entre a comida e a superfície da panela, prevenindo que grude. Usar temperaturas adequadas também é importante."
+  },
+  {
+    "id": "quiz-hacks-14",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como evitar o embaçamento dos óculos ao usar máscara?",
+    "options": [
+      "Ajustar a máscara corretamente",
+      "Utilizar óculos com armação de metal",
+      "Lavar os óculos com detergente",
+      "Utilizar um spray antiembaçante"
+    ],
+    "correctAnswer": "Ajustar a máscara corretamente",
+    "explanation": "A respiração sai pela parte superior da máscara e embaça os óculos. Ajustando-a corretamente, você direciona o ar para cima e para fora."
+  },
+  {
+    "id": "quiz-hacks-15",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual destes ingredientes pode ser usado para fazer um limpador de madeira polido?",
+    "options": [
+      "Óleo de limão",
+      "Óleo de oliva",
+      "Cera de abelha",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada um destes ingredientes possui propriedades que ajudam a limpar, nutrir e polir a madeira. Misture-os para um resultado brilhante."
+  },
+  {
+    "id": "quiz-hacks-16",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como remover marcas de caneta esferográfica de um móvel de madeira?",
+    "options": [
+      "Álcool",
+      "Pasta de dente",
+      "Amoníaco",
+      "Vinagre"
+    ],
+    "correctAnswer": "Álcool",
+    "explanation": "O álcool remove a tinta da caneta sem danificar a madeira. Use um algodão embebido em álcool e esfregue suavemente."
+  },
+  {
+    "id": "quiz-hacks-17",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual a melhor forma de limpar um microondas sujo?",
+    "options": [
+      "Usar produtos químicos fortes",
+      "Lavar na lava-louças",
+      "Usar água quente com limão",
+      "Esfregar vigorosamente com esponja de aço"
+    ],
+    "correctAnswer": "Usar água quente com limão",
+    "explanation": "O limão ajuda a limpar e desodorizar o microondas.  Coloque um recipiente com água e limão no microondas e ligue por alguns minutos.  Depois, limpe facilmente com um pano."
+  },
+  {
+    "id": "quiz-hacks-18",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Para desentupir um ralo lento, uma solução caseira eficaz é:",
+    "options": [
+      "Bicabornato de sódio e vinagre",
+      "Sal e água fervente",
+      "Soda cáustica",
+      "Água sanitária"
+    ],
+    "correctAnswer": "Bicabornato de sódio e vinagre",
+    "explanation": "A reação entre o bicarbonato e o vinagre cria uma efervescência que ajuda a desobstruir o ralo.  É importante usar água fervente para ajudar a empurrar a obstrução."
+  },
+  {
+    "id": "quiz-hacks-19",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que o seu sapato de couro fique molhado na chuva?",
+    "options": [
+      "Usar protetor de sapato",
+      "Colocá-lo dentro de um saco plástico",
+      "Evitar o contato com a água",
+      "Deixá-lo secar ao sol"
+    ],
+    "correctAnswer": "Usar protetor de sapato",
+    "explanation": "O protetor de sapato cria uma barreira contra a umidade, protegendo o couro da chuva. Existem diversos produtos disponíveis no mercado."
+  },
+  {
+    "id": "quiz-hacks-20",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual o melhor método para remover gordura de uma camisa?",
+    "options": [
+      "Lavar com água quente",
+      "Usar detergente específico para gordura",
+      "Esfregar com sabão em barra",
+      "Usar alvejante"
+    ],
+    "correctAnswer": "Usar detergente específico para gordura",
+    "explanation": "Detergentes específicos para gordura são formulados para remover manchas de gordura com mais eficácia.  Pré-tratar a mancha antes de lavar é crucial."
+  },
+  {
+    "id": "quiz-hacks-21",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover mofo de um livro antigo?",
+    "options": [
+      "Usar aspirador de pó",
+      "Expor ao sol",
+      "Utilizar uma escova macia",
+      "Congelar o livro"
+    ],
+    "correctAnswer": "Usar aspirador de pó",
+    "explanation": "Aspire cuidadosamente as áreas afetadas para remover os esporos de mofo.  Nunca utilize água ou sol direto, pois pode danificar o livro. Uma consulta a um especialista em restauração de livros é recomendada."
+  },
+  {
+    "id": "quiz-hacks-22",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que as roupas enruguem na mala de viagem, é recomendável:",
+    "options": [
+      "Dobrá-las cuidadosamente",
+      "Rolá-las em vez de dobrá-las",
+      "Usar sacos de roupa a vácuo",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada uma das opções ajuda a reduzir as rugas nas roupas durante a viagem. Experimentar as opções e ver qual funciona melhor para você."
+  },
+  {
+    "id": "quiz-hacks-23",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como prevenir a formação de bolor no banheiro?",
+    "options": [
+      "Manter o ambiente ventilado",
+      "Limpar regularmente",
+      "Usar produtos anti-mofo",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A ventilação adequada, a limpeza regular e o uso de produtos anti-mofo são essenciais para prevenir a formação de bolor no banheiro. Prevenção é melhor do que cura!"
+  },
+  {
+    "id": "quiz-hacks-24",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Qual solução caseira pode ajudar a polir prata escurecida?",
+    "options": [
+      "Bicabornato de sódio e vinagre",
+      "Pasta de dente",
+      "Limão e sal",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada uma destas misturas tem propriedades que ajudam a remover o escurecimento da prata.  Experimente cada uma e veja qual melhor resultado para a sua prata."
+  },
+  {
+    "id": "quiz-hacks-25",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como remover goma de mascar do tecido?",
+    "options": [
+      "Congelar o tecido",
+      "Usar gelo",
+      "Usar vinagre",
+      "Usar água quente"
+    ],
+    "correctAnswer": "Congelar o tecido",
+    "explanation": "O frio endurece a goma de mascar, facilitando sua remoção. Após congelar, tente raspar a goma com cuidado."
+  },
+  {
+    "id": "quiz-hacks-26",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual método ajuda a remover manchas de suor de roupas escuras?",
+    "options": [
+      "Limão e água",
+      "Aspirador de Pó",
+      "Vinagre e bicarbonato",
+      "Álcool"
+    ],
+    "correctAnswer": "Vinagre e bicarbonato",
+    "explanation": "A mistura de vinagre e bicarbonato ajuda a neutralizar odores e remover manchas de suor, sendo suave com tecidos escuros."
+  },
+  {
+    "id": "quiz-hacks-27",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover adesivos de superfícies sem deixar resíduos?",
+    "options": [
+      "Secador de cabelo",
+      "Óleo de bebê",
+      "Álcool isopropílico",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada método amolece a cola do adesivo, facilitando sua remoção sem danificar a superfície.  Teste em uma área discreta primeiro."
+  },
+  {
+    "id": "quiz-hacks-28",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que a salada murche rapidamente?",
+    "options": [
+      "Guardar em um recipiente aberto",
+      "Guardar em um saco plástico",
+      "Secar bem as folhas antes de guardar",
+      "Guardar na geladeira sem lavar"
+    ],
+    "correctAnswer": "Secar bem as folhas antes de guardar",
+    "explanation": "A umidade faz a salada murchar. Secar as folhas antes de armazená-las ajuda a manter a sua frescura."
+  },
+  {
+    "id": "quiz-hacks-29",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para desodorizar um armário com cheiro ruim, é recomendável:",
+    "options": [
+      "Usar bicarbonato de sódio",
+      "Usar um purificador de ar",
+      "Usar sachês perfumados",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada opção ajuda a neutralizar odores desagradáveis no armário.  Experimente diferentes opções para encontrar a sua preferida."
+  },
+  {
+    "id": "quiz-hacks-30",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover ferrugem de uma panela de ferro?",
+    "options": [
+      "Usar vinagre e sal",
+      "Usar limão e bicarbonato",
+      "Usar uma esponja de aço",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Estas opções ajudam a remover ferrugem com diferentes graus de eficácia.  A combinação pode ser necessária para resultados ideais."
+  },
+  {
+    "id": "quiz-hacks-31",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que o queijo fique duro?",
+    "options": [
+      "Guardar em um recipiente fechado",
+      "Embrulhar em papel manteiga",
+      "Guardar na geladeira",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Cada opção ajuda a preservar a umidade do queijo, impedindo que ele fique duro."
+  },
+  {
+    "id": "quiz-hacks-32",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover tinta de parede de um tapete?",
+    "options": [
+      "Usar um removedor de tinta específico",
+      "Usar uma escova macia e água",
+      "Usar um pano úmido e detergente",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O método ideal depende do tipo de tinta e do material do tapete.  Teste em uma pequena área antes de aplicar em toda a mancha."
+  },
+  {
+    "id": "quiz-hacks-33",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que uma toalha de banho fique com cheiro ruim, é recomendável:",
+    "options": [
+      "Lavar regularmente",
+      "Secar completamente ao sol",
+      "Deixar secar bem antes de guardar",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A umidade e a falta de secagem adequada criam o ambiente perfeito para o desenvolvimento de bactérias e odores desagradáveis."
+  },
+  {
+    "id": "quiz-hacks-34",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como limpar a tela do celular sem riscá-la?",
+    "options": [
+      "Usar álcool isopropílico",
+      "Usar um pano de microfibra",
+      "Usar um spray limpador de telas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Usar um pano de microfibra",
+    "explanation": "O pano de microfibra é macio e não risca a tela.  Evite usar produtos abrasivos."
+  },
+  {
+    "id": "quiz-hacks-35",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover chiclete do tecido de veludo?",
+    "options": [
+      "Usar gelo",
+      "Usar manteiga de amendoim",
+      "Usar vinagre",
+      "Usar um removedor de manchas específico"
+    ],
+    "correctAnswer": "Usar gelo",
+    "explanation": "O gelo endurece o chiclete, facilitando a sua remoção sem danificar o delicado tecido de veludo."
+  },
+  {
+    "id": "quiz-hacks-36",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que as panelas de aço inox fiquem manchadas, é recomendável:",
+    "options": [
+      "Lavar com água morna e detergente neutro",
+      "Secar completamente após lavar",
+      "Evitar o uso de esponjas abrasivas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Essas ações ajudam a preservar o brilho e a beleza das panelas de aço inox."
+  },
+  {
+    "id": "quiz-hacks-37",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover manchas de vinho tinto de uma roupa branca?",
+    "options": [
+      "Usar água fria e sal",
+      "Usar água sanitária",
+      "Usar vinagre branco",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Usar água fria e sal",
+    "explanation": "O sal ajuda a absorver o vinho antes que ele penetre nas fibras do tecido. A água fria ajuda a remover a mancha sem fixá-la."
+  },
+  {
+    "id": "quiz-hacks-38",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como remover um anel preso no dedo?",
+    "options": [
+      "Forçar",
+      "Usar óleo vegetal",
+      "Cortar o anel",
+      "Esfriar o dedo"
+    ],
+    "correctAnswer": "Usar óleo vegetal",
+    "explanation": "O óleo lubrifica a pele e o anel, permitindo que ele deslize facilmente. Evite forçar, pois pode machucar o dedo. "
+  },
+  {
+    "id": "quiz-hacks-39",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual solução caseira ajuda a remover manchas de vinho tinto de um tecido de algodão?",
+    "options": [
+      "Água fria",
+      "Água quente com sabão",
+      "Vinagre branco",
+      "Bicarbonato de sódio"
+    ],
+    "correctAnswer": "Vinagre branco",
+    "explanation": "O vinagre ajuda a neutralizar as manchas de vinho.  A rapidez na aplicação é crucial para um melhor resultado. Curiosidade: sal também pode ajudar absorvendo o vinho antes que ele penetre o tecido."
+  },
+  {
+    "id": "quiz-hacks-40",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Para remover manchas de ferrugem de uma peça de roupa branca, qual solução é mais eficaz?",
+    "options": [
+      "Água sanitária",
+      "Suco de limão",
+      "Vinagre branco",
+      "Bicarbonato de sódio"
+    ],
+    "correctAnswer": "Suco de limão",
+    "explanation": "O ácido cítrico do limão ajuda a dissolver a ferrugem.  Aplique o suco diretamente na mancha e deixe ao sol.  Curiosidade:  a vitamina C em pó também pode ser eficiente."
+  },
+  {
+    "id": "quiz-hacks-41",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual desses métodos ajuda a remover cera de vela de um tapete?",
+    "options": [
+      "Ferro de passar roupa com papel absorvente",
+      "Água quente e sabão",
+      "Secador de cabelo",
+      "Aspirador de pó"
+    ],
+    "correctAnswer": "Ferro de passar roupa com papel absorvente",
+    "explanation": "O calor do ferro derrete a cera, que é absorvida pelo papel.  Curiosidade: use papel pardo ou papel toalha para melhores resultados."
+  },
+  {
+    "id": "quiz-hacks-42",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover tinta de parede à óleo de uma roupa de tecido delicado?",
+    "options": [
+      "Álcool isopropílico",
+      "Água e sabão",
+      "Removedor de esmalte",
+      "Pasta de dente"
+    ],
+    "correctAnswer": "Removedor de esmalte",
+    "explanation": "O removedor de esmalte é eficaz para dissolver a tinta à óleo. Teste em uma área escondida primeiro. Curiosidade: a acetona também pode funcionar mas requer bastante cuidado, por ser muito agressiva."
+  },
+  {
+    "id": "quiz-hacks-43",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para remover chiclete do cabelo, o que você pode usar?",
+    "options": [
+      "Água quente",
+      "Óleo vegetal",
+      "Gelo",
+      "Sabão"
+    ],
+    "correctAnswer": "Óleo vegetal",
+    "explanation": "O óleo amolece o chiclete, facilitando a remoção.  Curiosidade: manteiga de amendoim também funciona!"
+  },
+  {
+    "id": "quiz-hacks-44",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Qual a melhor maneira de remover manchas de suor de uma camisa branca?",
+    "options": [
+      "Água sanitária",
+      "Vinagre branco",
+      "Bicarbonato de sódio",
+      "Limpador multiuso"
+    ],
+    "correctAnswer": "Bicarbonato de sódio",
+    "explanation": "O bicarbonato de sódio ajuda a neutralizar odores e remover manchas de suor.  Curiosidade: misturá-lo com água e aplicar como pasta pode potencializar os resultados."
+  },
+  {
+    "id": "quiz-hacks-45",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover mofo de um livro antigo sem danificá-lo?",
+    "options": [
+      "Aspirador de pó",
+      "Escova macia e água com bicarbonato",
+      "Secador de cabelo",
+      "Álcool isopropílico"
+    ],
+    "correctAnswer": "Escova macia e água com bicarbonato",
+    "explanation": "A solução de bicarbonato ajuda a neutralizar o mofo.  A escova macia remove delicadamente os esporos.  Curiosidade:  se o mofo estiver muito espalhado, é melhor levar o livro para um profissional de restauração."
+  },
+  {
+    "id": "quiz-hacks-46",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para desodorizar um armário com cheiro ruim, o que você pode usar?",
+    "options": [
+      "Bicarbonato de sódio",
+      "Perfume",
+      "Saquinhos de chá usados",
+      "Amaciante de roupas"
+    ],
+    "correctAnswer": "Bicarbonato de sódio",
+    "explanation": "O bicarbonato absorve odores.  Curiosidade: carvão ativado também é uma ótima opção!"
+  },
+  {
+    "id": "quiz-hacks-47",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover manchas de gordura de uma camisa de seda?",
+    "options": [
+      "Detergente neutro e água fria",
+      "Álcool isopropílico",
+      "Talco e depois lavagem delicada",
+      "Removedor de manchas comercial"
+    ],
+    "correctAnswer": "Talco e depois lavagem delicada",
+    "explanation": "O talco absorve a gordura antes de lavar. Lavagem delicada preserva a seda.  Curiosidade:  o amido de milho também pode funcionar como absorvente."
+  },
+  {
+    "id": "quiz-hacks-48",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que as roupas enruguem na mala de viagem?",
+    "options": [
+      "Dobrar as roupas",
+      "Enrolar as roupas",
+      "Usar sacos de plástico",
+      "Usar amaciante"
+    ],
+    "correctAnswer": "Enrolar as roupas",
+    "explanation": "Enrolar as roupas ocupa menos espaço e evita rugas. Curiosidade:  usar lenços de seda entre as peças também ajuda a evitar rugas."
+  },
+  {
+    "id": "quiz-hacks-49",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Para evitar que uma panela grude, o que você pode fazer?",
+    "options": [
+      "Untar com óleo",
+      "Usar fogo baixo",
+      "Usar panelas antiaderentes",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Todas as opções ajudam a evitar que a comida grude na panela. Curiosidade: aquecer a panela vazia antes de adicionar os ingredientes também ajuda."
+  },
+  {
+    "id": "quiz-hacks-50",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover mofo de roupas de algodão sem danificá-las?",
+    "options": [
+      "Água sanitária",
+      "Vinagre branco e água",
+      "Secador de cabelo",
+      "Limpeza a seco"
+    ],
+    "correctAnswer": "Vinagre branco e água",
+    "explanation": "O vinagre mata o mofo e desinfeta.  Teste em uma área escondida antes. Curiosidade:  deixar as roupas ao sol depois de lavadas também ajuda a eliminar os odores."
+  },
+  {
+    "id": "quiz-hacks-51",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como remover arranhões superficiais de móveis de madeira?",
+    "options": [
+      "Pasta de dente",
+      "Água e sabão",
+      "Removedor de manchas",
+      "Lixa fina"
+    ],
+    "correctAnswer": "Pasta de dente",
+    "explanation": "A pasta de dente pode preencher os arranhões superficialmente. Curiosidade:  a pasta deve ser branca e aplicada suavemente com um pano."
+  },
+  {
+    "id": "quiz-hacks-52",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Para evitar que o queijo fique duro, o que você pode fazer?",
+    "options": [
+      "Guardar em recipiente aberto",
+      "Guardar na geladeira em recipiente fechado",
+      "Guardar no congelador",
+      "Guardar em temperatura ambiente"
+    ],
+    "correctAnswer": "Guardar na geladeira em recipiente fechado",
+    "explanation": "Manter o queijo em um ambiente fechado e refrigerado preserva sua umidade. Curiosidade:  embalar o queijo em papel manteiga antes de armazená-lo também ajuda."
+  },
+  {
+    "id": "quiz-hacks-53",
+    "categoryId": "hacks",
+    "difficulty": "easy",
+    "question": "Como evitar que uma toalha de banho fique com cheiro ruim?",
+    "options": [
+      "Secar ao sol",
+      "Lavar com frequência",
+      "Usar amaciante",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Secar ao sol elimina bactérias e odores.  Lavar com frequência remove resíduos de sabonete e suor. Amaciante melhora o aroma. Curiosidade:  adicionar vinagre à lavagem ajuda a eliminar odores persistentes."
+  },
+  {
+    "id": "quiz-hacks-54",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como remover marcas de caneta esferográfica de um tecido de algodão?",
+    "options": [
+      "Álcool isopropílico",
+      "Pasta de dente",
+      "Removedor de esmalte",
+      "Vinagre branco"
+    ],
+    "correctAnswer": "Álcool isopropílico",
+    "explanation": "O álcool é eficaz para remover a tinta de caneta esferográfica. Teste em uma área escondida primeiro. Curiosidade:  use um pano limpo e aplique o álcool suavemente."
+  },
+  {
+    "id": "quiz-hacks-55",
+    "categoryId": "hacks",
+    "difficulty": "hard",
+    "question": "Como remover ferrugem de uma panela de ferro sem danificá-la?",
+    "options": [
+      "Água sanitária",
+      "Limão e sal",
+      "Vinagre e bicarbonato",
+      "Escova de aço"
+    ],
+    "correctAnswer": "Limão e sal",
+    "explanation": "O ácido cítrico do limão e a abrasividade do sal ajudam a remover a ferrugem.  Curiosidade:  deixe agir por algumas horas antes de esfregar."
+  },
+  {
+    "id": "quiz-hacks-56",
+    "categoryId": "hacks",
+    "difficulty": "medium",
+    "question": "Como limpar um microondas sujo de forma eficaz?",
+    "options": [
+      "Usar produtos químicos fortes",
+      "Limpar com água e sabão",
+      "Usar vinagre e água",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Usar vinagre e água",
+    "explanation": "O vinagre e a água removem a sujeira e limpam o microondas. Curiosidade: aquecer a solução no microondas por alguns minutos facilita a limpeza."
+  }
+]

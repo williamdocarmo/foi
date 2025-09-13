@@ -1,0 +1,408 @@
+[
+  {
+    "id": "quiz-psicologia-1",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual ramo da psicologia se concentra no estudo do comportamento animal?",
+    "options": [
+      "Psicologia Social",
+      "Psicologia da Personalidade",
+      "Psicologia Comparativa",
+      "Psicologia Clínica"
+    ],
+    "correctAnswer": "Psicologia Comparativa",
+    "explanation": "A psicologia comparativa estuda o comportamento animal para entender melhor a evolução e os mecanismos do comportamento. Curiosidade:  Konrad Lorenz é considerado um dos pais da etologia, um ramo da psicologia comparativa."
+  },
+  {
+    "id": "quiz-psicologia-2",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "O que significa o termo 'cognição'?",
+    "options": [
+      "Emoções e sentimentos",
+      "Processos mentais",
+      "Comportamento observável",
+      "Aprendizagem por condicionamento"
+    ],
+    "correctAnswer": "Processos mentais",
+    "explanation": "Cognição engloba processos mentais como pensamento, memória, linguagem e resolução de problemas. Curiosidade: A psicologia cognitiva revolucionou a forma como entendemos a mente humana no século XX."
+  },
+  {
+    "id": "quiz-psicologia-3",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual teoria da personalidade enfatiza a importância do inconsciente?",
+    "options": [
+      "Teoria dos Traços",
+      "Teoria Humanista",
+      "Teoria Psicanalítica",
+      "Teoria Cognitivo-Comportamental"
+    ],
+    "correctAnswer": "Teoria Psicanalítica",
+    "explanation": "Sigmund Freud e a psicanálise destacam a influência de processos inconscientes no comportamento e na personalidade. Curiosidade: O conceito de 'complexo de Édipo' é central na teoria freudiana."
+  },
+  {
+    "id": "quiz-psicologia-4",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual o conceito de 'viés de confirmação'?",
+    "options": [
+      "Tendência a ignorar evidências",
+      "Tendência a buscar informações que confirmem crenças pré-existentes",
+      "Tendência a superestimar a própria capacidade",
+      "Tendência a julgar os outros com base em estereótipos"
+    ],
+    "correctAnswer": "Tendência a buscar informações que confirmem crenças pré-existentes",
+    "explanation": "O viés de confirmação afeta nossa busca e interpretação de informações, reforçando nossas crenças, mesmo que sejam incorretas. Curiosidade: Este viés é um obstáculo significativo para o pensamento crítico."
+  },
+  {
+    "id": "quiz-psicologia-5",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual neurotransmissor está fortemente associado à sensação de recompensa e prazer?",
+    "options": [
+      "Serotonina",
+      "Dopamina",
+      "Noradrenalina",
+      "GABA"
+    ],
+    "correctAnswer": "Dopamina",
+    "explanation": "A dopamina desempenha um papel crucial no sistema de recompensa do cérebro. Curiosidade:  Distúrbios no sistema dopaminérgico estão ligados a condições como a doença de Parkinson e a esquizofrenia."
+  },
+  {
+    "id": "quiz-psicologia-6",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "O que é a heuristica da disponibilidade?",
+    "options": [
+      "Tomar decisões baseado em informações facilmente acessíveis na memória",
+      "Tomar decisões baseadas em emoções",
+      "Tomar decisões baseadas em dados estatísticos",
+      "Tomar decisões baseadas em julgamentos morais"
+    ],
+    "correctAnswer": "Tomar decisões baseado em informações facilmente acessíveis na memória",
+    "explanation": "A heurística da disponibilidade leva a erros de julgamento, pois a facilidade de recuperação de informações não indica sua frequência real. Curiosidade:  Eventos vívidos ou recentes tendem a ser superestimados com essa heurística."
+  },
+  {
+    "id": "quiz-psicologia-7",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Quem é considerado o pai da psicologia?",
+    "options": [
+      "Sigmund Freud",
+      "Wilhelm Wundt",
+      "Carl Jung",
+      "B.F. Skinner"
+    ],
+    "correctAnswer": "Wilhelm Wundt",
+    "explanation": "Wilhelm Wundt estabeleceu o primeiro laboratório de psicologia experimental em 1879, marcando o início da psicologia como ciência. Curiosidade: Wundt utilizava a introspecção como método principal de pesquisa."
+  },
+  {
+    "id": "quiz-psicologia-8",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual abordagem psicológica enfatiza o livre-arbítrio e o potencial humano para o crescimento?",
+    "options": [
+      "Psicanálise",
+      "Behaviorismo",
+      "Cognitivismo",
+      "Humanismo"
+    ],
+    "correctAnswer": "Humanismo",
+    "explanation": "O humanismo, com figuras como Carl Rogers e Abraham Maslow, foca na experiência subjetiva e na capacidade de auto-realização. Curiosidade: A hierarquia das necessidades de Maslow é um conceito fundamental do humanismo."
+  },
+  {
+    "id": "quiz-psicologia-9",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre amnésia retrógrada e amnésia anterógrada?",
+    "options": [
+      "Retrógrada: perda de memórias futuras; Anterógrada: perda de memórias passadas",
+      "Retrógrada: perda de memórias passadas; Anterógrada: perda de memórias futuras",
+      "Ambas afetam memórias de longo prazo igualmente",
+      "Não há diferença, são sinônimos"
+    ],
+    "correctAnswer": "Retrógrada: perda de memórias passadas; Anterógrada: perda de memórias futuras",
+    "explanation": "A amnésia retrógrada afeta memórias antes do evento traumático, enquanto a anterógrada afeta a formação de novas memórias após o evento. Curiosidade:  A amnésia é frequentemente retratada de forma imprecisa em filmes e séries de TV."
+  },
+  {
+    "id": "quiz-psicologia-10",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual desses é um exemplo de reforço negativo?",
+    "options": [
+      "Dar um doce a uma criança por bom comportamento",
+      "Retirar um brinquedo de uma criança por mau comportamento",
+      "Dar um elogio a um funcionário pelo bom trabalho",
+      "Retirar uma tarefa chata de um funcionário por bom desempenho"
+    ],
+    "correctAnswer": "Retirar uma tarefa chata de um funcionário por bom desempenho",
+    "explanation": "Reforço negativo envolve a remoção de um estímulo aversivo para aumentar a probabilidade de um comportamento. Curiosidade:  Reforço negativo não é punição; aumenta a probabilidade de um comportamento."
+  },
+  {
+    "id": "quiz-psicologia-11",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é o efeito espectador?",
+    "options": [
+      "Tendência de prestar mais atenção em eventos importantes",
+      "Tendência de ignorar eventos irrelevantes",
+      "Tendência a ajudar menos quando outras pessoas estão presentes",
+      "Tendência a se envolver mais em eventos públicos"
+    ],
+    "correctAnswer": "Tendência a ajudar menos quando outras pessoas estão presentes",
+    "explanation": "O efeito espectador demonstra a difusão de responsabilidade em situações de emergência. Curiosidade:  O caso Kitty Genovese foi crucial para a pesquisa sobre o efeito espectador."
+  },
+  {
+    "id": "quiz-psicologia-12",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual sensação é PRIMORDIALMENTE associada à amígdala?",
+    "options": [
+      "Felicidade",
+      "Medo",
+      "Tristeza",
+      "Surpresa"
+    ],
+    "correctAnswer": "Medo",
+    "explanation": "A amígdala é uma estrutura cerebral chave no processamento de emoções, especialmente medo e ansiedade. Curiosidade: Lesões na amígdala podem levar à incapacidade de reconhecer expressões faciais de medo."
+  },
+  {
+    "id": "quiz-psicologia-13",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O efeito placebo demonstra a influência de qual fator na saúde?",
+    "options": [
+      "Genética",
+      "Nutrição",
+      "Expectativas",
+      "Medicamentos"
+    ],
+    "correctAnswer": "Expectativas",
+    "explanation": "O efeito placebo mostra como crenças e expectativas podem influenciar significativamente a experiência de sintomas e a resposta ao tratamento. Curiosidade:  Mesmo pílulas de açúcar podem produzir efeitos positivos em alguns pacientes."
+  },
+  {
+    "id": "quiz-psicologia-14",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual a principal crítica ao modelo de cinco fatores da personalidade (Big Five)?",
+    "options": [
+      "Falta de evidências empíricas",
+      "Excessiva simplicidade",
+      "Dificuldade em prever comportamentos específicos",
+      "Superposição excessiva com outros modelos"
+    ],
+    "correctAnswer": "Dificuldade em prever comportamentos específicos",
+    "explanation": "Embora o modelo Big Five seja amplamente aceito, ele tem dificuldades em prever comportamentos específicos em situações particulares.  Curiosidade:  Pesquisas atuais exploram a interação entre os traços de personalidade e o contexto situacional."
+  },
+  {
+    "id": "quiz-psicologia-15",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual desses é um exemplo de condicionamento clássico?",
+    "options": [
+      "Dar uma guloseima ao cachorro por sentar",
+      "Retirar o brinquedo de uma criança por mau comportamento",
+      "Associar um som alto a um choque leve",
+      "Ignorar uma criança para que ela pare de fazer birra"
+    ],
+    "correctAnswer": "Associar um som alto a um choque leve",
+    "explanation": "Essa opção demonstra o processo de aprendizagem por associação, onde um estímulo neutro (som) se torna condicionado após ser associado a um estímulo incondicionado (choque). Curiosidade:  Ivan Pavlov é famoso por seus experimentos com cães e condicionamento clássico."
+  },
+  {
+    "id": "quiz-psicologia-16",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "A teoria da atribuição se concentra em:",
+    "options": [
+      "Como as pessoas formam impressões iniciais",
+      "Como as pessoas explicam as causas do comportamento",
+      "Como as pessoas desenvolvem relacionamentos",
+      "Como as pessoas gerenciam suas emoções"
+    ],
+    "correctAnswer": "Como as pessoas explicam as causas do comportamento",
+    "explanation": "A teoria da atribuição investiga como atribuímos causas internas (disposição) ou externas (situacionais) aos eventos e comportamentos. Curiosidade:  O erro fundamental de atribuição é a tendência a superestimar as causas internas no comportamento dos outros."
+  },
+  {
+    "id": "quiz-psicologia-17",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual conceito explica a tendência de indivíduos em grupos a se esforçarem menos do que individualmente?",
+    "options": [
+      "Facilitação social",
+      "Polarização de grupo",
+      "Pensamento de grupo",
+      "Preguiça social"
+    ],
+    "correctAnswer": "Preguiça social",
+    "explanation": "A preguiça social (social loafing) ocorre quando a responsabilidade individual é diluída em um grupo. Curiosidade:  Essa tendência pode ser reduzida com metas claras, responsabilidade individual e coesão grupal."
+  },
+  {
+    "id": "quiz-psicologia-18",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual o nome do fenômeno psicológico onde a familiaridade aumenta a afinidade?",
+    "options": [
+      "Efeito Halo",
+      "Efeito Pigmaleão",
+      "Efeito de mera exposição",
+      "Dissonância cognitiva"
+    ],
+    "correctAnswer": "Efeito de mera exposição",
+    "explanation": "Simplesmente estar exposto repetidamente a algo ou alguém tende a aumentar a sua apreciação. Curiosidade:  É usado em marketing e publicidade para gerar familiaridade e simpatia pelos produtos."
+  },
+  {
+    "id": "quiz-psicologia-19",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "A terapia cognitivo-comportamental (TCC) foca principalmente em:",
+    "options": [
+      "Explorar o inconsciente",
+      "Modificar padrões de pensamento e comportamento",
+      "Interpretar sonhos",
+      "Reforçar comportamentos positivos"
+    ],
+    "correctAnswer": "Modificar padrões de pensamento e comportamento",
+    "explanation": "A TCC é uma terapia prática que busca identificar e alterar padrões de pensamento e comportamento disfuncionais. Curiosidade:  É uma das abordagens terapêuticas mais eficazes para uma ampla gama de transtornos."
+  },
+  {
+    "id": "quiz-psicologia-20",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual destes está mais fortemente associado à teoria da mente?",
+    "options": [
+      "Memória de longo prazo",
+      "Inteligência fluida",
+      "Empatia",
+      "Raciocínio dedutivo"
+    ],
+    "correctAnswer": "Empatia",
+    "explanation": "A teoria da mente é a capacidade de compreender que os outros têm crenças, desejos e intenções diferentes das nossas, e a empatia está intimamente ligada a essa compreensão. Curiosidade:  Problemas com a teoria da mente são frequentemente observados em autismo."
+  },
+  {
+    "id": "quiz-psicologia-21",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual estágio do desenvolvimento psicossocial de Erikson envolve a formação da identidade?",
+    "options": [
+      "Confiança vs. Desconfiança",
+      "Autonomia vs. Vergonha e dúvida",
+      "Iniciativa vs. Culpa",
+      "Identidade vs. Confusão de papéis"
+    ],
+    "correctAnswer": "Identidade vs. Confusão de papéis",
+    "explanation": "Este estágio, tipicamente na adolescência, envolve a exploração de diferentes papéis e a formação de um senso de identidade coerente. Curiosidade:  A crise de identidade pode se estender para a vida adulta jovem."
+  },
+  {
+    "id": "quiz-psicologia-22",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual neurotransmissor está frequentemente desregulado em indivíduos com depressão?",
+    "options": [
+      "Dopamina",
+      "Serotonina",
+      "Noradrenalina",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A depressão é complexa e frequentemente envolve desequilíbrios em múltiplos neurotransmissores. Curiosidade:  Os antidepressivos atuam em diferentes neurotransmissores para aliviar os sintomas."
+  },
+  {
+    "id": "quiz-psicologia-23",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual conceito descreve a tendência a lembrar melhor informações apresentadas no início e no fim de uma lista?",
+    "options": [
+      "Efeito de primazia",
+      "Efeito de recência",
+      "Efeito de posição serial",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O efeito de posição serial engloba tanto o efeito de primazia (lembrança do início) quanto o efeito de recência (lembrança do fim). Curiosidade:  O efeito de recência é mais suscetível a interferências."
+  },
+  {
+    "id": "quiz-psicologia-24",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "O que é um estímulo aversivo?",
+    "options": [
+      "Algo que causa prazer",
+      "Algo que é neutro",
+      "Algo que causa desconforto",
+      "Algo que é irrelevante"
+    ],
+    "correctAnswer": "Algo que causa desconforto",
+    "explanation": "Um estímulo aversivo é algo que um organismo procura evitar. Curiosidade:  É frequentemente usado no condicionamento operante para diminuir comportamentos indesejados."
+  },
+  {
+    "id": "quiz-psicologia-25",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "Qual teoria sugere que a inteligência é composta por múltiplas habilidades independentes?",
+    "options": [
+      "Teoria das inteligências múltiplas",
+      "Teoria da inteligência fluida e cristalizada",
+      "Teoria triárquica da inteligência",
+      "Teoria g"
+    ],
+    "correctAnswer": "Teoria das inteligências múltiplas",
+    "explanation": "A teoria das inteligências múltiplas de Howard Gardner propõe que a inteligência não é um único traço, mas sim um conjunto de habilidades distintas.  Curiosidade:  Inclui inteligências como linguística, lógico-matemática, espacial, musical, cinestésica, interpessoal, intrapessoal e naturalista."
+  },
+  {
+    "id": "quiz-psicologia-26",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "O fenômeno 'ilusão de controle' se refere a:",
+    "options": [
+      "A crença de que temos mais controle sobre eventos aleatórios do que realmente temos",
+      "A incapacidade de controlar impulsos",
+      "A tendência a atribuir sucesso a fatores internos e fracasso a fatores externos",
+      "A crença de que somos melhores do que realmente somos"
+    ],
+    "correctAnswer": "A crença de que temos mais controle sobre eventos aleatórios do que realmente temos",
+    "explanation": "Essa ilusão pode levar a decisões arriscadas e a superestimação das próprias habilidades. Curiosidade: É frequentemente observado em jogos de azar e em situações de incerteza."
+  },
+  {
+    "id": "quiz-psicologia-27",
+    "categoryId": "psicologia",
+    "difficulty": "easy",
+    "question": "Qual processo mental envolve a organização e interpretação de informações sensoriais?",
+    "options": [
+      "Sensação",
+      "Percepção",
+      "Atenção",
+      "Memória"
+    ],
+    "correctAnswer": "Percepção",
+    "explanation": "A percepção transforma a informação sensorial bruta em experiências significativas e compreensíveis.  Curiosidade:  A percepção é influenciada por fatores como experiência, expectativas e contexto."
+  },
+  {
+    "id": "quiz-psicologia-28",
+    "categoryId": "psicologia",
+    "difficulty": "medium",
+    "question": "O que é a 'heuristica da representatividade'?",
+    "options": [
+      "Julgar a probabilidade de um evento baseado na sua semelhança com um protótipo",
+      "Fazer julgamentos baseados em informações facilmente acessíveis na memória",
+      "Buscar informações que confirmem nossas crenças preexistentes",
+      "Superestimar a probabilidade de eventos raros"
+    ],
+    "correctAnswer": "Julgar a probabilidade de um evento baseado na sua semelhança com um protótipo",
+    "explanation": "Usamos essa heurística para fazer julgamentos rápidos, mas ela pode levar a erros de julgamento, pois não leva em conta as probabilidades base. Curiosidade:  É frequentemente usado para julgar pessoas com base em estereótipos."
+  },
+  {
+    "id": "quiz-psicologia-29",
+    "categoryId": "psicologia",
+    "difficulty": "hard",
+    "question": "Qual abordagem psicológica enfatiza a influência dos fatores biológicos no comportamento?",
+    "options": [
+      "Psicanálise",
+      "Behaviorismo",
+      "Psicologia Humanista",
+      "Psicobiologia"
+    ],
+    "correctAnswer": "Psicobiologia",
+    "explanation": "A psicobiologia investiga a relação entre os processos biológicos (genéticos, neurológicos, hormonais) e o comportamento. Curiosidade:  Usa técnicas como neuroimagem para estudar a atividade cerebral."
+  }
+]

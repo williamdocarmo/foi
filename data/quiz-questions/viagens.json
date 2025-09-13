@@ -1,0 +1,912 @@
+[
+  {
+    "id": "quiz-viagens-1",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o principal meio de transporte utilizado em Veneza, Itália?",
+    "options": [
+      "Carro",
+      "Trem",
+      "Vaporetto",
+      "Avião"
+    ],
+    "correctAnswer": "Vaporetto",
+    "explanation": "O vaporetto é uma embarcação semelhante a um ônibus que percorre os canais de Veneza.  Curiosidade: Veneza tem mais de 150 canais!"
+  },
+  {
+    "id": "quiz-viagens-2",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual país abriga a cidade perdida de Machu Picchu?",
+    "options": [
+      "México",
+      "Peru",
+      "Colômbia",
+      "Brasil"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "Machu Picchu é uma cidade Inca localizada nos Andes peruanos. Curiosidade:  Foi redescoberta em 1911 pelo historiador Hiram Bingham."
+  },
+  {
+    "id": "quiz-viagens-3",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a maior cachoeira do mundo em volume de água?",
+    "options": [
+      "Cataratas do Niágara",
+      "Cataratas Vitória",
+      "Cataratas de Iguazu",
+      "Cachoeira do Salto Angel"
+    ],
+    "correctAnswer": "Cachoeira do Salto Angel",
+    "explanation": "Embora não seja a mais alta, o Salto Angel na Venezuela detém o recorde de maior volume de água. Curiosidade: A queda d'água tem quase 1 km de altura!"
+  },
+  {
+    "id": "quiz-viagens-4",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual destes destinos é conhecido por suas geleiras azuis?",
+    "options": [
+      "Islândia",
+      "Egito",
+      "Tailândia",
+      "Austrália"
+    ],
+    "correctAnswer": "Islândia",
+    "explanation": "A Islândia possui diversas cavernas de gelo com um tom azul intenso, devido à compressão e filtragem da luz. Curiosidade:  Algumas dessas cavernas são temporárias, existindo apenas no inverno."
+  },
+  {
+    "id": "quiz-viagens-5",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a rota de trem mais alta do mundo?",
+    "options": [
+      "Transiberiana",
+      "Ferrovia do Himalaia",
+      "Linha de Ferro Qingzang",
+      "Andean Explorer"
+    ],
+    "correctAnswer": "Linha de Ferro Qingzang",
+    "explanation": "A Linha de Ferro Qingzang, na China, atravessa o planalto tibetano, alcançando altitudes superiores a 5.000 metros. Curiosidade:  A construção dessa ferrovia foi um desafio de engenharia monumental."
+  },
+  {
+    "id": "quiz-viagens-6",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Em que continente fica a Grande Muralha da China?",
+    "options": [
+      "Europa",
+      "África",
+      "América do Sul",
+      "Ásia"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Grande Muralha da China é uma das construções mais famosas da Ásia. Curiosidade:  Ela foi construída ao longo de séculos por diferentes dinastias."
+  },
+  {
+    "id": "quiz-viagens-7",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual o nome da rede de estradas romanas antigas?",
+    "options": [
+      "Via Appia",
+      "Autobahn",
+      "Silk Road",
+      "Via Imperii"
+    ],
+    "correctAnswer": "Via Imperii",
+    "explanation": "A Via Imperii é o nome coletivo para a rede de estradas construídas pelo Império Romano. Curiosidade:  Essa rede de estradas facilitou a expansão e o comércio do império."
+  },
+  {
+    "id": "quiz-viagens-8",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual deserto é conhecido por suas dunas gigantescas em forma de crescente chamadas de 'barchans'?",
+    "options": [
+      "Saara",
+      "Atacama",
+      "Namíbia",
+      "Gobi"
+    ],
+    "correctAnswer": "Namíbia",
+    "explanation": "O Deserto da Namíbia, na África, é famoso por suas impressionantes dunas em forma de crescente. Curiosidade:  Algumas dessas dunas são as maiores do mundo."
+  },
+  {
+    "id": "quiz-viagens-9",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual oceano banha as costas do Brasil?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Atlântico",
+    "explanation": "O Brasil é banhado pelo Oceano Atlântico. Curiosidade:  O Brasil tem a maior costa marítima da América do Sul."
+  },
+  {
+    "id": "quiz-viagens-10",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual cidade é conhecida como a 'Cidade Eterna'?",
+    "options": [
+      "Atenas",
+      "Roma",
+      "Alexandria",
+      "Constantinopla"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é chamada de 'Cidade Eterna' devido à sua longa e rica história. Curiosidade: Roma tem mais de 2700 anos de história."
+  },
+  {
+    "id": "quiz-viagens-11",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual ilha é famosa por sua cultura de surf e vulcões?",
+    "options": [
+      "Ilha de Páscoa",
+      "Bali",
+      "Havaí",
+      "Jamaica"
+    ],
+    "correctAnswer": "Havaí",
+    "explanation": "O Havaí é conhecido por suas ondas perfeitas para surfe e seus vulcões ativos. Curiosidade: O Havaí é formado por uma cadeia de vulcões submarinos."
+  },
+  {
+    "id": "quiz-viagens-12",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Taj Mahal?",
+    "options": [
+      "Índia",
+      "Paquistão",
+      "Nepal",
+      "China"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Taj Mahal é um mausoléu de mármore localizado na Índia. Curiosidade: Foi construído no século XVII pelo imperador Mughal Shah Jahan."
+  },
+  {
+    "id": "quiz-viagens-13",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual destas cidades é considerada a capital mundial do jazz?",
+    "options": [
+      "Nova Iorque",
+      "Los Angeles",
+      "Chicago",
+      "Nova Orleans"
+    ],
+    "correctAnswer": "Nova Orleans",
+    "explanation": "Nova Orleans é historicamente reconhecida como a capital mundial do jazz. Curiosidade:  O jazz nasceu em Nova Orleans no final do século XIX."
+  },
+  {
+    "id": "quiz-viagens-14",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome do maior sistema de recifes de coral do mundo?",
+    "options": [
+      "Grande Barreira de Coral",
+      "Recifes Mesoamericanos",
+      "Recifes da Nova Caledônia",
+      "Recifes das Maldivas"
+    ],
+    "correctAnswer": "Grande Barreira de Coral",
+    "explanation": "A Grande Barreira de Coral está localizada na costa da Austrália e é visível do espaço. Curiosidade: É o maior sistema de recifes de coral do mundo, formado por milhares de recifes individuais."
+  },
+  {
+    "id": "quiz-viagens-15",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a capital da França?",
+    "options": [
+      "Berlim",
+      "Londres",
+      "Paris",
+      "Madri"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é a capital da França e um importante centro cultural. Curiosidade: A Torre Eiffel é um dos monumentos mais famosos de Paris."
+  },
+  {
+    "id": "quiz-viagens-16",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é conhecido pelas suas casas coloridas em Cinque Terre?",
+    "options": [
+      "Espanha",
+      "Itália",
+      "Portugal",
+      "Grécia"
+    ],
+    "correctAnswer": "Itália",
+    "explanation": "Cinque Terre é uma região da Itália com cinco vilas coloridas construídas nas encostas. Curiosidade: É um Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "quiz-viagens-17",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome da corrente marítima que influencia o clima do litoral oeste da América do Sul?",
+    "options": [
+      "Corrente do Golfo",
+      "Corrente de Humboldt",
+      "Corrente do Brasil",
+      "Corrente Kuro Shio"
+    ],
+    "correctAnswer": "Corrente de Humboldt",
+    "explanation": "A Corrente de Humboldt, também conhecida como Corrente Peruana, é uma corrente fria que afeta o clima do litoral oeste da América do Sul. Curiosidade:  Ela é responsável pela formação do deserto do Atacama."
+  },
+  {
+    "id": "quiz-viagens-18",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual destes países não faz fronteira com o Brasil?",
+    "options": [
+      "Colômbia",
+      "Uruguai",
+      "Argentina",
+      "Peru"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "O Peru não faz fronteira com o Brasil, mas com outros países da América do Sul. Curiosidade: O Brasil possui fronteiras terrestres com 10 países."
+  },
+  {
+    "id": "quiz-viagens-19",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual o maior deserto quente do mundo?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto da Arábia",
+      "Deserto de Gobi",
+      "Deserto de Atacama"
+    ],
+    "correctAnswer": "Deserto do Saara",
+    "explanation": "O Deserto do Saara abrange uma vasta área na África do Norte. Curiosidade: O Saara é quase do tamanho dos Estados Unidos."
+  },
+  {
+    "id": "quiz-viagens-20",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Veneza do Norte'?",
+    "options": [
+      "Amsterdã",
+      "Estocolmo",
+      "São Petersburgo",
+      "Bruxelas"
+    ],
+    "correctAnswer": "São Petersburgo",
+    "explanation": "São Petersburgo é apelidada de 'Veneza do Norte' devido aos seus numerosos canais e pontes. Curiosidade: São Petersburgo tem mais de 342 pontes."
+  },
+  {
+    "id": "quiz-viagens-21",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a montanha mais alta do mundo?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Everest",
+      "Lhotse"
+    ],
+    "correctAnswer": "Everest",
+    "explanation": "O Monte Everest está localizado na cordilheira do Himalaia. Curiosidade: A altura do Everest é de aproximadamente 8.848,86 metros."
+  },
+  {
+    "id": "quiz-viagens-22",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso pelo Grand Canyon?",
+    "options": [
+      "México",
+      "Canadá",
+      "Estados Unidos",
+      "Austrália"
+    ],
+    "correctAnswer": "Estados Unidos",
+    "explanation": "O Grand Canyon está localizado no estado do Arizona, nos EUA. Curiosidade: O Grand Canyon tem cerca de 446 km de comprimento."
+  },
+  {
+    "id": "quiz-viagens-23",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a maior ilha do mundo?",
+    "options": [
+      "Groenlândia",
+      "Nova Guiné",
+      "Bornéu",
+      "Madagáscar"
+    ],
+    "correctAnswer": "Groenlândia",
+    "explanation": "A Groenlândia é uma ilha autônoma da Dinamarca. Curiosidade: A maior parte da Groenlândia é coberta por uma vasta camada de gelo."
+  },
+  {
+    "id": "quiz-viagens-24",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o nome do rio mais longo do mundo?",
+    "options": [
+      "Amazonas",
+      "Nilo",
+      "Yangtzé",
+      "Mississipi"
+    ],
+    "correctAnswer": "Nilo",
+    "explanation": "O Rio Nilo atravessa vários países da África. Curiosidade: O Nilo é vital para a agricultura e economia do Egito."
+  },
+  {
+    "id": "quiz-viagens-25",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Em que continente se localiza o deserto do Atacama?",
+    "options": [
+      "Ásia",
+      "África",
+      "América do Sul",
+      "Antártida"
+    ],
+    "correctAnswer": "América do Sul",
+    "explanation": "O deserto do Atacama está localizado no Chile. Curiosidade: É considerado o deserto mais árido do mundo."
+  },
+  {
+    "id": "quiz-viagens-26",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual país possui o maior número de ilhas?",
+    "options": [
+      "Indonésia",
+      "Filipinas",
+      "Japão",
+      "Canadá"
+    ],
+    "correctAnswer": "Indonésia",
+    "explanation": "A Indonésia possui mais de 17.000 ilhas. Curiosidade:  A Indonésia é o maior arquipélago do mundo."
+  },
+  {
+    "id": "quiz-viagens-27",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a capital do Japão?",
+    "options": [
+      "Pequim",
+      "Seul",
+      "Tóquio",
+      "Singapura"
+    ],
+    "correctAnswer": "Tóquio",
+    "explanation": "Tóquio é uma das maiores cidades do mundo. Curiosidade: Tóquio é conhecida por sua cultura vibrante e tecnologia avançada."
+  },
+  {
+    "id": "quiz-viagens-28",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual cidade é conhecida como a capital mundial da moda?",
+    "options": [
+      "Nova Iorque",
+      "Milão",
+      "Paris",
+      "Londres"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris tem uma longa história de influência na indústria da moda. Curiosidade:  A Semana de Moda de Paris é um dos eventos mais importantes do calendário da moda."
+  },
+  {
+    "id": "quiz-viagens-29",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual país abriga a floresta amazônica?",
+    "options": [
+      "Brasil",
+      "Colômbia",
+      "Peru",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "A floresta amazônica se estende por vários países da América do Sul. Curiosidade: A Amazônia abriga uma biodiversidade incrivelmente rica."
+  },
+  {
+    "id": "quiz-viagens-30",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o nome da maior pirâmide do Egito?",
+    "options": [
+      "Pirâmide de Quéops",
+      "Pirâmide de Quéfren",
+      "Pirâmide de Miquerinos",
+      "Pirâmide Vermelha"
+    ],
+    "correctAnswer": "Pirâmide de Quéops",
+    "explanation": "A Pirâmide de Quéops é uma das Sete Maravilhas do Mundo Antigo. Curiosidade:  Foi construída há mais de 4.500 anos."
+  },
+  {
+    "id": "quiz-viagens-31",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso pelos seus canais e moinhos de vento?",
+    "options": [
+      "Holanda",
+      "Bélgica",
+      "Dinamarca",
+      "Noruega"
+    ],
+    "correctAnswer": "Holanda",
+    "explanation": "A Holanda é conhecida por sua paisagem única com canais e moinhos de vento. Curiosidade:  Os moinhos de vento eram tradicionalmente usados para bombear água e moer grãos."
+  },
+  {
+    "id": "quiz-viagens-32",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome da cordilheira montanhosa que se estende ao longo da costa oeste da América do Norte?",
+    "options": [
+      "Alpes",
+      "Himalaia",
+      "Andes",
+      "Montanhas Rochosas"
+    ],
+    "correctAnswer": "Montanhas Rochosas",
+    "explanation": "As Montanhas Rochosas são uma vasta cordilheira que atravessa a América do Norte. Curiosidade:  Abriga diversas espécies animais e vegetais únicas."
+  },
+  {
+    "id": "quiz-viagens-33",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual a capital da Inglaterra?",
+    "options": [
+      "Londres",
+      "Edimburgo",
+      "Cardiff",
+      "Belfast"
+    ],
+    "correctAnswer": "Londres",
+    "explanation": "Londres é uma cidade global e um importante centro financeiro. Curiosidade: Londres é uma cidade com mais de 2000 anos de história."
+  },
+  {
+    "id": "quiz-viagens-34",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual o nome da maior floresta tropical do mundo?",
+    "options": [
+      "Floresta Amazônica",
+      "Floresta do Congo",
+      "Floresta da Indonésia",
+      "Floresta da Austrália"
+    ],
+    "correctAnswer": "Floresta Amazônica",
+    "explanation": "A Floresta Amazônica cobre uma grande parte da América do Sul. Curiosidade: A Amazônia é uma das regiões mais biodiversas do planeta."
+  },
+  {
+    "id": "quiz-viagens-35",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
+    "options": [
+      "China",
+      "Coréia do Sul",
+      "Japão",
+      "Tailândia"
+    ],
+    "correctAnswer": "Japão",
+    "explanation": "Japão é conhecido por sua cultura rica e tecnologia avançada. Curiosidade: O Japão é um arquipélago formado por milhares de ilhas."
+  },
+  {
+    "id": "quiz-viagens-36",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o continente mais frio?",
+    "options": [
+      "África",
+      "Antártida",
+      "Ásia",
+      "Europa"
+    ],
+    "correctAnswer": "Antártida",
+    "explanation": "A Antártida é coberta por uma vasta camada de gelo. Curiosidade:  A Antártida é o lar de uma grande variedade de vida selvagem, adaptada ao clima extremo."
+  },
+  {
+    "id": "quiz-viagens-37",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a capital da Austrália?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correctAnswer": "Canberra",
+    "explanation": "Canberra é um importante centro político e cultural da Austrália. Curiosidade: Canberra foi planejada e construída como capital da Austrália."
+  },
+  {
+    "id": "quiz-viagens-38",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o nome do maior oceano do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico cobre mais da metade da superfície da Terra. Curiosidade:  O Oceano Pacífico contém a Fossa das Marianas, o ponto mais profundo dos oceanos."
+  },
+  {
+    "id": "quiz-viagens-39",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso pela sua Grande Muralha?",
+    "options": [
+      "Índia",
+      "China",
+      "Egito",
+      "Grécia"
+    ],
+    "correctAnswer": "China",
+    "explanation": "A Grande Muralha da China é uma das maravilhas do mundo. Curiosidade:  Foi construída ao longo de séculos por diferentes dinastias."
+  },
+  {
+    "id": "quiz-viagens-40",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome do deserto mais frio do mundo?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto de Gobi",
+      "Deserto da Antártida",
+      "Deserto do Atacama"
+    ],
+    "correctAnswer": "Deserto da Antártida",
+    "explanation": "O Deserto da Antártida é o maior deserto do mundo. Curiosidade: Apesar do gelo, ele é classificado como deserto por sua baixa precipitação."
+  },
+  {
+    "id": "quiz-viagens-41",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o continente mais extenso?",
+    "options": [
+      "Ásia",
+      "África",
+      "América do Norte",
+      "Antártica"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Ásia é o maior continente em área terrestre. Uma curiosidade é que a Ásia abriga o Monte Everest, o ponto mais alto da Terra."
+  },
+  {
+    "id": "quiz-viagens-42",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual país abriga as Cataratas do Iguaçu?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Paraguai",
+      "Todos os três"
+    ],
+    "correctAnswer": "Todos os três",
+    "explanation": "As Cataratas do Iguaçu ficam na fronteira entre o Brasil, Argentina e Paraguai. Uma curiosidade é que existem mais de 275 quedas d'água individuais no conjunto."
+  },
+  {
+    "id": "quiz-viagens-43",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual cidade é conhecida como a 'Capital Mundial do Cinema'?",
+    "options": [
+      "Nova Iorque",
+      "Paris",
+      "Los Angeles",
+      "Roma"
+    ],
+    "correctAnswer": "Los Angeles",
+    "explanation": "Hollywood, em Los Angeles, é o lar de muitos estúdios de cinema e é sinônimo da indústria cinematográfica. Uma curiosidade é que o Oscar é o prêmio mais prestigiado da indústria cinematográfica."
+  },
+  {
+    "id": "quiz-viagens-44",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um cruzeiro e um tour?",
+    "options": [
+      "Cruzeiros são mais baratos",
+      "Tours são mais longos",
+      "Cruzeiros são viagens marítimas, enquanto tours podem ser terrestres ou marítimos",
+      "Não há diferença"
+    ],
+    "correctAnswer": "Cruzeiros são viagens marítimas, enquanto tours podem ser terrestres ou marítimos",
+    "explanation": "Cruzeiros são viagens em navios, enquanto tours podem envolver diferentes meios de transporte e itinerários variados. Uma curiosidade é que cruzeiros costumam incluir refeições e entretenimento a bordo."
+  },
+  {
+    "id": "quiz-viagens-45",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre backpacking e turismo de luxo?",
+    "options": [
+      "Orçamento",
+      "Duração da viagem",
+      "Destino",
+      "Meio de transporte"
+    ],
+    "correctAnswer": "Orçamento",
+    "explanation": "Backpacking enfatiza viagens econômicas, enquanto o turismo de luxo foca em experiências de alto padrão e conforto. Uma curiosidade é que muitos mochileiros (backpackers) priorizam experiências culturais autênticas."
+  },
+  {
+    "id": "quiz-viagens-46",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é conhecido por seus numerosos castelos medievais?",
+    "options": [
+      "Itália",
+      "França",
+      "Inglaterra",
+      "Alemanha"
+    ],
+    "correctAnswer": "Alemanha",
+    "explanation": "A Alemanha possui inúmeros castelos medievais bem preservados, muitos deles abertos ao público. Uma curiosidade é que o Castelo de Neuschwanstein inspirou o Castelo da Bela Adormecida da Disney."
+  },
+  {
+    "id": "quiz-viagens-47",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual fenômeno geológico causa a formação de fiordes?",
+    "options": [
+      "Vulcanismo",
+      "Terremotos",
+      "Glaciação",
+      "Erosão eólica"
+    ],
+    "correctAnswer": "Glaciação",
+    "explanation": "Fiordes são vales profundos e estreitos, esculpidos por geleiras, inundados pelo mar. Uma curiosidade é que os fiordes mais famosos estão localizados na Noruega."
+  },
+  {
+    "id": "quiz-viagens-48",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o nome do vento quente e seco que afeta o deserto do Saara?",
+    "options": [
+      "Monção",
+      "Harmattan",
+      "Pampero",
+      "Mistral"
+    ],
+    "correctAnswer": "Harmattan",
+    "explanation": "O Harmattan é um vento seco e poeirento que sopra do deserto do Saara para o sul. Uma curiosidade é que ele pode causar problemas respiratórios e reduzir a visibilidade."
+  },
+  {
+    "id": "quiz-viagens-49",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre um mapa topográfico e um mapa político?",
+    "options": [
+      "Escala",
+      "Cores",
+      "Informações apresentadas",
+      "Projeção cartográfica"
+    ],
+    "correctAnswer": "Informações apresentadas",
+    "explanation": "Mapas topográficos mostram o relevo do terreno, enquanto mapas políticos mostram fronteiras e divisões políticas.  Uma curiosidade é que alguns mapas combinam elementos topográficos e políticos."
+  },
+  {
+    "id": "quiz-viagens-50",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o símbolo da paz mundial?",
+    "options": [
+      "Pomba branca",
+      "Bandeira branca",
+      "Mão aberta",
+      "Coração"
+    ],
+    "correctAnswer": "Pomba branca",
+    "explanation": "A pomba branca é um símbolo universalmente reconhecido como símbolo de paz mundial, frequentemente associada à não-violência e ao pacifismo. Uma curiosidade é que este símbolo tornou-se popular após a Segunda Guerra Mundial."
+  },
+  {
+    "id": "quiz-viagens-51",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pelas pirâmides de Gizé?",
+    "options": [
+      "Peru",
+      "México",
+      "Egito",
+      "Iraque"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "As Pirâmides de Gizé são uma das Sete Maravilhas do Mundo Antigo e um importante sítio arqueológico do Egito. Uma curiosidade é que a Grande Pirâmide de Quéops foi a estrutura mais alta do mundo por mais de 3800 anos."
+  },
+  {
+    "id": "quiz-viagens-52",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal preocupação ambiental em viagens aéreas?",
+    "options": [
+      "Poluição sonora",
+      "Poluição do solo",
+      "Poluição da água",
+      "Emissão de gases de efeito estufa"
+    ],
+    "correctAnswer": "Emissão de gases de efeito estufa",
+    "explanation": "A aviação é uma grande fonte de emissões de gases de efeito estufa que contribuem para as mudanças climáticas. Uma curiosidade é que existem iniciativas para desenvolver combustíveis sustentáveis para a aviação."
+  },
+  {
+    "id": "quiz-viagens-53",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual destes itens é crucial para viajar para muitos países?",
+    "options": [
+      "Câmera",
+      "Celular",
+      "Passaporte",
+      "Livro"
+    ],
+    "correctAnswer": "Passaporte",
+    "explanation": "O passaporte é um documento de viagem essencial para atravessar fronteiras internacionais. Uma curiosidade é que a validade do passaporte precisa ser verificada antes de qualquer viagem internacional."
+  },
+  {
+    "id": "quiz-viagens-54",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual conceito de turismo busca minimizar o impacto ambiental e social?",
+    "options": [
+      "Ecoturismo",
+      "Turismo de massa",
+      "Turismo de aventura",
+      "Turismo cultural"
+    ],
+    "correctAnswer": "Ecoturismo",
+    "explanation": "O ecoturismo foca na conservação ambiental e no desenvolvimento sustentável das comunidades locais. Uma curiosidade é que o ecoturismo pode envolver atividades como observação de pássaros e trilhas em áreas protegidas."
+  },
+  {
+    "id": "quiz-viagens-55",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o nome do fenômeno climático que ocorre anualmente na Índia?",
+    "options": [
+      "El Niño",
+      "La Niña",
+      "Monção",
+      "Tornado"
+    ],
+    "correctAnswer": "Monção",
+    "explanation": "As monções são ventos sazonais que trazem chuvas intensas para a Índia e outras regiões da Ásia. Uma curiosidade é que as monções são essenciais para a agricultura na região."
+  },
+  {
+    "id": "quiz-viagens-56",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o nome da agência espacial norte-americana?",
+    "options": [
+      "ESA",
+      "CNSA",
+      "ISRO",
+      "NASA"
+    ],
+    "correctAnswer": "NASA",
+    "explanation": "NASA (National Aeronautics and Space Administration) é a principal agência espacial dos Estados Unidos. Uma curiosidade é que a NASA foi responsável pelo pouso do homem na Lua."
+  },
+  {
+    "id": "quiz-viagens-57",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual tipo de seguro é recomendado para viajantes internacionais?",
+    "options": [
+      "Seguro de carro",
+      "Seguro de vida",
+      "Seguro de viagem",
+      "Seguro residencial"
+    ],
+    "correctAnswer": "Seguro de viagem",
+    "explanation": "O seguro de viagem cobre imprevistos como atrasos de voos, perda de bagagem e despesas médicas. Uma curiosidade é que a cobertura do seguro varia conforme o plano escolhido."
+  },
+  {
+    "id": "quiz-viagens-58",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a importância de pesquisar um destino antes de viajar?",
+    "options": [
+      "Evitar surpresas desagradáveis",
+      "Economizar dinheiro",
+      "Aproveitar melhor a viagem",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A pesquisa prévia ajuda a evitar problemas, economizar recursos e a ter uma viagem mais satisfatória. Uma curiosidade é que conhecer a cultura local enriquecerá a sua experiência."
+  },
+  {
+    "id": "quiz-viagens-59",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o impacto do turismo de massa em destinos populares?",
+    "options": [
+      "Aumento da economia local",
+      "Degradação ambiental",
+      "Sobrecarga de infraestrutura",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "O turismo de massa pode trazer benefícios econômicos, mas também sobrecarregar a infraestrutura, degradar o meio ambiente e afetar a cultura local. Uma curiosidade é que o turismo sustentável busca minimizar esses impactos negativos."
+  },
+  {
+    "id": "quiz-viagens-60",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual é o principal meio de transporte em Amsterdã?",
+    "options": [
+      "Carro",
+      "Trem",
+      "Bicicleta",
+      "Avião"
+    ],
+    "correctAnswer": "Bicicleta",
+    "explanation": "Amsterdã é conhecida por sua infraestrutura cicloviária e o uso extensivo de bicicletas como meio de transporte.  Uma curiosidade é que existem mais bicicletas do que habitantes em Amsterdã."
+  },
+  {
+    "id": "quiz-viagens-61",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual continente abriga a maior parte da floresta Amazônica?",
+    "options": [
+      "África",
+      "Ásia",
+      "América do Sul",
+      "América do Norte"
+    ],
+    "correctAnswer": "América do Sul",
+    "explanation": "A maior parte da floresta amazônica está localizada na América do Sul, abrangendo nove países. Uma curiosidade é que a Amazônia é a maior floresta tropical do mundo."
+  },
+  {
+    "id": "quiz-viagens-62",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a importância de embalar corretamente a sua bagagem?",
+    "options": [
+      "Evitar danos aos seus pertences",
+      "Facilitar a passagem pela alfândega",
+      "Economizar espaço na mala",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Embalar a bagagem adequadamente protege os pertences, facilita os processos de segurança e otimiza o espaço disponível. Uma curiosidade é que existem técnicas de embalagem para otimizar o espaço na mala."
+  },
+  {
+    "id": "quiz-viagens-63",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual tipo de alojamento geralmente oferece mais privacidade?",
+    "options": [
+      "Hostel",
+      "Hotel",
+      "Airbnb",
+      "Camping"
+    ],
+    "correctAnswer": "Airbnb",
+    "explanation": "Airbnbs geralmente oferecem mais privacidade que hotéis e hostels. Uma curiosidade é que o Airbnb conecta viajantes com pessoas que alugam seus imóveis."
+  },
+  {
+    "id": "quiz-viagens-64",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'slow travel'?",
+    "options": [
+      "Viajar rápido e eficientemente",
+      "Viajar para vários lugares em pouco tempo",
+      "Viajar devagar, apreciando cada momento e local",
+      "Viajar apenas em transportes lentos"
+    ],
+    "correctAnswer": "Viajar devagar, apreciando cada momento e local",
+    "explanation": "Slow travel foca na experiência e imersão, ao invés de simplesmente ver muitos lugares. Uma curiosidade é que este tipo de viagem promove o turismo sustentável."
+  },
+  {
+    "id": "quiz-viagens-65",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o maior país do mundo em área?",
+    "options": [
+      "Rússia",
+      "China",
+      "Estados Unidos",
+      "Brasil"
+    ],
+    "correctAnswer": "Rússia",
+    "explanation": "A Rússia possui a maior área territorial de todos os países do mundo. Uma curiosidade é que a Rússia abrange nove fusos horários."
+  }
+]

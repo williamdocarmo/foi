@@ -1,0 +1,110 @@
+[
+  {
+    "id": "relacionamentos-1",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Toque Leve",
+    "hook": "Incrível: o toque...",
+    "content": "Um leve toque no braço durante uma conversa pode aumentar significativamente a conexão e a empatia entre duas pessoas.  Estudos demonstram que esse contato físico sutil libera oxitocina, o hormônio do afeto, criando uma atmosfera mais acolhedora e propícia à intimidade.  A próxima vez que conversar com alguém importante, experimente!",
+    "funFact": "Até mesmo um toque breve pode aumentar em 40% a sensação de proximidade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-2",
+    "categoryId": "relacionamentos",
+    "title": "A Mágica do Olhar Compartilhado",
+    "hook": "Você sabia que...",
+    "content": "Um olhar prolongado e significativo, sem palavras, pode comunicar mais do que mil frases.  A intensidade e a duração do contato visual revelam admiração, atração ou até mesmo desconforto.  Observe atentamente os olhares durante suas próximas interações; você ficará surpreso com o que pode descobrir!",
+    "funFact": "O olhar pode revelar mais sobre as verdadeiras emoções do que palavras.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-3",
+    "categoryId": "relacionamentos",
+    "title": "O Poder do Silêncio Compartilhado",
+    "hook": "Você sabia que o silêncio...",
+    "content": " ...pode ser tão significativo quanto as palavras?  Em alguns relacionamentos, o silêncio compartilhado representa conforto, compreensão e confiança mútua.  É um espaço onde a presença um do outro é mais eloquente que qualquer conversa. Isso demonstra um nível de intimidade profunda.",
+    "funFact": "Casais que dominam a arte do silêncio compartilhado demonstram maior satisfação conjugal.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-4",
+    "categoryId": "relacionamentos",
+    "title": "A Linguagem do Amor: Descobrindo as Preferências",
+    "hook": "Cada um tem sua linguagem!",
+    "content": "Cada pessoa tem sua própria forma de expressar e receber amor. Entender a linguagem do amor do parceiro – palavras de afirmação, atos de serviço, presentes, tempo de qualidade ou toque físico – é fundamental para construir um relacionamento feliz.",
+    "funFact": "Identificar a linguagem do amor do outro maximiza o impacto dos gestos carinhosos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-5",
+    "categoryId": "relacionamentos",
+    "title": "A Dança dos Olhares Discretos",
+    "hook": "Incrível: o poder do olhar furtivo.",
+    "content": "Um rápido olhar de canto de olho, um sorriso sutil, um leve toque no braço durante uma conversa – esses pequenos gestos, aparentemente insignificantes, podem revelar uma atração profunda e sutil entre duas pessoas.  Eles transmitem uma mensagem não verbal que muitas vezes supera palavras, criando uma conexão mágica e carregada de expectativa. Essa dança silenciosa é a base de muitos relacionamentos.",
+    "funFact": "Estudos demonstram que olhares furtivos prolongados liberam dopamina, o neurotransmissor do prazer.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-6",
+    "categoryId": "relacionamentos",
+    "title": "O Impacto do Humor Compartilhado",
+    "hook": "Você sabia que rir juntos...",
+    "content": "O compartilhamento de humor e piadas internas pode fortalecer significativamente os laços em um relacionamento. O riso liberta endorfinas, criando uma sensação de bem-estar e conexão que vai além da simples diversão.  Piadas internas criam uma identidade única do casal, construindo memórias e um senso de comunidade exclusiva.",
+    "funFact": "Casos com mais risadas tem uma taxa de sucesso significativamente maior.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-7",
+    "categoryId": "relacionamentos",
+    "title": "O Segredo dos Pequenos Gestos",
+    "hook": "Surpreendente: um ato de carinho...",
+    "content": "Um café preparado na cama, uma pequena lembrança inesperada, uma massagem nos ombros depois de um longo dia – gestos pequenos e atenciosos demonstram mais afeição do que grandes declarações românticas. Essas demonstrações de carinho nutrem o relacionamento e reforçam o sentimento de valorização e reciprocidade.",
+    "funFact": "Pequenos gestos diários são mais impactantes que grandes presentes ocasionais.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "relacionamentos-8",
+    "categoryId": "relacionamentos",
+    "title": "A Força do Toque Suave",
+    "hook": "Você sabia que um toque leve...",
+    "content": "Um toque leve na mão, um abraço demorado, um carinho no cabelo – o contato físico é crucial para a intimidade e conexão emocional. Esses gestos carinhosos transmitem segurança, afeto e compreensão, aprofundando a ligação entre duas pessoas. A falta desse toque físico pode resultar em um distanciamento emocional.",
+    "funFact": "O toque aumenta a produção de ocitocina, hormônio do amor e do vínculo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-9",
+    "categoryId": "relacionamentos",
+    "title": "A Música dos Corações",
+    "hook": "Incrível: a playlist do casal...",
+    "content": "As músicas que um casal ouve juntos constroem uma trilha sonora para a relação.  Cada canção representa um momento, uma lembrança, um sentimento compartilhado. A construção dessa playlist conjunta demonstra uma intimidade e cumplicidade que une o casal através de uma linguagem única e emocional.",
+    "funFact": "Músicas associadas a memórias positivas fortalecem a conexão emocional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "relacionamentos-10",
+    "categoryId": "relacionamentos",
+    "title": "Os Cheiros da Memória",
+    "hook": "Você sabia que o cheiro...",
+    "content": "O olfato é fortemente ligado à memória.  Um perfume, um sabonete, um aroma específico – podem evocar lembranças vívidas e emocionais de momentos compartilhados.  Esses aromas se tornam um símbolo da relação, trazendo à tona sentimentos de nostalgia e afeto.",
+    "funFact": "A memória olfativa é mais forte que as outras.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-11",
+    "categoryId": "relacionamentos",
+    "title": "A Psicologia das Pequenas Brigas",
+    "hook": "Surpreendente: as brigas podem...",
+    "content": "As pequenas discussões, gerenciadas de forma construtiva, podem fortalecer um relacionamento. Elas oferecem a oportunidade de expressar necessidades, resolver conflitos e melhorar a comunicação.  A forma como os casais resolvem suas diferenças revela a maturidade e a saúde da relação.",
+    "funFact": "Resolvê-las de forma positiva aumenta a proximidade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "relacionamentos-12",
+    "categoryId": "relacionamentos",
+    "title": "A Sincronicidade dos Bocejos",
+    "hook": "Incrível: Bocejos sincronizados!",
+    "content": "Bocejos sincronizados em casais podem indicar uma forte ligação emocional e empatia. Estudos sugerem que essa sincronia reflete a capacidade de se conectar profundamente com o outro, espelhando reações fisiológicas.  Isso vai além da simples imitação, mostrando uma conexão neural profunda.",
+    "funFact": "A sincronia de bocejos é mais comum em pessoas com laços estreitos e confiança mútua.",
+    "curiosityLevel": 4
+  }
+]

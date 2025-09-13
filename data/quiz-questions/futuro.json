@@ -1,0 +1,716 @@
+[
+  {
+    "id": "quiz-futuro-1",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual tecnologia é frequentemente associada à automatização de tarefas repetitivas?",
+    "options": [
+      "Inteligência Artificial",
+      "Realidade Virtual",
+      "Biotecnologia",
+      "Energia Solar"
+    ],
+    "correctAnswer": "Inteligência Artificial",
+    "explanation": "A IA é usada para automatizar tarefas através do aprendizado de máquina e algoritmos.  Curiosamente, a IA também está sendo usada para criar arte e música originais."
+  },
+  {
+    "id": "quiz-futuro-2",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual impacto ambiental principal está associado ao aumento da produção de energia solar?",
+    "options": [
+      "Poluição do ar",
+      "Emissão de gases de efeito estufa",
+      "Desmatamento para instalação de painéis",
+      "Poluição hídrica"
+    ],
+    "correctAnswer": "Desmatamento para instalação de painéis",
+    "explanation": "Embora a energia solar seja limpa, a produção e instalação de grandes usinas solares podem exigir desmatamento.  A reciclagem de painéis solares é uma área de pesquisa em desenvolvimento para minimizar esse impacto."
+  },
+  {
+    "id": "quiz-futuro-3",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual a principal preocupação ética em torno do desenvolvimento de carros autônomos?",
+    "options": [
+      "Custo de produção",
+      "Segurança em condições climáticas adversas",
+      "Dilemas morais em situações de acidentes inevitáveis",
+      "Falta de infraestrutura adequada"
+    ],
+    "correctAnswer": "Dilemas morais em situações de acidentes inevitáveis",
+    "explanation": "Em situações de emergência, um carro autônomo precisa tomar decisões que podem resultar em danos a pessoas.  Definir algoritmos éticos para esses cenários é um grande desafio.  A questão dos carros autônomos também levanta debates sobre responsabilidade legal em caso de acidentes."
+  },
+  {
+    "id": "quiz-futuro-4",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual dessas tecnologias é mais provável de revolucionar a medicina no futuro?",
+    "options": [
+      "Televisão 4K",
+      "Impressoras 3D",
+      "Relógios inteligentes",
+      "Nanotecnologia"
+    ],
+    "correctAnswer": "Nanotecnologia",
+    "explanation": "A nanotecnologia permite criar medicamentos e tratamentos altamente direcionados, com menos efeitos colaterais.  A miniaturização de dispositivos médicos também é uma promessa da nanotecnologia."
+  },
+  {
+    "id": "quiz-futuro-5",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o maior desafio para a implementação de cidades inteligentes?",
+    "options": [
+      "Custo de infraestrutura",
+      "Integração de diferentes sistemas",
+      "Falta de profissionais qualificados",
+      "Resistência da população"
+    ],
+    "correctAnswer": "Integração de diferentes sistemas",
+    "explanation": "Cidades inteligentes dependem da perfeita integração de sistemas de transporte, energia, segurança e comunicação.  A interoperabilidade entre diferentes tecnologias é crucial para o sucesso."
+  },
+  {
+    "id": "quiz-futuro-6",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a bioimpressão 3D pode mudar o futuro da medicina regenerativa?",
+    "options": [
+      "Criando próteses mais baratas",
+      "Permitindo a criação de órgãos personalizados",
+      "Facilitando a cirurgia robótica",
+      "Melhorando a precisão dos diagnósticos"
+    ],
+    "correctAnswer": "Permitindo a criação de órgãos personalizados",
+    "explanation": "A bioimpressão 3D tem o potencial de criar tecidos e órgãos personalizados para transplante, reduzindo a necessidade de doadores e a rejeição de órgãos. A bioimpressão 3D de tecidos para teste de medicamentos também é uma grande aplicação."
+  },
+  {
+    "id": "quiz-futuro-7",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que significa a sigla IA?",
+    "options": [
+      "Inteligência Artificial",
+      "Internet Avançada",
+      "Informação Analítica",
+      "Integração Automática"
+    ],
+    "correctAnswer": "Inteligência Artificial",
+    "explanation": "IA refere-se à capacidade de computadores e máquinas de imitar a inteligência humana. Existem vários tipos de IA, cada um com capacidades diferentes."
+  },
+  {
+    "id": "quiz-futuro-8",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual é a principal preocupação com o desenvolvimento da biotecnologia?",
+    "options": [
+      "Custo elevado de pesquisa",
+      "Acesso desigual à tecnologia",
+      "Impacto ambiental desconhecido",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A biotecnologia apresenta desafios em custo, acesso e impacto ambiental, exigindo regulamentações e abordagens éticas para seu desenvolvimento responsável."
+  },
+  {
+    "id": "quiz-futuro-9",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual tecnologia poderia ajudar a combater a fome global de forma sustentável?",
+    "options": [
+      "Agricultura vertical",
+      "Agricultura convencional",
+      "Pecuária intensiva",
+      "Pesca em larga escala"
+    ],
+    "correctAnswer": "Agricultura vertical",
+    "explanation": "A agricultura vertical permite a produção de alimentos em espaços reduzidos, usando menos terra e água, e com menor impacto ambiental, sendo uma solução promissora para o combate à fome em áreas urbanas densas."
+  },
+  {
+    "id": "quiz-futuro-10",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual fonte de energia renovável é mais amplamente utilizada atualmente?",
+    "options": [
+      "Energia eólica",
+      "Energia solar",
+      "Energia hidroelétrica",
+      "Energia geotérmica"
+    ],
+    "correctAnswer": "Energia hidroelétrica",
+    "explanation": "Embora a energia solar e eólica estejam crescendo rapidamente, a energia hidroelétrica continua sendo a fonte de energia renovável mais utilizada globalmente."
+  },
+  {
+    "id": "quiz-futuro-11",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a Internet das Coisas (IoT) pode impactar a segurança doméstica?",
+    "options": [
+      "Aumentar a segurança com monitoramento remoto",
+      "Criar vulnerabilidades a ataques cibernéticos",
+      "Tornar as casas mais caras",
+      "Nenhum impacto significativo"
+    ],
+    "correctAnswer": "Aumentar a segurança com monitoramento remoto",
+    "explanation": "A IoT permite o monitoramento remoto de casas através de câmeras, sensores e outros dispositivos conectados, aumentando a segurança.  No entanto, isso também cria vulnerabilidades a ataques cibernéticos."
+  },
+  {
+    "id": "quiz-futuro-12",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o principal desafio para a colonização de Marte?",
+    "options": [
+      "Custo financeiro",
+      "Condições climáticas extremas",
+      "Distância da Terra",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Colonizar Marte enfrenta desafios significativos em termos de custo, ambiente hostil e distância da Terra, exigindo tecnologias e planejamento avançados."
+  },
+  {
+    "id": "quiz-futuro-13",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual a principal vantagem do trabalho remoto?",
+    "options": [
+      "Salário mais alto",
+      "Mais tempo livre",
+      "Flexibilidade de horário",
+      "Menos responsabilidades"
+    ],
+    "correctAnswer": "Flexibilidade de horário",
+    "explanation": "O trabalho remoto oferece maior flexibilidade de horário, permitindo que as pessoas trabalhem em horários que se adaptem melhor às suas necessidades."
+  },
+  {
+    "id": "quiz-futuro-14",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a realidade virtual pode ser usada na educação?",
+    "options": [
+      "Criar simulações imersivas para aprendizado prático",
+      "Substituir completamente as aulas presenciais",
+      "Apenas para jogos educativos",
+      "Nenhuma aplicação significativa"
+    ],
+    "correctAnswer": "Criar simulações imersivas para aprendizado prático",
+    "explanation": "A RV permite criar experiências de aprendizado imersivas e interativas, especialmente útil para disciplinas que exigem prática ou visualização, como medicina ou engenharia."
+  },
+  {
+    "id": "quiz-futuro-15",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o impacto potencial da computação quântica na inteligência artificial?",
+    "options": [
+      "Nenhum impacto significativo",
+      "Reduzir a capacidade de processamento",
+      "Aumentar significativamente a velocidade e capacidade da IA",
+      "Tornar a IA menos eficiente"
+    ],
+    "correctAnswer": "Aumentar significativamente a velocidade e capacidade da IA",
+    "explanation": "A computação quântica tem o potencial de resolver problemas complexos que são intratáveis para os computadores clássicos, acelerando significativamente o desenvolvimento e as capacidades da IA."
+  },
+  {
+    "id": "quiz-futuro-16",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual tecnologia permite a comunicação em tempo real através de videoconferência?",
+    "options": [
+      "Email",
+      "Correio tradicional",
+      "Internet",
+      "Fax"
+    ],
+    "correctAnswer": "Internet",
+    "explanation": "A internet é a base da comunicação em tempo real, permitindo videoconferências e outras formas de comunicação instantânea."
+  },
+  {
+    "id": "quiz-futuro-17",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal benefício da utilização de energia renovável?",
+    "options": [
+      "Custo menor",
+      "Maior poluição",
+      "Esgotamento dos recursos",
+      "Redução das emissões de gases de efeito estufa"
+    ],
+    "correctAnswer": "Redução das emissões de gases de efeito estufa",
+    "explanation": "A principal vantagem das energias renováveis é sua contribuição para a redução das emissões de gases de efeito estufa e a mitigação das mudanças climáticas."
+  },
+  {
+    "id": "quiz-futuro-18",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a inteligência artificial pode contribuir para a detecção precoce de doenças?",
+    "options": [
+      "Analisando dados médicos para identificar padrões",
+      "Substituindo médicos especialistas",
+      "Criando novos medicamentos",
+      "Nenhuma contribuição significativa"
+    ],
+    "correctAnswer": "Analisando dados médicos para identificar padrões",
+    "explanation": "A IA pode analisar grandes conjuntos de dados médicos para identificar padrões que podem indicar doenças precocemente, auxiliando no diagnóstico e tratamento."
+  },
+  {
+    "id": "quiz-futuro-19",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Que tipo de transporte é considerado mais sustentável?",
+    "options": [
+      "Avião",
+      "Carro a gasolina",
+      "Bicicleta",
+      "Navio de carga"
+    ],
+    "correctAnswer": "Bicicleta",
+    "explanation": "A bicicleta é um meio de transporte sustentável por não emitir poluentes e exigir pouco ou nenhum recurso."
+  },
+  {
+    "id": "quiz-futuro-20",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o impacto potencial da automação na força de trabalho?",
+    "options": [
+      "Aumento do emprego em todos os setores",
+      "Redução do emprego em alguns setores",
+      "Nenhum impacto significativo",
+      "Criação de empregos apenas em tecnologia"
+    ],
+    "correctAnswer": "Redução do emprego em alguns setores",
+    "explanation": "A automação pode levar à redução de empregos em setores que dependem de tarefas repetitivas ou manuais, necessitando de adaptações na força de trabalho."
+  },
+  {
+    "id": "quiz-futuro-21",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual tecnologia tem o potencial de revolucionar a agricultura de precisão?",
+    "options": [
+      "Sensores de umidade do solo",
+      "Drones com câmeras",
+      "Inteligência artificial e machine learning",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Sensores, drones e IA são tecnologias chave para a agricultura de precisão, permitindo o monitoramento e otimização das plantações."
+  },
+  {
+    "id": "quiz-futuro-22",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que é um smart home?",
+    "options": [
+      "Casa inteligente com dispositivos conectados",
+      "Casa com design moderno",
+      "Casa localizada em uma cidade grande",
+      "Casa com energia solar"
+    ],
+    "correctAnswer": "Casa inteligente com dispositivos conectados",
+    "explanation": "Um smart home é uma casa com dispositivos eletrônicos conectados que podem ser controlados remotamente, oferecendo maior comodidade e eficiência."
+  },
+  {
+    "id": "quiz-futuro-23",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual a principal preocupação com a privacidade de dados em um mundo cada vez mais conectado?",
+    "options": [
+      "Uso indevido de informações pessoais",
+      "Roubo de identidade",
+      "Violação de dados",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A privacidade de dados é uma preocupação crescente em um mundo conectado, com riscos de uso indevido, roubo de identidade e violação de dados."
+  },
+  {
+    "id": "quiz-futuro-24",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a impressão 3D pode contribuir para a sustentabilidade?",
+    "options": [
+      "Reduzindo o transporte de mercadorias",
+      "Criando produtos mais duráveis",
+      "Usando materiais reciclados",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A impressão 3D pode contribuir para a sustentabilidade ao reduzir o transporte, criar produtos mais duráveis e usar materiais reciclados."
+  },
+  {
+    "id": "quiz-futuro-25",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que é biocombustível?",
+    "options": [
+      "Combustível derivado de fontes renováveis",
+      "Combustível derivado de petróleo",
+      "Combustível nuclear",
+      "Combustível fóssil"
+    ],
+    "correctAnswer": "Combustível derivado de fontes renováveis",
+    "explanation": "Biocombustíveis são combustíveis derivados de biomassa, como plantas e resíduos agrícolas, contribuindo para a sustentabilidade."
+  },
+  {
+    "id": "quiz-futuro-26",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual a principal vantagem da energia geotérmica?",
+    "options": [
+      "Disponibilidade constante",
+      "Baixo custo de instalação",
+      "Não polui o ar",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A energia geotérmica oferece vantagens em termos de disponibilidade constante, baixo custo de instalação e ausência de poluição do ar."
+  },
+  {
+    "id": "quiz-futuro-27",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual tecnologia pode ajudar na preservação de espécies ameaçadas de extinção?",
+    "options": [
+      "Monitoramento por satélite",
+      "Inteligência artificial para análise de dados",
+      "Clonagem e biotecnologia",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Satélites, IA e biotecnologia podem auxiliar na preservação de espécies ameaçadas, fornecendo informações, monitoramento e novas abordagens para conservação."
+  },
+  {
+    "id": "quiz-futuro-28",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que significa ESG?",
+    "options": [
+      "Environmental, Social, and Governance",
+      "Economic, Social, and Government",
+      "Energy, Sustainability, and Growth",
+      "Environmental, Security, and Governance"
+    ],
+    "correctAnswer": "Environmental, Social, and Governance",
+    "explanation": "ESG são critérios que avaliam o desempenho ambiental, social e de governança de uma empresa."
+  },
+  {
+    "id": "quiz-futuro-29",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal objetivo da economia circular?",
+    "options": [
+      "Reduzir o consumo de recursos",
+      "Minimizar o desperdício",
+      "Promover a reciclagem",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A economia circular busca reduzir o consumo, minimizar o desperdício e promover a reciclagem para criar um sistema sustentável."
+  },
+  {
+    "id": "quiz-futuro-30",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a blockchain pode revolucionar a transparência em cadeias de suprimentos?",
+    "options": [
+      "Permitindo o rastreamento de produtos",
+      "Aumentando a segurança contra fraudes",
+      "Melhorando a rastreabilidade",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A tecnologia blockchain pode trazer maior transparência e segurança às cadeias de suprimentos ao permitir o rastreamento de produtos e combater fraudes."
+  },
+  {
+    "id": "quiz-futuro-31",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a telemedicina pode melhorar o acesso à saúde?",
+    "options": [
+      "Reduzir custos de transporte",
+      "Aumentar a disponibilidade de especialistas",
+      "Fornecer cuidados remotos",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A telemedicina pode melhorar o acesso à saúde ao reduzir custos, aumentar a disponibilidade de especialistas e fornecer cuidados remotos."
+  },
+  {
+    "id": "quiz-futuro-32",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o principal desafio para a implementação da agricultura vertical em larga escala?",
+    "options": [
+      "Alto custo energético",
+      "Necessidade de sistemas automatizados",
+      "Disponibilidade de espaço",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A agricultura vertical enfrenta desafios em termos de custo energético, automação e disponibilidade de espaço em áreas urbanas."
+  },
+  {
+    "id": "quiz-futuro-33",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que é um drone?",
+    "options": [
+      "Veículo aéreo não tripulado",
+      "Robô submarino",
+      "Satélite artificial",
+      "Veículo terrestre autônomo"
+    ],
+    "correctAnswer": "Veículo aéreo não tripulado",
+    "explanation": "Um drone é um veículo aéreo não tripulado controlado remotamente, com diversas aplicações."
+  },
+  {
+    "id": "quiz-futuro-34",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a inteligência artificial pode auxiliar na previsão de desastres naturais?",
+    "options": [
+      "Analisando dados meteorológicos",
+      "Monitorando padrões geológicos",
+      "Identificando áreas de risco",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A IA pode auxiliar na previsão de desastres naturais ao analisar dados e identificar padrões para uma melhor previsão e resposta."
+  },
+  {
+    "id": "quiz-futuro-35",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o principal impacto do aumento do nível do mar?",
+    "options": [
+      "Inundações costeiras",
+      "Deslocamento de populações",
+      "Degradação de ecossistemas",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "O aumento do nível do mar tem impactos significativos em inundações, deslocamento de populações e degradação de ecossistemas costeiros."
+  },
+  {
+    "id": "quiz-futuro-36",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual dessas opções é uma forma de energia renovável?",
+    "options": [
+      "Carvão",
+      "Petróleo",
+      "Gás natural",
+      "Energia solar"
+    ],
+    "correctAnswer": "Energia solar",
+    "explanation": "A energia solar é uma fonte renovável de energia, obtida a partir da luz solar."
+  },
+  {
+    "id": "quiz-futuro-37",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o principal desafio para a transição para um sistema de energia 100% renovável?",
+    "options": [
+      "Intermitência das fontes renováveis",
+      "Custo de investimento inicial",
+      "Infraestrutura de transmissão",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A transição para energia renovável enfrenta desafios de intermitência, custos e infraestrutura."
+  },
+  {
+    "id": "quiz-futuro-38",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a nanotecnologia pode contribuir para a criação de materiais mais sustentáveis?",
+    "options": [
+      "Criando materiais mais leves e resistentes",
+      "Desenvolver materiais biodegradáveis",
+      "Melhorar a eficiência de materiais existentes",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A nanotecnologia pode contribuir para a sustentabilidade ao criar materiais mais leves, resistentes, biodegradáveis e melhorar a eficiência dos existentes."
+  },
+  {
+    "id": "quiz-futuro-39",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual a principal fonte de energia renovável atualmente?",
+    "options": [
+      "Energia nuclear",
+      "Energia eólica",
+      "Energia solar",
+      "Energia geotérmica"
+    ],
+    "correctAnswer": "Energia eólica",
+    "explanation": "Embora a energia solar esteja crescendo rapidamente, a energia eólica atualmente lidera em capacidade instalada global. Curiosidade: A Dinamarca gera mais de 50% de sua eletricidade a partir de energia eólica."
+  },
+  {
+    "id": "quiz-futuro-40",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "O que significa IoT?",
+    "options": [
+      "Internet Of Things",
+      "International Olympic Team",
+      "Intelligent Operational Technology",
+      "Interactive Online Television"
+    ],
+    "correctAnswer": "Internet Of Things",
+    "explanation": "IoT se refere à rede de objetos físicos conectados à internet, coletando e compartilhando dados. Curiosidade: Estima-se que bilhões de dispositivos estejam conectados à IoT em todo o mundo."
+  },
+  {
+    "id": "quiz-futuro-41",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual o maior desafio para a implementação de carros autônomos em larga escala?",
+    "options": [
+      "Custo de produção",
+      "Segurança em situações complexas",
+      "Falta de infraestrutura adequada",
+      "Regulamentação governamental"
+    ],
+    "correctAnswer": "Segurança em situações complexas",
+    "explanation": "Apesar dos avanços, algoritmos ainda precisam lidar com imprevisibilidade do comportamento humano e eventos inesperados no trânsito. Curiosidade:  O desenvolvimento de sistemas de redundância e fail-safe é crucial para a segurança dos carros autônomos."
+  },
+  {
+    "id": "quiz-futuro-42",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a biotecnologia pode auxiliar na produção de alimentos mais sustentáveis?",
+    "options": [
+      "Criando plantas geneticamente modificadas resistentes a pragas",
+      "Desenvolvendo fertilizantes sintéticos mais eficientes",
+      "Aumentando a utilização de pesticidas",
+      "Reduzindo o uso de água na agricultura"
+    ],
+    "correctAnswer": "Criando plantas geneticamente modificadas resistentes a pragas",
+    "explanation": "Plantas resistentes a pragas reduzem a necessidade de pesticidas, contribuindo para um sistema alimentar mais sustentável. Curiosidade:  A resistência a herbicidas também é uma característica importante em plantas geneticamente modificadas."
+  },
+  {
+    "id": "quiz-futuro-43",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o potencial impacto da computação quântica na área de criptografia?",
+    "options": [
+      "Tornar a criptografia mais segura",
+      "Nenhum impacto significativo",
+      "Quebrar algoritmos de criptografia atuais",
+      "Criar novos algoritmos de criptografia impossíveis de quebrar"
+    ],
+    "correctAnswer": "Quebrar algoritmos de criptografia atuais",
+    "explanation": "A computação quântica tem o potencial de quebrar muitos algoritmos de criptografia atualmente utilizados. Curiosidade:  Isso impulsiona a pesquisa em criptografia pós-quântica, visando criar sistemas resistentes a ataques quânticos."
+  },
+  {
+    "id": "quiz-futuro-44",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual tecnologia emergente pode revolucionar a produção de energia limpa a partir de fontes não convencionais?",
+    "options": [
+      "Energia nuclear de fusão",
+      "Energia solar fotovoltaica",
+      "Energia eólica offshore",
+      "Biocombustíveis"
+    ],
+    "correctAnswer": "Energia nuclear de fusão",
+    "explanation": "A fusão nuclear, que imita o processo do sol, tem o potencial de fornecer energia limpa e praticamente inesgotável. Curiosidade:  Apesar de promissora, a fusão nuclear ainda está em fase de desenvolvimento experimental."
+  },
+  {
+    "id": "quiz-futuro-45",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual o principal benefício do trabalho remoto?",
+    "options": [
+      "Salário maior",
+      "Mais tempo livre",
+      "Flexibilidade de horários e local de trabalho",
+      "Menos responsabilidades"
+    ],
+    "correctAnswer": "Flexibilidade de horários e local de trabalho",
+    "explanation": "O trabalho remoto oferece maior flexibilidade para equilibrar vida pessoal e profissional. Curiosidade:  O trabalho remoto também pode reduzir custos com transporte e despesas de escritório."
+  },
+  {
+    "id": "quiz-futuro-46",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual tecnologia pode auxiliar na detecção precoce de incêndios florestais?",
+    "options": [
+      "Sensores IoT",
+      "Realidade Virtual",
+      "Impressão 3D",
+      "Biotecnologia"
+    ],
+    "correctAnswer": "Sensores IoT",
+    "explanation": "Sensores IoT em áreas de risco podem detectar calor e fumaça, alertando autoridades rapidamente. Curiosidade: Drones também são usados para monitoramento e combate a incêndios."
+  },
+  {
+    "id": "quiz-futuro-47",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Como a realidade aumentada (AR) pode impactar o setor de varejo?",
+    "options": [
+      "Aumentar custos operacionais",
+      "Diminuir a necessidade de lojas físicas",
+      "Melhorar a experiência do cliente",
+      "Reduzir o número de compras online"
+    ],
+    "correctAnswer": "Melhorar a experiência do cliente",
+    "explanation": "AR permite visualizar produtos em casa virtualmente, testar roupas e melhorar a interação com as marcas. Curiosidade: Experiências de AR podem aumentar significativamente a taxa de conversão de vendas."
+  },
+  {
+    "id": "quiz-futuro-48",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Qual o principal desafio ético relacionado à inteligência artificial generativa?",
+    "options": [
+      "Custo de desenvolvimento",
+      "Disponibilidade de dados",
+      "Viés e discriminação nos algoritmos",
+      "Falta de regulamentação"
+    ],
+    "correctAnswer": "Viés e discriminação nos algoritmos",
+    "explanation": "IA generativa pode perpetuar e amplificar vieses presentes nos dados de treinamento, levando à discriminação. Curiosidade:  É crucial desenvolver algoritmos transparentes e justos, garantindo equidade e inclusão."
+  },
+  {
+    "id": "quiz-futuro-49",
+    "categoryId": "futuro",
+    "difficulty": "medium",
+    "question": "Qual tecnologia pode auxiliar na preservação de recifes de corais?",
+    "options": [
+      "Bioimpressão 3D",
+      "Realidade Virtual",
+      "Inteligência Artificial",
+      "Nanotecnologia"
+    ],
+    "correctAnswer": "Bioimpressão 3D",
+    "explanation": "A bioimpressão 3D pode criar estruturas artificiais que auxiliam no crescimento e restauração dos recifes de corais. Curiosidade: Pesquisadores estão explorando o uso de materiais biocompatíveis para criar estruturas de recifes mais resistentes e duráveis."
+  },
+  {
+    "id": "quiz-futuro-50",
+    "categoryId": "futuro",
+    "difficulty": "easy",
+    "question": "Qual o principal benefício da energia geotérmica?",
+    "options": [
+      "Custo baixo",
+      "Disponibilidade constante",
+      "Baixo impacto ambiental",
+      "Fácil instalação"
+    ],
+    "correctAnswer": "Baixo impacto ambiental",
+    "explanation": "A energia geotérmica utiliza o calor da Terra e tem baixo impacto ambiental comparado a outras fontes de energia. Curiosidade: A Islândia é um exemplo de país que utiliza extensivamente a energia geotérmica."
+  },
+  {
+    "id": "quiz-futuro-51",
+    "categoryId": "futuro",
+    "difficulty": "hard",
+    "question": "Como a nanotecnologia pode contribuir para a dessalinização de água do mar de forma mais eficiente?",
+    "options": [
+      "Criando membranas de filtragem mais porosas",
+      "Aumentando a temperatura da água",
+      "Utilizando energia solar para evaporar a água",
+      "Criando membranas de filtragem mais densas e seletivas"
+    ],
+    "correctAnswer": "Criando membranas de filtragem mais densas e seletivas",
+    "explanation": "Nanomateriais podem criar membranas com poros menores e seletivos, permitindo a passagem apenas de água e rejeitando sais e outras impurezas. Curiosidade: Isso reduz o consumo de energia e aumenta a eficiência do processo de dessalinização."
+  }
+]

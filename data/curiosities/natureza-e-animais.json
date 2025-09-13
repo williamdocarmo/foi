@@ -1,0 +1,83 @@
+[
+  {
+    "id": "natureza-e-animais-1",
+    "categoryId": "natureza-e-animais",
+    "title": "A Inteligência Coletiva das Abelhas",
+    "hook": "Incrível: Abelhas pensam juntas!",
+    "content": "As abelhas demonstram uma capacidade de tomada de decisão coletiva surpreendente. Através de uma dança complexa, elas comunicam a localização de fontes de néctar, considerando fatores como distância e abundância.  Essa comunicação eficiente garante a sobrevivência da colmeia e sua produção de mel.",
+    "funFact": "Uma única abelha não consegue encontrar o caminho de volta para a colmeia sozinha.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-2",
+    "categoryId": "natureza-e-animais",
+    "title": "A Incrível Navegação dos Pombos-Correios",
+    "hook": "Incrível: Seu mapa interno!",
+    "content": "Pombos-correios usam um complexo sistema de navegação, combinando a posição do sol, o campo magnético terrestre e até mesmo landmarks visuais para encontrar o caminho de volta para casa, mesmo a centenas de quilômetros de distância.  Sua capacidade de orientação é tão precisa que cientistas ainda estão desvendando seus segredos.",
+    "funFact": "Eles conseguem detectar o campo magnético da Terra com células especiais em seus bicos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-3",
+    "categoryId": "natureza-e-animais",
+    "title": "O Mistério do Sono dos Golfinhos",
+    "hook": "Você sabia que...",
+    "content": "Ao contrário de outros mamíferos, golfinhos dormem apenas com metade do cérebro de cada vez!  Uma metade permanece alerta, permitindo que respirem e fiquem vigilantes contra predadores, enquanto a outra descansa.  Esse mecanismo único garante sua sobrevivência em ambientes aquáticos.",
+    "funFact": "Eles podem 'dormir com um olho aberto'!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-4",
+    "categoryId": "natureza-e-animais",
+    "title": "A Biofluorescência Secreta dos Escorpiões",
+    "hook": "Incrível: Escorpiões brilham no escuro!",
+    "content": "Algumas espécies de escorpiões exibem biofluorescência, um brilho azulado sob luz ultravioleta.  Acredita-se que essa capacidade ajude na comunicação entre eles, principalmente durante o acasalamento ou na localização de presas em ambientes escuros. A intensidade do brilho pode variar dependendo da espécie e idade do escorpião.",
+    "funFact": "A biofluorescência do escorpião é tão intensa que pode ser vista a olho nu em ambientes com pouca iluminação!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-5",
+    "categoryId": "natureza-e-animais",
+    "title": "A Memória Incrível das Tartarugas Marinhas",
+    "hook": "Você sabia que...",
+    "content": "Tartarugas marinhas conseguem navegar milhares de quilômetros até suas praias natais para desovar.  Elas usam o campo magnético da Terra como um GPS natural, lembrando a assinatura magnética do local onde nasceram décadas antes. Esse sistema de navegação é um mistério ainda em estudo.",
+    "funFact": "Algumas tartarugas marinhas conseguem retornar à mesma praia onde nasceram após mais de 30 anos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-6",
+    "categoryId": "natureza-e-animais",
+    "title": "O Sono Paradoxal dos Golfinhos-Rosados",
+    "hook": "Surpreendente:",
+    "content": "Os golfinhos-rosados, ao contrário da maioria dos mamíferos marinhos, não dormem com o cérebro inteiro. Eles desligam apenas um hemisfério por vez, mantendo o outro alerta para respirar e monitorar o ambiente. Essa estratégia permite-lhes permanecer ativos durante o sono.",
+    "funFact": "Um hemisfério cerebral do golfinho-rosado pode dormir enquanto o outro permanece vigilante por até 15 minutos!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-7",
+    "categoryId": "natureza-e-animais",
+    "title": "A Comunicação Química das Plantas",
+    "hook": "Você sabia que...",
+    "content": "As plantas se comunicam através de sinais químicos que são liberados no ar e no solo.  Essas substâncias químicas podem alertar outras plantas sobre a presença de pragas, atrair insetos polinizadores ou até mesmo inibir o crescimento de plantas competidoras.",
+    "funFact": "Algumas plantas liberam compostos químicos que avisam plantas vizinhas sobre o ataque de herbívoros!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-8",
+    "categoryId": "natureza-e-animais",
+    "title": "A Eficiência da Fotossíntese das Plantas",
+    "hook": "Você sabia que...",
+    "content": "As plantas usam a fotossíntese para converter a energia solar em energia química, o que é fundamental para a produção de oxigênio e alimentos para a maioria dos seres vivos. Esse processo é extremamente eficiente, garantindo a vida na Terra.",
+    "funFact": "As plantas produzem quase todo o oxigênio da atmosfera terrestre!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "natureza-e-animais-9",
+    "categoryId": "natureza-e-animais",
+    "title": "A Simetria Perfeita das Flores de Girassol",
+    "hook": "Incrível: a matemática na natureza!",
+    "content": "As sementes de um girassol seguem uma sequência de Fibonacci, criando espirais que maximizam o espaço e a captação de luz solar.  Essa organização geométrica garante a sobrevivência da planta, permitindo o desenvolvimento de mais sementes.  É uma demonstração perfeita de como a natureza otimiza recursos.",
+    "funFact": "O número de espirais em um girassol é frequentemente um número de Fibonacci!",
+    "curiosityLevel": 4
+  }
+]

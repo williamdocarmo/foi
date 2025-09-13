@@ -1,0 +1,146 @@
+[
+  {
+    "id": "entretenimento-1",
+    "categoryId": "entretenimento",
+    "title": "A Origem Obscura do Bingo",
+    "hook": "Você sabia que...",
+    "content": "O Bingo, jogo tão familiar, nasceu em Itália no século XVI como uma loteria de caridade.  Sua evolução para a forma que conhecemos hoje passou por várias adaptações, incluindo o uso de cartas personalizadas e prêmios diversos, refletindo a diversidade cultural e social de cada região.",
+    "funFact": "A primeira versão do bingo usava imagens em vez de números!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-2",
+    "categoryId": "entretenimento",
+    "title": "A Verdadeira História do Karaokê",
+    "hook": "Incrível: a origem do karaokê!",
+    "content": "O karaokê, símbolo de diversão mundial, nasceu no Japão dos anos 70, como uma forma de praticar canto sem a pressão de uma banda.  Inicialmente, eram apenas máquinas rudimentares em bares.  Sua popularização explosiva se deu pela democratização do acesso à tecnologia e à crescente busca por experiências de entretenimento participativas.",
+    "funFact": "O primeiro sistema de karaokê utilizava fitas de 8 trilhas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-3",
+    "categoryId": "entretenimento",
+    "title": "A Origem Secreta do Sudoku",
+    "hook": "Você sabia que...",
+    "content": "O Sudoku, apesar de sua popularidade moderna, tem origens nebulosas.  Sua forma moderna surgiu no Japão, mas suas raízes remontam a quebra-cabeças latinos muito mais antigos. A simplicidade de suas regras esconde uma complexidade matemática fascinante, que continua a cativar milhões.",
+    "funFact": "Existem mais de 6 bilhões de soluções possíveis para uma grade de Sudoku padrão!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-4",
+    "categoryId": "entretenimento",
+    "title": "O Impacto Escondido dos Memes na Política",
+    "hook": "Incrível:",
+    "content": "Memes, inicialmente considerados apenas entretenimento leve, têm se tornado ferramentas poderosas na arena política.  Sua capacidade de disseminar mensagens rapidamente e de forma memorável influencia opiniões públicas e até mesmo movimentos sociais, remodelando a forma como interagimos com informações políticas.",
+    "funFact": "Alguns memes políticos têm influenciado eleições em escala global!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "entretenimento-5",
+    "categoryId": "entretenimento",
+    "title": "A Ciência por Trás do Riso Contagioso",
+    "hook": "Você sabia que...",
+    "content": "O riso é contagioso! Estudos científicos demonstram que ouvir alguém rir pode desencadear uma resposta neural em nosso cérebro, levando-nos a rir também, mesmo sem saber o motivo.  Essa reação demonstra a capacidade intrínseca dos humanos para empatia e conexão social.",
+    "funFact": "O riso sincronizado fortalece os laços sociais!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-6",
+    "categoryId": "entretenimento",
+    "title": "O Impacto da Música na Memória",
+    "hook": "Você sabia que...",
+    "content": "A música tem um poder incrível de evocar memórias, muitas vezes de forma mais vívida do que outros estímulos sensoriais. Isso acontece porque a música ativa áreas cerebrais associadas à emoção e à memória autobiográfica, criando conexões fortes e duradouras.",
+    "funFact": "Algumas melodias podem trazer memórias de infância com perfeição!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-7",
+    "categoryId": "entretenimento",
+    "title": "A Psicologia do Storytelling",
+    "hook": "Incrível:",
+    "content": "Histórias bem contadas nos capturam de forma incrivelmente eficaz.  A estrutura narrativa, os personagens cativantes e os conflitos bem construídos ativam nosso sistema de recompensa cerebral, mantendo-nos engajados e ansiosos para descobrir o final. Entender a psicologia do storytelling é crucial para qualquer forma de entretenimento.",
+    "funFact": "Histórias bem construídas podem manipular nossas emoções de maneira sutil!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-8",
+    "categoryId": "entretenimento",
+    "title": "O Poder Curativo do Humor",
+    "hook": "Você sabia que...",
+    "content": "O riso, além de ser contagioso, tem propriedades terapêuticas comprovadas.  O humor pode reduzir o estresse, melhorar o sistema imunológico e até mesmo aliviar a dor. Incorporar o riso em nossa rotina diária pode trazer benefícios significativos para a saúde.",
+    "funFact": "O riso libera endorfinas, hormônios que causam bem-estar!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-9",
+    "categoryId": "entretenimento",
+    "title": "A Evolução da Animação Stop-Motion",
+    "hook": "Você sabia que...",
+    "content": "A animação stop-motion, que envolve a manipulação de objetos inanimados quadro a quadro, tem uma história fascinante.  Desde os primórdios do cinema, essa técnica tem sido usada para criar mundos fantásticos e personagens inesquecíveis, demonstrando a criatividade e a perseverança dos animadores.",
+    "funFact": "Filmes em stop-motion podem levar anos para serem produzidos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-10",
+    "categoryId": "entretenimento",
+    "title": "A História da Televisão Interativa",
+    "hook": "Você sabia que...",
+    "content": "A televisão interativa, com a capacidade de os espectadores influenciarem a programação, tem uma história mais longa do que se imagina.  De programas com votações por telefone a plataformas de streaming com escolhas de narrativa, a interação entre público e conteúdo está em constante evolução.",
+    "funFact": "Alguns programas de TV já permitiam interação por carta em décadas passadas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-11",
+    "categoryId": "entretenimento",
+    "title": "O Segredo dos Efeitos Sonoros Clássicos",
+    "hook": "Incrível: sons de filmes!",
+    "content": "Muitos efeitos sonoros icônicos do cinema foram criados de forma inusitada.  O som de um sabre de luz, por exemplo, foi criado a partir do zumbido de um projetor de filmes antigo.  Outros sons, como passos em ambientes específicos, utilizavam materiais improváveis, resultando em efeitos memoráveis e atemporais.",
+    "funFact": "O rugido do Godzilla original foi criado com um hipopótamo resmungando!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-12",
+    "categoryId": "entretenimento",
+    "title": "A Magia por trás da Ilusão de Óptica",
+    "hook": "Você sabia que...",
+    "content": "As ilusões de ótica exploram as falhas de processamento visual do nosso cérebro.  Imagens aparentemente simples podem enganar nossos sentidos, revelando a complexidade da percepção e o quanto ela pode ser manipulada com técnicas criativas e precisas de manipulação visual.",
+    "funFact": "Nossos olhos veem o mundo de forma invertida, mas o cérebro corrige a imagem!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-13",
+    "categoryId": "entretenimento",
+    "title": "O Impacto da Nostalgia nos Games",
+    "hook": "Surpreendente: games!",
+    "content": "A nostalgia desempenha um papel crucial no sucesso de jogos retrô e remakes.  A sensação de revisitar momentos marcantes da infância e relembrar emoções associadas a determinados jogos cria uma forte conexão emocional com o público, impulsionando vendas e gerando engajamento.",
+    "funFact": "O 'pixel art' é intencionalmente limitado para evocar nostalgia!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-14",
+    "categoryId": "entretenimento",
+    "title": "O Poder da Música nos Videojogos",
+    "hook": "Você sabia que...",
+    "content": "A trilha sonora de um videojogo tem o poder de criar emoções, intensificar a narrativa e melhorar a experiência geral do jogador. Composições e efeitos sonoros específicos moldam a atmosfera, aumentam o suspense e amplificam a imersão no mundo virtual.",
+    "funFact": "Música de videojogos pode ser vendida como álbuns!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "entretenimento-15",
+    "categoryId": "entretenimento",
+    "title": "A Arte da Animação 2D Tradicional",
+    "hook": "Você sabia que...",
+    "content": "A animação 2D tradicional, apesar da ascensão da tecnologia digital, mantém seu charme e valor. Desenhos feitos à mão, quadro a quadro, criam um visual único e artesanal que resiste ao tempo, demonstrando a dedicação e o talento dos animadores.",
+    "funFact": "Desenhar um filme animação 2D requer milhares de desenhos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "entretenimento-16",
+    "categoryId": "entretenimento",
+    "title": "A Ciência por Trás dos Jogos de Tabuleiro",
+    "hook": "Você sabia que...",
+    "content": "Os jogos de tabuleiro são uma forma de entretenimento que combina estratégia, sorte e interação social. As regras, o design e a mecânica de cada jogo podem influenciar as habilidades cognitivas, o raciocínio estratégico e a capacidade de resolução de problemas.",
+    "funFact": "Jogos de tabuleiro são antigos e têm origem em várias culturas!",
+    "curiosityLevel": 3
+  }
+]

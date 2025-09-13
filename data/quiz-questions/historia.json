@@ -1,0 +1,786 @@
+[
+  {
+    "id": "quiz-historia-1",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que ano Cristóvão Colombo chegou à América?",
+    "options": [
+      "1492",
+      "1512",
+      "1450",
+      "1550"
+    ],
+    "correctAnswer": "1492",
+    "explanation": "Cristóvão Colombo chegou à América em 1492, embora não tenha sido o primeiro a chegar às Américas, sua viagem marcou o início da era da colonização europeia do Novo Mundo. Curiosamente, Colombo acreditava ter chegado às Índias."
+  },
+  {
+    "id": "quiz-historia-2",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual foi o principal fator que desencadeou a Primeira Guerra Mundial?",
+    "options": [
+      "O assassinato do Arquiduque Francisco Ferdinando",
+      "A corrida armamentista",
+      "O expansionismo alemão",
+      "Disputas coloniais"
+    ],
+    "correctAnswer": "O assassinato do Arquiduque Francisco Ferdinando",
+    "explanation": "O assassinato do Arquiduque Francisco Ferdinando em Sarajevo em 1914 serviu como o estopim para o início da Primeira Guerra Mundial, desencadeando uma série de alianças e declarações de guerra entre as grandes potências europeias. A corrida armamentista, o expansionismo alemão e as disputas coloniais foram fatores de tensão pré-existentes."
+  },
+  {
+    "id": "quiz-historia-3",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual imperador romano é conhecido por sua perseguição aos cristãos?",
+    "options": [
+      "Constantino",
+      "Augusto",
+      "Nero",
+      "Trajano"
+    ],
+    "correctAnswer": "Nero",
+    "explanation": "Nero, imperador romano de 54 a 68 d.C., é amplamente conhecido por seu reinado extravagante e cruel, incluindo a perseguição aos cristãos, a quem acusou de incendiar Roma.  Curiosamente, a perseguição a cristãos não foi contínua ao longo da história romana, e houve períodos de tolerância."
+  },
+  {
+    "id": "quiz-historia-4",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual evento marcou o fim da Segunda Guerra Mundial?",
+    "options": [
+      "A rendição da Alemanha",
+      "O ataque a Pearl Harbor",
+      "O lançamento das bombas atômicas",
+      "A rendição do Japão"
+    ],
+    "correctAnswer": "A rendição do Japão",
+    "explanation": "A rendição incondicional do Japão em 1945, após os bombardeios atômicos em Hiroshima e Nagasaki, marcou o fim da Segunda Guerra Mundial. A rendição da Alemanha ocorreu anteriormente, em 1945."
+  },
+  {
+    "id": "quiz-historia-5",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico se caracterizou pela busca da representação objetiva da realidade?",
+    "options": [
+      "Impressionismo",
+      "Romantismo",
+      "Realismo",
+      "Barroco"
+    ],
+    "correctAnswer": "Realismo",
+    "explanation": "O Realismo, movimento do século XIX, se opunha ao Romantismo, focando na representação precisa da realidade social e cotidiana, muitas vezes retratando temas de pobreza e desigualdade.  O Impressionismo se preocupava mais com a luz e a cor."
+  },
+  {
+    "id": "quiz-historia-6",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Quem foi o principal arquiteto da política externa americana durante a Guerra Fria?",
+    "options": [
+      "John F. Kennedy",
+      "Richard Nixon",
+      "George Kennan",
+      "Henry Kissinger"
+    ],
+    "correctAnswer": "George Kennan",
+    "explanation": "George Kennan, com seu famoso telegrama longo, articulou a política de contenção, pilar da política externa americana durante a Guerra Fria.  Embora Kissinger e outros tenham desempenhado papéis importantes, Kennan é considerado o arquiteto inicial."
+  },
+  {
+    "id": "quiz-historia-7",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente fica o Egito?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "África",
+      "América do Sul"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Egito está localizado no continente africano, predominantemente no nordeste da África.  Uma pequena porção da Península do Sinai pertence à Ásia."
+  },
+  {
+    "id": "quiz-historia-8",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual civilização antiga inventou o sistema de escrita cuneiforme?",
+    "options": [
+      "Egípcios",
+      "Gregos",
+      "Sumérios",
+      "Romanos"
+    ],
+    "correctAnswer": "Sumérios",
+    "explanation": "Os Sumérios, uma das primeiras civilizações da Mesopotâmia, inventaram a escrita cuneiforme, utilizando cunhas para gravar símbolos em tabuletas de argila.  Esse sistema influenciou o desenvolvimento de outras formas de escrita na região."
+  },
+  {
+    "id": "quiz-historia-9",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual evento histórico é associado à 'Noite dos Cristais'?",
+    "options": [
+      "A Guerra dos Trinta Anos",
+      "A Inquisição Espanhola",
+      "A Noite de São Bartolomeu",
+      "A Kristallnacht"
+    ],
+    "correctAnswer": "A Kristallnacht",
+    "explanation": "A Kristallnacht ('Noite dos Cristais'), em novembro de 1938, foi uma série de ataques violentos contra judeus na Alemanha nazista, marcando uma escalada na perseguição aos judeus antes do Holocausto."
+  },
+  {
+    "id": "quiz-historia-10",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual país abriga as pirâmides de Gizé?",
+    "options": [
+      "Iraque",
+      "Egito",
+      "Síria",
+      "Arábia Saudita"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "As famosas pirâmides de Gizé estão localizadas no Egito, perto do Cairo.  Elas são um dos exemplos mais impressionantes da arquitetura e engenharia do antigo Egito."
+  },
+  {
+    "id": "quiz-historia-11",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual foi a principal causa da Revolução Francesa?",
+    "options": [
+      "A ascensão de Napoleão",
+      "A crise financeira da monarquia",
+      "A invasão da França pela Áustria",
+      "A popularidade das ideias iluministas"
+    ],
+    "correctAnswer": "A crise financeira da monarquia",
+    "explanation": "Embora as ideias iluministas tenham criado um contexto favorável, a principal causa da Revolução Francesa foi a profunda crise financeira da monarquia francesa, agravada por gastos excessivos e péssima administração."
+  },
+  {
+    "id": "quiz-historia-12",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual tratado pôs fim à Primeira Guerra Mundial?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Tordesilhas",
+      "Tratado de Utrecht",
+      "Tratado de Westfália"
+    ],
+    "correctAnswer": "Tratado de Versalhes",
+    "explanation": "O Tratado de Versalhes, assinado em 1919, oficialmente encerrou a Primeira Guerra Mundial e impôs duras condições à Alemanha, contribuindo para o ressentimento que mais tarde contribuiu para a ascensão do nazismo."
+  },
+  {
+    "id": "quiz-historia-13",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Quem pintou a Mona Lisa?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Rafael",
+      "Donatello"
+    ],
+    "correctAnswer": "Leonardo da Vinci",
+    "explanation": "Leonardo da Vinci pintou a Mona Lisa, uma das obras de arte mais famosas e reconhecidas do mundo.  Sua técnica de sfumato é particularmente notável na pintura."
+  },
+  {
+    "id": "quiz-historia-14",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual foi o movimento que defendia o retorno aos princípios da antiguidade clássica?",
+    "options": [
+      "Barroco",
+      "Renascimento",
+      "Maneirismo",
+      "Rococó"
+    ],
+    "correctAnswer": "Renascimento",
+    "explanation": "O Renascimento, movimento que marcou a transição da Idade Média para a Idade Moderna, foi caracterizado por uma profunda admiração pela cultura clássica grega e romana, que influenciou a arte, a arquitetura, a literatura e a filosofia."
+  },
+  {
+    "id": "quiz-historia-15",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual filósofo grego é considerado o pai da filosofia ocidental?",
+    "options": [
+      "Sócrates",
+      "Platão",
+      "Aristóteles",
+      "Tales de Mileto"
+    ],
+    "correctAnswer": "Tales de Mileto",
+    "explanation": "Embora Sócrates, Platão e Aristóteles sejam figuras extremamente importantes, Tales de Mileto é considerado o primeiro filósofo da tradição ocidental, marcando a transição do pensamento mítico para o pensamento racional."
+  },
+  {
+    "id": "quiz-historia-16",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual a capital do Império Romano?",
+    "options": [
+      "Atenas",
+      "Alexandria",
+      "Roma",
+      "Constantinopla"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma, a cidade que dá nome ao império, foi sua capital por muitos séculos. Mais tarde, o Império Romano do Oriente teve Constantinopla como capital."
+  },
+  {
+    "id": "quiz-historia-17",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Em que ano ocorreu a queda do Muro de Berlim?",
+    "options": [
+      "1989",
+      "1991",
+      "1990",
+      "1988"
+    ],
+    "correctAnswer": "1989",
+    "explanation": "A queda do Muro de Berlim em 9 de novembro de 1989 marcou um ponto crucial no fim da Guerra Fria e a reunificação da Alemanha."
+  },
+  {
+    "id": "quiz-historia-18",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do tratado que estabeleceu a divisão da América do Sul entre Portugal e Espanha?",
+    "options": [
+      "Tratado de Tordesilhas",
+      "Tratado de Methuen",
+      "Tratado de Santo Ildefonso",
+      "Tratado de Paris"
+    ],
+    "correctAnswer": "Tratado de Tordesilhas",
+    "explanation": "O Tratado de Tordesilhas, assinado em 1494, dividiu as terras recém-descobertas na América do Sul entre Portugal e Espanha através de uma linha imaginária. Este tratado gerou grandes debates históricos sobre seus impactos coloniais."
+  },
+  {
+    "id": "quiz-historia-19",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Quem liderou a Revolução Russa?",
+    "options": [
+      "Nicolau II",
+      "Lênin",
+      "Stalin",
+      "Trovsky"
+    ],
+    "correctAnswer": "Lênin",
+    "explanation": "Vladimir Lênin liderou os bolcheviques na Revolução Russa de 1917, que culminou na criação da União Soviética.  Apesar de Stalin ter assumido depois, Lênin foi o principal líder do começo da revolução."
+  },
+  {
+    "id": "quiz-historia-20",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual evento histórico é associado ao início da Idade Média?",
+    "options": [
+      "A queda do Império Romano Ocidental",
+      "A invenção da imprensa",
+      "O descobrimento da América",
+      "A Reforma Protestante"
+    ],
+    "correctAnswer": "A queda do Império Romano Ocidental",
+    "explanation": "A queda do Império Romano Ocidental, em 476 d.C., é geralmente considerada o evento que marca o início da Idade Média. Esta data é um tanto arbitrária, e alguns historiadores preferem datas diferentes."
+  },
+  {
+    "id": "quiz-historia-21",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual era a principal forma de governo na Grécia Antiga?",
+    "options": [
+      "Monarquia",
+      "República",
+      "Democracia",
+      "Oligarquia"
+    ],
+    "correctAnswer": "Oligarquia",
+    "explanation": "Apesar da famosa democracia ateniense, a forma de governo mais comum nas diversas cidades-estado gregas era a oligarquia, ou seja, o poder nas mãos de um pequeno grupo."
+  },
+  {
+    "id": "quiz-historia-22",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que século ocorreu o Renascimento?",
+    "options": [
+      "XV",
+      "XVII",
+      "XVIII",
+      "XIX"
+    ],
+    "correctAnswer": "XV",
+    "explanation": "O Renascimento começou no século XV e estendeu-se até o século XVI, marcando uma transição cultural importante entre a Idade Média e a Idade Moderna."
+  },
+  {
+    "id": "quiz-historia-23",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual a principal causa da Guerra dos Cem Anos?",
+    "options": [
+      "Disputas territoriais",
+      "Disputas religiosas",
+      "A morte do rei",
+      "A crise econômica"
+    ],
+    "correctAnswer": "Disputas territoriais",
+    "explanation": "A principal causa da Guerra dos Cem Anos foi a disputa entre a Inglaterra e a França pelo controle de terras na França, e pelo direito de sucessão ao trono francês."
+  },
+  {
+    "id": "quiz-historia-24",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do período histórico que seguiu a Idade Média?",
+    "options": [
+      "Idade Moderna",
+      "Idade Contemporânea",
+      "Idade Antiga",
+      "Idade do Ferro"
+    ],
+    "correctAnswer": "Idade Moderna",
+    "explanation": "A Idade Moderna sucedeu a Idade Média, e é caracterizada pelo Renascimento, as grandes navegações e a Reforma Protestante, entre outros importantes eventos."
+  },
+  {
+    "id": "quiz-historia-25",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Quem inventou a imprensa?",
+    "options": [
+      "Leonardo da Vinci",
+      "Gutenberg",
+      "Newton",
+      "Galileu"
+    ],
+    "correctAnswer": "Gutenberg",
+    "explanation": "Johannes Gutenberg inventou a imprensa de tipos móveis, que revolucionou a produção de livros e a difusão do conhecimento na Europa."
+  },
+  {
+    "id": "quiz-historia-26",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo que levou à independência das colónias americanas?",
+    "options": [
+      "Guerra Franco-Prussiana",
+      "Revolução Americana",
+      "Guerra Civil Americana",
+      "Revolução Russa"
+    ],
+    "correctAnswer": "Revolução Americana",
+    "explanation": "A Revolução Americana (1775-1783) levou à independência das 13 colónias americanas em relação à Grã-Bretanha."
+  },
+  {
+    "id": "quiz-historia-27",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual imperador chinês é conhecido por sua dinastia e a construção da Grande Muralha?",
+    "options": [
+      "Qin Shi Huang",
+      "Kublai Khan",
+      "Gengis Khan",
+      "Wu Zetian"
+    ],
+    "correctAnswer": "Qin Shi Huang",
+    "explanation": "Qin Shi Huang, o primeiro imperador da China, unificou o país e iniciou a construção da Grande Muralha na sua forma mais amplamente conhecida."
+  },
+  {
+    "id": "quiz-historia-28",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente está a Índia?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Norte"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Índia é um país localizado no subcontinente indiano, no sul da Ásia."
+  },
+  {
+    "id": "quiz-historia-29",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento artístico que enfatiza o uso de cores vibrantes e pinceladas visíveis?",
+    "options": [
+      "Barroco",
+      "Neoclassicismo",
+      "Impressionismo",
+      "Realismo"
+    ],
+    "correctAnswer": "Impressionismo",
+    "explanation": "Os impressionistas, como Monet e Renoir, buscavam capturar a impressão da luz e da cor em seus quadros."
+  },
+  {
+    "id": "quiz-historia-30",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual evento levou ao início da Guerra do Vietnã?",
+    "options": [
+      "A invasão da Coreia do Norte",
+      "A Guerra da Indochina",
+      "A queda de Saigão",
+      "O assassinato de John F. Kennedy"
+    ],
+    "correctAnswer": "A Guerra da Indochina",
+    "explanation": "A Guerra da Indochina (1946-1954) criou as condições para o conflito posterior no Vietnã."
+  },
+  {
+    "id": "quiz-historia-31",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que ano começou a Primeira Guerra Mundial?",
+    "options": [
+      "1914",
+      "1917",
+      "1918",
+      "1920"
+    ],
+    "correctAnswer": "1914",
+    "explanation": "A Primeira Guerra Mundial começou em 1914 e terminou em 1918."
+  },
+  {
+    "id": "quiz-historia-32",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento cultural que valorizava o sentimento e a emoção?",
+    "options": [
+      "Realismo",
+      "Neoclassicismo",
+      "Romantismo",
+      "Classicismo"
+    ],
+    "correctAnswer": "Romantismo",
+    "explanation": "O Romantismo enfatizava a subjetividade, a imaginação e a emoção como fontes de inspiração artística."
+  },
+  {
+    "id": "quiz-historia-33",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual filósofo influenciou fortemente a Declaração de Independência dos EUA?",
+    "options": [
+      "Platão",
+      "Aristóteles",
+      "John Locke",
+      "Jean-Jacques Rousseau"
+    ],
+    "correctAnswer": "John Locke",
+    "explanation": "As ideias de John Locke sobre direitos naturais e governo limitado foram fundamentais para a filosofia da Declaração de Independência."
+  },
+  {
+    "id": "quiz-historia-34",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual o nome do movimento que lutou contra a escravidão nos EUA?",
+    "options": [
+      "Abolitionismo",
+      "Sufragismo",
+      "Temperança",
+      "Populismo"
+    ],
+    "correctAnswer": "Abolitionismo",
+    "explanation": "O movimento abolicionista lutava pela abolição da escravidão nos Estados Unidos."
+  },
+  {
+    "id": "quiz-historia-35",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Quem pintou a Guernica?",
+    "options": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Michelangelo",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": "Pablo Picasso",
+    "explanation": "Guernica é um famoso quadro de Pablo Picasso que retrata o horror da guerra."
+  },
+  {
+    "id": "quiz-historia-36",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do líder da resistência francesa durante a Segunda Guerra Mundial?",
+    "options": [
+      "Charles de Gaulle",
+      "Winston Churchill",
+      "Adolf Hitler",
+      "Joseph Stalin"
+    ],
+    "correctAnswer": "Charles de Gaulle",
+    "explanation": "Charles de Gaulle liderou a França Livre durante a Segunda Guerra Mundial."
+  },
+  {
+    "id": "quiz-historia-37",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente fica o Brasil?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "África",
+      "América do Sul"
+    ],
+    "correctAnswer": "América do Sul",
+    "explanation": "O Brasil é o maior país da América do Sul."
+  },
+  {
+    "id": "quiz-historia-38",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico se caracterizou pelo uso da perspectiva e da representação realista do corpo humano?",
+    "options": [
+      "Gótico",
+      "Românico",
+      "Renascimento",
+      "Barroco"
+    ],
+    "correctAnswer": "Renascimento",
+    "explanation": "O Renascimento marcou um retorno à arte clássica grega e romana, com ênfase na representação realista da forma humana."
+  },
+  {
+    "id": "quiz-historia-39",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do tratado que encerrou a Guerra de Independência dos EUA?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Paris",
+      "Tratado de Tordesilhas",
+      "Tratado de Utrecht"
+    ],
+    "correctAnswer": "Tratado de Paris",
+    "explanation": "O Tratado de Paris, assinado em 1783, reconheceu a independência dos Estados Unidos da América."
+  },
+  {
+    "id": "quiz-historia-40",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que continente fica a Austrália?",
+    "options": [
+      "África",
+      "América do Sul",
+      "Oceania",
+      "Antártica"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "A Austrália é o menor continente e o maior país da Oceania.  Curiosidade: A Austrália abriga a Grande Barreira de Corais, o maior sistema de recifes de coral do mundo."
+  },
+  {
+    "id": "quiz-historia-41",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso monumento egípcio que guarda as tumbas dos faraós?",
+    "options": [
+      "Coliseu",
+      "Muro de Berlim",
+      "Pirâmides de Gizé",
+      "Muralha da China"
+    ],
+    "correctAnswer": "Pirâmides de Gizé",
+    "explanation": "As Pirâmides de Gizé são uma das Sete Maravilhas do Mundo Antigo. Curiosidade: A maior pirâmide, a de Quéops, foi a estrutura mais alta feita pelo homem por mais de 3.800 anos."
+  },
+  {
+    "id": "quiz-historia-42",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual evento histórico é frequentemente associado ao início da Renascença?",
+    "options": [
+      "A queda do Império Romano do Ocidente",
+      "A descoberta da América",
+      "A invenção da imprensa",
+      "A queda de Constantinopla"
+    ],
+    "correctAnswer": "A queda de Constantinopla",
+    "explanation": "A queda de Constantinopla em 1453 marcou o fim do Império Bizantino e muitos estudiosos bizantinos fugiram para a Itália, levando consigo conhecimentos clássicos que contribuíram para o florescimento do Renascimento. Curiosidade:  Muitos manuscritos clássicos foram preservados pelos bizantinos, evitando sua perda completa para a história."
+  },
+  {
+    "id": "quiz-historia-43",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Quem foi o líder do Partido Bolchevique durante a Revolução Russa, que mais tarde se tornou o primeiro líder da União Soviética?",
+    "options": [
+      "Leon Trotsky",
+      "Vladimir Lenin",
+      "Joseph Stalin",
+      "Grigori Rasputin"
+    ],
+    "correctAnswer": "Vladimir Lenin",
+    "explanation": "Lenin liderou os bolcheviques na tomada do poder em 1917. Curiosidade:  A Revolução Russa teve profundas consequências geopolíticas, moldando o século XX."
+  },
+  {
+    "id": "quiz-historia-44",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual foi a principal causa da Guerra Fria?",
+    "options": [
+      "Disputas territoriais na Europa",
+      "A corrida espacial",
+      "Diferenças ideológicas entre o capitalismo e o comunismo",
+      "O assassinato de um líder mundial"
+    ],
+    "correctAnswer": "Diferenças ideológicas entre o capitalismo e o comunismo",
+    "explanation": "A Guerra Fria foi uma luta ideológica e geopolítica entre os EUA (capitalista) e a URSS (comunista). Curiosidade:  A Guerra Fria nunca resultou em um conflito direto entre os dois países, mas levou a inúmeras guerras por procuração em todo o mundo."
+  },
+  {
+    "id": "quiz-historia-45",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual civilização antiga construiu Machu Picchu?",
+    "options": [
+      "Asteca",
+      "Maia",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctAnswer": "Inca",
+    "explanation": "Machu Picchu é uma cidade Inca localizada nas montanhas dos Andes peruanos. Curiosidade: Machu Picchu permaneceu escondida dos conquistadores espanhóis por séculos, sendo redescoberta apenas no século XX."
+  },
+  {
+    "id": "quiz-historia-46",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Em que ano ocorreu o Massacre de Boston?",
+    "options": [
+      "1770",
+      "1776",
+      "1783",
+      "1789"
+    ],
+    "correctAnswer": "1770",
+    "explanation": "O Massacre de Boston foi um incidente crucial que contribuiu para o início da Revolução Americana. Curiosidade: O incidente envolveu soldados britânicos que atiraram contra civis americanos."
+  },
+  {
+    "id": "quiz-historia-47",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual o nome do filósofo iluminista que escreveu 'O Contrato Social'?",
+    "options": [
+      "John Locke",
+      "Immanuel Kant",
+      "Jean-Jacques Rousseau",
+      "Montesquieu"
+    ],
+    "correctAnswer": "Jean-Jacques Rousseau",
+    "explanation": "'O Contrato Social' explora ideias sobre a soberania popular e o governo. Curiosidade: As ideias de Rousseau influenciaram a Revolução Francesa."
+  },
+  {
+    "id": "quiz-historia-48",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Taj Mahal?",
+    "options": [
+      "China",
+      "Índia",
+      "Egito",
+      "Irã"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Taj Mahal é um mausoléu de mármore branco na Índia. Curiosidade: Foi construído pelo imperador Mughal Shah Jahan em memória de sua esposa."
+  },
+  {
+    "id": "quiz-historia-49",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento artístico que rejeitava a tradição e valorizava a espontaneidade e a expressão individual?",
+    "options": [
+      "Realismo",
+      "Neoclassicismo",
+      "Romantismo",
+      "Barroco"
+    ],
+    "correctAnswer": "Romantismo",
+    "explanation": "O Romantismo se opunha ao racionalismo do Iluminismo. Curiosidade: Pintores românticos muitas vezes retratavam cenas dramáticas da natureza e da história."
+  },
+  {
+    "id": "quiz-historia-50",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual tratado oficialmente encerrou a Primeira Guerra Mundial?",
+    "options": [
+      "Tratado de Versalhes",
+      "Tratado de Tordesilhas",
+      "Tratado de Paris",
+      "Tratado de Ghent"
+    ],
+    "correctAnswer": "Tratado de Versalhes",
+    "explanation": "O Tratado de Versalhes impôs duras penalidades à Alemanha. Curiosidade:  Muitos historiadores argumentam que as condições impostas pelo tratado contribuíram para o surgimento da Segunda Guerra Mundial."
+  },
+  {
+    "id": "quiz-historia-51",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Qual evento histórico é amplamente considerado o início da Primeira Guerra Mundial?",
+    "options": [
+      "A invasão da Polónia",
+      "O ataque a Pearl Harbor",
+      "O assassinato do Arquiduque Franz Ferdinand",
+      "A declaração de guerra da Alemanha à França"
+    ],
+    "correctAnswer": "O assassinato do Arquiduque Franz Ferdinand",
+    "explanation": "O assassinato do Arquiduque Franz Ferdinand desencadeou uma série de eventos que levaram à guerra. Curiosidade: O atentado foi cometido por um nacionalista sérvio."
+  },
+  {
+    "id": "quiz-historia-52",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual a capital do Império Bizantino?",
+    "options": [
+      "Roma",
+      "Atenas",
+      "Constantinopla",
+      "Alexandria"
+    ],
+    "correctAnswer": "Constantinopla",
+    "explanation": "Constantinopla, hoje Istambul, foi a capital do Império Bizantino por quase mil anos. Curiosidade: A cidade era uma importante encruzilhada comercial e cultural."
+  },
+  {
+    "id": "quiz-historia-53",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Quem liderou a Marcha do Sal na Índia?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Indira Gandhi",
+      "Sardar Vallabhbhai Patel"
+    ],
+    "correctAnswer": "Mahatma Gandhi",
+    "explanation": "A Marcha do Sal foi uma importante demonstração de desobediência civil contra o domínio britânico. Curiosidade: A marcha simbolizava a resistência pacífica contra a opressão."
+  },
+  {
+    "id": "quiz-historia-54",
+    "categoryId": "historia",
+    "difficulty": "easy",
+    "question": "Em que século viveu Genghis Khan?",
+    "options": [
+      "XII",
+      "XIV",
+      "XIII",
+      "XV"
+    ],
+    "correctAnswer": "XIII",
+    "explanation": "Genghis Khan foi um líder mongol que unificou várias tribos e criou um vasto império. Curiosidade: O império mongol se estendeu por grande parte da Ásia."
+  },
+  {
+    "id": "quiz-historia-55",
+    "categoryId": "historia",
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento artístico que valorizava a representação subjetiva da realidade, enfatizando a emoção e a expressão pessoal do artista?",
+    "options": [
+      "Realismo",
+      "Impressionismo",
+      "Expressionismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Expressionismo",
+    "explanation": "O expressionismo buscava expressar a emoção interna do artista em vez da representação objetiva da realidade. Curiosidade: Artistas expressionistas utilizavam cores vibrantes e formas distorcidas para expressar seus sentimentos."
+  },
+  {
+    "id": "quiz-historia-56",
+    "categoryId": "historia",
+    "difficulty": "hard",
+    "question": "Qual foi o principal fator que contribuiu para o início da Guerra dos Trinta Anos?",
+    "options": [
+      "Disputas territoriais entre nações europeias",
+      "A Reforma Protestante",
+      "A ascensão do poderio francês",
+      "Uma crise econômica generalizada"
+    ],
+    "correctAnswer": "A Reforma Protestante",
+    "explanation": "A Reforma Protestante agravou as tensões religiosas e políticas na Europa, culminando na Guerra dos Trinta Anos. Curiosidade: A guerra envolveu potências europeias e teve um grande impacto na demografia e na geopolítica da Europa."
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "quiz-musica-1",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento é conhecido como 'a rainha dos instrumentos'?",
+    "options": [
+      "Violino",
+      "Piano",
+      "Violoncelo",
+      "Flauta"
+    ],
+    "correctAnswer": "Piano",
+    "explanation": "O piano é frequentemente chamado de 'a rainha dos instrumentos' devido à sua versatilidade e ampla gama dinâmica. Curiosamente, o piano moderno tem cerca de 88 teclas, cobrindo mais de sete oitavas."
+  },
+  {
+    "id": "quiz-musica-2",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes artistas é conhecido por seu estilo reggae?",
+    "options": [
+      "Michael Jackson",
+      "Elvis Presley",
+      "Bob Marley",
+      "Freddie Mercury"
+    ],
+    "correctAnswer": "Bob Marley",
+    "explanation": "Bob Marley é um ícone do reggae, conhecido por suas músicas que abordam temas sociais e espirituais.  Seu álbum 'Legend' é um dos álbuns de reggae mais vendidos de todos os tempos."
+  },
+  {
+    "id": "quiz-musica-3",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual a nacionalidade de Beethoven?",
+    "options": [
+      "Italiano",
+      "Alemão",
+      "Austríaco",
+      "Francês"
+    ],
+    "correctAnswer": "Alemão",
+    "explanation": "Ludwig van Beethoven nasceu em Bonn, Alemanha. Sua música é considerada uma ponte entre os períodos Clássico e Romântico na história da música."
+  },
+  {
+    "id": "quiz-musica-4",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual destes gêneros musicais se originou no sul dos Estados Unidos?",
+    "options": [
+      "Rock and Roll",
+      "Salsa",
+      "Blues",
+      "Tango"
+    ],
+    "correctAnswer": "Blues",
+    "explanation": "O blues nasceu no final do século XIX no sul dos Estados Unidos, frequentemente associado a canções de trabalho e experiências afro-americanas.  Influenciou profundamente diversos outros gêneros musicais."
+  },
+  {
+    "id": "quiz-musica-5",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Quem compôs 'A Floresta Encantada'?",
+    "options": [
+      "Richard Wagner",
+      "Modest Mussorgsky",
+      "Igor Stravinsky",
+      "Antonín Dvořák"
+    ],
+    "correctAnswer": "Modest Mussorgsky",
+    "explanation": "'Uma Noite no Monte Calvo' é parte da suíte 'Imagens de uma Exposição', composta por Mussorgsky.  A 'Floresta Encantada' é uma peça frequentemente associada a ele devido a sua utilização em filmes e adaptações."
+  },
+  {
+    "id": "quiz-musica-6",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido por suas 'Variações Goldberg'?",
+    "options": [
+      "Bach",
+      "Mozart",
+      "Haydn",
+      "Handel"
+    ],
+    "correctAnswer": "Bach",
+    "explanation": "As 'Variações Goldberg' de Johann Sebastian Bach são um exemplo de sua maestria composicional.  A obra é uma série de variações sobre uma ária, demonstrando a complexidade e beleza da música barroca."
+  },
+  {
+    "id": "quiz-musica-7",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento de percussão é geralmente usado em bandas de marcha?",
+    "options": [
+      "Violino",
+      "Trompete",
+      "Chimbau",
+      "Guitarra"
+    ],
+    "correctAnswer": "Chimbau",
+    "explanation": "Os chimbaus são pratos de metal que produzem um som metálico vibrante, frequentemente usados em desfiles e bandas de marcha.  Há diferentes tamanhos e sons de chimbau."
+  },
+  {
+    "id": "quiz-musica-8",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes cantores é conhecido por seu falsete?",
+    "options": [
+      "Frank Sinatra",
+      "Freddie Mercury",
+      "Elvis Presley",
+      "John Lennon"
+    ],
+    "correctAnswer": "Freddie Mercury",
+    "explanation": "Freddie Mercury, do Queen, era famoso por seu excepcional alcance vocal, incluindo seu impressionante uso de falsete. Curiosamente, ele também era multi-instrumentista."
+  },
+  {
+    "id": "quiz-musica-9",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual a assinatura de tempo mais comum em música?",
+    "options": [
+      "3/4",
+      "4/4",
+      "6/8",
+      "5/4"
+    ],
+    "correctAnswer": "4/4",
+    "explanation": "A assinatura de tempo 4/4, ou compasso comum, é a mais usada pois indica quatro batidas por compasso, sendo cada uma uma semínima.  É versátil para muitos estilos musicais."
+  },
+  {
+    "id": "quiz-musica-10",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual destes artistas é conhecido por seu estilo de música eletrônica?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Daft Punk",
+      "Bruce Springsteen"
+    ],
+    "correctAnswer": "Daft Punk",
+    "explanation": "Daft Punk é uma dupla francesa de música eletrônica conhecida por seus álbuns inovadores e shows visualmente deslumbrantes.  Sua música influenciou fortemente o gênero."
+  },
+  {
+    "id": "quiz-musica-11",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual é a tonalidade da peça 'Claro de Lua' de Debussy?",
+    "options": [
+      "Dó Maior",
+      "Dó Menor",
+      "Sol Maior",
+      "Sol Menor"
+    ],
+    "correctAnswer": "Dó # Menor",
+    "explanation": "Apesar da aparente simplicidade, 'Claro de Lua' é em Dó # Menor, mostrando a sensibilidade harmônica de Debussy.  A peça é um exemplo impressionista na música clássica."
+  },
+  {
+    "id": "quiz-musica-12",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido por sua ópera 'A Bohème'?",
+    "options": [
+      "Puccini",
+      "Verdi",
+      "Rossini",
+      "Wagner"
+    ],
+    "correctAnswer": "Puccini",
+    "explanation": "Giacomo Puccini compôs 'La Bohème', uma das óperas mais populares e tocadas do repertório.  Sua história romântica e melodias memoráveis a tornaram um clássico."
+  },
+  {
+    "id": "quiz-musica-13",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento geralmente acompanha o cantor em um blues tradicional?",
+    "options": [
+      "Violino",
+      "Guitarra",
+      "Trompete",
+      "Flauta"
+    ],
+    "correctAnswer": "Guitarra",
+    "explanation": "A guitarra é o instrumento principal em muitos estilos de blues, fornecendo a base harmônica e melódica para o vocalista.  O slide guitar é uma técnica popular em blues."
+  },
+  {
+    "id": "quiz-musica-14",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Em qual década surgiu o Rock and Roll?",
+    "options": [
+      "1940",
+      "1950",
+      "1960",
+      "1970"
+    ],
+    "correctAnswer": "1950",
+    "explanation": "O Rock and Roll surgiu nos Estados Unidos na década de 1950, fundindo influências do blues, rhythm and blues e country.  Artistas como Elvis Presley e Chuck Berry ajudaram a popularizar o gênero."
+  },
+  {
+    "id": "quiz-musica-15",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual compositor é conhecido pelas suas 'Danças Húngaras'?",
+    "options": [
+      "Chopin",
+      "Brahms",
+      "Liszt",
+      "Schubert"
+    ],
+    "correctAnswer": "Brahms",
+    "explanation": "Johannes Brahms compôs 21 Danças Húngaras, inspiradas na música folclórica húngara. Elas são frequentemente usadas em contextos de concertos e gravações."
+  },
+  {
+    "id": "quiz-musica-16",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual é o nome do movimento musical que sucedeu o Barroco?",
+    "options": [
+      "Renascentista",
+      "Clássico",
+      "Romântico",
+      "Medieval"
+    ],
+    "correctAnswer": "Clássico",
+    "explanation": "O período Clássico na música sucedeu o Barroco, caracterizando-se por uma maior clareza formal e estrutural.  Compositores como Haydn, Mozart e Beethoven são exemplos do período clássico."
+  },
+  {
+    "id": "quiz-musica-17",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido pela sua ópera 'Carmen'?",
+    "options": [
+      "Bizet",
+      "Verdi",
+      "Puccini",
+      "Wagner"
+    ],
+    "correctAnswer": "Bizet",
+    "explanation": "Georges Bizet compôs a ópera 'Carmen', uma obra-prima da ópera francesa com melodias cativantes e uma história dramática.  'Habanera' é uma das árias mais conhecidas de 'Carmen'."
+  },
+  {
+    "id": "quiz-musica-18",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Quem compôs 'The Four Seasons'?",
+    "options": [
+      "Bach",
+      "Vivaldi",
+      "Handel",
+      "Mozart"
+    ],
+    "correctAnswer": "Vivaldi",
+    "explanation": "Antonio Vivaldi compôs 'As Quatro Estações', um conjunto de concertos para violino que descrevem as estações do ano.  A obra é um exemplo notável do período Barroco."
+  },
+  {
+    "id": "quiz-musica-19",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é conhecido por suas cordas?",
+    "options": [
+      "Bateria",
+      "Trombone",
+      "Violino",
+      "Saxofone"
+    ],
+    "correctAnswer": "Violino",
+    "explanation": "O violino é um instrumento de cordas friccionadas, conhecido por sua expressividade e ampla utilização em diversos gêneros musicais. Existem diversos tipos de violinos, incluindo o violino clássico e o violino elétrico."
+  },
+  {
+    "id": "quiz-musica-20",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual gênero musical é conhecido por suas batidas fortes e rápidas?",
+    "options": [
+      "Jazz",
+      "Blues",
+      "Clássica",
+      "Metal"
+    ],
+    "correctAnswer": "Metal",
+    "explanation": "O metal é conhecido pelas suas batidas fortes, rápidas e pesadas, e por letras frequentemente obscuras ou agressivas. Existem vários subgêneros dentro do metal, como o death metal, thrash metal e black metal."
+  },
+  {
+    "id": "quiz-musica-21",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual destes compositores foi um prolífico compositor de concertos para piano?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Chopin",
+      "Rachmaninoff"
+    ],
+    "correctAnswer": "Rachmaninoff",
+    "explanation": "Sergei Rachmaninoff era um virtuoso pianista e compôs muitos concertos para piano virtuosos e tecnicamente desafiadores.  Seus concertos para piano são muito populares até hoje."
+  },
+  {
+    "id": "quiz-musica-22",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual o nome do sistema de afinação ocidental?",
+    "options": [
+      "Sistema Pentatônico",
+      "Sistema de Afinação Justa",
+      "Sistema de Afinação de Temperamento Igual",
+      "Sistema Diatônico"
+    ],
+    "correctAnswer": "Sistema de Afinação de Temperamento Igual",
+    "explanation": "O sistema de temperamento igual é o sistema de afinação predominante na música ocidental moderna, permitindo a transposição de peças para diferentes tonalidades sem alterações significativas de intervalo."
+  },
+  {
+    "id": "quiz-musica-23",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido por sua ópera 'O Anel do Nibelungo'?",
+    "options": [
+      "Verdi",
+      "Wagner",
+      "Puccini",
+      "Strauss"
+    ],
+    "correctAnswer": "Wagner",
+    "explanation": "Richard Wagner compôs 'Der Ring des Nibelungen' ('O Anel do Nibelungo'), um ciclo de quatro óperas grandiosas que contam uma mitologia nórdica.  A obra é conhecida por sua grandiosidade e complexidade."
+  },
+  {
+    "id": "quiz-musica-24",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual a função de um contrabaixo em uma banda?",
+    "options": [
+      "Melodia principal",
+      "Harmonia e baixo",
+      "Solo melódico",
+      "Percussão"
+    ],
+    "correctAnswer": "Harmonia e baixo",
+    "explanation": "O contrabaixo, geralmente, fornece a base harmônica e melódica baixa para uma banda, interagindo com a bateria para formar a base rítmica.  Embora possa fazer solos, a sua função principal é a harmonia e o baixo."
+  },
+  {
+    "id": "quiz-musica-25",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual artista é conhecido pela canção 'Like a Rolling Stone'?",
+    "options": [
+      "The Beatles",
+      "Bob Dylan",
+      "The Rolling Stones",
+      "Jimi Hendrix"
+    ],
+    "correctAnswer": "Bob Dylan",
+    "explanation": "'Like a Rolling Stone' é uma canção icônica de Bob Dylan, famosa por sua mudança na paisagem musical e pela sua longa duração."
+  },
+  {
+    "id": "quiz-musica-26",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é um instrumento de sopro?",
+    "options": [
+      "Violino",
+      "Guitarra",
+      "Trombone",
+      "Piano"
+    ],
+    "correctAnswer": "Trombone",
+    "explanation": "O trombone é um instrumento de sopro de metal, conhecido por seu slide que permite ao músico alterar o comprimento do tubo e assim, produzir diferentes notas."
+  },
+  {
+    "id": "quiz-musica-27",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual o nome do intervalo musical entre duas notas adjacentes na escala diatônica?",
+    "options": [
+      "Terça maior",
+      "Segunda maior",
+      "Quarta justa",
+      "Quinta justa"
+    ],
+    "correctAnswer": "Segunda maior",
+    "explanation": "O intervalo entre duas notas adjacentes na escala diatônica é uma segunda maior. Existem segundas menores, maiores e aumentadas."
+  },
+  {
+    "id": "quiz-musica-28",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual artista é associado ao movimento 'Grunge'?",
+    "options": [
+      "Michael Jackson",
+      "Madonna",
+      "Nirvana",
+      "Prince"
+    ],
+    "correctAnswer": "Nirvana",
+    "explanation": "Nirvana, liderada por Kurt Cobain, foi uma das bandas mais importantes do movimento grunge, surgido em Seattle na década de 1990."
+  },
+  {
+    "id": "quiz-musica-29",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor é conhecido por suas 'Imagens de uma Exposição'?",
+    "options": [
+      "Tchaikovsky",
+      "Mussorgsky",
+      "Rimsky-Korsakov",
+      "Stravinsky"
+    ],
+    "correctAnswer": "Mussorgsky",
+    "explanation": "Modest Mussorgsky compôs 'Imagens de uma Exposição', uma suíte para piano que retrata uma visita a uma exposição de arte.  A peça é popular e amplamente interpretada."
+  },
+  {
+    "id": "quiz-musica-30",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor escreveu a ópera 'Die Walküre'?",
+    "options": [
+      "Verdi",
+      "Wagner",
+      "Strauss",
+      "Puccini"
+    ],
+    "correctAnswer": "Wagner",
+    "explanation": "'Die Walküre' (A Valquíria) é a segunda ópera do ciclo 'O Anel do Nibelungo', de Richard Wagner.  A obra é dramática e musicalmente complexa."
+  },
+  {
+    "id": "quiz-musica-31",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual instrumento é frequentemente usado em música folclórica irlandesa?",
+    "options": [
+      "Guitarra elétrica",
+      "Violino",
+      "Acordeão",
+      "Saxofone"
+    ],
+    "correctAnswer": "Acordeão",
+    "explanation": "O acordeão é um instrumento popular na música folclórica irlandesa, conhecido por seu som vibrante e sua capacidade de criar melodias complexas."
+  },
+  {
+    "id": "quiz-musica-32",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual destes é um tipo de guitarra?",
+    "options": [
+      "Trompete",
+      "Violino",
+      "Guitarra Baixo",
+      "Flauta"
+    ],
+    "correctAnswer": "Guitarra Baixo",
+    "explanation": "A guitarra baixo é um instrumento de corda com quatro cordas, geralmente afinado uma oitava abaixo da guitarra."
+  },
+  {
+    "id": "quiz-musica-33",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual é o nome da escala musical com cinco notas?",
+    "options": [
+      "Escala Pentatônica",
+      "Escala Diatônica",
+      "Escala Cromática",
+      "Escala Blues"
+    ],
+    "correctAnswer": "Escala Pentatônica",
+    "explanation": "A escala pentatônica é uma escala musical com cinco notas, frequentemente usada em músicas folclóricas e em gêneros musicais como o blues e o jazz."
+  },
+  {
+    "id": "quiz-musica-34",
+    "categoryId": "musica",
+    "difficulty": "medium",
+    "question": "Qual destes compositores era do período barroco?",
+    "options": [
+      "Beethoven",
+      "Mozart",
+      "Bach",
+      "Chopin"
+    ],
+    "correctAnswer": "Bach",
+    "explanation": "Johann Sebastian Bach foi um importante compositor do período barroco, conhecido por suas obras complexas e altamente elaboradas para teclado e orquestra."
+  },
+  {
+    "id": "quiz-musica-35",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual compositor escreveu 'Bolero'?",
+    "options": [
+      "Debussy",
+      "Ravel",
+      "Satie",
+      "Fauré"
+    ],
+    "correctAnswer": "Ravel",
+    "explanation": "Maurice Ravel compôs 'Bolero', uma peça musical conhecida por sua estrutura repetitiva e crescente intensidade."
+  },
+  {
+    "id": "quiz-musica-36",
+    "categoryId": "musica",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre uma sonata e uma sinfonia?",
+    "options": [
+      "Nenhuma, são sinônimos.",
+      "A sonata é para instrumentos solo, a sinfonia para orquestra.",
+      "A sonata é para orquestra, a sinfonia para instrumentos solo.",
+      "Ambas são para coral."
+    ],
+    "correctAnswer": "A sonata é para instrumentos solo, a sinfonia para orquestra.",
+    "explanation": "Sonatas são geralmente para um ou dois instrumentos, enquanto sinfonias são compostas para uma orquestra completa."
+  },
+  {
+    "id": "quiz-musica-37",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual desses instrumentos é de percussão?",
+    "options": [
+      "Violoncelo",
+      "Trompete",
+      "Bateria",
+      "Flauta"
+    ],
+    "correctAnswer": "Bateria",
+    "explanation": "A bateria é um conjunto de instrumentos de percussão, usados em muitos gêneros musicais."
+  },
+  {
+    "id": "quiz-musica-38",
+    "categoryId": "musica",
+    "difficulty": "easy",
+    "question": "Qual artista é conhecido como 'O Rei do Pop'?",
+    "options": [
+      "Elvis Presley",
+      "Freddie Mercury",
+      "Michael Jackson",
+      "David Bowie"
+    ],
+    "correctAnswer": "Michael Jackson",
+    "explanation": "Michael Jackson foi apelidado de 'Rei do Pop' por sua influência revolucionária na música pop, dança e vídeos musicais."
+  }
+]

@@ -1,0 +1,716 @@
+[
+  {
+    "id": "quiz-lugares-1",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga a Torre Eiffel?",
+    "options": [
+      "Reino Unido",
+      "Estados Unidos",
+      "França",
+      "Itália"
+    ],
+    "correctAnswer": "França",
+    "explanation": "A Torre Eiffel está localizada em Paris, França.  Uma curiosidade: Ela foi construída para a Exposição Universal de 1889."
+  },
+  {
+    "id": "quiz-lugares-2",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Em qual continente fica o Egito?",
+    "options": [
+      "Europa",
+      "Ásia",
+      "África",
+      "América do Sul"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Egito é um país localizado no nordeste da África.  Curiosidade: O Rio Nilo atravessa o Egito, sendo crucial para sua história e cultura."
+  },
+  {
+    "id": "quiz-lugares-3",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual cidade é conhecida como a 'Cidade dos Ventos'?",
+    "options": [
+      "Nova York",
+      "Chicago",
+      "Londres",
+      "Mumbai"
+    ],
+    "correctAnswer": "Chicago",
+    "explanation": "Chicago é conhecida como a 'Cidade dos Ventos' devido aos seus ventos fortes e constantes do Lago Michigan. Curiosidade:  Os arranha-céus de Chicago influenciaram a arquitetura mundial."
+  },
+  {
+    "id": "quiz-lugares-4",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país possui o maior número de ilhas?",
+    "options": [
+      "Indonésia",
+      "Filipinas",
+      "Canadá",
+      "Japão"
+    ],
+    "correctAnswer": "Indonésia",
+    "explanation": "A Indonésia tem mais de 17.000 ilhas. Curiosidade: A Indonésia é o maior arquipélago do mundo."
+  },
+  {
+    "id": "quiz-lugares-5",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a capital do Butão?",
+    "options": [
+      "Kathmandu",
+      "Thimphu",
+      "Daca",
+      "Pequim"
+    ],
+    "correctAnswer": "Thimphu",
+    "explanation": "Thimphu é a capital do Butão, um reino no Himalaia. Curiosidade: O Butão é um dos países com maior índice de felicidade mundial."
+  },
+  {
+    "id": "quiz-lugares-6",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Onde fica a Muralha da China?",
+    "options": [
+      "Índia",
+      "China",
+      "Japão",
+      "Coréia do Sul"
+    ],
+    "correctAnswer": "China",
+    "explanation": "A Grande Muralha da China é uma série de fortificações construídas ao longo de séculos. Curiosidade: É visível do espaço, mas não tão claramente como se imagina."
+  },
+  {
+    "id": "quiz-lugares-7",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual oceano banha as costas oeste dos Estados Unidos?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Pacífico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico banha a costa oeste dos Estados Unidos. Curiosidade: O Pacífico é o maior oceano do mundo em área."
+  },
+  {
+    "id": "quiz-lugares-8",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual o nome do deserto mais quente do mundo?",
+    "options": [
+      "Deserto do Atacama",
+      "Deserto do Saara",
+      "Deserto de Mojave",
+      "Deserto da Arábia"
+    ],
+    "correctAnswer": "Deserto de Lut",
+    "explanation": "Embora o Saara seja muito conhecido, o Deserto de Lut no Irã detém o recorde de temperatura mais alta já registrada no mundo. Curiosidade:  O Lut é conhecido por suas dunas altas e seu clima extremamente árido."
+  },
+  {
+    "id": "quiz-lugares-9",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual cidade é conhecida como a 'Capital Mundial do Cinema'?",
+    "options": [
+      "Nova Iorque",
+      "Paris",
+      "Los Angeles",
+      "Roma"
+    ],
+    "correctAnswer": "Los Angeles",
+    "explanation": "Hollywood, em Los Angeles, é o centro da indústria cinematográfica americana. Curiosidade: Os estúdios de cinema em Hollywood são mundialmente famosos."
+  },
+  {
+    "id": "quiz-lugares-10",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Em qual país fica o Taj Mahal?",
+    "options": [
+      "Paquistão",
+      "Índia",
+      "Nepal",
+      "Bangladesh"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Taj Mahal é um mausoléu de mármore branco localizado em Agra, Índia. Curiosidade: Foi construído por um imperador muçulmano em homenagem a sua esposa."
+  },
+  {
+    "id": "quiz-lugares-11",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a maior ilha do Mediterrâneo?",
+    "options": [
+      "Sicília",
+      "Sardenha",
+      "Chipre",
+      "Creta"
+    ],
+    "correctAnswer": "Sicília",
+    "explanation": "A Sicília, localizada na Itália, é a maior ilha do Mar Mediterrâneo. Curiosidade: Ela tem uma história rica e cultura diversificada influenciada por vários povos."
+  },
+  {
+    "id": "quiz-lugares-12",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Onde fica a Estátua da Liberdade?",
+    "options": [
+      "Londres",
+      "Paris",
+      "Nova York",
+      "Roma"
+    ],
+    "correctAnswer": "Nova York",
+    "explanation": "A Estátua da Liberdade está localizada na Ilha da Liberdade, em Nova York. Curiosidade: Foi um presente da França para os Estados Unidos."
+  },
+  {
+    "id": "quiz-lugares-13",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual rio atravessa a cidade de Roma?",
+    "options": [
+      "Rio Tibre",
+      "Rio Sena",
+      "Rio Danúbio",
+      "Rio Reno"
+    ],
+    "correctAnswer": "Rio Tibre",
+    "explanation": "O Rio Tibre atravessa a cidade de Roma, na Itália. Curiosidade:  Ele desempenhou um papel importante na história e no desenvolvimento da cidade."
+  },
+  {
+    "id": "quiz-lugares-14",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país é dividido pelo Equador e pelo Meridiano de Greenwich?",
+    "options": [
+      "Gabão",
+      "Quênia",
+      "República do Congo",
+      "Brasil"
+    ],
+    "correctAnswer": "Gabão",
+    "explanation": "O Gabão é um dos poucos países que é atravessado tanto pela linha do Equador quanto pelo Meridiano de Greenwich. Curiosidade:  Isso proporciona paisagens e climas bem diversos em seu território."
+  },
+  {
+    "id": "quiz-lugares-15",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual a montanha mais alta do mundo?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Monte Everest",
+      "Lhotse"
+    ],
+    "correctAnswer": "Monte Everest",
+    "explanation": "O Monte Everest está localizado na cordilheira do Himalaia. Curiosidade: Sua altitude é de aproximadamente 8.848,86 metros acima do nível do mar."
+  },
+  {
+    "id": "quiz-lugares-16",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a capital da Austrália?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctAnswer": "Canberra",
+    "explanation": "Canberra é a capital da Austrália. Curiosidade: Ela foi projetada e construída especificamente para ser a capital, não existindo antes como uma grande cidade."
+  },
+  {
+    "id": "quiz-lugares-17",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual deserto é conhecido por suas pinturas rupestres?",
+    "options": [
+      "Deserto do Atacama",
+      "Deserto do Saara",
+      "Deserto de Mojave",
+      "Deserto de Namib"
+    ],
+    "correctAnswer": "Deserto do Saara",
+    "explanation": "O Deserto do Saara contém importantes sítios arqueológicos com pinturas rupestres que revelam informações sobre a história da região. Curiosidade: Muitas das pinturas rupestres do Saara representam animais que não existem mais na região, evidenciando mudanças climáticas ao longo do tempo."
+  },
+  {
+    "id": "quiz-lugares-18",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Em qual país fica Machu Picchu?",
+    "options": [
+      "México",
+      "Peru",
+      "Colômbia",
+      "Bolívia"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "Machu Picchu é uma cidade Inca localizada no Peru. Curiosidade: É considerada uma das maravilhas do mundo moderno."
+  },
+  {
+    "id": "quiz-lugares-19",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual o nome do maior lago do mundo?",
+    "options": [
+      "Lago Superior",
+      "Lago Vitória",
+      "Mar Cáspio",
+      "Lago Michigan"
+    ],
+    "correctAnswer": "Mar Cáspio",
+    "explanation": "Embora chamado de mar, o Mar Cáspio é um lago endorreico, ou seja, não possui saída para o mar. Curiosidade: Ele fica localizado entre a Europa e a Ásia."
+  },
+  {
+    "id": "quiz-lugares-20",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual cidade é famosa por seus canais?",
+    "options": [
+      "Veneza",
+      "Amsterdã",
+      "Bruges",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Veneza, Amsterdã e Bruges são todas famosas por seus extensos sistemas de canais. Curiosidade: Os canais de Veneza são históricos e únicos, enquanto os de Amsterdã e Bruges são parte essencial de seu charme turístico."
+  },
+  {
+    "id": "quiz-lugares-21",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Coliseu?",
+    "options": [
+      "Grécia",
+      "Itália",
+      "França",
+      "Espanha"
+    ],
+    "correctAnswer": "Itália",
+    "explanation": "O Coliseu está localizado em Roma, Itália. Curiosidade: Era usado para gladiadores e espetáculos públicos na Roma Antiga."
+  },
+  {
+    "id": "quiz-lugares-22",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a maior floresta tropical do mundo?",
+    "options": [
+      "Floresta Amazônica",
+      "Floresta Congolesa",
+      "Floresta da Indonésia",
+      "Floresta Australiana"
+    ],
+    "correctAnswer": "Floresta Amazônica",
+    "explanation": "A Floresta Amazônica abrange nove países da América do Sul. Curiosidade: É essencial para o clima global."
+  },
+  {
+    "id": "quiz-lugares-23",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país possui o deserto do Atacama?",
+    "options": [
+      "Argentina",
+      "Peru",
+      "Chile",
+      "Bolívia"
+    ],
+    "correctAnswer": "Chile",
+    "explanation": "O deserto do Atacama, no Chile, é um dos lugares mais secos do planeta. Curiosidade: Tem sido utilizado para testar equipamentos destinados ao espaço devido à sua semelhança com Marte."
+  },
+  {
+    "id": "quiz-lugares-24",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
+    "options": [
+      "China",
+      "Coréia do Sul",
+      "Japão",
+      "Índia"
+    ],
+    "correctAnswer": "Japão",
+    "explanation": "O Japão é conhecido como a 'Terra do Sol Nascente'. Curiosidade: Este nome tem origem em sua localização geográfica e sua cultura milenar."
+  },
+  {
+    "id": "quiz-lugares-25",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual a maior cachoeira do mundo em volume de água?",
+    "options": [
+      "Cataratas do Niágara",
+      "Cataratas Vitória",
+      "Cataratas do Iguaçu",
+      "Catarata Salto Ángel"
+    ],
+    "correctAnswer": "Cataratas do Iguaçu",
+    "explanation": "Embora a cachoeira Salto Ángel seja a mais alta, as Cataratas do Iguaçu são as maiores em termos de volume de água. Curiosidade: Elas se estendem por mais de 2,7 km de largura, com centenas de quedas d'água."
+  },
+  {
+    "id": "quiz-lugares-26",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Onde fica a Grande Pirâmide de Gizé?",
+    "options": [
+      "Síria",
+      "Egito",
+      "Iraque",
+      "Jordânia"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "A Grande Pirâmide de Gizé está localizada em Gizé, Egito. Curiosidade: É a mais antiga e maior das três pirâmides de Gizé e uma das sete maravilhas do mundo antigo."
+  },
+  {
+    "id": "quiz-lugares-27",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país asiático é conhecido por seus templos budistas antigos?",
+    "options": [
+      "Tailândia",
+      "Índia",
+      "China",
+      "Myanmar"
+    ],
+    "correctAnswer": "Myanmar",
+    "explanation": "Myanmar (antiga Birmânia) é um país com uma história longa e rica de templos budistas. Curiosidade: Bagan, em Myanmar, é conhecido por ter milhares de templos budistas antigos."
+  },
+  {
+    "id": "quiz-lugares-28",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Em qual continente fica a Antártida?",
+    "options": [
+      "Ásia",
+      "América do Sul",
+      "Antártica",
+      "Europa"
+    ],
+    "correctAnswer": "Antártica",
+    "explanation": "A Antártida é um continente. Curiosidade: É o continente mais frio, ventoso e seco do mundo."
+  },
+  {
+    "id": "quiz-lugares-29",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a maior cidade do Canadá?",
+    "options": [
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Calgary"
+    ],
+    "correctAnswer": "Toronto",
+    "explanation": "Toronto é a maior cidade do Canadá em população. Curiosidade: É um importante centro financeiro e cultural."
+  },
+  {
+    "id": "quiz-lugares-30",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual o nome do maior cânion do mundo?",
+    "options": [
+      "Grand Canyon",
+      "Yarlung Tsangpo Grand Canyon",
+      "Fish River Canyon",
+      "Copper Canyon"
+    ],
+    "correctAnswer": "Yarlung Tsangpo Grand Canyon",
+    "explanation": "O Yarlung Tsangpo Grand Canyon no Tibete é o maior em profundidade e comprimento, embora o Grand Canyon seja mais famoso. Curiosidade: Sua profundidade é maior que a do Grand Canyon."
+  },
+  {
+    "id": "quiz-lugares-31",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Onde fica o Cristo Redentor?",
+    "options": [
+      "Argentina",
+      "Peru",
+      "Brasil",
+      "Chile"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "O Cristo Redentor está localizado no Rio de Janeiro, Brasil. Curiosidade: É um dos cartões postais mais famosos do Brasil e uma das novas sete maravilhas do mundo."
+  },
+  {
+    "id": "quiz-lugares-32",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual cidade é famosa por sua arquitetura gótica?",
+    "options": [
+      "Roma",
+      "Paris",
+      "Londres",
+      "Praga"
+    ],
+    "correctAnswer": "Praga",
+    "explanation": "Praga, na República Tcheca, tem uma riqueza de arquitetura gótica. Curiosidade: O Castelo de Praga é um exemplo impressionante desta arquitetura."
+  },
+  {
+    "id": "quiz-lugares-33",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país tem a maior extensão de recifes de corais?",
+    "options": [
+      "Austrália",
+      "Indonésia",
+      "Brasil",
+      "Filipinas"
+    ],
+    "correctAnswer": "Austrália",
+    "explanation": "A Grande Barreira de Corais, localizada na Austrália, é o maior sistema de recifes de corais do mundo. Curiosidade: É visível do espaço e abriga uma grande biodiversidade."
+  },
+  {
+    "id": "quiz-lugares-34",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual oceano fica entre a América do Norte e a Europa?",
+    "options": [
+      "Oceano Índico",
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Atlântico",
+    "explanation": "O Oceano Atlântico separa a América do Norte e a Europa. Curiosidade: É o segundo maior oceano do mundo."
+  },
+  {
+    "id": "quiz-lugares-35",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual o nome do maior deserto gelado do mundo?",
+    "options": [
+      "Deserto do Atacama",
+      "Deserto Polar Ártico",
+      "Deserto da Antártida",
+      "Deserto de Gobi"
+    ],
+    "correctAnswer": "Deserto da Antártida",
+    "explanation": "A Antártida é o maior deserto gelado do mundo. Curiosidade: Apesar da imensa quantidade de gelo, a Antártida é classificada como deserto por sua baixa precipitação."
+  },
+  {
+    "id": "quiz-lugares-36",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país abriga o maior número de vulcões ativos?",
+    "options": [
+      "Estados Unidos",
+      "Indonésia",
+      "Japão",
+      "Chile"
+    ],
+    "correctAnswer": "Indonésia",
+    "explanation": "A Indonésia está localizada no Anel de Fogo do Pacífico, uma zona de intensa atividade sísmica e vulcânica. Curiosidade:  A Indonésia está sobre várias placas tectônicas, o que explica sua alta atividade vulcânica."
+  },
+  {
+    "id": "quiz-lugares-37",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Onde fica o Monte Rushmore?",
+    "options": [
+      "Wyoming",
+      "Dakota do Sul",
+      "Colorado",
+      "Montana"
+    ],
+    "correctAnswer": "Dakota do Sul",
+    "explanation": "O Monte Rushmore está localizado nas Black Hills, em Dakota do Sul, EUA. Curiosidade: Apresenta esculturas gigantescas de quatro presidentes americanos."
+  },
+  {
+    "id": "quiz-lugares-38",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a capital da Nova Zelândia?",
+    "options": [
+      "Sydney",
+      "Wellington",
+      "Auckland",
+      "Christchurch"
+    ],
+    "correctAnswer": "Wellington",
+    "explanation": "Wellington é a capital da Nova Zelândia. Curiosidade: É uma cidade conhecida por sua vida cultural e seu cenário portuário."
+  },
+  {
+    "id": "quiz-lugares-39",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga o Machu Picchu?",
+    "options": [
+      "Peru",
+      "Colômbia",
+      "Bolívia",
+      "Equador"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "Machu Picchu é uma cidade inca localizada na Cordilheira dos Andes, no Peru.  Uma curiosidade é que a cidade só foi redescoberta em 1911 pelo historiador Hiram Bingham."
+  },
+  {
+    "id": "quiz-lugares-40",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a capital da Islândia?",
+    "options": [
+      "Reykjavik",
+      "Oslo",
+      "Copenhaga",
+      "Estocolmo"
+    ],
+    "correctAnswer": "Reykjavik",
+    "explanation": "Reykjavik é a capital mais setentrional do mundo.  Curiosamente,  a cidade é alimentada por energia geotérmica, aproveitando o calor da terra."
+  },
+  {
+    "id": "quiz-lugares-41",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Em qual continente fica a Austrália?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "América do Sul",
+      "Oceania"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "A Austrália é o menor continente e o maior país da Oceania.  Uma curiosidade é que a Austrália tem mais de 10.000 praias."
+  },
+  {
+    "id": "quiz-lugares-42",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual o nome do deserto mais árido do mundo?",
+    "options": [
+      "Atacama",
+      "Saara",
+      "Arábia",
+      "Namíbia"
+    ],
+    "correctAnswer": "Atacama",
+    "explanation": "O deserto do Atacama, no Chile, é tão árido que algumas partes não viram chuva em décadas.  Uma curiosidade é que o deserto abriga o Observatório Paranal, um dos maiores observatórios astronômicos do mundo."
+  },
+  {
+    "id": "quiz-lugares-43",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país é conhecido como a 'Terra do Fogo'?",
+    "options": [
+      "Islândia",
+      "Chile",
+      "Argentina",
+      "Groenlândia"
+    ],
+    "correctAnswer": "Argentina",
+    "explanation": "A Terra do Fogo, localizada na ponta sul da América do Sul, é uma região compartilhada entre a Argentina e o Chile. Uma curiosidade é a sua grande riqueza em fauna e flora, com uma diversidade de espécies únicas da região."
+  },
+  {
+    "id": "quiz-lugares-44",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual rio atravessa o Cairo?",
+    "options": [
+      "Nilo",
+      "Tigre",
+      "Eufrates",
+      "Jordão"
+    ],
+    "correctAnswer": "Nilo",
+    "explanation": "O rio Nilo é o rio mais longo do mundo e atravessa diversos países da África, incluindo o Egito, onde está localizado o Cairo. Uma curiosidade é que a civilização egípcia se desenvolveu às margens do rio Nilo."
+  },
+  {
+    "id": "quiz-lugares-45",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual cidade italiana é famosa por sua arquitetura renascentista?",
+    "options": [
+      "Roma",
+      "Veneza",
+      "Florença",
+      "Milão"
+    ],
+    "correctAnswer": "Florença",
+    "explanation": "Florença foi o centro do Renascimento italiano. Uma curiosidade é que a cidade abriga a Galeria Uffizi, um dos museus de arte mais importantes do mundo."
+  },
+  {
+    "id": "quiz-lugares-46",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual arquipélago é conhecido como as 'Ilhas Galápagos'?",
+    "options": [
+      "Canárias",
+      "Havaí",
+      "Galápagos",
+      "Fiji"
+    ],
+    "correctAnswer": "Galápagos",
+    "explanation": "As Ilhas Galápagos, pertencentes ao Equador, são famosas por sua rica biodiversidade, influenciando as teorias de Charles Darwin sobre a evolução. Uma curiosidade é que as tartarugas gigantes das Galápagos podem viver por mais de 100 anos."
+  },
+  {
+    "id": "quiz-lugares-47",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual oceano banha a costa oeste da América do Sul?",
+    "options": [
+      "Atlântico",
+      "Pacífico",
+      "Índico",
+      "Ártico"
+    ],
+    "correctAnswer": "Pacífico",
+    "explanation": "O Oceano Pacífico é o maior oceano do mundo. Uma curiosidade é que contém a Fossa das Marianas, o ponto mais profundo dos oceanos."
+  },
+  {
+    "id": "quiz-lugares-48",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual país abriga a maior parte da floresta amazônica?",
+    "options": [
+      "Brasil",
+      "Peru",
+      "Colômbia",
+      "Bolívia"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "A Amazônia é a maior floresta tropical do mundo, e o Brasil abriga a maior parte de sua extensão. Uma curiosidade é que a floresta abriga uma biodiversidade incrível, com milhões de espécies ainda desconhecidas."
+  },
+  {
+    "id": "quiz-lugares-49",
+    "categoryId": "lugares",
+    "difficulty": "easy",
+    "question": "Qual país abriga o deserto do Saara?",
+    "options": [
+      "Egito",
+      "Argélia",
+      "Mauritânia",
+      "Todos os anteriores"
+    ],
+    "correctAnswer": "Todos os anteriores",
+    "explanation": "O deserto do Saara se estende por uma vasta área do norte da África, abrangendo vários países. Uma curiosidade é que o Saara já foi uma região verde e fértil, e as mudanças climáticas o transformaram no deserto árido que conhecemos hoje."
+  },
+  {
+    "id": "quiz-lugares-50",
+    "categoryId": "lugares",
+    "difficulty": "medium",
+    "question": "Qual a montanha mais alta da África?",
+    "options": [
+      "Kilimanjaro",
+      "Monte Quênia",
+      "Monte Ruwenzori",
+      "Pico da Neblina"
+    ],
+    "correctAnswer": "Kilimanjaro",
+    "explanation": "O Kilimanjaro é um vulcão adormecido na Tanzânia. Uma curiosidade é que seu cume é coberto por gelo e neve, mesmo estando próximo à linha do equador."
+  },
+  {
+    "id": "quiz-lugares-51",
+    "categoryId": "lugares",
+    "difficulty": "hard",
+    "question": "Qual país possui a maior extensão de costa marítima?",
+    "options": [
+      "Canadá",
+      "Rússia",
+      "Indonésia",
+      "Austrália"
+    ],
+    "correctAnswer": "Canadá",
+    "explanation": "O Canadá possui um extenso litoral, banhado por três oceanos. Uma curiosidade é que o Canadá possui milhares de ilhas, muitas delas ainda inexploradas."
+  }
+]

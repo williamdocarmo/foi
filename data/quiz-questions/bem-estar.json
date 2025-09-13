@@ -1,0 +1,688 @@
+[
+  {
+    "id": "quiz-bem-estar-1",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade física é geralmente recomendada para iniciantes?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Maratona",
+      "Caminhada",
+      "Escalada em rocha"
+    ],
+    "correctAnswer": "Caminhada",
+    "explanation": "Caminhar é uma atividade de baixo impacto, fácil de começar e acessível a quase todos.  Sabia que uma caminhada diária de 30 minutos pode reduzir significativamente o risco de doenças cardíacas?"
+  },
+  {
+    "id": "quiz-bem-estar-2",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual nutriente é crucial para a saúde mental e a função cognitiva?",
+    "options": [
+      "Açúcar",
+      "Gordura saturada",
+      "Ácido graxo ômega-3",
+      "Sódio"
+    ],
+    "correctAnswer": "Ácido graxo ômega-3",
+    "explanation": "Ômega-3s são importantes para a saúde do cérebro e podem ajudar a reduzir sintomas de depressão e ansiedade.  Peixes gordurosos como salmão são ótimas fontes!"
+  },
+  {
+    "id": "quiz-bem-estar-3",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual técnica de mindfulness envolve a observação não julgadora de pensamentos e sensações?",
+    "options": [
+      "Meditação transcendental",
+      "Yoga nidra",
+      "Mindfulness baseada na atenção plena (MBAM)",
+      "Hipnose"
+    ],
+    "correctAnswer": "Mindfulness baseada na atenção plena (MBAM)",
+    "explanation": "MBAM enfatiza a aceitação sem julgamento das experiências internas.  A prática regular de MBAM pode fortalecer a capacidade de lidar com o estresse."
+  },
+  {
+    "id": "quiz-bem-estar-4",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Quantas horas de sono são geralmente recomendadas para adultos?",
+    "options": [
+      "4-5 horas",
+      "6-8 horas",
+      "9-10 horas",
+      "11-12 horas"
+    ],
+    "correctAnswer": "6-8 horas",
+    "explanation": "A privação do sono afeta negativamente o humor, a concentração e a saúde física. A qualidade do sono é tão importante quanto a quantidade."
+  },
+  {
+    "id": "quiz-bem-estar-5",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que significa a sigla FOMO?",
+    "options": [
+      "Fear Of Missing Out",
+      "Feeling Of Missing Opportunities",
+      "False Optimism, Misguided Opinions",
+      "Frustration Over Missed Objectives"
+    ],
+    "correctAnswer": "Fear Of Missing Out",
+    "explanation": "FOMO é um sentimento de ansiedade ou insegurança associado à sensação de estar perdendo experiências divertidas ou oportunidades sociais.  Estar presente no momento pode ajudar a reduzir o FOMO."
+  },
+  {
+    "id": "quiz-bem-estar-6",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual hormônio é frequentemente associado ao sentimento de bem-estar e felicidade?",
+    "options": [
+      "Cortisol",
+      "Adrenalina",
+      "Endorfinas",
+      "Melatonina"
+    ],
+    "correctAnswer": "Endorfinas",
+    "explanation": "Endorfinas são neurotransmissores que atuam como analgésicos naturais e promovem sensações de prazer e bem-estar. Exercícios físicos liberam endorfinas."
+  },
+  {
+    "id": "quiz-bem-estar-7",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual é uma boa maneira de gerenciar o estresse?",
+    "options": [
+      "Comer muito chocolate",
+      "Isolar-se",
+      "Dormir o dia todo",
+      "Praticar exercícios físicos"
+    ],
+    "correctAnswer": "Praticar exercícios físicos",
+    "explanation": "Exercícios liberam endorfinas que reduzem o estresse e melhoram o humor.  Encontre uma atividade física que você goste!"
+  },
+  {
+    "id": "quiz-bem-estar-8",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A gratidão está associada a quais benefícios para a saúde?",
+    "options": [
+      "Aumento da ansiedade",
+      "Diminuição da imunidade",
+      "Melhora do humor e redução do estresse",
+      "Insônia"
+    ],
+    "correctAnswer": "Melhora do humor e redução do estresse",
+    "explanation": "Praticar a gratidão regularmente ajuda a mudar a perspectiva e focar nos aspectos positivos da vida.  Experimente um diário de gratidão!"
+  },
+  {
+    "id": "quiz-bem-estar-9",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O que é a 'paradox do progresso' no contexto do bem-estar?",
+    "options": [
+      "O progresso tecnológico torna a vida mais fácil, mas não necessariamente mais feliz.",
+      "O progresso material leva a uma vida mais equilibrada.",
+      "O progresso científico resolve todos os problemas de saúde mental.",
+      "O progresso social elimina completamente a desigualdade."
+    ],
+    "correctAnswer": "O progresso tecnológico torna a vida mais fácil, mas não necessariamente mais feliz.",
+    "explanation": "Apesar dos avanços tecnológicos e materiais, muitas pessoas sentem-se sobrecarregadas e infelizes.  A busca pelo equilíbrio é crucial."
+  },
+  {
+    "id": "quiz-bem-estar-10",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Beber água suficiente é importante para:",
+    "options": [
+      "Diminuir a energia",
+      "Aumentar a desidratação",
+      "Melhorar a função cognitiva",
+      "Aumentar a constipação"
+    ],
+    "correctAnswer": "Melhorar a função cognitiva",
+    "explanation": "A desidratação afeta a função cerebral.  Mantenha-se hidratado para melhor concentração e clareza mental."
+  },
+  {
+    "id": "quiz-bem-estar-11",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que é resiliência?",
+    "options": [
+      "Capacidade de se adaptar a situações adversas",
+      "Tendência a evitar desafios",
+      "Sentimento constante de frustração",
+      "Incapacidade de lidar com mudanças"
+    ],
+    "correctAnswer": "Capacidade de se adaptar a situações adversas",
+    "explanation": "Resiliência é a capacidade de se recuperar de dificuldades e adversidades.  Desenvolver resiliência requer prática e autoconhecimento."
+  },
+  {
+    "id": "quiz-bem-estar-12",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito psicológico enfatiza a autocompaixão e a aceitação de si mesmo?",
+    "options": [
+      "Psicologia Positiva",
+      "Terapia Cognitivo-Comportamental",
+      "Psicanálise",
+      "Self-Compassion"
+    ],
+    "correctAnswer": "Self-Compassion",
+    "explanation": "Self-Compassion enfatiza a gentileza e o perdão para consigo mesmo, especialmente em momentos de dificuldade.  Trata-se de ser seu próprio melhor amigo."
+  },
+  {
+    "id": "quiz-bem-estar-13",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Uma dieta equilibrada contribui para:",
+    "options": [
+      "Aumento do peso",
+      "Diminuição da energia",
+      "Melhora da saúde física e mental",
+      "Problemas digestivos"
+    ],
+    "correctAnswer": "Melhora da saúde física e mental",
+    "explanation": "Uma dieta rica em nutrientes fornece energia e suporta as funções corporais, impactando diretamente o bem-estar geral."
+  },
+  {
+    "id": "quiz-bem-estar-14",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que é importante considerar ao estabelecer metas de bem-estar?",
+    "options": [
+      "Definir metas inatingíveis",
+      "Ignorar os obstáculos",
+      "Estabelecer metas específicas, mensuráveis, atingíveis, relevantes e com prazo determinado (SMART)",
+      "Não monitorar o progresso"
+    ],
+    "correctAnswer": "Estabelecer metas específicas, mensuráveis, atingíveis, relevantes e com prazo determinado (SMART)",
+    "explanation": "Metas SMART aumentam a probabilidade de sucesso e motivam a persistência."
+  },
+  {
+    "id": "quiz-bem-estar-15",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'bem-estar subjetivo' e 'bem-estar objetivo'?",
+    "options": [
+      "Não há diferença; são sinônimos.",
+      "Bem-estar subjetivo é baseado em avaliações externas, enquanto o objetivo é baseado em avaliações internas.",
+      "Bem-estar subjetivo é baseado em avaliações internas, enquanto o objetivo é baseado em indicadores externos.",
+      "Bem-estar subjetivo se refere à saúde mental, enquanto o objetivo se refere à saúde física."
+    ],
+    "correctAnswer": "Bem-estar subjetivo é baseado em avaliações internas, enquanto o objetivo é baseado em indicadores externos.",
+    "explanation": "Bem-estar subjetivo se refere à percepção pessoal de felicidade e satisfação, enquanto o objetivo considera fatores como renda, saúde física e segurança."
+  },
+  {
+    "id": "quiz-bem-estar-16",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Passar tempo na natureza pode ajudar a reduzir:",
+    "options": [
+      "A criatividade",
+      "O estresse",
+      "A concentração",
+      "A energia"
+    ],
+    "correctAnswer": "O estresse",
+    "explanation": "A natureza tem um efeito calmante e restaurador comprovado cientificamente."
+  },
+  {
+    "id": "quiz-bem-estar-17",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Quais são alguns sinais de burnout?",
+    "options": [
+      "Aumento da energia e motivação",
+      "Sono profundo e restaurador",
+      "Exaustão física e emocional, cinismo e ineficácia",
+      "Aumento da produtividade e foco"
+    ],
+    "correctAnswer": "Exaustão física e emocional, cinismo e ineficácia",
+    "explanation": "O burnout é uma condição causada pelo estresse crônico no trabalho ou em outras áreas da vida."
+  },
+  {
+    "id": "quiz-bem-estar-18",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual é a importância da conexão social para o bem-estar?",
+    "options": [
+      "A conexão social não impacta significativamente o bem-estar.",
+      "A conexão social aumenta o risco de depressão.",
+      "A conexão social contribui para a saúde mental e reduz o estresse.",
+      "A conexão social é importante apenas para pessoas extrovertidas."
+    ],
+    "correctAnswer": "A conexão social contribui para a saúde mental e reduz o estresse.",
+    "explanation": "Sentimentos de pertencimento e apoio social são essenciais para a saúde mental e emocional."
+  },
+  {
+    "id": "quiz-bem-estar-19",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "O que é autocuidado?",
+    "options": [
+      "Negligenciar suas necessidades",
+      "Priorizar suas necessidades físicas e mentais",
+      "Trabalhar exaustivamente",
+      "Ignorar sinais de alerta do corpo"
+    ],
+    "correctAnswer": "Priorizar suas necessidades físicas e mentais",
+    "explanation": "Autocuidado envolve atividades que promovem o bem-estar físico, mental e emocional."
+  },
+  {
+    "id": "quiz-bem-estar-20",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Como a meditação pode beneficiar o bem-estar?",
+    "options": [
+      "Aumenta a ansiedade",
+      "Diminui a concentração",
+      "Reduz o estresse e melhora a clareza mental",
+      "Aumenta a irritabilidade"
+    ],
+    "correctAnswer": "Reduz o estresse e melhora a clareza mental",
+    "explanation": "Meditação regular promove a calma mental e melhora a capacidade de lidar com o estresse."
+  },
+  {
+    "id": "quiz-bem-estar-21",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O que é a 'ilusão de controle' no contexto do bem-estar?",
+    "options": [
+      "A crença de que temos mais controle sobre eventos do que realmente temos.",
+      "A crença de que não temos controle sobre eventos em nossas vidas.",
+      "A capacidade de controlar todos os aspectos de nossas vidas.",
+      "A incapacidade de reconhecer nossas próprias limitações."
+    ],
+    "correctAnswer": "A crença de que temos mais controle sobre eventos do que realmente temos.",
+    "explanation": "Essa ilusão pode levar a frustração e estresse quando eventos fogem do nosso controle."
+  },
+  {
+    "id": "quiz-bem-estar-22",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Sorrir pode melhorar o humor?",
+    "options": [
+      "Não, sorrir é apenas um gesto facial.",
+      "Sim, mesmo um sorriso forçado pode ter efeitos positivos.",
+      "Apenas sorrir genuinamente melhora o humor.",
+      "Sorrir causa mais estresse."
+    ],
+    "correctAnswer": "Sim, mesmo um sorriso forçado pode ter efeitos positivos.",
+    "explanation": "O ato físico de sorrir pode desencadear uma resposta positiva no cérebro."
+  },
+  {
+    "id": "quiz-bem-estar-23",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A prática de hobbies está relacionada a:",
+    "options": [
+      "Aumento do estresse",
+      "Diminuição da criatividade",
+      "Melhora do humor e redução do estresse",
+      "Isolamento social"
+    ],
+    "correctAnswer": "Melhora do humor e redução do estresse",
+    "explanation": "Hobbies oferecem uma forma de relaxamento, expressão criativa e auto realização."
+  },
+  {
+    "id": "quiz-bem-estar-24",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual é a diferença entre 'hedonismo' e 'eudaimonia'?",
+    "options": [
+      "Não há diferença, ambos significam felicidade.",
+      "Hedonismo busca prazer imediato, enquanto eudaimonia busca significado e propósito.",
+      "Hedonismo busca significado, enquanto eudaimonia busca prazer imediato.",
+      "Hedonismo é um conceito antigo, enquanto eudaimonia é moderno."
+    ],
+    "correctAnswer": "Hedonismo busca prazer imediato, enquanto eudaimonia busca significado e propósito.",
+    "explanation": "Eudaimonia é um conceito grego antigo que se refere a uma vida plena e significativa."
+  },
+  {
+    "id": "quiz-bem-estar-25",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "A exposição ao sol ajuda a produzir:",
+    "options": [
+      "Melatonina",
+      "Serotonina",
+      "Adrenalina",
+      "Cortisol"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina é um neurotransmissor associado ao humor e bem-estar."
+  },
+  {
+    "id": "quiz-bem-estar-26",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Estabelecer limites saudáveis ajuda a:",
+    "options": [
+      "Aumentar o estresse",
+      "Diminuir a autoestima",
+      "Proteger sua saúde mental e física",
+      "Criar conflitos desnecessários"
+    ],
+    "correctAnswer": "Proteger sua saúde mental e física",
+    "explanation": "Limites saudáveis protegem você de sobrecarga e permitem que você priorize suas necessidades."
+  },
+  {
+    "id": "quiz-bem-estar-27",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O que é a 'teoria da autodeterminação' no contexto do bem-estar?",
+    "options": [
+      "A crença de que o destino é predeterminado.",
+      "A teoria de que a motivação intrínseca é fundamental para o bem-estar.",
+      "A teoria de que a motivação extrínseca é essencial para o sucesso.",
+      "Uma teoria sobre a determinação genética do comportamento."
+    ],
+    "correctAnswer": "A teoria de que a motivação intrínseca é fundamental para o bem-estar.",
+    "explanation": "Esta teoria sugere que a motivação que vem de dentro é mais duradoura e satisfatória."
+  },
+  {
+    "id": "quiz-bem-estar-28",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Agradecer as pequenas coisas é uma forma de:",
+    "options": [
+      "Negatividade",
+      "Pessimismo",
+      "Gratidão",
+      "Descontentamento"
+    ],
+    "correctAnswer": "Gratidão",
+    "explanation": "A gratidão é uma prática comprovada que melhora o humor e o bem-estar."
+  },
+  {
+    "id": "quiz-bem-estar-29",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A comunicação assertiva contribui para:",
+    "options": [
+      "Conflitos",
+      "Insegurança",
+      "Relacionamentos saudáveis",
+      "Isolamento"
+    ],
+    "correctAnswer": "Relacionamentos saudáveis",
+    "explanation": "Comunicar-se de forma clara e respeitosa fortalece os relacionamentos."
+  },
+  {
+    "id": "quiz-bem-estar-30",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "O que é o 'mindfulness'?",
+    "options": [
+      "Um estado de constante preocupação",
+      "Uma técnica para ignorar seus sentimentos",
+      "A prática de prestar atenção ao momento presente sem julgamento",
+      "Uma forma de escapar da realidade"
+    ],
+    "correctAnswer": "A prática de prestar atenção ao momento presente sem julgamento",
+    "explanation": "Mindfulness aumenta a conscientização e a capacidade de lidar com emoções e pensamentos."
+  },
+  {
+    "id": "quiz-bem-estar-31",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual é um benefício da respiração profunda?",
+    "options": [
+      "Aumentar a frequência cardíaca",
+      "Diminuir a calma",
+      "Reduzir o estresse",
+      "Aumentar a ansiedade"
+    ],
+    "correctAnswer": "Reduzir o estresse",
+    "explanation": "A respiração profunda ativa o sistema nervoso parassimpático, que promove o relaxamento."
+  },
+  {
+    "id": "quiz-bem-estar-32",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual hábito pode melhorar a qualidade do sono?",
+    "options": [
+      "Usar eletrônicos na cama",
+      "Beber café antes de dormir",
+      "Criar uma rotina relaxante antes de dormir",
+      "Comer um lanche pesado antes de dormir"
+    ],
+    "correctAnswer": "Criar uma rotina relaxante antes de dormir",
+    "explanation": "Uma rotina relaxante sinaliza ao corpo que é hora de dormir."
+  },
+  {
+    "id": "quiz-bem-estar-33",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual é a relação entre 'flow state' e bem-estar?",
+    "options": [
+      "'Flow state' não tem relação com bem-estar.",
+      "'Flow state' é um estado de tédio e apatia.",
+      "'Flow state' é um estado de imersão completa e prazerosa em uma atividade, associado ao bem-estar.",
+      "'Flow state' é um estado de estresse extremo."
+    ],
+    "correctAnswer": "'Flow state' é um estado de imersão completa e prazerosa em uma atividade, associado ao bem-estar.",
+    "explanation": "Durante o 'flow state', a pessoa está totalmente engajada e sente-se satisfeita e realizada."
+  },
+  {
+    "id": "quiz-bem-estar-34",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "A alimentação consciente ajuda a:",
+    "options": [
+      "Comer mais rápido",
+      "Comer sem prestar atenção",
+      "Apreciar a comida e estar presente durante a refeição",
+      "Ignorar sinais de saciedade"
+    ],
+    "correctAnswer": "Apreciar a comida e estar presente durante a refeição",
+    "explanation": "Alimentação consciente promove uma relação mais saudável com a comida."
+  },
+  {
+    "id": "quiz-bem-estar-35",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que é importante considerar ao escolher amigos?",
+    "options": [
+      "Escolher apenas amigos populares.",
+      "Não importa quem são seus amigos.",
+      "Escolher amigos que te apoiam e te fazem sentir bem.",
+      "Amigos não são importantes para o bem-estar."
+    ],
+    "correctAnswer": "Escolher amigos que te apoiam e te fazem sentir bem.",
+    "explanation": "Amigos positivos e de apoio contribuem para o bem-estar emocional."
+  },
+  {
+    "id": "quiz-bem-estar-36",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual é a importância do propósito de vida para o bem-estar?",
+    "options": [
+      "Um propósito de vida não impacta o bem-estar.",
+      "Um propósito de vida aumenta a probabilidade de fracasso.",
+      "Um propósito de vida fornece direção, significado e motivação, contribuindo para o bem-estar.",
+      "Um propósito de vida cria mais ansiedade."
+    ],
+    "correctAnswer": "Um propósito de vida fornece direção, significado e motivação, contribuindo para o bem-estar.",
+    "explanation": "Um propósito de vida dá sentido à vida e motiva a ação."
+  },
+  {
+    "id": "quiz-bem-estar-37",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "A prática regular de atividades físicas reduz o risco de:",
+    "options": [
+      "Doenças cardíacas",
+      "Depressão",
+      "Obesidade",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A atividade física tem diversos benefícios para a saúde física e mental."
+  },
+  {
+    "id": "quiz-bem-estar-38",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que é a síndrome do impostor?",
+    "options": [
+      "Uma condição médica grave.",
+      "Uma sensação persistente de inadequação, mesmo com evidências de sucesso.",
+      "A incapacidade de lembrar informações importantes.",
+      "Um transtorno de personalidade."
+    ],
+    "correctAnswer": "Uma sensação persistente de inadequação, mesmo com evidências de sucesso.",
+    "explanation": "A síndrome do impostor afeta a autoestima e pode levar a ansiedade e estresse."
+  },
+  {
+    "id": "quiz-bem-estar-39",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Como a 'teoria do apego' se relaciona com o bem-estar adulto?",
+    "options": [
+      "Não tem relação.",
+      "Experiências de apego na infância não impactam a vida adulta.",
+      "Padrões de apego na infância influenciam relacionamentos e o bem-estar emocional na vida adulta.",
+      "A teoria do apego é irrelevante para o bem-estar adulto."
+    ],
+    "correctAnswer": "Padrões de apego na infância influenciam relacionamentos e o bem-estar emocional na vida adulta.",
+    "explanation": "A teoria do apego explica como os relacionamentos iniciais moldam nossos relacionamentos futuros."
+  },
+  {
+    "id": "quiz-bem-estar-40",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual dessas atividades é geralmente considerada uma ótima forma de reduzir o estresse?",
+    "options": [
+      "Assistir TV",
+      "Jogar videogame",
+      "Ler um livro",
+      "Dar um passeio na natureza"
+    ],
+    "correctAnswer": "Dar um passeio na natureza",
+    "explanation": "A natureza oferece um ambiente calmante e restaurador. Estudos mostram que passar tempo ao ar livre pode reduzir os níveis de cortisol (hormônio do estresse).  Curiosidade: o banho de floresta (Shinrin-yoku) é uma prática japonesa que promove o bem-estar através da imersão na floresta."
+  },
+  {
+    "id": "quiz-bem-estar-41",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual nutriente é essencial para a produção de serotonina, um neurotransmissor relacionado ao humor?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Triptofano",
+      "Ferro"
+    ],
+    "correctAnswer": "Triptofano",
+    "explanation": "O triptofano é um aminoácido essencial que o corpo usa para produzir serotonina.  Curiosidade: alimentos ricos em triptofano incluem peru, banana e queijo."
+  },
+  {
+    "id": "quiz-bem-estar-42",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que é a 'economia da atenção' e como ela afeta o bem-estar?",
+    "options": [
+      "O estudo da maneira como gastamos nosso dinheiro.",
+      "O estudo de como capturamos e mantemos a atenção das pessoas.",
+      "A ciência por trás da atenção plena.",
+      "A prática de economizar energia mental."
+    ],
+    "correctAnswer": "O estudo de como capturamos e mantemos a atenção das pessoas.",
+    "explanation": "A economia da atenção se refere à luta pelas nossas atenções limitadas.  A constante competição por nossa atenção, especialmente pelas mídias sociais, pode levar à distração, estresse e diminuir o bem-estar. Curiosidade:  aplicativos e plataformas buscam constantemente otimizar a forma como prendem a atenção do usuário."
+  },
+  {
+    "id": "quiz-bem-estar-43",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual destas estratégias NÃO é uma maneira eficaz de melhorar a resiliência?",
+    "options": [
+      "Cultivar um forte senso de propósito.",
+      "Evitar completamente o estresse.",
+      "Desenvolver habilidades de enfrentamento.",
+      "Buscar apoio social."
+    ],
+    "correctAnswer": "Evitar completamente o estresse.",
+    "explanation": "O estresse é inevitável. A resiliência é a capacidade de se adaptar e se recuperar de situações desafiadoras.  Curiosidade: a resiliência é desenvolvida e aprimorada com a prática e o aprendizado."
+  },
+  {
+    "id": "quiz-bem-estar-44",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Explique a diferença entre 'bem-estar hedonista' e 'bem-estar eudaimônico'.",
+    "options": [
+      "Ambos são sinônimos e descrevem o mesmo conceito.",
+      "Hedonista foca no prazer, enquanto eudaimônico foca no propósito e crescimento pessoal.",
+      "Hedonista foca no crescimento, enquanto eudaimônico foca no prazer sensorial.",
+      "Não há diferença significativa entre os dois."
+    ],
+    "correctAnswer": "Hedonista foca no prazer, enquanto eudaimônico foca no propósito e crescimento pessoal.",
+    "explanation": "O bem-estar hedonista se concentra na busca pelo prazer e na redução do sofrimento, enquanto o bem-estar eudaimônico se concentra no desenvolvimento pessoal, na busca de significado e propósito na vida. Curiosidade:  muitos pesquisadores acreditam que uma combinação de ambos os tipos de bem-estar leva a uma vida mais plena."
+  },
+  {
+    "id": "quiz-bem-estar-45",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que significa 'hipervigilância' no contexto do bem-estar?",
+    "options": [
+      "Uma capacidade excepcional de se concentrar.",
+      "Um estado de constante alerta e ansiedade.",
+      "Uma técnica de meditação avançada.",
+      "Um tipo de transtorno alimentar."
+    ],
+    "correctAnswer": "Um estado de constante alerta e ansiedade.",
+    "explanation": "A hipervigilância é um estado de alerta excessivo e constante, muitas vezes associado a traumas ou ansiedade.  Isso pode prejudicar o bem-estar mental e físico. Curiosidade: terapia pode auxiliar no tratamento de hipervigilância."
+  },
+  {
+    "id": "quiz-bem-estar-46",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual destas atividades geralmente promove o sono reparador?",
+    "options": [
+      "Tomar café antes de dormir",
+      "Usar telas antes de dormir",
+      "Fazer exercícios intensos antes de dormir",
+      "Tomar um banho morno antes de dormir"
+    ],
+    "correctAnswer": "Tomar um banho morno antes de dormir",
+    "explanation": "Um banho morno ajuda a relaxar o corpo e a mente, preparando-o para o sono. Curiosidade:  a melatonina, hormônio do sono, é mais facilmente produzida em ambientes escuros e frescos."
+  },
+  {
+    "id": "quiz-bem-estar-47",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Descreva o conceito de 'cognição incorporada' e sua relação com o bem-estar.",
+    "options": [
+      "A ideia de que nossos pensamentos são totalmente independentes de nossos corpos.",
+      "A ideia de que nossos pensamentos e emoções são influenciados por nossos estados corporais.",
+      "A capacidade de controlar nossos pensamentos independentemente de nossas emoções.",
+      "A crença de que apenas nossos pensamentos racionais influenciam nossas ações."
+    ],
+    "correctAnswer": "A ideia de que nossos pensamentos e emoções são influenciados por nossos estados corporais.",
+    "explanation": "A cognição incorporada sugere que nossos estados físicos (postura, respiração, etc.) influenciam nossos pensamentos e emoções.  Uma postura ereta, por exemplo, pode aumentar a confiança. Curiosidade:  praticar exercícios físicos pode melhorar o humor, em parte por causa da cognição incorporada."
+  },
+  {
+    "id": "quiz-bem-estar-48",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual a importância da gratidão para o bem-estar?",
+    "options": [
+      "Não tem impacto significativo.",
+      "Aumenta a felicidade e reduz o estresse.",
+      "Causa dependência emocional.",
+      "Prejudica o foco em metas futuras."
+    ],
+    "correctAnswer": "Aumenta a felicidade e reduz o estresse.",
+    "explanation": "A gratidão desloca o foco para o positivo, aumentando a satisfação com a vida e diminuindo a ansiedade. Curiosidade: manter um diário de gratidão é uma prática eficaz para cultivar a gratidão."
+  },
+  {
+    "id": "quiz-bem-estar-49",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Qual destes é um exemplo de 'pensamento catastrófico'?",
+    "options": [
+      "'Eu posso fazer isso!'",
+      "'Eu vou tentar meu melhor.'",
+      "'Se eu falhar neste teste, minha vida acabou.'",
+      "'Eu aprenderei com meus erros'."
+    ],
+    "correctAnswer": "'Se eu falhar neste teste, minha vida acabou.'",
+    "explanation": "Pensamento catastrófico é a tendência a exagerar as consequências negativas de um evento.  É um padrão de pensamento que contribui para a ansiedade. Curiosidade: a terapia cognitivo-comportamental (TCC) pode ajudar a identificar e mudar padrões de pensamento catastrófico."
+  }
+]

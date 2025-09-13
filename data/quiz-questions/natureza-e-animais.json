@@ -1,0 +1,954 @@
+[
+  {
+    "id": "quiz-natureza-e-animais-1",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido como 'rei da selva'?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Elefante",
+      "Gorila"
+    ],
+    "correctAnswer": "Leão",
+    "explanation": "O leão é amplamente reconhecido como o 'rei da selva', embora essa designação seja mais cultural do que cientificamente precisa.  Leões são animais sociais e caçam em grupos, chamados de tropas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-2",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual é a maior ave voadora do mundo?",
+    "options": [
+      "Águia-real",
+      "Albatroz-real",
+      "Condor-dos-andes",
+      "Cisne"
+    ],
+    "correctAnswer": "Albatroz-real",
+    "explanation": "O albatroz-real possui uma envergadura que pode alcançar até 3,5 metros.  Sua capacidade de planar permite que eles percorram grandes distâncias sem muito esforço."
+  },
+  {
+    "id": "quiz-natureza-e-animais-3",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual processo natural é responsável pela formação de cavernas de calcário?",
+    "options": [
+      "Erosão glacial",
+      "Erosão eólica",
+      "Dissolução química",
+      "Atividade vulcânica"
+    ],
+    "correctAnswer": "Dissolução química",
+    "explanation": "A água da chuva, levemente ácida, dissolve lentamente o calcário ao longo de milhares de anos, criando as intrincadas formações das cavernas de calcário.  Estalagmites e estalactites são formações comuns encontradas nessas cavernas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-4",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual animal possui o maior cérebro em relação ao tamanho do corpo?",
+    "options": [
+      "Elefante",
+      "Baleia",
+      "Humano",
+      "Musaranho-etrusco"
+    ],
+    "correctAnswer": "Musaranho-etrusco",
+    "explanation": "Embora o cérebro humano seja muito complexo, o musaranho-etrusco tem o cérebro proporcionalmente maior, refletindo suas altas necessidades metabólicas e comportamentos complexos para sua pequena dimensão."
+  },
+  {
+    "id": "quiz-natureza-e-animais-5",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual fenômeno natural contribui para a formação de um arco-íris?",
+    "options": [
+      "Reflexão da luz na areia",
+      "Refração da luz pelas gotas de água",
+      "Difração da luz nas nuvens",
+      "Absorção da luz pela atmosfera"
+    ],
+    "correctAnswer": "Refração da luz pelas gotas de água",
+    "explanation": "A luz solar é refratada (dobrada) e refletida dentro das gotas de água, separando-se em suas cores componentes, criando o espectro de cores que vemos em um arco-íris.  Um arco-íris duplo é formado por uma segunda reflexão dentro da gota d'água."
+  },
+  {
+    "id": "quiz-natureza-e-animais-6",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual destes animais é um marsupial?",
+    "options": [
+      "Leão",
+      "Urso",
+      "Coala",
+      "Girafa"
+    ],
+    "correctAnswer": "Coala",
+    "explanation": "Coalas são marsupiais, mamíferos que carregam seus filhotes em uma bolsa.  A Austrália é conhecida por sua grande diversidade de marsupiais."
+  },
+  {
+    "id": "quiz-natureza-e-animais-7",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo pelo qual as plantas convertem energia solar em energia química?",
+    "options": [
+      "Respiração",
+      "Transpiração",
+      "Fotossíntese",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é essencial para a vida na Terra, pois produz o oxigênio que respiramos e forma a base da maioria das cadeias alimentares. A clorofila é a pigmentação chave neste processo."
+  },
+  {
+    "id": "quiz-natureza-e-animais-8",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual a principal causa da migração das aves?",
+    "options": [
+      "Mudanças na temperatura",
+      "Disponibilidade de alimentos",
+      "Ambas as opções anteriores",
+      "Mudanças na pressão atmosférica"
+    ],
+    "correctAnswer": "Ambas as opções anteriores",
+    "explanation": "Aves migram principalmente em busca de alimentos abundantes e condições climáticas mais favoráveis. As mudanças sazonais afetam ambos os fatores, impulsionando a migração."
+  },
+  {
+    "id": "quiz-natureza-e-animais-9",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o maior oceano do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico",
+      "Oceano Pacífico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico cobre mais de 30% da superfície terrestre e é lar de uma vasta biodiversidade marinha.  A Fossa das Marianas, o ponto mais profundo dos oceanos, está localizada no Oceano Pacífico."
+  },
+  {
+    "id": "quiz-natureza-e-animais-10",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual tipo de floresta é caracterizada por árvores que perdem suas folhas no outono?",
+    "options": [
+      "Floresta tropical",
+      "Floresta temperada decídua",
+      "Taiga",
+      "Savana"
+    ],
+    "correctAnswer": "Floresta temperada decídua",
+    "explanation": "As florestas temperadas decíduas são encontradas em regiões com quatro estações bem definidas. A queda das folhas é uma adaptação para sobreviver aos invernos rigorosos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-11",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de formação de rochas a partir da solidificação de magma ou lava?",
+    "options": [
+      "Metamorfismo",
+      "Sedimentação",
+      "Diagênese",
+      "Magmatismo"
+    ],
+    "correctAnswer": "Magmatismo",
+    "explanation": "O magmatismo engloba todos os processos relacionados à formação e movimentação do magma.  Rochas ígneas, como o granito e o basalto, são formadas por este processo."
+  },
+  {
+    "id": "quiz-natureza-e-animais-12",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua longa tromba?",
+    "options": [
+      "Girafa",
+      "Elefante",
+      "Rinoceronte",
+      "Hipopótamo"
+    ],
+    "correctAnswer": "Elefante",
+    "explanation": "A tromba do elefante é um órgão multifuncional, usado para respirar, beber água, pegar comida e interagir socialmente.  É uma extensão do nariz e do lábio superior."
+  },
+  {
+    "id": "quiz-natureza-e-animais-13",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o principal gás responsável pelo efeito estufa?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Hidrogênio"
+    ],
+    "correctAnswer": "Dióxido de carbono",
+    "explanation": "Embora outros gases contribuam, o dióxido de carbono é o principal gás de efeito estufa emitido pelas atividades humanas, contribuindo para o aquecimento global.  A queima de combustíveis fósseis é uma das principais fontes."
+  },
+  {
+    "id": "quiz-natureza-e-animais-14",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual bioma é caracterizado por árvores de folhas perenes e baixas temperaturas?",
+    "options": [
+      "Savana",
+      "Deserto",
+      "Taiga",
+      "Floresta tropical"
+    ],
+    "correctAnswer": "Taiga",
+    "explanation": "A taiga, também conhecida como floresta boreal, é o maior bioma terrestre, encontrado em regiões de alta latitude do hemisfério norte.  É dominada por coníferas como pinheiros e abetos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-15",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido como o 'navio do deserto'?",
+    "options": [
+      "Camelo",
+      "Dromedário",
+      "Asno",
+      "Cavalo"
+    ],
+    "correctAnswer": "Camelo",
+    "explanation": "Camelos são bem adaptados ao deserto, suportando longos períodos sem água e alimento.  Suas grandes corcovas armazenam gordura, que é metabolizada para energia e água."
+  },
+  {
+    "id": "quiz-natureza-e-animais-16",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual fenômeno natural é responsável pela formação de dunas de areia?",
+    "options": [
+      "Erosão glacial",
+      "Erosão eólica",
+      "Ação das ondas",
+      "Chuvas torrenciais"
+    ],
+    "correctAnswer": "Erosão eólica",
+    "explanation": "O vento transporta grãos de areia, depositando-os em áreas protegidas, formando as dunas.  A forma e o tamanho das dunas dependem da força e direção do vento."
+  },
+  {
+    "id": "quiz-natureza-e-animais-17",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de decomposição de matéria orgânica por microrganismos?",
+    "options": [
+      "Fotossíntese",
+      "Respiração",
+      "Decomposição",
+      "Fermentação"
+    ],
+    "correctAnswer": "Decomposição",
+    "explanation": "A decomposição é essencial para o ciclo dos nutrientes na natureza. Bactérias e fungos são os principais decompositores, transformando matéria orgânica em compostos inorgânicos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-18",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua camuflagem em ambientes árticos?",
+    "options": [
+      "Leão",
+      "Urso Polar",
+      "Tigre",
+      "Panda"
+    ],
+    "correctAnswer": "Urso Polar",
+    "explanation": "A pelagem branca do urso polar o camufla na neve e no gelo, permitindo que ele se aproxime de suas presas sem ser detectado.  Sua pele é na verdade preta."
+  },
+  {
+    "id": "quiz-natureza-e-animais-19",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome da camada de ozônio que protege a Terra da radiação ultravioleta?",
+    "options": [
+      "Troposfera",
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correctAnswer": "Estratosfera",
+    "explanation": "A camada de ozônio está localizada na estratosfera e absorve a maior parte da radiação UV do sol.  O buraco na camada de ozônio é uma preocupação ambiental significativa."
+  },
+  {
+    "id": "quiz-natureza-e-animais-20",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de formação de novas espécies?",
+    "options": [
+      "Evolução",
+      "Adaptação",
+      "Especiação",
+      "Seleção natural"
+    ],
+    "correctAnswer": "Especiação",
+    "explanation": "A especiação é um processo complexo que pode ocorrer através de diferentes mecanismos, como isolamento geográfico ou reprodutivo.  A evolução é um processo amplo que inclui a especiação."
+  },
+  {
+    "id": "quiz-natureza-e-animais-21",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua velocidade?",
+    "options": [
+      "Tartaruga",
+      "Caracol",
+      "Guepardo",
+      "Preguiça"
+    ],
+    "correctAnswer": "Guepardo",
+    "explanation": "O guepardo é o animal terrestre mais rápido do mundo, capaz de atingir velocidades superiores a 100 km/h em curtos períodos.  Sua velocidade é uma adaptação para a caça."
+  },
+  {
+    "id": "quiz-natureza-e-animais-22",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de conversão de água líquida em vapor?",
+    "options": [
+      "Condensação",
+      "Evaporação",
+      "Precipitação",
+      "Sublimação"
+    ],
+    "correctAnswer": "Evaporação",
+    "explanation": "A evaporação é parte crucial do ciclo da água.  O calor do sol fornece a energia necessária para transformar a água líquida em vapor de água."
+  },
+  {
+    "id": "quiz-natureza-e-animais-23",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome da relação ecológica em que duas espécies se beneficiam mutuamente?",
+    "options": [
+      "Parasitismo",
+      "Comensalismo",
+      "Mutualismo",
+      "Competição"
+    ],
+    "correctAnswer": "Mutualismo",
+    "explanation": "O mutualismo é uma relação simbiótica onde ambas as espécies envolvidas se beneficiam.  Um exemplo clássico é a relação entre abelhas e plantas com flores."
+  },
+  {
+    "id": "quiz-natureza-e-animais-24",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual destes é um réptil?",
+    "options": [
+      "Sapo",
+      "Cobra",
+      "Gaivota",
+      "Golfinho"
+    ],
+    "correctAnswer": "Cobra",
+    "explanation": "Cobras são répteis escamosos que pertencem à ordem Squamata.  São animais ectotérmicos, ou seja, dependem de fontes externas de calor para regular sua temperatura corporal."
+  },
+  {
+    "id": "quiz-natureza-e-animais-25",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno natural onde a água do mar invade a costa?",
+    "options": [
+      "Tsunami",
+      "Maré alta",
+      "Ressaca",
+      "Maré de sizígia"
+    ],
+    "correctAnswer": "Maré alta",
+    "explanation": "As marés são causadas pela força gravitacional da Lua e do Sol sobre a Terra.  A maré alta ocorre quando a água do mar está mais próxima da costa."
+  },
+  {
+    "id": "quiz-natureza-e-animais-26",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome da ciência que estuda as relações entre os organismos e seus ambientes?",
+    "options": [
+      "Geologia",
+      "Botânica",
+      "Ecologia",
+      "Zoologia"
+    ],
+    "correctAnswer": "Ecologia",
+    "explanation": "A ecologia é uma ciência interdisciplinar que engloba diversas áreas do conhecimento, como biologia, química e geografia.  Ela estuda os ecossistemas e as interações entre os organismos e o meio ambiente."
+  },
+  {
+    "id": "quiz-natureza-e-animais-27",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual as plantas liberam vapor d'água?",
+    "options": [
+      "Fotossíntese",
+      "Respiração",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Transpiração",
+    "explanation": "A transpiração é essencial para o transporte de água e nutrientes nas plantas.  As folhas são os principais órgãos envolvidos neste processo."
+  },
+  {
+    "id": "quiz-natureza-e-animais-28",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual tipo de rocha é formada pela compactação e cimentação de sedimentos?",
+    "options": [
+      "Rochas ígneas",
+      "Rochas metamórficas",
+      "Rochas sedimentares",
+      "Rochas vulcânicas"
+    ],
+    "correctAnswer": "Rochas sedimentares",
+    "explanation": "Rochas sedimentares, como arenito e calcário, são formadas pela deposição e litificação de sedimentos, como areia, silte e cascalho."
+  },
+  {
+    "id": "quiz-natureza-e-animais-29",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de sucessão ecológica que começa em uma área completamente desprovida de vida?",
+    "options": [
+      "Sucessão secundária",
+      "Sucessão primária",
+      "Sucessão clímax",
+      "Sucessão intermediária"
+    ],
+    "correctAnswer": "Sucessão primária",
+    "explanation": "A sucessão primária ocorre em áreas como rochas nuas ou campos de lava, onde a vida precisa se estabelecer a partir do zero.  A sucessão secundária ocorre em áreas que já foram habitadas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-30",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o habitat natural dos pinguins?",
+    "options": [
+      "Desertos",
+      "Florestas tropicais",
+      "Regiões polares",
+      "Savanas"
+    ],
+    "correctAnswer": "Regiões polares",
+    "explanation": "Pinguins são aves marinhas que vivem principalmente nas regiões polares do hemisfério sul.  São adaptados para sobreviver em ambientes frios e aquáticos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-31",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de chuva?",
+    "options": [
+      "Evaporação",
+      "Transpiração",
+      "Condensação",
+      "Precipitação"
+    ],
+    "correctAnswer": "Precipitação",
+    "explanation": "A precipitação é a forma como a água retorna à superfície terrestre na forma de chuva, neve ou granizo.  A condensação do vapor de água forma nuvens, que liberam a água na forma de precipitação."
+  },
+  {
+    "id": "quiz-natureza-e-animais-32",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome da relação ecológica em que uma espécie se beneficia e a outra não é afetada?",
+    "options": [
+      "Parasitismo",
+      "Comensalismo",
+      "Mutualismo",
+      "Competição"
+    ],
+    "correctAnswer": "Comensalismo",
+    "explanation": "No comensalismo, uma espécie se beneficia da relação, enquanto a outra não é afetada positivamente nem negativamente.  Um exemplo é uma ave que se alimenta de restos de comida de um animal maior."
+  },
+  {
+    "id": "quiz-natureza-e-animais-33",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por construir diques?",
+    "options": [
+      "Castor",
+      "Esquilo",
+      "Coelho",
+      "Rato"
+    ],
+    "correctAnswer": "Castor",
+    "explanation": "Castores são conhecidos por sua habilidade de construir diques e represas nos rios, criando habitats aquáticos para si e para outras espécies."
+  },
+  {
+    "id": "quiz-natureza-e-animais-34",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno natural que causa as estações do ano?",
+    "options": [
+      "Rotação da Terra",
+      "Revolução da Terra",
+      "Inclinação do eixo terrestre",
+      "Precessão dos equinócios"
+    ],
+    "correctAnswer": "Inclinação do eixo terrestre",
+    "explanation": "A inclinação do eixo de rotação da Terra em relação à sua órbita ao redor do Sol é o fator principal que causa as variações climáticas ao longo do ano, resultando nas quatro estações."
+  },
+  {
+    "id": "quiz-natureza-e-animais-35",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de formação de montanhas?",
+    "options": [
+      "Erosão",
+      "Sedimentação",
+      "Orogênese",
+      "Vulcanismo"
+    ],
+    "correctAnswer": "Orogênese",
+    "explanation": "A orogênese é o processo geológico de formação de montanhas, resultante da movimentação e colisão de placas tectônicas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-36",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua capacidade de mimetismo?",
+    "options": [
+      "Leão",
+      "Camaleão",
+      "Elefante",
+      "Girafa"
+    ],
+    "correctAnswer": "Camaleão",
+    "explanation": "Camaleões são famosos por sua capacidade de mudar de cor para se camuflarem e se protegerem de predadores ou para se aproximarem de suas presas.  Esta adaptação é chamada de mimetismo."
+  },
+  {
+    "id": "quiz-natureza-e-animais-37",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de gelo a partir do vapor de água?",
+    "options": [
+      "Condensação",
+      "Sublimação",
+      "Deposição",
+      "Evaporação"
+    ],
+    "correctAnswer": "Deposição",
+    "explanation": "A deposição é o processo pelo qual o vapor d'água passa diretamente para o estado sólido, formando gelo ou neve.  Este processo é comum em regiões frias e secas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-38",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome da relação ecológica em que uma espécie vive às custas de outra, causando-lhe prejuízo?",
+    "options": [
+      "Comensalismo",
+      "Mutualismo",
+      "Parasitismo",
+      "Predação"
+    ],
+    "correctAnswer": "Parasitismo",
+    "explanation": "No parasitismo, um organismo (parasita) se beneficia à custa de outro (hospedeiro), que sofre prejuízo.  Pulgas e carrapatos são exemplos de parasitas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-39",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua lentidão?",
+    "options": [
+      "Leão",
+      "Tartaruga",
+      "Chita",
+      "Girafa"
+    ],
+    "correctAnswer": "Tartaruga",
+    "explanation": "As tartarugas são famosas por seu movimento lento. Algumas espécies podem viver por centenas de anos!"
+  },
+  {
+    "id": "quiz-natureza-e-animais-40",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o maior mamífero terrestre?",
+    "options": [
+      "Elefante Africano",
+      "Baleia Azul",
+      "Girafa",
+      "Rinoceronte"
+    ],
+    "correctAnswer": "Elefante Africano",
+    "explanation": "O elefante africano é o maior mamífero terrestre, com machos atingindo até 7 toneladas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-41",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual processo biológico permite que as plantas produzam seu próprio alimento?",
+    "options": [
+      "Respiração",
+      "Digestão",
+      "Fotossíntese",
+      "Transpiração"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese usa a luz solar, água e dióxido de carbono para produzir glicose (alimento) e oxigênio."
+  },
+  {
+    "id": "quiz-natureza-e-animais-42",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual animal possui um sistema de ecolocalização altamente desenvolvido?",
+    "options": [
+      "Águia",
+      "Cobra",
+      "Morcego",
+      "Golfinho"
+    ],
+    "correctAnswer": "Morcego",
+    "explanation": "Morcegos usam a ecolocalização para navegar e caçar no escuro, emitindo ondas sonoras e interpretando os ecos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-43",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual fenômeno meteorológico é caracterizado por nuvens altas e finas, feitas de cristais de gelo?",
+    "options": [
+      "Chuva",
+      "Neve",
+      "Granizo",
+      "Cirrus"
+    ],
+    "correctAnswer": "Cirrus",
+    "explanation": "Nuvens cirrus são nuvens altas e finas compostas por cristais de gelo, indicando muitas vezes a aproximação de uma frente meteorológica."
+  },
+  {
+    "id": "quiz-natureza-e-animais-44",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual destes animais é um invertebrado?",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Aranha",
+      "Macaco"
+    ],
+    "correctAnswer": "Aranha",
+    "explanation": "Aranhas são invertebrados, pertencentes à classe Arachnida."
+  },
+  {
+    "id": "quiz-natureza-e-animais-45",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de formação de recifes de coral?",
+    "options": [
+      "Sedimentação",
+      "Vulcanismo",
+      "Bioconstrução",
+      "Erosão"
+    ],
+    "correctAnswer": "Bioconstrução",
+    "explanation": "Recifes de coral são formados pela bioconstrução de corais e outros organismos marinhos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-46",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre uma zona fótica e uma zona afótica em um ecossistema aquático?",
+    "options": [
+      "Temperatura",
+      "Salinidade",
+      "Pressão",
+      "Penetração de luz"
+    ],
+    "correctAnswer": "Penetração de luz",
+    "explanation": "A zona fótica recebe luz suficiente para a fotossíntese, enquanto a zona afótica é escura demais."
+  },
+  {
+    "id": "quiz-natureza-e-animais-47",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual ave é conhecida por sua capacidade de imitar sons?",
+    "options": [
+      "Papagaio",
+      "Pinguim",
+      "Águia",
+      "Falcão"
+    ],
+    "correctAnswer": "Papagaio",
+    "explanation": "Papagaios são famosos por sua habilidade de imitar sons e até mesmo palavras."
+  },
+  {
+    "id": "quiz-natureza-e-animais-48",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo onde o pólen é transferido do estame para o estigma de uma flor?",
+    "options": [
+      "Fotossíntese",
+      "Polinização",
+      "Germinação",
+      "Fertilização"
+    ],
+    "correctAnswer": "Polinização",
+    "explanation": "A polinização é essencial para a reprodução das plantas com flores."
+  },
+  {
+    "id": "quiz-natureza-e-animais-49",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno que ocorre quando um ecossistema sofre uma mudança drástica, como um incêndio florestal?",
+    "options": [
+      "Sucessão ecológica",
+      "Adaptação",
+      "Mutação",
+      "Destruição ambiental"
+    ],
+    "correctAnswer": "Sucessão ecológica",
+    "explanation": "Após uma perturbação, a sucessão ecológica descreve como o ecossistema se recupera e se reorganiza."
+  },
+  {
+    "id": "quiz-natureza-e-animais-50",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido como o 'rei da floresta'?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Gorila",
+      "Elefante"
+    ],
+    "correctAnswer": "Gorila",
+    "explanation": "O gorila é considerado o 'rei da floresta' em muitas culturas e representa a força na selva."
+  },
+  {
+    "id": "quiz-natureza-e-animais-51",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o principal componente da atmosfera terrestre?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de carbono",
+      "Argônio"
+    ],
+    "correctAnswer": "Nitrogênio",
+    "explanation": "O nitrogênio compõe cerca de 78% da atmosfera terrestre."
+  },
+  {
+    "id": "quiz-natureza-e-animais-52",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um nicho ecológico e um habitat?",
+    "options": [
+      "Localização vs. função",
+      "Função vs. localização",
+      "Tamanho vs. forma",
+      "Clima vs. vegetação"
+    ],
+    "correctAnswer": "Função vs. localização",
+    "explanation": "Habitat é onde um organismo vive, enquanto o nicho é seu papel no ecossistema."
+  },
+  {
+    "id": "quiz-natureza-e-animais-53",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua capacidade de hibernar?",
+    "options": [
+      "Leão",
+      "Urso",
+      "Girafa",
+      "Zebra"
+    ],
+    "correctAnswer": "Urso",
+    "explanation": "Os ursos hibernam durante o inverno para conservar energia."
+  },
+  {
+    "id": "quiz-natureza-e-animais-54",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o processo natural que forma as dunas de areia?",
+    "options": [
+      "Erosão eólica",
+      "Erosão pluvial",
+      "Glaciação",
+      "Tectonismo"
+    ],
+    "correctAnswer": "Erosão eólica",
+    "explanation": "O vento transporta e deposita areia, formando as dunas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-55",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome da camada da atmosfera responsável pela absorção da maior parte da radiação ultravioleta?",
+    "options": [
+      "Troposfera",
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correctAnswer": "Estratosfera",
+    "explanation": "A camada de ozônio na estratosfera protege a Terra da radiação UV."
+  },
+  {
+    "id": "quiz-natureza-e-animais-56",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o nome do maior deserto do mundo?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto do Atacama",
+      "Deserto do Gobi",
+      "Deserto Ártico"
+    ],
+    "correctAnswer": "Deserto Ártico",
+    "explanation": "O Deserto Ártico é o maior deserto do mundo em área, embora tenha neve e gelo."
+  },
+  {
+    "id": "quiz-natureza-e-animais-57",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Que tipo de floresta é caracterizada por árvores de folhas largas e clima quente e úmido?",
+    "options": [
+      "Taiga",
+      "Tundra",
+      "Floresta Temperada",
+      "Floresta Tropical"
+    ],
+    "correctAnswer": "Floresta Tropical",
+    "explanation": "Florestas tropicais são conhecidas por sua biodiversidade e alta umidade."
+  },
+  {
+    "id": "quiz-natureza-e-animais-58",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o processo geológico que leva à formação de montanhas?",
+    "options": [
+      "Erosão",
+      "Sedimentação",
+      "Tectonismo",
+      "Vulcanismo"
+    ],
+    "correctAnswer": "Tectonismo",
+    "explanation": "O movimento das placas tectônicas causa a formação de montanhas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-59",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo de quebra de rochas em pedaços menores?",
+    "options": [
+      "Vulcanismo",
+      "Tectonismo",
+      "Meteorização",
+      "Sedimentação"
+    ],
+    "correctAnswer": "Meteorização",
+    "explanation": "A meteorização pode ser física, química ou biológica."
+  },
+  {
+    "id": "quiz-natureza-e-animais-60",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o tipo de simbiose onde ambos os organismos se beneficiam?",
+    "options": [
+      "Parasitismo",
+      "Comensalismo",
+      "Mutualismo",
+      "Competição"
+    ],
+    "correctAnswer": "Mutualismo",
+    "explanation": "Um exemplo clássico é a relação entre abelhas e flores."
+  },
+  {
+    "id": "quiz-natureza-e-animais-61",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do processo pelo qual as plantas perdem água através das folhas?",
+    "options": [
+      "Fotossíntese",
+      "Respiração",
+      "Transpiração",
+      "Germinação"
+    ],
+    "correctAnswer": "Transpiração",
+    "explanation": "A transpiração é essencial para a movimentação de água nas plantas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-62",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo ecológico que descreve como uma comunidade biológica se estabelece em um novo habitat?",
+    "options": [
+      "Sucessão primária",
+      "Sucessão secundária",
+      "Climax",
+      "Degradação"
+    ],
+    "correctAnswer": "Sucessão primária",
+    "explanation": "Isso acontece em áreas previamente desabitadas, como rochas vulcânicas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-63",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual destes animais é um primata?",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Macaco",
+      "Coelho"
+    ],
+    "correctAnswer": "Macaco",
+    "explanation": "Macacos pertencem à ordem dos primatas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-64",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno natural responsável pela formação de cavernas calcárias?",
+    "options": [
+      "Tectonismo",
+      "Vulcanismo",
+      "Erosão por água",
+      "Glaciação"
+    ],
+    "correctAnswer": "Erosão por água",
+    "explanation": "A água da chuva dissolvendo o calcário ao longo de milhares de anos cria as cavernas."
+  },
+  {
+    "id": "quiz-natureza-e-animais-65",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o processo de formação de rochas sedimentares?",
+    "options": [
+      "Resfriamento do magma",
+      "Metamorfismo",
+      "Compactação e cimentação de sedimentos",
+      "Cristalização"
+    ],
+    "correctAnswer": "Compactação e cimentação de sedimentos",
+    "explanation": "Sedimentos são compactados e cimentados para formar rochas sedimentares."
+  },
+  {
+    "id": "quiz-natureza-e-animais-66",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual o nome do processo de transformação de água líquida em gelo?",
+    "options": [
+      "Evaporação",
+      "Condensação",
+      "Congelamento",
+      "Fusão"
+    ],
+    "correctAnswer": "Congelamento",
+    "explanation": "O congelamento ocorre quando a temperatura cai abaixo do ponto de congelamento da água."
+  },
+  {
+    "id": "quiz-natureza-e-animais-67",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua camuflagem?",
+    "options": [
+      "Leão",
+      "Camaleão",
+      "Zebra",
+      "Girafa"
+    ],
+    "correctAnswer": "Camaleão",
+    "explanation": "Os camaleões mudam de cor para se misturar com o ambiente."
+  },
+  {
+    "id": "quiz-natureza-e-animais-68",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por viver em grupos chamados colmeias?",
+    "options": [
+      "Formigas",
+      "Abelhas",
+      "Gafanhotos",
+      "Louva-a-deus"
+    ],
+    "correctAnswer": "Abelhas",
+    "explanation": "As abelhas vivem em colmeias altamente organizadas."
+  }
+]

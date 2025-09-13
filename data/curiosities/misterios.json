@@ -1,0 +1,119 @@
+[
+  {
+    "id": "misterios-1",
+    "categoryId": "misterios",
+    "title": "O Enigma do Hum de Taos",
+    "hook": "Você sabia que...",
+    "content": "Um baixo zumbido inexplicável atormenta moradores de Taos, Novo México.  Apenas alguns conseguem ouvi-lo, e sua origem permanece um mistério, apesar de inúmeras investigações. Teorias vão de infrassons industriais a fenômenos geológicos.  O som é tão perturbador que afeta o sono e a saúde mental de quem o percebe.",
+    "funFact": "Alguns acreditam que o som está ligado a atividades extraterrestres.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-2",
+    "categoryId": "misterios",
+    "title": "A Desaparecida Ilha de São Brás",
+    "hook": "Incrível:",
+    "content": "Mapas antigos mostram a Ilha de São Brás no Atlântico, mas ela desapareceu sem deixar vestígios.  Nenhuma explicação geológica satisfaz a sua súbita ausência.  Teorias sobre afundamento, erro cartográfico e até mesmo ilusão de óptica persistem, mantendo a ilha como um mistério marítimo.",
+    "funFact": "Alguns marinheiros juram tê-la visto em noites de tempestade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-3",
+    "categoryId": "misterios",
+    "title": "O Desaparecimento do Voo 19",
+    "hook": "Incrível:",
+    "content": "Cinco aviões da Marinha americana desapareceram misteriosamente sobre o Triângulo das Bermudas em 1945.  Diversas teorias, desde mau tempo até atividade paranormal, tentam explicar o ocorrido, mas a verdade permanece um enigma até hoje. A falta de destroços complica a investigação.",
+    "funFact": "O avião de resgate também desapareceu.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-4",
+    "categoryId": "misterios",
+    "title": "O Silêncio de Yonaguni",
+    "hook": "Você sabia que...",
+    "content": "Próximo a Yonaguni, no Japão, há uma formação rochosa subaquática que alguns acreditam ser uma estrutura artificial pré-histórica.  A discussão sobre sua origem natural ou artificial continua, alimentando debates sobre civilizações avançadas que teriam existido muito antes do que se supõe.",
+    "funFact": "A estrutura apresenta formas geométricas complexas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-5",
+    "categoryId": "misterios",
+    "title": "O Enigma da Floresta de Hallerbos",
+    "hook": "Você sabia que...",
+    "content": "A floresta belga de Hallerbos se transforma em um mar azul de flores durante a primavera. A beleza do fenômeno é tão encantadora quanto misteriosa, já que a densidade e a sincronia da floração ainda não foram totalmente explicadas pela ciência.",
+    "funFact": "A floresta fica coberta por um tapete azul de jacintos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-6",
+    "categoryId": "misterios",
+    "title": "O Mistério do Mar Salgado",
+    "hook": "Incrível:",
+    "content": "O Mar Morto, na verdade um lago, é conhecido por sua alta salinidade, que impede a vida marinha. O que permanece um mistério é a origem de sua alta concentração de sal e o impacto que isso tem no ambiente circundante.",
+    "funFact": "É um dos lugares mais baixos da Terra.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-7",
+    "categoryId": "misterios",
+    "title": "O Segredo das Esferas de Costa Rica",
+    "hook": "Incrível: esferas perfeitas!",
+    "content": "Descobertas na década de 1930, centenas de esferas de pedra quase perfeitas de diferentes tamanhos intrigaram cientistas.  Sua origem e propósito permanecem um mistério, com teorias variando de marcadores de território a instrumentos astronômicos. A precisão de sua construção é assombrosa.",
+    "funFact": "Algumas esferas são tão perfeitamente esféricas que a variação em seu diâmetro é menor que um milímetro.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-8",
+    "categoryId": "misterios",
+    "title": "O Caso do Navio Fantasma de Mary Celeste",
+    "hook": "Incrível: Um navio encontrado à deriva...",
+    "content": "Em 1872, o Mary Celeste foi encontrado flutuando no Atlântico, completamente vazio, com carga intacta e sem sinais de luta ou mau tempo.  Sua tripulação desapareceu sem deixar vestígios, alimentando teorias sobre piratas, monstros marinhos e até mesmo eventos sobrenaturais. O mistério permanece até hoje.",
+    "funFact": "Nenhum sinal de afogamento foi encontrado na embarcação.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-9",
+    "categoryId": "misterios",
+    "title": "O Segredo da Pedra de Stonehenge",
+    "hook": "Incrível: pedras que desafiam a física!",
+    "content": "Como pedras gigantescas foram transportadas e erguidas em Stonehenge ainda é um mistério.  Teorias envolvem mecanismos avançados ou forças sobrenaturais, mas nenhuma explicação é totalmente convincente. A precisão astronômica da construção adiciona outro nível de intriga.  Será que entendemos mesmo a engenharia da época?",
+    "funFact": "Algumas pedras de Stonehenge são de um tipo de rocha que não existe em raio de centenas de quilômetros.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-10",
+    "categoryId": "misterios",
+    "title": "A Música das Esferas de Moeraki",
+    "hook": "Você sabia que...",
+    "content": "As esferas de Moeraki, na Nova Zelândia, são formações rochosas gigantes e perfeitamente esféricas. Lendas locais as atribuem a poderes ancestrais, enquanto a ciência oferece explicações geológicas complexas.  O que é inegável é o mistério de como a natureza esculpiu essas formas tão precisas.",
+    "funFact": "Durante tempestades, as esferas emitem um som que os locais descrevem como uma melodia antiga.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-11",
+    "categoryId": "misterios",
+    "title": "O Enigma das Linhas de Nazca",
+    "hook": "Desvende o mistério:",
+    "content": "As gigantescas figuras geométricas e zoomorfas desenhadas no deserto de Nazca, no Peru, são visíveis apenas do ar.  Sua finalidade ainda é debatida, com teorias que vão de calendários astronômicos a pistas para civilizações perdidas. A escala e a precisão são impressionantes.",
+    "funFact": "Algumas linhas são tão finas que parecem traçadas com um laser.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-12",
+    "categoryId": "misterios",
+    "title": "O Mistério do Lago Vostok",
+    "hook": "Incrível: um lago subglacial!",
+    "content": "Escondido sob a Antártida, o Lago Vostok é um gigantesco lago subglacial, isolado do mundo exterior por milhões de anos. Sua descoberta revelou um ecossistema misterioso, potencialmente abrigando formas de vida desconhecidas.  A exploração é um desafio tecnológico e científico imenso.",
+    "funFact": "Acredita-se que o lago contenha água mais antiga do que a civilização humana.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-13",
+    "categoryId": "misterios",
+    "title": "O Silêncio de Easter Island",
+    "hook": "Você sabia que...",
+    "content": "As famosas estátuas Moai da Ilha de Páscoa escondem um mistério maior: o colapso de sua civilização.  Como uma sociedade tão avançada para criar os Moai sucumbiu?  A falta de registros escritos torna a busca por respostas um enigma arqueológico fascinante.",
+    "funFact": "Pesquisas recentes indicam que a ilha sofreu um processo de desertificação muito mais rápido do que se pensava.",
+    "curiosityLevel": 4
+  }
+]

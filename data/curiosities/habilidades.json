@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Aprender a Codificar",
@@ -34,5 +33,86 @@
     "funFact": "A velocidade média de leitura de um adulto é de cerca de 200-250 palavras por minuto, mas praticantes de leitura dinâmica podem ultrapassar 1000 palavras por minuto.",
     "id": "habilidades-5",
     "categoryId": "habilidades"
+  },
+  {
+    "id": "habilidades-6",
+    "categoryId": "habilidades",
+    "title": "A Mágica da Memorização",
+    "hook": "Você sabia que...",
+    "content": "Nossa capacidade de memorizar é muito maior do que imaginamos! Técnicas como a do método loci, que associam imagens a locais conhecidos, podem aumentar exponencialmente nossa retenção de informações.  Com prática, você consegue memorizar sequências longas, listas de compras ou até mesmo discursos inteiros com facilidade.",
+    "funFact": "Algumas pessoas conseguem memorizar baralhos inteiros de cartas em segundos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-7",
+    "categoryId": "habilidades",
+    "title": "A Força do Microaprendizado",
+    "hook": "Você sabia que...",
+    "content": "Aprender em pequenas doses, focado em um único tópico por vez, pode ser muito mais eficiente que longas sessões de estudo.  O microaprendizado explora a capacidade do cérebro de absorver informações em curtos intervalos, maximizando a retenção e minimizando a fadiga.",
+    "funFact": "Apps de microaprendizado já ensinam idiomas, programação e até medicina!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "habilidades-8",
+    "categoryId": "habilidades",
+    "title": "Mestre da Organização",
+    "hook": "Você sabia que...",
+    "content": "A organização não é apenas arrumar a casa ou a mesa; é uma habilidade que impacta sua produtividade, reduz o estresse e melhora sua qualidade de vida.  Sistemas como o Getting Things Done (GTD) ajudam a organizar tarefas e projetos.",
+    "funFact": "Pessoas organizadas tendem a ser mais eficientes e menos propensas à ansiedade.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "habilidades-9",
+    "categoryId": "habilidades",
+    "title": "A Habilidade da Intuitiva Decisão",
+    "hook": "Incrível: sua mente prevê!",
+    "content": "Nosso cérebro processa informações inconscientemente, levando a decisões rápidas e precisas, mesmo sem raciocínio consciente.  É a intuição, uma habilidade refinada pela experiência e observação.  Essa capacidade é crucial em situações de pressão, onde a análise minuciosa pode ser um luxo. Treine-a!",
+    "funFact": "Alguns estudos indicam que a intuição está ligada à atividade em áreas cerebrais associadas à memória emocional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-10",
+    "categoryId": "habilidades",
+    "title": "Desvendando o Poder da Adaptação",
+    "hook": "Você sabia que...",
+    "content": "A adaptação é uma superhabilidade que permite navegar em mudanças constantes.  Seja no ambiente profissional ou pessoal, a flexibilidade mental e a capacidade de aprender novas habilidades rapidamente são essenciais para o sucesso.  É como um camaleão, mudando de cor para se camuflar no novo cenário.",
+    "funFact": "Animais demonstram diferentes graus de adaptação, alguns até regenerando membros perdidos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-11",
+    "categoryId": "habilidades",
+    "title": "A Arte da Escrita Criativa",
+    "hook": "Descubra o escritor oculto!",
+    "content": "Escrever não é apenas transmitir informações, mas também criar mundos e evocar emoções.  Dominar a escrita criativa envolve a capacidade de construir narrativas cativantes, personagens memoráveis ​​e diálogos envolventes. Essa habilidade pode ser aprimorada com prática e estudo de técnicas narrativas.",
+    "funFact": "Muitos escritores famosos começaram escrevendo em diários pessoais.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "habilidades-12",
+    "categoryId": "habilidades",
+    "title": "Desenvolver a Criatividade",
+    "hook": "Sua imaginação sem limites!",
+    "content": "A criatividade é uma habilidade essencial para resolver problemas de forma inovadora e gerar novas ideias.  Pode ser estimulada através da exploração de diferentes perspectivas, brainstorming e técnicas como o 'mind mapping'.  Não é um dom nato, mas uma habilidade que pode ser desenvolvida.",
+    "funFact": "A criatividade está relacionada à capacidade de fazer conexões inesperadas entre ideias.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-13",
+    "categoryId": "habilidades",
+    "title": "Dominando a Arte da Escuta Ativa",
+    "hook": "Você sabia que...",
+    "content": "A escuta ativa não é apenas ouvir, mas também observar a linguagem corporal e o tom de voz.  Ao se concentrar em entender completamente o outro, você constrói conexões mais fortes e eficazes.  A empatia é a chave para este tipo de escuta.",
+    "funFact": "Pessoas com alta capacidade de escuta ativa tendem a ter melhores relações interpessoais e a resolver conflitos com mais facilidade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-14",
+    "categoryId": "habilidades",
+    "title": "A Mente Arquitetônica: Projetando o Sucesso",
+    "hook": "Incrível: sua mente constrói!",
+    "content": "Nosso cérebro funciona como um arquiteto, projetando soluções para problemas complexos.  Essa 'mente arquitetônica' une lógica, criatividade e planejamento para construir caminhos eficientes rumo aos objetivos.  Entender esse processo mental pode otimizar sua capacidade de resolução de problemas e atingir o sucesso em qualquer área.",
+    "funFact": "Estudos mostram que a visualização espacial melhora significativamente a capacidade de solução de problemas complexos.",
+    "curiosityLevel": 4
   }
 ]

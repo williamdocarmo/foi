@@ -1,0 +1,155 @@
+[
+  {
+    "id": "psicologia-1",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Silêncio",
+    "hook": "O silêncio fala volumes.",
+    "content": "O silêncio não é apenas a ausência de som, mas uma poderosa ferramenta de comunicação.  Ele pode transmitir desconforto, concordância, respeito ou até mesmo desafio, dependendo do contexto e da relação entre as pessoas envolvidas.  A interpretação do silêncio varia culturalmente, tornando-o um aspecto fascinante da interação humana. ",
+    "funFact": "Em algumas culturas, o silêncio prolongado é um sinal de respeito profundo, enquanto em outras, pode ser interpretado como desinteresse ou até mesmo desrespeito.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-2",
+    "categoryId": "psicologia",
+    "title": "Mentes em Construção",
+    "hook": "Seu cérebro muda constantemente.",
+    "content": "A neuroplasticidade demonstra a incrível capacidade do cérebro de se remodelar ao longo da vida. Novas conexões neuronais são formadas constantemente com base em experiências e aprendizado, mostrando que nossa mente é dinâmica e moldável, adaptando-se continuamente ao ambiente e às novas informações.",
+    "funFact": "Mesmo na idade adulta, o cérebro continua criando novas células cerebrais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-3",
+    "categoryId": "psicologia",
+    "title": "O Poder das Cores",
+    "hook": "Cores influenciam seu humor?",
+    "content": "As cores não afetam apenas nossa visão, mas também nossos estados emocionais e até mesmo nosso comportamento. O azul, por exemplo, é frequentemente associado à calma e tranquilidade, enquanto o vermelho pode ser estimulante e até mesmo irritante para algumas pessoas.  Esta influência é estudada pela psicologia da cor.",
+    "funFact": "Hospitais frequentemente usam o azul claro para criar um ambiente relaxante.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-4",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Persuasão",
+    "hook": "Você é facilmente persuadido?",
+    "content": "Compreender os princípios da persuasão é crucial em diversas áreas, desde as vendas até a comunicação política. Técnicas como a reciprocidade, a escassez e a autoridade são usadas para influenciar decisões e comportamentos. A psicologia explica como estas táticas funcionam.",
+    "funFact": "A repetição de uma mensagem aumenta a sua credibilidade, mesmo que ela seja falsa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-5",
+    "categoryId": "psicologia",
+    "title": "O Efeito Placebo",
+    "hook": "A mente cura o corpo?",
+    "content": "O efeito placebo demonstra o poder da crença na cura. Um tratamento inerte pode gerar efeitos reais se o paciente acredita que é eficaz.  Este efeito demonstra a forte ligação entre mente e corpo e a importância da expectativa na recuperação.",
+    "funFact": "O efeito placebo pode ser tão poderoso quanto alguns medicamentos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-6",
+    "categoryId": "psicologia",
+    "title": "A Mente e o Ritmo Circadiano",
+    "hook": "Incrível: seu humor segue o sol?",
+    "content": "Seu humor e produtividade são fortemente influenciados pelo seu ritmo circadiano, o relógio biológico interno.  Alterações nesse ritmo, como a privação de sono ou mudanças de fuso horário, podem causar mudanças de humor significativas, impactando a concentração e até mesmo a tomada de decisões.  A sincronia entre seu ritmo circadiano e seu estilo de vida impacta diretamente seu bem-estar mental.",
+    "funFact": "Existem terapias de luz que ajudam a regular o ritmo circadiano e melhorar o humor em casos de depressão sazonal.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-7",
+    "categoryId": "psicologia",
+    "title": "O Poder da Micromímica",
+    "hook": "Você sabia que...",
+    "content": "Expressões faciais fugazes, chamadas micromímicas, revelam emoções ocultas.  Duram apenas frações de segundo, mas são perceptíveis para observadores treinados, como detetives e psicólogos.  Elas podem trair mentiras ou mostrar sentimentos reprimidos, fornecendo insights valiosos sobre o estado emocional interno de uma pessoa.",
+    "funFact": "Até mesmo pessoas com treinamento em controle emocional exibem micromímicas involuntariamente.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-8",
+    "categoryId": "psicologia",
+    "title": "A Ilusão da Escolha",
+    "hook": "Incrível: mais escolhas, menos felicidade?",
+    "content": "Ter muitas opções pode paradoxalmente levar à paralisia da decisão e à insatisfação.  A sensação de culpa por uma escolha 'errada' entre muitas é maior do que se houver apenas poucas opções.  A simplicidade na escolha pode aumentar a satisfação geral.",
+    "funFact": "Supermercados estrategicamente limitam as opções de certos produtos para facilitar as decisões dos clientes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-9",
+    "categoryId": "psicologia",
+    "title": "A Neuropsicologia da Música",
+    "hook": "Incrível: a música muda seu cérebro!",
+    "content": "A música ativa diversas áreas do cérebro, incluindo regiões associadas à emoção, memória e linguagem.  Estudos mostram que a música pode melhorar a memória, a cognição e até mesmo auxiliar no tratamento de doenças neurológicas como a doença de Alzheimer.",
+    "funFact": "Ouvir música que você gosta libera dopamina, um neurotransmissor associado ao prazer e à recompensa.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-10",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Bocejo Contagioso",
+    "hook": "Incrível: bocejos são psicológicos!",
+    "content": "O bocejo contagioso não é apenas fisiológico; estudos mostram uma forte ligação com empatia e conexão social.  Bocejar ao ver alguém bocejando indica uma capacidade de se colocar no lugar do outro, refletindo a atividade neural da pessoa observada.  A intensidade do contágio pode até refletir a força do vínculo.",
+    "funFact": "Bebês só começam a apresentar bocejos contagiosos após 6 meses de idade!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-11",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Procrastinação Crônica",
+    "hook": "Surpreendente: a procrastinação...",
+    "content": "A procrastinação não é apenas preguiça; frequentemente, é um mecanismo de enfrentamento para lidar com ansiedade e medo do fracasso.  A urgência se torna um estímulo, e a busca por recompensas imediatas supera a busca por metas a longo prazo, criando um ciclo vicioso.",
+    "funFact": "A procrastinação é mais frequente em pessoas perfeccionistas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "psicologia-12",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Intuicao",
+    "hook": "Você sabia que...",
+    "content": "A intuição, muitas vezes vista como um sexto sentido, é na verdade um processo mental rápido e inconsciente que utiliza nossa experiência passada e padrões reconhecidos. Este processo rápido de tomada de decisão pode ser eficaz, mas também propenso a vieses.",
+    "funFact": "A intuição é frequentemente mais precisa em áreas onde temos grande experiência.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-13",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Esquecimento Seletivo",
+    "hook": "Incrível: sua mente escolhe o que esquecer!",
+    "content": "Nosso cérebro não armazena tudo igualmente. O esquecimento seletivo, um mecanismo de defesa, descarta memórias dolorosas ou irrelevantes.  Esse processo, apesar de parecer negativo, é crucial para a saúde mental, filtrando o excesso de informações.  A intensidade emocional associada a uma memória afeta diretamente sua probabilidade de ser lembrada ou esquecida.",
+    "funFact": "Pesquisas sugerem que podemos esquecer até 70% de uma nova informação em apenas 24 horas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-14",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Personalidade Digital",
+    "hook": "Incrível:",
+    "content": "Nossos perfis online refletem aspectos de nossa personalidade. A forma como interagimos nas redes sociais, as imagens que compartilhamos, e até mesmo a organização de nossos perfis digitais revelam traços de nossa personalidade e podem influenciar como somos percebidos pelos outros.",
+    "funFact": "A consistência entre a personalidade online e offline é surpreendentemente alta.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-15",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Humor Negro",
+    "hook": "Incrível:",
+    "content": "O humor negro, que usa temas tabus e mórbidos, serve como mecanismo de enfrentamento para lidar com o medo, a ansiedade e o sofrimento.  Para alguns, rir do absurdo da existência pode ser uma forma de lidar com a finitude humana e aliviar a angústia.",
+    "funFact": "O humor negro pode indicar um alto nível de inteligência emocional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "psicologia-16",
+    "categoryId": "psicologia",
+    "title": "A Psicologia do Toque",
+    "hook": "Você sabia que...",
+    "content": "O toque, além de sua função física, possui um impacto profundo na saúde mental. Um toque afetuoso, como um abraço, libera ocitocina, hormônio que reduz o estresse e promove sensação de bem-estar.  A falta de toque físico pode levar a problemas emocionais.",
+    "funFact": "O toque é essencial para o desenvolvimento saudável de crianças.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "psicologia-17",
+    "categoryId": "psicologia",
+    "title": "A Psicologia da Decisão em Grupo",
+    "hook": "Descubra:",
+    "content": "A tomada de decisões em grupo pode ser influenciada por fatores como polarização (tendência a posições extremas) e pensamento de grupo (conformismo em detrimento da crítica).  Entender esses fenômenos é crucial para otimizar a eficácia da tomada de decisões coletiva.",
+    "funFact": "Grupos podem tomar decisões mais arriscadas do que indivíduos.",
+    "curiosityLevel": 3
+  }
+]

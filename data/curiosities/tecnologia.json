@@ -1,0 +1,155 @@
+[
+  {
+    "id": "tecnologia-1",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas em seu Refrigerador",
+    "hook": "Incrível: seu refrigerador...",
+    "content": "Muitos refrigeradores modernos já utilizam a Internet das Coisas (IoT). Eles monitoram o consumo de energia, avisam sobre a falta de itens e até sugerem receitas com base no que você tem.  Essa tecnologia torna a gestão de alimentos mais eficiente e conveniente, integrando-se a outros aplicativos domésticos inteligentes.",
+    "funFact": "Alguns refrigeradores podem até mesmo fazer compras online automaticamente quando detectam a falta de algo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-2",
+    "categoryId": "tecnologia",
+    "title": "Computadores Biológicos: Uma Nova Era?",
+    "hook": "Você sabia que...",
+    "content": "Cientistas estão desenvolvendo computadores biológicos, usando moléculas de DNA e RNA para processar informações.  Esta abordagem promete computadores extremamente eficientes e com baixo consumo de energia, abrindo portas para novas áreas da medicina e da biotecnologia.  Ainda em estágio inicial, mas o potencial é imenso.",
+    "funFact": "Um computador biológico poderia ser tão pequeno quanto uma única célula!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-3",
+    "categoryId": "tecnologia",
+    "title": "A Evolução dos Processadores Quânticos",
+    "hook": "Incrível:",
+    "content": "A computação quântica está a passos largos.  Processadores quânticos, que utilizam princípios da mecânica quântica para realizar cálculos complexos, já conseguem superar os computadores clássicos em determinadas tarefas específicas. A corrida para criar computadores quânticos mais poderosos está em andamento.",
+    "funFact": "Um computador quântico pode resolver problemas que levariam bilhões de anos para um computador tradicional.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-4",
+    "categoryId": "tecnologia",
+    "title": "Segredos da Biometria Avançada",
+    "hook": "Você sabia que...",
+    "content": "A biometria está evoluindo além das impressões digitais e reconhecimento facial.  Estamos vendo tecnologias que analisam o padrão de veias na sua mão, o ritmo cardíaco, e até mesmo o cheiro corporal para autenticação. A segurança está se tornando cada vez mais sofisticada e personalizada.",
+    "funFact": "A biometria comportamental analisa seu jeito de digitar para identificar você.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-5",
+    "categoryId": "tecnologia",
+    "title": "A Internet Submarina Global",
+    "hook": "Incrível:",
+    "content": "A maior parte do tráfego de internet é transmitido por meio de cabos submarinos de fibra óptica.  Uma complexa rede global de cabos conecta continentes, países e cidades, transmitindo dados a velocidades incríveis. Um sistema fundamental e invisível para nossa vida conectada.",
+    "funFact": "Existem milhares de quilômetros de cabos submarinos interconectados pelo planeta!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-6",
+    "categoryId": "tecnologia",
+    "title": "Metaverso e suas Possibilidades",
+    "hook": "Incrível:",
+    "content": "O metaverso, um universo virtual compartilhado, oferece infinitas possibilidades. Desde jogos e experiências imersivas até eventos e trabalho remoto, o metaverso está redefinindo a forma como interagimos com o mundo digital e uns com os outros.  Ainda em desenvolvimento, mas seu potencial é imenso.",
+    "funFact": "No metaverso, você pode criar sua própria versão digital!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-7",
+    "categoryId": "tecnologia",
+    "title": "Sensores IoT e Monitoramento Ambiental",
+    "hook": "Incrível:",
+    "content": "Sensores IoT espalhados pelo mundo monitoram diversos aspectos do meio ambiente, desde a qualidade do ar e da água até a temperatura e umidade do solo.  Esses dados ajudam cientistas e governos a entenderem melhor o impacto humano e a tomar medidas para proteger o planeta.",
+    "funFact": "É possível monitorar florestas inteiras em tempo real com sensores IoT!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-8",
+    "categoryId": "tecnologia",
+    "title": "Inteligência Artificial e Agricultura de Precisão",
+    "hook": "Você sabia que...",
+    "content": "A IA está otimizando a agricultura, analisando dados de sensores e imagens de satélite para otimizar a irrigação, aplicação de fertilizantes e controle de pragas.  Isso aumenta a produtividade, reduz o uso de recursos e promove uma agricultura mais sustentável.",
+    "funFact": "Drones com IA podem identificar plantas doentes em um campo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-9",
+    "categoryId": "tecnologia",
+    "title": "Sensores Vestíveis e Monitoramento da Saúde",
+    "hook": "Você sabia que...",
+    "content": "Relógios inteligentes e outros dispositivos vestíveis monitoram diversos aspectos da saúde, desde batimentos cardíacos e sono até níveis de atividade física.  Esses dados ajudam na prevenção de doenças e na gestão de condições crônicas, promovendo um estilo de vida mais saudável.",
+    "funFact": "Alguns sensores podem detectar sinais precoces de doenças cardíacas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-10",
+    "categoryId": "tecnologia",
+    "title": "O Segredo da Memória Flash",
+    "hook": "Incrível: a história da memória flash!",
+    "content": "A memória flash, presente em pendrives e celulares, surgiu de uma necessidade de armazenamento não-volátil.  Sua invenção, na década de 80, revolucionou a portabilidade de dados.  Mas você sabia que sua tecnologia, baseada em flutuação de elétrons, foi inspirada em estudos com materiais semicondutores?  A miniaturização contínua desse componente é um feito notável da engenharia.",
+    "funFact": "A primeira memória flash tinha apenas 16KB de capacidade!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-11",
+    "categoryId": "tecnologia",
+    "title": "A Guerra dos Formatos de Vídeo",
+    "hook": "Você sabia que...",
+    "content": "A batalha entre VHS e Betamax nos anos 80 foi crucial para a história do vídeo doméstico.  A superioridade técnica do Betamax, com melhor resolução e tempo de gravação, foi superada pela estratégia de marketing da VHS, que priorizou a capacidade de gravação prolongada e preço mais baixo.  Essa guerra ilustra a importância do mercado além da tecnologia.",
+    "funFact": "A Sony, criadora do Betamax,  nunca admitiu publicamente a derrota.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-12",
+    "categoryId": "tecnologia",
+    "title": "A Evolução Silenciosa do GPS",
+    "hook": "Surpreendente:",
+    "content": "O GPS que usamos hoje é resultado de décadas de desenvolvimento militar.  Inicialmente,  o sistema era inacessível ao público.  A sua miniaturização e o desenvolvimento de chips cada vez mais eficientes permitiram a integração em dispositivos móveis, transformando a forma como navegamos.",
+    "funFact": "O primeiro GPS pesava mais de 30kg!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-13",
+    "categoryId": "tecnologia",
+    "title": "A Música dos Chips",
+    "hook": "Incrível: os sons dos chips!",
+    "content": "Você já ouviu a 'música' dos chips de computador?  Esses sons, gerados pelas frequências de operação, são únicos para cada modelo.  Especialistas podem identificar chips apenas pelo som!  A 'música' revela a saúde e o desempenho do chip.  Programas especiais até mesmo traduzem esses sons em melodias audíveis.",
+    "funFact": "Alguns chips produzem sons tão complexos que foram usados em composições musicais experimentais!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-14",
+    "categoryId": "tecnologia",
+    "title": "A Magia dos Codificadores de Cores",
+    "hook": "Incrível: as cores que você vê...",
+    "content": "Os códigos de cores RGB e CMYK, usados em telas e impressoras, são um sistema complexo de misturas de luz e pigmentos.  Mas você sabia que a percepção dessas cores varia de pessoa para pessoa, devido a diferenças na fisiologia ocular?  Essa variação sutil afeta como designers e programadores escolhem as cores para diferentes interfaces.",
+    "funFact": "Existem milhões de variações de cores que o olho humano pode discernir, muito mais do que as representadas pelos códigos RGB e CMYK.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-15",
+    "categoryId": "tecnologia",
+    "title": "O Silêncio do Vácuo Espacial",
+    "hook": "Você sabia que o som...",
+    "content": "No vácuo do espaço, não há meio para as ondas sonoras se propagarem.  Isso significa que, apesar de explosões e colisões de corpos celestes, não há som perceptível.  Para ouvirmos sons do espaço, os cientistas usam técnicas de sonificação, que traduzem dados em áudio.",
+    "funFact": "Satélites e naves espaciais geram vibrações que, se detectadas, podem ser transformadas em sons inusitados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-16",
+    "categoryId": "tecnologia",
+    "title": "A Física da Ponte de Dados",
+    "hook": "Incrível: a velocidade da luz...",
+    "content": "A velocidade da luz é um limite físico para a transmissão de dados.  Apesar da fibra óptica permitir transmissão rápida, a distância ainda impõe restrições.  A latência, ou atraso, em comunicações globais é um desafio constante na busca por velocidades cada vez maiores.",
+    "funFact": "Repetidores ao longo dos cabos de fibra óptica são vitais para manter a transmissão de dados consistente em grandes distâncias.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-17",
+    "categoryId": "tecnologia",
+    "title": "A Realidade Aumentada no Cotidiano",
+    "hook": "Você sabia que...",
+    "content": "A realidade aumentada (RA) está gradualmente se integrando ao nosso dia a dia, com aplicativos que sobrepõem informações digitais ao mundo real.  Desde jogos até instruções de montagem, a RA torna a interação com a tecnologia mais intuitiva e imersiva.",
+    "funFact": "A realidade aumentada permite experiências interativas e personalizadas, criando novas possibilidades para educação, entretenimento e comércio.",
+    "curiosityLevel": 2
+  }
+]

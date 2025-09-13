@@ -1,0 +1,786 @@
+[
+  {
+    "id": "quiz-cultura-1",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pela sua culinária de tapas?",
+    "options": [
+      "Itália",
+      "Espanha",
+      "França",
+      "China"
+    ],
+    "correctAnswer": "Espanha",
+    "explanation": "A Espanha é famosa por suas tapas, pequenas porções de comida servidas como aperitivos.  Uma curiosidade: a palavra 'tapa' originalmente se referia a uma pequena fatia de pão que cobria a bebida para evitar que insetos entrassem."
+  },
+  {
+    "id": "quiz-cultura-2",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico do século XX enfatizava a representação do inconsciente?",
+    "options": [
+      "Impressionismo",
+      "Realismo",
+      "Surrealismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Surrealismo",
+    "explanation": "O Surrealismo explorava o mundo dos sonhos e da imaginação.  Salvador Dalí é um dos seus artistas mais conhecidos. Uma curiosidade: o movimento influenciou significativamente a publicidade e o design gráfico."
+  },
+  {
+    "id": "quiz-cultura-3",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia prega a não-ação como meio de alcançar a harmonia?",
+    "options": [
+      "Estoicismo",
+      "Taoismo",
+      "Epicurismo",
+      "Existencialismo"
+    ],
+    "correctAnswer": "Taoismo",
+    "explanation": "O Taoismo enfatiza a aceitação da natureza e o agir em harmonia com o fluxo natural das coisas.  Uma curiosidade: o símbolo do Yin e Yang é uma representação central do Taoismo."
+  },
+  {
+    "id": "quiz-cultura-4",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é tradicionalmente associado ao folclore irlandês?",
+    "options": [
+      "Guitarra",
+      "Violino",
+      "Flauta",
+      "Gaita de Fole"
+    ],
+    "correctAnswer": "Gaita de Fole",
+    "explanation": "A gaita de fole é um instrumento icônico da música tradicional irlandesa.  Uma curiosidade: existem diferentes tipos de gaitas de fole, cada uma com suas próprias características."
+  },
+  {
+    "id": "quiz-cultura-5",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Em qual país surgiu o Tango?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Uruguai",
+      "Colômbia"
+    ],
+    "correctAnswer": "Argentina",
+    "explanation": "O Tango surgiu nos subúrbios pobres de Buenos Aires, Argentina, no final do século XIX.  Uma curiosidade: o Tango foi originalmente uma dança de rua e só depois foi incorporado a salões de dança mais formais."
+  },
+  {
+    "id": "quiz-cultura-6",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre um Haiku e um Tanka?",
+    "options": [
+      "O Tanka possui mais sílabas",
+      "O Haiku tem uma estrutura mais rígida",
+      "O Tanka é mais poético",
+      "O Haiku é sempre sobre a natureza"
+    ],
+    "correctAnswer": "O Tanka possui mais sílabas",
+    "explanation": "O Haiku tem 5-7-5 sílabas, enquanto o Tanka tem 5-7-5-7-7 sílabas. Uma curiosidade: ambos são formas poéticas tradicionais japonesas."
+  },
+  {
+    "id": "quiz-cultura-7",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso festival de carnaval no Brasil?",
+    "options": [
+      "Dia de los Muertos",
+      "Oktoberfest",
+      "Carnaval do Rio de Janeiro",
+      "La Tomatina"
+    ],
+    "correctAnswer": "Carnaval do Rio de Janeiro",
+    "explanation": "O Carnaval do Rio de Janeiro é mundialmente famoso por suas escolas de samba e desfiles exuberantes. Uma curiosidade: o carnaval é uma celebração antes da Quaresma."
+  },
+  {
+    "id": "quiz-cultura-8",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual dança folclórica mexicana é famosa por suas máscaras e trajes coloridos?",
+    "options": [
+      "Tango",
+      "Samba",
+      "Flamenco",
+      "Danza de los Viejitos"
+    ],
+    "correctAnswer": "Danza de los Viejitos",
+    "explanation": "A Danza de los Viejitos (Dança dos Velhinhos) é uma dança tradicional mexicana que representa a velhice e a sabedoria. Uma curiosidade: as máscaras representam personagens distintos e possuem significado simbólico."
+  },
+  {
+    "id": "quiz-cultura-9",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual o nome do ritual de passagem de idade para meninos na cultura Maasai?",
+    "options": [
+      "Sun Dance",
+      "Coming-of-Age Ceremony",
+      "Circumcision",
+      "Adulthood Rite"
+    ],
+    "correctAnswer": "Circumcision",
+    "explanation": "A circuncisão é um ritual de passagem crucial na cultura Maasai, marcando a transição da infância para a idade adulta. Uma curiosidade: o ritual envolve muitas cerimônias e demonstrações de coragem."
+  },
+  {
+    "id": "quiz-cultura-10",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é lar do Taj Mahal?",
+    "options": [
+      "China",
+      "Índia",
+      "Egito",
+      "Grécia"
+    ],
+    "correctAnswer": "Índia",
+    "explanation": "O Taj Mahal é um mausoléu de mármore branco na Índia, uma das Sete Maravilhas do Mundo Moderno. Uma curiosidade: foi construído por ordem do imperador Mughal Shah Jahan em memória de sua esposa."
+  },
+  {
+    "id": "quiz-cultura-11",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual filosofia se concentra na busca pela iluminação e no escape do ciclo de renascimentos?",
+    "options": [
+      "Confucionismo",
+      "Budismo",
+      "Hinduísmo",
+      "Jainismo"
+    ],
+    "correctAnswer": "Budismo",
+    "explanation": "O Budismo busca a libertação do sofrimento através da compreensão da natureza da realidade e da prática da meditação. Uma curiosidade: existem diversas escolas e tradições budistas ao redor do mundo."
+  },
+  {
+    "id": "quiz-cultura-12",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença central entre o Impressionismo e o Pós-Impressionismo?",
+    "options": [
+      "Uso de cores",
+      "Temas retratados",
+      "Técnica de pinceladas",
+      "Influência do Romantismo"
+    ],
+    "correctAnswer": "Técnica de pinceladas",
+    "explanation": "Enquanto o Impressionismo se focava na captação de impressões visuais rápidas, o Pós-Impressionismo explorou a subjetividade e a expressão pessoal através de técnicas mais estruturadas de pinceladas. Uma curiosidade: muitos artistas pós-impressionistas estudaram o Impressionismo antes de desenvolver seus próprios estilos."
+  },
+  {
+    "id": "quiz-cultura-13",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual esporte é nacionalmente associado ao Japão?",
+    "options": [
+      "Futebol",
+      "Basquete",
+      "Sumô",
+      "Beisebol"
+    ],
+    "correctAnswer": "Sumô",
+    "explanation": "O Sumô é um esporte tradicional japonês com uma longa história e um forte significado cultural. Uma curiosidade: os lutadores de Sumô, chamados de Rikishi, seguem um código de conduta rigoroso."
+  },
+  {
+    "id": "quiz-cultura-14",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do tradicional teatro japonês com máscaras e bonecos?",
+    "options": [
+      "Kabuki",
+      "Noh",
+      "Bunraku",
+      "Kyogen"
+    ],
+    "correctAnswer": "Bunraku",
+    "explanation": "O Bunraku é uma forma de teatro de fantoches tradicional japonês, com os bonecos manipulados com maestria. Uma curiosidade: os manipuladores são habilidosos a ponto de a plateia não perceber sua presença."
+  },
+  {
+    "id": "quiz-cultura-15",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento arquitetônico enfatizava a funcionalidade e a simplicidade?",
+    "options": [
+      "Barroco",
+      "Art Nouveau",
+      "Art Déco",
+      "Bauhaus"
+    ],
+    "correctAnswer": "Bauhaus",
+    "explanation": "O movimento Bauhaus enfatizava a integração da arte, design e tecnologia em função da utilidade e simplicidade. Uma curiosidade: muitos dos designs criados na Bauhaus ainda são relevantes e considerados elegantes hoje em dia."
+  },
+  {
+    "id": "quiz-cultura-16",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pelo seu queijo Brie?",
+    "options": [
+      "Itália",
+      "França",
+      "Suíça",
+      "Inglaterra"
+    ],
+    "correctAnswer": "França",
+    "explanation": "O queijo Brie é um queijo francês cremoso e macio. Uma curiosidade: existem diferentes variações de Brie, dependendo da região de produção."
+  },
+  {
+    "id": "quiz-cultura-17",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do tradicional festival de luzes na Índia?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Pongal",
+      "Onam"
+    ],
+    "correctAnswer": "Diwali",
+    "explanation": "Diwali é um festival de cinco dias que celebra a vitória da luz sobre a escuridão. Uma curiosidade: as famílias indianas decoram suas casas com diyas (lâmpadas de barro) e fogos de artifício."
+  },
+  {
+    "id": "quiz-cultura-18",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filósofo grego é conhecido por seu conceito de 'caverna' como metáfora para a realidade?",
+    "options": [
+      "Sócrates",
+      "Platão",
+      "Aristóteles",
+      "Epicuro"
+    ],
+    "correctAnswer": "Platão",
+    "explanation": "A alegoria da caverna de Platão descreve a busca do conhecimento e a libertação da ignorância. Uma curiosidade: a alegoria tem sido interpretada de diversas maneiras ao longo da história."
+  },
+  {
+    "id": "quiz-cultura-19",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é tradicionalmente associado à música clássica ocidental?",
+    "options": [
+      "Bongo",
+      "Didgeridoo",
+      "Violino",
+      "Sitar"
+    ],
+    "correctAnswer": "Violino",
+    "explanation": "O violino é um instrumento fundamental na música clássica ocidental. Uma curiosidade: o violino é conhecido por sua versatilidade e capacidade de expressar uma vasta gama de emoções."
+  },
+  {
+    "id": "quiz-cultura-20",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual estilo de pintura se caracteriza por pinceladas visíveis e cores vibrantes?",
+    "options": [
+      "Realismo",
+      "Impressionismo",
+      "Barroco",
+      "Rococó"
+    ],
+    "correctAnswer": "Impressionismo",
+    "explanation": "Os artistas impressionistas procuravam capturar a luz e o movimento através de pinceladas rápidas e cores brilhantes. Uma curiosidade: o nome 'Impressionismo' surgiu como uma crítica, mas acabou sendo adotado pelo movimento."
+  },
+  {
+    "id": "quiz-cultura-21",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual o nome do manuscrito iluminado medieval famoso por suas ilustrações?",
+    "options": [
+      "Codex Sinaiticus",
+      "Livro de Kells",
+      "Codex Gigas",
+      "Codex Amiatinus"
+    ],
+    "correctAnswer": "Livro de Kells",
+    "explanation": "O Livro de Kells é um manuscrito do século IX, famoso por suas intrincadas ilustrações e decorações. Uma curiosidade: acredita-se que foi criado por monges na Irlanda."
+  },
+  {
+    "id": "quiz-cultura-22",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Em que continente está localizada a Grande Muralha da China?",
+    "options": [
+      "Europa",
+      "Ásia",
+      "América do Sul",
+      "África"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Grande Muralha da China é uma das maravilhas do mundo e um símbolo da China. Uma curiosidade: a muralha foi construída ao longo de séculos, por diferentes dinastias."
+  },
+  {
+    "id": "quiz-cultura-23",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual estilo arquitetônico é conhecido por seus arcos em forma de ferradura?",
+    "options": [
+      "Gótico",
+      "Românico",
+      "Bizantino",
+      "Islâmico"
+    ],
+    "correctAnswer": "Islâmico",
+    "explanation": "Os arcos em forma de ferradura são uma característica marcante da arquitetura islâmica. Uma curiosidade: estes arcos foram influenciados por estilos arquitetônicos mais antigos."
+  },
+  {
+    "id": "quiz-cultura-24",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento literário enfatizava o individualismo, a emoção e o sentimentalismo?",
+    "options": [
+      "Classicismo",
+      "Romantismo",
+      "Realismo",
+      "Modernismo"
+    ],
+    "correctAnswer": "Romantismo",
+    "explanation": "O Romantismo valorizava a expressão individual, os sentimentos intensos e a beleza da natureza. Uma curiosidade: o Romantismo influenciou diversas áreas da arte e cultura."
+  },
+  {
+    "id": "quiz-cultura-25",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pelo seu uísque?",
+    "options": [
+      "Brasil",
+      "Japão",
+      "Escócia",
+      "Argentina"
+    ],
+    "correctAnswer": "Escócia",
+    "explanation": "O uísque escocês é mundialmente famoso por sua qualidade e tradição. Uma curiosidade: existem diferentes tipos de uísque escocês, dependendo da região e do processo de produção."
+  },
+  {
+    "id": "quiz-cultura-26",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um conto de fadas e uma lenda?",
+    "options": [
+      "Protagonistas",
+      "Cenário",
+      "Realidade vs Ficção",
+      "Moral da história"
+    ],
+    "correctAnswer": "Realidade vs Ficção",
+    "explanation": "Contos de fadas são ficcionais, enquanto lendas muitas vezes se baseiam em eventos históricos ou lugares reais, mesmo que com acréscimos de elementos fantásticos. Uma curiosidade: muitas lendas explicam a origem de algo ou um fenômeno natural."
+  },
+  {
+    "id": "quiz-cultura-27",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual o nome do famoso monumento pré-colombiano na América Central?",
+    "options": [
+      "Machu Picchu",
+      "Chichen Itza",
+      "Angkor Wat",
+      "Stonehenge"
+    ],
+    "correctAnswer": "Chichen Itza",
+    "explanation": "Chichen Itza é um sítio arqueológico maia no México, conhecido pela Pirâmide de Kukulkan. Uma curiosidade: o sítio apresenta influências de diferentes culturas mesoamericanas."
+  },
+  {
+    "id": "quiz-cultura-28",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual animal é o símbolo da Índia?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Elefante",
+      "Cobra"
+    ],
+    "correctAnswer": "Tigre",
+    "explanation": "O tigre de bengala é o animal nacional da Índia. Uma curiosidade: a população de tigres de bengala está atualmente em recuperação."
+  },
+  {
+    "id": "quiz-cultura-29",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal festividade religiosa do Islã?",
+    "options": [
+      "Ramadã",
+      "Eid al-Fitr",
+      "Eid al-Adha",
+      "Hajj"
+    ],
+    "correctAnswer": "Hajj",
+    "explanation": "O Hajj é uma peregrinação anual a Meca que é um dos cinco pilares do Islã. Uma curiosidade: milhões de muçulmanos participam do Hajj todos os anos."
+  },
+  {
+    "id": "quiz-cultura-30",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um mito e uma lenda?",
+    "options": [
+      "Origem",
+      "Personagens",
+      "Protagonistas",
+      "Contexto Histórico"
+    ],
+    "correctAnswer": "Origem",
+    "explanation": "Mitofaixa explica as origens do mundo e o funcionamento da natureza, geralmente envolvendo divindades. Lendas se concentram em heróis, vilões e eventos históricos com acréscimo de elementos fantásticos. Uma curiosidade: frequentemente os mitos e lendas se misturam e evoluem com o passar do tempo."
+  },
+  {
+    "id": "quiz-cultura-31",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual dança é tradicionalmente associada à cultura havaiana?",
+    "options": [
+      "Flamenco",
+      "Tango",
+      "Hula",
+      "Salsa"
+    ],
+    "correctAnswer": "Hula",
+    "explanation": "A dança Hula é uma forma de dança e música tradicional havaiana, muitas vezes acompanhada por cânticos e instrumentos musicais. Uma curiosidade: os movimentos da dança Hula contam histórias e transmitem emoções."
+  },
+  {
+    "id": "quiz-cultura-32",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do tradicional teatro de máscaras do Japão?",
+    "options": [
+      "Kabuki",
+      "Noh",
+      "Bunraku",
+      "Kyogen"
+    ],
+    "correctAnswer": "Noh",
+    "explanation": "O Noh é um teatro tradicional japonês que apresenta peças com máscaras e trajes elaborados. Uma curiosidade: o Noh é conhecido por suas peças formais e rituais."
+  },
+  {
+    "id": "quiz-cultura-33",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual estilo arquitetônico é caracterizado pelo uso de arcos ogivais e vitrais?",
+    "options": [
+      "Românico",
+      "Gótico",
+      "Renascentista",
+      "Barroco"
+    ],
+    "correctAnswer": "Gótico",
+    "explanation": "A arquitetura gótica é conhecida por sua altura, suas abóbadas e seus vitrais vibrantes. Uma curiosidade: as catedrais góticas eram símbolos de poder e fé na Idade Média."
+  },
+  {
+    "id": "quiz-cultura-34",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é conhecido pela sua produção de vinho?",
+    "options": [
+      "Brasil",
+      "Japão",
+      "Alemanha",
+      "França"
+    ],
+    "correctAnswer": "França",
+    "explanation": "A França é um dos maiores produtores de vinho do mundo. Uma curiosidade: a França tem diversas regiões vinícolas, cada uma com suas próprias características."
+  },
+  {
+    "id": "quiz-cultura-35",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual instrumento musical é tradicionalmente associado à música folclórica africana?",
+    "options": [
+      "Guitarra",
+      "Violino",
+      "Djembé",
+      "Piano"
+    ],
+    "correctAnswer": "Djembé",
+    "explanation": "O Djembé é um tambor de origem africana, amplamente utilizado na música e dança tradicional. Uma curiosidade: sua pele de cabra dá ao instrumento uma variedade de tons e timbres."
+  },
+  {
+    "id": "quiz-cultura-36",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença fundamental entre a mitologia grega e a mitologia romana?",
+    "options": [
+      "Deuses principais",
+      "Origens",
+      "Influência cultural",
+      "Número de deuses"
+    ],
+    "correctAnswer": "Origens",
+    "explanation": "A mitologia romana se originou posteriormente e adaptou muitos elementos da mitologia grega, atribuindo nomes romanos a seus deuses e reinterpretando algumas narrativas. Uma curiosidade: alguns estudiosos acreditam que a mitologia etrusca também influenciou a mitologia romana."
+  },
+  {
+    "id": "quiz-cultura-37",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual animal é simbolo da Austrália?",
+    "options": [
+      "Panda",
+      "Canguru",
+      "Urso Polar",
+      "Zebra"
+    ],
+    "correctAnswer": "Canguru",
+    "explanation": "O canguru é um marsupial icônico da Austrália. Uma curiosidade: existem diversas espécies de cangurus, com diferentes tamanhos e habitats."
+  },
+  {
+    "id": "quiz-cultura-38",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome da tradicional dança espanhola com castanholas?",
+    "options": [
+      "Samba",
+      "Tango",
+      "Flamenco",
+      "Salsa"
+    ],
+    "correctAnswer": "Flamenco",
+    "explanation": "O flamenco é uma forma de dança e música espanhola, frequentemente acompanhada por castanholas e guitarras. Uma curiosidade: o flamenco é conhecido por sua expressividade e paixão."
+  },
+  {
+    "id": "quiz-cultura-39",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual movimento artístico se caracteriza pela distorção deliberada da forma para expressar emoções?",
+    "options": [
+      "Impressionismo",
+      "Expressionismo",
+      "Cubismo",
+      "Surrealismo"
+    ],
+    "correctAnswer": "Expressionismo",
+    "explanation": "O Expressionismo priorizava a expressão de emoções e sentimentos internos, mesmo que isso significasse distorcer a realidade visual. Uma curiosidade: o Expressionismo teve forte influência na literatura e no cinema da época."
+  },
+  {
+    "id": "quiz-cultura-40",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual país é berço do samba?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Portugal",
+      "Espanha"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "O samba é um gênero musical e de dança brasileiro, originário da região do Rio de Janeiro.  Uma curiosidade é que o samba se desenvolveu a partir de diversas influências africanas e europeias."
+  },
+  {
+    "id": "quiz-cultura-41",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre o minimalismo e o maximalismo na arte?",
+    "options": [
+      "O minimalismo usa cores vibrantes, o maximalismo cores sóbrias.",
+      "O minimalismo usa poucas cores, o maximalismo usa muitas cores.",
+      "O minimalismo utiliza elementos simples, o maximalismo utiliza muitos elementos.",
+      "O minimalismo foca em texturas lisas, o maximalismo em texturas ásperas."
+    ],
+    "correctAnswer": "O minimalismo utiliza elementos simples, o maximalismo utiliza muitos elementos.",
+    "explanation": "O minimalismo busca simplicidade e essencialismo, enquanto o maximalismo abraça a exuberância e a abundância de elementos.  Uma curiosidade é que esses estilos muitas vezes são contrastantes, mas podem se encontrar em trabalhos de arte contemporânea."
+  },
+  {
+    "id": "quiz-cultura-42",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filosofia oriental enfatiza a interconexão de todas as coisas?",
+    "options": [
+      "Budismo",
+      "Confucionismo",
+      "Taoismo",
+      "Zen Budismo"
+    ],
+    "correctAnswer": "Taoismo",
+    "explanation": "O Taoismo enfatiza a harmonia universal e a interdependência entre todas as coisas.  Uma curiosidade é que o conceito de 'Tao' é difícil de traduzir diretamente, geralmente significando 'o caminho' ou 'a ordem natural'."
+  },
+  {
+    "id": "quiz-cultura-43",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do tradicional traje feminino japonês?",
+    "options": [
+      "Kimono",
+      "Yukata",
+      "Hakama",
+      "Obi"
+    ],
+    "correctAnswer": "Kimono",
+    "explanation": "O kimono é uma peça de vestuário tradicional japonesa, conhecida por sua elegância e complexidade.  Uma curiosidade é que o kimono pode ser usado em diversas ocasiões e seu design varia de acordo com a ocasião."
+  },
+  {
+    "id": "quiz-cultura-44",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual movimento artístico se caracterizou pela representação subjetiva da realidade?",
+    "options": [
+      "Realismo",
+      "Impressionismo",
+      "Expressionismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Expressionismo",
+    "explanation": "O Expressionismo coloca as emoções do artista acima de uma representação objetiva da realidade. Uma curiosidade é que muitos expressionistas usaram cores fortes e pinceladas vigorosas para transmitir suas emoções."
+  },
+  {
+    "id": "quiz-cultura-45",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre a música clássica ocidental e a música tradicional africana?",
+    "options": [
+      "A música ocidental usa instrumentos de corda, a africana não.",
+      "A música ocidental é monofônica, a africana é polifônica.",
+      "As escalas e modos musicais são radicalmente diferentes.",
+      "A música ocidental é mais complexa, a africana mais simples."
+    ],
+    "correctAnswer": "As escalas e modos musicais são radicalmente diferentes.",
+    "explanation": "Embora existam muitas variações em ambas as tradições, as estruturas musicais e os sistemas de escalas são fundamentalmente diferentes. Uma curiosidade é que a influência da música africana é perceptível em muitos gêneros musicais ocidentais, especialmente no blues e jazz."
+  },
+  {
+    "id": "quiz-cultura-46",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a festividade que celebra a colheita e o fim do verão em muitos países europeus?",
+    "options": [
+      "Halloween",
+      "Natal",
+      "Dia dos Namorados",
+      "Festas de Colheita"
+    ],
+    "correctAnswer": "Festas de Colheita",
+    "explanation": "As Festas de Colheita são celebrações antigas, com muitas tradições locais e variações. Uma curiosidade é que em muitas regiões, essas festas envolvem desfiles, comidas e bebidas tradicionais e danças."
+  },
+  {
+    "id": "quiz-cultura-47",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual filósofo grego é conhecido pelo conceito de 'virtude'? ",
+    "options": [
+      "Platão",
+      "Sócrates",
+      "Aristóteles",
+      "Epicuro"
+    ],
+    "correctAnswer": "Aristóteles",
+    "explanation": "Aristóteles desenvolveu uma extensa teoria da ética baseada na busca pela virtude e na excelência moral. Uma curiosidade é que suas ideias influenciaram profundamente o desenvolvimento da ética ocidental."
+  },
+  {
+    "id": "quiz-cultura-48",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Em qual continente fica a Índia?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Sul"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Índia é o segundo país mais populoso do mundo, e está localizada na Ásia.  Uma curiosidade é que a Índia possui uma grande diversidade cultural e religiosa."
+  },
+  {
+    "id": "quiz-cultura-49",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome do instrumento musical tradicional do Peru?",
+    "options": [
+      "Charango",
+      "Sitar",
+      "Balalaica",
+      "Didgeridoo"
+    ],
+    "correctAnswer": "Charango",
+    "explanation": "O charango é um instrumento de cordas tradicional dos Andes, conhecido por seu som único e brilhante. Uma curiosidade é que o charango é feito com madeira e conchas."
+  },
+  {
+    "id": "quiz-cultura-50",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual estilo de arquitetura é caracterizado pelo uso de arcos apontados e abóbadas nervuradas?",
+    "options": [
+      "Românico",
+      "Gótico",
+      "Barroco",
+      "Renascentista"
+    ],
+    "correctAnswer": "Gótico",
+    "explanation": "A arquitetura gótica é facilmente reconhecível por seus arcos apontados, abóbadas nervuradas e vitrais. Uma curiosidade é que as catedrais góticas foram marcos da arquitetura medieval europeia."
+  },
+  {
+    "id": "quiz-cultura-51",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o idioma oficial da França?",
+    "options": [
+      "Inglês",
+      "Espanhol",
+      "Francês",
+      "Alemão"
+    ],
+    "correctAnswer": "Francês",
+    "explanation": "O francês é a língua oficial da França.  Uma curiosidade é que o francês é falado em muitos outros países ao redor do mundo."
+  },
+  {
+    "id": "quiz-cultura-52",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual o nome da dança tradicional folclórica da Escócia?",
+    "options": [
+      "Tango",
+      "Flamenco",
+      "Ceilidh",
+      "Samba"
+    ],
+    "correctAnswer": "Ceilidh",
+    "explanation": "O Ceilidh é uma dança social tradicional escocesa, geralmente acompanhada por música. Uma curiosidade é que os participantes dançam em grupos, formando círculos ou linhas."
+  },
+  {
+    "id": "quiz-cultura-53",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual civilização antiga é creditada pela invenção do alfabeto?",
+    "options": [
+      "Egípcios",
+      "Sumérios",
+      "Fenícios",
+      "Gregos"
+    ],
+    "correctAnswer": "Fenícios",
+    "explanation": "Embora os Gregos tenham adaptado e expandido o alfabeto, os Fenícios são creditados pela sua invenção original. Uma curiosidade é que o alfabeto fenício é a base para muitos alfabetos modernos."
+  },
+  {
+    "id": "quiz-cultura-54",
+    "categoryId": "cultura",
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso monumento histórico da Roma Antiga?",
+    "options": [
+      "Coliseu",
+      "Muralha da China",
+      "Taj Mahal",
+      "Pirâmides do Egito"
+    ],
+    "correctAnswer": "Coliseu",
+    "explanation": "O Coliseu é um anfiteatro oval, localizado em Roma, Itália, e é um ícone da arquitetura romana. Uma curiosidade é que o Coliseu era usado para combates de gladiadores e outros espetáculos públicos."
+  },
+  {
+    "id": "quiz-cultura-55",
+    "categoryId": "cultura",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a pintura renascentista e a pintura barroca?",
+    "options": [
+      "Cores e temas.",
+      "Técnica da perspectiva.",
+      "Utilização de cores quentes e frias.",
+      "Ambas são essencialmente iguais."
+    ],
+    "correctAnswer": "Cores e temas.",
+    "explanation": "Apesar de algumas semelhanças técnicas, o Renascimento enfatizava a harmonia e o equilíbrio, enquanto o Barroco usava cores mais dramáticas e temas mais religiosos e dramáticos. Uma curiosidade é que o Barroco seguiu ao Renascimento."
+  },
+  {
+    "id": "quiz-cultura-56",
+    "categoryId": "cultura",
+    "difficulty": "hard",
+    "question": "Qual o nome da tradicional arte de contar histórias da África Ocidental, geralmente envolvendo música e dança?",
+    "options": [
+      "Griot",
+      "Kabuki",
+      "Noh",
+      "Wayang Kulit"
+    ],
+    "correctAnswer": "Griot",
+    "explanation": "Os Griots são contadores de histórias e cantores tradicionais da África Ocidental, muitas vezes desempenhando um papel vital na preservação da história e da cultura. Uma curiosidade é que suas performances são frequentemente improvisadas e interativas."
+  }
+]

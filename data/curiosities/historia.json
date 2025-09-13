@@ -1,0 +1,101 @@
+[
+  {
+    "id": "historia-1",
+    "categoryId": "historia",
+    "title": "A Incrível História da Cerveja na Mesopotâmia",
+    "hook": "Você sabia que...",
+    "content": "A cerveja, além de bebida, era moeda de troca na Mesopotâmia antiga!  Operários recebiam pagamentos em litros de cerveja, demonstrando sua importância econômica e social na civilização.  Registros arqueológicos mostram a sofisticada produção de diferentes tipos de cerveja, incluindo receitas complexas.",
+    "funFact": "Algumas tabuinhas cuneiformes até listam 'receitas' de cerveja!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-2",
+    "categoryId": "historia",
+    "title": "O Segredo das Pirâmides Aztecas",
+    "hook": "Incrível: rituais obscuros!",
+    "content": "As pirâmides astecas, além de templos, escondiam complexos sistemas de irrigação subterrâneos.  Esses canais, cuidadosamente construídos, garantiam o abastecimento de água para as cerimônias religiosas e para a vida cotidiana da cidade.  A engenharia sofisticada revela um conhecimento avançado de hidráulica.",
+    "funFact": "Alguns canais continham oferendas de jade e ouro!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-3",
+    "categoryId": "historia",
+    "title": "A Incrível Saga do Relógio de Sol Chinês",
+    "hook": "Você sabia que...",
+    "content": "Os antigos chineses não apenas dominavam a astronomia, mas também criaram relógios de sol extremamente sofisticados.  Esses instrumentos não apenas marcavam as horas, mas também previam eclipses e até mesmo influenciavam a agricultura, com calendários baseados em observações celestes precisas.  Sua complexidade era impressionante para a época.",
+    "funFact": "Alguns relógios de sol chineses antigos eram tão precisos que superavam em alguns aspectos os relógios mecânicos europeus medievais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-4",
+    "categoryId": "historia",
+    "title": "O Impacto da Peste Antonina em Roma",
+    "hook": "Você sabia que...",
+    "content": "A Peste Antonina, no século II d.C., dizimou uma grande parte da população do Império Romano.  A doença, possivelmente varíola ou sarampo, mudou o curso da história romana, afetando a economia, a administração e a própria estrutura militar do império.  Seu impacto foi profundo e duradouro.",
+    "funFact": "Acredita-se que a doença tenha contribuído para a crise do século III e a subsequente fragmentação do Império Romano.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-5",
+    "categoryId": "historia",
+    "title": "A Escura História das Guerras Médicas",
+    "hook": "Incrível:",
+    "content": "As Guerras Médicas, entre a Grécia e o Império Persa, foram um confronto épico que definiu o curso da civilização ocidental.  Apesar de sua importância, muitos detalhes ainda permanecem obscuros, encobertos pelo véu do tempo e pela perda de registros históricos.",
+    "funFact": "Heródoto, considerado o 'Pai da História', escreveu detalhadamente sobre essas guerras, mas suas narrativas também são matizadas com elementos lendários e propagandísticos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-6",
+    "categoryId": "historia",
+    "title": "A Intrigante Vida de Hipácia de Alexandria",
+    "hook": "Você sabia que...",
+    "content": "Hipácia, filósofa, astrônoma e matemática do século IV, foi uma figura brilhante da Alexandria antiga.  Suas contribuições para a ciência foram notáveis, mas sua trágica morte nas mãos de uma multidão fanática marca um período sombrio da história do conhecimento.",
+    "funFact": "Hipácia é considerada uma das primeiras mulheres a ter um papel significativo na história da ciência e filosofia.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-7",
+    "categoryId": "historia",
+    "title": "A Era de Ouro Islâmica e suas Invenções",
+    "hook": "Você sabia que...",
+    "content": "A Era de Ouro Islâmica, entre os séculos VIII e XIII, foi um período de grande avanço científico e cultural.  Além da matemática e da medicina, os estudiosos muçulmanos fizeram contribuições significativas para a astronomia, a filosofia e a literatura, influenciando profundamente o mundo ocidental.",
+    "funFact": "Muitos conceitos matemáticos e astronômicos que usamos hoje têm raízes na matemática e na astronomia árabe medieval.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-8",
+    "categoryId": "historia",
+    "title": "A Primavera Árabe e suas Revoluções",
+    "hook": "Incrível:",
+    "content": "A Primavera Árabe, uma série de protestos e revoluções na região árabe no início da década de 2010, teve um impacto profundo e muitas vezes violento, levando a mudanças políticas e sociais na região, e teve consequências de longo alcance.",
+    "funFact": "A Primavera Árabe foi impulsionada em grande parte pelas redes sociais e pela internet.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "historia-9",
+    "categoryId": "historia",
+    "title": "A Música Perdida de Pompeia",
+    "hook": "Incrível: uma melodia antiga!",
+    "content": "Entre os destroços de Pompeia, arqueólogos encontraram um instrumento musical quase intacto, um tipo de lira.  A análise da madeira e das cordas revelou detalhes sobre a música da época romana, fornecendo uma janela única para a cultura da cidade antes da erupção do Vesúvio.  A melodia, embora parcial, é considerada uma descoberta excepcional.",
+    "funFact": "A lira possuía cordas de bronze, um material raro na época.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-10",
+    "categoryId": "historia",
+    "title": "O Mistério das Linhas de Nazca Subterrâneas",
+    "hook": "Você sabia que...",
+    "content": "Além das famosas linhas de Nazca, existem redes complexas de linhas e geoglifos subterrâneos, descobertas recentemente.  Sua função permanece um enigma, mas alguns pesquisadores sugerem que esses desenhos subterrâneos eram parte de um sistema ritualístico ou de orientação, anterior às figuras na superfície.",
+    "funFact": "Algumas linhas subterrâneas parecem mapear constelações.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "historia-11",
+    "categoryId": "historia",
+    "title": "O Império Perdido de Aksum e suas Minas de Ouro",
+    "hook": "Você sabia que...",
+    "content": "O antigo reino de Aksum, na atual Eritreia, era um poderoso centro comercial, famoso por suas minas de ouro.  Estudos recentes revelam a complexa organização e extensão de suas operações de mineração, que contribuíram significativamente para sua riqueza e poder.",
+    "funFact": "Eles utilizavam técnicas avançadas de extração para a época.",
+    "curiosityLevel": 3
+  }
+]

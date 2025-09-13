@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hacks-1",
+    "categoryId": "hacks",
+    "title": "Desentupindo o Ralo com Bicarbonato",
+    "hook": "Incrível:",
+    "content": "Misture bicarbonato de sódio e vinagre branco no ralo entupido. A reação química ajuda a dissolver a gordura e resíduos, desobstruindo-o de forma eficaz. Deixe agir por 30 minutos e depois enxágue com água quente.  Para resultados ainda melhores, adicione um pouco de sal à mistura.",
+    "funFact": "Essa mistura também combate maus odores!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-2",
+    "categoryId": "hacks",
+    "title": "Limpando Prata com Pasta de Dente",
+    "hook": "Simples e genial:",
+    "content": "Aplique um pouco de pasta de dente branca (sem gel) em suas peças de prata e esfregue suavemente com uma escova de dentes macia.  Enxágue com água abundante e seque com um pano macio para devolver o brilho. Evite pastas com corantes.",
+    "funFact": "A pasta de dente remove o sulfeto de prata que causa o escurecimento!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-3",
+    "categoryId": "hacks",
+    "title": "Desvende o Segredo das Etiquetas de Roupas",
+    "hook": "Incrível: suas etiquetas...",
+    "content": "Você sabia que aquelas etiquetas incômodas nas roupas podem ser removidas sem deixar vestígios usando fita adesiva? Basta aplicar a fita sobre a etiqueta, pressionar firmemente e puxar delicadamente. Repita o processo até a remoção completa.  A fita adesiva remove a cola com eficiência e sem danificar o tecido.",
+    "funFact": "Algumas fitas especiais para remoção de etiquetas são ainda mais eficazes!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-4",
+    "categoryId": "hacks",
+    "title": "O Poder Secreto do Vinagre na Lavagem",
+    "hook": "Você sabia que o vinagre...",
+    "content": "Adicione meia xícara de vinagre branco à sua máquina de lavar roupa junto com o detergente.  Ele age como um amaciante natural, ajudando a remover resíduos de sabão e a deixar suas roupas mais macias e com um aroma fresco. Experimente e veja a diferença!",
+    "funFact": "O vinagre também ajuda a clarear roupas brancas naturalmente!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-5",
+    "categoryId": "hacks",
+    "title": "O Segredo da Água com Sal para Plantas",
+    "hook": "Revitalize suas plantas...",
+    "content": "Uma solução de água com sal pode ajudar a fortalecer suas plantas. Dissolva uma colher de chá de sal em um litro de água e regue suas plantas com essa solução a cada 15 dias. Isso ajuda a aumentar a absorção de nutrientes.",
+    "funFact": "Em excesso, o sal pode prejudicar as plantas. Use com moderação!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-6",
+    "categoryId": "hacks",
+    "title": "Roupas Sem Amarrotados: O Truque do Cubo de Gelo",
+    "hook": "Incrível: Acabe com as rugas!",
+    "content": "Para remover vincos de roupas delicadas sem ferro, coloque algumas pedras de gelo em uma secadora com a peça amassada. O vapor gerado pelo gelo relaxa as fibras, deixando a roupa lisinha.  Experimente com tecidos leves como seda ou viscose. ",
+    "funFact": "Essa técnica também funciona para revitalizar bonés e chapéus de tecido!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "hacks-7",
+    "categoryId": "hacks",
+    "title": "O Poder do Sabão em Pó na Limpeza de Bijuterias",
+    "hook": "Você sabia que...",
+    "content": "O sabão em pó, além de lavar roupas, é um excelente aliado na limpeza de bijuterias. Dilua um pouco em água morna, mergulhe as peças, esfregue suavemente com uma escova de cerdas macias e enxágue com água corrente. Seque com um pano macio. ",
+    "funFact": "Evita o uso de produtos químicos agressivos que podem danificar suas joias!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-8",
+    "categoryId": "hacks",
+    "title": "Seu Celular como Régua de Precisão",
+    "hook": "Incrível: seu celular mede!",
+    "content": "A maioria dos smartphones possui um aplicativo de medição embutido, ou disponível para download gratuito.  Use a câmera e a realidade aumentada para medir com precisão objetos, distâncias e até mesmo ângulos, sem precisar de uma régua física.  Ideal para pequenas reformas e projetos DIY.",
+    "funFact": "Alguns modelos conseguem até detectar formas geométricas complexas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "hacks-9",
+    "categoryId": "hacks",
+    "title": "A Magia do Fio Dental na Limpeza",
+    "hook": "Surpreendente:",
+    "content": "Fio dental não serve só para os dentes! Use-o para limpar as ranhuras de difícil acesso em eletrodomésticos, como o teclado do seu computador ou até mesmo para tirar um anel preso no dedo.  A delicadeza e resistência fazem a diferença!",
+    "funFact": "Remove sujeira em cantos inacessíveis a escovas comuns.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "hacks-10",
+    "categoryId": "hacks",
+    "title": "O Poder do Vapor no Ferro de Passar",
+    "hook": "Incrível: o vapor...",
+    "content": "Use o vapor do seu ferro para desamassar roupas delicadas sem precisar tocar o ferro diretamente no tecido. Segure o ferro a alguns centímetros da roupa e deixe o vapor fazer o trabalho. Ótimo para seda e outros tecidos sensíveis!",
+    "funFact": "O vapor também pode remover pequenas rugas em cortinas!",
+    "curiosityLevel": 2
+  }
+]

@@ -568,5 +568,68 @@
     "content": "A respiração diafragmática, além de reduzir o estresse, melhora a oxigenação do fígado, órgão vital para a desintoxicação do corpo.  Ao respirar profundamente, você ativa a circulação sanguínea, facilitando a eliminação de toxinas e melhorando a sua função hepática.  Pratique diariamente e veja a diferença!",
     "funFact": "Um fígado saudável processa cerca de um litro de sangue por minuto!",
     "curiosityLevel": 3
+  },
+  {
+    "id": "saude-94",
+    "categoryId": "saude",
+    "title": "O Segredo da Cura pelo Riso",
+    "hook": "Incrível: o riso cura!",
+    "content": "O riso, além de ser contagiante, libera endorfinas, hormônios que atuam como analgésicos naturais e reduzem o estresse. Estudos mostram que o riso regular fortalece o sistema imunológico e melhora o humor.  Inclua momentos de alegria no seu dia a dia para uma vida mais saudável e feliz!",
+    "funFact": "Uma gargalhada intensa pode queimar até 40 calorias!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-95",
+    "categoryId": "saude",
+    "title": "A Ciência da Melatonina e o Sono",
+    "hook": "Surpreendente: a...",
+    "content": "A melatonina, hormônio produzido pela glândula pineal, regula o ciclo sono-vigília. A exposição à luz azul de telas antes de dormir inibe a produção de melatonina, prejudicando a qualidade do sono. Evite telas pelo menos uma hora antes de dormir!",
+    "funFact": "A produção de melatonina é influenciada pela exposição à luz solar.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "saude-96",
+    "categoryId": "saude",
+    "title": "A Ciência Secreta da Saliva",
+    "hook": "Incrível: sua saliva cura!",
+    "content": "A saliva, além de auxiliar na digestão, possui propriedades antibacterianas e cicatrizantes incríveis.  Ela contém proteínas que combatem infecções e estimulam a regeneração tecidual, acelerando a recuperação de feridas na boca.  Sua composição varia ao longo do dia e com a alimentação, influenciando a sua eficácia. ",
+    "funFact": "Algumas pesquisas sugerem que a saliva pode até ajudar no reparo de pequenos cortes na pele!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-97",
+    "categoryId": "saude",
+    "title": "O Poder Oculto do Bocejo",
+    "hook": "Você sabia que...",
+    "content": "Bocejar não é apenas um sinal de cansaço. Estudos indicam que o bocejo regula a temperatura cerebral, mantendo o cérebro em sua temperatura ideal para o funcionamento.  Além disso, ele pode ser contagioso devido a mecanismos de empatia e sincronização neural entre pessoas.",
+    "funFact": "Bocejos mais longos podem indicar maior necessidade de descanso cerebral!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-98",
+    "categoryId": "saude",
+    "title": "A Dança dos Microrganismos Intestinais",
+    "hook": "Surpreendente:",
+    "content": "Seu intestino abriga trilhões de microrganismos que influenciam diretamente seu humor, imunidade e até mesmo seu peso. A diversidade dessas bactérias é crucial, e uma dieta rica em fibras e variedade de alimentos promove o equilíbrio desse ecossistema, essencial para a saúde.",
+    "funFact": "A composição da sua microbiota intestinal é tão única quanto sua impressão digital!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-99",
+    "categoryId": "saude",
+    "title": "A Mente que Cura a Pele",
+    "hook": "Incrível:",
+    "content": "O estresse e ansiedade podem desencadear ou piorar condições de pele como acne, eczema e psoríase.  A conexão mente-pele é profunda, com o sistema nervoso influenciando diretamente as funções da pele. Técnicas de relaxamento podem ser aliadas no tratamento dermatológico.",
+    "funFact": "Algumas terapias alternativas usam a hipnose para tratar problemas de pele crônicos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-100",
+    "categoryId": "saude",
+    "title": "Os Segredos do Seu Ritmo Cardíaco",
+    "hook": "Você sabia que...",
+    "content": "A variabilidade da frequência cardíaca (VFC) é um indicador importante da saúde cardiovascular e do equilíbrio do sistema nervoso autônomo.  Uma VFC baixa pode sinalizar risco de doenças cardíacas.  Práticas como meditação e exercícios regulares ajudam a aumentar a VFC.",
+    "funFact": "A VFC pode ser medida com dispositivos simples e monitorada para acompanhar a sua saúde.",
+    "curiosityLevel": 2
   }
 ]

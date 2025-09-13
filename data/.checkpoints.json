@@ -3,5 +3,40 @@
     "curiositiesBatchesProcessed": 0,
     "quizzesBatchesProcessed": 2,
     "lastRunAt": "2025-09-13T18:08:41.938Z"
+  },
+  "futuro": {
+    "curiositiesBatchesProcessed": 0,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:12:44.917Z"
+  },
+  "tecnologia": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:15:44.865Z"
+  },
+  "misterios": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:18:46.843Z"
+  },
+  "psicologia": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:21:24.667Z"
+  },
+  "lugares": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:24:12.515Z"
+  },
+  "hacks": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 2,
+    "lastRunAt": "2025-09-13T18:27:05.597Z"
+  },
+  "musica": {
+    "curiositiesBatchesProcessed": 4,
+    "quizzesBatchesProcessed": 1,
+    "lastRunAt": "2025-09-13T18:29:32.967Z"
   }
 }
