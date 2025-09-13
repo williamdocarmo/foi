@@ -1,23 +1,48 @@
 // src/lib/data.ts
 import type { Category, Curiosity, QuizQuestion } from './types';
 import categoriesData from './data/categories.json';
+import fs from 'fs';
+import path from 'path';
 
-// IMPORTANT: This file has been refactored to dynamically load all data from the 
-// `data/curiosities` and `data/quiz-questions` directories. This approach avoids 
-// "Module not found" errors when a category is added or removed, as the build 
-// process no longer depends on static imports for these files.
+// --- Nova Abordagem: Leitura de Arquivos com Node.js 'fs' ---
+// Esta é uma solução mais robusta e padrão para o ambiente Next.js/Node.js,
+// garantindo que os arquivos de dados sejam lidos de forma confiável.
 
-// Helper function to dynamically import JSON files from a directory
-function importAll<T>(r: __WebpackModuleApi.RequireContext): T[] {
-  const allFiles = r.keys().map(r);
-  // The imported files might be modules with a `default` export
-  const content = allFiles.map((file: any) => file.default || file);
-  return content.flat();
+const curiositiesDir = path.join(process.cwd(), 'data/curiosities');
+const quizzesDir = path.join(process.cwd(), 'data/quiz-questions');
+
+/**
+ * Lê todos os arquivos JSON de um diretório e os combina em um único array.
+ * @param directory O caminho para o diretório.
+ * @returns Um array com o conteúdo de todos os arquivos JSON.
+ */
+function loadDataFromDirectory<T>(directory: string): T[] {
+  try {
+    const filenames = fs.readdirSync(directory);
+    const jsonData = filenames
+      .filter(filename => filename.endsWith('.json'))
+      .map(filename => {
+        const filePath = path.join(directory, filename);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        try {
+            return JSON.parse(fileContent) as T[];
+        } catch (e) {
+            console.error(`Erro ao fazer parse do JSON no arquivo: ${filePath}`, e);
+            return []; // Retorna array vazio se o JSON for inválido
+        }
+      });
+      
+    return jsonData.flat();
+  } catch (error) {
+    // Se o diretório não existir, retorna um array vazio.
+    // Isso evita que o build quebre se a pasta ainda não foi criada.
+    console.warn(`Aviso: Diretório não encontrado: ${directory}. Retornando array vazio.`);
+    return [];
+  }
 }
 
-// Dynamically import all curiosity and quiz question files
-const allCuriosities: Curiosity[] = importAll(require.context('../../data/curiosities', false, /\.json$/));
-const allQuizQuestions: QuizQuestion[] = importAll(require.context('../../data/quiz-questions', false, /\.json$/));
+const allCuriosities: Curiosity[] = loadDataFromDirectory<Curiosity>(curiositiesDir);
+const allQuizQuestions: QuizQuestion[] = loadDataFromDirectory<QuizQuestion>(quizzesDir);
 
 export const categories: Category[] = categoriesData;
 
