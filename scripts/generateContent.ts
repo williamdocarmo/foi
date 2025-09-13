@@ -30,7 +30,7 @@ import cliProgress from "cli-progress";
 import stringSimilarity from "string-similarity";
 import { v4 as uuidv4 } from "uuid";
 
-import categories from "../src/lib/data/categories.json";
+import categories from "../src/lib/data/categories.json" assert { type: "json" };
 import type { Curiosity, QuizQuestion } from "../src/lib/types";
 
 config();
@@ -53,8 +53,8 @@ const API_CALL_DELAY_MS = 1200; // polite pacing
 const CONCURRENCY = 3;
 const SIMILARITY_THRESHOLD = 0.82; // 0.0 - 1.0, higher = stricter (avoid near-duplicates)
 
-const ROOT = path.join(__dirname, "..");
-const dataDir = path.join(__dirname, "../data");
+const ROOT = path.join(path.dirname(import.meta.url.replace('file://', '')), "..");
+const dataDir = path.join(ROOT, "data");
 const curiositiesDir = path.join(dataDir, "curiosities");
 const quizzesDir = path.join(dataDir, "quiz-questions");
 const checkpointPath = path.join(dataDir, ".checkpoints.json");
