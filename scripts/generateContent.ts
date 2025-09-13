@@ -16,8 +16,8 @@ if (!API_KEY) {
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-const CURIOSITIES_PER_CATEGORY = 15;
-const QUIZ_QUESTIONS_PER_CATEGORY = 15;
+const CURIOSITIES_PER_CATEGORY = 40;
+const QUIZ_QUESTIONS_PER_CATEGORY = 25;
 const RETRY_DELAY_MS = 5000;
 const MAX_RETRIES = 3;
 const API_CALL_DELAY_MS = 2000;
