@@ -772,5 +772,50 @@
     "content": "A formação de estrelas de hélio, raras estrelas compostas principalmente por hélio, permanece um mistério.  Sua origem pode estar ligada a colisões estelares ou a eventos específicos em sistemas binários. O estudo dessas estrelas nos ensina muito sobre a complexidade da formação estelar.",
     "funFact": "Elas desafiam nossa compreensão da evolução estelar.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-87",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério dos Planetas Órfãos",
+    "hook": "Incrível: Planetas sem estrela!",
+    "content": "Existem planetas errantes, sem uma estrela-mãe para orbitar.  Arremessados para fora de seus sistemas estelares durante a formação, eles vagam sozinhos pelo espaço interestelar.  Sua existência desafia nossos modelos de formação planetária e levanta questões sobre a frequência destes mundos solitários.",
+    "funFact": "Alguns desses planetas podem ter luas próprias, orbitando-os mesmo sem uma estrela!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-88",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Enigma dos Planetas Fugitivos",
+    "hook": "Incrível: Planetas sem estrela!",
+    "content": "Existem planetas errantes, ejeitados de seus sistemas solares.  Eles vagam sozinhos pela escuridão, sem uma estrela para orbitar.  Sua descoberta desafia nossa compreensão da formação planetária e abre novas possibilidades para a existência de vida em ambientes inusitados.  A busca por esses 'planetas órfãos' é um campo ativo da astronomia moderna.",
+    "funFact": "Alguns desses planetas podem ser tão grandes quanto Júpiter!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-89",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Enigma dos Planetas Super-Puffs",
+    "hook": "Incrível: Planetas de algodão!",
+    "content": "Existem planetas gigantes gasosos com densidades extremamente baixas, tão leves que flutuariam em uma banheira (se houvesse uma grande o suficiente!).  Sua formação ainda é um mistério, desafiando os modelos atuais de formação planetária. Alguns especulam sobre a influência de estrelas próximas ou colisões cósmicas.",
+    "funFact": "Alguns desses planetas são tão leves que sua densidade é menor que a da água!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-90",
+    "categoryId": "universo-e-astronomia",
+    "title": "Os Ventos Cósmicos",
+    "hook": "Você sabia que...",
+    "content": "As galáxias não são entidades estáticas. Elas abrigam poderosos ventos galácticos, fluxos de gás e poeira impulsionados por eventos como supernovas e a atividade de buracos negros supermassivos. Esses ventos podem moldar a evolução das galáxias e influenciar a formação de novas estrelas.",
+    "funFact": "Esses ventos podem atingir velocidades impressionantes, viajando a milhões de quilômetros por hora!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-91",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Chuva de Pedras Preciosas",
+    "hook": "Você sabia que...",
+    "content": "Em alguns exoplanetas gigantes de gelo, a pressão e a temperatura nas camadas superiores da atmosfera são tão extremas que chove diamantes.  Sim, literalmente! A transformação do carbono sob essas condições resulta em cristais de diamante que caem como chuva.",
+    "funFact": "Essa chuva de diamantes poderia formar verdadeiras montanhas de diamantes no planeta.",
+    "curiosityLevel": 4
   }
 ]

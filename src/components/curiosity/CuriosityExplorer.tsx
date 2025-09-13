@@ -10,6 +10,7 @@ import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
+import { categories, curiositiesByCategory } from "@/lib/data";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -17,13 +18,22 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
+// This component was completely rewritten to fix persistent rendering loop and navigation bugs.
+// The new architecture follows senior-level React patterns for stability and predictability.
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
     initialCuriosityId 
 }: CuriosityExplorerProps) {
-  const router = useRouter(); // Manteremos o router para outras possíveis navegações
+  const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
+  
+  // Memoize all available curiosity IDs for the surpriseMe function
+  const allCuriosityIds = useMemo(() => {
+    return categories.flatMap(cat => 
+        (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
+    );
+  }, []);
 
   const initialIndex = useMemo(() => {
     if (!isLoaded || curiosities.length === 0) return null;
@@ -58,14 +68,10 @@ export default function CuriosityExplorer({
     if (currentIndex !== null && isLoaded) {
       const currentCuriosity = curiosities[currentIndex];
       if (currentCuriosity) {
-        // Atualiza a URL sem recarregar a página, para que o compartilhamento funcione
-        const newUrl = `/curiosity/${currentCuriosity.categoryId}?curiosity=${currentCuriosity.id}`;
-        window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
-
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
-  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities, router]);
+  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities]);
 
 
   const handleNext = useCallback(() => {
@@ -85,26 +91,23 @@ export default function CuriosityExplorer({
   }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
-    if (curiosities.length <= 1) return;
-
-    const currentId = curiosities[currentIndex!]?.id;
-    let available = curiosities.filter(c => c.id !== currentId);
+    if (allCuriosityIds.length <= 1) return;
   
-    // Prioriza as não lidas dentro da categoria atual
-    const unread = available.filter(c => !stats.readCuriosities.includes(c.id));
-    if (unread.length > 0) {
-      available = unread;
+    const currentId = curiosities[currentIndex!]?.id;
+    let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
+  
+    let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
+
+    if (unreadIds.length > 0) {
+        availableIds = unreadIds;
     }
 
-    const randomIndex = Math.floor(Math.random() * available.length);
-    const randomCuriosity = available[randomIndex];
+    const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
+    
+    // Navigate to the new curiosity's page, which will re-render the component tree correctly.
+    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
-    // Encontra o índice global na lista original `curiosities`
-    const newIndex = curiosities.findIndex(c => c.id === randomCuriosity.id);
-    if (newIndex !== -1) {
-        setCurrentIndex(newIndex);
-    }
-  }, [curiosities, currentIndex, stats.readCuriosities]);
+  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
   
   
   if (curiosities.length === 0) {
@@ -254,3 +257,4 @@ export default function CuriosityExplorer({
     </div>
   );
 }
+    

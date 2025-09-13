@@ -992,5 +992,47 @@
     ],
     "correctAnswer": "Elefante Africano",
     "explanation": "O elefante africano é o maior animal terrestre vivo. As baleias azuis são maiores, mas são animais marinhos."
+  },
+  {
+    "id": "quiz-natureza-e-animais-72",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua casca dura?",
+    "options": [
+      "Leão",
+      "Tartaruga",
+      "Cobra",
+      "Elefante"
+    ],
+    "correctAnswer": "Tartaruga",
+    "explanation": "Tartarugas são conhecidas por suas conchas duras que as protegem de predadores. Curiosamente, existem mais de 300 espécies de tartarugas ao redor do mundo!"
+  },
+  {
+    "id": "quiz-natureza-e-animais-73",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual processo natural é responsável pela formação de estalactites e estalagmites?",
+    "options": [
+      "Erosão eólica",
+      "Deposição glacial",
+      "Deposição química",
+      "Ação das marés"
+    ],
+    "correctAnswer": "Deposição química",
+    "explanation": "Estalactites e estalagmites são formadas pela deposição lenta de minerais dissolvidos na água que pinga do teto de cavernas.  A água rica em carbonato de cálcio deixa um depósito mineral a cada gota."
+  },
+  {
+    "id": "quiz-natureza-e-animais-74",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno onde um ecossistema sofre uma mudança drástica, como um incêndio florestal, e se recupera ao longo do tempo?",
+    "options": [
+      "Sucessão ecológica",
+      "Eutrofização",
+      "Bioacumulação",
+      "Biomagnificação"
+    ],
+    "correctAnswer": "Sucessão ecológica",
+    "explanation": "A sucessão ecológica descreve a recuperação de um ecossistema após uma perturbação.  É um processo gradual e pode levar décadas ou séculos para se completar, dependendo da magnitude do evento."
   }
 ]

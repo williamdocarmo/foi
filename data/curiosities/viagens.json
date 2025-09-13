@@ -538,5 +538,365 @@
     "content": "Ilhas artificiais, construídas em bambu e juncos, flutuam nos lagos da região de Tonle Sap, no Camboja.  As mudanças no nível da água as movem, criando um cenário surreal e único. Habitadas por comunidades locais, estas ilhas são um ecossistema à parte.",
     "funFact": "As casas nessas ilhas são construídas sobre palafitas que se movem com a água.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-61",
+    "categoryId": "viagens",
+    "title": "O Segredo das Cidades Invisíveis",
+    "hook": "Incrível: Cidades que somem!",
+    "content": "Algumas cidades, devido a eventos naturais ou guerras, foram completamente soterradas ou abandonadas, deixando apenas vestígios ou lendas.  A busca por essas cidades perdidas revela histórias fascinantes de povos e culturas desaparecidas.  A localização exata de muitas delas permanece um mistério até hoje.",
+    "funFact": "Há evidências de cidades inteiras perdidas sob o mar, vítimas de tsunamis e mudanças climáticas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-62",
+    "categoryId": "viagens",
+    "title": "A Magia dos Mapas Antiguíssimos",
+    "hook": "Você sabia que...",
+    "content": "Mapas antigos, além de sua função prática, revelam visões de mundo e crenças únicas da época.  Detalhes artísticos e representações simbólicas oferecem pistas sobre a cultura e a cosmologia de civilizações passadas.  Esses mapas são verdadeiras janelas para o passado.",
+    "funFact": "Alguns mapas antigos representam criaturas mitológicas e terras imaginárias.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-63",
+    "categoryId": "viagens",
+    "title": "A Música das Estradas",
+    "hook": "Surpreendente:",
+    "content": "O som das rodas de um trem, o zumbido de um carro, o ruído dos pés no asfalto, criam uma trilha sonora peculiar. O ritmo e a harmonia dos sons variam de acordo com o ambiente e o tipo de transporte, tornando cada viagem em uma experiência única.",
+    "funFact": "Os sons de uma viagem podem influenciar o estado emocional do viajante.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-64",
+    "categoryId": "viagens",
+    "title": "A Estrada dos Sonhos Perdidos",
+    "hook": "Incrível: Uma estrada...",
+    "content": "Uma antiga estrada na Sibéria, quase totalmente encoberta pela neve e gelo por séculos, foi redescoberta recentemente.  Sua história permanece um mistério, mas os poucos artefatos encontrados sugerem uma rota comercial milenar, ligando povos nômades. Os pesquisadores especulam sobre a ligação dessa estrada com antigas lendas locais.",
+    "funFact": "A estrada parece seguir um alinhamento astronômico antigo, sugerindo uma sofisticação inesperada.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-65",
+    "categoryId": "viagens",
+    "title": "O Segredo das Ilhas de Cristal",
+    "hook": "Você sabia que...",
+    "content": "No coração do Oceano Pacífico, existem ilhas formadas por estruturas de cristal quase perfeitamente polidas. Sua origem é desconhecida, gerando teorias que vão desde formações geológicas únicas até intervenções de civilizações antigas e avançadas.  As ilhas são inacessíveis e misteriosas.",
+    "funFact": "Esses cristais emitem uma leve luminescência à noite.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-66",
+    "categoryId": "viagens",
+    "title": "A Biblioteca Submersa de Alexandria",
+    "hook": "Incrível:",
+    "content": "Embora a biblioteca de Alexandria seja famosa por seu passado glorioso, alguns acreditam que parte significativa de seus pergaminhos não foram destruídos, mas submersos em cavernas subaquáticas protegidas.  A busca por esta biblioteca submersa é uma caça ao tesouro histórica e acadêmica.",
+    "funFact": "Raras amostras de tinta antiga foram encontradas em potes selados no fundo do mar, próximas a estruturas suspeitas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-67",
+    "categoryId": "viagens",
+    "title": "As Ruínas da Cidade de Nuvens",
+    "hook": "Incrível:",
+    "content": "Nas montanhas do Tibete, ruínas de uma cidade antiga foram encontradas em altitudes extremas. As construções são surpreendentemente bem preservadas e parecem desafiar as condições climáticas da região. A cidade foi construída com técnicas desconhecidas e sua finalidade é um mistério.",
+    "funFact": "Pinturas rupestres mostram criaturas que não se assemelham a nada conhecido.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-68",
+    "categoryId": "viagens",
+    "title": "A Floresta de Cristal Submersa",
+    "hook": "Você sabia que...",
+    "content": "No fundo do mar, perto da costa da Indonésia, existe uma floresta de árvores petrificadas feitas de cristal.  A flora e fauna da região são únicas, adaptadas à presença do cristal. Há especulações sobre a existência de vida ainda mais peculiar nesse local.",
+    "funFact": "Alguns cristais emitem sons sutis e harmoniosos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-69",
+    "categoryId": "viagens",
+    "title": "A Trilha dos Diamantes Perdidos",
+    "hook": "Incrível:",
+    "content": "Em uma região montanhosa da África, uma trilha quase intransitável é procurada por aventureiros.  A lenda diz que ela leva a uma mina de diamantes lendária, escondida desde a era colonial. A trilha apresenta perigos e desafios que poucos ousam enfrentar.",
+    "funFact": "Os poucos que tentaram encontrá-la nunca voltaram.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-70",
+    "categoryId": "viagens",
+    "title": "O Vale dos Espelhos",
+    "hook": "Incrível:",
+    "content": "Um vale peculiar onde as rochas e formações geológicas criam reflexos perfeitos, como um espelho natural gigante.  O vale é um paraíso para fotógrafos e amantes da natureza, e um local mágico para quem gosta de explorar a beleza da natureza.",
+    "funFact": "À noite, o vale parece refletir as estrelas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-71",
+    "categoryId": "viagens",
+    "title": "A Dança das Nuvens Lenticulares",
+    "hook": "Incrível: nuvens em forma de disco!",
+    "content": "Formações raras e impressionantes, as nuvens lenticulares surgem em condições atmosféricas específicas, criando um espetáculo visual único.  Elas parecem discos voadores estacionários, flutuando majestosamente no céu, frequentemente confundidas com OVNIs.  Sua beleza é tão hipnótica que muitos viajantes buscam locais propícios para observá-las.",
+    "funFact": "Algumas culturas antigas as consideravam portais para outros mundos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-72",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Rios Subterrâneos Bioluminescentes",
+    "hook": "Você sabia que existem rios que brilham?",
+    "content": "Em cavernas escuras e profundas, em diversos lugares do mundo, existem rios subterrâneos com organismos bioluminescentes.  A água, ao entrar em contato com essas criaturas, emite uma luz fascinante, criando um cenário de pura magia.  Explorá-los requer equipamentos especiais e um conhecimento profundo de espeleologia.",
+    "funFact": "Alguns desses rios só foram descobertos recentemente, graças a avanços tecnológicos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-73",
+    "categoryId": "viagens",
+    "title": "As Cidades Perdidas na Floresta Amazônica",
+    "hook": "Descobertas arqueológicas surpreendentes!",
+    "content": "A floresta amazônica esconde segredos milenares.  Recentes descobertas arqueológicas revelam ruínas de cidades antigas,  desafiando o que se sabia sobre a ocupação humana na região antes da chegada dos europeus.  A vastidão e a densidade da floresta dificultam as explorações, mas novas cidades podem estar escondidas entre a vegetação.",
+    "funFact": "Esses sítios arqueológicos podem reescrever a história da civilização amazônica.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-74",
+    "categoryId": "viagens",
+    "title": "Os Vulcões de Gelo da Islândia",
+    "hook": "Vulcões congelados?",
+    "content": "A Islândia é uma terra de contrastes, onde fogo e gelo se encontram.  Vulcões de gelo são formações únicas onde a lava entra em contato com geleiras, criando formações vulcânicas espetaculares. Essas formações podem ser bastante perigosas, com erupções que podem causar inundações devastadoras.",
+    "funFact": "Esses vulcões produzem um tipo de água especial, rica em minerais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-75",
+    "categoryId": "viagens",
+    "title": "As Praias de Areia Rosa",
+    "hook": "Praias cor-de-rosa?",
+    "content": "Em algumas regiões do mundo, a areia das praias apresenta uma tonalidade rosa encantadora.  Esta coloração única é resultado da presença de organismos microscópicos, corais vermelhos e conchas, que se misturam com os grãos de areia, criando um visual surreal.  Um passeio por essas praias é uma experiência inesquecível.",
+    "funFact": "Algumas praias rosas ficam em locais paradisíacos e de difícil acesso.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-76",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Lagos que Desaparecem",
+    "hook": "Lagos que somem!",
+    "content": "Em diversas partes do mundo, existem lagos que periodicamente desaparecem, deixando para trás apenas uma planície seca.  Esse fenômeno pode ser causado por diversos fatores, incluindo mudanças climáticas, atividades tectônicas ou drenagem subterrânea.  O mistério que envolve esses lagos intriga cientistas e aventureiros.",
+    "funFact": "Alguns lagos reaparecem depois de anos desaparecidos, sem explicação clara.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-77",
+    "categoryId": "viagens",
+    "title": "Os Desertos Floridos",
+    "hook": "Desertos que florescem!",
+    "content": "Em alguns desertos áridos, após chuvas excepcionais, acontece um fenômeno surpreendente: a floração em massa.  Milhares de flores coloridas brotam do solo seco, transformando a paisagem árida em um mar de cores vibrantes.  Este espetáculo efêmero é um evento raro e de beleza singular.",
+    "funFact": "A duração da floração depende diretamente da quantidade de chuva recebida.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-78",
+    "categoryId": "viagens",
+    "title": "As Cavernas de Cristal Gigantes",
+    "hook": "Cavernas de cristal?",
+    "content": "Em algumas partes do mundo, existem cavernas repletas de enormes cristais, alguns com metros de comprimento.  A formação desses cristais leva milhares de anos, e as condições especiais dentro das cavernas são cruciais para o seu crescimento.  A exploração dessas cavernas é desafiadora devido às condições extremas de calor e umidade.",
+    "funFact": "Algumas cavernas de cristal são tão quentes que os seres humanos não conseguem ficar lá por muito tempo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-79",
+    "categoryId": "viagens",
+    "title": "Os Mares Bioluminescentes",
+    "hook": "Mar que brilha à noite!",
+    "content": "Em certos locais, o mar se ilumina à noite, criando um espetáculo mágico.  Este fenômeno é causado por microrganismos que produzem luz, geralmente dinoflagelados.  As ondas e as marés causam o brilho, produzindo um efeito visual hipnótico, como se as estrelas tivessem descido para o mar.",
+    "funFact": "O brilho é mais intenso em noites sem lua e em águas escuras.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-80",
+    "categoryId": "viagens",
+    "title": "As Montanhas que Mudam de Cor",
+    "hook": "Montanhas coloridas!",
+    "content": "Em algumas regiões, as montanhas exibem cores vibrantes que mudam ao longo do dia e de acordo com a estação.  Este efeito impressionante é causado pela composição mineral do solo, que reflete a luz de forma diferente em cada condição.  Um exemplo são as famosas montanhas coloridas de Zhangye Danxia, na China.",
+    "funFact": "A cor das montanhas pode ser influenciada pela umidade e temperatura.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-81",
+    "categoryId": "viagens",
+    "title": "As Florestas Submersas",
+    "hook": "Florestas debaixo d'água!",
+    "content": "Em alguns lagos e mares, existem florestas submersas, criando um cenário misterioso e belo.  Estas florestas subaquáticas, normalmente árvores antigas submersas por causas naturais ou artificiais, criam habitats únicos para uma grande variedade de animais e plantas marinhos, e são locais de imersão muito interessantes.",
+    "funFact": "Árvores submersas por muito tempo criam recifes artificiais importantes.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-82",
+    "categoryId": "viagens",
+    "title": "Os Campos de Pedras que andam",
+    "hook": "Pedras que se movem!",
+    "content": "Em alguns desertos, pedras grandes parecem se mover sozinhas, deixando rastros no solo.  Esse fenômeno intrigante é resultado da combinação de vento, gelo e um solo excepcionalmente plano.  O movimento lento e gradual das pedras ao longo do tempo cria desenhos fascinantes.",
+    "funFact": "As pedras podem se mover apenas alguns centímetros por ano.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-83",
+    "categoryId": "viagens",
+    "title": "As Cataratas Subterrâneas",
+    "hook": "Cachoeiras secretas!",
+    "content": "Cataratas subterrâneas são formações geológicas incríveis, onde a água flui através de cavernas e grutas, criando cascatas e piscinas internas.  São locais difíceis de acesso, muitas vezes requerendo técnicas de espeleologia e mergulho, mas a beleza cênica vale o esforço.",
+    "funFact": "Algumas cataratas subterrâneas só são acessíveis por meio de buracos secretos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-84",
+    "categoryId": "viagens",
+    "title": "Os Lagos de Crateras Vulcânicas",
+    "hook": "Lagos em vulcões!",
+    "content": "Em crateras de vulcões extintos, muitas vezes se formam lagos de águas cristalinas.  A beleza cênica desses locais é singular, com a água azul intensa contrastando com as paredes rochosas da cratera.  A água normalmente é muito pura e fria.",
+    "funFact": "A composição química da água pode variar dependendo do tipo de vulcão.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-85",
+    "categoryId": "viagens",
+    "title": "Os Campos de Girassóis Gigantes",
+    "hook": "Campos infinitos de girassóis!",
+    "content": "Em certas regiões agrícolas, os campos de girassóis se estendem por quilômetros, criando um cenário deslumbrante.  Durante o florescimento, as plantas viram suas flores para o sol, gerando um efeito hipnótico,  e a beleza abrangente faz do lugar um destino fotográfico popular.",
+    "funFact": "A colheita destes campos muitas vezes envolve grandes máquinas.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-86",
+    "categoryId": "viagens",
+    "title": "Os Desertos de Sal Gigantescos",
+    "hook": "Desertos de sal imensos!",
+    "content": "Extensos desertos de sal criam paisagens deslumbrantes e únicas.  A superfície branca e plana reflete o céu, criando ilusões de ótica impressionantes.  Os desertos de sal são formados pela evaporação de antigos lagos e mares, deixando para trás grandes depósitos de sal.",
+    "funFact": "Alguns desertos de sal abrigam ecossistemas únicos e resistentes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-87",
+    "categoryId": "viagens",
+    "title": "A Lenda do Avião Fantasma de Nazca",
+    "hook": "Incrível: um avião perdido!",
+    "content": "Testemunhas relatam avistar um avião antigo, de design desconhecido, sobrevoando as Linhas de Nazca em noites escuras.  A hipótese de um avião perdido, usado em pesquisas secretas na década de 40, é investigada por alguns pesquisadores, alimentada por relatos locais e indícios arqueológicos enigmáticos. As buscas, porém, foram infrutíferas até o momento.",
+    "funFact": "Há relatos de luzes estranhas no avião.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-88",
+    "categoryId": "viagens",
+    "title": "O Segredo das Ruínas de Cristal Submersas",
+    "hook": "Você sabia que...",
+    "content": "Profundamente no oceano Pacífico, encontram-se ruínas submersas de uma civilização desconhecida, compostas de um material cristalino resistente.  Estudiosos especulam sobre sua origem e tecnologia avançada, sugerindo uma cultura pré-histórica perdida capaz de manipular cristais de forma incompreensível para a ciência atual.",
+    "funFact": "Amostras do cristal apresentam propriedades energéticas anômalas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-89",
+    "categoryId": "viagens",
+    "title": "A Floresta Subaquática Bioluminescente",
+    "hook": "Incrível:",
+    "content": "Em uma região pouco explorada do oceano Índico, existe uma floresta subaquática que brilha intensamente à noite.  Organismos bioluminescentes criam um espetáculo de luz mágico, que hipnotiza e intriga cientistas e exploradores. A diversidade de vida neste ecossistema único é surpreendente.",
+    "funFact": "A luminescência muda de cor dependendo da maré.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-90",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Lagos que Cantam",
+    "hook": "Você sabia que...",
+    "content": "Em regiões remotas da Sibéria, existem lagos que emitem sons estranhos, quase como cantos, especialmente durante tempestades.  As teorias variam de fenômenos geológicos ainda não compreendidos a lendas locais de espíritos ancestrais.  As pesquisas científicas ainda não chegaram a uma conclusão definitiva.",
+    "funFact": "Os sons se propagam por quilômetros.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-91",
+    "categoryId": "viagens",
+    "title": "A Estrada Perdida dos Incas na Amazônia",
+    "hook": "Você sabia que...",
+    "content": "Lendas ancestrais falam de uma rede de estradas incas escondidas profundamente na Amazônia, usadas para conectar povoados distantes.  Apesar de alguns vestígios arqueológicos terem sido encontrados, a localização precisa destas estradas permanece um mistério, incentivando exploradores a buscarem pistas na densa floresta.",
+    "funFact": "Acredita-se que algumas passagens utilizem técnicas de camuflagem natural.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-92",
+    "categoryId": "viagens",
+    "title": "Os Desertos de Areia Negra do Oriente Médio",
+    "hook": "Incrível:",
+    "content": "Em áreas específicas do Oriente Médio, existem desertos que, ao invés da areia dourada tradicional, apresentam areia negra vulcânica.  Este cenário único cria paisagens contrastantes e misteriosas, e é objeto de estudos geológicos que buscam entender a origem desta areia incomum.",
+    "funFact": "A areia absorve mais calor que a areia tradicional.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-93",
+    "categoryId": "viagens",
+    "title": "Os Mares Bioluminescentes do Pacífico Sul",
+    "hook": "Incrível:",
+    "content": "Em determinadas épocas do ano, as águas do Pacífico Sul ganham um brilho mágico.  Milhões de micro-organismos bioluminescentes criam um espetáculo de luzes na superfície, transformando o oceano em um cenário de sonho.  O fenômeno é estudado como um indicador da saúde do ecossistema.",
+    "funFact": "A intensidade da luz é influenciada pelas correntes oceânicas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-94",
+    "categoryId": "viagens",
+    "title": "Os Campos de Girassóis Bio-luminescentes",
+    "hook": "Incrível:",
+    "content": "Em uma região pouco explorada da América do Sul, campos de girassóis exibem uma bioluminescência noturna espetacular. Os girassóis, de uma espécie rara, emitem uma luz suave e contínua durante a noite, criando um espetáculo fascinante e ainda pouco estudado pela ciência.",
+    "funFact": "A intensidade da luz varia com a temperatura ambiente.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-95",
+    "categoryId": "viagens",
+    "title": "Os Desertos de Sal Gigantescos Subterrâneos",
+    "hook": "Você sabia que...",
+    "content": "Sob a superfície de desertos arenosos, vastos depósitos de sal subterrâneos foram descobertos, maiores do que qualquer outro encontrado até hoje.  Esses depósitos gigantescos, repletos de cristais de sal de diversos tamanhos e formas, são um tesouro geológico e objeto de estudo para pesquisadores.",
+    "funFact": "Algumas cavernas de sal possuem ecossistemas subterrâneos únicos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-96",
+    "categoryId": "viagens",
+    "title": "O Enigma dos Túneis Subterrâneos de Cusco",
+    "hook": "Desvende o mistério:",
+    "content": "Sob as ruas de Cusco, no Peru, uma rede complexa de túneis subterrâneos permanece um enigma. Sua finalidade é desconhecida, gerando teorias sobre seu uso pelos Incas, desde sistemas de irrigação até passagens secretas.  Sua exploração é limitada e perigosa.",
+    "funFact": "Alguns túneis são tão estreitos que só podem ser acessados por pessoas magras e pequenas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-97",
+    "categoryId": "viagens",
+    "title": "O Deserto Branco de Farafra",
+    "hook": "Você sabia que...",
+    "content": "No Egito, o deserto branco de Farafra é uma paisagem surreal de formações rochosas brancas e calcárias esculpidas pelo vento. Essas formas bizarras, como cogumelos e animais, criam uma atmosfera quase extraterrestre.  O pôr do sol pinta o deserto em tons vibrantes.",
+    "funFact": "As formações rochosas são tão únicas que parecem esculturas feitas pelo homem.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-98",
+    "categoryId": "viagens",
+    "title": "A Montanha Arco-Íris de Zhangye",
+    "hook": "Você sabia que...",
+    "content": "Na China, a montanha arco-íris de Zhangye exibe uma gama de cores vibrantes, de vermelho e laranja a verde e roxo.  As diferentes camadas de rocha, formadas ao longo de milhões de anos, criam este espetáculo natural impressionante. É um lugar mágico.",
+    "funFact": "As cores são tão vibrantes que parecem pintadas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-99",
+    "categoryId": "viagens",
+    "title": "A Origem Secreta dos Aeroportos Fantasma",
+    "hook": "Incrível: aeroportos abandonados!",
+    "content": "Muitos aeroportos abandonados pelo mundo escondem histórias fascinantes, desde projetos ambiciosos que fracassaram até eventos misteriosos que os levaram ao abandono. Alguns foram construídos em locais remotos, com o propósito estratégico da Guerra Fria, ou por razões econômicas que depois se mostraram insustentáveis.  Esses locais, muitas vezes repletos de mistério, se tornam verdadeiros museus a céu aberto da história da aviação.",
+    "funFact": "Um aeroporto fantasma na Sibéria abriga lendas urbanas de aviões desaparecidos e fenômenos inexplicáveis.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-100",
+    "categoryId": "viagens",
+    "title": "As Ilhas que Desaparecem e Reaparecem",
+    "hook": "Surpreendente: ilhas efêmeras!",
+    "content": "Fenômenos geológicos criam ilhas temporárias, que surgem e desaparecem devido a mudanças de nível do mar, erupções vulcânicas ou movimentos de placas tectônicas. Essas ilhas efêmeras, muitas vezes com uma vida útil de apenas alguns meses ou anos, são um lembrete da dinâmica natureza da Terra. Sua existência, embora transitória, deixa rastros importantes para o estudo geológico.",
+    "funFact": "Uma ilha no Oceano Índico surgiu após um terremoto e desapareceu seis meses depois.",
+    "curiosityLevel": 5
   }
 ]

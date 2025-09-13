@@ -1257,5 +1257,113 @@
     "content": "O povo Himba, da Namíbia, possui uma rica tradição de rituais de purificação, frequentemente envolvendo fumaça de plantas aromáticas e óleos especiais.  Esses rituais são realizados para limpar o corpo e a alma, garantindo a harmonia entre o indivíduo e o mundo espiritual.",
     "funFact": "A fumaça das plantas sagradas é considerada um veículo para conectar-se com o mundo espiritual.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "religiao-142",
+    "categoryId": "religiao",
+    "title": "O Segredo dos Calendários Aztecas",
+    "hook": "Incrível: um calendário além do tempo!",
+    "content": "Os astecas utilizavam dois calendários complexos, um solar de 365 dias e um ritual de 260 dias, que se interligavam em um ciclo de 52 anos.  A combinação desses sistemas refletia sua profunda compreensão do cosmos e sua crença na influência cíclica dos astros na vida humana.  Sua precisão astronômica surpreende até hoje.",
+    "funFact": "O calendário ritual asteca previu eventos astronômicos com incrível precisão, décadas antes da invenção do telescópio.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-143",
+    "categoryId": "religiao",
+    "title": "A Religião dos Povos Munda e seus Deuses da Floresta",
+    "hook": "Descubra: Deuses ocultos na floresta!",
+    "content": "Os povos Munda, da Índia, têm uma rica tradição religiosa ligada à natureza.  Seus deuses são entidades espirituais associadas a árvores, rios, montanhas e animais, refletindo uma profunda reverência pela floresta e seus ciclos de vida. A interação com esses espíritos é fundamental para a vida comunitária.",
+    "funFact": "Algumas tribos Munda acreditam que seus ancestrais se transformaram em árvores sagradas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "religiao-144",
+    "categoryId": "religiao",
+    "title": "O Culto ao Tigre de Bengala: Mais que um Animal",
+    "hook": "Você sabia que...",
+    "content": "Para muitas comunidades indígenas da Índia, o tigre de Bengala não é apenas um predador, mas um símbolo de poder, força e espiritualidade.  Rituais e oferendas são realizados em sua honra, buscando proteção e boa sorte, mostrando uma relação complexa entre o homem e a natureza.",
+    "funFact": "Algumas tribos acreditam que os tigres são espíritos ancestrais reencarnados.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "religiao-145",
+    "categoryId": "religiao",
+    "title": "O Mistério das Esculturas de Tiahuanaco",
+    "hook": "Incrível: Tiahuanaco guarda segredos!",
+    "content": "As enigmáticas esculturas de Tiahuanaco, na Bolívia, desafiam interpretações.  Suas figuras complexas e simbolismos pouco compreendidos sugerem uma cosmovisão sofisticada e um calendário astronômico preciso.  A cultura que as criou permanece um mistério, deixando perguntas sobre sua fé e rituais.",
+    "funFact": "Algumas teorias sugerem que Tiahuanaco era um centro de peregrinação religiosa de grande importância.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-146",
+    "categoryId": "religiao",
+    "title": "A Religião Subterrânea de Çatalhöyük",
+    "hook": "Descubra: Uma fé enterrada!",
+    "content": "A cidade de Çatalhöyük, na Turquia, revela uma complexa vida religiosa pré-histórica.  Sem templos tradicionais, a religião permeava as casas, com altares domésticos e enterros sob os pisos.  Imagens de animais e deusas-mãe sugerem crenças na fertilidade e na natureza.",
+    "funFact": "Os esqueletos de animais enterrados sugerem rituais de sacrifício.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-147",
+    "categoryId": "religiao",
+    "title": "A Cosmogonia dos Povos Ainu",
+    "hook": "Incrível: Uma visão de mundo única!",
+    "content": "Os Ainu, povo indígena do Japão, possuem uma rica cosmogonia ligada à natureza.  Eles acreditam em deuses e espíritos associados a animais, plantas e fenômenos naturais.  Sua relação com a natureza é profundamente espiritual e seus rituais refletem essa conexão.",
+    "funFact": "O urso desempenha um papel central na cosmogonia Ainu, sendo considerado um espírito poderoso.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-148",
+    "categoryId": "religiao",
+    "title": "O Xamanismo e as Plantas Sagradas na Sibéria",
+    "hook": "Você sabia que...",
+    "content": "O xamanismo siberiano envolve o uso de plantas sagradas com propriedades alucinógenas, como o cogumelo Amanita muscaria, para entrar em trances e comunicar-se com o mundo espiritual.  Os xamãs utilizam essas plantas para curar doenças, prever o futuro e guiar rituais.",
+    "funFact": "O xamã é considerado um intermediário entre o mundo físico e o espiritual.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "religiao-149",
+    "categoryId": "religiao",
+    "title": "A Fé Escondida dos Construtores de Stonehenge",
+    "hook": "Incrível: Stonehenge esconde segredos religiosos!",
+    "content": "As imensas pedras de Stonehenge, na Inglaterra, foram há muito tempo um local de culto religioso. Mas os detalhes da fé praticada lá permanecem um mistério.  Evidências sugerem uma conexão com os ciclos celestiais e a veneração da natureza, mas a verdadeira natureza de suas crenças ainda é debatida por estudiosos.",
+    "funFact": "Análises recentes sugerem a presença de ossos humanos enterrados próximo às pedras, indicando rituais funerários complexos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-150",
+    "categoryId": "religiao",
+    "title": "O Mistério das Muralhas de Jericho",
+    "hook": "Incrível: Jericho...",
+    "content": "Jericó, uma das cidades mais antigas do mundo, possui muralhas que intrigam arqueólogos até hoje.  Sua construção antecede tecnologias conhecidas da época, sugerindo um conhecimento avançado em engenharia.  Existem teorias que ligam sua construção a eventos religiosos ou rituais, envolvendo possíveis poderes sobrenaturais.  A complexidade da construção permanece um mistério.",
+    "funFact": "Algumas teorias sugerem que as muralhas foram derrubadas por um evento sísmico, reforçando a ideia de um poder superior envolvido.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "religiao-151",
+    "categoryId": "religiao",
+    "title": "A Religião Secreta dos Povos de Lepenski Vir",
+    "hook": "Você sabia que...",
+    "content": "A cultura Lepenski Vir, na região dos Balcãs, praticava uma religião única, centrada em ídolos antropomórficos com características de peixe.  Essas figuras representam uma visão de mundo profundamente ligada à natureza e ao rio Danúbio.  Suas crenças e rituais permanecem um mistério, mas os achados arqueológicos indicam uma sofisticada cosmovisão.",
+    "funFact": "Os ídolos de Lepenski Vir são considerados as primeiras representações de seres humanos na Europa.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "religiao-152",
+    "categoryId": "religiao",
+    "title": "Os Rituais de Iniciação dos Índios Yanomami",
+    "hook": "Surpreendente:",
+    "content": "Os rituais de iniciação dos Yanomami, na Amazônia, envolvem complexos processos de preparação física e espiritual, que visam moldar a personalidade do jovem para a vida adulta.  Esses rituais, repletos de simbolismo, garantem a transmissão de conhecimento ancestral e a integração do indivíduo na comunidade.  A preparação pode durar anos.",
+    "funFact": "Os jovens são submetidos a rituais dolorosos, como a ingestão de substâncias alucinógenas e a realização de provas físicas extremas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "religiao-153",
+    "categoryId": "religiao",
+    "title": "A Cosmogonia dos Povos Batek",
+    "hook": "Incrível:",
+    "content": "Os Batek, um povo indígena da Malásia, possuem uma cosmogonia única, onde o universo é visto como um grande rio que se estende do céu à terra.  Sua visão de mundo é intimamente ligada à natureza e aos ciclos da vida.  A relação com a natureza é central em suas crenças e práticas.",
+    "funFact": "Para os Batek, os espíritos da floresta habitam as árvores e os animais, participando ativamente na vida da comunidade.",
+    "curiosityLevel": 4
   }
 ]

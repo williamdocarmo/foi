@@ -645,5 +645,131 @@
     "content": "Você sabia que momentos de silêncio podem potencializar sua criatividade e concentração?  A capacidade de se desconectar do barulho externo e encontrar a calma interior é uma habilidade valiosa para a resolução de problemas e a geração de ideias inovadoras.  Aprenda a utilizar o silêncio a seu favor!",
     "funFact": "Estudo revela que 15 minutos de silêncio diário reduzem o cortisol (hormônio do estresse) significativamente.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-74",
+    "categoryId": "habilidades",
+    "title": "Desvendando o Poder da Intuitiva Leitura Labial",
+    "hook": "Incrível: ",
+    "content": "Você sabia que a leitura labial vai além de apenas observar os lábios?  É uma habilidade complexa que envolve a percepção de micro-movimentos faciais, expressões sutis e até mesmo a interpretação do contexto da conversa. Aprimorar essa habilidade pode ser surpreendentemente útil em diversos contextos.",
+    "funFact": "Algumas pessoas com surdez profunda desenvolveram uma habilidade de leitura labial tão aguçada que conseguem entender conversas em ambientes ruidosos com pouca ou nenhuma dificuldade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-75",
+    "categoryId": "habilidades",
+    "title": "A Magia do Toque Intuitivo",
+    "hook": "Incrível: ",
+    "content": "Você sabia que a habilidade de sentir a temperatura ideal de um alimento apenas tocando-o levemente está ligada a uma percepção sensorial aguçada?  Essa sensibilidade tátil refinada é aprimorada com a prática e demonstra uma conexão profunda entre mente e corpo. Alguns chefs de cozinha renomados dominam essa arte, conseguindo avaliar o ponto de cozimento de carnes apenas com o toque.",
+    "funFact": "Alguns estudiosos acreditam que essa habilidade pode ser herdada geneticamente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-76",
+    "categoryId": "habilidades",
+    "title": "Desvendando o Poder da Mimetização",
+    "hook": "Você sabia que...",
+    "content": "A habilidade de imitar sutilmente gestos, expressões e até mesmo o tom de voz de outras pessoas,  conhecida como mimetização, pode facilitar a construção de relacionamentos e influenciar positivamente a comunicação.  É uma forma inconsciente de criar empatia e conexão.",
+    "funFact": "A mimetização é uma habilidade inata, presente em diversas espécies animais.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-77",
+    "categoryId": "habilidades",
+    "title": "A Arte da Escrita com os Olhos",
+    "hook": "Incrível:",
+    "content": "Pessoas com altas habilidades de visualização podem escrever palavras completas em sua mente, sem a necessidade de caneta e papel. Essa habilidade mental cria uma espécie de tela interna, na qual o texto se forma como se estivesse sendo escrito à mão.",
+    "funFact": "Essa habilidade é particularmente útil para autores que preferem compor suas obras mentalmente.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "habilidades-78",
+    "categoryId": "habilidades",
+    "title": "O Segredo da Interpretação de Sinais de Fumaça",
+    "hook": "Incrível:",
+    "content": "Em algumas culturas, a comunicação através de sinais de fumaça era uma forma sofisticada de transmissão de mensagens à distância.  A habilidade de interpretar a intensidade, a cor e o padrão da fumaça exigia um conhecimento profundo de códigos e sinais.",
+    "funFact": "Essa habilidade era crucial para a sobrevivência e a estratégia militar em diversas civilizações.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-79",
+    "categoryId": "habilidades",
+    "title": "A Magia da Escrita com os Pés",
+    "hook": "Incrível:",
+    "content": "Imagine escrever um poema, ou até mesmo um livro inteiro, usando apenas seus pés! Parece impossível, mas para alguns, é uma habilidade surpreendente desenvolvida com prática e dedicação.  Essa habilidade exige coordenação motora excepcional e muita paciência, mas o resultado pode ser extraordinário.  A arte de escrever com os pés transcende a mera escrita, tornando-se uma forma única de expressão artística.",
+    "funFact": "Existem artistas que criam obras de arte complexas com os pés!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-80",
+    "categoryId": "habilidades",
+    "title": "Desvendando a Linguagem do Humor",
+    "hook": "Você sabia que...",
+    "content": "O humor é mais do que apenas piadas; é uma forma complexa de comunicação que revela inteligência social e emocional.  A habilidade de entender e usar o humor efetivamente envolve a percepção sutil de contextos sociais, inteligência emocional e capacidade de improvisação. Dominar essa linguagem pode abrir portas para conexões mais profundas e situações sociais mais harmoniosas.",
+    "funFact": "O riso é contagioso e libera endorfinas, hormônios que causam bem-estar!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-81",
+    "categoryId": "habilidades",
+    "title": "A Arte da Escrita com os Dedos dos Pés",
+    "hook": "Incrível:",
+    "content": "Imagine escrever um poema inteiro usando apenas os dedos dos pés! Essa habilidade, embora incomum, demonstra uma incrível plasticidade cerebral e coordenação motora fina.  Requer dedicação e prática intensa, mas o resultado é surpreendente e único.  É uma forma de arte pouco conhecida, mas que desafia as limitações físicas e mentais.",
+    "funFact": "Algumas pessoas conseguem escrever em braile com os pés!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-82",
+    "categoryId": "habilidades",
+    "title": "Dominando a Arte da Imitação Vocal Perfeita",
+    "hook": "Você sabia que...",
+    "content": "Existem pessoas capazes de imitar vozes com uma precisão impressionante, reproduzindo até mesmo nuances sutis e sotaques.  Essa habilidade exige um controle excepcional das cordas vocais e uma audição extremamente aguçada.  É uma performance fascinante que requer anos de prática e talento nato.",
+    "funFact": "Alguns imitadores conseguem imitar sons de animais com incrível realismo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-83",
+    "categoryId": "habilidades",
+    "title": "O Poder da Intuitiva Leitura de Mapas Mentais",
+    "hook": "Incrível:",
+    "content": "Interpretar mapas mentais rapidamente e intuitivamente é uma habilidade valiosa. Alguns indivíduos conseguem decifrar a complexidade de um mapa mental com uma facilidade impressionante, extraindo informações-chave quase instantaneamente.  Essa habilidade é útil em diversos campos, da resolução de problemas à tomada de decisões estratégicas.",
+    "funFact": "Essa habilidade pode ser aprimorada com técnicas de memorização e visualização espacial.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-84",
+    "categoryId": "habilidades",
+    "title": "Desvendando o Poder da Memorização Olfativa",
+    "hook": "Você sabia que...",
+    "content": "A memória olfativa é poderosa.  Algumas pessoas possuem a capacidade de associar cheiros a memórias com uma precisão e riqueza de detalhes impressionantes, recuperando eventos passados com apenas um aroma.  Essa habilidade é uma prova do poder dos sentidos e da sua relação com a memória.",
+    "funFact": "O olfato está diretamente ligado ao sistema límbico, responsável pelas emoções e memórias.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-85",
+    "categoryId": "habilidades",
+    "title": "A Arte da Comunicação Através da Dança",
+    "hook": "Incrível:",
+    "content": "A dança pode ser uma poderosa forma de comunicação não-verbal.  Alguns indivíduos conseguem transmitir emoções, narrativas e ideias complexas através dos movimentos do corpo, sem precisar de palavras.  Essa habilidade exige expressividade, técnica e uma profunda compreensão da linguagem corporal.",
+    "funFact": "Algumas culturas utilizam a dança como meio principal de comunicação e transmissão de conhecimento.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "habilidades-86",
+    "categoryId": "habilidades",
+    "title": "A Magia da Reconstrução Mental de Objetos 3D",
+    "hook": "Incrível:",
+    "content": "Imagine reconstruir mentalmente um objeto tridimensional, observando apenas uma única foto.  Algumas pessoas possuem a capacidade de visualizar objetos em 3D a partir de uma única perspectiva, com uma precisão impressionante.  Essa habilidade é útil em diversos campos, como engenharia e design.",
+    "funFact": "Esta habilidade é frequentemente encontrada em artistas e designers.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "habilidades-87",
+    "categoryId": "habilidades",
+    "title": "A Arte da Micro-expressão Nasal",
+    "hook": "Incrível: o nariz fala!",
+    "content": "Você sabia que pequenas mudanças na forma como nosso nariz se move podem revelar emoções ocultas?  A micro-expressão nasal, quase imperceptível, entrega pistas sutis sobre sentimentos como desgosto ou desdém.  Observe as narinas! Elas podem dizer mais do que palavras.",
+    "funFact": "Um estudo recente mostrou que a micro-expressão nasal é mais confiável que expressões faciais maiores na detecção de mentiras.",
+    "curiosityLevel": 4
   }
 ]

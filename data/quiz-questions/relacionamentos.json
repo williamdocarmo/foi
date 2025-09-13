@@ -1188,5 +1188,33 @@
     ],
     "correctAnswer": "Ouvir atentamente e validar os sentimentos",
     "explanation": "Respeito envolve valorizar a opinião e os sentimentos do outro, mesmo que não concorde com eles.  Ouvir atentamente e validar as emoções do parceiro demonstra respeito e cria um ambiente de confiança. Curiosidade: O respeito mútuo é a base de qualquer relacionamento saudável."
+  },
+  {
+    "id": "quiz-relacionamentos-86",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual é a diferença entre uma discussão produtiva e uma briga destrutiva?",
+    "options": [
+      "Não há diferença, ambas são formas de comunicação",
+      "Uma busca soluções, a outra foca em culpar",
+      "Uma é mais silenciosa, a outra mais barulhenta",
+      "Uma é mais curta, a outra mais longa"
+    ],
+    "correctAnswer": "Uma busca soluções, a outra foca em culpar",
+    "explanation": "Discussões produtivas visam resolver problemas com respeito e colaboração, enquanto brigas destrutivas focam na culpa e ataque pessoal. Curiosidade: A comunicação não violenta pode auxiliar em discussões produtivas."
+  },
+  {
+    "id": "quiz-relacionamentos-87",
+    "categoryId": "relacionamentos",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre amor romântico e amor companheiro?",
+    "options": [
+      "Não existe diferença, são sinônimos",
+      "O romântico é passageiro, o companheiro é duradouro e baseado em confiança e respeito",
+      "O romântico é superficial, o companheiro é profundo",
+      "O romântico é intenso, o companheiro é monótono"
+    ],
+    "correctAnswer": "O romântico é passageiro, o companheiro é duradouro e baseado em confiança e respeito",
+    "explanation": "O amor romântico é marcado por paixão e idealização, enquanto o amor companheiro é construído na confiança, respeito e companheirismo. Curiosidade: Muitos relacionamentos duradouros transcendem o amor romântico inicial para se tornarem um amor companheiro profundo."
   }
 ]

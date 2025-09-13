@@ -35,9 +35,9 @@
     "lastRunAt": "2025-09-13T18:27:20.687Z"
   },
   "religiao": {
-    "curiositiesBatchesProcessed": 4,
+    "curiositiesBatchesProcessed": 11,
     "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-13T18:30:33.057Z"
+    "lastRunAt": "2025-09-13T21:45:16.438Z"
   },
   "cultura": {
     "curiositiesBatchesProcessed": 20,
@@ -66,7 +66,12 @@
   },
   "autoajuda": {
     "curiositiesBatchesProcessed": 19,
-    "quizzesBatchesProcessed": 8,
-    "lastRunAt": "2025-09-13T21:32:55.570Z"
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T21:33:42.427Z"
+  },
+  "habilidades": {
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T21:42:51.517Z"
   }
 }

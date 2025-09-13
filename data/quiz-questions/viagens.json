@@ -1188,5 +1188,19 @@
     ],
     "correctAnswer": "Oceano Atlântico",
     "explanation": "O Oceano Atlântico banha a costa leste da América do Sul. Curiosidade: A corrente do Brasil é uma corrente marítima quente que flui ao longo da costa brasileira."
+  },
+  {
+    "id": "quiz-viagens-86",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é conhecido pela produção de café?",
+    "options": [
+      "China",
+      "Brasil",
+      "França",
+      "Canadá"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "O Brasil é um dos maiores produtores de café do mundo. Curiosidade: O café brasileiro é reconhecido internacionalmente por sua qualidade."
   }
 ]

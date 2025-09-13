@@ -908,5 +908,19 @@
     ],
     "correctAnswer": "Reconhecer e nomear o estresse",
     "explanation": "O primeiro passo para lidar com o estresse é reconhecê-lo.  Ignorar só piora.  Curiosidade: O estresse crônico pode afetar o sistema imunológico."
+  },
+  {
+    "id": "quiz-autoajuda-66",
+    "categoryId": "autoajuda",
+    "difficulty": "easy",
+    "question": "Qual a importância da autoestima na autoajuda?",
+    "options": [
+      "É irrelevante para o processo.",
+      "Ajuda a construir confiança e motivação.",
+      "Impede o progresso, pois gera arrogância.",
+      "Apenas útil em casos de depressão."
+    ],
+    "correctAnswer": "Ajuda a construir confiança e motivação.",
+    "explanation": "A autoestima positiva é um pilar fundamental para o sucesso na autoajuda, fornecendo a força para enfrentar desafios. Curiosidade: a autoestima pode ser melhorada com pequenas ações diárias de autocuidado."
   }
 ]
