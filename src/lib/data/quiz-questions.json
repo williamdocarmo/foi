@@ -27326,5 +27326,3519 @@
     "explanation": "Wolfgang Amadeus Mozart compôs a ópera 'A Flauta Mágica'.",
     "id": "quiz-musica-2027",
     "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função do sistema respiratório?",
+    "options": [
+      "Transportar nutrientes",
+      "Regular a temperatura corporal",
+      "Trocar gases respiratórios",
+      "Filtrar o sangue"
+    ],
+    "correctAnswer": "Trocar gases respiratórios",
+    "explanation": "O sistema respiratório é responsável pela captação de oxigênio e liberação de dióxido de carbono.",
+    "id": "quiz-saude-2028",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina C?",
+    "options": [
+      "Cenoura",
+      "Banana",
+      "Laranja",
+      "Batata"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é uma excelente fonte de vitamina C, um antioxidante importante.",
+    "id": "quiz-saude-2029",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de proteína?",
+    "options": [
+      "Arroz",
+      "Batata",
+      "Frango",
+      "Alface"
+    ],
+    "correctAnswer": "Frango",
+    "explanation": "O frango é uma rica fonte de proteínas, essenciais para a construção e reparação dos tecidos.",
+    "id": "quiz-saude-2030",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal sintoma da desidratação?",
+    "options": [
+      "Dor de cabeça",
+      "Febre",
+      "Tosse",
+      "Diarréia"
+    ],
+    "correctAnswer": "Dor de cabeça",
+    "explanation": "A desidratação pode causar dor de cabeça, além de outros sintomas como sede excessiva e urina escura.",
+    "id": "quiz-saude-2031",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância da higiene das mãos?",
+    "options": [
+      "Evitar a queda de cabelo",
+      "Melhorar a digestão",
+      "Prevenir infecções",
+      "Aumentar a força muscular"
+    ],
+    "correctAnswer": "Prevenir infecções",
+    "explanation": "Lavar as mãos regularmente previne a propagação de germes e a transmissão de doenças infecciosas.",
+    "id": "quiz-saude-2032",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre bronquite e pneumonia?",
+    "options": [
+      "Ambas são infecções virais do trato urinário",
+      "A bronquite afeta os brônquios, enquanto a pneumonia afeta os alvéolos pulmonares",
+      "A bronquite é uma infecção bacteriana, enquanto a pneumonia é viral",
+      "Não há diferença entre bronquite e pneumonia"
+    ],
+    "correctAnswer": "A bronquite afeta os brônquios, enquanto a pneumonia afeta os alvéolos pulmonares",
+    "explanation": "A bronquite é a inflamação dos brônquios, enquanto a pneumonia é a inflamação dos alvéolos pulmonares, ambos no sistema respiratório.",
+    "id": "quiz-saude-2033",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a relação entre inflamação crônica e doenças crônicas?",
+    "options": [
+      "Não há relação entre inflamação crônica e doenças crônicas",
+      "A inflamação crônica pode contribuir para o desenvolvimento de doenças crônicas",
+      "As doenças crônicas causam inflamação aguda, não crônica",
+      "A inflamação crônica protege contra doenças crônicas"
+    ],
+    "correctAnswer": "A inflamação crônica pode contribuir para o desenvolvimento de doenças crônicas",
+    "explanation": "A inflamação crônica está associada a várias doenças crônicas, como doenças cardíacas, diabetes e artrite.",
+    "id": "quiz-saude-2034",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a aterosclerose?",
+    "options": [
+      "Inflamação da pele",
+      "Endurecimento e estreitamento das artérias",
+      "Doença do fígado",
+      "Infecção do ouvido"
+    ],
+    "correctAnswer": "Endurecimento e estreitamento das artérias",
+    "explanation": "A aterosclerose é o acúmulo de placas de gordura nas artérias, levando ao estreitamento e endurecimento dos vasos sanguíneos.",
+    "id": "quiz-saude-2035",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o papel dos glóbulos brancos no sangue?",
+    "options": [
+      "Transportar oxigênio",
+      "Coagular o sangue",
+      "Combater infecções",
+      "Transportar nutrientes"
+    ],
+    "correctAnswer": "Combater infecções",
+    "explanation": "Os glóbulos brancos, ou leucócitos, são células do sistema imunológico que combatem infecções e doenças.",
+    "id": "quiz-saude-2036",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Explique o mecanismo de ação da insulina.",
+    "options": [
+      "Regula a temperatura corporal",
+      "Acelera o batimento cardíaco",
+      "Promove a entrada de glicose nas células",
+      "Controla a pressão arterial"
+    ],
+    "correctAnswer": "Promove a entrada de glicose nas células",
+    "explanation": "A insulina é um hormônio que facilita a entrada de glicose das células, regulando os níveis de açúcar no sangue.",
+    "id": "quiz-saude-2037",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é o sistema renina-angiotensina-aldosterona (SRAA)?",
+    "options": [
+      "Um sistema de defesa do corpo contra infecções",
+      "Um sistema que regula a pressão arterial",
+      "Um sistema de digestão de alimentos",
+      "Um sistema que controla a temperatura corporal"
+    ],
+    "correctAnswer": "Um sistema que regula a pressão arterial",
+    "explanation": "O SRAA é um complexo sistema hormonal que desempenha um papel crucial na regulação da pressão arterial.",
+    "id": "quiz-saude-2038",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique o processo de coagulação sanguínea.",
+    "options": [
+      "Um processo complexo envolvendo plaquetas e fatores de coagulação, formando um coágulo para parar o sangramento",
+      "Um processo simples de contração dos vasos sanguíneos",
+      "Um processo que envolve apenas as plaquetas sanguíneas",
+      "Um processo que não envolve nenhuma reação química"
+    ],
+    "correctAnswer": "Um processo complexo envolvendo plaquetas e fatores de coagulação, formando um coágulo para parar o sangramento",
+    "explanation": "A coagulação sanguínea é um processo complexo que envolve a interação de plaquetas, proteínas e fatores de coagulação para formar um coágulo e interromper o sangramento.",
+    "id": "quiz-saude-2039",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Quais são os principais fatores de risco para o desenvolvimento de câncer de pulmão?",
+    "options": [
+      "Alimentação saudável e exercícios regulares",
+      "Tabagismo, exposição ao asbesto e histórico familiar",
+      "Exposição ao sol e uso de protetor solar",
+      "Sono adequado e gestão do estresse"
+    ],
+    "correctAnswer": "Tabagismo, exposição ao asbesto e histórico familiar",
+    "explanation": "O tabagismo é o principal fator de risco, seguido da exposição ao amianto e histórico familiar de câncer de pulmão.",
+    "id": "quiz-saude-2040",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância de beber água regularmente?",
+    "options": [
+      "Ajuda na digestão",
+      "Regula a temperatura corporal",
+      "Transporta nutrientes",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "A água é essencial para diversas funções corporais, incluindo digestão, regulação da temperatura e transporte de nutrientes.",
+    "id": "quiz-bem-estar-2041",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é recomendada para iniciantes?",
+    "options": [
+      "Maratona",
+      "Levantamento de peso pesado",
+      "Caminhada",
+      "Triatlo"
+    ],
+    "correctAnswer": "Caminhada",
+    "explanation": "A caminhada é uma atividade de baixo impacto, fácil de iniciar e acessível a maioria das pessoas.",
+    "id": "quiz-bem-estar-2042",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é mindfulness?",
+    "options": [
+      "Uma técnica de respiração",
+      "Um tipo de meditação",
+      "A prática de prestar atenção ao momento presente sem julgamento",
+      "Uma forma de terapia"
+    ],
+    "correctAnswer": "A prática de prestar atenção ao momento presente sem julgamento",
+    "explanation": "Mindfulness envolve a atenção plena ao momento presente, sem julgamentos ou avaliações.",
+    "id": "quiz-bem-estar-2043",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como o estresse crônico afeta a saúde?",
+    "options": [
+      "Pode aumentar o risco de doenças cardíacas",
+      "Pode enfraquecer o sistema imunológico",
+      "Pode levar a problemas de sono",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "O estresse crônico tem impactos negativos em diversos sistemas do corpo, aumentando o risco de doenças físicas e mentais.",
+    "id": "quiz-bem-estar-2044",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre compaixão e empatia?",
+    "options": [
+      "A compaixão envolve ação, enquanto a empatia é apenas compreensão.",
+      "A empatia é mais profunda que a compaixão.",
+      "Não há diferença significativa entre os dois conceitos.",
+      "A compaixão é um sentimento negativo, enquanto a empatia é positiva."
+    ],
+    "correctAnswer": "A compaixão envolve ação, enquanto a empatia é apenas compreensão.",
+    "explanation": "A empatia é a capacidade de se colocar no lugar do outro, enquanto a compaixão inclui a empatia e o desejo de ajudar.",
+    "id": "quiz-bem-estar-2045",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância do sono para a saúde?",
+    "options": [
+      "Consolidação da memória",
+      "Reparo celular",
+      "Regulação do humor",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "O sono é crucial para diversas funções corporais, incluindo a consolidação da memória, reparo celular e regulação do humor.",
+    "id": "quiz-bem-estar-2046",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina C?",
+    "options": [
+      "Carne vermelha",
+      "Arroz branco",
+      "Laranja",
+      "Batata frita"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é uma excelente fonte de vitamina C, um antioxidante importante para o sistema imunológico.",
+    "id": "quiz-bem-estar-2047",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a síndrome do impostor?",
+    "options": [
+      "Um transtorno de ansiedade",
+      "Um distúrbio alimentar",
+      "A sensação persistente de ser um impostor, apesar do sucesso.",
+      "Um tipo de depressão"
+    ],
+    "correctAnswer": "A sensação persistente de ser um impostor, apesar do sucesso.",
+    "explanation": "A síndrome do impostor é caracterizada pela crença de que o sucesso é resultado de sorte ou engano, e não de habilidade.",
+    "id": "quiz-bem-estar-2048",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a teoria da autodeterminação explica a motivação intrínseca?",
+    "options": [
+      "Através da satisfação das necessidades básicas de competência, autonomia e relacionamento.",
+      "Através de recompensas externas.",
+      "Através da pressão social.",
+      "Através de punições."
+    ],
+    "correctAnswer": "Através da satisfação das necessidades básicas de competência, autonomia e relacionamento.",
+    "explanation": "A teoria da autodeterminação afirma que a motivação intrínseca surge da satisfação das necessidades de competência, autonomia e relacionamento.",
+    "id": "quiz-bem-estar-2049",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a cor do céu?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "correctAnswer": "Azul",
+    "explanation": "O céu é azul devido à dispersão da luz solar.",
+    "id": "quiz-futuro-2050",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que ano começa o século XXI?",
+    "options": [
+      "2000",
+      "2001",
+      "1999",
+      "2100"
+    ],
+    "correctAnswer": "2001",
+    "explanation": "O século XXI começa no ano 2001, pois não existe o ano zero.",
+    "id": "quiz-futuro-2051",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal impacto ambiental previsto para o aumento do nível do mar?",
+    "options": [
+      "Diminuição da biodiversidade marinha",
+      "Aumento da produção de alimentos",
+      "Melhora na qualidade do ar",
+      "Redução das temperaturas globais"
+    ],
+    "correctAnswer": "Diminuição da biodiversidade marinha",
+    "explanation": "O aumento do nível do mar causa inundações costeiras, perda de habitat e salinização de terras agrícolas, impactando negativamente a biodiversidade.",
+    "id": "quiz-futuro-2052",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o principal desafio para a implementação de energia nuclear de fusão?",
+    "options": [
+      "Falta de recursos naturais",
+      "Custo elevado da tecnologia",
+      "Impacto ambiental significativo",
+      "Baixa eficiência energética"
+    ],
+    "correctAnswer": "Custo elevado da tecnologia",
+    "explanation": "A tecnologia de fusão nuclear é extremamente complexa e cara para ser implementada em larga escala.",
+    "id": "quiz-futuro-2053",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas é uma forma de energia renovável?",
+    "options": [
+      "Petróleo",
+      "Carvão",
+      "Energia solar",
+      "Gás natural"
+    ],
+    "correctAnswer": "Energia solar",
+    "explanation": "A energia solar é uma fonte de energia renovável, obtida a partir da luz do sol.",
+    "id": "quiz-futuro-2054",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal desafio para a criação de computadores quânticos?",
+    "options": [
+      "Falta de materiais adequados",
+      "Custo elevado de produção",
+      "Manutenção complexa",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "A criação de computadores quânticos enfrenta desafios em todos os aspectos citados: materiais, custo e manutenção.",
+    "id": "quiz-futuro-2055",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a nanotecnologia pode revolucionar o tratamento do câncer?",
+    "options": [
+      "Diagnóstico precoce e preciso",
+      "Entrega direcionada de medicamentos",
+      "Terapias mais eficazes",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "A nanotecnologia oferece possibilidades revolucionárias no tratamento do câncer, melhorando o diagnóstico, a entrega de medicamentos e a eficácia das terapias.",
+    "id": "quiz-futuro-2056",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa IA?",
+    "options": [
+      "Inteligência Artificial",
+      "Informação Avançada",
+      "Integridade Artificial",
+      "Inteligência Analítica"
+    ],
+    "correctAnswer": "Inteligência Artificial",
+    "explanation": "IA é a sigla para Inteligência Artificial.",
+    "id": "quiz-futuro-2057",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal preocupação ambiental relacionada ao uso de combustíveis fósseis?",
+    "options": [
+      "Desmatamento",
+      "Poluição do ar",
+      "Esgotamento de recursos hídricos",
+      "Perda de biodiversidade"
+    ],
+    "correctAnswer": "Poluição do ar",
+    "explanation": "A queima de combustíveis fósseis libera gases poluentes na atmosfera, contribuindo para o aquecimento global e problemas respiratórios.",
+    "id": "quiz-futuro-2058",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual tecnologia promete revolucionar o diagnóstico médico através de imagens?",
+    "options": [
+      "Raio-X",
+      "Ultrassom",
+      "Tomografia Computadorizada",
+      "Imagens médicas assistidas por IA"
+    ],
+    "correctAnswer": "Imagens médicas assistidas por IA",
+    "explanation": "A inteligência artificial pode analisar imagens médicas com maior precisão e velocidade, auxiliando no diagnóstico precoce e preciso.",
+    "id": "quiz-futuro-2059",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do sistema operacional desenvolvido pela Apple?",
+    "options": [
+      "Windows",
+      "Android",
+      "macOS",
+      "Linux"
+    ],
+    "correctAnswer": "macOS",
+    "explanation": "macOS é o sistema operacional para computadores da Apple.",
+    "id": "quiz-tecnologia-2060",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas unidades de medida representa a maior quantidade de dados?",
+    "options": [
+      "Byte",
+      "Kilobyte",
+      "Megabyte",
+      "Gigabyte"
+    ],
+    "correctAnswer": "Gigabyte",
+    "explanation": "Um Gigabyte é maior que um Megabyte, Kilobyte e Byte.",
+    "id": "quiz-tecnologia-2061",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a conexão com a internet via cabo?",
+    "options": [
+      "Roteador",
+      "Modem",
+      "Hub",
+      "Switch"
+    ],
+    "correctAnswer": "Modem",
+    "explanation": "Um modem conecta seu computador à internet via cabo.",
+    "id": "quiz-tecnologia-2062",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual extensão de arquivo é comumente usada para documentos do Microsoft Word?",
+    "options": [
+      ".pdf",
+      ".jpg",
+      ".docx",
+      ".txt"
+    ],
+    "correctAnswer": ".docx",
+    "explanation": ".docx é a extensão padrão para arquivos do Microsoft Word.",
+    "id": "quiz-tecnologia-2063",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o significado da sigla USB?",
+    "options": [
+      "Universal Serial Bus",
+      "Ultra Serial Bus",
+      "Unified Serial Bus",
+      "Unique Serial Bus"
+    ],
+    "correctAnswer": "Universal Serial Bus",
+    "explanation": "USB significa Universal Serial Bus.",
+    "id": "quiz-tecnologia-2064",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual linguagem de programação é conhecida por sua utilização em desenvolvimento web backend, e é frequentemente usada com frameworks como Django e Flask?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "correctAnswer": "Python",
+    "explanation": "Python é uma linguagem popular para desenvolvimento web backend.",
+    "id": "quiz-tecnologia-2065",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um algoritmo de ordenação?",
+    "options": [
+      "Um método para criptografar dados",
+      "Um método para ordenar dados",
+      "Um tipo de banco de dados",
+      "Um tipo de sistema operacional"
+    ],
+    "correctAnswer": "Um método para ordenar dados",
+    "explanation": "Um algoritmo de ordenação organiza dados em uma ordem específica.",
+    "id": "quiz-tecnologia-2066",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre HTTP e HTTPS?",
+    "options": [
+      "HTTP é mais rápido, HTTPS é mais seguro",
+      "HTTP é seguro, HTTPS não é",
+      "Não há diferença",
+      "HTTP usa conexão sem fio, HTTPS usa conexão com fio"
+    ],
+    "correctAnswer": "HTTP é mais rápido, HTTPS é mais seguro",
+    "explanation": "HTTPS usa criptografia SSL/TLS para proteger a comunicação.",
+    "id": "quiz-tecnologia-2067",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia permite a criação de páginas web dinâmicas e interativas, frequentemente usadas com JavaScript?",
+    "options": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "XML"
+    ],
+    "correctAnswer": "PHP",
+    "explanation": "PHP é uma linguagem de script popular para desenvolvimento web.",
+    "id": "quiz-tecnologia-2068",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o papel de um servidor DNS?",
+    "options": [
+      "Armazenar arquivos",
+      "Enviar e-mails",
+      "Traduzir nomes de domínio em endereços IP",
+      "Criptografar dados"
+    ],
+    "correctAnswer": "Traduzir nomes de domínio em endereços IP",
+    "explanation": "Um servidor DNS traduz nomes de domínio (como google.com) em endereços IP.",
+    "id": "quiz-tecnologia-2069",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'injeção de SQL'?",
+    "options": [
+      "Um tipo de vírus de computador",
+      "Uma técnica para roubar senhas",
+      "Uma vulnerabilidade de segurança em bancos de dados",
+      "Um método de criptografia"
+    ],
+    "correctAnswer": "Uma vulnerabilidade de segurança em bancos de dados",
+    "explanation": "A injeção de SQL permite que atacantes manipulem consultas de banco de dados.",
+    "id": "quiz-tecnologia-2070",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o significado de 'agnóstico de plataforma' em desenvolvimento de software?",
+    "options": [
+      "Software que roda apenas em um tipo específico de sistema operacional",
+      "Software que pode ser executado em diferentes plataformas",
+      "Software que requer um hardware específico",
+      "Software que não precisa de internet para funcionar"
+    ],
+    "correctAnswer": "Software que pode ser executado em diferentes plataformas",
+    "explanation": "Software agnóstico de plataforma pode funcionar em diferentes sistemas operacionais e arquiteturas de hardware.",
+    "id": "quiz-tecnologia-2071",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um 'ataque de negação de serviço distribuído (DDoS)'?",
+    "options": [
+      "Ataque que tenta roubar informações pessoais",
+      "Ataque que sobrecarrega um sistema para impedi-lo de funcionar",
+      "Ataque que infecta computadores com vírus",
+      "Ataque que criptografa os dados de um sistema"
+    ],
+    "correctAnswer": "Ataque que sobrecarrega um sistema para impedi-lo de funcionar",
+    "explanation": "Um ataque DDoS inunda um servidor com tráfego para torná-lo inacessível.",
+    "id": "quiz-tecnologia-2072",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre autenticação e autorização?",
+    "options": [
+      "Não há diferença",
+      "Autenticação verifica a identidade, autorização verifica os privilégios",
+      "Autenticação verifica os privilégios, autorização verifica a identidade",
+      "Autenticação é um processo de login, autorização é um processo de logout"
+    ],
+    "correctAnswer": "Autenticação verifica a identidade, autorização verifica os privilégios",
+    "explanation": "Autenticação confirma quem você é, enquanto autorização determina o que você pode fazer.",
+    "id": "quiz-tecnologia-2073",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a cor do céu?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "correctAnswer": "Azul",
+    "explanation": "O céu é azul devido à dispersão da luz solar pela atmosfera.",
+    "id": "quiz-ciencia-2074",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é o maior planeta do nosso sistema solar em termos de massa e diâmetro.",
+    "id": "quiz-ciencia-2075",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o estado físico da água à temperatura ambiente?",
+    "options": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correctAnswer": "Líquido",
+    "explanation": "A água encontra-se no estado líquido à temperatura ambiente.",
+    "id": "quiz-ciencia-2076",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a fórmula química da água?",
+    "options": [
+      "NaCl",
+      "CO2",
+      "H2O",
+      "O2"
+    ],
+    "correctAnswer": "H2O",
+    "explanation": "A fórmula química da água é H2O, indicando dois átomos de hidrogênio e um átomo de oxigênio.",
+    "id": "quiz-ciencia-2077",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é fotossíntese?",
+    "options": [
+      "Processo de respiração celular",
+      "Processo de digestão",
+      "Processo de produção de alimento pelas plantas",
+      "Processo de decomposição"
+    ],
+    "correctAnswer": "Processo de produção de alimento pelas plantas",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas convertem energia solar em energia química na forma de glicose.",
+    "id": "quiz-ciencia-2078",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a unidade de medida de força?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correctAnswer": "Newton",
+    "explanation": "A unidade de medida de força no Sistema Internacional de Unidades é o Newton (N).",
+    "id": "quiz-ciencia-2079",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre fissão e fusão nuclear?",
+    "options": [
+      "Fissão junta átomos, fusão divide átomos",
+      "Fissão divide átomos, fusão junta átomos",
+      "Ambos os processos produzem a mesma quantidade de energia",
+      "Nenhuma das alternativas"
+    ],
+    "correctAnswer": "Fissão divide átomos, fusão junta átomos",
+    "explanation": "A fissão nuclear é a divisão de um núcleo atômico em dois ou mais núcleos menores, enquanto a fusão nuclear é a união de dois ou mais núcleos atômicos para formar um núcleo maior.",
+    "id": "quiz-ciencia-2080",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função do sistema imunológico?",
+    "options": [
+      "Digestão",
+      "Respiração",
+      "Defesa contra doenças",
+      "Transporte de nutrientes"
+    ],
+    "correctAnswer": "Defesa contra doenças",
+    "explanation": "O sistema imunológico é responsável por proteger o corpo contra doenças e infecções.",
+    "id": "quiz-ciencia-2081",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a fórmula química do gás carbônico?",
+    "options": [
+      "H2O",
+      "CO2",
+      "O2",
+      "N2"
+    ],
+    "correctAnswer": "CO2",
+    "explanation": "A fórmula química do gás carbônico é CO2, indicando um átomo de carbono e dois átomos de oxigênio.",
+    "id": "quiz-ciencia-2082",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome da nossa galáxia?",
+    "options": [
+      "Andrômeda",
+      "Via Láctea",
+      "Triângulo",
+      "Magalhães"
+    ],
+    "correctAnswer": "Via Láctea",
+    "explanation": "Nossa galáxia é chamada de Via Láctea.",
+    "id": "quiz-ciencia-2083",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a constante de Boltzmann?",
+    "options": [
+      "Uma constante que relaciona energia e temperatura",
+      "Uma constante que relaciona massa e energia",
+      "Uma constante que relaciona força e aceleração",
+      "Uma constante que relaciona tempo e espaço"
+    ],
+    "correctAnswer": "Uma constante que relaciona energia e temperatura",
+    "explanation": "A constante de Boltzmann (k) relaciona a energia cinética média de partículas em um gás com sua temperatura.",
+    "id": "quiz-ciencia-2084",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um buraco negro e um buraco de minhoca?",
+    "options": [
+      "Não há diferença",
+      "Buraco negro é um objeto celeste, buraco de minhoca é um túnel no espaço-tempo",
+      "Buraco negro é um túnel no espaço-tempo, buraco de minhoca é um objeto celeste",
+      "Ambos são objetos celestes com a mesma função"
+    ],
+    "correctAnswer": "Buraco negro é um objeto celeste, buraco de minhoca é um túnel no espaço-tempo",
+    "explanation": "Buracos negros são regiões do espaço-tempo com gravidade tão forte que nada, nem mesmo a luz, pode escapar. Buracos de minhoca são túneis hipotéticos que conectam diferentes pontos no espaço-tempo.",
+    "id": "quiz-ciencia-2085",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique o princípio da exclusão de Pauli.",
+    "options": [
+      "Dois elétrons não podem ocupar o mesmo estado quântico simultaneamente",
+      "Dois prótons não podem ocupar o mesmo estado quântico simultaneamente",
+      "Dois nêutrons não podem ocupar o mesmo estado quântico simultaneamente",
+      "Qualquer duas partículas podem ocupar o mesmo estado quântico simultaneamente"
+    ],
+    "correctAnswer": "Dois elétrons não podem ocupar o mesmo estado quântico simultaneamente",
+    "explanation": "O princípio de exclusão de Pauli afirma que dois férmions (como elétrons) não podem ocupar o mesmo estado quântico simultaneamente. Isso tem implicações significativas na estrutura da matéria.",
+    "id": "quiz-ciencia-2086",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que continente fica a China?",
+    "options": [
+      "América do Sul",
+      "Europa",
+      "África",
+      "Ásia"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A China está localizada no leste da Ásia.",
+    "id": "quiz-historia-2087",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "Benjamin Franklin"
+    ],
+    "correctAnswer": "George Washington",
+    "explanation": "George Washington foi o primeiro presidente dos Estados Unidos, servindo de 1789 a 1797.",
+    "id": "quiz-historia-2088",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que século ocorreu a Revolução Francesa?",
+    "options": [
+      "Século XVIII",
+      "Século XVII",
+      "Século XIX",
+      "Século XVI"
+    ],
+    "correctAnswer": "Século XVIII",
+    "explanation": "A Revolução Francesa ocorreu principalmente entre 1789 e 1799.",
+    "id": "quiz-historia-2089",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual país abriga as pirâmides de Gizé?",
+    "options": [
+      "Iraque",
+      "Egito",
+      "Síria",
+      "Jordânia"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "As famosas pirâmides de Gizé estão localizadas no Egito.",
+    "id": "quiz-historia-2090",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual foi a principal causa da Guerra dos Cem Anos?",
+    "options": [
+      "Disputa pela sucessão ao trono francês",
+      "Disputa territorial entre Inglaterra e França",
+      "Disputas religiosas entre católicos e protestantes",
+      "Conflito entre a nobreza inglesa e francesa"
+    ],
+    "correctAnswer": "Disputa pela sucessão ao trono francês",
+    "explanation": "A guerra foi, em grande parte, desencadeada por disputas pela sucessão ao trono francês.",
+    "id": "quiz-historia-2091",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual foi o principal resultado da Guerra Civil Americana?",
+    "options": [
+      "Abolição da escravidão",
+      "Expansão do território americano para o oeste",
+      "Fortalecimento do poder dos estados do sul",
+      "Elevação do poder da Grã-Bretanha"
+    ],
+    "correctAnswer": "Abolição da escravidão",
+    "explanation": "A Guerra Civil Americana resultou na abolição da escravidão nos Estados Unidos.",
+    "id": "quiz-historia-2092",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quem liderou a Revolução Russa?",
+    "options": [
+      "Nicolau II",
+      "Leon Trotsky",
+      "Vladimir Lenin",
+      "Joseph Stalin"
+    ],
+    "correctAnswer": "Vladimir Lenin",
+    "explanation": "Vladimir Lenin liderou os bolcheviques na Revolução Russa de 1917.",
+    "id": "quiz-historia-2093",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento artístico que se seguiu ao Renascimento?",
+    "options": [
+      "Barroco",
+      "Neoclassicismo",
+      "Romantismo",
+      "Rococó"
+    ],
+    "correctAnswer": "Barroco",
+    "explanation": "O Barroco sucedeu ao Renascimento, caracterizando-se por seu dramatismo e riqueza decorativa.",
+    "id": "quiz-historia-2094",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva o contexto histórico que levou à Guerra dos Trinta Anos.",
+    "options": [
+      "Aumento do poder da Igreja Católica, conflitos entre os príncipes alemães e a disputa pela hegemonia europeia.",
+      "A ascensão do nacionalismo alemão e a rivalidade entre a Áustria e a Prússia.",
+      "A crise econômica na Europa e a disputa pelo controle das rotas comerciais.",
+      "A reforma protestante e o conflito religioso entre católicos e protestantes."
+    ],
+    "correctAnswer": "Aumento do poder da Igreja Católica, conflitos entre os príncipes alemães e a disputa pela hegemonia europeia.",
+    "explanation": "A Guerra dos Trinta Anos foi um conflito complexo com múltiplas causas, incluindo tensões religiosas, conflitos dinásticos e disputas pelo poder na Europa.",
+    "id": "quiz-historia-2095",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual foi o impacto da Guerra do Vietnã na política americana?",
+    "options": [
+      "Fortalecimento do apoio ao intervencionismo militar.",
+      "Crescimento do movimento pacifista e da desconfiança no governo.",
+      "Aumento do apoio à política externa expansionista dos EUA.",
+      "Redução das tensões entre os EUA e a União Soviética."
+    ],
+    "correctAnswer": "Crescimento do movimento pacifista e da desconfiança no governo.",
+    "explanation": "A Guerra do Vietnã gerou grande divisão na sociedade americana, levando ao crescimento de movimentos pacifistas e à desconfiança no governo.",
+    "id": "quiz-historia-2096",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a cor do céu?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "correctAnswer": "Azul",
+    "explanation": "O céu é azul devido à dispersão da luz solar pela atmosfera.",
+    "id": "quiz-misterios-2097",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quantos dias tem uma semana?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "explanation": "Uma semana tem sete dias.",
+    "id": "quiz-misterios-2098",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior planeta do nosso sistema solar?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Terra",
+      "Vênus"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é o maior planeta do nosso sistema solar.",
+    "id": "quiz-misterios-2099",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o animal que late?",
+    "options": [
+      "Gato",
+      "Cão",
+      "Leão",
+      "Tigre"
+    ],
+    "correctAnswer": "Cão",
+    "explanation": "Os cães são conhecidos por latejar.",
+    "id": "quiz-misterios-2100",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a capital da França?",
+    "options": [
+      "Roma",
+      "Berlim",
+      "Londres",
+      "Paris"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é a capital da França.",
+    "id": "quiz-misterios-2101",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno astronômico em que a Lua bloqueia totalmente a luz do Sol?",
+    "options": [
+      "Eclipse lunar",
+      "Lua cheia",
+      "Superlua",
+      "Eclipse solar"
+    ],
+    "correctAnswer": "Eclipse solar",
+    "explanation": "Um eclipse solar ocorre quando a Lua passa entre o Sol e a Terra, bloqueando a luz do Sol.",
+    "id": "quiz-misterios-2102",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual elemento químico é representado pelo símbolo 'H'?",
+    "options": [
+      "Hélio",
+      "Oxigênio",
+      "Hidrogênio",
+      "Carbono"
+    ],
+    "correctAnswer": "Hidrogênio",
+    "explanation": "O símbolo químico 'H' representa o hidrogênio.",
+    "id": "quiz-misterios-2103",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do famoso quadro de Leonardo da Vinci?",
+    "options": [
+      "Guernica",
+      "A Noite Estrelada",
+      "Mona Lisa",
+      "O Grito"
+    ],
+    "correctAnswer": "Mona Lisa",
+    "explanation": "A Mona Lisa é uma das obras mais famosas de Leonardo da Vinci.",
+    "id": "quiz-misterios-2104",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a montanha mais alta do mundo?",
+    "options": [
+      "K2",
+      "Kangchenjunga",
+      "Monte Everest",
+      "Lhotse"
+    ],
+    "correctAnswer": "Monte Everest",
+    "explanation": "O Monte Everest é a montanha mais alta do mundo acima do nível do mar.",
+    "id": "quiz-misterios-2105",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do oceano mais profundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Pacífico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico é o oceano mais profundo do mundo.",
+    "id": "quiz-misterios-2106",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a teoria científica que explica a origem do universo?",
+    "options": [
+      "Teoria da Relatividade",
+      "Teoria da Evolução",
+      "Big Bang",
+      "Teoria das Cordas"
+    ],
+    "correctAnswer": "Big Bang",
+    "explanation": "A teoria do Big Bang é a teoria científica mais aceita para a origem do universo.",
+    "id": "quiz-misterios-2107",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a partícula subatômica que não possui carga elétrica?",
+    "options": [
+      "Próton",
+      "Elétron",
+      "Nêutron",
+      "Pósitron"
+    ],
+    "correctAnswer": "Nêutron",
+    "explanation": "O nêutron é uma partícula subatômica sem carga elétrica.",
+    "id": "quiz-misterios-2108",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome da força fundamental que mantém os núcleos atômicos unidos?",
+    "options": [
+      "Força gravitacional",
+      "Força eletromagnética",
+      "Força nuclear forte",
+      "Força nuclear fraca"
+    ],
+    "correctAnswer": "Força nuclear forte",
+    "explanation": "A força nuclear forte é responsável por manter os prótons e nêutrons unidos no núcleo atômico.",
+    "id": "quiz-misterios-2109",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno óptico que ocorre quando a luz é desviada ao passar de um meio para outro?",
+    "options": [
+      "Difração",
+      "Interferência",
+      "Reflexão",
+      "Refração"
+    ],
+    "correctAnswer": "Refração",
+    "explanation": "A refração é o fenômeno óptico que ocorre quando a luz muda de direção ao passar de um meio para outro.",
+    "id": "quiz-misterios-2110",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a unidade de medida da intensidade do som?",
+    "options": [
+      "Watt",
+      "Hertz",
+      "Decibel",
+      "Metro"
+    ],
+    "correctAnswer": "Decibel",
+    "explanation": "O decibel (dB) é a unidade de medida da intensidade do som.",
+    "id": "quiz-misterios-2111",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a cor do céu?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "correctAnswer": "Azul",
+    "explanation": "O céu é azul devido à dispersão da luz solar.",
+    "id": "quiz-entretenimento-2112",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do cachorro do Scooby-Doo?",
+    "options": [
+      "Pluto",
+      "Snoopy",
+      "Lassie",
+      "Scrappy-Doo"
+    ],
+    "correctAnswer": "Scrappy-Doo",
+    "explanation": "Scrappy-Doo é o sobrinho de Scooby-Doo.",
+    "id": "quiz-entretenimento-2113",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quem pintou a Mona Lisa?",
+    "options": [
+      "Michelangelo",
+      "Raphael",
+      "Leonardo da Vinci",
+      "Donatello"
+    ],
+    "correctAnswer": "Leonardo da Vinci",
+    "explanation": "Leonardo da Vinci pintou a Mona Lisa no início do século XVI.",
+    "id": "quiz-entretenimento-2114",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual diretor dirigiu o filme 'Pulp Fiction'?",
+    "options": [
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": "Quentin Tarantino",
+    "explanation": "Quentin Tarantino dirigiu o filme 'Pulp Fiction' em 1994.",
+    "id": "quiz-entretenimento-2115",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual banda lançou o álbum 'Nevermind'?",
+    "options": [
+      "Metallica",
+      "Nirvana",
+      "Guns N' Roses",
+      "Pearl Jam"
+    ],
+    "correctAnswer": "Nirvana",
+    "explanation": "Nirvana lançou o álbum 'Nevermind' em 1991.",
+    "id": "quiz-entretenimento-2116",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do primeiro filme da saga Star Wars?",
+    "options": [
+      "O Império Contra-Ataca",
+      "O Retorno de Jedi",
+      "Uma Nova Esperança",
+      "A Ameaça Fantasma"
+    ],
+    "correctAnswer": "Uma Nova Esperança",
+    "explanation": "Episódio IV: Uma Nova Esperança foi o primeiro filme da saga Star Wars, lançado em 1977.",
+    "id": "quiz-entretenimento-2117",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Quem escreveu '1984'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Isaac Asimov"
+    ],
+    "correctAnswer": "George Orwell",
+    "explanation": "George Orwell escreveu o romance distópico '1984' em 1949.",
+    "id": "quiz-entretenimento-2118",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do personagem principal do filme 'O Rei Leão'?",
+    "options": [
+      "Timão",
+      "Pumba",
+      "Simba",
+      "Scar"
+    ],
+    "correctAnswer": "Simba",
+    "explanation": "Simba é o protagonista principal do filme 'O Rei Leão'.",
+    "id": "quiz-entretenimento-2119",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual emissora de televisão transmitiu o seriado 'The Simpsons'?",
+    "options": [
+      "NBC",
+      "CBS",
+      "ABC",
+      "FOX"
+    ],
+    "correctAnswer": "FOX",
+    "explanation": "A FOX transmitiu o seriado 'The Simpsons' desde sua estreia em 1989.",
+    "id": "quiz-entretenimento-2120",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome da personagem principal em 'Harry Potter'?",
+    "options": [
+      "Hermione Granger",
+      "Ron Weasley",
+      "Harry Potter",
+      "Draco Malfoy"
+    ],
+    "correctAnswer": "Harry Potter",
+    "explanation": "Harry Potter é o personagem principal da série de livros e filmes.",
+    "id": "quiz-entretenimento-2121",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual atriz interpretou a personagem 'Selina Kyle' em 'Batman Returns'?",
+    "options": [
+      "Michelle Pfeiffer",
+      "Uma Thurman",
+      "Halle Berry",
+      "Anne Hathaway"
+    ],
+    "correctAnswer": "Michelle Pfeiffer",
+    "explanation": "Michelle Pfeiffer interpretou a Mulher-Gato em 'Batman Returns' (1992).",
+    "id": "quiz-entretenimento-2122",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual jogo eletrônico da Nintendo é conhecido pelo seu mundo aberto e personagens icônicos como Mario e Luigi?",
+    "options": [
+      "Pokémon",
+      "The Legend of Zelda",
+      "Super Mario Odyssey",
+      "Metroid"
+    ],
+    "correctAnswer": "Super Mario Odyssey",
+    "explanation": "Super Mario Odyssey é conhecido por seu mundo aberto e personagens icônicos.",
+    "id": "quiz-entretenimento-2123",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a série de TV que segue a vida dos irmãos Gallagher?",
+    "options": [
+      "Shameless",
+      "Modern Family",
+      "The Big Bang Theory",
+      "Friends"
+    ],
+    "correctAnswer": "Shameless",
+    "explanation": "Shameless acompanha a vida disfuncional da família Gallagher.",
+    "id": "quiz-entretenimento-2124",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome da boneca icônica da Mattel?",
+    "options": [
+      "Barbie",
+      "Bratz",
+      "Polly Pocket",
+      "Monster High"
+    ],
+    "correctAnswer": "Barbie",
+    "explanation": "Barbie é a boneca icônica da Mattel.",
+    "id": "quiz-entretenimento-2125",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso personagem de desenho animado, um rato que usa luvas brancas?",
+    "options": [
+      "Bugs Bunny",
+      "Mickey Mouse",
+      "Pica-Pau",
+      "Tom"
+    ],
+    "correctAnswer": "Mickey Mouse",
+    "explanation": "Mickey Mouse é um rato de desenho animado que usa luvas brancas.",
+    "id": "quiz-entretenimento-2126",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o principal foco da psicologia?",
+    "options": [
+      "O estudo do corpo humano",
+      "O estudo da mente e do comportamento",
+      "O estudo das estrelas",
+      "O estudo da história"
+    ],
+    "correctAnswer": "O estudo da mente e do comportamento",
+    "explanation": "A psicologia busca compreender os processos mentais e o comportamento humano.",
+    "id": "quiz-psicologia-2127",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de comportamento aprendido?",
+    "options": [
+      "Respirar",
+      "Piscar",
+      "Andar de bicicleta",
+      "Bater o coração"
+    ],
+    "correctAnswer": "Andar de bicicleta",
+    "explanation": "Andar de bicicleta é um comportamento adquirido através da prática e aprendizado.",
+    "id": "quiz-psicologia-2128",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de reforço positivo?",
+    "options": [
+      "Retirar um brinquedo",
+      "Dar um elogio",
+      "Ignorar um comportamento",
+      "Aplicar uma multa"
+    ],
+    "correctAnswer": "Dar um elogio",
+    "explanation": "Um elogio aumenta a probabilidade de um comportamento ser repetido.",
+    "id": "quiz-psicologia-2129",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de reforço negativo?",
+    "options": [
+      "Dar um castigo",
+      "Retirar uma tarefa chata",
+      "Dar um presente",
+      "Gritar com alguém"
+    ],
+    "correctAnswer": "Retirar uma tarefa chata",
+    "explanation": "Retirar algo desagradável aumenta a probabilidade de um comportamento ser repetido.",
+    "id": "quiz-psicologia-2130",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de punição positiva?",
+    "options": [
+      "Retirar um privilégio",
+      "Dar um castigo físico",
+      "Ignorar um comportamento",
+      "Retirar um doce"
+    ],
+    "correctAnswer": "Dar um castigo físico",
+    "explanation": "Aplicar algo desagradável diminui a probabilidade de um comportamento ser repetido.",
+    "id": "quiz-psicologia-2131",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de punição negativa?",
+    "options": [
+      "Dar um prêmio",
+      "Retirar um brinquedo",
+      "Dar um abraço",
+      "Elogiar um comportamento"
+    ],
+    "correctAnswer": "Retirar um brinquedo",
+    "explanation": "Retirar algo agradável diminui a probabilidade de um comportamento ser repetido.",
+    "id": "quiz-psicologia-2132",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual teoria da personalidade enfatiza o inconsciente?",
+    "options": [
+      "Teoria dos Traços",
+      "Teoria Humanista",
+      "Teoria Psicanalítica",
+      "Teoria Cognitiva"
+    ],
+    "correctAnswer": "Teoria Psicanalítica",
+    "explanation": "A psicanálise de Freud enfatiza a influência de processos inconscientes na personalidade.",
+    "id": "quiz-psicologia-2133",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é o efeito espectador?",
+    "options": [
+      "A tendência de ajudar mais quando há mais pessoas presentes",
+      "A tendência de ajudar menos quando há mais pessoas presentes",
+      "A tendência de ignorar completamente uma situação de emergência",
+      "A tendência de se envolver em comportamentos de risco em grupo"
+    ],
+    "correctAnswer": "A tendência de ajudar menos quando há mais pessoas presentes",
+    "explanation": "O efeito espectador descreve a difusão de responsabilidade em situações de emergência.",
+    "id": "quiz-psicologia-2134",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual neurotransmissor está fortemente associado à sensação de recompensa e prazer?",
+    "options": [
+      "Serotonina",
+      "Dopamina",
+      "GABA",
+      "Glutamato"
+    ],
+    "correctAnswer": "Dopamina",
+    "explanation": "A dopamina desempenha um papel crucial no sistema de recompensa do cérebro.",
+    "id": "quiz-psicologia-2135",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a diferença principal entre ansiedade e medo?",
+    "options": [
+      "Ansiedade é uma resposta a uma ameaça imediata, medo é uma resposta a uma ameaça futura",
+      "Ansiedade é uma resposta a uma ameaça futura, medo é uma resposta a uma ameaça imediata",
+      "Não há diferença entre ansiedade e medo",
+      "Ansiedade é física, medo é psicológico"
+    ],
+    "correctAnswer": "Ansiedade é uma resposta a uma ameaça futura, medo é uma resposta a uma ameaça imediata",
+    "explanation": "Ansiedade é antecipatória, enquanto o medo é uma resposta imediata a um perigo percebido.",
+    "id": "quiz-psicologia-2136",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o conceito de 'dissonância cognitiva'?",
+    "options": [
+      "A harmonia entre pensamentos e ações",
+      "A discordância entre pensamentos e ações",
+      "A falta de conexão entre pensamentos e emoções",
+      "A capacidade de se colocar no lugar do outro"
+    ],
+    "correctAnswer": "A discordância entre pensamentos e ações",
+    "explanation": "Dissonância cognitiva é o desconforto psicológico causado por crenças contraditórias.",
+    "id": "quiz-psicologia-2137",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique o modelo de memória de Atkinson-Shiffrin.",
+    "options": [
+      "Um modelo de memória com três estágios: sensorial, curto prazo e longo prazo.",
+      "Um modelo de memória com dois estágios: curto prazo e longo prazo.",
+      "Um modelo de memória com quatro estágios: sensorial, curto prazo, longo prazo e memória de trabalho.",
+      "Um modelo de memória que enfatiza a importância das emoções na formação da memória."
+    ],
+    "correctAnswer": "Um modelo de memória com três estágios: sensorial, curto prazo e longo prazo.",
+    "explanation": "O modelo de Atkinson-Shiffrin descreve como a informação é processada e armazenada em três estágios distintos da memória.",
+    "id": "quiz-psicologia-2138",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a diferença entre memória explícita e implícita.",
+    "options": [
+      "Memória explícita é consciente, memória implícita é inconsciente.",
+      "Memória explícita é inconsciente, memória implícita é consciente.",
+      "Não há diferença entre memória explícita e implícita.",
+      "Memória explícita é de curto prazo, memória implícita é de longo prazo."
+    ],
+    "correctAnswer": "Memória explícita é consciente, memória implícita é inconsciente.",
+    "explanation": "Memória explícita envolve lembranças conscientes, enquanto memória implícita afeta o comportamento sem consciência.",
+    "id": "quiz-psicologia-2139",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Quais são os diferentes tipos de estudos de caso?",
+    "options": [
+      "Descritivo, exploratório, experimental.",
+      "Intensivo, extensivo, comparativo.",
+      "Descritivo, exploratório, explicativo.",
+      "Experimental, correlacional, descritivo."
+    ],
+    "correctAnswer": "Descritivo, exploratório, explicativo.",
+    "explanation": "Estudos de caso podem ser descritivos (descrevendo um caso), exploratórios (investigando um fenômeno) ou explicativos (testando hipóteses).",
+    "id": "quiz-psicologia-2140",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é o viés de amostragem?",
+    "options": [
+      "A tendência de selecionar participantes de um estudo de forma tendenciosa.",
+      "A tendência de interpretar os dados de um estudo de forma tendenciosa.",
+      "A tendência de escolher uma amostra muito grande para um estudo.",
+      "A tendência de escolher uma amostra muito pequena para um estudo."
+    ],
+    "correctAnswer": "A tendência de selecionar participantes de um estudo de forma tendenciosa.",
+    "explanation": "O viés de amostragem ocorre quando a amostra não representa a população que está sendo estudada.",
+    "id": "quiz-psicologia-2141",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um benefício comum da prática regular de exercícios físicos?",
+    "options": [
+      "Diminuição da ansiedade",
+      "Aumento do estresse",
+      "Diminuição da energia",
+      "Aumento do peso"
+    ],
+    "correctAnswer": "Diminuição da ansiedade",
+    "explanation": "Os exercícios físicos liberam endorfinas, que têm efeitos positivos no humor e na redução da ansiedade.",
+    "id": "quiz-autoajuda-2142",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a comunicação não-violenta (CNV) auxilia na resolução de conflitos?",
+    "options": [
+      "Promovendo a agressividade",
+      "Ignorando os sentimentos envolvidos",
+      "Facilitando a empatia e a compreensão mútua",
+      "Priorizando as opiniões pessoais"
+    ],
+    "correctAnswer": "Facilitando a empatia e a compreensão mútua",
+    "explanation": "A CNV foca na expressão de necessidades e sentimentos de forma clara e respeitosa, promovendo a compreensão e a resolução pacífica de conflitos.",
+    "id": "quiz-autoajuda-2143",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a teoria da atribuição causal se aplica à autoajuda?",
+    "options": [
+      "Não se aplica à autoajuda",
+      "Ajuda a identificar padrões de pensamento negativos",
+      "É irrelevante para o sucesso pessoal",
+      "Não tem relação com o comportamento humano"
+    ],
+    "correctAnswer": "Ajuda a identificar padrões de pensamento negativos",
+    "explanation": "A teoria da atribuição causal ajuda a entender como atribuímos causas aos eventos, identificando padrões de pensamento negativos que podem estar sabotando o progresso na autoajuda.",
+    "id": "quiz-autoajuda-2144",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de afirmação positiva?",
+    "options": [
+      "Eu sou um fracasso.",
+      "Eu sou capaz de superar este desafio.",
+      "Eu nunca vou conseguir.",
+      "Eu sou incompetente."
+    ],
+    "correctAnswer": "Eu sou capaz de superar este desafio.",
+    "explanation": "Afirmações positivas são declarações que reforçam crenças e sentimentos positivos sobre si mesmo.",
+    "id": "quiz-autoajuda-2145",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença principal entre a autoestima e a autoconfiança?",
+    "options": [
+      "Não há diferença entre os termos",
+      "Autoestima é global, enquanto autoconfiança é específica a uma situação",
+      "Autoconfiança é global, enquanto autoestima é específica a uma situação",
+      "Autoestima se refere à aparência, enquanto autoconfiança se refere às habilidades"
+    ],
+    "correctAnswer": "Autoestima é global, enquanto autoconfiança é específica a uma situação",
+    "explanation": "Autoestima é um sentimento geral de valor próprio, enquanto autoconfiança se refere à crença na capacidade de executar uma tarefa específica.",
+    "id": "quiz-autoajuda-2146",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a terapia de aceitação e compromisso (ACT) difere da TCC?",
+    "options": [
+      "Não há diferença significativa entre as abordagens",
+      "A ACT foca na mudança de pensamentos, enquanto a TCC foca na aceitação",
+      "A TCC foca na mudança de pensamentos, enquanto a ACT foca na aceitação",
+      "Ambas são idênticas em seus métodos e objetivos"
+    ],
+    "correctAnswer": "A TCC foca na mudança de pensamentos, enquanto a ACT foca na aceitação",
+    "explanation": "A TCC busca modificar pensamentos e comportamentos disfuncionais, enquanto a ACT enfatiza a aceitação de pensamentos e sentimentos, focando na ação e nos valores.",
+    "id": "quiz-autoajuda-2147",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa 'pensamento catastrófico' em termos de autoajuda?",
+    "options": [
+      "Pensar positivamente sobre o futuro",
+      "Pensar de forma realista sobre o futuro",
+      "Antecipar apenas resultados positivos",
+      "Antecipar o pior cenário possível, exagerando as probabilidades"
+    ],
+    "correctAnswer": "Antecipar o pior cenário possível, exagerando as probabilidades",
+    "explanation": "Pensamento catastrófico é um padrão de pensamento negativo que envolve a antecipação de desastres e consequências negativas de forma exagerada.",
+    "id": "quiz-autoajuda-2148",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a psicologia positiva contribui para a autoajuda?",
+    "options": [
+      "Desconsidera as experiências negativas",
+      "Foca exclusivamente nas fraquezas individuais",
+      "Promove o foco em pontos fortes e virtudes",
+      "Incentiva a negação dos problemas"
+    ],
+    "correctAnswer": "Promove o foco em pontos fortes e virtudes",
+    "explanation": "A psicologia positiva enfatiza o desenvolvimento de pontos fortes, resiliência e bem-estar, contribuindo para o crescimento pessoal e a autoajuda.",
+    "id": "quiz-autoajuda-2149",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é a diferença entre empatia e simpatia?",
+    "options": [
+      "Não há diferença entre os termos",
+      "Empatia é sentir pena, simpatia é compreender",
+      "Simpatia é sentir pena, empatia é compreender",
+      "Empatia e simpatia são sinônimos"
+    ],
+    "correctAnswer": "Simpatia é sentir pena, empatia é compreender",
+    "explanation": "Simpatia é sentir compaixão por alguém, enquanto empatia é a capacidade de compreender e compartilhar os sentimentos de outra pessoa.",
+    "id": "quiz-autoajuda-2150",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito pode auxiliar na melhoria do sono?",
+    "options": [
+      "Usar eletrônicos antes de dormir",
+      "Beber café antes de dormir",
+      "Criar uma rotina relaxante antes de dormir",
+      "Dormir em horários irregulares"
+    ],
+    "correctAnswer": "Criar uma rotina relaxante antes de dormir",
+    "explanation": "Uma rotina relaxante, como um banho morno ou leitura, ajuda a preparar o corpo para o sono.",
+    "id": "quiz-autoajuda-2151",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal objetivo de uma viagem?",
+    "options": [
+      "Relaxar",
+      "Aprender",
+      "Explorar",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "As viagens podem ter múltiplos objetivos, incluindo relaxamento, aprendizado e exploração.",
+    "id": "quiz-viagens-2152",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes itens geralmente se leva em uma mochila de viagem?",
+    "options": [
+      "Roupas",
+      "Comida",
+      "Dinheiro",
+      "Todos os itens"
+    ],
+    "correctAnswer": "Todos os itens",
+    "explanation": "Todos os itens mencionados são importantes para levar em uma mochila de viagem.",
+    "id": "quiz-viagens-2153",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes meios de transporte é geralmente mais barato?",
+    "options": [
+      "Avião",
+      "Trem",
+      "Ônibus",
+      "Táxi"
+    ],
+    "correctAnswer": "Ônibus",
+    "explanation": "Geralmente, o ônibus é o meio de transporte mais barato para viagens de longa distância.",
+    "id": "quiz-viagens-2154",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes itens é importante para se proteger do sol em uma viagem?",
+    "options": [
+      "Chapéu",
+      "Óculos de sol",
+      "Protetor solar",
+      "Todos os itens"
+    ],
+    "correctAnswer": "Todos os itens",
+    "explanation": "Todos esses itens são importantes para proteção solar.",
+    "id": "quiz-viagens-2155",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a capital da França?",
+    "options": [
+      "Berlim",
+      "Roma",
+      "Paris",
+      "Londres"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é a capital da França.",
+    "id": "quiz-viagens-2156",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal idioma falado no Brasil?",
+    "options": [
+      "Inglês",
+      "Espanhol",
+      "Francês",
+      "Português"
+    ],
+    "correctAnswer": "Português",
+    "explanation": "O português é o idioma oficial do Brasil.",
+    "id": "quiz-viagens-2157",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual continente abriga o maior número de países?",
+    "options": [
+      "África",
+      "Ásia",
+      "Europa",
+      "América do Sul"
+    ],
+    "correctAnswer": "África",
+    "explanation": "A África possui o maior número de países.",
+    "id": "quiz-viagens-2158",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes países é conhecido por seus canais, tamancos de madeira e moinhos de vento?",
+    "options": [
+      "Itália",
+      "Holanda",
+      "Alemanha",
+      "França"
+    ],
+    "correctAnswer": "Holanda",
+    "explanation": "A Holanda é famosa por seus canais, tamancos de madeira e moinhos de vento.",
+    "id": "quiz-viagens-2159",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância de um seguro viagem?",
+    "options": [
+      "Proteção contra imprevistos",
+      "Cobertura médica",
+      "Assistência em caso de emergência",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "Um seguro viagem oferece proteção contra imprevistos, cobertura médica e assistência em caso de emergência.",
+    "id": "quiz-viagens-2160",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre 'low-cost' e 'full-service' em companhias aéreas?",
+    "options": [
+      "Preço e serviços inclusos",
+      "Destino e duração do voo",
+      "Tipo de aeronave",
+      "Nenhuma diferença"
+    ],
+    "correctAnswer": "Preço e serviços inclusos",
+    "explanation": "Companhias aéreas 'low-cost' oferecem preços mais baixos, mas com menos serviços inclusos, enquanto 'full-service' oferecem mais serviços, mas com preços mais altos.",
+    "id": "quiz-viagens-2161",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância de planejar um itinerário de viagem?",
+    "options": [
+      "Organização da viagem",
+      "Economia de tempo e dinheiro",
+      "Aproveitamento máximo da viagem",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "Um itinerário bem planejado garante organização, economia de tempo e dinheiro, e aproveitamento máximo da viagem.",
+    "id": "quiz-viagens-2162",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o conceito de 'turismo sustentável'?",
+    "options": [
+      "Turismo que respeita o meio ambiente",
+      "Turismo que beneficia a comunidade local",
+      "Turismo que minimiza o impacto negativo",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "O turismo sustentável busca respeitar o meio ambiente, beneficiar a comunidade local e minimizar o impacto negativo.",
+    "id": "quiz-viagens-2163",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um hostel e um hotel?",
+    "options": [
+      "Preço e tipo de acomodação",
+      "Serviços oferecidos",
+      "Público-alvo",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "Hostels geralmente são mais baratos, oferecem acomodações compartilhadas e visam um público jovem e independente, enquanto hotéis oferecem mais privacidade e serviços.",
+    "id": "quiz-viagens-2164",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno natural que ocorre quando a luz solar se curva ao passar pela atmosfera, criando um efeito visual de miragem?",
+    "options": [
+      "Aurora boreal",
+      "Arco-íris",
+      "Fata Morgana",
+      "Halo"
+    ],
+    "correctAnswer": "Fata Morgana",
+    "explanation": "Fata Morgana é um tipo de miragem superior que ocorre devido à refração da luz na atmosfera.",
+    "id": "quiz-viagens-2165",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o impacto do turismo de massa em destinos populares?",
+    "options": [
+      "Degradação ambiental",
+      "Aumento do custo de vida local",
+      "Perda da cultura local",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "O turismo de massa pode causar degradação ambiental, aumento do custo de vida local e perda da cultura local.",
+    "id": "quiz-viagens-2166",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como você pode planejar uma viagem de forma a garantir acessibilidade para pessoas com deficiência?",
+    "options": [
+      "Pesquisar locais acessíveis",
+      "Utilizar transportes acessíveis",
+      "Reservar acomodações acessíveis",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "Planejar viagens acessíveis requer pesquisa de locais, transportes e acomodações acessíveis.",
+    "id": "quiz-viagens-2167",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a capital da Itália?",
+    "options": [
+      "Roma",
+      "Milão",
+      "Veneza",
+      "Nápoles"
+    ],
+    "correctAnswer": "Roma",
+    "explanation": "Roma é a capital da Itália e um importante centro histórico e cultural.",
+    "id": "quiz-lugares-2168",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior oceano do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico é o maior e mais profundo oceano do mundo.",
+    "id": "quiz-lugares-2169",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em qual continente fica a França?",
+    "options": [
+      "Ásia",
+      "América do Sul",
+      "Europa",
+      "África"
+    ],
+    "correctAnswer": "Europa",
+    "explanation": "A França está localizada na Europa Ocidental.",
+    "id": "quiz-lugares-2170",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a capital do Brasil?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctAnswer": "Brasília",
+    "explanation": "Brasília é a capital do Brasil, planejada e construída no século XX.",
+    "id": "quiz-lugares-2171",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do maior rio do mundo?",
+    "options": [
+      "Rio Amazonas",
+      "Rio Nilo",
+      "Rio Mississippi",
+      "Rio Yangtze"
+    ],
+    "correctAnswer": "Rio Amazonas",
+    "explanation": "O Rio Amazonas é o maior rio do mundo em volume de água.",
+    "id": "quiz-lugares-2172",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual continente abriga o Egito?",
+    "options": [
+      "Europa",
+      "Ásia",
+      "África",
+      "América do Norte"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Egito está localizado no nordeste da África.",
+    "id": "quiz-lugares-2173",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual cidade é conhecida como a 'Cidade Luz'?",
+    "options": [
+      "Londres",
+      "Roma",
+      "Paris",
+      "Nova York"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "Paris é conhecida como a 'Cidade Luz' devido à sua iluminação noturna histórica.",
+    "id": "quiz-lugares-2174",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país abriga o deserto do Atacama?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Bolívia",
+      "Argentina"
+    ],
+    "correctAnswer": "Chile",
+    "explanation": "O deserto do Atacama está localizado principalmente no norte do Chile.",
+    "id": "quiz-lugares-2175",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a maior ilha do Mediterrâneo?",
+    "options": [
+      "Sicília",
+      "Sardenha",
+      "Creta",
+      "Chipre"
+    ],
+    "correctAnswer": "Sicília",
+    "explanation": "A Sicília é a maior ilha do Mar Mediterrâneo.",
+    "id": "quiz-lugares-2176",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país abriga as Cataratas do Niágara?",
+    "options": [
+      "Canadá",
+      "Estados Unidos",
+      "Canadá e Estados Unidos",
+      "México"
+    ],
+    "correctAnswer": "Canadá e Estados Unidos",
+    "explanation": "As Cataratas do Niágara estão localizadas na fronteira entre o Canadá e os Estados Unidos.",
+    "id": "quiz-lugares-2177",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual cidade é conhecida como a 'Capital Mundial do Cinema'?",
+    "options": [
+      "Nova Iorque",
+      "Los Angeles",
+      "Paris",
+      "Roma"
+    ],
+    "correctAnswer": "Los Angeles",
+    "explanation": "Los Angeles é o centro da indústria cinematográfica americana, conhecida como Hollywood.",
+    "id": "quiz-lugares-2178",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual oceano banha a costa leste da América do Sul?",
+    "options": [
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Atlântico",
+    "explanation": "O Oceano Atlântico banha a costa leste da América do Sul.",
+    "id": "quiz-lugares-2179",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do maior lago de água doce do mundo?",
+    "options": [
+      "Lago Superior",
+      "Lago Baikal",
+      "Lago Vitória",
+      "Lago Michigan"
+    ],
+    "correctAnswer": "Lago Superior",
+    "explanation": "O Lago Superior é o maior lago de água doce do mundo em área de superfície.",
+    "id": "quiz-lugares-2180",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual arquipélago é conhecido como o berço da civilização minoica?",
+    "options": [
+      "Ilhas Canárias",
+      "Ilhas Baleares",
+      "Cíclades",
+      "Ilhas Havaianas"
+    ],
+    "correctAnswer": "Cíclades",
+    "explanation": "As Cíclades abrigam importantes sítios arqueológicos da civilização minoica.",
+    "id": "quiz-lugares-2181",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do maior sistema de recifes de coral do mundo?",
+    "options": [
+      "Recifes de Belize",
+      "Recifes da Nova Caledônia",
+      "Grande Barreira de Coral",
+      "Recifes das Maldivas"
+    ],
+    "correctAnswer": "Grande Barreira de Coral",
+    "explanation": "A Grande Barreira de Coral é o maior sistema de recifes de coral do mundo, localizada na costa da Austrália.",
+    "id": "quiz-lugares-2182",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Capital Mundial do Diamante'?",
+    "options": [
+      "Nova Iorque",
+      "Londres",
+      "Antuérpia",
+      "Zurique"
+    ],
+    "correctAnswer": "Antuérpia",
+    "explanation": "Antuérpia, na Bélgica, tem uma longa história de comércio de diamantes.",
+    "id": "quiz-lugares-2183",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual deserto é conhecido por suas dunas gigantescas?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto de Atacama",
+      "Deserto de Namib",
+      "Deserto de Rub' al Khali"
+    ],
+    "correctAnswer": "Deserto de Rub' al Khali",
+    "explanation": "O Deserto de Rub' al Khali, na Península Arábica, é conhecido por suas enormes dunas de areia.",
+    "id": "quiz-lugares-2184",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do deserto frio localizado na Antártida?",
+    "options": [
+      "Deserto do Atacama",
+      "Deserto do Saara",
+      "Deserto da Antártida",
+      "Deserto de Gobi"
+    ],
+    "correctAnswer": "Deserto da Antártida",
+    "explanation": "A Antártida é o maior deserto frio do mundo.",
+    "id": "quiz-lugares-2185",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como remover um adesivo de uma superfície sem deixar resíduos?",
+    "options": [
+      "Usar água quente",
+      "Usar um raspador de metal",
+      "Usar óleo vegetal",
+      "Usar removedor de esmalte"
+    ],
+    "correctAnswer": "Usar óleo vegetal",
+    "explanation": "O óleo vegetal amolece a cola do adesivo, facilitando a remoção sem danificar a superfície.",
+    "id": "quiz-hacks-2186",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como organizar melhor seus cabos e fios eletrônicos?",
+    "options": [
+      "Usar prendedores de roupa",
+      "Usar fita adesiva",
+      "Usar abraçadeiras de cabo",
+      "Deixá-los soltos"
+    ],
+    "correctAnswer": "Usar abraçadeiras de cabo",
+    "explanation": "As abraçadeiras de cabo oferecem uma solução organizada e duradoura para manter os cabos e fios agrupados e fora do caminho.",
+    "id": "quiz-hacks-2187",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como prolongar a vida útil de uma bateria de carro?",
+    "options": [
+      "Deixar o carro ligado por longos períodos",
+      "Não verificar o nível de carga",
+      "Usar um carregador de bateria de baixa qualidade",
+      "Manter a bateria limpa e seca"
+    ],
+    "correctAnswer": "Manter a bateria limpa e seca",
+    "explanation": "A sujeira e a umidade podem corroer os terminais da bateria, reduzindo sua vida útil.  Manter a bateria limpa e seca ajuda a prevenir isso.",
+    "id": "quiz-hacks-2188",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como tirar manchas de café de uma xícara?",
+    "options": [
+      "Usar água fria",
+      "Usar água quente com sabão",
+      "Usar vinagre branco",
+      "Deixar de molho em água sanitária"
+    ],
+    "correctAnswer": "Usar água quente com sabão",
+    "explanation": "A água quente e o sabão ajudam a dissolver as manchas de café, deixando a xícara limpa.",
+    "id": "quiz-hacks-2189",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como evitar que as roupas de lã encolham na lavagem?",
+    "options": [
+      "Lavar em água quente",
+      "Secar na máquina de secar roupa",
+      "Lavar à mão em água fria",
+      "Usar alvejante"
+    ],
+    "correctAnswer": "Lavar à mão em água fria",
+    "explanation": "A água quente e a máquina de secar roupa podem causar o encolhimento das roupas de lã. Lavar à mão em água fria é a melhor opção.",
+    "id": "quiz-hacks-2190",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como remover arranhões de um móvel de madeira?",
+    "options": [
+      "Usar lixa grossa",
+      "Usar pasta de dente",
+      "Usar removedor de tinta",
+      "Usar cera de móveis"
+    ],
+    "correctAnswer": "Usar pasta de dente",
+    "explanation": "A pasta de dente pode preencher os arranhões menores, deixando o móvel com uma aparência melhor.",
+    "id": "quiz-hacks-2191",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como evitar que o açúcar grude no fundo da panela ao caramelizar?",
+    "options": [
+      "Usar açúcar refinado",
+      "Usar uma panela pequena",
+      "Usar uma panela antiaderente",
+      "Não mexer o açúcar"
+    ],
+    "correctAnswer": "Usar uma panela antiaderente",
+    "explanation": "Uma panela antiaderente ajuda a evitar que o açúcar grude e queime.",
+    "id": "quiz-hacks-2192",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como desentupir um ralo lento com bicarbonato de sódio e vinagre?",
+    "options": [
+      "Despejar diretamente no ralo",
+      "Misturar e despejar imediatamente",
+      "Deixar a mistura agir por alguns minutos",
+      "Usar água fria"
+    ],
+    "correctAnswer": "Deixar a mistura agir por alguns minutos",
+    "explanation": "Deixar a mistura agir permite que o bicarbonato de sódio e o vinagre façam efeito, desentupindo o ralo.",
+    "id": "quiz-hacks-2193",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como remover manchas de tinta de óleo de uma roupa?",
+    "options": [
+      "Usar água e sabão",
+      "Usar álcool isopropílico",
+      "Usar alvejante",
+      "Usar removedor de tinta"
+    ],
+    "correctAnswer": "Usar removedor de tinta",
+    "explanation": "O removedor de tinta é específico para remover manchas de tinta de óleo, sem danificar o tecido.",
+    "id": "quiz-hacks-2194",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como manter as flores cortadas frescas por mais tempo?",
+    "options": [
+      "Deixá-las em um vaso com água quente",
+      "Trocar a água diariamente",
+      "Cortar as hastes a cada dois dias",
+      "Deixá-las em um local ensolarado"
+    ],
+    "correctAnswer": "Trocar a água diariamente",
+    "explanation": "Trocar a água diariamente ajuda a evitar o crescimento de bactérias e mantém as flores hidratadas.",
+    "id": "quiz-hacks-2195",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a cor do céu?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "correctAnswer": "Azul",
+    "explanation": "O céu é azul devido à dispersão da luz solar pela atmosfera.",
+    "id": "quiz-natureza-e-animais-2196",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o animal símbolo da Austrália?",
+    "options": [
+      "Urso",
+      "Leão",
+      "Canguru",
+      "Elefante"
+    ],
+    "correctAnswer": "Canguru",
+    "explanation": "O canguru é um símbolo icônico da Austrália.",
+    "id": "quiz-natureza-e-animais-2197",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fruta cresce em cachos?",
+    "options": [
+      "Maçã",
+      "Banana",
+      "Uva",
+      "Laranja"
+    ],
+    "correctAnswer": "Uva",
+    "explanation": "As uvas crescem em cachos na videira.",
+    "id": "quiz-natureza-e-animais-2198",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual animal tem casco?",
+    "options": [
+      "Leão",
+      "Cachorro",
+      "Cavalo",
+      "Gato"
+    ],
+    "correctAnswer": "Cavalo",
+    "explanation": "Cavalos, bois e outros animais possuem cascos.",
+    "id": "quiz-natureza-e-animais-2199",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o processo pelo qual as plantas produzem seu alimento?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Transpiração",
+      "Fermentação"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas convertem energia solar em energia química.",
+    "id": "quiz-natureza-e-animais-2200",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do maior deserto do mundo?",
+    "options": [
+      "Saara",
+      "Antártica",
+      "Arábia",
+      "Gobi"
+    ],
+    "correctAnswer": "Antártica",
+    "explanation": "A Antártida é considerada o maior deserto do mundo devido à sua baixa precipitação.",
+    "id": "quiz-natureza-e-animais-2201",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o tipo de simbiose onde um organismo se beneficia e o outro não é afetado?",
+    "options": [
+      "Parasitismo",
+      "Comensalismo",
+      "Mutualismo",
+      "Competição"
+    ],
+    "correctAnswer": "Comensalismo",
+    "explanation": "No comensalismo, um organismo se beneficia enquanto o outro não é afetado positiva ou negativamente.",
+    "id": "quiz-natureza-e-animais-2202",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido por sua capacidade de ecolocalização?",
+    "options": [
+      "Gato",
+      "Cachorro",
+      "Morcego",
+      "Cobra"
+    ],
+    "correctAnswer": "Morcego",
+    "explanation": "Os morcegos usam a ecolocalização para navegar e caçar no escuro.",
+    "id": "quiz-natureza-e-animais-2203",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o papel das abelhas na natureza?",
+    "options": [
+      "Polinização",
+      "Decomposição",
+      "Predação",
+      "Parasitismo"
+    ],
+    "correctAnswer": "Polinização",
+    "explanation": "As abelhas são importantes polinizadoras, essenciais para a reprodução de muitas plantas.",
+    "id": "quiz-natureza-e-animais-2204",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual as árvores perdem suas folhas no inverno?",
+    "options": [
+      "Fotossíntese",
+      "Transpiração",
+      "Abscisão",
+      "Germinação"
+    ],
+    "correctAnswer": "Abscisão",
+    "explanation": "A abscisão é o processo de queda das folhas das árvores.",
+    "id": "quiz-natureza-e-animais-2205",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do ecossistema aquático de água doce?",
+    "options": [
+      "Oceano",
+      "Mar",
+      "Lago",
+      "Rio"
+    ],
+    "correctAnswer": "Lago",
+    "explanation": "Lagos, rios e outros corpos d'água doce formam ecossistemas aquáticos de água doce.",
+    "id": "quiz-natureza-e-animais-2206",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes animais é um invertebrado?",
+    "options": [
+      "Cachorro",
+      "Aranha",
+      "Gato",
+      "Elefante"
+    ],
+    "correctAnswer": "Aranha",
+    "explanation": "Aranhas, insetos e outros animais sem coluna vertebral são invertebrados.",
+    "id": "quiz-natureza-e-animais-2207",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um nicho ecológico e um habitat?",
+    "options": [
+      "Habitat é o local onde um organismo vive, nicho é o seu papel no ecossistema.",
+      "Não há diferença.",
+      "Habitat é o papel do organismo, nicho é onde ele vive.",
+      "Ambos os termos são sinônimos."
+    ],
+    "correctAnswer": "Habitat é o local onde um organismo vive, nicho é o seu papel no ecossistema.",
+    "explanation": "O habitat é o endereço, o nicho é a profissão do organismo no ecossistema.",
+    "id": "quiz-natureza-e-animais-2208",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da fragmentação de habitat na biodiversidade?",
+    "options": [
+      "Aumenta a biodiversidade.",
+      "Não afeta a biodiversidade.",
+      "Diminui a biodiversidade.",
+      "Aumenta a competição entre espécies."
+    ],
+    "correctAnswer": "Diminui a biodiversidade.",
+    "explanation": "A fragmentação de habitat reduz a área disponível para as espécies, isolando populações e levando à perda de biodiversidade.",
+    "id": "quiz-natureza-e-animais-2209",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é bioacumulação?",
+    "options": [
+      "Acúmulo de nutrientes nas plantas.",
+      "Acúmulo de substâncias tóxicas nos organismos.",
+      "Acúmulo de oxigênio na água.",
+      "Acúmulo de CO2 na atmosfera."
+    ],
+    "correctAnswer": "Acúmulo de substâncias tóxicas nos organismos.",
+    "explanation": "Bioacumulação é o acúmulo de substâncias tóxicas nos tecidos dos organismos ao longo do tempo.",
+    "id": "quiz-natureza-e-animais-2210",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o processo de formação de petróleo e gás natural?",
+    "options": [
+      "Decomposição de rochas.",
+      "Erosão de solos.",
+      "Decomposição de matéria orgânica.",
+      "Cristalização de minerais."
+    ],
+    "correctAnswer": "Decomposição de matéria orgânica.",
+    "explanation": "Petróleo e gás natural são formados pela decomposição de matéria orgânica sob alta pressão e temperatura ao longo de milhões de anos.",
+    "id": "quiz-natureza-e-animais-2211",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre sucessão primária e sucessão secundária?",
+    "options": [
+      "Não há diferença.",
+      "Sucessão primária ocorre em áreas já colonizadas, sucessão secundária em áreas novas.",
+      "Sucessão primária ocorre em áreas previamente desprovidas de vida, sucessão secundária em áreas perturbadas.",
+      "Sucessão primária é mais rápida que a sucessão secundária."
+    ],
+    "correctAnswer": "Sucessão primária ocorre em áreas previamente desprovidas de vida, sucessão secundária em áreas perturbadas.",
+    "explanation": "Sucessão primária começa em um ambiente sem vida, enquanto a secundária ocorre após uma perturbação em um ecossistema existente.",
+    "id": "quiz-natureza-e-animais-2212",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Explique o conceito de 'efeito de borda' em ecologia.",
+    "options": [
+      "Aumento da biodiversidade em áreas de transição entre ecossistemas.",
+      "Diminuição da biodiversidade em áreas de transição entre ecossistemas.",
+      "Ausência de biodiversidade em áreas de transição entre ecossistemas.",
+      "Aumento da competição entre espécies em áreas centrais dos ecossistemas."
+    ],
+    "correctAnswer": "Diminuição da biodiversidade em áreas de transição entre ecossistemas.",
+    "explanation": "O efeito de borda refere-se à alteração das condições ecológicas nas bordas dos habitats, geralmente resultando em diminuição da biodiversidade.",
+    "id": "quiz-natureza-e-animais-2213",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Vênus",
+      "Mercúrio"
+    ],
+    "correctAnswer": "Mercúrio",
+    "explanation": "Mercúrio é o planeta mais interno do nosso sistema solar, estando mais próximo do Sol do que qualquer outro planeta.",
+    "id": "quiz-universo-e-astronomia-2214",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a fase da Lua quando não é possível vê-la do nosso planeta?",
+    "options": [
+      "Lua Cheia",
+      "Lua Crescente",
+      "Lua Minguante",
+      "Lua Nova"
+    ],
+    "correctAnswer": "Lua Nova",
+    "explanation": "Durante a Lua Nova, o lado iluminado da Lua está voltado para o Sol, e o lado escuro está voltado para a Terra, tornando-a invisível.",
+    "id": "quiz-universo-e-astronomia-2215",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do fenômeno que ocorre quando um planeta passa na frente de uma estrela, causando uma diminuição temporária do brilho da estrela?",
+    "options": [
+      "Eclipse Lunar",
+      "Trânsito",
+      "Conjunção",
+      "Ocultação"
+    ],
+    "correctAnswer": "Trânsito",
+    "explanation": "Um trânsito ocorre quando um planeta passa diretamente entre uma estrela e um observador, bloqueando parte da luz da estrela.",
+    "id": "quiz-universo-e-astronomia-2216",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a maior estrela conhecida?",
+    "options": [
+      "Sirius",
+      "Betelgeuse",
+      "UY Scuti",
+      "Rigel"
+    ],
+    "correctAnswer": "UY Scuti",
+    "explanation": "UY Scuti é uma hipergigante vermelha, considerada uma das maiores estrelas conhecidas, com um raio estimado em cerca de 1700 vezes o raio do Sol.",
+    "id": "quiz-universo-e-astronomia-2217",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é uma constelação?",
+    "options": [
+      "Um grupo de estrelas que formam um padrão reconhecível",
+      "Uma galáxia",
+      "Um planeta",
+      "Um asteroide"
+    ],
+    "correctAnswer": "Um grupo de estrelas que formam um padrão reconhecível",
+    "explanation": "As constelações são grupos de estrelas que, vistas da Terra, parecem formar padrões ou figuras.",
+    "id": "quiz-universo-e-astronomia-2218",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta conhecido como o 'planeta vermelho'?",
+    "options": [
+      "Júpiter",
+      "Vênus",
+      "Marte",
+      "Saturno"
+    ],
+    "correctAnswer": "Marte",
+    "explanation": "Marte é conhecido como o 'planeta vermelho' devido à presença de óxido de ferro em sua superfície, que lhe confere uma coloração avermelhada.",
+    "id": "quiz-universo-e-astronomia-2219",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é um gigante gasoso com um diâmetro cerca de 11 vezes maior que o da Terra.",
+    "id": "quiz-universo-e-astronomia-2220",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é uma galáxia?",
+    "options": [
+      "Um grupo de estrelas",
+      "Uma constelação",
+      "Um sistema estelar gigante composto por bilhões ou trilhões de estrelas, gás e poeira cósmica",
+      "Um planeta"
+    ],
+    "correctAnswer": "Um sistema estelar gigante composto por bilhões ou trilhões de estrelas, gás e poeira cósmica",
+    "explanation": "Galáxias são vastos aglomerados de estrelas, gás e poeira, mantidos unidos pela gravidade.",
+    "id": "quiz-universo-e-astronomia-2221",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fenômeno astronômico causa as marés?",
+    "options": [
+      "A rotação da Terra",
+      "A força gravitacional da Lua e do Sol",
+      "A força magnética da Terra",
+      "O vento solar"
+    ],
+    "correctAnswer": "A força gravitacional da Lua e do Sol",
+    "explanation": "A atração gravitacional da Lua e do Sol sobre a Terra causa o movimento das marés.",
+    "id": "quiz-universo-e-astronomia-2222",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a estrela mais próxima do nosso planeta?",
+    "options": [
+      "Sirius",
+      "Betelgeuse",
+      "Próxima Centauri",
+      "Polaris"
+    ],
+    "correctAnswer": "Próxima Centauri",
+    "explanation": "Próxima Centauri é uma estrela anã vermelha localizada a aproximadamente 4,24 anos-luz da Terra.",
+    "id": "quiz-universo-e-astronomia-2223",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um quasar?",
+    "options": [
+      "Uma estrela de nêutrons",
+      "Um buraco negro supermassivo",
+      "Um núcleo galáctico ativo, extremamente luminoso",
+      "Um tipo de nebulosa"
+    ],
+    "correctAnswer": "Um núcleo galáctico ativo, extremamente luminoso",
+    "explanation": "Quasares são núcleos galácticos ativos alimentados por buracos negros supermassivos, emitindo enormes quantidades de energia.",
+    "id": "quiz-universo-e-astronomia-2224",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a unidade de medida de distância usada em astronomia que equivale a aproximadamente 9,46 trilhões de quilômetros?",
+    "options": [
+      "Ano-luz",
+      "Unidade Astronômica (UA)",
+      "Parsec",
+      "Quilômetro"
+    ],
+    "correctAnswer": "Ano-luz",
+    "explanation": "Um ano-luz é a distância que a luz percorre em um ano.",
+    "id": "quiz-universo-e-astronomia-2225",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é a Via Láctea?",
+    "options": [
+      "Uma constelação",
+      "Uma galáxia espiral",
+      "Uma nebulosa",
+      "Um aglomerado de estrelas"
+    ],
+    "correctAnswer": "Uma galáxia espiral",
+    "explanation": "A Via Láctea é a galáxia espiral onde se encontra o nosso sistema solar.",
+    "id": "quiz-universo-e-astronomia-2226",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fase da lua podemos ver quando ela está completamente iluminada?",
+    "options": [
+      "Lua Nova",
+      "Lua Crescente",
+      "Lua Minguante",
+      "Lua Cheia"
+    ],
+    "correctAnswer": "Lua Cheia",
+    "explanation": "Na Lua Cheia, toda a superfície visível da Lua está iluminada pelo Sol.",
+    "id": "quiz-universo-e-astronomia-2227",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quais são os dois principais componentes de uma estrela?",
+    "options": [
+      "Hidrogênio e Hélio",
+      "Oxigênio e Nitrogênio",
+      "Carbono e Oxigênio",
+      "Ferro e Níquel"
+    ],
+    "correctAnswer": "Hidrogênio e Hélio",
+    "explanation": "A maior parte da massa de uma estrela é composta por hidrogênio e hélio.",
+    "id": "quiz-universo-e-astronomia-2228",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um anel de asteroides?",
+    "options": [
+      "Um anel de poeira e gás ao redor de um planeta",
+      "Um anel de rochas e gelo ao redor de uma estrela",
+      "Um grande número de asteroides orbitando o Sol em uma região específica",
+      "Um grupo de asteroides que orbitam um planeta"
+    ],
+    "correctAnswer": "Um grande número de asteroides orbitando o Sol em uma região específica",
+    "explanation": "O cinturão de asteroides é uma região entre Marte e Júpiter onde existe um grande número de asteroides.",
+    "id": "quiz-universo-e-astronomia-2229",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o nome do processo que produz energia no Sol?",
+    "options": [
+      "Fissão nuclear",
+      "Combustão",
+      "Fusão nuclear",
+      "Radioatividade"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "O Sol produz energia através da fusão nuclear de átomos de hidrogênio em hélio.",
+    "id": "quiz-universo-e-astronomia-2230",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido pelos seus anéis?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Saturno é conhecido por seus anéis proeminentes, compostos por gelo e rocha.",
+    "id": "quiz-universo-e-astronomia-2231",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que constelação está localizada a estrela Polaris (Estrela do Norte)?",
+    "options": [
+      "Ursa Maior",
+      "Ursa Menor",
+      "Cassiopeia",
+      "Andrômeda"
+    ],
+    "correctAnswer": "Ursa Menor",
+    "explanation": "A estrela Polaris está localizada na constelação Ursa Menor.",
+    "id": "quiz-universo-e-astronomia-2232",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do nosso satélite natural?",
+    "options": [
+      "Sol",
+      "Mercúrio",
+      "Lua",
+      "Marte"
+    ],
+    "correctAnswer": "Lua",
+    "explanation": "A Lua é o satélite natural da Terra.",
+    "id": "quiz-universo-e-astronomia-2233",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do nosso sistema planetário?",
+    "options": [
+      "Sistema Solar",
+      "Sistema Estelar",
+      "Via Láctea",
+      "Cinturão de Kuiper"
+    ],
+    "correctAnswer": "Sistema Solar",
+    "explanation": "O nosso sistema planetário é chamado de Sistema Solar.",
+    "id": "quiz-universo-e-astronomia-2234",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um buraco negro?",
+    "options": [
+      "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+      "Uma estrela muito grande",
+      "Um tipo de nebulosa",
+      "Um aglomerado de estrelas"
+    ],
+    "correctAnswer": "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+    "explanation": "Buracos negros são regiões do espaço-tempo com gravidade extremamente forte.",
+    "id": "quiz-universo-e-astronomia-2235",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um meteoro, um meteoróide e um meteorito?",
+    "options": [
+      "Meteoróide é uma rocha no espaço, meteoro é quando ela entra na atmosfera, e meteorito é quando ela atinge a superfície",
+      "Não há diferença, são sinônimos",
+      "Meteoróide é maior que meteoro e meteorito",
+      "Meteoro é maior que meteoróide e meteorito"
+    ],
+    "correctAnswer": "Meteoróide é uma rocha no espaço, meteoro é quando ela entra na atmosfera, e meteorito é quando ela atinge a superfície",
+    "explanation": "A classificação varia de acordo com a localização do objeto: espaço (meteoróide), atmosfera (meteoro) e superfície (meteorito).",
+    "id": "quiz-universo-e-astronomia-2236",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal característica que define um planeta anão?",
+    "options": [
+      "Seu tamanho pequeno",
+      "Sua composição rochosa",
+      "Sua órbita em torno de uma estrela e sua massa suficiente para assumir uma forma quase esférica, mas não ter limpado a vizinhança ao redor de sua órbita",
+      "Sua distância do Sol"
+    ],
+    "correctAnswer": "Sua órbita em torno de uma estrela e sua massa suficiente para assumir uma forma quase esférica, mas não ter limpado a vizinhança ao redor de sua órbita",
+    "explanation": "Planetas anões são definidos pela sua órbita em torno do Sol e sua forma quase esférica, mas não dominam gravitacionalmente sua região orbital.",
+    "id": "quiz-universo-e-astronomia-2237",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes objetos celestes não é um planeta do nosso sistema solar?",
+    "options": [
+      "Plutão",
+      "Marte",
+      "Júpiter",
+      "Terra"
+    ],
+    "correctAnswer": "Plutão",
+    "explanation": "Plutão é classificado como um planeta anão.",
+    "id": "quiz-universo-e-astronomia-2238",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta mais quente do nosso sistema solar?",
+    "options": [
+      "Mercúrio",
+      "Vênus",
+      "Marte",
+      "Júpiter"
+    ],
+    "correctAnswer": "Vênus",
+    "explanation": "Vênus possui uma densa atmosfera que retém o calor, tornando-o o planeta mais quente.",
+    "id": "quiz-universo-e-astronomia-2239",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que causa as estações do ano na Terra?",
+    "options": [
+      "A distância da Terra ao Sol",
+      "A rotação da Terra",
+      "A inclinação do eixo de rotação da Terra",
+      "A influência da Lua"
+    ],
+    "correctAnswer": "A inclinação do eixo de rotação da Terra",
+    "explanation": "A inclinação do eixo terrestre em relação ao plano de sua órbita ao redor do Sol causa as estações.",
+    "id": "quiz-universo-e-astronomia-2240",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um cometa e um asteroide?",
+    "options": [
+      "Cometas são feitos de gelo e poeira, enquanto asteroides são feitos principalmente de rocha e metal",
+      "Não há diferença entre eles",
+      "Cometas são maiores que asteroides",
+      "Asteroides têm caudas, enquanto cometas não"
+    ],
+    "correctAnswer": "Cometas são feitos de gelo e poeira, enquanto asteroides são feitos principalmente de rocha e metal",
+    "explanation": "A composição é a principal diferença entre cometas e asteroides, afetando seu comportamento e aparência.",
+    "id": "quiz-universo-e-astronomia-2241",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a fase da Lua entre a Lua Nova e a Lua Cheia?",
+    "options": [
+      "Lua Minguante",
+      "Lua Cheia",
+      "Lua Crescente",
+      "Lua Negra"
+    ],
+    "correctAnswer": "Lua Crescente",
+    "explanation": "A Lua Crescente é a fase entre a Lua Nova e a Lua Cheia.",
+    "id": "quiz-universo-e-astronomia-2242",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é um ano-luz?",
+    "options": [
+      "A distância que a luz percorre em um ano",
+      "A duração de um ano em um planeta distante",
+      "A unidade de tempo usada em astronomia",
+      "O tempo que um planeta leva para completar sua órbita"
+    ],
+    "correctAnswer": "A distância que a luz percorre em um ano",
+    "explanation": "Um ano-luz é uma unidade de distância, não de tempo.",
+    "id": "quiz-universo-e-astronomia-2243",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a explosão de uma supernova?",
+    "options": [
+      "A formação de uma estrela",
+      "A morte explosiva de uma estrela",
+      "A colisão de duas estrelas",
+      "A explosão de um planeta"
+    ],
+    "correctAnswer": "A morte explosiva de uma estrela",
+    "explanation": "Supernovas são explosões estelares extremamente brilhantes, marcando o fim da vida de uma estrela.",
+    "id": "quiz-universo-e-astronomia-2244",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido pelos seus anéis visíveis?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Os anéis de Saturno são os mais visíveis e icônicos do nosso sistema solar.",
+    "id": "quiz-universo-e-astronomia-2245",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o nome do fenômeno que faz com que a Lua pareça ter uma coloração avermelhada durante um eclipse lunar?",
+    "options": [
+      "Dispersão de Rayleigh",
+      "Reflexão da luz solar",
+      "Difração da luz",
+      "Dispersão da luz na atmosfera terrestre"
+    ],
+    "correctAnswer": "Dispersão da luz na atmosfera terrestre",
+    "explanation": "A luz solar é espalhada pela atmosfera terrestre, e apenas a luz vermelha consegue atingir a Lua, dando-lhe a coloração avermelhada.",
+    "id": "quiz-universo-e-astronomia-2246",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a constante de Hubble?",
+    "options": [
+      "A constante gravitacional",
+      "A taxa de expansão do universo",
+      "A velocidade da luz",
+      "A massa do universo"
+    ],
+    "correctAnswer": "A taxa de expansão do universo",
+    "explanation": "A constante de Hubble representa a taxa de expansão do universo.",
+    "id": "quiz-universo-e-astronomia-2247",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quais são os dois principais gases que compõem a atmosfera da Terra?",
+    "options": [
+      "Oxigênio e Hidrogênio",
+      "Nitrogênio e Oxigênio",
+      "Carbono e Oxigênio",
+      "Hidrogênio e Hélio"
+    ],
+    "correctAnswer": "Nitrogênio e Oxigênio",
+    "explanation": "A atmosfera terrestre é composta principalmente por nitrogênio e oxigênio.",
+    "id": "quiz-universo-e-astronomia-2248",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um pulsar?",
+    "options": [
+      "Uma estrela de nêutrons que emite radiação em pulsos regulares",
+      "Um tipo de nebulosa",
+      "Um buraco negro",
+      "Uma galáxia"
+    ],
+    "correctAnswer": "Uma estrela de nêutrons que emite radiação em pulsos regulares",
+    "explanation": "Pulsars são estrelas de nêutrons que rodam rapidamente e emitem radiação em feixes, que são observados como pulsos regulares.",
+    "id": "quiz-universo-e-astronomia-2249",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a matéria escura?",
+    "options": [
+      "Uma forma de matéria que não interage com a luz",
+      "Uma forma de energia escura",
+      "Uma forma de matéria que interage com a luz",
+      "Um tipo de gás"
+    ],
+    "correctAnswer": "Uma forma de matéria que não interage com a luz",
+    "explanation": "A matéria escura é uma forma de matéria hipotética que não interage com a luz, mas sua presença é inferida por seus efeitos gravitacionais.",
+    "id": "quiz-universo-e-astronomia-2250",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido como o 'planeta anão'?",
+    "options": [
+      "Mercúrio",
+      "Plutão",
+      "Marte",
+      "Vênus"
+    ],
+    "correctAnswer": "Plutão",
+    "explanation": "Plutão é o exemplo mais conhecido de planeta anão.",
+    "id": "quiz-universo-e-astronomia-2251",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é uma nebulosa?",
+    "options": [
+      "Uma nuvem de gás e poeira no espaço",
+      "Uma estrela",
+      "Um planeta",
+      "Um buraco negro"
+    ],
+    "correctAnswer": "Uma nuvem de gás e poeira no espaço",
+    "explanation": "Nebulosas são nuvens interestelares de gás e poeira.",
+    "id": "quiz-universo-e-astronomia-2252",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome da teoria que descreve a origem do universo?",
+    "options": [
+      "Teoria da Relatividade",
+      "Teoria do Big Bang",
+      "Teoria da Evolução",
+      "Teoria da Gravidade"
+    ],
+    "correctAnswer": "Teoria do Big Bang",
+    "explanation": "A Teoria do Big Bang é o modelo cosmológico predominante para o universo.",
+    "id": "quiz-universo-e-astronomia-2253",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual planeta tem o maior número de luas?",
+    "options": [
+      "Terra",
+      "Saturno",
+      "Júpiter",
+      "Urano"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Saturno possui um grande número de luas confirmadas, embora o número exato possa variar dependendo da definição usada.",
+    "id": "quiz-universo-e-astronomia-2254",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a força fundamental que governa a atração entre os corpos celestes?",
+    "options": [
+      "Força eletromagnética",
+      "Força nuclear forte",
+      "Força nuclear fraca",
+      "Força gravitacional"
+    ],
+    "correctAnswer": "Força gravitacional",
+    "explanation": "A gravidade é a força fundamental que governa a atração entre corpos celestes.",
+    "id": "quiz-universo-e-astronomia-2255",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o significado de 'exoplaneta'?",
+    "options": [
+      "Um planeta que orbita uma estrela diferente do nosso Sol",
+      "Um planeta que orbita o Sol",
+      "Um planeta que não possui luas",
+      "Um planeta que é muito pequeno"
+    ],
+    "correctAnswer": "Um planeta que orbita uma estrela diferente do nosso Sol",
+    "explanation": "Exoplanetas são planetas localizados fora do nosso sistema solar.",
+    "id": "quiz-universo-e-astronomia-2256",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o nome da nossa galáxia?",
+    "options": [
+      "Andrômeda",
+      "Via Láctea",
+      "Triângulo",
+      "Nuvem de Magalhães"
+    ],
+    "correctAnswer": "Via Láctea",
+    "explanation": "Nossa galáxia é chamada de Via Láctea.",
+    "id": "quiz-universo-e-astronomia-2257",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o nome do instrumento usado para observar objetos distantes no espaço?",
+    "options": [
+      "Microscópio",
+      "Telescópio",
+      "Binóculos",
+      "Lupa"
+    ],
+    "correctAnswer": "Telescópio",
+    "explanation": "Os telescópios são instrumentos usados para observar objetos distantes no espaço.",
+    "id": "quiz-universo-e-astronomia-2258",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é o paradoxo de Fermi?",
+    "options": [
+      "A contradição entre a alta probabilidade de existência de civilizações extraterrestres e a falta de evidências observáveis",
+      "A contradição entre a teoria da relatividade e a mecânica quântica",
+      "A contradição entre a expansão e a contração do universo",
+      "A contradição entre a idade do universo e a idade da Terra"
+    ],
+    "correctAnswer": "A contradição entre a alta probabilidade de existência de civilizações extraterrestres e a falta de evidências observáveis",
+    "explanation": "O Paradoxo de Fermi questiona a aparente contradição entre a probabilidade de vida extraterrestre e a falta de contato.",
+    "id": "quiz-universo-e-astronomia-2259",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Que tipo de eclipse ocorre quando a Lua passa entre o Sol e a Terra?",
+    "options": [
+      "Eclipse lunar",
+      "Eclipse solar",
+      "Eclipse penumbral",
+      "Eclipse anular"
+    ],
+    "correctAnswer": "Eclipse solar",
+    "explanation": "Um eclipse solar ocorre quando a Lua passa entre o Sol e a Terra, bloqueando a luz solar.",
+    "id": "quiz-universo-e-astronomia-2260",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a zona habitável de uma estrela?",
+    "options": [
+      "A região ao redor de uma estrela onde a temperatura permite a existência de água líquida na superfície de um planeta",
+      "A região onde a gravidade é mais forte",
+      "A região onde a radiação é mais intensa",
+      "A região onde os planetas são mais grandes"
+    ],
+    "correctAnswer": "A região ao redor de uma estrela onde a temperatura permite a existência de água líquida na superfície de um planeta",
+    "explanation": "A zona habitável é uma região ao redor de uma estrela onde a temperatura é adequada para a existência de água líquida.",
+    "id": "quiz-universo-e-astronomia-2261",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do fenômeno que ocorre quando um meteoróide entra na atmosfera terrestre?",
+    "options": [
+      "Meteoro",
+      "Meteorito",
+      "Asteroide",
+      "Cometa"
+    ],
+    "correctAnswer": "Meteoro",
+    "explanation": "Quando um meteoróide entra na atmosfera terrestre, ele se torna um meteoro, também conhecido como estrela cadente.",
+    "id": "quiz-universo-e-astronomia-2262",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é conhecido por suas cordas e arco?",
+    "options": [
+      "Violino",
+      "Piano",
+      "Bateria",
+      "Trompete"
+    ],
+    "correctAnswer": "Violino",
+    "explanation": "O violino é um instrumento de corda friccionada, conhecido por seu som melódico e expressivo.",
+    "id": "quiz-musica-2263",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nota musical vem depois de Dó?",
+    "options": [
+      "Ré",
+      "Mi",
+      "Fá",
+      "Sol"
+    ],
+    "correctAnswer": "Ré",
+    "explanation": "A sequência das notas musicais é Dó, Ré, Mi, Fá, Sol, Lá, Si.",
+    "id": "quiz-musica-2264",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes é um instrumento de percussão?",
+    "options": [
+      "Violino",
+      "Bateria",
+      "Flauta",
+      "Guitarra"
+    ],
+    "correctAnswer": "Bateria",
+    "explanation": "A bateria é um conjunto de instrumentos de percussão usados em diversos gêneros musicais.",
+    "id": "quiz-musica-2265",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual gênero musical é conhecido por suas batidas fortes e dançantes?",
+    "options": [
+      "Clássica",
+      "Jazz",
+      "Música eletrônica",
+      "Sertanejo"
+    ],
+    "correctAnswer": "Música eletrônica",
+    "explanation": "A música eletrônica é caracterizada por batidas fortes, ritmos dançantes e sintetizadores.",
+    "id": "quiz-musica-2266",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é um instrumento de sopro?",
+    "options": [
+      "Violoncelo",
+      "Trombone",
+      "Guitarra",
+      "Piano"
+    ],
+    "correctAnswer": "Trombone",
+    "explanation": "O trombone é um instrumento de sopro de metal, conhecido por sua sonoridade grave e potente.",
+    "id": "quiz-musica-2267",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual compositor clássico escreveu 'A Nona Sinfonia'?",
+    "options": [
+      "Bach",
+      "Mozart",
+      "Beethoven",
+      "Chopin"
+    ],
+    "correctAnswer": "Beethoven",
+    "explanation": "Ludwig van Beethoven compôs nove sinfonias, sendo a nona considerada uma de suas obras-primas.",
+    "id": "quiz-musica-2268",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do compasso musical com 3 tempos?",
+    "options": [
+      "Compasso simples",
+      "Compasso composto",
+      "Compasso ternário",
+      "Compasso binário"
+    ],
+    "correctAnswer": "Compasso ternário",
+    "explanation": "O compasso ternário é caracterizado por três tempos por batida.",
+    "id": "quiz-musica-2269",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual gênero musical é caracterizado pelo uso de improvisação e blue notes?",
+    "options": [
+      "Pop",
+      "Rock",
+      "Blues",
+      "Clássica"
+    ],
+    "correctAnswer": "Blues",
+    "explanation": "O blues é um gênero musical que se caracteriza pelo uso de improvisação, blue notes e estrutura harmônica específica.",
+    "id": "quiz-musica-2270",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é geralmente usado como instrumento de acompanhamento em músicas folclóricas?",
+    "options": [
+      "Violino",
+      "Guitarra",
+      "Bateria",
+      "Piano"
+    ],
+    "correctAnswer": "Guitarra",
+    "explanation": "A guitarra é frequentemente usada como instrumento de acompanhamento em músicas folclóricas, devido à sua versatilidade.",
+    "id": "quiz-musica-2271",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre uma sonata e uma sinfonia?",
+    "options": [
+      "Não há diferença",
+      "A sonata é para orquestra e a sinfonia para solo",
+      "A sinfonia é para orquestra e a sonata geralmente para solo ou duo",
+      "A sonata é religiosa e a sinfonia secular"
+    ],
+    "correctAnswer": "A sinfonia é para orquestra e a sonata geralmente para solo ou duo",
+    "explanation": "As sonatas são geralmente obras para um ou dois instrumentos, enquanto as sinfonias são compostas para orquestra.",
+    "id": "quiz-musica-2272",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual compositor utilizou extensivamente a técnica de serialismo?",
+    "options": [
+      "Bach",
+      "Mozart",
+      "Schoenberg",
+      "Beethoven"
+    ],
+    "correctAnswer": "Schoenberg",
+    "explanation": "Arnold Schoenberg foi um compositor pioneiro no uso do serialismo, uma técnica composicional que organiza os elementos musicais em séries.",
+    "id": "quiz-musica-2273",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual compositor inovou com a utilização da música dodecafônica?",
+    "options": [
+      "Beethoven",
+      "Brahms",
+      "Schoenberg",
+      "Mozart"
+    ],
+    "correctAnswer": "Schoenberg",
+    "explanation": "Arnold Schoenberg foi um dos principais desenvolvedores da técnica dodecafônica, que utiliza todos os doze tons da escala cromática.",
+    "id": "quiz-musica-2274",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um 'ritornello'?",
+    "options": [
+      "Um tipo de canto gregoriano",
+      "Um instrumento de percussão",
+      "Uma seção musical repetida",
+      "Um tipo de dança"
+    ],
+    "correctAnswer": "Uma seção musical repetida",
+    "explanation": "Um ritornello é uma seção musical que é repetida em várias seções de uma obra musical, geralmente em composições barrocas.",
+    "id": "quiz-musica-2275",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a função de um contrabaixo em uma orquestra?",
+    "options": [
+      "Melodia principal",
+      "Harmonia e baixo",
+      "Percussão",
+      "Solista"
+    ],
+    "correctAnswer": "Harmonia e baixo",
+    "explanation": "O contrabaixo fornece a base harmônica e a linha de baixo em uma orquestra.",
+    "id": "quiz-musica-2276",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do intervalo musical entre duas notas vizinhas na escala?",
+    "options": [
+      "Oitava",
+      "Quinta",
+      "Segunda",
+      "Terça"
+    ],
+    "correctAnswer": "Segunda",
+    "explanation": "O intervalo entre duas notas vizinhas na escala é chamado de segunda.",
+    "id": "quiz-musica-2277",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual nota musical vem depois de Sol?",
+    "options": [
+      "Lá",
+      "Fá",
+      "Mi",
+      "Dó"
+    ],
+    "correctAnswer": "Lá",
+    "explanation": "A sequência das notas musicais é Dó, Ré, Mi, Fá, Sol, Lá, Si.",
+    "id": "quiz-musica-2278",
+    "categoryId": "musica"
   }
 ]
