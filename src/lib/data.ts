@@ -4,9 +4,9 @@ import categoriesData from './data/categories.json';
 import fs from 'fs';
 import path from 'path';
 
-// --- Nova Abordagem: Leitura de Arquivos com Node.js 'fs' ---
-// Esta é uma solução mais robusta e padrão para o ambiente Next.js/Node.js,
-// garantindo que os arquivos de dados sejam lidos de forma confiável.
+// --- Abordagem Otimizada: Pré-processamento de Dados ---
+// Os dados são lidos uma vez no início e organizados em mapas para acesso rápido.
+// Isso evita a necessidade de filtrar arrays grandes repetidamente.
 
 const curiositiesDir = path.join(process.cwd(), 'data/curiosities');
 const quizzesDir = path.join(process.cwd(), 'data/quiz-questions');
@@ -34,58 +34,79 @@ function loadDataFromDirectory<T>(directory: string): T[] {
       
     return jsonData.flat();
   } catch (error) {
-    // Se o diretório não existir, retorna um array vazio.
-    // Isso evita que o build quebre se a pasta ainda não foi criada.
     console.warn(`Aviso: Diretório não encontrado: ${directory}. Retornando array vazio.`);
     return [];
   }
 }
 
+// Carrega todos os dados uma vez.
 const allCuriosities: Curiosity[] = loadDataFromDirectory<Curiosity>(curiositiesDir);
 const allQuizQuestions: QuizQuestion[] = loadDataFromDirectory<QuizQuestion>(quizzesDir);
+
+/**
+ * Otimização: Cria um mapa de curiosidades por ID da categoria para acesso O(1).
+ * Este mapa é gerado apenas uma vez quando o módulo é carregado.
+ */
+export const curiositiesByCategory = allCuriosities.reduce<Record<string, Curiosity[]>>((acc, cur) => {
+  if (!acc[cur.categoryId]) {
+    acc[cur.categoryId] = [];
+  }
+  acc[cur.categoryId].push(cur);
+  return acc;
+}, {});
+
+/**
+ * Otimização: Cria um mapa de quizzes por ID da categoria para acesso O(1).
+ */
+export const quizzesByCategory = allQuizQuestions.reduce<Record<string, QuizQuestion[]>>((acc, quiz) => {
+    if (!acc[quiz.categoryId]) {
+        acc[quiz.categoryId] = [];
+    }
+    acc[quiz.categoryId].push(quiz);
+    return acc;
+}, {});
+
 
 export const categories: Category[] = categoriesData;
 
 /**
- * Finds a category by its ID.
- * @param id The ID of the category to find.
- * @returns The category object or undefined if not found.
+ * Encontra uma categoria pelo seu ID.
+ * @param id O ID da categoria a ser encontrada.
+ * @returns O objeto da categoria ou undefined se não for encontrado.
  */
 export function getCategoryById(id: string): Category | undefined {
   return categories.find(c => c.id === id);
 }
 
 /**
- * Retrieves all curiosities for a given category ID.
- * @param categoryId The ID of the category.
- * @returns An array of curiosities for that category.
+ * Recupera todas as curiosidades de um determinado ID de categoria usando o mapa pré-processado.
+ * @param categoryId O ID da categoria.
+ * @returns Um array de curiosidades para essa categoria.
  */
 export function getCuriositiesByCategoryId(categoryId: string): Curiosity[] {
-  return allCuriosities.filter(c => c.categoryId === categoryId);
+  return curiositiesByCategory[categoryId] || [];
 }
 
 /**
- * Retrieves all quiz questions for a given category ID.
- * @param categoryId The ID of the category.
- * @returns An array of quiz questions for that category.
+ * Recupera todas as perguntas do quiz para um determinado ID de categoria usando o mapa pré-processado.
+ * @param categoryId O ID da categoria.
+ * @returns Um array de perguntas do quiz para essa categoria.
  */
 export function getQuizQuestionsByCategoryId(categoryId: string): QuizQuestion[] {
-  return allQuizQuestions.filter(q => q.categoryId === categoryId);
+  return quizzesByCategory[categoryId] || [];
 }
 
 /**
- * Retrieves all curiosidades from all categories.
- * This function is intended for server-side use only.
- * @returns An array of all curiosities.
+ * Recupera todas as curiosidades de todas as categorias.
+ * @returns Um array de todas as curiosidades.
  */
 export function getAllCuriosities(): Curiosity[] {
   return allCuriosities;
 }
 
 /**
- * Retrieves all quiz questions from all categories.
- * This function is intended for server-side use only.
- * @returns An array of all quiz questions.
+ * Recupera todas as perguntas do quiz de todas as categorias.
+ * @returns Um array de todas as perguntas do quiz.
  */
 export function getAllQuizQuestions(): QuizQuestion[] {
   return allQuizQuestions;

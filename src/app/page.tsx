@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { categories, getCategoryById, getAllCuriosities } from '@/lib/data';
+import { categories, curiositiesByCategory, quizzesByCategory, getAllCuriosities } from '@/lib/data';
+import type { Category } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -8,9 +9,9 @@ import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton
 import * as LucideIcons from 'lucide-react';
 import { HelpCircle, Rocket } from 'lucide-react';
 
-function CategoryCard({ category }: { category: ReturnType<typeof getCategoryById> }) {
-  if (!category) return null;
-
+// Otimização: O componente agora recebe as contagens pré-calculadas.
+// Ele não precisa mais buscar ou filtrar dados, tornando-o mais rápido.
+function CategoryCard({ category, curiosityCount, quizCount }: { category: Category, curiosityCount: number, quizCount: number }) {
   const Icon = (LucideIcons as any)[category.icon as any] as React.ElementType;
 
   return (
@@ -27,15 +28,16 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
       <CardContent className="flex-grow text-center">
         <p className="text-sm text-muted-foreground">{category.description}</p>
       </CardContent>
+      {/* Lógica de renderização dos botões foi mantida, mas agora baseada nas contagens. */}
       <div className="mt-auto grid grid-cols-2 gap-2 p-4">
-        <Button variant="outline" asChild>
-          <Link href={`/curiosity/${category.id}`}>
+        <Button variant="outline" asChild disabled={curiosityCount === 0}>
+          <Link href={curiosityCount > 0 ? `/curiosity/${category.id}` : '#'}>
             <Rocket className="mr-2 h-4 w-4" />
             Explorar
           </Link>
         </Button>
-        <Button asChild>
-          <Link href={`/quiz/${category.id}`}>
+        <Button asChild disabled={quizCount === 0}>
+          <Link href={quizCount > 0 ? `/quiz/${category.id}` : '#'}>
             <HelpCircle className="mr-2 h-4 w-4" />
             Quiz
           </Link>
@@ -47,7 +49,8 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-background');
-  const allCuriosities = getAllCuriosities();
+  // Otimização: getAllCuriosities é chamado apenas uma vez para o botão aleatório.
+  const allCuriosities = getAllCuriosities(); 
 
   return (
     <div className="flex flex-col">
@@ -82,15 +85,27 @@ export default function Home() {
             Explore as Categorias
           </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {categories.map((category, index) => (
-              <div
-                key={category.id}
-                className="animate-slide-in-up"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <CategoryCard category={category} />
-              </div>
-            ))}
+            {categories.map((category, index) => {
+              // Otimização: As contagens são obtidas instantaneamente dos mapas pré-processados.
+              const curiosityCount = curiositiesByCategory[category.id]?.length || 0;
+              const quizCount = quizzesByCategory[category.id]?.length || 0;
+              
+              // Lógica de filtro removida daqui para garantir que todas as categorias apareçam.
+              // A decisão de habilitar/desabilitar botões está agora dentro do CategoryCard.
+              return (
+                <div
+                  key={category.id}
+                  className="animate-slide-in-up"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <CategoryCard 
+                    category={category} 
+                    curiosityCount={curiosityCount}
+                    quizCount={quizCount}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
