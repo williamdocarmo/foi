@@ -883,5 +883,41 @@
     "content": "Passar tempo na natureza reduz o estresse, melhora o humor e fortalece o sistema imunológico.  O ar fresco, a luz solar e os sons da natureza têm um efeito restaurador sobre a mente e o corpo.  Incorpore a natureza no seu dia a dia.",
     "funFact": "Estudos mostram que apenas 20 minutos na natureza reduzem os níveis de cortisol.",
     "curiosityLevel": 2
+  },
+  {
+    "id": "saude-129",
+    "categoryId": "saude",
+    "title": "A Influência da Luz Azul na Produção de Melatonina",
+    "hook": "Incrível:",
+    "content": "A exposição à luz azul, emitida por telas de dispositivos eletrônicos, pode suprimir a produção de melatonina, o hormônio do sono, dificultando o início e a manutenção do sono.  Limitar a exposição à luz azul antes de dormir é importante.",
+    "funFact": "A melatonina também atua como um antioxidante.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-130",
+    "categoryId": "saude",
+    "title": "A Ciência do Seu Suor: Mais Que Água",
+    "hook": "Incrível:",
+    "content": "Seu suor é muito mais do que apenas água e sal. Ele contém uma complexa mistura de substâncias que refletem seu estado de saúde, incluindo hormônios, proteínas e metabólitos. Analisando sua composição, é possível detectar desequilíbrios e até mesmo doenças precocemente.  A ciência da sudorese é um campo em constante evolução, revelando novas possibilidades diagnósticas.",
+    "funFact": "A composição do seu suor pode variar de acordo com a sua dieta e até mesmo com o seu humor!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-131",
+    "categoryId": "saude",
+    "title": "Seu Sistema Imunológico e a Música",
+    "hook": "Incrível: a música fortalece sua imunidade!",
+    "content": "Estudos mostram que ouvir música clássica ou relaxante pode aumentar a produção de células imunológicas, melhorando a resposta do seu corpo a infecções.  A música influencia a atividade do sistema nervoso parassimpático, responsável pela calma e recuperação.  Experimente incluir música em seu dia a dia para um sistema imunológico mais forte!",
+    "funFact": "Certas frequências musicais podem até estimular a produção de anticorpos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-132",
+    "categoryId": "saude",
+    "title": "A Intuição e a Saúde",
+    "hook": "Incrível: seu corpo te avisa!",
+    "content": "Você já sentiu uma pontada de dor ou desconforto antes de um problema de saúde se manifestar?  A intuição corporal, muitas vezes ignorada, pode ser um sinal precoce de doenças. Preste atenção aos sinais sutis do seu corpo e busque ajuda médica sempre que necessário.  Ouvir seu corpo pode prevenir problemas graves.",
+    "funFact": "Estudo sugere que a intuição sobre a saúde está ligada à capacidade do sistema nervoso de processar informações subconscientes.",
+    "curiosityLevel": 4
   }
 ]

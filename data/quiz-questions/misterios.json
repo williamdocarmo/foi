@@ -950,5 +950,33 @@
     ],
     "correctAnswer": "Todas as alternativas anteriores",
     "explanation": "A estrutura subaquática de Yonaguni apresenta características geométricas que suscitam debates sobre sua origem natural ou artificial,  devido à sua complexidade e imprecisão na sua datação."
+  },
+  {
+    "id": "quiz-misterios-69",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual floresta japonesa é conhecida por seu alto número de suicídios e atmosfera misteriosa?",
+    "options": [
+      "Floresta de Aokigahara",
+      "Floresta Negra",
+      "Floresta Amazônica",
+      "Floresta Sagrada de Osun-Osogbo"
+    ],
+    "correctAnswer": "Floresta de Aokigahara",
+    "explanation": "A Floresta de Aokigahara, localizada na base do Monte Fuji, é tristemente famosa como um local de suicídio.  A densa vegetação e o isolamento contribuem para sua aura misteriosa."
+  },
+  {
+    "id": "quiz-misterios-70",
+    "categoryId": "misterios",
+    "difficulty": "easy",
+    "question": "Qual manuscrito ilustrado permanece indecifrável até hoje?",
+    "options": [
+      "Manuscrito Voynich",
+      "Código de Hamurabi",
+      "Livro de Kells",
+      "Rosetta Stone"
+    ],
+    "correctAnswer": "Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich, datado do século XV, contém um texto e ilustrações incompreensíveis. Sua origem e significado continuam sendo um enigma."
   }
 ]

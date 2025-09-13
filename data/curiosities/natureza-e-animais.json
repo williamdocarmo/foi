@@ -907,5 +907,257 @@
     "content": "Os morcegos-da-fruta utilizam uma combinação de sentidos para navegar na escuridão da noite.  Eles se orientam usando a visão noturna, o ecolocalização e até mesmo o sentido do olfato para localizar frutas maduras a quilômetros de distância, mesmo em ambientes complexos.",
     "funFact": "Algumas espécies de morcegos-da-fruta podem voar até 50 km em uma só noite em busca de alimento.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-102",
+    "categoryId": "natureza-e-animais",
+    "title": "A Incrível Força dos Bichos-Pau",
+    "hook": "Incrível: ",
+    "content": "Os bichos-pau são mestres da camuflagem, mas sua força é igualmente surpreendente.  Eles conseguem suportar pesos até 1000 vezes o seu próprio, graças a uma estrutura interna única. Essa força excepcional ajuda-os a sobreviver a ameaças e a se moverem em ambientes desafiadores.",
+    "funFact": "Um bicho-pau pode levantar um peso equivalente a um carro pequeno em proporção ao seu tamanho.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-103",
+    "categoryId": "natureza-e-animais",
+    "title": "A Vida Subterrânea dos Ratos-Toupeiras-Pelados",
+    "hook": "Incrível: Sociedades subterrâneas!",
+    "content": "Os ratos-toupeiras-pelados vivem em colônias subterrâneas complexas, com uma rainha reprodutora e operários.  Eles demonstram uma organização social surpreendente, semelhante a das abelhas, com indivíduos desempenhando papéis específicos para a sobrevivência da colônia. Sua longevidade excepcional também intriga os cientistas.",
+    "funFact": "Eles são resistentes ao câncer e podem sobreviver por longos períodos sem oxigênio!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-104",
+    "categoryId": "natureza-e-animais",
+    "title": "A Navegação Estelar dos Besouros-Escarabeus",
+    "hook": "Incrível:",
+    "content": "Os besouros-escarabeaus utilizam a luz das estrelas e da Via Láctea para se orientar durante a noite, mesmo em condições de pouca luminosidade. Sua capacidade de navegação astronômica é um exemplo notável de adaptação evolutiva, permitindo que esses insetos se movam longas distâncias com precisão.",
+    "funFact": "Eles conseguem navegar mesmo com a Lua e as estrelas parcialmente obstruídas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-105",
+    "categoryId": "natureza-e-animais",
+    "title": "A Biofluorescência dos Peixes de Recifes de Coral",
+    "hook": "Você sabia que...",
+    "content": "Muitos peixes de recifes de coral exibem biofluorescência, emitindo luz sob a luz ultravioleta. Essa capacidade pode ser usada para comunicação, atração de parceiros, ou mesmo camuflagem em ambientes com pouca luz.  A variedade de cores e padrões biofluorescentes é fascinante.",
+    "funFact": "A biofluorescência é visível apenas sob luz UV!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-106",
+    "categoryId": "natureza-e-animais",
+    "title": "A Vida Noturna dos Sapos-de-Chifre",
+    "hook": "Incrível: Sapos cantores noturnos!",
+    "content": "Os sapos-de-chifre, criaturas noturnas, possuem um canto único e melodioso que ecoa pela noite.  Sua atividade noturna lhes permite evitar predadores diurnos e caçar insetos com maior facilidade.  A variedade de seus cantos é surpreendente, cada um com sua própria assinatura acústica.",
+    "funFact": "Algumas espécies de sapos-de-chifre são capazes de mudar a tonalidade de seus cantos dependendo do ambiente acústico.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-107",
+    "categoryId": "natureza-e-animais",
+    "title": "A Mente Incrivelmente Ágil dos Esquilos",
+    "hook": "Incrível: a memória espacial...",
+    "content": "Os esquilos são mestres da memorização de locais onde escondem suas sementes. Eles conseguem lembrar a localização exata de milhares de esconderijos, mesmo após semanas ou meses.  Sua capacidade de recordar é tão precisa que conseguem diferenciar sementes escondidas em diferentes épocas do ano. Essa habilidade é crucial para sua sobrevivência durante o inverno.",
+    "funFact": "Alguns esquilos até mesmo fingem enterrar sementes para enganar outros animais!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-108",
+    "categoryId": "natureza-e-animais",
+    "title": "O Segredo da Biomecânica do Peixe-Voador",
+    "hook": "Você sabia que...",
+    "content": "O peixe-voador, apesar do nome, não voa de fato, mas planeia. Ele salta para fora da água e utiliza suas grandes nadadeiras peitorais como asas, planando por até 400 metros. Essa capacidade é essencial para escapar de predadores e encontrar novos habitats. A força e a forma de suas nadadeiras são perfeitas para esse mecanismo.",
+    "funFact": "Eles conseguem atingir velocidades de até 70 km/h durante seus saltos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-109",
+    "categoryId": "natureza-e-animais",
+    "title": "A Resistência Extrema dos Tardígrados",
+    "hook": "Incrível:",
+    "content": "Os tardígrados, também conhecidos como ursos-d'água, são animais microscópicos capazes de sobreviver em condições extremas, como o vácuo espacial, radiação intensa e temperaturas próximas ao zero absoluto. Eles conseguem entrar em um estado de criptobiose, onde seu metabolismo quase para completamente.",
+    "funFact": "Eles sobrevivem até mesmo à fervura!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-110",
+    "categoryId": "natureza-e-animais",
+    "title": "A Eficiência da Termólise das Mariposas",
+    "hook": "Você sabia que...",
+    "content": "Algumas mariposas conseguem regular sua temperatura corporal de forma eficiente através de mecanismos de termólise.  Elas conseguem dissipar o excesso de calor através de suas asas e pernas, permitindo sua atividade em ambientes com temperaturas elevadas. Essa capacidade é essencial para sua sobrevivência.",
+    "funFact": "Elas conseguem manter sua temperatura corporal estável mesmo em ambientes secos!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-111",
+    "categoryId": "natureza-e-animais",
+    "title": "A Biomecânica Incrível das Asas das Borboletas",
+    "hook": "Incrível:",
+    "content": "As asas das borboletas são estruturas maravilhosas, cobertas por escamas microscópicas que refletem a luz, criando padrões de cores vibrantes. A estrutura das asas é leve e resistente, permitindo um voo ágil e eficiente. A forma e o tamanho das asas variam de acordo com a espécie e estilo de voo.",
+    "funFact": "Algumas borboletas conseguem voar até 4000 km durante suas migrações!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "natureza-e-animais-112",
+    "categoryId": "natureza-e-animais",
+    "title": "O Sono Rem dos Morcegos-Pescadores",
+    "hook": "Você sabia que...",
+    "content": "Os morcegos-pescadores, ao contrário de outros mamíferos, experimentam o sono REM de forma fragmentada durante o dia, permitindo que mantenham um estado de alerta para possíveis perigos e aproveitem oportunidades para caçar durante a noite. Esse padrão de sono reflete suas necessidades adaptativas para sobreviver em ambientes desafiadores.",
+    "funFact": "Eles conseguem pescar durante a noite!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-113",
+    "categoryId": "natureza-e-animais",
+    "title": "A Camuflagem Dinâmica dos Polvos-Miméticos",
+    "hook": "Você sabia que...",
+    "content": "Os polvos-miméticos são mestres da camuflagem, capazes de alterar rapidamente a cor e a textura de sua pele para se misturar perfeitamente com o ambiente.  Essa habilidade é crucial para se proteger de predadores e caçar presas.  Eles conseguem imitar até mesmo a textura de outros animais marinhos.",
+    "funFact": "Podem mudar a aparência em menos de um segundo!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-114",
+    "categoryId": "natureza-e-animais",
+    "title": "A Vida Subterrânea dos Morcegos-Brancos",
+    "hook": "Incrível: ",
+    "content": "Você sabia que existem espécies de morcegos que vivem exclusivamente em cavernas escuras e úmidas, desenvolvendo adaptações incríveis para sobreviver na total ausência de luz?  Esses animais possuem sentidos apurados, como a ecolocalização, e uma fisiologia adaptada ao ambiente subterrâneo, o que os torna fascinantes.",
+    "funFact": "Eles podem sobreviver semanas sem se alimentar, vivendo de suas reservas de gordura.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-115",
+    "categoryId": "natureza-e-animais",
+    "title": "A Intuição Ecológica das Araras",
+    "hook": "Incrível: Araras escolhem árvores!",
+    "content": "Araras-azuis demonstram uma notável intuição ecológica ao selecionar árvores específicas para nidificação, considerando fatores como resistência a parasitas e segurança contra predadores.  Elas parecem 'saber' quais árvores oferecerão a melhor proteção para seus filhotes, um comportamento fascinante ainda pouco compreendido.",
+    "funFact": "Estudos mostram que araras evitam árvores com histórico de infestações, demonstrando uma memória coletiva impressionante.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-116",
+    "categoryId": "natureza-e-animais",
+    "title": "A Resistência Inacreditável dos Verme do Navio",
+    "hook": "Incrível: ",
+    "content": "O verme do navio, um crustáceo marinho, possui uma incrível resistência à pressão e à destruição.  Sua capacidade de perfurar madeira com seus dentes minúsculos é excepcional, e ele consegue sobreviver em ambientes com pouco oxigênio e muita pressão. Eles são verdadeiras máquinas de destruição e sobrevivência.",
+    "funFact": "Eles conseguem perfurar até mesmo o casco de navios!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-117",
+    "categoryId": "natureza-e-animais",
+    "title": "O Segredo da Navegação das Tartarugas-de-Couro",
+    "hook": "Incrível: ",
+    "content": "As tartarugas-de-couro realizam migrações transoceânicas incríveis, navegando por milhares de quilômetros sem mapas.  Elas usam o campo magnético da Terra, mas como decodificam esses sinais?  Ainda é um mistério.  Elas também se orientam pelas correntes marítimas e pelas estrelas, criando uma bússola interna surpreendente.",
+    "funFact": "Algumas tartarugas-de-couro são capazes de mergulhar a mais de 1.000 metros de profundidade!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-118",
+    "categoryId": "natureza-e-animais",
+    "title": "A Resistência Extraordinária do Verme do Navio",
+    "hook": "Incrível: ",
+    "content": "O verme do navio, um crustáceo minúsculo, consegue perfurar madeiras com sua concha, sobrevivendo em ambientes escuros e com baixa concentração de oxigênio.  Sua resistência é impressionante, permitindo-lhe viver em condições extremas que seriam letais para a maioria dos seres vivos. Eles são um exemplo fantástico de adaptação a ambientes desafiadores.",
+    "funFact": "Eles conseguem digerir a celulose da madeira, algo que a maioria dos animais não consegue!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-119",
+    "categoryId": "natureza-e-animais",
+    "title": "A incrível audição dos morcegos-pescadores",
+    "hook": "Incrível: ",
+    "content": "Os morcegos-pescadores utilizam um sistema de ecolocalização altamente sofisticado para caçar peixes em ambientes aquáticos escuros. Eles emitem cliques de alta frequência que refletem na superfície da água e nos peixes, permitindo-lhes detectar a localização precisa de suas presas, mesmo em águas turvas. Sua capacidade de distinguir entre a reflexão na água e a reflexão no peixe é notável. ",
+    "funFact": "Eles conseguem capturar até três peixes em um único mergulho!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-120",
+    "categoryId": "natureza-e-animais",
+    "title": "A resistência incrivelmente elástica do bicho-da-seda",
+    "hook": "Você sabia que...",
+    "content": "O fio de seda produzido pelo bicho-da-seda é incrivelmente resistente e elástico.  Com uma espessura microscópica, ele consegue suportar uma força surpreendente, algo que inspirou inúmeras pesquisas científicas em materiais. A sua elasticidade e resistência são cruciais para a construção dos casulos que o protegem.",
+    "funFact": "Um fio de seda do bicho-da-seda, do mesmo diâmetro de um fio de aço, seria cinco vezes mais forte!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-121",
+    "categoryId": "natureza-e-animais",
+    "title": "O talento camaleônico dos polvos-miméticos",
+    "hook": "Surpreendente: ",
+    "content": "Os polvos-miméticos não apenas mudam de cor, mas também imitam a textura e o movimento de outras criaturas marinhas, como cobras marinhas, peixes-leão, e até mesmo águas-vivas. Essa habilidade de camuflagem sofisticada é uma forma incrível de defesa contra predadores e de emboscar presas.",
+    "funFact": "Eles podem assumir mais de 15 formas diferentes!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-122",
+    "categoryId": "natureza-e-animais",
+    "title": "A navegação magnética das andorinhas-do-mar",
+    "hook": "Incrível:",
+    "content": "As andorinhas-do-mar possuem um sentido de navegação magnético extremamente preciso, utilizando o campo magnético terrestre para orientar suas migrações intercontinentais. Elas conseguem detectar variações minúsculas no campo magnético, o que lhes permite retornar para seus ninhos com precisão após longas jornadas.",
+    "funFact": "Elas podem viajar milhares de quilômetros sem se perder!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-123",
+    "categoryId": "natureza-e-animais",
+    "title": "A comunicação química dos peixes-palhaço",
+    "hook": "Você sabia que...",
+    "content": "Os peixes-palhaço utilizam substâncias químicas liberadas na água para se comunicar. Através de feromônios e outras moléculas, eles transmitem informações sobre território, reprodução e até mesmo sobre a presença de predadores.  Essa comunicação é crucial para a sua sobrevivência em recifes de coral.",
+    "funFact": "Cada indivíduo possui um cheiro único que os identifica!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-124",
+    "categoryId": "natureza-e-animais",
+    "title": "A vida secreta dos cogumelos bioluminescentes",
+    "hook": "Fascinante:",
+    "content": "Certos tipos de cogumelos possuem a capacidade de bioluminescência, emitindo uma luz fraca que pode ser vista principalmente à noite. Essa luz é produzida por reações químicas dentro do cogumelo, e sua função ainda não é totalmente compreendida, mas acredita-se que possa atrair insetos para auxiliar na dispersão de esporos.",
+    "funFact": "Existem mais de 70 espécies de cogumelos bioluminescentes!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-125",
+    "categoryId": "natureza-e-animais",
+    "title": "A incrível força dos bichos-pau",
+    "hook": "Impressionante:",
+    "content": "Apesar de seu tamanho pequeno e aparência frágil, os bichos-pau possuem uma força surpreendente. Eles conseguem suportar pesos muitas vezes maiores que o seu próprio peso corporal. Esta força está relacionada à sua estrutura corporal e à quitina que compõe seu exoesqueleto.",
+    "funFact": "Alguns bichos-pau conseguem levantar até 1000 vezes o seu peso!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "natureza-e-animais-126",
+    "categoryId": "natureza-e-animais",
+    "title": "A navegação estelar dos besouros-escaravelhos",
+    "hook": "Você sabia que...",
+    "content": "Os besouros-escaravelhos utilizam a luz das estrelas para se orientar, mesmo em noites sem lua. Eles conseguem reconhecer a posição das estrelas e usar esta informação para rolar bolas de esterco em linha reta, sem se desviar.  Seu sistema de navegação é uma maravilha da natureza.",
+    "funFact": "Eles usam a Via Láctea como referência para navegação!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "natureza-e-animais-127",
+    "categoryId": "natureza-e-animais",
+    "title": "A biofluorescência dos peixes de recifes de coral",
+    "hook": "Incrível:",
+    "content": "Muitos peixes que habitam recifes de coral possuem a capacidade de biofluorescência, emitindo uma luz colorida quando expostos à luz azul ou ultravioleta. Acredita-se que esta biofluorescência auxilie na comunicação e na atração de parceiros, mas a sua função ainda é objeto de pesquisa.",
+    "funFact": "A biofluorescência é diferente da bioluminescência: ela requer uma fonte de luz externa!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "natureza-e-animais-128",
+    "categoryId": "natureza-e-animais",
+    "title": "A camuflagem dinâmica dos polvos-miméticos",
+    "hook": "Incrível:",
+    "content": "Os polvos-miméticos são mestres da camuflagem, capazes de mudar a cor, a textura e o padrão da sua pele em frações de segundo. Eles imitam o ambiente ao redor, como rochas, corais e algas, para se esconder de predadores e se aproximar de suas presas.",
+    "funFact": "Eles podem imitar até mesmo a forma de outros animais!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "natureza-e-animais-129",
+    "categoryId": "natureza-e-animais",
+    "title": "A resistência inacreditável do verme do navio",
+    "hook": "Você sabia que...",
+    "content": "O verme do navio é um molusco marinho com uma resistência incrível à perfuração. Seu corpo é adaptado para perfurar madeira, e ele utiliza enzimas para quebrar a lignina, um componente importante da madeira.  Isso o torna uma praga significativa para navios e estruturas de madeira submersas.",
+    "funFact": "Ele consegue perfurar até mesmo madeiras muito resistentes!",
+    "curiosityLevel": 2
   }
 ]

@@ -1202,5 +1202,75 @@
     ],
     "correctAnswer": "A competição por nossa atenção em um mundo hiperconectado.",
     "explanation": "A economia da atenção descreve como empresas e tecnologias competem por nossa atenção limitada.  Curiosidade:  Essa competição pode levar à sobrecarga de informações e afetar negativamente nosso bem-estar mental."
+  },
+  {
+    "id": "quiz-bem-estar-87",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Descreva a relação entre 'mindfulness' e a redução da ruminação mental.",
+    "options": [
+      "Mindfulness aumenta a ruminação",
+      "Não há relação entre mindfulness e ruminação",
+      "Mindfulness indiretamente contribui para a ruminação",
+      "Mindfulness ajuda a reduzir a ruminação"
+    ],
+    "correctAnswer": "Mindfulness ajuda a reduzir a ruminação",
+    "explanation": "A prática de mindfulness aumenta a consciência do momento presente, diminuindo a tendência de se focar em pensamentos negativos do passado ou preocupações futuras (ruminação). Curiosidade:  Estudos com fMRI mostram alterações na atividade cerebral em áreas associadas à ruminação após a prática de mindfulness."
+  },
+  {
+    "id": "quiz-bem-estar-88",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual neurotransmissor é principalmente afetado pela prática regular de exercícios físicos e está associado a melhorias no humor e redução da ansiedade?",
+    "options": [
+      "Dopamina",
+      "Serotonina",
+      "Endorfinas",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "A atividade física aumenta os níveis de dopamina, serotonina e endorfinas, neurotransmissores essenciais para o humor, bem-estar e redução de estresse e ansiedade. Curiosidade:  a sensação de bem-estar após o exercício é parcialmente explicada pelo aumento desses neurotransmissores."
+  },
+  {
+    "id": "quiz-bem-estar-89",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "O que significa a afirmação 'O paradoxo do progresso' no contexto do bem-estar?",
+    "options": [
+      "O progresso tecnológico sempre melhora o bem-estar.",
+      "Apesar do progresso material, o bem-estar subjetivo não necessariamente acompanha.",
+      "O progresso social é sempre positivo, apesar de seus impactos negativos.",
+      "O progresso científico só beneficia uma pequena parte da população."
+    ],
+    "correctAnswer": "Apesar do progresso material, o bem-estar subjetivo não necessariamente acompanha.",
+    "explanation": "O paradoxo do progresso aponta para a incongruência entre o avanço tecnológico e o bem-estar psicológico. Apesar dos avanços, muitas vezes enfrentamos problemas como ansiedade, depressão e estresse. Curiosidade:  Esta ideia é frequentemente explorada em discussões sobre a sociedade moderna e a busca pela felicidade."
+  },
+  {
+    "id": "quiz-bem-estar-90",
+    "categoryId": "bem-estar",
+    "difficulty": "hard",
+    "question": "Qual conceito psicológico enfatiza a aceitação incondicional de si mesmo, mesmo com imperfeições, promovendo compaixão e autocuidado?",
+    "options": [
+      "Resiliência",
+      "Autoeficácia",
+      "Autocompaixão",
+      "Mindfulness"
+    ],
+    "correctAnswer": "Autocompaixão",
+    "explanation": "A autocompaixão envolve tratar a si mesmo com bondade e compreensão, reconhecendo a humanidade compartilhada das experiências desafiadoras. Curiosidade:  A autocompaixão é um fator protetor contra a depressão e a ansiedade."
+  },
+  {
+    "id": "quiz-bem-estar-91",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "Estabelecer limites saudáveis ajuda principalmente a:",
+    "options": [
+      "Aumentar a produtividade a qualquer custo",
+      "Evitar conflitos interpessoais completamente",
+      "Proteger seu bem-estar emocional e físico",
+      "Controlar completamente o ambiente ao seu redor"
+    ],
+    "correctAnswer": "Proteger seu bem-estar emocional e físico",
+    "explanation": "Limites saudáveis protegem seu tempo, energia e espaço pessoal, prevenindo o esgotamento e promovendo um equilíbrio saudável. Curiosidade:  Dizer 'não' às vezes é fundamental para manter limites saudáveis."
   }
 ]

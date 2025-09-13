@@ -988,5 +988,32 @@
     "content": "A Ilha de Páscoa guarda mais mistérios do que seus moais.  Recentes descobertas sugerem a existência de um sistema de escrita rupestre, ainda não decifrado, gravado em rochas e ossos.  Estudiosos acreditam que ele poderia conter informações sobre a organização social e a história da ilha.  Será que esses códigos revelam uma civilização ainda mais complexa?",
     "funFact": "Algumas inscrições parecem ser uma forma de calendário astronômico, indicando um conhecimento avançado de astronomia.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "historia-111",
+    "categoryId": "historia",
+    "title": "O Segredo dos Coliseus Perdidos",
+    "hook": "Incrível: Coliseus escondidos!",
+    "content": "Evidências arqueológicas sugerem a existência de diversos coliseus romanos menores, além do famoso Coliseu de Roma.  Esses anfiteatros, perdidos ao longo dos séculos, eram usados para entretenimentos locais em cidades menores do Império.  Sua descoberta ainda é um desafio para arqueólogos.",
+    "funFact": "Alguns desses coliseus podem estar parcialmente enterrados sob cidades modernas!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-112",
+    "categoryId": "historia",
+    "title": "O Mistério das Máscaras de Madeira Inca",
+    "hook": "Você sabia que...",
+    "content": "As máscaras de madeira encontradas em sítios arqueológicos incas revelam uma variedade de expressões e estilos complexos.  Mas a sua verdadeira função e significado ainda são enigmáticos, gerando debates entre historiadores e antropólogos sobre seu papel em rituais e crenças.",
+    "funFact": "Algumas máscaras parecem representar figuras mitológicas incas desconhecidas, desafiando interpretações simples.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-113",
+    "categoryId": "historia",
+    "title": "A Dieta Oculta dos Imperadores Romanos",
+    "hook": "Incrível:  A mesa imperial escondia segredos!",
+    "content": "Os banquetes romanos eram famosos, mas a dieta diária dos imperadores era bem diferente do que se imagina.  Alimentos exóticos e ritos secretos cercavam suas refeições,  com foco em saúde e longevidade.  Plantas medicinais e preparos específicos faziam parte do cotidiano imperial.",
+    "funFact": "Alguns historiadores acreditam que alguns imperadores usavam receitas secretas para combater envelhecimento.",
+    "curiosityLevel": 4
   }
 ]

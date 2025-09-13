@@ -817,5 +817,221 @@
     "content": "Em alguns exoplanetas gigantes de gelo, a pressão e a temperatura nas camadas superiores da atmosfera são tão extremas que chove diamantes.  Sim, literalmente! A transformação do carbono sob essas condições resulta em cristais de diamante que caem como chuva.",
     "funFact": "Essa chuva de diamantes poderia formar verdadeiras montanhas de diamantes no planeta.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-92",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério dos Planetas 'Puffs'",
+    "hook": "Incrível: Planetas inchados!",
+    "content": "Existem exoplanetas extremamente inchados, com densidades muito baixas, apelidados de 'super-puffs'.  Sua composição ainda é um mistério, mas acredita-se que sejam ricos em gases leves e possivelmente com uma estrutura interna complexa e pouco densa.  Cientistas buscam entender como esses gigantes gasosos se formaram e evoluíram.",
+    "funFact": "Alguns super-puffs são tão leves que poderiam flutuar na água (se houvesse um oceano grande o suficiente!).",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-93",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias Anãs Esféricas: Relíquias Cosmicas",
+    "hook": "Você sabia que...",
+    "content": "Existem galáxias anãs esféricas, extremamente antigas e ricas em estrelas, que orbitam galáxias maiores como a nossa Via Láctea.  Elas são consideradas fósseis do universo primitivo, contendo informações cruciais sobre a formação das primeiras estrelas e galáxias.  Seu estudo é fundamental para a cosmologia.",
+    "funFact": "Algumas delas possuem populações estelares tão antigas quanto o próprio universo!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-94",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Dança Estelar de Sistemas Triplos",
+    "hook": "Surpreendente!",
+    "content": "Sistemas estelares triplos, com três estrelas orbitando um centro de massa comum, são mais complexos do que parecem.  Suas interações gravitacionais podem levar a elipses orbitais caóticas e instáveis, culminando em ejeções estelares ou colisões colossais.  A dança é complexa e imprevisível.",
+    "funFact": "Alguns sistemas triplos podem gerar eventos de supernovas em cadeia!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-95",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Cristal: Uma Hipótese Incrível",
+    "hook": "Incrível: Estrelas de cristal?",
+    "content": "Imagine estrelas compostas não de gás, mas de átomos pesados e cristalizados, formando estruturas gigantescas e brilhantes.  Uma teoria sugere que, sob condições extremas, algumas estrelas podem sofrer um processo de cristalização, criando objetos cósmicos extremamente densos e resistentes. A confirmação dessa teoria é o desafio.",
+    "funFact": "Uma estrela de cristal poderia ser mais dura que o diamante!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-96",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Paradoxo dos Buracos Negros Primordiais",
+    "hook": "Incrível: Buracos negros minúsculos!",
+    "content": "Teorias sugerem a existência de buracos negros primordiais, formados logo após o Big Bang.  Sua massa seria ínfima, mas sua gravidade ainda significativa. Detectá-los é um desafio colossal, pois eles são quase indetectáveis.  A busca por esses objetos pode revolucionar nossa compreensão da formação do universo.",
+    "funFact": "Alguns modelos preveem que esses buracos negros poderiam compor uma parte significativa da matéria escura.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-97",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Bioassinaturas na Lua de Júpiter",
+    "hook": "Incrível:",
+    "content": "Europa, uma das luas de Júpiter, possui um oceano subterrâneo líquido.  A busca por sinais de vida extraterrestre nesse oceano, através da detecção de bioassinaturas, é um dos principais objetivos da exploração espacial atual. O gelo superficial pode conter moléculas orgânicas.",
+    "funFact": "A quantidade de água em Europa pode superar a da Terra.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-98",
+    "categoryId": "universo-e-astronomia",
+    "title": "Nebulosas Obscuras: Berços Estelares Ocultos",
+    "hook": "Você sabia que...",
+    "content": "Embora pareçam vazios, as nebulosas escuras são regiões ricas em gás e poeira cósmica, onde novas estrelas se formam. A densidade da poeira as torna opacas, ocultando a formação estelar em seu interior, revelando-se apenas por meio de técnicas avançadas.",
+    "funFact": "Essas nebulosas são muito frias e densas, a temperaturas próximas do zero absoluto.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-99",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Sinais de Civilizações Extintas",
+    "hook": "Incrível:",
+    "content": "A busca por vida extraterrestre não se limita apenas à vida atual.  Cientistas buscam sinais de civilizações que podem ter existido em outros planetas, mas que já desapareceram.  A detecção de vestígios tecnológicos poderia ser uma forma de encontrar essa prova.",
+    "funFact": "Esses vestígios poderiam incluir estruturas gigantes ou alterações na composição atmosférica.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-100",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Origem dos Elementos Pesados",
+    "hook": "Incrível:",
+    "content": "A maioria dos elementos químicos mais pesados que o hidrogênio e o hélio foram forjados no coração de estrelas massivas ou durante eventos catastróficos, como supernovas.  Nossa própria existência depende desses processos estelares que forjam os átomos que compõem tudo à nossa volta.",
+    "funFact": "O ouro, por exemplo, é um elemento pesado originário de colisões de estrelas de nêutrons.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-101",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Evolução dos Buracos Negros Supermassivos",
+    "hook": "Você sabia que...",
+    "content": "Buracos negros supermassivos, milhões ou bilhões de vezes mais massivos que o nosso Sol, residem nos centros da maioria das galáxias. Sua formação e crescimento são ainda um enigma, mas provavelmente envolvem a fusão de buracos negros menores e a acreção de matéria.",
+    "funFact": "Sua influência gravitacional molda a estrutura das galáxias hospedeiras.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-102",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Exoplanetas Habitáveis",
+    "hook": "Incrível:",
+    "content": "A busca por exoplanetas habitáveis é um dos grandes desafios da astronomia moderna.  Cientistas usam diversos métodos para detectar planetas fora do nosso sistema solar, procurando por aqueles que estejam na zona habitável de suas estrelas, onde a água pode existir em estado líquido.",
+    "funFact": "Milhares de exoplanetas já foram descobertos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-103",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério da Matéria Escura e a Energia Escura",
+    "hook": "Você sabia que...",
+    "content": "Apesar da sua influência dominante no universo, ainda não sabemos o que é a matéria escura e a energia escura. Essas duas componentes misteriosas constituem a maior parte do universo, mas sua natureza permanece um dos maiores desafios da física moderna.",
+    "funFact": "Elas compõem mais de 95% do universo.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-104",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Van der Waals",
+    "hook": "Incrível: Estrelas de um novo tipo!",
+    "content": "Cientistas teorizam a existência de estrelas formadas por forças de Van der Waals, diferentes das estrelas convencionais.  Essas estrelas seriam extremamente densas e frias, compostas por átomos exóticos interagindo através de forças intermoleculares fracas. Sua detecção seria um grande desafio.",
+    "funFact": "Essas estrelas hipotéticas poderiam desafiar completamente nossa compreensão da formação estelar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-105",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Van der Waals: Um Enigma Cósmico",
+    "hook": "Incrível: Estrelas que desafiam a física!",
+    "content": "Cientistas teorizam a existência de estrelas de Van der Waals, formadas por forças intermoleculares fracas, diferente das estrelas convencionais. Sua estrutura e comportamento são completamente desconhecidos, abrindo um novo campo de estudo na astrofísica. Seriam elas estáveis? Como se formam?",
+    "funFact": "Essas estrelas hipotéticas poderiam existir em temperaturas extremamente baixas, desafiando nossa compreensão atual de formação estelar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-106",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Mistério dos Planetas Gelados Fugitivos",
+    "hook": "Incrível: Planetas errantes...",
+    "content": "Imagine planetas do tamanho de Júpiter, expulsos de seus sistemas estelares, vagando sozinhos pela escuridão interestelar.  Esses gigantes gelados, com temperaturas extremamente baixas, desafiam nossa compreensão da formação planetária e representam um novo tipo de mundo a ser explorado. Sua existência levanta questões sobre a frequência desse fenômeno e a possibilidade de abrigar vida em condições tão extremas.",
+    "funFact": "Alguns desses planetas podem possuir luas que sobrevivem à ejeção, criando sistemas planetários miniaturizados e isolados.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-107",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias em Forma de Anel: Raridades Cósmicas",
+    "hook": "Incrível:",
+    "content": "Ao contrário das galáxias espirais ou elípticas, algumas galáxias possuem uma estrutura anelar única, formada por um halo central e um anel brilhante externo. Acredita-se que essas formações sejam o resultado de colisões galácticas, onde uma galáxia menor atravessa o centro de uma maior, gerando ondas de formação estelar.",
+    "funFact": "Essas galáxias são relativamente raras, representando apenas uma pequena porcentagem do universo observável.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-108",
+    "categoryId": "universo-e-astronomia",
+    "title": "O Eco do Big Bang em Ondas de Rádio",
+    "hook": "Incrível: ",
+    "content": "Recentes observações de rádio revelaram padrões inesperados na radiação cósmica de fundo, sugerindo ecos do Big Bang ainda não totalmente compreendidos.  Cientistas tentam decifrar esses sinais para obter informações sobre o universo primordial, suas primeiras frações de segundo.  A complexidade desses padrões desafia os modelos cosmológicos atuais.",
+    "funFact": "Esses ecos de rádio podem conter informações sobre a inflação cósmica, um período de expansão exponencial do universo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-109",
+    "categoryId": "universo-e-astronomia",
+    "title": "Planetas com Atmosferas de Diamante?",
+    "hook": "Você sabia que...",
+    "content": "Existem teorias que sugerem a existência de planetas com atmosferas ricas em carbono, que sob condições de alta pressão e temperatura poderiam cristalizar-se em diamantes. Essas 'joias cósmicas' seriam planetas extremamente densos e exóticos, totalmente diferentes de tudo o que conhecemos em nosso sistema solar.",
+    "funFact": "Um desses planetas poderia ter uma atmosfera tão espessa que seria totalmente opaco, obscurecendo qualquer luz visível.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-110",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias Anãs Ultradifusas: Fantasmas Cósmicos",
+    "hook": "Surpreendente: ",
+    "content": "Galáxias anãs ultradifusas são objetos celestes extremamente tênues e difíceis de detectar. Elas são compostas por poucas estrelas, mas se espalham por uma região enorme, tornando sua densidade extremamente baixa. A origem e formação dessas 'galáxias fantasmas' são um mistério para os astrônomos.",
+    "funFact": "Algumas delas podem conter matéria escura em proporções muito maiores do que as galáxias comuns.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-111",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Busca por Bioassinaturas em Luas de Gelo",
+    "hook": "Incrível: ",
+    "content": "As luas geladas de planetas gigantes em outros sistemas solares são agora consideradas locais promissores para a busca de vida extraterrestre.  Sob a superfície congelada, oceanos de água líquida podem existir, abrigando potenciais formas de vida. Missões futuras buscarão evidências dessas 'bioassinaturas'.",
+    "funFact": "Europa, uma lua de Júpiter, é um dos principais candidatos a abrigar vida extraterrestre.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "universo-e-astronomia-112",
+    "categoryId": "universo-e-astronomia",
+    "title": "A Origem dos Elementos Pesados: Estrelas de Nêutrons",
+    "hook": "Surpreendente: ",
+    "content": "A maioria dos elementos pesados encontrados na Terra, como ouro, platina e urânio, não foram formados durante o Big Bang.  Eles são criados em eventos cataclísmicos como a colisão de estrelas de nêutrons, liberando uma explosão de elementos pesados pelo universo.",
+    "funFact": "Uma única colisão de estrelas de nêutrons pode produzir mais ouro do que o encontrado em vários asteroides.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "universo-e-astronomia-113",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas de Cristal: Uma Possibilidade?",
+    "hook": "Incrível: Estrelas de cristal?",
+    "content": "Imagine estrelas compostas não de gás, mas de cristal sólido, um estado exótico da matéria previsto teoricamente sob condições de extrema pressão e temperatura.  Estudos recentes sugerem que essa forma cristalina poderia existir em alguns objetos estelares, desafiando nossa compreensão da formação estelar. Sua estrutura seria tão firme que resistiria ao colapso gravitacional.",
+    "funFact": "Essas estrelas de cristal poderiam ser incrivelmente densas, com uma colher de chá pesando bilhões de toneladas!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "universo-e-astronomia-114",
+    "categoryId": "universo-e-astronomia",
+    "title": "Galáxias em Forma de Anel: Anéis Cósmicos",
+    "hook": "Incrível:",
+    "content": "Algumas galáxias desafiam a forma espiral ou elíptica clássica, exibindo uma estrutura em anel.  Acredita-se que essas formas incomuns sejam resultado de colisões galácticas, onde uma galáxia menor atravessa uma maior, criando ondas de formação estelar que se propagam em forma de anel.",
+    "funFact": "Esses anéis podem ter diâmetros de dezenas de milhares de anos-luz!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "universo-e-astronomia-115",
+    "categoryId": "universo-e-astronomia",
+    "title": "Estrelas com Campos Magnéticos Extremos: Magnetares",
+    "hook": "Incrível:",
+    "content": "Certos tipos de estrelas de nêutrons, chamadas magnetares, possuem campos magnéticos trilhões de vezes mais fortes que o da Terra.  Esses campos magnéticos extremamente intensos podem gerar explosões de raios gama e afetar o espaço ao seu redor de maneiras dramáticas.",
+    "funFact": "Um único magnetar poderia magnetizar todo o sistema solar!",
+    "curiosityLevel": 3
   }
 ]

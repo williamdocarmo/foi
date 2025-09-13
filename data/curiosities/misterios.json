@@ -961,5 +961,194 @@
     "content": "Lendas locais falam de uma cidade próspera submersa nas profundezas do lago glacial perto do Monte Kanchenjunga.  Embora não haja provas concretas, a persistência dos relatos e as características geológicas da região alimentam a especulação sobre a existência dessa cidade perdida.",
     "funFact": "Imagens de sonar revelaram estruturas incomuns no fundo do lago.",
     "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-108",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Manuscritos de Khajuraho",
+    "hook": "Incrível: Textos antigos desafiam a decifração!",
+    "content": "Descobertos em ruínas de um templo indiano, os manuscritos de Khajuraho contêm símbolos complexos e uma linguagem desconhecida.  Sua origem e significado permanecem um mistério, desafiando especialistas em decifração por décadas.  Há teorias sobre uma antiga civilização avançada, mas nenhuma prova conclusiva.",
+    "funFact": "Alguns estudiosos acreditam que os manuscritos contêm segredos sobre tecnologias perdidas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-109",
+    "categoryId": "misterios",
+    "title": "O Mistério dos Sinais de Rádio de Próxima Centauri b",
+    "hook": "Instigante:",
+    "content": "Sinais de rádio incomuns, aparentemente vindos do exoplaneta Próxima Centauri b, têm sido detectados, gerando debate entre a comunidade científica.  Sua origem natural ou artificial permanece em aberto, mantendo a possibilidade de um contato extraterrestre em um véu de mistério.",
+    "funFact": "A proximidade de Próxima Centauri b ao nosso sistema solar aumenta o interesse na descoberta.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-110",
+    "categoryId": "misterios",
+    "title": "O Segredo do Lago Gelado",
+    "hook": "Incrível: um lago congelado esconde...",
+    "content": "Sob o gelo eterno de um lago remoto na Sibéria, jaz um mistério.  Análises recentes revelaram vestígios de uma estrutura submersa, possivelmente artificial, que desafia todas as explicações.  A idade e a origem dessa estrutura permanecem um enigma, alimentando teorias que vão de estruturas naturais até ruínas de uma civilização perdida.  Será que algo está escondido nas profundezas geladas?",
+    "funFact": "A estrutura emite sinais eletromagnéticos inexplicáveis.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-111",
+    "categoryId": "misterios",
+    "title": "A Floresta Silenciosa",
+    "hook": "Você sabia que...",
+    "content": "Em uma floresta profunda na Amazônia, existe uma área onde o silêncio é absoluto. Nenhum som de animais, vento ou insetos pode ser ouvido.  Cientistas investigaram o local, mas não encontraram explicação para essa anomalia acústica. A área é cercado por uma aura de mistério, alimentando lendas sobre energias sobrenaturais.",
+    "funFact": "Os aparelhos eletrônicos param de funcionar dentro da floresta.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-112",
+    "categoryId": "misterios",
+    "title": "O Segredo da Pedra que Canta",
+    "hook": "Você sabia que...",
+    "content": "No coração do deserto do Atacama, uma pedra emite um som estranho quando o sol se põe. O som, descrito como um lamento, varia em intensidade e tonalidade, sem nenhuma fonte aparente.  Geólogos ficaram perplexos com o fenômeno, que desafia as explicações científicas.",
+    "funFact": "O som pode ser ouvido a quilômetros de distância.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-113",
+    "categoryId": "misterios",
+    "title": "O Segredo da Ilha Esquecida",
+    "hook": "Incrível: Uma ilha sumiu!",
+    "content": "A pequena ilha de San Jerónimo, no Pacífico Sul, desapareceu misteriosamente dos mapas e registros históricos.  Nenhuma explicação convincente foi encontrada para o seu sumiço, alimentando teorias sobre eventos geológicos extremos ou até mesmo interferências extraterrestres.  Sua localização exata permanece um mistério.",
+    "funFact": "Nem mesmo os mapas náuticos mais antigos conseguem apontar com precisão sua localização.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-114",
+    "categoryId": "misterios",
+    "title": "O Enigma do Lago Subglacial Ellsworth",
+    "hook": "Incrível: um lago oculto!",
+    "content": "Sob a Antártica, um lago gigante permanece misterioso.  Seu ecossistema isolado poderia abrigar vida desconhecida, desafiando nossas compreensões da biologia e da adaptação extrema.  A pressão, o frio e a escuridão total criam um ambiente único e intrigante para a ciência.",
+    "funFact": "Amostras de água revelaram a presença de microrganismos desconhecidos!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-115",
+    "categoryId": "misterios",
+    "title": "O Segredo do Lago Subglacial Mercer",
+    "hook": "Incrível: um lago oculto!",
+    "content": "Sob a espessa camada de gelo da Antártica, reside o Lago Mercer, um corpo d'água isolado e misterioso.  Sua descoberta recente levantou questões sobre a vida potencial em ambientes extremos e a história geológica do continente gelado.  A escuridão eterna e a pressão imensa criam um ambiente único e intrigante.",
+    "funFact": "Acredita-se que o lago contenha microrganismos desconhecidos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-116",
+    "categoryId": "misterios",
+    "title": "O Enigma das Ruínas de Helike Submersas",
+    "hook": "Impressionante!",
+    "content": "A antiga cidade grega de Helike, engolida pelo mar após um devastador terremoto e tsunami, continua a intrigar arqueólogos.  Restos da cidade foram encontrados no fundo do mar, revelando arquitetura e artefatos da civilização grega antiga. Sua descoberta é uma janela para um passado perdido.",
+    "funFact": "Muitos mitos gregos podem ter origem em eventos ocorridos em Helike.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-117",
+    "categoryId": "misterios",
+    "title": "O Enigma dos Monólitos de Easter Island Submersos",
+    "hook": "Você sabia que...",
+    "content": "Recentes pesquisas sugerem que existem estruturas monolíticas semelhantes às famosas estátuas da Ilha de Páscoa, submersas nas águas ao redor da ilha.  A descoberta levanta questões sobre a real extensão da cultura Rapa Nui e o tamanho da sua população original.",
+    "funFact": "As estruturas submersas podem ser ainda maiores do que as que estão na ilha.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-118",
+    "categoryId": "misterios",
+    "title": "O Segredo da Floresta Subterrânea de Sarawak",
+    "hook": "Impressionante!",
+    "content": "Nas profundezas das cavernas de Sarawak, na ilha de Bornéu, existe uma floresta subterrânea com vegetação exuberante.  Sua existência desafiou a compreensão científica sobre a fotossíntese em ambientes sem luz solar.  A origem da vida neste ecossistema enigmático é um mistério.",
+    "funFact": "A floresta abriga espécies de plantas e animais únicas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-119",
+    "categoryId": "misterios",
+    "title": "O Enigma da Cidade Submersa de Dwarka II",
+    "hook": "Impressionante!",
+    "content": "Novas pesquisas sugerem que a cidade submersa de Dwarka, na Índia, pode ser ainda mais extensa do que se imaginava, com estruturas complexas e arquitetura avançada para sua época. A cidade, ligada a lendas antigas, continua a revelar seus segredos.",
+    "funFact": "A cidade está ligada à mitologia hindu.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-120",
+    "categoryId": "misterios",
+    "title": "O Enigma da Esfinge Subaquática",
+    "hook": "Incrível: Uma esfinge no fundo do mar!",
+    "content": "Pesquisadores encontraram uma estrutura rochosa submersa na costa da Grécia, com características surpreendentemente semelhantes a uma esfinge.  Sua origem e propósito permanecem um mistério, alimentando teorias que vão de antigas civilizações a fenômenos geológicos inexplicáveis.  Será uma obra de arte antiga ou uma brincadeira da natureza?",
+    "funFact": "Análises preliminares sugerem que a estrutura pode ser muito mais antiga do que se imaginava inicialmente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-121",
+    "categoryId": "misterios",
+    "title": "O Silêncio do Mar de Flores",
+    "hook": "Você sabia que...",
+    "content": "O Triângulo das Bermudas tem sua fama, mas o Mar de Flores, na Indonésia, guarda um silêncio misterioso.  Diversas embarcações desapareceram sem deixar vestígios, desafiando explicações tradicionais como tempestades ou piratas. Os registros históricos são escassos, tornando o mistério ainda mais intrigante.",
+    "funFact": "Nenhum destroço ou sinal de luta foi encontrado em nenhum dos casos de desaparecimento relatados.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-122",
+    "categoryId": "misterios",
+    "title": "A Ilha Fantasma de Pohnpei",
+    "hook": "Assombroso:",
+    "content": "A ilha de Pohnpei, na Micronésia, abriga ruínas de uma cidade antiga chamada Nan Madol. Construída sobre recifes de coral, sua sofisticada arquitetura e o desaparecimento de seus habitantes intrigam pesquisadores há décadas.  As histórias sobre fantasmas e segredos ancestrais alimentam seu mistério.",
+    "funFact": "As ruínas são tão bem construídas que resistem a terremotos e tempestades.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-123",
+    "categoryId": "misterios",
+    "title": "O Caso dos Desaparecimentos em Aokigahara",
+    "hook": "Perturbador:",
+    "content": "A Floresta Aokigahara, no Japão, é conhecida por seu alto índice de suicídios e desaparecimentos inexplicáveis.  A densa vegetação, as cavernas e o terreno acidentado contribuem para a dificuldade de busca e resgate, transformando-a em um local enigmático e assustador.",
+    "funFact": "Buscas e expedições relatam a forte sensação de desorientação mesmo com equipamentos de navegação.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "misterios-124",
+    "categoryId": "misterios",
+    "title": "O Segredo da Cidade Perdida de Zerzura",
+    "hook": "Lendário:",
+    "content": "Zerzura, uma cidade mítica no deserto do Saara, é descrita em lendas antigas como um oásis escondido e próspero.  Apesar de várias expedições, sua existência continua em debate, alimentando a crença em sua natureza lendária ou a possibilidade de que a localização original tenha sido perdida.",
+    "funFact": "As descrições de Zerzura variam de acordo com a cultura e o tempo, dificultando sua localização.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-125",
+    "categoryId": "misterios",
+    "title": "O Enigma da Floresta de Pedra Gigante",
+    "hook": "Colossal:",
+    "content": "Uma floresta de pilares de pedra gigantescos, de origem desconhecida, foi encontrada em uma região remota da Sibéria.  Sua altura e a precisão de seus formatos intrigam pesquisadores, sugerindo uma possível origem não-natural ou uma tecnologia avançada de uma civilização desconhecida.",
+    "funFact": "Alguns pilares apresentam inscrições indecifráveis.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "misterios-126",
+    "categoryId": "misterios",
+    "title": "O Silêncio da Cratera de Wolfe Creek",
+    "hook": "Misterioso:",
+    "content": "A cratera de Wolfe Creek, na Austrália, é uma das maiores crateras de impacto preservadas no mundo.  Apesar de sua idade e tamanho, há um silêncio inexplicável em torno de suas origens e o que aconteceu nos arredores na época do impacto.",
+    "funFact": "Nenhuma evidência de vida foi encontrada dentro ou ao redor da cratera.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "misterios-127",
+    "categoryId": "misterios",
+    "title": "O Enigma do Monólito de Bimini",
+    "hook": "Antigo:",
+    "content": "Formações rochosas submersas perto de Bimini, nas Bahamas, são conhecidas como o Monólito de Bimini.  Seu alinhamento e características semelhantes a estruturas feitas pelo homem intrigam pesquisadores, com teorias que variam de estruturas naturais extraordinárias a vestígios de uma civilização perdida.",
+    "funFact": "As rochas apresentam cortes precisos que parecem artificiais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "misterios-128",
+    "categoryId": "misterios",
+    "title": "O Segredo das Ruínas Submersas de Yonaguni II",
+    "hook": "Submerso:",
+    "content": "Novas descobertas revelaram estruturas submersas perto de Yonaguni, ainda maiores e mais complexas que as conhecidas.  A sua descoberta aumenta o mistério sobre a sua origem e propósito, alimentando o debate sobre possíveis ligações com civilizações antigas ou estruturas geológicas naturais extraordinárias.",
+    "funFact": "Algumas estruturas apresentam hieróglifos indecifráveis.",
+    "curiosityLevel": 5
   }
 ]

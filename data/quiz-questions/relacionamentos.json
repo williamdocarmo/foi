@@ -1216,5 +1216,61 @@
     ],
     "correctAnswer": "O romântico é passageiro, o companheiro é duradouro e baseado em confiança e respeito",
     "explanation": "O amor romântico é marcado por paixão e idealização, enquanto o amor companheiro é construído na confiança, respeito e companheirismo. Curiosidade: Muitos relacionamentos duradouros transcendem o amor romântico inicial para se tornarem um amor companheiro profundo."
+  },
+  {
+    "id": "quiz-relacionamentos-88",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é um bom exemplo de demonstração de carinho não-romântico?",
+    "options": [
+      "Um abraço apertado",
+      "Um beijo apaixonado",
+      "Um presente caro",
+      "Um elogio sincero"
+    ],
+    "correctAnswer": "Um abraço apertado",
+    "explanation": "Abraços, apertos de mão e gestos amigáveis são formas comuns de carinho platônico.  Curiosidade: O contato físico amigável libera ocitocina, um hormônio que promove o bem-estar."
+  },
+  {
+    "id": "quiz-relacionamentos-89",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Em um relacionamento saudável, qual destas atitudes é mais importante?",
+    "options": [
+      "Competitividade",
+      "Controle",
+      "Comunicação aberta",
+      "Isolamento"
+    ],
+    "correctAnswer": "Comunicação aberta",
+    "explanation": "A comunicação franca e honesta é essencial para um relacionamento saudável.  Curiosidade:  Aprender a se comunicar de forma assertiva previne muitos conflitos."
+  },
+  {
+    "id": "quiz-relacionamentos-90",
+    "categoryId": "relacionamentos",
+    "difficulty": "easy",
+    "question": "Qual é a base de uma amizade duradoura?",
+    "options": [
+      "Interesses em comum",
+      "Confiança e respeito mútuo",
+      "Proximidade geográfica",
+      "Personalidades semelhantes"
+    ],
+    "correctAnswer": "Confiança e respeito mútuo",
+    "explanation": "A confiança e o respeito mútuo são fundamentais para qualquer relacionamento duradouro, especialmente amizades.  Curiosidade:  Amizades longas são mais propensas a ter uma influência positiva na saúde mental do que as curtas."
+  },
+  {
+    "id": "quiz-relacionamentos-91",
+    "categoryId": "relacionamentos",
+    "difficulty": "medium",
+    "question": "Qual comportamento pode ser um sinal de codependência em um relacionamento?",
+    "options": [
+      "Independência excessiva",
+      "Priorizar suas próprias necessidades",
+      "Negligenciar suas próprias necessidades para agradar o parceiro",
+      "Manter limites claros"
+    ],
+    "correctAnswer": "Negligenciar suas próprias necessidades para agradar o parceiro",
+    "explanation": "A codependência envolve sacrificar suas próprias necessidades para manter o relacionamento, muitas vezes em detrimento de sua própria saúde mental e bem-estar. Curiosidade: A codependência pode ser tratada com terapia individual ou em casal."
   }
 ]

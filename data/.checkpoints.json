@@ -73,5 +73,20 @@
     "curiositiesBatchesProcessed": 19,
     "quizzesBatchesProcessed": 9,
     "lastRunAt": "2025-09-13T21:42:51.517Z"
+  },
+  "historia": {
+    "curiositiesBatchesProcessed": 18,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T22:08:43.414Z"
+  },
+  "relacionamentos": {
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T22:19:39.688Z"
+  },
+  "universo-e-astronomia": {
+    "curiositiesBatchesProcessed": 19,
+    "quizzesBatchesProcessed": 9,
+    "lastRunAt": "2025-09-13T22:28:44.584Z"
   }
 }

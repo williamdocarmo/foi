@@ -964,5 +964,19 @@
     ],
     "correctAnswer": "Energia escura",
     "explanation": "A energia escura é uma forma hipotética de energia que permeia todo o espaço e que causa a expansão acelerada do universo.  Sua natureza ainda é um grande mistério para a ciência."
+  },
+  {
+    "id": "quiz-universo-e-astronomia-70",
+    "categoryId": "universo-e-astronomia",
+    "difficulty": "easy",
+    "question": "Qual é o nome do nosso sistema planetário?",
+    "options": [
+      "Sistema Alfa Centauri",
+      "Sistema Solar",
+      "Sistema Sirio",
+      "Sistema Kepler-186"
+    ],
+    "correctAnswer": "Sistema Solar",
+    "explanation": "O Sistema Solar é o sistema planetário que compreende o Sol e todos os objetos que orbitam ao seu redor, incluindo planetas, asteroides, cometas, e outros corpos celestes."
   }
 ]

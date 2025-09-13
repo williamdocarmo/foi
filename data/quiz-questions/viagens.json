@@ -1202,5 +1202,187 @@
     ],
     "correctAnswer": "Brasil",
     "explanation": "O Brasil é um dos maiores produtores de café do mundo. Curiosidade: O café brasileiro é reconhecido internacionalmente por sua qualidade."
+  },
+  {
+    "id": "quiz-viagens-87",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual país é famoso pelos seus numerosos castelos medievais?",
+    "options": [
+      "Itália",
+      "França",
+      "Alemanha",
+      "Inglaterra"
+    ],
+    "correctAnswer": "Alemanha",
+    "explanation": "A Alemanha possui milhares de castelos, muitos dos quais datam da Idade Média, refletindo sua rica história e arquitetura."
+  },
+  {
+    "id": "quiz-viagens-88",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o principal meio de transporte em muitas cidades europeias?",
+    "options": [
+      "Avião",
+      "Automóvel",
+      "Trem",
+      "Bicicleta"
+    ],
+    "correctAnswer": "Trem",
+    "explanation": "Muitas cidades europeias possuem sistemas de trem eficientes e extensos, sendo um meio de transporte popular e prático. Curiosidade: O primeiro trem a vapor foi inventado na Inglaterra no século XIX."
+  },
+  {
+    "id": "quiz-viagens-89",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um pacote turístico 'all inclusive' e um independente?",
+    "options": [
+      "Preço",
+      "Localização",
+      "Atividades Incluídas",
+      "Tipo de transporte"
+    ],
+    "correctAnswer": "Atividades Incluídas",
+    "explanation": "'All inclusive' geralmente inclui acomodação, refeições e atividades, enquanto um pacote independente oferece mais flexibilidade, mas requer planejamento adicional. Curiosidade: O conceito 'all inclusive' surgiu no Caribe nas décadas de 1970 e 1980."
+  },
+  {
+    "id": "quiz-viagens-90",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o impacto do 'overtourism' em destinos populares?",
+    "options": [
+      "Aumento do emprego local",
+      "Preservação ambiental",
+      "Degradação ambiental e cultural",
+      "Redução de preços turísticos"
+    ],
+    "correctAnswer": "Degradação ambiental e cultural",
+    "explanation": "O 'overtourism' (excesso de turismo) leva à degradação ambiental, aumento de preços, estresse na infraestrutura local e perda da autenticidade cultural. Curiosidade: Veneza, na Itália, luta contra os efeitos do overtourism há anos."
+  },
+  {
+    "id": "quiz-viagens-91",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual continente abriga o deserto do Saara?",
+    "options": [
+      "América do Sul",
+      "Ásia",
+      "África",
+      "Europa"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O Saara é o maior deserto quente do mundo, localizado no norte da África. Curiosidade: O Saara já foi uma área verdejante, com lagos e rios, há milhares de anos."
+  },
+  {
+    "id": "quiz-viagens-92",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual tipo de seguro de viagem é crucial para atividades de aventura?",
+    "options": [
+      "Seguro de Bagagem",
+      "Seguro de Viagem Básico",
+      "Seguro de Saúde Internacional",
+      "Seguro de Cancelamento de Viagem"
+    ],
+    "correctAnswer": "Seguro de Saúde Internacional",
+    "explanation": "Atividades de aventura aumentam o risco de acidentes, necessitando de um seguro que cubra assistência médica, resgate e evacuação em áreas remotas. Curiosidade: Sempre verifique se o seu seguro cobre o tipo específico de atividade que você planeja fazer."
+  },
+  {
+    "id": "quiz-viagens-93",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o principal fator influenciando a escolha de um destino turístico sustentável?",
+    "options": [
+      "Preço",
+      "Distância",
+      "Atrativos turísticos",
+      "Práticas ambientais e sociais do destino"
+    ],
+    "correctAnswer": "Práticas ambientais e sociais do destino",
+    "explanation": "O turismo sustentável prioriza a preservação do meio ambiente e o respeito às culturas locais.  Curiosidade:  Busque certificações de turismo sustentável para garantir a autenticidade das práticas do destino."
+  },
+  {
+    "id": "quiz-viagens-94",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a principal vantagem do transporte público em viagens internacionais?",
+    "options": [
+      "Menos caro que voar",
+      "Mais rápido que carros",
+      "Maior flexibilidade de horários",
+      "Experiência cultural mais imersiva"
+    ],
+    "correctAnswer": "Experiência cultural mais imersiva",
+    "explanation": "O transporte público permite interagir com a população local e observar a vida cotidiana de forma mais autêntica. Curiosidade: Muitos países possuem sistemas de transporte público muito eficientes e confortáveis."
+  },
+  {
+    "id": "quiz-viagens-95",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o desafio logístico mais significativo para o turismo espacial?",
+    "options": [
+      "Custo elevado dos foguetes",
+      "Falta de infraestrutura espacial",
+      "Segurança dos passageiros",
+      "Todos os itens acima"
+    ],
+    "correctAnswer": "Todos os itens acima",
+    "explanation": "O turismo espacial enfrenta desafios significativos em custo, infraestrutura, segurança e sustentabilidade ambiental. Curiosidade: Várias empresas privadas estão investindo no turismo espacial, buscando tornar acessível a experiência."
+  },
+  {
+    "id": "quiz-viagens-96",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um mapa físico e um mapa político?",
+    "options": [
+      "Cores utilizadas",
+      "Escala",
+      "Informações geográficas apresentadas",
+      "Formato"
+    ],
+    "correctAnswer": "Informações geográficas apresentadas",
+    "explanation": "Mapas físicos mostram características físicas, como relevo, rios e vegetação; mapas políticos mostram fronteiras, cidades e países. Curiosidade:  Existem mapas que combinam aspectos físicos e políticos."
+  },
+  {
+    "id": "quiz-viagens-97",
+    "categoryId": "viagens",
+    "difficulty": "hard",
+    "question": "Qual o impacto do aquecimento global no turismo de praia?",
+    "options": [
+      "Aumento de turistas",
+      "Redução do nível do mar",
+      "Aumento da temperatura da água e eventos climáticos extremos",
+      "Melhora na qualidade da água"
+    ],
+    "correctAnswer": "Aumento da temperatura da água e eventos climáticos extremos",
+    "explanation": "O aquecimento global aumenta a temperatura da água, provoca eventos climáticos extremos e ameaça ecossistemas costeiros. Curiosidade:  O aumento do nível do mar também representa uma ameaça para as praias."
+  },
+  {
+    "id": "quiz-viagens-98",
+    "categoryId": "viagens",
+    "difficulty": "easy",
+    "question": "Qual o continente onde se localiza a Austrália?",
+    "options": [
+      "América do Sul",
+      "África",
+      "Europa",
+      "Oceania"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "A Austrália é o menor continente e o maior país da Oceania. Curiosidade: A Austrália é um país com uma biodiversidade muito rica e única."
+  },
+  {
+    "id": "quiz-viagens-99",
+    "categoryId": "viagens",
+    "difficulty": "medium",
+    "question": "Qual a importância da pesquisa pré-viagem para um roteiro personalizado?",
+    "options": [
+      "Evitar custos extras",
+      "Ter mais opções de atividades",
+      "Criar uma experiência autêntica",
+      "Todas as anteriores"
+    ],
+    "correctAnswer": "Todas as anteriores",
+    "explanation": "Pesquisar antecipadamente permite otimizar recursos, descobrir atividades e personalizar a experiência de viagem. Curiosidade: Utilizar diferentes fontes de informação, como blogs e sites oficiais, garante uma visão mais completa do destino."
   }
 ]

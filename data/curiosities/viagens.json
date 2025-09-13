@@ -898,5 +898,275 @@
     "content": "Fenômenos geológicos criam ilhas temporárias, que surgem e desaparecem devido a mudanças de nível do mar, erupções vulcânicas ou movimentos de placas tectônicas. Essas ilhas efêmeras, muitas vezes com uma vida útil de apenas alguns meses ou anos, são um lembrete da dinâmica natureza da Terra. Sua existência, embora transitória, deixa rastros importantes para o estudo geológico.",
     "funFact": "Uma ilha no Oceano Índico surgiu após um terremoto e desapareceu seis meses depois.",
     "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-101",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Mapas Celestes Inca",
+    "hook": "Incrível: Mapas estelares perdidos!",
+    "content": "Acredita-se que os Incas possuíam mapas celestes complexos, gravados em pedras e tecidos, que previam eventos astronômicos e guiavam suas atividades agrícolas e rituais.  Poucos desses mapas sobreviveram, e sua verdadeira complexidade permanece um mistério. Muitos detalhes ainda são desconhecidos pela ciência moderna.",
+    "funFact": "Alguns estudiosos acreditam que esses mapas continham informações sobre constelações desconhecidas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-102",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Postais Perdidos",
+    "hook": "Incrível: Cartas que viajam séculos!",
+    "content": "Em arquivos históricos, encontram-se postais antigos com endereços inidentificáveis ou incompletos, entregues décadas após o envio.  Um mistério que intriga historiadores e amantes de viagens, revelando as imprevisibilidades do correio antigo.  Muitos nunca chegaram ao destino final, tornando-se cápsulas do tempo.",
+    "funFact": "Alguns postais foram encontrados em locais totalmente inesperados, a milhares de quilômetros do endereço de destino.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-103",
+    "categoryId": "viagens",
+    "title": "A Estrada dos Gigantes Adormecidos",
+    "hook": "Você sabia que...",
+    "content": "Em uma região remota do Himalaia, há uma estrada antiga, quase totalmente coberta por vegetação, com pedras gigantescas que se assemelham a figuras humanas adormecidas. A lenda local diz que são gigantes protegendo um tesouro perdido.  A estrada permanece um mistério, pouco explorada.",
+    "funFact": "Estudiosos acreditam que a disposição das pedras pode ter um significado astronômico.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-104",
+    "categoryId": "viagens",
+    "title": "As Ruínas da Cidade do Cristal Perdida",
+    "hook": "Surpreendente:",
+    "content": "Lendas contam de uma cidade perdida na Amazônia, feita de um cristal translúcido que brilha à noite.  Exploradores afirmam ter encontrado vestígios da cidade, mas a densa floresta e as condições climáticas impedem uma investigação completa. É uma cidade que parece pertencer a um mundo de fantasia.",
+    "funFact": "Amostras de solo na região mostram vestígios de um mineral semelhante a um cristal desconhecido.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-105",
+    "categoryId": "viagens",
+    "title": "O Segredo das Trilhas Subterrâneas",
+    "hook": "Incrível: cidades subterrâneas!",
+    "content": "Algumas culturas antigas construíram complexas redes de túneis subterrâneos, muitas vezes com propósitos ainda desconhecidos.  Esses labirintos subterrâneos, descobertos em várias partes do mundo, escondem segredos e mistérios que desafiam os historiadores até hoje.  A complexidade arquitetônica e a extensão de algumas dessas redes são surpreendentes.",
+    "funFact": "Em algumas dessas cidades subterrâneas, foram encontrados artefatos que sugerem a existência de tecnologias avançadas para a época.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-106",
+    "categoryId": "viagens",
+    "title": "Os Oceanos Bioluminescentes",
+    "hook": "Você sabia que...",
+    "content": "Existem regiões oceânicas onde a água brilha intensamente à noite, criando um espetáculo natural mágico.  Este fenômeno é causado por microrganismos que emitem luz, e o resultado é uma experiência visual extraordinária, raramente vista por humanos, principalmente em águas profundas.",
+    "funFact": "Alguns desses oceanos bioluminescentes emitem um brilho tão intenso que podem ser vistos do espaço.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-107",
+    "categoryId": "viagens",
+    "title": "Os Mapas Estelares Perdidos",
+    "hook": "Você sabia que...",
+    "content": "Culturas antigas, como os maias e os polinésios, possuíam conhecimentos astronômicos avançados, registrando-os em mapas estelares que se perderam ao longo do tempo. Recentes descobertas arqueológicas sugerem a existência de mapas estelares ainda mais complexos e precisos do que se imaginava.",
+    "funFact": "Alguns estudiosos acreditam que esses mapas estelares continham informações sobre viagens interestelares.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-108",
+    "categoryId": "viagens",
+    "title": "As Ilhas que Respiram",
+    "hook": "Incrível:",
+    "content": "Em certos arquipélagos vulcânicos, as ilhas sobem e descem periodicamente devido à atividade geotérmica subterrânea. Este fenômeno geológico único, embora lento, é perceptível ao longo do tempo e cria mudanças dramáticas na geografia do local, alterando as linhas costeiras e profundidades.",
+    "funFact": "Em algumas dessas ilhas, a elevação e o abaixamento chegam a vários metros de amplitude.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-109",
+    "categoryId": "viagens",
+    "title": "Os Desertos de Gelo Subterrâneos",
+    "hook": "Incrível:",
+    "content": "Sob a superfície de algumas regiões polares, existem vastos desertos de gelo subterrâneos, com cavernas e rios gelados. Esses ambientes extremos e inóspitos abrigam formas de vida únicas e adaptadas a condições extremas, desafiando os limites da vida na Terra.",
+    "funFact": "A temperatura nesses desertos de gelo subterrâneos pode chegar a -50 graus Celsius ou menos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-110",
+    "categoryId": "viagens",
+    "title": "O Segredo das Estradas de Pedra",
+    "hook": "Incrível:",
+    "content": "Em regiões remotas da Sibéria, existem estradas de pedra perfeitamente alinhadas, cuja origem permanece um mistério.  Estudiosos debatem se foram formadas naturalmente ou por uma civilização antiga desconhecida.  Sua precisão desafia explicações convencionais.  As pedras, de tamanhos e formas incomuns, parecem ter sido colocadas intencionalmente.",
+    "funFact": "Algumas pedras possuem inscrições indecifráveis.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-111",
+    "categoryId": "viagens",
+    "title": "As Ilhas Desaparecidas do Pacífico",
+    "hook": "Você sabia que...",
+    "content": "Várias ilhas no Pacífico Sul surgem e desaparecem periodicamente, devido a fenômenos vulcânicos subaquáticos.  Estas ilhas efêmeras, muitas vezes mapeadas de forma imprecisa, desafiam a cartografia tradicional e intrigam exploradores e cientistas. A natureza imprevisível destas formações torna a pesquisa muito complexa.",
+    "funFact": "Algumas dessas ilhas só são visíveis em marés baixas.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-112",
+    "categoryId": "viagens",
+    "title": "A Floresta Subaquática de Cristal",
+    "hook": "Surpreendente:",
+    "content": "No fundo do Lago Baikal, na Sibéria, encontra-se uma floresta subaquática de árvores fossilizadas, surpreendentemente preservadas.  As águas cristalinas do lago oferecem uma visão extraordinária desta floresta antiga, um vislumbre único de um ecossistema passado.  A estrutura cristalina da água contribui para a preservação.",
+    "funFact": "A floresta é visível mesmo em mergulhos rasos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-113",
+    "categoryId": "viagens",
+    "title": "As Montanhas que Cantam",
+    "hook": "Incrível:",
+    "content": "Em algumas regiões montanhosas do mundo, o vento que passa pelas formações rochosas produz sons inexplicáveis, que lembram cânticos.  O fenômeno, ainda não totalmente compreendido, cria uma atmosfera mística e intrigante.  A frequência e intensidade dos sons variam dependendo da força do vento.",
+    "funFact": "Os sons podem ser ouvidos a quilômetros de distância.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-114",
+    "categoryId": "viagens",
+    "title": "As Ruínas da Cidade de Cristal",
+    "hook": "Descubra:",
+    "content": "Rumores persistem sobre uma cidade antiga, construída inteiramente de cristal, em algum lugar remoto do Himalaia. A lenda fala de uma civilização avançada que utilizava cristais para gerar energia e manipular a realidade. Será apenas uma lenda ou existe uma verdade por trás disso?",
+    "funFact": "Dizem que a cidade brilha à noite, emitindo uma luz intensa.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-115",
+    "categoryId": "viagens",
+    "title": "A Estrada dos Sonhos Esquecidos",
+    "hook": "Incrível: Uma estrada...",
+    "content": "Uma antiga trilha na floresta amazônica, quase completamente encoberta pela vegetação, guarda segredos de uma civilização perdida.  Dizem que a trilha leva a um local sagrado, com ruínas de um templo misterioso,  envolto em lendas e mistérios ancestrais.  Poucos ousam se aventurar.",
+    "funFact": "A trilha só é visível em certos períodos de seca extrema.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-116",
+    "categoryId": "viagens",
+    "title": "O Mistério dos Rios Subterrâneos de Cristal",
+    "hook": "Incrível: rios de cristal!",
+    "content": "Em cavernas profundas, existem rios subterrâneos com cristais gigantescos, criando um cenário surreal e pouco explorado.  Sua formação geológica única os torna um espetáculo da natureza, um tesouro escondido sob a terra.  A maioria desses rios permanece um mistério, com acesso extremamente difícil.",
+    "funFact": "Alguns desses rios contêm espécies de peixes bioluminescentes, criando um espetáculo de luz ainda mais fascinante.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-117",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Trem Fantasmas",
+    "hook": "Incrível: trens que somem!",
+    "content": "Em algumas regiões montanhosas, há relatos de trens fantasmas, avistados por testemunhas, mas que desaparecem misteriosamente.  Seriam eles fruto da imaginação, reflexos de luz, ou algo mais enigmático?  A falta de registros oficiais alimenta as teorias conspiratórias e a aura de mistério.",
+    "funFact": "Uma lenda conta que esses trens carregam passageiros para outra dimensão.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-118",
+    "categoryId": "viagens",
+    "title": "A Estrada dos Sussuros",
+    "hook": "Você sabia que...",
+    "content": "Existe uma estrada na Sibéria, quase totalmente coberta por neve, onde o silêncio é tão profundo que se ouve o sussurro do vento esculpindo o gelo.  Dizem que os viajantes ouvem sussurros ancestrais no vento gélido. Uma experiência única e assustadora.",
+    "funFact": "A neve tão densa que absorve o som, silencia o mundo exterior.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-119",
+    "categoryId": "viagens",
+    "title": "A Lenda do Trem Fantasma Andino",
+    "hook": "Incrível: Um trem...",
+    "content": "Diz a lenda que um trem fantasma percorre os Andes, carregando um tesouro perdido dos Incas.  Sua passagem é marcada por luzes estranhas e um som misterioso que ecoa pelos vales.  Ninguém jamais conseguiu provar sua existência, mas a lenda persiste, alimentando a imaginação de aventureiros.",
+    "funFact": "Alguns dizem que o trem é guardado por um espírito Inca vingativo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-120",
+    "categoryId": "viagens",
+    "title": "A Rota Secreta dos Exploradores Polares",
+    "hook": "Incrível: rotas ocultas!",
+    "content": "Durante a corrida para os polos, exploradores utilizavam rotas alternativas, muitas vezes secretas, para evitar competição e garantir sucesso.  Essas rotas, registradas em diários pessoais, revelam detalhes fascinantes sobre estratégias e desafios desconhecidos pela maioria.  Mapas desenhados em peles de animais e cartas criptografadas guardam ainda segredos.",
+    "funFact": "Uma rota secreta levava a uma fonte geotérmica escondida, usada para derreter gelo e obter água potável.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-121",
+    "categoryId": "viagens",
+    "title": "Os Mapas de Estrelas dos Navegadores Polinésios",
+    "hook": "Você sabia que...",
+    "content": "Os polinésios antigos navegavam pelo Pacífico usando um sistema complexo de navegação baseado nas estrelas, ondas e correntes.  Suas técnicas eram tão avançadas que permitiam viagens transoceânicas com precisão surpreendente, muito antes da invenção da bússola.  A transmissão desse conhecimento era exclusivamente oral.",
+    "funFact": "Eles usavam a posição do sol e das estrelas para calcular a profundidade do oceano.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-122",
+    "categoryId": "viagens",
+    "title": "O Segredo das Cidades Subterrâneas da Capadócia",
+    "hook": "Desvende o mistério!",
+    "content": "A Capadócia abriga um labirinto de cidades subterrâneas, construídas há séculos como refúgios.  Esses complexos intrincados, com múltiplos níveis, túneis secretos e sistemas de ventilação, oferecem um vislumbre de vida em tempos de conflito e perseguição.  Muitas passagens ainda não foram totalmente exploradas.",
+    "funFact": "Algumas cidades subterrâneas possuíam sistemas complexos de armazenamento de água subterrânea.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-123",
+    "categoryId": "viagens",
+    "title": "A Trilha Escondida dos Caminhos Incaicos",
+    "hook": "Incrível:",
+    "content": "Além dos caminhos Incaicos conhecidos, existem inúmeras trilhas menores e pouco exploradas, usadas para conectar comunidades e transportar bens.  Essas rotas, muitas vezes escondidas pela vegetação densa, revelam aspectos da vida cotidiana do Império Inca, menos documentados nos sítios arqueológicos principais.",
+    "funFact": "Algumas trilhas utilizavam pontes suspensas de materiais orgânicos, que se regeneravam naturalmente.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-124",
+    "categoryId": "viagens",
+    "title": "As Ruínas Submersas de Dwarka, Índia",
+    "hook": "Uma cidade perdida!",
+    "content": "Lendas descrevem Dwarka como uma cidade magnífica, afundada no mar.  Evidências arqueológicas sugerem a existência de uma cidade costeira antiga, que pode ter sido parcialmente submersa.  Pesquisas continuam a desvendar a história e o tamanho dessa cidade perdida no mar.",
+    "funFact": "Fragmentos de edifícios e objetos antigos foram encontrados a grandes profundidades no mar.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-125",
+    "categoryId": "viagens",
+    "title": "O Segredo dos Postais do Tempo",
+    "hook": "Mensagens do passado!",
+    "content": "Em diversos lugares do mundo, pessoas encontram postais antigos, às vezes com selos e endereços incompletos, que parecem ter atravessado o tempo.  Esses postais misteriosos levantam questões sobre o destino de seus remetentes e como eles chegaram ao local de descoberta.",
+    "funFact": "Um postal continha uma mensagem críptica sobre uma viagem em um dirigível perdido.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-126",
+    "categoryId": "viagens",
+    "title": "Os Rios Subterrâneos Bioluminescentes do México",
+    "hook": "Prepare-se para se maravilhar!",
+    "content": "Em algumas cavernas mexicanas, existem rios subterrâneos cujas águas brilham com uma luminescência natural.  Essa bioluminescência, criada por microrganismos, cria um espetáculo de luz fascinante nas profundezas escuras.  O acesso a esses rios é muitas vezes difícil e requer equipamentos especiais.",
+    "funFact": "As cores da bioluminescência variam de acordo com a espécie de microrganismo.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "viagens-127",
+    "categoryId": "viagens",
+    "title": "Os Desertos de Cristal do Saara",
+    "hook": "Uma paisagem surreal!",
+    "content": "Em algumas partes do deserto do Saara, extensos campos de cristais de quartzo e outros minerais se estendem pelo horizonte.  Essa paisagem surreal, formada por processos geológicos ao longo de milhões de anos, cria um ambiente único e deslumbrante.  A pesquisa busca compreender sua formação e os processos que moldaram essa região.",
+    "funFact": "Os cristais de quartzo refletem a luz do sol de forma a criar ilusões de ótica incríveis.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "viagens-128",
+    "categoryId": "viagens",
+    "title": "A Estrada Perdida dos Caravaneiros Trans-Saharianos",
+    "hook": "Você sabia que...",
+    "content": "Ao longo de séculos, caravanas atravessaram o deserto do Saara, utilizando rotas antigas e pouco conhecidas.  Vestígios dessas rotas, como poços de água e ruínas de acampamentos, ainda podem ser encontrados em meio às dunas, testemunhando a resistência e a engenhosidade de povos antigos.",
+    "funFact": "As rotas eram guiadas por estrelas, constelações e o conhecimento ancestral da geografia do deserto.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "viagens-129",
+    "categoryId": "viagens",
+    "title": "As Ilhas que Desaparecem na Baía de Fundy",
+    "hook": "Incrível:",
+    "content": "Na Baía de Fundy, Canadá, algumas ilhas parecem desaparecer e reaparecer com as marés extremas.  O nível da água sobe e desce tanto que ilhas menores ficam totalmente submersas, transformando a paisagem costeira de maneira dramática.  É um evento natural que deixa os visitantes boquiabertos.",
+    "funFact": "A diferença entre a maré alta e a maré baixa chega a alcançar mais de 15 metros.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "viagens-130",
+    "categoryId": "viagens",
+    "title": "A Cidade Perdida de Eldoria",
+    "hook": "Incrível: Uma cidade de ouro...",
+    "content": "Lendas persistem sobre Eldoria, uma cidade mítica repleta de ouro e riquezas fabulosas, supostamente escondida na Amazônia.  Exploradores por séculos buscaram em vão sua localização, alimentando o mistério. A vegetação densa e os rios caudalosos protegem seus segredos, se é que ela existe.",
+    "funFact": "Dizem que Eldoria é protegida por seres sobrenaturais.",
+    "curiosityLevel": 4
   }
 ]

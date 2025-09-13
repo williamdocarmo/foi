@@ -1034,5 +1034,19 @@
     ],
     "correctAnswer": "Sucessão ecológica",
     "explanation": "A sucessão ecológica descreve a recuperação de um ecossistema após uma perturbação.  É um processo gradual e pode levar décadas ou séculos para se completar, dependendo da magnitude do evento."
+  },
+  {
+    "id": "quiz-natureza-e-animais-75",
+    "categoryId": "natureza-e-animais",
+    "difficulty": "medium",
+    "question": "Qual o processo de formação de rochas metamórficas?",
+    "options": [
+      "Resfriamento do magma",
+      "Compactação de sedimentos",
+      "Transformação sob pressão e temperatura",
+      "Deposição de materiais"
+    ],
+    "correctAnswer": "Transformação sob pressão e temperatura",
+    "explanation": "As rochas metamórficas são formadas pela transformação de rochas preexistentes (ígnea, sedimentar ou outra rocha metamórfica) sob altas temperaturas e pressões.  O mármore, por exemplo, é uma rocha metamórfica formada a partir do calcário."
   }
 ]
