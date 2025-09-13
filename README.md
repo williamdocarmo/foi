@@ -33,6 +33,12 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
     ```
     O aplicativo estará disponível em `http://localhost:9002`.
 
+4.  **(Opcional) Gere novo conteúdo:**
+    Para popular os arquivos JSON com novas curiosidades e perguntas de quiz usando IA, rode o seguinte comando:
+    ```bash
+    npm run generate-content
+    ```
+
 ---
 
 ## ☁️ Guia de Deploy na Vercel
