@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
@@ -10,11 +10,11 @@ import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
+import { categories, curiositiesByCategory } from "@/lib/data";
 
 type CuriosityExplorerProps = {
   category: Category;
   curiosities: Curiosity[];
-  allCuriosities: Curiosity[]; // Nova prop para receber todos os dados
   initialCuriosityId?: string;
 };
 
@@ -23,7 +23,6 @@ type CuriosityExplorerProps = {
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
-    allCuriosities,
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
@@ -31,6 +30,13 @@ export default function CuriosityExplorer({
   
   // State is now minimal: only the currentIndex is needed.
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
+
+  // Memoize all available curiosity IDs for the surpriseMe function
+  const allCuriosityIds = useMemo(() => {
+    return categories.flatMap(cat => 
+        (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
+    );
+  }, []);
 
   // Effect to set the initial index. This runs ONLY ONCE after the component mounts
   // and the game stats are loaded. This is the key to breaking the rendering loop.
@@ -60,7 +66,7 @@ export default function CuriosityExplorer({
     
   // The empty dependency array [] ensures this effect runs only once.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoaded, curiosities.length]);
+  }, [isLoaded, curiosities.length, initialCuriosityId, category.id]);
 
 
   // Effect to mark a curiosity as read. This is a controlled side-effect that
@@ -93,22 +99,23 @@ export default function CuriosityExplorer({
   }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
-    if (allCuriosities.length <= 1) return;
+    if (allCuriosityIds.length <= 1) return;
   
-    let randomCuriosity: Curiosity;
-    const unread = allCuriosities.filter(c => !stats.readCuriosities.includes(c.id) && c.id !== curiosities[currentIndex!]?.id);
+    const currentId = curiosities[currentIndex!]?.id;
+    let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
   
-    if (unread.length > 0) {
-      randomCuriosity = unread[Math.floor(Math.random() * unread.length)];
-    } else {
-      const allOthers = allCuriosities.filter(c => c.id !== curiosities[currentIndex!]?.id);
-      randomCuriosity = allOthers[Math.floor(Math.random() * allOthers.length)];
+    let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
+
+    if (unreadIds.length > 0) {
+        availableIds = unreadIds;
     }
+
+    const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
     // Navigate to the new curiosity's page, which will re-render the component tree correctly.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
-  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosities]);
+  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
   
   
   if (curiosities.length === 0) {
@@ -225,7 +232,7 @@ export default function CuriosityExplorer({
       
       <div className="flex justify-center">
          <Button variant="ghost" onClick={surpriseMe} aria-label="Surpreenda-me com uma curiosidade aleatória">
-            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me com uma curiosidade aleatória
+            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me
          </Button>
       </div>
 
