@@ -6564,5 +6564,649 @@
     "explanation": "A crescente dependência da tecnologia impulsionará a demanda por profissionais de desenvolvimento de software.",
     "id": "quiz-futuro-544",
     "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual recurso natural é crucial para a produção de energia em muitas usinas de energia?",
+    "options": [
+      "Petróleo",
+      "Água",
+      "Gás Natural",
+      "Urânio"
+    ],
+    "correctAnswer": "Água",
+    "explanation": "Muitas usinas hidrelétricas usam a força da água para gerar eletricidade.",
+    "id": "quiz-futuro-545",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia promete revolucionar a forma como diagnosticamos e tratamos doenças?",
+    "options": [
+      "Realidade Virtual",
+      "Impressão 3D",
+      "Nanotecnologia",
+      "Inteligência Artificial"
+    ],
+    "correctAnswer": "Nanotecnologia",
+    "explanation": "A nanotecnologia permite o desenvolvimento de medicamentos e tratamentos altamente específicos e eficazes.",
+    "id": "quiz-futuro-546",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o principal obstáculo para a colonização de Marte?",
+    "options": [
+      "Falta de tecnologia",
+      "Custo financeiro proibitivo",
+      "Condições ambientais hostis",
+      "Resistência política"
+    ],
+    "correctAnswer": "Condições ambientais hostis",
+    "explanation": "A falta de atmosfera respirável, temperaturas extremas e radiação são desafios significativos para a colonização de Marte.",
+    "id": "quiz-futuro-547",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas tecnologias é considerada uma forma de energia renovável?",
+    "options": [
+      "Carvão",
+      "Petróleo",
+      "Energia Eólica",
+      "Gás Natural"
+    ],
+    "correctAnswer": "Energia Eólica",
+    "explanation": "A energia eólica é gerada a partir da força do vento, uma fonte renovável.",
+    "id": "quiz-futuro-548",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto previsto do aumento da temperatura global nos ecossistemas marinhos?",
+    "options": [
+      "Aumento da biodiversidade",
+      "Acidificação dos oceanos",
+      "Diminuição do nível do mar",
+      "Formação de novas ilhas"
+    ],
+    "correctAnswer": "Acidificação dos oceanos",
+    "explanation": "O aumento de CO2 na atmosfera leva à acidificação dos oceanos, prejudicando a vida marinha.",
+    "id": "quiz-futuro-549",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito futuro se refere à criação de um sistema computacional com capacidade cognitiva semelhante à humana?",
+    "options": [
+      "Internet das Coisas",
+      "Biometria",
+      "Inteligência Artificial Geral",
+      "Computação Quântica"
+    ],
+    "correctAnswer": "Inteligência Artificial Geral",
+    "explanation": "A Inteligência Artificial Geral (AGI) visa criar máquinas com inteligência de nível humano.",
+    "id": "quiz-futuro-550",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual tipo de material é frequentemente usado em painéis solares?",
+    "options": [
+      "Madeira",
+      "Vidro",
+      "Plástico",
+      "Silício"
+    ],
+    "correctAnswer": "Silício",
+    "explanation": "O silício é um semicondutor usado para converter luz solar em eletricidade.",
+    "id": "quiz-futuro-551",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia pode permitir a criação de órgãos e tecidos para transplantes?",
+    "options": [
+      "Engenharia Genética",
+      "Impressão 3D",
+      "Biotecnologia",
+      "Nanotecnologia"
+    ],
+    "correctAnswer": "Impressão 3D",
+    "explanation": "A impressão 3D de órgãos e tecidos é uma área promissora na medicina regenerativa.",
+    "id": "quiz-futuro-552",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal preocupação ética em torno da edição genética humana?",
+    "options": [
+      "Custo elevado",
+      "Falta de tecnologia",
+      "Alterações genéticas hereditárias",
+      "Resistência religiosa"
+    ],
+    "correctAnswer": "Alterações genéticas hereditárias",
+    "explanation": "A edição de genes que podem ser passados para gerações futuras levanta preocupações éticas significativas.",
+    "id": "quiz-futuro-553",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas é uma forma de agricultura sustentável?",
+    "options": [
+      "Monocultura intensiva",
+      "Agricultura orgânica",
+      "Uso excessivo de pesticidas",
+      "Desmatamento"
+    ],
+    "correctAnswer": "Agricultura orgânica",
+    "explanation": "A agricultura orgânica busca minimizar o impacto ambiental e promover a biodiversidade.",
+    "id": "quiz-futuro-554",
+    "categoryId": "futuro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual escola de pensamento psicológico enfatiza a importância do ambiente na formação do comportamento?",
+    "options": [
+      "Psicanálise",
+      "Behaviorismo",
+      "Humanismo",
+      "Cognitivismo"
+    ],
+    "correctAnswer": "Behaviorismo",
+    "explanation": "O behaviorismo foca no comportamento observável e como ele é aprendido através do condicionamento e reforço.",
+    "id": "quiz-psicologia-555",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um teste de inteligência (QI)?",
+    "options": [
+      "Uma medida de criatividade",
+      "Uma medida da capacidade de resolver problemas e raciocinar",
+      "Uma medida de personalidade",
+      "Uma medida de habilidades motoras finas"
+    ],
+    "correctAnswer": "Uma medida da capacidade de resolver problemas e raciocinar",
+    "explanation": "Os testes de QI medem várias capacidades cognitivas, incluindo raciocínio lógico, verbal e espacial, para avaliar a inteligência geral.",
+    "id": "quiz-psicologia-556",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual distúrbio de ansiedade é caracterizado por preocupações excessivas e persistentes sobre uma variedade de tópicos?",
+    "options": [
+      "Transtorno de Pânico",
+      "Fobia Social",
+      "Transtorno Obsessivo-Compulsivo",
+      "Transtorno de Ansiedade Generalizada"
+    ],
+    "correctAnswer": "Transtorno de Ansiedade Generalizada",
+    "explanation": "O Transtorno de Ansiedade Generalizada (TAG) é definido por preocupações excessivas e persistentes que são difíceis de controlar e interferem significativamente com o funcionamento diário.",
+    "id": "quiz-psicologia-557",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito descreve a tendência de interpretar novas informações de forma consistente com crenças existentes?",
+    "options": [
+      "Viés de ancoragem",
+      "Pensamento mágico",
+      "Viés de confirmação",
+      "Heurística da disponibilidade"
+    ],
+    "correctAnswer": "Viés de confirmação",
+    "explanation": "O viés de confirmação é a tendência de buscar, interpretar, favorecer e lembrar informações que confirmam crenças ou hipóteses pré-existentes, enquanto ignoramos ou desacreditamos informações que as contradizem.",
+    "id": "quiz-psicologia-558",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual abordagem terapêutica enfatiza a responsabilidade pessoal e a busca por significado na vida?",
+    "options": [
+      "Terapia Cognitivo-Comportamental",
+      "Psicanálise",
+      "Terapia Existencial",
+      "Terapia Centrada na Pessoa"
+    ],
+    "correctAnswer": "Terapia Existencial",
+    "explanation": "A terapia existencial se concentra na liberdade, responsabilidade, significado e propósito na vida, ajudando os indivíduos a lidar com questões existenciais e a encontrar significado em suas experiências.",
+    "id": "quiz-psicologia-559",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estratégia é mais eficaz para lidar com pensamentos negativos recorrentes?",
+    "options": [
+      "Ignorar completamente os pensamentos negativos.",
+      "Substituir os pensamentos negativos por pensamentos positivos, mesmo que pareçam irreais.",
+      "Reconhecer os pensamentos negativos sem julgamento e redirecionar a atenção para outra coisa.",
+      "Argumentar contra os pensamentos negativos, tentando provar que estão errados."
+    ],
+    "correctAnswer": "Reconhecer os pensamentos negativos sem julgamento e redirecionar a atenção para outra coisa.",
+    "explanation": "A técnica de reestruturação cognitiva envolve identificar pensamentos negativos, questioná-los e substituí-los por pensamentos mais realistas e adaptativos. Ignorar os pensamentos ou argumentar contra eles pode ser ineficaz a longo prazo.",
+    "id": "quiz-autoajuda-560",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual país abriga a cidade de Machu Picchu?",
+    "options": [
+      "Brasil",
+      "Peru",
+      "Colômbia",
+      "Argentina"
+    ],
+    "correctAnswer": "Peru",
+    "explanation": "Machu Picchu é uma cidade Inca localizada na Cordilheira dos Andes, no Peru.",
+    "id": "quiz-lugares-561",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em qual continente está localizado o deserto de Kalahari?",
+    "options": [
+      "América do Sul",
+      "África",
+      "Ásia",
+      "Antártica"
+    ],
+    "correctAnswer": "África",
+    "explanation": "O deserto de Kalahari está localizado no sul da África, cobrindo partes da Namíbia, Botswana e África do Sul.",
+    "id": "quiz-lugares-562",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual arquipélago é conhecido por suas ilhas vulcânicas e sua vegetação exuberante?",
+    "options": [
+      "Arquipélago de São Tomé e Príncipe",
+      "Arquipélago das Canárias",
+      "Arquipélago de Galápagos",
+      "Arquipélago de Tuvalu"
+    ],
+    "correctAnswer": "Arquipélago de Galápagos",
+    "explanation": "As ilhas Galápagos são conhecidas por sua rica biodiversidade, incluindo espécies únicas encontradas em nenhum outro lugar do mundo, e suas origens vulcânicas.",
+    "id": "quiz-lugares-563",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país abriga a maior parte da Floresta Negra?",
+    "options": [
+      "França",
+      "Itália",
+      "Alemanha",
+      "Suíça"
+    ],
+    "correctAnswer": "Alemanha",
+    "explanation": "A maior parte da Floresta Negra, uma região montanhosa na Alemanha, está localizada no estado de Baden-Württemberg.",
+    "id": "quiz-lugares-564",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a capital da Austrália?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctAnswer": "Canberra",
+    "explanation": "Canberra é a capital da Austrália desde 1927.",
+    "id": "quiz-lugares-565",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual habilidade é essencial para um bom atendimento ao cliente?",
+    "options": [
+      "Programação",
+      "Criatividade",
+      "Comunicação",
+      "Matemática"
+    ],
+    "correctAnswer": "Comunicação",
+    "explanation": "A comunicação eficaz é fundamental para entender as necessidades do cliente e oferecer um atendimento satisfatório.",
+    "id": "quiz-habilidades-566",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A capacidade de adaptar-se a diferentes situações e ambientes de trabalho é conhecida como:",
+    "options": [
+      "Pensamento crítico",
+      "Resiliência",
+      "Adaptabilidade",
+      "Liderança"
+    ],
+    "correctAnswer": "Adaptabilidade",
+    "explanation": "A adaptabilidade permite que indivíduos se ajustem a mudanças e desafios no ambiente de trabalho.",
+    "id": "quiz-habilidades-567",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual destas habilidades envolve a capacidade de antecipar problemas e tomar medidas preventivas?",
+    "options": [
+      "Pensamento estratégico",
+      "Gestão de tempo",
+      "Resolução de problemas",
+      "Proatividade"
+    ],
+    "correctAnswer": "Proatividade",
+    "explanation": "A proatividade envolve a iniciativa de agir antes que os problemas ocorram, em vez de simplesmente reagir a eles.",
+    "id": "quiz-habilidades-568",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual habilidade é crucial para a colaboração eficaz em projetos de grupo?",
+    "options": [
+      "Independência",
+      "Competitividade",
+      "Trabalho em equipe",
+      "Individualismo"
+    ],
+    "correctAnswer": "Trabalho em equipe",
+    "explanation": "O trabalho em equipe envolve a cooperação e colaboração entre indivíduos para alcançar um objetivo comum.",
+    "id": "quiz-habilidades-569",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "A capacidade de expressar ideias de forma clara e concisa, tanto por escrito quanto verbalmente, é conhecida como:",
+    "options": [
+      "Escuta ativa",
+      "Liderança",
+      "Comunicação",
+      "Negociação"
+    ],
+    "correctAnswer": "Comunicação",
+    "explanation": "A comunicação eficaz é essencial para transmitir informações e ideias de forma eficiente.",
+    "id": "quiz-habilidades-570",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como você pode evitar que seus talheres enferrujem na máquina de lavar louça?",
+    "options": [
+      "Secá-los completamente antes de guardá-los",
+      "Usar um detergente especial anti-ferrugem",
+      "Evitar lavar talheres de aço inox na máquina",
+      "Não há como evitar a ferrugem na máquina de lavar louça"
+    ],
+    "correctAnswer": "Secá-los completamente antes de guardá-los",
+    "explanation": "A umidade retida nos talheres após a lavagem é a principal causa da ferrugem.",
+    "id": "quiz-hacks-571",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Você percebeu que sua roupa está encolhendo após diversas lavagens. Qual a melhor maneira de evitar isso?",
+    "options": [
+      "Lavar sempre com água quente",
+      "Secar sempre na secadora em alta temperatura",
+      "Seguir as instruções de lavagem da etiqueta da roupa",
+      "Não há como evitar o encolhimento das roupas"
+    ],
+    "correctAnswer": "Seguir as instruções de lavagem da etiqueta da roupa",
+    "explanation": "A etiqueta da roupa contém informações específicas sobre temperatura da água, tipo de lavagem e secagem para cada tecido, evitando danos e encolhimento.",
+    "id": "quiz-hacks-572",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Para remover manchas de gordura em roupas delicadas sem danificá-las, qual o método mais eficaz?",
+    "options": [
+      "Esfregar vigorosamente com sabão em pó",
+      "Utilizar alvejante para remover a gordura",
+      "Aplicar talco de bebê e deixar agir antes de lavar",
+      "Usar água quente e detergente neutro"
+    ],
+    "correctAnswer": "Aplicar talco de bebê e deixar agir antes de lavar",
+    "explanation": "O talco absorve a gordura, facilitando a remoção posteriormente na lavagem com água fria e um detergente suave.  Esfregar vigorosamente pode danificar tecidos delicados.",
+    "id": "quiz-hacks-573",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como você pode remover facilmente bolinhas de roupa de um suéter de lã?",
+    "options": [
+      "Usar uma máquina de lavar roupa comum",
+      "Passar uma escova de cerdas duras",
+      "Utilizar uma pedra-pomes específica para roupas",
+      "Não há como remover bolinhas de roupas de lã"
+    ],
+    "correctAnswer": "Utilizar uma pedra-pomes específica para roupas",
+    "explanation": "Pedras-pomes especiais para roupas são macias o suficiente para não danificar a lã, removendo as bolinhas com eficácia.",
+    "id": "quiz-hacks-574",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como você pode manter seus sapatos de tecido sempre limpos e sem odor?",
+    "options": [
+      "Usá-los todos os dias para arejá-los",
+      "Deixá-los secando ao sol por longos períodos",
+      "Lavá-los na máquina de lavar roupa com frequência",
+      "Usar bicarbonato de sódio para absorver odores e uma escova para limpeza"
+    ],
+    "correctAnswer": "Usar bicarbonato de sódio para absorver odores e uma escova para limpeza",
+    "explanation": "O bicarbonato de sódio absorve odores e a escova remove a sujeira superficial. Lavar com muita frequência pode danificar o tecido.",
+    "id": "quiz-hacks-575",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes animais é conhecido por sua longa tromba?",
+    "options": [
+      "Leão",
+      "Elefante",
+      "Girafa",
+      "Tigre"
+    ],
+    "correctAnswer": "Elefante",
+    "explanation": "Os elefantes são facilmente reconhecidos por suas longas trombas, usadas para diversas funções.",
+    "id": "quiz-natureza-e-animais-576",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal predador natural do coelho?",
+    "options": [
+      "Urso Polar",
+      "Lobo",
+      "Coiote",
+      "Raposa"
+    ],
+    "correctAnswer": "Lobo",
+    "explanation": "Embora outros animais também se alimentem de coelhos, os lobos são seus principais predadores em muitas regiões.",
+    "id": "quiz-natureza-e-animais-577",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o processo de migração realizado por algumas aves em busca de melhores condições climáticas e recursos alimentares?",
+    "options": [
+      "Hibernação",
+      "Estivação",
+      "Migração",
+      "Mutação"
+    ],
+    "correctAnswer": "Migração",
+    "explanation": "A migração é um comportamento instintivo que permite a sobrevivência das aves em diferentes estações do ano.",
+    "id": "quiz-natureza-e-animais-578",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas plantas é carnívora?",
+    "options": [
+      "Rosa",
+      "Girassol",
+      "Orquídea",
+      "Dioneia"
+    ],
+    "correctAnswer": "Dioneia",
+    "explanation": "A dioneia, também conhecida como planta-carnívora, captura insetos para complementar sua nutrição.",
+    "id": "quiz-natureza-e-animais-579",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes animais é um réptil?",
+    "options": [
+      "Sapo",
+      "Cobra",
+      "Gaivota",
+      "Cachorro"
+    ],
+    "correctAnswer": "Cobra",
+    "explanation": "Cobras são répteis, animais de sangue frio com escamas.",
+    "id": "quiz-natureza-e-animais-580",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do nosso sistema planetário?",
+    "options": [
+      "Sistema Alfa Centauri",
+      "Sistema Solar",
+      "Sistema Sirius",
+      "Sistema Vega"
+    ],
+    "correctAnswer": "Sistema Solar",
+    "explanation": "O Sistema Solar é composto pelo Sol e todos os objetos que orbitam ao seu redor, incluindo planetas, luas, asteroides e cometas.",
+    "id": "quiz-universo-e-astronomia-581",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um buraco negro?",
+    "options": [
+      "Uma estrela que explodiu",
+      "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+      "Um tipo de nebulosa",
+      "Um planeta gasoso gigante"
+    ],
+    "correctAnswer": "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+    "explanation": "Buracos negros são regiões do espaço-tempo com gravidade extremamente forte, resultado do colapso gravitacional de uma estrela massiva.",
+    "id": "quiz-universo-e-astronomia-582",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre um meteoro, um meteoróide e um meteorito?",
+    "options": [
+      "Não há diferença entre eles",
+      "Meteoróide é no espaço, meteoro na atmosfera e meteorito na superfície terrestre",
+      "Meteoro é no espaço, meteoróide na atmosfera e meteorito na superfície terrestre",
+      "Meteorito é no espaço, meteoro na atmosfera e meteoróide na superfície terrestre"
+    ],
+    "correctAnswer": "Meteoróide é no espaço, meteoro na atmosfera e meteorito na superfície terrestre",
+    "explanation": "Meteoróides são corpos rochosos no espaço. Meteoros são meteoróides que entram na atmosfera terrestre, queimando-se. Meteoritos são os que atingem a superfície.",
+    "id": "quiz-universo-e-astronomia-583",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal característica que define um planeta anão?",
+    "options": [
+      "Tamanho menor que um planeta",
+      "Composição rochosa",
+      "Órbita em torno de uma estrela",
+      "Não limpou a sua vizinhança orbital"
+    ],
+    "correctAnswer": "Não limpou a sua vizinhança orbital",
+    "explanation": "Planetas anões, como Plutão, não dominam gravitacionalmente sua órbita, compartilhando-a com outros objetos de tamanho comparável.",
+    "id": "quiz-universo-e-astronomia-584",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes objetos celestes não é um planeta do nosso sistema solar?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Proxima Centauri b",
+      "Vênus"
+    ],
+    "correctAnswer": "Proxima Centauri b",
+    "explanation": "Proxima Centauri b é um exoplaneta, orbitando uma estrela diferente do nosso Sol.",
+    "id": "quiz-universo-e-astronomia-585",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nota musical vem depois de Dó?",
+    "options": [
+      "Ré",
+      "Mi",
+      "Fá",
+      "Sol"
+    ],
+    "correctAnswer": "Ré",
+    "explanation": "A escala diatônica ocidental segue a sequência Dó, Ré, Mi, Fá, Sol, Lá, Si.",
+    "id": "quiz-musica-586",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do famoso compositor alemão conhecido pelas suas sinfonias?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Franz Schubert"
+    ],
+    "correctAnswer": "Ludwig van Beethoven",
+    "explanation": "Beethoven é reconhecido por suas nove sinfonias, entre outras obras importantes do período clássico e romântico.",
+    "id": "quiz-musica-587",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual técnica vocal envolve o uso de registros diferentes para produzir sons distintos?",
+    "options": [
+      "Vibrato",
+      "Staccato",
+      "Belting",
+      "Vocal Fry"
+    ],
+    "correctAnswer": "Belting",
+    "explanation": "Belting é uma técnica que usa registros diferentes para produzir sons mais potentes em faixas mais altas.",
+    "id": "quiz-musica-588",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual gênero musical é caracterizado por improvisação melódica sobre acordes?",
+    "options": [
+      "Rock",
+      "Pop",
+      "Jazz",
+      "Blues"
+    ],
+    "correctAnswer": "Jazz",
+    "explanation": "O Jazz é conhecido por suas improvisações melódicas e harmônicas baseadas em padrões de acordes.",
+    "id": "quiz-musica-589",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é geralmente usado como instrumento de acompanhamento em músicas folclóricas?",
+    "options": [
+      "Guitarra",
+      "Violino",
+      "Piano",
+      "Trombone"
+    ],
+    "correctAnswer": "Guitarra",
+    "explanation": "A guitarra é um instrumento versátil e amplamente utilizado como acompanhamento em diversos estilos musicais, incluindo a música folclórica.",
+    "id": "quiz-musica-590",
+    "categoryId": "musica"
   }
 ]
