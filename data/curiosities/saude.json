@@ -541,5 +541,32 @@
     "content": "A musicoterapia pode ajudar a reduzir o estresse, aliviar a dor e melhorar o humor.",
     "id": "saude-90",
     "categoryId": "saude"
+  },
+  {
+    "id": "saude-91",
+    "categoryId": "saude",
+    "title": "Seu Coração e o Ritmo da Natureza",
+    "hook": "Incrível: Seu batimento...",
+    "content": "O ritmo cardíaco humano se sincroniza sutilmente com os ciclos naturais, como a luz do sol e as marés. Estudos demonstram que essa sincronia influencia a eficiência cardíaca e o humor. Manter-se conectado à natureza, mesmo em pequenas doses, pode otimizar a saúde cardiovascular.  A conexão bio-rítmica é fascinante!",
+    "funFact": "Seu coração pode bater mais forte ao ouvir uma música que ama!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-92",
+    "categoryId": "saude",
+    "title": "A Ciência da Cura pelo Riso",
+    "hook": "Você sabia que rir...",
+    "content": "O riso é um poderoso analgésico natural. Ele libera endorfinas, que aliviam a dor e promovem uma sensação de bem-estar. Além disso, o riso estimula o sistema imunológico e reduz o estresse. Incorpore momentos de alegria ao seu dia a dia!",
+    "funFact": "Um bom riso pode queimar até 40 calorias!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-93",
+    "categoryId": "saude",
+    "title": "A Mágica da Respiração Diafragmática",
+    "hook": "Incrível: seu fígado agradece!",
+    "content": "A respiração diafragmática, além de reduzir o estresse, melhora a oxigenação do fígado, órgão vital para a desintoxicação do corpo.  Ao respirar profundamente, você ativa a circulação sanguínea, facilitando a eliminação de toxinas e melhorando a sua função hepática.  Pratique diariamente e veja a diferença!",
+    "funFact": "Um fígado saudável processa cerca de um litro de sangue por minuto!",
+    "curiosityLevel": 3
   }
 ]

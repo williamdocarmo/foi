@@ -1,4 +1,3 @@
-
 [
   {
     "difficulty": "easy",
@@ -209,5 +208,915 @@
     "explanation": "A principal diferença reside na base de cálculo dos juros: nos simples, apenas sobre o principal; nos compostos, sobre o principal acrescido dos juros acumulados.",
     "id": "quiz-dinheiro-15",
     "categoryId": "dinheiro"
+  },
+  {
+    "id": "quiz-dinheiro-16",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o nome do dinheiro do Japão?",
+    "options": [
+      "Peso",
+      "Dólar",
+      "Iene",
+      "Euro"
+    ],
+    "correctAnswer": "Iene",
+    "explanation": "O Iene é a moeda oficial do Japão.  Curiosidade: O Iene é uma das moedas mais antigas do mundo ainda em uso."
+  },
+  {
+    "id": "quiz-dinheiro-17",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que significa a sigla 'ATM'?",
+    "options": [
+      "Automated Teller Machine",
+      "Automatic Transaction Machine",
+      "Advanced Transfer Method",
+      "Account Transfer Module"
+    ],
+    "correctAnswer": "Automated Teller Machine",
+    "explanation": "ATM significa Máquina de Atendimento Bancário, em português. Curiosidade: O primeiro ATM foi instalado em 1967 no Reino Unido."
+  },
+  {
+    "id": "quiz-dinheiro-18",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "Qual o impacto principal da inflação alta na economia?",
+    "options": [
+      "Aumento do poder de compra",
+      "Diminuição dos preços dos bens",
+      "Estabilidade econômica",
+      "Diminuição do poder de compra"
+    ],
+    "correctAnswer": "Diminuição do poder de compra",
+    "explanation": "Inflação alta reduz o poder de compra, pois o mesmo dinheiro compra menos bens e serviços. Curiosidade: Hiperinflação é um processo inflacionário extremo e descontrolado."
+  },
+  {
+    "id": "quiz-dinheiro-19",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "Qual tipo de investimento geralmente oferece maior retorno, mas também maior risco?",
+    "options": [
+      "Caderneta de poupança",
+      "Títulos do Tesouro",
+      "Ações",
+      "Fundos de renda fixa"
+    ],
+    "correctAnswer": "Ações",
+    "explanation": "As ações oferecem maior potencial de retorno, mas são mais voláteis e arriscadas que outros investimentos. Curiosidade: Diversificar investimentos reduz o risco."
+  },
+  {
+    "id": "quiz-dinheiro-20",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é 'arbitragem' no contexto financeiro?",
+    "options": [
+      "Investir em ações de empresas de pequeno porte",
+      "Explorar diferenças de preço de um mesmo ativo em diferentes mercados",
+      "Empréstimo de dinheiro a juros altos",
+      "Aumentar o valor de um investimento através de especulação"
+    ],
+    "correctAnswer": "Explorar diferenças de preço de um mesmo ativo em diferentes mercados",
+    "explanation": "Arbitragem consiste em aproveitar as diferenças de preço de um ativo em diferentes mercados para lucrar sem risco. Curiosidade: A arbitragem ajuda a manter os preços de mercado equilibrados."
+  },
+  {
+    "id": "quiz-dinheiro-21",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual dessas é uma forma de investimento de baixo risco?",
+    "options": [
+      "Opções",
+      "Ações",
+      "Criptomoedas",
+      "Tesouro Direto"
+    ],
+    "correctAnswer": "Tesouro Direto",
+    "explanation": "O Tesouro Direto é considerado uma aplicação de baixo risco, pois é emitido pelo governo. Curiosidade: O Tesouro Direto oferece diferentes tipos de títulos, com diferentes prazos e rendimentos."
+  },
+  {
+    "id": "quiz-dinheiro-22",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'spread' financeiro?",
+    "options": [
+      "A diferença entre a taxa de compra e venda de uma moeda",
+      "Uma taxa cobrada por serviços financeiros",
+      "O lucro obtido em uma transação financeira",
+      "Um tipo específico de investimento em ações"
+    ],
+    "correctAnswer": "A diferença entre a taxa de compra e venda de uma moeda",
+    "explanation": "Spread é a diferença entre o preço de compra e venda de um ativo, como moedas ou ações.  Curiosidade: Um spread baixo é geralmente preferível para o investidor."
+  },
+  {
+    "id": "quiz-dinheiro-23",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual o impacto da taxa de câmbio sobre as exportações de um país?",
+    "options": [
+      "Não tem impacto",
+      "Aumenta o custo das exportações",
+      "Diminui o custo das exportações",
+      "Aumenta a procura por importações"
+    ],
+    "correctAnswer": "Diminui o custo das exportações",
+    "explanation": "Uma moeda nacional mais fraca torna as exportações mais competitivas no mercado internacional. Curiosidade:  A taxa de câmbio é influenciada por diversos fatores, incluindo a oferta e demanda de moedas."
+  },
+  {
+    "id": "quiz-dinheiro-24",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'dívida pública'?",
+    "options": [
+      "Dinheiro que o governo deve a bancos estrangeiros",
+      "Dinheiro que as empresas devem a bancos",
+      "Dinheiro que o governo deve a seus cidadãos e instituições",
+      "Dinheiro que os cidadãos devem a bancos"
+    ],
+    "correctAnswer": "Dinheiro que o governo deve a seus cidadãos e instituições",
+    "explanation": "Dívida pública representa o total de empréstimos que um governo contraiu. Curiosidade: A dívida pública pode ser interna ou externa."
+  },
+  {
+    "id": "quiz-dinheiro-25",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'hedge' financeiro?",
+    "options": [
+      "Um tipo de investimento de alto risco",
+      "Uma estratégia para reduzir riscos financeiros",
+      "Um imposto sobre transações financeiras",
+      "Uma forma de financiamento de projetos"
+    ],
+    "correctAnswer": "Uma estratégia para reduzir riscos financeiros",
+    "explanation": "Hedge é uma estratégia para reduzir ou eliminar riscos, geralmente através de investimentos compensatórios. Curiosidade:  Hedge funds são fundos de investimento que utilizam estratégias de hedge."
+  },
+  {
+    "id": "quiz-dinheiro-26",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual o papel dos bancos centrais na economia?",
+    "options": [
+      "Regular o mercado de ações",
+      "Gerir as contas do governo",
+      "Controlar a oferta de dinheiro e a inflação",
+      "Financiar empresas privadas"
+    ],
+    "correctAnswer": "Controlar a oferta de dinheiro e a inflação",
+    "explanation": "Bancos centrais são responsáveis pela política monetária, influenciando a taxa de juros e a inflação. Curiosidade: O Banco Central do Brasil é responsável pela emissão da moeda nacional, o Real."
+  },
+  {
+    "id": "quiz-dinheiro-27",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o nome do imposto sobre o valor adicionado?",
+    "options": [
+      "IPTU",
+      "IRRF",
+      "ICMS",
+      "IPVA"
+    ],
+    "correctAnswer": "ICMS",
+    "explanation": "O ICMS (Imposto sobre Circulação de Mercadorias e Serviços) é um imposto estadual.  Curiosidade: A alíquota do ICMS varia de acordo com o estado e o produto."
+  },
+  {
+    "id": "quiz-dinheiro-28",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'crowdfunding'?",
+    "options": [
+      "Financiamento coletivo de projetos",
+      "Investimento em ações de empresas de tecnologia",
+      "Empréstimo de dinheiro a juros altos",
+      "Uma forma de pagamento online"
+    ],
+    "correctAnswer": "Financiamento coletivo de projetos",
+    "explanation": "Crowdfunding é uma forma de financiamento colaborativo onde muitas pessoas contribuem com pequenas quantias para um projeto. Curiosidade: Plataformas online facilitam o crowdfunding."
+  },
+  {
+    "id": "quiz-dinheiro-29",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'dívida bruta' e 'dívida líquida' do governo?",
+    "options": [
+      "Não há diferença",
+      "Dívida bruta inclui ativos, dívida líquida não",
+      "Dívida líquida inclui ativos, dívida bruta não",
+      "Dívida bruta considera apenas dívidas externas"
+    ],
+    "correctAnswer": "Dívida bruta inclui ativos, dívida líquida não",
+    "explanation": "A dívida líquida subtrai os ativos do governo da dívida bruta, oferecendo uma visão mais precisa da situação financeira. Curiosidade:  A análise da dívida pública requer uma compreensão de ambos os conceitos."
+  },
+  {
+    "id": "quiz-dinheiro-30",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual a função principal de um cartão de crédito?",
+    "options": [
+      "Guardar dinheiro",
+      "Investir em ações",
+      "Pagar compras a prazo",
+      "Receber salário"
+    ],
+    "correctAnswer": "Pagar compras a prazo",
+    "explanation": "Cartões de crédito permitem realizar compras e pagar posteriormente, geralmente com juros. Curiosidade:  O uso consciente do cartão de crédito é crucial para evitar dívidas."
+  },
+  {
+    "id": "quiz-dinheiro-31",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'default' em finanças?",
+    "options": [
+      "Um lucro inesperado",
+      "Inadimplência de um pagamento",
+      "Um aumento na taxa de juros",
+      "Uma redução na inflação"
+    ],
+    "correctAnswer": "Inadimplência de um pagamento",
+    "explanation": "Default significa inadimplência, ou seja, a falha em cumprir com um pagamento de dívida. Curiosidade: O default pode ter consequências graves, como a falência."
+  },
+  {
+    "id": "quiz-dinheiro-32",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é o 'efeito manada' no mercado financeiro?",
+    "options": [
+      "Investimento em ações de empresas de pequeno porte",
+      "Tendência de investidores a seguirem as ações da maioria",
+      "Diversificação de investimentos",
+      "Análise técnica de gráficos financeiros"
+    ],
+    "correctAnswer": "Tendência de investidores a seguirem as ações da maioria",
+    "explanation": "O efeito manada descreve a tendência de investidores a copiarem o comportamento de outros, muitas vezes levando a bolhas especulativas. Curiosidade: Esse efeito pode levar a decisões irracionais no mercado."
+  },
+  {
+    "id": "quiz-dinheiro-33",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'lucro'?",
+    "options": [
+      "Ganho obtido com uma atividade",
+      "Perda financeira",
+      "Investimento inicial",
+      "Custo de produção"
+    ],
+    "correctAnswer": "Ganho obtido com uma atividade",
+    "explanation": "Lucro representa a diferença entre receita e custo. Curiosidade:  A maximização de lucro é um objetivo central das empresas."
+  },
+  {
+    "id": "quiz-dinheiro-34",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "Qual o papel do 'rating' de uma empresa?",
+    "options": [
+      "Avaliar a capacidade de pagamento da empresa",
+      "Determinar o valor das ações da empresa",
+      "Regular as atividades da empresa",
+      "Definir o preço dos produtos da empresa"
+    ],
+    "correctAnswer": "Avaliar a capacidade de pagamento da empresa",
+    "explanation": "Rating mede o risco de crédito de uma empresa, indicando sua capacidade de honrar seus compromissos financeiros. Curiosidade: As agências de rating são empresas independentes que avaliam o risco de crédito."
+  },
+  {
+    "id": "quiz-dinheiro-35",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é uma 'opção de compra' (call option)?",
+    "options": [
+      "Direito de vender um ativo a um preço determinado",
+      "Obrigação de comprar um ativo a um preço determinado",
+      "Direito de comprar um ativo a um preço determinado",
+      "Obrigação de vender um ativo a um preço determinado"
+    ],
+    "correctAnswer": "Direito de comprar um ativo a um preço determinado",
+    "explanation": "Uma call option dá ao comprador o direito, mas não a obrigação, de comprar um ativo a um preço predefinido até uma data específica. Curiosidade: As opções são instrumentos financeiros complexos e exigem conhecimento para serem negociadas."
+  },
+  {
+    "id": "quiz-dinheiro-36",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'ativo' em finanças?",
+    "options": [
+      "Dívida financeira",
+      "Bem ou direito que gera valor",
+      "Custo de produção",
+      "Perda financeira"
+    ],
+    "correctAnswer": "Bem ou direito que gera valor",
+    "explanation": "Ativos são bens ou direitos que possuem valor econômico para uma empresa ou pessoa. Curiosidade:  Os ativos podem ser tangíveis (como imóveis) ou intangíveis (como patentes)."
+  },
+  {
+    "id": "quiz-dinheiro-37",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'passivo' em finanças?",
+    "options": [
+      "Bem ou direito que gera valor",
+      "Dívidas e obrigações financeiras",
+      "Lucro obtido em uma atividade",
+      "Investimentos em ações"
+    ],
+    "correctAnswer": "Dívidas e obrigações financeiras",
+    "explanation": "Passivos representam as obrigações financeiras de uma empresa ou pessoa. Curiosidade:  O balanço patrimonial demonstra os ativos, passivos e patrimônio líquido de uma entidade."
+  },
+  {
+    "id": "quiz-dinheiro-38",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é uma 'operação de swap'?",
+    "options": [
+      "Compra e venda simultânea de ativos",
+      "Troca de fluxos de caixa futuros",
+      "Investimento em ações de alta volatilidade",
+      "Financiamento a longo prazo"
+    ],
+    "correctAnswer": "Troca de fluxos de caixa futuros",
+    "explanation": "Um swap é um contrato que envolve a troca de fluxos de caixa futuros, frequentemente usado para gerenciar riscos financeiros. Curiosidade: Swaps são instrumentos financeiros complexos, geralmente utilizados por instituições financeiras."
+  },
+  {
+    "id": "quiz-dinheiro-39",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'capital de giro'?",
+    "options": [
+      "Dinheiro para investimentos de longo prazo",
+      "Recursos financeiros para operações do dia a dia",
+      "Divida a longo prazo",
+      "Reserva financeira para emergências"
+    ],
+    "correctAnswer": "Recursos financeiros para operações do dia a dia",
+    "explanation": "Capital de giro é o dinheiro necessário para financiar as atividades operacionais de uma empresa no curto prazo. Curiosidade:  Um bom gerenciamento do capital de giro é essencial para a saúde financeira de uma empresa."
+  },
+  {
+    "id": "quiz-dinheiro-40",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'depreciação' de um ativo?",
+    "options": [
+      "Aumento do valor de um ativo",
+      "Perda do valor de um ativo ao longo do tempo",
+      "Taxa de juros aplicada a um empréstimo",
+      "Investimento em um novo ativo"
+    ],
+    "correctAnswer": "Perda do valor de um ativo ao longo do tempo",
+    "explanation": "Depreciação é a redução do valor de um ativo tangível ao longo de sua vida útil. Curiosidade: A depreciação é um custo reconhecido na contabilidade."
+  },
+  {
+    "id": "quiz-dinheiro-41",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'valor nominal' e 'valor de mercado' de uma ação?",
+    "options": [
+      "Não há diferença",
+      "Valor nominal é o preço pago pela ação, valor de mercado é o valor atual",
+      "Valor de mercado é o preço pago pela ação, valor nominal é o valor atual",
+      "Valor nominal é fixo, valor de mercado flutua"
+    ],
+    "correctAnswer": "Valor nominal é fixo, valor de mercado flutua",
+    "explanation": "O valor nominal é o valor original atribuído à ação, enquanto o valor de mercado é o preço pelo qual ela é negociada no mercado. Curiosidade: O valor de mercado pode ser maior ou menor que o valor nominal."
+  },
+  {
+    "id": "quiz-dinheiro-42",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que significa 'liquidez' em finanças?",
+    "options": [
+      "Ganhos de capital",
+      "Capacidade de converter ativos em dinheiro rapidamente",
+      "Dívidas a longo prazo",
+      "Investimento em imóveis"
+    ],
+    "correctAnswer": "Capacidade de converter ativos em dinheiro rapidamente",
+    "explanation": "Liquidez refere-se à facilidade com que um ativo pode ser convertido em dinheiro sem perda significativa de valor. Curiosidade: O dinheiro é o ativo mais líquido."
+  },
+  {
+    "id": "quiz-dinheiro-43",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'rendimento' de um investimento?",
+    "options": [
+      "Valor inicial do investimento",
+      "Retorno financeiro gerado por um investimento",
+      "Custos associados ao investimento",
+      "Risco do investimento"
+    ],
+    "correctAnswer": "Retorno financeiro gerado por um investimento",
+    "explanation": "Rendimento é o retorno financeiro obtido de um investimento, seja em forma de juros, dividendos ou ganho de capital. Curiosidade: O rendimento é geralmente expresso como uma porcentagem."
+  },
+  {
+    "id": "quiz-dinheiro-44",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é uma 'bolsa de valores'?",
+    "options": [
+      "Instituição financeira que concede empréstimos",
+      "Mercado onde ações e outros ativos são negociados",
+      "Órgão regulador do mercado financeiro",
+      "Empresa que investe em ações"
+    ],
+    "correctAnswer": "Mercado onde ações e outros ativos são negociados",
+    "explanation": "Bolsa de valores é um mercado organizado onde ações, títulos e outros ativos são comprados e vendidos. Curiosidade: As bolsas de valores desempenham um papel crucial na mobilização de capital para as empresas."
+  },
+  {
+    "id": "quiz-dinheiro-45",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o nome do imposto cobrado sobre a propriedade de imóveis?",
+    "options": [
+      "IPVA",
+      "IR",
+      "IPTU",
+      "ICMS"
+    ],
+    "correctAnswer": "IPTU",
+    "explanation": "IPTU (Imposto Predial e Territorial Urbano) é um imposto municipal. Curiosidade: O valor do IPTU varia de acordo com a localização e características do imóvel."
+  },
+  {
+    "id": "quiz-dinheiro-46",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'fundo mútuo'?",
+    "options": [
+      "Fundo de investimento que investe em diversos ativos",
+      "Empréstimo de dinheiro a juros altos",
+      "Investimento em ações de uma única empresa",
+      "Seguro de vida"
+    ],
+    "correctAnswer": "Fundo de investimento que investe em diversos ativos",
+    "explanation": "Fundos mútuos são fundos de investimento que diversificam recursos entre vários ativos, reduzindo o risco. Curiosidade:  Fundos mútuos são gerenciados por profissionais."
+  },
+  {
+    "id": "quiz-dinheiro-47",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é o 'valor presente' (VP) em finanças?",
+    "options": [
+      "Valor futuro de um investimento",
+      "Valor atual de um fluxo de caixa futuro",
+      "Valor de um ativo em uma data passada",
+      "Valor nominal de uma ação"
+    ],
+    "correctAnswer": "Valor atual de um fluxo de caixa futuro",
+    "explanation": "O valor presente desconta fluxos de caixa futuros para o valor atual, considerando a taxa de juros. Curiosidade: O VP é fundamental para a avaliação de projetos de investimento."
+  },
+  {
+    "id": "quiz-dinheiro-48",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é um 'cheque pré-datado'?",
+    "options": [
+      "Cheque sem fundos",
+      "Cheque com data futura de pagamento",
+      "Cheque emitido por um banco estrangeiro",
+      "Cheque com valor indeterminado"
+    ],
+    "correctAnswer": "Cheque com data futura de pagamento",
+    "explanation": "Cheque pré-datado é um cheque com uma data de pagamento futura. Curiosidade: O uso de cheques pré-datados deve ser feito com cautela."
+  },
+  {
+    "id": "quiz-dinheiro-49",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual moeda é usada na zona do euro?",
+    "options": [
+      "Dólar",
+      "Euro",
+      "Libra",
+      "Iene"
+    ],
+    "correctAnswer": "Euro",
+    "explanation": "O euro (€) é a moeda oficial de 20 países da União Europeia.  Curiosidade: A primeira moeda euro foi cunhada em 1999."
+  },
+  {
+    "id": "quiz-dinheiro-50",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que significa 'economizar'?",
+    "options": [
+      "Gastar mais do que se ganha",
+      "Investir em ações",
+      "Guardar dinheiro para o futuro",
+      "Pegar dinheiro emprestado"
+    ],
+    "correctAnswer": "Guardar dinheiro para o futuro",
+    "explanation": "Economizar é guardar parte da sua renda para uso futuro. Curiosidade:  Poupar regularmente, mesmo que seja pouco, pode gerar grandes resultados a longo prazo devido ao efeito do juros compostos."
+  },
+  {
+    "id": "quiz-dinheiro-51",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "Qual o impacto da alta do dólar na economia brasileira?",
+    "options": [
+      "Importações ficam mais baratas",
+      "Exportações ficam mais baratas",
+      "Importações e exportações ficam mais caras",
+      "Importações ficam mais caras, exportações mais baratas"
+    ],
+    "correctAnswer": "Importações ficam mais caras, exportações mais baratas",
+    "explanation": "A alta do dólar encarece as importações (pagamos mais em reais) e torna as exportações brasileiras mais competitivas no mercado internacional (recebemos mais reais pela mesma quantidade de produto). Curiosidade:  O real é uma moeda flutuante, ou seja, seu valor é determinado pela oferta e demanda no mercado."
+  },
+  {
+    "id": "quiz-dinheiro-52",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "Qual a principal função de um banco?",
+    "options": [
+      "Imprimir dinheiro",
+      "Regular a inflação",
+      "Intermediar recursos financeiros",
+      "Gerar empregos"
+    ],
+    "correctAnswer": "Intermediar recursos financeiros",
+    "explanation": "Bancos conectam aqueles que têm dinheiro sobrando (poupança) com aqueles que precisam de dinheiro (empréstimos). Curiosidade:  Existem diferentes tipos de bancos, como bancos comerciais, bancos de investimento e cooperativas de crédito."
+  },
+  {
+    "id": "quiz-dinheiro-53",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é 'custo de oportunidade'?",
+    "options": [
+      "Custo de produção de um bem",
+      "Valor perdido ao escolher uma opção em detrimento de outra",
+      "Custo de manutenção de um investimento",
+      "Imposto sobre a venda de um ativo"
+    ],
+    "correctAnswer": "Valor perdido ao escolher uma opção em detrimento de outra",
+    "explanation": "É o benefício que você deixa de ganhar ao escolher uma alternativa.  Curiosidade: Ao decidir investir em um negócio, o custo de oportunidade pode incluir o dinheiro que você poderia ter ganhado investindo em outro negócio ou aplicando em um fundo de investimento."
+  },
+  {
+    "id": "quiz-dinheiro-54",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual desses NÃO é um tipo de investimento?",
+    "options": [
+      "Ações",
+      "Títulos públicos",
+      "Criptomoedas",
+      "Cheque pré-datado"
+    ],
+    "correctAnswer": "Cheque pré-datado",
+    "explanation": "Um cheque pré-datado é um instrumento de pagamento, não um investimento. Curiosidade:  Há riscos envolvidos em todos os tipos de investimentos, a diversificação da carteira de investimentos é crucial para minimizar tais riscos."
+  },
+  {
+    "id": "quiz-dinheiro-55",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'dívida ativa'?",
+    "options": [
+      "Dívida do governo com instituições financeiras estrangeiras",
+      "Dívida de empresas privadas com instituições financeiras",
+      "Créditos tributários devidos ao governo",
+      "Dívida de pessoas físicas com instituições financeiras"
+    ],
+    "correctAnswer": "Créditos tributários devidos ao governo",
+    "explanation": "Dívida ativa refere-se aos créditos tributários que são devidos ao governo e que estão em fase de cobrança. Curiosidade: A dívida ativa pode ser cobrada judicialmente, se necessário."
+  },
+  {
+    "id": "quiz-dinheiro-56",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual o significado de 'valor intrínseco' de uma ação?",
+    "options": [
+      "Valor de mercado da ação",
+      "Valor contábil da ação",
+      "Valor real da ação, baseado em seus fundamentos",
+      "Valor da ação no fechamento do pregão"
+    ],
+    "correctAnswer": "Valor real da ação, baseado em seus fundamentos",
+    "explanation": "O valor intrínseco é uma estimativa do valor real de uma ação, considerando seus fundamentos, como lucros, crescimento e fluxo de caixa. Curiosidade:  O valor intrínseco é usado por investidores para tomar decisões de investimento."
+  },
+  {
+    "id": "quiz-dinheiro-57",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é um orçamento doméstico?",
+    "options": [
+      "Um plano de gastos pessoais",
+      "Um empréstimo bancário",
+      "Um investimento de longo prazo",
+      "Um imposto sobre a renda"
+    ],
+    "correctAnswer": "Um plano de gastos pessoais",
+    "explanation": "Um orçamento doméstico é um plano para controlar seus gastos e economizar dinheiro. Curiosidade:  Criar um orçamento doméstico ajuda a controlar melhor as suas finanças e atingir seus objetivos financeiros."
+  },
+  {
+    "id": "quiz-dinheiro-58",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que significa 'alavancagem financeira'?",
+    "options": [
+      "Aumentar o lucro utilizando o capital próprio",
+      "Diminuir o risco de um investimento",
+      "Usar dívidas para financiar investimentos",
+      "Diversificar investimentos em diferentes ativos"
+    ],
+    "correctAnswer": "Usar dívidas para financiar investimentos",
+    "explanation": "Alavancagem financeira envolve o uso de dívidas para aumentar o potencial de retorno de um investimento.  Curiosidade:  Embora possa amplificar os lucros, também aumenta o risco caso o investimento não renda o esperado."
+  },
+  {
+    "id": "quiz-dinheiro-59",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'ativos circulantes' e 'ativos não circulantes'?",
+    "options": [
+      "Ativos que podem ser convertidos em dinheiro em até um ano vs. ativos que levam mais de um ano",
+      "Ativos tangíveis vs. ativos intangíveis",
+      "Ativos de curto prazo vs. ativos de longo prazo",
+      "Ativos próprios vs. ativos de terceiros"
+    ],
+    "correctAnswer": "Ativos que podem ser convertidos em dinheiro em até um ano vs. ativos que levam mais de um ano",
+    "explanation": "Ativos circulantes são aqueles que podem ser convertidos em dinheiro rapidamente (ex: caixa, contas a receber). Ativos não circulantes são aqueles que não podem ser convertidos em dinheiro tão rapidamente (ex: imóveis, equipamentos). Curiosidade: A análise da relação entre ativos circulantes e não circulantes é importante para avaliar a liquidez de uma empresa."
+  },
+  {
+    "id": "quiz-dinheiro-60",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é um investimento de renda fixa?",
+    "options": [
+      "Investimento em ações",
+      "Investimento com retorno garantido",
+      "Investimento com retorno variável",
+      "Investimento em imóveis"
+    ],
+    "correctAnswer": "Investimento com retorno garantido",
+    "explanation": "Em um investimento de renda fixa, o retorno é pré-determinado ou calculado com base em uma taxa de juros.  Curiosidade:  Tesouro Direto é um exemplo de investimento de renda fixa."
+  },
+  {
+    "id": "quiz-dinheiro-61",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'Fundo de Investimento Imobiliário (FII)'?",
+    "options": [
+      "Um fundo que investe em ações de empresas imobiliárias",
+      "Um fundo que investe em imóveis",
+      "Um fundo que concede financiamento para construção de imóveis",
+      "Um fundo que compra e vende terrenos"
+    ],
+    "correctAnswer": "Um fundo que investe em imóveis",
+    "explanation": "FIIs investem em diversos tipos de imóveis, gerando renda para os cotistas através da locação ou valorização dos imóveis. Curiosidade:  FIIs oferecem uma forma de diversificação de investimentos em imóveis com menor capital."
+  },
+  {
+    "id": "quiz-dinheiro-62",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é o 'valuation' de uma empresa?",
+    "options": [
+      "O processo de determinar o valor de mercado de uma empresa",
+      "O lucro líquido da empresa",
+      "O patrimônio líquido da empresa",
+      "O faturamento anual da empresa"
+    ],
+    "correctAnswer": "O processo de determinar o valor de mercado de uma empresa",
+    "explanation": "Valuation é a avaliação do valor de uma empresa, considerando seus ativos, lucratividade e potencial de crescimento.  Curiosidade: Existem diferentes métodos de valuation, como o fluxo de caixa descontado (DCF) e o múltiplo de mercado."
+  },
+  {
+    "id": "quiz-dinheiro-63",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o significado de 'débito'?",
+    "options": [
+      "Dinheiro que você deve",
+      "Dinheiro que você possui",
+      "Dinheiro que você investiu",
+      "Dinheiro que você ganhou"
+    ],
+    "correctAnswer": "Dinheiro que você deve",
+    "explanation": "Débito representa uma obrigação financeira. Curiosidade:  Administrar bem os seus débitos é fundamental para manter suas finanças em ordem."
+  },
+  {
+    "id": "quiz-dinheiro-64",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'ativo imobilizado'?",
+    "options": [
+      "Dinheiro em caixa",
+      "Contas a receber",
+      "Imóveis, máquinas e equipamentos",
+      "Estoque de mercadorias"
+    ],
+    "correctAnswer": "Imóveis, máquinas e equipamentos",
+    "explanation": "Ativos imobilizados são bens de longa duração usados na operação da empresa. Curiosidade:  A depreciação é um processo contábil que reduz o valor dos ativos imobilizados ao longo do tempo."
+  },
+  {
+    "id": "quiz-dinheiro-65",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é um 'contrato futuro'?",
+    "options": [
+      "Um contrato para compra de um ativo em uma data futura",
+      "Um empréstimo bancário de longo prazo",
+      "Um tipo de investimento em ações",
+      "Um contrato de seguro"
+    ],
+    "correctAnswer": "Um contrato para compra de um ativo em uma data futura",
+    "explanation": "Contratos futuros são acordos para comprar ou vender um ativo a um preço determinado em uma data futura. Curiosidade:  São comumente utilizados para hedge contra flutuações de preços."
+  },
+  {
+    "id": "quiz-dinheiro-66",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o nome do dinheiro da Inglaterra?",
+    "options": [
+      "Euro",
+      "Dólar",
+      "Libra",
+      "Peso"
+    ],
+    "correctAnswer": "Libra",
+    "explanation": "A libra esterlina (£) é a moeda oficial do Reino Unido. Curiosidade: O símbolo da libra (£) deriva da letra 'L' em latim, que significa 'libra'."
+  },
+  {
+    "id": "quiz-dinheiro-67",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'taxa de juros'?",
+    "options": [
+      "O custo de pegar dinheiro emprestado",
+      "O valor de um ativo",
+      "O lucro de um investimento",
+      "O imposto sobre a renda"
+    ],
+    "correctAnswer": "O custo de pegar dinheiro emprestado",
+    "explanation": "É o preço pago pelo uso do dinheiro de outra pessoa. Curiosidade:  A taxa de juros influencia significativamente as decisões de investimento e consumo."
+  },
+  {
+    "id": "quiz-dinheiro-68",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é 'dívida lastreada em ativos'?",
+    "options": [
+      "Dívida garantida por ativos específicos",
+      "Dívida sem garantia",
+      "Dívida de longo prazo",
+      "Dívida de curto prazo"
+    ],
+    "correctAnswer": "Dívida garantida por ativos específicos",
+    "explanation": "A dívida é garantida por ativos, como imóveis ou equipamentos, que podem ser usados para pagar a dívida caso o devedor não consiga. Curiosidade: Isso reduz o risco para os credores."
+  },
+  {
+    "id": "quiz-dinheiro-69",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é um 'crédito'? ",
+    "options": [
+      "Dinheiro que você deve",
+      "Dinheiro que você emprestou",
+      "Dinheiro que você recebeu",
+      "Dinheiro que você investiu"
+    ],
+    "correctAnswer": "Dinheiro que você recebeu",
+    "explanation": "Um crédito representa um valor disponível para uso, geralmente obtido através de empréstimos ou financiamentos. Curiosidade:  Cartões de crédito são um exemplo comum de uso de crédito."
+  },
+  {
+    "id": "quiz-dinheiro-70",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'remuneração'?",
+    "options": [
+      "O custo de um produto",
+      "O pagamento por um serviço prestado",
+      "O valor de um ativo",
+      "O lucro de um investimento"
+    ],
+    "correctAnswer": "O pagamento por um serviço prestado",
+    "explanation": "Remuneração é o pagamento feito por um serviço prestado ou trabalho realizado. Curiosidade:  Salários, honorários e comissões são exemplos de remuneração."
+  },
+  {
+    "id": "quiz-dinheiro-71",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é um 'derivativo financeiro'?",
+    "options": [
+      "Um ativo financeiro de baixo risco",
+      "Um instrumento financeiro cujo valor deriva de outro ativo",
+      "Um instrumento financeiro de alta liquidez",
+      "Um investimento em ações"
+    ],
+    "correctAnswer": "Um instrumento financeiro cujo valor deriva de outro ativo",
+    "explanation": "Derivativos têm seu valor dependente do preço de um ativo subjacente (ações, moedas, juros). Curiosidade:  Opções e futuros são exemplos de derivativos."
+  },
+  {
+    "id": "quiz-dinheiro-72",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que significa 'saldo'? ",
+    "options": [
+      "O valor total de uma conta",
+      "O valor de um investimento",
+      "O lucro de uma empresa",
+      "O custo de um produto"
+    ],
+    "correctAnswer": "O valor total de uma conta",
+    "explanation": "Saldo representa o valor disponível em uma conta financeira em um determinado momento. Curiosidade:  Manter um saldo positivo é importante para evitar taxas e problemas financeiros."
+  },
+  {
+    "id": "quiz-dinheiro-73",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é 'desconto'?",
+    "options": [
+      "Uma taxa adicional sobre um produto",
+      "Uma redução no preço de um produto ou serviço",
+      "Um imposto sobre a venda",
+      "Um acréscimo no valor de um produto"
+    ],
+    "correctAnswer": "Uma redução no preço de um produto ou serviço",
+    "explanation": "Desconto representa a diminuição do preço original de algo. Curiosidade:  Descontos são utilizados como estratégia de marketing para incentivar as vendas."
+  },
+  {
+    "id": "quiz-dinheiro-74",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é o 'mercado de capitais'?",
+    "options": [
+      "O mercado de compra e venda de ações e outros títulos",
+      "O mercado de commodities",
+      "O mercado de câmbio",
+      "O mercado de crédito"
+    ],
+    "correctAnswer": "O mercado de compra e venda de ações e outros títulos",
+    "explanation": "É onde empresas e governos levantam capital através da emissão de ações e títulos. Curiosidade:  A Bolsa de Valores é parte integrante do mercado de capitais."
+  },
+  {
+    "id": "quiz-dinheiro-75",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "Qual o nome do dinheiro da China?",
+    "options": [
+      "Yen",
+      "Yuan",
+      "Won",
+      "Ringgit"
+    ],
+    "correctAnswer": "Yuan",
+    "explanation": "O yuan (CNY) é a moeda oficial da República Popular da China. Curiosidade:  O símbolo do yuan é ¥."
+  },
+  {
+    "id": "quiz-dinheiro-76",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que é um 'cheque'? ",
+    "options": [
+      "Um cartão de crédito",
+      "Um instrumento de pagamento",
+      "Um tipo de investimento",
+      "Um empréstimo bancário"
+    ],
+    "correctAnswer": "Um instrumento de pagamento",
+    "explanation": "É uma ordem de pagamento emitida por um banco para pagamento de um valor determinado. Curiosidade:  Os cheques são menos utilizados atualmente devido a formas de pagamento mais modernas."
+  },
+  {
+    "id": "quiz-dinheiro-77",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é 'análise fundamentalista'?",
+    "options": [
+      "Análise técnica de gráficos",
+      "Análise do mercado de ações",
+      "Análise dos fundamentos econômicos de uma empresa",
+      "Análise do comportamento dos investidores"
+    ],
+    "correctAnswer": "Análise dos fundamentos econômicos de uma empresa",
+    "explanation": "Essa análise avalia o valor intrínseco de uma empresa, analisando dados financeiros, como lucros e receitas, para determinar se a ação está sobrevalorizada ou subvalorizada. Curiosidade:  É uma estratégia de investimento de longo prazo."
+  },
+  {
+    "id": "quiz-dinheiro-78",
+    "categoryId": "dinheiro",
+    "difficulty": "easy",
+    "question": "O que é 'rentabilidade'?",
+    "options": [
+      "O custo de um investimento",
+      "O retorno de um investimento",
+      "O risco de um investimento",
+      "O prazo de um investimento"
+    ],
+    "correctAnswer": "O retorno de um investimento",
+    "explanation": "Rentabilidade mede o retorno gerado por um investimento em relação ao capital investido. Curiosidade:  A rentabilidade é expressa em porcentagem."
+  },
+  {
+    "id": "quiz-dinheiro-79",
+    "categoryId": "dinheiro",
+    "difficulty": "medium",
+    "question": "O que significa 'liquidação' no mercado financeiro?",
+    "options": [
+      "A compra de um ativo",
+      "A venda de um ativo",
+      "O processo de conclusão de uma operação financeira",
+      "A análise de um investimento"
+    ],
+    "correctAnswer": "O processo de conclusão de uma operação financeira",
+    "explanation": "Liquidação é o processo de efetivação de uma transação financeira, envolvendo o pagamento e a entrega do ativo. Curiosidade:  O tempo de liquidação varia dependendo do tipo de ativo e do mercado."
+  },
+  {
+    "id": "quiz-dinheiro-80",
+    "categoryId": "dinheiro",
+    "difficulty": "hard",
+    "question": "O que é 'taxa de retorno sobre o patrimônio líquido (ROE)'?",
+    "options": [
+      "A rentabilidade do investimento em ações",
+      "A rentabilidade do investimento em títulos",
+      "A rentabilidade do patrimônio líquido de uma empresa",
+      "A rentabilidade do capital de giro de uma empresa"
+    ],
+    "correctAnswer": "A rentabilidade do patrimônio líquido de uma empresa",
+    "explanation": "O ROE indica a eficiência da empresa em gerar lucros com o capital investido pelos acionistas. Curiosidade:  Um ROE alto geralmente indica boa gestão financeira."
   }
 ]

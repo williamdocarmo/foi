@@ -111,14 +111,36 @@ async function safeParseJsonText<T = any>(text: string): Promise<T | null> {
 }
 
 function isLikelyDuplicate(title: string, existingTitles: string[]): boolean {
-  if (!title) return true;
-  // quick exact check first
-  if (existingTitles.includes(title)) return true;
-  // semantic similarity check
-  const best = stringSimilarity.findBestMatch(title, existingTitles);
-  if (best && best.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD) return true;
+  // Ensure title is a non-empty string
+  if (typeof title !== 'string' || !title.trim()) {
+    return true; // Treat invalid titles as duplicates to be safe
+  }
+  
+  // Ensure existingTitles is a valid array of strings
+  const validExistingTitles = Array.isArray(existingTitles) 
+    ? existingTitles.filter(t => typeof t === 'string' && t.length > 0)
+    : [];
+
+  if (validExistingTitles.length === 0) {
+    return false;
+  }
+
+  // Quick exact check first
+  if (validExistingTitles.includes(title)) {
+    return true;
+  }
+
+  // Semantic similarity check
+  const best = stringSimilarity.findBestMatch(title, validExistingTitles);
+  
+  // Protect against null bestMatch if validExistingTitles is empty after filter
+  if (best && best.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD) {
+    return true;
+  }
+  
   return false;
 }
+
 
 // ---------------- VALIDATION ----------------
 function wordCount(s: string) {
