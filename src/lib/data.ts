@@ -5,6 +5,7 @@ import quizQuestionsData from './data/quiz-questions.json';
 
 export const categories: Category[] = categoriesData;
 
+// Convert the imported JSON data to the correct types
 const allCuriosities: Curiosity[] = curiositiesData as Curiosity[];
 const allQuizQuestions: QuizQuestion[] = quizQuestionsData as QuizQuestion[];
 
@@ -18,7 +19,7 @@ export function getCategoryById(id: string): Category | undefined {
 }
 
 /**
- * Retrieves all curiosities for a given category ID.
+ * Retrieves all curiosities for a given category ID from the central data source.
  * @param categoryId The ID of the category.
  * @returns An array of curiosities for that category.
  */
@@ -27,7 +28,7 @@ export function getCuriositiesByCategoryId(categoryId: string): Curiosity[] {
 }
 
 /**
- * Retrieves all quiz questions for a given category ID.
+ * Retrieves all quiz questions for a given category ID from the central data source.
  * @param categoryId The ID of the category.
  * @returns An array of quiz questions for that category.
  */
@@ -36,7 +37,7 @@ export function getQuizQuestionsByCategoryId(categoryId: string): QuizQuestion[]
 }
 
 /**
- * Retrieves all curiosities from the data source.
+ * Retrieves all curiosities from the central data source.
  * @returns An array of all curiosities.
  */
 export function getAllCuriosities(): Curiosity[] {
@@ -44,7 +45,7 @@ export function getAllCuriosities(): Curiosity[] {
 }
 
 /**
- * Retrieves all quiz questions from the data source.
+ * Retrieves all quiz questions from the central data source.
  * @returns An array of all quiz questions.
  */
 export function getAllQuizQuestions(): QuizQuestion[] {

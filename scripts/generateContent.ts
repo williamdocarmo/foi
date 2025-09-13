@@ -33,6 +33,7 @@ function sleep(ms: number) {
 
 async function readJsonFile<T>(filePath: string): Promise<T[]> {
     try {
+        await fs.access(filePath);
         const fileContent = await fs.readFile(filePath, "utf-8");
         const parsedContent = JSON.parse(fileContent);
         return Array.isArray(parsedContent) ? parsedContent : [];
@@ -62,6 +63,7 @@ async function generateWithRetry(prompt: string, attempt = 1): Promise<any> {
     }
      if (error instanceof SyntaxError) {
       console.error("  [ERROR] Failed to parse JSON from API response. The response might be malformed or empty.");
+      console.log("Malformed response:", error);
       return [];
     }
     throw error;
@@ -119,23 +121,29 @@ async function main() {
         .filter(c => c.categoryId === category.id)
         .map(c => c.title);
 
-    const newCuriosities = await generateCuriosities(category.name, CURIOSITIES_PER_CATEGORY, existingCuriosityTitles);
-    
-    if (newCuriosities && Array.isArray(newCuriosities) && newCuriosities.length > 0) {
-        let maxId = allCuriosities.length > 0 ? Math.max(...allCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
-        const curiositiesToAdd = newCuriosities.map((c: any) => {
-            maxId++;
-            return {
-                ...c,
-                id: `${category.id}-${maxId}`, // Unique ID
-                categoryId: category.id,
-            };
-        });
-        allCuriosities.push(...curiositiesToAdd);
-        newCuriositiesCount += curiositiesToAdd.length;
-        console.log(`- ${curiositiesToAdd.length} novas curiosidades para ${category.name}`);
+    const neededCuriosities = CURIOSITIES_PER_CATEGORY - existingCuriosityTitles.length;
+
+    if (neededCuriosities > 0) {
+        const newCuriosities = await generateCuriosities(category.name, neededCuriosities, existingCuriosityTitles);
+        
+        if (newCuriosities && Array.isArray(newCuriosities) && newCuriosities.length > 0) {
+            let maxId = allCuriosities.length > 0 ? Math.max(...allCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
+            const curiositiesToAdd = newCuriosities.map((c: any) => {
+                maxId++;
+                return {
+                    ...c,
+                    id: `${category.id}-${maxId}`, // Unique ID
+                    categoryId: category.id,
+                };
+            });
+            allCuriosities.push(...curiositiesToAdd);
+            newCuriositiesCount += curiositiesToAdd.length;
+            console.log(`- ${curiositiesToAdd.length} novas curiosidades para ${category.name}`);
+        } else {
+            console.log(`- Nenhuma curiosidade nova gerada para ${category.name}`);
+        }
     } else {
-        console.log(`- Nenhuma curiosidade nova gerada para ${category.name}`);
+        console.log(`- Categoria ${category.name} já possui ${existingCuriosityTitles.length} curiosidades. Nenhuma geração necessária.`);
     }
 
     await sleep(API_CALL_DELAY_MS); // Pause between API calls
@@ -144,25 +152,32 @@ async function main() {
     const existingQuestionStrings = allQuizQuestions
         .filter(q => q.categoryId === category.id)
         .map(q => q.question);
+
+    const neededQuizzes = QUIZ_QUESTIONS_PER_CATEGORY - existingQuestionStrings.length;
     
-    const newQuestions = await generateQuizQuestions(category.name, QUIZ_QUESTIONS_PER_CATEGORY, existingQuestionStrings);
-    
-    if (newQuestions && Array.isArray(newQuestions) && newQuestions.length > 0) {
-        let maxId = allQuizQuestions.length > 0 ? Math.max(...allQuizQuestions.map(q => parseInt(q.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
-        const questionsToAdd = newQuestions.map((q: any) => {
-            maxId++;
-            return {
-                ...q,
-                id: `quiz-${category.id}-${maxId}`, // Unique ID
-                categoryId: category.id,
-            };
-        });
-      allQuizQuestions.push(...questionsToAdd);
-      newQuizzesCount += questionsToAdd.length;
-      console.log(`- ${questionsToAdd.length} novas perguntas de quiz para ${category.name}`);
+    if (neededQuizzes > 0) {
+        const newQuestions = await generateQuizQuestions(category.name, neededQuizzes, existingQuestionStrings);
+        
+        if (newQuestions && Array.isArray(newQuestions) && newQuestions.length > 0) {
+            let maxId = allQuizQuestions.length > 0 ? Math.max(...allQuizQuestions.map(q => parseInt(q.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
+            const questionsToAdd = newQuestions.map((q: any) => {
+                maxId++;
+                return {
+                    ...q,
+                    id: `quiz-${category.id}-${maxId}`, // Unique ID
+                    categoryId: category.id,
+                };
+            });
+          allQuizQuestions.push(...questionsToAdd);
+          newQuizzesCount += questionsToAdd.length;
+          console.log(`- ${questionsToAdd.length} novas perguntas de quiz para ${category.name}`);
+        } else {
+            console.log(`- Nenhum quiz novo gerado para ${category.name}`);
+        }
     } else {
-        console.log(`- Nenhum quiz novo gerado para ${category.name}`);
+         console.log(`- Categoria ${category.name} já possui ${existingQuestionStrings.length} perguntas de quiz. Nenhuma geração necessária.`);
     }
+
 
     await sleep(API_CALL_DELAY_MS); // Pause before the next category
   }

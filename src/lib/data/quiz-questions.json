@@ -2518,5 +2518,3981 @@
     "explanation": "O bumbo é um instrumento de percussão tocado com baquetas ou pés.",
     "id": "quiz-musica-255",
     "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o melhor método para lavar as mãos para prevenir a propagação de germes?",
+    "options": [
+      "Lavar rapidamente com água fria.",
+      "Usar apenas sabonete líquido.",
+      "Lavar com água e sabão por pelo menos 20 segundos.",
+      "Enxugar as mãos em uma toalha suja."
+    ],
+    "correctAnswer": "Lavar com água e sabão por pelo menos 20 segundos.",
+    "explanation": "Lavar as mãos adequadamente com água e sabão por pelo menos 20 segundos remove a maioria dos germes.",
+    "id": "quiz-saude-256",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de proteína?",
+    "options": [
+      "Batata",
+      "Maçã",
+      "Frango",
+      "Alface"
+    ],
+    "correctAnswer": "Frango",
+    "explanation": "O frango é uma excelente fonte de proteína, essencial para o crescimento e reparação dos tecidos.",
+    "id": "quiz-saude-257",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla 'HPV' no contexto da saúde?",
+    "options": [
+      "Hepatite Vírus Pancrático",
+      "Human Papilloma Vírus",
+      "Hipertensão Pulmonar Vascular",
+      "Hormônio da Prolactina Vascular"
+    ],
+    "correctAnswer": "Human Papilloma Vírus",
+    "explanation": "HPV refere-se ao Papilomavírus Humano, um vírus que pode causar verrugas e alguns tipos de câncer.",
+    "id": "quiz-saude-258",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o principal sintoma da desidratação?",
+    "options": [
+      "Dor de cabeça",
+      "Náusea",
+      "Sede excessiva",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Sede excessiva, dor de cabeça e náusea são sintomas comuns de desidratação.",
+    "id": "quiz-saude-259",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas doenças é transmitida por mosquitos?",
+    "options": [
+      "Gripe",
+      "Sarampo",
+      "Malária",
+      "Rubéola"
+    ],
+    "correctAnswer": "Malária",
+    "explanation": "A malária é uma doença grave transmitida por mosquitos infectados.",
+    "id": "quiz-saude-260",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome da inflamação das vias aéreas que causa sibilância, tosse e falta de ar?",
+    "options": [
+      "Pneumonia",
+      "Bronquite",
+      "Asma",
+      "Tuberculose"
+    ],
+    "correctAnswer": "Asma",
+    "explanation": "A asma é uma doença crônica que causa inflamação das vias aéreas, resultando em sibilância, tosse e falta de ar.",
+    "id": "quiz-saude-261",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é colesterol HDL?",
+    "options": [
+      "Colesterol ruim",
+      "Colesterol bom",
+      "Tipo de açúcar no sangue",
+      "Tipo de proteína no sangue"
+    ],
+    "correctAnswer": "Colesterol bom",
+    "explanation": "O HDL, ou lipoproteína de alta densidade, é considerado o 'colesterol bom', pois ajuda a remover o colesterol ruim das artérias.",
+    "id": "quiz-saude-262",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre vírus e bactérias?",
+    "options": [
+      "Não há diferença, ambos são tipos de células.",
+      "Vírus são células e bactérias são organismos unicelulares.",
+      "Vírus são organismos unicelulares e bactérias são acelulares.",
+      "Vírus são acelulares e bactérias são organismos unicelulares."
+    ],
+    "correctAnswer": "Vírus são acelulares e bactérias são organismos unicelulares.",
+    "explanation": "Vírus são partículas acelulares que precisam de uma célula hospedeira para se replicar, enquanto bactérias são organismos unicelulares.",
+    "id": "quiz-saude-263",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância do sono para a saúde?",
+    "options": [
+      "Não tem importância significativa.",
+      "Auxilia na digestão.",
+      "Promove o reparo celular e a função cognitiva.",
+      "Aumenta a produção de hormônios do stress."
+    ],
+    "correctAnswer": "Promove o reparo celular e a função cognitiva.",
+    "explanation": "O sono é crucial para o reparo celular, a consolidação da memória e o funcionamento cognitivo adequado.",
+    "id": "quiz-saude-264",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de ferro?",
+    "options": [
+      "Banana",
+      "Laranja",
+      "Espinafre",
+      "Maçã"
+    ],
+    "correctAnswer": "Espinafre",
+    "explanation": "O espinafre é rico em ferro, um mineral essencial para a produção de hemoglobina.",
+    "id": "quiz-saude-265",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a hipertensão?",
+    "options": [
+      "Pressão arterial baixa",
+      "Pressão arterial alta",
+      "Frequência cardíaca baixa",
+      "Frequência cardíaca alta"
+    ],
+    "correctAnswer": "Pressão arterial alta",
+    "explanation": "Hipertensão arterial, ou pressão alta, é uma condição médica séria que aumenta o risco de doenças cardíacas.",
+    "id": "quiz-saude-266",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o nome da condição caracterizada por uma inflamação das articulações?",
+    "options": [
+      "Osteoporose",
+      "Artrite",
+      "Diabetes",
+      "Câncer"
+    ],
+    "correctAnswer": "Artrite",
+    "explanation": "Artrite é um termo geral para condições que causam inflamação das articulações.",
+    "id": "quiz-saude-267",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual o corpo produz novas células sanguíneas?",
+    "options": [
+      "Hemostasia",
+      "Hemólise",
+      "Hematopoiese",
+      "Hemodiálise"
+    ],
+    "correctAnswer": "Hematopoiese",
+    "explanation": "A hematopoiese é o processo de formação de novas células sanguíneas na medula óssea.",
+    "id": "quiz-saude-268",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o papel da insulina no corpo?",
+    "options": [
+      "Regular a temperatura corporal",
+      "Regular o nível de açúcar no sangue",
+      "Regular a pressão arterial",
+      "Regular a produção de hormônios"
+    ],
+    "correctAnswer": "Regular o nível de açúcar no sangue",
+    "explanation": "A insulina é um hormônio que regula a quantidade de glicose no sangue.",
+    "id": "quiz-saude-269",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância da higiene bucal?",
+    "options": [
+      "Previne problemas digestivos",
+      "Previne doenças respiratórias",
+      "Previne cáries e doenças gengivais",
+      "Não tem muita importância para a saúde geral"
+    ],
+    "correctAnswer": "Previne cáries e doenças gengivais",
+    "explanation": "Uma boa higiene bucal ajuda a prevenir cáries, gengivite e outras doenças periodontais.",
+    "id": "quiz-saude-270",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é geralmente considerado um bom exemplo de alimento rico em antioxidantes?",
+    "options": [
+      "Batata frita",
+      "Refrigerante",
+      "Chocolate ao leite",
+      "Morango"
+    ],
+    "correctAnswer": "Morango",
+    "explanation": "Morangos são ricos em antioxidantes, que combatem os radicais livres no corpo.",
+    "id": "quiz-bem-estar-271",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa a sigla FOMO?",
+    "options": [
+      "Fear Of Missing Out",
+      "Feeling Of Maximum Optimism",
+      "Freedom Of Many Opportunities",
+      "Future Of Modern Organizations"
+    ],
+    "correctAnswer": "Fear Of Missing Out",
+    "explanation": "FOMO, ou Fear Of Missing Out, é o medo de perder experiências ou oportunidades.",
+    "id": "quiz-bem-estar-272",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual técnica de respiração é frequentemente usada para reduzir a ansiedade e promover o relaxamento?",
+    "options": [
+      "Respiração de Kumbhaka",
+      "Respiração de Kapalabhati",
+      "Respiração diafragmática",
+      "Respiração de Bhastrika"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática, ou respiração abdominal, é uma técnica eficaz para acalmar o sistema nervoso.",
+    "id": "quiz-bem-estar-273",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância de manter uma boa postura?",
+    "options": [
+      "Não tem impacto na saúde",
+      "Ajuda a prevenir dores nas costas",
+      "Causa problemas de coluna",
+      "Aumenta a fadiga"
+    ],
+    "correctAnswer": "Ajuda a prevenir dores nas costas",
+    "explanation": "Uma boa postura ajuda a reduzir a tensão muscular e a prevenir dores nas costas e pescoço.",
+    "id": "quiz-bem-estar-274",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é importante considerar ao estabelecer metas de bem-estar?",
+    "options": [
+      "Apenas metas a longo prazo",
+      "Metas irreais e desafiadoras",
+      "Metas específicas, mensuráveis, alcançáveis, relevantes e com prazo definido (SMART)",
+      "Metas focadas apenas em resultados físicos"
+    ],
+    "correctAnswer": "Metas específicas, mensuráveis, alcançáveis, relevantes e com prazo definido (SMART)",
+    "explanation": "As metas SMART são mais eficazes por serem claras, concisas e com um plano de ação.",
+    "id": "quiz-bem-estar-275",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito se refere à capacidade de se adaptar e lidar com situações desafiadoras da vida?",
+    "options": [
+      "Autocompaixão",
+      "Empatia",
+      "Resiliência",
+      "Assertividade"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Resiliência é a capacidade de superar adversidades e se recuperar de situações difíceis.",
+    "id": "quiz-bem-estar-276",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um benefício da exposição à luz solar?",
+    "options": [
+      "Aumento da insônia",
+      "Diminuição da produção de vitamina D",
+      "Aumento da produção de vitamina D",
+      "Desidratação"
+    ],
+    "correctAnswer": "Aumento da produção de vitamina D",
+    "explanation": "A exposição ao sol é essencial para a produção de vitamina D pelo corpo.",
+    "id": "quiz-bem-estar-277",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como o gerenciamento do tempo pode afetar o bem-estar?",
+    "options": [
+      "Não tem relação com o bem-estar",
+      "Aumenta o estresse e a ansiedade",
+      "Melhora a produtividade, mas não impacta o bem-estar",
+      "Contribui para a redução do estresse e aumento da sensação de controle"
+    ],
+    "correctAnswer": "Contribui para a redução do estresse e aumento da sensação de controle",
+    "explanation": "O gerenciamento eficaz do tempo ajuda a reduzir o estresse e aumenta a sensação de controle sobre a própria vida.",
+    "id": "quiz-bem-estar-278",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre compaixão e empatia?",
+    "options": [
+      "Não há diferença significativa",
+      "Empatia é sentir o que o outro sente, compaixão é sentir e querer ajudar",
+      "Empatia é querer ajudar, compaixão é sentir o que o outro sente",
+      "Ambas são sinônimos de sentir o que o outro sente"
+    ],
+    "correctAnswer": "Empatia é sentir o que o outro sente, compaixão é sentir e querer ajudar",
+    "explanation": "Empatia é a capacidade de se colocar no lugar do outro, enquanto a compaixão envolve empatia e o desejo de ajudar.",
+    "id": "quiz-bem-estar-279",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Beber água suficiente diariamente é importante para:",
+    "options": [
+      "Apenas hidratação da pele",
+      "Apenas funcionamento dos rins",
+      "Diversas funções corporais, incluindo a regulação da temperatura corporal",
+      "Nenhuma das alternativas"
+    ],
+    "correctAnswer": "Diversas funções corporais, incluindo a regulação da temperatura corporal",
+    "explanation": "A água é essencial para diversas funções corporais, incluindo a regulação da temperatura, transporte de nutrientes e eliminação de toxinas.",
+    "id": "quiz-bem-estar-280",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual prática pode ajudar a fortalecer a autoestima?",
+    "options": [
+      "Autocrítica constante",
+      "Comparação com os outros",
+      "Identificação dos pontos fortes e fracos e trabalho em melhorias",
+      "Ignorar os próprios sentimentos"
+    ],
+    "correctAnswer": "Identificação dos pontos fortes e fracos e trabalho em melhorias",
+    "explanation": "Trabalhar nos pontos fracos e celebrar os pontos fortes aumenta a autoconfiança e a autoestima.",
+    "id": "quiz-bem-estar-281",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A síndrome do impostor se caracteriza por:",
+    "options": [
+      "Confiança excessiva nas próprias habilidades",
+      "Medo de sucesso e realização",
+      "Sensação de que o sucesso é imerecido e baseado em sorte",
+      "Autoestima elevada e autoconfiança inabalável"
+    ],
+    "correctAnswer": "Sensação de que o sucesso é imerecido e baseado em sorte",
+    "explanation": "A síndrome do impostor é marcada pela sensação persistente de que não se é tão competente quanto as pessoas pensam.",
+    "id": "quiz-bem-estar-282",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é importante para estabelecer relações saudáveis?",
+    "options": [
+      "Comunicação unilateral",
+      "Manipulação",
+      "Boa comunicação e respeito mútuo",
+      "Dependência excessiva"
+    ],
+    "correctAnswer": "Boa comunicação e respeito mútuo",
+    "explanation": "Boa comunicação e respeito mútuo são fundamentais para relacionamentos saudáveis e duradouros.",
+    "id": "quiz-bem-estar-283",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como o estresse crônico afeta o corpo?",
+    "options": [
+      "Não causa nenhum impacto significativo",
+      "Fortalece o sistema imunológico",
+      "Causa diversos problemas de saúde, como problemas cardíacos e digestivos",
+      "Aumenta a energia e disposição"
+    ],
+    "correctAnswer": "Causa diversos problemas de saúde, como problemas cardíacos e digestivos",
+    "explanation": "O estresse crônico pode levar a problemas cardíacos, digestivos, problemas de sono e outros problemas de saúde.",
+    "id": "quiz-bem-estar-284",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito descreve a capacidade de aceitar e apreciar a própria experiência, sem julgamento?",
+    "options": [
+      "Resiliência",
+      "Mindfulness",
+      "Assertividade",
+      "Empatia"
+    ],
+    "correctAnswer": "Mindfulness",
+    "explanation": "Mindfulness é a prática de prestar atenção ao momento presente sem julgamento.",
+    "id": "quiz-bem-estar-285",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o símbolo da moeda Euro?",
+    "options": [
+      "$",
+      "€",
+      "£",
+      "¥"
+    ],
+    "correctAnswer": "€",
+    "explanation": "O símbolo € representa a moeda Euro, utilizada em vários países da União Europeia.",
+    "id": "quiz-dinheiro-286",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa 'débito' em termos financeiros?",
+    "options": [
+      "Receber dinheiro",
+      "Gastar dinheiro",
+      "Investir dinheiro",
+      "Poupar dinheiro"
+    ],
+    "correctAnswer": "Gastar dinheiro",
+    "explanation": "Débito refere-se ao ato de gastar dinheiro, reduzindo o saldo disponível.",
+    "id": "quiz-dinheiro-287",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um orçamento doméstico?",
+    "options": [
+      "Um plano de gastos e receitas pessoais",
+      "Um tipo de investimento de baixo risco",
+      "Um imposto sobre a renda",
+      "Um empréstimo bancário"
+    ],
+    "correctAnswer": "Um plano de gastos e receitas pessoais",
+    "explanation": "Um orçamento doméstico é um planejamento financeiro pessoal que acompanha as entradas e saídas de dinheiro.",
+    "id": "quiz-dinheiro-288",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o significado de 'crédito' em termos financeiros?",
+    "options": [
+      "Dívida a ser paga",
+      "Receber dinheiro",
+      "Investir em ações",
+      "Pagar impostos"
+    ],
+    "correctAnswer": "Receber dinheiro",
+    "explanation": "Crédito, nesse contexto, representa o recebimento de dinheiro, aumentando o saldo disponível.",
+    "id": "quiz-dinheiro-289",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que são impostos?",
+    "options": [
+      "Investimentos de alto risco",
+      "Contribuições obrigatórias para o governo",
+      "Descontos em compras",
+      "Juros sobre empréstimos"
+    ],
+    "correctAnswer": "Contribuições obrigatórias para o governo",
+    "explanation": "Impostos são pagamentos obrigatórios feitos aos governos para financiar serviços públicos.",
+    "id": "quiz-dinheiro-290",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um 'hedge fund'?",
+    "options": [
+      "Um fundo de investimento de baixo risco",
+      "Um tipo de conta poupança",
+      "Um fundo de investimento com estratégias de alto risco e alta rentabilidade",
+      "Um tipo de seguro de vida"
+    ],
+    "correctAnswer": "Um fundo de investimento com estratégias de alto risco e alta rentabilidade",
+    "explanation": "Hedge funds são fundos de investimento que utilizam estratégias complexas e arriscadas para buscar altos retornos.",
+    "id": "quiz-dinheiro-291",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que significa 'liquidez' em finanças?",
+    "options": [
+      "A capacidade de converter um ativo em dinheiro rapidamente",
+      "O valor total de um investimento",
+      "A taxa de retorno de um investimento",
+      "A quantidade de dívida de uma empresa"
+    ],
+    "correctAnswer": "A capacidade de converter um ativo em dinheiro rapidamente",
+    "explanation": "Liquidez se refere à facilidade com que um ativo pode ser convertido em dinheiro sem perder muito valor.",
+    "id": "quiz-dinheiro-292",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome dado ao dinheiro físico?",
+    "options": [
+      "Moeda fiduciária",
+      "Dinheiro digital",
+      "Crédito",
+      "Dinheiro corrente"
+    ],
+    "correctAnswer": "Dinheiro corrente",
+    "explanation": "Dinheiro corrente refere-se às notas e moedas em circulação.",
+    "id": "quiz-dinheiro-293",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é uma taxa de juros?",
+    "options": [
+      "O custo de tomar dinheiro emprestado",
+      "O valor de um investimento",
+      "O imposto sobre a renda",
+      "A inflação anual"
+    ],
+    "correctAnswer": "O custo de tomar dinheiro emprestado",
+    "explanation": "Taxa de juros é o percentual cobrado sobre um valor emprestado.",
+    "id": "quiz-dinheiro-294",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um derivativo financeiro?",
+    "options": [
+      "Um investimento em ações",
+      "Um contrato cujo valor é derivado de um ativo subjacente",
+      "Um tipo de imposto",
+      "Uma taxa de câmbio"
+    ],
+    "correctAnswer": "Um contrato cujo valor é derivado de um ativo subjacente",
+    "explanation": "Derivativos são contratos cujo valor depende do preço de um ativo subjacente, como ações ou commodities.",
+    "id": "quiz-dinheiro-295",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é um investimento?",
+    "options": [
+      "Gastar dinheiro",
+      "Guardar dinheiro",
+      "Aplicação de dinheiro com o objetivo de obter um retorno futuro",
+      "Doar dinheiro"
+    ],
+    "correctAnswer": "Aplicação de dinheiro com o objetivo de obter um retorno futuro",
+    "explanation": "Investimento é a aplicação de recursos financeiros com a expectativa de obter ganhos futuros.",
+    "id": "quiz-dinheiro-296",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a função principal de um cartão de crédito?",
+    "options": [
+      "Guardar dinheiro",
+      "Fazer pagamentos postergados",
+      "Transferir dinheiro entre contas",
+      "Investir em ações"
+    ],
+    "correctAnswer": "Fazer pagamentos postergados",
+    "explanation": "Cartões de crédito permitem compras com pagamento posterior, sujeito a juros e taxas.",
+    "id": "quiz-dinheiro-297",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um 'swap' financeiro?",
+    "options": [
+      "Um tipo de investimento em ações",
+      "Um acordo para troca de fluxos de caixa futuros",
+      "Um tipo de empréstimo bancário",
+      "Um investimento em imóveis"
+    ],
+    "correctAnswer": "Um acordo para troca de fluxos de caixa futuros",
+    "explanation": "Um swap é um acordo para trocar fluxos de caixa futuros, geralmente relacionados a taxas de juros ou moedas.",
+    "id": "quiz-dinheiro-298",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa 'renda'? ",
+    "options": [
+      "Gastos mensais",
+      "Dinheiro ganho",
+      "Dívidas pendentes",
+      "Investimentos futuros"
+    ],
+    "correctAnswer": "Dinheiro ganho",
+    "explanation": "Renda representa o dinheiro obtido através de trabalho, investimentos ou outras fontes.",
+    "id": "quiz-dinheiro-299",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um ativo?",
+    "options": [
+      "Uma dívida",
+      "Algo que possui valor econômico",
+      "Um gasto",
+      "Um imposto"
+    ],
+    "correctAnswer": "Algo que possui valor econômico",
+    "explanation": "Ativo é qualquer bem ou direito que possui valor econômico e pode gerar benefícios futuros.",
+    "id": "quiz-dinheiro-300",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes dispositivos é um periférico de entrada?",
+    "options": [
+      "Impressora",
+      "Monitor",
+      "Teclado",
+      "Caixa de Som"
+    ],
+    "correctAnswer": "Teclado",
+    "explanation": "Um teclado permite que o usuário insira dados no computador.",
+    "id": "quiz-tecnologia-301",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa a sigla 'URL'?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Link",
+      "Unified Resource Locator",
+      "Unique Resource Locator"
+    ],
+    "correctAnswer": "Uniform Resource Locator",
+    "explanation": "URL significa Uniform Resource Locator e é o endereço de um recurso na internet.",
+    "id": "quiz-tecnologia-302",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal tipo de memória usado para armazenar dados durante o funcionamento de um programa?",
+    "options": [
+      "ROM",
+      "SSD",
+      "HDD",
+      "RAM"
+    ],
+    "correctAnswer": "RAM",
+    "explanation": "RAM (Random Access Memory) é a memória de acesso aleatório, usada para o processamento de dados ativos.",
+    "id": "quiz-tecnologia-303",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tecnologia permite a comunicação entre dispositivos usando ondas de rádio?",
+    "options": [
+      "Bluetooth",
+      "Ethernet",
+      "HDMI",
+      "USB"
+    ],
+    "correctAnswer": "Bluetooth",
+    "explanation": "Bluetooth utiliza ondas de rádio para comunicação de curto alcance.",
+    "id": "quiz-tecnologia-304",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a função de um algoritmo de criptografia?",
+    "options": [
+      "Organizar dados",
+      "Compilar código",
+      "Codificar informações para segurança",
+      "Acelerar processamento"
+    ],
+    "correctAnswer": "Codificar informações para segurança",
+    "explanation": "Algoritmos de criptografia protegem informações, tornando-as ilegíveis sem a chave correta.",
+    "id": "quiz-tecnologia-305",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um 'cookie' na internet?",
+    "options": [
+      "Um arquivo de texto pequeno armazenado pelo site no navegador",
+      "Um programa malicioso",
+      "Um tipo de criptografia",
+      "Um tipo de rede"
+    ],
+    "correctAnswer": "Um arquivo de texto pequeno armazenado pelo site no navegador",
+    "explanation": "Cookies são usados para armazenar informações sobre a visita do usuário a um site.",
+    "id": "quiz-tecnologia-306",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'cloud computing'?",
+    "options": [
+      "Armazenamento de dados em um disco rígido externo",
+      "Processamento de dados em um único computador",
+      "Armazenamento e processamento de dados em servidores remotos",
+      "Um tipo de linguagem de programação"
+    ],
+    "correctAnswer": "Armazenamento e processamento de dados em servidores remotos",
+    "explanation": "Cloud computing utiliza servidores remotos para armazenar e processar dados.",
+    "id": "quiz-tecnologia-307",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'software' e 'hardware'?",
+    "options": [
+      "Software é o programa e hardware é o equipamento físico",
+      "Software é físico e hardware é lógico",
+      "Software e hardware são termos sinônimos",
+      "Software é a interface e hardware é o processamento"
+    ],
+    "correctAnswer": "Software é o programa e hardware é o equipamento físico",
+    "explanation": "Software são programas, aplicativos e dados; Hardware são os componentes físicos do computador.",
+    "id": "quiz-tecnologia-308",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas opções é um sistema operacional?",
+    "options": [
+      "Microsoft Word",
+      "Google Chrome",
+      "Windows",
+      "Adobe Photoshop"
+    ],
+    "correctAnswer": "Windows",
+    "explanation": "Windows é um sistema operacional popular.",
+    "id": "quiz-tecnologia-309",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um 'firewall'?",
+    "options": [
+      "Um dispositivo de armazenamento de dados",
+      "Um tipo de software de edição de imagem",
+      "Um sistema de segurança que controla o acesso à rede",
+      "Um tipo de navegador de internet"
+    ],
+    "correctAnswer": "Um sistema de segurança que controla o acesso à rede",
+    "explanation": "Um firewall protege a rede contra acessos não autorizados.",
+    "id": "quiz-tecnologia-310",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes é um exemplo de banco de dados?",
+    "options": [
+      "Microsoft Excel",
+      "Google Docs",
+      "MySQL",
+      "Adobe Illustrator"
+    ],
+    "correctAnswer": "MySQL",
+    "explanation": "MySQL é um sistema de gerenciamento de banco de dados relacional.",
+    "id": "quiz-tecnologia-311",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um algoritmo?",
+    "options": [
+      "Um tipo de linguagem de programação",
+      "Uma sequência de passos para resolver um problema",
+      "Um componente de hardware",
+      "Um tipo de arquivo"
+    ],
+    "correctAnswer": "Uma sequência de passos para resolver um problema",
+    "explanation": "Um algoritmo é uma sequência finita de passos bem definidos que leva a um resultado.",
+    "id": "quiz-tecnologia-312",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome da tecnologia que utiliza cabos de fibra óptica para transmissão de dados?",
+    "options": [
+      "Wi-Fi",
+      "Ethernet",
+      "Bluetooth",
+      "Fibra Óptica"
+    ],
+    "correctAnswer": "Fibra Óptica",
+    "explanation": "A fibra óptica utiliza a luz para transmitir dados.",
+    "id": "quiz-tecnologia-313",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual linguagem de programação é conhecida por sua utilização em desenvolvimento web frontend?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "JavaScript é amplamente usado para desenvolvimento web interativo no lado do cliente (frontend).",
+    "id": "quiz-tecnologia-314",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'Big Data'?",
+    "options": [
+      "Dados pequenos e facilmente processáveis",
+      "Dados que podem ser processados por um único computador",
+      "Grandes conjuntos de dados complexos e diversos",
+      "Dados antigos e obsoletos"
+    ],
+    "correctAnswer": "Grandes conjuntos de dados complexos e diversos",
+    "explanation": "Big Data se refere a conjuntos de dados muito grandes e complexos que requerem tecnologias especiais para processamento e análise.",
+    "id": "quiz-tecnologia-315",
+    "categoryId": "tecnologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do processo pelo qual as plantas produzem seu próprio alimento?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Digestão",
+      "Transpiração"
+    ],
+    "correctAnswer": "Fotossíntese",
+    "explanation": "A fotossíntese é o processo pelo qual as plantas convertem energia solar, água e dióxido de carbono em glicose (alimento) e oxigênio.",
+    "id": "quiz-ciencia-316",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual cientista é famoso pela teoria da relatividade?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nicolau Copérnico"
+    ],
+    "correctAnswer": "Albert Einstein",
+    "explanation": "Albert Einstein desenvolveu a teoria da relatividade geral e especial, revolucionando a física.",
+    "id": "quiz-ciencia-317",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um quark?",
+    "options": [
+      "Uma partícula subatômica fundamental",
+      "Um tipo de estrela",
+      "Uma unidade de energia",
+      "Um tipo de galáxia"
+    ],
+    "correctAnswer": "Uma partícula subatômica fundamental",
+    "explanation": "Quarks são partículas fundamentais que constituem prótons e nêutrons.",
+    "id": "quiz-ciencia-318",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual elemento químico tem o símbolo 'O'?",
+    "options": [
+      "Ouro",
+      "Oxigênio",
+      "Hidrogênio",
+      "Argônio"
+    ],
+    "correctAnswer": "Oxigênio",
+    "explanation": "O símbolo químico do oxigênio é O.",
+    "id": "quiz-ciencia-319",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a força responsável pela atração entre objetos com massa?",
+    "options": [
+      "Força elétrica",
+      "Força magnética",
+      "Força gravitacional",
+      "Força nuclear forte"
+    ],
+    "correctAnswer": "Força gravitacional",
+    "explanation": "A força gravitacional atrai objetos com massa, sendo mais forte quanto maior a massa e menor a distância entre eles.",
+    "id": "quiz-ciencia-320",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a constante de Planck?",
+    "options": [
+      "Uma constante fundamental na mecânica quântica",
+      "A velocidade da luz no vácuo",
+      "A constante gravitacional",
+      "A carga elementar"
+    ],
+    "correctAnswer": "Uma constante fundamental na mecânica quântica",
+    "explanation": "A constante de Planck relaciona a energia de um fóton à sua frequência.",
+    "id": "quiz-ciencia-321",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do processo de formação de rochas a partir do resfriamento e solidificação do magma?",
+    "options": [
+      "Sedimentação",
+      "Metamorfismo",
+      "Erosão",
+      "Igneous"
+    ],
+    "correctAnswer": "Igneous",
+    "explanation": "Rochas ígneas são formadas a partir do resfriamento do magma ou lava.",
+    "id": "quiz-ciencia-322",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do fenômeno que ocorre quando a luz muda de direção ao passar de um meio para outro?",
+    "options": [
+      "Reflexão",
+      "Refração",
+      "Difração",
+      "Interferência"
+    ],
+    "correctAnswer": "Refração",
+    "explanation": "A refração é a mudança na direção da luz ao passar de um meio para outro com diferentes índices de refração.",
+    "id": "quiz-ciencia-323",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um buraco negro?",
+    "options": [
+      "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+      "Uma estrela em colapso",
+      "Um tipo de galáxia",
+      "Um vazio no espaço"
+    ],
+    "correctAnswer": "Uma região do espaço com gravidade tão forte que nada, nem mesmo a luz, pode escapar",
+    "explanation": "Buracos negros são regiões do espaço-tempo com gravidade extremamente forte.",
+    "id": "quiz-ciencia-324",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do planeta conhecido como o 'planeta vermelho'?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Vênus",
+      "Saturno"
+    ],
+    "correctAnswer": "Marte",
+    "explanation": "Marte é chamado de 'planeta vermelho' devido à sua aparência avermelhada causada pelo óxido de ferro em sua superfície.",
+    "id": "quiz-ciencia-325",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome da camada gasosa que envolve a Terra?",
+    "options": [
+      "Hidrosfera",
+      "Litosfera",
+      "Biosfera",
+      "Atmosfera"
+    ],
+    "correctAnswer": "Atmosfera",
+    "explanation": "A atmosfera é a camada gasosa que envolve a Terra, protegendo-a da radiação solar e meteoros.",
+    "id": "quiz-ciencia-326",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre fissão e fusão nuclear?",
+    "options": [
+      "Fissão é a divisão de um núcleo atômico, fusão é a união de núcleos atômicos.",
+      "Fissão é a união de núcleos atômicos, fusão é a divisão de um núcleo atômico.",
+      "Ambas são o mesmo processo.",
+      "Nenhuma das alternativas."
+    ],
+    "correctAnswer": "Fissão é a divisão de um núcleo atômico, fusão é a união de núcleos atômicos.",
+    "explanation": "A fissão nuclear divide um átomo, enquanto a fusão nuclear une dois ou mais átomos.",
+    "id": "quiz-ciencia-327",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a principal função do sistema imunológico?",
+    "options": [
+      "Digestão de alimentos",
+      "Transporte de oxigênio",
+      "Defesa contra doenças",
+      "Regulação da temperatura corporal"
+    ],
+    "correctAnswer": "Defesa contra doenças",
+    "explanation": "O sistema imunológico protege o corpo contra agentes patogênicos, como bactérias e vírus.",
+    "id": "quiz-ciencia-328",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a fórmula química da água?",
+    "options": [
+      "CO2",
+      "NaCl",
+      "H2O",
+      "O2"
+    ],
+    "correctAnswer": "H2O",
+    "explanation": "A água é composta por dois átomos de hidrogênio e um átomo de oxigênio.",
+    "id": "quiz-ciencia-329",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a Teoria da Evolução?",
+    "options": [
+      "Uma teoria sobre a criação do universo",
+      "Uma teoria que descreve a formação de planetas",
+      "Uma teoria que descreve a mudança gradual das espécies ao longo do tempo",
+      "Uma teoria que descreve o funcionamento do cérebro humano"
+    ],
+    "correctAnswer": "Uma teoria que descreve a mudança gradual das espécies ao longo do tempo",
+    "explanation": "A Teoria da Evolução, proposta por Charles Darwin, descreve a seleção natural e a adaptação das espécies ao longo das gerações.",
+    "id": "quiz-ciencia-330",
+    "categoryId": "ciencia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso festival de carnaval no Brasil?",
+    "options": [
+      "Carnaval de Salvador",
+      "Carnaval de Veneza",
+      "Marcha das Mulheres",
+      "Festa Junina"
+    ],
+    "correctAnswer": "Carnaval de Salvador",
+    "explanation": "Embora muitos festivais de carnaval existam no Brasil, o Carnaval de Salvador é um dos mais conhecidos mundialmente.",
+    "id": "quiz-cultura-331",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estilo musical é frequentemente associado à cultura africana?",
+    "options": [
+      "Samba",
+      "Tango",
+      "Reggae",
+      "Blues"
+    ],
+    "correctAnswer": "Blues",
+    "explanation": "Embora o samba e o reggae também possuam raízes africanas, o Blues é frequentemente citado como uma forte representação musical da cultura africana.",
+    "id": "quiz-cultura-332",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre o teatro grego clássico e o teatro shakespeariano?",
+    "options": [
+      "A utilização de máscaras",
+      "A presença de coros",
+      "O uso de linguagem poética",
+      "A temática tratada"
+    ],
+    "correctAnswer": "A presença de coros",
+    "explanation": "Enquanto o teatro grego clássico utilizava extensivamente coros, o teatro shakespeariano não.",
+    "id": "quiz-cultura-333",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em qual país nasceu o escritor William Shakespeare?",
+    "options": [
+      "França",
+      "Inglaterra",
+      "Itália",
+      "Espanha"
+    ],
+    "correctAnswer": "Inglaterra",
+    "explanation": "William Shakespeare é um dos mais famosos escritores ingleses.",
+    "id": "quiz-cultura-334",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a arte marcial tradicional do Japão?",
+    "options": [
+      "Taekwondo",
+      "Karate",
+      "Judo",
+      "Aikido"
+    ],
+    "correctAnswer": "Judo",
+    "explanation": "Embora Karate e Aikido tenham origens japonesas, o Judo é frequentemente associado com a cultura japonesa tradicional.",
+    "id": "quiz-cultura-335",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do sistema de escrita utilizado na China?",
+    "options": [
+      "Hangul",
+      "Cirílico",
+      "Hanzi",
+      "Katakana"
+    ],
+    "correctAnswer": "Hanzi",
+    "explanation": "Hanzi é o nome dado aos caracteres chineses.",
+    "id": "quiz-cultura-336",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual tipo de arquitetura é característico da Grécia Antiga?",
+    "options": [
+      "Gótico",
+      "Romântico",
+      "Clássica",
+      "Barroco"
+    ],
+    "correctAnswer": "Clássica",
+    "explanation": "A arquitetura grega antiga é conhecida por suas colunas e proporções harmônicas.",
+    "id": "quiz-cultura-337",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Que tipo de dança é tradicional da Índia?",
+    "options": [
+      "Tango",
+      "Flamenco",
+      "Ballet",
+      "Bharatanatyam"
+    ],
+    "correctAnswer": "Bharatanatyam",
+    "explanation": "Bharatanatyam é um estilo clássico de dança da Índia.",
+    "id": "quiz-cultura-338",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual movimento artístico se caracteriza pela busca de uma representação objetiva da realidade?",
+    "options": [
+      "Impressionismo",
+      "Realismo",
+      "Surrealismo",
+      "Cubismo"
+    ],
+    "correctAnswer": "Realismo",
+    "explanation": "O Realismo buscava retratar a realidade de forma objetiva e sem idealizações românticas.",
+    "id": "quiz-cultura-339",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é tradicionalmente associado à cultura brasileira?",
+    "options": [
+      "Bagpipe",
+      "Sitar",
+      "Berimbau",
+      "Balalaika"
+    ],
+    "correctAnswer": "Berimbau",
+    "explanation": "O berimbau é um instrumento de corda percutida, símbolo da cultura brasileira, principalmente associado à Capoeira.",
+    "id": "quiz-cultura-340",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o nome do famoso festival de cinema que acontece anualmente em Cannes?",
+    "options": [
+      "Festival de Cinema de Berlim",
+      "Festival de Cinema de Veneza",
+      "Festival de Cinema de Cannes",
+      "Festival de Cinema de Sundance"
+    ],
+    "correctAnswer": "Festival de Cinema de Cannes",
+    "explanation": "O Festival de Cinema de Cannes é um dos eventos mais prestigiados da indústria cinematográfica.",
+    "id": "quiz-cultura-341",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual filósofo grego é conhecido pela sua teoria das ideias?",
+    "options": [
+      "Aristóteles",
+      "Sócrates",
+      "Platão",
+      "Epicuro"
+    ],
+    "correctAnswer": "Platão",
+    "explanation": "Platão é famoso por sua teoria das ideias, que postula a existência de um mundo ideal de formas perfeitas.",
+    "id": "quiz-cultura-342",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual tipo de pintura é característico do Renascimento Italiano?",
+    "options": [
+      "Abstrata",
+      "Romântica",
+      "Realista",
+      "Afresco"
+    ],
+    "correctAnswer": "Afresco",
+    "explanation": "Os afrescos eram uma técnica muito utilizada durante o Renascimento Italiano.",
+    "id": "quiz-cultura-343",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a língua oficial da França?",
+    "options": [
+      "Inglês",
+      "Espanhol",
+      "Francês",
+      "Alemão"
+    ],
+    "correctAnswer": "Francês",
+    "explanation": "O Francês é a língua oficial da França.",
+    "id": "quiz-cultura-344",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome da arte de dobrar papel, originária do Japão?",
+    "options": [
+      "Origami",
+      "Calligrafia",
+      "Ikebana",
+      "Bonsai"
+    ],
+    "correctAnswer": "Origami",
+    "explanation": "Origami é a arte tradicional japonesa de dobrar papel em formas decorativas ou figurativas.",
+    "id": "quiz-cultura-345",
+    "categoryId": "cultura"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual país abriga as pirâmides de Gizé?",
+    "options": [
+      "Iraque",
+      "Egito",
+      "Síria",
+      "Jordânia"
+    ],
+    "correctAnswer": "Egito",
+    "explanation": "As pirâmides de Gizé são um conjunto de três pirâmides antigas localizadas em Gizé, Egito.",
+    "id": "quiz-historia-346",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quem inventou a impressora?",
+    "options": [
+      "Leonardo da Vinci",
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Galileu Galilei"
+    ],
+    "correctAnswer": "Johannes Gutenberg",
+    "explanation": "Embora houvesse prensas antes, Gutenberg inventou a prensa de tipos móveis, revolucionando a impressão.",
+    "id": "quiz-historia-347",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual foi o impacto da Peste Negra na Europa?",
+    "options": [
+      "Aumento significativo da população",
+      "Desenvolvimento de novas tecnologias agrícolas",
+      "Declínio econômico e social devastador",
+      "Fortalecimento do poder da Igreja Católica"
+    ],
+    "correctAnswer": "Declínio econômico e social devastador",
+    "explanation": "A Peste Negra matou cerca de 30-60% da população europeia, causando um colapso econômico e social.",
+    "id": "quiz-historia-348",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que século ocorreu a Revolução Francesa?",
+    "options": [
+      "XVIII",
+      "XVII",
+      "XIX",
+      "XVI"
+    ],
+    "correctAnswer": "XVIII",
+    "explanation": "A Revolução Francesa ocorreu entre 1789 e 1799, no século XVIII.",
+    "id": "quiz-historia-349",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do movimento artístico que se seguiu ao Renascimento?",
+    "options": [
+      "Barroco",
+      "Romantismo",
+      "Realismo",
+      "Impressionismo"
+    ],
+    "correctAnswer": "Barroco",
+    "explanation": "O Barroco sucedeu ao Renascimento, caracterizando-se por seu estilo dramático e exuberante.",
+    "id": "quiz-historia-350",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual foi a principal causa da Guerra dos Cem Anos?",
+    "options": [
+      "Disputa pelo controle do Mediterrâneo",
+      "Disputa pela sucessão ao trono francês",
+      "Conflitos religiosos entre católicos e protestantes",
+      "Rivalidade comercial entre Inglaterra e França"
+    ],
+    "correctAnswer": "Disputa pela sucessão ao trono francês",
+    "explanation": "A guerra foi motivada principalmente pela disputa entre a Inglaterra e a França pela sucessão ao trono francês.",
+    "id": "quiz-historia-351",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual foi o principal resultado da Guerra Civil Americana?",
+    "options": [
+      "A manutenção da escravidão nos Estados Unidos",
+      "A independência do México",
+      "A abolição da escravidão nos Estados Unidos",
+      "A anexação do Texas aos Estados Unidos"
+    ],
+    "correctAnswer": "A abolição da escravidão nos Estados Unidos",
+    "explanation": "A Guerra Civil Americana resultou na abolição da escravidão e na reunificação do país.",
+    "id": "quiz-historia-352",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quem liderou a Revolução Russa?",
+    "options": [
+      "Czar Nicolau II",
+      "Leon Trotsky",
+      "Vladimir Lenin",
+      "Joseph Stalin"
+    ],
+    "correctAnswer": "Vladimir Lenin",
+    "explanation": "Vladimir Lenin liderou os bolcheviques na Revolução Russa de 1917.",
+    "id": "quiz-historia-353",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual evento é considerado o início da Primeira Guerra Mundial?",
+    "options": [
+      "A invasão da Polônia pela Alemanha",
+      "O assassinato do arquiduque Francisco Ferdinando",
+      "O ataque a Pearl Harbor",
+      "A declaração de guerra da Inglaterra à Alemanha"
+    ],
+    "correctAnswer": "O assassinato do arquiduque Francisco Ferdinando",
+    "explanation": "O assassinato do arquiduque Francisco Ferdinando em Sarajevo desencadeou uma série de eventos que levaram à Primeira Guerra Mundial.",
+    "id": "quiz-historia-354",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em qual país ocorreu a Revolução Industrial?",
+    "options": [
+      "França",
+      "China",
+      "Inglaterra",
+      "Espanha"
+    ],
+    "correctAnswer": "Inglaterra",
+    "explanation": "A Inglaterra foi o berço da Revolução Industrial.",
+    "id": "quiz-historia-355",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual império colonial europeu controlava a maior parte da Índia antes da independência?",
+    "options": [
+      "Espanha",
+      "Portugal",
+      "França",
+      "Grã-Bretanha"
+    ],
+    "correctAnswer": "Grã-Bretanha",
+    "explanation": "A Grã-Bretanha tinha um vasto império colonial na Índia.",
+    "id": "quiz-historia-356",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual foi o nome do movimento artístico que valorizava a razão e a observação da natureza?",
+    "options": [
+      "Romantismo",
+      "Barroco",
+      "Classicismo",
+      "Impressionismo"
+    ],
+    "correctAnswer": "Classicismo",
+    "explanation": "O classicismo enfatizava a razão, a ordem e a harmonia, inspirando-se na arte grega e romana.",
+    "id": "quiz-historia-357",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do período histórico que sucedeu à Idade Média?",
+    "options": [
+      "Idade Moderna",
+      "Idade Antiga",
+      "Idade Contemporânea",
+      "Pré-história"
+    ],
+    "correctAnswer": "Idade Moderna",
+    "explanation": "A Idade Moderna sucedeu a Idade Média e antecedeu a Idade Contemporânea.",
+    "id": "quiz-historia-358",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quem escreveu a obra 'O Príncipe'?",
+    "options": [
+      "Maquiavel",
+      "Shakespeare",
+      "Dante Alighieri",
+      "Platão"
+    ],
+    "correctAnswer": "Maquiavel",
+    "explanation": "Nicolau Maquiavel escreveu 'O Príncipe', uma obra sobre política e poder.",
+    "id": "quiz-historia-359",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual evento marcou o fim da Guerra Fria?",
+    "options": [
+      "A queda do Muro de Berlim",
+      "O fim da corrida espacial",
+      "A dissolução da União Soviética",
+      "O fim do Pacto de Varsóvia"
+    ],
+    "correctAnswer": "A dissolução da União Soviética",
+    "explanation": "A dissolução da União Soviética em 1991 é geralmente considerada o fim da Guerra Fria.",
+    "id": "quiz-historia-360",
+    "categoryId": "historia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso enigma matemático que envolve um navio e um capitão?",
+    "options": [
+      "Enigma do Capitão Nemo",
+      "O Paradoxo do Barbeiro",
+      "O Problema dos Três Prisioneiros",
+      "O Enigma do Navio de Teseu"
+    ],
+    "correctAnswer": "O Enigma do Navio de Teseu",
+    "explanation": "O Enigma do Navio de Teseu questiona a identidade de um objeto ao longo do tempo, se suas partes são substituídas.",
+    "id": "quiz-misterios-361",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual evento histórico é associado à 'Floresta Negra' e a diversos desaparecimentos inexplicáveis?",
+    "options": [
+      "A Guerra dos Cem Anos",
+      "A Inquisição Espanhola",
+      "A Batalha de Waterloo",
+      "A Caça às Bruxas na Alemanha"
+    ],
+    "correctAnswer": "A Caça às Bruxas na Alemanha",
+    "explanation": "A Floresta Negra foi palco de lendas e superstições, alimentando histórias sobre desaparecimentos ligados à caça às bruxas.",
+    "id": "quiz-misterios-362",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a teoria mais aceita para a formação dos enigmáticos círculos de fadas na Namíbia?",
+    "options": [
+      "Atividade extraterrestre",
+      "Fenômenos geológicos",
+      "Interação de insetos subterrâneos",
+      "Influência de campos magnéticos"
+    ],
+    "correctAnswer": "Interação de insetos subterrâneos",
+    "explanation": "A teoria predominante aponta para a ação de térmitas subterrâneas que influenciam o crescimento da vegetação.",
+    "id": "quiz-misterios-363",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a lenda associada ao desaparecimento da população de uma ilha na região do Mar do Norte?",
+    "options": [
+      "A Ilha de Roanoke",
+      "A Ilha de Pascoa",
+      "A Atlântida",
+      "A Ilha de Socotra"
+    ],
+    "correctAnswer": "A Atlântida",
+    "explanation": "Embora não seja uma ilha real com localização confirmada, a lenda da Atlântida fala de uma civilização desaparecida no mar.",
+    "id": "quiz-misterios-364",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de mortes inexplicáveis em uma família durante o século XIX?",
+    "options": [
+      "O Mistério de Jack, o Estripador",
+      "A Maldição de Tutankhamon",
+      "O Caso dos Diários de Voynich",
+      "A Família Romanov"
+    ],
+    "correctAnswer": "A Maldição de Tutankhamon",
+    "explanation": "A descoberta da tumba de Tutankhamon foi seguida por uma série de mortes suspeitas, alimentando a lenda da maldição.",
+    "id": "quiz-misterios-365",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual fenômeno inexplicável envolve luzes brilhantes vistas sobre regiões pantanosas?",
+    "options": [
+      "Luzes de Hessdalen",
+      "Luzes de Marfa",
+      "Luzes de Min Min",
+      "Luzes de Nazca"
+    ],
+    "correctAnswer": "Luzes de Min Min",
+    "explanation": "As Luzes de Min Min são um fenômeno luminoso inexplicado observado em áreas remotas e pantanosas da Austrália.",
+    "id": "quiz-misterios-366",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que país fica o misterioso Poço de Jacob?",
+    "options": [
+      "Estados Unidos",
+      "Brasil",
+      "Canadá",
+      "Alemanha"
+    ],
+    "correctAnswer": "Estados Unidos",
+    "explanation": "O Poço de Jacob é uma caverna subaquática localizada nos Estados Unidos.",
+    "id": "quiz-misterios-367",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual manuscrito medieval intriga historiadores com sua linguagem e imagens enigmáticas?",
+    "options": [
+      "O Codex Gigas",
+      "O Manuscrito Voynich",
+      "O Livro de Kells",
+      "O Evangelho de São Mateus"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro ilustrado com um texto ainda indecifrável.",
+    "id": "quiz-misterios-368",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a teoria mais discutida sobre a origem das pedras de Stonehenge?",
+    "options": [
+      "Origem extraterrestre",
+      "Construção por uma civilização perdida",
+      "Transporte e montagem por uma civilização antiga",
+      "Fenômeno geológico"
+    ],
+    "correctAnswer": "Transporte e montagem por uma civilização antiga",
+    "explanation": "Apesar de debates, a teoria mais aceita envolve o transporte e a montagem das pedras por uma civilização neolítica.",
+    "id": "quiz-misterios-369",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome da criatura lendária que supostamente vive nas profundezas do Lago Ness?",
+    "options": [
+      "Kraken",
+      "Leviatã",
+      "Nessie",
+      "Behemoth"
+    ],
+    "correctAnswer": "Nessie",
+    "explanation": "Nessie é o nome dado ao monstro lendário do Lago Ness, na Escócia.",
+    "id": "quiz-misterios-370",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a lenda associada ao desaparecimento de um navio e sua tripulação em 1872?",
+    "options": [
+      "Mary Celeste",
+      "Titanic",
+      "Lusitânia",
+      "Andrea Doria"
+    ],
+    "correctAnswer": "Mary Celeste",
+    "explanation": "O navio Mary Celeste foi encontrado à deriva no Atlântico sem tripulação, gerando muitas teorias sobre seu desaparecimento.",
+    "id": "quiz-misterios-371",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual fenômeno meteorológico raro e misterioso é associado ao Triângulo das Bermudas?",
+    "options": [
+      "Tsunamis",
+      "Terremotos",
+      "Ondas gigantes",
+      "Furacões"
+    ],
+    "correctAnswer": "Ondas gigantes",
+    "explanation": "Ondas gigantes (rogue waves) são frequentemente citadas como uma possível causa de acidentes na região do Triângulo das Bermudas.",
+    "id": "quiz-misterios-372",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual enigma envolve o desaparecimento de uma colônia inglesa no século XVI?",
+    "options": [
+      "Roanoke",
+      "Plymouth",
+      "Jamestown",
+      "Massachusetts"
+    ],
+    "correctAnswer": "Roanoke",
+    "explanation": "A colônia de Roanoke, na América do Norte, desapareceu misteriosamente, sem deixar rastros.",
+    "id": "quiz-misterios-373",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que são as 'Pedras de Ica' e por que são controversas?",
+    "options": [
+      "Fósseis de dinossauros",
+      "Pedras gravadas com imagens controversas",
+      "Construções megalíticas",
+      "Instrumentos astronômicos"
+    ],
+    "correctAnswer": "Pedras gravadas com imagens controversas",
+    "explanation": "As Pedras de Ica são um conjunto de pedras gravadas com imagens que parecem mostrar eventos que seriam anacronismos, gerando muita discussão sobre sua autenticidade.",
+    "id": "quiz-misterios-374",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a descoberta de um objeto antigo com mecanismos complexos em um naufrágio?",
+    "options": [
+      "A Máquina de Anticítera",
+      "O Mecanismo de Antikythera",
+      "O Relógio de Heron",
+      "O Astrolabio de Praga"
+    ],
+    "correctAnswer": "A Máquina de Anticítera",
+    "explanation": "A Máquina de Anticítera, encontrada em um naufrágio, é um mecanismo complexo que pode ter sido usado para cálculos astronômicos.",
+    "id": "quiz-misterios-375",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso personagem de desenho animado criado por Walt Disney?",
+    "options": [
+      "Bugs Bunny",
+      "Mickey Mouse",
+      "Pernalonga",
+      "Tom & Jerry"
+    ],
+    "correctAnswer": "Mickey Mouse",
+    "explanation": "Mickey Mouse é um dos personagens mais icônicos da Disney.",
+    "id": "quiz-entretenimento-376",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual artista musical é conhecido como o 'Rei do Pop'?",
+    "options": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Freddie Mercury",
+      "David Bowie"
+    ],
+    "correctAnswer": "Michael Jackson",
+    "explanation": "Michael Jackson é amplamente reconhecido como o 'Rei do Pop' por sua influência na música e dança.",
+    "id": "quiz-entretenimento-377",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual filme de Quentin Tarantino é uma obra-prima de ficção histórica?",
+    "options": [
+      "Pulp Fiction",
+      "Kill Bill",
+      "Bastardos Inglórios",
+      "Jackie Brown"
+    ],
+    "correctAnswer": "Bastardos Inglórios",
+    "explanation": "Bastardos Inglórios é um filme de ficção histórica ambientado na Segunda Guerra Mundial.",
+    "id": "quiz-entretenimento-378",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em qual país foi criado o Anime?",
+    "options": [
+      "Estados Unidos",
+      "França",
+      "Japão",
+      "Inglaterra"
+    ],
+    "correctAnswer": "Japão",
+    "explanation": "O anime é uma forma de animação japonesa.",
+    "id": "quiz-entretenimento-379",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual série de TV é conhecida por seu universo extenso e complexo de personagens em Westeros?",
+    "options": [
+      "Game of Thrones",
+      "Stranger Things",
+      "The Walking Dead",
+      "Lost"
+    ],
+    "correctAnswer": "Game of Thrones",
+    "explanation": "Game of Thrones é famosa por sua complexa trama e grande quantidade de personagens.",
+    "id": "quiz-entretenimento-380",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual diretor é conhecido por seus filmes de suspense psicológico com reviravoltas inesperadas?",
+    "options": [
+      "Christopher Nolan",
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "M. Night Shyamalan"
+    ],
+    "correctAnswer": "M. Night Shyamalan",
+    "explanation": "M. Night Shyamalan é famoso por seus filmes de suspense com reviravoltas chocantes.",
+    "id": "quiz-entretenimento-381",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso mágico ilusionista?",
+    "options": [
+      "David Copperfield",
+      "Harry Houdini",
+      "Penn & Teller",
+      "Lance Burton"
+    ],
+    "correctAnswer": "David Copperfield",
+    "explanation": "David Copperfield é um ilusionista mundialmente famoso.",
+    "id": "quiz-entretenimento-382",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual plataforma de streaming é conhecida por seus podcasts originais?",
+    "options": [
+      "Netflix",
+      "Spotify",
+      "Amazon Prime Video",
+      "Hulu"
+    ],
+    "correctAnswer": "Spotify",
+    "explanation": "Spotify é uma plataforma de streaming de música e podcasts.",
+    "id": "quiz-entretenimento-383",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual jogo eletrônico de estratégia em tempo real é conhecido por sua complexidade e jogabilidade profunda?",
+    "options": [
+      "StarCraft",
+      "League of Legends",
+      "Counter-Strike",
+      "Dota 2"
+    ],
+    "correctAnswer": "StarCraft",
+    "explanation": "StarCraft é um jogo de estratégia em tempo real complexo e popular.",
+    "id": "quiz-entretenimento-384",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual tipo de dança é caracterizada por movimentos rápidos e vigorosos?",
+    "options": [
+      "Balé",
+      "Salsa",
+      "Flamenco",
+      "Hip Hop"
+    ],
+    "correctAnswer": "Hip Hop",
+    "explanation": "A dança Hip Hop é caracterizada por movimentos rápidos e expressivos.",
+    "id": "quiz-entretenimento-385",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual banda de rock é conhecida por seus hits dos anos 70?",
+    "options": [
+      "Led Zeppelin",
+      "The Beatles",
+      "Queen",
+      "The Rolling Stones"
+    ],
+    "correctAnswer": "Led Zeppelin",
+    "explanation": "Led Zeppelin é uma banda de rock inglesa famosa por seus sucessos dos anos 70.",
+    "id": "quiz-entretenimento-386",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual ator interpretou o personagem de James Bond em mais filmes?",
+    "options": [
+      "Sean Connery",
+      "Roger Moore",
+      "Daniel Craig",
+      "Pierce Brosnan"
+    ],
+    "correctAnswer": "Roger Moore",
+    "explanation": "Roger Moore interpretou James Bond em sete filmes.",
+    "id": "quiz-entretenimento-387",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do famoso programa de auditório com perguntas e respostas?",
+    "options": [
+      "Who Wants to Be a Millionaire",
+      "Jeopardy!",
+      "Wheel of Fortune",
+      "Family Feud"
+    ],
+    "correctAnswer": "Who Wants to Be a Millionaire",
+    "explanation": "Who Wants to Be a Millionaire é um famoso programa de perguntas e respostas.",
+    "id": "quiz-entretenimento-388",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual livro foi adaptado para a famosa série de TV 'The Crown'?",
+    "options": [
+      "The Crown",
+      "The Queen",
+      "Elizabeth I",
+      "Diana: Her True Story"
+    ],
+    "correctAnswer": "The Crown",
+    "explanation": "'The Crown' é uma série de TV baseada no livro de mesmo nome.",
+    "id": "quiz-entretenimento-389",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual artista musical é conhecido por seu estilo musical único, que combina elementos de eletrônica, rock e pop?",
+    "options": [
+      "David Bowie",
+      "Radiohead",
+      "The Killers",
+      "Björk"
+    ],
+    "correctAnswer": "Björk",
+    "explanation": "Björk é conhecida por seu estilo musical único e experimental.",
+    "id": "quiz-entretenimento-390",
+    "categoryId": "entretenimento"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um bom primeiro passo para resolver uma discussão com seu parceiro?",
+    "options": [
+      "Ignorar o problema",
+      "Gritar para liberar a tensão",
+      "Ouvir atentamente o ponto de vista do outro",
+      "Culpar o parceiro"
+    ],
+    "correctAnswer": "Ouvir atentamente o ponto de vista do outro",
+    "explanation": "Escutar ativamente demonstra respeito e ajuda a entender a perspectiva do outro antes de tentar resolver o problema.",
+    "id": "quiz-relacionamentos-391",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que caracteriza o 'amor romântico' em comparação com outros tipos de amor?",
+    "options": [
+      "Forte ligação familiar",
+      "Amizade profunda",
+      "Intensa paixão e desejo",
+      "Compromisso apenas com obrigações"
+    ],
+    "correctAnswer": "Intensa paixão e desejo",
+    "explanation": "O amor romântico é caracterizado por uma forte atração física e emocional, além da paixão.",
+    "id": "quiz-relacionamentos-392",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a teoria do apego influencia os relacionamentos adultos?",
+    "options": [
+      "Não tem influência",
+      "Determina completamente o sucesso do relacionamento",
+      "Influencia os padrões de relacionamento e a busca por segurança",
+      "Define a personalidade do indivíduo, mas não o relacionamento"
+    ],
+    "correctAnswer": "Influencia os padrões de relacionamento e a busca por segurança",
+    "explanation": "Nossos estilos de apego, formados na infância, influenciam como buscamos proximidade e lidamos com a intimidade nos relacionamentos adultos.",
+    "id": "quiz-relacionamentos-393",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa 'compromisso' em um relacionamento?",
+    "options": [
+      "Fazer apenas o que se quer",
+      "Manter a relação apesar das dificuldades",
+      "Controlar o parceiro",
+      "Dar ordens ao parceiro"
+    ],
+    "correctAnswer": "Manter a relação apesar das dificuldades",
+    "explanation": "Compromisso envolve dedicação e esforço contínuo para manter o relacionamento, mesmo diante de desafios.",
+    "id": "quiz-relacionamentos-394",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é um sinal de falta de respeito em um relacionamento?",
+    "options": [
+      "Fazer elogios frequentemente",
+      "Dar espaço ao parceiro",
+      "Criticar constantemente o parceiro",
+      "Resolver conflitos pacificamente"
+    ],
+    "correctAnswer": "Criticar constantemente o parceiro",
+    "explanation": "Críticas constantes, humilhações e menosprezo são sinais de falta de respeito e podem ser muito prejudiciais ao relacionamento.",
+    "id": "quiz-relacionamentos-395",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a comunicação não-verbal afeta a dinâmica de um relacionamento?",
+    "options": [
+      "É irrelevante",
+      "Reforça ou contradiz a comunicação verbal",
+      "Só importa em casos de conflitos",
+      "É menos importante que a comunicação verbal"
+    ],
+    "correctAnswer": "Reforça ou contradiz a comunicação verbal",
+    "explanation": "A linguagem corporal, expressões faciais e tom de voz podem confirmar ou negar o que é dito verbalmente, impactando a compreensão e a conexão.",
+    "id": "quiz-relacionamentos-396",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a importância do tempo de qualidade em um relacionamento?",
+    "options": [
+      "Desnecessário para relacionamentos saudáveis",
+      "Serve apenas para atividades divertidas",
+      "Fortalece o vínculo e a conexão entre os parceiros",
+      "Só é importante para casais apaixonados"
+    ],
+    "correctAnswer": "Fortalece o vínculo e a conexão entre os parceiros",
+    "explanation": "Dedicação de tempo para interação significativa e compartilhamento de experiências fortalece a intimidade e a conexão emocional.",
+    "id": "quiz-relacionamentos-397",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual comportamento pode indicar problemas de confiança em um relacionamento?",
+    "options": [
+      "Compartilhamento de segredos",
+      "Confiança mútua",
+      "Ciúme excessivo e possessivo",
+      "Apoio mútuo"
+    ],
+    "correctAnswer": "Ciúme excessivo e possessivo",
+    "explanation": "Ciúmes excessivos e comportamentos controladores são sinais de insegurança e podem indicar problemas de confiança.",
+    "id": "quiz-relacionamentos-398",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como lidar com as diferenças de opiniões em um relacionamento?",
+    "options": [
+      "Sempre ceder ao parceiro",
+      "Impor a sua opinião",
+      "Buscar um meio termo respeitando as opiniões de ambos",
+      "Ignorar as diferenças"
+    ],
+    "correctAnswer": "Buscar um meio termo respeitando as opiniões de ambos",
+    "explanation": "Aprender a negociar e encontrar soluções que respeitem as necessidades e opiniões de ambos é crucial para relacionamentos saudáveis.",
+    "id": "quiz-relacionamentos-399",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é importante para manter a intimidade em um relacionamento?",
+    "options": [
+      "Ter muitas atividades separadas",
+      "Negligência mútua",
+      "Comunicação aberta e vulnerabilidade",
+      "Evitar falar sobre emoções"
+    ],
+    "correctAnswer": "Comunicação aberta e vulnerabilidade",
+    "explanation": "Compartilhar pensamentos e sentimentos abertamente, mesmo os mais vulneráveis, aprofunda a conexão e a intimidade.",
+    "id": "quiz-relacionamentos-400",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância do perdão em um relacionamento?",
+    "options": [
+      "Desnecessário para relacionamentos saudáveis",
+      "Significa esquecer o ocorrido",
+      "Ajuda a reparar a confiança e seguir em frente",
+      "Só é importante para erros pequenos"
+    ],
+    "correctAnswer": "Ajuda a reparar a confiança e seguir em frente",
+    "explanation": "O perdão é essencial para superar conflitos e reconstruir a confiança após erros e desentendimentos.",
+    "id": "quiz-relacionamentos-401",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a individualidade afeta um relacionamento saudável?",
+    "options": [
+      "Deve ser totalmente abandonada",
+      "É irrelevante",
+      "Contribui para o crescimento mútuo e a preservação da identidade individual",
+      "Gera competição e desentendimentos"
+    ],
+    "correctAnswer": "Contribui para o crescimento mútuo e a preservação da identidade individual",
+    "explanation": "Manter a individualidade e os próprios interesses é importante para o bem-estar pessoal e a saúde do relacionamento.",
+    "id": "quiz-relacionamentos-402",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um exemplo de demonstração de afeto não físico?",
+    "options": [
+      "Dar um abraço",
+      "Beber juntos",
+      "Escrever uma carta amorosa",
+      "Fazer sexo"
+    ],
+    "correctAnswer": "Escrever uma carta amorosa",
+    "explanation": "Afeto pode ser expresso de muitas maneiras, incluindo palavras escritas, gestos atenciosos, etc.",
+    "id": "quiz-relacionamentos-403",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual atitude pode prejudicar a comunicação em um relacionamento?",
+    "options": [
+      "Escutar ativamente",
+      "Fazer perguntas esclarecedoras",
+      "Interromper constantemente o parceiro",
+      "Expressar suas necessidades claramente"
+    ],
+    "correctAnswer": "Interromper constantemente o parceiro",
+    "explanation": "Interromper demonstra falta de respeito e impede a comunicação fluida e eficaz.",
+    "id": "quiz-relacionamentos-404",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como o suporte emocional influencia a resiliência do casal diante de dificuldades?",
+    "options": [
+      "Não tem influência",
+      "Torna o casal mais vulnerável",
+      "Aumenta a capacidade de lidar com desafios e superar crises",
+      "Só é importante em casos de problemas graves"
+    ],
+    "correctAnswer": "Aumenta a capacidade de lidar com desafios e superar crises",
+    "explanation": "O suporte emocional mútuo fortalece o vínculo e fornece recursos para enfrentar adversidades.",
+    "id": "quiz-relacionamentos-405",
+    "categoryId": "relacionamentos"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o principal sistema nervoso responsável pelas respostas de luta ou fuga?",
+    "options": [
+      "Sistema Nervoso Somático",
+      "Sistema Nervoso Parassimpático",
+      "Sistema Nervoso Simpático",
+      "Sistema Nervoso Central"
+    ],
+    "correctAnswer": "Sistema Nervoso Simpático",
+    "explanation": "O sistema nervoso simpático prepara o corpo para situações de estresse, ativando a resposta de luta ou fuga.",
+    "id": "quiz-psicologia-406",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual abordagem psicológica enfatiza a auto-realização e o potencial humano?",
+    "options": [
+      "Psicanálise",
+      "Behaviorismo",
+      "Humanismo",
+      "Cognitivismo"
+    ],
+    "correctAnswer": "Humanismo",
+    "explanation": "O humanismo destaca a capacidade individual de crescimento, liberdade e autodeterminação.",
+    "id": "quiz-psicologia-407",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a amnésia anterógrada?",
+    "options": [
+      "Incapacidade de formar novas memórias após um evento traumático",
+      "Perda de memórias de eventos antes de um evento traumático",
+      "Distúrbio de memória associado à idade",
+      "Distúrbio de memória causado por danos cerebrais"
+    ],
+    "correctAnswer": "Incapacidade de formar novas memórias após um evento traumático",
+    "explanation": "A amnésia anterógrada afeta a capacidade de criar novas memórias após o evento que a causou.",
+    "id": "quiz-psicologia-408",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual neurotransmissor está fortemente associado ao humor e ao sono?",
+    "options": [
+      "Dopamina",
+      "Serotonina",
+      "Adrenalina",
+      "GABA"
+    ],
+    "correctAnswer": "Serotonina",
+    "explanation": "A serotonina desempenha um papel crucial na regulação do humor, sono, apetite e outros processos.",
+    "id": "quiz-psicologia-409",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o conceito de 'cognição social'?",
+    "options": [
+      "A maneira como as pessoas processam informações sociais",
+      "O estudo de como o cérebro controla o comportamento social",
+      "O estudo de como a sociedade afeta o cérebro",
+      "A capacidade de prever o comportamento dos outros"
+    ],
+    "correctAnswer": "A maneira como as pessoas processam informações sociais",
+    "explanation": "A cognição social envolve como as pessoas interpretam, analisam e utilizam informações sociais.",
+    "id": "quiz-psicologia-410",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o teste psicológico projetado para identificar características de personalidade através da interpretação de imagens ambíguas?",
+    "options": [
+      "Teste de Rorschach",
+      "Teste de Apercepção Temática (TAT)",
+      "MMPI",
+      "WAIS"
+    ],
+    "correctAnswer": "Teste de Rorschach",
+    "explanation": "O Teste de Rorschach utiliza manchas de tinta para avaliar a personalidade e o funcionamento psicológico.",
+    "id": "quiz-psicologia-411",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é um reflexo?",
+    "options": [
+      "Uma resposta voluntária a um estímulo",
+      "Uma resposta aprendida a um estímulo",
+      "Uma resposta automática e involuntária a um estímulo",
+      "Uma resposta consciente a um estímulo"
+    ],
+    "correctAnswer": "Uma resposta automática e involuntária a um estímulo",
+    "explanation": "Um reflexo é uma ação involuntária em resposta a um estímulo.",
+    "id": "quiz-psicologia-412",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual psicólogo é conhecido por seus experimentos sobre obediência à autoridade?",
+    "options": [
+      "B.F. Skinner",
+      "Sigmund Freud",
+      "Carl Rogers",
+      "Stanley Milgram"
+    ],
+    "correctAnswer": "Stanley Milgram",
+    "explanation": "Os experimentos de Milgram exploraram a disposição dos indivíduos em obedecer a figuras de autoridade, mesmo quando isso implicava causar sofrimento a outros.",
+    "id": "quiz-psicologia-413",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é o efeito Dunning-Kruger?",
+    "options": [
+      "Tendência de pessoas incompetentes superestimarem suas habilidades",
+      "Tendência de pessoas competentes subestimarem suas habilidades",
+      "A dificuldade em resolver problemas complexos",
+      "A incapacidade de aprender novas habilidades"
+    ],
+    "correctAnswer": "Tendência de pessoas incompetentes superestimarem suas habilidades",
+    "explanation": "O efeito Dunning-Kruger descreve a falta de metacognição em pessoas incompetentes, levando-as a superestimar suas habilidades.",
+    "id": "quiz-psicologia-414",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o significado de 'condicionamento clássico'?",
+    "options": [
+      "Aprendizagem por reforço",
+      "Aprendizagem por imitação",
+      "Associação de um estímulo neutro a um estímulo incondicionado",
+      "Aprendizagem por tentativa e erro"
+    ],
+    "correctAnswer": "Associação de um estímulo neutro a um estímulo incondicionado",
+    "explanation": "O condicionamento clássico envolve a aprendizagem através da associação de estímulos.",
+    "id": "quiz-psicologia-415",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a diferença principal entre ansiedade e medo?",
+    "options": [
+      "Ansiedade é uma resposta a uma ameaça iminente, medo é uma preocupação futura.",
+      "Ansiedade é uma preocupação futura, medo é uma resposta a uma ameaça iminente.",
+      "Ansiedade e medo são sinônimos.",
+      "Não há diferença, são termos intercambiáveis."
+    ],
+    "correctAnswer": "Ansiedade é uma preocupação futura, medo é uma resposta a uma ameaça iminente.",
+    "explanation": "O medo é uma resposta imediata a um perigo, enquanto a ansiedade é uma preocupação antecipada e difusa.",
+    "id": "quiz-psicologia-416",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual teoria sugere que nossas percepções são influenciadas por nossas expectativas e experiências passadas?",
+    "options": [
+      "Teoria da Gestalt",
+      "Teoria da Percepção Direta",
+      "Teoria Construtivista da Percepção",
+      "Teoria da Informação"
+    ],
+    "correctAnswer": "Teoria Construtivista da Percepção",
+    "explanation": "A Teoria Construtivista postula que a percepção é um processo ativo de construção, baseado em conhecimento prévio e expectativas.",
+    "id": "quiz-psicologia-417",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa a sigla DSM?",
+    "options": [
+      "Diagnostic and Statistical Manual of Mental Disorders",
+      "Diagnostic System of Mental Illness",
+      "Descriptive Statistics Manual",
+      "Diagnostic and Statistical Measure of Personality"
+    ],
+    "correctAnswer": "Diagnostic and Statistical Manual of Mental Disorders",
+    "explanation": "O DSM é o manual diagnóstico usado para classificar transtornos mentais.",
+    "id": "quiz-psicologia-418",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é o termo para a capacidade de se colocar no lugar de outra pessoa e entender seus sentimentos?",
+    "options": [
+      "Empatia",
+      "Simpatia",
+      "Compaixão",
+      "Solidariedade"
+    ],
+    "correctAnswer": "Empatia",
+    "explanation": "A empatia envolve compartilhar os sentimentos e perspectivas de outra pessoa.",
+    "id": "quiz-psicologia-419",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o conceito de 'dissonância cognitiva'?",
+    "options": [
+      "Confusão mental",
+      "Dor emocional",
+      "Conflito entre duas ou mais crenças ou ações",
+      "Falta de foco mental"
+    ],
+    "correctAnswer": "Conflito entre duas ou mais crenças ou ações",
+    "explanation": "A dissonância cognitiva é o desconforto psicológico causado por crenças ou ações conflitantes.",
+    "id": "quiz-psicologia-420",
+    "categoryId": "psicologia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um benefício frequentemente citado da prática regular de exercícios físicos?",
+    "options": [
+      "Redução da ansiedade",
+      "Aumento da preguiça",
+      "Diminuição da autoestima",
+      "Ganho de peso"
+    ],
+    "correctAnswer": "Redução da ansiedade",
+    "explanation": "Os exercícios liberam endorfinas que têm efeitos positivos no humor e na redução do estresse.",
+    "id": "quiz-autoajuda-421",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa 'pensamento catastrófico' em termos de autoajuda?",
+    "options": [
+      "Pensar positivamente em todas as situações",
+      "Antecipar apenas resultados positivos",
+      "Imaginar o pior cenário possível e se preocupar excessivamente com ele",
+      "Manter uma perspectiva otimista e realista"
+    ],
+    "correctAnswer": "Imaginar o pior cenário possível e se preocupar excessivamente com ele",
+    "explanation": "O pensamento catastrófico envolve uma tendência a exagerar os problemas e a antecipar o pior resultado possível.",
+    "id": "quiz-autoajuda-422",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre a autoestima e a autoconfiança?",
+    "options": [
+      "Não há diferença, os termos são sinônimos.",
+      "Autoestima é o valor que você atribui a si mesmo, enquanto autoconfiança é a crença na sua capacidade de realizar tarefas.",
+      "Autoestima é a crença na sua capacidade de realizar tarefas, enquanto autoconfiança é o valor que você atribui a si mesmo.",
+      "Autoestima se refere à aparência física, enquanto autoconfiança se refere às habilidades mentais."
+    ],
+    "correctAnswer": "Autoestima é o valor que você atribui a si mesmo, enquanto autoconfiança é a crença na sua capacidade de realizar tarefas.",
+    "explanation": "Embora relacionadas, autoestima e autoconfiança são conceitos distintos. A autoestima é sobre o seu valor intrínseco, enquanto a autoconfiança é sobre sua capacidade.",
+    "id": "quiz-autoajuda-423",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Uma técnica eficaz para lidar com a procrastinação é:",
+    "options": [
+      "Deixar tudo para a última hora",
+      "Dividir tarefas grandes em partes menores e mais gerenciáveis",
+      "Ignorar as tarefas desagradáveis",
+      "Trabalhar continuamente sem pausas"
+    ],
+    "correctAnswer": "Dividir tarefas grandes em partes menores e mais gerenciáveis",
+    "explanation": "Quebrar tarefas grandes em partes menores torna o processo menos assustador e mais fácil de começar.",
+    "id": "quiz-autoajuda-424",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A técnica de visualização, frequentemente utilizada em autoajuda, consiste em:",
+    "options": [
+      "Observar atentamente o ambiente ao redor",
+      "Criar imagens mentais de sucesso e bem-estar",
+      "Memorizar listas de tarefas",
+      "Escrever seus pensamentos em um diário"
+    ],
+    "correctAnswer": "Criar imagens mentais de sucesso e bem-estar",
+    "explanation": "A visualização é uma técnica de imaginação que ajuda a programar a mente para o sucesso e o bem-estar.",
+    "id": "quiz-autoajuda-425",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a gratidão pode contribuir para o bem-estar?",
+    "options": [
+      "Aumenta a ansiedade e a preocupação.",
+      "Diminui a capacidade de resolver problemas.",
+      "Promove um estado de espírito positivo e melhora a resiliência.",
+      "Não tem impacto significativo no bem-estar."
+    ],
+    "correctAnswer": "Promove um estado de espírito positivo e melhora a resiliência.",
+    "explanation": "A prática da gratidão redireciona o foco para o positivo, reduzindo o estresse e melhorando a resiliência.",
+    "id": "quiz-autoajuda-426",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa assertividade?",
+    "options": [
+      "Ser agressivo e impositivo",
+      "Ser passivo e submisso",
+      "Expressar suas necessidades e opiniões de forma respeitosa e eficaz",
+      "Ignorar as necessidades dos outros"
+    ],
+    "correctAnswer": "Expressar suas necessidades e opiniões de forma respeitosa e eficaz",
+    "explanation": "Assertividade é a capacidade de se comunicar de forma clara e respeitosa, defendendo seus direitos sem agredir os outros.",
+    "id": "quiz-autoajuda-427",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é um exemplo de afirmação positiva?",
+    "options": [
+      "Eu sou um fracasso.",
+      "Eu não consigo fazer isso.",
+      "Eu sou capaz e confiante.",
+      "Eu sou incapaz e inseguro."
+    ],
+    "correctAnswer": "Eu sou capaz e confiante.",
+    "explanation": "Afirmações positivas são declarações que reforçam crenças e sentimentos positivos sobre si mesmo.",
+    "id": "quiz-autoajuda-428",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a comunicação não-violenta (CNV) auxilia na resolução de conflitos?",
+    "options": [
+      "Priorizando a agressão verbal.",
+      "Ignorando as emoções envolvidas.",
+      "Enfatizando a empatia e a comunicação clara e respeitosa.",
+      "Utilizando linguagem ofensiva para impor sua opinião."
+    ],
+    "correctAnswer": "Enfatizando a empatia e a comunicação clara e respeitosa.",
+    "explanation": "A CNV busca resolver conflitos através da compreensão das necessidades e emoções de todos os envolvidos.",
+    "id": "quiz-autoajuda-429",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito pode auxiliar na melhoria do sono?",
+    "options": [
+      "Usar o celular na cama",
+      "Beber café antes de dormir",
+      "Criar uma rotina relaxante antes de dormir",
+      "Dormir em horários irregulares"
+    ],
+    "correctAnswer": "Criar uma rotina relaxante antes de dormir",
+    "explanation": "Uma rotina relaxante ajuda a preparar o corpo e a mente para o sono.",
+    "id": "quiz-autoajuda-430",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um 'gatilho emocional'?",
+    "options": [
+      "Um evento que causa uma reação emocional intensa",
+      "Um objeto de decoração",
+      "Uma tarefa simples",
+      "Uma sensação de calma"
+    ],
+    "correctAnswer": "Um evento que causa uma reação emocional intensa",
+    "explanation": "Gatilhos emocionais são estímulos que desencadeiam respostas emocionais fortes, muitas vezes negativas.",
+    "id": "quiz-autoajuda-431",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a prática da meditação pode beneficiar a saúde mental?",
+    "options": [
+      "Aumenta o estresse e a ansiedade.",
+      "Diminui a concentração e a atenção.",
+      "Promove a calma, reduz a ansiedade e melhora a concentração.",
+      "Não apresenta benefícios significativos para a saúde mental."
+    ],
+    "correctAnswer": "Promove a calma, reduz a ansiedade e melhora a concentração.",
+    "explanation": "A meditação ajuda a regular a atividade cerebral, reduzindo o estresse e melhorando a capacidade de concentração.",
+    "id": "quiz-autoajuda-432",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Definir limites saudáveis em relacionamentos é importante para:",
+    "options": [
+      "Controlar os outros",
+      "Evitar conflitos",
+      "Proteger sua saúde mental e bem-estar",
+      "Isolar-se socialmente"
+    ],
+    "correctAnswer": "Proteger sua saúde mental e bem-estar",
+    "explanation": "Limites saudáveis ajudam a proteger sua saúde mental e emocional, evitando o esgotamento e o desrespeito.",
+    "id": "quiz-autoajuda-433",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a importância do autoconhecimento no processo de autoajuda?",
+    "options": [
+      "Não é importante, o foco deve ser em mudanças externas.",
+      "É fundamental para entender suas forças e fraquezas, e direcionar esforços de forma eficaz.",
+      "Serve apenas para aumentar a autoestima.",
+      "É irrelevante para o sucesso pessoal."
+    ],
+    "correctAnswer": "É fundamental para entender suas forças e fraquezas, e direcionar esforços de forma eficaz.",
+    "explanation": "O autoconhecimento permite que você identifique áreas para melhoria e desenvolva estratégias personalizadas para atingir seus objetivos.",
+    "id": "quiz-autoajuda-434",
+    "categoryId": "autoajuda"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes países é famoso por seus parques nacionais?",
+    "options": [
+      "China",
+      "Brasil",
+      "Estados Unidos",
+      "Índia"
+    ],
+    "correctAnswer": "Estados Unidos",
+    "explanation": "Os Estados Unidos possuem uma vasta rede de parques nacionais, conhecidos mundialmente por sua beleza natural.",
+    "id": "quiz-viagens-435",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um hostel e um hotel?",
+    "options": [
+      "O preço: hostels são sempre mais baratos.",
+      "Os serviços: hostels oferecem menos serviços.",
+      "O tipo de acomodação: hostels oferecem apenas quartos coletivos.",
+      "A localização: hostels são sempre localizados em áreas mais afastadas."
+    ],
+    "correctAnswer": "Os serviços: hostels oferecem menos serviços.",
+    "explanation": "Hostels geralmente oferecem acomodações mais básicas e compartilhadas, com menos serviços do que hotéis.",
+    "id": "quiz-viagens-436",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno natural que ocorre quando a luz solar se curva ao passar pela atmosfera, criando um efeito visual de miragem?",
+    "options": [
+      "Aurora Boreal",
+      "Fogo de Santo Elmo",
+      "Efeito Fata Morgana",
+      "Arco-íris"
+    ],
+    "correctAnswer": "Efeito Fata Morgana",
+    "explanation": "O Efeito Fata Morgana é um tipo de miragem superior que pode criar imagens distorcidas e ilusórias no horizonte.",
+    "id": "quiz-viagens-437",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes documentos é essencial para viajar internacionalmente?",
+    "options": [
+      "Carteira de estudante",
+      "CNH",
+      "Passaporte",
+      "Título de eleitor"
+    ],
+    "correctAnswer": "Passaporte",
+    "explanation": "O passaporte é um documento oficial de identificação necessário para viajar para a maioria dos países.",
+    "id": "quiz-viagens-438",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função de um mapa turístico?",
+    "options": [
+      "Mostrar rotas de transporte público.",
+      "Indicar atrações turísticas e pontos de interesse.",
+      "Fornecer informações sobre a história local.",
+      "Indicar os melhores restaurantes da região."
+    ],
+    "correctAnswer": "Indicar atrações turísticas e pontos de interesse.",
+    "explanation": "Mapas turísticos são desenhados para guiar visitantes a locais de interesse turístico.",
+    "id": "quiz-viagens-439",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do sistema de coordenadas geográficas utilizado para localizar pontos na superfície terrestre?",
+    "options": [
+      "Sistema de Posicionamento Global (GPS)",
+      "Coordenadas cartesianas",
+      "Latitude e Longitude",
+      "Projeção cartográfica"
+    ],
+    "correctAnswer": "Latitude e Longitude",
+    "explanation": "A latitude e a longitude formam um sistema de coordenadas geográficas que permite localizar qualquer ponto na Terra.",
+    "id": "quiz-viagens-440",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes meios de transporte é geralmente mais barato?",
+    "options": [
+      "Avião",
+      "Trem",
+      "Carro próprio",
+      "Ônibus"
+    ],
+    "correctAnswer": "Ônibus",
+    "explanation": "Ônibus são geralmente o meio de transporte mais econômico, especialmente para longas distâncias.",
+    "id": "quiz-viagens-441",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância de um seguro viagem?",
+    "options": [
+      "É obrigatório para todos os países.",
+      "Oferece cobertura para extravio de bagagem e emergências médicas.",
+      "Garante descontos em atrações turísticas.",
+      "Facilita o processo de visto."
+    ],
+    "correctAnswer": "Oferece cobertura para extravio de bagagem e emergências médicas.",
+    "explanation": "Um seguro viagem protege contra imprevistos, como problemas de saúde ou perda de bagagem, durante a viagem.",
+    "id": "quiz-viagens-442",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre 'low-cost' e 'full-service' em companhias aéreas?",
+    "options": [
+      "A localização dos aeroportos que atendem.",
+      "O tipo de aeronave utilizada.",
+      "Os serviços oferecidos aos passageiros.",
+      "O tipo de destino oferecido."
+    ],
+    "correctAnswer": "Os serviços oferecidos aos passageiros.",
+    "explanation": "Companhias aéreas 'low-cost' oferecem serviços básicos, enquanto 'full-service' oferecem mais conforto e serviços inclusos.",
+    "id": "quiz-viagens-443",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes itens é importante para se proteger do sol em uma viagem?",
+    "options": [
+      "Casaco de frio",
+      "Chapéu",
+      "Guarda-chuva",
+      "Luvas"
+    ],
+    "correctAnswer": "Chapéu",
+    "explanation": "Um chapéu protege o rosto e a cabeça da exposição direta ao sol.",
+    "id": "quiz-viagens-444",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância de planejar um itinerário de viagem?",
+    "options": [
+      "É apenas para turistas experientes.",
+      "Ajuda a otimizar o tempo e o orçamento.",
+      "Torna a viagem menos emocionante.",
+      "Não é necessário para viagens curtas."
+    ],
+    "correctAnswer": "Ajuda a otimizar o tempo e o orçamento.",
+    "explanation": "Um itinerário bem planejado garante que você aproveite ao máximo o seu tempo e recursos.",
+    "id": "quiz-viagens-445",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o conceito de 'turismo sustentável'?",
+    "options": [
+      "Viajar para locais exóticos e pouco conhecidos.",
+      "Visitar apenas locais históricos.",
+      "Minimizar o impacto ambiental e social das viagens.",
+      "Gastar o máximo de dinheiro possível durante a viagem."
+    ],
+    "correctAnswer": "Minimizar o impacto ambiental e social das viagens.",
+    "explanation": "O turismo sustentável busca minimizar o impacto negativo das viagens no meio ambiente e nas comunidades locais.",
+    "id": "quiz-viagens-446",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o significado da sigla 'ETA' em viagens?",
+    "options": [
+      "Estimated Time of Arrival (Tempo estimado de chegada)",
+      "Emergency Travel Assistance (Assistência de viagem de emergência)",
+      "Entrance Ticket Area (Área de entrada de bilhetes)",
+      "Exit Time Allowed (Tempo de saída permitido)"
+    ],
+    "correctAnswer": "Estimated Time of Arrival (Tempo estimado de chegada)",
+    "explanation": "ETA é uma sigla frequentemente usada para indicar o tempo estimado de chegada em viagens.",
+    "id": "quiz-viagens-447",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um 'guia turístico'?",
+    "options": [
+      "Uma pessoa que dirige o transporte turístico.",
+      "Um mapa detalhado de uma cidade.",
+      "Uma pessoa que acompanha e fornece informações sobre um local turístico.",
+      "Um livro com informações sobre um destino turístico."
+    ],
+    "correctAnswer": "Uma pessoa que acompanha e fornece informações sobre um local turístico.",
+    "explanation": "Guias turísticos são profissionais que fornecem informações e acompanham grupos ou indivíduos durante visitas a locais turísticos.",
+    "id": "quiz-viagens-448",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do fenômeno climático caracterizado por ventos fortes e chuvas intensas, comum em regiões tropicais?",
+    "options": [
+      "Tsunami",
+      "Tornado",
+      "Furacão",
+      "Tremores"
+    ],
+    "correctAnswer": "Furacão",
+    "explanation": "Furacões são ciclones tropicais caracterizados por ventos fortes e chuvas intensas, que se formam sobre águas oceânicas quentes.",
+    "id": "quiz-viagens-449",
+    "categoryId": "viagens"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior país do mundo em área?",
+    "options": [
+      "Rússia",
+      "Canadá",
+      "China",
+      "Estados Unidos"
+    ],
+    "correctAnswer": "Rússia",
+    "explanation": "A Rússia possui a maior área territorial do mundo.",
+    "id": "quiz-lugares-450",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em qual continente se encontra o deserto do Atacama?",
+    "options": [
+      "África",
+      "Ásia",
+      "América do Sul",
+      "Austrália"
+    ],
+    "correctAnswer": "América do Sul",
+    "explanation": "O deserto do Atacama está localizado no Chile, na América do Sul.",
+    "id": "quiz-lugares-451",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual cidade é conhecida como a 'Veneza do Norte'?",
+    "options": [
+      "Amsterdã",
+      "Estocolmo",
+      "São Petersburgo",
+      "Copenhague"
+    ],
+    "correctAnswer": "São Petersburgo",
+    "explanation": "São Petersburgo, na Rússia, é frequentemente chamada de 'Veneza do Norte' devido aos seus muitos canais.",
+    "id": "quiz-lugares-452",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior rio do mundo em extensão?",
+    "options": [
+      "Rio Amazonas",
+      "Rio Nilo",
+      "Rio Mississippi",
+      "Rio Yangtze"
+    ],
+    "correctAnswer": "Rio Amazonas",
+    "explanation": "O Rio Amazonas é considerado o maior rio do mundo em volume de água e extensão.",
+    "id": "quiz-lugares-453",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país abriga as Cataratas do Iguaçu?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Paraguai",
+      "Todos os três países"
+    ],
+    "correctAnswer": "Todos os três países",
+    "explanation": "As Cataratas do Iguaçu estão localizadas na fronteira entre Brasil, Argentina e Paraguai.",
+    "id": "quiz-lugares-454",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a maior ilha do mundo?",
+    "options": [
+      "Groenlândia",
+      "Nova Guiné",
+      "Bornéu",
+      "Madagáscar"
+    ],
+    "correctAnswer": "Groenlândia",
+    "explanation": "A Groenlândia é a maior ilha do mundo em área.",
+    "id": "quiz-lugares-455",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual oceano banha a costa oeste da América do Sul?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico banha a costa oeste da América do Sul.",
+    "id": "quiz-lugares-456",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em qual continente está localizada a Índia?",
+    "options": [
+      "África",
+      "Europa",
+      "Ásia",
+      "América do Norte"
+    ],
+    "correctAnswer": "Ásia",
+    "explanation": "A Índia está localizada no subcontinente indiano, na Ásia.",
+    "id": "quiz-lugares-457",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual montanha é conhecida como a 'Casa dos Deuses'?",
+    "options": [
+      "Monte Everest",
+      "K2",
+      "Kangchenjunga",
+      "Monte Kailash"
+    ],
+    "correctAnswer": "Monte Kailash",
+    "explanation": "O Monte Kailash é uma montanha sagrada no Tibete, conhecida como a 'Casa dos Deuses'.",
+    "id": "quiz-lugares-458",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a capital da Austrália?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctAnswer": "Canberra",
+    "explanation": "Canberra é a capital da Austrália.",
+    "id": "quiz-lugares-459",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual deserto é conhecido por suas dunas gigantescas?",
+    "options": [
+      "Deserto do Saara",
+      "Deserto de Atacama",
+      "Deserto de Namib",
+      "Deserto de Gobi"
+    ],
+    "correctAnswer": "Deserto de Namib",
+    "explanation": "O Deserto de Namib é conhecido por suas dunas gigantescas.",
+    "id": "quiz-lugares-460",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual cidade é considerada o centro financeiro mundial?",
+    "options": [
+      "Londres",
+      "Nova Iorque",
+      "Tóquio",
+      "Xangai"
+    ],
+    "correctAnswer": "Nova Iorque",
+    "explanation": "Nova Iorque é geralmente considerada o centro financeiro mundial.",
+    "id": "quiz-lugares-461",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do canal que liga o Mar Mediterrâneo ao Mar Vermelho?",
+    "options": [
+      "Canal da Mancha",
+      "Canal de Suez",
+      "Canal do Panamá",
+      "Canal de Kiel"
+    ],
+    "correctAnswer": "Canal de Suez",
+    "explanation": "O Canal de Suez liga o Mar Mediterrâneo ao Mar Vermelho.",
+    "id": "quiz-lugares-462",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual país possui a maior extensão de floresta amazônica?",
+    "options": [
+      "Brasil",
+      "Peru",
+      "Colômbia",
+      "Bolívia"
+    ],
+    "correctAnswer": "Brasil",
+    "explanation": "O Brasil possui a maior parte da floresta amazônica em seu território.",
+    "id": "quiz-lugares-463",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do maior arquipélago do mundo?",
+    "options": [
+      "Arquipélago das Filipinas",
+      "Arquipélago da Indonésia",
+      "Arquipélago da Malásia",
+      "Arquipélago do Japão"
+    ],
+    "correctAnswer": "Arquipélago da Indonésia",
+    "explanation": "A Indonésia é composta por mais de 17.000 ilhas, formando o maior arquipélago do mundo.",
+    "id": "quiz-lugares-464",
+    "categoryId": "lugares"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual habilidade é fundamental para uma boa comunicação?",
+    "options": [
+      "Escrita",
+      "Leitura",
+      "Escuta Ativa",
+      "Oratória"
+    ],
+    "correctAnswer": "Escuta Ativa",
+    "explanation": "A escuta ativa permite entender completamente a mensagem do emissor, crucial para uma comunicação eficaz.",
+    "id": "quiz-habilidades-465",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é mais valorizada em ambientes de trabalho colaborativos?",
+    "options": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Comunicação",
+      "Adaptabilidade"
+    ],
+    "correctAnswer": "Trabalho em equipe",
+    "explanation": "O trabalho em equipe é essencial para projetos colaborativos, exigindo colaboração e comunicação eficiente.",
+    "id": "quiz-habilidades-466",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre proatividade e reatividade?",
+    "options": [
+      "Proatividade antecipa problemas, reatividade resolve problemas existentes.",
+      "Proatividade é passiva, reatividade é ativa.",
+      "Proatividade é planejar, reatividade é improvisar.",
+      "Não há diferença significativa."
+    ],
+    "correctAnswer": "Proatividade antecipa problemas, reatividade resolve problemas existentes.",
+    "explanation": "A proatividade prevê e age antes dos problemas, enquanto a reatividade age apenas quando o problema surge.",
+    "id": "quiz-habilidades-467",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Capacidade de influenciar e motivar pessoas sem autoridade formal é chamada de:",
+    "options": [
+      "Liderança",
+      "Autoridade",
+      "Poder",
+      "Influência"
+    ],
+    "correctAnswer": "Liderança",
+    "explanation": "A liderança é a capacidade de inspirar e direcionar pessoas, mesmo sem posição de autoridade formal.",
+    "id": "quiz-habilidades-468",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual habilidade permite analisar informações e tirar conclusões lógicas?",
+    "options": [
+      "Criatividade",
+      "Pensamento crítico",
+      "Intuição",
+      "Empatia"
+    ],
+    "correctAnswer": "Pensamento crítico",
+    "explanation": "O pensamento crítico envolve análise, avaliação e julgamento de informações para chegar a conclusões racionais.",
+    "id": "quiz-habilidades-469",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A capacidade de aprender continuamente e adaptar-se a novas tecnologias é conhecida como:",
+    "options": [
+      "Resiliência",
+      "Adaptabilidade",
+      "Aprendizagem contínua",
+      "Inovação"
+    ],
+    "correctAnswer": "Aprendizagem contínua",
+    "explanation": "A aprendizagem contínua é essencial em um mundo em constante mudança, permitindo adaptação a novas tecnologias e desafios.",
+    "id": "quiz-habilidades-470",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Capacidade de resolver problemas de forma criativa e inovadora:",
+    "options": [
+      "Pensamento analítico",
+      "Pensamento crítico",
+      "Pensamento lateral",
+      "Pensamento linear"
+    ],
+    "correctAnswer": "Pensamento lateral",
+    "explanation": "O pensamento lateral foca em soluções criativas e não convencionais para problemas.",
+    "id": "quiz-habilidades-471",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual habilidade é crucial para a construção de relacionamentos fortes?",
+    "options": [
+      "Comunicação",
+      "Empatia",
+      "Resiliência",
+      "Organização"
+    ],
+    "correctAnswer": "Empatia",
+    "explanation": "A empatia permite entender e compartilhar os sentimentos dos outros, fundamental para relacionamentos saudáveis.",
+    "id": "quiz-habilidades-472",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A capacidade de se recuperar de situações adversas é chamada de:",
+    "options": [
+      "Adaptabilidade",
+      "Resiliência",
+      "Perseverança",
+      "Determinação"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "A resiliência é a capacidade de superar desafios e adversidades, se recuperando e seguindo em frente.",
+    "id": "quiz-habilidades-473",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Habilidades relacionadas à escrita, leitura e comunicação verbal são chamadas de habilidades:",
+    "options": [
+      "Digitais",
+      "Interpessoais",
+      "Cognitivas",
+      "Linguísticas"
+    ],
+    "correctAnswer": "Linguísticas",
+    "explanation": "Habilidades linguísticas envolvem a capacidade de usar e entender a linguagem escrita e falada.",
+    "id": "quiz-habilidades-474",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas habilidades é menos focada em tarefas individuais?",
+    "options": [
+      "Gestão de tempo",
+      "Resolução de problemas",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "correctAnswer": "Trabalho em equipe",
+    "explanation": "O trabalho em equipe, por definição, envolve a colaboração e interação com outras pessoas.",
+    "id": "quiz-habilidades-475",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A capacidade de se manter focado e concluir tarefas mesmo sob pressão é:",
+    "options": [
+      "Gestão de tempo",
+      "Organização",
+      "Disciplina",
+      "Produtividade"
+    ],
+    "correctAnswer": "Disciplina",
+    "explanation": "A disciplina permite manter o foco e a consistência na execução de tarefas, mesmo com distrações ou pressão.",
+    "id": "quiz-habilidades-476",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Identificar e solucionar problemas usando dados e informações é:",
+    "options": [
+      "Pensamento analítico",
+      "Pensamento estratégico",
+      "Tomada de decisão",
+      "Criatividade"
+    ],
+    "correctAnswer": "Pensamento analítico",
+    "explanation": "O pensamento analítico envolve a análise crítica de dados e informações para a resolução de problemas.",
+    "id": "quiz-habilidades-477",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A capacidade de entender e usar diferentes tecnologias é:",
+    "options": [
+      "Habilidades digitais",
+      "Habilidades técnicas",
+      "Habilidades de informática",
+      "Habilidades tecnológicas"
+    ],
+    "correctAnswer": "Habilidades digitais",
+    "explanation": "Habilidades digitais englobam a proficiência em diversas tecnologias e ferramentas digitais.",
+    "id": "quiz-habilidades-478",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual habilidade facilita a negociação e a resolução de conflitos?",
+    "options": [
+      "Assertividade",
+      "Empatia",
+      "Comunicação",
+      "Negociação"
+    ],
+    "correctAnswer": "Assertividade",
+    "explanation": "A assertividade permite expressar suas necessidades e opiniões de forma clara e respeitosa, facilitando a negociação e resolução de conflitos.",
+    "id": "quiz-habilidades-479",
+    "categoryId": "habilidades"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como evitar que o zíper de uma jaqueta grude?",
+    "options": [
+      "Usar força para fechá-lo.",
+      "Passar sabonete no zíper.",
+      "Lubrificá-lo com vaselina.",
+      "Deixá-lo secar ao sol."
+    ],
+    "correctAnswer": "Lubrificá-lo com vaselina.",
+    "explanation": "A vaselina reduz o atrito entre os dentes do zíper, facilitando o seu deslizamento.",
+    "id": "quiz-hacks-480",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como remover facilmente chiclete do cabelo?",
+    "options": [
+      "Usar água quente.",
+      "Usar manteiga de amendoim.",
+      "Cortar o cabelo.",
+      "Usar vinagre."
+    ],
+    "correctAnswer": "Usar manteiga de amendoim.",
+    "explanation": "A manteiga de amendoim dissolve o chiclete, facilitando sua remoção.",
+    "id": "quiz-hacks-481",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como consertar um vaso de cerâmica rachado sem quebras visíveis?",
+    "options": [
+      "Usar cola branca comum.",
+      "Usar supercola.",
+      "Usar resina epóxi.",
+      "Usar fita adesiva forte."
+    ],
+    "correctAnswer": "Usar resina epóxi.",
+    "explanation": "A resina epóxi oferece maior resistência e durabilidade para consertos em cerâmica.",
+    "id": "quiz-hacks-482",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como remover arranhões de móveis de madeira?",
+    "options": [
+      "Usar pasta de dente.",
+      "Usar lixa fina.",
+      "Usar removedor de tinta.",
+      "Usar vinagre."
+    ],
+    "correctAnswer": "Usar pasta de dente.",
+    "explanation": "A pasta de dente pode polir suavemente a superfície, removendo arranhões superficiais.",
+    "id": "quiz-hacks-483",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como organizar melhor um armário pequeno?",
+    "options": [
+      "Usar cabides finos e dobrar roupas.",
+      "Usar prateleiras ajustáveis.",
+      "Utilizar caixas organizadoras.",
+      "Todas as opções acima."
+    ],
+    "correctAnswer": "Todas as opções acima.",
+    "explanation": "A combinação de técnicas maximiza o espaço e a organização.",
+    "id": "quiz-hacks-484",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como remover manchas de vinho tinto de um tapete?",
+    "options": [
+      "Usar água fria imediatamente.",
+      "Usar água sanitária.",
+      "Usar sal para absorver o vinho.",
+      "Usar vinagre branco."
+    ],
+    "correctAnswer": "Usar sal para absorver o vinho.",
+    "explanation": "O sal absorve o vinho antes que ele penetre nas fibras do tapete.",
+    "id": "quiz-hacks-485",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como evitar que a comida grude na panela?",
+    "options": [
+      "Usar óleo ou manteiga.",
+      "Usar uma panela antiaderente.",
+      "Aquecer a panela antes de adicionar a comida.",
+      "Todas as opções acima."
+    ],
+    "correctAnswer": "Todas as opções acima.",
+    "explanation": "Essas técnicas previnem que a comida grude.",
+    "id": "quiz-hacks-486",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como limpar facilmente um forno sujo?",
+    "options": [
+      "Usar bicarbonato de sódio e vinagre.",
+      "Usar produtos de limpeza industrial.",
+      "Usar apenas água quente.",
+      "Deixar de molho em água morna."
+    ],
+    "correctAnswer": "Usar bicarbonato de sódio e vinagre.",
+    "explanation": "Bicarbonato de sódio e vinagre formam uma pasta que remove a sujeira e gordura.",
+    "id": "quiz-hacks-487",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como remover cera de vela de um tecido?",
+    "options": [
+      "Usar água quente e sabão.",
+      "Usar ferro de passar roupas com papel absorvente.",
+      "Usar gelo.",
+      "Usar álcool isopropílico."
+    ],
+    "correctAnswer": "Usar ferro de passar roupas com papel absorvente.",
+    "explanation": "O calor do ferro derrete a cera, que é absorvida pelo papel.",
+    "id": "quiz-hacks-488",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como tirar manchas de caneta esferográfica da roupa?",
+    "options": [
+      "Usar álcool.",
+      "Usar leite.",
+      "Usar vinagre branco.",
+      "Usar água e sabão."
+    ],
+    "correctAnswer": "Usar álcool.",
+    "explanation": "O álcool remove a tinta da caneta esferográfica.",
+    "id": "quiz-hacks-489",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como remover ferrugem de um objeto metálico?",
+    "options": [
+      "Usar limão e sal.",
+      "Usar vinagre branco.",
+      "Usar lixa.",
+      "Todas as opções acima."
+    ],
+    "correctAnswer": "Todas as opções acima.",
+    "explanation": "Cada método tem eficácia dependendo da quantidade de ferrugem.",
+    "id": "quiz-hacks-490",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como prolongar a vida útil de uma bateria de celular?",
+    "options": [
+      "Deixar a bateria descarregar completamente antes de carregar.",
+      "Carregar a bateria sempre que possível.",
+      "Manter a bateria em temperatura ambiente.",
+      "Usar carregadores originais."
+    ],
+    "correctAnswer": "Manter a bateria em temperatura ambiente.",
+    "explanation": "Temperaturas extremas danificam a bateria.",
+    "id": "quiz-hacks-491",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Como remover odores fortes de um ambiente?",
+    "options": [
+      "Usar velas perfumadas.",
+      "Usar bicarbonato de sódio.",
+      "Ventilar o ambiente.",
+      "Todas as opções acima."
+    ],
+    "correctAnswer": "Todas as opções acima.",
+    "explanation": "Cada método contribui para remover odores desagradáveis.",
+    "id": "quiz-hacks-492",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como evitar que as folhas de alface murchem rapidamente?",
+    "options": [
+      "Guardar em sacos plásticos.",
+      "Guardar em recipientes com papel toalha.",
+      "Guardar em geladeira na gaveta de verduras.",
+      "Guardar em temperatura ambiente."
+    ],
+    "correctAnswer": "Guardar em recipientes com papel toalha.",
+    "explanation": "O papel toalha absorve a umidade, evitando que as folhas murchem.",
+    "id": "quiz-hacks-493",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como afiar uma faca cega sem usar um afiador profissional?",
+    "options": [
+      "Usar uma pedra de amolar.",
+      "Usar o fundo de uma xícara de cerâmica.",
+      "Usar uma colher de metal.",
+      "Usar a lâmina de outra faca."
+    ],
+    "correctAnswer": "Usar uma pedra de amolar.",
+    "explanation": "Embora as outras opções possam dar um resultado temporário, a pedra de amolar é a mais eficaz para afiar uma faca.",
+    "id": "quiz-hacks-494",
+    "categoryId": "hacks"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é um gigante gasoso, muito maior que a Terra.",
+    "id": "quiz-natureza-e-animais-495",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual animal é conhecido como 'rei da selva'?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Urso",
+      "Elefante"
+    ],
+    "correctAnswer": "Leão",
+    "explanation": "O leão é frequentemente associado à liderança e poder na savana africana.",
+    "id": "quiz-natureza-e-animais-496",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o processo que transforma matéria orgânica em húmus?",
+    "options": [
+      "Fotossíntese",
+      "Decomposição",
+      "Respiração",
+      "Transpiração"
+    ],
+    "correctAnswer": "Decomposição",
+    "explanation": "A decomposição é feita por fungos e bactérias, que quebram a matéria orgânica.",
+    "id": "quiz-natureza-e-animais-497",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes animais é um marsupial?",
+    "options": [
+      "Leão",
+      "Urso Polar",
+      "Canguru",
+      "Gorila"
+    ],
+    "correctAnswer": "Canguru",
+    "explanation": "Cangurus são mamíferos marsupiais, caracterizados por uma bolsa onde os filhotes se desenvolvem.",
+    "id": "quiz-natureza-e-animais-498",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal gás emitido pela respiração dos animais?",
+    "options": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Dióxido de Carbono",
+      "Hidrogênio"
+    ],
+    "correctAnswer": "Dióxido de Carbono",
+    "explanation": "A respiração celular produz dióxido de carbono como subproduto.",
+    "id": "quiz-natureza-e-animais-499",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre uma floresta tropical e uma floresta temperada?",
+    "options": [
+      "Localização geográfica",
+      "Temperatura e umidade",
+      "Tipos de árvores",
+      "Todas as alternativas anteriores"
+    ],
+    "correctAnswer": "Todas as alternativas anteriores",
+    "explanation": "Florestas tropicais são quentes e úmidas, com alta biodiversidade, enquanto florestas temperadas têm estações distintas e biodiversidade menor.",
+    "id": "quiz-natureza-e-animais-500",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o nome do fenômeno climático que causa a morte de corais?",
+    "options": [
+      "El Niño",
+      "La Niña",
+      "Branqueamento de Corais",
+      "Derretimento das geleiras"
+    ],
+    "correctAnswer": "Branqueamento de Corais",
+    "explanation": "O branqueamento de corais ocorre devido ao aumento da temperatura da água, causando a expulsão das algas simbióticas.",
+    "id": "quiz-natureza-e-animais-501",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas aves não voa?",
+    "options": [
+      "Pinguim",
+      "Águia",
+      "Papagaio",
+      "Gavião"
+    ],
+    "correctAnswer": "Pinguim",
+    "explanation": "Pinguins são aves aquáticas adaptadas para nadar.",
+    "id": "quiz-natureza-e-animais-502",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes animais é conhecido por sua hibernação?",
+    "options": [
+      "Leão",
+      "Urso",
+      "Girafa",
+      "Zebra"
+    ],
+    "correctAnswer": "Urso",
+    "explanation": "Ursos hibernam durante o inverno para conservar energia.",
+    "id": "quiz-natureza-e-animais-503",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de formação de rochas sedimentares?",
+    "options": [
+      "Metamorfismo",
+      "Intrusão magmática",
+      "Litificação",
+      "Derretimento"
+    ],
+    "correctAnswer": "Litificação",
+    "explanation": "Litificação é o processo de compactação e cimentação de sedimentos, formando rochas.",
+    "id": "quiz-natureza-e-animais-504",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função das raízes das plantas?",
+    "options": [
+      "Fotossíntese",
+      "Produção de flores",
+      "Absorção de água e nutrientes",
+      "Transporte de seiva"
+    ],
+    "correctAnswer": "Absorção de água e nutrientes",
+    "explanation": "As raízes ancoram a planta e absorvem água e nutrientes do solo.",
+    "id": "quiz-natureza-e-animais-505",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes animais é um invertebrado?",
+    "options": [
+      "Golfinho",
+      "Cobra",
+      "Aranha",
+      "Cachorro"
+    ],
+    "correctAnswer": "Aranha",
+    "explanation": "Aranhas são invertebrados, pertencentes à classe Arachnida.",
+    "id": "quiz-natureza-e-animais-506",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do processo pelo qual as plantas liberam vapor de água através das folhas?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Transpiração",
+      "Decomposição"
+    ],
+    "correctAnswer": "Transpiração",
+    "explanation": "A transpiração é essencial para o transporte de água e nutrientes na planta.",
+    "id": "quiz-natureza-e-animais-507",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do ecossistema terrestre que recebe pouca chuva?",
+    "options": [
+      "Floresta",
+      "Savana",
+      "Deserto",
+      "Pantanal"
+    ],
+    "correctAnswer": "Deserto",
+    "explanation": "Os desertos são caracterizados por sua baixa precipitação.",
+    "id": "quiz-natureza-e-animais-508",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o maior oceano do mundo?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico",
+      "Oceano Pacífico"
+    ],
+    "correctAnswer": "Oceano Pacífico",
+    "explanation": "O Oceano Pacífico cobre mais da metade da superfície terrestre.",
+    "id": "quiz-natureza-e-animais-509",
+    "categoryId": "natureza-e-animais"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o planeta conhecido como o 'planeta vermelho'?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Vênus",
+      "Saturno"
+    ],
+    "correctAnswer": "Marte",
+    "explanation": "Marte é chamado de planeta vermelho devido à grande quantidade de óxido de ferro em sua superfície.",
+    "id": "quiz-universo-e-astronomia-510",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é o maior planeta do nosso sistema solar?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "correctAnswer": "Júpiter",
+    "explanation": "Júpiter é um gigante gasoso com um diâmetro de 11 vezes o da Terra.",
+    "id": "quiz-universo-e-astronomia-511",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é uma galáxia?",
+    "options": [
+      "Um planeta",
+      "Uma estrela",
+      "Um grande sistema de estrelas, gás e poeira",
+      "Um buraco negro"
+    ],
+    "correctAnswer": "Um grande sistema de estrelas, gás e poeira",
+    "explanation": "Galáxias são estruturas colossais que contêm bilhões de estrelas, além de gás e poeira interestelar.",
+    "id": "quiz-universo-e-astronomia-512",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual fenômeno astronômico causa as marés?",
+    "options": [
+      "Rotação da Terra",
+      "Revolução da Terra",
+      "Atração gravitacional da Lua e do Sol",
+      "Ventos solares"
+    ],
+    "correctAnswer": "Atração gravitacional da Lua e do Sol",
+    "explanation": "A força gravitacional da Lua e, em menor extensão, do Sol, afeta os oceanos da Terra, causando as marés.",
+    "id": "quiz-universo-e-astronomia-513",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual é a estrela mais próxima do nosso planeta?",
+    "options": [
+      "Sírius",
+      "Betelgeuse",
+      "Próxima Centauri",
+      "Polaris"
+    ],
+    "correctAnswer": "Próxima Centauri",
+    "explanation": "Próxima Centauri é uma estrela anã vermelha localizada a aproximadamente 4,2 anos-luz da Terra.",
+    "id": "quiz-universo-e-astronomia-514",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é um quasar?",
+    "options": [
+      "Um tipo de nebulosa",
+      "Um buraco negro supermassivo ativo",
+      "Um tipo de estrela de nêutrons",
+      "Um planeta extrasolar"
+    ],
+    "correctAnswer": "Um buraco negro supermassivo ativo",
+    "explanation": "Quasares são objetos extremamente luminosos alimentados por buracos negros supermassivos no centro de galáxias distantes.",
+    "id": "quiz-universo-e-astronomia-515",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é a unidade de medida de distância usada em astronomia que equivale a aproximadamente 9,46 trilhões de quilômetros?",
+    "options": [
+      "Unidade Astronômica (UA)",
+      "Ano-luz",
+      "Parsec",
+      "Kiloparsec"
+    ],
+    "correctAnswer": "Ano-luz",
+    "explanation": "Um ano-luz é a distância que a luz percorre em um ano.",
+    "id": "quiz-universo-e-astronomia-516",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a Via Láctea?",
+    "options": [
+      "Uma constelação",
+      "Uma galáxia espiral",
+      "Uma nebulosa planetária",
+      "Um aglomerado de galáxias"
+    ],
+    "correctAnswer": "Uma galáxia espiral",
+    "explanation": "A Via Láctea é a galáxia em que se encontra o nosso Sistema Solar.",
+    "id": "quiz-universo-e-astronomia-517",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fase da lua podemos ver quando ela está completamente iluminada?",
+    "options": [
+      "Lua nova",
+      "Lua crescente",
+      "Lua cheia",
+      "Lua minguante"
+    ],
+    "correctAnswer": "Lua cheia",
+    "explanation": "Na lua cheia, a Terra está entre o sol e a lua, permitindo que vejamos toda a superfície iluminada.",
+    "id": "quiz-universo-e-astronomia-518",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Quais são os dois principais componentes de uma estrela?",
+    "options": [
+      "Gás e poeira",
+      "Hidrogênio e Hélio",
+      "Rochas e metais",
+      "Plasma e radiação"
+    ],
+    "correctAnswer": "Hidrogênio e Hélio",
+    "explanation": "A maioria das estrelas é composta principalmente de hidrogênio e hélio.",
+    "id": "quiz-universo-e-astronomia-519",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é um anel de asteroides?",
+    "options": [
+      "Um grupo de asteroides orbitando um planeta",
+      "Um cinturão de asteroides entre Marte e Júpiter",
+      "Uma nuvem de asteroides ao redor do sol",
+      "Uma lua feita de asteroides"
+    ],
+    "correctAnswer": "Um cinturão de asteroides entre Marte e Júpiter",
+    "explanation": "O cinturão de asteroides é uma região do sistema solar localizada entre as órbitas de Marte e Júpiter.",
+    "id": "quiz-universo-e-astronomia-520",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o nome do processo que produz energia no Sol?",
+    "options": [
+      "Fissão nuclear",
+      "Combustão",
+      "Fusão nuclear",
+      "Radioatividade"
+    ],
+    "correctAnswer": "Fusão nuclear",
+    "explanation": "O Sol produz energia através da fusão nuclear de átomos de hidrogênio em hélio.",
+    "id": "quiz-universo-e-astronomia-521",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual planeta é conhecido pelos seus anéis?",
+    "options": [
+      "Marte",
+      "Júpiter",
+      "Saturno",
+      "Netuno"
+    ],
+    "correctAnswer": "Saturno",
+    "explanation": "Saturno é famoso pelos seus belos e extensos anéis feitos de gelo e rocha.",
+    "id": "quiz-universo-e-astronomia-522",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Em que constelação está localizada a estrela Polaris (Estrela do Norte)?",
+    "options": [
+      "Ursa Maior",
+      "Ursa Menor",
+      "Cassiopeia",
+      "Andrômeda"
+    ],
+    "correctAnswer": "Ursa Menor",
+    "explanation": "Polaris é a estrela mais brilhante da constelação Ursa Menor, também conhecida como a Pequena Ursa.",
+    "id": "quiz-universo-e-astronomia-523",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do nosso satélite natural?",
+    "options": [
+      "Sol",
+      "Lua",
+      "Mercúrio",
+      "Vênus"
+    ],
+    "correctAnswer": "Lua",
+    "explanation": "A Lua é o único satélite natural da Terra.",
+    "id": "quiz-universo-e-astronomia-524",
+    "categoryId": "universo-e-astronomia"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes artistas é conhecido por seu trabalho no gênero Pop?",
+    "options": [
+      "Beethoven",
+      "Mozart",
+      "Michael Jackson",
+      "Bach"
+    ],
+    "correctAnswer": "Michael Jackson",
+    "explanation": "Michael Jackson é um ícone da música pop mundialmente conhecido.",
+    "id": "quiz-musica-525",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em qual década surgiu o movimento musical conhecido como 'Disco'?",
+    "options": [
+      "1950",
+      "1960",
+      "1970",
+      "1980"
+    ],
+    "correctAnswer": "1970",
+    "explanation": "A década de 1970 é conhecida como a era de ouro da música Disco.",
+    "id": "quiz-musica-526",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual compositor minimalista é conhecido por suas obras repetitivas e hipnóticas?",
+    "options": [
+      "Philip Glass",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correctAnswer": "Philip Glass",
+    "explanation": "Philip Glass é um expoente do minimalismo musical.",
+    "id": "quiz-musica-527",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é um instrumento de sopro?",
+    "options": [
+      "Violino",
+      "Piano",
+      "Bateria",
+      "Trompete"
+    ],
+    "correctAnswer": "Trompete",
+    "explanation": "O trompete é um instrumento de sopro de metal.",
+    "id": "quiz-musica-528",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual gênero musical se caracteriza pelo uso de improvisação e blue notes?",
+    "options": [
+      "Rock",
+      "Pop",
+      "Blues",
+      "Clássica"
+    ],
+    "correctAnswer": "Blues",
+    "explanation": "O Blues é conhecido por sua improvisação e uso de blue notes.",
+    "id": "quiz-musica-529",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Quem compôs a ópera 'Carmen'?",
+    "options": [
+      "Giuseppe Verdi",
+      "Giacomo Puccini",
+      "Richard Wagner",
+      "Georges Bizet"
+    ],
+    "correctAnswer": "Georges Bizet",
+    "explanation": "Georges Bizet é o compositor da famosa ópera 'Carmen'.",
+    "id": "quiz-musica-530",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes instrumentos é tipicamente usado em música folclórica brasileira?",
+    "options": [
+      "Violino",
+      "Guitarra",
+      "Piano",
+      "Trombone"
+    ],
+    "correctAnswer": "Guitarra",
+    "explanation": "A guitarra é um instrumento muito presente na música folclórica brasileira.",
+    "id": "quiz-musica-531",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do ritmo musical brasileiro que é caracterizado por um ritmo sincopado e vibrante?",
+    "options": [
+      "Samba",
+      "Forró",
+      "Bossa Nova",
+      "Baião"
+    ],
+    "correctAnswer": "Samba",
+    "explanation": "O Samba é um ritmo brasileiro conhecido por sua sincopação e vibração.",
+    "id": "quiz-musica-532",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença principal entre uma escala maior e uma escala menor?",
+    "options": [
+      "Número de notas",
+      "Instrumentos utilizados",
+      "Intervalo entre as notas",
+      "Duração das notas"
+    ],
+    "correctAnswer": "Intervalo entre as notas",
+    "explanation": "A principal diferença reside nos intervalos entre as notas que compõem cada escala.",
+    "id": "quiz-musica-533",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes artistas é conhecido por seu trabalho no gênero Reggae?",
+    "options": [
+      "Elvis Presley",
+      "Bob Marley",
+      "Michael Jackson",
+      "Freddie Mercury"
+    ],
+    "correctAnswer": "Bob Marley",
+    "explanation": "Bob Marley é um ícone do Reggae.",
+    "id": "quiz-musica-534",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes termos musicais se refere à velocidade de uma música?",
+    "options": [
+      "Compasso",
+      "Ritmo",
+      "Tempo",
+      "Melodia"
+    ],
+    "correctAnswer": "Tempo",
+    "explanation": "O tempo indica a velocidade de execução da música.",
+    "id": "quiz-musica-535",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o nome do compositor conhecido por suas contribuições para o desenvolvimento da música atonal?",
+    "options": [
+      "Beethoven",
+      "Mozart",
+      "Schoenberg",
+      "Bach"
+    ],
+    "correctAnswer": "Schoenberg",
+    "explanation": "Arnold Schoenberg foi um compositor pioneiro da música atonal.",
+    "id": "quiz-musica-536",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual instrumento musical é conhecido por suas teclas?",
+    "options": [
+      "Violino",
+      "Bateria",
+      "Guitarra",
+      "Piano"
+    ],
+    "correctAnswer": "Piano",
+    "explanation": "O piano é um instrumento de teclado.",
+    "id": "quiz-musica-537",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual gênero musical é frequentemente associado a instrumentos como banjo e violino?",
+    "options": [
+      "Blues",
+      "Jazz",
+      "Country",
+      "Rock"
+    ],
+    "correctAnswer": "Country",
+    "explanation": "A música Country frequentemente utiliza banjo e violino.",
+    "id": "quiz-musica-538",
+    "categoryId": "musica"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual compositor clássico é conhecido por sua obra 'As Quatro Estações'?",
+    "options": [
+      "Bach",
+      "Beethoven",
+      "Mozart",
+      "Vivaldi"
+    ],
+    "correctAnswer": "Vivaldi",
+    "explanation": "Antonio Vivaldi compôs 'As Quatro Estações'.",
+    "id": "quiz-musica-539",
+    "categoryId": "musica"
   }
 ]
