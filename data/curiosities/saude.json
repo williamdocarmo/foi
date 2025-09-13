@@ -748,5 +748,140 @@
     "content": "O toque físico, seja um abraço ou uma massagem suave, libera ocitocina, o hormônio do amor e do bem-estar. Isso reduz os níveis de cortisol, o hormônio do estresse, promovendo relaxamento e sensação de segurança. Estudos demonstram que o toque terapêutico pode aliviar a dor, reduzir a ansiedade e melhorar o humor, demonstrando um impacto significativo na saúde mental e física.",
     "funFact": "Bebês que recebem mais contato físico desenvolvem melhor o sistema imunológico.",
     "curiosityLevel": 4
+  },
+  {
+    "id": "saude-114",
+    "categoryId": "saude",
+    "title": "A Ciência da Cura pelo Toque",
+    "hook": "Incrível: o poder do toque!",
+    "content": "O toque humano não é apenas afetivo, mas também terapêutico. Estudos demonstram que um simples abraço pode reduzir a pressão arterial e liberar endorfinas, hormônios que aliviam a dor e promovem o bem-estar.  O toque é uma linguagem universal de conforto e cura, impactando profundamente nossa saúde física e emocional.  Imagine o poder de um toque carinhoso!",
+    "funFact": "Um toque gentil pode ser tão eficaz quanto alguns medicamentos para aliviar a ansiedade.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-115",
+    "categoryId": "saude",
+    "title": "A Ciência do Suor: Mais Que Apenas Água",
+    "hook": "Incrível: Seu suor fala!",
+    "content": "Seu suor não é apenas água e sal. Ele contém uma mistura complexa de eletrólitos, proteínas e hormônios que podem revelar informações sobre sua saúde, desde desidratação até doenças crônicas. Analisar a composição do suor pode auxiliar no diagnóstico precoce de diversas condições.",
+    "funFact": "O suor pode até mesmo indicar a presença de certas toxinas no corpo!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-116",
+    "categoryId": "saude",
+    "title": "A Importância da Microrganismos na Pele",
+    "hook": "Você sabia que...",
+    "content": "Sua pele abriga um ecossistema complexo de microrganismos que desempenham um papel crucial na saúde da pele.  Esses microrganismos protegem contra infecções, regulam a inflamação e contribuem para a barreira protetora da pele.  Um desequilíbrio pode levar a problemas como eczema e acne.",
+    "funFact": "Existem mais bactérias na sua pele do que células!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-117",
+    "categoryId": "saude",
+    "title": "A Ciência da Sua Respiração Noturna",
+    "hook": "Incrível: sua respiração enquanto dorme!",
+    "content": "Você já parou para pensar na sua respiração durante o sono?  A frequência e o padrão respiratório noturno revelam muito sobre a sua saúde.  Respirações irregulares ou apneias podem indicar problemas cardíacos ou pulmonares. Monitorar essa respiração pode ser crucial para uma melhor saúde.  Observe sua respiração, e se notar algo diferente, procure um médico.",
+    "funFact": "A apneia do sono afeta milhões e muitas vezes passa despercebida!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-118",
+    "categoryId": "saude",
+    "title": "A Dança dos seus Microrganismos",
+    "hook": "Surpreendente:",
+    "content": "Seu corpo abriga trilhões de microrganismos, uma comunidade complexa que influencia sua imunidade, digestão e até seu humor.  O equilíbrio dessa microbiota intestinal é essencial para a saúde.  Uma dieta rica em fibras e probióticos ajuda a mantê-la saudável e equilibrada.",
+    "funFact": "Mais de 70% do seu sistema imunológico reside no intestino!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-119",
+    "categoryId": "saude",
+    "title": "O Poder Secreto do Seu Bocejo",
+    "hook": "Incrível:",
+    "content": "Bocejar não é apenas um sinal de cansaço. Estudos sugerem que o bocejo ajuda a regular a temperatura cerebral, melhorando a performance cognitiva e o foco.  Bocejar também pode ser contagioso, e essa característica evolutiva nos ajudou a nos conectar socialmente.",
+    "funFact": "Bocejos podem ser sintoma de problemas neurológicos, se ocorrerem excessivamente.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-120",
+    "categoryId": "saude",
+    "title": "A Ciência do Seu Suor",
+    "hook": "Incrível:",
+    "content": "Seu suor é mais do que apenas água e sal. Ele contém informações importantes sobre seu estado de saúde, incluindo níveis de eletrólitos e indicadores metabólicos. Analisar a composição do suor pode ajudar no diagnóstico precoce de diversas condições médicas.",
+    "funFact": "Sua composição sudorípara pode mudar dependendo da sua dieta e atividade física.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-121",
+    "categoryId": "saude",
+    "title": "A Ciência Oculta da Temperatura Corporal",
+    "hook": "Incrível: sua temperatura...",
+    "content": "A temperatura corporal, normalmente em torno de 36,5°C, flutua ao longo do dia e varia entre indivíduos.  Essa variação sutil, muitas vezes ignorada, reflete a complexa interação entre metabolismo, sistema imunológico e até mesmo o humor.  Entender essas flutuações pode revelar muito sobre a saúde geral.  Descobertas recentes sugerem que pequenas variações podem ser indicadores precoces de problemas de saúde.",
+    "funFact": "Sua temperatura corporal é mais baixa pela manhã e mais alta à tarde!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-122",
+    "categoryId": "saude",
+    "title": "A Importância da Microbiota da Pele",
+    "hook": "Incrível: sua pele abriga...",
+    "content": "A pele não é apenas uma barreira física, mas um ecossistema complexo habitado por uma variedade de microrganismos.  Essa microbiota cutânea desempenha um papel crucial na proteção contra patógenos, na regulação da imunidade e na manutenção da saúde da pele.  Desequilíbrios na microbiota podem levar a diversas condições dermatológicas.",
+    "funFact": "A composição da microbiota da sua pele é tão única quanto sua impressão digital!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-123",
+    "categoryId": "saude",
+    "title": "A Química da Felicidade: Mais Que Endorfinas",
+    "hook": "Incrível: a felicidade...",
+    "content": "A felicidade não se resume apenas à liberação de endorfinas.  Uma complexa interação de neurotransmissores, como serotonina, dopamina e oxitocina, contribui para a sensação de bem-estar.  Entender essa 'química da felicidade' pode auxiliar no desenvolvimento de estratégias para melhorar a saúde mental e emocional.",
+    "funFact": "O ato de sorrir, mesmo que forçado, pode liberar neurotransmissores da felicidade!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-124",
+    "categoryId": "saude",
+    "title": "O Poder da Respiração Consciente",
+    "hook": "Incrível: sua respiração...",
+    "content": "A respiração consciente, além de relaxante, otimiza a oxigenação celular, melhora a digestão e reduz a ansiedade.  Experimente respirar profundamente pelo diafragma por 5 minutos e sinta a diferença na sua energia e clareza mental.  A prática regular pode até mesmo influenciar seus hormônios!",
+    "funFact": "A forma como você respira impacta diretamente sua postura e até mesmo seu humor!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-125",
+    "categoryId": "saude",
+    "title": "Sua Pele: Um Ecossistema Vivo",
+    "hook": "Você sabia que...",
+    "content": "Sua pele abriga um complexo ecossistema de microrganismos que influenciam sua saúde.  Manter o equilíbrio dessa microbiota, por meio de uma higiene adequada e hábitos saudáveis, é crucial para uma pele radiante e protegida contra infecções.  Desequilíbrios podem levar a problemas como acne e eczema.",
+    "funFact": "Existem mais bactérias na sua pele do que células humanas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "saude-126",
+    "categoryId": "saude",
+    "title": "A Mente Subconsciente e a Saúde",
+    "hook": "Incrível: sua mente cura!",
+    "content": "Seu subconsciente influencia profundamente sua saúde física. Pensamentos negativos e estresse crônico podem causar inflamação e doenças.  A prática de meditação e visualizações positivas podem reprogramar padrões mentais e melhorar sua saúde geral.  Aprenda a dominar sua mente para um corpo mais saudável.",
+    "funFact": "Estudo mostra que 70% das doenças são de origem psicossomática.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-127",
+    "categoryId": "saude",
+    "title": "Seu Segundo Cérebro: O Intestino",
+    "hook": "Surpreendente: seu intestino pensa!",
+    "content": "Seu intestino possui um sistema nervoso próprio, conhecido como o 'segundo cérebro'.  Ele produz neurotransmissores que influenciam seu humor e até mesmo seu sono.  Cuidar da saúde intestinal, com probióticos e uma dieta rica em fibras, melhora a comunicação entre o intestino e o cérebro.",
+    "funFact": "Mais de 90% da serotonina, hormônio do bem-estar, é produzida no intestino.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "saude-128",
+    "categoryId": "saude",
+    "title": "O Poder da Natureza na Sua Saúde",
+    "hook": "Incrível: a natureza te cura!",
+    "content": "Passar tempo na natureza reduz o estresse, melhora o humor e fortalece o sistema imunológico.  O ar fresco, a luz solar e os sons da natureza têm um efeito restaurador sobre a mente e o corpo.  Incorpore a natureza no seu dia a dia.",
+    "funFact": "Estudos mostram que apenas 20 minutos na natureza reduzem os níveis de cortisol.",
+    "curiosityLevel": 2
   }
 ]

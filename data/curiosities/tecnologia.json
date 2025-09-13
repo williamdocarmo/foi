@@ -961,5 +961,239 @@
     "content": "Os microcontroladores, presentes em tudo, de relógios a carros, são maravilhas da miniaturização.  Sua operação depende de princípios da física de estado sólido, como o efeito túnel e a condutividade em semicondutores.  A manipulação desses efeitos permite que bilhões de transistores trabalhem em harmonia.",
     "funFact": "Um único microcontrolador pode conter mais transistores do que estrelas na Via Láctea!",
     "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-108",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Alto-Falantes",
+    "hook": "Incrível: a física do som!",
+    "content": "Você já se perguntou como um alto-falante transforma sinais elétricos em ondas sonoras?  A resposta envolve a interação complexa entre eletromagnetismo e mecânica.  Um campo magnético interage com uma bobina móvel, gerando vibrações que empurram o ar, criando o som que ouvimos.  Esse processo, aparentemente simples, é uma demonstração elegante de princípios físicos fundamentais.",
+    "funFact": "A qualidade do som depende muito da precisão da vibração da membrana do alto-falante, que precisa ser extremamente precisa para reproduzir fielmente a música.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-109",
+    "categoryId": "tecnologia",
+    "title": "O Segredo da Impressão 3D em Alimentos",
+    "hook": "Você sabia que...",
+    "content": "A impressão 3D já ultrapassa a fabricação de objetos plásticos. Hoje, é possível imprimir alimentos com precisão, criando estruturas complexas e texturas únicas.  Imagine pizzas personalizadas, bolos com designs intrincados e até mesmo comida espacial adaptada às necessidades de astronautas. A tecnologia está revolucionando a gastronomia.",
+    "funFact": "Ingredientes como chocolate, massa de bolo e até mesmo queijo já foram impressos em 3D, criando esculturas comestíveis.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-110",
+    "categoryId": "tecnologia",
+    "title": "A Ciência por Trás dos Drones Autônomos",
+    "hook": "Surpreendente:",
+    "content": "Drones autônomos navegam sem a necessidade de um piloto humano, usando uma combinação sofisticada de sensores, algoritmos de inteligência artificial e sistemas de posicionamento global. Esses sistemas processam informações em tempo real, permitindo que os drones evitem obstáculos, planejem rotas e até mesmo tomem decisões estratégicas.",
+    "funFact": "Alguns drones autônomos já são capazes de realizar inspeções de infraestrutura, monitorar plantações agrícolas e até mesmo entregar encomendas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-111",
+    "categoryId": "tecnologia",
+    "title": "Computação Quântica: Quebrando Códigos?",
+    "hook": "Incrível!",
+    "content": "A computação quântica promete revolucionar a criptografia.  Computadores quânticos, com sua capacidade de realizar cálculos complexos em velocidades inimagináveis, poderiam quebrar os algoritmos de criptografia atuais, colocando em risco dados confidenciais em todo o mundo.  Por outro lado, também podem criar novos métodos de criptografia inquebráveis.",
+    "funFact": "Alguns especialistas acreditam que a computação quântica pode tornar a internet insegura, a menos que métodos de criptografia quântica sejam desenvolvidos.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-112",
+    "categoryId": "tecnologia",
+    "title": "A Ciência Secreta dos LEDs",
+    "hook": "Incrível: a luz que ilumina!",
+    "content": "Os LEDs, tão comuns hoje, escondem uma física fascinante.  Sua emissão de luz é resultado da eletroluminescência, onde elétrons excitados liberam fótons ao retornarem ao seu estado fundamental.  A cor da luz depende do material semicondutor utilizado. Essa tecnologia eficiente e durável revolucionou a iluminação.",
+    "funFact": "Um único LED pode durar até 100.000 horas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-113",
+    "categoryId": "tecnologia",
+    "title": "A Evolução dos Teclados",
+    "hook": "Surpreendente:",
+    "content": "A evolução dos teclados foi marcada por diversas inovações, desde as primeiras máquinas de escrever até os teclados virtuais.  A disposição das letras (QWERTY) tem origens controversas, possivelmente para evitar travamentos mecânicos em máquinas antigas. Hoje, temos teclados ergonômicos e com tecnologias avançadas.",
+    "funFact": "Existem teclados com tecnologia de detecção de pressão para melhor precisão!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "tecnologia-114",
+    "categoryId": "tecnologia",
+    "title": "O Enigma dos Computadores Biológicos",
+    "hook": "Incrível: Computadores vivos!",
+    "content": "Imagine computadores construídos com células vivas, processando informações usando reações bioquímicas.  Essa é a promessa da computação biológica, que busca criar sistemas computacionais mais eficientes e adaptáveis do que os eletrônicos tradicionais.  Pesquisadores estão explorando o potencial de células para realizar tarefas complexas.",
+    "funFact": "Células podem ser programadas para realizar cálculos lógicos!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-115",
+    "categoryId": "tecnologia",
+    "title": "A Dança dos Bits Quânticos",
+    "hook": "Você sabia que...",
+    "content": "A computação quântica usa bits quânticos (qubits) que podem representar 0 e 1 simultaneamente.  Isso permite cálculos exponencialmente mais rápidos que os computadores clássicos.  Entretanto, manter a coerência dos qubits é um grande desafio.  O futuro da computação pode depender disso.",
+    "funFact": "Um computador quântico pode quebrar a maioria das criptografias atuais!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-116",
+    "categoryId": "tecnologia",
+    "title": "A Memória do DNA: Armazenamento Infinito?",
+    "hook": "Você sabia que...",
+    "content": "O DNA, a molécula da vida, pode ser usado para armazenar dados digitais com densidade de informação muito superior aos dispositivos atuais.  Pesquisadores já armazenaram livros e imagens em sequências de DNA.  O futuro do armazenamento de dados pode estar escrito em nosso código genético.",
+    "funFact": "Um grama de DNA pode armazenar a informação de um trilhão de CDs!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-117",
+    "categoryId": "tecnologia",
+    "title": "A Internet das Coisas Subterrâneas",
+    "hook": "Surpreendente:",
+    "content": "A IoT não se limita à superfície.  Sensores e dispositivos conectados estão sendo implantados no subsolo para monitorar a qualidade do solo, detectar vazamentos de água e até mesmo controlar o crescimento de raízes.  Um mundo subterrâneo inteligente está emergindo.",
+    "funFact": "Sensores subterrâneos podem prever terremotos com precisão maior!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-118",
+    "categoryId": "tecnologia",
+    "title": "A Revolução Silenciosa dos Sensores Biométricos",
+    "hook": "Incrível:",
+    "content": "A biometria avançou além das digitais e reconhecimento facial.  Sensores estão sendo desenvolvidos para detectar batimentos cardíacos através de uma parede, identificar indivíduos pelo odor e até mesmo por seus padrões de escrita.  A segurança e a privacidade estão em debate.",
+    "funFact": "Seu cheiro único pode ser seu novo código de acesso!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-119",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial que Sonha",
+    "hook": "Você sabia que...",
+    "content": "Redes neurais artificiais, a base da IA, podem ser treinadas para gerar imagens, textos e até mesmo música.  Algumas pesquisas mostram que essas redes podem produzir outputs que demonstram uma forma de criatividade e imaginação, desafiando a nossa compreensão da inteligência.",
+    "funFact": "IAs já compuseram músicas premiadas em competições internacionais!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-120",
+    "categoryId": "tecnologia",
+    "title": "A Física dos Computadores Ópticos",
+    "hook": "Você sabia que...",
+    "content": "Computadores que usam luz em vez de eletricidade para processar informações são uma promessa para o futuro.  A luz viaja mais rápido que a eletricidade e permite processamento mais rápido e eficiente.  Desafios de produção em larga escala ainda persistem.",
+    "funFact": "Computadores ópticos podem processar informações a velocidades próximas da luz!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-121",
+    "categoryId": "tecnologia",
+    "title": "A Energia do Vácuo Quântico",
+    "hook": "Surpreendente:",
+    "content": "O vácuo do espaço não está vazio.  Ele contém energia flutuante que poderia, em teoria, ser aproveitada.  Pesquisas exploram a energia do vácuo quântico como fonte de energia limpa e inesgotável.  Ainda está longe da realidade, mas é um conceito fascinante.",
+    "funFact": "O vácuo contém mais energia do que toda a matéria observável do universo!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-122",
+    "categoryId": "tecnologia",
+    "title": "A Inteligência Artificial que Prediz o Futuro",
+    "hook": "Você sabia que...",
+    "content": "A IA está sendo usada para prever eventos futuros com base em grandes conjuntos de dados.  Previsões de desastres naturais, tendências econômicas e até mesmo pandemias estão sendo feitas com maior precisão.  Ainda há limitações, mas o potencial é enorme.",
+    "funFact": "IAs já previram com precisão surtos de doenças infecciosas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-123",
+    "categoryId": "tecnologia",
+    "title": "Computação de DNA: Armazenando o Universo",
+    "hook": "Surpreendente:",
+    "content": "Utilizando a estrutura do DNA, cientistas buscam criar um sistema de armazenamento de dados incrivelmente denso. A capacidade de armazenamento seria inigualável, abrindo portas para um novo nível de arquivamento de informações.  Ainda em estágio inicial, mas com um potencial colossal.",
+    "funFact": "Um único grama de DNA pode armazenar todos os dados do mundo!",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-124",
+    "categoryId": "tecnologia",
+    "title": "Robôs que Pintam Obras-Primas",
+    "hook": "Incrível:",
+    "content": "Robôs equipados com IA estão aprendendo a criar arte.  Eles são capazes de imitar estilos artísticos e até mesmo desenvolver seus próprios estilos únicos.  A questão da autoria e da criatividade artificial está em debate. Uma nova era na arte se aproxima.",
+    "funFact": "Obras de arte geradas por IA já foram vendidas por milhares de dólares!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-125",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Microfones",
+    "hook": "Incrível: a ciência dos sons!",
+    "content": "Os microfones transformam ondas sonoras em sinais elétricos, mas a física por trás disso é fascinante.  A vibração das ondas de ar move uma membrana, gerando uma corrente elétrica proporcional à intensidade do som.  Diferentes tipos de microfones utilizam princípios físicos distintos para otimizar a captação sonora.",
+    "funFact": "O primeiro microfone, inventado em 1876, utilizava carvão!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-126",
+    "categoryId": "tecnologia",
+    "title": "A Ciência dos Chips de Carbono",
+    "hook": "Incrível: ",
+    "content": "Chips de carbono prometem revolucionar a eletrônica com sua flexibilidade e biocompatibilidade.  Imagine implantes médicos flexíveis e dispositivos vestíveis quase invisíveis. A pesquisa avança na criação de transistores de carbono, mais eficientes e baratos que os de silício.  Isso abriria portas para uma nova era da tecnologia vestível e da medicina personalizada.",
+    "funFact": "Alguns chips de carbono já são capazes de operar em temperaturas extremamente altas, abrindo caminho para aplicações em ambientes inóspitos.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-127",
+    "categoryId": "tecnologia",
+    "title": "A Magia dos Cristais Fotônicos",
+    "hook": "Incrível: Cristais que manipulam a luz!",
+    "content": "Cristais fotônicos são estruturas microscópicas que controlam a luz de forma precisa, com aplicações em lasers, sensores e computação óptica.  Sua capacidade de manipular a luz abre portas para tecnologias revolucionárias, como comunicação de alta velocidade e dispositivos ópticos miniaturizados.  Imagine um futuro com internet mais rápida do que nunca!",
+    "funFact": "Alguns cristais fotônicos podem até mesmo tornar materiais invisíveis à luz.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-128",
+    "categoryId": "tecnologia",
+    "title": "O Silêncio dos Computadores Quânticos",
+    "hook": "Você sabia que...",
+    "content": "Os computadores quânticos prometem revolucionar a computação, mas seu funcionamento é tão silencioso quanto sua promessa é revolucionária.  Ao contrário dos computadores clássicos, eles não emitem ruído audível, operando em níveis de energia extremamente baixos e sem partes móveis. Um contraste impressionante com a tecnologia atual.",
+    "funFact": "Um computador quântico pode resolver problemas que são impossíveis para os computadores atuais.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-129",
+    "categoryId": "tecnologia",
+    "title": "A Música dos Transístores de Grafeno",
+    "hook": "Surpreendente:",
+    "content": "Os transístores de grafeno, feitos de uma única camada de átomos de carbono, prometem uma velocidade e eficiência sem precedentes.  A manipulação dos elétrons nesse material, quase bidimensional, gera uma espécie de “música” elétrica com propriedades únicas, abrindo caminho para dispositivos eletrônicos ultra-rápidos e de baixo consumo.",
+    "funFact": "O grafeno é mais forte que o aço e mais leve que o alumínio.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-130",
+    "categoryId": "tecnologia",
+    "title": "Computação com DNA: Armazenamento Infinito?",
+    "hook": "Você sabia que...",
+    "content": "O DNA, além de carregar a informação genética, pode armazenar dados digitais. Uma única grama de DNA pode armazenar a quantidade de informação equivalente a milhares de discos rígidos! Isso abre um novo horizonte de armazenamento de dados de alta capacidade e densidade.",
+    "funFact": "A informação armazenada em DNA é extremamente estável e durável.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "tecnologia-131",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Sensores de Temperatura",
+    "hook": "Incrível: ",
+    "content": "Você já se perguntou como um simples termômetro consegue medir a temperatura com tanta precisão? A física por trás desses sensores é fascinante, envolvendo a mudança de resistência elétrica em semicondutores com a variação de temperatura.  Um pequeno aumento na temperatura pode resultar em uma grande mudança na resistência, permitindo medições precisas.",
+    "funFact": "Alguns sensores de temperatura usam materiais exóticos com propriedades supercondutoras para alcançar níveis de precisão ainda maiores.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "tecnologia-132",
+    "categoryId": "tecnologia",
+    "title": "A Física Oculta dos Sensores de Pressão",
+    "hook": "Incrível: ",
+    "content": "Os sensores de pressão, presentes em smartphones e até mesmo em carros autônomos, utilizam princípios da física, como a variação de resistência elétrica em materiais piezoelétricos, para medir a pressão.  Essa tecnologia minúscula permite navegar com precisão e monitorar condições ambientais com detalhes surpreendentes. A sensibilidade é tão refinada que até pequenas alterações na pressão atmosférica podem ser detectadas.",
+    "funFact": "Alguns sensores de pressão são tão sensíveis que conseguem detectar a pressão de uma única gota de água.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "tecnologia-133",
+    "categoryId": "tecnologia",
+    "title": "O Segredo dos Computadores Ópticos",
+    "hook": "Você sabia que...",
+    "content": "Computadores ópticos, que usam a luz em vez de eletricidade, prometem velocidades inimagináveis.  A manipulação da luz para processar informações promete superar as limitações dos computadores tradicionais. No entanto, desafios técnicos e de custo ainda precisam ser superados para sua ampla utilização.",
+    "funFact": "A luz pode viajar muito mais rápido do que a eletricidade, o que significa processamento exponencialmente mais rápido.",
+    "curiosityLevel": 3
   }
 ]
