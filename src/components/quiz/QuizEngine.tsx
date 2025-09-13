@@ -16,7 +16,7 @@ type QuizEngineProps = {
 };
 
 const QUESTION_TIME = 60; 
-const DELAY_AFTER_CORRECT_MS = 2000;
+const DELAY_AFTER_CORRECT_MS = 10000;
 const DELAY_AFTER_WRONG_MS = 10000;
 
 
