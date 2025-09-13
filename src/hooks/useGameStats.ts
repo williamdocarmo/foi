@@ -53,7 +53,7 @@ export function useGameStats() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
 
-  const updateAndSaveStats = useCallback(async (newStats: Partial<GameStats>, currentUser: User | null) => {
+  const updateAndSaveStats = useCallback((newStats: Partial<GameStats>, currentUser: User | null) => {
     setStats(prevStats => {
       const updated = { ...prevStats, ...newStats };
       
@@ -136,11 +136,16 @@ export function useGameStats() {
 
 
   const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
+    const newLastRead = { ...(stats.lastReadCuriosity || {}), [categoryId]: curiosityId };
+
+    // If the curiosity is already read, only update the lastReadCuriosity property
+    // to avoid triggering unnecessary re-renders and stat calculations.
     if (stats.readCuriosities.includes(curiosityId)) {
-       // Even if already read, update the lastReadCuriosity to save progress
-      const newLastRead = { ...stats.lastReadCuriosity, [categoryId]: curiosityId };
-      updateAndSaveStats({ lastReadCuriosity: newLastRead }, user);
-      return;
+        // Only update if the lastReadCuriosity has actually changed
+        if (stats.lastReadCuriosity?.[categoryId] !== curiosityId) {
+            updateAndSaveStats({ lastReadCuriosity: newLastRead }, user);
+        }
+        return;
     }
     
     const newReadCuriosities = [...stats.readCuriosities, curiosityId];
@@ -165,8 +170,6 @@ export function useGameStats() {
     else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
 
     const newCombos = Math.floor(newTotalRead / 5) - Math.floor(stats.totalCuriositiesRead / 5) + stats.combos;
-
-    const newLastRead = { ...stats.lastReadCuriosity, [categoryId]: curiosityId };
 
     updateAndSaveStats({
       totalCuriositiesRead: newTotalRead,

@@ -1,8 +1,7 @@
-
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,56 +25,53 @@ export default function CuriosityExplorer({
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  const [currentIndex, setCurrentIndex] = useState(() => {
-    if (!isLoaded) return 0; // Return a default, will be re-calculated in useEffect
+  const getInitialIndex = useCallback(() => {
+    const curiosityIdFromUrl = searchParams.get('curiosity') || initialCuriosityId;
+    if (curiosityIdFromUrl) {
+      const index = curiosities.findIndex(c => c.id === curiosityIdFromUrl);
+      if (index !== -1) return index;
+    }
+    const lastReadId = stats.lastReadCuriosity?.[category.id];
+    if (lastReadId) {
+        const index = curiosities.findIndex(c => c.id === lastReadId);
+        if (index !== -1) return index;
+    }
     const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    const initialIndex = curiosities.findIndex(c => c.id === initialCuriosityId);
-
-    if (initialIndex !== -1) {
-      return initialIndex;
-    }
     return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-  });
+  }, [initialCuriosityId, searchParams, curiosities, stats.readCuriosities, stats.lastReadCuriosity, category.id]);
 
-  const [hasInitialized, setHasInitialized] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(getInitialIndex);
 
-  // This effect runs only once when `isLoaded` becomes true.
-  // It correctly sets the initial index without causing loops.
+  // This effect synchronizes the state if the data loads after the initial state is set.
   useEffect(() => {
-    if (isLoaded && !hasInitialized) {
-      const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-      const initialIndexFromUrl = curiosities.findIndex(c => c.id === initialCuriosityId);
-
-      let startIndex = 0;
-      if (initialIndexFromUrl !== -1) {
-        startIndex = initialIndexFromUrl;
-      } else if (firstUnreadIndex !== -1) {
-        startIndex = firstUnreadIndex;
-      }
-      
-      setCurrentIndex(startIndex);
-      setHasInitialized(true);
+    if(isLoaded) {
+      setCurrentIndex(getInitialIndex());
     }
-  }, [isLoaded, hasInitialized, curiosities, initialCuriosityId, stats.readCuriosities]);
-
+  }, [isLoaded, getInitialIndex]);
+  
   const currentCuriosity = curiosities[currentIndex];
 
-  // This effect marks a curiosity as read only when the current one changes.
+  // Mark as read only when the component loads for the first time with a valid curiosity.
   useEffect(() => {
-    if (currentCuriosity && isLoaded && hasInitialized) {
+    if (currentCuriosity && isLoaded) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [currentCuriosity, isLoaded, hasInitialized, markCuriosityAsRead]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentCuriosity?.id, isLoaded]); // Use currentCuriosity.id to only run when it changes or on load.
 
-  const goToNext = () => {
-    setCurrentIndex(prevIndex => Math.min(prevIndex + 1, curiosities.length - 1));
+  const handleNavigation = (newIndex: number) => {
+    if (newIndex >= 0 && newIndex < curiosities.length) {
+      setCurrentIndex(newIndex);
+      const newCuriosity = curiosities[newIndex];
+      markCuriosityAsRead(newCuriosity.id, newCuriosity.categoryId);
+    }
   };
 
-  const goToPrev = () => {
-    setCurrentIndex(prevIndex => Math.max(prevIndex - 1, 0));
-  };
+  const goToNext = () => handleNavigation(currentIndex + 1);
+  const goToPrev = () => handleNavigation(currentIndex - 1);
   
   const surpriseMe = useCallback(() => {
     const allCuriosities = getAllCuriosities();
@@ -119,7 +115,7 @@ export default function CuriosityExplorer({
     );
   }
   
-  if (!isLoaded || !currentCuriosity || !hasInitialized) {
+  if (!isLoaded || !currentCuriosity) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
