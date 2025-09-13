@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback } from "react";
 import type { Category, QuizQuestion } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -16,7 +16,7 @@ type QuizEngineProps = {
   questions: QuizQuestion[];
 };
 
-const QUESTION_TIME = 50; // 50 seconds per question
+const QUESTION_TIME = 60; // Increased from 50 to 60 seconds
 
 export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [gameState, setGameState] = useState<'playing' | 'finished'>('playing');
@@ -106,8 +106,9 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setIsAnswered(false);
     setTotalTime(0);
     setCorrectAnswersCount(0);
-    // Re-shuffle for the new game
-    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+    // Re-shuffle for the new game to avoid client/server mismatch on hydration
+    setShuffledQuestions([]); 
+    setTimeout(() => setShuffledQuestions([...questions].sort(() => Math.random() - 0.5)), 0);
   }
 
   if (questions.length === 0) {
@@ -134,6 +135,25 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
         </Card>
     );
   }
+  
+  // Loading state while questions are being shuffled on the client
+  if (shuffledQuestions.length === 0) {
+    return (
+        <Card className="w-full max-w-2xl">
+             <CardHeader>
+                <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
+                 <CardDescription className="pt-2 text-center">Preparando seu desafio...</CardDescription>
+            </CardHeader>
+            <CardContent className="p-6 text-center">
+                <div className="flex flex-col items-center gap-4">
+                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                    <p className="text-muted-foreground">Embaralhando perguntas...</p>
+                </div>
+            </CardContent>
+        </Card>
+    )
+  }
+
 
   if (gameState === 'finished') {
     return (
@@ -181,23 +201,6 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
             </CardFooter>
         </Card>
     );
-  }
-
-  // Loading state while questions are being shuffled on the client
-  if (!currentQuestion) {
-    return (
-        <Card className="w-full max-w-2xl">
-             <CardHeader>
-                <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
-            </CardHeader>
-            <CardContent className="p-6 text-center">
-                <div className="flex flex-col items-center gap-4">
-                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
-                    <p className="text-muted-foreground">Embaralhando perguntas...</p>
-                </div>
-            </CardContent>
-        </Card>
-    )
   }
 
 
