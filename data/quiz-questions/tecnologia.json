@@ -1104,5 +1104,75 @@
     ],
     "correctAnswer": "Um switch encaminha pacotes para um único endereço MAC, enquanto um hub encaminha para todos.",
     "explanation": "Um switch identifica o endereço MAC de destino, enviando dados apenas para o dispositivo certo.  Um hub envia dados para todos os dispositivos conectados. Curiosidade: Switches oferecem melhor desempenho e segurança em redes locais."
+  },
+  {
+    "id": "quiz-tecnologia-80",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual tipo de memória é volátil, ou seja, perde os dados quando a energia é desligada?",
+    "options": [
+      "ROM",
+      "EEPROM",
+      "RAM",
+      "Flash"
+    ],
+    "correctAnswer": "RAM",
+    "explanation": "RAM (Random Access Memory) é uma memória volátil, enquanto ROM (Read-Only Memory), EEPROM (Electrically Erasable Programmable Read-Only Memory) e Flash são memórias não-voláteis. Curiosidade: RAM é crucial para a performance do computador, pois armazena dados em uso ativo."
+  },
+  {
+    "id": "quiz-tecnologia-81",
+    "categoryId": "tecnologia",
+    "difficulty": "medium",
+    "question": "Qual linguagem de programação é frequentemente usada para criar extensões para navegadores web como Chrome e Firefox?",
+    "options": [
+      "Java",
+      "C#",
+      "Python",
+      "JavaScript"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "Embora outras linguagens possam ser usadas indiretamente, JavaScript é a linguagem principal para o desenvolvimento de extensões de navegadores. Isso se deve à sua integração direta com as APIs do navegador."
+  },
+  {
+    "id": "quiz-tecnologia-82",
+    "categoryId": "tecnologia",
+    "difficulty": "hard",
+    "question": "Qual o nome do processo de conversão de código fonte em código de máquina que um computador pode entender diretamente?",
+    "options": [
+      "Interpretação",
+      "Compilação",
+      "Depuração",
+      "Execução"
+    ],
+    "correctAnswer": "Compilação",
+    "explanation": "A compilação traduz o código fonte (escrito em uma linguagem de programação como C++ ou Java) em código de máquina, que o processador pode executar diretamente. A interpretação, por outro lado, executa o código fonte linha por linha, sem uma tradução prévia completa."
+  },
+  {
+    "id": "quiz-tecnologia-83",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual dispositivo permite a entrada de texto em um computador?",
+    "options": [
+      "Impressora",
+      "Monitor",
+      "Teclado",
+      "Mouse"
+    ],
+    "correctAnswer": "Teclado",
+    "explanation": "O teclado é o dispositivo de entrada primário para digitar texto em um computador.  Uma curiosidade: o primeiro teclado comercial foi lançado em 1878, pela empresa Remington."
+  },
+  {
+    "id": "quiz-tecnologia-84",
+    "categoryId": "tecnologia",
+    "difficulty": "easy",
+    "question": "Qual extensão de arquivo geralmente indica um documento de texto?",
+    "options": [
+      ".jpg",
+      ".mp3",
+      ".docx",
+      ".exe"
+    ],
+    "correctAnswer": ".docx",
+    "explanation": ".docx é a extensão padrão para documentos do Microsoft Word.  Curiosamente,  existem muitos outros formatos de documentos de texto, como .txt, .rtf e .pdf."
   }
 ]

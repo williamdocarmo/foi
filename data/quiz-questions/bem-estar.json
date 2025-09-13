@@ -1174,5 +1174,33 @@
     ],
     "correctAnswer": "Eudaimonia",
     "explanation": "A eudaimonia se concentra no florescimento e na realização do potencial humano, buscando significado e propósito, enquanto o hedonismo se concentra principalmente no prazer.  Curiosidade: Aristóteles usou pela primeira vez o termo 'eudaimonia' para descrever um estado de florescimento humano."
+  },
+  {
+    "id": "quiz-bem-estar-85",
+    "categoryId": "bem-estar",
+    "difficulty": "easy",
+    "question": "Qual atividade física leve pode ser facilmente incorporada à rotina diária?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Maratona",
+      "Caminhada rápida",
+      "Escalada em rocha"
+    ],
+    "correctAnswer": "Caminhada rápida",
+    "explanation": "Caminhadas rápidas são acessíveis, exigem pouco equipamento e podem ser feitas em diversos lugares.  Curiosidade: Uma caminhada diária de 30 minutos pode trazer benefícios significativos para a saúde cardiovascular."
+  },
+  {
+    "id": "quiz-bem-estar-86",
+    "categoryId": "bem-estar",
+    "difficulty": "medium",
+    "question": "A 'economia da atenção' se refere a:",
+    "options": [
+      "A gestão eficiente de recursos financeiros.",
+      "A competição por nossa atenção em um mundo hiperconectado.",
+      "A economia de países em desenvolvimento.",
+      "A atenção plena em meditação."
+    ],
+    "correctAnswer": "A competição por nossa atenção em um mundo hiperconectado.",
+    "explanation": "A economia da atenção descreve como empresas e tecnologias competem por nossa atenção limitada.  Curiosidade:  Essa competição pode levar à sobrecarga de informações e afetar negativamente nosso bem-estar mental."
   }
 ]

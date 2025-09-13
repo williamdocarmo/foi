@@ -799,5 +799,356 @@
     "content": "Algumas teorias sugerem que a consciência pode estar relacionada a fenômenos quânticos no cérebro. Essa ideia controversa, ainda em debate, tenta explicar a natureza da consciência através de princípios da física quântica, abrindo novas possibilidades para a compreensão da mente.",
     "funFact": "A física quântica pode influenciar a biologia em nível molecular!",
     "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-90",
+    "categoryId": "ciencia",
+    "title": "O Segredo dos Cristais de Sal",
+    "hook": "Incrível: ",
+    "content": "Cristais de sal, aparentemente simples, escondem uma complexidade fascinante.  Sua formação depende de fatores como temperatura, pressão e concentração de salmoura, criando estruturas geométricas únicas. A beleza e a precisão dessas estruturas revelam princípios fundamentais da física e química.  A variedade de formas e tamanhos é surpreendente.",
+    "funFact": "Alguns cristais de sal podem levar milhares de anos para se formar completamente!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-91",
+    "categoryId": "ciencia",
+    "title": "A Física dos Relâmpagos de Bola",
+    "hook": "Você sabia que...",
+    "content": "Relâmpagos de bola, esferas luminosas que flutuam no ar durante tempestades, são um mistério científico.  Sua existência ainda é debatida, e não há uma explicação única sobre sua formação ou comportamento.  Estudos recentes sugerem ligações com plasmas de baixa temperatura e reações químicas complexas.",
+    "funFact": "Relâmpagos de bola podem passar através de materiais sólidos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-92",
+    "categoryId": "ciencia",
+    "title": "A Química da Cor do Oceano",
+    "hook": "Você sabia que...",
+    "content": "A cor azul do oceano é resultado da interação da luz solar com a água e os materiais dissolvidos nela.  Fitoplâncton e sedimentos podem alterar essa tonalidade, criando padrões complexos de cores. Observar essas variações pode nos dar informações sobre a saúde do ecossistema oceânico.",
+    "funFact": "O oceano profundo é na verdade azul-escuro ou quase preto, devido a falta de luz solar.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-93",
+    "categoryId": "ciencia",
+    "title": "A Neurociência do Déjà Vu",
+    "hook": "Incrível: ",
+    "content": "O déjà vu, a sensação de já ter vivido um momento específico, intriga neurocientistas há décadas. Algumas teorias apontam para falhas na memória, processamento de informações sensoriais duplicadas, ou até mesmo atividade elétrica no cérebro.  A causa ainda não é totalmente compreendida.",
+    "funFact": "A experiência de déjà vu é muito comum, afetando cerca de 70% da população.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-94",
+    "categoryId": "ciencia",
+    "title": "A Física da Superfluidez",
+    "hook": "Você sabia que...",
+    "content": "A superfluidez é um estado da matéria onde um líquido flui sem nenhuma viscosidade.  Isso significa que ele pode subir pelas paredes de um recipiente ou fluir indefinidamente sem perder energia.  É um fenômeno quântico que ocorre em temperaturas extremamente baixas.",
+    "funFact": "O hélio líquido é um exemplo de substância que pode apresentar superfluidez.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-95",
+    "categoryId": "ciencia",
+    "title": "A Biologia dos Pólipos de Corais",
+    "hook": "Surpreendente: ",
+    "content": "Os pólipos de corais são animais minúsculos que constroem os recifes de coral, estruturas complexas e biodiversas nos oceanos.  Sua capacidade de construir estruturas de carbonato de cálcio é incrível, e sua relação simbiótica com algas é essencial para sua sobrevivência.",
+    "funFact": "Um único recife de coral pode abrigar milhares de espécies diferentes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-96",
+    "categoryId": "ciencia",
+    "title": "A Ecologia das Florestas de Kelp",
+    "hook": "Você sabia que...",
+    "content": "Florestas de kelp são ecossistemas marinhos ricos em biodiversidade, formados por algas gigantes que crescem em águas frias e rasas. Essas florestas fornecem habitat e alimento para uma variedade de espécies marinhas, desempenhando um papel crucial na saúde dos oceanos.",
+    "funFact": "As florestas de kelp podem crescer até 60 centímetros por dia.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-97",
+    "categoryId": "ciencia",
+    "title": "A Física do Arco-Íris",
+    "hook": "Surpreendente: ",
+    "content": "O arco-íris é um fenômeno óptico causado pela refração e reflexão da luz solar em gotículas de água na atmosfera.  A dispersão da luz branca em diferentes cores cria o espetáculo visual que todos conhecemos. A forma do arco é determinada pela geometria da refração.",
+    "funFact": "Um arco-íris duplo é formado quando a luz é refletida duas vezes dentro das gotas de água.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "ciencia-98",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Aprendizagem",
+    "hook": "Impressionante: ",
+    "content": "O processo de aprendizagem envolve alterações complexas na estrutura e na função do cérebro.  Novas conexões neurais são formadas e fortalecidas, enquanto outras são enfraquecidas ou eliminadas. A compreensão desses processos é fundamental para o desenvolvimento de métodos eficazes de ensino.",
+    "funFact": "O cérebro adulto continua a formar novas conexões neuronais ao longo da vida.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-99",
+    "categoryId": "ciencia",
+    "title": "A Astronomia dos Buracos Negros Supermassivos",
+    "hook": "Incrível: ",
+    "content": "Buracos negros supermassivos são objetos extremamente densos que residem no centro de muitas galáxias. Sua massa é milhões ou bilhões de vezes maior que a do nosso Sol, e sua gravidade é tão forte que nem mesmo a luz consegue escapar.",
+    "funFact": "A existência de buracos negros supermassivos ainda é um mistério científico.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-100",
+    "categoryId": "ciencia",
+    "title": "A Oceanografia das Marés",
+    "hook": "Surpreendente: ",
+    "content": "As marés são o resultado da atração gravitacional da Lua e do Sol sobre os oceanos da Terra.  A combinação dessas forças, junto com a rotação da Terra, cria ciclos de marés altas e baixas que variam em intensidade e tempo.",
+    "funFact": "A força gravitacional da Lua é mais forte sobre a Terra do que a do Sol.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "ciencia-101",
+    "categoryId": "ciencia",
+    "title": "A Meteorologia dos Tufões",
+    "hook": "Impressionante: ",
+    "content": "Tufões são ciclones tropicais que se formam sobre os oceanos, caracterizados por ventos fortes e chuvas intensas.  Eles são alimentados pela energia térmica liberada pela evaporação da água do mar, e seu caminho é influenciado por fatores atmosféricos e oceânicos.",
+    "funFact": "Um tufão pode gerar ondas de até 30 metros de altura.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-102",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Migração das Aves",
+    "hook": "Incrível: ",
+    "content": "A migração das aves é um fenômeno biológico fascinante, onde as aves percorrem distâncias consideráveis para encontrar alimento, locais de reprodução ou climas mais favoráveis.  Elas utilizam vários mecanismos para se orientar durante a migração, como o campo magnético terrestre.",
+    "funFact": "Algumas aves migram por milhares de quilômetros.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-103",
+    "categoryId": "ciencia",
+    "title": "A Química da Fotossíntese",
+    "hook": "Você sabia que...",
+    "content": "A fotossíntese é um processo bioquímico essencial para a vida na Terra, no qual as plantas convertem a energia solar em energia química.  Esse processo utiliza a clorofila para capturar a luz e transformar dióxido de carbono e água em glicose e oxigênio.",
+    "funFact": "A fotossíntese é responsável pela maior parte do oxigênio na atmosfera terrestre.",
+    "curiosityLevel": 1
+  },
+  {
+    "id": "ciencia-104",
+    "categoryId": "ciencia",
+    "title": "A Física dos Eclipses Solares",
+    "hook": "Surpreendente: ",
+    "content": "Os eclipses solares ocorrem quando a Lua se posiciona entre o Sol e a Terra, bloqueando a luz solar.  Esse fenômeno é um espetáculo celestial que pode ser observado em determinadas regiões da Terra.  A duração e o tipo de eclipse variam dependendo da posição da Lua em sua órbita.",
+    "funFact": "Um eclipse solar total é um evento raro e impressionante.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-105",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Regeneração em Planárias",
+    "hook": "Impressionante: ",
+    "content": "As planárias são vermes capazes de regenerar partes do seu corpo que foram perdidas ou danificadas.  Elas possuem uma notável capacidade de reconstituir tecidos e órgãos, o que as torna um modelo interessante para o estudo da regeneração em animais.",
+    "funFact": "Uma planária pode se regenerar a partir de um pequeno fragmento do seu corpo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-106",
+    "categoryId": "ciencia",
+    "title": "A Química da Combustão",
+    "hook": "Surpreendente: ",
+    "content": "A combustão é uma reação química exotérmica que envolve a rápida oxidação de um material, liberando calor e luz.  É um processo fundamental em diversas aplicações, desde a produção de energia até a culinária. Entender a combustão é crucial para o desenvolvimento de tecnologias sustentáveis.",
+    "funFact": "A combustão completa produz apenas dióxido de carbono e água.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-107",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Dormência em Plantas",
+    "hook": "Impressionante: ",
+    "content": "Muitas plantas apresentam um período de dormência, onde seu crescimento e metabolismo são reduzidos.  Esse mecanismo permite que as plantas sobrevivam a condições ambientais adversas, como o inverno ou a seca. A dormência é regulada por fatores internos e externos.",
+    "funFact": "Algumas sementes podem permanecer em dormência por décadas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-108",
+    "categoryId": "ciencia",
+    "title": "A Geologia da Formação de Cavernas",
+    "hook": "Você sabia que...",
+    "content": "Cavernas são formadas pela dissolução de rochas solúveis, principalmente calcário, pela água subterrânea.  A água carregada de dióxido de carbono reage quimicamente com o calcário, formando bicarbonato de cálcio e dissolvendo lentamente a rocha.  Esse processo pode levar milhares de anos.",
+    "funFact": "Algumas cavernas podem abrigar formações rochosas impressionantes, como estalactites e estalagmites.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-109",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Reprodução Assexuada",
+    "hook": "Surpreendente: ",
+    "content": "A reprodução assexuada é um tipo de reprodução onde um único organismo dá origem a novos indivíduos geneticamente idênticos a ele.  Esse tipo de reprodução é comum em muitos organismos simples, como bactérias e algumas plantas.  Não há variabilidade genética nesse processo.",
+    "funFact": "A reprodução assexuada é uma estratégia rápida e eficiente de reprodução.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-110",
+    "categoryId": "ciencia",
+    "title": "O Segredo dos Cristais de Gelo Marinhos",
+    "hook": "Incrível: cristais de gelo...",
+    "content": "Os cristais de gelo formados no oceano possuem estruturas únicas, influenciadas pela salinidade e temperatura da água.  Esses padrões intrincados revelam segredos sobre a dinâmica oceânica e o clima, fornecendo informações valiosas para estudos climáticos e oceanográficos.  Sua beleza microscópica esconde complexas interações físicas.",
+    "funFact": "Alguns cristais de gelo marinhos podem apresentar estruturas frágeis e delicadas, como esculturas de gelo.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-111",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Consolidação da Memória",
+    "hook": "Incrível: memória...",
+    "content": "A consolidação da memória, o processo de transformar memórias de curto prazo em memórias de longo prazo, envolve complexas interações entre diferentes regiões do cérebro.  A plasticidade sináptica, a capacidade das conexões neurais de se modificarem, desempenha um papel crucial.",
+    "funFact": "O sono desempenha um papel importante na consolidação da memória.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-112",
+    "categoryId": "ciencia",
+    "title": "O Enigma dos Cristais de Sal",
+    "hook": "Incrível: cristais de sal...",
+    "content": "A formação de cristais de sal é um processo fascinante que revela a beleza da geometria molecular.  Dependendo das condições de evaporação, a estrutura cristalina pode variar, exibindo formas complexas e surpreendentes.  A ciência por trás disso envolve a interação entre íons de sódio e cloro, formando ligações iônicas que resultam em diferentes padrões de cristalização.",
+    "funFact": "Alguns cristais de sal podem conter inclusões de outros minerais, criando padrões de cores vibrantes.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-113",
+    "categoryId": "ciencia",
+    "title": "A Música das Células do Corpo Humano",
+    "hook": "Você sabia que...",
+    "content": "As células do nosso corpo emitem vibrações que, se amplificadas, soariam como uma sinfonia complexa.  Estudos demonstram que essas vibrações são vitais para a comunicação celular e o funcionamento saudável dos órgãos.  A ciência busca decifrar a 'música' do nosso corpo.",
+    "funFact": "Cada órgão 'toca' uma melodia diferente!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-114",
+    "categoryId": "ciencia",
+    "title": "A Física dos Raios Negativos",
+    "hook": "Incrível: raios...",
+    "content": "Ao contrário dos raios comuns, os raios negativos são menos energéticos e menos frequentes.  Eles se formam a partir de descargas elétricas que se originam no chão e sobem para as nuvens, um processo menos compreendido pela ciência.  São raios ascendentes!",
+    "funFact": "Os raios negativos são muito mais difíceis de detectar que os positivos!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-115",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Biofluorescência em Corais",
+    "hook": "Incrível: Corais brilhantes!",
+    "content": "Alguns corais exibem biofluorescência, emitindo luz em comprimentos de onda diferentes da luz que os ilumina.  Esse fenômeno intrigante ainda é pouco compreendido, mas acredita-se que esteja relacionado à comunicação, proteção contra predadores ou até mesmo à fotossíntese.  Pesquisas recentes sugerem que a biofluorescência varia com a saúde do coral.",
+    "funFact": "A cor da biofluorescência pode variar de acordo com a espécie de coral e as condições ambientais.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-116",
+    "categoryId": "ciencia",
+    "title": "A Ciência das Nuvens Iridescente",
+    "hook": "Você sabia que...",
+    "content": "Nuvens iridescentes, com cores vibrantes como um arco-íris, são formadas pela difração da luz solar em gotículas de água de tamanho uniforme.  Esse raro fenômeno óptico ocorre em nuvens finas e altas, criando um espetáculo visual deslumbrante.  A cor e a intensidade dependem do tamanho das gotículas e do ângulo da luz solar.",
+    "funFact": "As nuvens iridescentes podem exibir uma ampla gama de cores, incluindo rosa, verde, azul e roxo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-117",
+    "categoryId": "ciencia",
+    "title": "A Física dos Relâmpagos em Marte",
+    "hook": "Surpreendente!",
+    "content": "Apesar da atmosfera rarefeita de Marte, recentes observações indicam a possível ocorrência de relâmpagos.  Ao contrário dos relâmpagos terrestres, os marcianos seriam provavelmente menos energéticos e mais difíceis de detectar.  A investigação desse fenômeno pode revelar detalhes sobre a atmosfera e a geologia do planeta vermelho.",
+    "funFact": "Os relâmpagos marcianos, se existirem, poderiam ser formados por processos diferentes dos terrestres.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-118",
+    "categoryId": "ciencia",
+    "title": "A Biologia da Comunicação de Plantas",
+    "hook": "Você sabia que...",
+    "content": "Plantas se comunicam através de sinais químicos, elétricos e vibracionais.  Elas podem liberar compostos voláteis para alertar outras plantas sobre ameaças, como pragas ou patógenos.  Estudos sugerem que as plantas também utilizam sinais elétricos para processar informações e coordenar suas respostas ao ambiente.",
+    "funFact": "Algumas plantas podem 'ouvir' o som de insetos mastigando suas folhas e liberar substâncias químicas defensivas.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-119",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Matéria Escura no Universo",
+    "hook": "Desconcertante:",
+    "content": "A matéria escura compõe a maior parte da massa do universo, mas permanece invisível aos nossos telescópios.  Sua existência é inferida através de seus efeitos gravitacionais na matéria visível.  Apesar de décadas de pesquisa, sua natureza e composição permanecem um dos maiores mistérios da ciência.",
+    "funFact": "A matéria escura interage muito pouco com a matéria normal, o que a torna extremamente difícil de detectar.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-120",
+    "categoryId": "ciencia",
+    "title": "A Neurociência da Memória Olfativa",
+    "hook": "Surpreendente:",
+    "content": "A memória olfativa, associada a cheiros, é frequentemente mais vívida e duradoura do que outros tipos de memória.  Isso ocorre porque o bulbo olfativo, responsável pelo processamento de odores, está diretamente conectado ao sistema límbico, região do cérebro envolvida com emoções e memórias.",
+    "funFact": "Odores podem evocar memórias muito antigas e detalhadas, muitas vezes esquecidas por outros meios.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-121",
+    "categoryId": "ciencia",
+    "title": "A Física dos Cristais de Tempo",
+    "hook": "Incrível:",
+    "content": "Cristais de tempo são uma nova fase da matéria que quebra a simetria temporal, exibindo padrões periódicos no tempo, mesmo em seu estado fundamental.  Sua existência desafia as leis tradicionais da física e abre novas possibilidades para a computação quântica e outras tecnologias.",
+    "funFact": "Cristais de tempo podem ser considerados uma forma de matéria fora do equilíbrio termodinâmico.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-122",
+    "categoryId": "ciencia",
+    "title": "A Matemática da Previsão do Clima Espacial",
+    "hook": "Impressionante:",
+    "content": "A previsão do clima espacial, que envolve tempestades solares e ejeções de massa coronal, é crucial para proteger satélites e infraestruturas terrestres.  Modelos matemáticos complexos são usados para simular a propagação de partículas energéticas pelo espaço e prever seus impactos na Terra.",
+    "funFact": "Tempestades solares podem causar interrupções em sistemas de comunicação e energia.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-123",
+    "categoryId": "ciencia",
+    "title": "A Astronomia dos Planetas Anões",
+    "hook": "Você sabia que...",
+    "content": "Planetas anões, como Plutão e Ceres, são corpos celestes que orbitam o Sol, mas não limparam sua vizinhança orbital de outros objetos.  Sua descoberta desafiou a definição tradicional de planeta e expandiu nosso conhecimento sobre a formação e evolução do Sistema Solar.",
+    "funFact": "Existem milhares de planetas anões no nosso sistema solar, a maioria ainda não descobertos.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-124",
+    "categoryId": "ciencia",
+    "title": "A Biologia dos Fungos Bioluminescentes",
+    "hook": "Incrível:",
+    "content": "Certos tipos de fungos produzem luz através de um processo chamado bioluminescência.  Essa luz, geralmente de um brilho suave e verde, serve para atrair insetos que contribuem para a dispersão dos esporos dos fungos. A bioluminescência fúngica é um espetáculo fascinante da natureza.",
+    "funFact": "A bioluminescência dos fungos é causada por reações químicas envolvendo luciferinas e luciferases.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "ciencia-125",
+    "categoryId": "ciencia",
+    "title": "A Química da Síntese de Materiais",
+    "hook": "Impressionante:",
+    "content": "A síntese de materiais envolve a criação de novos materiais com propriedades específicas, ajustando a composição química e a estrutura.  Pesquisas avançadas em nanoquímica e materiais permitem a criação de materiais com propriedades surpreendentes, como supercondutividade, resistência extrema, ou propriedades ópticas únicas.",
+    "funFact": "A síntese de materiais tem aplicações em diversas áreas, incluindo medicina, eletrônica e energia.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "ciencia-126",
+    "categoryId": "ciencia",
+    "title": "A Geologia dos Cristais Gigantes",
+    "hook": "Surpreendente:",
+    "content": "Em algumas cavernas e minas, são encontrados cristais gigantes, formados ao longo de milhares ou milhões de anos sob condições geológicas específicas.  Esses cristais, como os encontrados na Mina de Naica, no México, revelam processos geológicos complexos e ainda são alvo de pesquisas científicas.",
+    "funFact": "Alguns cristais gigantes na Mina de Naica medem mais de 11 metros de comprimento.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "ciencia-127",
+    "categoryId": "ciencia",
+    "title": "O Mistério da Energia Negra",
+    "hook": "Desconcertante:",
+    "content": "A energia escura é uma forma de energia misteriosa que constitui a maior parte do universo e está associada à expansão acelerada do espaço.  Sua natureza é desconhecida, e sua compreensão é crucial para entendermos a evolução e o destino do cosmos.",
+    "funFact": "A energia escura exerce uma pressão negativa, impulsionando a expansão do universo.",
+    "curiosityLevel": 5
+  },
+  {
+    "id": "ciencia-128",
+    "categoryId": "ciencia",
+    "title": "A Biologia Sintética de Organismos",
+    "hook": "Impressionante:",
+    "content": "A biologia sintética busca projetar e construir novas formas de vida ou modificar organismos existentes para gerar funções específicas, como a produção de biocombustíveis, medicamentos ou a biorremediação de poluentes.  Essa área emergente da ciência apresenta grandes potenciais e desafios éticos.",
+    "funFact": "A biologia sintética já permitiu a criação de organismos capazes de produzir novas moléculas e materiais.",
+    "curiosityLevel": 4
   }
 ]

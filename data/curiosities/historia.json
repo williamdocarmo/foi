@@ -763,5 +763,113 @@
     "content": "Apesar da imagem de guerreiros que se alimentavam apenas de carne, os Vikings tinham uma dieta mais diversificada, incluindo vegetais cultivados e frutas silvestres.  Sua alimentação era adaptada às condições climáticas e recursos disponíveis, revelando uma sociedade mais complexa do que se imagina.",
     "funFact": "Eles até cultivavam ervilhas e nabos!",
     "curiosityLevel": 3
+  },
+  {
+    "id": "historia-86",
+    "categoryId": "historia",
+    "title": "O Segredo das Máscaras de Ouro Micênicas",
+    "hook": "Incrível: Máscaras de ouro...",
+    "content": "Descobertas em túmulos reais micênicos, essas máscaras de ouro, além de sua beleza, escondem detalhes sobre os rituais funerários e a hierarquia social da época.  A riqueza dos detalhes e a técnica de ourivesaria surpreendem até hoje os especialistas.  Elas revelam uma sociedade mais complexa do que se imaginava.",
+    "funFact": "Algumas máscaras apresentam traços realistas, outras, idealizados, sugerindo uma possível representação de divindades.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-87",
+    "categoryId": "historia",
+    "title": "A Cidade Perdida de Petra e seus Túneis Secretos",
+    "hook": "Você sabia que...",
+    "content": "Além dos impressionantes monumentos esculpidos na rocha, Petra abriga uma intrincada rede de túneis e canais subterrâneos,  cujo propósito ainda é debatido pelos historiadores.  Esses labirintos secretos podem ter servido para diferentes fins, desde sistemas de irrigação até passagens secretas.",
+    "funFact": "Acredita-se que alguns desses túneis conectam diferentes partes da cidade, formando um sistema subterrâneo complexo.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-88",
+    "categoryId": "historia",
+    "title": "A Dieta Inesperada dos Guerreiros Espartanos",
+    "hook": "Surpreendente: Espartanos...",
+    "content": "Ao contrário da crença popular de uma dieta apenas baseada em carne, a alimentação dos guerreiros espartanos era mais diversificada, incluindo grãos, legumes e queijo,  embora a carne, especialmente de porco, fosse um componente importante.  A dieta era calculada para fornecer energia e força física.",
+    "funFact": "O 'black broth', uma sopa de sangue de porco, era uma iguaria espartana que muitas vezes repelia estrangeiros.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "historia-89",
+    "categoryId": "historia",
+    "title": "O Segredo dos Alfabetos Perdidos",
+    "hook": "Incrível: ",
+    "content": "Existem alfabetos antigos, completamente desconhecidos, que desafiam os estudiosos.  Fragmentos de escrita descobertos em sítios arqueológicos sugerem sistemas complexos, ainda não decifrados, que poderiam revelar segredos sobre civilizações perdidas.  Sua estrutura e significado permanecem um mistério, abrindo um novo capítulo na história da escrita.",
+    "funFact": "Um desses alfabetos pode ser composto por símbolos baseados em constelações estelares.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-90",
+    "categoryId": "historia",
+    "title": "A Guerra dos Fungos na Idade Média",
+    "hook": "Você sabia que...",
+    "content": "Doenças fúngicas devastaram plantações na Idade Média, causando fome e revoltas.  A falta de conhecimento sobre a origem dessas doenças levou a interpretações sobrenaturais, exacerbando conflitos sociais e religiosos já existentes. A busca por soluções levou a práticas curiosas e ineficazes.",
+    "funFact": "Algumas comunidades acreditavam que sacrifícios humanos poderiam aplacar a fúria dos fungos.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-91",
+    "categoryId": "historia",
+    "title": "A Dieta Secreta dos Samurais",
+    "hook": "Você sabia que...",
+    "content": "A dieta dos samurais ia além da força física, envolvendo alimentos específicos para aguçar os sentidos e a mente.  Certos vegetais e chás tinham um papel crucial na preparação para o combate e na meditação, influenciando o seu estilo de vida.",
+    "funFact": "O consumo de algas marinhas era fundamental para a dieta samurai.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-92",
+    "categoryId": "historia",
+    "title": "O Mistério dos Mapas Estelares Viking",
+    "hook": "Incrível: mapas estelares secretos!",
+    "content": "Descobertas recentes revelaram mapas estelares complexos gravados em pedras rúnicas vikings.  Esses mapas parecem indicar um conhecimento astronômico avançado, superando o que se acreditava sobre a navegação viking.  Eles apontam para locais ainda não identificados, alimentando teorias sobre viagens transatlânticas secretas. ",
+    "funFact": "Um mapa mostra uma constelação desconhecida na astronomia moderna!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-93",
+    "categoryId": "historia",
+    "title": "A Incrível História da Música Celta",
+    "hook": "Você sabia que...",
+    "content": "A música celta, frequentemente associada a instrumentos como harpas e gaitas de fole, possui uma história rica e complexa, influenciada por diversas culturas ao longo dos séculos.  De rituais pagãos a canções de amor e guerra, a música celta sobreviveu a invasões e perseguições, adaptando-se e evoluindo até os dias atuais, mantendo sua magia e misticismo.",
+    "funFact": "Algumas melodias celtas ancestrais foram encontradas gravadas em pedras rúnicas, datando de mais de 1000 anos atrás!",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "historia-94",
+    "categoryId": "historia",
+    "title": "O Segredo das Casas Subterrâneas Etruscas",
+    "hook": "Incrível:",
+    "content": "Os etruscos, uma civilização antiga da Itália, eram mestres na construção subterrânea. Eles criaram complexas redes de túneis e câmaras subterrâneas, não apenas como tumbas, mas também como habitações e espaços de culto.  O propósito completo dessas estruturas permanece um mistério arqueológico fascinante.",
+    "funFact": "Algumas casas subterrâneas etruscas continham elaborados sistemas de ventilação e drenagem de água.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-95",
+    "categoryId": "historia",
+    "title": "A Intrigante Vida dos Escravos Gregos",
+    "hook": "Você sabia que...",
+    "content": "Embora a escravidão na Grécia Antiga seja frequentemente retratada de forma simplificada, a realidade era muito mais complexa.  Alguns escravos eram extremamente bem tratados e até mesmo tinham certo nível de liberdade, enquanto outros sofriam condições terríveis.  Suas experiências eram variadas e dependiam de diversos fatores sociais e econômicos.",
+    "funFact": "Alguns escravos gregos conseguiram comprar sua liberdade e até se tornar cidadãos!",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "historia-96",
+    "categoryId": "historia",
+    "title": "O Impacto dos Jogos de Tabuleiro na Idade Média",
+    "hook": "Incrível:",
+    "content": "Os jogos de tabuleiro eram muito mais do que simples passatempos na Idade Média. Eles serviam como ferramentas educacionais, simulações de guerra, e até mesmo meios de fortalecer laços sociais e políticos entre diferentes grupos.  Sua popularidade era vasta e ultrapassava as classes sociais.",
+    "funFact": "Xadrez, damas e outros jogos de tabuleiro medievais tinham regras complexas e variações regionais significativas.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "historia-97",
+    "categoryId": "historia",
+    "title": "A Dieta Inusitada dos Samurais",
+    "hook": "Você sabia que...",
+    "content": "A dieta dos samurais ia além da simples carne e arroz.  Alimentos como algas marinhas, cogumelos, e vegetais eram fundamentais, fornecendo nutrientes específicos para o treinamento intenso e estilo de vida desses guerreiros.  A culinária Samurai refletia a busca pela excelência física e espiritual.",
+    "funFact": "Certos alimentos eram considerados símbolos de força e coragem para os samurais.",
+    "curiosityLevel": 3
   }
 ]

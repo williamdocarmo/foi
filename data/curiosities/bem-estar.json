@@ -2955,5 +2955,68 @@
     "content": "A simplicidade pode ser um poderoso antídoto contra o estresse.  Eliminar o excesso de informações, objetos e compromissos permite que a mente se concentre no que realmente importa, trazendo calma e clareza. Simplifique sua vida e veja os resultados positivos.",
     "funFact": "Um ambiente minimalista está associado a níveis mais baixos de cortisol (hormônio do estresse).",
     "curiosityLevel": 2
+  },
+  {
+    "id": "bem-estar-434",
+    "categoryId": "bem-estar",
+    "title": "O Segredo da Melancia",
+    "hook": "Incrível:",
+    "content": "A melancia, além de deliciosa e refrescante, é uma aliada poderosa do bem-estar.  Sua alta concentração de água contribui para a hidratação, enquanto os antioxidantes combatem os radicais livres.  A citrulina, um aminoácido presente na fruta, auxilia na vasodilatação, melhorando a circulação sanguínea.",
+    "funFact": "A casca da melancia também é rica em nutrientes e pode ser usada em receitas!",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "bem-estar-435",
+    "categoryId": "bem-estar",
+    "title": "A Ciência da Curiosidade",
+    "hook": "Incrível: a curiosidade cura!",
+    "content": "A curiosidade instiga a mente, a explorar e aprender, combatendo a monotonia e estimulando a produção de dopamina, neurotransmissor associado à felicidade e motivação.  Manter a curiosidade ativa é um exercício mental que promove o bem-estar e a longevidade. Explore novos hobbies, aprenda uma nova língua ou mergulhe em um novo assunto!",
+    "funFact": "Estudos indicam que pessoas curiosas tendem a viver mais e com melhor qualidade de vida.",
+    "curiosityLevel": 4
+  },
+  {
+    "id": "bem-estar-436",
+    "categoryId": "bem-estar",
+    "title": "O Poder da Micropáusa",
+    "hook": "Você sabia que...",
+    "content": "Pausas curtas e estratégicas ao longo do dia podem fazer maravilhas para o seu bem-estar.  Cinco minutos de respiração profunda, alongamento ou uma simples caminhada podem reduzir o estresse, aumentar a concentração e melhorar o humor.  Incorpore micropousas na sua rotina para aumentar sua produtividade e bem-estar.",
+    "funFact": "Apenas 5 minutos de pausa consciente podem aumentar seus níveis de energia em até 30%.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "bem-estar-437",
+    "categoryId": "bem-estar",
+    "title": "A Magia do Brincar na Vida Adulta",
+    "hook": "Surpreendente:",
+    "content": "Brincar não é apenas para crianças!  Atividades lúdicas estimulam a criatividade, reduzem o estresse e melhoram a capacidade de resolução de problemas.  Reserve um tempo para atividades divertidas, como jogos de tabuleiro, quebra-cabeças ou atividades artísticas. Deixe a criança interior brilhar!",
+    "funFact": "O ato de brincar libera endorfinas, responsáveis pela sensação de prazer e bem-estar.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "bem-estar-438",
+    "categoryId": "bem-estar",
+    "title": "Desapego Emocional: Leveza na Alma",
+    "hook": "Você sabia que...",
+    "content": "Se libertar de emoções negativas, como raiva, ressentimento e culpa, é essencial para o bem-estar.  Perdoar, esquecer e seguir em frente são passos importantes para uma vida mais leve e plena. Técnicas de meditação e terapia podem auxiliar neste processo.",
+    "funFact": "O desapego emocional melhora significativamente a qualidade do sono e reduz a ansiedade.",
+    "curiosityLevel": 3
+  },
+  {
+    "id": "bem-estar-439",
+    "categoryId": "bem-estar",
+    "title": "Passeios na Natureza: Cura em Verde",
+    "hook": "Você sabia que...",
+    "content": "O contato com a natureza, mesmo que por curtos períodos, reduz os níveis de cortisol (hormônio do estresse) e aumenta a sensação de calma e bem-estar.  Planeje um passeio no parque, uma caminhada na floresta ou simplesmente aprecie a vista da janela.",
+    "funFact": "O ar puro da natureza contém íons negativos que melhoram o humor e a energia.",
+    "curiosityLevel": 2
+  },
+  {
+    "id": "bem-estar-440",
+    "categoryId": "bem-estar",
+    "title": "O Segredo das Cores",
+    "hook": "Descubra: as cores...",
+    "content": "As cores podem influenciar diretamente seu humor e bem-estar.  Tons azuis e verdes tendem a acalmar, enquanto cores vibrantes como amarelo e laranja podem estimular a energia e a criatividade.  Pense na decoração do seu espaço e como ela te afeta.",
+    "funFact": "A cromoterapia utiliza as cores para tratar desequilíbrios emocionais e físicos.",
+    "curiosityLevel": 3
   }
 ]
