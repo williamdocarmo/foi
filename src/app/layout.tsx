@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import AppHeader from '@/components/layout/AppHeader';
 import { TooltipProvider } from '@/components/ui/tooltip';
+import { Analytics } from '@vercel/analytics/react';
 
 const APP_NAME = "Você sabia?";
 const APP_DESCRIPTION = "Um jogo educativo de curiosidades e quiz que funciona offline.";
@@ -54,6 +55,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Toaster />
         </TooltipProvider>
+        <Analytics />
       </body>
     </html>
   );
