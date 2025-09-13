@@ -246,9 +246,9 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
             );
           })}
         </div>
-         {isAnswered && ! (selectedAnswer === currentQuestion.correctAnswer) && (
+         {isAnswered && (
              <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground animate-fade-in">
-                <p><span className="font-bold">Explicação:</span> {currentQuestion.explanation}</p>
+                <p><span className="font-bold">{selectedAnswer === currentQuestion.correctAnswer ? 'Fato Extra:' : 'Explicação:'}</span> {currentQuestion.explanation}</p>
             </div>
          )}
       </CardContent>
