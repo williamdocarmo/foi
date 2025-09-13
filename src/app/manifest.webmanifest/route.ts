@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
  
-export default function manifest(): MetadataRoute.Manifest {
+export function GET(): MetadataRoute.Manifest {
   return {
     name: 'Você Sabia?',
     short_name: 'Você Sabia?',
