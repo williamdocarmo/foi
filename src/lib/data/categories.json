@@ -19,5 +19,6 @@
   { "id": "hacks", "name": "Hacks do Dia a Dia", "icon": "Lightbulb", "emoji": "💡", "description": "Truques úteis para facilitar a vida.", "color": "#FFCA28" },
   { "id": "natureza-e-animais", "name": "Natureza e Animais", "icon": "PawPrint", "emoji": "🐾", "description": "O reino animal e fenômenos naturais.", "color": "#4CAF50" },
   { "id": "universo-e-astronomia", "name": "Universo e Astronomia", "icon": "Orbit", "emoji": "🌌", "description": "Segredos do cosmos e das galáxias.", "color": "#3F51B5" },
-  { "id": "musica", "name": "Música", "icon": "Music", "emoji": "🎵", "description": "História de bandas, artistas e gêneros.", "color": "#E91E63" }
+  { "id": "musica", "name": "Música", "icon": "Music", "emoji": "🎵", "description": "História de bandas, artistas e gêneros.", "color": "#E91E63" },
+  { "id": "religiao", "name": "Religião", "icon": "Church", "emoji": "⛪", "description": "Crenças, mitos e rituais.", "color": "#2196F3" }
 ]
