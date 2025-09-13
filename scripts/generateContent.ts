@@ -17,9 +17,9 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // --- CONFIGURAÇÕES ---
-const CURIOSITIES_TARGET_PER_CATEGORY = 5000;
-const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 2500;
-const BATCH_SIZE = 20; // Itens a serem gerados por chamada de API
+const CURIOSITIES_TARGET_PER_CATEGORY = 40;
+const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = 25;
+const BATCH_SIZE = 15; // Itens a serem gerados por chamada de API
 const RETRY_DELAY_MS = 5000;
 const MAX_RETRIES = 3;
 const API_CALL_DELAY_MS = 2000; // Pausa entre chamadas para não sobrecarregar a API
@@ -47,7 +47,9 @@ async function readJsonFile<T>(filePath: string): Promise<T[]> {
 }
 
 async function writeJsonFile(filePath: string, data: any[]): Promise<void> {
-  await fs.writeFile(filePath, JSON.stringify(data, null, 2));
+  const sortedData = data.sort((a, b) => a.id.localeCompare(b.id));
+  await fs.writeFile(filePath, JSON.stringify(sortedData, null, 2));
+  console.log(`   > ${data.length} itens salvos em ${path.basename(filePath)}`);
 }
 
 async function generateWithRetry(prompt: string, attempt = 1): Promise<any[]> {
@@ -100,14 +102,56 @@ async function generateQuizQuestions(categoryName: string, count: number, existi
   return generateWithRetry(prompt);
 }
 
+
+async function validateAndCleanData(
+    allCuriosities: Curiosity[], 
+    allQuizQuestions: QuizQuestion[],
+    validCategoryIds: Set<string>
+  ): Promise<{ curiosities: Curiosity[], quizzes: QuizQuestion[] }> {
+    
+    const initialCuriosityCount = allCuriosities.length;
+    const initialQuizCount = allQuizQuestions.length;
+
+    const cleanedCuriosities = allCuriosities.filter(c => validCategoryIds.has(c.categoryId));
+    const cleanedQuizzes = allQuizQuestions.filter(q => validCategoryIds.has(q.categoryId));
+
+    const curiositiesRemoved = initialCuriosityCount - cleanedCuriosities.length;
+    const quizzesRemoved = initialQuizCount - cleanedQuizzes.length;
+
+    if (curiositiesRemoved > 0) {
+      console.log(`[LIMPEZA] Removidas ${curiositiesRemoved} curiosidades de categorias inexistentes.`);
+      await writeJsonFile(allCuriositiesPath, cleanedCuriosities);
+    }
+    if (quizzesRemoved > 0) {
+      console.log(`[LIMPEZA] Removidas ${quizzesRemoved} perguntas de quiz de categorias inexistentes.`);
+      await writeJsonFile(allQuizzesPath, cleanedQuizzes);
+    }
+
+    if (curiositiesRemoved === 0 && quizzesRemoved === 0) {
+      console.log("[VALIDAÇÃO] Todos os dados estão consistentes com as categorias atuais.");
+    }
+    
+    return { curiosities: cleanedCuriosities, quizzes: cleanedQuizzes };
+}
+
+
 // --- FUNÇÃO PRINCIPAL ---
 
 async function main() {
-  console.log("Iniciando a geração de conteúdo com IA...");
+  console.log("Iniciando a verificação e geração de conteúdo...");
 
-  const allCuriosities: Curiosity[] = await readJsonFile(allCuriositiesPath);
-  const allQuizQuestions: QuizQuestion[] = await readJsonFile(allQuizzesPath);
+  let allCuriosities: Curiosity[] = await readJsonFile(allCuriositiesPath);
+  let allQuizQuestions: QuizQuestion[] = await readJsonFile(allQuizzesPath);
+  
+  const validCategoryIds = new Set(categories.map(c => c.id));
+  
+  // --- Passo 1: Validar e Limpar Dados Órfãos ---
+  const cleanedData = await validateAndCleanData(allCuriosities, allQuizQuestions, validCategoryIds);
+  allCuriosities = cleanedData.curiosities;
+  allQuizQuestions = cleanedData.quizzes;
 
+
+  // --- Passo 2: Geração de Conteúdo para cada Categoria ---
   for (const category of categories) {
     console.log(`\n--- Processando categoria: ${category.name} ---`);
 
@@ -127,7 +171,7 @@ async function main() {
         const newCuriosities = await generateCuriosities(category.name, countToGenerate, existingCuriosityTitles);
         
         if (newCuriosities && Array.isArray(newCuriosities) && newCuriosities.length > 0) {
-          const uniqueNewCuriosities = newCuriosities.filter(c => !existingCuriosityTitles.includes(c.title));
+          const uniqueNewCuriosities = newCuriosities.filter(c => c.title && !existingCuriosityTitles.includes(c.title));
 
           let maxId = allCuriosities.length > 0 ? Math.max(...allCuriosities.map(c => parseInt(c.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
           const curiositiesToAdd = uniqueNewCuriosities.map((c: any) => {
@@ -138,8 +182,6 @@ async function main() {
           allCuriosities.push(...curiositiesToAdd);
           existingCuriosityTitles.push(...curiositiesToAdd.map(c => c.title));
           await writeJsonFile(allCuriositiesPath, allCuriosities);
-          console.log(`    > ${curiositiesToAdd.length} novas curiosidades salvas.`);
-
         } else {
           console.log(`  - Nenhuma curiosidade nova gerada neste lote.`);
         }
@@ -147,9 +189,9 @@ async function main() {
         batchNumber++;
         await sleep(API_CALL_DELAY_MS);
       }
+    } else {
+      console.log(`  - Meta de curiosidades já atingida.`);
     }
-    console.log(`Geração de curiosidades para ${category.name} concluída.`);
-
 
     // --- Geração de Perguntas de Quiz ---
     let existingQuestionStrings = allQuizQuestions
@@ -157,7 +199,7 @@ async function main() {
         .map(q => q.question);
     let neededQuizzes = QUIZ_QUESTIONS_TARGET_PER_CATEGORY - existingQuestionStrings.length;
 
-    console.log(`\nQuizzes: ${existingQuestionStrings.length}/${QUIZ_QUESTIONS_TARGET_PER_CATEGORY}`);
+    console.log(`Quizzes: ${existingQuestionStrings.length}/${QUIZ_QUESTIONS_TARGET_PER_CATEGORY}`);
     if (neededQuizzes > 0) {
         let batchNumber = 1;
         while(neededQuizzes > 0) {
@@ -167,7 +209,7 @@ async function main() {
             const newQuestions = await generateQuizQuestions(category.name, countToGenerate, existingQuestionStrings);
 
             if (newQuestions && Array.isArray(newQuestions) && newQuestions.length > 0) {
-                const uniqueNewQuestions = newQuestions.filter(q => !existingQuestionStrings.includes(q.question));
+                const uniqueNewQuestions = newQuestions.filter(q => q.question && !existingQuestionStrings.includes(q.question));
 
                 let maxId = allQuizQuestions.length > 0 ? Math.max(...allQuizQuestions.map(q => parseInt(q.id.split('-').pop() || '0')).filter(Number.isFinite)) : 0;
                 const questionsToAdd = uniqueNewQuestions.map((q: any) => {
@@ -178,7 +220,6 @@ async function main() {
                 allQuizQuestions.push(...questionsToAdd);
                 existingQuestionStrings.push(...questionsToAdd.map(q => q.question));
                 await writeJsonFile(allQuizzesPath, allQuizQuestions);
-                console.log(`    > ${questionsToAdd.length} novas perguntas de quiz salvas.`);
 
             } else {
                 console.log(`  - Nenhum quiz novo gerado neste lote.`);
@@ -187,8 +228,10 @@ async function main() {
             batchNumber++;
             await sleep(API_CALL_DELAY_MS);
         }
+    } else {
+      console.log(`  - Meta de quizzes já atingida.`);
     }
-    console.log(`Geração de quizzes para ${category.name} concluída.`);
+    console.log(`Processamento para ${category.name} concluído.`);
   }
 
   console.log("\n--- Resumo Final ---");
@@ -198,6 +241,3 @@ async function main() {
 }
 
 main().catch(console.error);
-
-
-    
