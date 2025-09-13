@@ -8,7 +8,6 @@ import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton
 import * as LucideIcons from 'lucide-react';
 import { HelpCircle, Rocket } from 'lucide-react';
 import { useMemo } from 'react';
-import { Curiosity, QuizQuestion, Category } from '@/lib/types';
 
 // --------------------------
 // Pre-mapeamento de ícones
@@ -17,10 +16,11 @@ const iconsMap: Record<string, React.ElementType> = {
   ...LucideIcons,
   rocket: Rocket,
   help: HelpCircle,
+  // Adicione outros ícones que existirem nas categorias
 };
 
 interface CategoryCardProps {
-  category: Category;
+  category: typeof categories[0];
   curiositiesCount: number;
   quizzesCount: number;
 }
@@ -28,7 +28,6 @@ interface CategoryCardProps {
 function CategoryCard({ category, curiositiesCount, quizzesCount }: CategoryCardProps) {
   if (!category) return null;
 
-  // Usa o mapa para buscar o ícone de forma otimizada
   const Icon = iconsMap[category.icon] || Rocket; // fallback
 
   return (
@@ -46,15 +45,14 @@ function CategoryCard({ category, curiositiesCount, quizzesCount }: CategoryCard
         <p className="text-sm text-muted-foreground">{category.description}</p>
       </CardContent>
       <div className="mt-auto grid grid-cols-2 gap-2 p-4">
-        {/* Botão desabilitado se não houver conteúdo */}
         <Button variant="outline" asChild disabled={curiositiesCount === 0}>
-          <Link href={curiositiesCount > 0 ? `/curiosity/${category.id}` : '#'}>
+          <Link href={`/curiosity/${category.id}`}>
             <Rocket className="mr-2 h-4 w-4" />
             Explorar
           </Link>
         </Button>
         <Button asChild disabled={quizzesCount === 0}>
-          <Link href={quizzesCount > 0 ? `/quiz/${category.id}` : '#'}>
+          <Link href={`/quiz/${category.id}`}>
             <HelpCircle className="mr-2 h-4 w-4" />
             Quiz
           </Link>
@@ -100,7 +98,7 @@ export default function Home() {
             alt={heroImage.description}
             fill
             className="object-cover"
-            priority // Mantém o preload para a imagem principal
+            priority
             data-ai-hint={heroImage.imageHint}
           />
         )}
