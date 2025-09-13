@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { categories, getCategoryById } from '@/lib/data';
+import { categories, getCategoryById, getAllCuriosities } from '@/lib/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -47,6 +47,7 @@ function CategoryCard({ category }: { category: ReturnType<typeof getCategoryByI
 
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-background');
+  const allCuriosities = getAllCuriosities();
 
   return (
     <div className="flex flex-col">
@@ -70,7 +71,7 @@ export default function Home() {
             Descubra curiosidades fascinantes, teste seu conhecimento com quizzes e aprenda algo novo todo dia.
           </p>
           <div className="mt-8">
-            <RandomCuriosityButton />
+            <RandomCuriosityButton allCuriosities={allCuriosities} />
           </div>
         </div>
       </section>

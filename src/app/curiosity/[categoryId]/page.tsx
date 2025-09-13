@@ -1,5 +1,5 @@
 
-import { getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
+import { getCategoryById, getCuriositiesByCategoryId, getAllCuriosities } from "@/lib/data";
 import { notFound } from "next/navigation";
 import CuriosityExplorer from "@/components/curiosity/CuriosityExplorer";
 import Link from "next/link";
@@ -17,6 +17,7 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
 
   const category = getCategoryById(categoryId);
   const curiosities = getCuriositiesByCategoryId(categoryId);
+  const allCuriosities = getAllCuriosities(); // Carrega todos os dados no servidor
 
   if (!category) {
     notFound();
@@ -35,6 +36,7 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
         <CuriosityExplorer 
             category={category} 
             curiosities={curiosities} 
+            allCuriosities={allCuriosities} // Passa todos os dados como prop
             initialCuriosityId={initialCuriosityId as string | undefined}
         />
     </div>

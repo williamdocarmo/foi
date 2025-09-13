@@ -75,6 +75,7 @@ export function getQuizQuestionsByCategoryId(categoryId: string): QuizQuestion[]
 
 /**
  * Retrieves all curiosidades from all categories.
+ * This function is intended for server-side use only.
  * @returns An array of all curiosities.
  */
 export function getAllCuriosities(): Curiosity[] {
@@ -83,6 +84,7 @@ export function getAllCuriosities(): Curiosity[] {
 
 /**
  * Retrieves all quiz questions from all categories.
+ * This function is intended for server-side use only.
  * @returns An array of all quiz questions.
  */
 export function getAllQuizQuestions(): QuizQuestion[] {

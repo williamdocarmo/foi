@@ -3,14 +3,14 @@
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
-import { getAllCuriosities } from "@/lib/data";
-import { Curiosity } from "@/lib/types";
+import type { Curiosity } from "@/lib/types";
 
-export function RandomCuriosityButton() {
+type RandomCuriosityButtonProps = {
+  allCuriosities: Curiosity[];
+};
+
+export function RandomCuriosityButton({ allCuriosities }: RandomCuriosityButtonProps) {
   const router = useRouter();
-  
-  // As the data loading is now synchronous, we can get it directly.
-  const allCuriosities: Curiosity[] = getAllCuriosities();
 
   const handleRandomClick = () => {
     if (allCuriosities.length === 0) return;

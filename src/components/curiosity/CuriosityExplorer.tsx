@@ -8,13 +8,13 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { getAllCuriosities } from "@/lib/data";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
 
 type CuriosityExplorerProps = {
   category: Category;
   curiosities: Curiosity[];
+  allCuriosities: Curiosity[]; // Nova prop para receber todos os dados
   initialCuriosityId?: string;
 };
 
@@ -23,6 +23,7 @@ type CuriosityExplorerProps = {
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
+    allCuriosities,
     initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
@@ -92,7 +93,6 @@ export default function CuriosityExplorer({
   }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
-    const allCuriosities = getAllCuriosities();
     if (allCuriosities.length <= 1) return;
   
     let randomCuriosity: Curiosity;
@@ -108,7 +108,7 @@ export default function CuriosityExplorer({
     // Navigate to the new curiosity's page, which will re-render the component tree correctly.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
-  }, [stats.readCuriosities, currentIndex, curiosities, router]);
+  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosities]);
   
   
   if (curiosities.length === 0) {
