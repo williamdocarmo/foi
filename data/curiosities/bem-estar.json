@@ -4611,5 +4611,86 @@
     "curiosityLevel": 3,
     "id": "bem-estar-617",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Cacto",
+    "hook": "Você sabia que...",
+    "content": "Ter um cacto no seu escritório pode ser benéfico para o seu bem-estar? Além da estética, estudos sugerem que a presença de plantas, mesmo cactos, diminui a ansiedade e aumenta a concentração.  Eles liberam oxigênio à noite, purificando o ar enquanto você dorme!",
+    "funFact": "Cactos, apesar de sua aparência espinhosa, são capazes de filtrar toxinas do ar, melhorando a qualidade do ambiente.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-618",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Música do Seu Coração",
+    "hook": "Surpreendente: o ritmo certo...",
+    "content": "Ouvir música com batidas que sincronizam com o seu ritmo cardíaco pode induzir um estado de relaxamento profundo.  Experimente selecionar músicas com BPMs (batidas por minuto) próximos à sua frequência cardíaca em repouso. Esta técnica pode aliviar a tensão e promover a calma interior.",
+    "funFact": "A sincronia entre a música e o batimento cardíaco ativa o sistema nervoso parassimpático, responsável pela sensação de calma.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-619",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Perdão Interior",
+    "hook": "Incrível:",
+    "content": "Perdoar a si mesmo e aos outros é um ato de libertação emocional que promove o bem-estar.  Segurar mágoas gera estresse e afeta a saúde física e mental. Perdoar, por sua vez, libera a energia negativa e abre espaço para a paz interior.",
+    "funFact": "O perdão ativa mecanismos de cura no corpo e na mente.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-620",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mágica das Cores na Decoração",
+    "hook": "Surpreendente:",
+    "content": "As cores das paredes e objetos influenciam profundamente o nosso humor e bem-estar. Tons azuis e verdes promovem calma, enquanto cores vibrantes como amarelo e laranja estimulam a energia e criatividade.  Escolha as cores que melhor se adequam ao seu estado emocional.",
+    "funFact": "O azul é comprovadamente a cor que mais acalma o sistema nervoso.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-621",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Cura Através do Riso",
+    "hook": "Descubra: o riso cura!",
+    "content": "O riso não é apenas divertido, mas um poderoso aliado à saúde física e mental.  Ele reduz os níveis de cortisol (hormônio do estresse), aumenta a imunidade e libera endorfinas, proporcionando uma sensação de bem-estar.  Incorpore o riso no seu dia a dia!",
+    "funFact": "Uma boa gargalhada pode queimar até 10 a 40 calorias.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-622",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Dança do Seu Corpo e Mente",
+    "hook": "Impressionante: dance sua vida!",
+    "content": "A dança não se limita à performance; ela é uma poderosa ferramenta de autoexpressão e bem-estar.  Mover o corpo de forma livre e criativa libera tensões, aumenta a flexibilidade e fortalece a autoestima.  Explore diferentes estilos e encontre o seu ritmo.",
+    "funFact": "A dança melhora a coordenação motora e a memória.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-623",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Os Benefícios do Silêncio",
+    "hook": "Incrível: o poder do silêncio!",
+    "content": "Em meio ao caos da vida moderna, o silêncio se torna um recurso precioso para o bem-estar.  Momentos de silêncio permitem que o cérebro descanse, processe informações e se reconecte consigo mesmo.  Integre momentos de silêncio em sua rotina para promover a calma e a clareza mental.",
+    "funFact": "O silêncio melhora a criatividade e a capacidade de concentração.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-624",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia das Micro-Pausas",
+    "hook": "Descubra: pausas curativas!",
+    "content": "Breves pausas ao longo do dia, mesmo que por apenas alguns minutos, podem fazer toda a diferença no bem-estar.  Levante-se, alongue-se, faça alguns exercícios de respiração, ou simplesmente observe o ambiente ao seu redor.  Essas micro-pausas ajudam a reduzir o estresse e a melhorar a concentração.",
+    "funFact": "Micro-pausas regulares aumentam a produtividade e a capacidade de foco.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-625",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Secreta da Natureza",
+    "hook": "Você sabia que...",
+    "content": "Passar tempo na natureza não é apenas relaxante, mas também pode impulsionar seu sistema imunológico. O ar fresco, a luz solar e a beleza natural têm um poder de cura subestimado, auxiliando na redução de inflamações e melhorando a saúde mental.",
+    "funFact": "Existem estudos que demonstram que caminhar em florestas reduz a pressão arterial e o cortisol (hormônio do estresse).",
+    "curiosityLevel": 3,
+    "id": "bem-estar-626",
+    "categoryId": "bem-estar"
   }
 ]
