@@ -2002,5 +2002,19 @@
     "explanation": "Exercícios regulares beneficiam a flexibilidade, a saúde cardiovascular e a força muscular. Curiosidade: O exercício também ajuda a regular o humor e a reduzir o estresse.",
     "id": "quiz-saude-143",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física melhora a densidade óssea?",
+    "options": [
+      "Natação",
+      "Ioga",
+      "Corrida",
+      "Levantamento de peso"
+    ],
+    "correctAnswer": "Levantamento de peso",
+    "explanation": "O levantamento de peso e exercícios de resistência são cruciais para estimular a formação óssea e melhorar a densidade mineral óssea.  Natação, ioga e corrida são exercícios importantes mas não são tão eficazes para a saúde óssea. Curiosidade: Exercícios de impacto, como corrida, também contribuem para a saúde óssea, mas os exercícios de resistência são particularmente importantes para aumentar a densidade óssea.",
+    "id": "quiz-saude-144",
+    "categoryId": "saude"
   }
 ]

@@ -4917,5 +4917,23 @@
     "curiosityLevel": 2,
     "id": "bem-estar-651",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Cura pelo Sono",
+    "hook": "Incrível: seu sono restaura!",
+    "content": "A fase REM do sono, quando sonhamos vividamente, é crucial para a consolidação da memória e o processamento emocional.  Dormir bem permite que seu cérebro limpe toxinas e fortaleça conexões neurais, impactando diretamente no seu bem-estar físico e mental.  Durma bem para ter um dia melhor!",
+    "funFact": "Seu cérebro é mais ativo durante o sono REM do que quando você está acordado e relaxado.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-652",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mágica dos Micro-Movimentos",
+    "hook": "Você sabia que...",
+    "content": "Pequenos ajustes posturais ao longo do dia, como alongar o pescoço ou girar os ombros, podem reduzir a tensão muscular e melhorar a circulação sanguínea.  Essas micro-pausas combatem o estresse e aumentam a energia sem exigir muito tempo ou esforço.",
+    "funFact": "Cinco minutos de alongamento podem aliviar significativamente a dor nas costas.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-653",
+    "categoryId": "bem-estar"
   }
 ]
