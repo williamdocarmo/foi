@@ -2,7 +2,7 @@
 /**
  * Gerador de conteúdo robusto (curiosidades + quizzes) — versão turbo
  *
- * Melhorias principais:
+ * Melhorias principais no app:
  * - Lockfile (data/.lock) + --force para evitar execuções concorrentes
  * - Checkpoints efetivos por categoria/kind (data/.checkpoints.json)
  * - Persistência de hashes globais (data/.global-hashes.json) para dedupe entre execuções
