@@ -11,9 +11,15 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "generate-content": "tsx scripts/generateContent.ts"
+    "generate-content": "tsx scripts/generateContent.ts",
+    "ionic:build": "npm run build && npx cap sync",
+    "ionic:sync": "npx cap sync"
   },
   "dependencies": {
+    "@capacitor/android": "^6.1.1",
+    "@capacitor/cli": "^6.1.1",
+    "@capacitor/core": "^6.1.1",
+    "@capacitor/ios": "^6.1.1",
     "@genkit-ai/googleai": "^1.14.1",
     "@genkit-ai/next": "^1.14.1",
     "@google/generative-ai": "^0.16.0",

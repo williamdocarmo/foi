@@ -1,0 +1,20 @@
+# dependências pesadas
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# artefatos e caches
+*.log
+*.tmp
+*.cache
+
+# diretórios grandes
+public/
+data/
+docs/
+
+# configs que não precisa
+package-lock.json
+yarn.lock

@@ -1,0 +1,1696 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é mais recomendada para iniciantes em busca de bem-estar?",
+    "options": [
+      "Maratona",
+      "Musculação pesada",
+      "Caminhada leve",
+      "Triatlo"
+    ],
+    "correctAnswer": "Caminhada leve",
+    "explanation": "A caminhada leve é de baixo impacto e acessível a quase todos, ideal para começar a se exercitar. Maratona, musculação pesada e triatlo exigem preparo físico prévio.  Curiosidade: Caminhar 30 minutos diariamente já traz benefícios significativos para a saúde.",
+    "id": "quiz-bem-estar-1",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual nutriente é crucial para a saúde mental e a função cognitiva?",
+    "options": [
+      "Sódio",
+      "Açúcar",
+      "Gordura saturada",
+      "Ômega-3"
+    ],
+    "correctAnswer": "Ômega-3",
+    "explanation": "Ômega-3 são ácidos graxos essenciais que desempenham um papel crucial na saúde do cérebro e na função cognitiva.  Sódio, açúcar e gordura saturada em excesso prejudicam a saúde. Curiosidade: Nozes e sementes são ótimas fontes de ômega-3.",
+    "id": "quiz-bem-estar-2",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual técnica de mindfulness é mais eficaz para regular a resposta ao estresse?",
+    "options": [
+      "Meditação transcendental",
+      "Yoga nidra",
+      "Mindfulness baseado na compaixão",
+      "Respiração diafragmática"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática é uma técnica simples e eficaz para regular a resposta ao estresse, ativando o sistema nervoso parassimpático. As outras técnicas também são benéficas, mas a respiração é mais acessível e imediata. Curiosidade: A respiração diafragmática pode reduzir a frequência cardíaca e a pressão arterial.",
+    "id": "quiz-bem-estar-3",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito é fundamental para uma boa higiene do sono?",
+    "options": [
+      "Dormir até tarde nos fins de semana",
+      "Usar telas antes de dormir",
+      "Manter um horário regular de sono",
+      "Consumir cafeína antes de dormir"
+    ],
+    "correctAnswer": "Manter um horário regular de sono",
+    "explanation": "Um horário regular de sono ajuda a regular o ritmo circadiano, melhorando a qualidade do sono.  Dormir até tarde nos fins de semana, usar telas e cafeína antes de dormir prejudicam o sono. Curiosidade: A melatonina, hormônio do sono, é produzida em maior quantidade à noite.",
+    "id": "quiz-bem-estar-4",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da privação crônica do sono no sistema imunológico?",
+    "options": [
+      "Fortalecimento do sistema imunológico",
+      "Nenhum impacto significativo",
+      "Suprime a resposta imunológica",
+      "Aumenta a produção de anticorpos"
+    ],
+    "correctAnswer": "Suprime a resposta imunológica",
+    "explanation": "A privação crônica do sono suprime a resposta imunológica, deixando o corpo mais suscetível a doenças.  As outras opções são incorretas. Curiosidade: A falta de sono está associada a um maior risco de infecções.",
+    "id": "quiz-bem-estar-5",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre resiliência e autocompaixão?",
+    "options": [
+      "Resiliência é a capacidade de superar desafios, autocompaixão é a capacidade de julgar a si mesmo.",
+      "Resiliência é a capacidade de se adaptar a mudanças, autocompaixão é a capacidade de se criticar.",
+      "Resiliência é a capacidade de lidar com adversidades, autocompaixão é a capacidade de ser gentil consigo mesmo.",
+      "Resiliência e autocompaixão são sinônimos."
+    ],
+    "correctAnswer": "Resiliência é a capacidade de lidar com adversidades, autocompaixão é a capacidade de ser gentil consigo mesmo.",
+    "explanation": "Resiliência foca na capacidade de lidar com dificuldades, enquanto autocompaixão envolve tratar a si mesmo com bondade e compreensão, mesmo em momentos desafiadores. Curiosidade: Cultivar a autocompaixão pode aumentar a resiliência.",
+    "id": "quiz-bem-estar-6",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância da hidratação para o bem-estar?",
+    "options": [
+      "Não impacta significativamente o bem-estar",
+      "Causa retenção de líquido",
+      "Aumenta a energia e a concentração",
+      "Prejudica a digestão"
+    ],
+    "correctAnswer": "Aumenta a energia e a concentração",
+    "explanation": "A hidratação adequada é essencial para diversas funções corporais, incluindo a regulação da temperatura, o transporte de nutrientes e a eliminação de toxinas, o que aumenta a energia e a concentração.  As demais opções são incorretas. Curiosidade: A desidratação pode levar a dores de cabeça e fadiga.",
+    "id": "quiz-bem-estar-7",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual tipo de exercício melhora a saúde cardiovascular e a densidade óssea?",
+    "options": [
+      "Flexões",
+      "Abdominais",
+      "Natação",
+      "Yoga"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "A natação é um exercício de baixo impacto que trabalha diversos grupos musculares, melhorando a saúde cardiovascular e a densidade óssea. Flexões, abdominais e yoga são importantes, mas não têm o mesmo impacto na densidade óssea. Curiosidade: A natação é uma excelente opção para pessoas com problemas articulares.",
+    "id": "quiz-bem-estar-8",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito está relacionado à prática de agradecer pelos aspectos positivos da vida?",
+    "options": [
+      "Mindfulness",
+      "Resiliência",
+      "Gratidão",
+      "Autoestima"
+    ],
+    "correctAnswer": "Gratidão",
+    "explanation": "A gratidão é a prática de reconhecer e apreciar os aspectos positivos da vida. Mindfulness, resiliência e autoestima são conceitos relacionados ao bem-estar, mas não se referem diretamente à prática de agradecer. Curiosidade: Estudos demonstram que a gratidão pode reduzir os níveis de estresse e melhorar o humor.",
+    "id": "quiz-bem-estar-9",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o benefício principal da exposição ao sol?",
+    "options": [
+      "Aumento do risco de câncer de pele",
+      "Diminuição da produção de vitamina D",
+      "Melhora no humor e na produção de vitamina D",
+      "Aumento da fadiga"
+    ],
+    "correctAnswer": "Melhora no humor e na produção de vitamina D",
+    "explanation": "A exposição moderada ao sol é fundamental para a produção de vitamina D, crucial para a saúde óssea e o humor.  Exposição excessiva aumenta o risco de câncer de pele. Curiosidade:  A vitamina D também auxilia no sistema imunológico.",
+    "id": "quiz-bem-estar-10",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância da conexão social para o bem-estar?",
+    "options": [
+      "Isolamento social não afeta o bem-estar",
+      "Aumenta os níveis de estresse e ansiedade",
+      "Fortalece o sistema imunológico e reduz o estresse",
+      "Diminui a produtividade"
+    ],
+    "correctAnswer": "Fortalece o sistema imunológico e reduz o estresse",
+    "explanation": "Conexão social saudável fortalece o sistema imunológico e reduz os níveis de estresse e ansiedade. Isolamento social tem o efeito oposto. Curiosidade: Sentir-se conectado a outras pessoas melhora a longevidade.",
+    "id": "quiz-bem-estar-11",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a terapia cognitivo-comportamental (TCC) auxilia no bem-estar?",
+    "options": [
+      "Enfatizando a aceitação incondicional",
+      "Reforçando crenças negativas",
+      "Identificando e modificando padrões de pensamento negativos",
+      "Ignorando emoções negativas"
+    ],
+    "correctAnswer": "Identificando e modificando padrões de pensamento negativos",
+    "explanation": "A TCC ajuda a identificar e modificar padrões de pensamento e comportamentos negativos que afetam o bem-estar. As outras opções não refletem os princípios da TCC. Curiosidade: A TCC é uma terapia eficaz para tratar depressão e ansiedade.",
+    "id": "quiz-bem-estar-12",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é crucial para uma boa comunicação interpessoal?",
+    "options": [
+      "Assertividade",
+      "Passividade",
+      "Agressividade",
+      "Indiferença"
+    ],
+    "correctAnswer": "Assertividade",
+    "explanation": "Assertividade é a capacidade de expressar suas opiniões e necessidades de forma clara e respeitosa. Passividade, agressividade e indiferença prejudicam a comunicação. Curiosidade: A comunicação assertiva fortalece os relacionamentos.",
+    "id": "quiz-bem-estar-13",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a relação entre a organização do ambiente e o bem-estar?",
+    "options": [
+      "A desorganização estimula a criatividade",
+      "A organização não impacta no bem-estar",
+      "Um ambiente organizado reduz o estresse e a ansiedade",
+      "A organização aumenta a procrastinação"
+    ],
+    "correctAnswer": "Um ambiente organizado reduz o estresse e a ansiedade",
+    "explanation": "Um ambiente organizado contribui para um sentimento de controle e reduz o estresse e a ansiedade. A desorganização tem o efeito contrário. Curiosidade: Um ambiente limpo e organizado pode melhorar a concentração.",
+    "id": "quiz-bem-estar-14",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual técnica de gerenciamento de tempo é mais eficaz para evitar o estresse relacionado ao trabalho?",
+    "options": [
+      "Procrastinação",
+      "Multitasking",
+      "Priorização de tarefas",
+      "Adiamento indefinido"
+    ],
+    "correctAnswer": "Priorização de tarefas",
+    "explanation": "Priorizar tarefas permite focar no que é mais importante, reduzindo a sensação de sobrecarga e estresse. Procrastinação, multitasking e adiamento indefinido aumentam o estresse. Curiosidade: A técnica Pomodoro pode ajudar na priorização e gerenciamento de tarefas.",
+    "id": "quiz-bem-estar-15",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito alimentar é mais benéfico para o bem-estar intestinal?",
+    "options": [
+      "Consumo excessivo de alimentos processados",
+      "Alimentação rica em fibras",
+      "Dieta rica em gorduras saturadas",
+      "Consumo regular de refrigerantes"
+    ],
+    "correctAnswer": "Alimentação rica em fibras",
+    "explanation": "Alimentos ricos em fibras alimentam as bactérias benéficas do intestino, promovendo a saúde intestinal. Alimentos processados, gorduras saturadas e refrigerantes prejudicam a microbiota intestinal. Curiosidade: Iogurte com probióticos também é benéfico para a flora intestinal.",
+    "id": "quiz-bem-estar-16",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância da prática de hobbies para o bem-estar?",
+    "options": [
+      "Diminuição da autoestima",
+      "Aumento do estresse",
+      "Melhora do humor e da criatividade",
+      "Aumento da ansiedade"
+    ],
+    "correctAnswer": "Melhora do humor e da criatividade",
+    "explanation": "Hobbies oferecem oportunidades de relaxamento, autoexpressão e desenvolvimento da criatividade, melhorando o humor e o bem-estar geral. As outras opções são incorretas. Curiosidade: Hobbies podem ajudar a construir conexões sociais.",
+    "id": "quiz-bem-estar-17",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre compaixão e empatia?",
+    "options": [
+      "Compaixão é sentir a dor do outro, empatia é querer ajudar.",
+      "Compaixão e empatia são sinônimos.",
+      "Compaixão é querer ajudar, empatia é sentir a dor do outro.",
+      "Compaixão é julgar o sofrimento do outro, empatia é ignorar."
+    ],
+    "correctAnswer": "Compaixão é querer ajudar, empatia é sentir a dor do outro.",
+    "explanation": "Empatia é a capacidade de se colocar no lugar do outro e sentir o que ele sente, enquanto compaixão é a vontade de ajudar a aliviar o sofrimento alheio. Curiosidade: A compaixão é fundamental para a construção de relacionamentos saudáveis.",
+    "id": "quiz-bem-estar-18",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade promove a conexão com a natureza e reduz o estresse?",
+    "options": [
+      "Jogos de vídeo game",
+      "Assistir TV",
+      "Passear em um parque",
+      "Trabalhar em escritório"
+    ],
+    "correctAnswer": "Passear em um parque",
+    "explanation": "Passear em um parque permite contato com a natureza, reduzindo o estresse e promovendo o bem-estar. As outras opções são atividades predominantemente em ambientes fechados. Curiosidade: O contato com a natureza tem efeitos comprovadamente positivos na saúde mental.",
+    "id": "quiz-bem-estar-19",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estratégia de enfrentamento é mais eficaz para lidar com situações desafiadoras?",
+    "options": [
+      "Negação",
+      "Fuga",
+      "Resolução de problemas",
+      "Auto-sabotagem"
+    ],
+    "correctAnswer": "Resolução de problemas",
+    "explanation": "Resolução de problemas envolve analisar a situação, identificar possíveis soluções e tomar ações para superá-la. Negação, fuga e auto-sabotagem são estratégias ineficazes. Curiosidade: A capacidade de resolver problemas é uma importante habilidade de vida.",
+    "id": "quiz-bem-estar-20",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito se relaciona à aceitação do presente sem julgamentos?",
+    "options": [
+      "Autoestima",
+      "Resiliência",
+      "Mindfulness",
+      "Compaixão"
+    ],
+    "correctAnswer": "Mindfulness",
+    "explanation": "Mindfulness é a prática de estar presente no momento sem julgamentos. Autoestima, resiliência e compaixão são conceitos relacionados, mas não se referem diretamente à aceitação do presente sem julgamentos. Curiosidade: A prática regular de mindfulness pode reduzir os níveis de ansiedade e estresse.",
+    "id": "quiz-bem-estar-21",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual tipo de música é geralmente recomendado para relaxamento?",
+    "options": [
+      "Heavy metal",
+      "Música eletrônica agitada",
+      "Música clássica",
+      "Rock pesado"
+    ],
+    "correctAnswer": "Música clássica",
+    "explanation": "Música clássica geralmente apresenta um ritmo lento e melodias suaves que promovem o relaxamento. Os outros gêneros musicais costumam ser mais estimulantes. Curiosidade: O efeito da música no relaxamento varia de pessoa para pessoa.",
+    "id": "quiz-bem-estar-22",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual hábito pode melhorar a autoestima?",
+    "options": [
+      "Comparação constante com os outros",
+      "Autocrítica excessiva",
+      "Cultivar autocompaixão",
+      "Negligência de si mesmo"
+    ],
+    "correctAnswer": "Cultivar autocompaixão",
+    "explanation": "Cultivar autocompaixão, ou seja, tratar a si mesmo com bondade e compreensão, contribui para uma autoestima saudável. Comparação, autocrítica e negligência prejudicam a autoestima. Curiosidade: Reconhecer suas qualidades e conquistas é importante para elevar a autoestima.",
+    "id": "quiz-bem-estar-23",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o papel dos hormônios no bem-estar?",
+    "options": [
+      "Não afetam o bem-estar",
+      "Afetam apenas a saúde física",
+      "Influenciam significativamente o humor e a energia",
+      "São irrelevantes para a saúde mental"
+    ],
+    "correctAnswer": "Influenciam significativamente o humor e a energia",
+    "explanation": "Hormônios como serotonina, dopamina e cortisol desempenham um papel crucial no humor, na energia e no bem-estar geral. Desequilíbrios hormonais podem levar a problemas de saúde física e mental. Curiosidade:  A melatonina é um hormônio crucial para o sono.",
+    "id": "quiz-bem-estar-24",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância do contato com a natureza para a saúde mental?",
+    "options": [
+      "Aumenta o estresse",
+      "Não tem impacto significativo",
+      "Reduz a ansiedade e a depressão",
+      "Aumenta a irritabilidade"
+    ],
+    "correctAnswer": "Reduz a ansiedade e a depressão",
+    "explanation": "O contato com a natureza é benéfico para a saúde mental, reduzindo os sintomas de ansiedade e depressão. As outras opções são incorretas. Curiosidade:  Banhos de floresta (Shinrin-yoku) são uma prática japonesa que promove o bem-estar através da imersão na natureza.",
+    "id": "quiz-bem-estar-25",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual técnica de relaxamento envolve a concentração em um objeto ou sensação?",
+    "options": [
+      "Meditação",
+      "Yoga",
+      "Respiração consciente",
+      "Tai Chi"
+    ],
+    "correctAnswer": "Meditação",
+    "explanation": "A meditação envolve a concentração em um objeto, sensação ou pensamento para acalmar a mente. Yoga, respiração consciente e Tai Chi também são técnicas de relaxamento, mas com foco em diferentes aspectos. Curiosidade: A meditação pode aumentar a atividade da região cerebral associada à compaixão.",
+    "id": "quiz-bem-estar-26",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre autorregulação emocional e inteligência emocional?",
+    "options": [
+      "São sinônimos",
+      "Autorregulação é uma parte da inteligência emocional",
+      "Inteligência emocional é uma parte da autorregulação",
+      "Não se relacionam"
+    ],
+    "correctAnswer": "Autorregulação é uma parte da inteligência emocional",
+    "explanation": "Autorregulação emocional é a capacidade de controlar suas emoções e impulsos, sendo um dos componentes da inteligência emocional, que também inclui autoconsciência, motivação, empatia e habilidades sociais. Curiosidade: A inteligência emocional é um importante fator para o sucesso em relacionamentos e no trabalho.",
+    "id": "quiz-bem-estar-27",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade promove o fortalecimento muscular?",
+    "options": [
+      "Dormir",
+      "Assistir TV",
+      "Leitura",
+      "Musculação"
+    ],
+    "correctAnswer": "Musculação",
+    "explanation": "Musculação é uma atividade física que promove o fortalecimento muscular. Dormir, assistir TV e ler são atividades relaxantes, mas não promovem o fortalecimento muscular. Curiosidade: O treinamento de força aumenta o metabolismo basal, auxiliando na perda de peso.",
+    "id": "quiz-bem-estar-28",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual alimento é rico em antioxidantes?",
+    "options": [
+      "Refrigerantes",
+      "Doces",
+      "Frutas vermelhas",
+      "Batatas fritas"
+    ],
+    "correctAnswer": "Frutas vermelhas",
+    "explanation": "Frutas vermelhas são ricas em antioxidantes que combatem os radicais livres, protegendo as células do envelhecimento precoce. Refrigerantes, doces e batatas fritas são ricos em açúcares e gorduras, que não são antioxidantes. Curiosidade:  Mirtilos e framboesas são excelentes fontes de antioxidantes.",
+    "id": "quiz-bem-estar-29",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a terapia de aceitação e compromisso (ACT) auxilia no bem-estar?",
+    "options": [
+      "Tentando controlar pensamentos e emoções",
+      "Evitar emoções negativas",
+      "Aceitando experiências sem julgamentos",
+      "Suprimindo sentimentos"
+    ],
+    "correctAnswer": "Aceitando experiências sem julgamentos",
+    "explanation": "A ACT ajuda a aceitar pensamentos e emoções sem julgamentos, permitindo que as pessoas vivam mais plenamente. Tentativa de controlar, evitar ou suprimir aumenta o sofrimento. Curiosidade: A ACT é uma abordagem eficaz para lidar com a ansiedade e a depressão.",
+    "id": "quiz-bem-estar-30",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é a importância do descanso para o bem-estar?",
+    "options": [
+      "Desnecessário para a saúde",
+      "Aumenta a produtividade quando negligenciado",
+      "Promove a recuperação física e mental",
+      "Impede o crescimento"
+    ],
+    "correctAnswer": "Promove a recuperação física e mental",
+    "explanation": "O descanso adequado é fundamental para a recuperação física e mental, permitindo que o corpo e a mente se reponham. A negligência do descanso afeta negativamente a saúde física e mental. Curiosidade: A falta de descanso está associada a um maior risco de doenças crônicas.",
+    "id": "quiz-bem-estar-31",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual fator contribui para um ambiente de trabalho positivo?",
+    "options": [
+      "Falta de comunicação",
+      "Pressão excessiva",
+      "Relações interpessoais saudáveis",
+      "Falta de reconhecimento"
+    ],
+    "correctAnswer": "Relações interpessoais saudáveis",
+    "explanation": "Relações interpessoais saudáveis no trabalho criam um ambiente positivo e colaborativo, aumentando a satisfação e produtividade. A falta de comunicação, pressão excessiva e falta de reconhecimento prejudicam o ambiente. Curiosidade:  Equipes com boas relações interpessoais costumam apresentar melhores resultados.",
+    "id": "quiz-bem-estar-32",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a gratidão e a resiliência?",
+    "options": [
+      "A gratidão não afeta a resiliência",
+      "A resiliência diminui a gratidão",
+      "A gratidão aumenta a resiliência",
+      "A gratidão e a resiliência são incompatíveis"
+    ],
+    "correctAnswer": "A gratidão aumenta a resiliência",
+    "explanation": "A gratidão fortalece a resiliência, pois permite que as pessoas foquem nos aspectos positivos da vida, mesmo em momentos difíceis.  As outras opções são incorretas. Curiosidade: A prática regular da gratidão aumenta a capacidade de lidar com situações adversas.",
+    "id": "quiz-bem-estar-33",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade aumenta os níveis de endorfina?",
+    "options": [
+      "Comer doces",
+      "Assistir TV",
+      "Exercícios físicos",
+      "Dormir"
+    ],
+    "correctAnswer": "Exercícios físicos",
+    "explanation": "Exercícios físicos liberam endorfinas, que são neurotransmissores que promovem bem-estar e reduzem a percepção da dor. As outras opções não têm o mesmo efeito na liberação de endorfinas. Curiosidade: A endorfina também é conhecida como a 'hormônio da felicidade'.",
+    "id": "quiz-bem-estar-34",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual hábito pode contribuir para a prevenção de doenças crônicas?",
+    "options": [
+      "Sedentarismo",
+      "Alimentação inadequada",
+      "Tabagismo",
+      "Prática regular de exercícios físicos"
+    ],
+    "correctAnswer": "Prática regular de exercícios físicos",
+    "explanation": "A prática regular de exercícios físicos contribui para a prevenção de doenças crônicas como doenças cardíacas, diabetes e alguns tipos de câncer. Sedentarismo, alimentação inadequada e tabagismo aumentam o risco de doenças crônicas. Curiosidade: O exercício físico melhora a sensibilidade à insulina.",
+    "id": "quiz-bem-estar-35",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual conceito se relaciona à capacidade de se adaptar a mudanças e lidar com adversidades?",
+    "options": [
+      "Inteligência emocional",
+      "Autoestima",
+      "Resiliência",
+      "Compaixão"
+    ],
+    "correctAnswer": "Resiliência",
+    "explanation": "Resiliência é a capacidade de se adaptar a mudanças e lidar com adversidades. Inteligência emocional, autoestima e compaixão são importantes, mas não definem diretamente essa capacidade. Curiosidade: Pessoas resilientes costumam ter uma rede de apoio social forte.",
+    "id": "quiz-bem-estar-36",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual é um benefício da meditação?",
+    "options": [
+      "Aumento da ansiedade",
+      "Diminuição da concentração",
+      "Melhora da capacidade de atenção",
+      "Aumento da irritabilidade"
+    ],
+    "correctAnswer": "Melhora da capacidade de atenção",
+    "explanation": "A meditação melhora a capacidade de atenção e concentração, além de reduzir a ansiedade e o estresse.  As outras opções são incorretas. Curiosidade: Meditar regularmente pode aumentar o volume de massa cinzenta em áreas do cérebro associadas à atenção.",
+    "id": "quiz-bem-estar-37",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual nutriente é essencial para a saúde óssea?",
+    "options": [
+      "Sódio",
+      "Açúcar",
+      "Cálcio",
+      "Gordura saturada"
+    ],
+    "correctAnswer": "Cálcio",
+    "explanation": "O cálcio é essencial para a saúde óssea.  Sódio, açúcar e gordura saturada em excesso podem prejudicar a saúde óssea. Curiosidade: A vitamina D é necessária para a absorção adequada de cálcio.",
+    "id": "quiz-bem-estar-38",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a importância da definição de metas realistas para o bem-estar?",
+    "options": [
+      "Gera frustração e baixa autoestima",
+      "Não afeta o bem-estar",
+      "Promove a motivação e o senso de realização",
+      "Aumenta a procrastinação"
+    ],
+    "correctAnswer": "Promove a motivação e o senso de realização",
+    "explanation": "Definir metas realistas promove a motivação e o senso de realização, contribuindo para o bem-estar. Metas irreais podem gerar frustração e baixa autoestima. Curiosidade:  A técnica SMART (Specific, Measurable, Achievable, Relevant, Time-bound) ajuda a definir metas eficazes.",
+    "id": "quiz-bem-estar-39",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito contribui para um sono mais reparador?",
+    "options": [
+      "Usar telas antes de dormir",
+      "Beber café antes de dormir",
+      "Tomar um banho quente antes de dormir",
+      "Comer alimentos pesados antes de dormir"
+    ],
+    "correctAnswer": "Tomar um banho quente antes de dormir",
+    "explanation": "Um banho quente antes de dormir ajuda a relaxar o corpo e a mente, preparando-o para o sono. O uso de telas, café e alimentos pesados antes de dormir prejudicam a qualidade do sono. Curiosidade: Manter o quarto escuro e silencioso também contribui para um sono melhor.",
+    "id": "quiz-bem-estar-40",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto do estresse crônico na saúde?",
+    "options": [
+      "Nenhum impacto significativo",
+      "Melhora a imunidade",
+      "Aumenta o risco de doenças crônicas",
+      "Aumenta a longevidade"
+    ],
+    "correctAnswer": "Aumenta o risco de doenças crônicas",
+    "explanation": "O estresse crônico está associado a um maior risco de doenças crônicas como doenças cardíacas, diabetes e problemas de saúde mental. As outras opções são incorretas. Curiosidade: O estresse crônico pode levar ao envelhecimento precoce.",
+    "id": "quiz-bem-estar-41",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre autocompaixão e autopiedade?",
+    "options": [
+      "São sinônimos",
+      "Autocompaixão é se culpar, autopiedade é se perdoar",
+      "Autocompaixão é se tratar com bondade, autopiedade é se afogar na auto-recriminação",
+      "Autocompaixão é ignorar os erros, autopiedade é se concentrar neles"
+    ],
+    "correctAnswer": "Autocompaixão é se tratar com bondade, autopiedade é se afogar na auto-recriminação",
+    "explanation": "Autocompaixão é tratar a si mesmo com bondade e compreensão, enquanto autopiedade é se afogar em sentimentos de pena e culpa. Curiosidade: A autocompaixão permite aprender com os erros sem se julgar severamente.",
+    "id": "quiz-bem-estar-42",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade relaxante você pode fazer em apenas 5 minutos?",
+    "options": [
+      "Meditar",
+      "Assistir a um filme",
+      "Ler um livro",
+      "Fazer uma caminhada longa"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "Meditação de 5 minutos pode reduzir o estresse e melhorar a concentração. Assistir filme, ler ou caminhar exigem mais tempo e foco. Curiosidade: A meditação mindfulness melhora a atividade cerebral relacionada à atenção.",
+    "id": "quiz-bem-estar-43",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é geralmente associado a um aumento de energia?",
+    "options": [
+      "Doces",
+      "Refrigerantes",
+      "Frutas",
+      "Batata frita"
+    ],
+    "correctAnswer": "Frutas",
+    "explanation": "Frutas são ricas em açúcares naturais e vitaminas, que fornecem energia de forma sustentável. Doces, refrigerantes e batatas fritas oferecem energia rápida e efêmera, além de serem prejudiciais à saúde. Curiosidade: Bananas são uma excelente fonte de potássio, importante para a função muscular.",
+    "id": "quiz-bem-estar-44",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a gratidão impacta positivamente a saúde mental?",
+    "options": [
+      "Aumenta a ansiedade",
+      "Diminui a resiliência",
+      "Aumenta a autoestima",
+      "Causa isolamento social"
+    ],
+    "correctAnswer": "Aumenta a autoestima",
+    "explanation": "A gratidão aumenta a autoestima ao focar nos aspectos positivos da vida, reduzindo a negatividade.  Ela não aumenta a ansiedade nem diminui a resiliência; ao contrário, auxilia em ambas.  Não causa isolamento. Curiosidade: Expressar gratidão a outras pessoas também fortalece os laços sociais.",
+    "id": "quiz-bem-estar-45",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estratégia é mais eficaz para lidar com a procrastinação?",
+    "options": [
+      "Ignorar completamente a tarefa",
+      "Fazer a tarefa inteira de uma vez",
+      "Quebrar a tarefa em partes menores",
+      "Deixar para o último minuto"
+    ],
+    "correctAnswer": "Quebrar a tarefa em partes menores",
+    "explanation": "Dividir tarefas grandes torna-as menos assustadoras e mais gerenciáveis. Ignorar, fazer tudo de uma vez ou deixar para o último minuto aumentam o estresse e a probabilidade de não concluir a tarefa. Curiosidade: O método Pomodoro (trabalho em intervalos) é uma técnica eficiente para combater a procrastinação.",
+    "id": "quiz-bem-estar-46",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença fundamental entre resiliência e autocompaixão na superação de adversidades?",
+    "options": [
+      "A resiliência foca na solução, a autocompaixão no sofrimento.",
+      "A resiliência é passiva, a autocompaixão é ativa.",
+      "A resiliência ignora emoções, a autocompaixão as abraça.",
+      "Não há diferença significativa entre elas."
+    ],
+    "correctAnswer": "A resiliência foca na solução, a autocompaixão no sofrimento.",
+    "explanation": "Resiliência busca superar obstáculos, enquanto autocompaixão reconhece e acolhe as emoções durante o processo. Ambas são importantes, mas atuam em diferentes aspectos da superação. Curiosidade: A combinação de resiliência e autocompaixão promove um bem-estar mais completo.",
+    "id": "quiz-bem-estar-47",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito ajuda a melhorar a qualidade do sono?",
+    "options": [
+      "Usar o celular na cama",
+      "Comer muito antes de dormir",
+      "Tomar cafeína à noite",
+      "Criar uma rotina relaxante antes de dormir"
+    ],
+    "correctAnswer": "Criar uma rotina relaxante antes de dormir",
+    "explanation": "Uma rotina relaxante sinaliza ao corpo que é hora de dormir.  Os outros hábitos estimulam o sistema nervoso e dificultam o sono. Curiosidade: Um ambiente escuro e silencioso contribui para um sono mais profundo.",
+    "id": "quiz-bem-estar-48",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de exercícios físicos impacta o humor?",
+    "options": [
+      "Aumenta a irritabilidade",
+      "Não tem impacto significativo",
+      "Diminui os níveis de serotonina",
+      "Aumenta a liberação de endorfinas"
+    ],
+    "correctAnswer": "Aumenta a liberação de endorfinas",
+    "explanation": "As endorfinas são neurotransmissores que atuam como analgésicos naturais e melhoram o humor.  Os exercícios não aumentam a irritabilidade nem diminuem a serotonina. Curiosidade: A atividade física também melhora a qualidade do sono, impactando indiretamente o humor.",
+    "id": "quiz-bem-estar-49",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre a terapia cognitivo-comportamental (TCC) e a terapia de aceitação e compromisso (ACT)?",
+    "options": [
+      "Ambas são iguais.",
+      "A TCC foca na mudança de pensamentos, a ACT na aceitação.",
+      "A TCC é mais breve, a ACT mais longa.",
+      "A TCC usa mais medicamentos, a ACT não usa."
+    ],
+    "correctAnswer": "A TCC foca na mudança de pensamentos, a ACT na aceitação.",
+    "explanation": "A TCC busca modificar pensamentos disfuncionais, enquanto a ACT enfatiza a aceitação de pensamentos e emoções para focar em ações alinhadas com valores.  A duração e o uso de medicamentos não são diferencias principais entre elas. Curiosidade:  Muitas vezes, as abordagens são complementares.",
+    "id": "quiz-bem-estar-50",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a respiração consciente pode auxiliar na redução do estresse?",
+    "options": [
+      "Aumenta a frequência cardíaca.",
+      "Diminui a oxigenação cerebral.",
+      "Ativa o sistema nervoso simpático.",
+      "Ativa o sistema nervoso parassimpático."
+    ],
+    "correctAnswer": "Ativa o sistema nervoso parassimpático.",
+    "explanation": "A respiração consciente ativa o sistema nervoso parassimpático, responsável pela resposta de relaxamento. As outras opções são contrárias aos efeitos da respiração consciente. Curiosidade:  Técnicas de respiração profunda são usadas em diversas práticas de relaxamento, como yoga e meditação.",
+    "id": "quiz-bem-estar-51",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação entre a qualidade do sono e a regulação hormonal.",
+    "options": [
+      "O sono não afeta a regulação hormonal.",
+      "O sono interfere apenas na produção de cortisol.",
+      "A privação do sono afeta a produção de diversos hormônios, incluindo os relacionados ao crescimento e ao apetite.",
+      "O sono excessivo melhora a regulação hormonal."
+    ],
+    "correctAnswer": "A privação do sono afeta a produção de diversos hormônios, incluindo os relacionados ao crescimento e ao apetite.",
+    "explanation": "A falta de sono interfere na produção e regulação de vários hormônios, impactando o metabolismo, o humor e a imunidade. O sono excessivo também tem consequências negativas para a saúde hormonal. Curiosidade: O hormônio do crescimento é principalmente liberado durante o sono profundo.",
+    "id": "quiz-bem-estar-52",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades promove a conexão com a natureza?",
+    "options": [
+      "Jogar videogame",
+      "Assistir TV",
+      "Fazer uma caminhada no parque",
+      "Ler um livro em casa"
+    ],
+    "correctAnswer": "Fazer uma caminhada no parque",
+    "explanation": "Caminhar no parque oferece contato direto com a natureza, proporcionando benefícios para a saúde mental e física. As outras atividades são realizadas em ambientes fechados. Curiosidade:  A exposição à natureza reduz os níveis de cortisol, o hormônio do estresse.",
+    "id": "quiz-bem-estar-53",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a definição de metas SMART pode auxiliar no bem-estar?",
+    "options": [
+      "As metas SMART aumentam a probabilidade de fracasso.",
+      "As metas SMART geram mais ansiedade.",
+      "As metas SMART tornam as tarefas mais difíceis.",
+      "As metas SMART aumentam a sensação de realização e motivação."
+    ],
+    "correctAnswer": "As metas SMART aumentam a sensação de realização e motivação.",
+    "explanation": "Metas SMART (Específicas, Mensuráveis, Alcançáveis, Relevantes e com Prazo) são mais fáceis de serem atingidas, gerando uma maior sensação de realização e impulsionando a motivação. As demais opções são o oposto do impacto de metas SMART. Curiosidade:  O método SMART facilita o monitoramento do progresso, incentivando a persistência.",
+    "id": "quiz-bem-estar-54",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o impacto da comunicação assertiva no bem-estar relacional?",
+    "options": [
+      "Diminui a empatia.",
+      "Aumenta os conflitos.",
+      "Melhora a clareza e a compreensão mútua.",
+      "Não tem impacto significativo."
+    ],
+    "correctAnswer": "Melhora a clareza e a compreensão mútua.",
+    "explanation": "A comunicação assertiva expressa as necessidades e opiniões com respeito, promovendo clareza e compreensão. As outras opções são opostas ao impacto da comunicação assertiva. Curiosidade: A comunicação assertiva contribui para a resolução de conflitos de forma mais eficaz.",
+    "id": "quiz-bem-estar-55",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual bebida é conhecida por seus efeitos hidratantes?",
+    "options": [
+      "Refrigerante",
+      "Suco de frutas",
+      "Água",
+      "Café"
+    ],
+    "correctAnswer": "Água",
+    "explanation": "A água é essencial para a hidratação corporal.  Refrigerantes e café podem desidratar, e sucos têm açúcar. Curiosidade: A desidratação, mesmo leve, pode afetar o humor e a concentração.",
+    "id": "quiz-bem-estar-56",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática de mindfulness impacta a regulação emocional?",
+    "options": [
+      "Aumenta a impulsividade.",
+      "Diminui a capacidade de observação das emoções.",
+      "Aumenta a capacidade de observação das emoções sem julgamento.",
+      "Não afeta a regulação emocional."
+    ],
+    "correctAnswer": "Aumenta a capacidade de observação das emoções sem julgamento.",
+    "explanation": "Mindfulness permite observar as emoções sem se identificar com elas, facilitando a regulação. As outras opções são o contrário do efeito do mindfulness. Curiosidade:  Mindfulness reduz a atividade da amígdala, área do cérebro associada ao medo e ao estresse.",
+    "id": "quiz-bem-estar-57",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a diferença entre empatia e compaixão.",
+    "options": [
+      "Empatia é sentir o que o outro sente; compaixão é desejar o bem do outro.",
+      "Não há diferença entre elas.",
+      "Empatia é ação, compaixão é emoção.",
+      "Empatia é superficial, compaixão é profunda."
+    ],
+    "correctAnswer": "Empatia é sentir o que o outro sente; compaixão é desejar o bem do outro.",
+    "explanation": "Empatia é compartilhar as emoções do outro, enquanto compaixão envolve o desejo de aliviar o sofrimento alheio.  Ambas são importantes para as relações interpessoais. Curiosidade: A compaixão pode motivar ações concretas para ajudar os outros.",
+    "id": "quiz-bem-estar-58",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades geralmente reduz o estresse?",
+    "options": [
+      "Trabalhar horas extras",
+      "Assistir notícias negativas",
+      "Ouvir música relaxante",
+      "Jogar videogames violentos"
+    ],
+    "correctAnswer": "Ouvir música relaxante",
+    "explanation": "Música relaxante pode induzir estados de calma e tranquilidade. As outras atividades tendem a aumentar o estresse. Curiosidade: Música clássica é frequentemente associada a efeitos relaxantes.",
+    "id": "quiz-bem-estar-59",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a organização do ambiente físico impacta o bem-estar?",
+    "options": [
+      "Não tem impacto significativo.",
+      "Aumenta a desordem mental.",
+      "Diminui a produtividade.",
+      "Promove a calma e a concentração."
+    ],
+    "correctAnswer": "Promove a calma e a concentração.",
+    "explanation": "Um ambiente organizado reduz a sobrecarga sensorial e facilita a concentração, contribuindo para o bem-estar. Desorganização pode causar estresse e ansiedade. Curiosidade:  A organização visual do ambiente também impacta a percepção de controle.",
+    "id": "quiz-bem-estar-60",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação entre a autoeficácia e a resiliência.",
+    "options": [
+      "Autoeficácia e resiliência são antagônicas.",
+      "Autoeficácia não impacta a resiliência.",
+      "A autoeficácia fortalece a resiliência.",
+      "A autoeficácia enfraquece a resiliência."
+    ],
+    "correctAnswer": "A autoeficácia fortalece a resiliência.",
+    "explanation": "A crença na própria capacidade (autoeficácia) aumenta a capacidade de lidar com desafios e superar adversidades (resiliência). Curiosidade:  Desenvolver a autoeficácia envolve estabelecer metas alcançáveis e celebrar os sucessos.",
+    "id": "quiz-bem-estar-61",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes hábitos pode melhorar a saúde cardiovascular?",
+    "options": [
+      "Fumar",
+      "Comer alimentos processados",
+      "Praticar exercícios regularmente",
+      "Dormir pouco"
+    ],
+    "correctAnswer": "Praticar exercícios regularmente",
+    "explanation": "Exercícios regulares fortalecem o coração e melhoram a circulação sanguínea. Fumar, comer alimentos processados e dormir pouco são prejudiciais à saúde cardiovascular. Curiosidade:  Atividades aeróbicas, como caminhada e corrida, são excelentes para a saúde do coração.",
+    "id": "quiz-bem-estar-62",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de yoga impacta o corpo e a mente?",
+    "options": [
+      "Aumenta a rigidez muscular.",
+      "Diminui a flexibilidade.",
+      "Aumenta a flexibilidade e a consciência corporal.",
+      "Não tem impacto significativo."
+    ],
+    "correctAnswer": "Aumenta a flexibilidade e a consciência corporal.",
+    "explanation": "Yoga melhora a flexibilidade, a força muscular e a consciência corporal, além de promover o relaxamento mental. Curiosidade:  Existem diversos estilos de yoga, cada um com foco em diferentes aspectos.",
+    "id": "quiz-bem-estar-63",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a importância do autocuidado para a prevenção do burnout.",
+    "options": [
+      "O autocuidado aumenta a probabilidade de burnout.",
+      "O autocuidado não afeta o burnout.",
+      "O autocuidado reduz o estresse e melhora a resiliência, prevenindo o burnout.",
+      "O autocuidado só é eficaz para quem já está com burnout."
+    ],
+    "correctAnswer": "O autocuidado reduz o estresse e melhora a resiliência, prevenindo o burnout.",
+    "explanation": "Autocuidado, incluindo atividades que promovem relaxamento e bem-estar, ajuda a prevenir o esgotamento físico e emocional (burnout). Curiosidade:  Atividades como hobbies, descanso e tempo na natureza são importantes para o autocuidado.",
+    "id": "quiz-bem-estar-64",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades pode melhorar o foco e a concentração?",
+    "options": [
+      "Usar múltiplas telas ao mesmo tempo",
+      "Navegar incessantemente pela internet",
+      "Meditar por alguns minutos",
+      "Não fazer pausas durante o trabalho"
+    ],
+    "correctAnswer": "Meditar por alguns minutos",
+    "explanation": "Meditação ajuda a acalmar a mente e melhorar a concentração. As outras opções distraem e dificultam o foco. Curiosidade:  Até curtos períodos de meditação podem produzir benefícios notáveis para a atenção.",
+    "id": "quiz-bem-estar-65",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática de journaling (escrita reflexiva) pode auxiliar na saúde mental?",
+    "options": [
+      "Aumenta a ansiedade.",
+      "Não tem impacto significativo.",
+      "Auxilia no processamento de emoções e na autoconsciência.",
+      "Causa isolamento social."
+    ],
+    "correctAnswer": "Auxilia no processamento de emoções e na autoconsciência.",
+    "explanation": "Escrever sobre pensamentos e sentimentos pode auxiliar no seu processamento e autoconhecimento. As outras opções são o oposto do impacto do journaling. Curiosidade: O journaling pode ser uma ferramenta valiosa em terapia.",
+    "id": "quiz-bem-estar-66",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação entre a alimentação equilibrada e a saúde imunológica.",
+    "options": [
+      "A alimentação não impacta o sistema imunológico.",
+      "Apenas suplementos vitamínicos fortalecem a imunidade.",
+      "Uma dieta rica em nutrientes fortalece o sistema imunológico.",
+      "Uma dieta restritiva melhora a imunidade."
+    ],
+    "correctAnswer": "Uma dieta rica em nutrientes fortalece o sistema imunológico.",
+    "explanation": "Uma alimentação balanceada, rica em vitaminas, minerais e antioxidantes, é essencial para o funcionamento adequado do sistema imunológico.  Suplementos podem auxiliar, mas não substituem uma dieta adequada.  Dietas restritivas podem prejudicar a imunidade. Curiosidade:  Alimentos ricos em vitamina C e zinco são importantes para a imunidade.",
+    "id": "quiz-bem-estar-67",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades geralmente promove a sensação de calma?",
+    "options": [
+      "Assistir a um filme de terror",
+      "Jogar um jogo competitivo",
+      "Ler um livro",
+      "Fazer uma discussão acalorada"
+    ],
+    "correctAnswer": "Ler um livro",
+    "explanation": "Ler um livro pode proporcionar relaxamento e escape mental. As demais atividades podem gerar ansiedade ou estresse. Curiosidade:  Ler antes de dormir pode melhorar a qualidade do sono.",
+    "id": "quiz-bem-estar-68",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a terapia de grupo pode contribuir para o bem-estar?",
+    "options": [
+      "Causa isolamento social.",
+      "Aumenta a competição entre os participantes.",
+      "Não tem impacto significativo.",
+      "Promove o sentimento de pertencimento e compartilhamento de experiências."
+    ],
+    "correctAnswer": "Promove o sentimento de pertencimento e compartilhamento de experiências.",
+    "explanation": "Terapia de grupo oferece um ambiente de suporte e compartilhamento, fortalecendo o senso de comunidade e ajudando os participantes a se sentirem menos isolados. Curiosidade:  A terapia de grupo pode ser particularmente útil para pessoas que lidam com problemas semelhantes.",
+    "id": "quiz-bem-estar-69",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação entre o propósito de vida e a longevidade.",
+    "options": [
+      "O propósito de vida não impacta a longevidade.",
+      "Ter um propósito encurta a vida.",
+      "Ter um propósito de vida está associado a uma maior longevidade.",
+      "O propósito de vida só afeta a qualidade de vida, não a quantidade."
+    ],
+    "correctAnswer": "Ter um propósito de vida está associado a uma maior longevidade.",
+    "explanation": "Estudos sugerem que ter um propósito e sentido na vida está associado a uma maior longevidade e bem-estar geral. Curiosidade:  Um propósito de vida pode motivar hábitos saudáveis e uma maior resiliência frente aos desafios da vida.",
+    "id": "quiz-bem-estar-70",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades ajuda a fortalecer os músculos?",
+    "options": [
+      "Assistir TV",
+      "Dormir",
+      "Leitura",
+      "Levantamento de peso"
+    ],
+    "correctAnswer": "Levantamento de peso",
+    "explanation": "O levantamento de peso é uma atividade física que promove o desenvolvimento muscular. As outras opções não promovem ganho de massa muscular. Curiosidade: O treinamento de força melhora a densidade óssea e previne a osteoporose.",
+    "id": "quiz-bem-estar-71",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática de exercícios aeróbicos impacta a saúde cardiovascular?",
+    "options": [
+      "Aumenta a pressão arterial.",
+      "Não tem impacto significativo.",
+      "Melhora a função cardíaca e reduz o risco de doenças cardíacas.",
+      "Aumenta o colesterol ruim."
+    ],
+    "correctAnswer": "Melhora a função cardíaca e reduz o risco de doenças cardíacas.",
+    "explanation": "Exercícios aeróbicos fortalecem o coração, melhoram a circulação e diminuem o risco de doenças cardíacas. As outras opções são o contrário do impacto dos exercícios aeróbicos. Curiosidade:  Atividades como corrida, natação e ciclismo são exemplos de exercícios aeróbicos.",
+    "id": "quiz-bem-estar-72",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a importância da autorregulação emocional para o sucesso profissional.",
+    "options": [
+      "A autorregulação não impacta o desempenho profissional.",
+      "A autorregulação diminui a capacidade de lidar com pressão.",
+      "A autorregulação aumenta a capacidade de lidar com desafios e manter o foco.",
+      "A autorregulação aumenta a impulsividade e a irritabilidade."
+    ],
+    "correctAnswer": "A autorregulação aumenta a capacidade de lidar com desafios e manter o foco.",
+    "explanation": "A capacidade de controlar e regular as emoções é fundamental para lidar com situações de estresse no ambiente de trabalho e manter o foco e a produtividade. Curiosidade:  Profissionais com alta autorregulação tendem a ser mais resilientes a situações adversas.",
+    "id": "quiz-bem-estar-73",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de proteína?",
+    "options": [
+      "Macarrão",
+      "Arroz",
+      "Frango",
+      "Salada"
+    ],
+    "correctAnswer": "Frango",
+    "explanation": "O frango é uma excelente fonte de proteína magra. Macarrão, arroz e salada são fontes de carboidratos e vitaminas, mas não de proteína. Curiosidade: A proteína é essencial para a construção e reparação dos tecidos musculares.",
+    "id": "quiz-bem-estar-74",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a exposição regular à luz solar impacta a produção de vitamina D?",
+    "options": [
+      "Diminui a produção de vitamina D.",
+      "Não tem impacto na produção de vitamina D.",
+      "Aumenta a produção de vitamina D.",
+      "Bloqueia a absorção de vitamina D."
+    ],
+    "correctAnswer": "Aumenta a produção de vitamina D.",
+    "explanation": "A pele produz vitamina D quando exposta à luz solar.  A falta de exposição ao sol pode levar à deficiência de vitamina D. Curiosidade: A vitamina D é crucial para a saúde óssea e imunológica.",
+    "id": "quiz-bem-estar-75",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a diferença entre a inteligência emocional e a competência social.",
+    "options": [
+      "São termos sinônimos.",
+      "A inteligência emocional é a capacidade de entender as emoções próprias; a competência social, de lidar com as emoções dos outros.",
+      "A inteligência emocional foca nas emoções, a competência social nas relações interpessoais.",
+      "Não há relação entre elas."
+    ],
+    "correctAnswer": "A inteligência emocional foca nas emoções, a competência social nas relações interpessoais.",
+    "explanation": "Inteligência emocional envolve autoconhecimento e gerenciamento das próprias emoções, enquanto competência social se refere à habilidade de construir e manter relacionamentos saudáveis.  Embora relacionadas, são conceitos distintos. Curiosidade:  Alta inteligência emocional e competência social contribuem para o sucesso em diversas áreas da vida.",
+    "id": "quiz-bem-estar-76",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades geralmente promove a criatividade?",
+    "options": [
+      "Assistir TV",
+      "Dormir",
+      "Fazer um quebra-cabeça",
+      "Ler um livro"
+    ],
+    "correctAnswer": "Fazer um quebra-cabeça",
+    "explanation": "Quebra-cabeças estimulam o pensamento lateral e a resolução de problemas, aspectos cruciais para a criatividade.  As outras opções são mais passivas. Curiosidade:  Atividades que envolvem a manipulação de objetos podem impulsionar a criatividade.",
+    "id": "quiz-bem-estar-77",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática de esportes em equipe impacta o desenvolvimento social?",
+    "options": [
+      "Não tem impacto significativo.",
+      "Diminui as habilidades de cooperação.",
+      "Aumenta a competição desleal.",
+      "Promove a cooperação, o trabalho em equipe e a comunicação."
+    ],
+    "correctAnswer": "Promove a cooperação, o trabalho em equipe e a comunicação.",
+    "explanation": "Esportes em equipe exigem cooperação, comunicação e trabalho em equipe, contribuindo para o desenvolvimento social. Curiosidade:  A participação em atividades coletivas também fortalece os laços de amizade.",
+    "id": "quiz-bem-estar-78",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a importância do feedback construtivo para o crescimento pessoal.",
+    "options": [
+      "O feedback construtivo impede o crescimento.",
+      "O feedback construtivo não tem impacto no crescimento pessoal.",
+      "O feedback construtivo, quando dado e recebido adequadamente, auxilia no aprendizado e no desenvolvimento.",
+      "O feedback construtivo deve sempre ser positivo, sem críticas."
+    ],
+    "correctAnswer": "O feedback construtivo, quando dado e recebido adequadamente, auxilia no aprendizado e no desenvolvimento.",
+    "explanation": "Feedback construtivo, se objetivo e respeitoso, auxilia a identificar pontos fortes e fracos, impulsionando o crescimento pessoal.  Feedback exclusivamente positivo pode não ser útil para o desenvolvimento. Curiosidade:  Aprender a dar e receber feedback construtivo é uma habilidade importante para as relações interpessoais.",
+    "id": "quiz-bem-estar-79",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade relaxante pode ser feita em 5 minutos?",
+    "options": [
+      "Meditar",
+      "Assistir a um filme",
+      "Ler um livro",
+      "Fazer uma caminhada longa"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "A meditação, mesmo em curtos períodos, pode reduzir a frequência cardíaca e induzir um estado de relaxamento. Assistir a um filme, ler um livro e caminhar exigem mais tempo e foco. Curiosidade: A meditação mindfulness tem sido associada à redução da amígdala, a região do cérebro ligada ao medo e ao estresse.",
+    "id": "quiz-bem-estar-80",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de energia?",
+    "options": [
+      "Alface",
+      "Chocolate",
+      "Aveia",
+      "Refrigerante"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é rica em carboidratos complexos, que fornecem energia de forma gradual e sustentada. Chocolate e refrigerante oferecem energia rápida e depois causam queda. Alface tem baixo teor calórico. Curiosidade:  A aveia também é rica em fibras, importantes para a saúde digestiva.",
+    "id": "quiz-bem-estar-81",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade simples pode melhorar seu humor imediatamente?",
+    "options": [
+      "Assistir TV",
+      "Ouvir música animada",
+      "Dormir por 2 horas",
+      "Comer chocolate"
+    ],
+    "correctAnswer": "Ouvir música animada",
+    "explanation": "Música animada libera endorfinas, melhorando o humor. As outras opções podem ter efeitos positivos, mas são menos imediatos e eficazes para todos. Curiosidade: A música tem sido usada terapeuticamente por séculos.",
+    "id": "quiz-bem-estar-82",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito alimentar contribui para uma melhor digestão?",
+    "options": [
+      "Comer rápido",
+      "Beber pouco líquido",
+      "Comer muito antes de dormir",
+      "Mastigar bem os alimentos"
+    ],
+    "correctAnswer": "Mastigar bem os alimentos",
+    "explanation": "Mastigar bem ajuda na quebra do alimento, facilitando a digestão. As demais opções podem causar problemas digestivos. Curiosidade:  A saliva contém enzimas que iniciam o processo digestivo.",
+    "id": "quiz-bem-estar-83",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual técnica de respiração é útil para reduzir a ansiedade?",
+    "options": [
+      "Respiração rápida e superficial",
+      "Respiração com foco na expiração",
+      "Segurar a respiração por longos períodos",
+      "Respirar apenas pelo nariz"
+    ],
+    "correctAnswer": "Respiração com foco na expiração",
+    "explanation": "Alongar a expiração acalma o sistema nervoso. As outras opções podem aumentar a ansiedade ou ser prejudiciais à saúde. Curiosidade: A respiração diafragmática é uma técnica eficaz.",
+    "id": "quiz-bem-estar-84",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a gratidão impacta a resiliência?",
+    "options": [
+      "Diminui a resiliência",
+      "Não afeta a resiliência",
+      "Aumenta a resiliência",
+      "Torna a resiliência imprevisível"
+    ],
+    "correctAnswer": "Aumenta a resiliência",
+    "explanation": "A gratidão aumenta a positividade e a capacidade de lidar com adversidades, melhorando a resiliência. Curiosidade:  Praticar a gratidão regularmente tem demonstrado efeitos positivos na saúde mental.",
+    "id": "quiz-bem-estar-85",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é ideal para iniciantes?",
+    "options": [
+      "Maratona",
+      "Musculação pesada",
+      "Caminhada",
+      "Triathlon"
+    ],
+    "correctAnswer": "Caminhada",
+    "explanation": "A caminhada é acessível e de baixo impacto, perfeita para iniciantes. As demais opções exigem mais preparo físico. Curiosidade:  Caminhar na natureza traz benefícios adicionais à saúde mental.",
+    "id": "quiz-bem-estar-86",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estratégia ajuda a lidar com a procrastinação?",
+    "options": [
+      "Ignorar tarefas",
+      "Criar uma lista gigante de tarefas",
+      "Quebrar tarefas grandes em menores",
+      "Deixar tudo para a última hora"
+    ],
+    "correctAnswer": "Quebrar tarefas grandes em menores",
+    "explanation": "Quebrar tarefas em partes menores torna-as menos intimidantes e mais fáceis de começar.  As outras opções são contraproducentes. Curiosidade: A técnica Pomodoro é uma excelente ferramenta anti-procrastinação.",
+    "id": "quiz-bem-estar-87",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a autocompaixão difere da autopiedade?",
+    "options": [
+      "São sinônimos",
+      "Autocompaixão é julgamento, autopiedade é aceitação",
+      "Autocompaixão é aceitação, autopiedade é autoflagelação",
+      "Autocompaixão é rigorosa, autopiedade é indulgente"
+    ],
+    "correctAnswer": "Autocompaixão é aceitação, autopiedade é autoflagelação",
+    "explanation": "Autocompaixão envolve tratar-se com gentileza e compreensão; autopiedade é se afogar na autocrítica. Curiosidade: A autocompaixão promove o autocrescimento e a resiliência.",
+    "id": "quiz-bem-estar-88",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes hábitos melhora a qualidade do sono?",
+    "options": [
+      "Usar celular antes de dormir",
+      "Tomar café antes de dormir",
+      "Fazer exercícios intensos antes de dormir",
+      "Criar uma rotina relaxante antes de dormir"
+    ],
+    "correctAnswer": "Criar uma rotina relaxante antes de dormir",
+    "explanation": "Uma rotina relaxante prepara o corpo para o sono. As demais opções podem interferir negativamente no sono. Curiosidade:  Um ambiente escuro e silencioso é ideal para um sono reparador.",
+    "id": "quiz-bem-estar-89",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da privação crônica de sono no humor?",
+    "options": [
+      "Melhora o humor",
+      "Não afeta o humor",
+      "Causa irritabilidade e depressão",
+      "Aumenta a energia e a produtividade"
+    ],
+    "correctAnswer": "Causa irritabilidade e depressão",
+    "explanation": "A falta de sono afeta a regulação hormonal e pode levar a mudanças de humor negativas. Curiosidade:  A privação do sono pode afetar a capacidade de concentração e tomada de decisões.",
+    "id": "quiz-bem-estar-90",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre TCC e ACT?",
+    "options": [
+      "Ambas são idênticas",
+      "TCC foca na mudança de pensamentos, ACT na aceitação",
+      "TCC foca na aceitação, ACT na mudança de pensamentos",
+      "Não há diferença em seus métodos"
+    ],
+    "correctAnswer": "TCC foca na mudança de pensamentos, ACT na aceitação",
+    "explanation": "TCC busca modificar pensamentos e comportamentos; ACT foca na aceitação de pensamentos e sentimentos. Curiosidade: Ambas as terapias podem ser eficazes dependendo das necessidades individuais.",
+    "id": "quiz-bem-estar-91",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física simples melhora o humor e reduz o estresse?",
+    "options": [
+      "Correr uma maratona",
+      "Caminhar por 30 minutos",
+      "Fazer levantamento de peso pesado",
+      "Praticar ioga avançada"
+    ],
+    "correctAnswer": "Caminhar por 30 minutos",
+    "explanation": "Caminhar é acessível a quase todos e libera endorfinas, melhorando o humor. As outras opções são mais intensas e podem não ser adequadas para iniciantes. Curiosidade:  A caminhada também melhora a circulação sanguínea.",
+    "id": "quiz-bem-estar-92",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito diário contribui significativamente para a melhora do humor?",
+    "options": [
+      "Dormir 8 horas",
+      "Tomar café da manhã",
+      "Exercitar-se",
+      "Ler um livro"
+    ],
+    "correctAnswer": "Exercitar-se",
+    "explanation": "Exercícios liberam endorfinas, que têm efeitos positivos no humor. Dormir bem, café da manhã e leitura também são importantes, mas o exercício tem um impacto mais direto e imediato no humor. Curiosidade: um estudo mostrou que 30 minutos de caminhada podem melhorar o humor tanto quanto alguns antidepressivos.",
+    "id": "quiz-bem-estar-93",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades ajuda a reduzir o estresse?",
+    "options": [
+      "Assistir TV",
+      "Jogar videogame",
+      "Meditar",
+      "Comer doces"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "A meditação promove o relaxamento e a calma, reduzindo o estresse. As outras opções podem ser relaxantes para alguns, mas não oferecem o mesmo nível de redução de estresse comprovada pela meditação. Curiosidade:  A meditação mindfulness pode aumentar a massa cinzenta no cérebro.",
+    "id": "quiz-bem-estar-94",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a definição de metas SMART e o bem-estar?",
+    "options": [
+      "Metas SMART causam mais estresse",
+      "Metas SMART são irrelevantes para o bem-estar",
+      "Metas SMART auxiliam na motivação e na sensação de progresso",
+      "Metas SMART garantem sucesso em todas as áreas da vida"
+    ],
+    "correctAnswer": "Metas SMART auxiliam na motivação e na sensação de progresso",
+    "explanation": "Metas SMART (Específicas, Mensuráveis, Alcançáveis, Relevantes e com Tempo definido) oferecem clareza e direcionamento, promovendo a motivação e a satisfação ao serem alcançadas.  As outras opções não refletem os benefícios do sistema SMART. Curiosidade:  Definir metas SMART pode melhorar a produtividade e a autoconfiança.",
+    "id": "quiz-bem-estar-95",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física leve pode ser incorporada facilmente na rotina diária?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Maratona",
+      "Caminhada rápida de 30 minutos",
+      "Escalada de montanha"
+    ],
+    "correctAnswer": "Caminhada rápida de 30 minutos",
+    "explanation": "Caminhadas rápidas são acessíveis e exigem pouco equipamento. As outras opções são mais intensas e exigem mais preparação. Curiosidade:  Caminhar aumenta a circulação sanguínea, beneficiando o cérebro.",
+    "id": "quiz-bem-estar-96",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito alimentar simples melhora a digestão?",
+    "options": [
+      "Comer rápido",
+      "Ignorar a sede",
+      "Mastigar bem os alimentos",
+      "Beber refrigerantes"
+    ],
+    "correctAnswer": "Mastigar bem os alimentos",
+    "explanation": "Mastigar bem ajuda a quebrar os alimentos, facilitando a digestão. Comer rápido, ignorar a sede e beber refrigerantes prejudicam a digestão. Curiosidade: A saliva contém enzimas que iniciam o processo digestivo.",
+    "id": "quiz-bem-estar-97",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de estresse se concentra na respiração?",
+    "options": [
+      "Terapia cognitiva",
+      "Meditação transcendental",
+      "Respiração diafragmática",
+      "Yoga"
+    ],
+    "correctAnswer": "Respiração diafragmática",
+    "explanation": "A respiração diafragmática foca na respiração profunda e consciente. As outras opções também podem ajudar, mas não se concentram especificamente na respiração. Curiosidade: A respiração profunda ativa o sistema nervoso parassimpático, que promove o relaxamento.",
+    "id": "quiz-bem-estar-98",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual alimento é rico em ômega-3, benéfico para a saúde do cérebro?",
+    "options": [
+      "Batata frita",
+      "Pizza",
+      "Salmão",
+      "Bolo"
+    ],
+    "correctAnswer": "Salmão",
+    "explanation": "O salmão é rico em ácidos graxos ômega-3, essenciais para a função cerebral. As outras opções são menos ricas ou não contêm ômega-3. Curiosidade: Os ômega-3 podem auxiliar na prevenção da demência.",
+    "id": "quiz-bem-estar-99",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a prática regular de mindfulness impacta a atividade da amígdala?",
+    "options": [
+      "Aumenta significativamente",
+      "Diminui a resposta a ameaças percebidas",
+      "Não afeta",
+      "Aumenta a resposta ao estresse agudo"
+    ],
+    "correctAnswer": "Diminui a resposta a ameaças percebidas",
+    "explanation": "O mindfulness reduz a atividade da amígdala, área do cérebro ligada ao medo e ao estresse. As outras opções são incorretas; o mindfulness visa justamente a regulação emocional. Curiosidade: Estudos com imagem cerebral demonstram essa redução na atividade da amígdala.",
+    "id": "quiz-bem-estar-100",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade relaxante você pode fazer em 5 minutos para aliviar a tensão?",
+    "options": [
+      "Assistir TV",
+      "Meditar",
+      "Ler um livro",
+      "Navegar nas redes sociais"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "A meditação, mesmo em curtos períodos, pode reduzir a frequência cardíaca e a pressão arterial, promovendo relaxamento. Assistir TV, ler e navegar nas redes sociais podem ser estimulantes e não propiciar relaxamento imediato. Curiosidade: A meditação mindfulness é comprovadamente eficaz na redução do estresse.",
+    "id": "quiz-bem-estar-101",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é ideal para melhorar a flexibilidade?",
+    "options": [
+      "Corrida",
+      "Yoga",
+      "Levantamento de peso",
+      "Natação"
+    ],
+    "correctAnswer": "Yoga",
+    "explanation": "Yoga foca em alongamento e flexibilidade. Corrida é aeróbica, levantamento de peso é força e natação é cardiovascular e força. Curiosidade: Yoga também reduz o estresse.",
+    "id": "quiz-bem-estar-102",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nutriente é essencial para ossos saudáveis?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Ferro",
+      "Magnésio"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D é crucial para a absorção de cálcio, essencial para a saúde óssea.  As outras opções são importantes, mas não primariamente para a saúde óssea. Curiosidade:  Exposição solar ajuda na produção de vitamina D.",
+    "id": "quiz-bem-estar-103",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de tempo ajuda a evitar o estresse?",
+    "options": [
+      "Procrastinação",
+      "Multitarefas",
+      "Planejamento",
+      "Adiamento"
+    ],
+    "correctAnswer": "Planejamento",
+    "explanation": "Planejar ajuda a organizar tarefas e prioridades, reduzindo a ansiedade e o estresse. Procrastinação e adiamento geram estresse, e multitarefas diminui a eficiência. Curiosidade: A técnica Pomodoro é uma boa opção de planejamento.",
+    "id": "quiz-bem-estar-104",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito diário contribui mais para a sensação de calma e bem-estar?",
+    "options": [
+      "Assistir TV",
+      "Meditar por 5 minutos",
+      "Checar redes sociais",
+      "Jogar videogame"
+    ],
+    "correctAnswer": "Meditar por 5 minutos",
+    "explanation": "A meditação promove relaxamento e reduz a atividade da amígdala, área do cérebro associada ao medo e estresse.  As outras opções, embora possam ser relaxantes para alguns, não oferecem os mesmos benefícios comprovados para a redução do estresse. Curiosidade: A meditação regular pode aumentar o volume de massa cinzenta no cérebro.",
+    "id": "quiz-bem-estar-105",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a autocompaixão difere da autopiedade na superação de adversidades?",
+    "options": [
+      "Não há diferença significativa",
+      "A autopiedade é mais eficaz",
+      "A autocompaixão promove crescimento, a autopiedade gera estagnação",
+      "A autocompaixão é autodestrutiva"
+    ],
+    "correctAnswer": "A autocompaixão promove crescimento, a autopiedade gera estagnação",
+    "explanation": "A autocompaixão envolve bondade e aceitação em relação a si mesmo, impulsionando o aprendizado e o crescimento. A autopiedade é focada na autocrítica e na estagnação emocional, dificultando a superação. Curiosidade: A autocompaixão é uma habilidade que pode ser cultivada com a prática.",
+    "id": "quiz-bem-estar-106",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre TCC e ACT na abordagem do bem-estar?",
+    "options": [
+      "Ambas são idênticas",
+      "TCC foca em mudar pensamentos, ACT em aceitar emoções",
+      "ACT foca em mudar pensamentos, TCC em aceitar emoções",
+      "Nenhuma foca em emoções"
+    ],
+    "correctAnswer": "TCC foca em mudar pensamentos, ACT em aceitar emoções",
+    "explanation": "A Terapia Cognitivo-Comportamental (TCC) busca identificar e modificar padrões de pensamento negativos. A Terapia de Aceitação e Compromisso (ACT) enfatiza a aceitação das emoções e a ação em direção a valores pessoais. Curiosidade:  Tanto TCC quanto ACT são eficazes, mas se encaixam em perfis diferentes de pacientes.",
+    "id": "quiz-bem-estar-107",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é ideal para iniciantes que buscam bem-estar?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Maratona",
+      "Caminhada leve",
+      "Escalada em rocha"
+    ],
+    "correctAnswer": "Caminhada leve",
+    "explanation": "A caminhada leve é de baixo impacto e acessível a todos os níveis de condicionamento físico.  As outras opções exigem mais preparo físico e podem causar lesões em iniciantes. Curiosidade: Caminhar na natureza aumenta os benefícios para o bem-estar.",
+    "id": "quiz-bem-estar-108",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física relaxante pode ser feita em poucos minutos para aliviar a tensão?",
+    "options": [
+      "Leitura",
+      "Alongamento leve",
+      "Assistir TV",
+      "Jogar videogame"
+    ],
+    "correctAnswer": "Alongamento leve",
+    "explanation": "Alongamentos leves relaxam os músculos tensos, aliviando a tensão física que pode contribuir para o estresse. Leitura, assistir TV e jogar videogame podem ser relaxantes, mas não oferecem o benefício físico imediato do alongamento.  Curiosidade:  A prática regular de alongamento melhora a flexibilidade e a amplitude de movimento.",
+    "id": "quiz-bem-estar-109",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina D?",
+    "options": [
+      "Cenoura",
+      "Banana",
+      "Salmão",
+      "Maçã"
+    ],
+    "correctAnswer": "Salmão",
+    "explanation": "O salmão é uma excelente fonte de vitamina D, essencial para a saúde óssea e o sistema imunológico. As outras opções são pobres em vitamina D. Curiosidade: A exposição ao sol também ajuda na produção de vitamina D pelo corpo.",
+    "id": "quiz-bem-estar-110",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é geralmente recomendada para iniciantes?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Maratona",
+      "Caminhada leve",
+      "CrossFit"
+    ],
+    "correctAnswer": "Caminhada leve",
+    "explanation": "A caminhada leve é de baixo impacto e acessível a quase todos, ideal para iniciantes.  As outras opções são muito intensas para quem está começando. Curiosidade: Caminhar na natureza aumenta os benefícios para o bem-estar.",
+    "id": "quiz-bem-estar-111",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito diário simples pode melhorar significativamente o seu humor?",
+    "options": [
+      "Beber bastante água",
+      "Ouvir música animada",
+      "Meditar por 5 minutos",
+      "Tomar um café da manhã nutritivo"
+    ],
+    "correctAnswer": "Tomar um café da manhã nutritivo",
+    "explanation": "Um café da manhã nutritivo fornece energia e nutrientes essenciais para o bom funcionamento do corpo e do cérebro, impactando positivamente o humor. As outras opções também são benéficas, mas o café da manhã tem um impacto mais direto e consistente no humor.  Curiosidade: Um estudo mostrou que pessoas que tomam café da manhã regularmente tendem a ter um IMC mais baixo.",
+    "id": "quiz-bem-estar-112",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é recomendada para melhorar o humor?",
+    "options": [
+      "Dormir",
+      "Assistir TV",
+      "Caminhar",
+      "Comer doces"
+    ],
+    "correctAnswer": "Caminhar",
+    "explanation": "Caminhar libera endorfinas, que melhoram o humor. As outras opções não são atividades físicas e podem até piorar o humor a longo prazo. Curiosidade:  A caminhada também melhora a qualidade do sono.",
+    "id": "quiz-bem-estar-113",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física diária, mesmo que curta, pode melhorar o humor?",
+    "options": [
+      "Assistir TV",
+      "Meditar por 5 minutos",
+      "Dormir por 12 horas",
+      "Comer chocolate"
+    ],
+    "correctAnswer": "Meditar por 5 minutos",
+    "explanation": "A meditação, mesmo em curtos períodos, reduz o cortisol (hormônio do estresse) e aumenta a serotonina (hormônio do bem-estar). Assistir TV é passivo, dormir demais prejudica e chocolate tem efeitos temporários. Curiosidade: 5 minutos de meditação diária já demonstram impactos positivos na saúde mental.",
+    "id": "quiz-bem-estar-114",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito alimentar simples pode melhorar significativamente a digestão?",
+    "options": [
+      "Comer rápido",
+      "Beber refrigerante",
+      "Mastigar bem os alimentos",
+      "Comer apenas doces"
+    ],
+    "correctAnswer": "Mastigar bem os alimentos",
+    "explanation": "Mastigar bem facilita a digestão, reduzindo inchaço e desconforto. Comer rápido, refrigerantes e dietas ricas em açúcares prejudicam o sistema digestivo. Curiosidade: O ato de mastigar estimula a produção de enzimas digestivas.",
+    "id": "quiz-bem-estar-115",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a prática regular de mindfulness impacta a atividade da amígdala, região cerebral associada ao medo e ao estresse?",
+    "options": [
+      "Aumenta significativamente a atividade da amígdala",
+      "Não afeta a atividade da amígdala",
+      "Diminui a atividade da amígdala em situações estressantes",
+      "Aumenta a atividade da amígdala apenas em situações positivas"
+    ],
+    "correctAnswer": "Diminui a atividade da amígdala em situações estressantes",
+    "explanation": "Estudos demonstram que a prática regular de mindfulness reduz a resposta da amígdala a estímulos ameaçadores, diminuindo a intensidade da resposta ao estresse. As outras opções são incorretas, pois a mindfulness visa reduzir, não aumentar, a atividade da amígdala em situações de estresse. Curiosidade: A amígdala faz parte do sistema límbico, responsável pelas emoções.",
+    "id": "quiz-bem-estar-116",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual atividade física é ideal para melhorar a flexibilidade e a amplitude de movimento?",
+    "options": [
+      "Levantamento de peso pesado",
+      "Corrida de longa distância",
+      "Yoga ou Pilates",
+      "Natação competitiva"
+    ],
+    "correctAnswer": "Yoga ou Pilates",
+    "explanation": "Yoga e Pilates são práticas que focam em alongamento, flexibilidade e controle corporal, melhorando a amplitude de movimento.  As outras opções focam em outros aspectos da aptidão física. Curiosidade: A flexibilidade pode diminuir o risco de lesões.",
+    "id": "quiz-bem-estar-117",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual técnica de gerenciamento de tempo ajuda a priorizar tarefas e evitar a sensação de sobrecarga?",
+    "options": [
+      "Procrastinação",
+      "Fazer várias coisas ao mesmo tempo",
+      "Matriz de Eisenhower",
+      "Não definir metas"
+    ],
+    "correctAnswer": "Matriz de Eisenhower",
+    "explanation": "A Matriz de Eisenhower (urgente/importante) ajuda a organizar as tarefas por prioridade, evitando desperdício de tempo e estresse. Procrastinação, multitarefa e não definir metas são ineficazes para o gerenciamento de tempo. Curiosidade: A Matriz de Eisenhower também é conhecida como Matriz de Priorização.",
+    "id": "quiz-bem-estar-118",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre TCC (Terapia Cognitivo-Comportamental) e ACT (Terapia de Aceitação e Compromisso) na abordagem do bem-estar?",
+    "options": [
+      "Não há diferenças significativas",
+      "TCC foca em mudar pensamentos e comportamentos, enquanto ACT foca em aceitar o presente",
+      "TCC foca em aceitar o presente, enquanto ACT foca em mudar pensamentos e comportamentos",
+      "Ambas focam nas mesmas técnicas"
+    ],
+    "correctAnswer": "TCC foca em mudar pensamentos e comportamentos, enquanto ACT foca em aceitar o presente",
+    "explanation": "TCC visa identificar e modificar padrões de pensamento e comportamento negativos. ACT enfatiza a aceitação do momento presente e o compromisso com valores pessoais.  Curiosidade: Ambas as terapias são eficazes para diferentes tipos de problemas.",
+    "id": "quiz-bem-estar-119",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina D, essencial para a saúde óssea e imunológica?",
+    "options": [
+      "Banana",
+      "Abacate",
+      "Salmão",
+      "Cenoura"
+    ],
+    "correctAnswer": "Salmão",
+    "explanation": "O salmão é rico em vitamina D, além de outros nutrientes benéficos. As outras opções não são boas fontes de vitamina D. Curiosidade: A exposição ao sol também ajuda o corpo a produzir vitamina D.",
+    "id": "quiz-bem-estar-120",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física é geralmente recomendada para iniciantes em busca de bem-estar cardiovascular?",
+    "options": [
+      "Ultramaratona",
+      "Natação",
+      "Montanhismo",
+      "Boxe profissional"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "A natação é uma atividade de baixo impacto, adequada para iniciantes e que melhora a saúde cardiovascular. As outras opções são muito intensas ou exigem preparo físico. Curiosidade: A natação trabalha diversos grupos musculares ao mesmo tempo.",
+    "id": "quiz-bem-estar-121",
+    "categoryId": "bem-estar"
+  }
+]

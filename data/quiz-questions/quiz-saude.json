@@ -2058,5 +2058,33 @@
     "explanation": "A lavagem das mãos é crucial na prevenção da propagação de vírus e bactérias, incluindo os causadores da gripe. As outras opções não são diretamente prevenidas pela higiene das mãos. Curiosidade: Lavar as mãos corretamente leva em média 20 segundos.",
     "id": "quiz-saude-147",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a importância do sono para a saúde?",
+    "options": [
+      "Aumenta o risco de doenças cardíacas",
+      "Diminui a capacidade cognitiva",
+      "Repara tecidos e fortalece o sistema imunológico",
+      "Aumenta o estresse"
+    ],
+    "correctAnswer": "Repara tecidos e fortalece o sistema imunológico",
+    "explanation": "O sono é essencial para a reparação celular e para um sistema imunológico forte. A falta de sono prejudica essas funções. Curiosidade: Durante o sono, o corpo libera hormônios do crescimento que ajudam na reparação dos tecidos.",
+    "id": "quiz-saude-148",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal hormônio que regula o metabolismo basal?",
+    "options": [
+      "Insulina",
+      "Hormônio do crescimento",
+      "Tiroxina (T4)",
+      "Cortisol"
+    ],
+    "correctAnswer": "Tiroxina (T4)",
+    "explanation": "A tiroxina (T4), um hormônio da tireoide, desempenha um papel crucial na regulação do metabolismo basal, influenciando o consumo de energia em repouso. Os outros hormônios têm funções importantes, mas não são os principais reguladores do metabolismo basal.",
+    "id": "quiz-saude-149",
+    "categoryId": "saude"
   }
 ]

@@ -66,7 +66,7 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export', // Exporta o site como estático para o Capacitor
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -82,6 +82,7 @@ const nextConfig: NextConfig = {
     return config;
   },
   images: {
+    unoptimized: true, // Desabilita a otimização de imagem do Next.js para o Capacitor
     remotePatterns: [
       {
         protocol: 'https',
