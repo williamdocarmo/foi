@@ -1,0 +1,1150 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual nutriente é essencial para a formação de ossos fortes?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12",
+      "Ferro"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D auxilia na absorção de cálcio, crucial para a saúde óssea. A vitamina C é importante para o colágeno, B12 para o sistema nervoso e o ferro para o transporte de oxigênio.",
+    "id": "quiz-saude-1",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Quantos copos de água por dia são recomendados para a maioria dos adultos?",
+    "options": [
+      "2",
+      "5",
+      "8",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "explanation": "8 copos (cerca de 2 litros) é uma recomendação geral, mas pode variar com a atividade física e clima.  Menos que isso pode levar à desidratação; mais pode sobrecarregar os rins.",
+    "id": "quiz-saude-2",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes exercícios é melhor para fortalecer o core?",
+    "options": [
+      "Flexões",
+      "Agachamentos",
+      "Prancha",
+      "Corrida"
+    ],
+    "correctAnswer": "Prancha",
+    "explanation": "A prancha trabalha diretamente os músculos abdominais e lombares, estabilizando o core. Flexões e agachamentos também trabalham o core, mas indiretamente.",
+    "id": "quiz-saude-3",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que significa IMC?",
+    "options": [
+      "Índice de Massa Corporal",
+      "Índice Muscular Corporal",
+      "Índice Metabólico Cardíaco",
+      "Índice de Massa Cardíaca"
+    ],
+    "correctAnswer": "Índice de Massa Corporal",
+    "explanation": "IMC é a sigla para Índice de Massa Corporal, uma medida de gordura corporal com base na altura e peso.",
+    "id": "quiz-saude-4",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio regula o ciclo circadiano do corpo?",
+    "options": [
+      "Insulina",
+      "Adrenalina",
+      "Melatonina",
+      "Testosterona"
+    ],
+    "correctAnswer": "Melatonina",
+    "explanation": "A melatonina é um hormônio produzido pela glândula pineal, que regula o ciclo sono-vigília.  Os outros hormônios têm funções diferentes no corpo.",
+    "id": "quiz-saude-5",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o melhor horário para se exercitar?",
+    "options": [
+      "Manhã",
+      "Tarde",
+      "Noite",
+      "Depende da pessoa"
+    ],
+    "correctAnswer": "Depende da pessoa",
+    "explanation": "O melhor horário para treinar varia de acordo com o ritmo circadiano individual, preferências e disponibilidade.",
+    "id": "quiz-saude-6",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas atividades não é benéfica para saúde cardiovascular?",
+    "options": [
+      "Natação",
+      "Ciclismo",
+      "Futebol",
+      "Assistir TV"
+    ],
+    "correctAnswer": "Assistir TV",
+    "explanation": "Assistir TV é sedentário e não promove atividade cardiovascular.",
+    "id": "quiz-saude-7",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a dissonância cognitiva em relação à saúde?",
+    "options": [
+      "Doença mental relacionada ao sono",
+      "Conflito entre crenças e comportamentos relacionados à saúde",
+      "Tipo de alergia alimentar",
+      "Método de perda de peso"
+    ],
+    "correctAnswer": "Conflito entre crenças e comportamentos relacionados à saúde",
+    "explanation": "A dissonância cognitiva na saúde ocorre quando se sabe que algo é prejudicial (ex: fumar), mas não se age de acordo (continua fumando).",
+    "id": "quiz-saude-8",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Higiene de mãos previne principalmente:",
+    "options": [
+      "Câncer",
+      "Gripes e resfriados",
+      "Depressão",
+      "Doenças cardíacas"
+    ],
+    "correctAnswer": "Gripes e resfriados",
+    "explanation": "A lavagem das mãos é crucial para prevenir a disseminação de vírus e bactérias que causam doenças respiratórias como gripe e resfriados.",
+    "id": "quiz-saude-9",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal componente do sangue?",
+    "options": [
+      "Plasma",
+      "Glóbulos vermelhos",
+      "Glóbulos brancos",
+      "Plaquetas"
+    ],
+    "correctAnswer": "Plasma",
+    "explanation": "O plasma compõe cerca de 55% do sangue, sendo o componente líquido. Os outros são células sanguíneas.",
+    "id": "quiz-saude-10",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal função da microbiota intestinal?",
+    "options": [
+      "Produção de hormônios sexuais",
+      "Regulação do metabolismo",
+      "Absorção de vitaminas",
+      "Todas as alternativas"
+    ],
+    "correctAnswer": "Todas as alternativas",
+    "explanation": "A microbiota intestinal desempenha todas essas funções e muitas outras, impactando fortemente a saúde.",
+    "id": "quiz-saude-11",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Dormir bem ajuda a melhorar:",
+    "options": [
+      "Apetite",
+      "Concentração",
+      "Humor",
+      "Tudo acima"
+    ],
+    "correctAnswer": "Tudo acima",
+    "explanation": "Dormir bem é essencial para o funcionamento adequado do corpo, influenciando diretamente apetite, humor e concentração.",
+    "id": "quiz-saude-12",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a síndrome metabólica?",
+    "options": [
+      "Doença autoimune",
+      "Condição crônica caracterizada por um conjunto de fatores de risco para doenças cardíacas e diabetes",
+      "Tipo de alergia",
+      "Doença infecciosa"
+    ],
+    "correctAnswer": "Condição crônica caracterizada por um conjunto de fatores de risco para doenças cardíacas e diabetes",
+    "explanation": "A síndrome metabólica é uma condição que aumenta o risco de doenças cardíacas, diabetes e outras complicações.",
+    "id": "quiz-saude-13",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o papel da telomerase?",
+    "options": [
+      "Reparar o DNA",
+      "Produzir energia",
+      "Proteger os telômeros",
+      "Regular o sono"
+    ],
+    "correctAnswer": "Proteger os telômeros",
+    "explanation": "A telomerase é uma enzima que mantém o comprimento dos telômeros, as extremidades dos cromossomos, associadas ao envelhecimento celular.",
+    "id": "quiz-saude-14",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em fibras?",
+    "options": [
+      "Arroz branco",
+      "Batata frita",
+      "Aveia",
+      "Refrigerante"
+    ],
+    "correctAnswer": "Aveia",
+    "explanation": "A aveia é uma excelente fonte de fibras solúveis e insolúveis, importantes para a saúde digestiva.",
+    "id": "quiz-saude-15",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre vírus e bactérias?",
+    "options": [
+      "Vírus são maiores que bactérias",
+      "Bactérias são tratadas com antibióticos, vírus não",
+      "Vírus são organismos unicelulares, bactérias multicelulares",
+      "Bactérias causam apenas doenças respiratórias"
+    ],
+    "correctAnswer": "Bactérias são tratadas com antibióticos, vírus não",
+    "explanation": "Antibióticos são eficazes contra bactérias, mas não contra vírus.  A estrutura e o funcionamento de ambos são diferentes.",
+    "id": "quiz-saude-16",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a apneia do sono?",
+    "options": [
+      "Distúrbio de ansiedade",
+      "Distúrbio do sono caracterizado por pausas na respiração",
+      "Doença infecciosa",
+      "Doença neurodegenerativa"
+    ],
+    "correctAnswer": "Distúrbio do sono caracterizado por pausas na respiração",
+    "explanation": "A apneia do sono causa pausas na respiração durante o sono, levando a interrupções do descanso.",
+    "id": "quiz-saude-17",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função do coração?",
+    "options": [
+      "Transportar oxigênio",
+      "Digestão de alimentos",
+      "Bombear sangue",
+      "Regular a temperatura"
+    ],
+    "correctAnswer": "Bombear sangue",
+    "explanation": "O coração é o órgão responsável pela circulação do sangue pelo corpo.",
+    "id": "quiz-saude-18",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o mineral essencial para a função da tireoide?",
+    "options": [
+      "Ferro",
+      "Cálcio",
+      "Iodo",
+      "Magnésio"
+    ],
+    "correctAnswer": "Iodo",
+    "explanation": "O iodo é essencial para a produção dos hormônios tireoidianos.",
+    "id": "quiz-saude-19",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a inflamação crônica de baixo grau?",
+    "options": [
+      "Um tipo de alergia",
+      "Uma resposta inflamatória prolongada que pode contribuir para doenças crônicas",
+      "Doença autoimune",
+      "Tipo de infecção viral"
+    ],
+    "correctAnswer": "Uma resposta inflamatória prolongada que pode contribuir para doenças crônicas",
+    "explanation": "A inflamação crônica de baixo grau está ligada a várias doenças, como doenças cardíacas e diabetes.",
+    "id": "quiz-saude-20",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em proteínas?",
+    "options": [
+      "Banana",
+      "Cenoura",
+      "Frango",
+      "Arroz"
+    ],
+    "correctAnswer": "Frango",
+    "explanation": "O frango é uma ótima fonte de proteínas.",
+    "id": "quiz-saude-21",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual vitamina é importante para a visão noturna?",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina K"
+    ],
+    "correctAnswer": "Vitamina A",
+    "explanation": "A vitamina A é essencial para a saúde dos olhos, especialmente para a visão noturna.",
+    "id": "quiz-saude-22",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a resistência à insulina?",
+    "options": [
+      "Incapacidade do corpo de usar insulina adequadamente",
+      "Alergia à insulina",
+      "Falta de produção de insulina",
+      "Doença autoimune"
+    ],
+    "correctAnswer": "Incapacidade do corpo de usar insulina adequadamente",
+    "explanation": "Resistência à insulina é quando as células não respondem adequadamente à insulina, levando a altos níveis de açúcar no sangue.",
+    "id": "quiz-saude-23",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Lavar as mãos com água e sabão é eficaz contra:",
+    "options": [
+      "Todos os vírus",
+      "Todas as bactérias",
+      "Muitos germes",
+      "Nenhum germe"
+    ],
+    "correctAnswer": "Muitos germes",
+    "explanation": "Lavar as mãos remove muitos germes, mas não todos.",
+    "id": "quiz-saude-24",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é o colesterol HDL?",
+    "options": [
+      "Colesterol ruim",
+      "Colesterol bom",
+      "Tipo de açúcar",
+      "Tipo de gordura"
+    ],
+    "correctAnswer": "Colesterol bom",
+    "explanation": "O HDL remove o colesterol do sangue, protegendo contra doenças cardíacas.",
+    "id": "quiz-saude-25",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre exercício aeróbico e anaeróbico?",
+    "options": [
+      "Aeróbico usa oxigênio, anaeróbico não",
+      "Aeróbico é mais intenso",
+      "Anaeróbico é mais duradouro",
+      "Não há diferença significativa"
+    ],
+    "correctAnswer": "Aeróbico usa oxigênio, anaeróbico não",
+    "explanation": "Exercícios aeróbicos usam oxigênio para gerar energia, enquanto exercícios anaeróbicos não.",
+    "id": "quiz-saude-26",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Atividade física regular reduz o risco de:",
+    "options": [
+      "Doenças cardíacas",
+      "Diabetes",
+      "Obesidade",
+      "Todas as opções"
+    ],
+    "correctAnswer": "Todas as opções",
+    "explanation": "Atividade física regular é benéfica para a saúde cardiovascular, metabólica e para o controle de peso.",
+    "id": "quiz-saude-27",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que são radicais livres?",
+    "options": [
+      "Moléculas instáveis que danificam as células",
+      "Tipo de vitamina",
+      "Tipo de bactéria",
+      "Tipo de hormônio"
+    ],
+    "correctAnswer": "Moléculas instáveis que danificam as células",
+    "explanation": "Radicais livres são moléculas instáveis que danificam as células, contribuindo para o envelhecimento e doenças.",
+    "id": "quiz-saude-28",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a autofagia?",
+    "options": [
+      "Processo de destruição de células danificadas",
+      "Doença autoimune",
+      "Processo de absorção de nutrientes",
+      "Tipo de inflamação"
+    ],
+    "correctAnswer": "Processo de destruição de células danificadas",
+    "explanation": "A autofagia é um processo natural do corpo onde as células danificadas ou desnecessárias são destruídas.",
+    "id": "quiz-saude-29",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal órgão responsável pela desintoxicação do corpo?",
+    "options": [
+      "Coração",
+      "Pulmões",
+      "Fígado",
+      "Estômago"
+    ],
+    "correctAnswer": "Fígado",
+    "explanation": "O fígado é o principal órgão responsável pela filtragem e desintoxicação do sangue.",
+    "id": "quiz-saude-30",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a importância do sono REM?",
+    "options": [
+      "Consolidação da memória",
+      "Reparação muscular",
+      "Regulação da temperatura",
+      "Digestão de alimentos"
+    ],
+    "correctAnswer": "Consolidação da memória",
+    "explanation": "O sono REM é crucial para a consolidação da memória.",
+    "id": "quiz-saude-31",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a neuroplasticidade?",
+    "options": [
+      "Capacidade do cérebro de se adaptar e mudar",
+      "Doença neurodegenerativa",
+      "Formação de novas sinapses",
+      "Tudo acima"
+    ],
+    "correctAnswer": "Tudo acima",
+    "explanation": "A neuroplasticidade é a capacidade do cérebro de mudar sua estrutura e função em resposta à experiência.",
+    "id": "quiz-saude-32",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal benefício da prática regular de exercícios?",
+    "options": [
+      "Redução de stress",
+      "Melhora do humor",
+      "Fortalecimento muscular",
+      "Todos os itens acima"
+    ],
+    "correctAnswer": "Todos os itens acima",
+    "explanation": "Exercícios regulares trazem inúmeros benefícios para a saúde física e mental.",
+    "id": "quiz-saude-33",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o nome do hormônio do crescimento?",
+    "options": [
+      "Insulina",
+      "Testosterona",
+      "Hormônio do crescimento (GH)",
+      "Adrenalina"
+    ],
+    "correctAnswer": "Hormônio do crescimento (GH)",
+    "explanation": "O hormônio do crescimento (GH) é crucial para o crescimento e desenvolvimento.",
+    "id": "quiz-saude-34",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a telomerase reversa?",
+    "options": [
+      "Tratamento para doenças autoimunes",
+      "Processo de encurtamento dos telômeros",
+      "Uma técnica para alongar os telômeros",
+      "Um tipo de célula cancerígena"
+    ],
+    "correctAnswer": "Uma técnica para alongar os telômeros",
+    "explanation": "A telomerase reversa é uma área de pesquisa promissora no combate ao envelhecimento.",
+    "id": "quiz-saude-35",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Para que serve o sistema imunológico?",
+    "options": [
+      "Digestão de alimentos",
+      "Regulação da temperatura",
+      "Defesa contra doenças",
+      "Transporte de oxigênio"
+    ],
+    "correctAnswer": "Defesa contra doenças",
+    "explanation": "O sistema imunológico protege o corpo de invasores nocivos.",
+    "id": "quiz-saude-36",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a pressão arterial?",
+    "options": [
+      "Força do sangue contra as artérias",
+      "Velocidade do fluxo sanguíneo",
+      "Volume de sangue no corpo",
+      "Frequência cardíaca"
+    ],
+    "correctAnswer": "Força do sangue contra as artérias",
+    "explanation": "A pressão arterial é a força exercida pelo sangue nas paredes das artérias.",
+    "id": "quiz-saude-37",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a apoptose?",
+    "options": [
+      "Morte celular programada",
+      "Formação de novas células",
+      "Inflamação crônica",
+      "Resposta imunológica"
+    ],
+    "correctAnswer": "Morte celular programada",
+    "explanation": "A apoptose é um processo natural de morte celular.",
+    "id": "quiz-saude-38",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Uma dieta balanceada inclui:",
+    "options": [
+      "Somente proteínas",
+      "Somente carboidratos",
+      "Frutas, vegetais, proteínas e carboidratos",
+      "Somente gorduras"
+    ],
+    "correctAnswer": "Frutas, vegetais, proteínas e carboidratos",
+    "explanation": "Uma dieta balanceada inclui uma variedade de nutrientes.",
+    "id": "quiz-saude-39",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual hormônio regula o açúcar no sangue?",
+    "options": [
+      "Adrenalina",
+      "Testosterona",
+      "Insulina",
+      "Melatonina"
+    ],
+    "correctAnswer": "Insulina",
+    "explanation": "A insulina ajuda a regular os níveis de açúcar no sangue.",
+    "id": "quiz-saude-40",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a homeostase?",
+    "options": [
+      "Capacidade do corpo de manter um ambiente interno estável",
+      "Doença autoimune",
+      "Resposta inflamatória",
+      "Processo de envelhecimento"
+    ],
+    "correctAnswer": "Capacidade do corpo de manter um ambiente interno estável",
+    "explanation": "A homeostase é a capacidade do corpo de manter um ambiente interno estável.",
+    "id": "quiz-saude-41",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é considerada exercício aeróbico?",
+    "options": [
+      "Levantamento de peso",
+      "Yoga",
+      "Natação",
+      "Flexões"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "Natação é um exercício aeróbico que aumenta a frequência cardíaca e a respiração por um período prolongado. Levantamento de peso é anaeróbico, yoga é uma prática de baixo impacto e flexões são exercícios de força. Curiosidade: Nadar é uma ótima atividade de baixo impacto para pessoas com problemas nas articulações.",
+    "id": "quiz-saude-42",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A deficiência de qual vitamina pode levar ao escorbuto?",
+    "options": [
+      "Vitamina A",
+      "Vitamina D",
+      "Vitamina C",
+      "Vitamina K"
+    ],
+    "correctAnswer": "Vitamina C",
+    "explanation": "O escorbuto é causado pela deficiência de vitamina C, essencial para a produção de colágeno. As outras vitaminas são importantes, mas não estão diretamente relacionadas ao escorbuto. Curiosidade: Os sintomas do escorbuto incluem sangramento gengival, fadiga e fraqueza.",
+    "id": "quiz-saude-43",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual processo biológico envolve a remoção de componentes celulares danificados ou desnecessários?",
+    "options": [
+      "Apoptose",
+      "Autofagia",
+      "Mitogênese",
+      "Telomerase"
+    ],
+    "correctAnswer": "Autofagia",
+    "explanation": "Autofagia é um processo celular de degradação e reciclagem de componentes celulares. Apoptose é a morte celular programada, mitogênese é a divisão celular e telomerase é uma enzima que mantém os telômeros. Curiosidade: A autofagia é crucial para a sobrevivência celular e a saúde em geral, podendo ser afetada pelo jejum.",
+    "id": "quiz-saude-44",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de ferro?",
+    "options": [
+      "Banana",
+      "Cenoura",
+      "Espinafre",
+      "Abacate"
+    ],
+    "correctAnswer": "Espinafre",
+    "explanation": "Espinafre é rico em ferro, um mineral essencial para a produção de hemoglobina. As outras opções são boas fontes de nutrientes, mas não de ferro. Curiosidade: O ferro não-heme (presente em vegetais) é menos absorvido pelo organismo que o ferro-heme (presente em carnes).",
+    "id": "quiz-saude-45",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal fator de risco para doenças cardíacas?",
+    "options": [
+      "Falta de sono",
+      "Estresse",
+      "Hipertensão",
+      "Dieta rica em açúcar"
+    ],
+    "correctAnswer": "Hipertensão",
+    "explanation": "A hipertensão arterial (pressão alta) é um fator de risco principal para doenças cardíacas. Embora a falta de sono, o estresse e uma dieta rica em açúcar contribuam, a hipertensão é um fator de risco mais direto e significativo. Curiosidade: A hipertensão muitas vezes não apresenta sintomas, tornando importante a medição regular da pressão arterial.",
+    "id": "quiz-saude-46",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio é responsável pela regulação do metabolismo basal?",
+    "options": [
+      "Insulina",
+      "Adrenalina",
+      "Tiroxina",
+      "Testosterona"
+    ],
+    "correctAnswer": "Tiroxina",
+    "explanation": "A tiroxina (T4) e a triiodotironina (T3), hormônios da tireoide, são os principais reguladores do metabolismo basal. A insulina regula o açúcar no sangue, a adrenalina responde ao estresse e a testosterona está envolvida no desenvolvimento sexual. Curiosidade: A disfunção da tireoide pode causar alterações significativas no metabolismo, levando ao ganho ou perda de peso.",
+    "id": "quiz-saude-47",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a melhor maneira de prevenir a gripe?",
+    "options": [
+      "Tomar antibióticos",
+      "Usar protetor solar",
+      "Lavar as mãos frequentemente",
+      "Comer mais frutas"
+    ],
+    "correctAnswer": "Lavar as mãos frequentemente",
+    "explanation": "Lavar as mãos frequentemente com água e sabão é a melhor forma de prevenir a gripe e outras doenças infecciosas. Antibióticos são ineficazes contra vírus, protetor solar previne danos solares e, embora comer frutas seja saudável, não previne diretamente a gripe. Curiosidade: A gripe é causada por um vírus que se espalha facilmente pelo ar e pelo contato direto.",
+    "id": "quiz-saude-48",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a disbiose intestinal?",
+    "options": [
+      "Um tipo de parasita intestinal",
+      "Desequilíbrio da microbiota intestinal",
+      "Infecção viral do intestino",
+      "Inflamação do intestino"
+    ],
+    "correctAnswer": "Desequilíbrio da microbiota intestinal",
+    "explanation": "Disbiose intestinal é um desequilíbrio na composição e função da microbiota intestinal, podendo causar problemas de saúde. Não é um parasita, nem infecção viral, e embora possa levar à inflamação, a definição primária é o desequilíbrio. Curiosidade: A disbiose está ligada a diversas condições, como obesidade, doenças autoimunes e problemas de humor.",
+    "id": "quiz-saude-49",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o papel da microbiota intestinal na digestão?",
+    "options": [
+      "Produção de ácidos graxos de cadeia curta",
+      "Síntese de vitaminas B e K",
+      "Degradação de nutrientes não digeríveis",
+      "Todas as alternativas estão corretas"
+    ],
+    "correctAnswer": "Todas as alternativas estão corretas",
+    "explanation": "A microbiota intestinal desempenha todas as funções citadas: produz ácidos graxos de cadeia curta, sintetiza vitaminas B e K, e degrada nutrientes não digeríveis.  Curiosidade: Um intestino saudável, com uma microbiota equilibrada, é crucial para uma boa imunidade e saúde geral.",
+    "id": "quiz-saude-50",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas bebidas é melhor para a hidratação?",
+    "options": [
+      "Refrigerante",
+      "Suco de fruta",
+      "Água",
+      "Café"
+    ],
+    "correctAnswer": "Água",
+    "explanation": "A água é a melhor opção para hidratação, pois não contém açúcar ou outras substâncias que podem desidratar. Refrigerantes, sucos e café podem ter efeitos diuréticos. Curiosidade: A desidratação pode causar fadiga, dores de cabeça e problemas de concentração.",
+    "id": "quiz-saude-51",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas atividades ajuda a melhorar a densidade óssea?",
+    "options": [
+      "Natação",
+      "Ioga",
+      "Corrida",
+      "Ciclismo"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "Atividades de impacto como corrida estimulam a formação de osso novo, aumentando a densidade óssea. Natação, ioga e ciclismo são atividades de baixo impacto. Curiosidade: A densidade óssea começa a diminuir com a idade, especialmente em mulheres após a menopausa.",
+    "id": "quiz-saude-52",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que são os telômeros e qual sua relação com o envelhecimento?",
+    "options": [
+      "Proteínas que regulam o crescimento celular",
+      "Sequências repetitivas de DNA nas extremidades dos cromossomos",
+      "Enzimas que replicam o DNA",
+      "Moléculas de RNA que transportam informações genéticas"
+    ],
+    "correctAnswer": "Sequências repetitivas de DNA nas extremidades dos cromossomos",
+    "explanation": "Telômeros são sequências repetitivas de DNA nas extremidades dos cromossomos que protegem o DNA durante a replicação. O encurtamento dos telômeros está associado ao envelhecimento celular. Curiosidade: O tamanho dos telômeros pode ser afetado por fatores como estilo de vida e genética.",
+    "id": "quiz-saude-53",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função do fígado?",
+    "options": [
+      "Produzir hormônios",
+      "Filtrar o sangue",
+      "Controlar a respiração",
+      "Regular a temperatura corporal"
+    ],
+    "correctAnswer": "Filtrar o sangue",
+    "explanation": "O fígado filtra o sangue, removendo toxinas e processando nutrientes. Os hormônios são produzidos pelas glândulas endócrinas, a respiração é controlada pelos pulmões e o hipotálamo regula a temperatura corporal. Curiosidade: O fígado é o maior órgão interno do corpo humano.",
+    "id": "quiz-saude-54",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas atividades é mais eficaz para melhorar a flexibilidade?",
+    "options": [
+      "Levantamento de peso",
+      "Corrida de longa distância",
+      "Yoga",
+      "Natação"
+    ],
+    "correctAnswer": "Yoga",
+    "explanation": "Yoga enfatiza alongamentos e posturas que melhoram a flexibilidade. Levantamento de peso foca em força, corrida em resistência cardiovascular e natação em resistência e força muscular. Curiosidade: A flexibilidade é crucial para prevenir lesões musculares.",
+    "id": "quiz-saude-55",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a hiperplasia miofibrilar?",
+    "options": [
+      "Aumento no tamanho das células musculares",
+      "Aumento no número de células musculares",
+      "Diminuição no tamanho das células musculares",
+      "Diminuição no número de células musculares"
+    ],
+    "correctAnswer": "Aumento no número de células musculares",
+    "explanation": "Hiperplasia miofibrilar refere-se ao aumento no número de células musculares, enquanto a hipertrofia é o aumento do tamanho das células. Atrofia muscular se refere à diminuição do tamanho ou número de células musculares. Curiosidade: A hiperplasia miofibrilar é mais comum em atletas de resistência.",
+    "id": "quiz-saude-56",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nutriente fornece energia rapidamente ao corpo?",
+    "options": [
+      "Proteínas",
+      "Gorduras",
+      "Carboidratos",
+      "Vitaminas"
+    ],
+    "correctAnswer": "Carboidratos",
+    "explanation": "Carboidratos são a principal fonte de energia rápida para o corpo. Proteínas constroem e reparam tecidos, gorduras fornecem energia de forma mais lenta e vitaminas regulam processos metabólicos. Curiosidade:  A glicose é o carboidrato principal utilizado como fonte de energia.",
+    "id": "quiz-saude-57",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da falta de sono crônica na saúde mental?",
+    "options": [
+      "Melhora o humor e a concentração",
+      "Aumenta o risco de depressão e ansiedade",
+      "Não tem impacto significativo",
+      "Causa exclusivamente problemas físicos"
+    ],
+    "correctAnswer": "Aumenta o risco de depressão e ansiedade",
+    "explanation": "Falta de sono crônica está fortemente ligada a um aumento no risco de depressão, ansiedade e outros problemas de saúde mental.  Não impacta positivamente o humor ou concentração e afeta a saúde física e mental. Curiosidade: A privação do sono afeta a produção de neurotransmissores como a serotonina.",
+    "id": "quiz-saude-58",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o mecanismo pelo qual o exercício físico melhora a sensibilidade à insulina?",
+    "options": [
+      "Diminuição da produção de insulina pelo pâncreas",
+      "Aumento da resistência dos receptores de insulina",
+      "Aumento da captação de glicose pelas células",
+      "Redução da liberação de glicose pelo fígado"
+    ],
+    "correctAnswer": "Aumento da captação de glicose pelas células",
+    "explanation": "O exercício aumenta a captação de glicose pelas células musculares, melhorando a sensibilidade à insulina. Não diminui a produção de insulina, nem aumenta a resistência dos receptores, e a redução da liberação de glicose pelo fígado é um efeito secundário, não o mecanismo principal. Curiosidade: O exercício também aumenta a expressão de transportadores de glicose (GLUT4).",
+    "id": "quiz-saude-59",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é obesidade?",
+    "options": [
+      "Peso ideal para a altura",
+      "Acúmulo excessivo de gordura corporal",
+      "Condição caracterizada pela falta de apetite",
+      "Distúrbio alimentar caracterizado pela magreza excessiva"
+    ],
+    "correctAnswer": "Acúmulo excessivo de gordura corporal",
+    "explanation": "Obesidade é definida pelo acúmulo excessivo de gordura corporal, prejudicial à saúde.  As outras opções descrevem situações opostas ou irrelevantes. Curiosidade: A obesidade aumenta o risco de diversas doenças crônicas.",
+    "id": "quiz-saude-60",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre vitaminas lipossolúveis e hidrossolúveis?",
+    "options": [
+      "As lipossolúveis são absorvidas mais rapidamente",
+      "As hidrossolúveis são armazenadas no corpo em maior quantidade",
+      "As lipossolúveis são armazenadas no tecido adiposo",
+      "As hidrossolúveis são mais tóxicas em excesso"
+    ],
+    "correctAnswer": "As lipossolúveis são armazenadas no tecido adiposo",
+    "explanation": "Vitaminas lipossolúveis (A, D, E, K) são armazenadas no tecido adiposo, ao contrário das hidrossolúveis (C e complexo B) que são excretadas na urina.  As outras opções são incorretas ou invertem a verdade. Curiosidade:  O excesso de vitaminas lipossolúveis pode ser tóxico.",
+    "id": "quiz-saude-61",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio desempenha papel crucial na regulação do metabolismo ósseo?",
+    "options": [
+      "Insulina",
+      "Testosterona",
+      "Paratormônio",
+      "Hormônio do crescimento"
+    ],
+    "correctAnswer": "Paratormônio",
+    "explanation": "O paratormônio regula os níveis de cálcio no sangue, afetando diretamente a formação e reabsorção óssea. Embora os outros hormônios também influenciem indiretamente, o paratormônio tem o papel mais direto e crucial. Curiosidade:  A vitamina D também é essencial para a saúde óssea.",
+    "id": "quiz-saude-62",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal mineral essencial para a formação de ossos?",
+    "options": [
+      "Ferro",
+      "Iodo",
+      "Potássio",
+      "Cálcio"
+    ],
+    "correctAnswer": "Cálcio",
+    "explanation": "O cálcio é o principal componente estrutural dos ossos. Os outros minerais desempenham outras funções importantes no organismo. Curiosidade: A vitamina D ajuda o corpo a absorver o cálcio.",
+    "id": "quiz-saude-63",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a melhor forma de prevenir a desidratação?",
+    "options": [
+      "Beber apenas quando sentir sede",
+      "Beber grandes quantidades de líquido apenas quando se exercita",
+      "Beber líquidos regularmente ao longo do dia",
+      "Beber apenas líquidos açucarados"
+    ],
+    "correctAnswer": "Beber líquidos regularmente ao longo do dia",
+    "explanation": "A melhor forma de prevenir a desidratação é manter uma ingestão regular de líquidos ao longo do dia, independentemente da sede. Esperar até sentir sede já é sinal de desidratação incipiente. Bebidas açucaradas contribuem para a desidratação. Curiosidade: Água é a melhor bebida para hidratação.",
+    "id": "quiz-saude-64",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual é o papel da enzima telomerase no processo de envelhecimento?",
+    "options": [
+      "Acelera o envelhecimento celular",
+      "Mantém o comprimento dos telômeros",
+      "Não tem relação com o envelhecimento",
+      "Causa danos ao DNA das células"
+    ],
+    "correctAnswer": "Mantém o comprimento dos telômeros",
+    "explanation": "A telomerase é uma enzima que ajuda a manter o comprimento dos telômeros, que são as extremidades dos cromossomos. O encurtamento dos telômeros está associado ao envelhecimento celular. Curiosidade: A atividade da telomerase é normalmente baixa nas células somáticas.",
+    "id": "quiz-saude-65",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em antioxidantes?",
+    "options": [
+      "Batata frita",
+      "Refrigerante",
+      "Morango",
+      "Biscoito recheado"
+    ],
+    "correctAnswer": "Morango",
+    "explanation": "Morangos são ricos em antioxidantes, substâncias que protegem as células dos danos causados pelos radicais livres. Os outros itens são processados e geralmente possuem baixo teor de antioxidantes. Curiosidade:  Antioxidantes ajudam a prevenir o envelhecimento precoce e doenças crônicas.",
+    "id": "quiz-saude-66",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a síndrome do intestino irritável (SII)?",
+    "options": [
+      "Uma infecção bacteriana intestinal",
+      "Uma doença inflamatória intestinal crônica",
+      "Um distúrbio funcional do intestino",
+      "Uma condição causada por parasitas intestinais"
+    ],
+    "correctAnswer": "Um distúrbio funcional do intestino",
+    "explanation": "A SII é um distúrbio funcional do intestino, caracterizado por dor abdominal, distensão, constipação ou diarreia. Não é uma infecção, doença inflamatória ou parasitose. Curiosidade: A causa da SII não é completamente compreendida, mas acredita-se que fatores como estresse e genética estejam envolvidos.",
+    "id": "quiz-saude-67",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o processo fisiológico que envolve a morte celular programada?",
+    "options": [
+      "Hiperplasia",
+      "Hipertrofia",
+      "Apoptose",
+      "Metaplasia"
+    ],
+    "correctAnswer": "Apoptose",
+    "explanation": "Apoptose é a morte celular programada, um processo essencial para o desenvolvimento e homeostase do organismo. Hiperplasia é o aumento no número de células, hipertrofia é o aumento no tamanho das células, e metaplasia é a mudança de um tipo celular para outro. Curiosidade: A apoptose é importante para eliminar células danificadas e prevenir o desenvolvimento de tumores.",
+    "id": "quiz-saude-68",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal órgão responsável pela filtragem do sangue?",
+    "options": [
+      "Coração",
+      "Pulmão",
+      "Fígado",
+      "Rim"
+    ],
+    "correctAnswer": "Rim",
+    "explanation": "Os rins filtram o sangue, removendo resíduos e excesso de água. O coração bombeia sangue, os pulmões realizam trocas gasosas e o fígado processa nutrientes e toxinas. Curiosidade: Os rins produzem cerca de 1 litro de urina por dia.",
+    "id": "quiz-saude-69",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual vitamina é essencial para a coagulação sanguínea?",
+    "options": [
+      "Vitamina A",
+      "Vitamina C",
+      "Vitamina K",
+      "Vitamina D"
+    ],
+    "correctAnswer": "Vitamina K",
+    "explanation": "A vitamina K é crucial para a síntese de proteínas envolvidas na coagulação.  As outras vitaminas têm funções importantes, mas não estão diretamente ligadas à coagulação. Curiosidade:  A vitamina K também é importante para a saúde óssea.",
+    "id": "quiz-saude-70",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a apendicite?",
+    "options": [
+      "Inflamação do apêndice",
+      "Infecção do intestino grosso",
+      "Doença hepática",
+      "Distúrbio digestivo"
+    ],
+    "correctAnswer": "Inflamação do apêndice",
+    "explanation": "A apendicite é a inflamação do apêndice vermiforme, uma pequena estrutura ligada ao intestino grosso.  As outras opções descrevem condições diferentes. Curiosidade: A remoção cirúrgica do apêndice é uma das cirurgias mais comuns.",
+    "id": "quiz-saude-71",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes fatores aumenta o risco de desenvolver diabetes tipo 2?",
+    "options": [
+      "Exercício regular",
+      "Dieta rica em fibras",
+      "Obesidade",
+      "Baixo consumo de açúcar"
+    ],
+    "correctAnswer": "Obesidade",
+    "explanation": "A obesidade é um fator de risco significativo para diabetes tipo 2, devido à resistência à insulina.  Exercício, dieta rica em fibras e baixo consumo de açúcar ajudam a prevenir o diabetes. Curiosidade: A resistência à insulina é um processo no qual as células não respondem adequadamente à insulina, levando ao acúmulo de açúcar no sangue.",
+    "id": "quiz-saude-72",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o papel da leptina no corpo?",
+    "options": [
+      "Regular o apetite",
+      "Aumentar a produção de insulina",
+      "Controlar a temperatura corporal",
+      "Regular a pressão arterial"
+    ],
+    "correctAnswer": "Regular o apetite",
+    "explanation": "A leptina é um hormônio que sinaliza saciedade ao cérebro, regulando o apetite. As outras funções são reguladas por outros hormônios e sistemas. Curiosidade:  A deficiência de leptina pode levar à obesidade.",
+    "id": "quiz-saude-73",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual processo metabólico produz a maior quantidade de ATP?",
+    "options": [
+      "Glicólise",
+      "Ciclo do ácido cítrico",
+      "Cadeia de transporte de elétrons",
+      "Fermentação"
+    ],
+    "correctAnswer": "Cadeia de transporte de elétrons",
+    "explanation": "A cadeia de transporte de elétrons é a fase da respiração celular que produz a maior quantidade de ATP (energia). A glicólise, o ciclo do ácido cítrico e a fermentação produzem menos ATP. Curiosidade: A maior parte da produção de ATP ocorre nas mitocôndrias, as “usinas de energia” das células.",
+    "id": "quiz-saude-74",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas é uma fruta rica em vitamina C?",
+    "options": [
+      "Banana",
+      "Maçã",
+      "Laranja",
+      "Abacate"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é rica em vitamina C, um antioxidante importante. Bananas, maçãs e abacates possuem outros nutrientes importantes, mas não são conhecidos por sua alta concentração de vitamina C. Curiosidade: A vitamina C é uma vitamina hidrossolúvel, ou seja, o corpo não a armazena e precisa de reposição regular.",
+    "id": "quiz-saude-75",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual condição médica caracteriza-se pela perda progressiva da massa óssea?",
+    "options": [
+      "Osteoporose",
+      "Artrite",
+      "Osteoartrite",
+      "Fibromialgia"
+    ],
+    "correctAnswer": "Osteoporose",
+    "explanation": "A osteoporose é uma doença que causa enfraquecimento dos ossos, aumentando o risco de fraturas. As outras opções são condições que afetam as articulações e músculos. Curiosidade: A osteoporose é mais comum em mulheres após a menopausa.",
+    "id": "quiz-saude-76",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal sintoma da desidratação?",
+    "options": [
+      "Febre alta",
+      "Dor de cabeça",
+      "Tosse",
+      "Diarreia"
+    ],
+    "correctAnswer": "Dor de cabeça",
+    "explanation": "A dor de cabeça é um sintoma comum da desidratação.  Embora os outros sintomas possam ocorrer, a dor de cabeça é frequentemente um dos primeiros sinais. Curiosidade: A desidratação pode levar a problemas de concentração e fadiga.",
+    "id": "quiz-saude-77",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o nome do hormônio que regula o ciclo menstrual feminino?",
+    "options": [
+      "Insulina",
+      "Testosterona",
+      "Estrogênio",
+      "Hormônio do crescimento"
+    ],
+    "correctAnswer": "Estrogênio",
+    "explanation": "O estrogênio desempenha um papel crucial na regulação do ciclo menstrual. As outras opções são hormônios com funções diferentes. Curiosidade:  O estrogênio também desempenha um papel importante na saúde óssea e na função cardiovascular.",
+    "id": "quiz-saude-78",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a função principal do pâncreas?",
+    "options": [
+      "Produzir bílis",
+      "Filtrar o sangue",
+      "Produzir insulina e enzimas digestivas",
+      "Armazenar glicogênio"
+    ],
+    "correctAnswer": "Produzir insulina e enzimas digestivas",
+    "explanation": "O pâncreas produz insulina e glucagon para regular o açúcar no sangue, além de enzimas digestivas.  As outras funções são desempenhadas pelo fígado, rins e fígado, respectivamente. Curiosidade: O pâncreas é uma glândula com função endócrina (hormônios) e exócrina (enzimas).",
+    "id": "quiz-saude-79",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual destes fatores NÃO é um componente da síndrome metabólica?",
+    "options": [
+      "Hipertensão",
+      "Resistência à insulina",
+      "Níveis elevados de colesterol HDL",
+      "Obesidade abdominal"
+    ],
+    "correctAnswer": "Níveis elevados de colesterol HDL",
+    "explanation": "A síndrome metabólica é caracterizada por hipertensão, resistência à insulina, obesidade abdominal e níveis elevados de triglicerídeos e colesterol LDL (ruim),  Níveis elevados de HDL (bom) são benéficos e NÃO fazem parte da síndrome. Curiosidade: A síndrome metabólica aumenta significativamente o risco de doenças cardíacas e diabetes tipo 2.",
+    "id": "quiz-saude-80",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal nutriente que fornece energia ao corpo?",
+    "options": [
+      "Proteínas",
+      "Vitaminas",
+      "Minerais",
+      "Carboidratos"
+    ],
+    "correctAnswer": "Carboidratos",
+    "explanation": "Os carboidratos são a principal fonte de energia para o corpo. Proteínas são essenciais para a construção e reparação de tecidos, enquanto vitaminas e minerais são necessários para várias funções corporais. Curiosidade: O corpo pode armazenar carboidratos como glicogênio no fígado e músculos.",
+    "id": "quiz-saude-81",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Lavar as mãos com água e sabão previne principalmente:",
+    "options": [
+      "Doenças respiratórias.",
+      "Doenças cardíacas.",
+      "Infecções.",
+      "Câncer."
+    ],
+    "correctAnswer": "Infecções.",
+    "explanation": "A higiene das mãos remove germes e bactérias que causam infecções.  As outras opções não são diretamente prevenidas pela lavagem das mãos. Curiosidade:  A lavagem correta das mãos leva pelo menos 20 segundos.",
+    "id": "quiz-saude-82",
+    "categoryId": "saude"
+  }
+]

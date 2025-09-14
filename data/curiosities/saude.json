@@ -919,5 +919,32 @@
     "content": "Você já sentiu uma pontada de dor ou desconforto antes de um problema de saúde se manifestar?  A intuição corporal, muitas vezes ignorada, pode ser um sinal precoce de doenças. Preste atenção aos sinais sutis do seu corpo e busque ajuda médica sempre que necessário.  Ouvir seu corpo pode prevenir problemas graves.",
     "funFact": "Estudo sugere que a intuição sobre a saúde está ligada à capacidade do sistema nervoso de processar informações subconscientes.",
     "curiosityLevel": 4
+  },
+  {
+    "title": "A Fascinante Ciência do Bocejo",
+    "hook": "Incrível: o bocejo é contagioso!",
+    "content": "Você já se perguntou por que o bocejo é contagioso?  Pesquisas sugerem que essa reação é um mecanismo de empatia e regulação térmica, sincronizando o estado de alerta entre indivíduos.  O bocejo também pode ser um indicador de fadiga ou tédio.  É um reflexo complexo com raízes profundas na neurobiologia.",
+    "funFact": "Bebês bocejam menos que adultos, e a capacidade de bocejar contagiosamente se desenvolve na infância.",
+    "curiosityLevel": 4,
+    "id": "saude-133",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Poder Curativo do Toque Humano",
+    "hook": "Você sabia que...",
+    "content": "O toque humano vai além do simples contato físico.  Estudos demonstram que um toque suave e reconfortante pode reduzir o estresse, aliviar a dor e até mesmo acelerar a recuperação de doenças.  O toque libera ocitocina, o hormônio do amor, promovendo bem-estar.",
+    "funFact": "A terapia de toque, como a massagem, é usada para tratar diversas condições de saúde, desde dores musculares até ansiedade.",
+    "curiosityLevel": 3,
+    "id": "saude-134",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência do Seu Ritmo Respiratório",
+    "hook": "Incrível: seu ritmo respiratório...",
+    "content": "A respiração é muito mais do que simplesmente inspirar e expirar.  Seu ritmo respiratório influencia sua pressão arterial, sua digestão e até mesmo seu humor.  Respirações lentas e profundas acalmam o sistema nervoso, enquanto respirações rápidas e superficiais podem causar ansiedade.  Observe seu padrão respiratório e veja como ele impacta seu bem-estar diário.",
+    "funFact": "A maneira como você respira pode afetar a sua saúde mental e física de formas surpreendentes.",
+    "curiosityLevel": 4,
+    "id": "saude-135",
+    "categoryId": "saude"
   }
 ]

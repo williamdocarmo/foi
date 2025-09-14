@@ -89,7 +89,7 @@ Use a ferramenta **Bubblewrap** para criar o pacote `.aab`.
     bubblewrap build
     ```
     *   Ele pedirá a senha da chave que você definiu no passo anterior.
-    *   Isso criará um arquivo chamado `app-release-signed.aab`. **Este é o arquivo que você enviará para a Google Play Console.**
+    *   Isso criará um arquivo chamado `app-release-signed.aab`. **Este é o arquivo que você enviará para a Google Play Console.** O tamanho será extremamente leve, entre **2 e 5 MB**.
     *   Ele também gera um arquivo `app-release-universal.apk`, que você pode usar para instalar e testar diretamente no seu celular Android.
 
 4.  **(Opcional) Abrindo no Android Studio:**
@@ -100,11 +100,11 @@ Use a ferramenta **Bubblewrap** para criar o pacote `.aab`.
 
 ### "Instalando" no iOS (Adicionar à Tela de Início)
 
-No iOS, a "instalação" de um PWA é um processo manual para o usuário:
+No iOS, a "instalação" de um PWA é um processo manual para o usuário, que não gera um pacote de loja. O espaço ocupado é apenas o do cache do navegador.
 
 1.  Abra a **URL de produção** do seu site no navegador **Safari**.
 2.  Toque no ícone de **Compartilhar** (um quadrado com uma seta para cima).
 3.  Role para baixo e selecione a opção **"Adicionar à Tela de Início"**.
 4.  Confirme o nome do aplicativo e toque em "Adicionar".
 
-O ícone do "Você Sabia?" aparecerá na tela de início do usuário, abrindo em tela cheia como um app nativo.
+O ícone do "Você Sabia?" aparecerá na tela de início do usuário, abrindo em tela cheia como um app nativo, com acesso ao conteúdo offline. O tamanho total no dispositivo ficará em torno de **10-20 MB**, dependendo da quantidade de conteúdo em cache.

@@ -3180,5 +3180,14 @@
     "content": "A temperatura ambiente ideal para o bem-estar varia de pessoa para pessoa, mas temperaturas confortáveis tendem a reduzir o estresse e aumentar a produtividade.  Ajustar a temperatura do ambiente pode ser uma solução simples para um dia mais produtivo e agradável.",
     "funFact": "Temperaturas ligeiramente mais baixas são geralmente associadas a maior foco e concentração.",
     "curiosityLevel": 2
+  },
+  {
+    "title": "A Mágica do Sono Polirrítmico",
+    "hook": "Descubra:",
+    "content": "O sono polirrítmico, que alterna ciclos de sono leve e profundo, é essencial para um descanso restaurador.  Difere do sono monorrítmico, mais superficial. Priorizar um sono polirrítmico melhora a concentração, reduz a irritabilidade e promove bem-estar ao longo do dia.",
+    "funFact": "A temperatura ideal para dormir é entre 18 e 20 graus Celsius.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-459",
+    "categoryId": "bem-estar"
   }
 ]

@@ -86,13 +86,13 @@ O script de geração de conteúdo foi **completamente refatorado** para ser rob
 
 ### 5.4. Funcionalidade Offline e "Instalação" (PWA)
 - **Offline First:** O aplicativo é um Progressive Web App (PWA), projetado para funcionar offline. Através de um Service Worker (`next-pwa`), todos os recursos essenciais (páginas, estilos, imagens, e principalmente os dados de curiosidades e quizzes) são salvos em cache no dispositivo do usuário na primeira visita.
-- **Experiência Nativa no Android:** Para a Google Play Store, utilizamos a ferramenta **Bubblewrap** para empacotar o PWA como um Trusted Web Activity (TWA). Isso gera um app `.aab` extremamente leve, que abre o site em tela cheia, proporcionando uma experiência de aplicativo nativo sem a necessidade de um invólucro pesado como o Capacitor.
-- **Experiência Nativa no iOS:** No iOS, os usuários podem "instalar" o PWA adicionando o site à Tela de Início através do Safari. Isso cria um ícone na tela inicial que abre o aplicativo em modo de tela cheia, também com acesso a todo o conteúdo em cache para uso offline.
+- **Experiência Nativa no Android (TWA):** Para a Google Play Store, utilizamos a ferramenta **Bubblewrap** para empacotar o PWA como um Trusted Web Activity (TWA). Isso gera um app `.aab` extremamente leve (geralmente **2-5 MB**), que abre o site em tela cheia, proporcionando uma experiência de aplicativo nativo sem a necessidade de um invólucro pesado como o Capacitor.
+- **Experiência Nativa no iOS (Atalho na Tela de Início):** No iOS, os usuários podem "instalar" o PWA adicionando o site à Tela de Início através do Safari. Isso cria um ícone na tela inicial que abre o aplicativo em modo de tela cheia. O espaço ocupado é apenas o do cache do navegador (geralmente **~10-20 MB**), que armazena os dados para uso offline.
 
 ### 5.5. Por que não usar Capacitor?
 O Capacitor é uma ferramenta poderosa para transformar aplicações web em aplicativos nativos com acesso a APIs de hardware (câmera, GPS, etc.). No entanto, para este projeto, a abordagem PWA + Bubblewrap é superior pelos seguintes motivos:
 - **Simplicidade:** Mantemos uma única base de código 100% web, sem a complexidade de gerenciar um projeto nativo adicional.
-- **Leveza:** O app para Android é muito menor (2-5 MB) em comparação com uma versão em Capacitor, que incluiria todo o runtime nativo.
+- **Leveza:** O app para Android é muito menor em comparação com uma versão em Capacitor, que incluiria todo o runtime nativo.
 - **Necessidade:** O "Você Sabia?" não requer APIs nativas complexas. As funcionalidades do PWA (Service Workers para offline, `manifest.webmanifest` para instalação) são suficientes para oferecer a experiência desejada.
 
 ## 6. Arquitetura de Componentes React
