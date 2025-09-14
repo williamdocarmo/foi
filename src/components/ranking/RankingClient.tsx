@@ -1,12 +1,55 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import type { GetTopUsersOutput } from '@/ai/flows/ranking-flow';
+import { getTopUsers } from '@/ai/flows/ranking-flow';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Medal, Trophy } from 'lucide-react';
+import { Skeleton } from '@/components/ui/skeleton';
 
-// O componente agora é mais 'burro'. Ele apenas recebe os dados e os renderiza.
+// Componente para exibir o estado de carregamento (Skeleton)
+function RankingSkeleton() {
+  return (
+    <div className="space-y-4">
+      {[...Array(5)].map((_, i) => (
+        <Card key={i} className="flex items-center p-4">
+          <Skeleton className="h-6 w-6 mr-4" />
+          <Skeleton className="h-12 w-12 rounded-full" />
+          <div className="ml-4 flex-1 space-y-2">
+            <Skeleton className="h-4 w-1/2" />
+            <Skeleton className="h-4 w-1/4" />
+          </div>
+        </Card>
+      ))}
+    </div>
+  );
+}
+
+// O componente agora é um Client Component e busca os dados no lado do cliente.
 export default function RankingList({ initialUsers }: { initialUsers: GetTopUsersOutput['users'] }) {
+  const [users, setUsers] = useState<GetTopUsersOutput['users']>(initialUsers);
+  const [isLoading, setIsLoading] = useState(initialUsers.length === 0);
+
+  useEffect(() => {
+    // Se não houver dados iniciais (porque a busca no servidor falhou ou foi pulada),
+    // busca os dados no cliente.
+    if (initialUsers.length === 0) {
+      const fetchUsers = async () => {
+        setIsLoading(true);
+        try {
+          const { users: fetchedUsers } = await getTopUsers({ count: 10 });
+          setUsers(fetchedUsers);
+        } catch (error) {
+          console.error("Error fetching ranking on client:", error);
+          setUsers([]); // Define como vazio em caso de erro
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      fetchUsers();
+    }
+  }, [initialUsers]);
 
   const getMedalColor = (rank: number) => {
     switch (rank) {
@@ -17,7 +60,11 @@ export default function RankingList({ initialUsers }: { initialUsers: GetTopUser
     }
   }
 
-  if (initialUsers.length === 0) {
+  if (isLoading) {
+    return <RankingSkeleton />;
+  }
+
+  if (users.length === 0) {
     return (
       <Card>
         <CardContent className="p-6 text-center">
@@ -33,7 +80,7 @@ export default function RankingList({ initialUsers }: { initialUsers: GetTopUser
 
   return (
     <div className="space-y-4 animate-slide-in-up">
-      {initialUsers.map((user, index) => (
+      {users.map((user, index) => (
         <Card key={index} className="flex items-center p-4 transition-all hover:bg-muted/50">
           <div className={`flex h-8 w-8 items-center justify-center font-bold text-xl ${getMedalColor(user.rank)}`}>
             {user.rank <= 3 ? <Medal className="h-6 w-6 fill-current" /> : user.rank}

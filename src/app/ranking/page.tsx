@@ -1,5 +1,4 @@
 import RankingList from '@/components/ranking/RankingClient';
-import { getTopUsers } from '@/ai/flows/ranking-flow';
 import { Suspense } from 'react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Card } from '@/components/ui/card';
@@ -22,14 +21,8 @@ function RankingSkeleton() {
   );
 }
 
-// Componente de Servidor Assíncrono para buscar os dados
-async function RankingData() {
-  // A busca de dados agora acontece no servidor
-  const { users } = await getTopUsers({ count: 10 });
-  return <RankingList initialUsers={users} />;
-}
-
-
+// A página agora renderiza o componente cliente e o Suspense
+// A busca inicial de dados foi removida do servidor para evitar erros de build.
 export default function RankingPage() {
   return (
     <div className="container mx-auto max-w-4xl py-8 md:py-12">
@@ -38,9 +31,9 @@ export default function RankingPage() {
             <p className="text-muted-foreground mt-2">Veja quem são os maiores mestres do conhecimento!</p>
         </div>
         
-        {/* Suspense vai renderizar o fallback enquanto os dados de RankingData estão sendo buscados */}
+        {/* Suspense mostra o esqueleto enquanto o RankingList (agora um Client Component) busca os dados */}
         <Suspense fallback={<RankingSkeleton />}>
-          <RankingData />
+          <RankingList initialUsers={[]} />
         </Suspense>
     </div>
   );

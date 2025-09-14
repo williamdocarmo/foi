@@ -3774,5 +3774,149 @@
     "curiosityLevel": 2,
     "id": "bem-estar-524",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Soneca Ideal",
+    "hook": "Incrível: uma soneca pode...",
+    "content": "Uma soneca de 20 minutos pode aumentar significativamente a sua atenção e desempenho cognitivo, sem causar sonolência posterior.  Entretanto, sonecas mais longas podem levar à sensação de confusão e letargia.  Encontre o seu ponto ideal para um boost de energia e foco!",
+    "funFact": "Sonecas curtas ativam a memória e aumentam a criatividade.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-525",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder Secreto da Temperatura",
+    "hook": "Você sabia que...",
+    "content": "A temperatura ambiente influencia diretamente no nosso bem-estar e produtividade. Ambientes muito quentes ou frios podem causar desconforto, fadiga, e até afetar a concentração.  Manter uma temperatura ideal para o seu corpo é fundamental para otimizar o seu dia e manter-se focado.  Experimente regular a temperatura do seu ambiente para otimizar sua performance.",
+    "funFact": "Um estudo revelou que temperaturas ligeiramente frias melhoram o desempenho cognitivo!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-526",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Interior pela Natureza",
+    "hook": "Incrível:",
+    "content": "Passar tempo na natureza, mesmo que seja em um parque na cidade, reduz os níveis de cortisol (hormônio do estresse) e aumenta a produção de endorfinas, proporcionando uma sensação de calma e bem-estar.  Observe as cores, os sons e os cheiros da natureza e deixe que ela te renove!",
+    "funFact": "Apenas uma caminhada de 20 minutos na natureza já demonstra efeitos positivos no humor!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-527",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Boa Postura",
+    "hook": "Você sabia que...",
+    "content": "Sua postura corporal está intimamente ligada ao seu humor e bem-estar. Uma postura ereta transmite confiança e melhora a respiração, enquanto uma postura curvada pode levar à fadiga e à depressão.  Pratique exercícios posturais e observe a diferença na sua energia e disposição!",
+    "funFact": "Uma boa postura pode até mesmo fazer você parecer mais alto e magro!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-528",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Toque Consciente",
+    "hook": "Incrível:",
+    "content": "O toque físico, seja um abraço, uma massagem ou simplesmente uma mão amiga em seu ombro, liberam ocitocina, um hormônio que promove a sensação de calma, segurança e conexão.  Cultive o toque em sua vida e veja a diferença no seu bem-estar.",
+    "funFact": "O toque pode reduzir significativamente a dor e o estresse!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-529",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Importância do Sono Reparador",
+    "hook": "Surpreendente:",
+    "content": "Dormir bem é fundamental para o bem-estar físico e mental. Durante o sono, o corpo e a mente se recuperam, processando informações e consolidando memórias.  A falta de sono leva ao estresse, à irritabilidade e a problemas de concentração. Priorize um sono de qualidade e estabeleça uma rotina regular.",
+    "funFact": "Dormir bem melhora a imunidade e reduz o risco de doenças crônicas!",
+    "curiosityLevel": 1,
+    "id": "bem-estar-530",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Silenciosa do Silêncio",
+    "hook": "Surpreendente:",
+    "content": "O silêncio, longe de ser vazio, é um espaço para a autorreflexão e a reconexão consigo mesmo.  Permitir momentos de silêncio durante o dia reduz a ansiedade, melhora a concentração e promove a criatividade.  Experimente um período de silêncio, mesmo que breve.",
+    "funFact": "Cinco minutos diários de silêncio podem reduzir significativamente os níveis de cortisol.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-531",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia dos Cheiros Naturais",
+    "hook": "Incrível:",
+    "content": "O aroma de lavanda, por exemplo, reduz a ansiedade e promove o relaxamento.  Já o aroma cítrico aumenta a energia e o foco.  Utilizar óleos essenciais ou simplesmente apreciar os cheiros da natureza, como flores ou grama recém-cortada,  influenciam o humor e o bem-estar.",
+    "funFact": "O aroma de alecrim melhora a memória e a concentração.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-532",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Ritmo Cardíaco e a Paz Interior",
+    "hook": "Descubra:",
+    "content": "A variabilidade da frequência cardíaca (VFC) é um indicador de sua capacidade de lidar com o estresse. Uma VFC alta sugere resiliência e equilíbrio emocional, refletindo um sistema nervoso mais adaptável e menos propenso a doenças.  Práticas como meditação aumentam a VFC.",
+    "funFact": "Uma VFC baixa está associada a maior risco de problemas cardíacos.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-533",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Oculta dos Banhos",
+    "hook": "Incrível:",
+    "content": "Um banho quente com sais de Epsom pode aliviar dores musculares, reduzir o inchaço e promover o relaxamento.  Os sais de Epsom são ricos em magnésio, um mineral essencial para o funcionamento do corpo e essencial para o bom humor.",
+    "funFact": "O magnésio ajuda a regular o nível de serotonina, o neurotransmissor da felicidade.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-534",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Cura da Floresta",
+    "hook": "Você sabia que...",
+    "content": "O chamado 'banho de floresta' (Shinrin-yoku) é uma prática japonesa que envolve imergir-se na natureza, conectando-se com os sentidos. Estudos indicam que essa imersão reduz a pressão arterial e o cortisol, melhorando o humor e a imunidade. Explore o poder curativo da natureza!",
+    "funFact": "O aroma das árvores libera fitoncidas, compostos que fortalecem nosso sistema imunológico.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-535",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Escolha do Prato",
+    "hook": "Incrível: a cor do seu prato...",
+    "content": "A cor do seu prato pode influenciar o quanto você come! Pratos coloridos tendem a fazer com que as porções pareçam menores, enquanto os pratos brancos ou neutros podem causar o efeito oposto.  Experimente usar pratos menores e coloridos para controlar as porções e melhorar sua relação com a comida.",
+    "funFact": "O formato do prato também importa; pratos quadrados parecem ter mais comida do que os redondos.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-536",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Dança da Gratidão",
+    "hook": "Você sabia que...",
+    "content": "Expressar gratidão através da dança pode ser uma experiência profundamente libertadora e transformadora. Movimentos livres e espontâneos, guiados pela música e pela emoção da gratidão, podem liberar endorfinas e promover um intenso bem-estar físico e emocional.  Solte seu corpo e celebre a vida!",
+    "funFact": "A dança libera mais endorfinas do que atividades físicas convencionais.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-537",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Sabedoria do Desapego Emocional",
+    "hook": "Incrível: liberar o passado...",
+    "content": "O desapego emocional não significa falta de sentimento, mas sim a capacidade de liberar emoções negativas do passado que nos prendem e impedem de avançar.  Perdoar a si mesmo e aos outros, e aprender com as experiências, liberta espaço para a alegria e a paz interior.",
+    "funFact": "Estudos indicam que o perdão reduz a pressão arterial.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-538",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Contato Humano",
+    "hook": "Você sabia que...",
+    "content": "O toque físico, seja um abraço, uma massagem ou simplesmente um aperto de mão, libera ocitocina, o hormônio do amor e do vínculo social.  O contato humano promove bem-estar emocional, reduz o estresse e fortalece os laços afetivos.  Busque conexões significativas!",
+    "funFact": "A falta de toque físico pode impactar negativamente a saúde mental.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-539",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Soneca Ideal",
+    "hook": "Incrível: uma soneca pode...",
+    "content": "Uma soneca de 20 minutos pode te dar um boost de energia sem causar sonolência posterior.  Mas, sonecas mais longas podem te deixar pior do que antes!  O truque está no tempo certo, permitindo que você entre no estágio leve do sono, mas não no sono profundo. Experimente e veja a diferença!",
+    "funFact": "Sonecas muito longas podem interromper o ciclo natural do sono, causando desorientação e fadiga.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-540",
+    "categoryId": "bem-estar"
   }
 ]

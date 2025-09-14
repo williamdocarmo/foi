@@ -1693,5 +1693,160 @@
     "explanation": "As proteínas são os blocos de construção dos músculos. Carboidratos fornecem energia, gorduras armazenam energia e vitaminas auxiliam em vários processos metabólicos, mas as proteínas são essenciais para o crescimento muscular. Curiosidade: A carne vermelha é uma excelente fonte de proteína, mas o consumo excessivo pode ser prejudicial à saúde.",
     "id": "quiz-saude-121",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas atividades é crucial para a saúde óssea?",
+    "options": [
+      "Ficar muito tempo sentado",
+      "Exposição prolongada ao sol",
+      "Atividades de baixo impacto, como caminhada",
+      "Dormir 12 horas por dia"
+    ],
+    "correctAnswer": "Atividades de baixo impacto, como caminhada",
+    "explanation": "Atividades de baixo impacto, como caminhada, ajudam a fortalecer os ossos e aumentar a densidade óssea. Ficar sentado muito tempo não estimula os ossos, a exposição excessiva ao sol pode ser prejudicial, e dormir demais não tem impacto direto na saúde óssea. Curiosidade:  Os ossos são órgãos vivos que se renovam constantemente.",
+    "id": "quiz-saude-122",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A principal função do fígado na desintoxicação envolve:",
+    "options": [
+      "Remoção de células mortas",
+      "Produção de anticorpos",
+      "Filtração e processamento de substâncias nocivas",
+      "Regulação da temperatura corporal"
+    ],
+    "correctAnswer": "Filtração e processamento de substâncias nocivas",
+    "explanation": "O fígado filtra o sangue, processando e eliminando toxinas, drogas e outras substâncias nocivas. As outras opções são funções de outros órgãos ou sistemas. Curiosidade: O fígado consegue se regenerar, mesmo após a remoção de uma parte significativa dele.",
+    "id": "quiz-saude-123",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A hiperplasia miofibrilar difere da hipertrofia muscular principalmente por:",
+    "options": [
+      "Aumento do número de células musculares",
+      "Aumento do tamanho das células musculares",
+      "Diminuição da massa muscular",
+      "Aumento da densidade óssea"
+    ],
+    "correctAnswer": "Aumento do número de células musculares",
+    "explanation": "Hiperplasia é o aumento no número de células, enquanto hipertrofia é o aumento no tamanho das células.  No caso muscular, a hiperplasia implica em mais fibras musculares, enquanto a hipertrofia implica em fibras maiores. Curiosidade: A hiperplasia muscular é mais difícil de se atingir do que a hipertrofia, e sua ocorrência em humanos ainda é debatida.",
+    "id": "quiz-saude-124",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas atividades é uma forma eficaz de aliviar o estresse?",
+    "options": [
+      "Assistir TV",
+      "Meditar",
+      "Jogar videogame",
+      "Comer doces"
+    ],
+    "correctAnswer": "Meditar",
+    "explanation": "Meditação ajuda a reduzir a atividade do sistema nervoso simpático, responsável pela resposta de 'luta ou fuga' ao estresse. Assistir TV, jogar videogame e comer doces podem ser atividades relaxantes para alguns, mas não oferecem os mesmos benefícios comprovados para a saúde mental como a meditação. Curiosidade: A meditação regular pode aumentar o tamanho do hipocampo, área do cérebro relacionada à memória e aprendizado.",
+    "id": "quiz-saude-125",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nutriente é essencial para a formação de células sanguíneas saudáveis?",
+    "options": [
+      "Cálcio",
+      "Ferro",
+      "Potássio",
+      "Magnésio"
+    ],
+    "correctAnswer": "Ferro",
+    "explanation": "O ferro é um componente crucial da hemoglobina, a proteína que transporta oxigênio no sangue. A deficiência de ferro leva à anemia. Cálcio, potássio e magnésio são importantes para outras funções corporais, mas não para a formação de células sanguíneas. Curiosidade:  A deficiência de ferro é a deficiência nutricional mais comum em todo o mundo.",
+    "id": "quiz-saude-126",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função da insulina no corpo?",
+    "options": [
+      "Regular a pressão arterial",
+      "Aumentar o nível de açúcar no sangue",
+      "Quebrar proteínas",
+      "Regular o nível de açúcar no sangue"
+    ],
+    "correctAnswer": "Regular o nível de açúcar no sangue",
+    "explanation": "A insulina é um hormônio que permite que as células absorvam glicose do sangue, mantendo os níveis de açúcar no sangue estáveis.  A pressão arterial é regulada por outros hormônios, as proteínas são quebradas por outras enzimas, e a insulina diminui, não aumenta, o açúcar no sangue. Curiosidade: A resistência à insulina é um fator chave no desenvolvimento do diabetes tipo 2.",
+    "id": "quiz-saude-127",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes fatores aumenta significativamente o risco de desenvolver doenças cardíacas?",
+    "options": [
+      "Dormir 8 horas por noite",
+      "Dieta rica em frutas e vegetais",
+      "Alta pressão sanguínea",
+      "Exercício físico regular"
+    ],
+    "correctAnswer": "Alta pressão sanguínea",
+    "explanation": "A hipertensão arterial aumenta a carga de trabalho do coração e danifica as artérias, aumentando o risco de ataques cardíacos e derrames. Dormir bem, dieta saudável e exercício físico são fatores protetores contra doenças cardíacas. Curiosidade:  A hipertensão arterial muitas vezes não apresenta sintomas, por isso é crucial monitorar regularmente a pressão sanguínea.",
+    "id": "quiz-saude-128",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a apoptose e qual seu papel no corpo?",
+    "options": [
+      "Processo de inflamação",
+      "Morte celular programada",
+      "Formação de novos vasos sanguíneos",
+      "Divisão celular descontrolada"
+    ],
+    "correctAnswer": "Morte celular programada",
+    "explanation": "A apoptose é um processo de morte celular programada que é essencial para o desenvolvimento, manutenção e saúde dos tecidos. É diferente da necrose, que é uma morte celular acidental.  A inflamação, angiogênese (formação de vasos sanguíneos) e divisão celular descontrolada (câncer) são processos biológicos distintos. Curiosidade:  Falhas na apoptose podem levar ao desenvolvimento de câncer.",
+    "id": "quiz-saude-129",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal hormônio que regula o ciclo menstrual?",
+    "options": [
+      "Insulina",
+      "Adrenalina",
+      "Estrogênio",
+      "Testosterona"
+    ],
+    "correctAnswer": "Estrogênio",
+    "explanation": "O estrogênio desempenha um papel crucial na regulação do ciclo menstrual, juntamente com a progesterona. A insulina regula o açúcar no sangue, a adrenalina a resposta ao estresse, e a testosterona é um hormônio sexual masculino, embora também esteja presente em menores quantidades nas mulheres. Curiosidade:  Desequilíbrios hormonais podem levar a irregularidades menstruais.",
+    "id": "quiz-saude-130",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal função do colesterol HDL?",
+    "options": [
+      "Aumentar o colesterol ruim",
+      "Diminuir a pressão sanguínea",
+      "Remover o colesterol do sangue",
+      "Aumentar a coagulação do sangue"
+    ],
+    "correctAnswer": "Remover o colesterol do sangue",
+    "explanation": "O HDL, ou colesterol bom, transporta o colesterol dos tecidos para o fígado, onde ele é processado e eliminado. As outras opções descrevem funções de outros componentes do sangue ou processos fisiológicos distintos. Curiosidade: Níveis elevados de HDL são associados a um menor risco de doenças cardíacas.",
+    "curiosity": "Exercícios regulares e uma dieta equilibrada ajudam a aumentar os níveis de HDL.",
+    "id": "quiz-saude-131",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a principal diferença entre hipertrofia e hiperplasia muscular?",
+    "options": [
+      "Hipertrofia é o aumento do número de células musculares, enquanto hiperplasia é o aumento do tamanho das células.",
+      "Hipertrofia é o aumento do tamanho das células musculares, enquanto hiperplasia é o aumento do número de células.",
+      "Ambas referem-se ao mesmo processo de crescimento muscular.",
+      "Hipertrofia ocorre apenas em músculos cardíacos, enquanto hiperplasia ocorre em músculos esqueléticos."
+    ],
+    "correctAnswer": "Hipertrofia é o aumento do tamanho das células musculares, enquanto hiperplasia é o aumento do número de células.",
+    "explanation": "Hipertrofia é o aumento do tamanho das células, já hiperplasia é o aumento do número. As outras opções são incorretas. Curiosidade: O treinamento de força promove principalmente a hipertrofia, enquanto o treinamento com alta repetição pode estimular levemente a hiperplasia.",
+    "id": "quiz-saude-132",
+    "categoryId": "saude"
   }
 ]
