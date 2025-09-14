@@ -1904,5 +1904,75 @@
     "explanation": "A resistência à insulina ocorre quando as células não respondem adequadamente à insulina, resultando em acúmulo de glicose no sangue. Isso aumenta o risco de desenvolver diabetes tipo 2, doenças cardíacas e outras complicações metabólicas. As demais alternativas descrevem outras condições médicas. Curiosidade: A resistência à insulina está frequentemente ligada ao sobrepeso e à obesidade.",
     "id": "quiz-saude-136",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal benefício da lavagem frequente das mãos?",
+    "options": [
+      "Fortalecimento dos músculos das mãos",
+      "Prevenção de doenças infecciosas",
+      "Melhora da circulação sanguínea",
+      "Aumento da produção de colágeno"
+    ],
+    "correctAnswer": "Prevenção de doenças infecciosas",
+    "explanation": "A lavagem das mãos remove germes e bactérias que causam doenças. As outras opções são incorretas; a lavagem das mãos não fortalece os músculos, melhora a circulação ou aumenta a produção de colágeno. Curiosidade: A lavagem correta das mãos dura pelo menos 20 segundos.",
+    "id": "quiz-saude-137",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual fruta é rica em vitamina C?",
+    "options": [
+      "Banana",
+      "Maçã",
+      "Abacate",
+      "Morango"
+    ],
+    "correctAnswer": "Morango",
+    "explanation": "O morango é uma boa fonte de vitamina C. Banana, maçã e abacate possuem quantidades significativamente menores. Curiosidade:  A vitamina C é um antioxidante que protege as células do dano causado pelos radicais livres.",
+    "id": "quiz-saude-138",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A inflamação crônica de baixo grau, muitas vezes imperceptível, está ligada a quais problemas de saúde?",
+    "options": [
+      "Apenas problemas articulares",
+      "Doenças cardíacas e alguns tipos de câncer",
+      "Exclusivamente problemas digestivos",
+      "Somente problemas de pele"
+    ],
+    "correctAnswer": "Doenças cardíacas e alguns tipos de câncer",
+    "explanation": "A inflamação crônica de baixo grau contribui para o desenvolvimento de diversas doenças crônicas, incluindo doenças cardíacas e certos tipos de câncer, além de outras condições. As outras opções são incorretas, pois a inflamação crônica afeta diversos sistemas. Curiosidade: O estresse é um fator que pode agravar a inflamação crônica.",
+    "id": "quiz-saude-139",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função do sistema imunológico?",
+    "options": [
+      "Regular a temperatura corporal",
+      "Digerir alimentos",
+      "Defender o corpo contra doenças",
+      "Controlar os movimentos"
+    ],
+    "correctAnswer": "Defender o corpo contra doenças",
+    "explanation": "O sistema imunológico protege o corpo contra agentes nocivos como bactérias, vírus e células cancerígenas.  As outras opções descrevem funções de outros sistemas do corpo. Curiosidade: O sistema imunológico é uma rede complexa de células e órgãos que trabalham em conjunto.",
+    "id": "quiz-saude-140",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas frutas é rica em vitamina C?",
+    "options": [
+      "Abacate",
+      "Banana",
+      "Acerola",
+      "Manga"
+    ],
+    "correctAnswer": "Acerola",
+    "explanation": "A acerola é uma fruta conhecida por seu alto teor de vitamina C. Embora manga também contenha vitamina C, a acerola tem significativamente maior concentração.",
+    "id": "quiz-saude-141",
+    "categoryId": "saude"
   }
 ]

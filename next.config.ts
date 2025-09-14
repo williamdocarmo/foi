@@ -75,10 +75,11 @@ const nextConfig: NextConfig = {
   },
   webpack: (config, { isServer }) => {
     // Ignora o warning do 'require.extensions' da dependência 'handlebars'
-    config.module.rules.push({
-      test: /node_modules[\\/]handlebars[\\/]lib[\\/]index\.js$/,
-      loader: 'ignore-loader',
-    });
+    // Esta é a forma correta de ignorar um módulo no Webpack 5+ sem loaders externos.
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'handlebars': false,
+    }
     return config;
   },
   images: {

@@ -991,5 +991,50 @@
     "curiosityLevel": 4,
     "id": "saude-140",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência do Seu Sangue: Mais Que um Fluido",
+    "hook": "Incrível: Seu sangue...",
+    "content": "O sangue é um tecido complexo que transporta oxigênio, nutrientes e hormônios.  Sua composição e fluxo refletem a saúde geral.  Análises sanguíneas revelam deficiências vitamínicas, inflamações e outras disfunções. A saúde do sangue está intrinsecamente ligada a boa saúde cardiovascular.",
+    "funFact": "Um adulto possui cerca de 5 litros de sangue, que é renovado completamente a cada quatro meses.",
+    "curiosityLevel": 3,
+    "id": "saude-141",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Seu Sistema Imunológico em Ação: Uma Orquestra",
+    "hook": "Você sabia que...",
+    "content": "Seu sistema imunológico é uma complexa rede de células e órgãos que trabalham em conjunto para combater infecções. A alimentação saudável, o exercício físico regular e o sono adequado são fundamentais para manter seu sistema imunológico forte e preparado para enfrentar as ameaças.",
+    "funFact": "Seu intestino abriga 70% das células imunológicas do corpo.",
+    "curiosityLevel": 2,
+    "id": "saude-142",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Intuição e a Saúde: Mais Que um Palpite",
+    "hook": "Você sabia que...",
+    "content": "A intuição, muitas vezes ignorada, pode ser um sinal importante de alerta sobre a saúde.  Preste atenção aos sinais do seu corpo e confie em sua intuição para procurar ajuda médica quando necessário.  Uma escuta atenta ao corpo pode antecipar problemas.",
+    "funFact": "A intuição está relacionada a processos inconscientes que processam informações além da percepção consciente.",
+    "curiosityLevel": 3,
+    "id": "saude-143",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Poder da Natureza na Sua Saúde: Mais Que Ar Puro",
+    "hook": "Surpreendente: A natureza...",
+    "content": "Passar tempo na natureza reduz o estresse, melhora o humor e fortalece o sistema imunológico.  O contato com plantas, ar puro e luz solar natural tem efeitos positivos comprovados na saúde física e mental.  Incorpore a natureza em seu dia a dia.",
+    "funFact": "O simples ato de olhar para árvores já reduz os níveis de cortisol.",
+    "curiosityLevel": 2,
+    "id": "saude-144",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência da Sua Respiração Noturna: Mais Que Apenas Sono",
+    "hook": "Incrível: Enquanto você dorme...",
+    "content": "A qualidade da sua respiração durante o sono impacta diretamente na sua saúde. Apneia do sono, por exemplo, afeta a oxigenação do cérebro e pode ter consequências graves a longo prazo.  Monitorar a respiração noturna é crucial para a saúde.",
+    "funFact": "A apneia do sono afeta milhões de pessoas e muitas vezes passa despercebida.",
+    "curiosityLevel": 3,
+    "id": "saude-145",
+    "categoryId": "saude"
   }
 ]

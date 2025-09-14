@@ -4287,5 +4287,113 @@
     "curiosityLevel": 4,
     "id": "bem-estar-581",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mágica do Chá de Camomila",
+    "hook": "Você sabia que...",
+    "content": "O chá de camomila não é apenas saboroso, mas um aliado poderoso para o sono e a tranquilidade.  Seus compostos relaxantes reduzem a ansiedade e promovem um sono mais reparador.  Incorpore-o na sua rotina noturna para uma noite mais tranquila.",
+    "funFact": "A camomila contém apigenina, um antioxidante que se liga aos receptores cerebrais, promovendo relaxamento.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-582",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Força da Natureza Urbana",
+    "hook": "Você sabia que...",
+    "content": "Mesmo em grandes cidades, a conexão com a natureza é crucial.  Um simples passeio em um parque, a observação de árvores ou flores, pode reduzir os níveis de estresse e melhorar o humor.  Aproveite os espaços verdes ao seu redor.",
+    "funFact": "Somente 15 minutos em um parque reduzem significativamente os níveis de cortisol e pressão arterial.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-583",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Cheiro da Terra",
+    "hook": "Você sabia que...",
+    "content": "O aroma de terra molhada, conhecido como petrichor, libera compostos que reduzem o estresse e melhoram o humor.  Uma caminhada na chuva ou simplesmente sentir o cheiro de terra em um vaso de plantas pode ser um poderoso aliado ao seu bem-estar.  Respire fundo e sinta!",
+    "funFact": "O petrichor é composto por óleos de plantas e bactérias do solo, uma combinação surpreendente que afeta o nosso cérebro.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-584",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Pausa Inteligente",
+    "hook": "Incrível:",
+    "content": "Pausas regulares durante o dia, mesmo que curtas, ajudam a combater o estresse e a fadiga.  Não precisa ser um longo período; apenas alguns minutos para respirar fundo, alongar-se ou apreciar um momento tranquilo podem trazer resultados extraordinários para o seu foco e bem-estar.",
+    "funFact": "Seu cérebro precisa de micro-descansos para otimizar o seu desempenho e prevenir o esgotamento.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-585",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura das Cores",
+    "hook": "Descubra:",
+    "content": "As cores influenciam nosso humor e bem-estar.  Um ambiente com cores vibrantes pode estimular a energia, enquanto tons pastéis promovem a calma.  Observe como as cores ao seu redor afetam seu estado de espírito e faça ajustes para otimizar seu ambiente.",
+    "funFact": "Cromoterapia, a terapia das cores, é uma prática milenar que utiliza a luz para promover o equilíbrio físico e emocional.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-586",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Silêncio que Cura",
+    "hook": "Você sabia que...",
+    "content": "Reservar momentos de silêncio em seu dia a dia pode ser extremamente benéfico para sua saúde mental.  O silêncio permite que seu cérebro processe informações, reduza a ansiedade e promova a calma interior. Experimente meditar ou simplesmente sentar-se em silêncio.",
+    "funFact": "O silêncio reduz a atividade da amígdala cerebral, área relacionada ao medo e ao estresse.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-587",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Inteligência da Natureza",
+    "hook": "Descubra:",
+    "content": "Passe algum tempo na natureza, mesmo que seja apenas alguns minutos. A natureza reduz os níveis de cortisol (hormônio do estresse) e aumenta a produção de serotonina e dopamina, neurotransmissores relacionados ao humor e bem-estar.  Conecte-se com os elementos naturais.",
+    "funFact": "O tempo na natureza melhora o foco e a criatividade, impactando positivamente sua produtividade.",
+    "curiosityLevel": 1,
+    "id": "bem-estar-588",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Sol da Meia-Noite",
+    "hook": "Surpreendente: a luz...",
+    "content": "A exposição à luz solar, mesmo que indiretamente, por curtos períodos, pode regular seu ritmo circadiano, melhorando o sono e o humor.  Uma simples caminhada ao entardecer, mesmo em dias nublados, pode fazer maravilhas para seu bem-estar físico e mental. Invista em cortinas translúcidas para aproveitar a luz natural.",
+    "funFact": "A luz solar indireta ainda estimula a produção de vitamina D, essencial para a saúde óssea.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-589",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Ritmo da Natureza",
+    "hook": "Você sabia que...",
+    "content": "Sincronizar suas atividades com os ritmos naturais, como o nascer e o pôr do sol, pode melhorar seu bem-estar.  Tente acordar com a luz natural e evitar telas antes de dormir para regular seu ciclo circadiano e dormir melhor. Experimente a rotina de acordar com o sol!",
+    "funFact": "Alinhar-se aos ritmos circadianos pode aumentar a imunidade em até 30%.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-590",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia das Plantas",
+    "hook": "Incrível: as plantas...",
+    "content": "Ter plantas em casa ou no escritório não é apenas esteticamente agradável, mas também melhora a qualidade do ar e reduz os níveis de estresse.  A interação com a natureza, mesmo em ambientes fechados, contribui para o bem-estar.  Escolha plantas que se adaptem ao seu espaço!",
+    "funFact": "Plantas de interior podem reduzir em até 20% os níveis de poluentes no ar.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-591",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Música para a Alma",
+    "hook": "Incrível: o ritmo...",
+    "content": "Ouvir música que te agrada pode reduzir o estresse, melhorar o humor e até mesmo aliviar a dor.  Crie playlists personalizadas para diferentes momentos do dia, adaptando o ritmo e o gênero musical às suas necessidades e emoções. Música é terapia!",
+    "funFact": "A música ativa áreas cerebrais associadas ao prazer e ao relaxamento.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-592",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Conexão Corporal",
+    "hook": "Surpreendente: o corpo...",
+    "content": "Estar atento à sua postura e aos sinais do seu corpo pode melhorar seu bem-estar físico e mental.  Pratique alongamentos regulares, mantenha uma postura ereta e preste atenção aos sinais de cansaço ou estresse para evitar a sobrecarga.  Ouça seu corpo!",
+    "funFact": "Uma boa postura melhora a respiração e aumenta a energia.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-593",
+    "categoryId": "bem-estar"
   }
 ]
