@@ -28,6 +28,7 @@ import saudeCuriosities from '../../data/curiosities/saude.json';
 import tecnologiaCuriosities from '../../data/curiosities/tecnologia.json';
 import universoEAstronomiaCuriosities from '../../data/curiosities/universo-e-astronomia.json';
 import viagensCuriosities from '../../data/curiosities/viagens.json';
+import inglesCuriosities from '../../data/curiosities/ingles.json';
 
 import autoajudaQuizzes from '../../data/quiz-questions/autoajuda.json';
 import bemEstarQuizzes from '../../data/quiz-questions/bem-estar.json';
@@ -50,6 +51,7 @@ import saudeQuizzes from '../../data/quiz-questions/saude.json';
 import tecnologiaQuizzes from '../../data/quiz-questions/tecnologia.json';
 import universoEAstronomiaQuizzes from '../../data/quiz-questions/universo-e-astronomia.json';
 import viagensQuizzes from '../../data/quiz-questions/viagens.json';
+import inglesQuizzes from '../../data/quiz-questions/ingles.json';
 
 // Carrega todos os dados uma vez.
 const allCuriosities: Curiosity[] = [
@@ -73,7 +75,8 @@ const allCuriosities: Curiosity[] = [
     ...saudeCuriosities,
     ...tecnologiaCuriosities,
     ...universoEAstronomiaCuriosities,
-    ...viagensCuriosities
+    ...viagensCuriosities,
+    ...inglesCuriosities
 ].flat();
 
 const allQuizQuestions: QuizQuestion[] = [
@@ -97,7 +100,8 @@ const allQuizQuestions: QuizQuestion[] = [
     ...saudeQuizzes,
     ...tecnologiaQuizzes,
     ...universoEAstronomiaQuizzes,
-    ...viagensQuizzes
+    ...viagensQuizzes,
+    ...inglesQuizzes
 ].flat();
 
 

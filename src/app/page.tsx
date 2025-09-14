@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { RandomCuriosityButton } from '@/components/shared/RandomCuriosityButton';
 import { 
-    Heart, Leaf, DollarSign, Smartphone, Atom, Palette, BookOpen, Eye, Film, Users, Brain, TrendingUp, MapPin, Globe, Target, Lightbulb, PawPrint, Orbit, Music, Church, HelpCircle, Rocket 
+    Heart, Leaf, DollarSign, Smartphone, Atom, Palette, BookOpen, Eye, Film, Users, Brain, TrendingUp, MapPin, Globe, Target, Lightbulb, PawPrint, Orbit, Music, Church, HelpCircle, Rocket, Languages
 } from 'lucide-react';
 import { useMemo } from 'react';
 
@@ -36,6 +36,7 @@ const iconsMap: Record<string, React.ElementType> = {
   Music,
   Church,
   help: HelpCircle,
+  Languages,
 };
 
 interface CategoryCardProps {
