@@ -23,15 +23,8 @@ export default function CuriosityExplorer({
 }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
-  
-  const calculateInitialIndex = useCallback(() => {
-    if (!curiosities || curiosities.length === 0) return 0;
-    if (!stats || !stats.readCuriosities) return 0;
-    const firstUnreadIndex = curiosities.findIndex(c => !(stats.readCuriosities.includes(c.id)));
-    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-  }, [curiosities, stats]);
 
-  const [currentIndex, setCurrentIndex] = useState(() => calculateInitialIndex());
+  const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
   const allCuriosityIds = useMemo(() => {
     return categories.flatMap(cat => 
@@ -39,12 +32,21 @@ export default function CuriosityExplorer({
     );
   }, []);
 
+  // Efeito que executa apenas quando os dados do usuário terminam de carregar.
+  // Isso define o índice inicial corretamente, sem causar loops.
   useEffect(() => {
     if (isLoaded) {
+      const calculateInitialIndex = () => {
+        if (!curiosities || curiosities.length === 0) return 0;
+        if (!stats || !stats.readCuriosities) return 0;
+        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+        return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
+      };
       setCurrentIndex(calculateInitialIndex());
     }
-  }, [isLoaded, calculateInitialIndex]);
+  }, [isLoaded, curiosities, stats.readCuriosities]); // Dependências estáveis
 
+  // Efeito para marcar a curiosidade atual como lida
   useEffect(() => {
     if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
@@ -55,6 +57,7 @@ export default function CuriosityExplorer({
   }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead]);
 
   const handleNext = useCallback(() => {
+    if (currentIndex === null) return;
     const nextIndex = currentIndex + 1;
     if (nextIndex < curiosities.length) {
       setCurrentIndex(nextIndex);
@@ -62,6 +65,7 @@ export default function CuriosityExplorer({
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
+    if (currentIndex === null) return;
     const prevIndex = currentIndex - 1;
     if (prevIndex >= 0) {
       setCurrentIndex(prevIndex);
@@ -69,9 +73,9 @@ export default function CuriosityExplorer({
   }, [currentIndex]);
   
   const surpriseMe = useCallback(() => {
-    if (allCuriosityIds.length <= 1) return;
+    if (allCuriosityIds.length <= 1 || currentIndex === null) return;
   
-    const currentId = curiosities[currentIndex!]?.id;
+    const currentId = curiosities[currentIndex]?.id;
     let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
   
     let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
