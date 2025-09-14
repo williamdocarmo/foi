@@ -24,49 +24,35 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  // Otimização: A função para calcular o índice inicial.
   const calculateInitialIndex = useCallback(() => {
     if (!curiosities || curiosities.length === 0) return 0;
-    
-    // Tenta encontrar a primeira curiosidade não lida.
-    const firstUnreadIndex = curiosities.findIndex(c => !(stats?.readCuriosities?.includes(c.id)));
-    
-    // Se encontrar, usa esse índice. Senão, começa do início.
+    if (!stats || !stats.readCuriosities) return 0;
+    const firstUnreadIndex = curiosities.findIndex(c => !(stats.readCuriosities.includes(c.id)));
     return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-  }, [curiosities, stats?.readCuriosities]);
+  }, [curiosities, stats]);
 
-  // 1) O estado é inicializado UMA VEZ com o valor calculado.
-  // Isso evita o loop de re-renderização.
   const [currentIndex, setCurrentIndex] = useState(() => calculateInitialIndex());
 
-
-  // Memoize all available curiosity IDs for the surpriseMe function
   const allCuriosityIds = useMemo(() => {
     return categories.flatMap(cat => 
         (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
     );
   }, []);
 
-  // 2) Este efeito roda APENAS quando os stats são carregados.
-  // Ele garante que, após a sincronização inicial, o índice seja ajustado para a primeira curiosidade não lida, se necessário.
   useEffect(() => {
     if (isLoaded) {
       setCurrentIndex(calculateInitialIndex());
     }
   }, [isLoaded, calculateInitialIndex]);
 
-
-  // Este efeito marca a curiosidade como lida sempre que o índice muda.
   useEffect(() => {
     if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
       if (currentCuriosity) {
-        // A lógica completa de marcação (com cálculo de streak) é chamada aqui.
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
   }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead]);
-
 
   const handleNext = useCallback(() => {
     const nextIndex = currentIndex + 1;
@@ -97,9 +83,7 @@ export default function CuriosityExplorer({
     const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
     router.push(`/curiosity/${randomCuriosity.categoryId}`);
-
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
-  
   
   if (curiosities.length === 0) {
     return (
@@ -223,7 +207,7 @@ export default function CuriosityExplorer({
           <CardTitle className="flex items-center">
             {isLoaded && stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
             Status do Explorador
-          </Title>
+          </CardTitle>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
         </CardHeader>
         <CardContent className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
