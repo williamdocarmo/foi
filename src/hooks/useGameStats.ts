@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from 'react';
@@ -50,7 +49,6 @@ const processDateLogic = (statsToProcess: GameStats): GameStats => {
 };
 
 export function useGameStats() {
-  // Inicializa com o estado padrão para evitar erro no servidor
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
@@ -60,12 +58,12 @@ export function useGameStats() {
 
   // Efeito principal para carregar dados e sincronizar. Roda apenas no cliente.
   useEffect(() => {
-    // Carrega dados locais imediatamente no cliente
-    const localStats = loadLocalStats();
-    setStats(processDateLogic(localStats));
+    const initialLocalStats = loadLocalStats();
+    setStats(processDateLogic(initialLocalStats));
 
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
       setUser(authedUser);
+      const localStats = loadLocalStats(); // Recarregar caso tenha mudado
 
       if (authedUser) {
         let cloudStats: GameStats | null = null;
@@ -86,31 +84,28 @@ export function useGameStats() {
             cloudStats = docSnap.data() as GameStats;
           }
           
-          // A mesclagem agora ocorre após o carregamento local, em segundo plano
-          setStats(currentLocalStats => {
-              const mergedStats: GameStats = {
-                ...defaultStats,
-                ...currentLocalStats,
-                ...cloudStats,
-                longestStreak: Math.max(currentLocalStats.longestStreak, cloudStats?.longestStreak || 0),
-                quizScores: { ...(cloudStats?.quizScores || {}), ...(currentLocalStats.quizScores || {}) },
-                readCuriosities: [...new Set([...(currentLocalStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
-              };
-              mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
-    
-              const finalStats = processDateLogic(mergedStats);
-              localStorage.removeItem(LOCAL_GAME_STATS_KEY);
-              return finalStats;
-          });
+          const mergedStats: GameStats = {
+            ...defaultStats,
+            ...localStats,
+            ...cloudStats,
+            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
+            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
+            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
+          };
+          mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
 
+          const finalStats = processDateLogic(mergedStats);
+          setStats(finalStats);
+          localStorage.removeItem(LOCAL_GAME_STATS_KEY);
         } catch (error) {
           console.error("Failed to sync stats, using local fallback:", error);
-          // Se a sincronização falhar, já estamos usando os dados locais, então não há necessidade de fazer nada
+          setStats(processDateLogic(localStats));
         }
-      } 
-      // Se não houver usuário, os dados locais já foram definidos.
+      } else {
+        // Se não houver usuário, apenas garanta que o estado local está processado
+        setStats(processDateLogic(localStats));
+      }
 
-      // Sinaliza que o carregamento e a sincronização inicial terminaram.
       setIsLoaded(true);
     });
 
