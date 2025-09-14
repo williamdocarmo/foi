@@ -4,7 +4,6 @@ const config: CapacitorConfig = {
   appId: 'com.vocesabia.app',
   appName: 'Você Sabia?',
   webDir: 'out',
-  bundledWebRuntime: false,
   server: {
     androidScheme: 'https',
   },
