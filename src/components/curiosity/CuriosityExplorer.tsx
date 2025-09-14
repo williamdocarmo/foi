@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
@@ -27,7 +28,7 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
     return categories.flatMap(cat =>
       (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
     );
-  }, []); // Removido categories e curiositiesByCategory das dependências pois são estáticos
+  }, []); // Dependências estáticas, calculado uma vez
 
   // Efeito para inicializar o índice, roda apenas quando os dados são carregados
   useEffect(() => {

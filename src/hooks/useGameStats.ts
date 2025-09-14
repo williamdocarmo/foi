@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from 'react';
@@ -45,76 +46,97 @@ const processDateLogic = (statsToProcess: GameStats): GameStats => {
 };
 
 export function useGameStats() {
-  const [stats, setStats] = useState<GameStats>(defaultStats);
+  const [stats, setStats] = useState<GameStats>(() => processDateLogic(loadLocalStats()));
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
-
   const userRef = useRef(user);
-  useEffect(() => { userRef.current = user; }, [user]);
 
   useEffect(() => {
+      userRef.current = user;
+  }, [user]);
+
+  // Efeito para sincronização com Firebase. Roda apenas uma vez.
+  useEffect(() => {
+    // A UI já renderizou com dados locais, agora sincronizamos em segundo plano.
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
-      setUser(authedUser);
-      const localStats = loadLocalStats();
+        setUser(authedUser);
+        const localStats = loadLocalStats();
 
-      if (authedUser) {
-        let cloudStats: GameStats | null = null;
-        try {
-          const docRef = doc(db, 'userStats', authedUser.uid);
-          let docSnap;
-          try {
-            docSnap = await getDoc(docRef);
-          } catch {
+        if (authedUser) {
             try {
-              docSnap = await getDocFromCache(docRef);
-            } catch {
-              docSnap = null;
+                const docRef = doc(db, 'userStats', authedUser.uid);
+                let docSnap;
+                try {
+                    docSnap = await getDoc(docRef);
+                } catch {
+                    try {
+                        docSnap = await getDocFromCache(docRef);
+                    } catch {
+                        docSnap = null;
+                    }
+                }
+
+                const cloudStats = docSnap?.exists() ? docSnap.data() as GameStats : null;
+
+                // Mescla os dados da nuvem com os locais, dando prioridade para a nuvem onde for relevante
+                setStats(prev => {
+                    const mergedStats: GameStats = {
+                        ...defaultStats,
+                        ...prev, // Mantém o estado local como base
+                        ...(cloudStats || {}), // Sobrescreve com dados da nuvem
+                        readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
+                        quizScores: { ...(localStats.quizScores || {}), ...(cloudStats?.quizScores || {}) },
+                        longestStreak: Math.max(localStats.longestStreak || 0, cloudStats?.longestStreak || 0),
+                    };
+                    mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
+                    
+                    const finalStats = processDateLogic(mergedStats);
+                    
+                    // Limpa o local storage após a mesclagem bem-sucedida para evitar dados conflitantes
+                    localStorage.removeItem(LOCAL_GAME_STATS_KEY);
+                    
+                    return finalStats;
+                });
+            } catch (error) {
+                console.error("Firebase sync failed:", error);
+                // Em caso de erro na sincronização, já estamos usando os dados locais, então o app continua funcional.
             }
-          }
-
-          if (docSnap?.exists()) cloudStats = docSnap.data() as GameStats;
-
-          const mergedStats: GameStats = {
-            ...defaultStats,
-            ...cloudStats,
-            ...localStats,
-            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
-            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
-          };
-          mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
-
-          const finalStats = processDateLogic(mergedStats);
-          setStats(finalStats);
-          localStorage.removeItem(LOCAL_GAME_STATS_KEY);
-        } catch (error) {
-          console.error("Failed to sync stats, using local fallback:", error);
-          setStats(processDateLogic(localStats));
+        } else {
+             // Se o usuário deslogou, recarregamos os dados locais.
+            setStats(processDateLogic(loadLocalStats()));
         }
-      } else {
-        setStats(processDateLogic(localStats));
-      }
-
-      setIsLoaded(true);
+        // Sinaliza que o carregamento (inicial + sincronização) terminou.
+        if (!isLoaded) setIsLoaded(true);
     });
 
-    return () => unsubscribe();
-  }, []);
+    // Se não houver usuário após um tempo, consideramos carregado.
+    const timer = setTimeout(() => {
+        if (!isLoaded) setIsLoaded(true);
+    }, 1500);
 
-  // Persistência (debounced)
+    return () => {
+        unsubscribe();
+        clearTimeout(timer);
+    };
+  }, []); // Roda apenas uma vez
+
+  // Efeito para persistência debotada (debounced)
   useEffect(() => {
+    // Não salva até que a carga inicial e sincronização estejam completas.
     if (!isLoaded) return;
+
     const timer = setTimeout(() => {
       try {
+        const statsToSave = { ...stats };
         if (userRef.current) {
           const userDocRef = doc(db, 'userStats', userRef.current.uid);
           setDoc(userDocRef, {
-            ...stats,
+            ...statsToSave,
             displayName: userRef.current.displayName || userRef.current.email?.split('@')[0],
             photoURL: userRef.current.photoURL
           }, { merge: true });
         } else {
-          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(stats));
+          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(statsToSave));
         }
       } catch (error) {
         console.error("Failed to save stats:", error);
