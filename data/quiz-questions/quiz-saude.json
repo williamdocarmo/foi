@@ -1988,5 +1988,19 @@
     "explanation": "Os glóbulos vermelhos, ou eritrócitos, contêm hemoglobina, que transporta oxigênio. O plasma é a parte líquida, as plaquetas ajudam na coagulação e os glóbulos brancos combatem infecções. Curiosidade:  O corpo produz milhões de glóbulos vermelhos a cada segundo.",
     "id": "quiz-saude-142",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "A prática regular de exercícios físicos melhora principalmente:",
+    "options": [
+      "A flexibilidade",
+      "A saúde cardiovascular",
+      "A força muscular",
+      "Todas as opções acima"
+    ],
+    "correctAnswer": "Todas as opções acima",
+    "explanation": "Exercícios regulares beneficiam a flexibilidade, a saúde cardiovascular e a força muscular. Curiosidade: O exercício também ajuda a regular o humor e a reduzir o estresse.",
+    "id": "quiz-saude-143",
+    "categoryId": "saude"
   }
 ]

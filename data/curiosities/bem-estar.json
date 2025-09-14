@@ -4737,5 +4737,185 @@
     "curiosityLevel": 3,
     "id": "bem-estar-631",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Luz do Sol",
+    "hook": "Descubra:",
+    "content": "A exposição matinal ao sol regula o nosso relógio biológico, melhorando a qualidade do sono e o humor.  A luz solar é crucial para a produção de vitamina D, essencial para a saúde óssea e imunidade. Aproveite os raios solares com moderação!",
+    "funFact": "15 minutos de sol diariamente já são suficientes para a produção de vitamina D!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-632",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Gratidão que Transforma",
+    "hook": "Transformador:",
+    "content": "A prática da gratidão, seja por meio de um diário ou meditação, aumenta a felicidade e a satisfação com a vida.  Agradecer pelo que temos nos conecta com o positivo e fortalece a resiliência diante de desafios. Cultive a gratidão!",
+    "funFact": "Pessoas gratas dormem melhor e são mais resilientes!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-633",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder Escondido das Plantas",
+    "hook": "Surpreendente:",
+    "content": "Algumas plantas, além de embelezar o ambiente, purificam o ar e aumentam a umidade, criando um microclima benéfico para a respiração e a pele.  Ter plantas em casa ou no escritório pode melhorar significativamente a qualidade do ar e o bem-estar.",
+    "funFact": "A NASA realizou estudos identificando plantas ideais para purificar o ar interior!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-634",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Música da Alma",
+    "hook": "Você sabia que...",
+    "content": "A música tem o poder de acalmar a mente, elevar o ânimo e até mesmo reduzir a dor.  Escolher músicas que te trazem alegria e paz pode ser uma forma simples e eficaz de melhorar o humor e o bem-estar emocional.",
+    "funFact": "Música melhora a memória e a coordenação motora!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-635",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Serenidade Noturna",
+    "hook": "Você sabia que...",
+    "content": "A preparação para o sono influencia profundamente a qualidade do descanso. Criar um ritual relaxante, como um banho morno ou leitura leve, antes de dormir, prepara o corpo e a mente para a regeneração celular. A escuridão total também é essencial para o equilíbrio hormonal.",
+    "funFact": "A melatonina, hormônio do sono, é mais produzida em ambientes escuros e silenciosos.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-636",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder Oculto da Organização",
+    "hook": "Surpreendente:",
+    "content": "Uma casa organizada não reflete apenas limpeza, mas impacta diretamente o bem-estar mental.  A organização reduz o estresse ao minimizar a busca por itens perdidos e a sensação de caos visual. Um ambiente ordenado promove a clareza mental e a concentração.",
+    "funFact": "A desordem visual pode aumentar os níveis de cortisol, o hormônio do estresse.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-637",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Natureza que Restaura",
+    "hook": "Você sabia que...",
+    "content": "Passar tempo na natureza reduz o estresse, melhora o humor e aumenta a criatividade.  O contato com o ar puro, a luz solar e as cores da natureza acalmam a mente e restabelecem o equilíbrio energético, promovendo um estado de paz interior.",
+    "funFact": "O verde da natureza tem um efeito calmante comprovado cientificamente.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-638",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Perdão Interior",
+    "hook": "Surpreendente:",
+    "content": "Perdoar a si mesmo e aos outros é um ato de libertação.  Guardamos rancores que consomem nossa energia vital, prejudicando a saúde mental.  Perdoar não significa esquecer, mas sim libertar-se do peso emocional do passado, abrindo caminho para a paz e o bem-estar.",
+    "funFact": "Perdoar ativa mecanismos de auto-cura, reduzindo a inflamação no corpo.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-639",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Autocompaixão como Cura",
+    "hook": "Você sabia que...",
+    "content": "Tratar a si mesmo com a mesma compaixão que você ofereceria a um amigo em sofrimento reduz o impacto de experiências negativas. A autocompaixão ajuda a lidar com a frustração, o fracasso e as imperfeições, promovendo uma maior aceitação de si.",
+    "funFact": "A autocompaixão está ligada a uma maior resiliência e capacidade de lidar com o estresse.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-640",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Mindfulness no Cotidiano",
+    "hook": "Incrível:",
+    "content": "A prática de mindfulness no dia a dia, prestando atenção ao momento presente sem julgamentos, reduz a ansiedade e aumenta a consciência corporal.  Simples atos, como saborear uma xícara de chá ou sentir o vento na pele, promovem a conexão com o presente.",
+    "funFact": "Mindfulness pode melhorar a memória e a capacidade de atenção.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-641",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Contemplação da Lua",
+    "hook": "Você sabia que...",
+    "content": "Observar a lua cheia, seus ciclos e a beleza noturna tem um impacto profundo na calma interior.  Essa contemplação proporciona um momento de pausa, conexão com a natureza e a introspecção, reduzindo o estresse e melhorando a qualidade do sono. Experimente!",
+    "funFact": "Antigos rituais lunares usavam a contemplação da lua para harmonizar energias.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-642",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Impacto Subestimado das Plantas em Casa",
+    "hook": "Incrível:",
+    "content": "Ter plantas em casa não é apenas decoração.  Elas purificam o ar, melhoram a umidade do ambiente, reduzem o estresse e até mesmo aumentam a produtividade. A presença de verde estimula a calma e a concentração, criando um ambiente mais sereno.",
+    "funFact": "Algumas plantas, como a aloe vera, também têm propriedades medicinais.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-643",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Influência da Luz Natural na Produtividade",
+    "hook": "Ilumine seu dia!",
+    "content": "A exposição à luz natural regula o ritmo circadiano, melhorando o sono e a energia. Trabalhar perto de janelas ou passar tempo ao ar livre durante o dia aumenta a concentração e a produtividade. Deixe a luz do sol entrar!",
+    "funFact": "A luz solar aumenta os níveis de vitamina D, essencial para a saúde óssea e imunológica!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-644",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Cores que Alimentam a Alma",
+    "hook": "Descubra:",
+    "content": "As cores influenciam nosso humor e bem-estar de forma surpreendente.  Tons azuis e verdes promovem calma, enquanto tons amarelos e laranjas estimulam a criatividade e a energia.  Incorpore essas cores em seu ambiente para otimizar seu estado emocional e mental.",
+    "funFact": "O azul é frequentemente usado em hospitais por seu efeito calmante.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-645",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Música que Cura",
+    "hook": "Surpreendente:",
+    "content": "A música não é apenas entretenimento;  ela possui um profundo impacto no cérebro, regulando o ritmo cardíaco, diminuindo a pressão arterial e liberando endorfinas.  Ouvir música que te agrada é uma forma simples e eficaz de melhorar seu humor e bem-estar.",
+    "funFact": "A música pode ser usada como terapia para pacientes com Alzheimer e outras demências.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-646",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Força da Gratidão",
+    "hook": "Você sabia que...",
+    "content": "A prática da gratidão, seja por meio de um diário ou simplesmente refletindo sobre os aspectos positivos do seu dia, aumenta a felicidade e reduz o estresse.  Aprenda a valorizar os pequenos momentos e a cultivar a gratidão em seu cotidiano.",
+    "funFact": "A gratidão ativa áreas do cérebro associadas à recompensa e à felicidade.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-647",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Impacto da Cor na Sua Paz Interior",
+    "hook": "Surpreendente:",
+    "content": "As cores influenciam nosso humor e estado emocional. Tons quentes como o amarelo e o laranja estimulam a criatividade e a energia, enquanto cores frias como o azul e o verde promovem calma e tranquilidade. Pinte sua vida com as cores certas!",
+    "funFact": "O azul é a cor mais associada à sensação de calma e tranquilidade globalmente.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-648",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mágica dos Micro-Momentos de Gratidão",
+    "hook": "Você sabia que...",
+    "content": "Reservar alguns segundos do seu dia para agradecer por algo, mesmo que pequeno, pode mudar radicalmente seu humor e sua perspectiva.  A gratidão ativa mecanismos cerebrais que reduzem o estresse e aumentam a felicidade. Cultive a gratidão, cultive a felicidade.",
+    "funFact": "Pessoas que praticam a gratidão diariamente relatam ter 25% mais felicidade.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-649",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Dança da Felicidade: Mais que Movimento",
+    "hook": "Surpreendente:",
+    "content": "A dança não é apenas um exercício físico, mas uma poderosa ferramenta de bem-estar emocional. Ela libera endorfina, reduz a ansiedade, aumenta a autoestima e promove a conexão com o próprio corpo e com os outros. Solte o seu corpo, liberte a sua alma!",
+    "funFact": "Apenas 30 minutos de dança podem queimar mais de 200 calorias.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-650",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Mágica do Silêncio",
+    "hook": "Você sabia que...",
+    "content": "Reservar momentos de silêncio, mesmo que curtos, é essencial para a saúde mental.  Em meio ao caos da vida moderna, o silêncio proporciona descanso para a mente e o corpo, permitindo a reflexão e a reconexão consigo mesmo. Experimente o poder do silêncio!",
+    "funFact": "Apenas 5 minutos de silêncio podem reduzir os níveis de cortisol no sangue.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-651",
+    "categoryId": "bem-estar"
   }
 ]

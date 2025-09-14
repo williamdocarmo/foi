@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Lightbulb, BookOpen, Flame, Trophy, LogIn, LogOut, User, BarChart } from 'lucide-react';
+import { Lightbulb, BookOpen, Flame, Trophy, LogIn, LogOut, User } from 'lucide-react';
 import { useGameStats } from '@/hooks/useGameStats';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
@@ -86,24 +86,12 @@ export default function AppHeader() {
                       </TooltipTrigger>
                       <TooltipContent>Ver Conquistas e Perfil</TooltipContent>
                     </Tooltip>
-
-                    <Tooltip>
-                      <TooltipTrigger asChild>
-                        <Link href="/ranking" className="flex items-center gap-1 hover:text-foreground">
-                          <BarChart className="h-4 w-4 text-blue-500" />
-                          <span className='hidden sm:inline-block'>Ranking</span>
-                        </Link>
-                      </TooltipTrigger>
-                      <TooltipContent>Ver Ranking de Jogadores</TooltipContent>
-                    </Tooltip>
-
                   </>
                 ) : (
                   <>
                     <Skeleton className="h-5 w-8" />
                     <Skeleton className="h-5 w-8" />
                     <Skeleton className="h-5 w-20" />
-                     <Skeleton className="h-5 w-20" />
                   </>
                 )}
               </div>
@@ -129,14 +117,8 @@ export default function AppHeader() {
                     <DropdownMenuSeparator />
                      <DropdownMenuItem asChild>
                        <Link href="/profile">
-                         <Trophy className="mr-2 h-4 w-4" />
-                         <span>Minhas Conquistas</span>
-                       </Link>
-                    </DropdownMenuItem>
-                     <DropdownMenuItem asChild>
-                       <Link href="/ranking">
-                         <BarChart className="mr-2 h-4 w-4" />
-                         <span>Ranking Global</span>
+                         <User className="mr-2 h-4 w-4" />
+                         <span>Meu Perfil</span>
                        </Link>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />

@@ -1063,5 +1063,23 @@
     "curiosityLevel": 4,
     "id": "saude-148",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência da Sua Segunda Pele: Um Ecossistema Complexo",
+    "hook": "Você sabia que...",
+    "content": "A pele abriga um ecossistema complexo de bactérias, fungos e outros microrganismos que impactam significativamente sua saúde.  Este microbioma cutâneo protege contra infecções, regula a inflamação e influencia a saúde da sua pele.  Um desequilíbrio pode causar doenças de pele.",
+    "funFact": "O número de microrganismos na sua pele é maior do que o número de células no seu corpo!",
+    "curiosityLevel": 4,
+    "id": "saude-149",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Fascinante Ciência da Sua Saliva",
+    "hook": "Incrível: sua saliva revela muito!",
+    "content": "Sua saliva, além de auxiliar na digestão, contém enzimas, anticorpos e até mesmo informações genéticas.  A composição da saliva pode indicar problemas de saúde, desde cáries até doenças autoimunes.  Análises da saliva são cada vez mais utilizadas em diagnósticos médicos, mostrando sua importância para a saúde além do que imaginamos.",
+    "funFact": "A saliva contém uma proteína que combate o crescimento de células cancerígenas!",
+    "curiosityLevel": 4,
+    "id": "saude-150",
+    "categoryId": "saude"
   }
 ]
