@@ -62,12 +62,7 @@ export function useGameStats() {
         try {
           if (currentUser) {
             const userRef = doc(db, 'userStats', currentUser.uid);
-            const dataToSave = {
-              ...updated,
-              displayName: currentUser.displayName || currentUser.email?.split('@')[0],
-              photoURL: currentUser.photoURL
-            };
-            await setDoc(userRef, dataToSave, { merge: true });
+            await setDoc(userRef, updated, { merge: true });
           } else {
             localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(updated));
           }
@@ -87,9 +82,13 @@ export function useGameStats() {
 
       try {
         if (authedUser) {
-          // User is logged in
+          // User is logged in, try reading from cache first for speed
           const docRef = doc(db, 'userStats', authedUser.uid);
-          const docSnap = await getDoc(docRef);
+          let docSnap = await getDoc(docRef, { source: 'cache' }).catch(() => null);
+          
+          if (!docSnap || !docSnap.exists()) {
+            docSnap = await getDoc(docRef); // Fallback to server
+          }
           
           let cloudStats: GameStats | null = null;
           if (docSnap.exists()) {
@@ -114,7 +113,11 @@ export function useGameStats() {
           setStats(finalStats);
 
           // Save the merged result back to Firestore and clear local storage
-          await setDoc(docRef, finalStats, { merge: true });
+          await setDoc(docRef, { 
+            ...finalStats,
+            displayName: authedUser.displayName || authedUser.email?.split('@')[0],
+            photoURL: authedUser.photoURL
+          }, { merge: true });
           localStorage.removeItem(LOCAL_GAME_STATS_KEY);
 
         } else {
@@ -145,9 +148,19 @@ export function useGameStats() {
         return;
     }
     
-    const newReadCuriosities = [...stats.readCuriosities, curiosityId];
+    // Otimização: Evitar duplicatas na lista de curiosidades lidas
+    const newReadCuriosities = stats.readCuriosities.includes(curiosityId)
+      ? stats.readCuriosities
+      : [...stats.readCuriosities, curiosityId];
+    
     const newTotalRead = newReadCuriosities.length;
     
+    // Evita recalcular se a contagem não mudou.
+    if(newTotalRead === stats.totalCuriositiesRead) {
+        updateAndSaveStats({ lastReadCuriosity: newLastRead }, user);
+        return;
+    }
+
     const today = new Date();
     let newCurrentStreak = stats.currentStreak;
     let newLastPlayed = stats.lastPlayedDate ? new Date(stats.lastPlayedDate) : null;

@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle, Loader2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
@@ -26,22 +26,31 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  // Otimização: O índice inicial é calculado com useMemo para ser imediato.
-  // Isso evita esperar pelo useEffect e pelo isLoaded para a primeira renderização.
+  // Otimização 1: O índice inicial é calculado com useMemo para ser imediato,
+  // sem precisar esperar pelo useEffect. A lógica de fallback também foi incluída aqui.
   const initialIndex = useMemo(() => {
-    if (!curiosities || curiosities.length === 0) return null;
+    if (!curiosities || curiosities.length === 0) return 0;
     
+    // 1. Prioriza o ID da URL.
     if (initialCuriosityId) {
       const index = curiosities.findIndex(c => c.id === initialCuriosityId);
       if (index !== -1) return index;
     }
+  
+    // 2. Se não houver ID na URL, tenta encontrar a primeira curiosidade não lida.
+    // Isso é feito com as estatísticas disponíveis no momento (mesmo que iniciais/vazias).
+    const firstUnreadIndex = curiosities.findIndex(c => !(stats?.readCuriosities?.includes(c.id)));
+    if (firstUnreadIndex !== -1) {
+      return firstUnreadIndex;
+    }
 
-    // A lógica de fallback para a primeira não lida ou última lida será
-    // tratada dentro de um useEffect para não bloquear a renderização inicial.
-    return curiosities.findIndex(c => c.id === initialCuriosityId) || 0;
-  }, [curiosities, initialCuriosityId]);
+    // 3. Se tudo mais falhar (todas já lidas), começa pela primeira.
+    return 0;
 
-  const [currentIndex, setCurrentIndex] = useState<number | null>(initialIndex);
+  }, [curiosities, initialCuriosityId, stats?.readCuriosities]);
+
+
+  const [currentIndex, setCurrentIndex] = useState<number>(initialIndex);
 
   // Memoize all available curiosity IDs for the surpriseMe function
   const allCuriosityIds = useMemo(() => {
@@ -50,40 +59,31 @@ export default function CuriosityExplorer({
     );
   }, []);
 
-  // Efeito para sincronizar a leitura em segundo plano, sem bloquear a UI.
+  // Otimização 2: Efeitos separados para uma experiência mais fluida.
+  // 2a) Este efeito roda sempre que o índice muda, atualizando a "última lida" de forma otimista.
+  // Não depende do `isLoaded`, tornando a navegação mais rápida.
   useEffect(() => {
-    if (currentIndex !== null && isLoaded) {
+    const currentCuriosity = curiosities[currentIndex];
+    if (currentCuriosity) {
+      // O 'true' no final indica que é para apenas atualizar a última lida, sem recalcular streak/combos.
+      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId, true);
+    }
+  }, [currentIndex, curiosities, markCuriosityAsRead]);
+
+  // 2b) Este efeito roda APENAS quando os stats do usuário são carregados (`isLoaded`).
+  // Ele confirma a leitura completa (calculando streak, etc.) se a curiosidade ainda não foi marcada.
+  useEffect(() => {
+    if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
       if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
+        // Agora faz o cálculo completo.
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
-      } else if (currentCuriosity) {
-        // Apenas atualiza a última lida, sem recalcular tudo
-        markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId, true);
       }
     }
-  }, [currentIndex, isLoaded, curiosities, stats.readCuriosities, markCuriosityAsRead]);
-
-  // Efeito para definir o índice com base nos dados do usuário, mas só depois da carga inicial.
-  useEffect(() => {
-    if (isLoaded && currentIndex === 0 && !initialCuriosityId) {
-        const lastReadId = stats.lastReadCuriosity?.[category.id];
-        if (lastReadId) {
-            const index = curiosities.findIndex(c => c.id === lastReadId);
-            if (index !== -1) {
-                setCurrentIndex(index);
-                return;
-            }
-        }
-        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-        if (firstUnreadIndex !== -1) {
-            setCurrentIndex(firstUnreadIndex);
-        }
-    }
-  }, [isLoaded, stats.lastReadCuriosity, stats.readCuriosities, category.id, curiosities, initialCuriosityId, currentIndex]);
+  }, [isLoaded, currentIndex, curiosities, stats.readCuriosities, markCuriosityAsRead]);
 
 
   const handleNext = useCallback(() => {
-    if (currentIndex === null) return;
     const nextIndex = currentIndex + 1;
     if (nextIndex < curiosities.length) {
       setCurrentIndex(nextIndex);
@@ -91,7 +91,6 @@ export default function CuriosityExplorer({
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
-    if (currentIndex === null) return;
     const prevIndex = currentIndex - 1;
     if (prevIndex >= 0) {
       setCurrentIndex(prevIndex);
