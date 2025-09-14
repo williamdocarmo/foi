@@ -51,49 +51,55 @@ export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
+  
   const userRef = useRef(user);
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
+  // Mantém a ref do usuário sempre atualizada sem causar re-renderizações desnecessárias
   useEffect(() => {
     userRef.current = user;
   }, [user]);
 
-  const pendingStatsRef = useRef<GameStats | null>(null);
-  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
-
-  const flushSave = useCallback(async (currentUser: User | null, dataToSave: GameStats) => {
-    try {
-      if (currentUser) {
-        const userRef = doc(db, 'userStats', currentUser.uid);
-        await setDoc(userRef, dataToSave, { merge: true });
-      } else {
-        localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
+  // Efeito para persistir as alterações de estado de forma debotada (com atraso)
+  useEffect(() => {
+    // Não faz nada se os dados ainda não foram carregados
+    if (!isLoaded) return;
+    
+    // Função para salvar os dados
+    const flushSave = async (dataToSave: GameStats) => {
+      try {
+        if (userRef.current) {
+          const userDocRef = doc(db, 'userStats', userRef.current.uid);
+          await setDoc(userDocRef, dataToSave, { merge: true });
+        } else {
+          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
+        }
+      } catch (error) {
+        console.error("Failed to save game stats:", error);
+        // Fallback para localStorage se o save na nuvem falhar
+        if (!userRef.current) {
+          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
+        }
       }
-    } catch (error) {
-      console.error("Failed to save game stats:", error);
-      if (!currentUser) {
-        localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
-      }
+    };
+    
+    // Se já houver um timer de salvamento, cancela
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
     }
-  }, []);
+    
+    // Agenda um novo salvamento para daqui a 500ms
+    debounceTimerRef.current = setTimeout(() => {
+      flushSave(stats);
+    }, 500);
 
-  const updateAndSaveStats = useCallback((newStats: Partial<GameStats>) => {
-    setStats(prevStats => {
-      const updated = { ...prevStats, ...newStats };
-      pendingStatsRef.current = updated;
-
+    // Função de limpeza para cancelar o timer se o componente for desmontado
+    return () => {
       if (debounceTimerRef.current) {
         clearTimeout(debounceTimerRef.current);
       }
-
-      debounceTimerRef.current = setTimeout(() => {
-        if (pendingStatsRef.current) {
-          flushSave(userRef.current, pendingStatsRef.current);
-        }
-      }, 400);
-
-      return updated;
-    });
-  }, [flushSave]);
+    };
+  }, [stats, isLoaded]); // Este efeito roda sempre que `stats` ou `isLoaded` mudam
 
 
   useEffect(() => {
@@ -184,7 +190,7 @@ export function useGameStats() {
 
       const newCombos = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5) + prevStats.combos;
 
-      const finalUpdatedStats = {
+      return {
           ...prevStats,
           totalCuriositiesRead: newTotalRead,
           readCuriosities: newReadCuriosities,
@@ -195,11 +201,8 @@ export function useGameStats() {
           combos: newCombos,
           lastReadCuriosity: { ...(prevStats.lastReadCuriosity || {}), [categoryId]: curiosityId },
       };
-
-      updateAndSaveStats(finalUpdatedStats);
-      return finalUpdatedStats;
     });
-  }, [updateAndSaveStats]);
+  }, []);
   
   const addQuizResult = useCallback((categoryId: string, score: number) => {
     setStats(prevStats => {
@@ -208,15 +211,13 @@ export function useGameStats() {
           newScores[categoryId] = [];
       }
       newScores[categoryId].push({ score, date: new Date().toISOString() });
-      const updatedStats = { ...prevStats, quizScores: newScores };
-      updateAndSaveStats(updatedStats);
-      return updatedStats;
+      return { ...prevStats, quizScores: newScores };
     });
-  }, [updateAndSaveStats]);
+  }, []);
 
   const updateStats = useCallback((newStats: Partial<GameStats>) => {
-    updateAndSaveStats(newStats);
-  }, [updateAndSaveStats]);
+    setStats(prevStats => ({ ...prevStats, ...newStats }));
+  }, []);
 
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };

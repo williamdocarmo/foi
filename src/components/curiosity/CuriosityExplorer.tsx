@@ -35,7 +35,7 @@ export default function CuriosityExplorer({
   // Efeito que executa apenas quando os dados do usuário terminam de carregar.
   // Isso define o índice inicial corretamente, sem causar loops.
   useEffect(() => {
-    if (isLoaded) {
+    if (isLoaded && currentIndex === null) { // Apenas roda se o índice ainda não foi definido
       const calculateInitialIndex = () => {
         if (!curiosities || curiosities.length === 0) return 0;
         if (!stats || !stats.readCuriosities) return 0;
@@ -44,17 +44,19 @@ export default function CuriosityExplorer({
       };
       setCurrentIndex(calculateInitialIndex());
     }
-  }, [isLoaded, curiosities, stats.readCuriosities]); // Dependências estáveis
+  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
 
   // Efeito para marcar a curiosidade atual como lida
   useEffect(() => {
     if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
-      if (currentCuriosity) {
+      // A condição crucial que quebra o loop: só marcar se ainda não foi lida.
+      if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
-  }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead]);
+  }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead, stats.readCuriosities]);
+
 
   const handleNext = useCallback(() => {
     if (currentIndex === null) return;
