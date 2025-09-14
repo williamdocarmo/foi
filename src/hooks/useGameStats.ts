@@ -5,7 +5,7 @@ import type { GameStats } from '@/lib/types';
 import { isToday, isYesterday } from 'date-fns';
 import { auth, db } from '@/lib/firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc, getDocFromCache } from 'firebase/firestore';
 
 const LOCAL_GAME_STATS_KEY = 'idea-spark-stats';
 
@@ -65,40 +65,51 @@ export function useGameStats() {
 
   // Efeito principal para lidar com autenticação e carregamento de dados.
   useEffect(() => {
+    // 1. Inicia o app com os dados locais imediatamente (Offline-First)
+    const localStats = loadLocalStats();
+    setStats(localStats);
+    setIsLoaded(true);
+
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
       setUser(authedUser);
-      setIsLoaded(false);
 
-      try {
-        if (authedUser) {
-          // Usuário logado: busca dados do Firestore e mescla com os locais.
+      if (authedUser) {
+        // 2. Usuário logado: tenta sincronizar com o Firestore em segundo plano
+        setIsLoaded(false); // Mostra loading durante a sincronização
+        try {
           const docRef = doc(db, 'userStats', authedUser.uid);
           let docSnap;
+
+          // Tenta buscar do servidor, com fallback para o cache
           try {
-            // Tenta buscar do cache primeiro para uma inicialização offline rápida.
-             docSnap = await getDoc(docRef);
+            docSnap = await getDoc(docRef);
           } catch (error) {
-            console.warn("Could not fetch from Firestore (possibly offline). Relying on local data.", error);
-            docSnap = null; // Garante que a lógica continue mesmo com erro offline.
+            console.warn("Firestore fetch failed (offline?), trying cache.", error);
+            try {
+              docSnap = await getDocFromCache(docRef);
+            } catch (cacheError) {
+              console.error("Cache fetch failed.", cacheError);
+              docSnap = null;
+            }
           }
-          
           
           let cloudStats: GameStats | null = null;
           if (docSnap && docSnap.exists()) {
             cloudStats = docSnap.data() as GameStats;
           }
 
-          const localStats = loadLocalStats();
+          // Re-carrega os dados locais caso tenham sido atualizados enquanto offline
+          const currentLocalStats = loadLocalStats();
           
           // Mescla os dados, dando prioridade para os mais recentes e unindo listas.
           const mergedStats: GameStats = {
             ...defaultStats,
             ...cloudStats,
-            ...localStats,
-            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
-            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
-            lastReadCuriosity: { ...(cloudStats?.lastReadCuriosity || {}), ...(localStats.lastReadCuriosity || {}) },
+            ...currentLocalStats,
+            longestStreak: Math.max(currentLocalStats.longestStreak, cloudStats?.longestStreak || 0),
+            quizScores: { ...(cloudStats?.quizScores || {}), ...(currentLocalStats.quizScores || {}) },
+            readCuriosities: [...new Set([...(currentLocalStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
+            lastReadCuriosity: { ...(cloudStats?.lastReadCuriosity || {}), ...(currentLocalStats.lastReadCuriosity || {}) },
           };
           mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
           
@@ -113,16 +124,17 @@ export function useGameStats() {
           }, { merge: true });
           localStorage.removeItem(LOCAL_GAME_STATS_KEY);
 
-        } else {
-          // Usuário deslogado: carrega apenas os dados locais.
-          const localStats = loadLocalStats();
-          setStats(localStats);
+        } catch (error) {
+            console.error("Failed to sync game stats:", error);
+            // Em caso de erro de sincronização, já estamos usando os dados locais, então o app continua funcionando.
+            setStats(loadLocalStats());
+        } finally {
+            setIsLoaded(true); // Finaliza o loading
         }
-      } catch (error) {
-        console.error("Failed to load/sync game stats:", error);
-        // Em caso de erro, recai para os dados locais como segurança.
-        setStats(loadLocalStats());
-      } finally {
+      } else {
+        // 3. Usuário deslogado: garante que estamos usando a última versão dos dados locais
+        const freshLocalStats = loadLocalStats();
+        setStats(freshLocalStats);
         setIsLoaded(true);
       }
     });
@@ -131,17 +143,13 @@ export function useGameStats() {
   }, []); // Roda apenas uma vez.
 
   // EFEITO DE PERSISTÊNCIA (DEBOUNCED)
-  // Este é o coração da nova arquitetura. Ele observa o estado `stats` e o salva automaticamente.
   useEffect(() => {
-    // Só salva se os dados já estiverem carregados para evitar escritas prematuras.
     if (!isLoaded) return;
     
-    // Se já existe um timer, cancela para agendar um novo.
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }
     
-    // Agenda o salvamento para daqui a 500ms.
     debounceTimerRef.current = setTimeout(() => {
       const dataToSave = stats;
       try {
@@ -156,20 +164,15 @@ export function useGameStats() {
       }
     }, 500);
 
-    // Limpeza: cancela o timer se o componente for desmontado.
     return () => {
       if (debounceTimerRef.current) {
         clearTimeout(debounceTimerRef.current);
       }
     };
-  }, [stats, isLoaded]); // Este efeito depende de `stats` e `isLoaded`.
-
-  // FUNÇÕES DE ATUALIZAÇÃO DE ESTADO (SIMPLIFICADAS)
-  // Elas apenas chamam `setStats`. A persistência é tratada pelo useEffect acima.
+  }, [stats, isLoaded]);
 
   const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
     setStats(prevStats => {
-      // Condição de guarda para evitar atualizações desnecessárias.
       if (prevStats.readCuriosities.includes(curiosityId)) {
         return prevStats;
       }
