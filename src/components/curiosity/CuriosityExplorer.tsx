@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
@@ -18,126 +17,110 @@ type CuriosityExplorerProps = {
   curiosities: Curiosity[];
 };
 
+const explorerIcons: Record<string, JSX.Element> = {
+  'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
+  'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
+  'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
+};
+
 export default function CuriosityExplorer({ category, curiosities }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
-  const allCuriosityIds = useMemo(() => {
-    if (!categories || !curiositiesByCategory) return [];
-    return categories.flatMap(cat =>
+  // IDs de todas curiosidades, memoizado
+  const allCuriosityIds = useMemo(() => 
+    categories.flatMap(cat =>
       (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
-    );
-  }, []); // Dependências estáticas, calculado uma vez
+    )
+  , []);
 
-  // Efeito para inicializar o índice, roda apenas quando os dados são carregados
+  // Inicializa o índice com a primeira curiosidade não lida
   useEffect(() => {
-    // Só roda se os dados carregaram, o índice ainda não foi definido, e as curiosidades lidas estão disponíveis
-    if (isLoaded && currentIndex === null && stats.readCuriosities) {
-      const firstUnread = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-      setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
-    }
+    if (!isLoaded || currentIndex !== null) return;
+    const firstUnread = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+    setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
   }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
 
-  // Efeito para marcar a curiosidade atual como lida. A lógica é mais segura agora.
-  const currentCuriosityId = currentIndex !== null ? curiosities[currentIndex]?.id : null;
+  // Marca curiosidade atual como lida
+  const currentCuriosity = useMemo(() => {
+    if (currentIndex === null) return null;
+    return curiosities[currentIndex] || null;
+  }, [currentIndex, curiosities]);
+
   useEffect(() => {
-    if (isLoaded && currentIndex !== null && currentCuriosityId) {
-      // Condição crucial que quebra o loop: só marca se ainda não foi marcada.
-      if (!stats.readCuriosities.includes(currentCuriosityId)) {
-        markCuriosityAsRead(currentCuriosityId, curiosities[currentIndex].categoryId);
-      }
+    if (!isLoaded || !currentCuriosity) return;
+    if (!stats.readCuriosities.includes(currentCuriosity.id)) {
+      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
     }
-  }, [isLoaded, currentIndex, currentCuriosityId, curiosities, markCuriosityAsRead, stats.readCuriosities]);
+  }, [isLoaded, currentCuriosity, markCuriosityAsRead, stats.readCuriosities]);
 
-
+  // Navegação
   const handleNext = useCallback(() => {
-    if (currentIndex === null) return;
-    const next = currentIndex + 1;
-    if (next < curiosities.length) setCurrentIndex(next);
+    if (currentIndex === null || currentIndex >= curiosities.length - 1) return;
+    setCurrentIndex(prev => (prev !== null ? prev + 1 : prev));
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
-    if (currentIndex === null) return;
-    const prev = currentIndex - 1;
-    if (prev >= 0) setCurrentIndex(prev);
+    if (currentIndex === null || currentIndex <= 0) return;
+    setCurrentIndex(prev => (prev !== null ? prev - 1 : prev));
   }, [currentIndex]);
 
+  // Surpresa aleatória
   const surpriseMe = useCallback(() => {
-    if (allCuriosityIds.length <= 1 || currentIndex === null) return;
+    if (!currentCuriosity) return;
 
-    const currentId = curiosities[currentIndex]?.id;
-    let available = allCuriosityIds.filter(c => c.id !== currentId);
-    if (stats.readCuriosities) {
-        const unread = available.filter(c => !stats.readCuriosities.includes(c.id));
-        if (unread.length > 0) available = unread;
-    }
-
-    const random = available[Math.floor(Math.random() * available.length)];
-    if(random) router.push(`/curiosity/${random.categoryId}`);
-  }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
-  
-  if (curiosities.length === 0) {
-    return (
-        <div className="flex flex-col items-center justify-center text-center p-8">
-            <h2 className="text-2xl font-bold">Nenhuma curiosidade encontrada.</h2>
-            <p className="text-muted-foreground mt-2">Parece que não há nada aqui ainda para a categoria {category.name}.</p>
-            <p className="text-muted-foreground mt-2">Você pode gerar conteúdo novo executando: `npm run generate-content`</p>
-            <Button asChild className="mt-6">
-                <Link href="/">Voltar ao Início</Link>
-            </Button>
-        </div>
+    const unreadCuriosities = allCuriosityIds.filter(c => 
+      c.id !== currentCuriosity.id && !stats.readCuriosities.includes(c.id)
     );
-  }
+    const pool = unreadCuriosities.length ? unreadCuriosities : allCuriosityIds.filter(c => c.id !== currentCuriosity.id);
+
+    if (pool.length === 0) return;
+
+    const random = pool[Math.floor(Math.random() * pool.length)];
+    router.push(`/curiosity/${random.categoryId}`);
+  }, [allCuriosityIds, currentCuriosity, stats.readCuriosities, router]);
 
   // Skeleton de carregamento
   if (!isLoaded || currentIndex === null) {
     return (
-         <div className="flex flex-col gap-8">
-            <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
-            <Card className="overflow-hidden shadow-2xl animate-pulse">
-                <CardHeader className="bg-muted/30 p-4">
-                     <div className="flex items-center justify-between">
-                         <Skeleton className="h-8 w-1/2" />
-                         <Skeleton className="h-6 w-1/6" />
-                     </div>
-                </CardHeader>
-                <CardContent className="p-6 md:p-8 space-y-3">
-                    <Skeleton className="h-8 w-3/4" />
-                    <Skeleton className="h-5 w-full" />
-                    <Skeleton className="h-5 w-full" />
-                    <Skeleton className="h-5 w-2/3" />
-                </CardContent>
-                <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
-                    <Skeleton className="h-10 w-32" />
-                    <Skeleton className="h-10 w-40" />
-                </CardFooter>
-            </Card>
-         </div>
+      <div className="flex flex-col gap-8">
+        <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
+        <Card className="overflow-hidden shadow-2xl animate-pulse">
+          <CardHeader className="bg-muted/30 p-4">
+            <div className="flex items-center justify-between">
+              <Skeleton className="h-8 w-1/2" />
+              <Skeleton className="h-6 w-1/6" />
+            </div>
+          </CardHeader>
+          <CardContent className="p-6 md:p-8 space-y-3">
+            <Skeleton className="h-8 w-3/4" />
+            <Skeleton className="h-5 w-full" />
+            <Skeleton className="h-5 w-full" />
+            <Skeleton className="h-5 w-2/3" />
+          </CardContent>
+          <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
+            <Skeleton className="h-10 w-32" />
+            <Skeleton className="h-10 w-40" />
+          </CardFooter>
+        </Card>
+      </div>
     );
   }
 
-  const currentCuriosity = curiosities[currentIndex] || null;
-  
-  // Se por algum motivo a curiosidade não existir (pouco provável), mostra um erro amigável.
   if (!currentCuriosity) return (
-     <div className="flex flex-col items-center justify-center text-center p-8">
-        <h2 className="text-2xl font-bold">Opa! Algo deu errado.</h2>
-        <p className="text-muted-foreground mt-2">Não conseguimos carregar esta curiosidade.</p>
-        <Button asChild className="mt-6">
-            <Link href="/">Voltar ao Início</Link>
-        </Button>
+    <div className="flex flex-col items-center justify-center text-center p-8">
+      <h2 className="text-2xl font-bold">Opa! Algo deu errado.</h2>
+      <p className="text-muted-foreground mt-2">Não conseguimos carregar esta curiosidade.</p>
+      <Button asChild className="mt-6">
+        <Link href="/">Voltar ao Início</Link>
+      </Button>
     </div>
   );
 
-  const explorerIcons = {
-    'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
-    'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
-    'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
-  };
-
   return (
     <div className="flex flex-col gap-8">
+      {/* Cabeçalho */}
       <div className="flex justify-between items-center">
         <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
         <Button variant="outline" asChild>
@@ -148,30 +131,21 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
         </Button>
       </div>
 
-       <Card
-        key={currentCuriosity.id}
-        className="overflow-hidden shadow-2xl"
-        style={{ borderLeft: `5px solid ${category.color}` }}
-      >
+      {/* Curiosidade */}
+      <Card key={currentCuriosity.id} className="overflow-hidden shadow-2xl" style={{ borderLeft: `5px solid ${category.color}` }}>
         <CardHeader className="bg-muted/30 p-4">
-            <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                    <span className="text-3xl">{category.emoji}</span>
-                    <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
-                </div>
-                 <Badge variant="secondary" className="whitespace-nowrap">
-                    Curiosidade #{currentIndex + 1}
-                </Badge>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl">{category.emoji}</span>
+              <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
             </div>
+            <Badge variant="secondary" className="whitespace-nowrap">Curiosidade #{currentIndex + 1}</Badge>
+          </div>
         </CardHeader>
         <CardContent className="p-6 md:p-8">
           <div className="mb-6">
-            <h2 className="mb-4 font-headline text-3xl font-bold text-primary">
-              {currentCuriosity.title}
-            </h2>
-            <p className="text-lg leading-relaxed text-foreground/80">
-              {currentCuriosity.content}
-            </p>
+            <h2 className="mb-4 font-headline text-3xl font-bold text-primary">{currentCuriosity.title}</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">{currentCuriosity.content}</p>
             {currentCuriosity.funFact && (
               <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
                 <p className="font-semibold text-accent-foreground">
@@ -185,52 +159,49 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
           <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0} aria-label="Curiosidade anterior">
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
-           {currentIndex === curiosities.length - 1 ? (
-              <Button asChild>
-                <Link href="/">
-                    <Home className="mr-2 h-4 w-4" />
-                    Voltar ao início
-                </Link>
-              </Button>
-            ) : (
-               <Button onClick={handleNext} aria-label="Próxima curiosidade">
-                  Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
-               </Button>
-            )}
+          {currentIndex === curiosities.length - 1 ? (
+            <Button asChild>
+              <Link href="/">
+                <Home className="mr-2 h-4 w-4" />
+                Voltar ao início
+              </Link>
+            </Button>
+          ) : (
+            <Button onClick={handleNext} aria-label="Próxima curiosidade">
+              Próxima Curiosidade <Rocket className="ml-2 h-4 w-4" />
+            </Button>
+          )}
         </CardFooter>
       </Card>
-      
+
+      {/* Surpresa */}
       <div className="flex justify-center">
-         <Button variant="ghost" onClick={surpriseMe} aria-label="Surpreenda-me com uma curiosidade aleatória">
-            <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me
-         </Button>
+        <Button variant="ghost" onClick={surpriseMe} aria-label="Surpreenda-me com uma curiosidade aleatória">
+          <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me
+        </Button>
       </div>
 
-       <Card className="mt-4">
+      {/* Status do explorador */}
+      <Card className="mt-4">
         <CardHeader>
           <CardTitle className="flex items-center">
-            {isLoaded && stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
+            {stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
             Status do Explorador
           </CardTitle>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
         </CardHeader>
         <CardContent className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
-          <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            {isLoaded ? <span className="text-2xl font-bold">{stats.totalCuriositiesRead}</span> : <Skeleton className="h-8 w-1/2" />}
-            <span className="text-sm text-muted-foreground">Lidas</span>
-          </div>
-          <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            {isLoaded ? <span className="text-2xl font-bold">{stats.currentStreak}</span> : <Skeleton className="h-8 w-1/2" />}
-            <span className="text-sm text-muted-foreground">Sequência</span>
-          </div>
-           <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            {isLoaded ? <span className="text-2xl font-bold">{stats.combos}</span> : <Skeleton className="h-8 w-1/2" />}
-            <span className="text-sm text-muted-foreground">Combos</span>
-          </div>
-          <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            {isLoaded ? <span className="text-lg font-bold">{stats.explorerStatus}</span> : <Skeleton className="h-7 w-3/4" />}
-            <span className="text-sm text-muted-foreground">Nível</span>
-          </div>
+          {[
+            { label: "Lidas", value: stats.totalCuriositiesRead },
+            { label: "Sequência", value: stats.currentStreak },
+            { label: "Combos", value: stats.combos },
+            { label: "Nível", value: stats.explorerStatus },
+          ].map((item, idx) => (
+            <div key={idx} className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
+              {isLoaded ? <span className={item.label === "Nível" ? "text-lg font-bold" : "text-2xl font-bold"}>{item.value}</span> : <Skeleton className="h-8 w-1/2" />}
+              <span className="text-sm text-muted-foreground">{item.label}</span>
+            </div>
+          ))}
         </CardContent>
       </Card>
     </div>
