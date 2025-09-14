@@ -964,5 +964,32 @@
     "curiosityLevel": 3,
     "id": "saude-137",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência do Seu Suor: Uma Janela para a Saúde",
+    "hook": "Impressionante: Seu suor...",
+    "content": "Seu suor não é apenas água e sal.  Ele contém uma variedade de metabólitos que refletem seu estado de saúde e atividade física, atuando como uma janela para a análise de seu funcionamento interno.  A composição do suor pode revelar desequilíbrios importantes.",
+    "funFact": "A composição do suor varia de acordo com a intensidade do exercício e fatores individuais.",
+    "curiosityLevel": 4,
+    "id": "saude-138",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência do Seu Ritmo Cardíaco",
+    "hook": "Incrível: Seu coração...",
+    "content": "Seu batimento cardíaco não é apenas uma batida constante. Ele varia sutilmente ao longo do dia, refletindo seu estado emocional e físico.  A variabilidade da frequência cardíaca (VFC) é um indicador importante da saúde cardiovascular e do equilíbrio do sistema nervoso autônomo.  Um ritmo mais variável, geralmente, sinaliza melhor saúde.",
+    "funFact": "A VFC pode ser usada para prever o risco de doenças cardíacas e até mesmo a mortalidade.",
+    "curiosityLevel": 4,
+    "id": "saude-139",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Magia da Respiração Nasal Alternada",
+    "hook": "Incrível: sua respiração pode...",
+    "content": "Respirar alternadamente por uma narina de cada vez, técnica conhecida como Nadi Shodhana, pode equilibrar os hemisférios cerebrais, reduzindo o estresse e melhorando o foco. Essa prática milenar promove a calma e a clareza mental, impactando positivamente a saúde física e emocional. Experimente e sinta a diferença!",
+    "funFact": "A respiração nasal alternada pode até mesmo regular a sua temperatura corporal!",
+    "curiosityLevel": 4,
+    "id": "saude-140",
+    "categoryId": "saude"
   }
 ]

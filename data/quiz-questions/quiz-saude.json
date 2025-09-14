@@ -1848,5 +1848,47 @@
     "explanation": "Hipertrofia é o aumento do tamanho das células, já hiperplasia é o aumento do número. As outras opções são incorretas. Curiosidade: O treinamento de força promove principalmente a hipertrofia, enquanto o treinamento com alta repetição pode estimular levemente a hiperplasia.",
     "id": "quiz-saude-132",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal benefício de lavar as mãos regularmente?",
+    "options": [
+      "Previne o aparecimento de rugas",
+      "Aumenta a imunidade contra o câncer",
+      "Reduz o risco de infecções",
+      "Melhora a digestão"
+    ],
+    "correctAnswer": "Reduz o risco de infecções",
+    "explanation": "Lavar as mãos remove germes e bactérias que causam doenças. As outras opções são incorretas; a higiene das mãos não afeta diretamente as rugas, o câncer ou a digestão.  Curiosidade: A OMS recomenda lavar as mãos com água e sabão por pelo menos 20 segundos.",
+    "id": "quiz-saude-133",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes exercícios é mais eficaz para melhorar a saúde cardiovascular?",
+    "options": [
+      "Levantamento de peso",
+      "Alongamento",
+      "Corrida",
+      "Yoga"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "A corrida é um exercício aeróbico que eleva a frequência cardíaca e melhora a capacidade do coração e pulmões. Levantamento de peso, alongamento e yoga são benéficos para a saúde, mas são menos eficazes para melhorar a saúde cardiovascular isoladamente. Curiosidade: Exercícios aeróbicos devem ser feitos, pelo menos, por 150 minutos por semana, segundo recomendações médicas.",
+    "id": "quiz-saude-134",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a telomerase e o envelhecimento?",
+    "options": [
+      "A telomerase acelera o envelhecimento, encurtando os telômeros.",
+      "A telomerase retarda o envelhecimento, alongando os telômeros.",
+      "A telomerase não tem relação com o envelhecimento.",
+      "A telomerase causa o envelhecimento, destruindo os telômeros."
+    ],
+    "correctAnswer": "A telomerase retarda o envelhecimento, alongando os telômeros.",
+    "explanation": "A telomerase é uma enzima que alonga os telômeros, as extremidades dos cromossomos.  Telômeros mais longos estão associados à maior longevidade celular. Curiosidade: O comprimento dos telômeros pode ser influenciado por fatores como estresse, dieta e estilo de vida.",
+    "id": "quiz-saude-135",
+    "categoryId": "saude"
   }
 ]

@@ -10,6 +10,7 @@ const withPWA = require('next-pwa')({
   register: true, // Garante que o service worker seja registrado.
   skipWaiting: true, // Força a atualização do service worker em segundo plano.
   disable: isDev, // Mantém o PWA desabilitado em desenvolvimento para agilizar os testes.
+  maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // Aumentado para 5MB para evitar avisos
   runtimeCaching: [
     // Cache para fontes do Google
     {
@@ -71,6 +72,14 @@ const nextConfig: NextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  webpack: (config, { isServer }) => {
+    // Ignora o warning do 'require.extensions' da dependência 'handlebars'
+    config.module.rules.push({
+      test: /node_modules[\\/]handlebars[\\/]lib[\\/]index\.js$/,
+      loader: 'ignore-loader',
+    });
+    return config;
   },
   images: {
     remotePatterns: [
