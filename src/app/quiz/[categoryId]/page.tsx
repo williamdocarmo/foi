@@ -1,10 +1,16 @@
-import { getCategoryById, getQuizQuestionsByCategoryId } from "@/lib/data";
+import { getCategoryById, getQuizQuestionsByCategoryId, categories } from "@/lib/data";
 import { notFound } from "next/navigation";
 import QuizEngine from "@/components/quiz/QuizEngine";
 
 type QuizPageProps = {
   params: { categoryId: string };
 };
+
+export async function generateStaticParams() {
+  return categories.map((category) => ({
+    categoryId: category.id,
+  }));
+}
 
 export default function QuizPage({ params }: QuizPageProps) {
   const { categoryId } = params;

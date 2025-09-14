@@ -1,5 +1,5 @@
 
-import { getCategoryById, getCuriositiesByCategoryId } from "@/lib/data";
+import { getCategoryById, getCuriositiesByCategoryId, categories } from "@/lib/data";
 import { notFound } from "next/navigation";
 import CuriosityExplorer from "@/components/curiosity/CuriosityExplorer";
 import Link from "next/link";
@@ -10,6 +10,12 @@ type CuriosityPageProps = {
   params: { categoryId: string };
   searchParams: { [key: string]: string | string[] | undefined };
 };
+
+export async function generateStaticParams() {
+  return categories.map((category) => ({
+    categoryId: category.id,
+  }));
+}
 
 // A busca de dados (getCategoryById, getCuriositiesByCategoryId) é feita no servidor,
 // pois são dados estáticos. O componente de cliente `CuriosityExplorer` cuidará da interação.
