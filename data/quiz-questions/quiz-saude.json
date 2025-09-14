@@ -1553,5 +1553,145 @@
     "explanation": "Hiperplasia é o aumento no número de células musculares, enquanto hipertrofia é o aumento no tamanho das células musculares existentes.  Ambas contribuem para o crescimento muscular, mas são processos distintos. Curiosidade: A hiperplasia miofibrilar é um processo menos compreendido do que a hipertrofia e parece ser mais proeminente em alguns indivíduos que em outros.",
     "id": "quiz-saude-111",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A disbiose intestinal, um desequilíbrio na microbiota, está fortemente ligada a qual condição médica crônica?",
+    "options": [
+      "Doença de Alzheimer",
+      "Osteoporose",
+      "Doença inflamatória intestinal",
+      "Hipertensão"
+    ],
+    "correctAnswer": "Doença inflamatória intestinal",
+    "explanation": "A disbiose está fortemente ligada a doenças inflamatórias intestinais, como a doença de Crohn e a colite ulcerativa. Embora possa contribuir indiretamente para outras condições, a conexão mais direta é com problemas intestinais inflamatórios. Curiosidade:  Probióticos, bactérias benéficas para o intestino, podem auxiliar no tratamento da disbiose.",
+    "id": "quiz-saude-112",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual hormônio regula o ciclo circadiano, nosso relógio biológico interno?",
+    "options": [
+      "Insulina",
+      "Testosterona",
+      "Melatonina",
+      "Cortisol"
+    ],
+    "correctAnswer": "Melatonina",
+    "explanation": "A melatonina é o principal hormônio que regula o sono e o ciclo circadiano.  Os outros hormônios têm outras funções importantes no corpo. Curiosidade: A exposição à luz azul, emitida por telas eletrônicas, pode interferir na produção de melatonina.",
+    "id": "quiz-saude-113",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A autofagia, processo de reciclagem celular, está relacionada a qual aspecto importante da saúde?",
+    "options": [
+      "Produção de energia celular",
+      "Regulação da temperatura corporal",
+      "Longevidade e prevenção de doenças",
+      "Absorção de nutrientes"
+    ],
+    "correctAnswer": "Longevidade e prevenção de doenças",
+    "explanation": "A autofagia remove componentes celulares danificados, prevenindo o acúmulo de proteínas malformadas e contribuindo para a longevidade. Embora esteja relacionada indiretamente às outras opções, seu impacto principal está na prevenção de doenças e no envelhecimento saudável. Curiosidade: A autofagia é um processo regulado geneticamente e estudos mostram que pode ser estimulada pelo jejum.",
+    "id": "quiz-saude-114",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A telomerase, uma enzima, desempenha que papel crucial no processo de envelhecimento celular?",
+    "options": [
+      "Acelera o metabolismo celular",
+      "Aumenta a produção de energia",
+      "Repara o DNA danificado",
+      "Mantém o comprimento dos telômeros"
+    ],
+    "correctAnswer": "Mantém o comprimento dos telômeros",
+    "explanation": "A telomerase adiciona sequências repetitivas de DNA aos telômeros, protegendo-os da erosão, o que está relacionado ao envelhecimento.  Enquanto os outros itens podem estar relacionados à saúde celular, a função principal da telomerase é manter a integridade dos telômeros. Curiosidade: O encurtamento dos telômeros é associado ao envelhecimento e ao aumento do risco de doenças.",
+    "id": "quiz-saude-115",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A resistência à insulina está diretamente ligada a qual condição metabólica?",
+    "options": [
+      "Hipotireoidismo",
+      "Síndrome Metabólica",
+      "Anemia",
+      "Osteoporose"
+    ],
+    "correctAnswer": "Síndrome Metabólica",
+    "explanation": "A resistência à insulina é um componente chave da síndrome metabólica, que inclui também obesidade abdominal, hipertensão e dislipidemia. As outras condições não estão tão diretamente ligadas à resistência à insulina. Curiosidade: A resistência à insulina aumenta o risco de desenvolver diabetes tipo 2.",
+    "id": "quiz-saude-116",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual processo biológico envolve a morte celular programada e é essencial para o desenvolvimento e a homeostase?",
+    "options": [
+      "Autofagia",
+      "Apoptose",
+      "Necrose",
+      "Hiperplasia"
+    ],
+    "correctAnswer": "Apoptose",
+    "explanation": "A apoptose é a morte celular programada, um processo vital para o desenvolvimento e a saúde. Autofagia é a reciclagem celular, necrose é morte celular não programada e hiperplasia é o aumento do número de células. Curiosidade: A apoptose é essencial para a remoção de células danificadas ou desnecessárias.",
+    "id": "quiz-saude-117",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes fatores de risco está mais fortemente associado a doenças cardíacas?",
+    "options": [
+      "Baixo consumo de água",
+      "Baixa ingestão de fibra",
+      "Alta pressão sanguínea",
+      "Pouco exercício físico"
+    ],
+    "correctAnswer": "Alta pressão sanguínea",
+    "explanation": "A hipertensão (alta pressão sanguínea) é um fator de risco principal para doenças cardíacas. Os outros fatores contribuem, mas a hipertensão tem uma ligação mais direta e forte. Curiosidade:  A hipertensão aumenta o trabalho do coração e pode levar a danos nos vasos sanguíneos.",
+    "id": "quiz-saude-118",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "A neuroplasticidade, capacidade do cérebro de se remodelar, é mais afetada por qual fator?",
+    "options": [
+      "Consumo de sal",
+      "Sono adequado",
+      "Exposição ao sol",
+      "Ingestão de água"
+    ],
+    "correctAnswer": "Sono adequado",
+    "explanation": "O sono adequado é crucial para a consolidação da memória e a neuroplasticidade. Embora os outros fatores influenciem a saúde, o sono tem um impacto mais direto na capacidade do cérebro de se remodelar. Curiosidade: Dormir bem é essencial para a formação de novas conexões neurais.",
+    "id": "quiz-saude-119",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual dessas atividades é uma excelente forma de melhorar a saúde cardiovascular?",
+    "options": [
+      "Jogar videogame",
+      "Assistir TV",
+      "Nadar",
+      "Dormir"
+    ],
+    "correctAnswer": "Nadar",
+    "explanation": "Nadar é um exercício aeróbico que fortalece o coração e melhora a circulação.  Jogar videogame, assistir TV e dormir são atividades sedentárias que não contribuem significativamente para a saúde cardiovascular. Curiosidade: Nadar queima mais calorias do que correr na mesma duração!",
+    "id": "quiz-saude-120",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual nutriente é crucial para a construção de músculos fortes?",
+    "options": [
+      "Carboidratos",
+      "Gorduras",
+      "Vitaminas",
+      "Proteínas"
+    ],
+    "correctAnswer": "Proteínas",
+    "explanation": "As proteínas são os blocos de construção dos músculos. Carboidratos fornecem energia, gorduras armazenam energia e vitaminas auxiliam em vários processos metabólicos, mas as proteínas são essenciais para o crescimento muscular. Curiosidade: A carne vermelha é uma excelente fonte de proteína, mas o consumo excessivo pode ser prejudicial à saúde.",
+    "id": "quiz-saude-121",
+    "categoryId": "saude"
   }
 ]
