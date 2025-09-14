@@ -73,10 +73,18 @@ export function useGameStats() {
         if (authedUser) {
           // Usuário logado: busca dados do Firestore e mescla com os locais.
           const docRef = doc(db, 'userStats', authedUser.uid);
-          const docSnap = await getDoc(docRef);
+          let docSnap;
+          try {
+            // Tenta buscar do cache primeiro para uma inicialização offline rápida.
+             docSnap = await getDoc(docRef);
+          } catch (error) {
+            console.warn("Could not fetch from Firestore (possibly offline). Relying on local data.", error);
+            docSnap = null; // Garante que a lógica continue mesmo com erro offline.
+          }
+          
           
           let cloudStats: GameStats | null = null;
-          if (docSnap.exists()) {
+          if (docSnap && docSnap.exists()) {
             cloudStats = docSnap.data() as GameStats;
           }
 

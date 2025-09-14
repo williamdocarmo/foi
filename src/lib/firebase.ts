@@ -1,7 +1,7 @@
 // src/lib/firebase.ts
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth, browserPopupRedirectResolver } from 'firebase/auth';
-import { initializeFirestore, persistentLocalCache, memoryLocalCache } from 'firebase/firestore';
+import { initializeFirestore, persistentLocalCache } from 'firebase/firestore';
 
 const firebaseConfig = {
   projectId: "studio-4977373253-2de1c",
