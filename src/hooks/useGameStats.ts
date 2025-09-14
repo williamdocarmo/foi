@@ -154,64 +154,50 @@ export function useGameStats() {
   }, []);
 
 
-  const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string, onlyUpdateLastRead = false) => {
+  const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
     setStats(prevStats => {
-        const newLastRead = { ...(prevStats.lastReadCuriosity || {}), [categoryId]: curiosityId };
-        
-        if (onlyUpdateLastRead) {
-            const updatedStats = { ...prevStats, lastReadCuriosity: newLastRead };
-            if (prevStats.lastReadCuriosity?.[categoryId] !== curiosityId) {
-                updateAndSaveStats(updatedStats);
-            }
-            return updatedStats;
+      // Se a curiosidade já foi lida, apenas retorna o estado anterior sem modificações.
+      if (prevStats.readCuriosities.includes(curiosityId)) {
+        return prevStats;
+      }
+
+      const newReadCuriosities = [...prevStats.readCuriosities, curiosityId];
+      const newTotalRead = newReadCuriosities.length;
+      const today = new Date();
+      
+      let newCurrentStreak = prevStats.currentStreak;
+      let newLastPlayed = prevStats.lastPlayedDate ? new Date(prevStats.lastPlayedDate) : null;
+      
+      if (!newLastPlayed || !isToday(newLastPlayed)) {
+        if (newLastPlayed && isYesterday(newLastPlayed)) {
+          newCurrentStreak += 1;
+        } else {
+          newCurrentStreak = 1;
         }
+      }
 
-        const isAlreadyRead = prevStats.readCuriosities.includes(curiosityId);
-        if (isAlreadyRead) {
-             const updatedStats = { ...prevStats, lastReadCuriosity: newLastRead };
-             if (prevStats.lastReadCuriosity?.[categoryId] !== curiosityId) {
-                 updateAndSaveStats(updatedStats);
-             }
-             return updatedStats;
-        }
+      const newLongestStreak = Math.max(prevStats.longestStreak, newCurrentStreak);
+      
+      let newExplorerStatus: GameStats['explorerStatus'] = 'Iniciante';
+      if (newTotalRead >= 50) newExplorerStatus = 'Expert';
+      else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
 
-        const newReadCuriosities = [...prevStats.readCuriosities, curiosityId];
-        const newTotalRead = newReadCuriosities.length;
-        const today = new Date();
-        
-        let newCurrentStreak = prevStats.currentStreak;
-        let newLastPlayed = prevStats.lastPlayedDate ? new Date(prevStats.lastPlayedDate) : null;
-        
-        if (!newLastPlayed || !isToday(newLastPlayed)) {
-            if (newLastPlayed && isYesterday(newLastPlayed)) {
-                newCurrentStreak += 1;
-            } else {
-                newCurrentStreak = 1;
-            }
-        }
+      const newCombos = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5) + prevStats.combos;
 
-        const newLongestStreak = Math.max(prevStats.longestStreak, newCurrentStreak);
-        
-        let newExplorerStatus: GameStats['explorerStatus'] = 'Iniciante';
-        if (newTotalRead >= 50) newExplorerStatus = 'Expert';
-        else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
+      const finalUpdatedStats = {
+          ...prevStats,
+          totalCuriositiesRead: newTotalRead,
+          readCuriosities: newReadCuriosities,
+          currentStreak: newCurrentStreak,
+          longestStreak: newLongestStreak,
+          lastPlayedDate: today.toISOString(),
+          explorerStatus: newExplorerStatus,
+          combos: newCombos,
+          lastReadCuriosity: { ...(prevStats.lastReadCuriosity || {}), [categoryId]: curiosityId },
+      };
 
-        const newCombos = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5) + prevStats.combos;
-
-        const finalUpdatedStats = {
-            ...prevStats,
-            totalCuriositiesRead: newTotalRead,
-            readCuriosities: newReadCuriosities,
-            currentStreak: newCurrentStreak,
-            longestStreak: newLongestStreak,
-            lastPlayedDate: today.toISOString(),
-            explorerStatus: newExplorerStatus,
-            combos: newCombos,
-            lastReadCuriosity: newLastRead,
-        };
-
-        updateAndSaveStats(finalUpdatedStats);
-        return finalUpdatedStats;
+      updateAndSaveStats(finalUpdatedStats);
+      return finalUpdatedStats;
     });
   }, [updateAndSaveStats]);
   
@@ -235,4 +221,5 @@ export function useGameStats() {
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
 }
+    
     
