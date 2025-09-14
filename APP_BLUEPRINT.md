@@ -6,7 +6,7 @@
 
 **Conceito Central:** Um jogo educativo no formato de Progressive Web App (PWA) que oferece uma experiência de aprendizado gamificada através de curiosidades e quizzes. O aplicativo incentiva o engajamento contínuo com um sistema de ranking, conquistas e combos, funcionando perfeitamente offline e permitindo a sincronização de progresso entre dispositivos através de uma conta opcional.
 
-**Público-Alvo:** Pessoas curiosas de todas as idades que gostam de aprender coisas novas, testar seus conhecimentos e competir de forma amigável.
+**Público-Alvo:** Pessoas curiosas de todas asidades que gostam de aprender coisas novas, testar seus conhecimentos e competir de forma amigável.
 
 ## 2. Stack de Tecnologia
 
@@ -98,16 +98,36 @@ O Capacitor foi inicialmente considerado, mas a abordagem **PWA + Bubblewrap (TW
 - **Leveza:** O app para Android gerado pelo Bubblewrap é significativamente menor em comparação com uma versão em Capacitor, que incluiria todo o runtime nativo.
 - **Necessidade:** O "Você Sabia?" não requer APIs nativas complexas. As funcionalidades do PWA (Service Workers para offline, `manifest.webmanifest` para instalação) são suficientes para oferecer a experiência desejada.
 
-## 6. Arquitetura de Componentes React
+## 6. Arquitetura de Páginas e Componentes
 
-A interface é construída com componentes reutilizáveis e otimizados para performance e estabilidade.
-- **`AppHeader`:** Exibe estatísticas do jogo e status de autenticação.
-- **`AuthModal`:** Modal para login/cadastro com Firebase.
-- **`CategoryCard`:** Card de categoria na tela inicial.
-- **`CuriosityExplorer`:** Componente refatorado para eliminar loops de renderização. A lógica de marcação de curiosidade como lida agora é explícita e condicionada (`if !stats.readCuriosities.includes(...)`), quebrando o ciclo de `useEffect` que causava o erro "Maximum update depth exceeded". A inicialização do índice também foi tornada segura para evitar renderizações desnecessárias.
-- **`QuizEngine`:** Gerencia a lógica do quiz. O embaralhamento de perguntas ocorre no cliente para evitar erros de hidratação. O tempo de espera para a próxima pergunta foi ajustado: 10 segundos para respostas erradas (dando tempo para ler a explicação) e 2 segundos para respostas corretas.
-- **`ProfileClient`:** Exibe as estatísticas completas do usuário.
-- **`RankingClient`:** Otimizado com **Streaming via `Suspense`**. A busca de dados ocorre no servidor, e um esqueleto de carregamento é exibido instantaneamente, melhorando a percepção de velocidade.
+### 6.1. Página Principal (Home)
+- **Função:** Serve como o portal de entrada do aplicativo, apresentando o conceito e convidando o usuário a explorar o conteúdo.
+- **Seção Hero:** Uma área de grande impacto visual com o título do app, uma breve descrição e um botão de ação principal ("Surpreenda-me com uma curiosidade aleatória"), que leva o usuário a uma curiosidade de qualquer categoria.
+- **Grid de Categorias:** O corpo principal da página exibe todas as categorias de conteúdo disponíveis em formato de cards. Cada card mostra o nome, ícone e descrição da categoria, além de dois botões: "Explorar" (para ler as curiosidades) e "Quiz" (para iniciar o teste de conhecimento). A disponibilidade dos botões depende da existência de conteúdo para aquela categoria.
+
+### 6.2. Página de Curiosidades (Curiosity Explorer)
+- **Função:** É a principal interface de aprendizado, onde o usuário consome o conteúdo de curiosidades de uma categoria específica.
+- **Navegação Sequencial:** O usuário navega por uma curiosidade de cada vez, com botões de "Anterior" e "Próxima". O sistema automaticamente marca cada curiosidade como lida ao ser exibida.
+- **Conteúdo da Curiosidade:** Cada card exibe o título, o parágrafo da curiosidade e um "Fato Curioso" destacado, para reforçar o aprendizado.
+- **Gamificação Integrada:** A página exibe o progresso do usuário em tempo real, mostrando o total de curiosidades lidas, a sequência de dias de uso (streak), os combos acumulados e o nível de explorador (Iniciante, Explorador, Expert).
+- **Funcionalidade "Surpreenda-me":** Um botão permite que o usuário salte para uma curiosidade aleatória de qualquer outra categoria, incentivando a descoberta.
+
+### 6.3. Página de Quiz (Quiz Engine)
+- **Função:** Testa o conhecimento do usuário sobre uma categoria específica através de um quiz interativo.
+- **Lógica do Jogo:** As perguntas são embaralhadas a cada nova tentativa. Cada pergunta tem um cronômetro regressivo de 60 segundos.
+- **Sistema de Respostas:** O usuário seleciona uma das quatro opções. O sistema dá feedback visual imediato (verde para correto, vermelho para incorreto) e revela a explicação da resposta, que fica visível por alguns segundos antes de avançar para a próxima pergunta.
+- **Pontuação:** A pontuação é calculada com base na correção da resposta e no tempo restante no cronômetro.
+- **Uso de Combos:** O usuário pode usar "combos" (ganhos ao ler curiosidades) para pular uma pergunta, recebendo os pontos como se tivesse acertado.
+- **Tela de Resultados:** Ao final do quiz, uma tela de resumo exibe a pontuação final, o número de acertos e o tempo total, com opções para jogar novamente ou voltar ao início.
+
+### 6.4. Página de Perfil (Conquistas)
+- **Função:** É o painel de controle do progresso geral do usuário no aplicativo.
+- **Nível de Explorador:** Uma seção de destaque mostra o status atual do usuário (Iniciante, Explorador, Expert) com uma barra de progresso indicando o quão perto ele está do próximo nível.
+- **Estatísticas Gerais:** Apresenta um resumo das principais métricas de gamificação: total de curiosidades lidas, sequência atual de dias, recorde de sequência e combos disponíveis.
+- **Desempenho nos Quizzes:** Um gráfico de barras exibe a pontuação média do usuário em cada categoria de quiz que ele já jogou, permitindo uma visualização clara de seus pontos fortes e fracos.
+- **Compartilhamento:** Um botão permite que o usuário compartilhe o aplicativo com amigos através da API nativa de compartilhamento do dispositivo ou copiando o link.
 
 ---
 *Este documento foi atualizado para refletir uma arquitetura mais madura e escalável, focada em performance, resiliência na geração de dados e melhorias na experiência do usuário, incluindo a resolução de loops de renderização e a otimização da estratégia offline-first.*
+
+    
