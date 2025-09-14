@@ -3918,5 +3918,50 @@
     "curiosityLevel": 3,
     "id": "bem-estar-540",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Perdão",
+    "hook": "Você sabia que...",
+    "content": "Perdoar, tanto a si mesmo quanto aos outros, é um ato de libertação que promove a paz interior e o bem-estar emocional.  O perdão reduz o estresse, a ansiedade e a raiva, permitindo que você siga em frente com mais leveza.",
+    "funFact": "O perdão fortalece o sistema imunológico!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-541",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Natureza que Revitaliza",
+    "hook": "Surpreendente:",
+    "content": "Passar tempo na natureza, mesmo que por curtos períodos, reduz os níveis de cortisol (hormônio do estresse) e aumenta a sensação de calma e bem-estar.  O contato com a natureza restaura a energia e promove a conexão com a vida.",
+    "funFact": "A natureza melhora a capacidade de atenção!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-542",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Limpeza Energética",
+    "hook": "Você sabia que...",
+    "content": "Arrumar a casa não é apenas limpar um espaço físico, mas também um processo de limpeza energética que influencia o bem-estar. Um ambiente organizado e limpo propicia clareza mental, reduzindo a sensação de sobrecarga e promovendo a paz interior. Experimente!",
+    "funFact": "Feng Shui considera a organização um método de harmonizar as energias do ambiente, impactando diretamente o humor e a saúde.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-543",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Jardinagem Sensorial",
+    "hook": "Descubra:",
+    "content": "Cultivar um jardim não é só sobre plantas; é sobre a experiência sensorial completa. O aroma das ervas, a textura da terra, o calor do sol na pele... esses estímulos multissensoriais estimulam o sistema nervoso e promovem relaxamento e bem-estar profundo.",
+    "funFact": "O ato de plantar sementes ativa o sistema de recompensa no cérebro, liberando endorfinas e aumentando a sensação de prazer.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-544",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Música da Cura Interior",
+    "hook": "Descubra:",
+    "content": "A música tem o poder de transformar o nosso estado emocional.  Ouvir músicas que nos tocam pode reduzir o estresse, melhorar o humor e até mesmo aliviar a dor.  Experimentar diferentes ritmos e gêneros musicais pode ser uma jornada de autodescoberta.",
+    "funFact": "A música pode estimular a produção de endorfinas, que atuam como analgésicos naturais.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-545",
+    "categoryId": "bem-estar"
   }
 ]
