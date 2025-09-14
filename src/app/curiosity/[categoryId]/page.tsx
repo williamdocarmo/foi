@@ -8,7 +8,6 @@ import { ArrowLeft } from "lucide-react";
 
 type CuriosityPageProps = {
   params: { categoryId: string };
-  searchParams: { [key: string]: string | string[] | undefined };
 };
 
 export async function generateStaticParams() {
@@ -19,9 +18,8 @@ export async function generateStaticParams() {
 
 // A busca de dados (getCategoryById, getCuriositiesByCategoryId) é feita no servidor,
 // pois são dados estáticos. O componente de cliente `CuriosityExplorer` cuidará da interação.
-export default function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
+export default function CuriosityPage({ params }: CuriosityPageProps) {
   const { categoryId } = params;
-  const initialCuriosityId = searchParams?.curiosity;
 
   const category = getCategoryById(categoryId);
   const curiosities = getCuriositiesByCategoryId(categoryId);
@@ -43,8 +41,7 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
         {/* O CuriosityExplorer agora recebe os dados estáticos como props */}
         <CuriosityExplorer 
             category={category} 
-            curiosities={curiosities} 
-            initialCuriosityId={initialCuriosityId as string | undefined}
+            curiosities={curiosities}
         />
     </div>
   );

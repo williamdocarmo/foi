@@ -15,39 +15,30 @@ import { categories, curiositiesByCategory } from "@/lib/data";
 type CuriosityExplorerProps = {
   category: Category;
   curiosities: Curiosity[];
-  initialCuriosityId?: string;
 };
 
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
-    initialCuriosityId 
 }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  // Otimização 1: O índice inicial é calculado com useMemo para ser imediato,
-  // sem precisar esperar pelo useEffect. A lógica de fallback também foi incluída aqui.
+  // Otimização: O índice inicial é calculado para ser a primeira curiosidade não lida,
+  // ou a primeira da lista se todas já foram lidas.
   const initialIndex = useMemo(() => {
     if (!curiosities || curiosities.length === 0) return 0;
-    
-    // 1. Prioriza o ID da URL.
-    if (initialCuriosityId) {
-      const index = curiosities.findIndex(c => c.id === initialCuriosityId);
-      if (index !== -1) return index;
-    }
   
-    // 2. Se não houver ID na URL, tenta encontrar a primeira curiosidade não lida.
-    // Isso é feito com as estatísticas disponíveis no momento (mesmo que iniciais/vazias).
+    // Tenta encontrar a primeira curiosidade não lida.
     const firstUnreadIndex = curiosities.findIndex(c => !(stats?.readCuriosities?.includes(c.id)));
     if (firstUnreadIndex !== -1) {
       return firstUnreadIndex;
     }
 
-    // 3. Se tudo mais falhar (todas já lidas), começa pela primeira.
+    // Se todas já foram lidas, começa pela primeira.
     return 0;
 
-  }, [curiosities, initialCuriosityId, stats?.readCuriosities]);
+  }, [curiosities, stats?.readCuriosities]);
 
 
   const [currentIndex, setCurrentIndex] = useState<number>(initialIndex);
@@ -59,7 +50,14 @@ export default function CuriosityExplorer({
     );
   }, []);
 
-  // Otimização 2: Efeitos separados para uma experiência mais fluida.
+  // Efeito para atualizar o índice se os stats forem carregados depois
+  useEffect(() => {
+    if (isLoaded) {
+      setCurrentIndex(initialIndex);
+    }
+  }, [isLoaded, initialIndex]);
+
+
   // 2a) Este efeito roda sempre que o índice muda, atualizando a "última lida" de forma otimista.
   // Não depende do `isLoaded`, tornando a navegação mais rápida.
   useEffect(() => {
@@ -111,7 +109,8 @@ export default function CuriosityExplorer({
 
     const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
-    router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
+    // Como não usamos mais searchParams, apenas mudamos a rota
+    router.push(`/curiosity/${randomCuriosity.categoryId}`);
 
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
   
@@ -129,7 +128,7 @@ export default function CuriosityExplorer({
     );
   }
   
-  if (currentIndex === null) {
+  if (currentIndex === null || !isLoaded) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
@@ -263,4 +262,3 @@ export default function CuriosityExplorer({
     </div>
   );
 }
-    

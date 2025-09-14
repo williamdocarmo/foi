@@ -16,7 +16,7 @@ export function RandomCuriosityButton({ allCuriosities }: RandomCuriosityButtonP
     if (allCuriosities.length === 0) return;
     const randomCuriosity = allCuriosities[Math.floor(Math.random() * allCuriosities.length)];
     if (randomCuriosity) {
-      router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
+      router.push(`/curiosity/${randomCuriosity.categoryId}`);
     }
   };
 
