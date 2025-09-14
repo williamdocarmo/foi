@@ -4935,5 +4935,68 @@
     "curiosityLevel": 3,
     "id": "bem-estar-653",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Micropsi",
+    "hook": "Incrível: sua mente subconsciente!",
+    "content": "Nossas micro-decisões diárias, como escolher um caminho diferente para o trabalho ou optar por uma fruta ao invés de um doce, impacta profundamente o bem-estar. Essas pequenas escolhas, muitas vezes inconscientes, acumulam efeitos positivos na saúde mental e física a longo prazo, criando um ciclo virtuoso de bem-estar.",
+    "funFact": "Estudos mostram que até 95% das nossas decisões são subconscientes!",
+    "curiosityLevel": 4,
+    "id": "bem-estar-654",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da 'Desordem Criativa'",
+    "hook": "Você sabia que...",
+    "content": "Uma mesa de trabalho levemente bagunçada, ao contrário do que se pensa, pode estimular a criatividade.  Um estudo recente sugere que a desordem visual pode liberar a mente de estruturas rígidas, permitindo novas conexões e ideias inovadoras, beneficiando o bem-estar intelectual.",
+    "funFact": "Albert Einstein era conhecido por sua mesa extremamente desorganizada!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-655",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Respiração Ritmada",
+    "hook": "Descubra:",
+    "content": "Respirar conscientemente, sincronizando a inalação e exalação com um ritmo específico (por exemplo, 4 segundos inspirando, 6 segundos expirando), reduz significativamente a frequência cardíaca e a pressão arterial, induzindo um estado de calma profunda e melhorando a qualidade do sono.",
+    "funFact": "A respiração ritmada ativa o sistema nervoso parassimpático, responsável pela relaxação.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-656",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do 'Fazer Nada'",
+    "hook": "Incrível:",
+    "content": "Dedicação intencional ao 'não fazer nada',  ainda que por curtos períodos, permite que o corpo e a mente se recuperem do estresse diário.  Esse 'ócio criativo' é fundamental para a regeneração física e mental, melhorando o foco e a clareza.",
+    "funFact": "O 'dolce far niente' é uma prática milenar para o bem-estar!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-657",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Ritmo da Natureza: Cura e Paz",
+    "hook": "Você sabia que...",
+    "content": "O som natural da chuva, do vento nas árvores, ou das ondas do mar, têm um efeito profundamente relaxante.  Esses sons ajudam a regular o ritmo cardíaco e diminuir a produção de cortisol, o hormônio do estresse, promovendo uma sensação de calma.",
+    "funFact": "O som da natureza pode reduzir a pressão arterial em minutos!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-658",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Risotomia",
+    "hook": "Incrível: o riso cura!",
+    "content": "A risoterapia, ou risotomia, usa o riso como ferramenta terapêutica para melhorar o bem-estar físico e mental. Estudos demonstram que o riso reduz o estresse, fortalece o sistema imunológico e libera endorfinas, melhorando o humor e a sensação de bem-estar geral.  Experimente gargalhadas terapêuticas!",
+    "funFact": "Um estudo mostrou que apenas 15 minutos de riso equivalem a 30 minutos de exercícios aeróbicos.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-659",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia do Banho de Sol",
+    "hook": "Incrível:",
+    "content": "A exposição solar, com proteção adequada, é fundamental para a produção de vitamina D, crucial para a saúde óssea e o sistema imunológico. Além disso, a luz solar aumenta a produção de serotonina, um neurotransmissor ligado à sensação de bem-estar e felicidade.  Aproveite os raios solares!",
+    "funFact": "Apenas 15 minutos de sol por dia podem suprir boa parte da necessidade diária de vitamina D.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-660",
+    "categoryId": "bem-estar"
   }
 ]

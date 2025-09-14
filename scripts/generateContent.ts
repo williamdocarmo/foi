@@ -59,7 +59,7 @@ const BATCH_SIZE = 50;
 const MAX_RETRIES = 5;
 const BASE_RETRY_DELAY_MS = 1000;
 const API_CALL_DELAY_MS = 1200; // base + jitter
-const CONCURRENCY = 3;
+const CONCURRENCY = 5;
 const SIMILARITY_THRESHOLD = 0.82; // 0-1 (maior = mais estrito)
 
 // ESM-safe ROOT
@@ -542,3 +542,5 @@ main().catch((err) => {
   console.error("\nErro fatal:", err);
   process.exit(1);
 });
+
+    

@@ -2016,5 +2016,19 @@
     "explanation": "O levantamento de peso e exercícios de resistência são cruciais para estimular a formação óssea e melhorar a densidade mineral óssea.  Natação, ioga e corrida são exercícios importantes mas não são tão eficazes para a saúde óssea. Curiosidade: Exercícios de impacto, como corrida, também contribuem para a saúde óssea, mas os exercícios de resistência são particularmente importantes para aumentar a densidade óssea.",
     "id": "quiz-saude-144",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o principal papel do sistema imunológico?",
+    "options": [
+      "Regular a temperatura corporal",
+      "Digerir alimentos",
+      "Defender o corpo contra doenças",
+      "Transportar oxigênio pelo corpo"
+    ],
+    "correctAnswer": "Defender o corpo contra doenças",
+    "explanation": "O sistema imunológico protege o corpo contra invasores externos, como bactérias e vírus. As outras opções descrevem funções de outros sistemas corporais. Curiosidade: O sistema imunológico é uma rede complexa de células e órgãos.",
+    "id": "quiz-saude-145",
+    "categoryId": "saude"
   }
 ]

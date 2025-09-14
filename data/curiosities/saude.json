@@ -1081,5 +1081,32 @@
     "curiosityLevel": 4,
     "id": "saude-150",
     "categoryId": "saude"
+  },
+  {
+    "title": "O Impacto da Biodisponibilidade dos Nutrientes",
+    "hook": "Você sabia que...",
+    "content": "A biodisponibilidade de nutrientes é tão importante quanto a quantidade ingerida.  Certos fatores, como a forma de preparo dos alimentos e a presença de outros nutrientes, influenciam a absorção de vitaminas e minerais pelo organismo.  Uma dieta equilibrada e bem planejada maximiza a biodisponibilidade.",
+    "funFact": "A vitamina C melhora a absorção de ferro!",
+    "curiosityLevel": 3,
+    "id": "saude-151",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Química da Sua Pele",
+    "hook": "Incrível: sua pele fala!",
+    "content": "Sua pele não é apenas uma cobertura, mas um órgão complexo com bilhões de microrganismos. A composição dessa microbiota influencia sua saúde, imunidade e até mesmo sua predisposição a doenças. Manter o equilíbrio dessa comunidade invisível é crucial para uma pele radiante e saudável. A interação entre seus genes e o ambiente molda esse ecossistema único.",
+    "funFact": "A sua microbiota cutânea é tão única quanto sua impressão digital!",
+    "curiosityLevel": 4,
+    "id": "saude-152",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Poder da Microrganismos",
+    "hook": "Você sabia que...",
+    "content": "Os microrganismos que habitam seu corpo são mais numerosos que suas próprias células. Eles desempenham um papel crucial em diversas funções, incluindo a digestão, a imunidade e até mesmo a produção de neurotransmissores. Cuidar da sua microbiota intestinal é fundamental para a sua saúde geral.",
+    "funFact": "Seu intestino possui mais neurônios que o seu cérebro!",
+    "curiosityLevel": 4,
+    "id": "saude-153",
+    "categoryId": "saude"
   }
 ]
