@@ -1890,5 +1890,19 @@
     "explanation": "A telomerase é uma enzima que alonga os telômeros, as extremidades dos cromossomos.  Telômeros mais longos estão associados à maior longevidade celular. Curiosidade: O comprimento dos telômeros pode ser influenciado por fatores como estresse, dieta e estilo de vida.",
     "id": "quiz-saude-135",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a resistência à insulina e quais são suas consequências?",
+    "options": [
+      "Incapacidade do corpo de produzir insulina.",
+      "Incapacidade do corpo de utilizar a insulina de forma eficiente, levando ao aumento dos níveis de glicose no sangue.",
+      "Uma reação alérgica à insulina.",
+      "Uma condição que afeta apenas o pâncreas."
+    ],
+    "correctAnswer": "Incapacidade do corpo de utilizar a insulina de forma eficiente, levando ao aumento dos níveis de glicose no sangue.",
+    "explanation": "A resistência à insulina ocorre quando as células não respondem adequadamente à insulina, resultando em acúmulo de glicose no sangue. Isso aumenta o risco de desenvolver diabetes tipo 2, doenças cardíacas e outras complicações metabólicas. As demais alternativas descrevem outras condições médicas. Curiosidade: A resistência à insulina está frequentemente ligada ao sobrepeso e à obesidade.",
+    "id": "quiz-saude-136",
+    "categoryId": "saude"
   }
 ]
