@@ -24,24 +24,21 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
-  // Otimização: O índice inicial é calculado para ser a primeira curiosidade não lida,
-  // ou a primeira da lista se todas já foram lidas.
-  const initialIndex = useMemo(() => {
+  // Otimização: A função para calcular o índice inicial.
+  const calculateInitialIndex = useCallback(() => {
     if (!curiosities || curiosities.length === 0) return 0;
-  
+    
     // Tenta encontrar a primeira curiosidade não lida.
     const firstUnreadIndex = curiosities.findIndex(c => !(stats?.readCuriosities?.includes(c.id)));
-    if (firstUnreadIndex !== -1) {
-      return firstUnreadIndex;
-    }
-
-    // Se todas já foram lidas, começa pela primeira.
-    return 0;
-
+    
+    // Se encontrar, usa esse índice. Senão, começa do início.
+    return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
   }, [curiosities, stats?.readCuriosities]);
 
+  // 1) O estado é inicializado UMA VEZ com o valor calculado.
+  // Isso evita o loop de re-renderização.
+  const [currentIndex, setCurrentIndex] = useState(() => calculateInitialIndex());
 
-  const [currentIndex, setCurrentIndex] = useState<number>(initialIndex);
 
   // Memoize all available curiosity IDs for the surpriseMe function
   const allCuriosityIds = useMemo(() => {
@@ -50,35 +47,25 @@ export default function CuriosityExplorer({
     );
   }, []);
 
-  // Efeito para atualizar o índice se os stats forem carregados depois
+  // 2) Este efeito roda APENAS quando os stats são carregados.
+  // Ele garante que, após a sincronização inicial, o índice seja ajustado para a primeira curiosidade não lida, se necessário.
   useEffect(() => {
     if (isLoaded) {
-      setCurrentIndex(initialIndex);
+      setCurrentIndex(calculateInitialIndex());
     }
-  }, [isLoaded, initialIndex]);
+  }, [isLoaded, calculateInitialIndex]);
 
 
-  // 2a) Este efeito roda sempre que o índice muda, atualizando a "última lida" de forma otimista.
-  // Não depende do `isLoaded`, tornando a navegação mais rápida.
-  useEffect(() => {
-    const currentCuriosity = curiosities[currentIndex];
-    if (currentCuriosity) {
-      // O 'true' no final indica que é para apenas atualizar a última lida, sem recalcular streak/combos.
-      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId, true);
-    }
-  }, [currentIndex, curiosities, markCuriosityAsRead]);
-
-  // 2b) Este efeito roda APENAS quando os stats do usuário são carregados (`isLoaded`).
-  // Ele confirma a leitura completa (calculando streak, etc.) se a curiosidade ainda não foi marcada.
+  // Este efeito marca a curiosidade como lida sempre que o índice muda.
   useEffect(() => {
     if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
-      if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
-        // Agora faz o cálculo completo.
+      if (currentCuriosity) {
+        // A lógica completa de marcação (com cálculo de streak) é chamada aqui.
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
-  }, [isLoaded, currentIndex, curiosities, stats.readCuriosities, markCuriosityAsRead]);
+  }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead]);
 
 
   const handleNext = useCallback(() => {
@@ -109,7 +96,6 @@ export default function CuriosityExplorer({
 
     const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
-    // Como não usamos mais searchParams, apenas mudamos a rota
     router.push(`/curiosity/${randomCuriosity.categoryId}`);
 
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
@@ -237,7 +223,7 @@ export default function CuriosityExplorer({
           <CardTitle className="flex items-center">
             {isLoaded && stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
             Status do Explorador
-          </CardTitle>
+          </Title>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
         </CardHeader>
         <CardContent className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
