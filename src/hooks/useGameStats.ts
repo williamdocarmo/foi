@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { GameStats } from '@/lib/types';
+import type { GameStats } from '@/lib/types';
 import { isToday, isYesterday } from 'date-fns';
 import { auth, db } from '@/lib/firebase';
 import { onAuthStateChanged, User } from 'firebase/auth';
@@ -21,18 +21,20 @@ const defaultStats: GameStats = {
   lastReadCuriosity: null,
 };
 
+// Helper para processar a lógica de data e streak.
 const processDateLogic = (statsToProcess: GameStats): GameStats => {
-  const today = new Date();
-  const newStats = {...statsToProcess};
+  const newStats = { ...statsToProcess };
   if (newStats.lastPlayedDate) {
     const lastPlayed = new Date(newStats.lastPlayedDate);
+    // Se o último jogo não foi hoje nem ontem, reseta a sequência.
     if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
-      newStats.currentStreak = 0; // Reset streak if played more than a day ago
+      newStats.currentStreak = 0;
     }
   }
   return newStats;
 };
 
+// Helper para carregar os dados locais de forma segura.
 const loadLocalStats = (): GameStats => {
   try {
     const storedStats = localStorage.getItem(LOCAL_GAME_STATS_KEY);
@@ -51,57 +53,17 @@ export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
-  
-  const userRef = useRef(user);
-  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Mantém a ref do usuário sempre atualizada sem causar re-renderizações desnecessárias
+  // Ref para o usuário para evitar dependências instáveis em callbacks.
+  const userRef = useRef(user);
   useEffect(() => {
     userRef.current = user;
   }, [user]);
 
-  // Efeito para persistir as alterações de estado de forma debotada (com atraso)
-  useEffect(() => {
-    // Não faz nada se os dados ainda não foram carregados
-    if (!isLoaded) return;
-    
-    // Função para salvar os dados
-    const flushSave = async (dataToSave: GameStats) => {
-      try {
-        if (userRef.current) {
-          const userDocRef = doc(db, 'userStats', userRef.current.uid);
-          await setDoc(userDocRef, dataToSave, { merge: true });
-        } else {
-          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
-        }
-      } catch (error) {
-        console.error("Failed to save game stats:", error);
-        // Fallback para localStorage se o save na nuvem falhar
-        if (!userRef.current) {
-          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
-        }
-      }
-    };
-    
-    // Se já houver um timer de salvamento, cancela
-    if (debounceTimerRef.current) {
-      clearTimeout(debounceTimerRef.current);
-    }
-    
-    // Agenda um novo salvamento para daqui a 500ms
-    debounceTimerRef.current = setTimeout(() => {
-      flushSave(stats);
-    }, 500);
+  // Ref para o timer de debounce para salvar os dados.
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-    // Função de limpeza para cancelar o timer se o componente for desmontado
-    return () => {
-      if (debounceTimerRef.current) {
-        clearTimeout(debounceTimerRef.current);
-      }
-    };
-  }, [stats, isLoaded]); // Este efeito roda sempre que `stats` ou `isLoaded` mudam
-
-
+  // Efeito principal para lidar com autenticação e carregamento de dados.
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
       setUser(authedUser);
@@ -109,12 +71,9 @@ export function useGameStats() {
 
       try {
         if (authedUser) {
+          // Usuário logado: busca dados do Firestore e mescla com os locais.
           const docRef = doc(db, 'userStats', authedUser.uid);
-          let docSnap = await getDoc(docRef, { source: 'cache' }).catch(() => null);
-          
-          if (!docSnap || !docSnap.exists()) {
-            docSnap = await getDoc(docRef);
-          }
+          const docSnap = await getDoc(docRef);
           
           let cloudStats: GameStats | null = null;
           if (docSnap.exists()) {
@@ -123,13 +82,14 @@ export function useGameStats() {
 
           const localStats = loadLocalStats();
           
+          // Mescla os dados, dando prioridade para os mais recentes e unindo listas.
           const mergedStats: GameStats = {
             ...defaultStats,
             ...cloudStats,
             ...localStats,
             longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-            quizScores: {...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {})},
-            readCuriosities: [...new Set([...(cloudStats?.readCuriosities || []), ...localStats.readCuriosities])],
+            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
+            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
             lastReadCuriosity: { ...(cloudStats?.lastReadCuriosity || {}), ...(localStats.lastReadCuriosity || {}) },
           };
           mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
@@ -137,6 +97,7 @@ export function useGameStats() {
           const finalStats = processDateLogic(mergedStats);
           setStats(finalStats);
 
+          // Salva os dados mesclados de volta no Firestore e limpa o local storage.
           await setDoc(docRef, { 
             ...finalStats,
             displayName: authedUser.displayName || authedUser.email?.split('@')[0],
@@ -145,11 +106,13 @@ export function useGameStats() {
           localStorage.removeItem(LOCAL_GAME_STATS_KEY);
 
         } else {
+          // Usuário deslogado: carrega apenas os dados locais.
           const localStats = loadLocalStats();
           setStats(localStats);
         }
       } catch (error) {
         console.error("Failed to load/sync game stats:", error);
+        // Em caso de erro, recai para os dados locais como segurança.
         setStats(loadLocalStats());
       } finally {
         setIsLoaded(true);
@@ -157,12 +120,48 @@ export function useGameStats() {
     });
 
     return () => unsubscribe();
-  }, []);
+  }, []); // Roda apenas uma vez.
 
+  // EFEITO DE PERSISTÊNCIA (DEBOUNCED)
+  // Este é o coração da nova arquitetura. Ele observa o estado `stats` e o salva automaticamente.
+  useEffect(() => {
+    // Só salva se os dados já estiverem carregados para evitar escritas prematuras.
+    if (!isLoaded) return;
+    
+    // Se já existe um timer, cancela para agendar um novo.
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+    
+    // Agenda o salvamento para daqui a 500ms.
+    debounceTimerRef.current = setTimeout(() => {
+      const dataToSave = stats;
+      try {
+        if (userRef.current) {
+          const userDocRef = doc(db, 'userStats', userRef.current.uid);
+          setDoc(userDocRef, dataToSave, { merge: true });
+        } else {
+          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
+        }
+      } catch (error) {
+        console.error("Failed to save game stats:", error);
+      }
+    }, 500);
+
+    // Limpeza: cancela o timer se o componente for desmontado.
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+    };
+  }, [stats, isLoaded]); // Este efeito depende de `stats` e `isLoaded`.
+
+  // FUNÇÕES DE ATUALIZAÇÃO DE ESTADO (SIMPLIFICADAS)
+  // Elas apenas chamam `setStats`. A persistência é tratada pelo useEffect acima.
 
   const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
     setStats(prevStats => {
-      // Se a curiosidade já foi lida, apenas retorna o estado anterior sem modificações.
+      // Condição de guarda para evitar atualizações desnecessárias.
       if (prevStats.readCuriosities.includes(curiosityId)) {
         return prevStats;
       }
@@ -172,10 +171,10 @@ export function useGameStats() {
       const today = new Date();
       
       let newCurrentStreak = prevStats.currentStreak;
-      let newLastPlayed = prevStats.lastPlayedDate ? new Date(prevStats.lastPlayedDate) : null;
+      const lastPlayed = prevStats.lastPlayedDate ? new Date(prevStats.lastPlayedDate) : null;
       
-      if (!newLastPlayed || !isToday(newLastPlayed)) {
-        if (newLastPlayed && isYesterday(newLastPlayed)) {
+      if (!lastPlayed || !isToday(lastPlayed)) {
+        if (lastPlayed && isYesterday(lastPlayed)) {
           newCurrentStreak += 1;
         } else {
           newCurrentStreak = 1;
@@ -188,7 +187,8 @@ export function useGameStats() {
       if (newTotalRead >= 50) newExplorerStatus = 'Expert';
       else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
 
-      const newCombos = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5) + prevStats.combos;
+      const combosEarned = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5);
+      const newCombos = prevStats.combos + combosEarned;
 
       return {
           ...prevStats,
@@ -219,8 +219,5 @@ export function useGameStats() {
     setStats(prevStats => ({ ...prevStats, ...newStats }));
   }, []);
 
-
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
 }
-    
-    

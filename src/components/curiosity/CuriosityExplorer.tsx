@@ -6,7 +6,7 @@ import type { Category, Curiosity } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle, Loader2 } from "lucide-react";
+import { ArrowLeft, Rocket, Sparkles, Trophy, Star, TrendingUp, Home, HelpCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
@@ -24,6 +24,7 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
 
+  // O índice da curiosidade atual. Começa como nulo até os dados carregarem.
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
   const allCuriosityIds = useMemo(() => {
@@ -32,29 +33,38 @@ export default function CuriosityExplorer({
     );
   }, []);
 
-  // Efeito que executa apenas quando os dados do usuário terminam de carregar.
-  // Isso define o índice inicial corretamente, sem causar loops.
+  // EFEITO DE INICIALIZAÇÃO: Roda apenas uma vez quando os dados carregam.
+  // Define o índice inicial de forma segura, sem causar loops.
   useEffect(() => {
-    if (isLoaded && currentIndex === null) { // Apenas roda se o índice ainda não foi definido
+    // Só executa se os dados do jogo foram carregados e o índice ainda não foi definido.
+    if (isLoaded && currentIndex === null) {
       const calculateInitialIndex = () => {
         if (!curiosities || curiosities.length === 0) return 0;
         if (!stats || !stats.readCuriosities) return 0;
+        
+        // Encontra o índice da primeira curiosidade não lida nesta categoria.
         const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+        
+        // Se todas foram lidas, começa da primeira (índice 0).
         return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
       };
       setCurrentIndex(calculateInitialIndex());
     }
-  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
+  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]); // Depende do `currentIndex` para não rodar de novo se já tiver sido setado.
 
-  // Efeito para marcar a curiosidade atual como lida
+
+  // EFEITO DE MARCAÇÃO: Marca a curiosidade atual como lida.
+  // Contém a lógica crucial que quebra o loop de renderização.
   useEffect(() => {
     if (isLoaded && currentIndex !== null) {
       const currentCuriosity = curiosities[currentIndex];
-      // A condição crucial que quebra o loop: só marcar se ainda não foi lida.
+      // A CONDIÇÃO MAIS IMPORTANTE: Só marca como lida se a curiosidade ainda não foi registrada no estado.
+      // Isso impede que a função `markCuriosityAsRead` seja chamada em um loop infinito.
       if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
       }
     }
+    // A dependência em `stats.readCuriosities` é segura agora por causa da condição acima.
   }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead, stats.readCuriosities]);
 
 
@@ -80,14 +90,15 @@ export default function CuriosityExplorer({
     const currentId = curiosities[currentIndex]?.id;
     let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
   
+    // Prioriza curiosidades não lidas
     let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
-
     if (unreadIds.length > 0) {
         availableIds = unreadIds;
     }
 
     const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
+    // Navega para a categoria da curiosidade aleatória. A página cuidará de exibir a primeira não lida.
     router.push(`/curiosity/${randomCuriosity.categoryId}`);
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
   
@@ -104,6 +115,7 @@ export default function CuriosityExplorer({
     );
   }
   
+  // Exibe um esqueleto de carregamento enquanto o índice inicial está sendo calculado.
   if (currentIndex === null || !isLoaded) {
     return (
          <div className="flex flex-col gap-8">
@@ -127,7 +139,7 @@ export default function CuriosityExplorer({
                 </CardFooter>
             </Card>
          </div>
-    )
+    );
   }
 
   const currentCuriosity = curiosities[currentIndex];
@@ -238,4 +250,3 @@ export default function CuriosityExplorer({
     </div>
   );
 }
-    
