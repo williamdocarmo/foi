@@ -1146,5 +1146,313 @@
     "explanation": "A higiene das mãos remove germes e bactérias que causam infecções.  As outras opções não são diretamente prevenidas pela lavagem das mãos. Curiosidade:  A lavagem correta das mãos leva pelo menos 20 segundos.",
     "id": "quiz-saude-82",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal benefício da ingestão regular de água?",
+    "options": [
+      "Aumento da massa muscular",
+      "Melhora da digestão e funcionamento dos rins",
+      "Redução significativa do colesterol",
+      "Prevenção de cáries"
+    ],
+    "correctAnswer": "Melhora da digestão e funcionamento dos rins",
+    "explanation": "A água é essencial para diversas funções corporais, incluindo a digestão, absorção de nutrientes e excreção de toxinas pelos rins.  As outras opções são benefícios indiretos ou relacionados a outros fatores. Curiosidade: Cerca de 60% do corpo humano é composto por água.",
+    "id": "quiz-saude-83",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destas atividades físicas é mais eficaz para melhorar a saúde cardiovascular?",
+    "options": [
+      "Levantamento de peso",
+      "Ioga",
+      "Natação",
+      "Alongamento"
+    ],
+    "correctAnswer": "Natação",
+    "explanation": "A natação é um exercício aeróbico de baixo impacto que trabalha diversos grupos musculares, melhorando a capacidade cardiovascular.  Levantamento de peso foca em força, ioga em flexibilidade e alongamento em mobilidade. Curiosidade: A natação é considerada um dos esportes mais completos.",
+    "id": "quiz-saude-84",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual processo metabólico é diretamente afetado pela disbiose intestinal?",
+    "options": [
+      "Síntese de proteínas",
+      "Glicogenólise",
+      "Extração de energia dos alimentos",
+      "Regulação da temperatura corporal"
+    ],
+    "correctAnswer": "Extração de energia dos alimentos",
+    "explanation": "A microbiota intestinal saudável auxilia na digestão e absorção de nutrientes, impactando diretamente a extração de energia dos alimentos.  As outras opções são processos metabólicos menos diretamente afetados pela disbiose. Curiosidade: A microbiota intestinal produz vitaminas essenciais, como a vitamina K.",
+    "id": "quiz-saude-85",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A deficiência de qual vitamina pode levar ao raquitismo?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12",
+      "Vitamina A"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D é crucial para a absorção de cálcio, essencial para o desenvolvimento ósseo.  Sua deficiência leva ao raquitismo, afetando o crescimento ósseo.  As outras vitaminas têm outras funções importantes, mas não são diretamente responsáveis pelo raquitismo. Curiosidade: A exposição ao sol é uma importante fonte de vitamina D.",
+    "id": "quiz-saude-86",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a hipertrofia muscular?",
+    "options": [
+      "Diminuição do tamanho das células musculares",
+      "Aumento do número de células musculares",
+      "Aumento do tamanho das células musculares",
+      "Redução da força muscular"
+    ],
+    "correctAnswer": "Aumento do tamanho das células musculares",
+    "explanation": "Hipertrofia se refere ao aumento do tamanho das células musculares, resultante do treinamento de força.  Hiperplasia é o aumento do *número* de células.  As outras opções descrevem atrofia e fraqueza muscular. Curiosidade: A hipertrofia muscular é acompanhada por aumento da força e resistência muscular.",
+    "id": "quiz-saude-87",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual destes fatores aumenta o risco de desenvolver osteoporose?",
+    "options": [
+      "Consumo elevado de cálcio",
+      "Alta atividade física",
+      "Genética",
+      "Dieta rica em vitamina D"
+    ],
+    "correctAnswer": "Genética",
+    "explanation": "A genética desempenha um papel significativo na predisposição à osteoporose.  Os outros fatores são protetores contra a doença. Curiosidade: A osteoporose afeta mais mulheres do que homens.",
+    "id": "quiz-saude-88",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual hormônio regula o metabolismo basal?",
+    "options": [
+      "Insulina",
+      "Glucagon",
+      "T3 (Triiodotironina)",
+      "Cortisol"
+    ],
+    "correctAnswer": "T3 (Triiodotironina)",
+    "explanation": "A T3 e T4 (tiroxina) são hormônios tireoidianos que regulam o metabolismo basal, ou seja, a quantidade de energia gasta em repouso. Insulina e glucagon regulam a glicose, e o cortisol participa da resposta ao estresse. Curiosidade: A deficiência de hormônios tireoidianos pode levar ao hipotireoidismo, causando fadiga e ganho de peso.",
+    "id": "quiz-saude-89",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades ajuda a melhorar o sono?",
+    "options": [
+      "Beber café antes de dormir",
+      "Utilizar dispositivos eletrônicos na cama",
+      "Fazer exercícios físicos intensos antes de dormir",
+      "Tomar um banho morno antes de dormir"
+    ],
+    "correctAnswer": "Tomar um banho morno antes de dormir",
+    "explanation": "Um banho morno ajuda a relaxar o corpo e a mente, preparando-o para o sono. As demais opções podem interferir negativamente no ciclo do sono. Curiosidade: A melatonina, hormônio do sono, é produzida em maior quantidade à noite.",
+    "id": "quiz-saude-90",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o papel da leptina no controle do apetite?",
+    "options": [
+      "Estimula o apetite",
+      "Reduz a sensação de saciedade",
+      "Sinaliza saciedade ao cérebro",
+      "Não interfere no apetite"
+    ],
+    "correctAnswer": "Sinaliza saciedade ao cérebro",
+    "explanation": "A leptina, hormônio produzido pelo tecido adiposo, sinaliza ao hipotálamo a sensação de saciedade, regulando a ingestão de alimentos.  As outras opções descrevem o efeito oposto ou a ausência de efeito. Curiosidade: A resistência à leptina pode contribuir para o desenvolvimento da obesidade.",
+    "id": "quiz-saude-91",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual vitamina é importante para a coagulação sanguínea?",
+    "options": [
+      "Vitamina A",
+      "Vitamina K",
+      "Vitamina C",
+      "Vitamina D"
+    ],
+    "correctAnswer": "Vitamina K",
+    "explanation": "A vitamina K é essencial para a síntese de proteínas envolvidas na coagulação do sangue.  As demais vitaminas desempenham funções importantes, mas não estão diretamente relacionadas à coagulação. Curiosidade: A deficiência de vitamina K pode levar a problemas de sangramento.",
+    "id": "quiz-saude-92",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o impacto da inflamação crônica de baixo grau na saúde?",
+    "options": [
+      "Aumento da imunidade contra infecções",
+      "Prevenção do desenvolvimento de doenças crônicas",
+      "Contribui para o desenvolvimento de doenças crônicas",
+      "Não impacta significativamente a saúde"
+    ],
+    "correctAnswer": "Contribui para o desenvolvimento de doenças crônicas",
+    "explanation": "Inflamação crônica de baixo grau, mesmo sem sintomas aparentes, está associada a um maior risco de doenças cardíacas, diabetes, câncer e outras condições. As outras opções são incorretas, pois a inflamação crônica prejudica a saúde. Curiosidade: A inflamação crônica está ligada ao envelhecimento precoce.",
+    "id": "quiz-saude-93",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre exercícios aeróbicos e anaeróbicos?",
+    "options": [
+      "A intensidade do exercício.",
+      "Os músculos utilizados.",
+      "O uso de oxigênio.",
+      "O tipo de equipamento necessário."
+    ],
+    "correctAnswer": "O uso de oxigênio.",
+    "explanation": "Exercícios aeróbicos utilizam oxigênio para produzir energia, enquanto exercícios anaeróbicos não.  A intensidade, músculos utilizados e equipamentos são fatores secundários. Curiosidade: Corrida é um exemplo de exercício aeróbico, enquanto levantamento de peso é anaeróbico.",
+    "id": "quiz-saude-94",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual vitamina é essencial para a visão noturna?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina A",
+      "Vitamina K"
+    ],
+    "correctAnswer": "Vitamina A",
+    "explanation": "A vitamina A é crucial para a saúde dos olhos, incluindo a visão noturna.  As outras vitaminas desempenham papéis importantes em outras funções corporais. Curiosidade: A deficiência de vitamina A pode levar à cegueira noturna.",
+    "id": "quiz-saude-95",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o principal benefício da hidratação adequada?",
+    "options": [
+      "Melhora o humor",
+      "Regula a temperatura corporal",
+      "Aumenta a massa muscular",
+      "Diminui a fome"
+    ],
+    "correctAnswer": "Regula a temperatura corporal",
+    "explanation": "A água é essencial para regular a temperatura corporal através da transpiração. As outras opções são benefícios indiretos ou não tão diretos da hidratação. Curiosidade: O corpo humano é composto por cerca de 60% de água.",
+    "id": "quiz-saude-96",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é rico em cálcio?",
+    "options": [
+      "Frango",
+      "Banana",
+      "Leite",
+      "Arroz"
+    ],
+    "correctAnswer": "Leite",
+    "explanation": "O leite é uma excelente fonte de cálcio, essencial para a saúde óssea. Frango, banana e arroz possuem quantidades significativamente menores. Curiosidade: O cálcio é o mineral mais abundante no corpo humano.",
+    "id": "quiz-saude-97",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "A síndrome metabólica aumenta o risco de quais doenças?",
+    "options": [
+      "Doenças renais e respiratórias",
+      "Doenças cardíacas e diabetes tipo 2",
+      "Câncer de pele e doenças autoimunes",
+      "Doenças neurológicas e osteoporose"
+    ],
+    "correctAnswer": "Doenças cardíacas e diabetes tipo 2",
+    "explanation": "A síndrome metabólica é um conjunto de fatores de risco que aumentam significativamente a probabilidade de doenças cardíacas e diabetes tipo 2. As outras opções não são os riscos primários associados à síndrome. Curiosidade: A síndrome metabólica afeta milhões de pessoas globalmente.",
+    "id": "quiz-saude-98",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal papel do fígado na desintoxicação?",
+    "options": [
+      "Produzir anticorpos",
+      "Filtrar o sangue e metabolizar toxinas",
+      "Regular a temperatura corporal",
+      "Armazenar glicogênio"
+    ],
+    "correctAnswer": "Filtrar o sangue e metabolizar toxinas",
+    "explanation": "O fígado desempenha um papel crucial na filtragem do sangue e na metabolização de substâncias tóxicas. As outras funções são importantes, mas não a principal função de desintoxicação. Curiosidade: O fígado é o maior órgão interno do corpo.",
+    "id": "quiz-saude-99",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o processo pelo qual o corpo repara tecidos danificados?",
+    "options": [
+      "Apoptose",
+      "Autofagia",
+      "Hiperplasia",
+      "Angiogênese"
+    ],
+    "correctAnswer": "Autofagia",
+    "explanation": "A autofagia é um processo celular crucial para a reparação tecidual ao remover componentes danificados e reciclar seus componentes. A apoptose é a morte celular programada, a hiperplasia é o aumento no número de células e a angiogênese é a formação de novos vasos sanguíneos. Curiosidade: O processo de autofagia foi premiado com o Nobel de Fisiologia ou Medicina em 2016.",
+    "id": "quiz-saude-100",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes exercícios é considerado aeróbico?",
+    "options": [
+      "Levantamento de peso",
+      "Corrida",
+      "Yoga",
+      "Natação"
+    ],
+    "correctAnswer": "Corrida",
+    "explanation": "Corrida é um exercício aeróbico que aumenta a frequência cardíaca e a respiração por um período prolongado. Levantamento de peso é anaeróbico, yoga é mais focada em flexibilidade e o tipo de natação varia, mas pode ser aeróbica. Curiosidade: Exercícios aeróbicos melhoram a saúde cardiovascular.",
+    "id": "quiz-saude-101",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual vitamina é essencial para a absorção de cálcio?",
+    "options": [
+      "Vitamina A",
+      "Vitamina D",
+      "Vitamina C",
+      "Vitamina B12"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D é crucial para a absorção de cálcio no intestino, imprescindível para ossos saudáveis. As outras vitaminas têm funções importantes, mas não estão diretamente envolvidas na absorção de cálcio. Curiosidade: A exposição ao sol ajuda o corpo a produzir vitamina D.",
+    "id": "quiz-saude-102",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o impacto da disbiose intestinal na saúde?",
+    "options": [
+      "Aumento da imunidade",
+      "Melhora da digestão",
+      "Desequilíbrio na microbiota intestinal, afetando a imunidade, digestão e até mesmo a saúde mental",
+      "Redução da inflamação"
+    ],
+    "correctAnswer": "Desequilíbrio na microbiota intestinal, afetando a imunidade, digestão e até mesmo a saúde mental",
+    "explanation": "A disbiose intestinal é um desequilíbrio na flora intestinal, levando a diversos problemas de saúde.  As outras opções descrevem resultados opostos ao que a disbiose causa. Curiosidade:  Probióticos podem auxiliar no restabelecimento do equilíbrio da microbiota intestinal.",
+    "id": "quiz-saude-103",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual o papel da telomerase no envelhecimento celular?",
+    "options": [
+      "Acelera o envelhecimento ao encurtar os telômeros",
+      "Retarda o envelhecimento ao alongar os telômeros",
+      "Não tem impacto direto no envelhecimento celular",
+      "Causa danos ao DNA, acelerando o envelhecimento"
+    ],
+    "correctAnswer": "Retarda o envelhecimento ao alongar os telômeros",
+    "explanation": "A telomerase é uma enzima que pode alongar os telômeros, as extremidades dos cromossomos, protegendo o DNA e retardando o envelhecimento celular.  O encurtamento dos telômeros está associado ao envelhecimento. As outras opções são incorretas. Curiosidade: O comprimento dos telômeros pode ser influenciado por fatores como estilo de vida e dieta.",
+    "id": "quiz-saude-104",
+    "categoryId": "saude"
   }
 ]

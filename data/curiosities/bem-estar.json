@@ -3189,5 +3189,77 @@
     "curiosityLevel": 4,
     "id": "bem-estar-459",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "Sua Postura Revela seu Humor?",
+    "hook": "Incrível: sua postura...",
+    "content": "A maneira como você se postura influencia diretamente seu humor e bem-estar. Uma postura ereta e confiante aumenta a autoestima e a sensação de poder, enquanto uma postura curvada pode contribuir para a tristeza e a insegurança. Experimente se sentar ereto!",
+    "funFact": "Apenas mudar sua postura pode, em alguns minutos, alterar sua percepção de si mesmo e do mundo!",
+    "curiosityLevel": 3,
+    "id": "bem-estar-460",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder Oculto das Plantas na Sua Casa",
+    "hook": "Você sabia que...",
+    "content": "Ter plantas em casa não é apenas decoração. Elas purificam o ar, reduzem o estresse e aumentam a produtividade. Estudos mostram que a presença de plantas melhora o humor e a concentração, criando um ambiente mais calmo e revigorante.  Escolha as espécies certas para maximizar os benefícios.",
+    "funFact": "Algumas plantas liberam óleos essenciais que melhoram o sono.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-461",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mágica da Escuta Intuitiva",
+    "hook": "Descubra:",
+    "content": "A escuta intuitiva, além de ouvir palavras, envolve sentir a energia e a intenção por trás delas.  Essa prática aprofunda conexões, melhora a empatia e reduz conflitos.  Ao prestar atenção na linguagem corporal e no tom de voz, você constrói relacionamentos mais saudáveis e significativos.",
+    "funFact": "A escuta intuitiva reduz significativamente a ansiedade em situações de conflito.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-462",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Impacto da Luz do Fogo na Serenidade",
+    "hook": "Incrível:",
+    "content": "A luz e o calor de uma fogueira ou lareira têm um efeito relaxante e reconfortante na mente e no corpo.  O brilho suave cria uma atmosfera serena, evocando memórias de conforto e segurança.  Aproveite a luz aconchegante e relaxe.",
+    "funFact": "A luz do fogo reduz a produção do hormônio do estresse, o cortisol.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-463",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Os Benefícios da Jardinagem Terapêutica",
+    "hook": "Surpreendente:",
+    "content": "A jardinagem, além de produzir alimentos ou flores, é uma atividade terapêutica que promove o relaxamento e a conexão com a natureza. O contato com a terra, o cuidado com as plantas, e a observação do crescimento podem ser muito reconfortantes.",
+    "funFact": "A jardinagem reduz os níveis de cortisol, o hormônio do estresse.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-464",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Influência da Decoração no Humor",
+    "hook": "Incrível: as cores te acalmam!",
+    "content": "As cores e texturas presentes no ambiente doméstico podem impactar significativamente o humor e o bem-estar. Tons claros e suaves geralmente promovem calma, enquanto cores vibrantes podem estimular a criatividade.  Uma decoração organizada e harmoniosa contribui para um ambiente mais relaxante.",
+    "funFact": "O azul é comprovadamente a cor mais relaxante para o cérebro humano.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-465",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Respiração Diafragmática",
+    "hook": "Você sabia que respirar cura?",
+    "content": "A respiração diafragmática, que utiliza o diafragma para inspirar e expirar profundamente, ajuda a regular o sistema nervoso, reduzindo o estresse e a ansiedade.  Pratiquar diariamente alguns minutos dessa técnica pode trazer inúmeros benefícios para a saúde mental e física.",
+    "funFact": "A respiração diafragmática aumenta a oxigenação do cérebro em até 14%.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-466",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Compostagem Caseira",
+    "hook": "Incrível: o lixo vira bem-estar!",
+    "content": "A compostagem em casa, além de ser ecologicamente correta, contribui para a saúde mental ao proporcionar um contato com a natureza e a sensação de realização.  Observar o processo de decomposição e o crescimento de plantas com a ajuda do composto é terapêutico.",
+    "funFact": "O ato de cuidar de uma composteira reduz os níveis de cortisol, o hormônio do estresse.",
+    "curiosityLevel": 5,
+    "id": "bem-estar-467",
+    "categoryId": "bem-estar"
   }
 ]

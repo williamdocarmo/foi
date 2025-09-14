@@ -12,10 +12,11 @@ import {
   signInWithPopup, 
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword,
-  fetchSignInMethodsForEmail
+  fetchSignInMethodsForEmail,
+  sendPasswordResetEmail
 } from 'firebase/auth';
 import { Separator } from '../ui/separator';
-import { Mail, Key, User } from 'lucide-react';
+import { Mail, Key, User, Send } from 'lucide-react';
 import { Checkbox } from '../ui/checkbox';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
@@ -130,6 +131,33 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
     }
   }
 
+  const handlePasswordReset = async () => {
+    if (!email) {
+      toast({
+        title: 'E-mail necessário',
+        description: 'Por favor, insira seu e-mail para redefinir a senha.',
+        variant: 'destructive',
+      });
+      return;
+    }
+    setIsLoading(true);
+    try {
+      await sendPasswordResetEmail(auth, email);
+      toast({
+        title: 'E-mail de redefinição enviado',
+        description: 'Verifique sua caixa de entrada para redefinir sua senha.',
+      });
+    } catch (error: any) {
+      toast({
+        title: 'Erro ao redefinir senha',
+        description: 'Não foi possível enviar o e-mail. Verifique se o e-mail está correto.',
+        variant: 'destructive',
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -142,7 +170,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
         </DialogHeader>
         
         <div className="flex flex-col gap-4 py-4">
-             <Button variant="outline" onClick={handleGoogleSignIn} disabled={isLoading}>
+             <Button variant="outline" onClick={handleGoogleSignIn} disabled={isLoading || !agreed}>
                 {isLoading ? 'Carregando...' : <><GoogleIcon /> Continuar com o Google</>}
              </Button>
 
@@ -167,7 +195,12 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                     />
                 </div>
                  <div className="grid w-full items-center gap-1.5">
-                    <Label htmlFor="password"><Key className='inline-block mr-1'/> Senha</Label>
+                    <div className="flex justify-between items-center">
+                        <Label htmlFor="password"><Key className='inline-block mr-1'/> Senha</Label>
+                        <Button type="button" variant="link" size="sm" className="h-auto p-0 text-xs" onClick={handlePasswordReset} disabled={isLoading}>
+                            Esqueceu a senha?
+                        </Button>
+                    </div>
                     <Input 
                         id="password" 
                         type="password"
@@ -195,7 +228,7 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
                     </div>
                  </div>
                 
-                <Button type="submit" className="w-full" disabled={isLoading}>
+                <Button type="submit" className="w-full" disabled={isLoading || !agreed}>
                    {isLoading ? 'Verificando...' : <><User className='mr-2'/> Entrar ou Criar Conta</>}
                 </Button>
             </form>
