@@ -13,6 +13,7 @@ import { signOut } from 'firebase/auth';
 import { useToast } from '@/hooks/use-toast';
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '../ui/dropdown-menu';
+import OfflineIndicator from '../shared/OfflineIndicator';
 
 export default function AppHeader() {
   const { stats, isLoaded, user } = useGameStats();
@@ -53,6 +54,7 @@ export default function AppHeader() {
           
           <div className="flex flex-1 items-center justify-end space-x-2 md:space-x-4">
               <div className="flex items-center space-x-2 md:space-x-4 text-sm font-medium text-muted-foreground">
+                <OfflineIndicator />
                 {isLoaded ? (
                   <>
                     <Tooltip>
@@ -106,7 +108,7 @@ export default function AppHeader() {
                 )}
               </div>
 
-            {isLoaded && (
+            {isLoaded ? (
               user ? (
                  <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -150,7 +152,7 @@ export default function AppHeader() {
                   Entrar
                 </Button>
               )
-            )}
+            ) : <Skeleton className="h-8 w-8 rounded-full" />}
           </div>
         </div>
       </header>

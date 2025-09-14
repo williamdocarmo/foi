@@ -1,7 +1,7 @@
 // src/lib/firebase.ts
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth, browserPopupRedirectResolver } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 
 const firebaseConfig = {
   projectId: "studio-4977373253-2de1c",
@@ -15,13 +15,23 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-// Use browserPopupRedirectResolver to ensure the popup flow works correctly,
-// especially with custom domains. The authorized domain configuration you did
-// in the Google Cloud Console is the correct way to handle the domain display.
 const auth = getAuth(app, {
     popupRedirectResolver: browserPopupRedirectResolver,
 });
 
 const db = getFirestore(app);
+
+// Ativa a persistência offline. Isso permite que o app funcione offline
+// e carrega dados do cache primeiro para uma experiência mais rápida.
+enableIndexedDbPersistence(db).catch((err) => {
+  if (err.code == 'failed-precondition') {
+    // Múltiplas abas abertas podem causar isso.
+    console.warn('Firebase persistence could not be enabled. Either multiple tabs are open or another issue occurred.');
+  } else if (err.code == 'unimplemented') {
+    // O navegador não suporta a funcionalidade.
+     console.warn('The browser does not support Firebase offline persistence.');
+  }
+});
+
 
 export { app, auth, db };
