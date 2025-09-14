@@ -9,7 +9,6 @@ import { doc, getDoc, setDoc, getDocFromCache } from 'firebase/firestore';
 
 const LOCAL_GAME_STATS_KEY = 'idea-spark-stats';
 
-// Define o estado inicial padrão, uma única fonte da verdade.
 const defaultStats: GameStats = {
   totalCuriositiesRead: 0,
   readCuriosities: [],
@@ -22,13 +21,11 @@ const defaultStats: GameStats = {
   lastReadCuriosity: null,
 };
 
-// Helper para carregar os dados locais de forma segura.
 const loadLocalStats = (): GameStats => {
   try {
     const storedStats = localStorage.getItem(LOCAL_GAME_STATS_KEY);
     if (storedStats) {
-      const parsedStats = JSON.parse(storedStats);
-      return { ...defaultStats, ...parsedStats };
+      return { ...defaultStats, ...JSON.parse(storedStats) };
     }
   } catch (error) {
     console.error("Failed to load local game stats:", error);
@@ -36,18 +33,16 @@ const loadLocalStats = (): GameStats => {
   return { ...defaultStats };
 };
 
-// Helper para processar a lógica de data e streak. É uma função pura.
 const processDateLogic = (statsToProcess: GameStats): GameStats => {
-    const newStats = { ...statsToProcess };
-    if (newStats.lastPlayedDate) {
-        const lastPlayed = new Date(newStats.lastPlayedDate);
-        if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
-            newStats.currentStreak = 0;
-        }
+  const newStats = { ...statsToProcess };
+  if (newStats.lastPlayedDate) {
+    const lastPlayed = new Date(newStats.lastPlayedDate);
+    if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
+      newStats.currentStreak = 0;
     }
-    return newStats;
+  }
+  return newStats;
 };
-
 
 export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
@@ -55,72 +50,60 @@ export function useGameStats() {
   const [user, setUser] = useState<User | null>(null);
 
   const userRef = useRef(user);
-  useEffect(() => {
-    userRef.current = user;
-  }, [user]);
+  useEffect(() => { userRef.current = user; }, [user]);
 
-  // EFEITO DE INICIALIZAÇÃO E SINCRONIZAÇÃO (RODA APENAS UMA VEZ)
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
-        setUser(authedUser);
-        const localStats = loadLocalStats();
+      setUser(authedUser);
+      const localStats = loadLocalStats();
 
-        if (authedUser) {
-            let cloudStats: GameStats | null = null;
+      if (authedUser) {
+        let cloudStats: GameStats | null = null;
+        try {
+          const docRef = doc(db, 'userStats', authedUser.uid);
+          let docSnap;
+          try {
+            docSnap = await getDoc(docRef);
+          } catch {
             try {
-                const docRef = doc(db, 'userStats', authedUser.uid);
-                let docSnap;
-                try {
-                    docSnap = await getDoc(docRef);
-                } catch (error) {
-                    console.warn("Firestore fetch failed (offline?), trying cache.", error);
-                    try {
-                        docSnap = await getDocFromCache(docRef);
-                    } catch (cacheError) {
-                        console.error("Cache fetch failed, using local data as fallback.", cacheError);
-                        docSnap = null;
-                    }
-                }
-                
-                if (docSnap && docSnap.exists()) {
-                    cloudStats = docSnap.data() as GameStats;
-                }
-
-                // Mescla os dados, dando prioridade para os mais recentes e unindo listas.
-                const mergedStats: GameStats = {
-                    ...defaultStats,
-                    ...cloudStats,
-                    ...localStats,
-                    longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-                    quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
-                    readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
-                };
-                mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
-                
-                const finalStats = processDateLogic(mergedStats);
-                setStats(finalStats);
-
-                // Limpa o local storage após a mesclagem bem-sucedida.
-                localStorage.removeItem(LOCAL_GAME_STATS_KEY);
-
-            } catch (error) {
-                console.error("Failed to sync game stats, using local data as fallback:", error);
-                setStats(processDateLogic(localStats));
+              docSnap = await getDocFromCache(docRef);
+            } catch {
+              docSnap = null;
             }
-        } else {
-            setStats(processDateLogic(localStats));
-        }
+          }
 
-        setIsLoaded(true);
+          if (docSnap?.exists()) cloudStats = docSnap.data() as GameStats;
+
+          const mergedStats: GameStats = {
+            ...defaultStats,
+            ...cloudStats,
+            ...localStats,
+            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
+            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
+            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
+          };
+          mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
+
+          const finalStats = processDateLogic(mergedStats);
+          setStats(finalStats);
+          localStorage.removeItem(LOCAL_GAME_STATS_KEY);
+        } catch (error) {
+          console.error("Failed to sync stats, using local fallback:", error);
+          setStats(processDateLogic(localStats));
+        }
+      } else {
+        setStats(processDateLogic(localStats));
+      }
+
+      setIsLoaded(true);
     });
 
     return () => unsubscribe();
   }, []);
 
-  // EFEITO DE PERSISTÊNCIA (DEBOUNCED)
+  // Persistência (debounced)
   useEffect(() => {
     if (!isLoaded) return;
-    
     const timer = setTimeout(() => {
       try {
         if (userRef.current) {
@@ -134,74 +117,60 @@ export function useGameStats() {
           localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(stats));
         }
       } catch (error) {
-        console.error("Failed to save game stats:", error);
+        console.error("Failed to save stats:", error);
       }
-    }, 1000); // Atraso de 1s para salvar
+    }, 1000);
 
-    return () => {
-      clearTimeout(timer);
-    };
+    return () => clearTimeout(timer);
   }, [stats, isLoaded]);
 
   const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
-    setStats(prevStats => {
-      // Condição de guarda: se já leu, não faz nada. Essencial para quebrar loops.
-      if (prevStats.readCuriosities.includes(curiosityId)) {
-        return prevStats;
-      }
+    setStats(prev => {
+      if (prev.readCuriosities.includes(curiosityId)) return prev;
 
-      const newReadCuriosities = [...prevStats.readCuriosities, curiosityId];
-      const newTotalRead = newReadCuriosities.length;
+      const newRead = [...prev.readCuriosities, curiosityId];
       const today = new Date();
-      
-      let newCurrentStreak = prevStats.currentStreak;
-      const lastPlayed = prevStats.lastPlayedDate ? new Date(prevStats.lastPlayedDate) : null;
-      
+      let newStreak = prev.currentStreak;
+
+      const lastPlayed = prev.lastPlayedDate ? new Date(prev.lastPlayedDate) : null;
       if (!lastPlayed || !isToday(lastPlayed)) {
-        if (lastPlayed && isYesterday(lastPlayed)) {
-          newCurrentStreak += 1;
-        } else {
-          newCurrentStreak = 1;
-        }
+        newStreak = lastPlayed && isYesterday(lastPlayed) ? newStreak + 1 : 1;
       }
 
-      const newLongestStreak = Math.max(prevStats.longestStreak, newCurrentStreak);
-      
-      let newExplorerStatus: GameStats['explorerStatus'] = 'Iniciante';
-      if (newTotalRead >= 50) newExplorerStatus = 'Expert';
-      else if (newTotalRead >= 10) newExplorerStatus = 'Explorador';
+      const newLongest = Math.max(prev.longestStreak, newStreak);
+      const newTotalRead = newRead.length;
+      const combosEarned = Math.floor(newTotalRead / 5) - Math.floor(prev.totalCuriositiesRead / 5);
+      const newCombos = prev.combos + combosEarned;
 
-      const combosEarned = Math.floor(newTotalRead / 5) - Math.floor(prevStats.totalCuriositiesRead / 5);
-      const newCombos = prevStats.combos + combosEarned;
+      let explorerStatus: GameStats['explorerStatus'] = 'Iniciante';
+      if (newTotalRead >= 50) explorerStatus = 'Expert';
+      else if (newTotalRead >= 10) explorerStatus = 'Explorador';
 
-      // Retorna o novo estado. A persistência será cuidada pelo useEffect separado.
       return {
-          ...prevStats,
-          totalCuriositiesRead: newTotalRead,
-          readCuriosities: newReadCuriosities,
-          currentStreak: newCurrentStreak,
-          longestStreak: newLongestStreak,
-          lastPlayedDate: today.toISOString(),
-          explorerStatus: newExplorerStatus,
-          combos: newCombos,
-          lastReadCuriosity: { ...(prevStats.lastReadCuriosity || {}), [categoryId]: curiosityId },
+        ...prev,
+        readCuriosities: newRead,
+        totalCuriositiesRead: newTotalRead,
+        currentStreak: newStreak,
+        longestStreak: newLongest,
+        lastPlayedDate: today.toISOString(),
+        explorerStatus,
+        combos: newCombos,
+        lastReadCuriosity: { ...(prev.lastReadCuriosity || {}), [categoryId]: curiosityId }
       };
     });
   }, []);
-  
+
   const addQuizResult = useCallback((categoryId: string, score: number) => {
-    setStats(prevStats => {
-      const newScores = { ...prevStats.quizScores };
-      if (!newScores[categoryId]) {
-          newScores[categoryId] = [];
-      }
+    setStats(prev => {
+      const newScores = { ...prev.quizScores };
+      if (!newScores[categoryId]) newScores[categoryId] = [];
       newScores[categoryId].push({ score, date: new Date().toISOString() });
-      return { ...prevStats, quizScores: newScores };
+      return { ...prev, quizScores: newScores };
     });
   }, []);
 
   const updateStats = useCallback((newStats: Partial<GameStats>) => {
-    setStats(prevStats => ({ ...prevStats, ...newStats }));
+    setStats(prev => ({ ...prev, ...newStats }));
   }, []);
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };

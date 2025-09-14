@@ -17,89 +17,63 @@ type CuriosityExplorerProps = {
   curiosities: Curiosity[];
 };
 
-export default function CuriosityExplorer({ 
-    category, 
-    curiosities, 
-}: CuriosityExplorerProps) {
+export default function CuriosityExplorer({ category, curiosities }: CuriosityExplorerProps) {
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
-
-  // O índice da curiosidade atual. Começa como nulo até os dados carregarem.
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
   const allCuriosityIds = useMemo(() => {
-    return categories.flatMap(cat => 
-        (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
+    if (!categories || !curiositiesByCategory) return [];
+    return categories.flatMap(cat =>
+      (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
     );
-  }, []);
+  }, []); // Removido categories e curiositiesByCategory das dependências pois são estáticos
 
-  // EFEITO DE INICIALIZAÇÃO: Roda apenas uma vez quando os dados carregam.
-  // Define o índice inicial de forma segura, sem causar loops.
+  // Efeito para inicializar o índice, roda apenas quando os dados são carregados
   useEffect(() => {
-    // Só executa se os dados do jogo foram carregados e o índice ainda não foi definido.
-    if (isLoaded && currentIndex === null) {
-      const calculateInitialIndex = () => {
-        if (!curiosities || curiosities.length === 0) return 0;
-        if (!stats || !stats.readCuriosities) return 0;
-        
-        // Encontra o índice da primeira curiosidade não lida nesta categoria.
-        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-        
-        // Se todas foram lidas, começa da primeira (índice 0).
-        return firstUnreadIndex !== -1 ? firstUnreadIndex : 0;
-      };
-      setCurrentIndex(calculateInitialIndex());
+    // Só roda se os dados carregaram, o índice ainda não foi definido, e as curiosidades lidas estão disponíveis
+    if (isLoaded && currentIndex === null && stats.readCuriosities) {
+      const firstUnread = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+      setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
     }
-  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]); // Depende do `currentIndex` para não rodar de novo se já tiver sido setado.
+  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
 
-
-  // EFEITO DE MARCAÇÃO: Marca a curiosidade atual como lida.
-  // Contém a lógica crucial que quebra o loop de renderização.
+  // Efeito para marcar a curiosidade atual como lida. A lógica é mais segura agora.
+  const currentCuriosityId = currentIndex !== null ? curiosities[currentIndex]?.id : null;
   useEffect(() => {
-    if (isLoaded && currentIndex !== null) {
-      const currentCuriosity = curiosities[currentIndex];
-      // A CONDIÇÃO MAIS IMPORTANTE: Só marca como lida se a curiosidade ainda não foi registrada no estado.
-      // Isso impede que a função `markCuriosityAsRead` seja chamada em um loop infinito.
-      if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
-        markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
+    if (isLoaded && currentIndex !== null && currentCuriosityId) {
+      // Condição crucial que quebra o loop: só marca se ainda não foi marcada.
+      if (!stats.readCuriosities.includes(currentCuriosityId)) {
+        markCuriosityAsRead(currentCuriosityId, curiosities[currentIndex].categoryId);
       }
     }
-    // A dependência em `stats.readCuriosities` é segura agora por causa da condição acima.
-  }, [isLoaded, currentIndex, curiosities, markCuriosityAsRead, stats.readCuriosities]);
+  }, [isLoaded, currentIndex, currentCuriosityId, curiosities, markCuriosityAsRead, stats.readCuriosities]);
 
 
   const handleNext = useCallback(() => {
     if (currentIndex === null) return;
-    const nextIndex = currentIndex + 1;
-    if (nextIndex < curiosities.length) {
-      setCurrentIndex(nextIndex);
-    }
+    const next = currentIndex + 1;
+    if (next < curiosities.length) setCurrentIndex(next);
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex === null) return;
-    const prevIndex = currentIndex - 1;
-    if (prevIndex >= 0) {
-      setCurrentIndex(prevIndex);
-    }
+    const prev = currentIndex - 1;
+    if (prev >= 0) setCurrentIndex(prev);
   }, [currentIndex]);
-  
+
   const surpriseMe = useCallback(() => {
     if (allCuriosityIds.length <= 1 || currentIndex === null) return;
-  
+
     const currentId = curiosities[currentIndex]?.id;
-    let availableIds = allCuriosityIds.filter(c => c.id !== currentId);
-  
-    // Prioriza curiosidades não lidas
-    let unreadIds = availableIds.filter(c => !stats.readCuriosities.includes(c.id));
-    if (unreadIds.length > 0) {
-        availableIds = unreadIds;
+    let available = allCuriosityIds.filter(c => c.id !== currentId);
+    if (stats.readCuriosities) {
+        const unread = available.filter(c => !stats.readCuriosities.includes(c.id));
+        if (unread.length > 0) available = unread;
     }
 
-    const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
-    
-    // Navega para a categoria da curiosidade aleatória. A página cuidará de exibir a primeira não lida.
-    router.push(`/curiosity/${randomCuriosity.categoryId}`);
+    const random = available[Math.floor(Math.random() * available.length)];
+    if(random) router.push(`/curiosity/${random.categoryId}`);
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
   
   if (curiosities.length === 0) {
@@ -114,9 +88,9 @@ export default function CuriosityExplorer({
         </div>
     );
   }
-  
-  // Exibe um esqueleto de carregamento enquanto o índice inicial está sendo calculado.
-  if (currentIndex === null || !isLoaded) {
+
+  // Skeleton de carregamento
+  if (!isLoaded || currentIndex === null) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
@@ -142,8 +116,19 @@ export default function CuriosityExplorer({
     );
   }
 
-  const currentCuriosity = curiosities[currentIndex];
+  const currentCuriosity = curiosities[currentIndex] || null;
   
+  // Se por algum motivo a curiosidade não existir (pouco provável), mostra um erro amigável.
+  if (!currentCuriosity) return (
+     <div className="flex flex-col items-center justify-center text-center p-8">
+        <h2 className="text-2xl font-bold">Opa! Algo deu errado.</h2>
+        <p className="text-muted-foreground mt-2">Não conseguimos carregar esta curiosidade.</p>
+        <Button asChild className="mt-6">
+            <Link href="/">Voltar ao Início</Link>
+        </Button>
+    </div>
+  );
+
   const explorerIcons = {
     'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
     'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
