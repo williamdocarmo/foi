@@ -1,6 +1,8 @@
-import { NextResponse } from 'next/server'
-import type { MetadataRoute } from 'next'
- 
+import {NextResponse} from 'next/server';
+import type {MetadataRoute} from 'next';
+
+export const dynamic = 'force-static';
+
 export function GET(): NextResponse<MetadataRoute.Manifest> {
   return NextResponse.json({
     name: 'Você Sabia?',
@@ -22,5 +24,5 @@ export function GET(): NextResponse<MetadataRoute.Manifest> {
         type: 'image/png',
       },
     ],
-  })
+  });
 }
