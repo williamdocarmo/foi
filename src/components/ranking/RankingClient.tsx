@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -27,29 +28,26 @@ function RankingSkeleton() {
 }
 
 // O componente agora é um Client Component e busca os dados no lado do cliente.
-export default function RankingList({ initialUsers }: { initialUsers: GetTopUsersOutput['users'] }) {
-  const [users, setUsers] = useState<GetTopUsersOutput['users']>(initialUsers);
-  const [isLoading, setIsLoading] = useState(initialUsers.length === 0);
+export default function RankingList() {
+  const [users, setUsers] = useState<GetTopUsersOutput['users']>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Se não houver dados iniciais (porque a busca no servidor falhou ou foi pulada),
-    // busca os dados no cliente.
-    if (initialUsers.length === 0) {
-      const fetchUsers = async () => {
-        setIsLoading(true);
-        try {
-          const { users: fetchedUsers } = await getTopUsers({ count: 10 });
-          setUsers(fetchedUsers);
-        } catch (error) {
-          console.error("Error fetching ranking on client:", error);
-          setUsers([]); // Define como vazio em caso de erro
-        } finally {
-          setIsLoading(false);
-        }
-      };
-      fetchUsers();
-    }
-  }, [initialUsers]);
+    // A busca de dados agora acontece aqui, no cliente.
+    const fetchUsers = async () => {
+      setIsLoading(true);
+      try {
+        const { users: fetchedUsers } = await getTopUsers({ count: 10 });
+        setUsers(fetchedUsers);
+      } catch (error) {
+        console.error("Error fetching ranking on client:", error);
+        setUsers([]); // Define como vazio em caso de erro para não quebrar a UI
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchUsers();
+  }, []);
 
   const getMedalColor = (rank: number) => {
     switch (rank) {

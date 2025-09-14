@@ -11,7 +11,8 @@ type CuriosityPageProps = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-// Corrigido para lidar com searchParams de forma assíncrona, conforme as novas diretrizes do Next.js
+// A busca de dados (getCategoryById, getCuriositiesByCategoryId) é feita no servidor,
+// pois são dados estáticos. O componente de cliente `CuriosityExplorer` cuidará da interação.
 export default function CuriosityPage({ params, searchParams }: CuriosityPageProps) {
   const { categoryId } = params;
   const initialCuriosityId = searchParams?.curiosity;
@@ -33,6 +34,7 @@ export default function CuriosityPage({ params, searchParams }: CuriosityPagePro
                 </Link>
             </Button>
         </div>
+        {/* O CuriosityExplorer agora recebe os dados estáticos como props */}
         <CuriosityExplorer 
             category={category} 
             curiosities={curiosities} 

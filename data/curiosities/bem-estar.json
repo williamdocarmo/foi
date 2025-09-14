@@ -4575,5 +4575,41 @@
     "curiosityLevel": 2,
     "id": "bem-estar-613",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Risototerapia",
+    "hook": "Incrível: o riso cura!",
+    "content": "O riso, além de contagiante, libera endorfinas, hormônios que atuam como analgésicos naturais e melhoram o humor.  Estudos mostram que o riso regular fortalece o sistema imunológico e reduz os níveis de cortisol, o hormônio do estresse.  Incluir momentos de riso no dia a dia é uma poderosa estratégia de bem-estar.",
+    "funFact": "Uma boa gargalhada pode queimar até 40 calorias!",
+    "curiosityLevel": 4,
+    "id": "bem-estar-614",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura pelo Toque Consciente",
+    "hook": "Você sabia que...",
+    "content": "Um simples toque, feito com intenção e cuidado, pode ter um profundo impacto no bem-estar emocional.  Abraços, apertos de mão e carícias promovem a conexão humana, reduzem a ansiedade e liberam oxitocina, o hormônio do afeto. Explore o poder do toque!",
+    "funFact": "O toque físico reduz a sensação de solidão em até 40%.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-615",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Risologia",
+    "hook": "Incrível: o riso cura!",
+    "content": "O riso, além de contagioso, possui um poder terapêutico surpreendente. Estudos científicos comprovam seus efeitos positivos na redução do estresse, melhora do humor e até mesmo no fortalecimento do sistema imunológico.  O riso promove a liberação de endorfinas, hormônios que atuam como analgésicos naturais, reduzindo a sensação de dor.",
+    "funFact": "Um bom ataque de riso pode queimar até 40 calorias!",
+    "curiosityLevel": 4,
+    "id": "bem-estar-616",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo do Toque Consciente",
+    "hook": "Surpreendente: o toque...",
+    "content": "Um simples toque, seja um abraço, uma massagem leve ou até mesmo um aperto de mão, pode liberar ocitocina, o hormônio do amor e bem-estar.  Este hormônio reduz o estresse, fortalece os laços sociais e promove a sensação de segurança e conexão emocional.",
+    "funFact": "O toque físico regular pode reduzir a pressão arterial e melhorar o sono.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-617",
+    "categoryId": "bem-estar"
   }
 ]

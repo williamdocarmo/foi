@@ -1,9 +1,11 @@
+
 import RankingList from '@/components/ranking/RankingClient';
 import { Suspense } from 'react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Card } from '@/components/ui/card';
 
 // Componente para exibir o estado de carregamento (Skeleton)
+// Isso melhora a percepção de performance para o usuário.
 function RankingSkeleton() {
   return (
     <div className="space-y-4">
@@ -21,8 +23,9 @@ function RankingSkeleton() {
   );
 }
 
-// A página agora renderiza o componente cliente e o Suspense
-// A busca inicial de dados foi removida do servidor para evitar erros de build.
+// A página agora usa a API Suspense do React.
+// Ela renderiza imediatamente um fallback (o skeleton) enquanto o componente
+// RankingList (que agora é um client component) busca os dados no navegador.
 export default function RankingPage() {
   return (
     <div className="container mx-auto max-w-4xl py-8 md:py-12">
@@ -31,9 +34,9 @@ export default function RankingPage() {
             <p className="text-muted-foreground mt-2">Veja quem são os maiores mestres do conhecimento!</p>
         </div>
         
-        {/* Suspense mostra o esqueleto enquanto o RankingList (agora um Client Component) busca os dados */}
+        {/* Suspense mostra o esqueleto enquanto o RankingList busca os dados no cliente */}
         <Suspense fallback={<RankingSkeleton />}>
-          <RankingList initialUsers={[]} />
+          <RankingList />
         </Suspense>
     </div>
   );
