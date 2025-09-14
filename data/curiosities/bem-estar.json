@@ -4521,5 +4521,59 @@
     "curiosityLevel": 3,
     "id": "bem-estar-607",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Ciência da Cura Através do Risso",
+    "hook": "Incrível: o riso é remédio!",
+    "content": "O riso, além de contagioso, ativa diversas áreas do cérebro, liberando endorfinas que reduzem o estresse e a dor.  Estudos mostram que uma boa gargalhada fortalece o sistema imunológico e melhora o humor, promovendo um bem-estar duradouro.  Reserve momentos para o riso, assista a comédias ou divirta-se com amigos.",
+    "funFact": "Uma boa gargalhada pode queimar até 40 calorias!",
+    "curiosityLevel": 4,
+    "id": "bem-estar-608",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia das Cores na Terapia",
+    "hook": "Você sabia que...",
+    "content": "A cromoterapia utiliza as cores para equilibrar a energia do corpo e da mente. Cada cor possui uma vibração específica que influencia nosso estado emocional. O azul, por exemplo, promove calma, enquanto o amarelo estimula a criatividade. Explore essa terapia suave e descubra o poder das cores em seu bem-estar.",
+    "funFact": "O verde é associado ao equilíbrio e cura, sendo usado para tratar problemas cardíacos.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-609",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura Pelos Pés: Reflexologia",
+    "hook": "Surpreendente:",
+    "content": "A reflexologia parte do princípio de que os pés são um mapa do corpo, com zonas correspondentes a órgãos e sistemas. A massagem em pontos específicos estimula a circulação sanguínea e promove a liberação de tensões, trazendo alívio e bem-estar físico e mental. Experimente!",
+    "funFact": "Os egípcios já utilizavam a reflexologia há milhares de anos!",
+    "curiosityLevel": 4,
+    "id": "bem-estar-610",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Mente e a Temperatura Corporal",
+    "hook": "Incrível:",
+    "content": "A temperatura corporal ideal para o bem-estar é sutilmente influenciada pelo nosso estado mental.  O estresse, por exemplo, pode elevar a temperatura, enquanto a calma e a relaxação contribuem para a manutenção de uma temperatura mais equilibrada e confortável.  Observe sua temperatura em momentos de estresse e relaxamento.",
+    "funFact": "Um aumento sutil na temperatura corporal pode ser um indicador inicial de estresse.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-611",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Importância da Gentileza para os Outros",
+    "hook": "Descubra:",
+    "content": "Atos de gentileza, mesmo pequenos, causam um efeito cascata de positividade, tanto para quem os pratica quanto para quem os recebe.  Esses atos aumentam a sensação de conexão social, reduzem o estresse e promovem o bem-estar emocional e físico para todos envolvidos.",
+    "funFact": "A gentileza libera ocitocina, o hormônio do amor e do vínculo social.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-612",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Diversidade na Atividade Física",
+    "hook": "Incrível:",
+    "content": "Variar as atividades físicas, alternando entre exercícios de alta e baixa intensidade, é crucial para um corpo e mente saudáveis.  A monotonia pode levar ao tédio e à desistência.  Explore diferentes modalidades para manter a motivação e o prazer pelo movimento.",
+    "funFact": "Variar exercícios fortalece diferentes grupos musculares e previne lesões.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-613",
+    "categoryId": "bem-estar"
   }
 ]
