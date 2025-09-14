@@ -1108,5 +1108,41 @@
     "curiosityLevel": 4,
     "id": "saude-153",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Incrível Ciência da Sua Saliva",
+    "hook": "Incrível: sua saliva revela muito!",
+    "content": "Sua saliva, além de auxiliar na digestão, contém informações valiosas sobre sua saúde.  Análises da composição salivar podem detectar doenças como diabetes, câncer e até mesmo estresse.  A saliva reflete o equilíbrio hormonal e a saúde bucal, sendo um biomarcador importante, muitas vezes ignorado.",
+    "funFact": "A composição da sua saliva muda ao longo do dia, influenciada por fatores como alimentação e sono.",
+    "curiosityLevel": 4,
+    "id": "saude-154",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência Oculta da Sua Respiração",
+    "hook": "Incrível: sua respiração...",
+    "content": "A respiração nasal alternada, prática milenar do yoga, pode equilibrar seus hemisférios cerebrais e reduzir o estresse.  A mudança rítmica do fluxo de ar afeta a atividade elétrica do cérebro, promovendo calma e foco. Experimente inspirar por uma narina, expirar pela outra, e repita!",
+    "funFact": "Respirar corretamente pode afetar até seu sistema imunológico!",
+    "curiosityLevel": 4,
+    "id": "saude-155",
+    "categoryId": "saude"
+  },
+  {
+    "title": "O Segredo da Sua Temperatura Basal",
+    "hook": "Incrível: sua temperatura...",
+    "content": "Sua temperatura basal, medida ao acordar, revela muito sobre sua saúde hormonal e metabolismo.  Variações podem indicar problemas de tireoide, ovulação irregular ou até mesmo infecções subclínicas. Acompanhar essa temperatura por alguns ciclos pode fornecer insights valiosos para o seu bem-estar.  Preste atenção aos detalhes sutis do seu corpo!",
+    "funFact": "Uma variação de apenas meio grau pode sinalizar mudanças significativas na sua saúde.",
+    "curiosityLevel": 4,
+    "id": "saude-156",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Dança dos Microrganismos da Pele",
+    "hook": "Incrível: sua pele...",
+    "content": "Sua pele abriga um ecossistema complexo de microrganismos, muitos benéficos para a sua saúde.  Desequilíbrios nesse microbioma cutâneo podem levar a inflamações, alergias e até mesmo doenças de pele.  Manter a pele hidratada e limpa ajuda a equilibrar essa microbiota.",
+    "funFact": "Existem mais bactérias na sua pele do que células humanas!",
+    "curiosityLevel": 4,
+    "id": "saude-157",
+    "categoryId": "saude"
   }
 ]

@@ -4998,5 +4998,86 @@
     "curiosityLevel": 2,
     "id": "bem-estar-660",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "Seu Microbioma da Felicidade",
+    "hook": "Incrível: suas bactérias...",
+    "content": "A relação entre a microbiota intestinal e o bem-estar mental é surpreendente.  Bactérias intestinais produzem neurotransmissores como serotonina, crucial para a regulação do humor. Uma dieta rica em fibras e probióticos pode melhorar a composição do seu microbioma e, consequentemente, seu humor e bem-estar geral.",
+    "funFact": "Até 90% da serotonina do corpo é produzida no intestino.",
+    "curiosityLevel": 5,
+    "id": "bem-estar-661",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Nutrição do Bem-Estar",
+    "hook": "Alimente sua saúde com...",
+    "content": "Uma alimentação equilibrada e nutritiva é fundamental para o bem-estar físico e mental.  Uma dieta rica em frutas, vegetais, grãos integrais e proteínas magras fornece os nutrientes necessários para o funcionamento adequado do organismo e melhora a energia e o humor.",
+    "funFact": "A deficiência de alguns nutrientes pode causar alterações de humor e problemas de concentração.",
+    "curiosityLevel": 1,
+    "id": "bem-estar-662",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Aromaterapia dos Sentidos",
+    "hook": "Incrível: os aromas...",
+    "content": "A aromaterapia utiliza óleos essenciais para promover o bem-estar físico e emocional.  O lavanda, por exemplo, relaxa e reduz a ansiedade, enquanto o limão aumenta a energia e a concentração.  Os aromas podem influenciar o sistema límbico,  responsável pelas emoções.",
+    "funFact": "A inalação de óleos essenciais pode afetar a atividade elétrica do cérebro.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-663",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Vitamina D do Sol",
+    "hook": "Você sabia que...",
+    "content": "A exposição ao sol é essencial para a produção de vitamina D, crucial para a saúde óssea, imunológica e mental.  A deficiência de vitamina D pode levar a alterações de humor, fadiga e problemas de concentração.  Uma exposição diária ao sol é fundamental.",
+    "funFact": "A vitamina D regula a produção de serotonina, um neurotransmissor crucial para o humor.",
+    "curiosityLevel": 1,
+    "id": "bem-estar-664",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Cores que Transformam seu Humor",
+    "hook": "Incrível!",
+    "content": "As cores influenciam diretamente o nosso estado de espírito.  Tons quentes, como o amarelo e o laranja, estimulam a energia e a criatividade, enquanto tons frios, como o azul e o verde, promovem calma e tranquilidade.  Observe como as cores ao seu redor afetam seu humor.",
+    "funFact": "O azul é cientificamente comprovado como a cor que mais acalma!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-665",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "Desapego Material: Um Novo Começo",
+    "hook": "Surpreendente:",
+    "content": "Desapegar-se de objetos materiais que não trazem mais valor ou felicidade pode liberar espaço físico e mental, reduzindo o estresse e a ansiedade.  Doe, venda ou descarte itens que não são mais úteis, criando um ambiente mais leve e organizado.",
+    "funFact": "Um estudo mostrou que pessoas com menos pertences relatam níveis mais baixos de ansiedade.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-666",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Alimentação Consciente",
+    "hook": "Surpreendente:",
+    "content": "A alimentação consciente vai além de apenas comer alimentos saudáveis.  Envolve prestar atenção aos sinais de fome e saciedade, saborear cada mordida e escolher alimentos que nutrem o corpo e a alma.  Essa prática melhora a digestão e a relação com a comida.",
+    "funFact": "Comer devagar e mastigar bem os alimentos contribui para uma melhor digestão!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-667",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Tecnologia e o Bem-Estar: Um Equilíbrio Delicado",
+    "hook": "Incrível:",
+    "content": "A tecnologia pode ser uma ferramenta poderosa para o bem-estar, mas o uso excessivo pode ser prejudicial.  Estabeleça limites no uso de telas, priorize o contato humano e procure atividades offline para equilibrar a vida digital e a vida real.",
+    "funFact": "O uso excessivo de telas pode prejudicar a qualidade do sono e aumentar a ansiedade!",
+    "curiosityLevel": 2,
+    "id": "bem-estar-668",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia das Cores Quentes",
+    "hook": "Descubra:",
+    "content": "Cores quentes como o amarelo e o laranja estimulam a produção de endorfinas, hormônios relacionados à felicidade e bem-estar.  Incorporar essas cores na decoração do ambiente pode trazer mais positividade ao seu dia a dia, proporcionando uma sensação de aconchego e energia.",
+    "funFact": "Ambientes com cores quentes aumentam a sensação de calor, mesmo sem alteração na temperatura.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-669",
+    "categoryId": "bem-estar"
   }
 ]

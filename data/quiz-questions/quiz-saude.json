@@ -2030,5 +2030,33 @@
     "explanation": "O sistema imunológico protege o corpo contra invasores externos, como bactérias e vírus. As outras opções descrevem funções de outros sistemas corporais. Curiosidade: O sistema imunológico é uma rede complexa de células e órgãos.",
     "id": "quiz-saude-145",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal processo metabólico afetado pela disbiose intestinal?",
+    "options": [
+      "Síntese de proteínas",
+      "Ciclo de Krebs",
+      "Glicogênese",
+      "Extração de energia dos alimentos"
+    ],
+    "correctAnswer": "Extração de energia dos alimentos",
+    "explanation": "A disbiose intestinal afeta principalmente a absorção de nutrientes e a extração de energia dos alimentos. Embora as outras opções sejam processos metabólicos importantes, a disbiose tem maior impacto na extração energética. Curiosidade:  Um intestino saudável é crucial para uma boa absorção de nutrientes.",
+    "id": "quiz-saude-146",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "A lavagem frequente das mãos previne principalmente:",
+    "options": [
+      "Câncer",
+      "Gripe",
+      "Doenças cardíacas",
+      "Hipertensão"
+    ],
+    "correctAnswer": "Gripe",
+    "explanation": "A lavagem das mãos é crucial na prevenção da propagação de vírus e bactérias, incluindo os causadores da gripe. As outras opções não são diretamente prevenidas pela higiene das mãos. Curiosidade: Lavar as mãos corretamente leva em média 20 segundos.",
+    "id": "quiz-saude-147",
+    "categoryId": "saude"
   }
 ]

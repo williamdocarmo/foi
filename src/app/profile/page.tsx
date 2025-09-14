@@ -1,7 +1,9 @@
+"use client";
+
 import ProfileClient from '@/components/profile/ProfileClient';
 import { ShareButton } from '@/components/profile/ShareButton';
 import { Card, CardContent } from '@/components/ui/card';
-import { categories } from '@/lib/data'; // Importa os dados das categorias no servidor
+import { categories } from '@/lib/data';
 
 export default function ProfilePage() {
 
