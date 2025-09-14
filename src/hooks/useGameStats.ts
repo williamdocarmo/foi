@@ -22,18 +22,6 @@ const defaultStats: GameStats = {
   lastReadCuriosity: null,
 };
 
-// Helper para processar a lógica de data e streak. É uma função pura.
-const processDateLogic = (statsToProcess: GameStats): GameStats => {
-  const newStats = { ...statsToProcess };
-  if (newStats.lastPlayedDate) {
-    const lastPlayed = new Date(newStats.lastPlayedDate);
-    if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
-      newStats.currentStreak = 0;
-    }
-  }
-  return newStats;
-};
-
 // Helper para carregar os dados locais de forma segura.
 const loadLocalStats = (): GameStats => {
   try {
@@ -48,99 +36,100 @@ const loadLocalStats = (): GameStats => {
   return { ...defaultStats };
 };
 
+// Helper para processar a lógica de data e streak. É uma função pura.
+const processDateLogic = (statsToProcess: GameStats): GameStats => {
+    const newStats = { ...statsToProcess };
+    if (newStats.lastPlayedDate) {
+        const lastPlayed = new Date(newStats.lastPlayedDate);
+        if (!isToday(lastPlayed) && !isYesterday(lastPlayed)) {
+            newStats.currentStreak = 0;
+        }
+    }
+    return newStats;
+};
+
 
 export function useGameStats() {
-  // Inicializa o estado lendo os dados locais. Isso é síncrono e garante que a UI tenha dados imediatos.
-  const [stats, setStats] = useState<GameStats>(loadLocalStats);
+  const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
 
-  // Ref para o usuário para evitar dependências instáveis em callbacks.
   const userRef = useRef(user);
   useEffect(() => {
     userRef.current = user;
   }, [user]);
 
-  // Efeito principal para lidar com autenticação e carregamento de dados. Roda APENAS UMA VEZ.
+  // EFEITO DE INICIALIZAÇÃO E SINCRONIZAÇÃO (RODA APENAS UMA VEZ)
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
-      setUser(authedUser);
-      const localStats = loadLocalStats();
+        setUser(authedUser);
+        const localStats = loadLocalStats();
 
-      if (authedUser) {
-        // --- USUÁRIO LOGADO: INICIA A SINCRONIZAÇÃO ---
-        let cloudStats: GameStats | null = null;
-        try {
-          const docRef = doc(db, 'userStats', authedUser.uid);
-          let docSnap;
-
-          // Estratégia de busca: primeiro servidor, com fallback para o cache.
-          try {
-            docSnap = await getDoc(docRef);
-          } catch (error) {
-            console.warn("Firestore fetch failed (offline?), trying cache.", error);
+        if (authedUser) {
+            let cloudStats: GameStats | null = null;
             try {
-              docSnap = await getDocFromCache(docRef);
-            } catch (cacheError) {
-              console.error("Cache fetch failed, will use local data only.", cacheError);
-              docSnap = null;
+                const docRef = doc(db, 'userStats', authedUser.uid);
+                let docSnap;
+                try {
+                    docSnap = await getDoc(docRef);
+                } catch (error) {
+                    console.warn("Firestore fetch failed (offline?), trying cache.", error);
+                    try {
+                        docSnap = await getDocFromCache(docRef);
+                    } catch (cacheError) {
+                        console.error("Cache fetch failed, using local data as fallback.", cacheError);
+                        docSnap = null;
+                    }
+                }
+                
+                if (docSnap && docSnap.exists()) {
+                    cloudStats = docSnap.data() as GameStats;
+                }
+
+                // Mescla os dados, dando prioridade para os mais recentes e unindo listas.
+                const mergedStats: GameStats = {
+                    ...defaultStats,
+                    ...cloudStats,
+                    ...localStats,
+                    longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
+                    quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
+                    readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
+                };
+                mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
+                
+                const finalStats = processDateLogic(mergedStats);
+                setStats(finalStats);
+
+                // Limpa o local storage após a mesclagem bem-sucedida.
+                localStorage.removeItem(LOCAL_GAME_STATS_KEY);
+
+            } catch (error) {
+                console.error("Failed to sync game stats, using local data as fallback:", error);
+                setStats(processDateLogic(localStats));
             }
-          }
-          
-          if (docSnap && docSnap.exists()) {
-            cloudStats = docSnap.data() as GameStats;
-          }
-
-          // Mescla os dados, dando prioridade para os mais recentes e unindo listas.
-          const mergedStats: GameStats = {
-            ...defaultStats,
-            ...cloudStats,
-            ...localStats,
-            longestStreak: Math.max(localStats.longestStreak, cloudStats?.longestStreak || 0),
-            quizScores: { ...(cloudStats?.quizScores || {}), ...(localStats.quizScores || {}) },
-            readCuriosities: [...new Set([...(localStats.readCuriosities || []), ...(cloudStats?.readCuriosities || [])])],
-          };
-          mergedStats.totalCuriositiesRead = mergedStats.readCuriosities.length;
-          
-          const finalStats = processDateLogic(mergedStats);
-          setStats(finalStats);
-
-          // Salva os dados mesclados de volta no Firestore e limpa o local storage.
-          await setDoc(docRef, { 
-            ...finalStats,
-            displayName: authedUser.displayName || authedUser.email?.split('@')[0],
-            photoURL: authedUser.photoURL
-          }, { merge: true });
-          localStorage.removeItem(LOCAL_GAME_STATS_KEY);
-
-        } catch (error) {
-            console.error("Failed to sync game stats, using local data as fallback:", error);
-            // Em caso de erro, garante que estamos usando os dados locais processados.
+        } else {
             setStats(processDateLogic(localStats));
         }
-      } else {
-        // --- USUÁRIO DESLOGADO: APENAS USA OS DADOS LOCAIS ---
-        setStats(processDateLogic(localStats));
-      }
 
-      // IMPORTANTE: Só define isLoaded como true ao final de toda a lógica.
-      setIsLoaded(true);
+        setIsLoaded(true);
     });
 
     return () => unsubscribe();
-  }, []); // Array de dependências vazio garante que este efeito rode apenas uma vez.
+  }, []);
 
   // EFEITO DE PERSISTÊNCIA (DEBOUNCED)
-  // Desacoplado da lógica de negócio, apenas observa e salva.
   useEffect(() => {
-    // Só salva depois que a inicialização estiver completa.
     if (!isLoaded) return;
     
     const timer = setTimeout(() => {
       try {
         if (userRef.current) {
           const userDocRef = doc(db, 'userStats', userRef.current.uid);
-          setDoc(userDocRef, stats, { merge: true });
+          setDoc(userDocRef, {
+            ...stats,
+            displayName: userRef.current.displayName || userRef.current.email?.split('@')[0],
+            photoURL: userRef.current.photoURL
+          }, { merge: true });
         } else {
           localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(stats));
         }
@@ -152,7 +141,7 @@ export function useGameStats() {
     return () => {
       clearTimeout(timer);
     };
-  }, [stats, isLoaded]); // Observa o estado 'stats' para salvar.
+  }, [stats, isLoaded]);
 
   const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
     setStats(prevStats => {
