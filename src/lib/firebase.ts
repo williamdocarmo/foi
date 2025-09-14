@@ -1,7 +1,7 @@
 // src/lib/firebase.ts
 import { initializeApp, getApp, getApps } from 'firebase/app';
 import { getAuth, browserPopupRedirectResolver } from 'firebase/auth';
-import { initializeFirestore, memoryLocalCache } from 'firebase/firestore';
+import { initializeFirestore, persistentLocalCache, memoryLocalCache } from 'firebase/firestore';
 
 const firebaseConfig = {
   projectId: "studio-4977373253-2de1c",
@@ -19,9 +19,10 @@ const auth = getAuth(app, {
     popupRedirectResolver: browserPopupRedirectResolver,
 });
 
-// Inicializa o Firestore com o cache offline (nova abordagem)
+// Inicializa o Firestore com o cache persistente (IndexedDB) para offline.
+// Isso garante que os dados do usuário fiquem disponíveis mesmo se o app for aberto sem internet.
 const db = initializeFirestore(app, {
-  localCache: memoryLocalCache({})
+  localCache: persistentLocalCache({})
 });
 
 
