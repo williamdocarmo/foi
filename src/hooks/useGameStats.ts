@@ -135,13 +135,10 @@ export function useGameStats() {
   }, []);
 
 
-  const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string) => {
+  const markCuriosityAsRead = useCallback((curiosityId: string, categoryId: string, onlyUpdateLastRead = false) => {
     const newLastRead = { ...(stats.lastReadCuriosity || {}), [categoryId]: curiosityId };
 
-    // If the curiosity is already read, only update the lastReadCuriosity property
-    // to avoid triggering unnecessary re-renders and stat calculations.
-    if (stats.readCuriosities.includes(curiosityId)) {
-        // Only update if the lastReadCuriosity has actually changed
+    if (onlyUpdateLastRead) {
         if (stats.lastReadCuriosity?.[categoryId] !== curiosityId) {
             updateAndSaveStats({ lastReadCuriosity: newLastRead }, user);
         }
@@ -199,3 +196,4 @@ export function useGameStats() {
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
 }
+    

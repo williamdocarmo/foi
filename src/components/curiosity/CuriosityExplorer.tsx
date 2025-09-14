@@ -18,8 +18,6 @@ type CuriosityExplorerProps = {
   initialCuriosityId?: string;
 };
 
-// This component was completely rewritten to fix persistent rendering loop and navigation bugs.
-// The new architecture follows senior-level React patterns for stability and predictability.
 export default function CuriosityExplorer({ 
     category, 
     curiosities, 
@@ -28,6 +26,23 @@ export default function CuriosityExplorer({
   const router = useRouter();
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   
+  // Otimização: O índice inicial é calculado com useMemo para ser imediato.
+  // Isso evita esperar pelo useEffect e pelo isLoaded para a primeira renderização.
+  const initialIndex = useMemo(() => {
+    if (!curiosities || curiosities.length === 0) return null;
+    
+    if (initialCuriosityId) {
+      const index = curiosities.findIndex(c => c.id === initialCuriosityId);
+      if (index !== -1) return index;
+    }
+
+    // A lógica de fallback para a primeira não lida ou última lida será
+    // tratada dentro de um useEffect para não bloquear a renderização inicial.
+    return curiosities.findIndex(c => c.id === initialCuriosityId) || 0;
+  }, [curiosities, initialCuriosityId]);
+
+  const [currentIndex, setCurrentIndex] = useState<number | null>(initialIndex);
+
   // Memoize all available curiosity IDs for the surpriseMe function
   const allCuriosityIds = useMemo(() => {
     return categories.flatMap(cat => 
@@ -35,43 +50,36 @@ export default function CuriosityExplorer({
     );
   }, []);
 
-  const initialIndex = useMemo(() => {
-    if (!isLoaded || curiosities.length === 0) return null;
-
-    if (initialCuriosityId) {
-      const index = curiosities.findIndex(c => c.id === initialCuriosityId);
-      if (index !== -1) return index;
-    }
-
-    const lastReadId = stats.lastReadCuriosity?.[category.id];
-    if (lastReadId) {
-      const index = curiosities.findIndex(c => c.id === lastReadId);
-      if (index !== -1) return index;
-    }
-
-    const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    if (firstUnreadIndex !== -1) return firstUnreadIndex;
-
-    return 0;
-  }, [curiosities, initialCuriosityId, stats.lastReadCuriosity, stats.readCuriosities, category.id, isLoaded]);
-  
-  const [currentIndex, setCurrentIndex] = useState<number | null>(initialIndex);
-
-  // Efeito para sincronizar o estado quando o initialIndex for calculado após o carregamento dos stats
-  useEffect(() => {
-    if (currentIndex === null && initialIndex !== null) {
-      setCurrentIndex(initialIndex);
-    }
-  }, [initialIndex, currentIndex]);
-
+  // Efeito para sincronizar a leitura em segundo plano, sem bloquear a UI.
   useEffect(() => {
     if (currentIndex !== null && isLoaded) {
       const currentCuriosity = curiosities[currentIndex];
-      if (currentCuriosity) {
+      if (currentCuriosity && !stats.readCuriosities.includes(currentCuriosity.id)) {
         markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
+      } else if (currentCuriosity) {
+        // Apenas atualiza a última lida, sem recalcular tudo
+        markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId, true);
       }
     }
-  }, [currentIndex, isLoaded, markCuriosityAsRead, curiosities]);
+  }, [currentIndex, isLoaded, curiosities, stats.readCuriosities, markCuriosityAsRead]);
+
+  // Efeito para definir o índice com base nos dados do usuário, mas só depois da carga inicial.
+  useEffect(() => {
+    if (isLoaded && currentIndex === 0 && !initialCuriosityId) {
+        const lastReadId = stats.lastReadCuriosity?.[category.id];
+        if (lastReadId) {
+            const index = curiosities.findIndex(c => c.id === lastReadId);
+            if (index !== -1) {
+                setCurrentIndex(index);
+                return;
+            }
+        }
+        const firstUnreadIndex = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
+        if (firstUnreadIndex !== -1) {
+            setCurrentIndex(firstUnreadIndex);
+        }
+    }
+  }, [isLoaded, stats.lastReadCuriosity, stats.readCuriosities, category.id, curiosities, initialCuriosityId, currentIndex]);
 
 
   const handleNext = useCallback(() => {
@@ -104,7 +112,6 @@ export default function CuriosityExplorer({
 
     const randomCuriosity = availableIds[Math.floor(Math.random() * availableIds.length)];
     
-    // Navigate to the new curiosity's page, which will re-render the component tree correctly.
     router.push(`/curiosity/${randomCuriosity.categoryId}?curiosity=${randomCuriosity.id}`);
 
   }, [stats.readCuriosities, currentIndex, curiosities, router, allCuriosityIds]);
@@ -123,7 +130,7 @@ export default function CuriosityExplorer({
     );
   }
   
-  if (currentIndex === null || !isLoaded) {
+  if (currentIndex === null) {
     return (
          <div className="flex flex-col gap-8">
             <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
@@ -230,26 +237,26 @@ export default function CuriosityExplorer({
        <Card className="mt-4">
         <CardHeader>
           <CardTitle className="flex items-center">
-            {isLoaded && stats.explorerStatus && explorerIcons[stats.explorerStatus]}
+            {isLoaded && stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
             Status do Explorador
           </CardTitle>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
         </CardHeader>
         <CardContent className="grid grid-cols-2 gap-4 text-center md:grid-cols-4">
           <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            <span className="text-2xl font-bold">{isLoaded ? stats.totalCuriositiesRead : '...'}</span>
+            {isLoaded ? <span className="text-2xl font-bold">{stats.totalCuriositiesRead}</span> : <Skeleton className="h-8 w-1/2" />}
             <span className="text-sm text-muted-foreground">Lidas</span>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            <span className="text-2xl font-bold">{isLoaded ? stats.currentStreak : '...'}</span>
+            {isLoaded ? <span className="text-2xl font-bold">{stats.currentStreak}</span> : <Skeleton className="h-8 w-1/2" />}
             <span className="text-sm text-muted-foreground">Sequência</span>
           </div>
            <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            <span className="text-2xl font-bold">{isLoaded ? stats.combos : '...'}</span>
+            {isLoaded ? <span className="text-2xl font-bold">{stats.combos}</span> : <Skeleton className="h-8 w-1/2" />}
             <span className="text-sm text-muted-foreground">Combos</span>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-            <span className="text-lg font-bold">{isLoaded ? stats.explorerStatus : '...'}</span>
+            {isLoaded ? <span className="text-lg font-bold">{stats.explorerStatus}</span> : <Skeleton className="h-7 w-3/4" />}
             <span className="text-sm text-muted-foreground">Nível</span>
           </div>
         </CardContent>
