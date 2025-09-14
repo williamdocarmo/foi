@@ -4692,5 +4692,50 @@
     "curiosityLevel": 3,
     "id": "bem-estar-626",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Silêncio Ativo",
+    "hook": "Você sabia que o silêncio...",
+    "content": "O silêncio ativo, ou seja, a prática consciente de ficar em silêncio sem se preocupar com pensamentos intrusivos, é um poderoso aliado do bem-estar.  Permite ao cérebro descansar e processar informações de forma mais eficiente, reduzindo a ansiedade e promovendo a clareza mental.  Experimente!",
+    "funFact": "Cinco minutos de silêncio ativo podem ter o mesmo impacto relaxante que 30 minutos de meditação guiada.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-627",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Gratidão Que Melhora o Sono",
+    "hook": "Incrível: A gratidão...",
+    "content": "Antes de dormir, liste três coisas pelas quais você é grato.  Essa simples prática ativa o sistema nervoso parassimpático, diminuindo a frequência cardíaca e preparando o corpo para um sono mais profundo e reparador, melhorando a qualidade do seu descanso.",
+    "funFact": "A gratidão reduz a produção de cortisol, o hormônio do estresse.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-628",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo dos Micro-momentos de Paz",
+    "hook": "Descubra:",
+    "content": "Pequenas pausas ao longo do dia, mesmo que curtas, podem fazer uma grande diferença no seu bem-estar.  Trata-se de se conectar com o momento presente, respirando profundamente e apreciando detalhes ao seu redor.  São momentos de recarga mental, que previnem o estresse e a fadiga.",
+    "funFact": "Cinco minutos de pausa consciente podem aumentar sua produtividade em até 20%.",
+    "curiosityLevel": 4,
+    "id": "bem-estar-629",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura pela Gentileza",
+    "hook": "Descubra:",
+    "content": "A gentileza, um ato aparentemente simples, possui um grande poder de cura.  Ajudar alguém, oferecer um sorriso ou uma palavra de apoio podem melhorar não só o bem-estar de quem recebe, mas também de quem oferece.  Pratique a gentileza e veja a diferença.",
+    "funFact": "A gentileza reduz os níveis de estresse e aumenta os níveis de oxitocina.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-630",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Importância da Luz Natural no Humor",
+    "hook": "Descubra:",
+    "content": "A exposição à luz solar natural aumenta a produção de serotonina, um neurotransmissor que regula o humor e o sono.  Aproveite a luz do dia para melhorar seu humor e bem-estar geral.  Evite a exposição excessiva em horários de pico.",
+    "funFact": "15 minutos de luz solar diária podem aumentar a serotonina em até 30%.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-631",
+    "categoryId": "bem-estar"
   }
 ]

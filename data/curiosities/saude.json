@@ -1054,5 +1054,14 @@
     "curiosityLevel": 4,
     "id": "saude-147",
     "categoryId": "saude"
+  },
+  {
+    "title": "O Segredo da Sua Respiração Noturna",
+    "hook": "Incrível: sua respiração revela muito!",
+    "content": "A forma como você respira durante o sono influencia diretamente a qualidade do seu descanso e sua saúde. Respirações curtas e superficiais podem levar à privação de oxigênio, impactando a regeneração celular e o sistema imunológico.  Uma respiração profunda e ritmada, por outro lado, promove a calma e o relaxamento, otimizando o processo de reparação do corpo.",
+    "funFact": "Estudo mostra que o padrão respiratório durante o sono pode indicar predisposição a doenças cardíacas.",
+    "curiosityLevel": 4,
+    "id": "saude-148",
+    "categoryId": "saude"
   }
 ]
