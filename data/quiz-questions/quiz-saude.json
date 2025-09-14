@@ -1974,5 +1974,19 @@
     "explanation": "A acerola é uma fruta conhecida por seu alto teor de vitamina C. Embora manga também contenha vitamina C, a acerola tem significativamente maior concentração.",
     "id": "quiz-saude-141",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o principal componente do sangue que transporta oxigênio?",
+    "options": [
+      "Plasma",
+      "Plaquetas",
+      "Glóbulos brancos",
+      "Glóbulos vermelhos"
+    ],
+    "correctAnswer": "Glóbulos vermelhos",
+    "explanation": "Os glóbulos vermelhos, ou eritrócitos, contêm hemoglobina, que transporta oxigênio. O plasma é a parte líquida, as plaquetas ajudam na coagulação e os glóbulos brancos combatem infecções. Curiosidade:  O corpo produz milhões de glóbulos vermelhos a cada segundo.",
+    "id": "quiz-saude-142",
+    "categoryId": "saude"
   }
 ]

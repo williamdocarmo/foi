@@ -1036,5 +1036,23 @@
     "curiosityLevel": 3,
     "id": "saude-145",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Mente e a Cura da Pele",
+    "hook": "Incrível: sua mente afeta sua pele!",
+    "content": "O estresse crônico pode causar surtos de eczema e acne.  Pensamentos positivos e práticas de relaxamento, como meditação, podem melhorar significativamente a saúde da pele.  A conexão mente-corpo é mais profunda do que imaginamos, impactando até mesmo a aparência da nossa pele.  Aprenda a gerenciar seu estresse para uma pele radiante!",
+    "funFact": "Estudos demonstram que a redução do estresse pode levar a uma melhora visível na acne em até 80% dos casos.",
+    "curiosityLevel": 4,
+    "id": "saude-146",
+    "categoryId": "saude"
+  },
+  {
+    "title": "A Cura Silenciosa do Sono REM",
+    "hook": "Incrível: Seu cérebro limpa toxinas!",
+    "content": "Durante o sono REM, o cérebro realiza uma limpeza crucial, eliminando proteínas tóxicas associadas a doenças neurodegenerativas. Essa 'limpeza cerebral' é essencial para a saúde neurológica e o bom funcionamento cognitivo.  A falta de sono REM pode prejudicar esse processo vital.",
+    "funFact": "A quantidade de sono REM varia ao longo da vida, sendo maior em bebês e diminuindo com a idade.",
+    "curiosityLevel": 4,
+    "id": "saude-147",
+    "categoryId": "saude"
   }
 ]

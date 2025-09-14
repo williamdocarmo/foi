@@ -4395,5 +4395,131 @@
     "curiosityLevel": 3,
     "id": "bem-estar-593",
     "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Segredo da Aromaterapia Intuitiva",
+    "hook": "Incrível: Seu olfato...",
+    "content": "Escolha aromas que te causem uma sensação imediata de bem-estar, sem se ater a regras rígidas. A intuição é sua melhor guia na aromaterapia.  Experimente diferentes óleos essenciais e note como cada um afeta seu humor e estado emocional.  Ouça seu corpo e descubra seus aromas favoritos.",
+    "funFact": "O aroma de lavanda é cientificamente comprovado para melhorar a qualidade do sono.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-594",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Gratidão em Ação",
+    "hook": "Você sabia que...",
+    "content": "Expressar gratidão, não apenas como um pensamento, mas através de atos concretos, amplia seus efeitos positivos no bem-estar. Ajudar alguém, fazer um gesto de carinho ou simplesmente oferecer um sorriso são ações que fortalecem sua própria felicidade e a dos outros.",
+    "funFact": "Estudos mostram que a gratidão aumenta a imunidade e reduz sintomas de depressão.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-595",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Inteligência Emocional e o Sucesso",
+    "hook": "Descubra: Inteligência...",
+    "content": "Desenvolver a inteligência emocional, ou seja, a capacidade de entender e gerenciar suas próprias emoções e as dos outros, é fundamental para o sucesso pessoal e profissional.  A inteligência emocional contribui para relacionamentos saudáveis e melhora a capacidade de lidar com o estresse.",
+    "funFact": "Pessoas com alta inteligência emocional tendem a ser mais resilientes e bem-sucedidas.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-596",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Cura do Toque Gentil",
+    "hook": "Você sabia que...",
+    "content": "O toque físico, especialmente um abraço, libera ocitocina, o hormônio do amor e do vínculo social. Esse hormônio reduz os níveis de cortisol, o hormônio do estresse, promovendo calma e bem-estar.  Abraços são essenciais para a saúde mental, reforçando laços afetivos e diminuindo a solidão.",
+    "funFact": "Um abraço de 20 segundos pode melhorar significativamente o humor e a imunidade.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-597",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Aromaterapia",
+    "hook": "Incrível:",
+    "content": "Odores específicos influenciam nosso humor e bem-estar.  Aromaterapia, utilizando óleos essenciais, pode relaxar, energizar ou até mesmo melhorar a concentração.  O aroma de lavanda, por exemplo, é conhecido por suas propriedades calmantes, enquanto o limão promove foco e clareza mental.",
+    "funFact": "O aroma de alecrim pode melhorar a memória e a concentração em até 20%.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-598",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Força do Contato com a Natureza",
+    "hook": "Incrível:",
+    "content": "Passar tempo na natureza reduz o estresse, diminui a ansiedade e promove relaxamento.  O contato com elementos naturais como árvores, água e ar puro equilibra o sistema nervoso e melhora a qualidade do sono.  Incorpore momentos na natureza na sua rotina para recarregar suas energias.",
+    "funFact": "Apenas 20 minutos em um parque podem aumentar os níveis de serotonina e dopamina.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-599",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Magia da Meditação",
+    "hook": "Surpreendente:",
+    "content": "A prática regular da meditação promove o autoconhecimento, reduz a ansiedade e melhora a concentração.  Meditar envolve focar a atenção no presente, sem julgamentos, acalmando a mente e diminuindo a atividade mental excessiva.  Experimente diferentes técnicas e encontre a que mais te agrada.",
+    "funFact": "A meditação pode aumentar o tamanho do hipocampo, região do cérebro responsável pela memória.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-600",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Equilíbrio do Yoga",
+    "hook": "Incrível:",
+    "content": "O yoga combina posturas físicas, respiração e meditação, promovendo o equilíbrio físico e mental.  As posturas fortalecem os músculos e aumentam a flexibilidade, enquanto a respiração e a meditação acalmam a mente e reduzem o estresse.  Experimente diferentes estilos de yoga e descubra os seus benefícios.",
+    "funFact": "O yoga pode melhorar a qualidade do sono e reduzir sintomas de depressão.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-601",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Alimentação Intuitiva",
+    "hook": "Você sabia que...",
+    "content": "Conectar-se com suas necessidades corporais e respeitar os sinais de fome e saciedade é essencial para uma alimentação saudável.  A alimentação intuitiva promove a relação harmoniosa com a comida, sem culpa ou restrições excessivas, favorecendo o bem-estar físico e mental.",
+    "funFact": "A alimentação intuitiva pode ajudar a regular o peso corporal e melhorar a autoestima.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-602",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Higiene do Sono",
+    "hook": "Incrível:",
+    "content": "Uma boa higiene do sono garante a qualidade do descanso e impacta diretamente no humor, na concentração e na saúde física.  Criar uma rotina relaxante antes de dormir, manter o quarto escuro e silencioso, e evitar telas contribui para um sono reparador.",
+    "funFact": "Um sono reparador pode melhorar o sistema imunológico e a capacidade de aprendizado.",
+    "curiosityLevel": 1,
+    "id": "bem-estar-603",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "A Gentileza como prática diária",
+    "hook": "Você sabia que...",
+    "content": "A prática da gentileza, em pequenas ações cotidianas, aumenta a felicidade e fortalece os laços sociais.  Ajudar alguém, oferecer um sorriso, ou um elogio genuíno melhora o humor e gera um sentimento de bem-estar tanto para quem dá quanto para quem recebe.",
+    "funFact": "A gentileza ativa regiões cerebrais associadas ao prazer e à recompensa.",
+    "curiosityLevel": 2,
+    "id": "bem-estar-604",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Riso Terapêutico",
+    "hook": "Você sabia que...",
+    "content": "O riso é uma poderosa ferramenta terapêutica que alivia o estresse, reduz a ansiedade e promove o bem-estar.  O riso aumenta a produção de endorfinas, hormônios que melhoram o humor e reduzem a dor.  Incorpore o riso em sua rotina.",
+    "funFact": "O riso pode ser tão eficaz quanto alguns medicamentos no alívio da dor.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-605",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder da Cura pelas Cores",
+    "hook": "Você sabia que...",
+    "content": "As cores influenciam diretamente nosso humor e bem-estar.  Um ambiente azul claro promove calma, enquanto o amarelo estimula a criatividade.  Experimente usar a cromoterapia em seu dia a dia, escolhendo roupas e objetos que se alinhem ao seu estado emocional desejado.",
+    "funFact": "O verde, cor da natureza, reduz a pressão arterial e o ritmo cardíaco.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-606",
+    "categoryId": "bem-estar"
+  },
+  {
+    "title": "O Poder do Cheiro da Chuva",
+    "hook": "Você sabia que...",
+    "content": "O cheiro característico após a chuva, chamado petricor, pode ter um efeito calmante e revigorante.  O petricor é uma mistura de óleos vegetais, bactérias do solo e compostos orgânicos que são liberados na atmosfera com a chuva.  Seu aroma tem um efeito terapêutico, reduzindo a ansiedade.",
+    "funFact": "O petricor é um composto tão complexo que ainda está sendo pesquisado pela ciência.",
+    "curiosityLevel": 3,
+    "id": "bem-estar-607",
+    "categoryId": "bem-estar"
   }
 ]
