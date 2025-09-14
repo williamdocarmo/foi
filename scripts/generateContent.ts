@@ -210,12 +210,15 @@ function validateQuizStrict(item: any): item is QuizQuestion {
 function normalizeCuriosityFields(c: Curiosity): Curiosity {
   return {
     ...c,
+    id: c.id,
+    categoryId: c.categoryId,
     title: c.title.trim(),
     content: c.content.trim(),
     funFact: c.funFact.trim(),
-    hook: (c as any).hook ? String((c as any).hook).trim() : undefined,
+    isNew: c.isNew,
   };
 }
+
 
 // ---------------- DUPLICATES ----------------
 function isDuplicateCuriosity(title: string, content: string, existingTitles: string[]) {
@@ -232,20 +235,34 @@ function isDuplicateCuriosity(title: string, content: string, existingTitles: st
   // 2) Exato no batch atual
   if (existingTitles.includes(title)) return true;
 
-  // 3) Fuzzy por título
-  const best = stringSimilarity.findBestMatch(title, existingTitles);
-  return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
+  // 3) Fuzzy por título (fallback se a lista não for vazia)
+  if (existingTitles.length > 0) {
+    const best = stringSimilarity.findBestMatch(title, existingTitles);
+    return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
+  }
+  
+  return false;
 }
 
 function isDuplicateQuizQuestion(question: string, existingQuestions: string[]) {
-  const qHash = sha1(normalizeText(question));
+  const qNorm = normalizeText(question);
+  if (!qNorm) return true;
+  
+  const qHash = sha1(qNorm);
   if (globalQuizHashes.has(qHash)) return true;
 
+  // 2) Exato no batch atual
   if (existingQuestions.includes(question)) return true;
 
-  const best = stringSimilarity.findBestMatch(question, existingQuestions);
-  return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
+  // 3) Fuzzy por pergunta (fallback se a lista não for vazia)
+  if (existingQuestions.length > 0) {
+      const best = stringSimilarity.findBestMatch(question, existingQuestions);
+      return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
+  }
+  
+  return false;
 }
+
 
 // ---------------- CHECKPOINTS ----------------
 type CheckpointSchema = Record<
@@ -359,7 +376,10 @@ type GenerateKind = "curiosities" | "quizzes";
 
 async function generateForCategory(category: typeof categories[0], kind: GenerateKind, totalToGenerate: number) {
   const isCuriosity = kind === "curiosities";
-  const filePath = path.join(isCuriosity ? curiositiesDir : quizzesDir, `${isCuriosity ? '' : 'quiz-'}${category.id}.json`);
+  const filePath = path.join(
+    isCuriosity ? curiositiesDir : quizzesDir, 
+    `${isCuriosity ? '' : 'quiz-'}${category.id}.json`
+  );
   const targetCount = isCuriosity ? CURIOSITIES_TARGET_PER_CATEGORY : QUIZ_QUESTIONS_TARGET_PER_CATEGORY;
   
   const existingItems = await readCategoryJson<any[]>(filePath);
@@ -511,7 +531,7 @@ async function main() {
   await Promise.all(tasks);
   
   if (!ONLY_CATEGORY) {
-    await equalizeCounts("curiosidades");
+    await equalizeCounts("curiosities");
     await equalizeCounts("quizzes");
   }
 
