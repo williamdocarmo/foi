@@ -946,5 +946,23 @@
     "curiosityLevel": 4,
     "id": "saude-135",
     "categoryId": "saude"
+  },
+  {
+    "title": "A Ciência do Seu Sangue",
+    "hook": "Incrível: Seu sangue...",
+    "content": "Seu sangue é um universo complexo, com trilhões de células trabalhando em harmonia.  Ele transporta oxigênio, nutrientes e hormônios, combatendo infecções e mantendo o equilíbrio do seu corpo.  A composição do seu sangue revela muito sobre sua saúde, desde a contagem de glóbulos vermelhos até os níveis de colesterol.",
+    "funFact": "Seu sangue percorre todo o seu corpo em apenas um minuto!",
+    "curiosityLevel": 4,
+    "id": "saude-136",
+    "categoryId": "saude"
+  },
+  {
+    "title": "Seu Sistema Imunológico em Ação",
+    "hook": "Incrível:",
+    "content": "Seu sistema imunológico é um exército de células que trabalham incansavelmente para proteger seu corpo de invasores externos, como bactérias e vírus.  Manter um sistema imunológico forte é crucial para uma boa saúde.  Uma dieta saudável e hábitos de vida saudáveis são cruciais.",
+    "funFact": "Seu corpo produz trilhões de células imunológicas diariamente!",
+    "curiosityLevel": 3,
+    "id": "saude-137",
+    "categoryId": "saude"
   }
 ]

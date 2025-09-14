@@ -12,11 +12,10 @@ import {
   signInWithPopup, 
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword,
-  fetchSignInMethodsForEmail,
   sendPasswordResetEmail
 } from 'firebase/auth';
 import { Separator } from '../ui/separator';
-import { Mail, Key, User, Send } from 'lucide-react';
+import { Mail, Key, User } from 'lucide-react';
 import { Checkbox } from '../ui/checkbox';
 import Link from 'next/link';
 import { siteConfig } from '@/config/site';
@@ -79,6 +78,62 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
         setIsLoading(false);
     }
   };
+
+  const handleSignUp = async () => {
+    if (!agreed) {
+        toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
+        setIsLoading(false);
+        return;
+    }
+    try {
+        await createUserWithEmailAndPassword(auth, email, password);
+        toast({
+            title: 'Conta Criada!',
+            description: 'Sua conta foi criada com sucesso.',
+        });
+        setIsOpen(false);
+    } catch (error: any) {
+        let message = 'Ocorreu um erro ao criar a conta.';
+         if (error.code === 'auth/weak-password') {
+            message = 'A senha deve ter pelo menos 6 caracteres.'
+        } else if (error.code === 'auth/email-already-in-use') {
+             message = 'Este e-mail já está em uso. Tente fazer login.'
+        }
+        toast({
+            title: 'Erro ao Criar Conta',
+            description: message,
+            variant: 'destructive',
+        });
+    }
+  }
+
+  const handleSignIn = async () => {
+     try {
+        await signInWithEmailAndPassword(auth, email, password);
+        toast({
+            title: 'Bem-vindo de volta!',
+            description: 'Login realizado com sucesso.',
+        });
+        setIsOpen(false);
+    } catch (error: any) {
+        if (error.code === 'auth/user-not-found') {
+            // If user does not exist, try to sign them up.
+            await handleSignUp();
+        } else if (error.code === 'auth/wrong-password') {
+            toast({
+                title: 'Erro de Autenticação',
+                description: 'Senha incorreta. Tente novamente ou redefina sua senha.',
+                variant: 'destructive',
+            });
+        } else {
+             toast({
+                title: 'Erro de Autenticação',
+                description: 'Ocorreu um erro. Verifique suas credenciais.',
+                variant: 'destructive',
+            });
+        }
+    }
+  }
   
   const handleEmailAuth = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -87,48 +142,8 @@ export default function AuthModal({ isOpen, setIsOpen }: AuthModalProps) {
         return;
     }
     setIsLoading(true);
-    try {
-        const methods = await fetchSignInMethodsForEmail(auth, email);
-        
-        if (methods.length > 0) {
-            // Email exists, try to sign in
-            await signInWithEmailAndPassword(auth, email, password);
-             toast({
-                title: 'Bem-vindo de volta!',
-                description: 'Login realizado com sucesso.',
-            });
-        } else {
-            // Email does not exist, create a new account
-             if (!agreed) {
-                toast({ title: 'Termos de Uso', description: 'Você precisa aceitar os termos para criar uma conta.', variant: 'destructive'});
-                setIsLoading(false);
-                return;
-            }
-            await createUserWithEmailAndPassword(auth, email, password);
-             toast({
-                title: 'Conta Criada!',
-                description: 'Sua conta foi criada com sucesso.',
-            });
-        }
-        setIsOpen(false);
-    } catch (error: any) {
-        console.error(error);
-        let message = 'Ocorreu um erro. Verifique suas credenciais ou a configuração do Firebase.';
-        if (error.code === 'auth/wrong-password') {
-            message = 'Senha incorreta. Tente novamente.'
-        } else if (error.code === 'auth/weak-password') {
-            message = 'A senha deve ter pelo menos 6 caracteres.'
-        } else if (error.code === 'auth/email-already-in-use') {
-             message = 'Este e-mail já está em uso por outra conta.'
-        }
-        toast({
-            title: 'Erro de Autenticação',
-            description: message,
-            variant: 'destructive',
-        });
-    } finally {
-        setIsLoading(false);
-    }
+    await handleSignIn();
+    setIsLoading(false);
   }
 
   const handlePasswordReset = async () => {

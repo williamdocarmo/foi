@@ -1454,5 +1454,104 @@
     "explanation": "A telomerase é uma enzima que pode alongar os telômeros, as extremidades dos cromossomos, protegendo o DNA e retardando o envelhecimento celular.  O encurtamento dos telômeros está associado ao envelhecimento. As outras opções são incorretas. Curiosidade: O comprimento dos telômeros pode ser influenciado por fatores como estilo de vida e dieta.",
     "id": "quiz-saude-104",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a autofagia e qual seu papel na saúde?",
+    "options": [
+      "Processo de produção de novas células",
+      "Mecanismo de defesa imunológica",
+      "Processo de reciclagem celular, removendo componentes danificados",
+      "Formação de novos vasos sanguíneos"
+    ],
+    "correctAnswer": "Processo de reciclagem celular, removendo componentes danificados",
+    "explanation": "A autofagia é um processo celular que remove componentes danificados ou desnecessários, contribuindo para a saúde celular e a longevidade.  As outras opções descrevem processos diferentes. Curiosidade: A autofagia é um processo fundamental para o funcionamento celular e o combate ao envelhecimento, sendo alvo de pesquisas para o tratamento de várias doenças.",
+    "id": "quiz-saude-105",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a disbiose intestinal e qual seu impacto na saúde?",
+    "options": [
+      "Um desequilíbrio da microbiota intestinal, associado a problemas digestivos e outras condições.",
+      "Um aumento da população de bactérias benéficas no intestino.",
+      "Um processo inflamatório agudo no intestino.",
+      "Uma doença autoimune que afeta o intestino."
+    ],
+    "correctAnswer": "Um desequilíbrio da microbiota intestinal, associado a problemas digestivos e outras condições.",
+    "explanation": "A disbiose intestinal é um desequilíbrio na composição e função da microbiota intestinal, podendo levar a problemas digestivos (como síndrome do intestino irritável), obesidade, doenças autoimunes e outras condições.  As outras opções descrevem conceitos diferentes ou incompletos. Curiosidade: O estresse, a dieta e o uso de antibióticos podem contribuir para a disbiose intestinal.",
+    "id": "quiz-saude-106",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destes alimentos é uma boa fonte de vitamina C?",
+    "options": [
+      "Batata",
+      "Arroz branco",
+      "Laranja",
+      "Macarrão"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "Laranjas são ricas em vitamina C. Batata, arroz branco e macarrão são fontes pobres dessa vitamina.  Curiosidade:  A vitamina C é um antioxidante que ajuda a proteger as células do dano.",
+    "curiosity": "Uma curiosidade é que a vitamina C é uma vitamina hidrossolúvel, ou seja, o excesso é eliminado na urina.",
+    "id": "quiz-saude-107",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a síndrome do intestino irritável (SII) e quais seus principais sintomas?",
+    "options": [
+      "Uma infecção intestinal causada por bactérias",
+      "Um distúrbio digestivo crônico com sintomas como dor abdominal, inchaço e alterações no hábito intestinal",
+      "Uma inflamação grave do intestino",
+      "Uma condição que não apresenta sintomas específicos"
+    ],
+    "correctAnswer": "Um distúrbio digestivo crônico com sintomas como dor abdominal, inchaço e alterações no hábito intestinal",
+    "explanation": "A SII é uma condição crônica que afeta o intestino grosso, causando sintomas como dor abdominal, inchaço, diarreia e constipação.  A causa exata é desconhecida. Curiosidade:  O estresse pode exacerbar os sintomas da SII.",
+    "id": "quiz-saude-108",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual alimento é rico em vitamina C?",
+    "options": [
+      "Carne vermelha",
+      "Arroz branco",
+      "Laranja",
+      "Batata frita"
+    ],
+    "correctAnswer": "Laranja",
+    "explanation": "A laranja é uma excelente fonte de vitamina C.  Carne vermelha, arroz branco e batata frita são pobres em vitamina C. Curiosidade: A vitamina C é um poderoso antioxidante.",
+    "id": "quiz-saude-109",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a inflamação crônica de baixo grau e seus impactos na saúde?",
+    "options": [
+      "Um tipo de alergia alimentar.",
+      "Uma inflamação prolongada e de baixa intensidade, associada a diversas doenças crônicas.",
+      "Uma infecção bacteriana que causa febre baixa.",
+      "Um processo normal de reparação tecidual."
+    ],
+    "correctAnswer": "Uma inflamação prolongada e de baixa intensidade, associada a diversas doenças crônicas.",
+    "explanation": "A inflamação crônica de baixo grau é um processo inflamatório persistente, mesmo na ausência de infecção, contribuindo para o desenvolvimento de doenças como diabetes, doenças cardíacas e câncer. As outras opções descrevem situações distintas. Curiosidade: Uma dieta rica em antioxidantes pode ajudar a combater a inflamação crônica.",
+    "id": "quiz-saude-110",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é a hiperplasia miofibrilar e como ela difere da hipertrofia muscular?",
+    "options": [
+      "Aumento no número de células musculares; aumento no tamanho das células musculares",
+      "Aumento no tamanho das células musculares; aumento no número de células musculares",
+      "Ambos representam o mesmo processo de crescimento muscular",
+      "Nenhuma das opções descreve corretamente o processo"
+    ],
+    "correctAnswer": "Aumento no número de células musculares; aumento no tamanho das células musculares",
+    "explanation": "Hiperplasia é o aumento no número de células musculares, enquanto hipertrofia é o aumento no tamanho das células musculares existentes.  Ambas contribuem para o crescimento muscular, mas são processos distintos. Curiosidade: A hiperplasia miofibrilar é um processo menos compreendido do que a hipertrofia e parece ser mais proeminente em alguns indivíduos que em outros.",
+    "id": "quiz-saude-111",
+    "categoryId": "saude"
   }
 ]
