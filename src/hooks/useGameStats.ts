@@ -51,12 +51,15 @@ export function useGameStats() {
   const [stats, setStats] = useState<GameStats>(defaultStats);
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
+  const userRef = useRef(user);
 
-  // Refs para o debounce
+  useEffect(() => {
+    userRef.current = user;
+  }, [user]);
+
   const pendingStatsRef = useRef<GameStats | null>(null);
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Função para salvar os dados (chamada pelo debounce)
   const flushSave = useCallback(async (currentUser: User | null, dataToSave: GameStats) => {
     try {
       if (currentUser) {
@@ -67,15 +70,13 @@ export function useGameStats() {
       }
     } catch (error) {
       console.error("Failed to save game stats:", error);
-      // Fallback para localStorage se o Firestore falhar (ex: offline sem persistência)
       if (!currentUser) {
         localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(dataToSave));
       }
     }
   }, []);
 
-  // Função otimizada com debounce
-  const updateAndSaveStats = useCallback((newStats: Partial<GameStats>, currentUser: User | null) => {
+  const updateAndSaveStats = useCallback((newStats: Partial<GameStats>) => {
     setStats(prevStats => {
       const updated = { ...prevStats, ...newStats };
       pendingStatsRef.current = updated;
@@ -86,9 +87,9 @@ export function useGameStats() {
 
       debounceTimerRef.current = setTimeout(() => {
         if (pendingStatsRef.current) {
-          flushSave(currentUser, pendingStatsRef.current);
+          flushSave(userRef.current, pendingStatsRef.current);
         }
-      }, 400); // Atraso de 400ms para agrupar gravações
+      }, 400);
 
       return updated;
     });
@@ -158,25 +159,22 @@ export function useGameStats() {
         const newLastRead = { ...(prevStats.lastReadCuriosity || {}), [categoryId]: curiosityId };
         
         if (onlyUpdateLastRead) {
-            // Apenas atualiza a última lida, sem recalcular streak etc.
             const updatedStats = { ...prevStats, lastReadCuriosity: newLastRead };
             if (prevStats.lastReadCuriosity?.[categoryId] !== curiosityId) {
-                updateAndSaveStats(updatedStats, user);
+                updateAndSaveStats(updatedStats);
             }
             return updatedStats;
         }
 
         const isAlreadyRead = prevStats.readCuriosities.includes(curiosityId);
         if (isAlreadyRead) {
-             // Se já foi lida, apenas atualiza a última lida e retorna o estado atual.
              const updatedStats = { ...prevStats, lastReadCuriosity: newLastRead };
              if (prevStats.lastReadCuriosity?.[categoryId] !== curiosityId) {
-                 updateAndSaveStats(updatedStats, user);
+                 updateAndSaveStats(updatedStats);
              }
              return updatedStats;
         }
 
-        // Se não foi lida, prossiga com todos os cálculos.
         const newReadCuriosities = [...prevStats.readCuriosities, curiosityId];
         const newTotalRead = newReadCuriosities.length;
         const today = new Date();
@@ -212,10 +210,10 @@ export function useGameStats() {
             lastReadCuriosity: newLastRead,
         };
 
-        updateAndSaveStats(finalUpdatedStats, user);
+        updateAndSaveStats(finalUpdatedStats);
         return finalUpdatedStats;
     });
-  }, [updateAndSaveStats, user]);
+  }, [updateAndSaveStats]);
   
   const addQuizResult = useCallback((categoryId: string, score: number) => {
     setStats(prevStats => {
@@ -225,14 +223,14 @@ export function useGameStats() {
       }
       newScores[categoryId].push({ score, date: new Date().toISOString() });
       const updatedStats = { ...prevStats, quizScores: newScores };
-      updateAndSaveStats(updatedStats, user);
+      updateAndSaveStats(updatedStats);
       return updatedStats;
     });
-  }, [updateAndSaveStats, user]);
+  }, [updateAndSaveStats]);
 
   const updateStats = useCallback((newStats: Partial<GameStats>) => {
-    updateAndSaveStats(newStats, user);
-  }, [updateAndSaveStats, user]);
+    updateAndSaveStats(newStats);
+  }, [updateAndSaveStats]);
 
 
   return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
