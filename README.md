@@ -20,7 +20,7 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
 1.  **Java Development Kit (JDK):** Necessário para a ferramenta `bubblewrap` funcionar.
     *   **No macOS:** A forma mais fácil é via [Homebrew](https://brew.sh/): `brew install openjdk`
     *   **No Windows:** Use o [instalador oficial](https://www.oracle.com/java/technologies/downloads/).
-2.  **Android Studio (Opcional, mas recomendado):** Se você quiser abrir o projeto Android gerado, visualizar no emulador ou gerar o arquivo de instalação (`.apk`/`.aab`) manualmente.
+2.  **Android Studio (Opcional, mas recomendado):** Se você quiser abrir o projeto Android gerado, visualizar no emulador ou gerar o arquivo de instalação (`.apk`/`.aab`) manually.
     *   Baixe em [developer.android.com/studio](https://developer.android.com/studio).
 
 ## ⚙️ Rodando o Projeto Localmente
@@ -39,7 +39,7 @@ Para rodar, modificar e fazer o deploy deste projeto, você precisará ter os se
     ```bash
     npm run dev
     ```
-    O aplicativo estará disponível em `http://localhost:9002`.
+    O aplicativo estará disponível em `http://localhost:3000`.
 
 ---
 

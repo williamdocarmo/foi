@@ -6,7 +6,7 @@
 
 **Conceito Central:** Um jogo educativo no formato de Progressive Web App (PWA) que oferece uma experiência de aprendizado gamificada através de curiosidades e quizzes. O aplicativo incentiva o engajamento contínuo com um sistema de ranking, conquistas e combos, funcionando perfeitamente offline e permitindo a sincronização de progresso entre dispositivos através de uma conta opcional.
 
-**Público-Alvo:** Pessoas curiosas de todas asidades que gostam de aprender coisas novas, testar seus conhecimentos e competir de forma amigável.
+**Público-Alvo:** Pessoas curiosas de todas as idades que gostam de aprender coisas novas, testar seus conhecimentos e competir de forma amigável.
 
 ## 2. Stack de Tecnologia
 
@@ -129,5 +129,3 @@ O Capacitor foi inicialmente considerado, mas a abordagem **PWA + Bubblewrap (TW
 
 ---
 *Este documento foi atualizado para refletir uma arquitetura mais madura e escalável, focada em performance, resiliência na geração de dados e melhorias na experiência do usuário, incluindo a resolução de loops de renderização e a otimização da estratégia offline-first.*
-
-    
