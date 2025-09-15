@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Você Sabia?</string>
+    <string name="title_activity_main">Você Sabia?</string>
+    <string name="package_name">com.vocesabia.app</string>
+    <string name="custom_url_scheme">com.vocesabia.app</string>
+</resources>
