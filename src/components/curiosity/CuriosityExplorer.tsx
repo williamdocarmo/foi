@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { Skeleton } from "../ui/skeleton";
 import { categories, curiositiesByCategory } from "@/lib/data";
+import { playSound, ensureAudioContext } from "@/lib/sounds";
 
 type CuriosityExplorerProps = {
   category: Category;
@@ -28,6 +29,18 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
   const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
+  // Efeito para inicializar o AudioContext na primeira interação do usuário
+  useEffect(() => {
+    const initAudio = () => {
+      ensureAudioContext();
+      document.removeEventListener('click', initAudio);
+    };
+    document.addEventListener('click', initAudio);
+    return () => {
+      document.removeEventListener('click', initAudio);
+    };
+  }, []);
+
   // IDs de todas curiosidades, memoizado
   const allCuriosityIds = useMemo(() => 
     categories.flatMap(cat =>
@@ -42,7 +55,7 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
     setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
   }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
 
-  // Marca curiosidade atual como lida
+  // Marca curiosidade atual como lida e toca som de combo se necessário
   const currentCuriosity = useMemo(() => {
     if (currentIndex === null) return null;
     return curiosities[currentIndex] || null;
@@ -50,19 +63,30 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
 
   useEffect(() => {
     if (!isLoaded || !currentCuriosity) return;
-    if (!stats.readCuriosities.includes(currentCuriosity.id)) {
+    
+    const wasRead = stats.readCuriosities.includes(currentCuriosity.id);
+    const previousTotal = stats.totalCuriositiesRead;
+
+    if (!wasRead) {
       markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
+      // Checa se um novo combo foi ganho após a atualização do estado
+      const newTotal = previousTotal + 1;
+      if (Math.floor(newTotal / 5) > Math.floor(previousTotal / 5)) {
+        playSound('combo');
+      }
     }
-  }, [isLoaded, currentCuriosity, markCuriosityAsRead, stats.readCuriosities]);
+  }, [isLoaded, currentCuriosity, markCuriosityAsRead, stats.readCuriosities, stats.totalCuriositiesRead]);
 
   // Navegação
   const handleNext = useCallback(() => {
     if (currentIndex === null || currentIndex >= curiosities.length - 1) return;
+    playSound('navigate');
     setCurrentIndex(prev => (prev !== null ? prev + 1 : prev));
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex === null || currentIndex <= 0) return;
+    playSound('navigate');
     setCurrentIndex(prev => (prev !== null ? prev - 1 : prev));
   }, [currentIndex]);
 

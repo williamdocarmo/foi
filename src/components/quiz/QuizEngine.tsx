@@ -9,6 +9,7 @@ import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, L
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
+import { playSound, ensureAudioContext } from "@/lib/sounds";
 
 type QuizEngineProps = {
   category: Category;
@@ -36,10 +37,21 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [shuffledQuestions, setShuffledQuestions] = useState<QuizQuestion[]>([]);
 
   useEffect(() => {
+    // Initialize audio context on component mount via user gesture (e.g. first interaction)
+    const initAudio = () => {
+      ensureAudioContext();
+      document.removeEventListener('click', initAudio);
+    };
+    document.addEventListener('click', initAudio);
+    
     // Avoid hydration mismatch by shuffling on the client
     if (questions.length > 0) {
         setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
     }
+
+    return () => {
+      document.removeEventListener('click', initAudio);
+    };
   }, [questions]);
 
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
@@ -65,6 +77,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           clearInterval(timer);
           setIsAnswered(true); // Times up
           setTotalTime(t => t + (QUESTION_TIME - (prev - 1)))
+          playSound('wrong');
           setTimeout(handleNextQuestion, DELAY_AFTER_WRONG_MS); // User didn't answer, treat as wrong
           return 0;
         }
@@ -87,8 +100,11 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     let delay = isCorrect ? DELAY_AFTER_CORRECT_MS : DELAY_AFTER_WRONG_MS;
 
     if (isCorrect) {
+      playSound('correct');
       setScore(prev => prev + 10 + timeLeft);
       setCorrectAnswersCount(prev => prev + 1);
+    } else {
+      playSound('wrong');
     }
 
     setTimeout(handleNextQuestion, delay);
@@ -96,6 +112,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   
   const useCombo = () => {
     if (stats.combos > 0) {
+      playSound('combo');
       updateStats({ combos: stats.combos - 1 });
       handleAnswerSelect(currentQuestion.correctAnswer);
     }
