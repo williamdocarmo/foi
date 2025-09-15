@@ -1,111 +1,74 @@
-
-import type {NextConfig} from 'next';
+// next.config.ts
+import type { NextConfig } from 'next';
+import withPWAorig from 'next-pwa';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-// A configuração do PWA foi otimizada para garantir que o service worker
-// seja registrado e atualizado automaticamente em produção.
-const withPWA = require('next-pwa')({
+// A função default de next-pwa recebe as opções e retorna um wrapper para o Next config.
+const withPWA = withPWAorig({
   dest: 'public',
-  register: true, // Garante que o service worker seja registrado.
-  skipWaiting: true, // Força a atualização do service worker em segundo plano.
-  disable: isDev, // Mantém o PWA desabilitado em desenvolvimento para agilizar os testes.
-  maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // Aumentado para 5MB para evitar avisos
+  register: true,          // registra o SW
+  skipWaiting: true,       // atualiza SW em segundo plano
+  disable: isDev,          // desabilita no dev
+  maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5MB
   runtimeCaching: [
-    // Cache para fontes do Google
+    // Google Fonts CSS
     {
-      urlPattern: /^https:\/\/fonts\\.googleapis\\.com\/.*/i,
+      urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
       handler: 'CacheFirst',
       options: {
         cacheName: 'google-fonts-cache',
-        expiration: {
-          maxEntries: 10,
-          maxAgeSeconds: 60 * 60 * 24 * 365, // 1 ano
-        },
+        expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
       },
     },
-    // Cache para os arquivos de fontes (woff2)
-     {
-      urlPattern: /^https:\/\/fonts\\.gstatic\\.com\/.*/i,
+    // Google Fonts files
+    {
+      urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
       handler: 'CacheFirst',
       options: {
         cacheName: 'gstatic-fonts-cache',
-        expiration: {
-          maxEntries: 10,
-          maxAgeSeconds: 60 * 60 * 24 * 365, // 1 ano
-        },
+        expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 365 },
       },
     },
-    // Cache para imagens do Unsplash e Picsum
+    // Imagens
     {
       urlPattern: /\.(?:png|jpg|jpeg|svg|gif|ico)$/i,
       handler: 'CacheFirst',
       options: {
         cacheName: 'image-cache',
-        expiration: {
-          maxEntries: 60,
-          maxAgeSeconds: 60 * 60 * 24 * 30, // 30 dias
-        },
+        expiration: { maxEntries: 60, maxAgeSeconds: 60 * 60 * 24 * 30 },
       },
     },
-     // Cache para os dados da aplicação (curiosidades, quizzes)
+    // JSONs gerados pelo Next export (/_next/data/…)
     {
-      urlPattern: ({ url }) => {
-        return url.pathname.startsWith('/_next/data/');
-      },
+      urlPattern: ({ url }: { url: URL }) => url.pathname.startsWith('/_next/data/'),
       handler: 'StaleWhileRevalidate',
       options: {
         cacheName: 'app-data-cache',
-        expiration: {
-          maxEntries: 32,
-          maxAgeSeconds: 24 * 60 * 60, // 24 horas
-        },
+        expiration: { maxEntries: 32, maxAgeSeconds: 24 * 60 * 60 },
       },
     },
   ],
 });
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  webpack: (config, { isServer }) => {
-    // Ignora o warning do 'require.extensions' da dependência 'handlebars'
-    // Esta é a forma correta de ignorar um módulo no Webpack 5+ sem loaders externos.
-    config.externals.push({
-      'handlebars': 'commonjs handlebars'
-    });
+  output: 'export',            // gera ./out
+  trailingSlash: true,         // opcional, bom para export estático
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
+  webpack: (config) => {
+    // Evita warning de require.extensions do handlebars
+    config.externals.push({ handlebars: 'commonjs handlebars' });
     return config;
   },
   images: {
-    unoptimized: true,
+    unoptimized: true,         // importante no export estático
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https'
-        ,
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**',
-      },
+      { protocol: 'https', hostname: 'placehold.co', port: '', pathname: '/**' },
+      { protocol: 'https', hostname: 'images.unsplash.com', port: '', pathname: '/**' },
+      { protocol: 'https', hostname: 'picsum.photos', port: '', pathname: '/**' },
     ],
   },
 };
 
-// Envolve a configuração do Next.js com o PWA.
 export default withPWA(nextConfig);

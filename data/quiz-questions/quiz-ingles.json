@@ -2350,5 +2350,901 @@
     "explanation": "The subjunctive mood uses 'were' in this type of 'if' clause, expressing a hypothetical situation.",
     "id": "quiz-ingles-168",
     "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an epizeuxis?",
+    "options": [
+      "The repetition of a word or phrase for emphasis",
+      "A type of metaphor",
+      "A grammatical error",
+      "The use of a word in a way that is not grammatically correct"
+    ],
+    "correctAnswer": "The repetition of a word or phrase for emphasis",
+    "explanation": "Epizeuxis is a rhetorical device where a word or phrase is repeated immediately for emphasis.  For example: \"Hark hark, the dogs do bark.\"",
+    "id": "quiz-ingles-169",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is syntactic ambiguity and provide an example?",
+    "options": [
+      "Syntactic ambiguity is when a word has multiple meanings; Example: \"He saw the bat.\"",
+      "Syntactic ambiguity is when a sentence structure allows multiple interpretations; Example: \"I saw the man with the telescope.\"",
+      "Syntactic ambiguity is the use of incorrect grammar; Example: \"Me and him went to the store.\"",
+      "Syntactic ambiguity is a type of metaphor; Example: \"The road was a ribbon of moonlight.\""
+    ],
+    "correctAnswer": "Syntactic ambiguity is when a sentence structure allows multiple interpretations; Example: \"I saw the man with the telescope.\"",
+    "explanation": "Syntactic ambiguity arises from the structure of a sentence, leading to more than one possible meaning.  In the example, it's unclear whether the speaker used a telescope to see the man or if the man possessed the telescope.  This is different from lexical ambiguity where a single word has multiple meanings.  The study of syntactic ambiguity helps us understand the importance of clear sentence construction.",
+    "id": "quiz-ingles-170",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'catenative verb' and provide an example?",
+    "options": [
+      "A verb that expresses an action or state of being",
+      "A verb that takes another verb as its complement",
+      "A verb that is always followed by a preposition",
+      "A verb that only exists in the past tense"
+    ],
+    "correctAnswer": "A verb that takes another verb as its complement",
+    "explanation": "A catenative verb is followed by another verb (often an infinitive or gerund).  Examples include 'want to go', 'seem to be', and 'continue running'.  The term 'catenative' comes from the Latin 'catena', meaning 'chain', reflecting how verbs are linked together.",
+    "id": "quiz-ingles-171",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between the past participles of \"to be\" and \"to have\"?",
+    "options": [
+      "Both are \"been\"",
+      "Both are \"had\"",
+      "\"Been\" for \"to be\", \"had\" for \"to have\"",
+      "\"Had\" for \"to be\", \"been\" for \"to have\""
+    ],
+    "correctAnswer": "\"Been\" for \"to be\", \"had\" for \"to have\"",
+    "explanation": "The past participle of \"to be\" is \"been\" (e.g., I have been there), while the past participle of \"to have\" is \"had\" (e.g., I had gone).  Knowing the difference is crucial for forming perfect tenses.  Did you know that the past participle of 'to be' is sometimes used as an adjective, like in the phrase 'the chosen one'?",
+    "id": "quiz-ingles-172",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical function and difference between a restrictive and a nonrestrictive relative clause, providing an example of each.",
+    "options": [
+      "Restrictive clauses are always set off by commas; nonrestrictive clauses never are.",
+      "Restrictive clauses provide essential information; nonrestrictive clauses add extra, non-essential information.",
+      "Restrictive clauses use 'that'; nonrestrictive clauses use 'which'.",
+      "Restrictive clauses modify verbs; nonrestrictive clauses modify nouns."
+    ],
+    "correctAnswer": "Restrictive clauses provide essential information; nonrestrictive clauses add extra, non-essential information.",
+    "explanation": "Restrictive clauses are essential to the meaning of the sentence and are not set off by commas (e.g., \"The book that I borrowed is overdue.\"). Nonrestrictive clauses add extra information and are set off by commas (e.g., \"The book, which I borrowed from the library, is overdue.\"). The difference is crucial for meaning and punctuation. A fun fact:  The use of 'that' and 'which' can sometimes, but not always, indicate the type of clause.",
+    "id": "quiz-ingles-173",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct subjunctive mood? A) If I was rich, I would travel the world. B) If I were rich, I would travel the world. C) If I am rich, I would travel the world. D) If I be rich, I would travel the world.",
+    "options": [
+      "If I was rich, I would travel the world.",
+      "If I were rich, I would travel the world.",
+      "If I am rich, I would travel the world.",
+      "If I be rich, I would travel the world."
+    ],
+    "correctAnswer": "If I were rich, I would travel the world.",
+    "explanation": "The correct sentence uses the subjunctive mood, which expresses a hypothetical or contrary-to-fact situation.  'Were' is the correct form for the subjunctive in this case.  Did you know the subjunctive mood is used less frequently in modern English than it was historically?",
+    "id": "quiz-ingles-174",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a restrictive clause and provide an example?",
+    "options": [
+      "A clause that adds extra nonessential information to a sentence, like: The dog, which was brown, barked loudly.",
+      "A clause that limits or defines the meaning of a noun, like: The book that I borrowed is overdue.",
+      "A clause that introduces a new independent thought, like: I went to the store, and then I went home.",
+      "A clause that is grammatically incomplete, like: Because it was raining."
+    ],
+    "correctAnswer": "A clause that limits or defines the meaning of a noun, like: The book that I borrowed is overdue.",
+    "explanation": "A restrictive clause is essential to the meaning of the sentence and is not set off by commas.  Nonrestrictive clauses, in contrast, provide extra information and are set off by commas.  Knowing the difference is crucial for correct punctuation!",
+    "id": "quiz-ingles-175",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct subjunctive mood? A) If I was a bird, I would fly. B) If I were a bird, I would fly. C) If I am a bird, I would fly. D) If I be a bird, I would fly.",
+    "options": [
+      "If I was a bird, I would fly",
+      "If I were a bird, I would fly",
+      "If I am a bird, I would fly",
+      "If I be a bird, I would fly"
+    ],
+    "correctAnswer": "If I were a bird, I would fly",
+    "explanation": "Option B uses the correct subjunctive mood, which is used to express hypothetical situations or wishes.  The subjunctive uses 'were' even with singular subjects like 'I'. The other options use incorrect verb tenses for this conditional structure.  A fun fact: The subjunctive is becoming less common in modern English, but it's still important for formal writing and certain expressions.",
+    "id": "quiz-ingles-176",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence that correctly uses the past perfect tense: A) I had gone to the store before he arrived. B) I went to the store before he had arrived. C) I had go to the store before he arrived. D) I go to the store before he had arrived.",
+    "options": [
+      "I had gone to the store before he arrived.",
+      "I went to the store before he had arrived.",
+      "I had go to the store before he arrived.",
+      "I go to the store before he had arrived."
+    ],
+    "correctAnswer": "I had gone to the store before he arrived.",
+    "explanation": "Option A uses the past perfect correctly, showing an action completed before another action in the past. The other options use incorrect verb tenses.  Did you know the past perfect tense is often used to create a sense of narrative flow in storytelling?",
+    "id": "quiz-ingles-177",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Identify the type of rhetorical device used in the following sentence:  'The rain poured down, a torrent of tears from the sky.'",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correctAnswer": "Personification",
+    "explanation": "The sentence uses personification by giving human qualities (tears) to a non-human entity (the rain).  A metaphor would directly compare the rain to tears without using 'like' or 'as.' A simile would use 'like' or 'as' to make a comparison. Hyperbole is exaggeration.  A fun fact is that personification is often used to create vivid imagery and emotional connection.",
+    "id": "quiz-ingles-178",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence correctly uses the subjunctive mood to express a hypothetical situation?",
+    "options": [
+      "If I was a millionaire, I would travel the world.",
+      "If I am a millionaire, I would travel the world.",
+      "If I were a millionaire, I would travel the world.",
+      "If I be a millionaire, I would travel the world."
+    ],
+    "correctAnswer": "If I were a millionaire, I would travel the world.",
+    "explanation": "The subjunctive mood is used to express wishes, suggestions, or hypothetical situations.  'Were' is the correct form of 'to be' in the subjunctive mood when referring to a hypothetical situation, even with a singular subject. The other options use the indicative mood.  The subjunctive mood is less common in modern English, but it's still important for formal writing and specific grammatical contexts.",
+    "id": "quiz-ingles-179",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical concept of 'syntactic ambiguity' and provide an example illustrating it.",
+    "options": [
+      "Syntactic ambiguity refers to the multiple meanings of a word; for example, 'bank'.",
+      "Syntactic ambiguity is when the meaning of a sentence is unclear due to the arrangement of words; for example, 'I saw the man with the telescope.'",
+      "Syntactic ambiguity occurs when a pronoun's reference is unclear; for example, 'John told Bill that he was wrong.'",
+      "Syntactic ambiguity is a rhetorical device using unexpected word order; for example, 'The cake I ate was delicious.'"
+    ],
+    "correctAnswer": "Syntactic ambiguity is when the meaning of a sentence is unclear due to the arrangement of words; for example, 'I saw the man with the telescope.'",
+    "explanation": "Syntactic ambiguity arises from multiple possible grammatical structures.  In 'I saw the man with the telescope,' it is unclear whether the man had the telescope or I used the telescope to see him.  This is different from lexical ambiguity, which involves multiple meanings of a single word.",
+    "id": "quiz-ingles-180",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference in meaning and usage between the modal verbs \"would\" and \"should\" when expressing advice?",
+    "options": [
+      "A) They are interchangeable and have the same meaning.",
+      "B) \"Would\" expresses a polite suggestion, while \"should\" expresses a stronger obligation.",
+      "C) \"Would\" indicates past habitual action, while \"should\" expresses future possibility.",
+      "D) \"Should\" is only used in conditional sentences, while \"would\" is used for all other types of advice."
+    ],
+    "correctAnswer": "B) \"Would\" expresses a polite suggestion, while \"should\" expresses a stronger obligation.",
+    "explanation": "While both express advice, \"would\" suggests a more gentle or polite recommendation, whereas \"should\" implies a stronger sense of duty or necessity.  For example, \"You would do well to study harder\" is a softer suggestion than \"You should study harder.\"  Curiously, the use of \"should\" for advice often stems from its connection to obligation, even if that obligation is self-imposed.",
+    "id": "quiz-ingles-181",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical concept of 'zeugma' and provide an example illustrating its use in creating a humorous or ironic effect.",
+    "options": [
+      "A) Zeugma is a type of metaphor using a single word to modify two others.",
+      "B) Zeugma is a rhetorical device where a single word governs or modifies two or more words although its syntactic relation to those words is different.",
+      "C) Zeugma is a literary technique that uses repetition of a word or phrase for emphasis.",
+      "D) Zeugma is a form of parallelism where clauses or phrases have similar grammatical structure."
+    ],
+    "correctAnswer": "B) Zeugma is a rhetorical device where a single word governs or modifies two or more words although its syntactic relation to those words is different.",
+    "explanation": "Zeugma uses a single verb or adjective to connect two or more nouns or phrases, even if the connection is grammatically or logically unusual. This often creates a humorous or ironic effect.  For example, \"She lost her keys and her temper\" uses \"lost\" to modify both \"keys\" (literally) and \"temper\" (figuratively).  A curiosity about zeugma is its ability to add a layer of complexity and wit to writing, making it a favorite tool of skilled writers.",
+    "id": "quiz-ingles-182",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a restrictive and a nonrestrictive relative clause, and how does punctuation reflect this difference?",
+    "options": [
+      "Restrictive clauses are set off by commas; nonrestrictive clauses are not.",
+      "Nonrestrictive clauses are set off by commas; restrictive clauses are not.",
+      "Both types of clauses use commas.",
+      "Neither type of clause uses commas."
+    ],
+    "correctAnswer": "Nonrestrictive clauses are set off by commas; restrictive clauses are not.",
+    "explanation": "Nonrestrictive clauses add extra information that isn't essential to the meaning of the sentence.  Restrictive clauses are essential to the meaning.  The commas in a nonrestrictive clause signal that the information is extra.  For example: \"My brother, who lives in London, is a doctor.\" (nonrestrictive) vs. \"My brother who lives in London is a doctor.\" (restrictive).  The first implies he has only one brother; the second suggests he may have multiple brothers, and this one lives in London.  A fun fact: Relative clauses are also known as adjectival clauses because they function as adjectives, modifying nouns.",
+    "id": "quiz-ingles-183",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a dangling modifier and a misplaced modifier, and provide an example of each?",
+    "options": [
+      "A dangling modifier is a word or phrase that doesn't clearly modify any specific word in the sentence; a misplaced modifier is in the wrong place, changing the meaning. Example DM: Walking down the street, the dog barked at me. Example MM: I saw a cat sitting on the wall with binoculars.",
+      "A dangling modifier is a misplaced modifier; both change sentence meaning. Example DM: I saw a cat with binoculars sitting on the wall. Example MM: Walking down the street, the dog barked at me.",
+      "A misplaced modifier is a word or phrase that doesn't clearly modify any specific word in the sentence; a dangling modifier is in the wrong place, changing the meaning. Example DM: I saw a cat with binoculars sitting on the wall. Example MM: Walking down the street, the dog barked at me.",
+      "There is no difference; both terms describe the same grammatical error. Example: Running through the park, the trees were beautiful."
+    ],
+    "correctAnswer": "A dangling modifier is a word or phrase that doesn't clearly modify any specific word in the sentence; a misplaced modifier is in the wrong place, changing the meaning. Example DM: Walking down the street, the dog barked at me. Example MM: I saw a cat sitting on the wall with binoculars.",
+    "explanation": "A dangling modifier lacks a clear referent, while a misplaced modifier has one but is in the wrong position.  The first option correctly illustrates this distinction. Did you know that the term 'dangling modifier' originated in the 19th century?",
+    "id": "quiz-ingles-184",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'syntactic ambiguity' and provide an original example illustrating it, focusing on the role of garden path sentences.",
+    "options": [
+      "Syntactic ambiguity occurs when a sentence can be parsed in multiple ways due to structural properties, leading to different interpretations. Example: I saw the man with the telescope.",
+      "Syntactic ambiguity is the result of poor sentence structure and word order. Example: The old man the boat.",
+      "Syntactic ambiguity arises from unclear pronoun reference. Example: John told Bill that he was wrong.",
+      "Syntactic ambiguity is a type of lexical ambiguity, where a word has multiple meanings. Example: The bank is near the river."
+    ],
+    "correctAnswer": "Syntactic ambiguity occurs when a sentence can be parsed in multiple ways due to structural properties, leading to different interpretations. Example: I saw the man with the telescope.",
+    "explanation": "The correct answer defines syntactic ambiguity and provides a classic example of a garden path sentence.  The sentence 'I saw the man with the telescope' can be interpreted as either the man having the telescope or the speaker using the telescope to see the man.  The other options either misdefine the term or provide examples of different types of ambiguity.  A fascinating fact: Garden path sentences exploit our brain's tendency to process information in a linear fashion.",
+    "id": "quiz-ingles-185",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Identify the grammatical error in the following sentence:  'Laying on the sofa, the remote control was easily within reach'.",
+    "options": [
+      "Incorrect tense of the verb 'lay'.",
+      "Misplaced modifier.",
+      "Incorrect use of the definite article.",
+      "Subject-verb disagreement."
+    ],
+    "correctAnswer": "Misplaced modifier.",
+    "explanation": "The phrase 'Laying on the sofa' incorrectly modifies 'remote control'. The sentence should read something like, 'While I was laying on the sofa, the remote control was easily within reach,' or 'Lying on the sofa, I found the remote control easily within reach'.  Interestingly, 'lay' and 'lie' are often confused - 'lay' is transitive (takes an object) whereas 'lie' is intransitive (does not take an object). ",
+    "id": "quiz-ingles-186",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct conditional tense: A) If I will have time, I will go. B) If I have time, I will go. C) If I had time, I would go. D) If I would have time, I would go.",
+    "options": [
+      "If I will have time, I will go",
+      "If I have time, I will go",
+      "If I had time, I would go",
+      "If I would have time, I would go"
+    ],
+    "correctAnswer": "If I have time, I will go",
+    "explanation": "The correct sentence is 'If I have time, I will go' because it uses the present simple tense in the if-clause and the future simple tense in the main clause to express a real or possible condition in the future. The other options use incorrect conditional forms.",
+    "id": "quiz-ingles-187",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Identify the type of rhetorical device used in the following sentence: 'The press release stated that the company was downsizing, a euphemism for mass layoffs'.",
+    "options": [
+      "Synecdoche",
+      "Metonymy",
+      "Epizeuxis",
+      "Hypophora"
+    ],
+    "correctAnswer": "Metonymy",
+    "explanation": "The word \"downsizing\" replaces the harsher reality of \"mass layoffs.\" Metonymy uses a related term to stand in for something else.  Synecdoche uses a part to represent the whole or vice versa.  Epizeuxis is the repetition of a word. Hypophora is a figure of speech where a question is asked and then answered by the speaker.",
+    "id": "quiz-ingles-188",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct conditional tense?",
+    "options": [
+      "If I will study, I will pass.",
+      "If I studied, I would pass.",
+      "If I study, I passed.",
+      "If I had studied, I would have passed."
+    ],
+    "correctAnswer": "If I studied, I would pass.",
+    "explanation": "This sentence correctly uses the second conditional (past simple + conditional perfect) to express a hypothetical situation. The other options use incorrect tense combinations.",
+    "id": "quiz-ingles-189",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical function of a 'catenative verb' and provide an example of its use in a sentence demonstrating its unique syntactic properties.",
+    "options": [
+      "A catenative verb is a verb that takes a direct object;  'He kicked the ball'.",
+      "A catenative verb is a main verb that can be followed by another verb; 'She wants to leave.'",
+      "A catenative verb is a helping verb; 'He is running.'",
+      "A catenative verb is a verb that requires a prepositional phrase; 'He walked to the store'."
+    ],
+    "correctAnswer": "A catenative verb is a main verb that can be followed by another verb; 'She wants to leave.'",
+    "explanation": "Catenative verbs, unlike other verbs, allow another verb to follow without a conjunction.  The second verb is often an infinitive or a gerund.  'She wants to leave' shows 'wants' as the catenative verb followed by the infinitive 'to leave'.  The sentence demonstrates its unique syntactic property because the second verb depends on the catenative verb.  Many languages, unlike English, require a conjunction to link the two verbs. ",
+    "id": "quiz-ingles-190",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference in usage between the modal verbs \"will\" and \"shall\" in modern English?",
+    "options": [
+      "There is no significant difference in modern usage.",
+      "\"Will\" expresses determination, while \"shall\" expresses simple future.",
+      "\"Shall\" is more formal and less common than \"will\".",
+      "\"Will\" is used for first person, \"shall\" for second and third person."
+    ],
+    "correctAnswer": "\"Shall\" is more formal and less common than \"will\".",
+    "explanation": "While traditionally \"shall\" was used for first-person future and \"will\" for second and third person, expressing determination, modern English largely uses \"will\" in all cases.  \"Shall\" survives primarily in formal or legal contexts.  A fun fact:  \"Shall\" is still common in questions like \"Shall we dance?\"",
+    "id": "quiz-ingles-191",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence with correct subject-verb agreement: A) The flock of birds fly south for the winter. B) The flock of birds flies south for the winter. C) The flock of birds is flying south for the winter. D) The flocks of birds fly south for the winter.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B because 'flock' is a collective noun, and it takes a singular verb ('flies'). Options A and D have incorrect subject-verb agreement, and option C uses a different verb tense.",
+    "id": "quiz-ingles-192",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence with correct subject-verb agreement: A) The team are playing well. B) The team is playing well. C) The team play well. D) The teams is playing well.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct sentence is B. 'Team' is a singular subject, so it takes a singular verb ('is'). Options A, C, and D have subject-verb disagreement.  Collective nouns like 'team' can sometimes take plural verbs, depending on the context, but in this case, the focus is on the team as a single unit.",
+    "id": "quiz-ingles-193",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'zeugma' and give an example?",
+    "options": [
+      "A type of metaphor",
+      "A figure of speech using parallel structure",
+      "A figure of speech where one word governs two or more words in different senses",
+      "A form of hyperbole"
+    ],
+    "correctAnswer": "A figure of speech where one word governs two or more words in different senses",
+    "explanation": "Zeugma is a literary device where a single word governs or modifies two or more other words in different senses. For example, 'He lost his keys and his temper'.  'Lost' governs both 'keys' (physically lost) and 'temper' (lost control of). Zeugma can add humor or surprise to writing. It's a stylistic technique used in literature and rhetoric to create a concise and memorable effect.",
+    "id": "quiz-ingles-194",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is a run-on sentence?",
+    "options": [
+      "A sentence with a comma splice",
+      "A sentence with too many commas",
+      "Two or more independent clauses joined together without proper punctuation or conjunctions",
+      "A sentence with a fragment"
+    ],
+    "correctAnswer": "Two or more independent clauses joined together without proper punctuation or conjunctions",
+    "explanation": "Run-on sentences can be confusing to read.  They can be fixed by adding punctuation or conjunctions or by breaking them into separate sentences.",
+    "id": "quiz-ingles-195",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a comma splice?",
+    "options": [
+      "Two independent clauses joined by only a comma",
+      "Two independent clauses joined by a semicolon",
+      "Two independent clauses joined by a conjunction",
+      "Two independent clauses separated by a period"
+    ],
+    "correctAnswer": "Two independent clauses joined by only a comma",
+    "explanation": "Comma splices are grammatically incorrect and need to be corrected by adding a conjunction, a semicolon, or by separating the clauses into separate sentences.",
+    "id": "quiz-ingles-196",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between active and passive voice?",
+    "options": [
+      "Active voice emphasizes the subject performing the action; passive voice emphasizes the action being done to the subject",
+      "Passive voice emphasizes the subject performing the action; active voice emphasizes the action being done to the subject",
+      "There is no difference between active and passive voice",
+      "Active voice is always better than passive voice"
+    ],
+    "correctAnswer": "Active voice emphasizes the subject performing the action; passive voice emphasizes the action being done to the subject",
+    "explanation": "Active voice is generally preferred for its clarity and directness.  However, passive voice can be useful in certain contexts.",
+    "id": "quiz-ingles-197",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correctly punctuated sentence: A) The dog barked loudly, it scared the cat. B) The dog barked loudly; it scared the cat. C) The dog barked loudly, it scared the cat.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "None of the above"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Option B uses a semicolon to correctly join two independent clauses. Options A and C use a comma splice, which is grammatically incorrect. Semicolons are often underutilized punctuation marks.",
+    "id": "quiz-ingles-198",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between an adjective and an adverb?",
+    "options": [
+      "There is no difference",
+      "Adjectives modify verbs, adverbs modify nouns",
+      "Adjectives modify nouns and pronouns; adverbs modify verbs, adjectives, and other adverbs",
+      "Adjectives modify sentences, adverbs modify clauses"
+    ],
+    "correctAnswer": "Adjectives modify nouns and pronouns; adverbs modify verbs, adjectives, and other adverbs",
+    "explanation": "This key difference helps in correctly describing words within a sentence.  Adjectives describe nouns (e.g., 'big dog'), while adverbs describe verbs, adjectives, or other adverbs (e.g., 'ran quickly').",
+    "id": "quiz-ingles-199",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What does the abbreviation 'e.g.' mean?",
+    "options": [
+      "for example",
+      "that is",
+      "in other words",
+      "and so on"
+    ],
+    "correctAnswer": "for example",
+    "explanation": "'E.g.' is an abbreviation of the Latin 'exempli gratia,' meaning 'for example.' It's used to introduce examples.",
+    "id": "quiz-ingles-200",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the difference between a simple sentence, a compound sentence, and a complex sentence?",
+    "options": [
+      "A simple sentence has one independent clause; a compound sentence has two or more independent clauses; a complex sentence has one independent clause and one or more subordinate clauses",
+      "A simple sentence has a subject and verb; a compound sentence has two subjects and verbs; a complex sentence has multiple subjects and verbs",
+      "There is no difference",
+      "A simple sentence is short; a compound sentence is long; a complex sentence is very long"
+    ],
+    "correctAnswer": "A simple sentence has one independent clause; a compound sentence has two or more independent clauses; a complex sentence has one independent clause and one or more subordinate clauses",
+    "explanation": "Understanding sentence structures is crucial for clear writing.  These classifications describe the relationships between clauses within sentences.",
+    "id": "quiz-ingles-201",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is syllepsis?",
+    "options": [
+      "A type of metaphor",
+      "A grammatical construction where a single word is used with two other words in grammatically and semantically different ways",
+      "A figure of speech that uses exaggeration",
+      "A type of rhyme scheme"
+    ],
+    "correctAnswer": "A grammatical construction where a single word is used with two other words in grammatically and semantically different ways",
+    "explanation": "Syllepsis creates a playful ambiguity.  For example, 'He lost his keys and his temper.'  'Lost' has two different meanings in this sentence, highlighting the unexpected connection.",
+    "id": "quiz-ingles-202",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct comparative adjective: A) This cake is tastier than that one. B) This cake is more tastier than that one. C) This cake is tastiest than that one. D) This cake is more tasty that that one.",
+    "options": [
+      "This cake is tastier than that one.",
+      "This cake is more tastier than that one.",
+      "This cake is tastiest than that one.",
+      "This cake is more tasty that that one."
+    ],
+    "correctAnswer": "This cake is tastier than that one.",
+    "explanation": "A is correct because 'tastier' is the correct comparative form of 'tasty'. B is incorrect because it uses a double comparative. C is incorrect because 'tastiest' is the superlative form. D is incorrect because it uses 'more tasty' which is not the correct comparative form.  A fun fact: some adjectives don't follow the regular rules of comparison!",
+    "id": "quiz-ingles-203",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Identify the grammatical error in the following sentence: 'Despite feeling unwell, the presentation was delivered flawlessly.'",
+    "options": [
+      "Incorrect tense usage",
+      "Dangling modifier",
+      "Misplaced modifier",
+      "Subject-verb disagreement"
+    ],
+    "correctAnswer": "Dangling modifier",
+    "explanation": "The phrase 'Despite feeling unwell' doesn't clearly modify a subject.  It's a dangling modifier, leaving it unclear who felt unwell (the presenter or someone else).  A correct version could be: 'Despite feeling unwell, the presenter delivered the presentation flawlessly.' Did you know that dangling modifiers are common writing errors even among experienced writers?",
+    "id": "quiz-ingles-204",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a gerund and a present participle, and how can you tell them apart in a sentence?",
+    "options": [
+      "Gerunds act as nouns; present participles act as adjectives.",
+      "Gerunds always end in '-ing'; present participles can end in '-ed' or '-ing'.",
+      "Gerunds function as verbs; present participles modify nouns.",
+      "There is no difference; they are interchangeable."
+    ],
+    "correctAnswer": "Gerunds act as nouns; present participles act as adjectives.",
+    "explanation": "Gerunds, ending in '-ing', function as nouns (e.g., \"Swimming is my favorite sport\"). Present participles, also ending in '-ing', act as adjectives modifying nouns (e.g., \"The swimming pool was crowded\").  Knowing this helps you understand the sentence's structure. Did you know that the gerund originated in Old English?",
+    "id": "quiz-ingles-205",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' and provide an original example focusing on the shared and distinct meanings of the verb.",
+    "options": [
+      "Zeugma is a type of metaphor.",
+      "Zeugma involves the omission of a conjunction.",
+      "Zeugma uses a single verb to govern multiple nouns with distinct relationships to that verb.",
+      "Zeugma is a form of parallelism."
+    ],
+    "correctAnswer": "Zeugma uses a single verb to govern multiple nouns with distinct relationships to that verb.",
+    "explanation": "Zeugma uses one verb to apply to two or more nouns in different ways, creating a unique effect.  For example: \"He opened the door and his heart to the lost puppy.\"  Here, 'opened' applies literally to the door and figuratively to his heart.  This contrasts with parallelism, which focuses on structural similarity.  The deliberate ambiguity enhances the artistic impact.",
+    "id": "quiz-ingles-206",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'catenation' in English verbs and provide an original example illustrating its use, focusing on the syntactic properties that distinguish it from other verb constructions.",
+    "options": [
+      "Catenation is when two verbs share a subject but have separate objects.  Example: 'He quickly read and understood the book.'",
+      "Catenation is using an auxiliary verb with a main verb. Example: 'She will have finished.'",
+      "Catenation is a sequence of verbs where the first verb determines the syntactic properties of the following verbs. Example: 'She wants to be going to the party.'",
+      "Catenation is when verbs modify adjectives. Example: 'The intensely red flower.'"
+    ],
+    "correctAnswer": "Catenation is a sequence of verbs where the first verb determines the syntactic properties of the following verbs. Example: 'She wants to be going to the party.'",
+    "explanation": "Catenation involves a chain of verbs where the initial verb dictates the grammatical function of subsequent verbs.  The example 'She wants to be going to the party' shows how 'wants' governs the infinitive 'to be going', illustrating the unique syntactic properties of this construction. Unlike simple verb phrases, catenative verb sequences exhibit a hierarchical structure, making them a complex yet common phenomenon.  It is often overlooked in basic grammar lessons.",
+    "id": "quiz-ingles-207",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a phrasal verb and a prepositional verb, and provide an example of each?",
+    "options": [
+      "A phrasal verb is a verb + adverb; a prepositional verb is a verb + preposition. Example: 'look up' (phrasal) vs. 'look at' (prepositional).",
+      "A phrasal verb is a verb + particle; a prepositional verb is a verb + preposition. Example: 'put off' (phrasal) vs. 'look at' (prepositional).",
+      "There is no difference; both are verbs combined with other words. Example: 'look up' and 'look at'.",
+      "A phrasal verb is a verb + noun; a prepositional verb is a verb + adjective. Example: 'look up the word' (phrasal) vs. 'look at the beautiful view' (prepositional)."
+    ],
+    "correctAnswer": "A phrasal verb is a verb + particle; a prepositional verb is a verb + preposition. Example: 'put off' (phrasal) vs. 'look at' (prepositional).",
+    "explanation": "The key difference lies in the particle's function. In phrasal verbs, the particle changes the verb's meaning (inseparable). In prepositional verbs, the preposition shows direction or relation (separable).  Fun fact:  Many phrasal verbs are idiomatic, meaning their meaning isn't easily derived from the individual words.",
+    "id": "quiz-ingles-208",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' and provide an original example illustrating its use, focusing on the different grammatical roles the shared verb plays.",
+    "options": [
+      "Zeugma is a figure of speech where a single word governs or modifies two or more other words although its relationship to each is different. Example: He opened his heart and his door.",
+      "Zeugma is a figure of speech where two words have the same meaning. Example: The cat sat on the mat.",
+      "Zeugma is a type of metaphor. Example: The clouds are fluffy sheep.",
+      "Zeugma is a grammatical error. Example: I like swimming and to eat ice cream."
+    ],
+    "correctAnswer": "Zeugma is a figure of speech where a single word governs or modifies two or more other words although its relationship to each is different. Example: He opened his heart and his door.",
+    "explanation": "In the example, 'opened' governs 'heart' (figuratively) and 'door' (literally), demonstrating the different grammatical roles of the shared verb.  Did you know that the term 'zeugma' comes from the Greek word meaning 'yoking'?",
+    "id": "quiz-ingles-209",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' and provide an original example.",
+    "options": [
+      "A figure of speech using exaggeration for emphasis.",
+      "A figure of speech in which a word applies to two others in different senses.",
+      "A figure of speech using irony to create humor.",
+      "A figure of speech using repetition of the same word."
+    ],
+    "correctAnswer": "A figure of speech in which a word applies to two others in different senses.",
+    "explanation": "Zeugma links together two or more words or phrases by a shared verb or noun, despite the disparate meanings.  Example: 'He opened the door and his heart to the stranger.'  The verb 'opened' applies to both the physical door and the metaphorical heart.  Did you know that zeugma is often used for comedic effect?",
+    "id": "quiz-ingles-210",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' and provide an original example illustrating its use in a sentence that avoids ambiguity and maintains clarity.",
+    "options": [
+      "Zeugma uses one verb to govern several words, but with a different meaning for each. Example: 'He opened the door and his heart to the stranger.'",
+      "Zeugma is a type of metaphor; it creates an unexpected connection between two words. Example: 'Her smile and the sun lit up the room.'",
+      "Zeugma is a rhetorical device using parallelism; it balances two phrases of the same length. Example: 'She likes swimming and jogging every morning.'",
+      "Zeugma is a figure of speech that uses a word twice in the same sentence, but with different meanings. Example: 'She broke her leg and her promise.'"
+    ],
+    "correctAnswer": "Zeugma uses one verb to govern several words, but with a different meaning for each. Example: 'He opened the door and his heart to the stranger.'",
+    "explanation": "A zeugma uses one verb to govern several words or clauses, but the verb has a different meaning for each. The example uses 'opened' to describe both a physical action and an emotional state. Other options are incorrect, as they describe other figures of speech.  A well-executed zeugma is a clever and concise way to create emphasis.",
+    "id": "quiz-ingles-211",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a gerund and a participle, and provide an example sentence demonstrating each?",
+    "options": [
+      "A gerund is a verb acting as a noun; a participle is a verb acting as an adjective.  Example: Gerund - \"Swimming is my favorite exercise.\" Participle - \"The singing bird cheered me.\" ",
+      "A gerund is a verb acting as an adjective; a participle is a verb acting as a noun. Example: Gerund - \"The singing bird cheered me.\" Participle - \"Swimming is my favorite exercise.\" ",
+      "Gerunds and participles are interchangeable and have the same function. Example: \"Swimming is my favorite exercise.\" / \"The singing bird cheered me.\" ",
+      "There is no difference between gerunds and participles; they are both verb forms. Example: \"Swimming is my favorite exercise.\" / \"The singing bird cheered me.\""
+    ],
+    "correctAnswer": "A gerund is a verb acting as a noun; a participle is a verb acting as an adjective.  Example: Gerund - \"Swimming is my favorite exercise.\" Participle - \"The singing bird cheered me.\" ",
+    "explanation": "A gerund acts as a noun (it can be the subject of a verb, for example), while a participle acts as an adjective (it modifies a noun).  The examples provided illustrate this clearly.  Fun fact:  The term 'gerund' comes from the Latin word 'gerundium,' meaning 'a gerundive noun'.",
+    "id": "quiz-ingles-212",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'prolepsis' in grammar and rhetoric, providing an original example sentence illustrating its use and highlighting its effect on sentence structure and meaning.",
+    "options": [
+      "Prolepsis is a figure of speech where a word is placed before its logical position in the sentence, usually to add emphasis. Example: \"Angry, he stormed out of the room.\" ",
+      "Prolepsis is a rhetorical device involving the anticipation and addressing of potential objections. Example: \"Some may argue this is impossible, but I say it's possible!\" ",
+      "Prolepsis is a grammatical error where a pronoun is used before its antecedent is introduced. Example: \"Him, John, and Mary went to the store.\" ",
+      "Prolepsis refers to the use of a future tense verb in a past tense context. Example: \"He said he would go to the store tomorrow.\""
+    ],
+    "correctAnswer": "Prolepsis is a figure of speech where a word is placed before its logical position in the sentence, usually to add emphasis. Example: \"Angry, he stormed out of the room.\" ",
+    "explanation": "Prolepsis involves moving an element (usually a modifier) from its typical position in a sentence to the beginning, for emphasis.  It changes the natural word order. The example provided shows how 'Angry' anticipates the subject 'he' and sets the stage for the action that follows.  Interestingly, prolepsis is often used in fiction writing to create dramatic effect.",
+    "id": "quiz-ingles-213",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'cataphora' and provide an original example sentence illustrating its use, focusing on the relationship between the cataphoric element and its subsequent referent.",
+    "options": [
+      "Cataphora is a figure of speech; it has no grammatical function.",
+      "Cataphora is when a pronoun refers to a noun that appears later in the sentence.",
+      "Cataphora is a type of relative clause.",
+      "Cataphora is a rhetorical device involving the repetition of words."
+    ],
+    "correctAnswer": "Cataphora is when a pronoun refers to a noun that appears later in the sentence.",
+    "explanation": "Cataphora uses a pronoun or other anaphoric expression before the noun it refers to, creating a sense of anticipation or suspense.  Unlike anaphora, which refers backward, cataphora looks forward. For example: \"After he finished his work, John went home.\"  Here, 'he' is the cataphoric element, referring to 'John' later in the sentence.  The use of cataphora can be less common than anaphora but is a powerful tool for creating intrigue in writing.",
+    "id": "quiz-ingles-214",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'caesura' in poetry and provide an original example demonstrating its effect on rhythm and emphasis.",
+    "options": [
+      "Caesura is a pause in a line of poetry created by punctuation. Example: \"The | dog barked | loudly.\"",
+      "Caesura is a type of meter in poetry. Example: Iambic pentameter.",
+      "Caesura is the repetition of a word or phrase. Example: \"Never give up, never surrender.\"",
+      "Caesura is the use of alliteration in poetry."
+    ],
+    "correctAnswer": "Caesura is a pause in a line of poetry created by punctuation. Example: \"The | dog barked | loudly.\"",
+    "explanation": "Caesura is a deliberate pause within a line of poetry, often indicated by punctuation.  This pause breaks the rhythm, creating a dramatic effect or emphasis on the words following the pause. The example shows a clear pause affecting the rhythm.  Interestingly, the placement and frequency of caesura can significantly influence the poem's overall mood and tone.",
+    "id": "quiz-ingles-215",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the grammatical function of a gerund?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctAnswer": "Noun",
+    "explanation": "A gerund is a verb acting as a noun.  Unlike other verbs, it cannot be conjugated. Did you know that gerunds are often used in idioms?",
+    "id": "quiz-ingles-216",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' and provide an original example focusing on the shared and distinct meanings of the verb, ensuring both meanings are grammatically correct and contextually sensible.",
+    "options": [
+      "Zeugma is the use of a word to modify or govern two or more words in different senses. Example:  'He opened the door and his heart to the stranger.'",
+      "Zeugma is a type of metaphor. Example: 'The flower danced in the wind.'",
+      "Zeugma is a grammatical error. Example: 'I ate a sandwich and a book.'",
+      "Zeugma is the repetition of a word or phrase for emphasis. Example: 'Never, never, never give up!'."
+    ],
+    "correctAnswer": "Zeugma is the use of a word to modify or govern two or more words in different senses. Example:  'He opened the door and his heart to the stranger.'",
+    "explanation": "A zeugma uses one verb to govern two or more words, but the verb has a different meaning or application with each word.  The example shows 'opened' applies literally to the door and figuratively to the heart.  Many consider zeugma a sophisticated rhetorical device.",
+    "id": "quiz-ingles-217",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'syntactic ambiguity' and provide an original example illustrating how sentence structure can lead to multiple interpretations.",
+    "options": [
+      "Syntactic ambiguity is when a sentence has multiple grammatical structures, leading to different meanings. Example: I saw the man with the telescope.",
+      "Syntactic ambiguity is when a sentence uses vague words, leading to different meanings. Example: I saw the man with the telescope.",
+      "Syntactic ambiguity is when a sentence has multiple interpretations due to unclear pronoun reference. Example: I saw the man with the telescope.",
+      "Syntactic ambiguity is when a sentence is grammatically incorrect, leading to multiple meanings. Example: I saw the man with the telescope."
+    ],
+    "correctAnswer": "Syntactic ambiguity is when a sentence has multiple grammatical structures, leading to different meanings. Example: I saw the man with the telescope.",
+    "explanation": "Syntactic ambiguity arises from multiple possible sentence structures. In the example, \"I saw the man with the telescope,\" it's unclear whether the man had the telescope or the speaker used a telescope to see the man.  This type of ambiguity is very common in humor and wordplay.",
+    "id": "quiz-ingles-218",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Explain the difference between a participle and a gerund, providing an example of each.",
+    "options": [
+      "A participle is a verb acting as an adjective; a gerund is a verb acting as a noun.  Example: Participle - \"The singing bird\", Gerund - \"Singing is fun.\"",
+      "A participle is a verb acting as a noun; a gerund is a verb acting as an adjective. Example: Participle - \"Singing is fun\", Gerund - \"The singing bird.\"",
+      "Participles and gerunds are the same thing. Example: \"Singing is fun.\"",
+      "There is no difference between a participle and a gerund. Example: \"The singing bird.\""
+    ],
+    "correctAnswer": "A participle is a verb acting as an adjective; a gerund is a verb acting as a noun.  Example: Participle - \"The singing bird\", Gerund - \"Singing is fun.\"",
+    "explanation": "A participle acts as an adjective, modifying a noun (e.g., \"the singing bird\"). A gerund acts as a noun and can be the subject or object of a verb (e.g., \"Singing is fun\").  The gerund always ends in -ing.  Did you know that the word 'gerund' comes from the Latin word 'gerundium,' meaning 'a verbal noun'?",
+    "id": "quiz-ingles-219",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence correctly uses a relative clause to modify the noun 'car'? A) The car, that is red, is mine. B) The car which is red is mine. C) The car, which is red, is mine. D) The car that is red is mine.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "D",
+    "explanation": "Option D uses a restrictive relative clause ('that is red') correctly.  Options A and C incorrectly use commas with a restrictive clause, while option B uses 'which' for a restrictive clause.  'That' is generally preferred for restrictive clauses and 'which' for non-restrictive.",
+    "id": "quiz-ingles-220",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'hypotaxis' and provide an original example demonstrating its use in a complex sentence, highlighting the relationship between the main and subordinate clauses.",
+    "options": [
+      "Hypotaxis is the use of coordinating conjunctions to join independent clauses.",
+      "Hypotaxis is the use of parallel structure in a sentence.",
+      "Hypotaxis is the subordination of one clause to another, creating a hierarchical structure.",
+      "Hypotaxis is the omission of conjunctions between clauses."
+    ],
+    "correctAnswer": "Hypotaxis is the subordination of one clause to another, creating a hierarchical structure.",
+    "explanation": "Hypotaxis uses subordinate clauses to create a complex sentence with a clear hierarchical relationship between clauses.  For example: \"Because the rain poured relentlessly, and the wind howled fiercely, the small sailboat capsized, leaving the sailors stranded at sea.\" The main clause (\"the small sailboat capsized\") is dependent on the subordinate clauses describing the cause.  An interesting fact:  The opposite of hypotaxis is parataxis.",
+    "id": "quiz-ingles-221",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference in usage between the modal verbs 'may' and 'might' when expressing possibility?",
+    "options": [
+      "'May' expresses a higher degree of possibility than 'might'.",
+      "'Might' expresses a higher degree of possibility than 'may'.",
+      "'May' is used for present possibility, while 'might' is used for past possibility.",
+      "'May' and 'might' are interchangeable and express the same level of possibility."
+    ],
+    "correctAnswer": "'May' expresses a higher degree of possibility than 'might'.",
+    "explanation": "'May' suggests a greater likelihood than 'might'.  'Might' implies a more remote or hypothetical possibility.  For example, 'It may rain later' suggests a higher chance of rain than 'It might rain later'.  Fun fact:  The use of 'might' often softens a request, making it more polite than using 'may'.",
+    "id": "quiz-ingles-222",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical function and significance of the \"subjunctive mood\" in English, providing an original example sentence illustrating its use in a hypothetical or counterfactual context, and describe its effect on sentence meaning.",
+    "options": [
+      "The subjunctive is used for expressing desires or commands; it has no effect on meaning.",
+      "The subjunctive is used for expressing factual statements; it has no effect on meaning.",
+      "The subjunctive is used for expressing hypothetical or counterfactual situations; it alters sentence meaning by indicating the statement isn't factual.",
+      "The subjunctive mood is only used in formal writing and is no longer relevant in modern English."
+    ],
+    "correctAnswer": "The subjunctive is used for expressing hypothetical or counterfactual situations; it alters sentence meaning by indicating the statement isn't factual.",
+    "explanation": "The subjunctive mood is used to express wishes, suggestions, or hypothetical situations.  It often involves a verb form different from the indicative mood.  For example, \"If I were a rich man...\" uses 'were' (subjunctive) instead of 'was' (indicative) to highlight the hypothetical nature of the statement.  This contrasts with a factual statement like \"If I was tired, I went to bed.\"  The subjunctive mood creates a sense of unreality or a hypothetical condition.  Curiously, the subjunctive is losing ground in spoken English but remains significant in formal writing and certain fixed expressions.",
+    "id": "quiz-ingles-223",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'prolepsis' and provide an original example illustrating its use in a sentence, ensuring clarity and grammatical correctness.",
+    "options": [
+      "Prolepsis is a rhetorical device where a word is used before it is properly introduced, causing confusion.  Example: 'A raging bull, it charged into the arena'.",
+      "Prolepsis is anticipating an objection and addressing it preemptively. Example: 'Before you ask, no, I haven't finished the report'.",
+      "Prolepsis is the use of a word with a double meaning. Example: 'The singer's voice was powerful and moving, moving the audience to tears'.",
+      "Prolepsis is the deliberate use of incorrect grammar for effect. Example: 'Me and him went to the store'."
+    ],
+    "correctAnswer": "Prolepsis is anticipating an objection and addressing it preemptively. Example: 'Before you ask, no, I haven't finished the report'.",
+    "explanation": "Prolepsis involves addressing a potential counterargument or question before it's raised.  It's a strategic rhetorical device.  The example shows this preemptive addressing of a likely question. The other options describe other rhetorical or grammatical concepts.  Fun fact: Prolepsis is often used in persuasive speeches and debates.",
+    "id": "quiz-ingles-224",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'zeugma' in grammar, providing an original example illustrating its use in creating a humorous or ironic effect, and discuss its potential pitfalls in terms of clarity and style.",
+    "options": [
+      "Zeugma uses one verb to govern multiple nouns or phrases, creating a comedic effect; however, it can be unclear if the verb doesn't logically apply to all elements. Example: 'She broke his heart and a vase'.",
+      "Zeugma is a type of metaphor; it enhances clarity and style by combining unrelated concepts. Example: 'He lost his keys and his temper'.",
+      "Zeugma is the use of parallel grammatical structures for rhetorical effect; it always enhances style and clarity. Example: 'She cooked the meal and the book'.",
+      "Zeugma is a grammatical error involving the incorrect use of verbs; it should always be avoided. Example: 'He enjoyed the cake and to dance'."
+    ],
+    "correctAnswer": "Zeugma uses one verb to govern multiple nouns or phrases, creating a comedic effect; however, it can be unclear if the verb doesn't logically apply to all elements. Example: 'She broke his heart and a vase'.",
+    "explanation": "Zeugma's humor comes from the unexpected connection between disparate nouns linked by a single verb.  However, if the connection is too tenuous, it can lead to confusion.  The example 'She broke his heart and a vase' works because the act of breaking applies to both, albeit metaphorically in one case.  The pitfall lies in pushing the limits of the verb's applicability.  An example of poor use would be: 'He opened the door and a new chapter in his life'. The opening of a new chapter isn't really an 'opening' in the same sense as the door.  This highlights the stylistic tightrope walk of effectively using zeugma.  Curiously, zeugma's effectiveness can be subjective, depending on the reader's interpretation and humor.",
+    "id": "quiz-ingles-225",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct article? A) I saw a unicorn in the field. B) I saw the unicorn in a field. C) I saw unicorn in field. D) I saw a unicorn in field.",
+    "options": [
+      "A) I saw a unicorn in the field.",
+      "B) I saw the unicorn in a field.",
+      "C) I saw unicorn in field.",
+      "D) I saw a unicorn in field."
+    ],
+    "correctAnswer": "A) I saw a unicorn in the field.",
+    "explanation": "Option A is correct because it uses the indefinite article \"a\" before the singular, countable noun \"unicorn\", indicating one unicorn among many.  Option B implies a specific unicorn already known. Options C and D are incorrect due to missing articles.",
+    "id": "quiz-ingles-226",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'syntactic ambiguity' and construct an original sentence demonstrating it, focusing on the potential for multiple interpretations due to grammatical structure.",
+    "options": [
+      "Syntactic ambiguity is when a sentence has multiple meanings due to word order.  Example: \"I saw the man with the binoculars.\"",
+      "Syntactic ambiguity is when a sentence is grammatically incorrect. Example: \"The dog barked loudly it scared the cat.\"",
+      "Syntactic ambiguity is when a sentence is too long and confusing. Example: \"The quick brown rabbit jumps over the lazy frogs.\"",
+      "Syntactic ambiguity is when a sentence is unclear because of punctuation. Example: \"Let's eat Grandma!\""
+    ],
+    "correctAnswer": "Syntactic ambiguity is when a sentence has multiple meanings due to word order.  Example: \"I saw the man with the binoculars.\"",
+    "explanation": "Syntactic ambiguity arises from multiple possible grammatical structures, leading to different interpretations. The example sentence could mean either the speaker used binoculars to see the man or the man had binoculars.  This is a common source of humor and confusion in language!",
+    "id": "quiz-ingles-227",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'caesura' in poetry and provide an original example illustrating its use, focusing on the effect it creates on the rhythm and flow of the poem.",
+    "options": [
+      "Caesura is a pause in the middle of a line of poetry; it has no effect on rhythm.",
+      "Caesura is the repetition of a word or phrase at the beginning of successive clauses; it creates emphasis.",
+      "Caesura is a pause in the middle of a line of poetry; it creates a dramatic break in rhythm and flow.",
+      "Caesura is a type of rhyme scheme; it creates a sense of closure."
+    ],
+    "correctAnswer": "Caesura is a pause in the middle of a line of poetry; it creates a dramatic break in rhythm and flow.",
+    "explanation": "A caesura is a pause or break within a line of poetry, often indicated by punctuation. This break disrupts the regular rhythm and creates a dramatic effect. For example:  'The sun| descends| slowly, casting long shadows.' The break after 'sun' creates a noticeable pause, altering the rhythm.  The use of caesura is a sophisticated technique, often used to create dramatic tension or emphasize a particular word or phrase.",
+    "id": "quiz-ingles-228",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'catachresis' and provide an original example focusing on the creative and potentially problematic aspects of this figure of speech.",
+    "options": [
+      "Catachresis is a type of metaphor.",
+      "Catachresis is a grammatical error.",
+      "Catachresis is using a word in an unexpected way to describe something.",
+      "Catachresis is a form of hyperbole."
+    ],
+    "correctAnswer": "Catachresis is using a word in an unexpected way to describe something.",
+    "explanation": "Catachresis involves using a word in an unexpected way, often due to a lack of a more precise word.  This can be incredibly creative but can also be confusing or nonsensical.  For example:  'The sun's rays fingered the sleeping town,' uses 'fingered' creatively, but might be confusing if 'touched' or 'illuminated' would be clearer. The inherent risk lies in the potential for misinterpretation.  Interestingly, many successful catachreses become accepted as standard usage over time!",
+    "id": "quiz-ingles-229",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a participle and a gerund, and how do they function grammatically?",
+    "options": [
+      "A participle is a verb acting as an adjective; a gerund is a verb acting as a noun.",
+      "A participle is a verb acting as a noun; a gerund is a verb acting as an adjective.",
+      "Both are verbs acting as nouns.",
+      "Both are verbs acting as adjectives."
+    ],
+    "correctAnswer": "A participle is a verb acting as an adjective; a gerund is a verb acting as a noun.",
+    "explanation": "A participle functions adjectivally, modifying a noun (e.g., \"the running water\"). A gerund functions nominally, acting as a noun (e.g., \"Running is good exercise.\").  Fun fact:  Participles can be present or past, while gerunds are always present.",
+    "id": "quiz-ingles-230",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the grammatical function of a \"catenative verb\" and provide an original example sentence demonstrating its use, focusing on the relationship between the main verb and the following infinitive or -ing form.",
+    "options": [
+      "A catenative verb is a verb that can be followed by another verb in the base form. Example:  She wants to leave.",
+      "A catenative verb is a verb that takes a direct object. Example: The cat chased the mouse.",
+      "A catenative verb is a verb that always uses the past participle. Example: The cake was eaten.",
+      "A catenative verb is a verb that describes a state of being. Example: The car is red."
+    ],
+    "correctAnswer": "A catenative verb is a verb that can be followed by another verb in the base form. Example:  She wants to leave.",
+    "explanation": "Catenative verbs, like 'want,' 'intend,' 'try,' etc., link to another verb, typically an infinitive or -ing form.  The second verb is dependent on the catenative verb. The other options describe different verb types.  An interesting fact:  The term \"catenative\" comes from the Latin word \"catena,\" meaning \"chain,\" reflecting how these verbs link together.",
+    "id": "quiz-ingles-231",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the concept of 'reification' in linguistics and provide an original example illustrating its use, focusing on the abstraction being treated as a concrete entity.",
+    "options": [
+      "Reification is giving human characteristics to inanimate objects. Example: The angry storm raged across the land.",
+      "Reification is treating an abstract concept as if it were a concrete thing. Example: 'The spirit of the law' is stronger than 'the letter of the law'.",
+      "Reification is using metaphors to describe complex ideas. Example: 'The wheels of justice turn slowly'.",
+      "Reification is the repetition of a word or phrase for emphasis. Example: 'Government of the people, by the people, for the people'"
+    ],
+    "correctAnswer": "Reification is treating an abstract concept as if it were a concrete thing. Example: 'The spirit of the law' is stronger than 'the letter of the law'.",
+    "explanation": "Reification is the process of representing an abstract concept as a concrete entity.  The example shows 'spirit of the law' and 'letter of the law' as concrete things that can be compared in strength.  A fun fact: Reification is a common rhetorical device used to make abstract ideas more easily understandable.",
+    "id": "quiz-ingles-232",
+    "categoryId": "ingles"
   }
 ]
