@@ -1,6 +1,6 @@
 // src/lib/firebase.ts
 import { initializeApp, getApp, getApps } from 'firebase/app';
-import { getAuth, browserPopupRedirectResolver } from 'firebase/auth';
+import { getAuth } from 'firebase/auth'; // ou initializeAuth se precisar customizar
 import { initializeFirestore, persistentLocalCache } from 'firebase/firestore';
 
 const firebaseConfig = {
@@ -15,15 +15,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-const auth = getAuth(app, {
-    popupRedirectResolver: browserPopupRedirectResolver,
-});
+// Auth (use initializeAuth se realmente precisar do browserPopupRedirectResolver)
+const auth = getAuth(app);
 
-// Inicializa o Firestore com o cache persistente (IndexedDB) para offline.
-// Isso garante que os dados do usuário fiquem disponíveis mesmo se o app for aberto sem internet.
+// Firestore com cache persistente (IndexedDB)
 const db = initializeFirestore(app, {
   localCache: persistentLocalCache({})
 });
-
 
 export { app, auth, db };

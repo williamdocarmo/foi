@@ -10,7 +10,7 @@ import {
   doc,
   getDoc,
   setDoc,
-  getDocFromCache
+  // getDocFromCache // opcional: se estiver disponível no seu bundle
 } from "firebase/firestore";
 
 const LOCAL_GAME_STATS_KEY = "idea-spark-stats";
@@ -53,17 +53,23 @@ function processDateLogic(statsToProcess: GameStats): GameStats {
 /** Tenta ler do cache primeiro; cai para rede se necessário */
 async function getUserStatsWithCache(uid: string) {
   const ref = doc(db, "userStats", uid);
+  // 1) Tenta via getDoc com hint de cache (em alguns bundlers funciona)
   try {
-    const snapCache = await getDocFromCache(ref);
+    // @ts-ignore - alguns tipos não expõem 'source'
+    const snapCache = await getDoc(ref, { source: "cache" });
     if (snapCache?.exists()) return snapCache.data();
-  } catch (e) {
-    // O cache pode falhar se estiver offline e o doc não estiver lá
+  } catch {
+    // ignorado — seguimos para alternativas
   }
-  // Cai para a rede se o cache falhar ou não existir
+  // 2) (Opcional) getDocFromCache, se estiver disponível no bundle
+  // try {
+  //   const snapCache2 = await getDocFromCache(ref);
+  //   if (snapCache2?.exists()) return snapCache2.data();
+  // } catch {}
+  // 3) Rede
   const snap = await getDoc(ref);
   return snap.exists() ? snap.data() : null;
 }
-
 
 export function useGameStats() {
   const [stats, setStats] = useState<GameStats>({ ...defaultStats });
