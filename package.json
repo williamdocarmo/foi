@@ -12,7 +12,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "generate-content": "tsx scripts/generateContent.ts",
-    "generate:ingles": "tsx scripts/generateContent.ts --category ingles"
+    "generate:ingles": "tsx scripts/generateContent.ts --category ingles --force"
   },
   "dependencies": {
     "@capacitor/android": "^6.1.1",
