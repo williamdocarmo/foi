@@ -1496,5 +1496,383 @@
     "explanation": "Contas correntes são utilizadas para transações diárias. As outras opções descrevem funções de outros tipos de contas ou serviços financeiros.",
     "id": "quiz-dinheiro-107",
     "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um fundo de investimento imobiliário (FII) e um fundo de ações?",
+    "options": [
+      "FIIs investem apenas em imóveis, fundos de ações investem em ações de empresas de construção civil.",
+      "FIIs são mais arriscados que fundos de ações.",
+      "FIIs distribuem parte dos lucros aos cotistas, enquanto fundos de ações normalmente reinvestem os lucros.",
+      "Não há diferença, ambos são fundos de investimento com o mesmo nível de risco."
+    ],
+    "correctAnswer": "FIIs distribuem parte dos lucros aos cotistas, enquanto fundos de ações normalmente reinvestem os lucros.",
+    "explanation": "FIIs (Fundos de Investimento Imobiliário) investem em imóveis e geralmente distribuem boa parte dos seus lucros em dividendos aos cotistas. Fundos de ações investem em ações de empresas e a distribuição de lucros é mais variável.  Curiosidade: O investimento em FIIs é uma forma de diversificar o portfólio sem precisar comprar um imóvel inteiro.",
+    "id": "quiz-dinheiro-108",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique o conceito de 'hedging' no contexto de investimentos e como ele pode ser aplicado para reduzir riscos em um cenário de alta volatilidade cambial.",
+    "options": [
+      "Hedging é uma estratégia de investimento que busca maximizar lucros, ignorando os riscos.",
+      "Hedging é um tipo de investimento de alta performance, geralmente envolvendo criptomoedas.",
+      "Hedging é uma estratégia para reduzir riscos utilizando instrumentos financeiros que se movem de forma inversa ao investimento principal.",
+      "Hedging consiste em investir em ativos de alta liquidez para facilitar a venda rápida."
+    ],
+    "correctAnswer": "Hedging é uma estratégia para reduzir riscos utilizando instrumentos financeiros que se movem de forma inversa ao investimento principal.",
+    "explanation": "Hedging utiliza instrumentos financeiros, como opções ou contratos futuros, para proteger contra perdas em um investimento principal. Em um cenário de alta volatilidade cambial, uma empresa com exposição a moedas estrangeiras pode utilizar hedging para se proteger contra flutuações desfavoráveis.  Curiosidade: O hedging é uma técnica complexa que exige profundo conhecimento do mercado e dos instrumentos financeiros envolvidos.",
+    "id": "quiz-dinheiro-109",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Imagine que você recebeu uma herança e precisa decidir entre investir em um fundo imobiliário ou em ações de uma empresa de tecnologia.  Considerando que você busca um retorno financeiro relativamente rápido e está disposto a assumir um risco moderado, qual seria a opção mais adequada e por quê?",
+    "options": [
+      "Fundo imobiliário, pois oferece maior estabilidade e retorno previsível a curto prazo.",
+      "Ações de empresa de tecnologia, pois oferecem potencial de maior crescimento, apesar do risco.",
+      "Ambas as opções são igualmente adequadas para um retorno rápido e moderado.",
+      "Nenhuma das opções é adequada para um retorno rápido e moderado."
+    ],
+    "correctAnswer": "Ações de empresa de tecnologia, pois oferecem potencial de maior crescimento, apesar do risco.",
+    "explanation": "As ações de empresas de tecnologia, em geral, têm maior potencial de crescimento rápido do que fundos imobiliários.  Porém, é importante lembrar que esse crescimento também acompanha um risco maior de perdas. Fundos imobiliários tendem a ser mais estáveis, mas com retornos mais lentos. A volatilidade do mercado de ações de tecnologia pode proporcionar retornos mais rápidos, se a empresa escolhida tiver um bom desempenho. Curiosidade: O mercado de ações é influenciado por diversos fatores, incluindo notícias, tendências econômicas e eventos geopolíticos, tornando-o dinâmico e imprevisível.",
+    "id": "quiz-dinheiro-110",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a implementação de um novo sistema de gestão financeira que automatiza processos e reduz custos operacionais.  No entanto, o investimento inicial é alto e o retorno do investimento (ROI) só será plenamente percebido após 5 anos.  Considerando o custo de oportunidade do capital e a incerteza do mercado, como a empresa pode justificar esse investimento para seus acionistas?",
+    "options": [
+      "Argumentando que o ROI de longo prazo compensará o investimento inicial, mesmo considerando o custo de oportunidade.",
+      "Demonstrando que o sistema reduzirá custos operacionais imediatamente, compensando o investimento inicial.",
+      "Justificando o investimento com base na inovação tecnológica, independentemente do ROI.",
+      "Não há justificativa plausível para o investimento, dado o longo prazo para o retorno."
+    ],
+    "correctAnswer": "Argumentando que o ROI de longo prazo compensará o investimento inicial, mesmo considerando o custo de oportunidade.",
+    "explanation": "A justificativa para o investimento deve levar em conta o custo de oportunidade do capital (o que a empresa poderia ganhar investindo o dinheiro de outra forma) e projetar o retorno ao longo do tempo. Um estudo detalhado com projeções financeiras, demonstrando que o ROI a longo prazo supera o custo de oportunidade e os riscos, é crucial para convencer os acionistas.  Simplesmente argumentar sobre redução de custos imediatos é insuficiente, pois não considera o investimento inicial e o tempo necessário para o retorno. Curiosidade: O conceito de custo de oportunidade é fundamental em finanças, mostrando o valor que se deixa de ganhar ao escolher uma alternativa em detrimento de outra.",
+    "id": "quiz-dinheiro-111",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Você está negociando um imóvel e o vendedor propõe um financiamento com juros compostos.  Em relação a um financiamento com juros simples, qual o impacto da escolha do vendedor no valor total pago ao final do financiamento?",
+    "options": [
+      "Não há diferença significativa entre juros simples e compostos em financiamentos imobiliários de longo prazo.",
+      "O valor total pago será menor com juros compostos, pois os juros são calculados apenas sobre o valor principal.",
+      "O valor total pago será maior com juros compostos, pois os juros incidem sobre o valor principal e os juros acumulados.",
+      "Tanto juros simples quanto compostos resultam no mesmo valor total a ser pago, apenas a forma de cálculo difere."
+    ],
+    "correctAnswer": "O valor total pago será maior com juros compostos, pois os juros incidem sobre o valor principal e os juros acumulados.",
+    "explanation": "Juros compostos calculam os juros sobre o valor principal e os juros acumulados de períodos anteriores, resultando em um valor total pago significativamente maior ao longo do tempo, comparado aos juros simples que calculam apenas sobre o principal.  Curiosidade:  A capitalização composta é o princípio fundamental do crescimento exponencial, presente também em diversas áreas além das finanças, como biologia e física.",
+    "id": "quiz-dinheiro-112",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a emissão de debêntures para financiar um projeto de expansão.  Considerando o risco de crédito da empresa e as condições atuais do mercado, qual fator NÃO é crucial para determinar a taxa de juros a ser paga pelos títulos?",
+    "options": [
+      "Rating de crédito da empresa.",
+      "Condições macroeconômicas, como a taxa Selic.",
+      "Lucratividade histórica da empresa.",
+      "Preferências de investimento dos acionistas minoritários."
+    ],
+    "correctAnswer": "Preferências de investimento dos acionistas minoritários.",
+    "explanation": "A taxa de juros de uma debênture é determinada principalmente pelo risco de crédito da empresa emissora (refletido no rating de crédito) e pelas condições gerais do mercado de capitais (taxa Selic e outros indicadores). A lucratividade histórica da empresa é um indicador relevante do risco de crédito. As preferências dos acionistas minoritários são irrelevantes para a precificação da debênture no mercado. Curiosidade: A emissão de debêntures permite que uma empresa capte recursos de forma mais barata que um empréstimo bancário, em alguns cenários.",
+    "id": "quiz-dinheiro-113",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa está considerando investir em um novo projeto.  Quais fatores devem ser considerados ao analisar o retorno sobre o investimento (ROI)?",
+    "options": [
+      "Apenas o lucro total gerado pelo projeto.",
+      "Somente os custos iniciais do projeto.",
+      "Os custos iniciais, os lucros futuros e o tempo necessário para recuperar o investimento.",
+      "O tamanho da equipe envolvida no projeto."
+    ],
+    "correctAnswer": "Os custos iniciais, os lucros futuros e o tempo necessário para recuperar o investimento.",
+    "explanation": "O ROI considera todos os custos e lucros, incluindo o tempo, para determinar a eficiência do investimento.  Considerar apenas o lucro ou os custos isolados é incompleto. Curiosidade: ROI é uma métrica fundamental em finanças, mas não considera o risco envolvido.",
+    "id": "quiz-dinheiro-114",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal vantagem de usar um cartão de débito em vez de dinheiro vivo?",
+    "options": [
+      "Maior segurança contra roubo ou perda",
+      "Possibilidade de acumular pontos de fidelidade",
+      "Facilidade de controlar os gastos",
+      "Acesso a crédito adicional"
+    ],
+    "correctAnswer": "Facilidade de controlar os gastos",
+    "explanation": "Cartões de débito permitem um melhor acompanhamento dos gastos, pois todas as transações são registradas.  Ao contrário, o dinheiro vivo não deixa rastros, dificultando o controle orçamental. Curiosidade: O primeiro cartão de débito foi criado em 1966.",
+    "id": "quiz-dinheiro-115",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa tem um lucro líquido de R$ 100.000 e um patrimônio líquido de R$ 500.000.  Qual o seu retorno sobre o patrimônio líquido (ROE)?",
+    "options": [
+      "20%",
+      "5%",
+      "2%",
+      "500%"
+    ],
+    "correctAnswer": "20%",
+    "explanation": "O ROE é calculado dividindo o lucro líquido pelo patrimônio líquido.  Neste caso, 100.000 / 500.000 = 0,2 ou 20%. As outras opções são incorretas devido a erros de cálculo. Curiosidade: O ROE é uma métrica importante para avaliar a eficiência de uma empresa em gerar lucros a partir de seu próprio capital.",
+    "id": "quiz-dinheiro-116",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como o aumento da taxa de juros básica afeta o valor de um empréstimo?",
+    "options": [
+      "Diminui o valor total pago.",
+      "Aumenta o valor total pago.",
+      "Não afeta o valor total pago.",
+      "Torna o empréstimo mais fácil de ser obtido."
+    ],
+    "correctAnswer": "Aumenta o valor total pago.",
+    "explanation": "Taxas de juros mais altas implicam em maior custo para o tomador do empréstimo, aumentando o valor total a ser pago.  As outras opções são incorretas, pois o aumento da taxa de juros aumenta o valor final do empréstimo. Curiosidade: O cálculo de juros compostos é exponencial, o que faz com que pequenas variações na taxa de juros impactem significativamente o valor final da dívida.",
+    "id": "quiz-dinheiro-117",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença principal entre um investimento de baixo risco e um de alto risco, além do retorno esperado?",
+    "options": [
+      "O investimento de baixo risco oferece maior liquidez.",
+      "O investimento de alto risco tem maior probabilidade de gerar prejuízos.",
+      "O investimento de baixo risco geralmente possui menor rentabilidade.",
+      "O investimento de alto risco exige menor capital inicial."
+    ],
+    "correctAnswer": "O investimento de baixo risco geralmente possui menor rentabilidade.",
+    "explanation": "Investimentos de baixo risco, como caderneta de poupança, oferecem menor retorno financeiro, mas com menor probabilidade de perdas.  Investimentos de alto risco, como ações de empresas em crescimento, podem gerar retornos maiores, mas também possuem maior chance de prejuízo.  Curiosidade: A diversificação da carteira de investimentos ajuda a minimizar os riscos.",
+    "id": "quiz-dinheiro-118",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa decide emitir debêntures para financiar um projeto de expansão.  Considerando a taxa de juros de mercado, o rating de crédito da empresa e as condições macroeconômicas, qual fator pode influenciar significativamente o custo final dessas debêntures?",
+    "options": [
+      "A popularidade do CEO da empresa.",
+      "A taxa de câmbio do dólar.",
+      "A inflação projetada para os próximos anos.",
+      "A preferência dos investidores por ações."
+    ],
+    "correctAnswer": "A inflação projetada para os próximos anos.",
+    "explanation": "A inflação afeta diretamente o custo de financiamento.  Taxas de inflação altas elevam os juros, aumentando o custo das debêntures para a empresa.  O rating de crédito e as condições macroeconômicas também influenciam, mas a inflação tem um impacto direto e significativo. Curiosidade:  Debêntures são títulos de dívida emitidos por empresas, que funcionam como um empréstimo para a empresa, com o pagamento de juros aos investidores.",
+    "id": "quiz-dinheiro-119",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um warrant e uma opção de compra de ações?",
+    "options": [
+      "Ambos garantem a compra de ações a um preço predefinido, mas o warrant é emitido pela própria companhia.",
+      "Ambos garantem a compra de ações a um preço predefinido, mas a opção é negociada em bolsa.",
+      "Warrants são emitidos por terceiros, enquanto opções são contratos derivados negociados em bolsa.",
+      "Não há diferença prática entre warrants e opções de compra de ações."
+    ],
+    "correctAnswer": "Warrants são emitidos por terceiros, enquanto opções são contratos derivados negociados em bolsa.",
+    "explanation": "Warrants são títulos emitidos por terceiros que dão ao titular o direito de comprar ações da empresa emissora a um preço determinado em uma data futura. Opções de compra, por outro lado, são contratos derivados negociados em bolsa, que concedem ao comprador o direito (mas não a obrigação) de comprar um ativo subjacente (como ações) a um preço específico até uma data de vencimento.  A principal diferença está na emissão e no mercado de negociação. Curiosidade: Os warrants geralmente têm um prazo de exercício mais longo que as opções de compra convencionais.",
+    "id": "quiz-dinheiro-120",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a utilização de 'project finance' para financiar um grande projeto de infraestrutura.  Quais são os principais riscos associados a este tipo de financiamento do ponto de vista dos credores?",
+    "options": [
+      "Risco de crédito da empresa, risco de mercado e risco de taxa de câmbio.",
+      "Risco de construção, risco de demanda e risco político.",
+      "Risco de taxa de juros, risco de liquidez e risco operacional.",
+      "Risco de construção, risco de demanda, risco político e risco de crédito do projeto, não da empresa."
+    ],
+    "correctAnswer": "Risco de construção, risco de demanda e risco político.",
+    "explanation": "No project finance, o financiamento é baseado principalmente no fluxo de caixa projetado do projeto em si, e não na capacidade financeira da empresa.  Assim, os credores enfrentam riscos específicos do projeto, como atrasos na construção, menor demanda do que o esperado e mudanças nas políticas governamentais (risco político). Embora os outros riscos existam, são secundários. Curiosidade: O project finance é comumente usado em projetos de grande porte, como usinas de energia e grandes obras de infraestrutura, onde a escala e a complexidade justificam a estrutura de financiamento especializada.",
+    "id": "quiz-dinheiro-121",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Você está analisando dois investimentos: um em títulos do Tesouro Direto e outro em ações de uma empresa de tecnologia inovadora.  Considerando o perfil de risco, qual investimento oferece maior potencial de retorno e qual apresenta menor risco de perda de capital?",
+    "options": [
+      "Ações de tecnologia oferecem maior retorno e menor risco.",
+      "Títulos do Tesouro oferecem maior retorno e menor risco.",
+      "Ações de tecnologia oferecem maior retorno e maior risco; Títulos do Tesouro oferecem menor retorno e menor risco.",
+      "Ambos os investimentos oferecem o mesmo retorno e o mesmo risco."
+    ],
+    "correctAnswer": "Ações de tecnologia oferecem maior retorno e maior risco; Títulos do Tesouro oferecem menor retorno e menor risco.",
+    "explanation": "As ações, especialmente em empresas de tecnologia, são consideradas investimentos de maior risco, mas com potencial de retorno mais alto. Já os títulos do Tesouro Direto são considerados investimentos de baixo risco, com retorno mais baixo e estável.  Curiosidade: O risco e o retorno geralmente andam juntos no mundo dos investimentos; quanto maior o risco, maior o potencial de retorno, mas também maior o potencial de perda.",
+    "id": "quiz-dinheiro-122",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a emissão de debêntures para financiar um novo projeto. Explique a diferença entre debêntures conversíveis e debêntures não conversíveis, considerando o ponto de vista do investidor.",
+    "options": [
+      "Não há diferença entre debêntures conversíveis e não conversíveis.",
+      "Debêntures conversíveis oferecem maior segurança, enquanto as não conversíveis oferecem maior rentabilidade.",
+      "Debêntures não conversíveis oferecem maior segurança, enquanto as conversíveis oferecem maior rentabilidade e flexibilidade.",
+      "Debêntures conversíveis permitem ao investidor converter sua dívida em ações da empresa, enquanto as não conversíveis não oferecem essa opção."
+    ],
+    "correctAnswer": "Debêntures conversíveis permitem ao investidor converter sua dívida em ações da empresa, enquanto as não conversíveis não oferecem essa opção.",
+    "explanation": "Debêntures conversíveis dão ao investidor a opção de converter suas debêntures em ações da empresa emissora após um determinado período. Isso adiciona um elemento de potencial valorização, mas também envolve riscos adicionais. Debêntures não conversíveis são simplesmente empréstimos, sem a opção de conversão. Curiosidade: A conversão de debêntures pode diluir a participação dos acionistas existentes.",
+    "id": "quiz-dinheiro-123",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma pessoa deseja investir R\\u002410.000,00 e tem duas opções: um investimento de baixo risco com retorno anual de 5% ou um investimento de alto risco com potencial de retorno anual de 15%, mas com possibilidade de perda total do capital. Considerando um horizonte de investimento de 5 anos, qual investimento oferece maior retorno *esperado* e qual apresenta maior *risco*? ",
+    "options": [
+      "Baixo risco: maior retorno esperado e menor risco; Alto risco: menor retorno esperado e maior risco",
+      "Baixo risco: menor retorno esperado e menor risco; Alto risco: maior retorno esperado e maior risco",
+      "Baixo risco: maior retorno esperado e maior risco; Alto risco: menor retorno esperado e menor risco",
+      "Baixo risco: menor retorno esperado e maior risco; Alto risco: maior retorno esperado e menor risco"
+    ],
+    "correctAnswer": "Baixo risco: menor retorno esperado e menor risco; Alto risco: maior retorno esperado e maior risco",
+    "explanation": "Embora o investimento de alto risco tenha maior potencial de retorno, o risco de perda total do capital é significativamente maior. O retorno esperado leva em conta a probabilidade de sucesso e fracasso.  Em 5 anos, o investimento de baixo risco terá um retorno garantido, mesmo que menor. Curiosidade: O conceito de 'risco' em investimentos está intrinsecamente ligado à volatilidade e à probabilidade de perdas.",
+    "id": "quiz-dinheiro-124",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando dois projetos de investimento. O Projeto A requer um investimento inicial de R\\u0024500.000,00 e gera um fluxo de caixa anual de R\\u0024150.000,00 por 5 anos. O Projeto B requer um investimento inicial de R\\u0024800.000,00 e gera um fluxo de caixa anual de R\\u0024250.000,00 por 4 anos. Considerando uma taxa de desconto de 10%, qual projeto apresenta o maior Valor Presente Líquido (VPL) e qual a melhor justificativa para a escolha?",
+    "options": [
+      "Projeto A, pois tem menor investimento inicial.",
+      "Projeto B, pois gera maior fluxo de caixa anual.",
+      "Projeto A, pois seu VPL é maior considerando a taxa de desconto.",
+      "Projeto B, pois seu período de retorno é mais curto."
+    ],
+    "correctAnswer": "Projeto A, pois seu VPL é maior considerando a taxa de desconto.",
+    "explanation": "Para determinar o melhor projeto, é necessário calcular o VPL de cada um, descontando os fluxos de caixa futuros à taxa de 10%. O projeto com maior VPL é o mais vantajoso financeiramente.  O VPL considera o valor do dinheiro no tempo. Curiosidade: O VPL é uma ferramenta fundamental na análise de investimentos, permitindo comparar projetos com diferentes escalas e tempos de retorno.",
+    "id": "quiz-dinheiro-125",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre o financiamento via 'project finance' e um empréstimo bancário tradicional para financiar um projeto de infraestrutura?",
+    "options": [
+      "No project finance, os credores têm garantia direta sobre os ativos do projeto, enquanto em um empréstimo tradicional, a garantia é sobre os ativos da empresa.",
+      "O project finance é mais rápido e fácil de aprovar que um empréstimo tradicional.",
+      "O project finance é mais indicado para projetos de pequeno porte, enquanto o empréstimo tradicional é para grandes projetos.",
+      "Não há diferença significativa entre os dois métodos de financiamento."
+    ],
+    "correctAnswer": "No project finance, os credores têm garantia direta sobre os ativos do projeto, enquanto em um empréstimo tradicional, a garantia é sobre os ativos da empresa.",
+    "explanation": "No project finance, a estrutura de financiamento é baseada nos fluxos de caixa projetados do próprio projeto, com os ativos do projeto servindo como garantia. Já em um empréstimo tradicional, a empresa toma o empréstimo usando seus ativos como garantia.  Curiosidade: O project finance é amplamente utilizado em projetos de grande porte como energia eólica e plantas de processamento.",
+    "id": "quiz-dinheiro-126",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a emissão de debêntures subordinadas.  Considerando o risco de crédito da empresa e as condições atuais do mercado, como a classificação de risco (rating) influencia o custo de emissão e a demanda por essas debêntures?",
+    "options": [
+      "A classificação de risco não afeta o custo ou a demanda, pois as debêntures subordinadas sempre têm alta demanda.",
+      "Uma classificação de risco mais alta (ex: AAA) reduz o custo de emissão e aumenta a demanda, enquanto uma classificação baixa aumenta o custo e reduz a demanda.",
+      "Uma classificação de risco mais alta aumenta o custo de emissão e reduz a demanda, enquanto uma classificação baixa reduz o custo e aumenta a demanda.",
+      "Somente a condição do mercado influencia o custo e a demanda; o rating é irrelevante."
+    ],
+    "correctAnswer": "Uma classificação de risco mais alta (ex: AAA) reduz o custo de emissão e aumenta a demanda, enquanto uma classificação baixa aumenta o custo e reduz a demanda.",
+    "explanation": "As debêntures subordinadas têm um risco maior para os investidores do que as debêntures seniores, pois são pagas apenas após os credores seniores em caso de falência.  Um rating alto indica menor risco de calote, atraindo investidores e reduzindo o custo para a empresa.  Um rating baixo indica maior risco, resultando em maior custo e menor demanda. Curiosidade:  As agências de classificação de risco, como Moody's, Standard & Poor's e Fitch, desempenham um papel crucial nesse processo.",
+    "id": "quiz-dinheiro-127",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal função do dinheiro?",
+    "options": [
+      "Facilitar as trocas de bens e serviços",
+      "Ser um objeto de decoração",
+      "Ser usado apenas para investimentos",
+      "Ser guardado em cofres"
+    ],
+    "correctAnswer": "Facilitar as trocas de bens e serviços",
+    "explanation": "O dinheiro serve como intermediário nas transações comerciais, simplificando o escambo. Curiosidade: O primeiro dinheiro conhecido foi feito de conchas.",
+    "id": "quiz-dinheiro-128",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Explique a diferença entre inflação de custos e inflação de demanda.",
+    "options": [
+      "A inflação de custos é causada por aumento da demanda, enquanto a inflação de demanda é causada pelo aumento dos custos de produção.",
+      "A inflação de custos é causada pelo aumento dos custos de produção, enquanto a inflação de demanda é causada pelo aumento da demanda.",
+      "Não há diferença entre os dois tipos de inflação.",
+      "Ambas são causadas por políticas governamentais."
+    ],
+    "correctAnswer": "A inflação de custos é causada pelo aumento dos custos de produção, enquanto a inflação de demanda é causada pelo aumento da demanda.",
+    "explanation": "A inflação de custos ocorre quando os preços sobem devido ao aumento dos custos de produção (matérias-primas, salários etc.), enquanto a inflação de demanda ocorre quando a demanda por bens e serviços excede a oferta. Curiosidade: A inflação pode ser controlada por políticas monetárias.",
+    "id": "quiz-dinheiro-129",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa está considerando investir em um novo projeto.  Quais são os dois principais fatores que ela deve considerar ao avaliar a viabilidade financeira do projeto?",
+    "options": [
+      "Apenas o retorno financeiro do projeto.",
+      "O retorno financeiro e o risco envolvido.",
+      "Somente os custos iniciais do projeto.",
+      "O tamanho do mercado e a concorrência."
+    ],
+    "correctAnswer": "O retorno financeiro e o risco envolvido.",
+    "explanation": "Uma empresa deve avaliar tanto o potencial de lucro quanto a probabilidade de perda ao investir em um novo projeto.  A análise de risco e retorno é fundamental para uma decisão informada. Curiosidade:  Uma ferramenta muito usada para avaliar o risco e o retorno é a análise de sensibilidade.",
+    "id": "quiz-dinheiro-130",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual a principal vantagem de usar dinheiro em espécie?",
+    "options": [
+      "Maior segurança contra roubos",
+      "Facilidade de controle de gastos",
+      "Anonimato nas transações",
+      "Aceitação universal em todos os lugares"
+    ],
+    "correctAnswer": "Facilidade de controle de gastos",
+    "explanation": "Dinheiro em espécie permite um controle imediato dos gastos, ao contrário de cartões, onde o controle pode ser menos preciso.  A aceitação universal não é total, e segurança e anonimato são menores que outras formas de pagamento. Curiosidade: No passado, o ouro era usado como dinheiro.",
+    "id": "quiz-dinheiro-131",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como o aumento da taxa de juros afeta o valor de um imóvel financiado?",
+    "options": [
+      "Aumenta o valor do imóvel",
+      "Diminui o valor do imóvel",
+      "Não afeta o valor do imóvel",
+      "Aumenta as prestações do financiamento"
+    ],
+    "correctAnswer": "Aumenta as prestações do financiamento",
+    "explanation": "O aumento da taxa de juros impacta diretamente o valor das prestações mensais do financiamento, tornando-as mais caras. O valor do imóvel em si não é diretamente afetado pela taxa de juros. Curiosidade:  A taxa de juros é influenciada por diversos fatores, incluindo a inflação e a política monetária do Banco Central.",
+    "id": "quiz-dinheiro-132",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Você precisa comprar um carro novo e está considerando um financiamento. Qual fator é mais importante para avaliar as condições do empréstimo?",
+    "options": [
+      "Taxa de juros anual",
+      "Valor da entrada",
+      "Prazo de pagamento",
+      "Todas as opções são igualmente importantes"
+    ],
+    "correctAnswer": "Taxa de juros anual",
+    "explanation": "A taxa de juros anual determina o custo total do empréstimo ao longo do tempo.  Uma taxa menor significa um custo total menor. Embora a entrada, o prazo e outros fatores sejam relevantes, a taxa de juros tem o maior impacto no custo final. Curiosidade:  A taxa de juros é influenciada pelas taxas de referência do Banco Central.",
+    "id": "quiz-dinheiro-133",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando investir em ações de uma startup inovadora. Quais fatores, além do potencial de crescimento, devem ser considerados para mitigar o risco?",
+    "options": [
+      "Histórico de lucratividade da startup",
+      "Equipe de gestão e seu plano de negócios",
+      "Análise de mercado e concorrência",
+      "Todas as opções acima são importantes"
+    ],
+    "correctAnswer": "Todas as opções acima são importantes",
+    "explanation": "O potencial de crescimento é importante, mas não garante sucesso.  O histórico de lucratividade (se houver), a qualidade da equipe e do plano de negócios, e a análise de mercado e concorrência ajudam a avaliar a viabilidade e o risco do investimento.  Curiosidade:  Investimento em startups é considerado um investimento de alto risco e alto retorno.",
+    "id": "quiz-dinheiro-134",
+    "categoryId": "dinheiro"
   }
 ]

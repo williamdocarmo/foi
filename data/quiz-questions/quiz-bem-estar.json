@@ -1692,5 +1692,271 @@
     "explanation": "A natação é uma atividade de baixo impacto, adequada para iniciantes e que melhora a saúde cardiovascular. As outras opções são muito intensas ou exigem preparo físico. Curiosidade: A natação trabalha diversos grupos musculares ao mesmo tempo.",
     "id": "quiz-bem-estar-121",
     "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de mindfulness impacta a capacidade de lidar com o estresse?",
+    "options": [
+      "Aumenta a resposta de 'luta ou fuga', exacerbando o estresse.",
+      "Diminui a atividade da amígdala, reduzindo a resposta ao medo e ao estresse.",
+      "Não tem impacto significativo na resposta ao estresse.",
+      "Aumenta a produção de cortisol, hormônio do estresse."
+    ],
+    "correctAnswer": "Diminui a atividade da amígdala, reduzindo a resposta ao medo e ao estresse.",
+    "explanation": "Mindfulness aumenta a consciência do momento presente, diminuindo a tendência de reagir automaticamente ao estresse. Estudos mostram que a prática regular reduz a atividade da amígdala, área do cérebro ligada à resposta ao medo e ao estresse. Curiosidade: A prática de mindfulness também melhora a regulação emocional, aumentando a capacidade de lidar com situações desafiadoras.",
+    "id": "quiz-bem-estar-122",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de ioga afeta a qualidade do sono?",
+    "options": [
+      "Diminui a qualidade do sono devido ao esforço físico.",
+      "Não afeta significativamente a qualidade do sono.",
+      "Melhora a qualidade do sono através do relaxamento e redução do estresse.",
+      "Causa insônia em pessoas predispostas a problemas de sono."
+    ],
+    "correctAnswer": "Melhora a qualidade do sono através do relaxamento e redução do estresse.",
+    "explanation": "A prática regular de ioga promove o relaxamento muscular, reduz os níveis de cortisol (hormônio do estresse) e acalma a mente, contribuindo para um sono mais profundo e reparador. Curiosidade: Alguns estudos mostram que a ioga pode ser tão eficaz quanto medicamentos para insônia em alguns casos.",
+    "id": "quiz-bem-estar-123",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de ioga afeta a saúde mental e o bem-estar?",
+    "options": [
+      "Aumenta os níveis de cortisol, hormônio do estresse.",
+      "Diminui a capacidade de concentração e foco.",
+      "Não apresenta impactos significativos na saúde mental.",
+      "Promove o relaxamento, reduz a ansiedade e melhora o humor."
+    ],
+    "correctAnswer": "Promove o relaxamento, reduz a ansiedade e melhora o humor.",
+    "explanation": "A prática regular de ioga promove o relaxamento, reduzindo os níveis de cortisol e melhorando o humor. Estudos demonstram sua eficácia no alívio da ansiedade e depressão. Curiosidade: Existem diversos tipos de ioga, cada um com foco em diferentes aspectos, como flexibilidade, força e meditação.",
+    "id": "quiz-bem-estar-124",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de meditação mindfulness impacta a resposta do corpo ao estresse?",
+    "options": [
+      "Aumenta a produção de cortisol, o hormônio do estresse",
+      "Diminui a atividade da amígdala, região do cérebro associada ao medo e ao estresse",
+      "Não afeta significativamente a resposta ao estresse",
+      "Aumenta a frequência cardíaca e a pressão arterial"
+    ],
+    "correctAnswer": "Diminui a atividade da amígdala, região do cérebro associada ao medo e ao estresse",
+    "explanation": "Estudos mostram que a prática regular de mindfulness reduz a atividade da amígdala, diminuindo a resposta de 'luta ou fuga' a situações estressantes.  As outras opções são incorretas porque a meditação mindfulness, na verdade, busca reduzir os efeitos fisiológicos negativos do estresse. Curiosidade: A amígdala também está envolvida no processamento de emoções positivas, como alegria e felicidade!",
+    "id": "quiz-bem-estar-125",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de exercícios físicos moderados impacta a saúde mental e o bem-estar?",
+    "options": [
+      "Aumenta os níveis de cortisol, hormônio do estresse, piorando o humor.",
+      "Diminui a produção de endorfinas, causando sensação de fadiga.",
+      "Melhora o sono, reduz a ansiedade e aumenta a autoestima, mas não afeta a depressão.",
+      "Promove a liberação de endorfinas, reduzindo a ansiedade, a depressão e melhorando o humor e o sono."
+    ],
+    "correctAnswer": "Promove a liberação de endorfinas, reduzindo a ansiedade, a depressão e melhorando o humor e o sono.",
+    "explanation": "Exercícios liberam endorfinas, neurotransmissores que atuam como analgésicos naturais e melhoram o humor.  A atividade física regular também melhora a qualidade do sono, reduzindo a ansiedade e a depressão. Curiosidade:  Um estudo mostrou que apenas 30 minutos de caminhada diária já trazem benefícios significativos para a saúde mental.",
+    "id": "quiz-bem-estar-126",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual estratégia de gerenciamento de tempo é mais eficaz para melhorar o foco e reduzir a sensação de sobrecarga, especialmente em tarefas complexas?",
+    "options": [
+      "Criar uma lista de tarefas gigantesca e tentar fazer tudo de uma vez",
+      "Priorizar tarefas por urgência, ignorando a importância",
+      "Utilizar a técnica Pomodoro com intervalos regulares de descanso",
+      "Trabalhar ininterruptamente até concluir todas as tarefas"
+    ],
+    "correctAnswer": "Utilizar a técnica Pomodoro com intervalos regulares de descanso",
+    "explanation": "A técnica Pomodoro, com seus intervalos de foco e descanso, permite maior concentração e previne o esgotamento mental.  As outras opções levam à sobrecarga e à diminuição da produtividade. Curiosidade: O nome Pomodoro vem do italiano para tomate, inspirado em um timer em formato de tomate que o criador utilizava.",
+    "id": "quiz-bem-estar-127",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade simples e acessível pode melhorar significativamente o humor em poucos minutos?",
+    "options": [
+      "Assistir a um filme de terror",
+      "Jogar videogame competitivo",
+      "Ouvir uma música animada",
+      "Ler notícias negativas"
+    ],
+    "correctAnswer": "Ouvir uma música animada",
+    "explanation": "Música animada libera endorfinas, neurotransmissores que melhoram o humor. As demais opções podem ter efeitos negativos ou neutros no humor. Curiosidade:  A música tem o poder de influenciar diretamente as áreas do cérebro responsáveis pelas emoções.",
+    "id": "quiz-bem-estar-128",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'forest bathing' (banho de floresta) pode impactar positivamente a saúde mental, além da redução do estresse?",
+    "options": [
+      "Aumenta os níveis de cortisol, melhorando o foco.",
+      "Diminui a criatividade e a capacidade de concentração.",
+      "Reduz a pressão sanguínea e melhora a função imunológica.",
+      "Não apresenta impactos significativos na saúde mental."
+    ],
+    "correctAnswer": "Reduz a pressão sanguínea e melhora a função imunológica.",
+    "explanation": "Estudos demonstram que o contato com a natureza, como no 'forest bathing', reduz a pressão sanguínea e fortalece o sistema imunológico, contribuindo para uma melhor saúde mental. Ao contrário das outras opções, essa alternativa apresenta benefícios comprovados. Curiosidade: O termo 'shinrin-yoku', ou 'banho de floresta', originou-se no Japão na década de 1980.",
+    "id": "quiz-bem-estar-129",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença entre a abordagem da terapia de aceitação e compromisso (ACT) e a terapia cognitivo-comportamental (TCC) no manejo de pensamentos obsessivos, considerando o foco na experiência presente?",
+    "options": [
+      "Ambas focam na mudança direta dos pensamentos, mas a ACT prioriza a aceitação.",
+      "A TCC foca na mudança direta dos pensamentos, enquanto a ACT enfatiza a aceitação e a ação com valores.",
+      "A ACT ignora os pensamentos, enquanto a TCC busca alterá-los diretamente.",
+      "Ambas priorizam a aceitação dos pensamentos, mas a TCC usa técnicas comportamentais."
+    ],
+    "correctAnswer": "A TCC foca na mudança direta dos pensamentos, enquanto a ACT enfatiza a aceitação e a ação com valores.",
+    "explanation": "A TCC busca identificar e modificar padrões de pensamento negativos, enquanto a ACT enfatiza a aceitação da experiência presente, incluindo pensamentos obsessivos, e o comprometimento com ações alinhadas aos valores pessoais.  A ACT não busca eliminar os pensamentos, mas sim reduzir sua influência sobre o comportamento. Curiosidade: A ACT utiliza metáforas e paradoxos para ajudar os pacientes a se relacionar de forma diferente com seus pensamentos.",
+    "id": "quiz-bem-estar-130",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'mindful eating' (alimentação consciente) pode auxiliar na regulação do peso corporal e no bem-estar emocional?",
+    "options": [
+      "Aumentando a ingestão de alimentos processados para suprir a necessidade de recompensas emocionais.",
+      "Diminuindo a percepção da fome, levando a uma ingestão alimentar reduzida.",
+      "Promovendo a atenção plena à experiência alimentar, aumentando a saciedade e a conexão com as sensações corporais.",
+      "Ignorando as emoções associadas à alimentação para evitar compulsões."
+    ],
+    "correctAnswer": "Promovendo a atenção plena à experiência alimentar, aumentando a saciedade e a conexão com as sensações corporais.",
+    "explanation": "A alimentação consciente aumenta a consciência das sensações físicas de fome e saciedade, melhorando a regulação da ingestão alimentar. Ao prestar atenção aos sinais do corpo e às emoções associadas à comida, é possível comer de forma mais equilibrada e intuitiva, contribuindo para o controle de peso e o bem-estar. Curiosidade: estudos mostram que a prática regular de 'mindful eating' pode reduzir a compulsão alimentar e melhorar a relação com o próprio corpo.",
+    "id": "quiz-bem-estar-131",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "De que forma a integração da tecnologia, como aplicativos de meditação e rastreadores de atividade física, pode afetar a eficácia das práticas de bem-estar e gerar resultados paradoxais?",
+    "options": [
+      "A tecnologia sempre aumenta a eficácia das práticas de bem-estar, pois promove o monitoramento constante do progresso.",
+      "Os aplicativos de meditação podem substituir completamente a terapia tradicional, sendo uma solução eficaz e barata para problemas complexos.",
+      "O uso excessivo de tecnologia para monitorar o bem-estar pode gerar ansiedade por desempenho e comparação social, prejudicando a saúde mental.",
+      "A tecnologia não interfere no bem-estar, pois as práticas de bem-estar são independentes da tecnologia para gerar resultados positivos."
+    ],
+    "correctAnswer": "O uso excessivo de tecnologia para monitorar o bem-estar pode gerar ansiedade por desempenho e comparação social, prejudicando a saúde mental.",
+    "explanation": "Embora a tecnologia possa auxiliar nas práticas de bem-estar, a ênfase na quantificação e a comparação com outros podem criar pressão e ansiedade.  A busca constante por resultados pode ser contraproducente, afetando a motivação e o prazer inerentes às práticas. Curiosidade:  O conceito de 'technostress' descreve o estresse gerado pelo uso excessivo de tecnologia e a dificuldade em gerenciar a informação.",
+    "id": "quiz-bem-estar-132",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de mindfulness pode auxiliar na melhora da qualidade do sono?",
+    "options": [
+      "Aumentando a produção de melatonina",
+      "Diminuindo a atividade da amígdala, reduzindo a ansiedade antes de dormir",
+      "Melhorando a digestão, contribuindo para um sono mais tranquilo",
+      "Aumentando os níveis de cortisol, promovendo um estado de alerta antes do sono"
+    ],
+    "correctAnswer": "Diminuindo a atividade da amígdala, reduzindo a ansiedade antes de dormir",
+    "explanation": "A prática de mindfulness reduz a atividade da amígdala, área do cérebro associada ao medo e ao estresse, o que facilita o relaxamento e a indução do sono. Curiosidade: A amígdala também está envolvida no processamento de memórias emocionais.",
+    "id": "quiz-bem-estar-133",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é geralmente recomendada para aliviar o estresse do dia a dia?",
+    "options": [
+      "Assistir a um filme de terror",
+      "Jogar videogame competitivo",
+      "Fazer uma caminhada na natureza",
+      "Ler notícias negativas"
+    ],
+    "correctAnswer": "Fazer uma caminhada na natureza",
+    "explanation": "Caminhar na natureza promove o contato com a natureza, reduzindo os níveis de cortisol e promovendo o relaxamento. Curiosidade: O contato com a natureza também aumenta os níveis de serotonina, neurotransmissor associado à sensação de bem-estar.",
+    "id": "quiz-bem-estar-134",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física de baixo impacto é ideal para iniciantes que buscam melhorar a flexibilidade e a consciência corporal?",
+    "options": [
+      "Corrida de longa distância",
+      "Levantamento de peso pesado",
+      "Yoga",
+      "Natação competitiva"
+    ],
+    "correctAnswer": "Yoga",
+    "explanation": "Yoga é uma prática de baixo impacto que melhora a flexibilidade, a força e a consciência corporal, sendo ideal para iniciantes.  Corrida, levantamento de peso e natação competitiva exigem maior condicionamento físico. Curiosidade: A prática regular de yoga pode reduzir significativamente os níveis de cortisol, o hormônio do estresse.",
+    "id": "quiz-bem-estar-135",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de mindfulness pode auxiliar na regulação emocional e na redução de sintomas de ansiedade?",
+    "options": [
+      "Aumentando a produção de cortisol",
+      "Diminuindo a atividade da amígdala cerebral",
+      "Estimulando a resposta de luta ou fuga",
+      "Aumentando a frequência cardíaca"
+    ],
+    "correctAnswer": "Diminuindo a atividade da amígdala cerebral",
+    "explanation": "O mindfulness reduz a atividade da amígdala, área do cérebro associada ao medo e à ansiedade. Isso contribui para uma melhor regulação emocional. Aumentar o cortisol, estimular a resposta de luta ou fuga, e aumentar a frequência cardíaca são efeitos contrários ao mindfulness. Curiosidade: Estudos mostram que a prática regular de mindfulness pode aumentar o volume de matéria cinzenta no hipocampo, região do cérebro relacionada à memória e aprendizagem.",
+    "id": "quiz-bem-estar-136",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades é geralmente considerada uma prática eficaz para melhorar o foco e a concentração?",
+    "options": [
+      "Assistir televisão.",
+      "Navegar nas redes sociais.",
+      "Meditação Mindfulness.",
+      "Jogar videogame."
+    ],
+    "correctAnswer": "Meditação Mindfulness.",
+    "explanation": "A meditação Mindfulness treina a mente para se concentrar no momento presente, melhorando o foco e a capacidade de concentração. As outras opções tendem a distrair a mente e dificultar a concentração. Curiosidade: Apenas alguns minutos de meditação diária já podem trazer benefícios significativos para a concentração.",
+    "id": "quiz-bem-estar-137",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de ioga pode contribuir para a melhoria da saúde mental?",
+    "options": [
+      "Aumentando os níveis de cortisol, hormônio do estresse.",
+      "Diminuindo a capacidade de concentração e foco.",
+      "Promovendo o isolamento social e a introspecção excessiva.",
+      "Reduzindo os níveis de ansiedade e melhorando a qualidade do sono."
+    ],
+    "correctAnswer": "Reduzindo os níveis de ansiedade e melhorando a qualidade do sono.",
+    "explanation": "A ioga combina exercícios físicos, respiração consciente e meditação, que juntos reduzem a produção de cortisol (hormônio do estresse) e promovem o relaxamento, melhorando a qualidade do sono e reduzindo a ansiedade. Curiosidade: Existem diversos tipos de ioga, cada um com foco em diferentes benefícios, como flexibilidade, força ou meditação profunda.",
+    "id": "quiz-bem-estar-138",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'earthing' (contato com a terra) pode beneficiar o sono e reduzir a inflamação crônica?",
+    "options": [
+      "Aumentando os níveis de cortisol e melhorando a resposta imune.",
+      "Reduzindo os níveis de cortisol e diminuindo a inflamação.",
+      "Não apresenta benefícios comprovados para o sono ou inflamação.",
+      "Aumentando a frequência cardíaca e melhorando a digestão."
+    ],
+    "correctAnswer": "Reduzindo os níveis de cortisol e diminuindo a inflamação.",
+    "explanation": "Estudos sugerem que o contato com a terra pode reduzir a inflamação crônica e os níveis de cortisol, hormônio do estresse, promovendo um sono mais reparador. Curiosidade: A prática de 'earthing' é também conhecida como grounding.",
+    "id": "quiz-bem-estar-139",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'earthing' (contato com a terra) pode beneficiar a saúde mental?",
+    "options": [
+      "Aumentando os níveis de serotonina",
+      "Diminuindo a inflamação crônica, que impacta o humor",
+      "Melhorando a qualidade do sono, reduzindo a ansiedade",
+      "Todas as alternativas estão corretas"
+    ],
+    "correctAnswer": "Todas as alternativas estão corretas",
+    "explanation": "O contato com a terra, através da pele, tem sido associado à redução da inflamação, melhora do sono e aumento da produção de serotonina, um neurotransmissor crucial para o bom humor e a estabilidade emocional. Curiosidade: Estudos sugerem que o 'earthing' pode melhorar a resposta imunológica.",
+    "id": "quiz-bem-estar-140",
+    "categoryId": "bem-estar"
   }
 ]

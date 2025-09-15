@@ -2086,5 +2086,327 @@
     "explanation": "A tiroxina (T4), um hormônio da tireoide, desempenha um papel crucial na regulação do metabolismo basal, influenciando o consumo de energia em repouso. Os outros hormônios têm funções importantes, mas não são os principais reguladores do metabolismo basal.",
     "id": "quiz-saude-149",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual vitamina é essencial para a saúde óssea?",
+    "options": [
+      "Vitamina A",
+      "Vitamina D",
+      "Vitamina C",
+      "Vitamina K"
+    ],
+    "correctAnswer": "Vitamina D",
+    "explanation": "A vitamina D é crucial para a absorção de cálcio, essencial para ossos fortes.  As outras vitaminas também são importantes para a saúde, mas não desempenham o mesmo papel na saúde óssea. Curiosidade: A exposição ao sol ajuda o corpo a produzir vitamina D!",
+    "id": "quiz-saude-150",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da falta de sono na imunidade?",
+    "options": [
+      "Melhora a imunidade",
+      "Não afeta a imunidade",
+      "Diminui a imunidade",
+      "Aumenta a imunidade temporariamente"
+    ],
+    "correctAnswer": "Diminui a imunidade",
+    "explanation": "A falta de sono prejudica a produção de células imunológicas, deixando o corpo mais vulnerável a infecções.  O sono adequado é vital para um sistema imunológico forte. Curiosidade: Durante o sono, o corpo libera citocinas, que combatem inflamações e infecções!",
+    "id": "quiz-saude-151",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, um desequilíbrio da microbiota intestinal, pode contribuir para o desenvolvimento de doenças autoimunes?",
+    "options": [
+      "A disbiose não tem relação com doenças autoimunes.",
+      "A disbiose pode levar à inflamação crônica de baixo grau, que desencadeia respostas autoimunes.",
+      "A disbiose aumenta a produção de anticorpos que atacam tecidos saudáveis, mas não está relacionada à inflamação.",
+      "A disbiose diminui a imunidade inata, tornando o corpo mais suscetível a infecções, mas não a doenças autoimunes."
+    ],
+    "correctAnswer": "A disbiose pode levar à inflamação crônica de baixo grau, que desencadeia respostas autoimunes.",
+    "explanation": "A disbiose pode levar a um aumento da permeabilidade intestinal, permitindo que substâncias nocivas entrem na corrente sanguínea e estimulem respostas inflamatórias. Essa inflamação crônica pode contribuir para o desenvolvimento de doenças autoimunes. Curiosamente, estudos demonstram que o transplante de microbiota fecal pode ter efeitos benéficos em algumas doenças autoimunes.",
+    "id": "quiz-saude-152",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que é a disbiose intestinal e como ela afeta a saúde?",
+    "options": [
+      "Um desequilíbrio da microbiota intestinal, podendo levar a problemas digestivos e imunológicos",
+      "Uma inflamação crônica no intestino delgado, causando diarreia crônica",
+      "Um tipo de infecção intestinal viral, causada por contaminação alimentar",
+      "Um distúrbio metabólico que afeta a absorção de nutrientes"
+    ],
+    "correctAnswer": "Um desequilíbrio da microbiota intestinal, podendo levar a problemas digestivos e imunológicos",
+    "explanation": "A disbiose intestinal ocorre quando há um desequilíbrio entre as bactérias benéficas e nocivas no intestino, afetando a saúde digestiva e imunológica. Curiosidade: A disbiose pode estar associada a doenças como obesidade, diabetes tipo 2 e doenças autoimunes.",
+    "id": "quiz-saude-153",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da disbiose intestinal na absorção de nutrientes?",
+    "options": [
+      "Aumenta a absorção de todos os nutrientes.",
+      "Diminui a absorção de alguns nutrientes, mas aumenta a de outros.",
+      "Não afeta a absorção de nutrientes.",
+      "Diminui a absorção de vários nutrientes, podendo levar a deficiências."
+    ],
+    "correctAnswer": "Diminui a absorção de vários nutrientes, podendo levar a deficiências.",
+    "explanation": "A disbiose intestinal, ou desequilíbrio da microbiota intestinal, prejudica a digestão e absorção de nutrientes. Bactérias benéficas auxiliam na quebra de alimentos e na absorção, e sua falta impacta negativamente esse processo. Curiosidade: Algumas pesquisas sugerem uma ligação entre disbiose e obesidade.",
+    "id": "quiz-saude-154",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a neuroplasticidade, influenciada pela dieta, pode auxiliar na recuperação de um AVC?",
+    "options": [
+      "A neuroplasticidade não é afetada pela dieta e, portanto, não influencia na recuperação de AVC.",
+      "Uma dieta rica em gorduras saturadas melhora a neuroplasticidade e acelera a recuperação.",
+      "Uma dieta rica em antioxidantes e ômega-3 pode promover a neuroplasticidade, auxiliando na recuperação, criando novas conexões neurais.",
+      "A dieta não tem influência na recuperação de um AVC, apenas a fisioterapia é eficaz."
+    ],
+    "correctAnswer": "Uma dieta rica em antioxidantes e ômega-3 pode promover a neuroplasticidade, auxiliando na recuperação, criando novas conexões neurais.",
+    "explanation": "O cérebro possui capacidade de se reorganizar após lesões. Uma dieta rica em nutrientes que combatem a inflamação e protegem os neurônios pode otimizar esse processo. Curiosidade: Exercícios físicos também estimulam a neuroplasticidade.",
+    "id": "quiz-saude-155",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre os efeitos da cafeína e da nicotina no corpo?",
+    "options": [
+      "Ambas aumentam a pressão arterial e a frequência cardíaca, mas a nicotina causa mais dependência.",
+      "A cafeína aumenta a energia e a concentração, enquanto a nicotina causa relaxamento e sonolência.",
+      "A cafeína é um estimulante suave, enquanto a nicotina é um depressor do sistema nervoso central.",
+      "Ambas são estimulantes, mas a cafeína tem efeitos mais duradouros e menos prejudiciais à saúde."
+    ],
+    "correctAnswer": "Ambas aumentam a pressão arterial e a frequência cardíaca, mas a nicotina causa mais dependência.",
+    "explanation": "Tanto a cafeína quanto a nicotina são estimulantes que afetam o sistema nervoso central, aumentando a pressão arterial e a frequência cardíaca.  No entanto, a nicotina é altamente viciante, enquanto a dependência da cafeína é geralmente mais leve. Curiosidade: A nicotina atua sobre os receptores de acetilcolina no cérebro, enquanto a cafeína bloqueia os receptores de adenosina.",
+    "id": "quiz-saude-156",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre os exercícios aeróbicos e anaeróbicos, além da presença ou ausência de oxigênio?",
+    "options": [
+      "A intensidade do exercício: aeróbicos são sempre de alta intensidade, enquanto anaeróbicos são de baixa intensidade.",
+      "Os grupos musculares envolvidos: aeróbicos trabalham grandes grupos musculares, enquanto anaeróbicos trabalham pequenos grupos musculares.",
+      "A duração do exercício: aeróbicos são de longa duração e baixa intensidade, enquanto anaeróbicos são de curta duração e alta intensidade.",
+      "O tipo de metabolismo energético predominante: aeróbicos utilizam principalmente o metabolismo aeróbico, enquanto anaeróbicos utilizam principalmente o metabolismo anaeróbico."
+    ],
+    "correctAnswer": "O tipo de metabolismo energético predominante: aeróbicos utilizam principalmente o metabolismo aeróbico, enquanto anaeróbicos utilizam principalmente o metabolismo anaeróbico.",
+    "explanation": "A principal diferença reside no tipo de metabolismo energético. Exercícios aeróbicos utilizam oxigênio para produzir energia, enquanto exercícios anaeróbicos produzem energia sem oxigênio.  Curiosidade: O ácido lático, frequentemente associado à fadiga muscular, é um subproduto do metabolismo anaeróbico.",
+    "id": "quiz-saude-157",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, um desequilíbrio da microbiota intestinal, pode afetar a função imunológica?",
+    "options": [
+      "A disbiose não afeta a imunidade.",
+      "A disbiose estimula a resposta imune, melhorando a defesa contra patógenos.",
+      "A disbiose pode levar à inflamação crônica de baixo grau e modular a resposta imune, aumentando a suscetibilidade a doenças autoimunes e infecções.",
+      "A disbiose fortalece a barreira intestinal, prevenindo a entrada de patógenos e melhorando a imunidade."
+    ],
+    "correctAnswer": "A disbiose pode levar à inflamação crônica de baixo grau e modular a resposta imune, aumentando a suscetibilidade a doenças autoimunes e infecções.",
+    "explanation": "O desequilíbrio da microbiota intestinal pode levar à inflamação crônica de baixo grau, afetando a comunicação entre o intestino e o sistema imunológico, aumentando a permeabilidade intestinal e a resposta imune inadequada.  Curiosidade: Cerca de 70% do sistema imunológico está localizado no intestino.",
+    "id": "quiz-saude-158",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a fadiga física e a fadiga mental?",
+    "options": [
+      "A fadiga física é causada por esforço muscular intenso, enquanto a fadiga mental é causada por estresse e falta de sono.",
+      "Não há diferença significativa entre os dois tipos de fadiga.",
+      "A fadiga física afeta apenas os músculos, enquanto a fadiga mental afeta todo o corpo.",
+      "A fadiga física é mais fácil de tratar do que a fadiga mental."
+    ],
+    "correctAnswer": "A fadiga física é causada por esforço muscular intenso, enquanto a fadiga mental é causada por estresse e falta de sono.",
+    "explanation": "A fadiga física resulta de esforço muscular excessivo, enquanto a fadiga mental é um estado de exaustão cognitiva e emocional.  Curiosidade: A fadiga mental pode ser agravada por deficiências nutricionais.",
+    "id": "quiz-saude-159",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a inflamação crônica de baixo grau contribui para o desenvolvimento de doenças neurodegenerativas?",
+    "options": [
+      "A inflamação crônica não tem relação com doenças neurodegenerativas.",
+      "Ela estimula a produção de neurotransmissores protetores.",
+      "Ela acelera a formação de novas conexões neurais.",
+      "Ela danifica gradualmente os neurônios e interrompe as funções cerebrais."
+    ],
+    "correctAnswer": "Ela danifica gradualmente os neurônios e interrompe as funções cerebrais.",
+    "explanation": "A inflamação crônica de baixo grau causa danos oxidativos e acúmulo de proteínas mal dobradas no cérebro, levando à morte neuronal e disfunção cognitiva.  Curiosidade:  A dieta mediterrânea, rica em antioxidantes, pode ajudar a reduzir a inflamação crônica.",
+    "id": "quiz-saude-160",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de exercícios de força impacta a densidade óssea e a prevenção da osteoporose?",
+    "options": [
+      "Diminui a densidade óssea, aumentando o risco de osteoporose.",
+      "Não afeta significativamente a densidade óssea.",
+      "Aumenta a densidade óssea, prevenindo a osteoporose.",
+      "Causa desgaste articular, piorando a osteoporose."
+    ],
+    "correctAnswer": "Aumenta a densidade óssea, prevenindo a osteoporose.",
+    "explanation": "Exercícios de força estimulam a formação de novos ossos, aumentando a densidade e a resistência óssea, o que ajuda na prevenção da osteoporose.  Curiosidade: Os ossos respondem aos estímulos mecânicos, ficando mais fortes com o estresse adequado do exercício físico.",
+    "id": "quiz-saude-161",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva o mecanismo pelo qual a disbiose intestinal pode contribuir para o desenvolvimento de doenças autoimunes, incluindo a relação entre a permeabilidade intestinal e a resposta imunológica.",
+    "options": [
+      "A disbiose não tem relação com doenças autoimunes.",
+      "A disbiose causa inflamação, mas não afeta a permeabilidade intestinal.",
+      "A permeabilidade intestinal aumentada pela disbiose permite que antígenos intestinais entrem na corrente sanguínea, desencadeando uma resposta imunológica anormal.",
+      "A disbiose inibe a resposta imunológica, aumentando a suscetibilidade a doenças autoimunes."
+    ],
+    "correctAnswer": "A permeabilidade intestinal aumentada pela disbiose permite que antígenos intestinais entrem na corrente sanguínea, desencadeando uma resposta imunológica anormal.",
+    "explanation": "A disbiose altera a permeabilidade intestinal, permitindo a passagem de substâncias que normalmente seriam bloqueadas, levando a uma resposta inflamatória e autoimune. Curiosidade:  A diversidade da microbiota intestinal é um fator chave na prevenção da permeabilidade intestinal.",
+    "id": "quiz-saude-162",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a relação entre a microbiota intestinal e a produção de neurotransmissores?",
+    "options": [
+      "A microbiota não influencia a produção de neurotransmissores.",
+      "A microbiota intestinal produz neurotransmissores diretamente, sem a intervenção do cérebro.",
+      "A microbiota intestinal influencia a produção de neurotransmissores através da produção de metabólitos que atuam no cérebro.",
+      "A microbiota intestinal só afeta neurotransmissores relacionados ao humor e não ao sistema nervoso central."
+    ],
+    "correctAnswer": "A microbiota intestinal influencia a produção de neurotransmissores através da produção de metabólitos que atuam no cérebro.",
+    "explanation": "A microbiota intestinal produz metabólitos que podem afetar a produção de neurotransmissores no cérebro, influenciando o comportamento e a saúde mental. Curiosamente, o eixo intestino-cérebro é uma área de pesquisa em constante crescimento, mostrando a complexa interação entre a saúde intestinal e a saúde mental.",
+    "id": "quiz-saude-163",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a qualidade do sono impacta na regulação hormonal e no metabolismo?",
+    "options": [
+      "A qualidade do sono não afeta a regulação hormonal nem o metabolismo.",
+      "Dormir bem aumenta a produção de grelina, estimulando o apetite, e diminui a leptina, dificultando a queima de gordura.",
+      "A falta de sono afeta a produção de hormônios como cortisol e insulina, podendo levar à resistência à insulina e aumento de peso.",
+      "Dormir bem reduz os níveis de cortisol, melhorando a sensibilidade à insulina e o metabolismo, enquanto a falta de sono tem o efeito contrário."
+    ],
+    "correctAnswer": "A falta de sono afeta a produção de hormônios como cortisol e insulina, podendo levar à resistência à insulina e aumento de peso.",
+    "explanation": "A falta de sono desregula a produção de vários hormônios, incluindo o cortisol (hormônio do estresse) e a insulina (hormônio que regula o açúcar no sangue). Níveis elevados de cortisol podem levar à resistência à insulina, dificultando o controle do açúcar no sangue e aumentando o risco de ganho de peso. Curiosamente, estudos mostram que a privação do sono pode levar a um aumento do apetite e a uma preferência por alimentos mais calóricos.",
+    "id": "quiz-saude-164",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação complexa entre a microbiota intestinal, a inflamação crônica de baixo grau e o desenvolvimento de doenças autoimunes.",
+    "options": [
+      "A microbiota intestinal não tem relação com a inflamação ou doenças autoimunes.",
+      "Uma microbiota desbalanceada pode levar à inflamação crônica, mas não está diretamente ligada a doenças autoimunes.",
+      "A inflamação crônica de baixo grau, causada por uma microbiota desbalanceada, pode desencadear ou exacerbar doenças autoimunes ao afetar a resposta imunológica.",
+      "Doenças autoimunes causam inflamação crônica, que por sua vez afeta a microbiota intestinal, mas não há relação causal direta."
+    ],
+    "correctAnswer": "A inflamação crônica de baixo grau, causada por uma microbiota desbalanceada, pode desencadear ou exacerbar doenças autoimunes ao afetar a resposta imunológica.",
+    "explanation": "Um desequilíbrio na microbiota intestinal (disbiose) pode levar à produção de moléculas pró-inflamatórias, resultando em inflamação crônica de baixo grau. Essa inflamação pode afetar o sistema imunológico, aumentando a permeabilidade intestinal e permitindo que antígenos passem para a corrente sanguínea, desencadeando respostas autoimunes.  Curiosamente, o transplante de microbiota fecal tem demonstrado resultados promissores no tratamento de algumas doenças autoimunes.",
+    "id": "quiz-saude-165",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de exercícios físicos impacta a saúde cardiovascular?",
+    "options": [
+      "Diminui o colesterol bom (HDL) e aumenta o colesterol ruim (LDL)",
+      "Aumenta a pressão arterial e o risco de doenças cardíacas",
+      "Melhora a função cardíaca, reduz a pressão arterial e o risco de doenças cardíacas",
+      "Não apresenta impacto significativo na saúde cardiovascular"
+    ],
+    "correctAnswer": "Melhora a função cardíaca, reduz a pressão arterial e o risco de doenças cardíacas",
+    "explanation": "Exercícios regulares fortalecem o coração, melhoram a circulação sanguínea e reduzem a pressão arterial, diminuindo o risco de doenças cardiovasculares. Curiosidade: Atividade física também auxilia na regulação dos níveis de glicose no sangue, prevenindo problemas como diabetes.",
+    "id": "quiz-saude-166",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a fadiga muscular causada por esforço intenso e a fadiga muscular crônica relacionada a doenças como a fibromialgia?",
+    "options": [
+      "A fadiga intensa é aliviada com repouso, enquanto a fadiga crônica persiste mesmo com descanso.",
+      "Ambas as fadigas são tratadas com os mesmos medicamentos.",
+      "A fadiga intensa afeta apenas os músculos esqueléticos, enquanto a fadiga crônica afeta todos os músculos do corpo.",
+      "Não há diferença; ambas são causadas por sobrecarga muscular."
+    ],
+    "correctAnswer": "A fadiga intensa é aliviada com repouso, enquanto a fadiga crônica persiste mesmo com descanso.",
+    "explanation": "A fadiga muscular intensa resulta do acúmulo de metabólitos e depleção de glicogênio muscular, sendo resolvida com repouso. Já a fadiga crônica, característica de condições como fibromialgia, é multifatorial e não responde ao descanso, envolvendo mecanismos neurológicos e imunológicos complexos. Curiosidade: a fadiga crônica pode estar associada a alterações no sistema nervoso central.",
+    "id": "quiz-saude-167",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, ou seja, o desequilíbrio da microbiota intestinal, pode influenciar o desenvolvimento de doenças autoimunes, considerando a interação entre o intestino e o sistema imunológico?",
+    "options": [
+      "A disbiose não afeta o desenvolvimento de doenças autoimunes.",
+      "A disbiose aumenta a permeabilidade intestinal, permitindo que antígenos passem para a corrente sanguínea, ativando o sistema imunológico e desencadeando uma resposta autoimune.",
+      "A disbiose diminui a resposta imune, aumentando a suscetibilidade a infecções, mas não afeta doenças autoimunes.",
+      "A disbiose estimula a produção de anticorpos que combatem as bactérias intestinais, mas não afeta as células do próprio corpo."
+    ],
+    "correctAnswer": "A disbiose aumenta a permeabilidade intestinal, permitindo que antígenos passem para a corrente sanguínea, ativando o sistema imunológico e desencadeando uma resposta autoimune.",
+    "explanation": "A disbiose pode levar à permeabilidade intestinal aumentada (\"intestino permeável\"), permitindo que antígenos bacterianos ou outros componentes passem para a circulação sanguínea, desencadeando uma resposta inflamatória e autoimune.  O intestino abriga grande parte do sistema imunológico, e sua desregulação pode levar a respostas imunológicas anormais. Curiosidade:  Estudos sugerem que a composição da microbiota intestinal pode influenciar a expressão de genes relacionados à autoimunidade.",
+    "id": "quiz-saude-168",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal pode modular a resposta imunológica e contribuir para o desenvolvimento de doenças autoimunes?",
+    "options": [
+      "A disbiose não afeta a resposta imunológica.",
+      "A disbiose aumenta a permeabilidade intestinal, permitindo que antígenos entrem na corrente sanguínea, ativando o sistema imunológico e potencialmente desencadeando doenças autoimunes.",
+      "A disbiose diminui a permeabilidade intestinal, prevenindo doenças autoimunes.",
+      "A disbiose aumenta a produção de anticorpos benéficos, protegendo contra doenças autoimunes."
+    ],
+    "correctAnswer": "A disbiose aumenta a permeabilidade intestinal, permitindo que antígenos entrem na corrente sanguínea, ativando o sistema imunológico e potencialmente desencadeando doenças autoimunes.",
+    "explanation": "Um desequilíbrio na microbiota intestinal (disbiose) pode danificar a barreira intestinal, aumentando sua permeabilidade. Isso permite que moléculas e antígenos passem para a corrente sanguínea, desencadeando uma resposta imunológica e potencialmente levando ao desenvolvimento de doenças autoimunes. Curiosidade: Estudos sugerem uma forte correlação entre a composição da microbiota intestinal e a suscetibilidade a doenças autoimunes.",
+    "id": "quiz-saude-169",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explique a relação entre a microbiota intestinal, a permeabilidade intestinal e o desenvolvimento de doenças autoimunes.",
+    "options": [
+      "A microbiota não afeta a permeabilidade intestinal, nem o desenvolvimento de doenças autoimunes.",
+      "A permeabilidade intestinal aumentada permite que bactérias 'boas' entrem na corrente sanguínea, estimulando o sistema imunológico.",
+      "A disbiose intestinal aumenta a permeabilidade intestinal, permitindo que antígenos e toxinas entrem na corrente sanguínea, desencadeando respostas imunológicas anormais e autoimunidade.",
+      "A permeabilidade intestinal reduzida protege contra doenças autoimunes, independentemente da composição da microbiota intestinal."
+    ],
+    "correctAnswer": "A disbiose intestinal aumenta a permeabilidade intestinal, permitindo que antígenos e toxinas entrem na corrente sanguínea, desencadeando respostas imunológicas anormais e autoimunidade.",
+    "explanation": "Um desequilíbrio na microbiota intestinal (disbiose) pode danificar a barreira intestinal, aumentando a permeabilidade. Isso permite que substâncias que normalmente ficariam no intestino entrem na corrente sanguínea, levando a respostas inflamatórias e autoimunes. Curiosidade:  Algumas pesquisas sugerem que o consumo de alimentos ricos em fibras pode ajudar a manter a integridade da barreira intestinal.",
+    "id": "quiz-saude-170",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da falta de sono na função imunológica?",
+    "options": [
+      "Aumenta a produção de células de defesa",
+      "Não afeta a função imunológica",
+      "Diminui a eficácia do sistema imunológico",
+      "Estimula a resposta inflamatória benéfica"
+    ],
+    "correctAnswer": "Diminui a eficácia do sistema imunológico",
+    "explanation": "A falta de sono reduz a produção de citocinas, importantes para a resposta imune, aumentando a suscetibilidade a infecções. Curiosamente, estudos mostram que a privação do sono pode levar a um aumento da inflamação crônica de baixo grau.",
+    "id": "quiz-saude-171",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a hipertrofia e a hiperplasia muscular, além do aumento de tamanho das fibras musculares?",
+    "options": [
+      "A hipertrofia envolve o aumento do número de células musculares, enquanto a hiperplasia aumenta o tamanho das células.",
+      "A hipertrofia é um processo patológico, enquanto a hiperplasia é fisiológica.",
+      "A hipertrofia resulta do aumento do tamanho das células musculares, enquanto a hiperplasia resulta do aumento do número de células musculares.",
+      "Não há diferença significativa entre os dois processos; ambos resultam em aumento da massa muscular."
+    ],
+    "correctAnswer": "A hipertrofia resulta do aumento do tamanho das células musculares, enquanto a hiperplasia resulta do aumento do número de células musculares.",
+    "explanation": "A hipertrofia muscular se refere ao aumento do tamanho das fibras musculares existentes, enquanto a hiperplasia muscular envolve o aumento do número de células musculares.  A hiperplasia é um processo menos comum que a hipertrofia no crescimento muscular induzido pelo exercício. Curiosidade:  A hiperplasia muscular é mais pronunciada em indivíduos com maior predisposição genética para o ganho de massa muscular.",
+    "id": "quiz-saude-172",
+    "categoryId": "saude"
   }
 ]
