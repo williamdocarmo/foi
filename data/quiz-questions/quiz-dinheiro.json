@@ -1874,5 +1874,271 @@
     "explanation": "O potencial de crescimento é importante, mas não garante sucesso.  O histórico de lucratividade (se houver), a qualidade da equipe e do plano de negócios, e a análise de mercado e concorrência ajudam a avaliar a viabilidade e o risco do investimento.  Curiosidade:  Investimento em startups é considerado um investimento de alto risco e alto retorno.",
     "id": "quiz-dinheiro-134",
     "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que é um gasto?",
+    "options": [
+      "Recebimento de dinheiro",
+      "Pagamento efetuado",
+      "Aumento do patrimônio",
+      "Investimento em ativos"
+    ],
+    "correctAnswer": "Pagamento efetuado",
+    "explanation": "Um gasto representa a saída de dinheiro de uma pessoa ou empresa. Curiosidade: Gastos podem ser classificados como fixos ou variáveis.",
+    "id": "quiz-dinheiro-135",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "O que significa poupar dinheiro?",
+    "options": [
+      "Gastar todo o dinheiro disponível",
+      "Investir em ações de alto risco",
+      "Guardar dinheiro para uso futuro",
+      "Doar todo o dinheiro para caridade"
+    ],
+    "correctAnswer": "Guardar dinheiro para uso futuro",
+    "explanation": "Poupar significa guardar dinheiro para uso futuro, seja para emergências, metas de longo prazo ou aposentadoria. Curiosidade: Poupar regularmente, mesmo pequenas quantias, pode fazer uma grande diferença a longo prazo.",
+    "id": "quiz-dinheiro-136",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "O que são juros?",
+    "options": [
+      "O valor principal de um empréstimo",
+      "O custo de pedir dinheiro emprestado",
+      "O valor total a ser pago em um empréstimo",
+      "Um tipo de investimento de baixo risco"
+    ],
+    "correctAnswer": "O custo de pedir dinheiro emprestado",
+    "explanation": "Juros representam o custo do dinheiro emprestado, uma taxa cobrada pelo credor. Curiosidade: Os juros podem ser simples ou compostos.",
+    "id": "quiz-dinheiro-137",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "O que é o Valor Presente Líquido (VPL)?",
+    "options": [
+      "O valor futuro de um investimento descontado para o presente",
+      "O valor total de um investimento",
+      "O lucro líquido de um investimento",
+      "O valor presente de um investimento somado aos seus fluxos de caixa futuros"
+    ],
+    "correctAnswer": "O valor futuro de um investimento descontado para o presente",
+    "explanation": "O VPL é uma técnica de avaliação de investimentos que calcula o valor presente dos fluxos de caixa futuros, descontados a uma taxa de juros. Curiosidade: Um VPL positivo indica que o investimento é lucrativo.",
+    "id": "quiz-dinheiro-138",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a taxa de câmbio afeta as exportações de um país?",
+    "options": [
+      "Não afeta",
+      "Aumenta as exportações com taxa alta",
+      "Aumenta as exportações com taxa baixa",
+      "Diminui as exportações com taxa baixa"
+    ],
+    "correctAnswer": "Aumenta as exportações com taxa baixa",
+    "explanation": "Uma taxa de câmbio baixa torna os produtos de um país mais baratos para os compradores estrangeiros, aumentando a competitividade e as exportações. Curiosidade: Taxas de câmbio flutuantes são influenciadas por diversos fatores, como oferta e demanda.",
+    "id": "quiz-dinheiro-139",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Você está analisando dois investimentos: um Certificado de Depósito Bancário (CDB) com rentabilidade prefixada de 10% ao ano e um fundo de ações com potencial de retorno anual de 15%, mas com maior volatilidade. Considerando um horizonte de investimento de 3 anos e aversão moderada a riscos, qual investimento é mais adequado e por quê?",
+    "options": [
+      "CDB, pois oferece retorno garantido e menor risco.",
+      "Fundo de ações, pois o potencial de retorno é maior, compensando o risco.",
+      "Ambos são igualmente adequados, pois dependem do perfil do investidor.",
+      "Nenhum dos dois, pois investimentos de longo prazo são mais seguros."
+    ],
+    "correctAnswer": "CDB, pois oferece retorno garantido e menor risco.",
+    "explanation": "Para um investidor com aversão moderada a riscos e um horizonte de 3 anos, a estabilidade do CDB é preferível. Embora o fundo de ações ofereça maior potencial de retorno, seu risco é significativamente maior.  Curiosidade: A rentabilidade de um CDB prefixado é conhecida antecipadamente, eliminando a incerteza sobre o retorno.",
+    "id": "quiz-dinheiro-140",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a aquisição de uma concorrente. Qual fator financeiro, além da avaliação patrimonial, é crucial para determinar o preço justo da aquisição, considerando sinergias potenciais e riscos de integração?",
+    "options": [
+      "O valor contábil do ativo da empresa alvo.",
+      "A receita líquida da empresa alvo nos últimos 5 anos.",
+      "A geração de caixa futura da empresa alvo, considerando sinergias e riscos de integração.",
+      "O preço de mercado das ações da empresa alvo."
+    ],
+    "correctAnswer": "A geração de caixa futura da empresa alvo, considerando sinergias e riscos de integração.",
+    "explanation": "O valor de uma empresa está intrinsecamente ligado à sua capacidade de gerar caixa no futuro.  Considerar sinergias (melhoras operacionais resultantes da fusão) e riscos de integração (custos e dificuldades da fusão) é fundamental para estimar o valor presente líquido (VPL) dos fluxos de caixa futuros. O valor contábil, receita passada e preço de mercado são indicadores importantes, mas não refletem totalmente o potencial da empresa após a aquisição. Curiosidade:  O método de avaliação de empresas baseado em fluxo de caixa descontado é amplamente utilizado em fusões e aquisições.",
+    "id": "quiz-dinheiro-141",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Imagine que você precisa escolher entre dois investimentos: um com baixo risco e retorno anual de 5%, e outro com alto risco e potencial retorno anual de 15%.  Considerando um horizonte de investimento de 5 anos e sua tolerância a risco, qual investimento seria mais adequado para você e por quê?",
+    "options": [
+      "O investimento de baixo risco, pois garante um retorno estável e previsível.",
+      "O investimento de alto risco, pois o potencial de retorno é significativamente maior.",
+      "Ambos os investimentos são igualmente adequados, dependendo da necessidade de capital.",
+      "Nenhum dos investimentos é adequado, pois ambos apresentam riscos e incertezas."
+    ],
+    "correctAnswer": "O investimento de baixo risco, pois garante um retorno estável e previsível.",
+    "explanation": "A escolha ideal depende do perfil de risco do investidor e do horizonte de tempo. Para um horizonte de 5 anos, um investidor avesso a risco preferiria um retorno menor, mas garantido.  O investimento de alto risco pode gerar lucros maiores, mas também pode resultar em perdas significativas. Curiosidade: O retorno de um investimento de baixo risco tende a acompanhar a inflação, garantindo que o poder de compra não diminua com o tempo.",
+    "id": "quiz-dinheiro-142",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a aquisição de uma concorrente por meio de uma emissão de ações (swap).  Considerando as diferentes estruturas de capital das duas empresas e o impacto sobre o resultado por ação (EPS) após a fusão, como a relação de troca (exchange ratio) entre as ações das duas empresas deve ser determinada para maximizar o valor da empresa combinada e quais os principais fatores a serem considerados?",
+    "options": [
+      "A relação de troca deve ser baseada na relação entre os lucros líquidos das duas empresas.",
+      "A relação de troca deve ser baseada na relação entre os valores de mercado das duas empresas.",
+      "A relação de troca deve ser baseada na relação entre os ativos das duas empresas.",
+      "A relação de troca é irrelevante para o valor da empresa combinada."
+    ],
+    "correctAnswer": "A relação de troca deve ser baseada na relação entre os valores de mercado das duas empresas.",
+    "explanation": "A relação de troca ideal visa maximizar o valor da empresa combinada após a aquisição.  O valor de mercado reflete as expectativas futuras dos investidores, sendo um indicador mais preciso do que lucros líquidos ou ativos.  Fatores como sinergias, riscos de integração e a estrutura de capital resultante devem ser cuidadosamente considerados. Curiosidade: O processo de avaliação de empresas para fusões e aquisições pode envolver múltiplos métodos de valuation, como o fluxo de caixa descontado (DCF) e múltiplos de mercado.",
+    "id": "quiz-dinheiro-143",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um cheque e um boleto bancário?",
+    "options": [
+      "Um cheque é emitido pelo comprador, enquanto um boleto é emitido pelo vendedor.",
+      "Um cheque garante pagamento imediato, enquanto um boleto tem data de vencimento.",
+      "Um cheque pode ser usado para qualquer tipo de pagamento, enquanto um boleto é específico para uma transação.",
+      "Um cheque precisa ser compensado, enquanto um boleto pode ser pago em diversos locais."
+    ],
+    "correctAnswer": "Um cheque é emitido pelo comprador, enquanto um boleto é emitido pelo vendedor.",
+    "explanation": "A principal diferença está na origem e no uso. O cheque é uma ordem de pagamento emitida pelo comprador (devedor) ao banco, enquanto o boleto é um documento de cobrança emitido pelo vendedor (credor) para o comprador. Curiosidade: O uso do cheque vem diminuindo com o advento de meios de pagamento eletrônicos, enquanto o boleto permanece bastante comum no Brasil.",
+    "id": "quiz-dinheiro-144",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a emissão de notas comerciais para financiar suas operações.  Considerando o risco de crédito da empresa e as condições atuais do mercado, qual fator é crucial para determinar o spread (diferencial) a ser pago sobre a taxa de referência (ex: CDI)?",
+    "options": [
+      "A taxa de inflação esperada para o período.",
+      "O tamanho do projeto a ser financiado.",
+      "A reputação do CEO da empresa.",
+      "A classificação de risco de crédito da empresa."
+    ],
+    "correctAnswer": "A classificação de risco de crédito da empresa.",
+    "explanation": "A classificação de risco de crédito reflete a probabilidade de inadimplência da empresa. Quanto maior o risco de crédito, maior o spread exigido pelos investidores para compensar o risco de perda. A taxa de inflação, o tamanho do projeto e a reputação do CEO podem influenciar, mas indiretamente. Curiosidade: O spread também pode variar conforme as condições de mercado, mesmo para empresas com mesma classificação de risco.",
+    "id": "quiz-dinheiro-145",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "João precisa escolher entre dois investimentos: um fundo de ações com alta volatilidade e potencial de retorno de 15% ao ano, e um fundo de renda fixa com baixo risco e retorno de 5% ao ano. Considerando um horizonte de investimento de 5 anos, qual fator é mais importante para João considerar além do retorno esperado?",
+    "options": [
+      "A taxa de inflação esperada para os próximos 5 anos",
+      "O imposto de renda incidente sobre os ganhos",
+      "Seu nível de tolerância ao risco",
+      "A taxa de câmbio do dólar"
+    ],
+    "correctAnswer": "Seu nível de tolerância ao risco",
+    "explanation": "A tolerância ao risco é crucial.  Se João é avesso a risco, o fundo de renda fixa é melhor, apesar do menor retorno. Se tolera mais risco, o fundo de ações pode ser mais adequado, apesar da maior volatilidade. A curiosidade é que a tolerância ao risco varia muito de pessoa para pessoa, e não há uma resposta certa.",
+    "id": "quiz-dinheiro-146",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Maria recebeu seu salário e quer guardar parte dele. Qual opção é a mais adequada para garantir a segurança do seu dinheiro a curto prazo?",
+    "options": [
+      "Investir em ações de empresas de tecnologia",
+      "Comprar um carro usado",
+      "Depositar em uma conta poupança",
+      "Comprar bitcoins"
+    ],
+    "correctAnswer": "Depositar em uma conta poupança",
+    "explanation": "Contas poupanças são a opção mais segura e acessível para guardar dinheiro a curto prazo, garantindo a liquidez do dinheiro. As outras opções envolvem riscos e menos liquidez.  Curiosidade:  a caderneta de poupança foi criada no Brasil em 1861.",
+    "id": "quiz-dinheiro-147",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um investimento em títulos do Tesouro Direto prefixado e um investimento em CDB prefixado de mesmo prazo e rentabilidade?",
+    "options": [
+      "Não há diferença significativa entre os dois investimentos.",
+      "Os títulos do Tesouro Direto são mais arriscados que os CDBs.",
+      "Os CDBs são emitidos por bancos, enquanto os títulos do Tesouro Direto são emitidos pelo governo.",
+      "Os títulos do Tesouro Direto oferecem maior liquidez que os CDBs."
+    ],
+    "correctAnswer": "Os CDBs são emitidos por bancos, enquanto os títulos do Tesouro Direto são emitidos pelo governo.",
+    "explanation": "Embora ambos sejam investimentos de renda fixa prefixada, a principal diferença reside no emissor. Títulos do Tesouro Direto são considerados menos arriscados por serem lastreados pela capacidade do governo de honrar suas dívidas.  CDBs, por sua vez, dependem da solidez financeira do banco emissor. Curiosidade: O Tesouro Direto permite que pequenos investidores comprem títulos públicos diretamente do governo, democratizando o acesso a um investimento tradicionalmente voltado para grandes instituições financeiras.",
+    "id": "quiz-dinheiro-148",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a aquisição de um concorrente. Quais são os principais fatores financeiros a serem considerados, além da avaliação tradicional do valor da empresa (valuation)?",
+    "options": [
+      "Somente a análise de fluxo de caixa descontado (DCF) é suficiente.",
+      "Apenas o valor patrimonial líquido (VPL) é relevante.",
+      "A sinergia entre as empresas, a estrutura de capital resultante e o potencial de riscos e oportunidades.",
+      "Nenhum fator financeiro é crucial; apenas o valor de mercado da empresa alvo importa."
+    ],
+    "correctAnswer": "A sinergia entre as empresas, a estrutura de capital resultante e o potencial de riscos e oportunidades.",
+    "explanation": "A aquisição de uma empresa envolve mais do que apenas o preço de compra.  A sinergia (ganhos de eficiência e receita pela combinação das empresas), a nova estrutura de capital (dívida e patrimônio líquido) e a avaliação de riscos e oportunidades após a fusão são vitais para o sucesso da aquisição.  Uma avaliação superficial pode levar a decisões financeiramente desastrosas. Curiosidade: Muitas fusões e aquisições fracassam devido a uma análise financeira inadequada e à subestimação dos riscos de integração.",
+    "id": "quiz-dinheiro-149",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a inflação impacta o poder de compra do dinheiro?",
+    "options": [
+      "A inflação aumenta o poder de compra",
+      "A inflação não afeta o poder de compra",
+      "A inflação diminui o poder de compra",
+      "A inflação cria novas moedas"
+    ],
+    "correctAnswer": "A inflação diminui o poder de compra",
+    "explanation": "A inflação faz com que os preços subam, reduzindo a quantidade de bens e serviços que se pode adquirir com a mesma quantia de dinheiro. Curiosamente, a hiperinflação, um aumento extremo e acelerado dos preços, já levou países a criar novas moedas para combater a crise.",
+    "id": "quiz-dinheiro-150",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Imagine que você está negociando ações na bolsa de valores.  Você compra ações de uma empresa por R$100,00 cada e as vende um mês depois por R$115,00.  Considerando que você comprou 100 ações e pagou R$50,00 de taxas de corretagem, qual foi o seu lucro líquido?",
+    "options": [
+      "R$1000,00",
+      "R$1450,00",
+      "R$1500,00",
+      "R$1050,00"
+    ],
+    "correctAnswer": "R$1000,00",
+    "explanation": "Lucro bruto: (115 - 100) * 100 = R$1500,00. Lucro líquido: R$1500,00 - R$50,00 = R$1000,00. Curiosidade: As taxas de corretagem variam dependendo da corretora e do volume negociado.",
+    "id": "quiz-dinheiro-151",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando dois projetos de investimento mutuamente exclusivos com diferentes fluxos de caixa e vida útil.  O Projeto A tem um fluxo de caixa líquido anual de R$20.000,00 por 5 anos, e o Projeto B tem um fluxo de caixa líquido anual de R$30.000,00 por 3 anos. Ambos os projetos exigem um investimento inicial de R$50.000,00.  Considerando uma taxa de desconto de 10%, qual projeto você escolheria usando o método do Valor Presente Líquido (VPL) e qual o principal critério de decisão?",
+    "options": [
+      "Projeto A, pois tem maior VPL.",
+      "Projeto B, pois tem maior VPL.",
+      "Ambos os projetos têm o mesmo VPL.",
+      "Nenhum dos projetos é viável."
+    ],
+    "correctAnswer": "Projeto A, pois tem maior VPL.",
+    "explanation": "O cálculo do VPL para cada projeto deve levar em conta a taxa de desconto e o tempo. O projeto com maior VPL é o mais lucrativo.  Curiosidade: O VPL é uma ferramenta fundamental em análise de investimentos, mas outras métricas, como a Taxa Interna de Retorno (TIR), também são importantes.",
+    "id": "quiz-dinheiro-152",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa está avaliando dois projetos de investimento. O Projeto A tem um retorno de 10% ao ano e o Projeto B tem um retorno de 15% ao ano, mas com maior risco. Qual fator, além do retorno, a empresa deve considerar?",
+    "options": [
+      "O prazo de retorno do investimento",
+      "A imagem da empresa no mercado",
+      "O nível de risco associado a cada projeto",
+      "A preferência pessoal dos gestores"
+    ],
+    "correctAnswer": "O nível de risco associado a cada projeto",
+    "explanation": "O risco é um fator crucial na tomada de decisões de investimento.  Um retorno maior não compensa necessariamente um risco maior, dependendo da tolerância ao risco da empresa.  A empresa precisa avaliar a relação risco-retorno. Curiosidade: A diversificação de investimentos é uma estratégia comum para reduzir o risco.",
+    "id": "quiz-dinheiro-153",
+    "categoryId": "dinheiro"
   }
 ]

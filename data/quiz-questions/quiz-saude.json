@@ -2408,5 +2408,75 @@
     "explanation": "A hipertrofia muscular se refere ao aumento do tamanho das fibras musculares existentes, enquanto a hiperplasia muscular envolve o aumento do número de células musculares.  A hiperplasia é um processo menos comum que a hipertrofia no crescimento muscular induzido pelo exercício. Curiosidade:  A hiperplasia muscular é mais pronunciada em indivíduos com maior predisposição genética para o ganho de massa muscular.",
     "id": "quiz-saude-172",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a falta de sono afeta a função imunológica?",
+    "options": [
+      "Melhora a resposta imune",
+      "Não afeta a resposta imune",
+      "Suprime a resposta imune",
+      "Aumenta a produção de anticorpos"
+    ],
+    "correctAnswer": "Suprime a resposta imune",
+    "explanation": "A falta de sono reduz a capacidade do corpo de combater infecções. Estudos mostram que a privação do sono diminui a produção de células imunológicas, tornando o corpo mais vulnerável a doenças. Curiosamente, a falta de sono também pode aumentar a inflamação no corpo.",
+    "id": "quiz-saude-173",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a privação crônica do sono afeta a regulação do apetite e o risco de obesidade?",
+    "options": [
+      "Aumenta os níveis de leptina, levando à saciedade e menor risco de obesidade.",
+      "Diminui os níveis de grelina, aumentando a sensação de fome e risco de obesidade.",
+      "Aumenta os níveis de grelina e diminui os níveis de leptina, aumentando a fome e o risco de obesidade.",
+      "Não afeta significativamente a regulação do apetite ou o risco de obesidade."
+    ],
+    "correctAnswer": "Aumenta os níveis de grelina e diminui os níveis de leptina, aumentando a fome e o risco de obesidade.",
+    "explanation": "A privação do sono desregula os hormônios que controlam o apetite.  A grelina, que estimula a fome, aumenta, enquanto a leptina, que sinaliza saciedade, diminui.  Curiosamente, estudos mostram uma forte correlação entre a falta de sono e o aumento do consumo de alimentos ricos em calorias e gorduras.",
+    "id": "quiz-saude-174",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o impacto da falta de sono crônica na regulação do cortisol e no desenvolvimento de resistência à insulina?",
+    "options": [
+      "A falta de sono não impacta na regulação do cortisol nem no desenvolvimento de resistência à insulina.",
+      "A falta de sono aumenta os níveis de cortisol, contribuindo para a resistência à insulina.",
+      "A falta de sono diminui os níveis de cortisol, levando à hipoglicemia e aumento de peso.",
+      "A falta de sono tem um impacto insignificante na regulação do cortisol e na resistência à insulina, exceto em casos extremos."
+    ],
+    "correctAnswer": "A falta de sono aumenta os níveis de cortisol, contribuindo para a resistência à insulina.",
+    "explanation": "A falta de sono crônica eleva os níveis de cortisol, hormônio do estresse, que interfere na sensibilidade à insulina, levando à resistência à insulina.  Curiosamente, a privação do sono também afeta a produção de grelina e leptina, hormônios que regulam o apetite, podendo levar ao aumento do consumo de alimentos ricos em calorias e ao ganho de peso.",
+    "id": "quiz-saude-175",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, caracterizada por um desequilíbrio da microbiota intestinal, pode modular a resposta imunológica e contribuir para o desenvolvimento de doenças autoimunes, incluindo a relação entre a permeabilidade intestinal e a resposta imunológica?",
+    "options": [
+      "A disbiose intestinal não tem relação com a resposta imunológica ou doenças autoimunes.",
+      "A disbiose intestinal aumenta a permeabilidade intestinal, permitindo que antígenos passem para a corrente sanguínea, desencadeando uma resposta imune exacerbada e autoimunidade.",
+      "A disbiose intestinal diminui a permeabilidade intestinal, impedindo que antígenos cheguem à corrente sanguínea, o que protege contra doenças autoimunes.",
+      "A disbiose intestinal afeta apenas o sistema digestivo e não tem impacto no sistema imunológico ou em doenças autoimunes."
+    ],
+    "correctAnswer": "A disbiose intestinal aumenta a permeabilidade intestinal, permitindo que antígenos passem para a corrente sanguínea, desencadeando uma resposta imune exacerbada e autoimunidade.",
+    "explanation": "Um desequilíbrio da microbiota intestinal pode danificar a barreira intestinal, aumentando a permeabilidade. Isso permite que substâncias e antígenos passem para a corrente sanguínea, ativando o sistema imunológico e potencialmente desencadeando respostas autoimunes. Curiosamente, estudos demonstram que o transplante de microbiota fecal pode ser benéfico em algumas doenças autoimunes.",
+    "id": "quiz-saude-176",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a deficiência de vitamina D pode afetar a saúde óssea e muscular, além do risco aumentado de quedas em idosos?",
+    "options": [
+      "A deficiência de vitamina D não afeta a saúde óssea e muscular.",
+      "A deficiência de vitamina D enfraquece os ossos, mas não afeta os músculos.",
+      "A deficiência de vitamina D enfraquece os ossos e músculos, aumentando o risco de quedas, especialmente em idosos.",
+      "A deficiência de vitamina D fortalece os ossos, mas enfraquece os músculos."
+    ],
+    "correctAnswer": "A deficiência de vitamina D enfraquece os ossos e músculos, aumentando o risco de quedas, especialmente em idosos.",
+    "explanation": "A vitamina D é essencial para a absorção de cálcio, fundamental para a saúde óssea.  Sua deficiência leva ao raquitismo em crianças e osteoporose em adultos, aumentando a fragilidade óssea e o risco de fraturas.  Além disso, a vitamina D também influencia a função muscular, e sua deficiência pode causar fraqueza muscular, aumentando o risco de quedas, especialmente em idosos. Curiosidade: A exposição solar é uma importante fonte de vitamina D.",
+    "id": "quiz-saude-177",
+    "categoryId": "saude"
   }
 ]

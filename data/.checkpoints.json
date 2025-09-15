@@ -1,8 +1,8 @@
 {
   "dinheiro": {
     "curiositiesBatchesProcessed": 60,
-    "quizzesBatchesProcessed": 42,
-    "lastRunAt": "2025-09-15T15:10:21.710Z"
+    "quizzesBatchesProcessed": 51,
+    "lastRunAt": "2025-09-15T15:15:30.722Z"
   },
   "futuro": {
     "curiositiesBatchesProcessed": 32,
@@ -90,17 +90,17 @@
     "lastRunAt": "2025-09-13T22:28:44.584Z"
   },
   "saude": {
-    "curiositiesBatchesProcessed": 88,
-    "lastRunAt": "2025-09-15T15:10:21.711Z",
-    "quizzesBatchesProcessed": 19
+    "curiositiesBatchesProcessed": 101,
+    "lastRunAt": "2025-09-15T15:15:36.855Z",
+    "quizzesBatchesProcessed": 23
   },
   "__meta__": {
-    "lastWriteAt": "2025-09-15T15:10:21.820Z"
+    "lastWriteAt": "2025-09-15T15:15:39.879Z"
   },
   "bem-estar": {
     "curiositiesBatchesProcessed": 55,
-    "lastRunAt": "2025-09-15T15:10:03.849Z",
-    "quizzesBatchesProcessed": 32
+    "lastRunAt": "2025-09-15T15:15:34.739Z",
+    "quizzesBatchesProcessed": 39
   },
   "ingles": {
     "curiositiesBatchesProcessed": 170,

@@ -1958,5 +1958,145 @@
     "explanation": "O contato com a terra, através da pele, tem sido associado à redução da inflamação, melhora do sono e aumento da produção de serotonina, um neurotransmissor crucial para o bom humor e a estabilidade emocional. Curiosidade: Estudos sugerem que o 'earthing' pode melhorar a resposta imunológica.",
     "id": "quiz-bem-estar-140",
     "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a coesão social, a sensação de pertencimento e a resiliência individual frente a eventos adversos, considerando a perspectiva da psicologia positiva?",
+    "options": [
+      "A coesão social não afeta a resiliência; a resiliência é individual.",
+      "A sensação de pertencimento aumenta a resiliência, mas a coesão social não tem impacto direto.",
+      "Coesão social e pertencimento diminuem a resiliência ao criar dependência.",
+      "Coesão social e pertencimento fortalecem a resiliência ao fornecer suporte social e emocional."
+    ],
+    "correctAnswer": "Coesão social e pertencimento fortalecem a resiliência ao fornecer suporte social e emocional.",
+    "explanation": "A psicologia positiva demonstra que fortes laços sociais e a sensação de pertencimento a um grupo aumentam a resiliência. O apoio social e emocional fornecido por comunidades coesas ajuda indivíduos a lidar com adversidades. As outras opções são incorretas, pois ignoram a importância do suporte social na resiliência. Curiosidade: Pesquisas indicam que pessoas com fortes redes sociais tendem a apresentar melhor recuperação de traumas.",
+    "id": "quiz-bem-estar-141",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de \"earthing\" (contato direto com a terra) pode influenciar a redução de inflamações crônicas?",
+    "options": [
+      "Aumentando os níveis de cortisol, hormônio do estresse.",
+      "Reduzindo a produção de glutationa, um antioxidante.",
+      "Neutralizando os íons positivos que contribuem para a inflamação.",
+      "Diminuindo a circulação sanguínea periférica."
+    ],
+    "correctAnswer": "Neutralizando os íons positivos que contribuem para a inflamação.",
+    "explanation": "O contato com a terra neutraliza os íons positivos que contribuem para a inflamação crônica. Curiosamente, estudos sugerem que esse contato pode melhorar a qualidade do sono e reduzir a inflamação, mas mais pesquisas são necessárias para confirmar esses efeitos plenamente. As outras opções são incorretas, pois o earthing não aumenta o cortisol, diminui a glutationa ou diminui a circulação periférica.",
+    "id": "quiz-bem-estar-142",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'forest bathing' (banho de floresta) pode impactar positivamente a saúde mental, considerando os efeitos da natureza na regulação do sistema nervoso autônomo?",
+    "options": [
+      "Diminuição da pressão arterial e aumento da frequência cardíaca, intensificando o estado de alerta.",
+      "Aumento significativo nos níveis de cortisol, hormônio do estresse, promovendo a sensação de alerta constante.",
+      "Aumento da atividade simpática, mantendo o corpo em estado de alerta máximo, ideal para produtividade.",
+      "Redução da atividade simpática, promovendo relaxamento e diminuição dos níveis de cortisol."
+    ],
+    "correctAnswer": "Redução da atividade simpática, promovendo relaxamento e diminuição dos níveis de cortisol.",
+    "explanation": "O 'forest bathing' promove o contato com a natureza, reduzindo a atividade do sistema nervoso simpático (responsável pela resposta 'luta ou fuga') e aumentando a atividade do sistema nervoso parassimpático (responsável pelo relaxamento). Isso leva a uma diminuição dos níveis de cortisol, hormônio do estresse. Curiosidade: Estudos demonstram que o contato com a natureza pode aumentar a produção de células NK (Natural Killer), importantes para o sistema imunológico.",
+    "id": "quiz-bem-estar-143",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual destas atividades diárias contribui mais para a sensação de calma e bem-estar, promovendo a autorregulação emocional?",
+    "options": [
+      "Assistir a notícias negativas.",
+      "Utilizar as redes sociais sem moderação.",
+      "Meditar por 5 minutos.",
+      "Trabalhar até tarde sem intervalos."
+    ],
+    "correctAnswer": "Meditar por 5 minutos.",
+    "explanation": "A meditação, mesmo em curtos períodos, promove a autorregulação emocional ao aumentar a consciência corporal e mental.  As outras opções podem gerar estresse e ansiedade, prejudicando o bem-estar. Curiosidade: A meditação ativa áreas do cérebro associadas à regulação emocional, como a amígdala e o córtex pré-frontal.",
+    "id": "quiz-bem-estar-144",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito diário simples pode contribuir para uma melhor saúde digestiva?",
+    "options": [
+      "Consumir grandes quantidades de alimentos processados.",
+      "Ingerir bastante líquidos ao longo do dia.",
+      "Pular refeições regularmente.",
+      "Dormir pouco e mal."
+    ],
+    "correctAnswer": "Ingerir bastante líquidos ao longo do dia.",
+    "explanation": "A hidratação adequada auxilia no processo digestivo, prevenindo a constipação. Curiosidade: A água ajuda a dissolver os nutrientes, facilitando a absorção pelo organismo.",
+    "id": "quiz-bem-estar-145",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de atividades criativas, como pintura ou escrita, pode impactar positivamente a saúde mental, considerando os mecanismos de autorregulação emocional e expressão?",
+    "options": [
+      "Diminui a produção de cortisol, hormônio do estresse, reduzindo a ansiedade e melhorando o humor.",
+      "Aumenta a produção de dopamina, neurotransmissor associado ao prazer, proporcionando uma sensação de bem-estar.",
+      "Promove a autorregulação emocional ao oferecer um canal não-verbal para processar emoções complexas e reduzir a tensão.",
+      "Todas as alternativas estão corretas."
+    ],
+    "correctAnswer": "Todas as alternativas estão corretas.",
+    "explanation": "Atividades criativas atuam em múltiplos níveis. Elas diminuem o cortisol (hormônio do estresse), aumentam a dopamina (neurotransmissor do prazer) e, principalmente, oferecem uma via de expressão emocional, promovendo a autorregulação. Curiosidade: estudos mostram que a arte-terapia pode ser tão eficaz quanto outras abordagens terapêuticas para certos transtornos.",
+    "id": "quiz-bem-estar-146",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a  'mindfulness' e a  'teoria da autodeterminação' (TAD), considerando a importância da autonomia, competência e relacionamento para o bem-estar?",
+    "options": [
+      "A 'mindfulness' auxilia na autorregulação, mas não se relaciona diretamente aos pilares da TAD.",
+      "A prática de 'mindfulness' promove a aceitação, que pode interferir negativamente na busca pela competência, segundo a TAD.",
+      "A 'mindfulness' pode fortalecer a competência e a autorregulação emocional, mas não impacta na busca por relacionamentos.",
+      "A 'mindfulness' promove a autorregulação, aumentando a percepção de competência e a capacidade de estabelecer relacionamentos saudáveis, pilares da TAD."
+    ],
+    "correctAnswer": "A 'mindfulness' promove a autorregulação, aumentando a percepção de competência e a capacidade de estabelecer relacionamentos saudáveis, pilares da TAD.",
+    "explanation": "A 'mindfulness' aumenta a consciência plena, permitindo que indivíduos se conectem melhor com suas necessidades e desejos, promovendo a autonomia (TAD).  A autorregulação aprimorada contribui para a percepção de competência, e a maior presença mental facilita relacionamentos mais significativos. Curiosidade: a TAD sugere que o bem-estar é maximizado quando os três pilares (autonomia, competência e relacionamento) são atendidos.",
+    "id": "quiz-bem-estar-147",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'earthing' (contato com a terra) pode influenciar positivamente a saúde mental, considerando seus efeitos na redução da inflamação crônica e no fortalecimento do sistema imunológico?",
+    "options": [
+      "Aumenta os níveis de cortisol, hormônio do estresse, melhorando o foco.",
+      "Não apresenta benefícios comprovados para a saúde mental.",
+      "Reduz a inflamação crônica e fortalece o sistema imunológico, contribuindo para uma melhor saúde mental.",
+      "Causa um aumento significativo na pressão arterial, melhorando a circulação sanguínea cerebral."
+    ],
+    "correctAnswer": "Reduz a inflamação crônica e fortalece o sistema imunológico, contribuindo para uma melhor saúde mental.",
+    "explanation": "O contato com a terra, ou 'earthing', promove uma redução da inflamação crônica no corpo, o que está associado a uma melhora na saúde mental.  Além disso, estudos sugerem que o 'earthing' pode fortalecer o sistema imunológico. As outras opções são incorretas: o cortisol é um hormônio do estresse, não um indicador de foco; não há comprovação científica de ausência de benefícios; e o 'earthing' não aumenta a pressão arterial. Curiosidade: O 'earthing' é uma prática ancestral que está sendo redescoberta pela ciência moderna.",
+    "id": "quiz-bem-estar-148",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "De que forma a integração da tecnologia, como aplicativos de biofeedback e dispositivos de monitoramento do sono, pode afetar a eficácia das práticas de bem-estar e gerar resultados paradoxais, considerando os aspectos de autorregulação, autoconsciência e a potencial influência na ansiedade e perfeccionismo?",
+    "options": [
+      "A tecnologia sempre melhora a eficácia das práticas de bem-estar, sem efeitos negativos.",
+      "Não há relação entre tecnologia e práticas de bem-estar.",
+      "A tecnologia pode auxiliar na autorregulação e autoconsciência, mas o uso excessivo pode levar à ansiedade e perfeccionismo, comprometendo os resultados.",
+      "Aplicativos e dispositivos tecnológicos são ineficazes para auxiliar em práticas de bem-estar."
+    ],
+    "correctAnswer": "A tecnologia pode auxiliar na autorregulação e autoconsciência, mas o uso excessivo pode levar à ansiedade e perfeccionismo, comprometendo os resultados.",
+    "explanation": "A tecnologia oferece ferramentas valiosas para o bem-estar, como o biofeedback e o monitoramento do sono.  No entanto, o foco excessivo em dados e metas pode gerar ansiedade e perfeccionismo, minando os benefícios das práticas.  As outras opções ignoram os aspectos positivos e negativos da tecnologia no contexto do bem-estar. Curiosidade: O uso consciente da tecnologia para o bem-estar requer equilíbrio e atenção à saúde mental.",
+    "id": "quiz-bem-estar-149",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual hábito alimentar simples pode melhorar a digestão e reduzir o inchaço abdominal?",
+    "options": [
+      "Consumir grandes quantidades de alimentos processados.",
+      "Ingerir muitos refrigerantes.",
+      "Beber bastante água e consumir fibras.",
+      "Comer pouco e frequentemente."
+    ],
+    "correctAnswer": "Beber bastante água e consumir fibras.",
+    "explanation": "A água ajuda a regular o trânsito intestinal e as fibras alimentam as bactérias benéficas do intestino, melhorando a digestão e prevenindo a constipação. Alimentos processados, refrigerantes e comer pouco e frequentemente podem agravar problemas digestivos. Curiosidade: A fibra solúvel, presente em frutas e aveia, é particularmente benéfica para a saúde intestinal.",
+    "id": "quiz-bem-estar-150",
+    "categoryId": "bem-estar"
   }
 ]
