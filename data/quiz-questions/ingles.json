@@ -1,1 +1,2802 @@
-[]
+[
+    {
+      "id": "quiz-ingles-1",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"casa\" em inglês?",
+      "options": [
+        "house",
+        "development",
+        "dog",
+        "comprehensive"
+      ],
+      "correctAnswer": "house",
+      "explanation": "A tradução mais comum de \"casa\" é \"house\". Curiosidade: Dependendo do contexto, \"house\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-2",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"gato\" em inglês?",
+      "options": [
+        "rain",
+        "approach",
+        "cat",
+        "nature"
+      ],
+      "correctAnswer": "cat",
+      "explanation": "A tradução mais comum de \"gato\" é \"cat\". Curiosidade: Dependendo do contexto, \"cat\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-3",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"janela\" em inglês?",
+      "options": [
+        "privacy",
+        "choice",
+        "window",
+        "energy"
+      ],
+      "correctAnswer": "window",
+      "explanation": "A tradução mais comum de \"janela\" é \"window\". Curiosidade: Dependendo do contexto, \"window\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-4",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"mesa\" em inglês?",
+      "options": [
+        "car",
+        "choice",
+        "table",
+        "food"
+      ],
+      "correctAnswer": "table",
+      "explanation": "A tradução mais comum de \"mesa\" é \"table\". Curiosidade: Dependendo do contexto, \"table\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-5",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"tempo\" em inglês?",
+      "options": [
+        "money",
+        "neighborhood",
+        "comprehensive",
+        "time"
+      ],
+      "correctAnswer": "time",
+      "explanation": "A tradução mais comum de \"tempo\" é \"time\". Curiosidade: Dependendo do contexto, \"time\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-6",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"livro\" em inglês?",
+      "options": [
+        "knowledge",
+        "scientist",
+        "window",
+        "book"
+      ],
+      "correctAnswer": "book",
+      "explanation": "A tradução mais comum de \"livro\" é \"book\". Curiosidade: Dependendo do contexto, \"book\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-7",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"cidade\" em inglês?",
+      "options": [
+        "thought",
+        "city",
+        "reliable",
+        "evidence"
+      ],
+      "correctAnswer": "city",
+      "explanation": "A tradução mais comum de \"cidade\" é \"city\". Curiosidade: Dependendo do contexto, \"city\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-8",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"cachorro\" em inglês?",
+      "options": [
+        "house",
+        "rain",
+        "dog",
+        "performance"
+      ],
+      "correctAnswer": "dog",
+      "explanation": "A tradução mais comum de \"cachorro\" é \"dog\". Curiosidade: Dependendo do contexto, \"dog\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-9",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"escola\" em inglês?",
+      "options": [
+        "school",
+        "car",
+        "knowledge",
+        "night"
+      ],
+      "correctAnswer": "school",
+      "explanation": "A tradução mais comum de \"escola\" é \"school\". Curiosidade: Dependendo do contexto, \"school\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-10",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"dinheiro\" em inglês?",
+      "options": [
+        "money",
+        "neighborhood",
+        "thought",
+        "school"
+      ],
+      "correctAnswer": "money",
+      "explanation": "A tradução mais comum de \"dinheiro\" é \"money\". Curiosidade: Dependendo do contexto, \"money\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-11",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"mãe\" em inglês?",
+      "options": [
+        "privacy",
+        "complexity",
+        "compliance",
+        "mother"
+      ],
+      "correctAnswer": "mother",
+      "explanation": "A tradução mais comum de \"mãe\" é \"mother\". Curiosidade: Dependendo do contexto, \"mother\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-12",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"carro\" em inglês?",
+      "options": [
+        "car",
+        "time",
+        "scientist",
+        "city"
+      ],
+      "correctAnswer": "car",
+      "explanation": "A tradução mais comum de \"carro\" é \"car\". Curiosidade: Dependendo do contexto, \"car\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-13",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"noite\" em inglês?",
+      "options": [
+        "night",
+        "development",
+        "privacy",
+        "evidence"
+      ],
+      "correctAnswer": "night",
+      "explanation": "A tradução mais comum de \"noite\" é \"night\". Curiosidade: Dependendo do contexto, \"night\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-14",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"chuva\" em inglês?",
+      "options": [
+        "rain",
+        "book",
+        "house",
+        "sun"
+      ],
+      "correctAnswer": "rain",
+      "explanation": "A tradução mais comum de \"chuva\" é \"rain\". Curiosidade: Dependendo do contexto, \"rain\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-15",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"pai\" em inglês?",
+      "options": [
+        "sustainable",
+        "water",
+        "father",
+        "sun"
+      ],
+      "correctAnswer": "father",
+      "explanation": "A tradução mais comum de \"pai\" é \"father\". Curiosidade: Dependendo do contexto, \"father\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-16",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"amigo\" em inglês?",
+      "options": [
+        "complexity",
+        "friend",
+        "people",
+        "health"
+      ],
+      "correctAnswer": "friend",
+      "explanation": "A tradução mais comum de \"amigo\" é \"friend\". Curiosidade: Dependendo do contexto, \"friend\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-17",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"água\" em inglês?",
+      "options": [
+        "water",
+        "time",
+        "scientist",
+        "development"
+      ],
+      "correctAnswer": "water",
+      "explanation": "A tradução mais comum de \"água\" é \"water\". Curiosidade: Dependendo do contexto, \"water\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-18",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual é a melhor tradução para \"sol\" em inglês?",
+      "options": [
+        "health",
+        "thought",
+        "sun",
+        "approach"
+      ],
+      "correctAnswer": "sun",
+      "explanation": "A tradução mais comum de \"sol\" é \"sun\". Curiosidade: Dependendo do contexto, \"sun\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-19",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"escolha\" em inglês?",
+      "options": [
+        "choice",
+        "compliance",
+        "scientist",
+        "table"
+      ],
+      "correctAnswer": "choice",
+      "explanation": "A tradução mais comum de \"escolha\" é \"choice\". Curiosidade: Dependendo do contexto, \"choice\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-20",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"história\" em inglês?",
+      "options": [
+        "night",
+        "history",
+        "business",
+        "table"
+      ],
+      "correctAnswer": "history",
+      "explanation": "A tradução mais comum de \"história\" é \"history\". Curiosidade: Dependendo do contexto, \"history\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-21",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"desafio\" em inglês?",
+      "options": [
+        "city",
+        "time",
+        "language",
+        "challenge"
+      ],
+      "correctAnswer": "challenge",
+      "explanation": "A tradução mais comum de \"desafio\" é \"challenge\". Curiosidade: Dependendo do contexto, \"challenge\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-22",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"viagem\" em inglês?",
+      "options": [
+        "language",
+        "comprehensive",
+        "journey",
+        "evidence"
+      ],
+      "correctAnswer": "journey",
+      "explanation": "A tradução mais comum de \"viagem\" é \"journey\". Curiosidade: Dependendo do contexto, \"journey\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-23",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"cientista\" em inglês?",
+      "options": [
+        "language",
+        "school",
+        "engineering",
+        "scientist"
+      ],
+      "correctAnswer": "scientist",
+      "explanation": "A tradução mais comum de \"cientista\" é \"scientist\". Curiosidade: Dependendo do contexto, \"scientist\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-24",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"povo\" em inglês?",
+      "options": [
+        "table",
+        "people",
+        "history",
+        "dog"
+      ],
+      "correctAnswer": "people",
+      "explanation": "A tradução mais comum de \"povo\" é \"people\". Curiosidade: Dependendo do contexto, \"people\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-25",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"cultura\" em inglês?",
+      "options": [
+        "rain",
+        "house",
+        "sustainable",
+        "culture"
+      ],
+      "correctAnswer": "culture",
+      "explanation": "A tradução mais comum de \"cultura\" é \"culture\". Curiosidade: Dependendo do contexto, \"culture\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-26",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"saúde\" em inglês?",
+      "options": [
+        "health",
+        "window",
+        "scientist",
+        "water"
+      ],
+      "correctAnswer": "health",
+      "explanation": "A tradução mais comum de \"saúde\" é \"health\". Curiosidade: Dependendo do contexto, \"health\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-27",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"engenharia\" em inglês?",
+      "options": [
+        "development",
+        "school",
+        "engineering",
+        "time"
+      ],
+      "correctAnswer": "engineering",
+      "explanation": "A tradução mais comum de \"engenharia\" é \"engineering\". Curiosidade: Dependendo do contexto, \"engineering\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-28",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"vizinhança\" em inglês?",
+      "options": [
+        "neighborhood",
+        "health",
+        "responsibility",
+        "day"
+      ],
+      "correctAnswer": "neighborhood",
+      "explanation": "A tradução mais comum de \"vizinhança\" é \"neighborhood\". Curiosidade: Dependendo do contexto, \"neighborhood\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-29",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"energia\" em inglês?",
+      "options": [
+        "rain",
+        "sun",
+        "table",
+        "energy"
+      ],
+      "correctAnswer": "energy",
+      "explanation": "A tradução mais comum de \"energia\" é \"energy\". Curiosidade: Dependendo do contexto, \"energy\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-30",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"pensamento\" em inglês?",
+      "options": [
+        "sun",
+        "development",
+        "thought",
+        "approach"
+      ],
+      "correctAnswer": "thought",
+      "explanation": "A tradução mais comum de \"pensamento\" é \"thought\". Curiosidade: Dependendo do contexto, \"thought\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-31",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"conhecimento\" em inglês?",
+      "options": [
+        "house",
+        "evidence",
+        "knowledge",
+        "responsibility"
+      ],
+      "correctAnswer": "knowledge",
+      "explanation": "A tradução mais comum de \"conhecimento\" é \"knowledge\". Curiosidade: Dependendo do contexto, \"knowledge\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-32",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"natureza\" em inglês?",
+      "options": [
+        "nature",
+        "water",
+        "language",
+        "journey"
+      ],
+      "correctAnswer": "nature",
+      "explanation": "A tradução mais comum de \"natureza\" é \"nature\". Curiosidade: Dependendo do contexto, \"nature\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-33",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"negócio\" em inglês?",
+      "options": [
+        "scientist",
+        "father",
+        "business",
+        "window"
+      ],
+      "correctAnswer": "business",
+      "explanation": "A tradução mais comum de \"negócio\" é \"business\". Curiosidade: Dependendo do contexto, \"business\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-34",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é a melhor tradução para \"linguagem\" em inglês?",
+      "options": [
+        "car",
+        "health",
+        "mother",
+        "language"
+      ],
+      "correctAnswer": "language",
+      "explanation": "A tradução mais comum de \"linguagem\" é \"language\". Curiosidade: Dependendo do contexto, \"language\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-35",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"evidência\" em inglês?",
+      "options": [
+        "evidence",
+        "mother",
+        "rain",
+        "car"
+      ],
+      "correctAnswer": "evidence",
+      "explanation": "A tradução mais comum de \"evidência\" é \"evidence\". Curiosidade: Dependendo do contexto, \"evidence\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-36",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"complexidade\" em inglês?",
+      "options": [
+        "city",
+        "complexity",
+        "window",
+        "business"
+      ],
+      "correctAnswer": "complexity",
+      "explanation": "A tradução mais comum de \"complexidade\" é \"complexity\". Curiosidade: Dependendo do contexto, \"complexity\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-37",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"privacidade\" em inglês?",
+      "options": [
+        "water",
+        "energy",
+        "scientist",
+        "privacy"
+      ],
+      "correctAnswer": "privacy",
+      "explanation": "A tradução mais comum de \"privacidade\" é \"privacy\". Curiosidade: Dependendo do contexto, \"privacy\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-38",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"desempenho\" em inglês?",
+      "options": [
+        "performance",
+        "rain",
+        "food",
+        "school"
+      ],
+      "correctAnswer": "performance",
+      "explanation": "A tradução mais comum de \"desempenho\" é \"performance\". Curiosidade: Dependendo do contexto, \"performance\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-39",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"cumprimento\" em inglês?",
+      "options": [
+        "knowledge",
+        "compliance",
+        "house",
+        "father"
+      ],
+      "correctAnswer": "compliance",
+      "explanation": "A tradução mais comum de \"cumprimento\" é \"compliance\". Curiosidade: Dependendo do contexto, \"compliance\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-40",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"responsabilidade\" em inglês?",
+      "options": [
+        "responsibility",
+        "nature",
+        "thought",
+        "time"
+      ],
+      "correctAnswer": "responsibility",
+      "explanation": "A tradução mais comum de \"responsabilidade\" é \"responsibility\". Curiosidade: Dependendo do contexto, \"responsibility\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-41",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"desenvolvimento\" em inglês?",
+      "options": [
+        "night",
+        "mother",
+        "development",
+        "friend"
+      ],
+      "correctAnswer": "development",
+      "explanation": "A tradução mais comum de \"desenvolvimento\" é \"development\". Curiosidade: Dependendo do contexto, \"development\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-42",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"confiável\" em inglês?",
+      "options": [
+        "challenge",
+        "reliable",
+        "house",
+        "sustainable"
+      ],
+      "correctAnswer": "reliable",
+      "explanation": "A tradução mais comum de \"confiável\" é \"reliable\". Curiosidade: Dependendo do contexto, \"reliable\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-43",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"abrangente\" em inglês?",
+      "options": [
+        "food",
+        "history",
+        "comprehensive",
+        "house"
+      ],
+      "correctAnswer": "comprehensive",
+      "explanation": "A tradução mais comum de \"abrangente\" é \"comprehensive\". Curiosidade: Dependendo do contexto, \"comprehensive\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-44",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"sustentável\" em inglês?",
+      "options": [
+        "compliance",
+        "knowledge",
+        "rain",
+        "sustainable"
+      ],
+      "correctAnswer": "sustainable",
+      "explanation": "A tradução mais comum de \"sustentável\" é \"sustainable\". Curiosidade: Dependendo do contexto, \"sustainable\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-45",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual é a melhor tradução para \"abordagem\" em inglês?",
+      "options": [
+        "book",
+        "comprehensive",
+        "sustainable",
+        "approach"
+      ],
+      "correctAnswer": "approach",
+      "explanation": "A tradução mais comum de \"abordagem\" é \"approach\". Curiosidade: Dependendo do contexto, \"approach\" pode ter outros usos idiomáticos."
+    },
+    {
+      "id": "quiz-ingles-46",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-47",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-48",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-49",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-50",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-51",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Marque a tag question correta: \"She can drive, ___?\"",
+      "options": [
+        "can't she",
+        "can she",
+        "doesn't she",
+        "isn't she"
+      ],
+      "correctAnswer": "can't she",
+      "explanation": "Tag question negativa acompanha modal 'can': 'can't she?'. Curiosidade: entonação sobe para confirmar, desce para concordar."
+    },
+    {
+      "id": "quiz-ingles-52",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-53",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-54",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Complete: \"We met ___ Monday, ___ the morning, ___ the cafe.\"",
+      "options": [
+        "in / at / on",
+        "on / in / at",
+        "at / in / on",
+        "on / at / in"
+      ],
+      "correctAnswer": "on / in / at",
+      "explanation": "Dias → on, períodos do dia → in, locais específicos → at. Curiosidade: 'at night' é exceção comum."
+    },
+    {
+      "id": "quiz-ingles-55",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-56",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-57",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-58",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Complete: \"We met ___ Monday, ___ the morning, ___ the cafe.\"",
+      "options": [
+        "in / at / on",
+        "on / in / at",
+        "at / in / on",
+        "on / at / in"
+      ],
+      "correctAnswer": "on / in / at",
+      "explanation": "Dias → on, períodos do dia → in, locais específicos → at. Curiosidade: 'at night' é exceção comum."
+    },
+    {
+      "id": "quiz-ingles-59",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual ordem está correta?",
+      "options": [
+        "Always she is late.",
+        "She is always late.",
+        "She always is late.",
+        "Is always she late."
+      ],
+      "correctAnswer": "She is always late.",
+      "explanation": "Advérbios de frequência costumam vir depois do verbo 'to be': 'is always'. Curiosidade: Com verbos comuns, advérbio vem antes do verbo principal."
+    },
+    {
+      "id": "quiz-ingles-60",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-61",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-62",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-63",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-64",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-65",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-66",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-67",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-68",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-69",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-70",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-71",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-72",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-73",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Complete: \"We met ___ Monday, ___ the morning, ___ the cafe.\"",
+      "options": [
+        "in / at / on",
+        "on / in / at",
+        "at / in / on",
+        "on / at / in"
+      ],
+      "correctAnswer": "on / in / at",
+      "explanation": "Dias → on, períodos do dia → in, locais específicos → at. Curiosidade: 'at night' é exceção comum."
+    },
+    {
+      "id": "quiz-ingles-74",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-75",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-76",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-77",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-78",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-79",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-80",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-81",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-82",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-83",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-84",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-85",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-86",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-87",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-88",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-89",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-90",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-91",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-92",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-93",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-94",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual combinação é mais natural em inglês?",
+      "options": [
+        "do a decision",
+        "make a decision",
+        "make a homework",
+        "do a mistake"
+      ],
+      "correctAnswer": "make a decision",
+      "explanation": "Collocations: 'make a decision', 'do homework', 'make a mistake'. Curiosidade: Collocations soam naturais a nativos."
+    },
+    {
+      "id": "quiz-ingles-95",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-96",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-97",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-98",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-99",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-100",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-101",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-102",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-103",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-104",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-105",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-106",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Complete: \"We met ___ Monday, ___ the morning, ___ the cafe.\"",
+      "options": [
+        "in / at / on",
+        "on / in / at",
+        "at / in / on",
+        "on / at / in"
+      ],
+      "correctAnswer": "on / in / at",
+      "explanation": "Dias → on, períodos do dia → in, locais específicos → at. Curiosidade: 'at night' é exceção comum."
+    },
+    {
+      "id": "quiz-ingles-107",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-108",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-109",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-110",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-111",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-112",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-113",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-114",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-115",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-116",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-117",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual ordem está correta?",
+      "options": [
+        "Always she is late.",
+        "She is always late.",
+        "She always is late.",
+        "Is always she late."
+      ],
+      "correctAnswer": "She is always late.",
+      "explanation": "Advérbios de frequência costumam vir depois do verbo 'to be': 'is always'. Curiosidade: Com verbos comuns, advérbio vem antes do verbo principal."
+    },
+    {
+      "id": "quiz-ingles-118",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-119",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-120",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-121",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-122",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-123",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-124",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-125",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-126",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-127",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-128",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-129",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-130",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-131",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-132",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-133",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Escolha a comparação correta: \"This test is ___ than the last one.\"",
+      "options": [
+        "difficult",
+        "more difficult",
+        "most difficult",
+        "the more difficult"
+      ],
+      "correctAnswer": "more difficult",
+      "explanation": "Adjetivos com 3+ sílabas usam 'more' no comparativo: 'more difficult'. Curiosidade: Curto → 'er' (taller)."
+    },
+    {
+      "id": "quiz-ingles-134",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-135",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-136",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-137",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-138",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-139",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-140",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-141",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-142",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-143",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-144",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-145",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-146",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Marque a tag question correta: \"She can drive, ___?\"",
+      "options": [
+        "can't she",
+        "can she",
+        "doesn't she",
+        "isn't she"
+      ],
+      "correctAnswer": "can't she",
+      "explanation": "Tag question negativa acompanha modal 'can': 'can't she?'. Curiosidade: entonação sobe para confirmar, desce para concordar."
+    },
+    {
+      "id": "quiz-ingles-147",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-148",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual combinação é mais natural em inglês?",
+      "options": [
+        "do a decision",
+        "make a decision",
+        "make a homework",
+        "do a mistake"
+      ],
+      "correctAnswer": "make a decision",
+      "explanation": "Collocations: 'make a decision', 'do homework', 'make a mistake'. Curiosidade: Collocations soam naturais a nativos."
+    },
+    {
+      "id": "quiz-ingles-149",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-150",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-151",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Complete: \"We met ___ Monday, ___ the morning, ___ the cafe.\"",
+      "options": [
+        "in / at / on",
+        "on / in / at",
+        "at / in / on",
+        "on / at / in"
+      ],
+      "correctAnswer": "on / in / at",
+      "explanation": "Dias → on, períodos do dia → in, locais específicos → at. Curiosidade: 'at night' é exceção comum."
+    },
+    {
+      "id": "quiz-ingles-152",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-153",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-154",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-155",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha a opção correta (condicional 2): \"If I ___ more time, I would travel.\"",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "correctAnswer": "had",
+      "explanation": "Condicional 2: If + passado simples, would + base: 'If I had'. Curiosidade: É usado para hipóteses irreais."
+    },
+    {
+      "id": "quiz-ingles-156",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-157",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-158",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Marque a tag question correta: \"She can drive, ___?\"",
+      "options": [
+        "can't she",
+        "can she",
+        "doesn't she",
+        "isn't she"
+      ],
+      "correctAnswer": "can't she",
+      "explanation": "Tag question negativa acompanha modal 'can': 'can't she?'. Curiosidade: entonação sobe para confirmar, desce para concordar."
+    },
+    {
+      "id": "quiz-ingles-159",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-160",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-161",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-162",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-163",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-164",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-165",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Marque a tag question correta: \"She can drive, ___?\"",
+      "options": [
+        "can't she",
+        "can she",
+        "doesn't she",
+        "isn't she"
+      ],
+      "correctAnswer": "can't she",
+      "explanation": "Tag question negativa acompanha modal 'can': 'can't she?'. Curiosidade: entonação sobe para confirmar, desce para concordar."
+    },
+    {
+      "id": "quiz-ingles-166",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-167",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-168",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-169",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-170",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-171",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o superlativo correto de 'happy'?",
+      "options": [
+        "more happy",
+        "happiest",
+        "most happy",
+        "happyest"
+      ],
+      "correctAnswer": "happiest",
+      "explanation": "CVC+y vira 'iest': happy → happiest. Curiosidade: 'more happy' é possível, mas 'happier/happiest' é preferido."
+    },
+    {
+      "id": "quiz-ingles-172",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual ordem está correta?",
+      "options": [
+        "Always she is late.",
+        "She is always late.",
+        "She always is late.",
+        "Is always she late."
+      ],
+      "correctAnswer": "She is always late.",
+      "explanation": "Advérbios de frequência costumam vir depois do verbo 'to be': 'is always'. Curiosidade: Com verbos comuns, advérbio vem antes do verbo principal."
+    },
+    {
+      "id": "quiz-ingles-173",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-174",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-175",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-176",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-177",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-178",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-179",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-180",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-181",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-182",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Marque a tag question correta: \"She can drive, ___?\"",
+      "options": [
+        "can't she",
+        "can she",
+        "doesn't she",
+        "isn't she"
+      ],
+      "correctAnswer": "can't she",
+      "explanation": "Tag question negativa acompanha modal 'can': 'can't she?'. Curiosidade: entonação sobe para confirmar, desce para concordar."
+    },
+    {
+      "id": "quiz-ingles-183",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual ordem está correta?",
+      "options": [
+        "Always she is late.",
+        "She is always late.",
+        "She always is late.",
+        "Is always she late."
+      ],
+      "correctAnswer": "She is always late.",
+      "explanation": "Advérbios de frequência costumam vir depois do verbo 'to be': 'is always'. Curiosidade: Com verbos comuns, advérbio vem antes do verbo principal."
+    },
+    {
+      "id": "quiz-ingles-184",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-185",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "O que significa o phrasal verb 'take off' (contexto: avião)?",
+      "options": [
+        "aterrar",
+        "decolar",
+        "taxiar",
+        "pousar"
+      ],
+      "correctAnswer": "decolar",
+      "explanation": "'Take off' = decolar. Curiosidade: Também significa 'remover roupa' ou 'ficar popular rapidamente'."
+    },
+    {
+      "id": "quiz-ingles-186",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Escolha a forma correta (passado simples): \"They ___ a movie yesterday.\"",
+      "options": [
+        "watch",
+        "watched",
+        "watching",
+        "watches"
+      ],
+      "correctAnswer": "watched",
+      "explanation": "Passado simples regular adiciona '-ed': 'watched'. Curiosidade: 'yesterday' é um forte marcador de passado."
+    },
+    {
+      "id": "quiz-ingles-187",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-188",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete a frase: \"He ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "went"
+      ],
+      "correctAnswer": "goes",
+      "explanation": "No presente simples na 3ª pessoa do singular, adiciona-se 'es' em verbos terminados em 'o': 'He goes'. Curiosidade: 'go' é irregular no passado ('went')."
+    },
+    {
+      "id": "quiz-ingles-189",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-190",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Escolha o pronome relativo correto: \"The book ___ I bought is great.\"",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "where"
+      ],
+      "correctAnswer": "which",
+      "explanation": "Coisa → 'which'. Pessoas → 'who/whom'. Lugar → 'where'. Curiosidade: Em inglês informal, o relativo às vezes é omitido."
+    },
+    {
+      "id": "quiz-ingles-191",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual frase expressa obrigação forte?",
+      "options": [
+        "You should leave.",
+        "You can leave.",
+        "You must leave.",
+        "You might leave."
+      ],
+      "correctAnswer": "You must leave.",
+      "explanation": "'Must' indica obrigação/necessidade. Curiosidade: 'have to' também expressa obrigação, com nuances de uso."
+    },
+    {
+      "id": "quiz-ingles-192",
+      "categoryId": "ingles",
+      "difficulty": "hard",
+      "question": "Qual palavra rima com 'through' (pronúncia /θruː/)?",
+      "options": [
+        "though",
+        "tough",
+        "bough",
+        "blue"
+      ],
+      "correctAnswer": "blue",
+      "explanation": "'Through' rima com 'blue'. Curiosidade: Inglês tem muitas grafias irregulares ('ough')."
+    },
+    {
+      "id": "quiz-ingles-193",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção combina corretamente com substantivo incontável?",
+      "options": [
+        "many informations",
+        "much information",
+        "a few information",
+        "several informations"
+      ],
+      "correctAnswer": "much information",
+      "explanation": "'Information' é incontável → 'much', não plural. Curiosidade: News, advice, furniture também são incontáveis."
+    },
+    {
+      "id": "quiz-ingles-194",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Complete: \"She bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "— (sem artigo)"
+      ],
+      "correctAnswer": "an",
+      "explanation": "Usa-se 'an' antes de som de vogal: 'an umbrella'. Curiosidade: O que importa é o som, não a letra."
+    },
+    {
+      "id": "quiz-ingles-195",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-196",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção traduz melhor 'actually' em português?",
+      "options": [
+        "atualmente",
+        "na verdade",
+        "eventualmente",
+        "realmente (no futuro)"
+      ],
+      "correctAnswer": "na verdade",
+      "explanation": "False friend: 'actually' = 'na verdade'. Curiosidade: 'atualmente' = 'currently'."
+    },
+    {
+      "id": "quiz-ingles-197",
+      "categoryId": "ingles",
+      "difficulty": "easy",
+      "question": "Qual preposição completa: \"The class starts ___ 9 a.m.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctAnswer": "at",
+      "explanation": "Horários específicos usam 'at': 'at 9 a.m.'. Curiosidade: Dias usam 'on' e meses/anos 'in'."
+    },
+    {
+      "id": "quiz-ingles-198",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    },
+    {
+      "id": "quiz-ingles-199",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual opção completa: \"I enjoy ___ music.\"",
+      "options": [
+        "to listen",
+        "listen",
+        "listening",
+        "to listening"
+      ],
+      "correctAnswer": "listening",
+      "explanation": "Após 'enjoy', usa-se gerúndio: 'enjoy listening'. Curiosidade: 'want' pede infinitivo ('to')."
+    },
+    {
+      "id": "quiz-ingles-200",
+      "categoryId": "ingles",
+      "difficulty": "medium",
+      "question": "Qual é o passado de 'bring'?",
+      "options": [
+        "brang",
+        "bringed",
+        "brought",
+        "broughted"
+      ],
+      "correctAnswer": "brought",
+      "explanation": "'Bring' → 'brought' no passado. Curiosidade: 'buy' também vira 'bought' — som semelhante, verbos diferentes."
+    }
+  ]
