@@ -2140,5 +2140,187 @@
     "explanation": "O risco é um fator crucial na tomada de decisões de investimento.  Um retorno maior não compensa necessariamente um risco maior, dependendo da tolerância ao risco da empresa.  A empresa precisa avaliar a relação risco-retorno. Curiosidade: A diversificação de investimentos é uma estratégia comum para reduzir o risco.",
     "id": "quiz-dinheiro-153",
     "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa precisa escolher entre financiar um projeto com um empréstimo bancário a juros fixos ou com a emissão de debêntures.  Qual fator NÃO é um critério primário para essa decisão?",
+    "options": [
+      "Risco de crédito da empresa",
+      "Custo total do financiamento (incluindo taxas e encargos)",
+      "Flexibilidade de pagamento",
+      "Preferência pessoal do CEO da empresa"
+    ],
+    "correctAnswer": "Preferência pessoal do CEO da empresa",
+    "explanation": "A preferência pessoal do CEO é irrelevante para uma decisão financeira objetiva. Risco de crédito, custo total e flexibilidade são fatores cruciais na escolha entre empréstimo e debêntures.  Curiosidade:  Debêntures podem ser negociadas em bolsa, oferecendo liquidez ao emissor.",
+    "id": "quiz-dinheiro-154",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Duas empresas, A e B, apresentam o mesmo lucro líquido.  A empresa A possui um índice de alavancagem financeira (dívida/patrimônio) significativamente maior que a empresa B.  Qual afirmação é mais provável?",
+    "options": [
+      "A empresa A é mais rentável que a empresa B.",
+      "A empresa A possui maior risco financeiro que a empresa B.",
+      "A empresa A tem maior liquidez que a empresa B.",
+      "A empresa A possui menor capacidade de investimento que a empresa B."
+    ],
+    "correctAnswer": "A empresa A possui maior risco financeiro que a empresa B.",
+    "explanation": "Maior alavancagem significa maior dependência de dívidas, aumentando a vulnerabilidade da empresa a variações de juros e a crises econômicas. Embora o lucro seja igual, o risco é significativamente maior. Curiosidade:  O índice de alavancagem é uma métrica fundamental na análise de crédito.",
+    "id": "quiz-dinheiro-155",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Imagine que você recebeu uma herança de R$100.000 e quer investir.  Você prefere um investimento de baixo risco com retorno garantido de 5% ao ano, ou um investimento de alto risco com potencial de retorno de 20% ao ano, mas com chance de perder parte ou todo o capital?  Qual fator deve ser o mais importante em sua decisão?",
+    "options": [
+      "O valor total do retorno financeiro.",
+      "O nível de risco envolvido e seu perfil de investidor.",
+      "A taxa de imposto sobre o ganho de capital.",
+      "A opinião de amigos e familiares sobre os investimentos."
+    ],
+    "correctAnswer": "O nível de risco envolvido e seu perfil de investidor.",
+    "explanation": "A decisão de investimento deve priorizar a adequação ao seu perfil de risco.  Um investidor conservador priorizará a segurança do capital, enquanto um investidor agressivo pode tolerar maior risco em busca de maior retorno. Curiosidade:  A diversificação de investimentos é uma estratégia para reduzir o risco, mesmo em investimentos de alto retorno.",
+    "id": "quiz-dinheiro-156",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está avaliando a aquisição de uma concorrente. Além do valuation tradicional, quais outros fatores financeiros devem ser considerados para determinar o preço justo a ser pago, considerando as diferentes estruturas de capital das duas empresas e o impacto sobre o resultado por ação (EPS) após a fusão?",
+    "options": [
+      "Apenas o valor contábil dos ativos.",
+      "Somente a receita líquida das empresas.",
+      "A sinergia entre as empresas, a estrutura de capital resultante e o impacto no EPS pós-fusão.",
+      "Exclusivamente a avaliação de mercado da empresa alvo."
+    ],
+    "correctAnswer": "A sinergia entre as empresas, a estrutura de capital resultante e o impacto no EPS pós-fusão.",
+    "explanation": "A avaliação de uma aquisição considera diversos fatores além do valuation. A sinergia entre as empresas, as estruturas de capital e o impacto no EPS pós-fusão são cruciais para determinar o preço justo.  Curiosidade:  O goodwill, um ativo intangível, frequentemente surge em aquisições e representa o valor da marca, da clientela e de outros ativos intangíveis.",
+    "id": "quiz-dinheiro-157",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um investimento em ações de uma empresa de pequeno porte (small-cap) e ações de uma empresa de grande porte (large-cap)?",
+    "options": [
+      "Small-caps oferecem maior liquidez, enquanto large-caps são mais voláteis.",
+      "Large-caps oferecem maior potencial de crescimento, enquanto small-caps são mais estáveis.",
+      "Small-caps são geralmente mais arriscadas, mas oferecem maior potencial de retorno, enquanto large-caps são mais estáveis e oferecem retornos mais moderados.",
+      "Não há diferença significativa entre investir em small-caps e large-caps."
+    ],
+    "correctAnswer": "Small-caps são geralmente mais arriscadas, mas oferecem maior potencial de retorno, enquanto large-caps são mais estáveis e oferecem retornos mais moderados.",
+    "explanation": "Small-caps, por serem empresas menores e menos estabelecidas, tendem a ser mais voláteis e arriscadas, mas também apresentam maior potencial de crescimento. Large-caps, por sua vez, são empresas maiores e mais consolidadas, oferecendo maior estabilidade e retornos mais moderados.  Curiosidade: O índice Russell 2000 acompanha o desempenho das 2000 menores empresas do mercado americano, representando o segmento small-cap.",
+    "id": "quiz-dinheiro-158",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a emissão de debêntures conversíveis.  Como a volatilidade implícita das ações da empresa afeta o preço de emissão dessas debêntures?",
+    "options": [
+      "A volatilidade implícita não afeta o preço de emissão das debêntures conversíveis.",
+      "Maior volatilidade implícita resulta em um preço de emissão mais alto para as debêntures conversíveis.",
+      "Maior volatilidade implícita resulta em um preço de emissão mais baixo para as debêntures conversíveis.",
+      "A volatilidade implícita afeta apenas o retorno das debêntures após a conversão."
+    ],
+    "correctAnswer": "Maior volatilidade implícita resulta em um preço de emissão mais alto para as debêntures conversíveis.",
+    "explanation": "A volatilidade implícita reflete a expectativa do mercado sobre a oscilação futura do preço das ações.  Debêntures conversíveis oferecem aos investidores a opção de converter as debêntures em ações em uma data futura.  Se a volatilidade implícita é alta, há uma maior chance de que o preço das ações aumente significativamente no futuro, aumentando o valor da opção de conversão e, consequentemente, o preço das debêntures. Curiosidade: A volatilidade implícita é medida com base em opções negociadas na bolsa, que refletem as expectativas dos investidores sobre a volatilidade futura das ações.",
+    "id": "quiz-dinheiro-159",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa está avaliando dois projetos de investimento. O Projeto A tem um retorno de 10% ao ano e o Projeto B, 15%. No entanto, o risco de perda de capital no Projeto B é significativamente maior. Como se deve proceder?",
+    "options": [
+      "Escolher o Projeto B, pois o retorno é maior.",
+      "Escolher o Projeto A, pois o risco é menor.",
+      "Investir em ambos os projetos, diversificando o portfólio.",
+      "Não investir em nenhum dos projetos, pois ambos possuem riscos."
+    ],
+    "correctAnswer": "Investir em ambos os projetos, diversificando o portfólio.",
+    "explanation": "A melhor estratégia é diversificar, investindo em ambos os projetos. Isso reduz o risco geral, combinando um investimento de baixo risco com um de alto retorno. A escolha dependerá da tolerância a risco do investidor. Curiosidade:  A diversificação é um princípio fundamental na gestão de investimentos.",
+    "id": "quiz-dinheiro-160",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um derivativo de crédito e um derivativo de taxa de juros?",
+    "options": [
+      "Derivativos de crédito protegem contra perdas em investimentos de renda fixa, enquanto derivativos de taxa de juros protegem contra flutuações cambiais.",
+      "Derivativos de crédito são baseados em ativos de dívida, como títulos de empresas, enquanto derivativos de taxa de juros são baseados em taxas de juros, como taxas de swap.",
+      "Derivativos de crédito são utilizados para especular sobre o preço de commodities, enquanto derivativos de taxa de juros são utilizados para especular sobre o preço das ações.",
+      "Não há diferença, ambos os termos são sinônimos e representam qualquer contrato financeiro derivado."
+    ],
+    "correctAnswer": "Derivativos de crédito são baseados em ativos de dívida, como títulos de empresas, enquanto derivativos de taxa de juros são baseados em taxas de juros, como taxas de swap.",
+    "explanation": "Derivativos de crédito (como Credit Default Swaps - CDS) protegem contra o risco de inadimplência de um emitente de dívida, enquanto derivativos de taxa de juros (como futuros de taxas de juros) protegem contra flutuações nas taxas de juros.  Curiosidade: O mercado de derivativos de crédito ganhou notoriedade durante a crise financeira de 2008.",
+    "id": "quiz-dinheiro-161",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a emissão de debêntures perpétuas.  Como a taxa de juros implícita (yield to maturity) dessas debêntures é afetada pelo rating de crédito da empresa, pela volatilidade das taxas de juros e pelas condições macroeconômicas?",
+    "options": [
+      "A taxa de juros implícita é afetada apenas pelo rating de crédito, sendo independente da volatilidade das taxas de juros e das condições macroeconômicas.",
+      "A taxa de juros implícita é afetada apenas pela volatilidade das taxas de juros, sendo independente do rating de crédito e das condições macroeconômicas.",
+      "A taxa de juros implícita é afetada pelo rating de crédito, pela volatilidade das taxas de juros e pelas condições macroeconômicas, com um rating mais baixo aumentando a taxa e maior volatilidade e piores condições macroeconômicas também aumentando a taxa.",
+      "A taxa de juros implícita é inversamente proporcional ao rating de crédito e à volatilidade das taxas de juros, e diretamente proporcional às condições macroeconômicas."
+    ],
+    "correctAnswer": "A taxa de juros implícita é afetada pelo rating de crédito, pela volatilidade das taxas de juros e pelas condições macroeconômicas, com um rating mais baixo aumentando a taxa e maior volatilidade e piores condições macroeconômicas também aumentando a taxa.",
+    "explanation": "Um rating de crédito mais baixo aumenta o risco percebido, elevando a taxa exigida pelos investidores.  Maior volatilidade nas taxas de juros também aumenta a incerteza, exigindo um prêmio de risco maior. Condições macroeconômicas adversas também contribuem para o aumento da taxa. Curiosidade: Debêntures perpétuas não têm data de vencimento, o que as torna mais sensíveis a mudanças nas taxas de juros.",
+    "id": "quiz-dinheiro-162",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre um investimento em títulos de dívida soberana de um país emergente e títulos de dívida de um país desenvolvido?",
+    "options": [
+      "Os títulos de países emergentes geralmente oferecem maior retorno, mas também maior risco de calote.",
+      "Os títulos de países desenvolvidos são sempre mais líquidos que os de países emergentes.",
+      "Não há diferença significativa entre os dois tipos de títulos.",
+      "Os títulos de países emergentes são isentos de impostos, enquanto os de países desenvolvidos não são."
+    ],
+    "correctAnswer": "Os títulos de países emergentes geralmente oferecem maior retorno, mas também maior risco de calote.",
+    "explanation": "Países emergentes apresentam maior risco político e econômico, o que aumenta a probabilidade de calote. Para compensar esse risco maior, os investidores exigem um retorno mais alto.  Curiosidade: A classificação de risco de um país, feita por agências como Moody's e S&P, influencia diretamente o retorno exigido pelos investidores.",
+    "id": "quiz-dinheiro-163",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma empresa está considerando investir em um novo projeto.  Quais são DOIS fatores cruciais que devem ser considerados além do retorno financeiro esperado?",
+    "options": [
+      "Risco do projeto e liquidez da empresa",
+      "Tamanho da equipe e localização da fábrica",
+      "Cor da fachada do prédio e nome do CEO",
+      "Rentabilidade dos concorrentes e previsão do tempo"
+    ],
+    "correctAnswer": "Risco do projeto e liquidez da empresa",
+    "explanation": "O risco envolvido e a capacidade da empresa de acessar recursos financeiros (liquidez) são fatores cruciais em qualquer decisão de investimento.  Os outros fatores são irrelevantes para uma análise financeira de investimento. Curiosidade: O método de análise de investimento mais popular é o Valor Presente Líquido (VPL). ",
+    "id": "quiz-dinheiro-164",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a diferença entre um investimento em títulos de dívida de baixo grau (high-yield) e um investimento em títulos de dívida de grau de investimento (investment-grade)?",
+    "options": [
+      "Os títulos high-yield oferecem maior segurança e menor retorno, enquanto os investment-grade têm maior risco e maior potencial de retorno.",
+      "Não há diferença entre os dois tipos de títulos, pois ambos oferecem o mesmo nível de risco e retorno.",
+      "Os títulos investment-grade oferecem maior segurança e menor retorno, enquanto os high-yield têm maior risco e maior potencial de retorno.",
+      "Ambos os tipos de títulos possuem o mesmo risco, mas os high-yield oferecem retornos mais altos devido à sua maior liquidez."
+    ],
+    "correctAnswer": "Os títulos investment-grade oferecem maior segurança e menor retorno, enquanto os high-yield têm maior risco e maior potencial de retorno.",
+    "explanation": "Títulos investment-grade são considerados menos arriscados e, portanto, oferecem retornos mais baixos. Já os títulos high-yield, por serem considerados mais arriscados, oferecem retornos mais altos para compensar o investidor pelo risco assumido.  Curiosidade: A classificação de risco de um título é feita por agências de classificação de risco como Moody's, Standard & Poor's e Fitch Ratings.",
+    "id": "quiz-dinheiro-165",
+    "categoryId": "dinheiro"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma empresa está considerando a recompra de suas próprias ações (buyback).  Descreva uma situação em que essa estratégia seria benéfica e uma situação em que seria prejudicial para os acionistas.",
+    "options": [
+      "Benefício: A empresa acredita que suas ações estão subvalorizadas. Prejudicial: A empresa precisa de capital para financiar investimentos importantes e lucrativos.",
+      "Benefício: A empresa deseja aumentar o valor de mercado de suas ações. Prejudicial: A empresa não tem fluxo de caixa suficiente para recompra das ações.",
+      "Benefício: A empresa quer aumentar o número de ações em circulação. Prejudicial: A empresa está enfrentando dificuldades financeiras.",
+      "Benefício: A empresa deseja reduzir o número de acionistas. Prejudicial: A empresa não acredita no crescimento futuro do seu negócio."
+    ],
+    "correctAnswer": "Benefício: A empresa acredita que suas ações estão subvalorizadas. Prejudicial: A empresa precisa de capital para financiar investimentos importantes e lucrativos.",
+    "explanation": "A recompra de ações é benéfica quando a empresa acredita que suas ações estão subvalorizadas no mercado, aumentando o valor para os acionistas restantes. No entanto, se a empresa necessita desse capital para investimentos lucrativos, a recompra seria prejudicial, pois prejudicaria o crescimento futuro da empresa. Curiosidade: Buybacks podem ser usados para manipular o preço das ações, o que é ilegal em muitos países.",
+    "id": "quiz-dinheiro-166",
+    "categoryId": "dinheiro"
   }
 ]

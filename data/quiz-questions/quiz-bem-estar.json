@@ -2098,5 +2098,187 @@
     "explanation": "A água ajuda a regular o trânsito intestinal e as fibras alimentam as bactérias benéficas do intestino, melhorando a digestão e prevenindo a constipação. Alimentos processados, refrigerantes e comer pouco e frequentemente podem agravar problemas digestivos. Curiosidade: A fibra solúvel, presente em frutas e aveia, é particularmente benéfica para a saúde intestinal.",
     "id": "quiz-bem-estar-150",
     "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'forest bathing' (banho de floresta) pode auxiliar na redução dos níveis de cortisol, o hormônio do estresse, e promover a sensação de calma e bem-estar?",
+    "options": [
+      "Aumentando a frequência cardíaca e estimulando a produção de adrenalina.",
+      "Diminuindo a pressão arterial e reduzindo os níveis de cortisol.",
+      "Aumentando os níveis de glicose no sangue e melhorando o foco.",
+      "Diminuindo a atividade cerebral e induzindo um estado de sonolência."
+    ],
+    "correctAnswer": "Diminuindo a pressão arterial e reduzindo os níveis de cortisol.",
+    "explanation": "Estudos mostram que o contato com a natureza reduz os níveis de cortisol, o hormônio do estresse. A imersão na floresta, em particular, promove relaxamento e bem-estar. As outras opções estão incorretas porque o banho de floresta não aumenta a frequência cardíaca nem os níveis de glicose, nem induz sonolência, mas sim promove relaxamento. Curiosidade: O termo 'Shinrin-yoku', que significa 'banho de floresta', originou-se no Japão na década de 1980 e se popularizou mundialmente como prática de bem-estar.",
+    "id": "quiz-bem-estar-151",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a relação entre a 'teoria da autodeterminação' (TAD) e a prática de atividades físicas para o bem-estar, considerando os fatores de autonomia, competência e relações sociais?",
+    "options": [
+      "A TAD é irrelevante para a motivação em atividades físicas.",
+      "A TAD sugere que apenas a competência é crucial para a adesão a exercícios.",
+      "A TAD indica que a autonomia, competência e relações sociais positivas são importantes para a motivação intrínseca e a manutenção de hábitos saudáveis de exercícios físicos, contribuindo para um maior bem-estar.",
+      "A TAD afirma que a pressão externa é o fator mais importante para o sucesso em atividades físicas."
+    ],
+    "correctAnswer": "A TAD indica que a autonomia, competência e relações sociais positivas são importantes para a motivação intrínseca e a manutenção de hábitos saudáveis de exercícios físicos, contribuindo para um maior bem-estar.",
+    "explanation": "A Teoria da Autodeterminação (TAD) destaca que a motivação intrínseca, alimentada por autonomia, competência e relações sociais positivas, é fundamental para a adesão a longo prazo de atividades físicas e consequente bem-estar. Curiosidade: A TAD é amplamente utilizada em psicologia do esporte para otimizar a motivação e o desempenho atlético.",
+    "id": "quiz-bem-estar-152",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual a diferença fundamental entre resiliência e autocompaixão na superação de adversidades, considerando seus mecanismos psicológicos e impacto no bem-estar?",
+    "options": [
+      "Resiliência foca na recuperação rápida, enquanto autocompaixão na aceitação das emoções negativas.",
+      "Ambas são idênticas em sua abordagem para superar desafios.",
+      "Resiliência se concentra em evitar emoções negativas, enquanto a autocompaixão as abraça.",
+      "Autocompaixão é um tipo de resiliência, mas mais focada no aspecto emocional."
+    ],
+    "correctAnswer": "Resiliência foca na recuperação rápida, enquanto autocompaixão na aceitação das emoções negativas.",
+    "explanation": "Resiliência é a capacidade de se recuperar de situações adversas, focando na resolução de problemas e na recuperação rápida. A autocompaixão, por outro lado, envolve a aceitação das emoções negativas sem julgamento, permitindo um processamento emocional mais saudável. Curiosidade:  A autocompaixão pode aumentar a resiliência, criando um ciclo positivo de enfrentamento.",
+    "id": "quiz-bem-estar-153",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'mindful walking' (caminhada consciente) pode melhorar a conexão com o corpo e reduzir a ansiedade?",
+    "options": [
+      "Aumenta a produção de cortisol, hormônio do estresse.",
+      "Diminui a percepção sensorial do ambiente, evitando distrações.",
+      "Promove a atenção plena no presente momento, reduzindo a preocupação com o futuro ou o passado.",
+      "Acelera o ritmo cardíaco, melhorando o condicionamento físico."
+    ],
+    "correctAnswer": "Promove a atenção plena no presente momento, reduzindo a preocupação com o futuro ou o passado.",
+    "explanation": "Ao focar na sensação física de cada passo, na respiração e nos detalhes do ambiente, o 'mindful walking' desloca a atenção da ansiedade e promove a conexão corpo-mente. Curiosidade: estudos mostram que caminhar na natureza potencializa seus benefícios!",
+    "id": "quiz-bem-estar-154",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "hard",
+    "question": "De que forma a 'autocompaixão', como conceito da psicologia positiva, difere da 'autopiedade' na regulação emocional e na resiliência frente a desafios?",
+    "options": [
+      "Ambas são equivalentes na promoção do bem-estar.",
+      "A autopiedade foca na autocrítica construtiva, enquanto a autocompaixão na aceitação de si.",
+      "A autocompaixão envolve bondade e aceitação, enquanto a autopiedade se concentra na autocrítica e no sofrimento.",
+      "A autocompaixão promove a inércia, enquanto a autopiedade incentiva a ação."
+    ],
+    "correctAnswer": "A autocompaixão envolve bondade e aceitação, enquanto a autopiedade se concentra na autocrítica e no sofrimento.",
+    "explanation": "A autocompaixão trata-se de ser gentil consigo mesmo em momentos de dificuldade, enquanto a autopiedade gera sofrimento prolongado. Curiosidade: a autocompaixão está ligada a maior resiliência e bem-estar emocional.",
+    "id": "quiz-bem-estar-155",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de ioga impacta o sistema nervoso?",
+    "options": [
+      "Aumenta a pressão sanguínea e a frequência cardíaca",
+      "Diminui a produção de hormônios do estresse, como o cortisol",
+      "Aumenta a rigidez muscular e a tensão corporal",
+      "Não apresenta impactos significativos no sistema nervoso"
+    ],
+    "correctAnswer": "Diminui a produção de hormônios do estresse, como o cortisol",
+    "explanation": "A prática regular de ioga promove o relaxamento e a redução da atividade do sistema nervoso simpático, responsável pela resposta de luta ou fuga.  Isso leva a uma diminuição na produção de cortisol, o hormônio do estresse. As outras opções são incorretas, pois a ioga geralmente tem o efeito oposto: reduz a pressão e a frequência cardíaca, promove o relaxamento muscular e melhora a flexibilidade. Curiosidade: Alguns estudos mostram que a ioga pode aumentar a atividade da onda alfa no cérebro, associada a estados de relaxamento e calma.",
+    "id": "quiz-bem-estar-156",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física de baixo impacto é recomendada para melhorar a flexibilidade e reduzir o estresse?",
+    "options": [
+      "Corrida de longa distância",
+      "Levantamento de peso pesado",
+      "Ioga",
+      "Natação competitiva"
+    ],
+    "correctAnswer": "Ioga",
+    "explanation": "A ioga é uma prática de baixo impacto que melhora a flexibilidade, reduz o estresse e promove o relaxamento.  Ao contrário das outras opções, ela foca na postura e respiração, não exigindo esforço físico intenso. Curiosidade: Existem diversos tipos de ioga, cada um com suas particularidades e intensidades.",
+    "id": "quiz-bem-estar-157",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de mindfulness pode auxiliar na regulação emocional em situações de alta pressão, considerando os mecanismos de atenção plena e autorregulação?",
+    "options": [
+      "Diminuindo a capacidade de resposta emocional",
+      "Aumentando a reatividade emocional imediata",
+      "Melhorando a capacidade de observar as emoções sem julgamento",
+      "Ignorando completamente as emoções negativas"
+    ],
+    "correctAnswer": "Melhorando a capacidade de observar as emoções sem julgamento",
+    "explanation": "Mindfulness permite observar as emoções sem julgamento, criando espaço entre o estímulo e a resposta, facilitando a autorregulação. As outras opções descrevem o oposto do efeito da prática. Curiosidade: Estudos mostram que a prática regular de mindfulness pode alterar a estrutura do cérebro, fortalecendo áreas associadas à autorregulação.",
+    "id": "quiz-bem-estar-158",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de ioga pode auxiliar na gestão do estresse crônico, considerando seus efeitos no sistema nervoso parassimpático?",
+    "options": [
+      "Aumentando a produção de cortisol, hormônio do estresse.",
+      "Diminuindo a atividade da amígdala, região cerebral associada ao medo e à ansiedade.",
+      "Estimulando a liberação de adrenalina, preparando o corpo para a resposta de luta ou fuga.",
+      "Aumentando a frequência cardíaca e a pressão arterial."
+    ],
+    "correctAnswer": "Diminuindo a atividade da amígdala, região cerebral associada ao medo e à ansiedade.",
+    "explanation": "A prática regular de ioga ativa o sistema nervoso parassimpático, responsável pela resposta de relaxamento, diminuindo a atividade da amígdala e, consequentemente, reduzindo os níveis de estresse. Curiosidade: Alguns estudos indicam que a ioga pode ser tão eficaz quanto alguns medicamentos na redução da ansiedade.",
+    "id": "quiz-bem-estar-159",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'Forest Bathing' (banho de floresta) pode reduzir o estresse e melhorar o humor, considerando seus efeitos na regulação do sistema nervoso autônomo?",
+    "options": [
+      "Aumentando os níveis de cortisol, o hormônio do estresse.",
+      "Diminuindo a atividade da amígdala, área do cérebro associada ao medo e à ansiedade.",
+      "Acelerando o ritmo cardíaco e aumentando a pressão arterial.",
+      "Reduzindo a produção de endorfinas, neurotransmissores relacionados ao bem-estar."
+    ],
+    "correctAnswer": "Diminuindo a atividade da amígdala, área do cérebro associada ao medo e à ansiedade.",
+    "explanation": "O contato com a natureza, em práticas como o 'Forest Bathing', estimula a atividade parassimpática do sistema nervoso, diminuindo a produção de cortisol e a atividade da amígdala. Isso promove relaxamento e reduz a ansiedade, melhorando o humor. Curiosidade: Estudos mostram que o contato com árvores aumenta a produção de substâncias anti-inflamatórias no corpo.",
+    "id": "quiz-bem-estar-160",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual atividade física simples pode ser feita em casa para melhorar o humor?",
+    "options": [
+      "Correr 10km",
+      "Fazer ioga por 30 minutos",
+      "Caminhar por 15 minutos",
+      "Levantar pesos pesados"
+    ],
+    "correctAnswer": "Caminhar por 15 minutos",
+    "explanation": "Caminhar é uma atividade de baixo impacto que libera endorfinas, melhorando o humor. Correr 10km é muito intenso para iniciantes, ioga requer prática e pesos pesados podem causar lesões. Curiosidade: A caminhada também melhora a saúde cardiovascular!",
+    "id": "quiz-bem-estar-161",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de 'earthing' (contato direto com a terra) pode auxiliar na redução de inflamações crônicas, considerando os efeitos dos elétrons na pele?",
+    "options": [
+      "Aumentando a produção de cortisol, um hormônio anti-inflamatório.",
+      "Reduzindo a inflamação através do aumento da produção de citocinas pró-inflamatórias.",
+      "Neutralizando os radicais livres através da absorção de elétrons da terra, reduzindo o estresse oxidativo.",
+      "Aumentando a temperatura corporal, acelerando o metabolismo e a eliminação de toxinas."
+    ],
+    "correctAnswer": "Neutralizando os radicais livres através da absorção de elétrons da terra, reduzindo o estresse oxidativo.",
+    "explanation": "O contato com a terra permite a absorção de elétrons pela pele, neutralizando os radicais livres que contribuem para a inflamação.  Curiosamente, estudos sugerem que essa prática pode até auxiliar no alívio de dores crônicas. As outras opções estão incorretas pois o earthing não aumenta o cortisol, nem estimula citocinas pró-inflamatórias ou aumenta a temperatura corporal para eliminar toxinas diretamente.",
+    "id": "quiz-bem-estar-162",
+    "categoryId": "bem-estar"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a prática regular de exercícios físicos de intensidade moderada impacta positivamente a saúde mental, considerando os mecanismos neurobiológicos envolvidos, como a liberação de endorfinas e a neurogênese?",
+    "options": [
+      "Aumenta os níveis de cortisol, piorando o humor.",
+      "Diminui a produção de serotonina, causando depressão.",
+      "Promove a liberação de endorfinas e neurogênese, melhorando o humor e reduzindo sintomas de ansiedade e depressão.",
+      "Não apresenta impacto significativo na saúde mental."
+    ],
+    "correctAnswer": "Promove a liberação de endorfinas e neurogênese, melhorando o humor e reduzindo sintomas de ansiedade e depressão.",
+    "explanation": "Exercícios físicos liberam endorfinas, que têm efeito analgésico e melhoram o humor. Além disso, estimulam a neurogênese, processo de formação de novos neurônios, crucial para a saúde cerebral. Curiosidade:  A prática regular de exercícios pode ser tão eficaz quanto alguns medicamentos antidepressivos em casos leves a moderados de depressão.",
+    "id": "quiz-bem-estar-163",
+    "categoryId": "bem-estar"
   }
 ]

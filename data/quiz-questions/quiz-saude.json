@@ -2478,5 +2478,187 @@
     "explanation": "A vitamina D é essencial para a absorção de cálcio, fundamental para a saúde óssea.  Sua deficiência leva ao raquitismo em crianças e osteoporose em adultos, aumentando a fragilidade óssea e o risco de fraturas.  Além disso, a vitamina D também influencia a função muscular, e sua deficiência pode causar fraqueza muscular, aumentando o risco de quedas, especialmente em idosos. Curiosidade: A exposição solar é uma importante fonte de vitamina D.",
     "id": "quiz-saude-177",
     "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a falta de sono afeta o sistema imunológico?",
+    "options": [
+      "Fortalece o sistema imunológico",
+      "Não afeta o sistema imunológico",
+      "Enfraquece o sistema imunológico, aumentando a suscetibilidade a doenças",
+      "Estimula a produção de anticorpos"
+    ],
+    "correctAnswer": "Enfraquece o sistema imunológico, aumentando a suscetibilidade a doenças",
+    "explanation": "A privação do sono reduz a produção de células imunológicas, diminuindo a capacidade do corpo de combater infecções. Curiosidade: Dormir o suficiente é tão importante para a imunidade quanto uma dieta saudável.",
+    "id": "quiz-saude-178",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a deficiência de vitamina D pode afetar a saúde óssea?",
+    "options": [
+      "Fortalecimento dos ossos",
+      "Aumento da densidade óssea",
+      "Fraqueza e fragilidade óssea",
+      "Nenhum efeito"
+    ],
+    "correctAnswer": "Fraqueza e fragilidade óssea",
+    "explanation": "A vitamina D é essencial para a absorção de cálcio, crucial para a saúde óssea. Sua deficiência leva à diminuição da densidade mineral óssea, aumentando o risco de fraturas. Curiosidade: A exposição solar é uma importante fonte de vitamina D.",
+    "id": "quiz-saude-179",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a hiperplasia miofibrilar e a hipertrofia muscular, considerando os mecanismos de crescimento muscular?",
+    "options": [
+      "A hiperplasia aumenta o número de fibras musculares, enquanto a hipertrofia aumenta o tamanho das fibras existentes.",
+      "A hiperplasia aumenta o tamanho das fibras musculares, enquanto a hipertrofia aumenta o número de fibras existentes.",
+      "Ambas aumentam o tamanho das fibras musculares, mas a hiperplasia é mais rápida.",
+      "Ambas aumentam o número de fibras musculares, mas a hipertrofia é mais duradoura."
+    ],
+    "correctAnswer": "A hiperplasia aumenta o número de fibras musculares, enquanto a hipertrofia aumenta o tamanho das fibras existentes.",
+    "explanation": "A hiperplasia miofibrilar se caracteriza pelo aumento do número de células musculares, enquanto a hipertrofia se refere ao aumento do volume de cada fibra muscular.  Curiosamente, a hiperplasia é mais comum em animais de menor porte, enquanto a hipertrofia predomina em humanos.",
+    "id": "quiz-saude-180",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a síndrome do intestino irritável (SII) e a doença inflamatória intestinal (DII)?",
+    "options": [
+      "A SII é uma condição inflamatória, enquanto a DII não é.",
+      "A DII afeta apenas o intestino delgado, enquanto a SII afeta todo o trato digestivo.",
+      "A DII envolve inflamação crônica do trato digestivo, enquanto a SII é caracterizada por sintomas como dor abdominal, inchaço e alterações no hábito intestinal sem inflamação crônica.",
+      "Ambas as condições são idênticas, apenas com nomes diferentes."
+    ],
+    "correctAnswer": "A DII envolve inflamação crônica do trato digestivo, enquanto a SII é caracterizada por sintomas como dor abdominal, inchaço e alterações no hábito intestinal sem inflamação crônica.",
+    "explanation": "A doença inflamatória intestinal (DII) inclui a doença de Crohn e a colite ulcerativa, ambas envolvendo inflamação crônica do trato gastrointestinal.  A síndrome do intestino irritável (SII), por outro lado, não apresenta essa inflamação crônica, embora possa causar desconforto significativo. Curiosamente, a sobreposição de sintomas entre SII e DII pode dificultar o diagnóstico inicial.",
+    "id": "quiz-saude-181",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, especificamente a redução de bactérias produtoras de butirato, pode contribuir para o desenvolvimento de doenças inflamatórias intestinais?",
+    "options": [
+      "O butirato não tem relação com a inflamação intestinal.",
+      "A redução de butirato aumenta a permeabilidade intestinal, levando à inflamação.",
+      "A redução de butirato estimula o crescimento de bactérias benéficas, combatendo a inflamação.",
+      "A redução de butirato fortalece a barreira intestinal, prevenindo a inflamação."
+    ],
+    "correctAnswer": "A redução de butirato aumenta a permeabilidade intestinal, levando à inflamação.",
+    "explanation": "O butirato, produzido por bactérias intestinais, é uma fonte de energia para as células do intestino e possui propriedades anti-inflamatórias.  Sua redução compromete a integridade da barreira intestinal, permitindo a passagem de substâncias que desencadeiam inflamação. Curiosamente, estudos demonstram que a suplementação com butirato pode ser benéfica em alguns casos de doenças inflamatórias intestinais.",
+    "id": "quiz-saude-182",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a qualidade do sono afeta a regulação do apetite e o metabolismo?",
+    "options": [
+      "A qualidade do sono não impacta o apetite nem o metabolismo.",
+      "Sono de má qualidade aumenta a fome e reduz o metabolismo.",
+      "Sono de má qualidade diminui a fome e aumenta o metabolismo.",
+      "Sono de boa qualidade aumenta a fome e reduz o metabolismo."
+    ],
+    "correctAnswer": "Sono de má qualidade aumenta a fome e reduz o metabolismo.",
+    "explanation": "A falta de sono interfere nos hormônios que regulam o apetite, como a leptina e a grelina, aumentando a fome e diminuindo o metabolismo. Curiosamente, a privação do sono também está associada a um maior risco de ganho de peso e obesidade.",
+    "id": "quiz-saude-183",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre a prática regular de exercícios aeróbicos e de força no que diz respeito à saúde cardiovascular?",
+    "options": [
+      "Os exercícios aeróbicos melhoram a capacidade pulmonar, enquanto os exercícios de força aumentam a massa muscular.",
+      "Os exercícios aeróbicos reduzem a pressão arterial, enquanto os exercícios de força aumentam a pressão arterial.",
+      "Ambos melhoram a saúde cardiovascular de forma semelhante, impactando positivamente o sistema circulatório.",
+      "Os exercícios aeróbicos focam na resistência, enquanto os exercícios de força focam na força muscular, sem grandes impactos na saúde cardiovascular."
+    ],
+    "correctAnswer": "Os exercícios aeróbicos reduzem a pressão arterial, enquanto os exercícios de força aumentam a pressão arterial.",
+    "explanation": "Embora ambos os tipos de exercícios sejam benéficos para a saúde, eles afetam o sistema cardiovascular de maneiras diferentes. Exercícios aeróbicos, como corrida ou natação, melhoram a saúde cardiovascular, reduzindo a pressão arterial e melhorando a função cardíaca. Já os exercícios de força, como levantamento de peso, aumentam a pressão arterial durante o exercício, mas a longo prazo contribuem para a saúde óssea e muscular. Curiosidade: a combinação de exercícios aeróbicos e de força proporciona os melhores resultados para a saúde cardiovascular.",
+    "id": "quiz-saude-184",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a disbiose intestinal, associada a uma dieta rica em gordura saturada e açúcar refinado, pode exacerbar a inflamação crônica de baixo grau e contribuir para o desenvolvimento de doenças neurodegenerativas?",
+    "options": [
+      "Não há relação comprovada entre disbiose intestinal e doenças neurodegenerativas.",
+      "A disbiose intestinal, independente da dieta, causa inflamação que leva a doenças neurodegenerativas.",
+      "Uma dieta rica em gordura saturada e açúcar refinado causa disbiose, que, por sua vez, aumenta a permeabilidade intestinal, levando à translocação de lipopolissacarídeos (LPS) e subsequente inflamação crônica, contribuindo para doenças neurodegenerativas.",
+      "A disbiose intestinal melhora a resposta inflamatória, protegendo contra doenças neurodegenerativas."
+    ],
+    "correctAnswer": "Uma dieta rica em gordura saturada e açúcar refinado causa disbiose, que, por sua vez, aumenta a permeabilidade intestinal, levando à translocação de lipopolissacarídeos (LPS) e subsequente inflamação crônica, contribuindo para doenças neurodegenerativas.",
+    "explanation": "A disbiose intestinal, agravada por uma dieta pró-inflamatória, aumenta a permeabilidade intestinal ('intestino permeável'), permitindo que moléculas como LPS (lipopolissacarídeos), componentes da parede celular bacteriana, entrem na corrente sanguínea. Isso dispara uma resposta inflamatória sistêmica de baixo grau, que está relacionada a doenças neurodegenerativas como Alzheimer e Parkinson. Curiosidade: Estudos sugerem que a modulação da microbiota intestinal pode ser uma estratégia terapêutica promissora para o futuro no tratamento de doenças neurodegenerativas.",
+    "id": "quiz-saude-185",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a privação crônica do sono impacta a função cognitiva e o humor?",
+    "options": [
+      "Aumenta a concentração e melhora o humor.",
+      "Não afeta significativamente a função cognitiva nem o humor.",
+      "Diminui a concentração, aumenta a irritabilidade e pode levar à depressão.",
+      "Causa apenas sonolência diurna excessiva."
+    ],
+    "correctAnswer": "Diminui a concentração, aumenta a irritabilidade e pode levar à depressão.",
+    "explanation": "A falta de sono crônico afeta negativamente a função cognitiva, levando a dificuldades de concentração, memória e tomada de decisão. Também impacta o humor, aumentando a irritabilidade, ansiedade e o risco de depressão. Curiosidade:  A privação do sono pode afetar a capacidade de processar informações emocionais, exacerbando reações negativas.",
+    "id": "quiz-saude-186",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Descreva a interação complexa entre a microbiota intestinal, o sistema imunológico e o desenvolvimento de doenças autoimunes, incluindo o papel da permeabilidade intestinal.",
+    "options": [
+      "A microbiota não tem relação com doenças autoimunes.",
+      "A permeabilidade intestinal aumenta, mas não impacta o sistema imunológico.",
+      "O desequilíbrio da microbiota pode aumentar a permeabilidade intestinal, desencadeando resposta imune exacerbada e doenças autoimunes.",
+      "Apenas o sistema imunológico é responsável pelo desenvolvimento de doenças autoimunes."
+    ],
+    "correctAnswer": "O desequilíbrio da microbiota pode aumentar a permeabilidade intestinal, desencadeando resposta imune exacerbada e doenças autoimunes.",
+    "explanation": "Um microbioma intestinal desequilibrado pode danificar a barreira intestinal, aumentando a permeabilidade. Isso permite que substâncias nocivas entrem na corrente sanguínea, ativando o sistema imunológico e potencialmente levando a doenças autoimunes. Curiosidade:  Algumas pesquisas sugerem que o transplante de microbiota fecal pode ser um tratamento promissor para certas doenças autoimunes.",
+    "id": "quiz-saude-187",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Como a microbiota intestinal influencia a eficácia de medicamentos, especificamente a quimioterapia?",
+    "options": [
+      "A microbiota não afeta a quimioterapia.",
+      "A microbiota intestinal aumenta a eficácia da quimioterapia em todos os pacientes.",
+      "A composição da microbiota pode modular a resposta do paciente à quimioterapia, afetando tanto sua eficácia quanto seus efeitos colaterais.",
+      "A microbiota intestinal apenas afeta os efeitos colaterais da quimioterapia, não sua eficácia."
+    ],
+    "correctAnswer": "A composição da microbiota pode modular a resposta do paciente à quimioterapia, afetando tanto sua eficácia quanto seus efeitos colaterais.",
+    "explanation": "Estudos demonstram que a composição da microbiota intestinal pode influenciar a resposta ao tratamento quimioterápico. Algumas bactérias podem metabolizar quimioterápicos, alterando sua concentração e eficácia. Outras podem modular a resposta imunológica, afetando os efeitos colaterais. Curiosidade:  Pesquisas exploram o uso de probióticos e transplantes de microbiota fecal para potencializar os resultados da quimioterapia e reduzir seus efeitos tóxicos.",
+    "id": "quiz-saude-188",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Como a falta de sono impacta a regulação do açúcar no sangue?",
+    "options": [
+      "Melhora a sensibilidade à insulina",
+      "Não afeta a glicemia",
+      "Aumenta a resistência à insulina",
+      "Diminui a produção de glicose pelo fígado"
+    ],
+    "correctAnswer": "Aumenta a resistência à insulina",
+    "explanation": "A privação do sono aumenta a resistência à insulina, dificultando o controle da glicemia e aumentando o risco de diabetes tipo 2. Curiosidade:  Dormir bem regula os hormônios que controlam o apetite e o metabolismo de açúcar.",
+    "id": "quiz-saude-189",
+    "categoryId": "saude"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual a principal diferença entre exercícios aeróbicos e anaeróbicos, e qual tipo é mais eficaz para queimar gordura a longo prazo?",
+    "options": [
+      "Aeróbicos usam oxigênio, anaeróbicos não; ambos são igualmente eficazes para queimar gordura.",
+      "Aeróbicos são de alta intensidade, anaeróbicos são de baixa intensidade; anaeróbicos são melhores para queimar gordura.",
+      "Aeróbicos usam oxigênio, anaeróbicos não; aeróbicos são mais eficazes a longo prazo para queimar gordura.",
+      "Aeróbicos são de baixa intensidade, anaeróbicos são de alta intensidade; ambos são ineficazes para queimar gordura."
+    ],
+    "correctAnswer": "Aeróbicos usam oxigênio, anaeróbicos não; aeróbicos são mais eficazes a longo prazo para queimar gordura.",
+    "explanation": "Exercícios aeróbicos, como corrida e natação, utilizam oxigênio para gerar energia, enquanto exercícios anaeróbicos, como levantamento de peso, não.  Embora os anaeróbicos sejam ótimos para construir massa muscular, os aeróbicos são mais eficazes para queimar gordura a longo prazo devido ao aumento do metabolismo basal. Curiosidade: O excesso de exercícios anaeróbicos pode levar a lesões musculares.",
+    "id": "quiz-saude-190",
+    "categoryId": "saude"
   }
 ]
