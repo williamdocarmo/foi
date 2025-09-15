@@ -1,25 +1,14 @@
 // scripts/generateContent.ts
 /**
- * Gerador de conteúdo robusto (curiosidades + quizzes) — versão turbo
+ * Gerador de conteúdo robusto (curiosidades + quizzes) — versão turbo+confiável
  *
- * Melhorias principais no app:
- * - Lockfile (data/.lock) + --force para evitar execuções concorrentes
- * - Checkpoints efetivos por categoria/kind (data/.checkpoints.json)
- * - Persistência de hashes globais (data/.global-hashes.json) para dedupe entre execuções
- * - Flags extras: --count, --batch-size, --concurrency, --category-exclude, --model, --force
- * - Cancelamento limpo (SIGINT/SIGTERM): salva estado e remove lock
- * - Logs com timestamp e níveis
- * - Prompts com reforço de formato e “anti-alucinação”
- *
- * Requer:
- *  - @google/generative-ai
- *  - json5
- *  - p-limit
- *  - cli-progress
- *  - string-similarity
- *  - fs-extra
- *  - minimist
- *  - tsx
+ * Principais diferenças:
+ * - Usa responseMimeType: "application/json" + responseSchema => saída 100% JSON.
+ * - Fallback esperto: tenta reparar JSON, mantém itens válidos do batch (não descarta tudo).
+ * - Auto-tune de batch em parse fail/429 (reduz de 50→25→10→5→2).
+ * - Fallback de modelo (ex.: gemini-1.5-flash → gemini-1.5-pro) quando útil.
+ * - Retries com backoff e jitter; delay menor entre chamadas.
+ * - Escrita incremental + checkpoints e locks preservados.
  */
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
@@ -52,25 +41,28 @@ const EQUALIZE_ONLY = !!argv["equalize-only"];
 const FORCE = !!argv["force"];
 
 const API_KEY = process.env.GEMINI_API_KEY;
-if (!API_KEY) {
-  throw new Error("GEMINI_API_KEY is not defined in your .env file");
-}
-const MODEL = String(argv.model || process.env.GEMINI_MODEL || "gemini-1.5-flash");
+if (!API_KEY) throw new Error("GEMINI_API_KEY is not defined in your .env file");
+
+const PRIMARY_MODEL = String(argv.model || process.env.GEMINI_MODEL || "gemini-1.5-flash");
+const FALLBACK_MODEL = String(process.env.GEMINI_MODEL_FALLBACK || "gemini-1.5-pro");
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: MODEL });
+let model = genAI.getGenerativeModel({ model: PRIMARY_MODEL });
 
 const CURIOSITIES_TARGET_PER_CATEGORY = Number(argv.count ?? process.env.CURIOSITIES_TARGET ?? 1000);
 const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = Number(argv.count ?? process.env.QUIZ_TARGET ?? 500);
-const DEFAULT_BATCH_SIZE = 50;
+
+// valores iniciais mais conservadores, mas com auto-tune
+const DEFAULT_BATCH_SIZE = 30;
 const BATCH_SIZE = Number(argv["batch-size"] ?? DEFAULT_BATCH_SIZE);
+
 const MAX_RETRIES = 5;
-const BASE_RETRY_DELAY_MS = 1000;
-const API_CALL_DELAY_MS = 1200; // base + jitter
-const DEFAULT_CONCURRENCY = 5;
+const BASE_RETRY_DELAY_MS = 900;
+const API_CALL_DELAY_MS_BASE = 350; // ↓ mais agressivo; com jitter
+const DEFAULT_CONCURRENCY = 4; // concorrência cross-categorias; batch intra-categoria é sequencial
 const CONCURRENCY = Number(argv["concurrency"] ?? DEFAULT_CONCURRENCY);
-const SIMILARITY_THRESHOLD = 0.82; // 0-1 (maior = mais estrito)
-const HASH_FLUSH_INTERVAL = 200; // a cada N novos hashes, persistir em disco
+const SIMILARITY_THRESHOLD = 0.82;
+const HASH_FLUSH_INTERVAL = 200;
 
 // ESM-safe ROOT
 const __filename = fileURLToPath(import.meta.url);
@@ -96,19 +88,16 @@ function log(level: LogLevel, msg: string) {
 // ---------------- GLOBAL DEDUPE STATE ----------------
 const globalTitleHashes = new Set<string>();
 const globalContentHashes = new Set<string>();
-const globalQuizHashes = new Set<string>(); // hash de pergunta normalizada
-
+const globalQuizHashes = new Set<string>();
 let dirtyHashCount = 0;
 
 // ---------------- UTIL ----------------
 async function ensureDirExists(dirPath: string) {
   await fsExtra.ensureDir(dirPath);
 }
-
 function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
 async function atomicWriteJson(filePath: string, data: any) {
   if (DRY_RUN) {
     log("info", `[dry-run] write -> ${filePath} (${Array.isArray(data) ? data.length : "obj"})`);
@@ -118,7 +107,6 @@ async function atomicWriteJson(filePath: string, data: any) {
   await fs.writeFile(tmp, JSON.stringify(data, null, 2), "utf-8");
   await fs.rename(tmp, filePath);
 }
-
 async function safeReadJson<T = any>(filePath: string, defaultValue: T): Promise<T> {
   try {
     const txt = await fs.readFile(filePath, "utf-8");
@@ -127,8 +115,7 @@ async function safeReadJson<T = any>(filePath: string, defaultValue: T): Promise
     return defaultValue;
   }
 }
-
-async function safeParseJsonText<T = any>(text: string): Promise< T | null > {
+async function safeParseJsonText<T = any>(text: string): Promise<T | null> {
   if (!text || !text.trim()) return null;
   const stripped = text.replace(/```json/gi, "").replace(/```/g, "").trim();
   try {
@@ -137,7 +124,7 @@ async function safeParseJsonText<T = any>(text: string): Promise< T | null > {
     try {
       return JSON5.parse(stripped) as T;
     } catch {
-      // tenta capturar o último bloco JSON válido (array/obj)
+      // tenta capturar bloco JSON final
       const matches = stripped.match(/(\[[\s\S]*\]|\{[\s\S]*\})/g);
       if (matches && matches.length) {
         const candidate = matches[matches.length - 1];
@@ -155,7 +142,6 @@ async function safeParseJsonText<T = any>(text: string): Promise< T | null > {
     }
   }
 }
-
 function normalizeText(s: string) {
   return (s ?? "")
     .toLowerCase()
@@ -165,11 +151,9 @@ function normalizeText(s: string) {
     .replace(/\s+/g, " ")
     .trim();
 }
-
 function sha1(s: string) {
   return crypto.createHash("sha1").update(s).digest("hex");
 }
-
 function nextSequentialId(existing: { id?: string }[], categoryId: string) {
   let max = 0;
   for (const it of existing) {
@@ -184,7 +168,6 @@ function nextSequentialId(existing: { id?: string }[], categoryId: string) {
 function wordCount(s: string) {
   return s ? s.trim().split(/\s+/).length : 0;
 }
-
 function validateCuriosity(item: any): item is Curiosity {
   if (!item || typeof item !== "object") return false;
   if (!item.title || typeof item.title !== "string") return false;
@@ -192,26 +175,19 @@ function validateCuriosity(item: any): item is Curiosity {
   if (title.length < 6 || title.length > 120) return false;
 
   if (!item.content || typeof item.content !== "string") return false;
-  const content = item.content.trim();
-  const wc = wordCount(content);
-  if (wc < 40 || wc > 90) return false; // ↑ leve flexibilidade
+  const wc = wordCount(item.content);
+  if (wc < 40 || wc > 90) return false;
 
-  if (!item.funFact || typeof item.funFact !== "string") return false;
-  if (item.funFact.trim().length < 10) return false;
+  if (!item.funFact || typeof item.funFact !== "string" || item.funFact.trim().length < 10) return false;
 
   if (item.hook && (typeof item.hook !== "string" || item.hook.trim().length < 6)) return false;
-  if (
-    item.curiosityLevel &&
-    !(Number.isFinite(item.curiosityLevel) && item.curiosityLevel >= 1 && item.curiosityLevel <= 5)
-  )
+  if (item.curiosityLevel && !(Number.isFinite(item.curiosityLevel) && item.curiosityLevel >= 1 && item.curiosityLevel <= 5))
     return false;
 
   return true;
 }
-
 function validateQuizStrict(item: any): item is QuizQuestion {
   if (!item || typeof item !== "object") return false;
-
   const difficultyOk = ["easy", "medium", "hard"].includes(item.difficulty);
   if (!difficultyOk) return false;
 
@@ -235,7 +211,6 @@ function validateQuizStrict(item: any): item is QuizQuestion {
 
   return true;
 }
-
 function normalizeCuriosityFields(c: Curiosity): Curiosity {
   return {
     ...c,
@@ -257,37 +232,27 @@ function isDuplicateCuriosity(title: string, content: string, existingTitles: st
   const tHash = sha1(tNorm);
   const cHash = sha1(cNorm);
 
-  // 1) Hash global rápido
   if (globalTitleHashes.has(tHash) || globalContentHashes.has(cHash)) return true;
-
-  // 2) Exato no batch atual
   if (existingTitles.includes(title)) return true;
 
-  // 3) Fuzzy por título
   if (existingTitles.length > 0) {
     const best = stringSimilarity.findBestMatch(title, existingTitles);
     return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
   }
-
   return false;
 }
-
 function isDuplicateQuizQuestion(question: string, existingQuestions: string[]) {
   const qNorm = normalizeText(question);
   if (!qNorm) return true;
 
   const qHash = sha1(qNorm);
   if (globalQuizHashes.has(qHash)) return true;
-
-  // 2) Exato no batch atual
   if (existingQuestions.includes(question)) return true;
 
-  // 3) Fuzzy por pergunta
   if (existingQuestions.length > 0) {
     const best = stringSimilarity.findBestMatch(question, existingQuestions);
     return !!best?.bestMatch && best.bestMatch.rating >= SIMILARITY_THRESHOLD;
   }
-
   return false;
 }
 
@@ -300,13 +265,11 @@ type CheckpointSchema = Record<
     lastRunAt?: string;
   }
 >;
-
 async function readCheckpoints(): Promise<CheckpointSchema> {
   return safeReadJson<CheckpointSchema>(checkpointPath, {});
 }
-
 async function writeCheckpoints(cp: CheckpointSchema) {
-  cp.__meta__ = { lastWriteAt: new Date().toISOString() } as any;
+  (cp as any).__meta__ = { lastWriteAt: new Date().toISOString() };
   await atomicWriteJson(checkpointPath, cp);
 }
 
@@ -316,7 +279,6 @@ type GlobalHashesSchema = {
   content: string[];
   quiz: string[];
 };
-
 async function readGlobalHashes() {
   const data = await safeReadJson<GlobalHashesSchema>(globalHashesPath, {
     title: [],
@@ -331,7 +293,6 @@ async function readGlobalHashes() {
     `Hashes persistidos carregados: ${globalTitleHashes.size} títulos, ${globalContentHashes.size} conteúdos, ${globalQuizHashes.size} perguntas`
   );
 }
-
 async function flushGlobalHashesIfNeeded(force = false) {
   if (DRY_RUN) return;
   if (!force && dirtyHashCount < HASH_FLUSH_INTERVAL) return;
@@ -345,72 +306,143 @@ async function flushGlobalHashesIfNeeded(force = false) {
   log("info", "Hashes globais persistidos em disco.");
 }
 
+// ---------------- JSON SCHEMAS (Gemini) ----------------
+const curiosityItemSchema = {
+  type: "OBJECT",
+  properties: {
+    title: { type: "STRING" },
+    hook: { type: "STRING" },
+    content: { type: "STRING" },
+    funFact: { type: "STRING" },
+    curiosityLevel: { type: "INTEGER" },
+  },
+  required: ["title", "content", "funFact"],
+};
+const quizItemSchema = {
+  type: "OBJECT",
+  properties: {
+    difficulty: { type: "STRING", enum: ["easy", "medium", "hard"] },
+    question: { type: "STRING" },
+    options: { type: "ARRAY", items: { type: "STRING" } },
+    correctAnswer: { type: "STRING" },
+    explanation: { type: "STRING" },
+  },
+  required: ["difficulty", "question", "options", "correctAnswer", "explanation"],
+};
+
 // ---------------- API + RETRIES ----------------
-async function generateWithRetry(prompt: string, attempt = 1): Promise<string | null> {
+type GenMode = "curiosities" | "quizzes";
+
+async function generateJsonArrayWithRetry(
+  mode: GenMode,
+  prompt: string,
+  count: number,
+  attempt = 1,
+  currentModel = model
+): Promise<any[] | null> {
+  const isQuiz = mode === "quizzes";
+  const schema = {
+    type: "ARRAY",
+    items: isQuiz ? quizItemSchema : curiosityItemSchema,
+  } as any;
+
   try {
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
-    if (!text || !text.trim()) {
-      log("warn", "API retornou texto vazio");
-      return null;
-    }
-    return text;
+    // Tenta modo "JSON puro" com schema
+    const result = await currentModel.generateContent({
+      contents: [{ role: "user", parts: [{ text: prompt }] }],
+      generationConfig: {
+        responseMimeType: "application/json",
+        responseSchema: schema,
+        temperature: 0.7,
+        topK: 40,
+        topP: 0.9,
+        maxOutputTokens: 4096,
+      },
+    });
+    const txt = result.response.text();
+    const parsed = await safeParseJsonText<any[]>(txt);
+    if (Array.isArray(parsed) && parsed.length) return parsed;
+
+    // Se vier vazio, tenta reparar
+    const repaired = await tryRepairArray(txt);
+    if (Array.isArray(repaired) && repaired.length) return repaired;
+
+    return null;
   } catch (err: any) {
-    const retriable = [429, 503, 504].includes(err?.status) || (!err?.status && attempt <= 2);
+    const status = err?.status;
+    const retriable =
+      [408, 409, 425, 429, 500, 502, 503, 504].includes(status) ||
+      (!status && attempt <= Math.ceil(MAX_RETRIES / 2));
+
     if (attempt <= MAX_RETRIES && retriable) {
-      const delay = Math.round(BASE_RETRY_DELAY_MS * Math.pow(2, attempt - 1) + Math.random() * 1000);
-      log("warn", `API error (status=${err?.status ?? "?"}). Retry em ${delay}ms (tentativa ${attempt}/${MAX_RETRIES})`);
+      const delay = Math.round(BASE_RETRY_DELAY_MS * Math.pow(2, attempt - 1) + Math.random() * 800);
+      log("warn", `API error (status=${status ?? "?"}). Retry em ${delay}ms (tentativa ${attempt}/${MAX_RETRIES})`);
       await sleep(delay);
-      return generateWithRetry(prompt, attempt + 1);
+
+      // Fallback de modelo se persistir
+      if (attempt === Math.ceil(MAX_RETRIES / 2) && currentModel === model && FALLBACK_MODEL) {
+        log("warn", `Alternando para modelo fallback: ${FALLBACK_MODEL}`);
+        const fb = genAI.getGenerativeModel({ model: FALLBACK_MODEL });
+        return generateJsonArrayWithRetry(mode, prompt, count, attempt + 1, fb);
+      }
+
+      return generateJsonArrayWithRetry(mode, prompt, count, attempt + 1, currentModel);
     }
-    log("error", `Erro não-retryable ou máximo de tentativas: ${err?.message ?? err}`);
+
+    log("error", `Erro não-retryable ou máximas tentativas: ${err?.message ?? err}`);
     return null;
   }
+}
+
+async function tryRepairArray(txt: string | null): Promise<any[] | null> {
+  if (!txt) return null;
+  // 1) tentativa direta
+  const parsed = await safeParseJsonText<any[]>(txt);
+  if (Array.isArray(parsed)) return parsed;
+
+  // 2) heurística: capture último [ ... ]
+  const m = txt.match(/\[[\s\S]*\]/);
+  if (m) {
+    const candidate = m[0];
+    try {
+      const j = JSON.parse(candidate);
+      if (Array.isArray(j)) return j;
+    } catch {
+      try {
+        const j = JSON5.parse(candidate);
+        if (Array.isArray(j)) return j;
+      } catch {}
+    }
+  }
+  return null;
 }
 
 // ---------------- PROMPTS ----------------
 function buildCuriosityPrompt(categoryName: string, count: number, bannedTitles: string[]) {
   const banned = bannedTitles.slice(-200);
   return `
-Você é um gerador confiável. Gere exatamente ${count} curiosidades INÉDITAS e atraentes sobre "${categoryName}".
-FORMATO DE SAÍDA: retorne APENAS um ARRAY JSON (sem texto fora do JSON), onde cada item tem:
-  - "title": string (6–80 chars), intrigante, única.
-  - "hook": string (6–30 chars) estilo "Você sabia que..." ou "Incrível:".
-  - "content": parágrafo com 40–80 palavras, linguagem simples e cativante.
-  - "funFact": uma frase extra surpreendente (obrigatório).
-  - "curiosityLevel": número inteiro 1–5 (1 = comum, 5 = ultra-raro).
-
-REGRAS:
-  - NÃO repetir, reescrever ou reordenar títulos existentes: ${JSON.stringify(banned)}
-  - Varie o vocabulário e a estrutura das frases.
-  - Evite listas; use parágrafo corrido.
-  - Não inclua disclaimers, formatação markdown, ou comentários.
-
-Se não tiver certeza, crie fatos gerais, mas plausíveis e não específicos a datas mutáveis.
-Retorne apenas o ARRAY JSON.
-  `;
+Gere ${count} curiosidades INÉDITAS e atraentes sobre "${categoryName}".
+Saída: APENAS um ARRAY JSON de objetos com chaves: "title", "hook", "content", "funFact", "curiosityLevel".
+Restrições:
+- title 6–80 chars, intrigante, única. Não repetir: ${JSON.stringify(banned)}
+- content: 40–80 palavras, parágrafo corrido, linguagem simples.
+- funFact: 1 frase extra surpreendente (obrigatório).
+- curiosityLevel: inteiro 1–5.
+Sem markdown, sem comentários, sem textos fora do JSON.
+`;
 }
-
 function buildQuizPrompt(categoryName: string, count: number, bannedQuestions: string[]) {
   const banned = bannedQuestions.slice(-200);
   return `
-Gere exatamente ${count} perguntas de quiz ORIGINAIS sobre "${categoryName}".
-FORMATO DE SAÍDA: retorne APENAS um ARRAY JSON (sem texto fora do JSON). Cada objeto deve ter:
-  - "difficulty": 'easy' | 'medium' | 'hard'
-  - "question": string (clara, única)
-  - "options": array de 4 strings, plausíveis e distintas
-  - "correctAnswer": string igual a uma das "options"
-  - "explanation": texto curto dizendo por que a correta está certa E por que as outras 3 estão erradas; inclua 1 curiosidade extra.
-
-REGRAS:
-  - NÃO repetir perguntas existentes: ${JSON.stringify(banned)}
-  - Varie dificuldade e estilo; evite começar sempre com o mesmo bigrama.
-  - Evite números/datas muito específicos e controversos.
-  - Não use formatação markdown, nem comentários fora do JSON.
-
-Retorne apenas o ARRAY JSON.
-  `;
+Gere ${count} perguntas de quiz ORIGINAIS sobre "${categoryName}".
+Saída: APENAS um ARRAY JSON de objetos com:
+- difficulty: "easy" | "medium" | "hard"
+- question: string clara e única (não repetir: ${JSON.stringify(banned)})
+- options: array com 4 alternativas plausíveis e distintas
+- correctAnswer: string igual a uma das options
+- explanation: curta, dizendo por que a correta está certa e as outras 3 não; inclua 1 curiosidade.
+Sem markdown, sem comentários, sem textos fora do JSON.
+`;
 }
 
 // ---------------- I/O helpers ----------------
@@ -425,7 +457,6 @@ async function readCategoryJson<T = any[]>(filePath: string): Promise<T> {
     return [] as unknown as T;
   }
 }
-
 async function writeCategoryJson(filePath: string, arr: any[]) {
   const sorted = [...arr].sort((a, b) => {
     const aIdNum = a.id ? parseInt(String(a.id).split("-").pop() || "0", 10) : 0;
@@ -441,13 +472,14 @@ async function acquireLock() {
   const exists = await fsExtra.pathExists(lockPath);
   if (exists && !FORCE) {
     const content = await fs.readFile(lockPath, "utf-8").catch(() => "");
-    throw new Error(`Lockfile encontrado em ${lockPath}. Outra execução pode estar ativa.\nUse --force para sobrescrever.\nConteúdo: ${content}`);
+    throw new Error(
+      `Lockfile encontrado em ${lockPath}. Outra execução pode estar ativa.\nUse --force para sobrescrever.\nConteúdo: ${content}`
+    );
   }
-  const payload = { pid: process.pid, startedAt: new Date().toISOString(), model: MODEL };
+  const payload = { pid: process.pid, startedAt: new Date().toISOString(), model: PRIMARY_MODEL };
   await atomicWriteJson(lockPath, payload);
   log("info", "Lock adquirido.");
 }
-
 async function releaseLock() {
   if (await fsExtra.pathExists(lockPath)) {
     if (DRY_RUN) {
@@ -487,12 +519,15 @@ async function generateForCategory(
   }
 
   log("info", `[${category.id}] ${kind}: ${existingItems.length}/${targetCount}. Gerando ${itemsToGenerate} itens...`);
-
   const progressBar = bars.multibar.create(itemsToGenerate, 0, { category: `${category.id} ${kind}` });
 
   let generatedCount = 0;
+  let dynamicBatch = Math.min(BATCH_SIZE, itemsToGenerate);
+  let consecutiveParseFails = 0;
+
   while (generatedCount < itemsToGenerate) {
-    const batchGenSize = Math.min(itemsToGenerate - generatedCount, BATCH_SIZE);
+    const remaining = itemsToGenerate - generatedCount;
+    const batchGenSize = Math.max(2, Math.min(remaining, dynamicBatch));
     if (batchGenSize <= 0) break;
 
     const bannedContent = curiosityMode ? existingItems.map((i) => i.title) : existingItems.map((i) => i.question);
@@ -501,22 +536,27 @@ async function generateForCategory(
       ? buildCuriosityPrompt(category.name, batchGenSize, bannedContent)
       : buildQuizPrompt(category.name, batchGenSize, bannedContent);
 
-    const raw = await generateWithRetry(prompt);
-    if (!raw) {
-      await sleep(250); // pequena pausa antes de tentar próximo loop
-      continue;
-    }
+    const rawParsed = await generateJsonArrayWithRetry(curiosityMode ? "curiosities" : "quizzes", prompt, batchGenSize);
 
-    const parsed = await safeParseJsonText<any[]>(raw);
-    if (!parsed || !Array.isArray(parsed) || parsed.length === 0) {
+    if (!rawParsed || !Array.isArray(rawParsed) || rawParsed.length === 0) {
+      consecutiveParseFails++;
       log("warn", `[${category.id}] ${kind}: resposta não parseável/sem itens. Pulando batch.`);
-      await sleep(150);
+
+      // auto-tune: reduza o batch progressivamente para estabilizar
+      if (consecutiveParseFails >= 2) {
+        dynamicBatch = nextLowerBatch(dynamicBatch);
+        log("warn", `[${category.id}] ${kind}: reduzindo batch para ${dynamicBatch}`);
+      }
+
+      await sleep(API_CALL_DELAY_MS_BASE + Math.floor(Math.random() * 400));
       continue;
     }
 
-    const uniqueToAdd: any[] = [];
+    consecutiveParseFails = 0;
 
-    for (const rawItem of parsed) {
+    // Filtra e valida os itens retornados, aproveitando o que é bom
+    const uniqueToAdd: any[] = [];
+    for (const rawItem of rawParsed) {
       if (curiosityMode) {
         if (
           validateCuriosity(rawItem) &&
@@ -555,24 +595,35 @@ async function generateForCategory(
       generatedCount += uniqueToAdd.length;
       progressBar.increment(uniqueToAdd.length);
 
-      // atualiza checkpoints
+      // checkpoints
       const key = category.id;
       const entry = (cp[key] = cp[key] || {});
-      if (curiosityMode) {
-        entry.curiositiesBatchesProcessed = (entry.curiositiesBatchesProcessed ?? 0) + 1;
-      } else {
-        entry.quizzesBatchesProcessed = (entry.quizzesBatchesProcessed ?? 0) + 1;
-      }
+      if (curiosityMode) entry.curiositiesBatchesProcessed = (entry.curiositiesBatchesProcessed ?? 0) + 1;
+      else entry.quizzesBatchesProcessed = (entry.quizzesBatchesProcessed ?? 0) + 1;
       entry.lastRunAt = new Date().toISOString();
       await writeCheckpoints(cp);
       await flushGlobalHashesIfNeeded(false);
+    } else {
+      // Se o batch veio todo inválido por validação/duplicatas, ajusta batch para tentar maior diversidade
+      dynamicBatch = nextLowerBatch(dynamicBatch);
+      log("warn", `[${category.id}] ${kind}: batch válido=0 após validação; novo batch=${dynamicBatch}`);
     }
 
-    await sleep(API_CALL_DELAY_MS + Math.floor(Math.random() * 400));
+    // respeita leve delay + jitter para evitar rate limit
+    await sleep(API_CALL_DELAY_MS_BASE + Math.floor(Math.random() * 300));
   }
 
   bars.multibar.remove(progressBar);
   log("info", `[${category.id}] ${kind} finalizado. Total: ${existingItems.length}`);
+}
+
+function nextLowerBatch(current: number) {
+  if (current > 40) return 25;
+  if (current > 25) return 20;
+  if (current > 20) return 10;
+  if (current > 10) return 5;
+  if (current > 5) return 3;
+  return 2;
 }
 
 async function equalizeCounts(kind: GenerateKind, cp: CheckpointSchema) {
@@ -613,23 +664,7 @@ async function gracefulExit(cp: CheckpointSchema) {
   await releaseLock();
 }
 
-async function main() {
-  log("info", "=== Iniciando geração de conteúdo (robusta+) ===");
-  if (DRY_RUN) log("info", ">>> DRY-RUN ativado. Nenhuma alteração será salva. <<<");
-  if (ONLY_CATEGORY) log("info", `>>> Focando apenas na categoria: ${ONLY_CATEGORY} <<<`);
-  if (CATEGORY_EXCLUDE.length) log("info", `>>> Excluindo categorias: ${CATEGORY_EXCLUDE.join(", ")} <<<`);
-  log("info", `Modelo: ${MODEL} | Concurrency: ${CONCURRENCY} | Batch: ${BATCH_SIZE}`);
-
-  await ensureDirExists(dataDir);
-  await ensureDirExists(curiositiesDir);
-  await ensureDirExists(quizzesDir);
-
-  await acquireLock();
-
-  const cp = await readCheckpoints();
-  await readGlobalHashes();
-
-  // Semear hashes com todo o conteúdo existente (além dos persistidos)
+async function seedExistingHashes() {
   log("info", "--- Semeando hashes de conteúdo existente ---");
   for (const c of categories) {
     const curFile = path.join(curiositiesDir, `${c.id}.json`);
@@ -649,6 +684,24 @@ async function main() {
     "info",
     `Hashes prontos: ${globalTitleHashes.size} títulos, ${globalContentHashes.size} conteúdos, ${globalQuizHashes.size} perguntas`
   );
+}
+
+async function main() {
+  log("info", "=== Iniciando geração de conteúdo (turbo JSON) ===");
+  if (DRY_RUN) log("info", ">>> DRY-RUN ativado. Nenhuma alteração será salva. <<<");
+  if (ONLY_CATEGORY) log("info", `>>> Apenas categoria: ${ONLY_CATEGORY} <<<`);
+  if (CATEGORY_EXCLUDE.length) log("info", `>>> Excluindo: ${CATEGORY_EXCLUDE.join(", ")} <<<`);
+  log("info", `Modelos: primary=${PRIMARY_MODEL} | fallback=${FALLBACK_MODEL} | Concurrency=${CONCURRENCY} | Batch inicial=${BATCH_SIZE}`);
+
+  await ensureDirExists(dataDir);
+  await ensureDirExists(curiositiesDir);
+  await ensureDirExists(quizzesDir);
+
+  await acquireLock();
+
+  const cp = await readCheckpoints();
+  await readGlobalHashes();
+  await seedExistingHashes();
 
   // handlers de encerramento
   process.on("SIGINT", async () => {
@@ -662,7 +715,6 @@ async function main() {
     process.exit(0);
   });
 
-  // Execução
   if (EQUALIZE_ONLY) {
     log("info", "--- Rodando apenas a equalização ---");
     await equalizeCounts("curiosities", cp);
@@ -672,18 +724,18 @@ async function main() {
     return;
   }
 
-  const filteredCategories = categories.filter((c) => {
-    if (ONLY_CATEGORY && c.id !== ONLY_CATEGORY) return false;
-    if (CATEGORY_EXCLUDE.includes(c.id)) return false;
-    return true;
-  });
-
   log("info", "--- Iniciando geração por categoria ---");
   const multibar = new cliProgress.MultiBar(
     { clearOnComplete: false, hideCursor: true, format: "{bar} | {category} | {value}/{total} Itens" },
     cliProgress.Presets.shades_classic
   );
   const limit = pLimit(CONCURRENCY);
+
+  const filteredCategories = categories.filter((c) => {
+    if (ONLY_CATEGORY && c.id !== ONLY_CATEGORY) return false;
+    if (CATEGORY_EXCLUDE.includes(c.id)) return false;
+    return true;
+  });
 
   const tasks = filteredCategories.flatMap((category) => [
     limit(() => generateForCategory(category, "curiosities", 0, cp, { multibar })),
@@ -703,7 +755,6 @@ async function main() {
 
 main().catch(async (err) => {
   log("error", `Erro fatal: ${err?.stack || err?.message || err}`);
-  // tenta encerrar com estado salvo
   const cp = await readCheckpoints();
   await gracefulExit(cp);
   process.exit(1);

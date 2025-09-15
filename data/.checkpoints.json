@@ -95,11 +95,16 @@
     "quizzesBatchesProcessed": 2
   },
   "__meta__": {
-    "lastWriteAt": "2025-09-15T08:21:20.728Z"
+    "lastWriteAt": "2025-09-15T10:16:03.198Z"
   },
   "bem-estar": {
     "curiositiesBatchesProcessed": 55,
     "lastRunAt": "2025-09-14T16:49:15.518Z",
     "quizzesBatchesProcessed": 18
+  },
+  "ingles": {
+    "curiositiesBatchesProcessed": 109,
+    "lastRunAt": "2025-09-15T10:14:17.781Z",
+    "quizzesBatchesProcessed": 34
   }
 }

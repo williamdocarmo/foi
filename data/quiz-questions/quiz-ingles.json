@@ -1,0 +1,2354 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Which word is a synonym for 'happy'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Joyful",
+      "Tired"
+    ],
+    "correctAnswer": "Joyful",
+    "explanation": "'Joyful' means feeling or expressing great happiness.  The other options are antonyms or unrelated emotions.",
+    "id": "quiz-ingles-1",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'your' and 'you're'?",
+    "options": [
+      "No difference",
+      "'Your' is possessive, 'you're' is a contraction",
+      "'You're' is possessive, 'your' is a contraction",
+      "'Your' is a verb, 'you're' is a pronoun"
+    ],
+    "correctAnswer": "'Your' is possessive, 'you're' is a contraction",
+    "explanation": "'Your' shows possession (e.g., 'your car'), while 'you're' is a contraction of 'you are'.",
+    "id": "quiz-ingles-2",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correct sentence: A)  I seen the movie. B) I saw the movie. C) I have see the movie. D) I have seen the movie.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "D",
+    "explanation": "D is correct as it uses the correct past participle 'seen' with 'have'. A and C use incorrect verb forms. B is correct but simpler and might be preferred.",
+    "id": "quiz-ingles-3",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sentence uses the subjunctive mood correctly?",
+    "options": [
+      "I suggest that he goes home.",
+      "I suggest that he go home.",
+      "I suggest that he went home.",
+      "I suggest that he will go home."
+    ],
+    "correctAnswer": "I suggest that he go home.",
+    "explanation": "The subjunctive mood is used to express a wish, suggestion, or hypothetical situation.  It often omits the 's' from the third-person singular verb. The others use the indicative mood.",
+    "id": "quiz-ingles-4",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What does 'e.g.' stand for?",
+    "options": [
+      "For example",
+      "In other words",
+      "Specifically",
+      "Generally speaking"
+    ],
+    "correctAnswer": "For example",
+    "explanation": "'e.g.' is an abbreviation for 'exempli gratia', Latin for 'for example'.",
+    "id": "quiz-ingles-5",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a gerund?",
+    "options": [
+      "A type of adjective",
+      "A verb acting as a noun",
+      "A type of adverb",
+      "A noun acting as a verb"
+    ],
+    "correctAnswer": "A verb acting as a noun",
+    "explanation": "A gerund is a verb ending in '-ing' that functions as a noun.  For example, 'Swimming is my favorite sport'.",
+    "id": "quiz-ingles-6",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'zeugma'?",
+    "options": [
+      "A type of metaphor",
+      "A grammatical construction where a single word governs two or more words in different ways",
+      "A figure of speech involving exaggeration",
+      "A rhetorical question"
+    ],
+    "correctAnswer": "A grammatical construction where a single word governs two or more words in different ways",
+    "explanation": "A zeugma uses one verb to govern two or more words, with the verb making sense with only one of them.  Example: She broke his heart and his expensive vase.",
+    "id": "quiz-ingles-7",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the opposite of 'in'?",
+    "options": [
+      "On",
+      "Out",
+      "Up",
+      "Down"
+    ],
+    "correctAnswer": "Out",
+    "explanation": "'Out' is the direct opposite of 'in', indicating the exterior versus the interior.",
+    "id": "quiz-ingles-8",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What grammatical term describes the omission of a word or words readily understood from the context?",
+    "options": [
+      "Ellipsis",
+      "Anaphora",
+      "Epistrophe",
+      "Synecdoche"
+    ],
+    "correctAnswer": "Ellipsis",
+    "explanation": "Ellipsis is the omission of words in a sentence that are implied by context. Anaphora is repetition of words at the beginning, epistrophe at the end, and synecdoche uses a part to represent the whole.",
+    "id": "quiz-ingles-9",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'extremely happy'?",
+    "options": [
+      "Content",
+      "Pleased",
+      "Ecstatic",
+      "Satisfied"
+    ],
+    "correctAnswer": "Ecstatic",
+    "explanation": "Ecstatic implies overwhelming happiness. The others represent milder forms of happiness.",
+    "id": "quiz-ingles-10",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an idiom?",
+    "options": [
+      "A type of poem",
+      "A figure of speech whose meaning is not obvious from the individual words",
+      "A grammatical error",
+      "A foreign word"
+    ],
+    "correctAnswer": "A figure of speech whose meaning is not obvious from the individual words",
+    "explanation": "Idioms have a figurative meaning different from the literal meaning of the words.  Example: 'It's raining cats and dogs'.",
+    "id": "quiz-ingles-11",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the difference between a participle and a gerund?",
+    "options": [
+      "There is no difference",
+      "Participles are adjectives, gerunds are nouns",
+      "Participles are nouns, gerunds are adjectives",
+      "Participles are verbs, gerunds are adverbs"
+    ],
+    "correctAnswer": "Participles are adjectives, gerunds are nouns",
+    "explanation": "Both are verb forms ending in '-ing', but participles modify nouns (acting as adjectives), while gerunds act as nouns themselves.",
+    "id": "quiz-ingles-12",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'child'?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childrens",
+      "Childer"
+    ],
+    "correctAnswer": "Children",
+    "explanation": "Children is the irregular plural of child.",
+    "id": "quiz-ingles-13",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which word is a collective noun?",
+    "options": [
+      "Dog",
+      "House",
+      "Team",
+      "Flower"
+    ],
+    "correctAnswer": "Team",
+    "explanation": "Team refers to a group of individuals.",
+    "id": "quiz-ingles-14",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a malapropism?",
+    "options": [
+      "A grammatical error",
+      "The use of an incorrect word in place of a similar-sounding one",
+      "A type of metaphor",
+      "A rhetorical device"
+    ],
+    "correctAnswer": "The use of an incorrect word in place of a similar-sounding one",
+    "explanation": "Example: 'Dance a flamingo' instead of 'Dance a jig'.",
+    "id": "quiz-ingles-15",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What does 'etc.' mean?",
+    "options": [
+      "And others",
+      "For example",
+      "In conclusion",
+      "In addition"
+    ],
+    "correctAnswer": "And others",
+    "explanation": "It's short for 'et cetera', Latin for 'and others'.",
+    "id": "quiz-ingles-16",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a homophone?",
+    "options": [
+      "A word with multiple meanings",
+      "A word with the same spelling but different meanings",
+      "Words with different spellings but same pronunciation",
+      "Words with different pronunciations but same spelling"
+    ],
+    "correctAnswer": "Words with different spellings but same pronunciation",
+    "explanation": "Examples include 'to, too, two'.",
+    "id": "quiz-ingles-17",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'caesura'?",
+    "options": [
+      "A type of punctuation",
+      "A pause in a line of poetry",
+      "A type of metaphor",
+      "A rhetorical device"
+    ],
+    "correctAnswer": "A pause in a line of poetry",
+    "explanation": "It creates a rhythmic effect.",
+    "id": "quiz-ingles-18",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the past tense of 'eat'?",
+    "options": [
+      "Eated",
+      "Eat",
+      "Ate",
+      "Eaten"
+    ],
+    "correctAnswer": "Ate",
+    "explanation": "Ate is the simple past tense of eat.",
+    "id": "quiz-ingles-19",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What part of speech is 'quickly'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctAnswer": "Adverb",
+    "explanation": "It modifies the verb.",
+    "id": "quiz-ingles-20",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'syntactic ambiguity'?",
+    "options": [
+      "A sentence with multiple possible meanings due to sentence structure",
+      "A word with multiple meanings",
+      "A sentence fragment",
+      "A grammatical error"
+    ],
+    "correctAnswer": "A sentence with multiple possible meanings due to sentence structure",
+    "explanation": "Example: 'I saw the man with the binoculars'.",
+    "id": "quiz-ingles-21",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'portmanteau'?",
+    "options": [
+      "A type of suitcase",
+      "A word blending two others",
+      "A type of sentence",
+      "A type of poem"
+    ],
+    "correctAnswer": "A word blending two others",
+    "explanation": "Example: 'Smog' (smoke + fog).",
+    "id": "quiz-ingles-22",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an 'epistrophe'?",
+    "options": [
+      "Repetition of words at the beginning of clauses",
+      "Repetition of words at the end of clauses",
+      "A type of metaphor",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Repetition of words at the end of clauses",
+    "explanation": "It's a rhetorical device for emphasis.",
+    "id": "quiz-ingles-23",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the present tense of 'is'?",
+    "options": [
+      "Was",
+      "Were",
+      "Am",
+      "Is"
+    ],
+    "correctAnswer": "Is",
+    "explanation": "Is is already in present tense.",
+    "id": "quiz-ingles-24",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'conjunction'?",
+    "options": [
+      "A word that connects words or phrases",
+      "A word that describes a noun",
+      "A word that modifies a verb",
+      "A word that expresses emotion"
+    ],
+    "correctAnswer": "A word that connects words or phrases",
+    "explanation": "Examples include 'and', 'but', 'or'.",
+    "id": "quiz-ingles-25",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'ox'?",
+    "options": [
+      "Oxen",
+      "Oxes",
+      "Ox's",
+      "Oxies"
+    ],
+    "correctAnswer": "Oxen",
+    "explanation": "Oxen is the irregular plural of ox.",
+    "id": "quiz-ingles-26",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'predicate' in a sentence?",
+    "options": [
+      "The subject of the sentence",
+      "The verb and its related words",
+      "The noun phrase",
+      "The adjective phrase"
+    ],
+    "correctAnswer": "The verb and its related words",
+    "explanation": "It tells what the subject does or is.",
+    "id": "quiz-ingles-27",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'anaphora'?",
+    "options": [
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "Repetition of a word or phrase at the end of successive clauses",
+      "A type of simile",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "Repetition of a word or phrase at the beginning of successive clauses",
+    "explanation": "It's a rhetorical device for emphasis and rhythm.",
+    "id": "quiz-ingles-28",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the past participle of 'see'?",
+    "options": [
+      "See",
+      "Saw",
+      "Seen",
+      "Sees"
+    ],
+    "correctAnswer": "Seen",
+    "explanation": "Seen is used with 'have', 'has', or 'had'.",
+    "id": "quiz-ingles-29",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an 'interjection'?",
+    "options": [
+      "A word that describes a noun",
+      "A word that expresses strong emotion",
+      "A word that connects words or phrases",
+      "A word that modifies a verb"
+    ],
+    "correctAnswer": "A word that expresses strong emotion",
+    "explanation": "Examples include 'Oh!', 'Wow!', 'Ouch!'.",
+    "id": "quiz-ingles-30",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'hypophora'?",
+    "options": [
+      "A rhetorical question answered by the speaker",
+      "A figure of speech involving exaggeration",
+      "A type of simile",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "A rhetorical question answered by the speaker",
+    "explanation": "It's a way to engage the audience.",
+    "id": "quiz-ingles-31",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the comparative form of 'good'?",
+    "options": [
+      "Gooder",
+      "More good",
+      "Better",
+      "Best"
+    ],
+    "correctAnswer": "Better",
+    "explanation": "Better is the comparative form of good, comparing two things.",
+    "id": "quiz-ingles-32",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'pronoun'?",
+    "options": [
+      "A word that describes a noun",
+      "A word that replaces a noun",
+      "A word that modifies a verb",
+      "A word that expresses emotion"
+    ],
+    "correctAnswer": "A word that replaces a noun",
+    "explanation": "Examples include 'he', 'she', 'it', 'they'.",
+    "id": "quiz-ingles-33",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'apposition'?",
+    "options": [
+      "A figure of speech involving a surprising or unexpected twist",
+      "Placing two coordinating phrases side by side",
+      "A grammatical error",
+      "A type of simile"
+    ],
+    "correctAnswer": "Placing two coordinating phrases side by side",
+    "explanation": "Example: My friend, a talented musician, plays the guitar.",
+    "id": "quiz-ingles-34",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the superlative form of 'bad'?",
+    "options": [
+      "Badder",
+      "Baddest",
+      "Worse",
+      "Worst"
+    ],
+    "correctAnswer": "Worst",
+    "explanation": "Worst compares three or more things.",
+    "id": "quiz-ingles-35",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an 'article'?",
+    "options": [
+      "A type of noun",
+      "A word that precedes a noun",
+      "A type of verb",
+      "A type of adjective"
+    ],
+    "correctAnswer": "A word that precedes a noun",
+    "explanation": "Examples include 'a', 'an', 'the'.",
+    "id": "quiz-ingles-36",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'chiasmus'?",
+    "options": [
+      "A type of metaphor",
+      "A figure of speech with inverted parallelism",
+      "A grammatical error",
+      "A type of simile"
+    ],
+    "correctAnswer": "A figure of speech with inverted parallelism",
+    "explanation": "Example: 'By day the frolic, and the dance by night'.",
+    "id": "quiz-ingles-37",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the present tense third person singular of 'have'?",
+    "options": [
+      "Have",
+      "Has",
+      "Had",
+      "Having"
+    ],
+    "correctAnswer": "Has",
+    "explanation": "Has is used with he, she, or it.",
+    "id": "quiz-ingles-38",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'preposition'?",
+    "options": [
+      "A word that describes a noun",
+      "A word that modifies a verb",
+      "A word that shows the relationship between a noun/pronoun and another word in the sentence",
+      "A word that expresses emotion"
+    ],
+    "correctAnswer": "A word that shows the relationship between a noun/pronoun and another word in the sentence",
+    "explanation": "Examples include 'on', 'in', 'at', 'to', 'from'.",
+    "id": "quiz-ingles-39",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an 'epigram'?",
+    "options": [
+      "A short, witty poem or saying",
+      "A type of metaphor",
+      "A grammatical error",
+      "A long, descriptive poem"
+    ],
+    "correctAnswer": "A short, witty poem or saying",
+    "explanation": "Often used to convey a sharp observation.",
+    "id": "quiz-ingles-40",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the past tense of 'bring'?",
+    "options": [
+      "Bringed",
+      "Brang",
+      "Brought",
+      "Brung"
+    ],
+    "correctAnswer": "Brought",
+    "explanation": "Brought is the past tense of bring.",
+    "id": "quiz-ingles-41",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'verb'?",
+    "options": [
+      "A word that describes a noun",
+      "A word that shows action or state of being",
+      "A word that modifies a verb",
+      "A word that expresses emotion"
+    ],
+    "correctAnswer": "A word that shows action or state of being",
+    "explanation": "Examples include 'run', 'jump', 'is', 'are'.",
+    "id": "quiz-ingles-42",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'antimetabole'?",
+    "options": [
+      "Repetition of words in reverse grammatical order",
+      "A type of metaphor",
+      "A grammatical error",
+      "A type of simile"
+    ],
+    "correctAnswer": "Repetition of words in reverse grammatical order",
+    "explanation": "Example: 'Eat to live, not live to eat'.",
+    "id": "quiz-ingles-43",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the present participle of 'sing'?",
+    "options": [
+      "Sang",
+      "Sung",
+      "Singing",
+      "Sings"
+    ],
+    "correctAnswer": "Singing",
+    "explanation": "Singing is the present participle, often used with forms of 'be'.",
+    "id": "quiz-ingles-44",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'polysyndeton'?",
+    "options": [
+      "The omission of conjunctions between words, phrases, or clauses",
+      "The deliberate use of many conjunctions",
+      "A grammatical error",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "The deliberate use of many conjunctions",
+    "explanation": "It creates a sense of rhythm and emphasis.",
+    "id": "quiz-ingles-45",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'very big'?",
+    "options": [
+      "tiny",
+      "gigantic",
+      "small",
+      "little"
+    ],
+    "correctAnswer": "gigantic",
+    "explanation": "'Gigantic' means extremely large. The other options mean the opposite or are simply small.",
+    "id": "quiz-ingles-46",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the opposite of 'happy'?",
+    "options": [
+      "sad",
+      "angry",
+      "excited",
+      "joyful"
+    ],
+    "correctAnswer": "sad",
+    "explanation": "'Sad' is a direct antonym of 'happy'.  While the others can represent contrasting emotions, 'sad' is the most straightforward opposite.",
+    "id": "quiz-ingles-47",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correctly punctuated sentence: A)  I love pizza, and pasta. B) I love pizza and pasta. C) I love pizza, and, pasta. D) I love pizza and, pasta.",
+    "options": [
+      "A)  I love pizza, and pasta.",
+      "B) I love pizza and pasta.",
+      "C) I love pizza, and, pasta.",
+      "D) I love pizza and, pasta."
+    ],
+    "correctAnswer": "B) I love pizza and pasta.",
+    "explanation": "Option B is correct; it uses a single conjunction to join two simple items in a list. The other options over-punctuate.",
+    "id": "quiz-ingles-48",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What grammatical function does the word 'quickly' serve in the sentence, 'He ran quickly'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctAnswer": "Adverb",
+    "explanation": "'Quickly' modifies the verb 'ran', describing how the action was performed. This makes it an adverb.",
+    "id": "quiz-ingles-49",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'affect' and 'effect'?",
+    "options": [
+      "They are synonyms.",
+      "Affect is a noun, effect is a verb.",
+      "Affect is usually a verb, effect is usually a noun.",
+      "There is no difference in meaning."
+    ],
+    "correctAnswer": "Affect is usually a verb, effect is usually a noun.",
+    "explanation": "While there are exceptions, 'affect' is typically a verb (to influence), and 'effect' is typically a noun (a result).  This is a common grammatical confusion.",
+    "id": "quiz-ingles-50",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What rhetorical device is used in the sentence, 'The rain falls on the just and on the unjust'?",
+    "options": [
+      "Metaphor",
+      "Antithesis",
+      "Simile",
+      "Hyperbole"
+    ],
+    "correctAnswer": "Antithesis",
+    "explanation": "The sentence uses antithesis, which involves a contrast of opposing ideas or words in parallel construction. The other options do not fit the structure.",
+    "id": "quiz-ingles-51",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sentence uses the passive voice correctly?",
+    "options": [
+      "The ball was thrown by the boy.",
+      "The boy threw the ball.",
+      "The boy was thrown the ball by.",
+      "The ball threw the boy."
+    ],
+    "correctAnswer": "The ball was thrown by the boy.",
+    "explanation": "The first sentence uses the passive voice correctly, with the object of the action ('the ball') becoming the subject.  Other options use active voice or are grammatically incorrect.",
+    "id": "quiz-ingles-52",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Explain the difference between a dangling modifier and a misplaced modifier.",
+    "options": [
+      "There is no difference.",
+      "A dangling modifier is a type of misplaced modifier.",
+      "A misplaced modifier is a type of dangling modifier.",
+      "They are distinct grammatical errors."
+    ],
+    "correctAnswer": "They are distinct grammatical errors.",
+    "explanation": "Both are errors of modification, but a dangling modifier lacks a clear referent, while a misplaced modifier is placed incorrectly but has a clear referent.",
+    "id": "quiz-ingles-53",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word is a pronoun?",
+    "options": [
+      "run",
+      "quickly",
+      "he",
+      "happy"
+    ],
+    "correctAnswer": "he",
+    "explanation": "'He' is a pronoun, replacing a noun. The other options are a verb, adverb, and adjective respectively.",
+    "id": "quiz-ingles-54",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the difference between a restrictive and a nonrestrictive clause?",
+    "options": [
+      "There is no difference.",
+      "A restrictive clause is set off by commas.",
+      "A nonrestrictive clause is set off by commas.",
+      "They are both types of phrases."
+    ],
+    "correctAnswer": "A nonrestrictive clause is set off by commas.",
+    "explanation": "A nonrestrictive clause adds extra information that is not essential to the meaning of the sentence and is set off by commas. A restrictive clause is essential to the meaning of the sentence and is not set off by commas.",
+    "id": "quiz-ingles-55",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'synecdoche'?",
+    "options": [
+      "A type of metaphor",
+      "A figure of speech where a part represents the whole, or vice versa",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "A figure of speech where a part represents the whole, or vice versa",
+    "explanation": "Synecdoche is a figure of speech where a part represents the whole (e.g., 'wheels' for a car) or the whole represents a part (e.g., 'England' won the match).",
+    "id": "quiz-ingles-56",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an 'oxymoron'?",
+    "options": [
+      "A type of simile",
+      "A figure of speech combining contradictory terms",
+      "A type of metaphor",
+      "A grammatical error"
+    ],
+    "correctAnswer": "A figure of speech combining contradictory terms",
+    "explanation": "An oxymoron is a figure of speech that combines apparently contradictory terms (e.g., 'jumbo shrimp').",
+    "id": "quiz-ingles-57",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'anastrophe'?",
+    "options": [
+      "Reversal of the usual word order",
+      "A type of metaphor",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Reversal of the usual word order",
+    "explanation": "Anastrophe is the inversion of the usual order of words or clauses in a sentence.",
+    "id": "quiz-ingles-58",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'catachresis'?",
+    "options": [
+      "A type of metaphor",
+      "An incorrect use of words",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "An incorrect use of words",
+    "explanation": "Catachresis is the use of a word in a way that is not its usual or proper meaning.",
+    "id": "quiz-ingles-59",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'woman'?",
+    "options": [
+      "womans",
+      "womman",
+      "womanes",
+      "women"
+    ],
+    "correctAnswer": "women",
+    "explanation": "'Women' is the plural of 'woman'.",
+    "id": "quiz-ingles-60",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'epizeuxis'?",
+    "options": [
+      "Repetition of a word or phrase for emphasis",
+      "A type of metaphor",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Repetition of a word or phrase for emphasis",
+    "explanation": "Epizeuxis is the successive repetition of a word or phrase to emphasize a point.",
+    "id": "quiz-ingles-61",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'hypotactic' sentence?",
+    "options": [
+      "A simple sentence",
+      "A compound sentence",
+      "A sentence with a subordinate clause",
+      "A sentence without a subject"
+    ],
+    "correctAnswer": "A sentence with a subordinate clause",
+    "explanation": "A hypotactic sentence is one in which clauses are linked through subordination, often using conjunctions like 'because,' 'although,' etc.",
+    "id": "quiz-ingles-62",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the past tense of 'think'?",
+    "options": [
+      "thinked",
+      "thunked",
+      "thought",
+      "think"
+    ],
+    "correctAnswer": "thought",
+    "explanation": "'Thought' is the past tense of 'think'.",
+    "id": "quiz-ingles-63",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an 'ellipsis'?",
+    "options": [
+      "A type of metaphor",
+      "The omission of words for effect",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "The omission of words for effect",
+    "explanation": "An ellipsis is the omission of words to create a particular effect, often suggesting something unsaid.",
+    "id": "quiz-ingles-64",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'asyndeton'?",
+    "options": [
+      "The omission of conjunctions in a series",
+      "A type of metaphor",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "The omission of conjunctions in a series",
+    "explanation": "Asyndeton is the omission of conjunctions between words, phrases, or clauses in a series.",
+    "id": "quiz-ingles-65",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'prolepsis'?",
+    "options": [
+      "A type of metaphor",
+      "Anticipating an objection",
+      "A type of simile",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Anticipating an objection",
+    "explanation": "Prolepsis is a rhetorical device where a speaker anticipates an objection and addresses it preemptively.",
+    "id": "quiz-ingles-66",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'foot'?",
+    "options": [
+      "foots",
+      "feet",
+      "foot's",
+      "footes"
+    ],
+    "correctAnswer": "feet",
+    "explanation": "'Feet' is the plural of 'foot'.",
+    "id": "quiz-ingles-67",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'homonym'?",
+    "options": [
+      "Words with the same spelling and pronunciation but different meanings",
+      "Words with the same spelling but different pronunciations and meanings",
+      "Words with the same pronunciation but different spellings and meanings",
+      "Words with different spellings, pronunciations, and meanings"
+    ],
+    "correctAnswer": "Words with the same spelling and pronunciation but different meanings",
+    "explanation": "A homonym is a word that has the same spelling and pronunciation as another word but a different meaning.",
+    "id": "quiz-ingles-68",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'polyptoton'?",
+    "options": [
+      "Repetition of words derived from the same root",
+      "A grammatical error",
+      "A type of metaphor",
+      "A type of simile"
+    ],
+    "correctAnswer": "Repetition of words derived from the same root",
+    "explanation": "Polyptoton is a literary device that involves repeating a word using different forms of that word (e.g., different tenses or parts of speech).",
+    "id": "quiz-ingles-69",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'their,' 'there,' and 'they're'?",
+    "options": [
+      "They are synonyms",
+      "They are homophones with different meanings and uses",
+      "They are homographs with different meanings and uses",
+      "They are all pronouns"
+    ],
+    "correctAnswer": "They are homophones with different meanings and uses",
+    "explanation": "These three words sound alike but have distinct meanings and grammatical functions.",
+    "id": "quiz-ingles-70",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'a large body of water'?",
+    "options": [
+      "River",
+      "Lake",
+      "Ocean",
+      "Pond"
+    ],
+    "correctAnswer": "Ocean",
+    "explanation": "An ocean is a large body of water. Rivers, lakes, and ponds are smaller bodies of water.  Did you know that the Pacific Ocean is the largest ocean on Earth?",
+    "id": "quiz-ingles-71",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'rhetorical question'?",
+    "options": [
+      "A question asked for effect, not requiring an answer",
+      "A question answered immediately by the speaker",
+      "A question with multiple correct answers",
+      "A question requiring a factual response"
+    ],
+    "correctAnswer": "A question asked for effect, not requiring an answer",
+    "explanation": "A rhetorical question is posed for emphasis, not to elicit a literal response. The other options misrepresent the nature of rhetorical questions.  Many famous speeches utilize rhetorical questions effectively.",
+    "id": "quiz-ingles-72",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'its' and 'it's'?",
+    "options": [
+      "'Its' is possessive; 'it's' is a contraction of 'it is'",
+      "'Its' is a contraction; 'it's' is possessive",
+      "'Its' shows action; 'it's' shows possession",
+      "They are interchangeable"
+    ],
+    "correctAnswer": "'Its' is possessive; 'it's' is a contraction of 'it is'",
+    "explanation": "'Its' shows possession (like 'his' or 'hers'), while 'it's' is a contraction of 'it is' or 'it has'.  Confusing these is a common grammatical error. The apostrophe indicates a contraction.",
+    "id": "quiz-ingles-73",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correctly punctuated sentence: A)  The dog barked loudly, it was a ferocious beast. B) The dog barked loudly; it was a ferocious beast. C) The dog barked loudly it was a ferocious beast. D) The dog, barked loudly; it was a ferocious beast.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Option B uses a semicolon correctly to join two independent clauses. The other options use incorrect punctuation or lack punctuation where it is needed. Semicolons can add sophistication to writing.",
+    "id": "quiz-ingles-74",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the passive voice correctly? A) The ball was thrown by the boy. B) The boy threw the ball. C) The boy was thrown the ball. D) The ball threw the boy.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Option A correctly uses the passive voice ('The ball was thrown').  Option B is active voice. Options C and D are grammatically incorrect.",
+    "id": "quiz-ingles-75",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word is an adjective?",
+    "options": [
+      "run",
+      "quickly",
+      "happy",
+      "jump"
+    ],
+    "correctAnswer": "happy",
+    "explanation": "'Happy' describes a noun, making it an adjective. The other options are verbs or adverbs.",
+    "id": "quiz-ingles-76",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'zeugma' in grammar?",
+    "options": [
+      "A type of metaphor",
+      "A figure of speech using parallelism",
+      "A grammatical error",
+      "Using one word to modify two others in different ways"
+    ],
+    "correctAnswer": "Using one word to modify two others in different ways",
+    "explanation": "A zeugma uses a single word to modify two or more words, but in different senses. For example, \"He opened the door and his heart.\"  The other options are incorrect descriptions of zeugma.",
+    "id": "quiz-ingles-77",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'emigrate' and 'immigrate'?",
+    "options": [
+      "They are synonyms",
+      "Emigrate means to leave a country, immigrate means to enter one",
+      "Emigrate means to enter a country, immigrate means to leave one",
+      "They refer to different types of animals"
+    ],
+    "correctAnswer": "Emigrate means to leave a country, immigrate means to enter one",
+    "explanation": "Emigrate refers to leaving one's country, while immigrate refers to entering a new country to live. A fun fact: The prefixes 'e-' and 'im-' indicate the direction of movement.",
+    "id": "quiz-ingles-78",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correctly punctuated sentence:",
+    "options": [
+      "A) My dog loves walks, and playing fetch.",
+      "B) My dog loves walks and playing fetch.",
+      "C) My dog loves walks and, playing fetch.",
+      "D) My dog loves walks; and playing fetch."
+    ],
+    "correctAnswer": "A) My dog loves walks, and playing fetch.",
+    "explanation": "Option A uses a comma correctly to separate two independent clauses joined by a coordinating conjunction. The other options use incorrect punctuation.",
+    "id": "quiz-ingles-79",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'caesura' in poetry?",
+    "options": [
+      "A type of rhyme scheme",
+      "A pause or break in a line of verse",
+      "A specific type of meter",
+      "A poetic device using alliteration"
+    ],
+    "correctAnswer": "A pause or break in a line of verse",
+    "explanation": "A caesura is a pause within a line of poetry, often marked by punctuation or a natural rhythm.  The other options describe different poetic elements.",
+    "id": "quiz-ingles-80",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'very large'?",
+    "options": [
+      "gigantic",
+      "tiny",
+      "small",
+      "little"
+    ],
+    "correctAnswer": "gigantic",
+    "explanation": "'Gigantic' means extremely large. The other options are antonyms.",
+    "id": "quiz-ingles-81",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a participle?",
+    "options": [
+      "A type of verb",
+      "A type of noun",
+      "A verb acting as an adjective",
+      "A verb acting as an adverb"
+    ],
+    "correctAnswer": "A verb acting as an adjective",
+    "explanation": "A participle is a verb form that functions as an adjective. It can be present (ending in -ing) or past (often ending in -ed, -en, or -t).",
+    "id": "quiz-ingles-82",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'very small'?",
+    "options": [
+      "gigantic",
+      "minuscule",
+      "large",
+      "huge"
+    ],
+    "correctAnswer": "minuscule",
+    "explanation": "'Minuscule' means extremely small.",
+    "id": "quiz-ingles-83",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a dangling modifier?",
+    "options": [
+      "A misplaced adjective",
+      "A modifier without a clear referent",
+      "An incorrectly used adverb",
+      "A type of punctuation error"
+    ],
+    "correctAnswer": "A modifier without a clear referent",
+    "explanation": "A dangling modifier is a phrase or clause that doesn't clearly modify any specific word in the sentence.  The other options are related to grammar but don't define a dangling modifier.",
+    "id": "quiz-ingles-84",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'then' and 'than'?",
+    "options": [
+      "'Then' indicates time, 'than' indicates comparison",
+      "'Than' indicates time, 'then' indicates comparison",
+      "They are interchangeable",
+      "They are both adverbs"
+    ],
+    "correctAnswer": "'Then' indicates time, 'than' indicates comparison",
+    "explanation": "'Then' refers to time sequence, while 'than' is used for comparisons.  Mixing them up is a common error.",
+    "id": "quiz-ingles-85",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a subordinate clause?",
+    "options": [
+      "A clause that can stand alone as a sentence",
+      "A clause that cannot stand alone as a sentence",
+      "A clause that contains a preposition",
+      "A clause that starts with a conjunction"
+    ],
+    "correctAnswer": "A clause that cannot stand alone as a sentence",
+    "explanation": "A subordinate clause depends on a main clause for its meaning.  It cannot function as a complete sentence on its own.",
+    "id": "quiz-ingles-86",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the difference between 'lay' and 'lie'?",
+    "options": [
+      "'Lay' is transitive, 'lie' is intransitive",
+      "'Lie' is transitive, 'lay' is intransitive",
+      "They are interchangeable",
+      "They are both intransitive verbs"
+    ],
+    "correctAnswer": "'Lay' is transitive, 'lie' is intransitive",
+    "explanation": "'Lay' means to put something down (takes an object), 'lie' means to recline (doesn't take an object).  This is a common source of confusion.",
+    "id": "quiz-ingles-87",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is an appositive?",
+    "options": [
+      "A type of conjunction",
+      "A word or phrase that renames or explains a nearby noun or pronoun",
+      "A type of adjective",
+      "A type of adverb"
+    ],
+    "correctAnswer": "A word or phrase that renames or explains a nearby noun or pronoun",
+    "explanation": "An appositive provides extra information about a noun or pronoun.  The other options are incorrect definitions.",
+    "id": "quiz-ingles-88",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is a synonym for 'big'?",
+    "options": [
+      "small",
+      "tiny",
+      "large",
+      "little"
+    ],
+    "correctAnswer": "large",
+    "explanation": "'Large' is a synonym of 'big'. The other options are antonyms.",
+    "id": "quiz-ingles-89",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between 'accept' and 'except'?",
+    "options": [
+      "'Accept' means to receive, 'except' means to exclude",
+      "'Except' means to receive, 'accept' means to exclude",
+      "They are interchangeable",
+      "They are both verbs"
+    ],
+    "correctAnswer": "'Accept' means to receive, 'except' means to exclude",
+    "explanation": "'Accept' means to receive something willingly; 'except' means excluding or leaving out.",
+    "id": "quiz-ingles-90",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is epistrophe?",
+    "options": [
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "Repetition of a word or phrase at the end of successive clauses",
+      "Repetition of a sound at the beginning of successive words",
+      "Repetition of a sound at the end of successive words"
+    ],
+    "correctAnswer": "Repetition of a word or phrase at the end of successive clauses",
+    "explanation": "Epistrophe is the counterpart to anaphora, repeating words or phrases at the ends of successive clauses.",
+    "id": "quiz-ingles-91",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is an adjective?",
+    "options": [
+      "A word that describes a noun or pronoun",
+      "A word that modifies a verb",
+      "A word that connects clauses",
+      "A word that shows action"
+    ],
+    "correctAnswer": "A word that describes a noun or pronoun",
+    "explanation": "Adjectives modify nouns and pronouns by providing details or descriptions.",
+    "id": "quiz-ingles-92",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is an adverb?",
+    "options": [
+      "A word that modifies a verb, adjective, or another adverb",
+      "A word that describes a noun",
+      "A word that connects clauses",
+      "A word that shows possession"
+    ],
+    "correctAnswer": "A word that modifies a verb, adjective, or another adverb",
+    "explanation": "Adverbs describe how, when, where, or to what extent something happens (e.g., quickly, loudly, very).",
+    "id": "quiz-ingles-93",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a collective noun?",
+    "options": [
+      "A noun that names a group of people or things",
+      "A noun that names a single person or thing",
+      "A noun that names a place",
+      "A noun that names an action"
+    ],
+    "correctAnswer": "A noun that names a group of people or things",
+    "explanation": "Collective nouns refer to a group as a single unit (e.g., team, flock, family).",
+    "id": "quiz-ingles-94",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is prolepsis?",
+    "options": [
+      "Anticipating an objection and responding to it",
+      "A figure of speech that uses a word or phrase out of its typical context",
+      "A type of metaphor",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Anticipating an objection and responding to it",
+    "explanation": "Prolepsis is a rhetorical device where a speaker anticipates and addresses a potential counterargument.",
+    "id": "quiz-ingles-95",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'leaf'?",
+    "options": [
+      "leafs",
+      "leaves",
+      "leavies",
+      "leafes"
+    ],
+    "correctAnswer": "leaves",
+    "explanation": "'Leaves' is the correct plural form of 'leaf'. The others are incorrect spellings.",
+    "id": "quiz-ingles-96",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an anaphora?",
+    "options": [
+      "Repetition of a word or phrase at the end of successive clauses",
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "A figure of speech using irony",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "Repetition of a word or phrase at the beginning of successive clauses",
+    "explanation": "Anaphora is the repetition of a word or phrase at the beginning of successive clauses or sentences for emphasis.  Epistrophe is the opposite.",
+    "id": "quiz-ingles-97",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the passive voice correctly? A) The cake was eaten by John. B) John ate the cake. C) John was eaten the cake. D) The cake John ate.",
+    "options": [
+      "A) The cake was eaten by John.",
+      "B) John ate the cake.",
+      "C) John was eaten the cake.",
+      "D) The cake John ate."
+    ],
+    "correctAnswer": "A) The cake was eaten by John.",
+    "explanation": "Sentence A uses the passive voice correctly, with the object of the action ('cake') as the subject. B is active, and C and D are grammatically incorrect.",
+    "id": "quiz-ingles-98",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which word is a collective noun? A) Team B) Dog C) Tree D) Happiness",
+    "options": [
+      "A) Team",
+      "B) Dog",
+      "C) Tree",
+      "D) Happiness"
+    ],
+    "correctAnswer": "A) Team",
+    "explanation": "A collective noun refers to a group of individuals (Team, flock, herd). Dog, Tree, and Happiness are singular nouns.",
+    "id": "quiz-ingles-99",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word is an adjective? A) Run B) Quickly C) Beautiful D) And",
+    "options": [
+      "A) Run",
+      "B) Quickly",
+      "C) Beautiful",
+      "D) And"
+    ],
+    "correctAnswer": "C) Beautiful",
+    "explanation": "Beautiful is a descriptive word that modifies a noun, making it an adjective.",
+    "id": "quiz-ingles-100",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'sheep'?",
+    "options": [
+      "sheeps",
+      "sheep",
+      "sheap",
+      "shepes"
+    ],
+    "correctAnswer": "sheep",
+    "explanation": "The word 'sheep' is one of the few that has the same singular and plural form.  This is an irregular noun.",
+    "id": "quiz-ingles-101",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What grammatical term describes the inversion of the usual word order in a sentence?",
+    "options": [
+      "Anaphora",
+      "Epistrophe",
+      "Anastrophe",
+      "Chiasmus"
+    ],
+    "correctAnswer": "Anastrophe",
+    "explanation": "Anastrophe is the inversion of the normal order of words.  The other options describe other rhetorical devices.",
+    "id": "quiz-ingles-102",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a portmanteau word?",
+    "options": [
+      "A word of foreign origin.",
+      "A word created by blending parts of two or more words.",
+      "A word with multiple meanings.",
+      "A word that sounds alike but has different meanings."
+    ],
+    "correctAnswer": "A word created by blending parts of two or more words.",
+    "explanation": "Examples include 'smog' (smoke + fog) and 'brunch' (breakfast + lunch).",
+    "id": "quiz-ingles-103",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a restrictive clause?",
+    "options": [
+      "A clause that adds extra, nonessential information",
+      "A clause that is essential to the meaning of the sentence",
+      "A clause that begins with a conjunction",
+      "A clause that ends with a preposition"
+    ],
+    "correctAnswer": "A clause that is essential to the meaning of the sentence",
+    "explanation": "A restrictive clause is essential to the meaning of the sentence and is not set off by commas.  Fun fact:  Removing a restrictive clause would change the sentence's meaning.",
+    "id": "quiz-ingles-104",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a predicate?",
+    "options": [
+      "The subject of a sentence",
+      "The verb and its modifiers",
+      "The noun phrase",
+      "The adjective phrase"
+    ],
+    "correctAnswer": "The verb and its modifiers",
+    "explanation": "The predicate is the part of a sentence containing the verb and all its modifiers. Fun fact:  The predicate tells what the subject is or does.",
+    "id": "quiz-ingles-105",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'very happy'?",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Elated",
+      "Angry"
+    ],
+    "correctAnswer": "Elated",
+    "explanation": "'Elated' signifies extreme happiness. The other options represent contrasting emotions.",
+    "id": "quiz-ingles-106",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'mouse'?",
+    "options": [
+      "Mouse",
+      "Mouses",
+      "Mice",
+      "Mouseses"
+    ],
+    "correctAnswer": "Mice",
+    "explanation": "'Mice' is the correct plural of 'mouse'. The other options are incorrect.",
+    "id": "quiz-ingles-107",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is catachresis?",
+    "options": [
+      "A type of metaphor",
+      "An unusual or strained use of words",
+      "A type of simile",
+      "A figure of speech using understatement"
+    ],
+    "correctAnswer": "An unusual or strained use of words",
+    "explanation": "Catachresis involves using a word in an unusual or strained way, often to create a striking image.",
+    "id": "quiz-ingles-108",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which pronoun means 'belonging to them'?",
+    "options": [
+      "His",
+      "Her",
+      "Their",
+      "Its"
+    ],
+    "correctAnswer": "Their",
+    "explanation": "'Their' indicates possession by more than one person.",
+    "id": "quiz-ingles-109",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Which sentence uses the correct article: A) I saw a elephant. B) I saw an elephant. C) I saw elephant. D) I saw the elephant.",
+    "options": [
+      "A) I saw a elephant",
+      "B) I saw an elephant",
+      "C) I saw elephant",
+      "D) I saw the elephant"
+    ],
+    "correctAnswer": "B) I saw an elephant",
+    "explanation": "The correct article is 'an' because 'elephant' starts with a vowel sound.  'A' is used before consonant sounds, and omitting the article is incorrect.",
+    "id": "quiz-ingles-110",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the difference between 'e.g.' and 'i.e.'?",
+    "options": [
+      "Both mean 'for example'",
+      "'e.g.' means 'that is', 'i.e.' means 'for example'",
+      "'e.g.' means 'for example', 'i.e.' means 'that is'",
+      "They are interchangeable"
+    ],
+    "correctAnswer": "'e.g.' means 'for example', 'i.e.' means 'that is'",
+    "explanation": "'e.g.' (exempli gratia) means 'for example', while 'i.e.' (id est) means 'that is'.  Using them interchangeably is a common mistake.",
+    "id": "quiz-ingles-111",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is a synonym for 'happy'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Joyful",
+      "Tired"
+    ],
+    "correctAnswer": "Joyful",
+    "explanation": "'Joyful' is a synonym for 'happy'.  The other options are antonyms or unrelated words.",
+    "id": "quiz-ingles-112",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correct sentence: A) Me and him went to the store. B) Him and me went to the store. C) He and I went to the store. D) I and he went to the store.",
+    "options": [
+      "Me and him went to the store",
+      "Him and me went to the store",
+      "He and I went to the store",
+      "I and he went to the store"
+    ],
+    "correctAnswer": "He and I went to the store",
+    "explanation": "Option C uses correct pronoun case.  Options A and B use objective pronouns where subjective are needed.  Option D is grammatically correct but less natural.  Fun fact:  Pronoun case is a tricky part of English grammar for many native and non-native speakers alike.",
+    "id": "quiz-ingles-113",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is ellipsis?",
+    "options": [
+      "A figure of speech that anticipates an objection",
+      "The deliberate omission of words for rhetorical effect",
+      "A type of metaphor",
+      "A type of simile"
+    ],
+    "correctAnswer": "The deliberate omission of words for rhetorical effect",
+    "explanation": "Ellipsis is the omission of words that are understood from the context, often for stylistic reasons.",
+    "id": "quiz-ingles-114",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word means 'very afraid'?",
+    "options": [
+      "Happy",
+      "Terrified",
+      "Excited",
+      "Sad"
+    ],
+    "correctAnswer": "Terrified",
+    "explanation": "'Terrified' accurately conveys intense fear. The other options represent different emotions. Fun fact: The word 'terrified' comes from the Latin word 'terreo', meaning 'to frighten'.",
+    "id": "quiz-ingles-115",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which sentence uses the correct article?",
+    "options": [
+      "I saw a elephant.",
+      "I saw an elephant.",
+      "I saw elephant.",
+      "I saw the elephant."
+    ],
+    "correctAnswer": "I saw an elephant.",
+    "explanation": "Use 'an' before words beginning with a vowel sound.",
+    "id": "quiz-ingles-116",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "Me and him went to the store.",
+      "Him and me went to the store.",
+      "He and I went to the store.",
+      "I and he went to the store."
+    ],
+    "correctAnswer": "He and I went to the store.",
+    "explanation": "Use subject pronouns ('he', 'I') when the pronouns are the subjects of a sentence.",
+    "id": "quiz-ingles-117",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'gerund' in grammar?",
+    "options": [
+      "A type of adjective",
+      "A verb acting as a noun",
+      "A type of conjunction",
+      "A type of pronoun"
+    ],
+    "correctAnswer": "A verb acting as a noun",
+    "explanation": "A gerund is a verb ending in '-ing' that functions as a noun.  The other options describe different grammatical elements.",
+    "id": "quiz-ingles-118",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a misplaced modifier?",
+    "options": [
+      "A modifier that is placed correctly",
+      "A modifier that is not grammatically linked to the word it is supposed to modify",
+      "A modifier that is placed incorrectly, affecting the meaning of the sentence",
+      "A modifier that uses too many commas"
+    ],
+    "correctAnswer": "A modifier that is placed incorrectly, affecting the meaning of the sentence",
+    "explanation": "A misplaced modifier is correctly linked grammatically but is positioned awkwardly, changing the sentence's meaning.",
+    "id": "quiz-ingles-119",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What part of speech is 'beautiful'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctAnswer": "Adjective",
+    "explanation": "'Beautiful' describes a noun, making it an adjective.  The other options are incorrect.",
+    "id": "quiz-ingles-120",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an 'epistrophe' in rhetoric?",
+    "options": [
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "Repetition of a word or phrase at the end of successive clauses",
+      "Use of contrasting ideas in parallel structure",
+      "A question asked solely to produce an effect"
+    ],
+    "correctAnswer": "Repetition of a word or phrase at the end of successive clauses",
+    "explanation": "Epistrophe is the repetition of a word or phrase at the end of successive clauses.  Anaphora is the repetition at the beginning.",
+    "id": "quiz-ingles-121",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word is a plural noun?",
+    "options": [
+      "cat",
+      "dog",
+      "birds",
+      "house"
+    ],
+    "correctAnswer": "birds",
+    "explanation": "'Birds' is the plural form of 'bird'. The other options are singular nouns.",
+    "id": "quiz-ingles-122",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What grammatical term describes a word or phrase that modifies a noun or pronoun?",
+    "options": [
+      "verb",
+      "adjective",
+      "adverb",
+      "conjunction"
+    ],
+    "correctAnswer": "adjective",
+    "explanation": "Adjectives modify nouns and pronouns. Verbs express action, adverbs modify verbs, and conjunctions connect words or clauses.",
+    "id": "quiz-ingles-123",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a sentence fragment?",
+    "options": [
+      "A complete sentence",
+      "A sentence with a comma splice",
+      "An incomplete sentence",
+      "A run-on sentence"
+    ],
+    "correctAnswer": "An incomplete sentence",
+    "explanation": "A sentence fragment lacks a subject or a verb, or both, making it grammatically incomplete. The other options describe different sentence errors.",
+    "id": "quiz-ingles-124",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What rhetorical device is used in the sentence, 'He is a lion of a man'?",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Hyperbole",
+      "Personification"
+    ],
+    "correctAnswer": "Metaphor",
+    "explanation": "A metaphor directly compares two unlike things without using 'like' or 'as'.  Here, the man is being compared directly to a lion, showing great strength and power.",
+    "id": "quiz-ingles-125",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an 'anaphora' in rhetoric?",
+    "options": [
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "Repetition of a word or phrase at the end of successive clauses",
+      "A contrasting of words or phrases",
+      "A comparison using 'like' or 'as'"
+    ],
+    "correctAnswer": "Repetition of a word or phrase at the beginning of successive clauses",
+    "explanation": "Anaphora is the repetition of a word or phrase at the beginning of successive clauses for emphasis.  The other options describe different rhetorical devices.",
+    "id": "quiz-ingles-126",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What grammatical term describes the omission of a verb?",
+    "options": [
+      "Ellipsis",
+      "Anaphora",
+      "Apposition",
+      "Synecdoche"
+    ],
+    "correctAnswer": "Ellipsis",
+    "explanation": "Ellipsis is the omission of a word or words readily understood from the context. The other options are unrelated rhetorical or grammatical devices.   For example, in 'I went to the store, and she the library,' the verb 'went' is ellipsed in the second clause.",
+    "id": "quiz-ingles-127",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'anastrophe' in grammar?",
+    "options": [
+      "The repetition of a word or phrase at the beginning of successive clauses",
+      "The inversion of the usual word order in a sentence",
+      "The omission of conjunctions between words or phrases",
+      "The use of a word to modify two words in different ways"
+    ],
+    "correctAnswer": "The inversion of the usual word order in a sentence",
+    "explanation": "Anastrophe is the inversion of the usual word order in a sentence.  It's often used for emphasis or stylistic effect.  The other options describe other rhetorical or grammatical devices.  Fun fact:  Anastrophe is often found in poetry.",
+    "id": "quiz-ingles-128",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the correctly punctuated sentence: A) I love dogs, cats, and birds. B) I love dogs cats and birds. C) I love dogs, cats and birds. D) I love dogs cats, and birds.",
+    "options": [
+      "A) I love dogs, cats, and birds.",
+      "B) I love dogs cats and birds.",
+      "C) I love dogs, cats and birds.",
+      "D) I love dogs cats, and birds."
+    ],
+    "correctAnswer": "A) I love dogs, cats, and birds.",
+    "explanation": "Option A uses commas correctly to separate items in a list. The other options have incorrect punctuation. Correct punctuation enhances clarity and readability.",
+    "id": "quiz-ingles-129",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a synecdoche?",
+    "options": [
+      "A type of metaphor",
+      "A figure of speech where a part represents the whole or vice versa",
+      "A type of simile",
+      "A rhetorical device using repetition"
+    ],
+    "correctAnswer": "A figure of speech where a part represents the whole or vice versa",
+    "explanation": "Synecdoche is a figure of speech where a part is used to represent the whole, or vice versa (e.g., 'All hands on deck' – hands represent sailors). The other options describe different literary devices.  It's a fun fact that synecdoche is often used to create a more concise or evocative image.",
+    "id": "quiz-ingles-130",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an antimetabole?",
+    "options": [
+      "Repetition of words in reverse order",
+      "A type of metaphor",
+      "A type of simile",
+      "Repetition of a word or phrase"
+    ],
+    "correctAnswer": "Repetition of words in reverse order",
+    "explanation": "Antimetabole is a rhetorical device where the words in a phrase or clause are repeated in reverse grammatical order, e.g., 'Eat to live, not live to eat'.",
+    "id": "quiz-ingles-131",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is a noun?",
+    "options": [
+      "A word describing an action",
+      "A word that names a person, place, thing, or idea",
+      "A word that modifies a noun",
+      "A word that expresses emotion"
+    ],
+    "correctAnswer": "A word that names a person, place, thing, or idea",
+    "explanation": "Nouns are words that represent people, places, things, or concepts.  The other options describe verbs, adjectives, and interjections, respectively. Fun fact:  Nouns can be concrete (things you can touch) or abstract (concepts like love or justice).",
+    "id": "quiz-ingles-132",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is azeugma?",
+    "options": [
+      "A figure of speech where a single word governs or modifies two or more other words although its relationship to each is different",
+      "A type of metaphor",
+      "A rhetorical question",
+      "A figure of speech involving repetition"
+    ],
+    "correctAnswer": "A figure of speech where a single word governs or modifies two or more other words although its relationship to each is different",
+    "explanation": "A zeugma uses one word to connect two or more others in different grammatical ways, often for humorous or stylistic effect.",
+    "id": "quiz-ingles-133",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'polysyndeton' in rhetoric?",
+    "options": [
+      "The deliberate omission of conjunctions",
+      "The use of many conjunctions in close succession",
+      "A figure of speech involving exaggeration",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "The use of many conjunctions in close succession",
+    "explanation": "Polysyndeton is the stylistic device of using several conjunctions in close proximity, often creating a sense of urgency or emphasis.  It's the opposite of asyndeton.  This technique is frequently used for dramatic effect.",
+    "id": "quiz-ingles-134",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'epizeuxis' in rhetoric?",
+    "options": [
+      "Repetition of a word or phrase for emphasis",
+      "A question that does not require an answer",
+      "A figure of speech using exaggeration",
+      "A figure of speech comparing dissimilar things"
+    ],
+    "correctAnswer": "Repetition of a word or phrase for emphasis",
+    "explanation": "Epizeuxis is the successive repetition of a word or phrase for emphasis.  It's a type of rhetorical device.",
+    "id": "quiz-ingles-135",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'polyptoton' in rhetoric?",
+    "options": [
+      "The repetition of a word or phrase with a change in grammatical form",
+      "The repetition of a word or phrase for emphasis",
+      "The use of parallel structure",
+      "The use of similar-sounding words"
+    ],
+    "correctAnswer": "The repetition of a word or phrase with a change in grammatical form",
+    "explanation": "Polyptoton involves repeating a word using different grammatical forms (e.g., noun, verb, adjective).",
+    "id": "quiz-ingles-136",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the plural of 'cactus'?",
+    "options": [
+      "Cacti",
+      "Cactus's",
+      "Cactuses",
+      "Cactuss"
+    ],
+    "correctAnswer": "Cacti",
+    "explanation": "Cacti is the commonly accepted plural form of cactus.  Cactuses is also grammatically correct but less frequently used.",
+    "id": "quiz-ingles-137",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an anastrophe?",
+    "options": [
+      "Repetition of a word or phrase at the beginning of successive clauses",
+      "Inversion of the usual word order in a sentence",
+      "A type of metaphor",
+      "A grammatical error"
+    ],
+    "correctAnswer": "Inversion of the usual word order in a sentence",
+    "explanation": "Anastrophe is used for stylistic effect, emphasis, or to create a specific rhythm or mood. It can make a sentence sound more dramatic or poetic.",
+    "id": "quiz-ingles-138",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence using the correct subjunctive mood: A) If I was you, I'd go. B) If I were you, I'd go. C) If I am you, I'd go. D) If I be you, I'd go.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": "B",
+    "explanation": "The subjunctive mood uses 'were' after 'if' in contrary-to-fact situations.  A, C, and D are grammatically incorrect in this context.",
+    "id": "quiz-ingles-139",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the correct past participle of 'eat'?",
+    "options": [
+      "eated",
+      "ate",
+      "eaten",
+      "eat"
+    ],
+    "correctAnswer": "eaten",
+    "explanation": "'Eaten' is the past participle of 'eat'. 'Ate' is the simple past tense. The other options are incorrect. Irregular verbs like 'eat' pose a common challenge for English learners.",
+    "id": "quiz-ingles-140",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an example of a hypotactic sentence?",
+    "options": [
+      "The dog barked.",
+      "Because it was raining, the dog went inside.",
+      "The dog barked and ran.",
+      "Quickly, the dog ran."
+    ],
+    "correctAnswer": "Because it was raining, the dog went inside.",
+    "explanation": "A hypotactic sentence uses subordinate clauses to create a complex sentence structure, unlike paratactic sentences which consist of simple independent clauses. The other options are simpler, paratactic sentences.",
+    "id": "quiz-ingles-141",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is an epigraph?",
+    "options": [
+      "A short poem or quotation at the beginning of a book or chapter",
+      "A type of metaphor",
+      "A type of simile",
+      "A type of hyperbole"
+    ],
+    "correctAnswer": "A short poem or quotation at the beginning of a book or chapter",
+    "explanation": "An epigraph is a short poem or quotation at the beginning of a book or chapter, often used to set the tone or theme. It is not a specific type of figure of speech.",
+    "id": "quiz-ingles-142",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the past tense of the verb 'to be'?",
+    "options": [
+      "Is",
+      "Are",
+      "Was",
+      "Been"
+    ],
+    "correctAnswer": "Was",
+    "explanation": " 'Was' is the past tense of 'to be' for singular subjects (I, he, she, it). 'Is', 'are', and 'been' are present tense, plural present tense and past participle, respectively.  Fun fact:  The verb 'to be' is highly irregular, having many different forms.",
+    "id": "quiz-ingles-143",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which word is an adjective describing size?",
+    "options": [
+      "Quickly",
+      "Happy",
+      "Small",
+      "Run"
+    ],
+    "correctAnswer": "Small",
+    "explanation": "'Small' is an adjective describing size. The others are an adverb, adjective (of emotion) and verb respectively.  A fun fact: Adjectives modify nouns.",
+    "id": "quiz-ingles-144",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What grammatical function does the word 'despite' serve?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Preposition"
+    ],
+    "correctAnswer": "Preposition",
+    "explanation": "'Despite' is a preposition showing contrast or concession. The other options are incorrect grammatical classifications. Fun fact: Prepositions show relationships between words in a sentence.",
+    "id": "quiz-ingles-145",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence using the correct comparative adjective:",
+    "options": [
+      "The red apple is more bigger than the green apple.",
+      "The red apple is bigger than the green apple.",
+      "The red apple is more big than the green apple.",
+      "The red apple is biger than the green apple."
+    ],
+    "correctAnswer": "The red apple is bigger than the green apple.",
+    "explanation": " 'Bigger' is the correct comparative form of 'big'.  The other options are grammatically incorrect ways of forming a comparative.  A fun fact: Comparative adjectives are used to compare two things.",
+    "id": "quiz-ingles-146",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is the difference between a phrase and a clause?",
+    "options": [
+      "There is no difference.",
+      "A phrase has a subject and verb, a clause does not.",
+      "A clause has a subject and verb, a phrase does not.",
+      "Phrases are only used in poetry, clauses in prose."
+    ],
+    "correctAnswer": "A clause has a subject and verb, a phrase does not.",
+    "explanation": "A clause contains a subject and a verb; a phrase does not. A fun fact:  A clause can be a complete sentence, but a phrase cannot.",
+    "id": "quiz-ingles-147",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the term for a figure of speech where a part represents the whole?",
+    "options": [
+      "Synecdoche",
+      "Metonymy",
+      "Anthropomorphism",
+      "Personification"
+    ],
+    "correctAnswer": "Synecdoche",
+    "explanation": "Synecdoche uses a part to represent the whole (e.g., 'hands' for workers). Metonymy uses an associated idea, anthropomorphism gives human qualities to non-humans, and personification gives human actions to inanimate objects.  Fun fact: Synecdoche is a type of metonymy.",
+    "id": "quiz-ingles-148",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sentence correctly utilizes the past perfect tense?",
+    "options": [
+      "I had went to the store.",
+      "I had gone to the store.",
+      "I went to the store.",
+      "I will have gone to the store."
+    ],
+    "correctAnswer": "I had gone to the store.",
+    "explanation": "The past perfect tense ('had gone') indicates an action completed before another action in the past. The other options are incorrect tense usages.  Fun fact: The past perfect often shows a sequence of events.",
+    "id": "quiz-ingles-149",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'catenative verb'?",
+    "options": [
+      "A verb that takes another verb as its object",
+      "A verb that describes a state of being",
+      "A verb that is always followed by an adverb",
+      "A verb that is always passive"
+    ],
+    "correctAnswer": "A verb that takes another verb as its object",
+    "explanation": "A catenative verb is followed by another verb, often in the infinitive or -ing form. The other options are not accurate definitions. Fun fact:  Examples of catenative verbs include 'want', 'need', 'try', and 'begin'.",
+    "id": "quiz-ingles-150",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "What is the possessive form of 'child'?",
+    "options": [
+      "Child's",
+      "Childs'",
+      "Childes'",
+      "Childis'"
+    ],
+    "correctAnswer": "Child's",
+    "explanation": " 'Child's' is the possessive form of 'child' for one child.  Childs' is used for plural. The other options are incorrect. A fun fact:  Possessives show ownership.",
+    "id": "quiz-ingles-151",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'modal verb'?",
+    "options": [
+      "A verb that expresses possibility or necessity",
+      "A verb that is always followed by a noun",
+      "A verb that describes a physical action",
+      "A verb that shows a state of being"
+    ],
+    "correctAnswer": "A verb that expresses possibility or necessity",
+    "explanation": "Modal verbs such as 'can', 'could', 'may', 'might', 'should', 'will', 'would', 'must' and 'ought to' express possibility, necessity, permission, or ability.  The other choices are incorrect. Fun fact: Modal verbs are always followed by another verb.",
+    "id": "quiz-ingles-152",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What type of sentence is this: 'Although it was raining, we went for a walk.'",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex",
+      "Compound-complex"
+    ],
+    "correctAnswer": "Complex",
+    "explanation": "This sentence has one independent clause and one dependent clause. Simple sentences have one independent clause, compound sentences have two or more independent clauses, and compound-complex sentences have at least two independent clauses and at least one dependent clause. A fun fact:  Dependent clauses often begin with subordinating conjunctions.",
+    "id": "quiz-ingles-153",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'circumlocution'?",
+    "options": [
+      "A concise and direct way of speaking",
+      "The use of a figure of speech",
+      "An indirect or roundabout way of speaking",
+      "A type of punctuation"
+    ],
+    "correctAnswer": "An indirect or roundabout way of speaking",
+    "explanation": "Circumlocution is using many words to express an idea that could be expressed concisely. The other choices are incorrect definitions. Fun fact: Circumlocution can sometimes be used to avoid being direct or to create a particular effect.",
+    "id": "quiz-ingles-154",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Which of these words is a conjunction?",
+    "options": [
+      "But",
+      "Run",
+      "Quickly",
+      "Happy"
+    ],
+    "correctAnswer": "But",
+    "explanation": "'But' is a conjunction, connecting clauses or sentences. The other options are a verb, an adverb, and an adjective, respectively. A fun fact: Conjunctions show relationships between words, phrases, or clauses.",
+    "id": "quiz-ingles-155",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'pleonasm'?",
+    "options": [
+      "The use of unnecessarily many words",
+      "A figure of speech involving exaggeration",
+      "A type of metaphor",
+      "A grammatical error"
+    ],
+    "correctAnswer": "The use of unnecessarily many words",
+    "explanation": "A pleonasm uses more words than necessary (e.g., 'free gift').  The other options are incorrect definitions. Fun fact: Sometimes pleonasms are used for emphasis or clarity.",
+    "id": "quiz-ingles-156",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What does the acronym 'i.e.' stand for?",
+    "options": [
+      "In effect",
+      "In essence",
+      "That is",
+      "For example"
+    ],
+    "correctAnswer": "That is",
+    "explanation": "'i.e.' is an abbreviation of the Latin phrase 'id est,' meaning 'that is'.  The other options are incorrect. Fun fact:  It's often confused with 'e.g.'",
+    "id": "quiz-ingles-157",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'hypallage'?",
+    "options": [
+      "A type of simile",
+      "A grammatical error",
+      "A figure of speech where an adjective is transferred from the noun it properly modifies to another associated noun",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "A figure of speech where an adjective is transferred from the noun it properly modifies to another associated noun",
+    "explanation": "Hypallage involves a 'misplaced' adjective.  The other options are incorrect descriptions. Fun fact:  It's a less common but interesting rhetorical device.",
+    "id": "quiz-ingles-158",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the term for the repetition of a word or phrase at the beginning of successive clauses?",
+    "options": [
+      "Epistrophe",
+      "Anaphora",
+      "Alliteration",
+      "Assonance"
+    ],
+    "correctAnswer": "Anaphora",
+    "explanation": "Anaphora is the repetition at the beginning. Epistrophe is at the end, alliteration is the repetition of consonant sounds, and assonance is the repetition of vowel sounds. Fun fact:  Anaphora is a powerful rhetorical device for emphasis.",
+    "id": "quiz-ingles-159",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'metaphor'?",
+    "options": [
+      "A direct comparison using 'like' or 'as'",
+      "An implied comparison between unlike things",
+      "A figure of speech that uses exaggeration",
+      "A type of rhyme"
+    ],
+    "correctAnswer": "An implied comparison between unlike things",
+    "explanation": "A metaphor makes an implicit comparison without using 'like' or 'as'.  A simile uses 'like' or 'as'. Hyperbole is exaggeration. The other choices are unrelated. Fun fact: Metaphors add vividness and imagery to writing.",
+    "id": "quiz-ingles-160",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'aposiopesis'?",
+    "options": [
+      "A type of rhyme scheme",
+      "A figure of speech where a sentence is left unfinished",
+      "A grammatical error",
+      "A type of metaphor"
+    ],
+    "correctAnswer": "A figure of speech where a sentence is left unfinished",
+    "explanation": "Aposiopesis is the sudden breaking off of a sentence.  The other options are incorrect. Fun fact:  It can create suspense or dramatic effect.",
+    "id": "quiz-ingles-161",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "What is a 'simile'?",
+    "options": [
+      "A figure of speech that uses exaggeration",
+      "A direct comparison using 'like' or 'as'",
+      "An implied comparison between unlike things",
+      "The repetition of a consonant sound at the beginning of words"
+    ],
+    "correctAnswer": "A direct comparison using 'like' or 'as'",
+    "explanation": "A simile explicitly compares two things using 'like' or 'as'. The other options are incorrect definitions of other figures of speech. Fun fact: Similes make comparisons more vivid and memorable.",
+    "id": "quiz-ingles-162",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is 'anthropomorphism'?",
+    "options": [
+      "Giving human qualities to animals or objects",
+      "Giving animal qualities to humans",
+      "Using metaphors to describe nature",
+      "A type of grammatical error"
+    ],
+    "correctAnswer": "Giving human qualities to animals or objects",
+    "explanation": "Anthropomorphism is attributing human characteristics to non-human entities. The other options are incorrect.  Fun fact: Anthropomorphism is common in children's literature and fables.",
+    "id": "quiz-ingles-163",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'catachresis' in rhetoric?",
+    "options": [
+      "A type of metaphor",
+      "A strained or paradoxical metaphor",
+      "A figure of speech using irony",
+      "A type of simile"
+    ],
+    "correctAnswer": "A strained or paradoxical metaphor",
+    "explanation": "Catachresis is a figure of speech in which words are used in an unusual, unexpected, or paradoxical way to create a striking effect.",
+    "id": "quiz-ingles-164",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'prolepsis' in rhetoric?",
+    "options": [
+      "A type of metaphor",
+      "The anticipation of an objection",
+      "A figure of speech using irony",
+      "A type of simile"
+    ],
+    "correctAnswer": "The anticipation of an objection",
+    "explanation": "Prolepsis is a rhetorical device where a speaker anticipates and addresses potential objections or counterarguments.",
+    "id": "quiz-ingles-165",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'hypophora' in rhetoric?",
+    "options": [
+      "A type of metaphor",
+      "A question that is answered by the speaker",
+      "A figure of speech using irony",
+      "A type of simile"
+    ],
+    "correctAnswer": "A question that is answered by the speaker",
+    "explanation": "A hypophora is a rhetorical device where a speaker asks a question and then immediately answers it themselves.",
+    "id": "quiz-ingles-166",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is a 'chiasmus' in rhetoric?",
+    "options": [
+      "Repetition of a word or phrase",
+      "A balanced sentence structure with inverted word order",
+      "A comparison using 'like' or 'as'",
+      "A figure of speech with unexpected juxtapositions"
+    ],
+    "correctAnswer": "A balanced sentence structure with inverted word order",
+    "explanation": "A chiasmus is a rhetorical device where the grammatical structure of the first half of a sentence is reversed in the second half.  For example, 'Ask not what your country can do for you; ask what you can do for your country.'",
+    "id": "quiz-ingles-167",
+    "categoryId": "ingles"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Identify the sentence using the correct subjunctive mood:",
+    "options": [
+      "If I was you, I'd go.",
+      "If I were you, I'd go.",
+      "If I am you, I'd go.",
+      "If I be you, I'd go."
+    ],
+    "correctAnswer": "If I were you, I'd go.",
+    "explanation": "The subjunctive mood uses 'were' in this type of 'if' clause, expressing a hypothetical situation.",
+    "id": "quiz-ingles-168",
+    "categoryId": "ingles"
+  }
+]
