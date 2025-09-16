@@ -10,6 +10,12 @@ import { doc, getDoc, setDoc } from "firebase/firestore";
 
 const LOCAL_GAME_STATS_KEY = "idea-spark-stats";
 
+/** Normalizador seguro para o mapa de última curiosidade lida */
+function asLastReadMap(v: unknown): Record<string, string> {
+  if (v && typeof v === "object") return v as Record<string, string>;
+  return {};
+}
+
 const defaultStats: GameStats = {
   totalCuriositiesRead: 0,
   readCuriosities: [],
@@ -19,7 +25,7 @@ const defaultStats: GameStats = {
   quizScores: {},
   explorerStatus: "Iniciante",
   combos: 0,
-  // mapeia categoryId -> curiosityId (última vista)
+  // pode vir null do backend; vamos normalizar com asLastReadMap sempre que formos usar
   lastReadCuriosity: null,
 };
 
@@ -46,14 +52,19 @@ function processDateLogic(statsToProcess: GameStats): GameStats {
   return s;
 }
 
-/** Tenta cache; cai para rede se necessário */
+/** Tenta cache; cai para rede se necessário (com tipagem tolerante) */
 async function getUserStatsWithCache(uid: string) {
   const ref = doc(db, "userStats", uid);
+
+  // Se a sua versão do SDK não tipar "source: 'cache'", comente este bloco.
   try {
-    // @ts-ignore - alguns bundlers suportam source: 'cache'
+    // @ts-expect-error algumas versões não tipam "source"
     const snapCache = await getDoc(ref, { source: "cache" });
     if (snapCache?.exists()) return snapCache.data();
-  } catch {}
+  } catch {
+    // ignora e cai para rede
+  }
+
   const snap = await getDoc(ref);
   return snap.exists() ? snap.data() : null;
 }
@@ -122,10 +133,7 @@ export function useGameStats() {
       }
 
       try {
-        const cloud = (await getUserStatsWithCache(authedUser.uid)) as
-          | GameStats
-          | null;
-
+        const cloud = (await getUserStatsWithCache(authedUser.uid)) as GameStats | null;
         const local = loadLocalStats();
 
         // Merge determinístico
@@ -142,9 +150,9 @@ export function useGameStats() {
             ]),
           ],
           lastReadCuriosity: {
-            ...(cloud?.lastReadCuriosity || {}),
-            ...(local.lastReadCuriosity || {}),
-          },
+            ...asLastReadMap(cloud?.lastReadCuriosity),
+            ...asLastReadMap(local.lastReadCuriosity),
+          } as any,
         };
         merged.totalCuriositiesRead = merged.readCuriosities.length;
 
@@ -174,20 +182,21 @@ export function useGameStats() {
   /** Helpers de última curiosidade lida */
   const getLastReadCuriosityId = useCallback(
     (categoryId: string): string | null => {
-      return stats.lastReadCuriosity?.[categoryId] ?? null;
+      const map = asLastReadMap(stats.lastReadCuriosity);
+      return map[categoryId] ?? null;
     },
     [stats.lastReadCuriosity]
   );
 
   const setLastReadCuriosity = useCallback(
     (categoryId: string, curiosityId: string) => {
-      setStats((prev) => ({
-        ...prev,
-        lastReadCuriosity: {
-          ...(prev.lastReadCuriosity || {}),
-          [categoryId]: curiosityId,
-        },
-      }));
+      setStats((prev) => {
+        const prevMap = asLastReadMap(prev.lastReadCuriosity);
+        return {
+          ...prev,
+          lastReadCuriosity: { ...prevMap, [categoryId]: curiosityId },
+        };
+      });
     },
     []
   );
@@ -196,10 +205,8 @@ export function useGameStats() {
   const markCuriosityAsRead = useCallback(
     (curiosityId: string, categoryId: string, onlyUpdateLastRead = false) => {
       setStats((prev) => {
-        const nextLastRead = {
-          ...(prev.lastReadCuriosity || {}),
-          [categoryId]: curiosityId,
-        };
+        const prevMap = asLastReadMap(prev.lastReadCuriosity);
+        const nextLastRead = { ...prevMap, [categoryId]: curiosityId };
 
         if (onlyUpdateLastRead) {
           return { ...prev, lastReadCuriosity: nextLastRead };
