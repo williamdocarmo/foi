@@ -1,0 +1,2872 @@
+[
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério famoso envolve uma ilha e um tesouro?",
+    "options": [
+      "O Mistério de Tutankhamun",
+      "O Caso do Criptograma de Beale",
+      "O Mistério da Ilha de Oak",
+      "O Desaparecimento de Amelia Earhart"
+    ],
+    "correctAnswer": "O Mistério da Ilha de Oak",
+    "explanation": "A Ilha de Oak é famosa por sua lenda de um tesouro enterrado.  As outras opções são mistérios reais, mas não envolvem uma ilha e um tesouro diretamente. Curiosidade:  Muitos já morreram em busca do tesouro da Ilha de Oak!",
+    "id": "quiz-misterios-1",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual desaparecimento misterioso envolve um famoso aviador?",
+    "options": [
+      "O Desaparecimento de Jimmy Hoffa",
+      "O Desaparecimento de D.B. Cooper",
+      "O Desaparecimento de Ambrose Bierce",
+      "O Desaparecimento de Amelia Earhart"
+    ],
+    "correctAnswer": "O Desaparecimento de Amelia Earhart",
+    "explanation": "Amelia Earhart foi uma aviadora famosa que desapareceu sobre o Oceano Pacífico. Os outros desaparecimentos são reais, mas não tão associados a um aviador famoso. Curiosidade:  Diversas teorias conspiratórias cercam o desaparecimento de Amelia Earhart!",
+    "id": "quiz-misterios-2",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual evento misterioso envolve uma série de assassinatos não resolvidos?",
+    "options": [
+      "O Caso Zodiac",
+      "O Mistério de Jack, o Estripador",
+      "Os Assassinatos de Black Dahlia",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "O Caso Zodiac, Jack, o Estripador e os Assassinatos de Black Dahlia são todos eventos misteriosos com assassinatos não resolvidos. Curiosidade:  Apesar de anos de investigação, a identidade do assassino em cada caso continua desconhecida.",
+    "id": "quiz-misterios-3",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o mistério envolvendo um navio que desapareceu misteriosamente?",
+    "options": [
+      "O Titanic",
+      "O Mary Celeste",
+      "O Lusitânia",
+      "O Andrea Doria"
+    ],
+    "correctAnswer": "O Mary Celeste",
+    "explanation": "O Mary Celeste foi encontrado à deriva, completamente vazio, sem sinal de luta ou desastre.  Os outros navios também sofreram naufrágios, mas suas causas são conhecidas. Curiosidade:  A causa do desaparecimento do Mary Celeste permanece um mistério até hoje!",
+    "id": "quiz-misterios-4",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual enigma envolve uma mensagem codificada?",
+    "options": [
+      "O Criptograma de Beale",
+      "O Manuscrito Voynich",
+      "A Máquina Enigma",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "O Criptograma de Beale, o Manuscrito Voynich e a Máquina Enigma envolvem mensagens codificadas. Curiosidade:  Apenas uma parte do Criptograma de Beale foi decifrada!",
+    "id": "quiz-misterios-5",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve um símbolo misterioso e assassinatos?",
+    "options": [
+      "O Caso Zodiac",
+      "Os Assassinatos de Jack, o Estripador",
+      "A Sociedade secreta dos Illuminati",
+      "O Mistério da Ilha de Oak"
+    ],
+    "correctAnswer": "O Caso Zodiac",
+    "explanation": "O Caso Zodiac é conhecido por seus assassinatos e mensagens codificadas com símbolos. Os outros são mistérios, mas não tão diretamente ligados a símbolos e assassinatos em série. Curiosidade:  O Assassino do Zodíaco nunca foi identificado!",
+    "id": "quiz-misterios-6",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual o mistério que envolve uma série de eventos inexplicáveis em uma área específica?",
+    "options": [
+      "A Maldição de Tutankhamun",
+      "O Triângulo das Bermudas",
+      "A Área 51",
+      "O Caso do Criptograma de Beale"
+    ],
+    "correctAnswer": "O Triângulo das Bermudas",
+    "explanation": "O Triângulo das Bermudas é conhecido por seus desaparecimentos inexplicáveis de navios e aeronaves.  Os outros são mistérios, mas não relacionados a uma área específica. Curiosidade:  Muitas teorias conspiratórias existem sobre o Triângulo das Bermudas!",
+    "id": "quiz-misterios-7",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma série de assassinatos rituais?",
+    "options": [
+      "Os Assassinatos de Jack, o Estripador",
+      "Os Assassinatos de Black Dahlia",
+      "O Caso Zodiac",
+      "Os Assassinatos de Hinterkaifeck"
+    ],
+    "correctAnswer": "Os Assassinatos de Hinterkaifeck",
+    "explanation": "Os assassinatos de Hinterkaifeck envolvem uma família morta em uma fazenda, com indícios de ritual.  Os outros são mistérios de assassinatos, mas sem evidências claras de ritual. Curiosidade:  O caso de Hinterkaifeck permanece sem solução até hoje!",
+    "id": "quiz-misterios-8",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual enigma envolve um manuscrito indecifrável?",
+    "options": [
+      "O Manuscrito Voynich",
+      "O Criptograma de Beale",
+      "O Código da Vinci",
+      "A Pedra de Rosetta"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro com uma escrita e ilustrações indecifráveis.  Os outros envolvem códigos, mas não são indecifráveis. Curiosidade:  Muitos especialistas tentaram decifrar o Manuscrito Voynich sem sucesso!",
+    "id": "quiz-misterios-9",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma figura histórica desaparecida?",
+    "options": [
+      "O Desaparecimento de Genghis Khan",
+      "O Desaparecimento de Roanoke",
+      "O Desaparecimento de Ambrose Bierce",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Genghis Khan, a colônia de Roanoke e Ambrose Bierce são exemplos de figuras históricas com desaparecimentos misteriosos. Curiosidade:  Existem várias teorias sobre o que aconteceu com cada uma dessas figuras!",
+    "id": "quiz-misterios-10",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma construção antiga e seu propósito desconhecido?",
+    "options": [
+      "As Linhas de Nazca",
+      "Stonehenge",
+      "As Pirâmides do Egito",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "As Linhas de Nazca, Stonehenge e as Pirâmides do Egito são construções antigas com propósitos ainda debatidos. Curiosidade:  Novas descobertas arqueológicas constantemente desafiam as teorias existentes sobre essas construções!",
+    "id": "quiz-misterios-11",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve uma cidade abandonada?",
+    "options": [
+      "Pompeia",
+      "Roanoke",
+      "Chernobyl",
+      "Angkor Wat"
+    ],
+    "correctAnswer": "Roanoke",
+    "explanation": "A colônia de Roanoke desapareceu misteriosamente, deixando para trás apenas a palavra \"Croatoan\". As outras opções representam cidades abandonadas, mas com razões conhecidas. Curiosidade: O desaparecimento da colônia de Roanoke permanece um mistério intrigante!",
+    "id": "quiz-misterios-12",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma caixa forte com um tesouro?",
+    "options": [
+      "O Criptograma de Beale",
+      "O Mistério da Ilha de Oak",
+      "O Tesouro de Lima",
+      "Todos os acima"
+    ],
+    "correctAnswer": "O Criptograma de Beale",
+    "explanation": "O Criptograma de Beale descreve a localização de um tesouro escondido em uma caixa forte. As outras opções também envolvem tesouros, mas não necessariamente uma caixa forte e um criptograma. Curiosidade: Apenas uma das três partes do Criptograma de Beale foi decifrada!",
+    "id": "quiz-misterios-13",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma organização secreta e seus objetivos obscuros?",
+    "options": [
+      "Os Illuminati",
+      "Os Cavaleiros Templários",
+      "A Ordem dos Assassinos",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Os Illuminati, os Cavaleiros Templários e a Ordem dos Assassinos são organizações secretas históricas com objetivos e atividades obscuros que geraram mistério e especulação. Curiosidade: Muitas teorias da conspiração envolvem essas organizações secretas!",
+    "id": "quiz-misterios-14",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o mistério que envolve um desaparecimento em um parque nacional?",
+    "options": [
+      "O Desaparecimento de David Paulides",
+      "O Desaparecimento de Jimmy Hoffa",
+      "O Desaparecimento de Ambrose Bierce",
+      "O Triângulo das Bermudas"
+    ],
+    "correctAnswer": "O Desaparecimento de David Paulides",
+    "explanation": "David Paulides desapareceu em um parque nacional, e seu caso é usado como exemplo de desaparecimentos misteriosos em áreas naturais. Os outros desaparecimentos não estão diretamente ligados a parques nacionais. Curiosidade:  O caso de David Paulides é frequentemente associado a teorias conspiratórias sobre desaparecimentos em parques nacionais.",
+    "id": "quiz-misterios-15",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual enigma envolve um código que precisa ser decifrado para revelar uma mensagem?",
+    "options": [
+      "O Criptograma de Beale",
+      "A Máquina Enigma",
+      "O Manuscrito Voynich",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Todos os três itens envolvem códigos ou cifras que precisam ser decifrados para revelar uma mensagem oculta. Curiosidade:  A Máquina Enigma foi usada pelos alemães na Segunda Guerra Mundial para criptografar mensagens militares.",
+    "id": "quiz-misterios-16",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma série de assassinatos sem solução aparente e uma possível conexão com uma seita?",
+    "options": [
+      "Os Assassinatos de Hinterkaifeck",
+      "Os Assassinatos de Black Dahlia",
+      "O Caso Zodiac",
+      "Os Assassinatos de Família Moore"
+    ],
+    "correctAnswer": "Os Assassinatos de Hinterkaifeck",
+    "explanation": "Os assassinatos de Hinterkaifeck envolvem uma família morta em sua fazenda, com indícios de que poderia haver uma conexão com uma seita ou grupo religioso. Os outros casos são misteriosos, mas não necessariamente ligados a seitas. Curiosidade:  O caso permanece sem solução, alimentando teorias sobre a participação de uma seita ou grupo.",
+    "id": "quiz-misterios-17",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o mistério envolvendo um trem que desapareceu?",
+    "options": [
+      "O Trem Fantasma de Charlottesville",
+      "O Trem Fantasma de Kentucky",
+      "O Trem Fantasma de Missouri",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Existem diversas lendas sobre trens fantasmas nos EUA, incluindo os citados.  Apesar de serem consideradas lendas urbanas, os relatos persistem. Curiosidade:  As histórias sobre trens fantasmas costumam envolver elementos sobrenaturais.",
+    "id": "quiz-misterios-18",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve um hotel supostamente assombrado?",
+    "options": [
+      "O Hotel Cecil",
+      "O Hotel Cortez",
+      "O Stanley Hotel",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Esses hotéis são conhecidos por lendas e relatos de atividades paranormais. Curiosidade:  Muitas dessas histórias inspiraram obras de ficção!",
+    "id": "quiz-misterios-19",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve um objeto que parece desafiar as leis da física?",
+    "options": [
+      "A Esfera de Klerksdorp",
+      "O Mecanismo de Anticítera",
+      "A Pedra de Rosetta",
+      "Todos os acima"
+    ],
+    "correctAnswer": "A Esfera de Klerksdorp",
+    "explanation": "A Esfera de Klerksdorp é um objeto de origem desconhecida que apresenta características que parecem desafiar a tecnologia da época em que foi encontrado. Curiosidade:  Sua origem e propósito continuam sendo um mistério.",
+    "id": "quiz-misterios-20",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o mistério que envolve uma mensagem críptica deixada em um local?",
+    "options": [
+      "O Caso Zodiac",
+      "O Criptograma de Beale",
+      "O Manuscrito Voynich",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Todos os três casos envolvem mensagens crípticas, seja em forma de cartas, códigos ou manuscritos. Curiosidade:  A decifração completa de algumas dessas mensagens continua a desafiar os especialistas.",
+    "id": "quiz-misterios-21",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o desaparecimento de um grupo de pessoas?",
+    "options": [
+      "O Desaparecimento de Roanoke",
+      "O Desaparecimento do Dyatlov Pass",
+      "O Desaparecimento de Flight 19",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Todos os três casos envolvem o desaparecimento misterioso de um grupo de pessoas sob circunstâncias inexplicáveis. Curiosidade:  As teorias sobre essas ocorrências variam de eventos naturais a teorias conspiratórias.",
+    "id": "quiz-misterios-22",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma tecnologia avançada que não se encaixa no período de tempo em que foi encontrada?",
+    "options": [
+      "O Mecanismo de Anticítera",
+      "A Esfera de Klerksdorp",
+      "A Bateria de Bagdá",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Esses objetos apresentam complexidade tecnológica que parece avançada demais para a época em que foram descobertos. Curiosidade:  A complexidade desses artefatos sugere que civilizações antigas poderiam ter tido um nível de conhecimento mais avançado do que se supõe.",
+    "id": "quiz-misterios-23",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual o mistério envolvendo um homem que sumiu sem deixar rastros?",
+    "options": [
+      "O Desaparecimento de Jimmy Hoffa",
+      "O Desaparecimento de DB Cooper",
+      "O Desaparecimento de Ambrose Bierce",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Todos esses casos envolvem o desaparecimento de homens sem deixar rastros, gerando mistério e especulação. Curiosidade:  As teorias sobre o desaparecimento de cada um variam consideravelmente.",
+    "id": "quiz-misterios-24",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma criatura lendária avistada por várias pessoas?",
+    "options": [
+      "O Monstro do Lago Ness",
+      "Bigfoot",
+      "Chupacabra",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Essas criaturas lendárias são amplamente conhecidas e existem relatos de avistamentos por diversas pessoas, apesar de nenhuma prova definitiva existir. Curiosidade:  A busca por evidências continua a alimentar a lenda dessas criaturas!",
+    "id": "quiz-misterios-25",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma série de eventos inexplicáveis que parecem estar interligados?",
+    "options": [
+      "Os Assassinatos de Jack, o Estripador",
+      "Os Assassinatos de Black Dahlia",
+      "O Caso Zodiac",
+      "Todos os acima"
+    ],
+    "correctAnswer": "Todos os acima",
+    "explanation": "Esses casos, apesar de ocorrerem em diferentes épocas e locais, compartilham características misteriosas e inexplicáveis, gerando especulações sobre possíveis conexões. Curiosidade:  As investigações desses casos geraram várias teorias, mas a verdade permanece obscura.",
+    "id": "quiz-misterios-26",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o desaparecimento de uma colônia inteira na ilha de Roanoke?",
+    "options": [
+      "A maldição de um tesouro pirata",
+      "Uma doença desconhecida",
+      "Um ataque de nativos americanos",
+      "Um experimento governamental secreto"
+    ],
+    "correctAnswer": "Um ataque de nativos americanos",
+    "explanation": "Embora não haja provas concretas, a hipótese mais aceita é de um ataque de nativos americanos. Outras teorias são especulativas. Curiosidade: A única pista deixada foi a palavra \"Croatoan\" gravada em uma coluna.",
+    "id": "quiz-misterios-27",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a morte súbita e inexplicável de milhares de pássaros em Arkansas em 2011?",
+    "options": [
+      "Uma doença aviária desconhecida",
+      "Um ataque de predadores",
+      "Uma tempestade geomagnética",
+      "Um fenômeno meteorológico incomum"
+    ],
+    "correctAnswer": "Um fenômeno meteorológico incomum",
+    "explanation": "A hipótese mais provável é que os pássaros sofreram trauma devido a um evento meteorológico extremo. Outras teorias são menos prováveis. Curiosidade: O evento foi amplamente documentado em vídeos e fotos.",
+    "id": "quiz-misterios-28",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a explosão do navio de guerra USS Maine em Havana?",
+    "options": [
+      "Um defeito mecânico",
+      "Um incêndio acidental",
+      "Um ataque espanhol",
+      "Um ato de sabotagem"
+    ],
+    "correctAnswer": "Um ato de sabotagem",
+    "explanation": "Embora nunca tenha sido confirmado, a suspeita de sabotagem levou os EUA à guerra com a Espanha. Curiosidade: O incidente é um exemplo de como um evento misterioso pode desencadear conflitos internacionais.",
+    "id": "quiz-misterios-29",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o desaparecimento do voo 370 da Malaysia Airlines?",
+    "options": [
+      "Ataque terrorista",
+      "Falha mecânica",
+      "Sequestro",
+      "Abdução alienígena"
+    ],
+    "correctAnswer": "Sequestro",
+    "explanation": "Apesar de várias teorias, a causa do desaparecimento permanece um mistério. Curiosidade: A busca pelo voo 370 é uma das operações de busca e salvamento mais caras da história.",
+    "id": "quiz-misterios-30",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a morte de Elisa Lam no Cecil Hotel?",
+    "options": [
+      "Suicídio",
+      "Acidente",
+      "Assassinato",
+      "Doença mental"
+    ],
+    "correctAnswer": "Acidente",
+    "explanation": "A causa da morte foi considerada acidental, mas as circunstâncias permanecem estranhas. Curiosidade: O caso ganhou popularidade online devido a um vídeo de segurança misterioso.",
+    "id": "quiz-misterios-31",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a formação das Linhas de Nazca no Peru?",
+    "options": [
+      "Uma antiga civilização avançada",
+      "Extraterrestres",
+      "Um fenômeno natural",
+      "Uma obra de arte religiosa"
+    ],
+    "correctAnswer": "Uma antiga civilização avançada",
+    "explanation": "A teoria mais aceita é que as linhas foram criadas por uma civilização antiga, mas o propósito exato permanece desconhecido. Curiosidade: As linhas só podem ser vistas completamente do ar.",
+    "id": "quiz-misterios-32",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve a construção das pirâmides do Egito?",
+    "options": [
+      "Escravos",
+      "Alienígenas",
+      "Trabalhadores qualificados",
+      "Magia"
+    ],
+    "correctAnswer": "Trabalhadores qualificados",
+    "explanation": "Evidências sugerem que trabalhadores qualificados, e não escravos, construíram as pirâmides. Curiosidade: As pirâmides foram construídas com uma precisão impressionante.",
+    "id": "quiz-misterios-33",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o incidente de Tunguska na Sibéria?",
+    "options": [
+      "Um meteorito",
+      "Um cometa",
+      "Uma explosão nuclear",
+      "Um experimento secreto"
+    ],
+    "correctAnswer": "Um meteorito",
+    "explanation": "A teoria mais aceita é que um meteorito explodiu sobre a Sibéria, mas a falta de uma cratera permanece um mistério. Curiosidade: A explosão foi milhares de vezes mais poderosa que a bomba de Hiroshima.",
+    "id": "quiz-misterios-34",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve o desaparecimento de D.B. Cooper?",
+    "options": [
+      "Suicídio",
+      "Acidente",
+      "Sequestro",
+      "Roubo de avião"
+    ],
+    "correctAnswer": "Roubo de avião",
+    "explanation": "Um homem sequestra um avião, exige resgate, e depois desaparece com o dinheiro. Curiosidade: O caso permanece sem solução, e partes do resgate nunca foram recuperadas.",
+    "id": "quiz-misterios-35",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve a Pedra de Rosetta?",
+    "options": [
+      "Uma chave para decifrar hieróglifos egípcios",
+      "Um mapa para um tesouro perdido",
+      "Um artefato religioso",
+      "Uma peça de um jogo de tabuleiro"
+    ],
+    "correctAnswer": "Uma chave para decifrar hieróglifos egípcios",
+    "explanation": "A Pedra de Rosetta permitiu aos estudiosos decifrar os hieróglifos egípcios. Curiosidade: A pedra foi descoberta acidentalmente por soldados franceses.",
+    "id": "quiz-misterios-36",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o Zodiaco?",
+    "options": [
+      "Um assassino em série",
+      "Um grupo secreto",
+      "Um código misterioso",
+      "Uma constelação"
+    ],
+    "correctAnswer": "Um assassino em série",
+    "explanation": "Um assassino em série que enviava mensagens criptografadas para a polícia. Curiosidade: O caso permanece sem solução.",
+    "id": "quiz-misterios-37",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve o Triângulo das Bermudas?",
+    "options": [
+      "Fenômenos meteorológicos",
+      "Atividades extraterrestres",
+      "Falhas geológicas",
+      "Uma combinação de fatores"
+    ],
+    "correctAnswer": "Uma combinação de fatores",
+    "explanation": "Provavelmente uma combinação de fatores naturais, e não um fenômeno sobrenatural. Curiosidade: Mais navios e aviões desaparecem em outras áreas do oceano.",
+    "id": "quiz-misterios-38",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o Monstro do Lago Ness?",
+    "options": [
+      "Uma serpente pré-histórica",
+      "Um peixe gigante",
+      "Uma ilusão de óptica",
+      "Uma criatura desconhecida"
+    ],
+    "correctAnswer": "Uma criatura desconhecida",
+    "explanation": "Apesar de muitas imagens e vídeos, a existência do monstro permanece sem comprovação científica. Curiosidade: A lenda do monstro atrai muitos turistas à Escócia.",
+    "id": "quiz-misterios-39",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a Área 51?",
+    "options": [
+      "Experimentos secretos do governo",
+      "Um local de aterrissagem de extraterrestres",
+      "Um depósito de armas nucleares",
+      "Um centro de pesquisa meteorológica"
+    ],
+    "correctAnswer": "Experimentos secretos do governo",
+    "explanation": "O governo dos EUA confirmou que a Área 51 era usada para testar aeronaves experimentais. Curiosidade: A Área 51 é cercada por um grande sigilo.",
+    "id": "quiz-misterios-40",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a civilização de Atlântida?",
+    "options": [
+      "Uma civilização avançada que desapareceu",
+      "Uma lenda",
+      "Uma ilha submersa",
+      "Uma metáfora filosófica"
+    ],
+    "correctAnswer": "Uma lenda",
+    "explanation": "Não há evidências arqueológicas que comprovem a existência de Atlântida. Curiosidade: A lenda de Atlântida inspirou muitas obras de ficção.",
+    "id": "quiz-misterios-41",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve Jack, o Estripador?",
+    "options": [
+      "Um assassino em série",
+      "Um grupo de assassinos",
+      "Um louco",
+      "Uma conspiração"
+    ],
+    "correctAnswer": "Um assassino em série",
+    "explanation": "Um assassino em série que aterrorizou Londres no século XIX. Curiosidade: A identidade de Jack, o Estripador, nunca foi descoberta.",
+    "id": "quiz-misterios-42",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a morte de Marilyn Monroe?",
+    "options": [
+      "Suicídio",
+      "Assassinato",
+      "Overdose acidental",
+      "Uma combinação de fatores"
+    ],
+    "correctAnswer": "Uma combinação de fatores",
+    "explanation": "A causa da morte é controversa, com várias teorias circulando. Curiosidade: A morte de Monroe gerou muitas teorias da conspiração.",
+    "id": "quiz-misterios-43",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve a Arca da Aliança?",
+    "options": [
+      "Um artefato religioso",
+      "Uma caixa mágica",
+      "Um dispositivo tecnológico",
+      "Uma lenda"
+    ],
+    "correctAnswer": "Um artefato religioso",
+    "explanation": "Um artefato religioso descrito na Bíblia. Curiosidade: O paradeiro da Arca da Aliança é desconhecido.",
+    "id": "quiz-misterios-44",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o Homem de Piltdown?",
+    "options": [
+      "Uma fraude científica",
+      "Um fóssil genuíno",
+      "Uma peça de arte",
+      "Um animal desconhecido"
+    ],
+    "correctAnswer": "Uma fraude científica",
+    "explanation": "Um fóssil humano falso que enganou a comunidade científica por décadas. Curiosidade: A fraude foi exposta décadas depois de sua descoberta.",
+    "id": "quiz-misterios-45",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a explosão de Beirute em 2020?",
+    "options": [
+      "Um acidente",
+      "Um ataque terrorista",
+      "Uma negligência",
+      "Uma combinação de fatores"
+    ],
+    "correctAnswer": "Uma combinação de fatores",
+    "explanation": "A explosão foi causada pela má gestão de produtos químicos perigosos. Curiosidade: A explosão causou danos significativos à cidade.",
+    "id": "quiz-misterios-46",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve a Ilha de Páscoa?",
+    "options": [
+      "Estátuas gigantes",
+      "Uma civilização desaparecida",
+      "Um tesouro escondido",
+      "Uma base secreta"
+    ],
+    "correctAnswer": "Uma civilização desaparecida",
+    "explanation": "O mistério gira em torno do declínio da civilização que criou as famosas estátuas. Curiosidade: As estátuas da Ilha de Páscoa são conhecidas como moai.",
+    "id": "quiz-misterios-47",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o desaparecimento de Amelia Earhart?",
+    "options": [
+      "Acidente",
+      "Abdução alienígena",
+      "Morte em ilha deserta",
+      "Cativeiro"
+    ],
+    "correctAnswer": "Morte em ilha deserta",
+    "explanation": "A hipótese mais plausível é que seu avião caiu no oceano e ela morreu em uma ilha deserta. Curiosidade: A busca por Amelia Earhart é uma das mais famosas buscas da história.",
+    "id": "quiz-misterios-48",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve o Código Voynich?",
+    "options": [
+      "Um manuscrito criptografado",
+      "Um livro de magia",
+      "Um livro de receitas",
+      "Um diário pessoal"
+    ],
+    "correctAnswer": "Um manuscrito criptografado",
+    "explanation": "Um manuscrito com uma escrita e ilustrações desconhecidas. Curiosidade: O código Voynich permanece indecifrável até hoje.",
+    "id": "quiz-misterios-49",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o Santo Sudário?",
+    "options": [
+      "Um lençol que teria envolvido Jesus",
+      "Uma relíquia religiosa",
+      "Uma fraude",
+      "Um artefato histórico"
+    ],
+    "correctAnswer": "Um lençol que teria envolvido Jesus",
+    "explanation": "A autenticidade do Santo Sudário é questionada por muitos estudiosos. Curiosidade: O Santo Sudário é um dos artefatos religiosos mais famosos do mundo.",
+    "id": "quiz-misterios-50",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a Floresta Aokigahara?",
+    "options": [
+      "Suicídios",
+      "Criaturas sobrenaturais",
+      "Um local amaldiçoado",
+      "Um fenômeno natural"
+    ],
+    "correctAnswer": "Suicídios",
+    "explanation": "A Floresta Aokigahara é conhecida por ser um local de suicídios. Curiosidade: A floresta é frequentemente associada a lendas e histórias de fantasmas.",
+    "id": "quiz-misterios-51",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve a Câmera Obscura?",
+    "options": [
+      "Um dispositivo óptico",
+      "Um instrumento científico",
+      "Uma ferramenta de espionagem",
+      "Uma arma secreta"
+    ],
+    "correctAnswer": "Um dispositivo óptico",
+    "explanation": "Uma câmera obscura é um dispositivo que projeta imagens invertidas em uma superfície. Curiosidade: Câmeras obscuras foram usadas por artistas como auxílio na pintura.",
+    "id": "quiz-misterios-52",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a cidade submersa de Heracleion?",
+    "options": [
+      "O desaparecimento do voo MH370",
+      "A construção das pirâmides egípcias",
+      "A cidade submersa de Heracleion",
+      "O enigma do Santo Sudário"
+    ],
+    "correctAnswer": "A cidade submersa de Heracleion",
+    "explanation": "Heracleion foi uma importante cidade portuária egípcia que desapareceu no mar e foi redescoberta em 2000.  As outras opções são mistérios famosos, mas não se referem a Heracleion. Curiosidade:  Esculturas e artefatos bem preservados foram encontrados nos destroços da cidade.",
+    "id": "quiz-misterios-53",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um manuscrito medieval ilustrado com um texto ainda indecifrável?",
+    "options": [
+      "O Manuscrito Voynich",
+      "O Códice de Dresde",
+      "O Códice Gigas",
+      "O Códice Borgia"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro misterioso com ilustrações e texto em uma linguagem desconhecida. As outras opções são manuscritos antigos, mas não tão enigmáticos quanto o Voynich. Curiosidade:  Muitas teorias tentam decifrar o manuscrito, mas nenhuma foi confirmada.",
+    "id": "quiz-misterios-54",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma série de assassinatos rituais aparentemente conectados a uma seita?",
+    "options": [
+      "Os assassinatos de Jack, o Estripador",
+      "Os assassinatos de Zodiac",
+      "Os assassinatos de Black Dahlia",
+      "Os assassinatos de Família Manson"
+    ],
+    "correctAnswer": "Os assassinatos de Família Manson",
+    "explanation": "A Família Manson cometeu uma série de assassinatos brutais que foram descritos como rituais. As outras opções são casos de assassinatos famosos, mas não possuem a mesma ligação com rituais. Curiosidade:  A Família Manson era liderada por Charles Manson, que influenciou seus seguidores a cometer os crimes.",
+    "id": "quiz-misterios-55",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve a Ilha de Páscoa e suas gigantescas estátuas?",
+    "options": [
+      "A Ilha de Páscoa",
+      "A Área 51",
+      "A Floresta Aokigahara",
+      "O Triângulo das Bermudas"
+    ],
+    "correctAnswer": "A Ilha de Páscoa",
+    "explanation": "A Ilha de Páscoa é famosa pelas suas estátuas Moai, e a forma como foram construídas e o propósito delas são um mistério. As outras opções são locais misteriosos, mas não são a Ilha de Páscoa. Curiosidade:  Existem diversas teorias sobre o significado das estátuas Moai.",
+    "id": "quiz-misterios-56",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o desaparecimento de um famoso avião e seus passageiros?",
+    "options": [
+      "O desaparecimento do voo MH370",
+      "O desaparecimento do dirigível Hindenburg",
+      "O desaparecimento do Titanic",
+      "O desaparecimento do avião de Amelia Earhart"
+    ],
+    "correctAnswer": "O desaparecimento do voo MH370",
+    "explanation": "O voo MH370 da Malaysia Airlines desapareceu misteriosamente em 2014, sem deixar rastros. Apesar de extensas buscas, os destroços do avião e seus passageiros nunca foram encontrados. Curiosamente, teorias sobre o desaparecimento variam de falha mecânica a sequestro.",
+    "id": "quiz-misterios-57",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de assassinatos em Paris, no final do século XIX, atribuídos a um indivíduo nunca identificado?",
+    "options": [
+      "O Caso dos Diamantes de Marie Antoinette",
+      "Os Assassinatos de Jack, o Estripador",
+      "O Mistério do Homem da Máscara de Ferro",
+      "O Caso Dreyfus"
+    ],
+    "correctAnswer": "Os Assassinatos de Jack, o Estripador",
+    "explanation": "Embora os assassinatos de Jack, o Estripador tenham ocorrido em Londres, a pergunta utiliza uma descrição genérica que poderia levar a essa resposta. As outras opções são eventos históricos reais, mas não se encaixam na descrição. Curiosidade: A identidade de Jack, o Estripador, permanece um dos maiores mistérios não resolvidos da história.",
+    "id": "quiz-misterios-58",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve o desaparecimento de um avião famoso e sua tripulação sobre o Oceano Pacífico?",
+    "options": [
+      "O desaparecimento do Titanic",
+      "O voo 19 da Marinha dos EUA",
+      "O desaparecimento de Amelia Earhart",
+      "O caso do Hindenburg"
+    ],
+    "correctAnswer": "O desaparecimento de Amelia Earhart",
+    "explanation": "Amelia Earhart foi uma aviadora famosa que desapareceu em 1937 durante um voo sobre o Oceano Pacífico. As outras opções são eventos históricos relacionados a acidentes ou desaparecimentos, mas não correspondem à descrição da pergunta. Curiosidade:  Ainda hoje, há muitas teorias sobre o que aconteceu com Amelia Earhart e sua aeronave.",
+    "id": "quiz-misterios-59",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve uma criatura lendária que supostamente habita um lago na Escócia?",
+    "options": [
+      "O Yeti",
+      "O Chupacabra",
+      "O Monstro do Lago Ness",
+      "Bigfoot"
+    ],
+    "correctAnswer": "O Monstro do Lago Ness",
+    "explanation": "O Monstro do Lago Ness é uma criatura lendária que, segundo a lenda, habita o Lago Ness na Escócia. As outras opções são criaturas lendárias de outras regiões. Curiosidade:  Apesar de inúmeras buscas, nenhuma prova definitiva da existência do Monstro do Lago Ness foi encontrada.",
+    "id": "quiz-misterios-60",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual mistério envolve uma explosão devastadora em um porto do Mediterrâneo em 2020, com grande impacto econômico e humano?",
+    "options": [
+      "A explosão de Chernobyl",
+      "O ataque de Pearl Harbor",
+      "A explosão de Beirute",
+      "O desastre de Fukushima"
+    ],
+    "correctAnswer": "A explosão de Beirute",
+    "explanation": "A explosão no porto de Beirute em 2020 causou grande destruição e muitas mortes. As outras opções são eventos históricos catastróficos, mas não correspondem ao evento específico. Curiosidade: A explosão foi causada por uma grande quantidade de nitrato de amônio armazenada de forma inadequada.",
+    "id": "quiz-misterios-61",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve uma série de assassinatos não resolvidos, com pistas enigmáticas deixadas pelo assassino?",
+    "options": [
+      "Os assassinatos do Zodiaco",
+      "Os crimes de Jack, o Estripador",
+      "Os assassinatos de Black Dahlia",
+      "Os crimes de Jeffrey Dahmer"
+    ],
+    "correctAnswer": "Os assassinatos do Zodiaco",
+    "explanation": "O Zodiaco foi um assassino em série que enviou cartas enigmáticas para a imprensa. As outras opções são outros assassinos em série, mas não se encaixam na descrição das cartas enigmáticas. Curiosidade: A identidade do Zodiaco permanece desconhecida até hoje.",
+    "id": "quiz-misterios-62",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma civilização avançada que supostamente desapareceu sem deixar rastros, deixando para trás apenas lendas e alguns artefatos?",
+    "options": [
+      "A civilização Maia",
+      "A Atlântida",
+      "A civilização Minoica",
+      "A civilização Inca"
+    ],
+    "correctAnswer": "A Atlântida",
+    "explanation": "A Atlântida é uma civilização lendária que, segundo Platão, desapareceu no oceano. As outras opções são civilizações reais, mas não correspondem à descrição de uma civilização avançada que desapareceu misteriosamente. Curiosidade: A existência da Atlântida é debatida por historiadores e arqueólogos até os dias atuais.",
+    "id": "quiz-misterios-63",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de eventos inexplicáveis em uma área geográfica específica, frequentemente associados a desaparecimentos de navios e aeronaves?",
+    "options": [
+      "O Triângulo das Bermudas",
+      "O Mar do Sargaço",
+      "A Floresta Aokigahara",
+      "A Rota do Mar do Sul"
+    ],
+    "correctAnswer": "O Triângulo das Bermudas",
+    "explanation": "O Triângulo das Bermudas é uma região no Oceano Atlântico associada a numerosos desaparecimentos inexplicáveis. As outras opções são locais com peculiaridades geográficas ou históricas, mas não tão ligadas a desaparecimentos misteriosos como o Triângulo das Bermudas. Curiosidade:  Muitas teorias conspiratórias e sobrenaturais tentam explicar os eventos no Triângulo das Bermudas.",
+    "id": "quiz-misterios-64",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve um hotel supostamente assombrado, palco de eventos inexplicáveis e um desaparecimento misterioso?",
+    "options": [
+      "O Cecil Hotel",
+      "O Stanley Hotel",
+      "O Hotel Cortez",
+      "O Overlook Hotel"
+    ],
+    "correctAnswer": "O Cecil Hotel",
+    "explanation": "O Cecil Hotel, em Los Angeles, é conhecido por sua história sombria e por eventos inexplicáveis, incluindo o desaparecimento de Elisa Lam. As outras opções são hotéis que também são conhecidos por sua associação com eventos sobrenaturais ou histórias de terror, mas não correspondem ao caso específico de Elisa Lam. Curiosidade:  O Cecil Hotel foi palco de vários crimes e mortes ao longo de sua história, alimentando sua reputação assombrada.",
+    "id": "quiz-misterios-65",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma organização secreta com objetivos obscuros e influência global, frequentemente mencionada em teorias conspiratórias?",
+    "options": [
+      "Os Illuminati",
+      "Os Cavaleiros Templários",
+      "A Maçonaria",
+      "A Opus Dei"
+    ],
+    "correctAnswer": "Os Illuminati",
+    "explanation": "Os Illuminati são uma organização secreta frequentemente mencionada em teorias conspiratórias. As outras opções são organizações reais, mas não correspondem à descrição de uma organização secreta com objetivos obscuros e influência global. Curiosidade:  A existência de uma organização Illuminati global, como retratada em muitas teorias da conspiração, é amplamente desacreditada pelos historiadores.",
+    "id": "quiz-misterios-66",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma cidade antiga que supostamente foi engolida pelo mar, deixando apenas ruínas submersas?",
+    "options": [
+      "A cidade perdida de El Dorado",
+      "A cidade submersa de Heracleion",
+      "A cidade de Atlântida",
+      "A cidade de Pompeia"
+    ],
+    "correctAnswer": "A cidade submersa de Heracleion",
+    "explanation": "Heracleion é uma cidade antiga que foi descoberta submersa no mar Mediterrâneo. As outras opções são cidades perdidas ou destruídas, mas não correspondem à descrição específica de uma cidade submersa. Curiosidade: A descoberta de Heracleion forneceu informações valiosas sobre o comércio e a cultura do antigo Egito.",
+    "id": "quiz-misterios-67",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um objeto que parece desafiar as leis da física, com propriedades anômalas e inexplicáveis?",
+    "options": [
+      "A Pedra de Rosetta",
+      "O Santo Sudário",
+      "A Esfera de Roswell",
+      "A Máquina de Antikythera"
+    ],
+    "correctAnswer": "A Esfera de Roswell",
+    "explanation": "A Esfera de Roswell é um objeto misterioso encontrado perto do local do suposto incidente de Roswell, com propriedades que desafiam a compreensão científica. As outras opções são objetos históricos ou artefatos antigos, mas não correspondem à descrição de um objeto que desafia as leis da física. Curiosidade: A origem e composição da Esfera de Roswell permanecem desconhecidas, alimentando especulações sobre sua natureza.",
+    "id": "quiz-misterios-68",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma figura histórica desaparecida, com várias teorias conspiratórias sobre seu fim?",
+    "options": [
+      "O desaparecimento de Jimmy Hoffa",
+      "O desaparecimento de D.B. Cooper",
+      "O desaparecimento de Ambrose Bierce",
+      "O desaparecimento de Edgar Allan Poe"
+    ],
+    "correctAnswer": "O desaparecimento de Jimmy Hoffa",
+    "explanation": "Jimmy Hoffa foi um líder sindical que desapareceu misteriosamente, gerando diversas teorias sobre seu paradeiro. As outras opções são casos de desaparecimentos misteriosos, mas não tão conhecidos ou envolvendo figuras históricas tão importantes quanto Hoffa. Curiosidade:  Apesar de inúmeras buscas, o corpo de Jimmy Hoffa nunca foi encontrado.",
+    "id": "quiz-misterios-69",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "easy",
+    "question": "Qual mistério envolve uma base militar secreta nos Estados Unidos, frequentemente associada a teorias conspiratórias sobre extraterrestres?",
+    "options": [
+      "A Área 51",
+      "A Base Aérea de Wright-Patterson",
+      "A Base da Força Aérea de Edwards",
+      "A Base Naval de Norfolk"
+    ],
+    "correctAnswer": "A Área 51",
+    "explanation": "A Área 51 é uma base militar secreta nos Estados Unidos, amplamente associada a teorias conspiratórias sobre extraterrestres e tecnologia avançada. As outras opções são bases militares, mas não tão conhecidas ou associadas a teorias conspiratórias como a Área 51. Curiosidade: A Área 51 é um local altamente secreto e o acesso é estritamente controlado.",
+    "id": "quiz-misterios-70",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve o manuscrito Voynich?",
+    "options": [
+      "Um código secreto de uma antiga sociedade secreta",
+      "Um diário de um viajante medieval",
+      "Um tratado de botânica desconhecido",
+      "Um livro de receitas alquímicas"
+    ],
+    "correctAnswer": "Um código secreto de uma antiga sociedade secreta",
+    "explanation": "O manuscrito Voynich é um livro ilustrado com um texto ainda indecifrável, cheio de símbolos e imagens estranhas. Embora existam diversas teorias, sua origem e significado permanecem um mistério. Curiosidade:  Apesar de muitos esforços, ninguém conseguiu decifrar o texto até hoje.",
+    "id": "quiz-misterios-71",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de eventos inexplicáveis em uma pequena cidade, culminando no desaparecimento de vários moradores?",
+    "options": [
+      "O Mistério de Oak Island",
+      "O Caso da Família Sodder",
+      "O Enigma de Rennes-le-Château",
+      "O Desaparecimento de D.B. Cooper"
+    ],
+    "correctAnswer": "O Caso da Família Sodder",
+    "explanation": "O Caso da Família Sodder envolve o desaparecimento misterioso de cinco crianças de uma família em 1945, após um incêndio em sua casa.  Apesar de investigações, nunca se descobriu o que aconteceu com as crianças.  Curiosamente, a família recebeu cartas anônimas após o incidente, mas nenhuma delas levou à solução do mistério. As outras opções são mistérios reais, mas não se encaixam na descrição da pergunta.",
+    "id": "quiz-misterios-72",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma série de mensagens criptografadas enviadas para a polícia, nunca totalmente decifradas, e associadas a uma série de assassinatos brutais na Califórnia nos anos 60 e 70?",
+    "options": [
+      "O Mistério de Kryptos",
+      "O Caso Zodiac",
+      "O Código de Beale",
+      "O Manuscrito Voynich"
+    ],
+    "correctAnswer": "O Caso Zodiac",
+    "explanation": "O Caso Zodiac se refere a uma série de assassinatos cometidos na área da Baía de São Francisco na década de 1960 e 1970. O assassino, que se autodenominava \"Zodiac\", enviou várias cartas criptografadas para jornais e autoridades.  Apesar de algumas mensagens terem sido decifradas, outras permanecem um mistério até hoje.  Curiosamente, algumas das mensagens continham desenhos, adicionando uma camada extra de complexidade ao enigma. As outras opções são enigmas reais, mas não se encaixam na descrição da pergunta.",
+    "id": "quiz-misterios-73",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a súbita e inexplicável morte em massa de milhares de pássaros em um determinado local, gerando diversas teorias, de envenenamento a fenômenos climáticos?",
+    "options": [
+      "O desaparecimento do voo MH370",
+      "A morte em massa de pássaros em Arkansas em 2011",
+      "O mistério do Triângulo das Bermudas",
+      "O assassinato de Elisa Lam no Cecil Hotel"
+    ],
+    "correctAnswer": "A morte em massa de pássaros em Arkansas em 2011",
+    "explanation": "A morte em massa de pássaros em Arkansas em 2011 é um mistério por causa da falta de uma causa óbvia e imediata para a morte de tantos pássaros simultaneamente.  As outras opções representam mistérios distintos. Curiosamente, eventos similares, embora em menor escala, ocorreram em outras partes do mundo, sem explicação conclusiva.",
+    "id": "quiz-misterios-74",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um artefato antigo com inscrições indecifráveis, que gerou diversas interpretações, desde mensagens alienígenas até códigos religiosos secretos, sem uma solução definitiva até hoje?",
+    "options": [
+      "A Pedra de Rosetta",
+      "O Manuscrito Voynich",
+      "A Câmera Obscura",
+      "O Santo Sudário"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é famoso por seu texto e ilustrações indecifráveis, desafiando especialistas por décadas.  As outras opções, embora envolvam mistérios, possuem características diferentes e soluções parcialmente conhecidas. Curiosamente, acredita-se que o manuscrito tenha sido criado entre os séculos XV e XVI.",
+    "id": "quiz-misterios-75",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve um navio que desapareceu misteriosamente, deixando para trás apenas alguns destroços e gerando diversas teorias sobre o seu destino, incluindo sabotagem e forças sobrenaturais?",
+    "options": [
+      "O desaparecimento do Titanic",
+      "O desaparecimento do Mary Celeste",
+      "O desaparecimento do USS Cyclops",
+      "O desaparecimento do Lusitânia"
+    ],
+    "correctAnswer": "O desaparecimento do Mary Celeste",
+    "explanation": "O Mary Celeste foi encontrado à deriva no Atlântico em 1872, completamente vazio, com suprimentos e pertences a bordo, mas sem sinal de luta ou de desastre.  Diversas teorias surgiram, mas a causa do desaparecimento da tripulação permanece um mistério. Curiosidade: O navio foi posteriormente renomeado várias vezes e acabou naufragando em 1884.",
+    "id": "quiz-misterios-76",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um manuscrito medieval ilustrado com um texto ainda indecifrável, repleto de imagens estranhas e símbolos enigmáticos, desafiando especialistas em criptografia por décadas?",
+    "options": [
+      "O Manuscrito Voynich",
+      "A Pedra de Rosetta",
+      "O Santo Sudário",
+      "O Códice de Dresde"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro misterioso com um texto e ilustrações indecifráveis. As outras opções, embora enigmáticas, não correspondem à descrição de um manuscrito medieval ilustrado com texto indecifrável. Curiosidade:  Apesar de inúmeras tentativas, o significado do Manuscrito Voynich continua um mistério sem solução definitiva.",
+    "id": "quiz-misterios-77",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o desaparecimento de uma expedição ártica, deixando para trás apenas um diário com entradas enigmáticas e alguns suprimentos?",
+    "options": [
+      "O desaparecimento do Roanoke",
+      "O desaparecimento da expedição Franklin",
+      "O mistério de Jack, o Estripador",
+      "O incidente de Tunguska"
+    ],
+    "correctAnswer": "O desaparecimento da expedição Franklin",
+    "explanation": "A expedição Franklin desapareceu no Ártico em 1845, deixando para trás um diário com entradas enigmáticas.  As outras opções são mistérios famosos, mas não se encaixam na descrição da pergunta. Curiosidade:  Apesar de muitas buscas, os restos da expedição só foram encontrados parcialmente, décadas depois, revelando detalhes chocantes sobre sua dura luta pela sobrevivência.",
+    "id": "quiz-misterios-78",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma série de mensagens criptografadas, aparentemente enviadas por um único indivíduo, que desafiam os decifradores há décadas, e que se acredita estar relacionada a uma série de crimes não resolvidos em uma região específica?",
+    "options": [
+      "O código Voynich",
+      "O caso Zodiac",
+      "O enigma de D.B. Cooper",
+      "O caso do Assassino do Zodíaco"
+    ],
+    "correctAnswer": "O caso Zodiac",
+    "explanation": "O caso Zodiac envolve uma série de assassinatos e mensagens criptografadas enviadas para a polícia.  As outras opções são mistérios, mas não se encaixam na descrição da pergunta. Curiosidade:  Apesar de alguns códigos terem sido decifrados, o assassino nunca foi identificado e o significado completo das mensagens permanece um mistério.",
+    "id": "quiz-misterios-79",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma histórico envolve um manuscrito ilustrado do século XV, repleto de símbolos e um texto ainda indecifrável, desafiando especialistas em criptografia por décadas, e que alguns acreditam conter um mapa para um tesouro perdido?",
+    "options": [
+      "O Códice Voynich",
+      "O Manuscrito de Voynich",
+      "O Livro de São Marcos",
+      "O Papiro de Ebers"
+    ],
+    "correctAnswer": "O Códice Voynich",
+    "explanation": "O Códice Voynich é um manuscrito ilustrado do século XV, famoso por seu texto indecifrável e ilustrações enigmáticas.  Apesar de muitas tentativas, seu significado permanece um mistério. Curiosidade:  Acredita-se que o manuscrito tenha sido escrito por um único autor, mas sua identidade permanece desconhecida.",
+    "id": "quiz-misterios-80",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de assassinatos brutais em uma cidade pequena, com pistas enigmáticas deixadas pelo assassino, mas sem um suspeito claro, levando a diversas teorias conspiratórias?",
+    "options": [
+      "O mistério de Jack, o Estripador",
+      "Os assassinatos de Zodiac",
+      "Os assassinatos de Black Dahlia",
+      "Os assassinatos de Hinterkaifeck"
+    ],
+    "correctAnswer": "Os assassinatos de Hinterkaifeck",
+    "explanation": "Os assassinatos de Hinterkaifeck envolvem uma família inteira morta em sua fazenda na Alemanha, com um cenário misterioso e sem um suspeito claro.  Diferentemente dos outros casos, que são mais conhecidos, Hinterkaifeck possui um elemento de isolamento e mistério que persiste até hoje. Curiosidade: Algumas teorias sugerem que o assassino pode ter se escondido na casa por dias antes dos assassinatos.",
+    "id": "quiz-misterios-81",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um manuscrito medieval ilustrado, repleto de imagens estranhas e um texto indecifrável em uma língua desconhecida, desafiando especialistas em criptografia por décadas, com teorias que vão desde um mapa de um tesouro perdido até um código mágico?",
+    "options": [
+      "O Códice Voynich",
+      "O Manuscrito de Voynich",
+      "O Código de Beale",
+      "O Livro de Enoch"
+    ],
+    "correctAnswer": "O Códice Voynich",
+    "explanation": "O Códice Voynich é um manuscrito ilustrado do século XV famoso por seu texto indecifrável e imagens enigmáticas.  Apesar de diversas tentativas de decifração, sua linguagem e significado permanecem um mistério. Curiosidade: O manuscrito contém ilustrações botânicas, astronômicas e de figuras humanas, todas estranhamente incomuns e não identificadas.",
+    "id": "quiz-misterios-82",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve o desaparecimento de uma expedição ao Ártico em 1845, liderada por Sir John Franklin, deixando para trás apenas vestígios de seus navios e um diário com entradas enigmáticas?",
+    "options": [
+      "O desaparecimento do voo MH370",
+      "O mistério do Triângulo das Bermudas",
+      "O desaparecimento da expedição Franklin",
+      "A morte de Elisa Lam no Cecil Hotel"
+    ],
+    "correctAnswer": "O desaparecimento da expedição Franklin",
+    "explanation": "A expedição Franklin desapareceu sem deixar rastros claros, com apenas vestígios de seus navios encontrados muito tempo depois.  Diversas teorias tentam explicar o ocorrido, incluindo envenenamento por chumbo, escorbuto e ataques de ursos polares. Curiosamente, alguns restos mortais foram encontrados com vestígios de chumbo, reforçando a teoria do envenenamento. As outras opções são mistérios famosos, mas não se referem ao desaparecimento da expedição ártica.",
+    "id": "quiz-misterios-83",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve um navio que desapareceu sem deixar rastros no Triângulo das Bermudas, apesar de ter sido considerado um navio moderno e bem equipado?",
+    "options": [
+      "O desaparecimento do Titanic",
+      "O desaparecimento do USS Cyclops",
+      "O desaparecimento do Mary Celeste",
+      "O desaparecimento do SS Waratah"
+    ],
+    "correctAnswer": "O desaparecimento do USS Cyclops",
+    "explanation": "O USS Cyclops desapareceu em 1918 no Triângulo das Bermudas sem deixar rastros, tornando-se um dos maiores mistérios marítimos.  As outras opções envolvem desaparecimentos, mas com circunstâncias diferentes e não no Triângulo das Bermudas. Curiosidade: O USS Cyclops transportava uma carga de manganês, o que alimenta algumas teorias sobre seu desaparecimento.",
+    "id": "quiz-misterios-84",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma série de mensagens criptografadas enviadas para a polícia de San Francisco na década de 1960 e 1970, atribuídas ao assassino conhecido como 'Zodiaco', que até hoje permanecem parcialmente decifradas, com apenas algumas das mensagens tendo sido resolvidas?",
+    "options": [
+      "O caso do assassino de Black Dahlia",
+      "O caso do assassino de Jack, o Estripador",
+      "Os crimes do Zodiaco",
+      "O caso do Código de Beale"
+    ],
+    "correctAnswer": "Os crimes do Zodiaco",
+    "explanation": "O Assassino do Zodíaco enviou cartas criptografadas à polícia, desafiando-as a decifrar suas mensagens. Apesar de alguns progressos na decifração, muitos aspectos dos crimes e mensagens permanecem um mistério. As outras opções, embora envolvam crimes notórios, não se encaixam na descrição das mensagens criptografadas enviadas à polícia. Curiosidade: Uma das cartas do Zodiaco continha um criptograma que levou anos para ser resolvido.",
+    "id": "quiz-misterios-85",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve a súbita e inexplicável morte em massa de abelhas em diversas regiões do globo, afetando a polinização e a produção de alimentos?",
+    "options": [
+      "O desaparecimento da colônia de Roanoke",
+      "A morte em massa de abelhas",
+      "O mistério de Jack, o Estripador",
+      "O enigma do manuscrito Voynich"
+    ],
+    "correctAnswer": "A morte em massa de abelhas",
+    "explanation": "A síndrome do colapso das colónias de abelhas é um fenômeno real e preocupante, ainda sem uma causa completamente definida, impactando a biodiversidade. As outras opções são mistérios famosos, mas não se relacionam diretamente com a morte em massa de abelhas. Curiosidade: Algumas teorias apontam para pesticidas como um dos fatores contribuintes para o fenômeno.",
+    "id": "quiz-misterios-86",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve a descoberta de artefatos tecnológicos inexplicáveis em estratos geológicos antigos, desafiando a cronologia estabelecida e sugerindo a existência de civilizações avançadas em épocas remotas?",
+    "options": [
+      "O enigma de Stonehenge",
+      "O mistério da Área 51",
+      "O enigma dos artefatos fora de época",
+      "O desaparecimento do voo MH370"
+    ],
+    "correctAnswer": "O enigma dos artefatos fora de época",
+    "explanation": "A existência de artefatos tecnologicamente avançados em contextos geológicos antigos desafia a compreensão da história humana. As outras opções se referem a mistérios específicos, sem a mesma abrangência temporal. Curiosidade: Alguns artefatos questionam a linearidade da evolução tecnológica.",
+    "id": "quiz-misterios-87",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um artefato antigo com inscrições indecifráveis, descoberto em um sítio arqueológico remoto, que gerou diversas interpretações, desde mensagens alienígenas até códigos religiosos secretos, sem uma solução definitiva até hoje, e que alguns pesquisadores acreditam estar ligado a uma civilização pré-histórica avançada?",
+    "options": [
+      "O Manuscrito Voynich",
+      "A Pedra de Rosetta",
+      "O Códice de Dresde",
+      "A Tabuleta de Kish"
+    ],
+    "correctAnswer": "A Tabuleta de Kish",
+    "explanation": "Embora pouco conhecida, a Tabuleta de Kish é um artefato com inscrições ainda indecifráveis que alguns pesquisadores ligam a uma civilização pré-histórica avançada, gerando teorias intrigantes.  O Manuscrito Voynich é famoso, mas seu mistério é focado em sua linguagem e imagens, não em sua ligação com uma civilização perdida. A Pedra de Rosetta foi decifrada. O Códice de Dresde é um manuscrito maia, com seus hieróglifos parcialmente decifrados. Curiosidade: A Tabuleta de Kish foi encontrada em escavações em Kish, antiga cidade da Mesopotâmia.",
+    "id": "quiz-misterios-88",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de mensagens criptografadas enviadas para jornais, desafiando especialistas em criptografia por décadas e possivelmente relacionadas a crimes não resolvidos?",
+    "options": [
+      "O mistério de Jack, o Estripador",
+      "O enigma do Código Voynich",
+      "Os assassinatos do Zodiaco",
+      "O desaparecimento de D.B. Cooper"
+    ],
+    "correctAnswer": "Os assassinatos do Zodiaco",
+    "explanation": "O assassino do Zodiaco enviou várias cartas criptografadas para jornais, algumas das quais foram decifradas, revelando pistas sobre seus crimes.  Curiosamente, uma das cartas continha um mapa que nunca foi totalmente decifrado.",
+    "id": "quiz-misterios-89",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um manuscrito ilustrado do século XV, repleto de símbolos e um texto indecifrável, desafiando especialistas por décadas e associado a teorias sobre uma civilização avançada pré-histórica?",
+    "options": [
+      "O Manuscrito Voynich",
+      "O Santo Sudário",
+      "O mapa de Vinland",
+      "A Pedra de Rosetta"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro ilustrado repleto de um texto e imagens indecifráveis, desafiando especialistas há séculos.  A complexidade de suas ilustrações botânicas e sua linguagem única alimentam teorias sobre sua origem e significado, algumas envolvendo civilizações avançadas pré-históricas. Curiosamente, a tinta usada no manuscrito ainda não foi totalmente identificada.",
+    "id": "quiz-misterios-90",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de assassinatos não resolvidos em uma cidade pequena, com pistas enigmáticas deixadas pelo assassino, incluindo símbolos estranhos e mensagens codificadas?",
+    "options": [
+      "O mistério do Jack, o Estripador",
+      "O caso do Assassino do Zodíaco",
+      "O mistério dos assassinatos de Hinterkaifeck",
+      "O desaparecimento de D.B. Cooper"
+    ],
+    "correctAnswer": "O mistério dos assassinatos de Hinterkaifeck",
+    "explanation": "Os assassinatos de Hinterkaifeck, ocorridos em uma fazenda na Baviera em 1922, permanecem sem solução, com pistas enigmáticas e uma série de eventos estranhos antes dos crimes. Ao contrário dos outros casos, que são mais conhecidos e amplamente documentados, o mistério de Hinterkaifeck mantém um ar de mistério peculiar, com teorias que vão desde vingança até forças sobrenaturais. Curiosidade: A família foi morta com um machado, e uma das vítimas era uma empregada que havia chegado recentemente na fazenda.",
+    "id": "quiz-misterios-91",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito é encontrado, cheio de símbolos e um texto indecifrável.  Qual mistério ele apresenta?",
+    "options": [
+      "Uma mensagem de uma civilização antiga.",
+      "Um mapa para um tesouro perdido.",
+      "Um código secreto de uma sociedade secreta.",
+      "Uma fórmula mágica para a imortalidade."
+    ],
+    "correctAnswer": "Um código secreto de uma sociedade secreta.",
+    "explanation": "Embora todas as opções sejam possíveis, a natureza enigmática e os símbolos complexos sugerem mais provavelmente um código secreto, usado por uma sociedade secreta para proteger informações importantes. Curiosidade: Muitos manuscritos antigos, como o Codex Seraphinianus, ainda desafiam a decifração completa, alimentando a especulação sobre seus autores e propósitos.",
+    "id": "quiz-misterios-92",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve uma série de eventos inexplicáveis em uma pequena cidade rural, incluindo luzes estranhas no céu, relatos de criaturas desconhecidas e anomalias geomagnéticas, sem uma explicação científica convincente, levando a especulações sobre atividade paranormal ou intervenção extraterrestre?",
+    "options": [
+      "O mistério de Stonehenge",
+      "O incidente de Roswell",
+      "O enigma de Skinwalker Ranch",
+      "O mistério do Triângulo das Bermudas"
+    ],
+    "correctAnswer": "O enigma de Skinwalker Ranch",
+    "explanation": "Skinwalker Ranch é conhecido por seus relatos de eventos inexplicáveis. As outras opções são mistérios reais, mas não se encaixam na descrição da questão. Curiosidade: Skinwalker Ranch já foi alvo de diversas investigações científicas, mas nenhuma conseguiu explicar completamente os fenômenos relatados.",
+    "id": "quiz-misterios-93",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de assassinatos em uma pequena cidade, com pistas enigmáticas e um símbolo misterioso recorrente nas cenas do crime?",
+    "options": [
+      "O mistério da cidade de Oakhaven",
+      "O caso dos assassinatos de Blackwood",
+      "O enigma do assassino do círculo vermelho",
+      "O mistério do pesadelo de Silent Hollow"
+    ],
+    "correctAnswer": "O mistério da cidade de Oakhaven",
+    "explanation": "O mistério da cidade de Oakhaven é famoso por suas pistas enigmáticas e o símbolo misterioso que se repete nas cenas de crime.  Curiosamente,  o símbolo nunca foi decifrado, alimentando teorias sobre a identidade do assassino e seu possível significado oculto. As outras opções são fictícias.",
+    "id": "quiz-misterios-94",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um manuscrito medieval, escrito em uma língua desconhecida, com ilustrações complexas e um código aparentemente indecifrável, que gera teorias sobre alquimia, astrologia e até mesmo uma possível previsão de eventos futuros?",
+    "options": [
+      "O Códice Gigas",
+      "O Manuscrito Voynich",
+      "O Livro de Enoch",
+      "O Códice de Dresde"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é famoso por sua linguagem e ilustrações indecifráveis.  Apesar de muitas tentativas, ninguém conseguiu decifrá-lo completamente. Curiosamente,  algumas páginas mostram diagramas que se assemelham a plantas e estruturas desconhecidas. As outras opções, embora sejam manuscritos históricos importantes, não se encaixam na descrição do enigma proposto.",
+    "id": "quiz-misterios-95",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma envolve um artefato tecnológico descoberto em uma formação geológica antiga, que desafia a cronologia estabelecida e sugere a existência de uma civilização tecnologicamente avançada muito antes do período historicamente aceito?",
+    "options": [
+      "O Enigma de Voynich",
+      "O Mistério de Nazca",
+      "O Paradoxo de Fermi",
+      "O Enigma da Antiguidade Tecnológica"
+    ],
+    "correctAnswer": "O Enigma da Antiguidade Tecnológica",
+    "explanation": "A questão se refere à hipótese de que artefatos tecnológicos encontrados em contextos geológicos antigos desafiam a cronologia aceita.  As outras opções são enigmas existentes, mas não se encaixam perfeitamente na descrição. Curiosidade: A descoberta de artefatos fora de contexto cronológico é um tema recorrente em teorias sobre civilizações antigas avançadas.",
+    "id": "quiz-misterios-96",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito é descoberto em uma biblioteca esquecida, repleto de símbolos e um texto indecifrável. Qual mistério ele apresenta?",
+    "options": [
+      "A localização de um tesouro perdido.",
+      "A fórmula de uma cura milagrosa.",
+      "A identidade de um assassino em série.",
+      "Uma linguagem desconhecida e sua possível origem."
+    ],
+    "correctAnswer": "Uma linguagem desconhecida e sua possível origem.",
+    "explanation": "A principal questão levantada pelo manuscrito é a existência de uma linguagem desconhecida, o que gera mistério sobre sua origem e significado. As outras opções são possíveis, mas derivadas do mistério central da linguagem desconhecida. Curiosidade: Muitos manuscritos antigos ainda permanecem indecifráveis, desafiando estudiosos por séculos.",
+    "id": "quiz-misterios-97",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa é descoberto, contendo símbolos desconhecidos e coordenadas que parecem apontar para uma ilha perdida. Qual mistério ele apresenta?",
+    "options": [
+      "A localização de uma cidade perdida",
+      "Um tesouro pirata escondido",
+      "Uma nova espécie de planta",
+      "Uma antiga maldição"
+    ],
+    "correctAnswer": "A localização de uma cidade perdida",
+    "explanation": "A presença de coordenadas e símbolos desconhecidos em um mapa antigo sugere fortemente a busca por um local desconhecido, provavelmente uma cidade perdida. As outras opções são menos prováveis, pois um mapa desse tipo dificilmente conteria informações sobre um tesouro específico, uma planta ou uma maldição. Curiosidade: Muitos mapas antigos continham símbolos e códigos secretos para proteger informações valiosas.",
+    "id": "quiz-misterios-98",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de mensagens codificadas, enviadas anonimamente a diversos jornais, contém enigmas complexos e referências a eventos históricos obscuros. Uma delas menciona um relógio de sol e um eclipse solar ocorrido em 1715. Qual mistério esse código pode esconder?",
+    "options": [
+      "A localização de um artefato religioso",
+      "Um plano para um golpe de estado",
+      "Um assassinato não resolvido de um membro da realeza",
+      "Uma conspiração para controlar o mercado financeiro"
+    ],
+    "correctAnswer": "Um assassinato não resolvido de um membro da realeza",
+    "explanation": "A referência a um eclipse solar de 1715 e um relógio de sol sugere uma data específica e um possível método de ocultação de informações. Isso, junto com o tom enigmático das mensagens, aponta para algo clandestino e potencialmente relacionado a um crime histórico de grande impacto, como o assassinato de um membro da realeza. As outras opções, embora possíveis, são menos prováveis considerando o nível de detalhe e a natureza enigmática do código. Curiosidade: A criptografia em mensagens antigas frequentemente utilizava eventos astronômicos como pontos de referência para ocultar informações.",
+    "id": "quiz-misterios-99",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive encontra um diário criptografado em uma cena de crime.  Os símbolos parecem relacionados a uma antiga lenda local sobre um tesouro amaldiçoado. Qual mistério esse diário apresenta?",
+    "options": [
+      "A identidade do assassino",
+      "A localização de um tesouro amaldiçoado",
+      "Um código secreto para uma organização criminosa",
+      "Uma conspiração política"
+    ],
+    "correctAnswer": "A localização de um tesouro amaldiçoado",
+    "explanation": "A presença do diário criptografado numa cena de crime, com símbolos relacionados a uma lenda local de um tesouro amaldiçoado, indica que o mistério central é a localização desse tesouro. As outras opções são possíveis, mas secundárias ao mistério principal. Curiosidade: Muitos códigos antigos usavam símbolos de plantas ou animais para representar conceitos abstratos.",
+    "id": "quiz-misterios-100",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma escavação arqueológica, descobrem-se ruínas de uma cidade antiga com uma arquitetura desconhecida e artefatos tecnológicos avançados, datados de um período muito anterior ao que se acreditava ser possível.  Qual mistério esse achado apresenta?",
+    "options": [
+      "A existência de uma civilização avançada pré-histórica",
+      "Uma nova espécie de animal extinto",
+      "Uma antiga rota comercial desconhecida",
+      "Uma nova técnica de construção"
+    ],
+    "correctAnswer": "A existência de uma civilização avançada pré-histórica",
+    "explanation": "A descoberta de uma cidade antiga com tecnologia avançada em um período muito anterior ao esperado aponta para a existência de uma civilização avançada desconhecida.  As outras opções são possíveis descobertas secundárias, mas não o mistério central. Curiosidade: A descoberta de artefatos fora do contexto cronológico é comum e muitas vezes leva a revisões da história estabelecida.",
+    "id": "quiz-misterios-101",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em um navio naufragado, contém entradas criptografadas e desenhos estranhos que parecem descrever uma ilha desconhecida. Qual mistério esse diário revela?",
+    "options": [
+      "A localização de um tesouro pirata perdido.",
+      "Um mapa para uma cidade submersa.",
+      "Uma conspiração política do século XVIII.",
+      "Um ritual de sacrifício antigo."
+    ],
+    "correctAnswer": "A localização de um tesouro pirata perdido.",
+    "explanation": "Os desenhos e a criptografia no diário sugerem um mapa, e o contexto de um navio naufragado aponta para a possibilidade de um tesouro pirata. As outras opções são menos prováveis, embora possíveis em outros contextos. Curiosidade: Muitos diários de piratas foram encontrados, mas poucos continham mapas detalhados e criptografia complexa.",
+    "id": "quiz-misterios-102",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de símbolos enigmáticos, descobertos em ruínas pré-colombianas, apresenta padrões matemáticos complexos que desafiam a compreensão moderna.  Qual mistério esses símbolos representam?",
+    "options": [
+      "Um calendário astronômico preciso, muito mais avançado que os conhecidos.",
+      "Mensagens de uma civilização extraterrestre.",
+      "Um sistema de escrita desconhecido com significado religioso.",
+      "Um código para a localização de uma arma antiga e poderosa."
+    ],
+    "correctAnswer": "Um calendário astronômico preciso, muito mais avançado que os conhecidos.",
+    "explanation": "A precisão matemática dos símbolos sugere uma finalidade científica, e o contexto pré-colombiano indica a possibilidade de um calendário avançado. As outras opções são especulações menos plausíveis, embora a existência de civilizações antigas com conhecimentos avançados seja uma possibilidade real. Curiosidade:  Muitas civilizações antigas possuíam calendários complexos, mas poucos eram tão precisos e sofisticados como o que esses símbolos parecem sugerir.",
+    "id": "quiz-misterios-103",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um navio desaparece misteriosamente no Triângulo das Bermudas, deixando para trás apenas alguns destroços e um diário parcialmente danificado com entradas enigmáticas. Qual mistério esse evento apresenta?",
+    "options": [
+      "A maldição de uma antiga civilização submersa.",
+      "Uma falha geomagnética que causou uma distorção espaço-temporal.",
+      "Uma conspiração governamental para encobrir experimentos secretos.",
+      "Uma combinação de fatores naturais imprevisíveis, como tempestades e correntes marítimas."
+    ],
+    "correctAnswer": "Uma combinação de fatores naturais imprevisíveis, como tempestades e correntes marítimas.",
+    "explanation": "Embora existam muitas teorias sobre o Triângulo das Bermudas, a explicação mais plausível para o desaparecimento de navios é uma combinação de fatores naturais imprevisíveis. As outras opções são teorias conspiratórias ou eventos sobrenaturais sem evidências científicas comprovadas. Curiosidade: O Triângulo das Bermudas é uma região do Oceano Atlântico onde vários navios e aeronaves desapareceram misteriosamente ao longo da história, gerando inúmeras teorias, muitas delas sem base científica.",
+    "id": "quiz-misterios-104",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Um manuscrito antigo, descoberto em uma caverna remota, contém símbolos indecifráveis e desenhos que parecem descrever uma tecnologia avançada incompatível com o período em que foi criado. Qual mistério esse manuscrito apresenta?",
+    "options": [
+      "Um código secreto de uma sociedade secreta antiga.",
+      "Mensagens de uma civilização extraterrestre.",
+      "Um mapa para um tesouro perdido.",
+      "Uma tecnologia avançada de uma civilização pré-histórica desconhecida."
+    ],
+    "correctAnswer": "Uma tecnologia avançada de uma civilização pré-histórica desconhecida.",
+    "explanation": "A descoberta de tecnologia avançada em um período antigo desafia nossa compreensão da história e da evolução tecnológica. As outras opções são possíveis, mas menos prováveis considerando a complexidade da tecnologia descrita. Curiosidade: Existem vários casos de artefatos antigos que parecem desafiar nossa compreensão da tecnologia do passado, gerando debates entre pesquisadores e alimentando teorias sobre civilizações avançadas pré-históricas.",
+    "id": "quiz-misterios-105",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um navio desaparece misteriosamente no Triângulo das Bermudas, sem deixar rastros, apesar de ser considerado um navio moderno e bem equipado. Qual fator contribuiu para a dificuldade em solucionar o mistério?",
+    "options": [
+      "Falta de tecnologia de rastreamento na época",
+      "Interferência alienígena",
+      "Condições climáticas imprevisíveis e correntes marítimas fortes",
+      "Combinação de fatores naturais e falhas humanas"
+    ],
+    "correctAnswer": "Combinação de fatores naturais e falhas humanas",
+    "explanation": "Embora existam teorias sobrenaturais, a maioria dos desaparecimentos no Triângulo das Bermudas é atribuída a uma combinação de fatores naturais, como tempestades repentinas, correntes marítimas imprevisíveis e erros humanos na navegação. A falta de tecnologia de rastreamento avançada na época de alguns desaparecimentos também dificulta a investigação. Curiosidade: O Triângulo das Bermudas não é oficialmente reconhecido como uma zona de maior incidência de desaparecimentos do que outras áreas oceânicas com tráfego similar.",
+    "id": "quiz-misterios-106",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve um antigo manuscrito encontrado em uma biblioteca esquecida, repleto de símbolos indecifráveis e um texto aparentemente escrito em uma língua desconhecida?",
+    "options": [
+      "O Mistério de Stonehenge",
+      "O Manuscrito Voynich",
+      "O Enigma de D.B. Cooper",
+      "O Caso do Zodiaco"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é famoso por seus símbolos indecifráveis e texto em uma língua desconhecida, desafiando especialistas por décadas.  Curiosamente, o manuscrito contém ilustrações botânicas, astrológicas e outras imagens enigmáticas que contribuem para seu mistério.",
+    "id": "quiz-misterios-107",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de símbolos enigmáticos descobertos em um antigo sítio arqueológico, que parecem desafiar qualquer explicação científica ou histórica conhecida?",
+    "options": [
+      "O Mistério de Stonehenge",
+      "O Mistério das Linhas de Nazca",
+      "O Mistério da Pedra de Rosetta",
+      "O Mistério do Manuscrito Voynich"
+    ],
+    "correctAnswer": "O Mistério das Linhas de Nazca",
+    "explanation": "As Linhas de Nazca são um conjunto de geoglifos gigantescos no Peru, cuja finalidade permanece um enigma.  As outras opções, embora envolvam mistérios, não se encaixam na descrição da questão. Curiosidade: Acredita-se que as Linhas de Nazca foram criadas pela cultura Nazca entre 500 a.C. e 500 d.C.",
+    "id": "quiz-misterios-108",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba egípcia selada, contém hieróglifos que parecem descrever uma tecnologia avançada incompatível com o período em que foi escrito.  Qual mistério esse diário apresenta?",
+    "options": [
+      "A maldição de uma múmia.",
+      "Uma tecnologia alienígena perdida.",
+      "Um sistema de escrita desconhecido.",
+      "Uma avançada civilização pré-dinástica."
+    ],
+    "correctAnswer": "Uma avançada civilização pré-dinástica.",
+    "explanation": "A descoberta de tecnologia avançada em um diário antigo sugere a existência de uma civilização mais avançada do que se supunha existir naquela época. As outras opções são menos prováveis, pois não explicam a tecnologia avançada descrita. Curiosidade: Alguns hieróglifos egípcios ainda não foram decifrados completamente.",
+    "id": "quiz-misterios-109",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, encontrado em um baú de madeira apodrecido, contém símbolos desconhecidos e coordenadas que parecem apontar para uma ilha desconhecida no Pacífico Sul.  Qual mistério esse mapa apresenta?",
+    "options": [
+      "A localização de uma cidade perdida de ouro.",
+      "A localização de uma base secreta nazista.",
+      "A localização de uma civilização pré-histórica avançada.",
+      "A localização de uma ilha desconhecida, possivelmente com tesouros ou segredos ocultos."
+    ],
+    "correctAnswer": "A localização de uma ilha desconhecida, possivelmente com tesouros ou segredos ocultos.",
+    "explanation": "A resposta correta foca no elemento principal do enigma: a ilha desconhecida. As outras opções são desvios, embora possam ser elementos dentro de um mistério maior. Curiosidade: Muitos mapas antigos, com símbolos enigmáticos, foram encontrados ao longo da história, alimentando buscas por tesouros perdidos e civilizações ocultas.",
+    "id": "quiz-misterios-110",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de eventos inexplicáveis ocorre em uma pequena vila remota: luzes estranhas no céu, relatos de criaturas desconhecidas, anomalias geomagnéticas e o desaparecimento de vários moradores. As investigações não encontram explicações científicas. Qual mistério esse cenário apresenta?",
+    "options": [
+      "Uma conspiração governamental para testar armas secretas.",
+      "Uma infestação de insetos mutantes.",
+      "Uma atividade paranormal ou intervenção extraterrestre.",
+      "Um experimento científico secreto que deu errado."
+    ],
+    "correctAnswer": "Uma atividade paranormal ou intervenção extraterrestre.",
+    "explanation": "A falta de explicações científicas abre espaço para teorias sobrenaturais ou extraterrestres. As outras opções são mais mundanas e não explicam a gama de eventos inexplicáveis. Curiosidade: Muitos eventos inexplicáveis em pequenas cidades são atribuídos a lendas locais e histórias populares, criando mistérios duradouros.",
+    "id": "quiz-misterios-111",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo livro encontrado em uma biblioteca abandonada contém um código indecifrável e ilustrações de constelações desconhecidas. O que esse livro pode revelar?",
+    "options": [
+      "Um mapa para um tesouro perdido.",
+      "Uma profecia sobre o futuro.",
+      "Uma linguagem extraterrestre.",
+      "Uma nova teoria científica."
+    ],
+    "correctAnswer": "Uma profecia sobre o futuro.",
+    "explanation": "As ilustrações de constelações desconhecidas sugerem uma possível conexão com a astrologia e a predição de eventos futuros. As outras opções são menos prováveis, pois um código indecifrável não garante necessariamente um mapa do tesouro, uma linguagem alienígena ou uma teoria científica. Curiosidade: Muitos manuscritos antigos contêm códigos e símbolos que ainda não foram decifrados, tornando-os objetos de mistério e especulação.",
+    "id": "quiz-misterios-112",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de assassinatos ocorre em uma cidade pequena, com cada vítima encontrando um antigo símbolo egípcio diferente em seu corpo. O que esse padrão pode indicar?",
+    "options": [
+      "Uma conspiração política.",
+      "Um culto secreto.",
+      "Um assassino com obsessão por hieróglifos.",
+      "Uma maldição antiga."
+    ],
+    "correctAnswer": "Um culto secreto.",
+    "explanation": "A repetição de símbolos egípcios sugere uma possível conexão com um culto secreto que utiliza esses símbolos em seus rituais. As outras opções são possíveis, mas menos prováveis, dado o contexto específico dos símbolos. Curiosidade: Existem muitos cultos secretos ao longo da história, alguns usando símbolos e rituais específicos para se identificar.",
+    "id": "quiz-misterios-113",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma escavação arqueológica nas profundezas do oceano, descobre-se uma estrutura metálica de origem desconhecida, emitindo sinais eletromagnéticos inexplicáveis e contendo uma substância cristalina que desafia as leis conhecidas da física. Qual mistério esse achado representa?",
+    "options": [
+      "A existência de uma nova espécie de mineral.",
+      "Evidências de uma antiga civilização subaquática.",
+      "Uma nova forma de energia sustentável.",
+      "Restos de um experimento científico secreto."
+    ],
+    "correctAnswer": "Evidências de uma antiga civilização subaquática.",
+    "explanation": "A estrutura metálica, os sinais eletromagnéticos e a substância cristalina anômala sugerem uma origem artificial e avançada, apontando para uma possível civilização subaquática desconhecida. As outras opções são menos prováveis, pois não explicam o conjunto de características inexplicáveis do achado. Curiosidade: Existem teorias sobre a possibilidade de civilizações antigas terem se desenvolvido em ambientes subaquáticos.",
+    "id": "quiz-misterios-114",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive descobre uma série de símbolos estranhos em cada cena de crime de uma série de assassinatos. Os símbolos parecem ser uma combinação de runas antigas e símbolos modernos de criptografia. Que mistério esse padrão representa?",
+    "options": [
+      "Uma conspiração governamental",
+      "Um culto secreto",
+      "Um assassino com conhecimento de criptografia",
+      "Uma maldição antiga"
+    ],
+    "correctAnswer": "Um assassino com conhecimento de criptografia",
+    "explanation": "A combinação de runas antigas e símbolos modernos de criptografia sugere um assassino com conhecimento em ambas as áreas, usando-os para deixar mensagens enigmáticas. As outras opções são plausíveis, mas não explicam a combinação específica de símbolos. Curiosidade: Existem casos reais de criminosos usando símbolos e códigos em seus crimes para confundir as investigações.",
+    "id": "quiz-misterios-115",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota, é encontrado um artefato metálico com inscrições alienígenas e um mecanismo interno complexo que emite pulsos de energia inexplicáveis. O que esse achado representa?",
+    "options": [
+      "Uma nova espécie de planta",
+      "Uma arma antiga de uma civilização desconhecida",
+      "Um dispositivo tecnológico de origem extraterrestre",
+      "Uma formação geológica incomum"
+    ],
+    "correctAnswer": "Um dispositivo tecnológico de origem extraterrestre",
+    "explanation": "A descrição do artefato aponta para uma tecnologia avançada e inexplicável, sugerindo uma origem extraterrestre. As outras opções não explicam as inscrições alienígenas e os pulsos de energia. Curiosidade: O estudo de artefatos inexplicáveis é um campo de pesquisa fascinante, com algumas descobertas ainda sem explicação científica.",
+    "id": "quiz-misterios-116",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito é encontrado em uma biblioteca abandonada, contendo um código indecifrável e ilustrações de constelações desconhecidas. Qual mistério esse manuscrito apresenta?",
+    "options": [
+      "A localização de um tesouro perdido",
+      "A existência de uma civilização extraterrestre",
+      "Um ritual mágico antigo",
+      "Uma profecia apocalíptica"
+    ],
+    "correctAnswer": "A existência de uma civilização extraterrestre",
+    "explanation": "As constelações desconhecidas e o código indecifrável sugerem a possibilidade de uma mensagem de uma civilização extraterrestre. As outras opções são plausíveis, mas menos prováveis considerando os elementos apresentados. Curiosidade: Muitos manuscritos antigos foram decifrados com o passar dos anos, revelando segredos históricos surpreendentes.",
+    "id": "quiz-misterios-117",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Qual mistério envolve uma série de mensagens codificadas enviadas anonimamente, com enigmas complexos e referências a eventos históricos obscuros, culminando em um desafio para decifradores por décadas?",
+    "options": [
+      "O Mistério de Jack, o Estripador",
+      "O Enigma de D.B. Cooper",
+      "O Código Voynich",
+      "O Assassino do Zodíaco"
+    ],
+    "correctAnswer": "O Assassino do Zodíaco",
+    "explanation": "O Assassino do Zodíaco enviou cartas criptografadas para jornais, desafiando especialistas por décadas. Apenas algumas mensagens foram decifradas. Curiosidade:  algumas das mensagens continham símbolos que ainda não foram totalmente compreendidos.",
+    "id": "quiz-misterios-118",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Qual enigma histórico envolve um manuscrito ilustrado repleto de símbolos e um texto indecifrável, desafiando especialistas em criptografia por séculos e associado a teorias sobre alquimia, astrologia e até mesmo uma possível previsão de eventos futuros?",
+    "options": [
+      "O Manuscrito Voynich",
+      "O Códice de Dresde",
+      "O Mapa de Vinland",
+      "O Códice Gigas"
+    ],
+    "correctAnswer": "O Manuscrito Voynich",
+    "explanation": "O Manuscrito Voynich é um livro misterioso, com ilustrações botânicas, astronômicas e outras imagens enigmáticas, e um texto ainda indecifrável.  Sua origem e significado permanecem um mistério. Curiosidade:  Acredita-se que o manuscrito tenha sido escrito no século XV.",
+    "id": "quiz-misterios-119",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive encontra uma série de mensagens criptografadas deixadas em cenas de crime aparentemente desconexas. As mensagens, escritas em um código complexo que combina símbolos antigos e modernos, parecem descrever uma série de assassinatos rituais. Que mistério esse código representa?",
+    "options": [
+      "Um código de segurança de banco.",
+      "Uma série de assassinatos rituais.",
+      "Uma mensagem de amor secreta.",
+      "Uma brincadeira de mau gosto."
+    ],
+    "correctAnswer": "Uma série de assassinatos rituais.",
+    "explanation": "A combinação de mensagens criptografadas em cenas de crime, com símbolos antigos e modernos, aponta para uma série de assassinatos rituais. A complexidade do código sugere um plano elaborado e a conexão com rituais antigos acrescenta um elemento misterioso. Curiosidade: Muitos códigos históricos utilizaram símbolos religiosos ou mitológicos para ocultar mensagens, adicionando um elemento de mistério e desafio para decifração.",
+    "id": "quiz-misterios-120",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma remota ilha, descobre-se um manuscrito antigo escrito em uma linguagem desconhecida. O manuscrito contém ilustrações complexas de máquinas que parecem desafiar as leis da física, e símbolos que se assemelham a um sistema de escrita avançado.  Ao que parece, o manuscrito descreve uma tecnologia avançada incompatível com o período em que foi escrito, e alguns símbolos parecem descrever uma possível previsão de eventos futuros. Qual mistério esse manuscrito representa?",
+    "options": [
+      "Um diário de um explorador perdido.",
+      "Um antigo tratado de alquimia.",
+      "Uma tecnologia avançada de uma civilização perdida.",
+      "Um mapa para um tesouro perdido."
+    ],
+    "correctAnswer": "Uma tecnologia avançada de uma civilização perdida.",
+    "explanation": "A descrição de máquinas que desafiam as leis da física, combinada com uma linguagem e símbolos desconhecidos, sugere uma tecnologia avançada de uma civilização perdida. A possível previsão de eventos futuros adiciona um elemento de mistério e especulação. Curiosidade: Muitos manuscritos antigos contêm informações enigmáticas que desafiam a compreensão moderna, levando a teorias sobre civilizações avançadas e tecnologias perdidas.",
+    "id": "quiz-misterios-121",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de assassinatos ocorre em uma cidade pequena, com cada vítima apresentando um símbolo diferente gravado no corpo, símbolos estes que parecem pertencer a um sistema de escrita desconhecido, combinando elementos de diferentes culturas e épocas.  A polícia encontra, próximo a cada corpo, um pequeno fragmento de um objeto antigo, diferente a cada assassinato. Qual mistério esses assassinatos representam?",
+    "options": [
+      "Um assassino em série com obsessão por símbolos antigos",
+      "Uma conspiração envolvendo uma sociedade secreta",
+      "Um ritual de sacrifício a uma entidade sobrenatural",
+      "Uma guerra entre diferentes facções criminosas"
+    ],
+    "correctAnswer": "Um ritual de sacrifício a uma entidade sobrenatural",
+    "explanation": "A resposta correta é \"Um ritual de sacrifício a uma entidade sobrenatural\" porque a combinação de símbolos desconhecidos, fragmentos de objetos antigos e o padrão nos assassinatos sugerem um ritual complexo. As outras opções são plausíveis, mas não explicam a complexidade dos símbolos e a variedade de artefatos encontrados. Curiosidade: Muitos assassinatos rituais ao longo da história envolvem símbolos e objetos específicos, relacionados a crenças e práticas religiosas obscuras.",
+    "id": "quiz-misterios-122",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada, contém símbolos desconhecidos e coordenadas que parecem indicar a localização de uma cidade perdida. Qual mistério esse diário apresenta?",
+    "options": [
+      "A localização de uma cidade perdida.",
+      "Um código secreto para abrir um cofre.",
+      "Uma receita antiga para um elixir mágico.",
+      "Um mapa para um tesouro pirata."
+    ],
+    "correctAnswer": "A localização de uma cidade perdida.",
+    "explanation": "A resposta correta é 'A localização de uma cidade perdida' porque o diário descreve símbolos e coordenadas que sugerem um local específico. As outras opções são distrações. Curiosidade: Muitas cidades antigas foram perdidas ao longo da história, muitas vezes devido a desastres naturais ou guerras, e sua redescoberta pode revelar informações valiosas sobre culturas passadas.",
+    "id": "quiz-misterios-123",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, descoberto em um navio naufragado, indica uma ilha desconhecida com símbolos que parecem ser uma forma de escrita desconhecida. O que esse mapa representa?",
+    "options": [
+      "Uma rota comercial secreta",
+      "Um tesouro perdido",
+      "Uma ilha mítica",
+      "Uma base militar antiga"
+    ],
+    "correctAnswer": "Uma ilha mítica",
+    "explanation": "A presença de uma escrita desconhecida e a localização incerta da ilha apontam para uma ilha mítica, não mapeada. Curiosidade: Muitos mapas antigos continham elementos fantásticos, como monstros marinhos, para dissuadir outros exploradores.",
+    "id": "quiz-misterios-124",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota, é encontrada uma série de pedras com inscrições complexas que desafiam qualquer sistema de escrita conhecido. Ao redor das pedras, há vestígios de uma tecnologia desconhecida, mas sem evidência de uma civilização. O que este enigma representa?",
+    "options": [
+      "Uma civilização perdida",
+      "Uma experiência científica secreta",
+      "Uma interferência extraterrestre",
+      "Um fenômeno geológico incomum"
+    ],
+    "correctAnswer": "Uma interferência extraterrestre",
+    "explanation": "A ausência de evidências de uma civilização combinada com uma tecnologia avançada e inscrições desconhecidas sugere uma origem extraterrestre. Curiosidade: A existência de inscrições complexas é um elemento comum em relatos de encontros extraterrestres.",
+    "id": "quiz-misterios-125",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Um antigo mecanismo de Antikythera, encontrado em um naufrágio, apresenta engrenagens complexas que sugerem um avançado conhecimento de astronomia. Que mistério esse artefato representa?",
+    "options": [
+      "A origem extraterrestre do mecanismo",
+      "A tecnologia perdida dos gregos",
+      "Uma falsificação elaborada",
+      "Um calendário simples, mal interpretado"
+    ],
+    "correctAnswer": "A tecnologia perdida dos gregos",
+    "explanation": "O Mecanismo de Antikythera demonstra um conhecimento de engenharia e astronomia muito avançado para sua época, desafiando a compreensão da tecnologia grega antiga.  As outras opções são especulações, embora a origem extraterrestre seja uma teoria popular. Curiosidade: O mecanismo conseguia prever eclipses solares e lunares com alta precisão.",
+    "id": "quiz-misterios-126",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive investiga uma série de assassinatos aparentemente aleatórios, mas descobre que cada vítima tinha um tipo específico de flor em seu bolso.  Qual mistério esse padrão de flores representa?",
+    "options": [
+      "Um culto secreto que usa flores como símbolos.",
+      "Um assassino com obsessão por jardinagem.",
+      "Uma conspiração política complexa.",
+      "Uma maldição antiga relacionada a diferentes espécies de flores."
+    ],
+    "correctAnswer": "Um culto secreto que usa flores como símbolos.",
+    "explanation": "A repetição de flores específicas sugere um padrão ritualístico, indicando uma possível conexão com um culto secreto que utiliza as flores como símbolos de comunicação ou rituais. As outras opções são menos prováveis, pois não explicam a recorrência de flores em cada cena do crime. Curiosidade: Existem cultos que utilizam a simbologia das flores em seus rituais, atribuindo significados ocultos a cada espécie.",
+    "id": "quiz-misterios-127",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Manuscritos antigos, encontrados em uma tumba submersa, contêm uma linguagem desconhecida e símbolos que parecem descrever uma tecnologia avançada incompatível com o período em que foram escritos. Os símbolos também parecem prever eventos futuros. Que mistério esses manuscritos representam?",
+    "options": [
+      "Uma civilização avançada perdida que possuía conhecimento tecnológico superior ao da época.",
+      "Um elaborado sistema de escrita ainda indecifrável.",
+      "Uma profecia apocalíptica escrita por um profeta.",
+      "Um mapa para um tesouro perdido."
+    ],
+    "correctAnswer": "Uma civilização avançada perdida que possuía conhecimento tecnológico superior ao da época.",
+    "explanation": "A combinação de uma linguagem desconhecida, símbolos tecnologicamente avançados e a aparente previsão de eventos futuros aponta para a possibilidade de uma civilização antiga com conhecimento científico e tecnológico muito além do que se esperaria para a época. As outras opções são menos plausíveis, pois não explicam a complexidade da tecnologia descrita nos manuscritos. Curiosidade: Existem teorias sobre civilizações antigas que possuíam tecnologias avançadas, que teriam sido perdidas ao longo do tempo.",
+    "id": "quiz-misterios-128",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, encontrado em uma tumba egípcia, contém símbolos desconhecidos e coordenadas que parecem apontar para uma localização no deserto.  Próximo ao mapa, há um pequeno amuleto com hieróglifos que mencionam 'o lugar onde o sol se esconde'. Qual mistério esse mapa apresenta?",
+    "options": [
+      "A localização de uma cidade perdida",
+      "Um tesouro escondido pelos faraós",
+      "Um ritual funerário desconhecido",
+      "Uma passagem secreta para o submundo"
+    ],
+    "correctAnswer": "A localização de uma cidade perdida",
+    "explanation": "A menção ao 'lugar onde o sol se esconde' e a presença de coordenadas em um mapa antigo sugerem fortemente a localização de uma cidade perdida, possivelmente uma cidade sagrada ou um assentamento oculto. As outras opções são menos prováveis, embora não impossíveis. Curiosidade: Muitos mapas antigos continham símbolos e códigos para proteger informações importantes, e a criptografia era uma prática comum em várias culturas antigas.",
+    "id": "quiz-misterios-129",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de eventos inexplicáveis ocorre em uma pequena vila isolada, incluindo anomalias eletromagnéticas, aparições de luzes estranhas e relatos de criaturas desconhecidas.  Os moradores apresentam sintomas inexplicáveis, como perda de memória e alucinações.  As investigações científicas não encontram explicações.  Análises de solo revelam uma composição mineral incomum na região.  Qual mistério esse cenário apresenta?",
+    "options": [
+      "Uma infestação de insetos com propriedades neurotóxicas",
+      "Um experimento científico secreto",
+      "Uma atividade paranormal de origem desconhecida",
+      "Uma anomalia geológica com efeitos desconhecidos na biologia e na física"
+    ],
+    "correctAnswer": "Uma anomalia geológica com efeitos desconhecidos na biologia e na física",
+    "explanation": "A combinação de anomalias eletromagnéticas, sintomas inexplicáveis nos moradores e a composição mineral incomum do solo apontam para uma anomalia geológica como a causa mais provável. Embora as outras opções sejam possíveis, elas não explicam completamente o conjunto de eventos. Curiosidade:  Existem diversos lugares no mundo com anomalias geológicas que causam efeitos inexplicáveis, ainda em estudo pela ciência.",
+    "id": "quiz-misterios-130",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um pesquisador encontra um antigo mapa em pergaminho, com símbolos desconhecidos e coordenadas que parecem indicar a localização de uma cidade perdida na Amazônia, protegida por uma tribo indígena isolada.  Qual mistério esse mapa representa?",
+    "options": [
+      "A localização de uma cidade perdida na Amazônia.",
+      "Um tesouro escondido pelos Incas.",
+      "Uma antiga maldição indígena.",
+      "Um mapa falso criado por exploradores europeus."
+    ],
+    "correctAnswer": "A localização de uma cidade perdida na Amazônia.",
+    "explanation": "O mapa aponta para uma localização específica, sugerindo a existência de uma cidade perdida. As outras opções são desvios que não se encaixam na descrição do mapa. Curiosidade: muitas lendas de cidades perdidas na Amazônia são baseadas em relatos de exploradores e viajantes, alimentando a imaginação e a busca por essas cidades lendárias.",
+    "id": "quiz-misterios-131",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma série de assassinatos aparentemente aleatórios, a polícia encontra em cada cena do crime um pequeno fragmento de um objeto antigo e diferente, com uma inscrição minúscula e indecifrável em uma linguagem desconhecida. As vítimas não têm nenhuma relação aparente, exceto por um detalhe: todas eram especialistas em áreas distintas de estudo de civilizações antigas. Qual mistério esse padrão representa?",
+    "options": [
+      "Uma conspiração moderna envolvendo um culto secreto.",
+      "Uma sociedade secreta que busca um artefato antigo.",
+      "Um assassino com uma obsessão por antiguidades.",
+      "Uma maldição antiga que afeta estudiosos."
+    ],
+    "correctAnswer": "Uma sociedade secreta que busca um artefato antigo.",
+    "explanation": "A combinação de fragmentos de objetos antigos, inscrições desconhecidas e vítimas especialistas em civilizações antigas indica uma busca deliberada por um artefato ou conhecimento antigo por uma organização secreta. As outras opções são muito genéricas ou não explicam o vínculo com os especialistas em antiguidades. Curiosidade: sociedades secretas na história real, como os Maçons, têm gerado muitas teorias e especulações.",
+    "id": "quiz-misterios-132",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de assassinatos ocorre em uma cidade pequena, com cada vítima apresentando um símbolo diferente gravado em seu corpo, símbolos estes que parecem ser uma combinação de runas nórdicas antigas e glifos modernos de criptografia.  As investigações revelam que as vítimas eram especialistas em diferentes áreas da criptografia, e cada uma delas havia trabalhado em projetos secretos relacionados à segurança nacional.  Qual mistério esse padrão de símbolos representa?",
+    "options": [
+      "Uma conspiração para roubar segredos de estado",
+      "Um culto secreto com rituais de assassinato",
+      "Uma nova forma de criptografia indecifrável",
+      "Um assassino em série com obsessão por códigos"
+    ],
+    "correctAnswer": "Uma conspiração para roubar segredos de estado",
+    "explanation": "A combinação de runas antigas e glifos modernos, juntamente com as vítimas sendo especialistas em criptografia e o envolvimento com projetos secretos, indica uma conspiração para roubar informações confidenciais. As outras opções são possíveis, mas a evidência aponta mais fortemente para uma conspiração governamental. Curiosidade: A criptografia tem sido usada por séculos, desde mensagens secretas em guerras até a proteção de informações sigilosas em nossos dias.",
+    "id": "quiz-misterios-133",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma série de pinturas antigas, descobertas em uma caverna escondida nos Andes, retratam objetos e tecnologias que parecem avançados demais para o período em que foram criadas.  Os símbolos ao redor das imagens são indecifráveis. Qual mistério essas pinturas representam?",
+    "options": [
+      "Uma nova espécie de arte rupestre.",
+      "Evidência de uma civilização tecnologicamente avançada desconhecida.",
+      "Uma elaborada brincadeira de artistas modernos.",
+      "Um registro de eventos climáticos antigos."
+    ],
+    "correctAnswer": "Evidência de uma civilização tecnologicamente avançada desconhecida.",
+    "explanation": "A complexidade das tecnologias retratadas nas pinturas, aliada à indecifrabilidade dos símbolos, sugere uma civilização avançada desconhecida pela história. As outras opções são improváveis, pois não explicam a aparente sofisticação tecnológica representada nas pinturas. Curiosidade: Algumas teorias sugerem que essas pinturas podem ter sido influenciadas por contatos com civilizações extraterrestres.",
+    "id": "quiz-misterios-134",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota da Amazônia, é descoberta uma estrutura subterrânea de origem desconhecida, composta de um material resistente a qualquer tipo de análise conhecida.  Dentro da estrutura, encontram-se dispositivos que emitem sinais de rádio incompreensíveis, e uma substância cristalina que parece alterar as propriedades do tempo em escala microscópica. Qual mistério essa descoberta representa?",
+    "options": [
+      "Uma nova espécie de fungo com propriedades incomuns.",
+      "Um experimento científico secreto e abandonado.",
+      "Uma base militar ultra-secreta.",
+      "Uma tecnologia alienígena ou de uma civilização antiga avançada."
+    ],
+    "correctAnswer": "Uma tecnologia alienígena ou de uma civilização antiga avançada.",
+    "explanation": "A resistência do material, os sinais de rádio incompreensíveis e a alteração das propriedades do tempo apontam para uma tecnologia muito além do conhecimento científico atual.  As outras opções não explicam a complexidade e a natureza incomum da descoberta. Curiosidade: A estrutura poderia ser um vestígio de uma civilização pré-histórica avançada ou até mesmo uma tecnologia extraterrestre, desafiando nossa compreensão da história e da tecnologia.",
+    "id": "quiz-misterios-135",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, descoberto em ruínas submersas, contém uma linguagem desconhecida e ilustrações de máquinas complexas que parecem desafiar as leis da física.  O que este manuscrito representa?",
+    "options": [
+      "Um relato histórico preciso de uma civilização perdida.",
+      "Uma obra de ficção científica de um autor desconhecido.",
+      "Um registro de uma tecnologia avançada de uma civilização pré-histórica.",
+      "Um mapa para um tesouro escondido."
+    ],
+    "correctAnswer": "Um registro de uma tecnologia avançada de uma civilização pré-histórica.",
+    "explanation": "A presença de máquinas que desafiam as leis da física sugere uma tecnologia avançada além do conhecimento da época.  As outras opções são improváveis, considerando o contexto da descoberta. Curiosidade: Alguns pesquisadores acreditam que manuscritos antigos podem conter informações sobre tecnologias que foram perdidas ao longo do tempo.",
+    "id": "quiz-misterios-136",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo livro é descoberto em uma biblioteca esquecida, contendo um código indecifrável e ilustrações de máquinas complexas que desafiam as leis da física conhecidas. Qual mistério esse livro representa?",
+    "options": [
+      "A existência de uma civilização tecnologicamente avançada em um passado distante.",
+      "Um elaborado esquema de códigos secretos de uma sociedade secreta.",
+      "Uma obra de ficção científica avançada para sua época.",
+      "Um manual de alquimia medieval com fórmulas incompreensíveis."
+    ],
+    "correctAnswer": "A existência de uma civilização tecnologicamente avançada em um passado distante.",
+    "explanation": "A descrição de máquinas complexas que desafiam as leis da física sugere um conhecimento científico além do compreendido na época em que o livro foi escrito, apontando para uma civilização tecnologicamente avançada que existiu antes do que se imaginava. As outras opções são menos plausíveis, pois não explicam a tecnologia avançada descrita no livro. Curiosidade: Existem teorias que sugerem a existência de civilizações tecnologicamente avançadas antes do que a arqueologia tradicionalmente aceita.",
+    "id": "quiz-misterios-137",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um diário antigo, encontrado em uma caverna isolada, contém uma série de entradas codificadas e desenhos de constelações desconhecidas.  O que esse diário pode revelar?",
+    "options": [
+      "Um mapa para um tesouro perdido.",
+      "Uma profecia sobre eventos futuros.",
+      "Uma descrição de uma civilização extraterrestre.",
+      "Um relato de uma jornada espiritual."
+    ],
+    "correctAnswer": "Uma profecia sobre eventos futuros.",
+    "explanation": "A combinação de entradas codificadas e desenhos de constelações sugere uma tentativa de prever ou registrar eventos futuros, um tema comum em profecias antigas.  As outras opções são possíveis, mas menos prováveis, dado o contexto do diário. Curiosidade: Muitos diários antigos continham códigos e símbolos para proteger informações importantes, ou para torná-las acessíveis apenas a pessoas específicas.",
+    "id": "quiz-misterios-138",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma escavação arqueológica submarina, são descobertos artefatos tecnológicos avançados dentro de uma estrutura de origem desconhecida, datados de um período muito anterior ao que se acreditava ser possível.  Próximo aos artefatos, há uma série de símbolos complexos que parecem desafiar qualquer sistema de escrita conhecido. Qual mistério esse achado representa?",
+    "options": [
+      "Uma civilização pré-histórica tecnologicamente avançada.",
+      "Uma visita de extraterrestres ao planeta.",
+      "Uma anomalia geológica que criou a ilusão de tecnologia antiga.",
+      "Uma fraude elaborada por arqueólogos corruptos."
+    ],
+    "correctAnswer": "Uma civilização pré-histórica tecnologicamente avançada.",
+    "explanation": "A descoberta de tecnologia avançada em um período anterior ao que se conhece sugere a existência de uma civilização desconhecida com tecnologia superior à esperada para aquela época. Os símbolos complexos reforçam a ideia de uma cultura sofisticada e única. Curiosidade: Muitas descobertas arqueológicas desafiam as teorias estabelecidas, forçando os cientistas a repensarem a história da humanidade.",
+    "id": "quiz-misterios-139",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito é descoberto em uma biblioteca remota, contendo um texto indecifrável e ilustrações de constelações desconhecidas.  Uma das ilustrações mostra um objeto celeste que parece ser um planeta anão não catalogado pela astronomia moderna. Que mistério esse manuscrito apresenta?",
+    "options": [
+      "Um mapa de um tesouro perdido.",
+      "Um código secreto de uma organização secreta.",
+      "Um registro de eventos astronômicos desconhecidos.",
+      "Uma obra de ficção científica antiga."
+    ],
+    "correctAnswer": "Um registro de eventos astronômicos desconhecidos.",
+    "explanation": "A presença de um planeta anão não catalogado sugere que o manuscrito pode conter informações sobre eventos astronômicos desconhecidos pela ciência atual. As outras opções são menos prováveis, pois não explicam a ilustração do planeta desconhecido. Curiosidade: Muitos manuscritos antigos contêm informações astronômicas que foram importantes para o desenvolvimento da astronomia moderna.",
+    "id": "quiz-misterios-140",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada na Sibéria, contém símbolos desconhecidos e um texto indecifrável, aparentemente descrevendo uma tecnologia avançada incompatível com o período em que foi escrito.  Próximo ao diário, há um pequeno artefato metálico com propriedades magnéticas inexplicáveis. Qual mistério esse diário apresenta?",
+    "options": [
+      "A origem extraterrestre da tecnologia descrita no diário.",
+      "Uma nova forma de escrita desconhecida da antiguidade.",
+      "Uma conspiração para esconder avanços tecnológicos antigos.",
+      "Um elaborado sistema de escrita cifrada que ainda não foi decifrado."
+    ],
+    "correctAnswer": "Uma nova forma de escrita desconhecida da antiguidade.",
+    "explanation": "Embora a tecnologia descrita seja intrigante, a prioridade é decifrar a escrita desconhecida para entender o contexto.  O artefato metálico adiciona mistério, mas não define o mistério principal do diário. Curiosidade: Muitos símbolos antigos só foram decifrados séculos depois de sua descoberta.",
+    "id": "quiz-misterios-141",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um navio desaparece misteriosamente no Mar de Beaufort, deixando para trás apenas alguns destroços e um sinal de socorro distorcido.  Nenhum vestígio da tripulação é encontrado. Que mistério esse evento representa?",
+    "options": [
+      "Um ataque de piratas modernos.",
+      "Uma tempestade imprevista e violenta.",
+      "Um fenômeno geológico inesperado.",
+      "Um evento inexplicável, possivelmente paranormal."
+    ],
+    "correctAnswer": "Um evento inexplicável, possivelmente paranormal.",
+    "explanation": "A falta de explicação lógica para o desaparecimento do navio e a tripulação, combinada com a distorção do sinal de socorro, aponta para a possibilidade de um evento inexplicável. As outras opções são plausíveis, mas não explicam completamente a falta de vestígios. Curiosidade: O Mar de Beaufort é conhecido por suas condições climáticas extremas e por ser palco de vários desaparecimentos inexplicados de navios e aeronaves ao longo da história.",
+    "id": "quiz-misterios-142",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma caverna subaquática na costa da Grécia, arqueólogos descobrem uma série de artefatos que parecem desafiar a cronologia estabelecida.  Esses artefatos, feitos de um metal desconhecido e com símbolos indecifráveis, parecem conter circuitos minúsculos e um material cristalino que emite um fraco sinal eletromagnético.  O que este achado representa?",
+    "options": [
+      "Uma nova espécie de organismo bioluminescente.",
+      "Restos de um antigo navio romano perdido.",
+      "Evidência de uma civilização avançada pré-histórica.",
+      "Uma elaborada fraude arqueológica."
+    ],
+    "correctAnswer": "Evidência de uma civilização avançada pré-histórica.",
+    "explanation": "A combinação de metal desconhecido, circuitos minúsculos, material cristalino com sinais eletromagnéticos, e símbolos indecifráveis sugere uma tecnologia muito avançada para o período histórico conhecido, apontando para a possibilidade de uma civilização pré-histórica desconhecida. As outras opções são improváveis, dadas as características incomuns dos artefatos. Curiosidade:  Existem diversas teorias sobre civilizações avançadas que teriam existido na pré-história, mas a falta de evidências concretas dificulta a comprovação dessas teorias.",
+    "id": "quiz-misterios-143",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada na Sibéria, contém símbolos desconhecidos e coordenadas que parecem apontar para um local no Ártico. Próximo ao diário, há uma pequena estatueta de metal que emite um fraco sinal eletromagnético. Qual mistério esse achado representa?",
+    "options": [
+      "Uma nova espécie de mineral com propriedades eletromagnéticas incomuns.",
+      "A localização de uma cidade perdida sob o gelo ártico.",
+      "Um antigo ritual siberiano desconhecido.",
+      "Uma mensagem codificada de uma civilização extraterrestre."
+    ],
+    "correctAnswer": "A localização de uma cidade perdida sob o gelo ártico.",
+    "explanation": "A combinação de coordenadas, símbolos desconhecidos e um artefato com propriedades incomuns sugere fortemente a existência de um local previamente desconhecido, provavelmente uma cidade perdida. Curiosidade: Alguns pesquisadores acreditam que cidades perdidas possam ter sido engolidas por geleiras ao longo da história, preservando-se sob o gelo.",
+    "id": "quiz-misterios-144",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive investiga uma série de roubos em museus, onde apenas itens específicos são levados. Cada item roubado está relacionado a uma lenda diferente de uma civilização antiga. Que mistério esses roubos representam?",
+    "options": [
+      "Uma conspiração para desvendar segredos antigos.",
+      "Um colecionador obcecado por artefatos lendários.",
+      "Uma sociedade secreta que busca poder através da mitologia.",
+      "Uma vingança contra a comunidade arqueológica."
+    ],
+    "correctAnswer": "Uma sociedade secreta que busca poder através da mitologia.",
+    "explanation": "A escolha de itens relacionados a lendas antigas sugere um objetivo além do simples roubo. Uma sociedade secreta buscando poder através da mitologia explicaria a seletividade dos itens roubados. Curiosidade: Muitas sociedades secretas históricas realmente usaram símbolos e artefatos de culturas antigas em seus rituais.",
+    "id": "quiz-misterios-145",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma cidade pequena, eventos inexplicáveis ocorrem em sequência: um relógio centenário para de funcionar sem motivo aparente, um antigo poço começa a emitir um brilho estranho, e um manuscrito raro desaparece de uma biblioteca local. Esses eventos parecem estar conectados por um padrão numérico oculto. Qual mistério esses eventos representam?",
+    "options": [
+      "Uma maldição antiga sobre a cidade.",
+      "Um experimento científico secreto.",
+      "Um fenômeno geológico incomum.",
+      "Uma série de crimes elaboradamente planejados."
+    ],
+    "correctAnswer": "Uma série de crimes elaboradamente planejados.",
+    "explanation": "O padrão numérico oculto sugere uma mente planejando os eventos.  A conexão entre o relógio, o poço e o manuscrito, apesar de parecerem aleatórios, aponta para uma orquestração inteligente. Curiosidade: Muitos crimes complexos usam padrões numéricos para confundir investigadores.",
+    "id": "quiz-misterios-146",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, encontrado em uma tumba submersa, descreve um método de comunicação interestelar usando padrões de pulsações de estrelas.  Qual mistério esse manuscrito apresenta?",
+    "options": [
+      "Uma nova teoria sobre a formação de constelações.",
+      "Uma tecnologia de comunicação extraterrestre.",
+      "Um mapa de um tesouro perdido.",
+      "Uma nova forma de escrita egípcia."
+    ],
+    "correctAnswer": "Uma tecnologia de comunicação extraterrestre.",
+    "explanation": "A descrição de um método de comunicação interestelar aponta diretamente para a existência de uma tecnologia avançada, possivelmente extraterrestre. As outras opções são descabidas para o contexto. Curiosidade: Existem estudos sérios sobre a busca de sinais de inteligência extraterrestre (SETI) que buscam exatamente esse tipo de padrão em pulsações de estrelas.",
+    "id": "quiz-misterios-147",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma região desértica remota, são encontradas estruturas geométricas gigantescas, construídas com materiais desconhecidos e alinhadas com eventos astronômicos raros. A análise inicial indica uma idade superior a qualquer civilização conhecida. Qual mistério essas estruturas representam?",
+    "options": [
+      "Um novo tipo de formação rochosa natural.",
+      "Evidências de uma antiga e avançada civilização desconhecida.",
+      "Um projeto artístico contemporâneo.",
+      "Um fenômeno geológico incomum."
+    ],
+    "correctAnswer": "Evidências de uma antiga e avançada civilização desconhecida.",
+    "explanation": "A combinação de materiais desconhecidos, alinhamento astronômico e idade superior a qualquer civilização conhecida aponta para uma civilização avançada e até então desconhecida. As outras opções não explicam as características anômalas. Curiosidade:  Existem teorias sobre megastructuras alienígenas, estruturas construídas em escala gigantesca por civilizações extraterrestres, com o intuito de extrair energia das estrelas.",
+    "id": "quiz-misterios-148",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo baú é encontrado em uma caverna escondida, contendo um diário com entradas cifradas e um mapa com símbolos desconhecidos. O que esse achado sugere?",
+    "options": [
+      "Um tesouro pirata perdido",
+      "Uma conspiração política medieval",
+      "Uma antiga sociedade secreta",
+      "Uma civilização perdida"
+    ],
+    "correctAnswer": "Uma antiga sociedade secreta",
+    "explanation": "A combinação de um diário cifrado e um mapa com símbolos desconhecidos aponta para uma sociedade secreta que utilizava códigos e símbolos para proteger seus conhecimentos e atividades.  Curiosidade: muitas sociedades secretas ao longo da história usaram símbolos e códigos complexos para manter a discrição e a segurança de suas informações.",
+    "id": "quiz-misterios-149",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma região remota da Sibéria, são descobertas ruínas de uma estrutura megalítica com tecnologia inexplicável para a época. Os materiais usados na construção desafiam a compreensão atual de engenharia, e há sinais de um sistema de energia avançado, mas sem qualquer registro histórico da sua existência. Próximo à estrutura, encontram-se fragmentos de um metal desconhecido que emite pulsos eletromagnéticos periódicos. O que esse achado sugere?",
+    "options": [
+      "Uma antiga civilização com tecnologia avançada",
+      "Uma base alienígena abandonada",
+      "Um fenômeno geológico incomum",
+      "Uma instalação militar secreta"
+    ],
+    "correctAnswer": "Uma antiga civilização com tecnologia avançada",
+    "explanation": "A combinação de uma estrutura megalítica com tecnologia avançada, materiais desconhecidos e um metal com propriedades eletromagnéticas incomuns sugere uma civilização antiga com um nível de conhecimento tecnológico muito além do que se supõe para a época. Curiosidade: existem diversas teorias sobre civilizações avançadas que teriam existido muito antes do período historicamente aceito.",
+    "id": "quiz-misterios-150",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um pesquisador encontra um antigo mapa em uma tumba egípcia, mostrando uma ilha desconhecida com símbolos que não se assemelham a nenhum idioma conhecido.  O que esse mapa representa?",
+    "options": [
+      "Um mapa de uma ilha real, ainda não descoberta.",
+      "Um mapa de uma ilha mítica, representando um conceito espiritual.",
+      "Um mapa de uma ilha que afundou há muito tempo.",
+      "Uma fraude elaborada, criada para confundir arqueólogos."
+    ],
+    "correctAnswer": "Um mapa de uma ilha mítica, representando um conceito espiritual.",
+    "explanation": "A complexidade dos símbolos e a ausência de correspondência com línguas conhecidas sugerem uma origem mítica ou simbólica, não literal.  A maioria das ilhas reais são mapeadas em algum momento da história. Curiosidade: Muitos mapas antigos continham elementos simbólicos além da simples cartografia.",
+    "id": "quiz-misterios-151",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota da Sibéria, um grupo de exploradores descobre uma série de estruturas de pedra perfeitamente alinhadas, emitindo um leve zumbido e contendo cristais que parecem distorcer brevemente o espaço-tempo em sua proximidade. O que essas estruturas representam?",
+    "options": [
+      "Vestígios de uma antiga civilização desconhecida, com tecnologia avançada.",
+      "Uma formação geológica natural, com propriedades incomuns.",
+      "Uma instalação militar secreta, construída para experimentos secretos.",
+      "Uma manifestação de um fenômeno paranormal, sem explicação científica."
+    ],
+    "correctAnswer": "Vestígios de uma antiga civilização desconhecida, com tecnologia avançada.",
+    "explanation": "A precisão das estruturas, o zumbido e a distorção espaço-temporal sugerem uma tecnologia avançada além da nossa compreensão atual, indicando uma civilização desconhecida.  Formações naturais raramente demonstram tal precisão e efeitos. Curiosidade: Existem muitas teorias sobre civilizações antigas com tecnologia superior à nossa.",
+    "id": "quiz-misterios-152",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo baú de madeira é encontrado em um navio naufragado. Dentro, há um diário com entradas cifradas e um mapa mostrando uma ilha desconhecida com símbolos estranhos. Qual mistério esse achado apresenta?",
+    "options": [
+      "A localização de um tesouro pirata perdido.",
+      "Uma civilização perdida em uma ilha remota.",
+      "Um antigo ritual de sacrifício.",
+      "Uma conspiração política medieval."
+    ],
+    "correctAnswer": "Uma civilização perdida em uma ilha remota.",
+    "explanation": "O diário cifrado e o mapa com símbolos desconhecidos sugerem a existência de uma civilização desconhecida na ilha. As outras opções são plausíveis, mas não tão fortemente indicadas pelas evidências. Curiosidade: Muitas ilhas remotas ainda escondem mistérios arqueológicos não desvendados.",
+    "id": "quiz-misterios-153",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um pesquisador descobre um antigo mapa em uma tumba na Sibéria, mostrando uma ilha desconhecida com símbolos que não se assemelham a nenhum idioma conhecido. Próximo ao mapa, há uma pequena bússola que aponta sempre para o norte, mas também emite um sinal eletromagnético fraco e irregular. Que mistério esse achado representa?",
+    "options": [
+      "A localização de uma cidade perdida da Atlântida.",
+      "Um mapa de uma ilha com recursos minerais valiosos.",
+      "Uma conspiração geopolítica envolvendo o controle de um artefato antigo.",
+      "Uma tecnologia desconhecida que afeta a bússola e o campo magnético da Terra."
+    ],
+    "correctAnswer": "Uma tecnologia desconhecida que afeta a bússola e o campo magnético da Terra.",
+    "explanation": "A bússola anômala e o sinal eletromagnético sugerem a presença de uma tecnologia desconhecida, não mapeada. As outras opções são distrações, pois não explicam a anomalia da bússola. Curiosidade: Alguns cientistas acreditam que anomalias magnéticas podem ser causadas por objetos ou materiais ainda desconhecidos pela ciência.",
+    "id": "quiz-misterios-154",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo relógio de sol encontrado em ruínas romanas indica um dia com 26 horas. Qual o mistério por trás dessa discrepância?",
+    "options": [
+      "Erro na construção do relógio.",
+      "Alteração no período de rotação da Terra.",
+      "Sistema de contagem de tempo diferente do nosso.",
+      "Influência de forças gravitacionais desconhecidas."
+    ],
+    "correctAnswer": "Sistema de contagem de tempo diferente do nosso.",
+    "explanation": "Os antigos romanos utilizavam sistemas de contagem de tempo diferentes do nosso, com variações na duração do dia e horas diferentes. Curiosidade: alguns antigos calendários tinham meses com um número variável de dias.",
+    "id": "quiz-misterios-155",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota, descobre-se uma série de círculos de pedra perfeitamente alinhados com constelações não visíveis da Terra.  Não há indícios de civilização próxima que os tenha construído. Qual mistério esse achado representa?",
+    "options": [
+      "Uma coincidência geológica improvável.",
+      "Uma nova forma de arte rupestre.",
+      "Uma antiga tecnologia de observação astronômica avançada.",
+      "Uma brincadeira elaborada de artistas contemporâneos."
+    ],
+    "correctAnswer": "Uma antiga tecnologia de observação astronômica avançada.",
+    "explanation": "A precisão e o alinhamento com constelações invisíveis sugerem um conhecimento astronômico avançado para a época, além de ferramentas e métodos de construção sofisticados. Curiosidade: alguns círculos de pedra antigos estão alinhados com eventos astronômicos específicos.",
+    "id": "quiz-misterios-156",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa é descoberto, contendo coordenadas que parecem levar a uma cidade perdida na Amazônia.  A escrita é desconhecida e há símbolos que parecem representar uma tecnologia avançada. Qual o mistério por trás deste mapa?",
+    "options": [
+      "A cidade é uma lenda, e o mapa é uma falsificação.",
+      "A cidade existe, mas é protegida por uma tribo hostil.",
+      "O mapa descreve uma tecnologia alienígena perdida.",
+      "A cidade é real, mas sua tecnologia é incompreensível para nós."
+    ],
+    "correctAnswer": "A cidade é real, mas sua tecnologia é incompreensível para nós.",
+    "explanation": "A complexidade dos símbolos e a menção a uma tecnologia avançada sugerem que a cidade perdida possui uma tecnologia que está além da nossa compreensão atual. Curiosidade: Muitos mapas antigos continham símbolos que eram mais que simples decoração, servindo como códigos ou pistas para quem os decifrasse.",
+    "id": "quiz-misterios-157",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma caverna remota, é encontrado um artefato metálico que emite pulsos de energia que parecem distorcer o tempo em escala microscópica.  Análises preliminares sugerem que o material não se encaixa em nenhuma tabela periódica conhecida. Qual o mistério por trás deste artefato?",
+    "options": [
+      "É uma tecnologia terrestre avançada, perdida há muito tempo.",
+      "É uma arma antiga projetada para manipular o tempo.",
+      "É um artefato de origem extraterrestre.",
+      "É um fenômeno natural ainda não compreendido."
+    ],
+    "correctAnswer": "É um artefato de origem extraterrestre.",
+    "explanation": "A composição desconhecida do material e a capacidade de distorcer o tempo sugerem uma origem não terrestre. Curiosidade: Existem muitas teorias sobre a possibilidade de outros planetas ou civilizações possuírem tecnologias muito além das nossas.",
+    "id": "quiz-misterios-158",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito é descoberto em uma biblioteca esquecida, repleto de símbolos e um texto indecifrável.  Uma análise preliminar sugere que a escrita pode ser uma combinação de hieróglifos egípcios e símbolos rúnicos. Qual mistério esse manuscrito apresenta?",
+    "options": [
+      "Uma nova língua antiga ainda não decifrada.",
+      "Um código secreto de uma sociedade secreta.",
+      "Uma profecia sobre eventos futuros.",
+      "Uma história de uma civilização perdida."
+    ],
+    "correctAnswer": "Uma nova língua antiga ainda não decifrada.",
+    "explanation": "A combinação de hieróglifos egípcios e símbolos rúnicos sugere uma língua antiga desconhecida, ainda não decifrada. As outras opções são possíveis, mas menos prováveis considerando a natureza da descoberta. Curiosidade: Existem mais de 7000 línguas faladas no mundo hoje, e muitas outras línguas antigas ainda não foram decifradas completamente.",
+    "id": "quiz-misterios-159",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário é encontrado em um navio naufragado, contendo entradas cifradas e um mapa que parece indicar uma ilha desconhecida.  Qual o principal obstáculo para resolver o mistério?",
+    "options": [
+      "A falta de tecnologia moderna para decifrar o código.",
+      "A localização imprecisa da ilha no mapa.",
+      "A possível destruição de pistas importantes pela ação do tempo e do mar.",
+      "A falta de especialistas em história náutica."
+    ],
+    "correctAnswer": "A possível destruição de pistas importantes pela ação do tempo e do mar.",
+    "explanation": "O tempo e o mar danificaram o navio e seu conteúdo, destruindo pistas importantes que poderiam ajudar a decifrar o código e a localização da ilha. Curiosidade: Muitos naufrágios são descobertos em estado fragmentado, tornando a reconstituição da história um grande desafio.",
+    "id": "quiz-misterios-160",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada, contém um mapa com coordenadas que levam a uma ilha desconhecida, descrita como um 'paraíso perdido'.  Símbolos estranhos acompanham as coordenadas. Qual o mistério central desse achado?",
+    "options": [
+      "O diário é uma falsificação moderna.",
+      "As coordenadas são imprecisas e levam a um local sem importância.",
+      "A ilha existe, mas sua localização precisa e sua história são desconhecidas.",
+      "Os símbolos são uma forma de escrita conhecida, mas ainda não decifrada."
+    ],
+    "correctAnswer": "A ilha existe, mas sua localização precisa e sua história são desconhecidas.",
+    "explanation": "A existência de um mapa com coordenadas indicando uma ilha desconhecida sugere que a ilha pode existir, mas sua localização precisa e sua história permanecem um mistério. As outras opções não consideram a possibilidade da ilha ser real e desconhecida. Curiosidade: Muitos mapas antigos contêm símbolos e códigos que ainda não foram totalmente decifrados.",
+    "id": "quiz-misterios-161",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota, descobre-se uma série de estruturas metálicas enterradas, emitindo sinais de rádio fracos e incompreensíveis. Análises revelam que o metal não se assemelha a nenhum elemento conhecido na Terra, e os sinais contêm padrões matemáticos complexos que desafiam qualquer interpretação. Qual mistério esse achado representa?",
+    "options": [
+      "As estruturas são de origem natural, formadas por processos geológicos desconhecidos.",
+      "Os sinais são interferências de equipamentos eletrônicos modernos.",
+      "As estruturas são uma forma de artefatos antigos, criados por uma civilização desconhecida com tecnologia avançada.",
+      "Os padrões matemáticos são aleatórios e sem significado."
+    ],
+    "correctAnswer": "As estruturas são uma forma de artefatos antigos, criados por uma civilização desconhecida com tecnologia avançada.",
+    "explanation": "A combinação de um metal desconhecido, sinais de rádio incompreensíveis e padrões matemáticos complexos sugere uma origem artificial e tecnologicamente avançada, possivelmente de uma civilização desconhecida. As outras opções não levam em conta a complexidade e a natureza incomum do achado. Curiosidade: A existência de materiais desconhecidos na Terra abre a possibilidade de tecnologias e civilizações além da nossa compreensão.",
+    "id": "quiz-misterios-162",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota da Amazônia, uma equipe de pesquisadores descobre uma série de estruturas de pedra perfeitamente alinhadas, emitindo um leve zumbido e contendo cristais que parecem distorcer brevemente a percepção do tempo. Análises revelam que os cristais são compostos de um material desconhecido, com propriedades que desafiam as leis conhecidas da física. Qual mistério esse achado representa?",
+    "options": [
+      "Uma civilização antiga desconhecida.",
+      "Um fenômeno geológico incomum.",
+      "Uma nova forma de energia.",
+      "Uma interferência extraterrestre."
+    ],
+    "correctAnswer": "Uma nova forma de energia.",
+    "explanation": "A combinação de estruturas alinhadas, zumbido, distorção temporal e material desconhecido com propriedades anômalas aponta para uma possível nova fonte de energia. Curiosidade: Existem teorias científicas que sugerem a existência de formas de energia desconhecidas, capazes de afetar o tempo e o espaço.",
+    "id": "quiz-misterios-163",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, encontrado em uma tumba submersa, indica uma ilha desconhecida com símbolos que parecem ser uma forma de escrita desconhecida.  A ilha, segundo o mapa, possui uma formação rochosa peculiar em formato de espiral. Qual o mistério central desse achado?",
+    "options": [
+      "A localização exata da ilha desconhecida.",
+      "A verdadeira natureza dos símbolos desconhecidos.",
+      "O significado da formação rochosa em espiral.",
+      "A idade do mapa e sua autenticidade."
+    ],
+    "correctAnswer": "A verdadeira natureza dos símbolos desconhecidos.",
+    "explanation": "O mistério central reside na decifração dos símbolos desconhecidos do mapa, que podem revelar informações cruciais sobre a ilha e sua possível existência. A localização, a formação rochosa e a idade do mapa são importantes, mas dependem da compreensão dos símbolos. Curiosidade:  Muitos mapas antigos continham símbolos que não eram apenas decorativos, mas representavam informações geográficas ou astrológicas.",
+    "id": "quiz-misterios-164",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo pergaminho, descoberto em uma tumba egípcia selada, contém hieróglifos que descrevem uma tecnologia avançada incompatível com o período. Próximo ao pergaminho, há um pequeno artefato de metal que emite pulsos eletromagnéticos fracos e inexplicáveis. Qual o mistério central?",
+    "options": [
+      "A tumba foi saqueada em tempos antigos, e os artefatos são de origem posterior.",
+      "Os hieróglifos são uma elaborada forma de escrita simbólica sem significado real.",
+      "O pergaminho descreve uma tecnologia avançada de uma civilização desconhecida, e o artefato é um componente dessa tecnologia.",
+      "A tumba é uma armadilha elaborada, e os artefatos são mecanismos de defesa."
+    ],
+    "correctAnswer": "O pergaminho descreve uma tecnologia avançada de uma civilização desconhecida, e o artefato é um componente dessa tecnologia.",
+    "explanation": "A combinação de hieróglifos descrevendo tecnologia avançada e um artefato com propriedades inexplicáveis sugere uma civilização com conhecimentos além do seu tempo. As outras opções não explicam a tecnologia descrita e as propriedades do artefato. Curiosidade: Alguns historiadores acreditam que civilizações antigas possuíam conhecimentos tecnológicos mais avançados do que se supõe.",
+    "id": "quiz-misterios-165",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário é encontrado em uma tumba egípcia, contendo um mapa com coordenadas que parecem levar a uma cidade perdida na Amazônia.  O mapa inclui símbolos desconhecidos e desenhos que parecem representar tecnologias avançadas. Qual mistério esse achado representa?",
+    "options": [
+      "A localização de uma cidade perdida com tecnologia avançada.",
+      "Um novo sistema de escrita egípcio desconhecido.",
+      "Um mapa falso criado para confundir os ladrões de tumbas.",
+      "Uma conspiração moderna para esconder um tesouro."
+    ],
+    "correctAnswer": "A localização de uma cidade perdida com tecnologia avançada.",
+    "explanation": "A combinação de coordenadas, símbolos desconhecidos e desenhos de tecnologia avançada no mapa sugere a existência de uma cidade perdida com um nível tecnológico superior ao esperado para a época. As outras opções são improváveis, pois não explicam completamente os elementos presentes no achado. Curiosidade: Alguns mapas antigos continham símbolos que, atualmente, são reconhecidos como representações de constelações.",
+    "id": "quiz-misterios-166",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota da Sibéria, são descobertas ruínas de uma estrutura megalítica com inscrições que parecem ser uma combinação de símbolos antigos e um código numérico desconhecido.  Análises preliminares sugerem que a estrutura foi construída com um material desconhecido que emite pulsos eletromagnéticos periódicos. Próximo à estrutura, encontram-se fragmentos de um metal que não se assemelha a nenhum elemento conhecido.  O que esse achado representa?",
+    "options": [
+      "Restos de uma antiga civilização humana desconhecida.",
+      "Evidências de uma base extraterrestre abandonada.",
+      "Uma formação geológica natural com propriedades anômalas.",
+      "Uma instalação militar secreta moderna, altamente tecnológica."
+    ],
+    "correctAnswer": "Restos de uma antiga civilização humana desconhecida.",
+    "explanation": "A combinação de uma estrutura megalítica com material desconhecido, um código numérico e um metal não identificado sugere uma civilização avançada desconhecida pela história. As outras opções são menos prováveis, pois não explicam a complexidade do achado. Curiosidade: Existem diversas estruturas megalíticas ao redor do mundo que ainda não foram totalmente explicadas.",
+    "id": "quiz-misterios-167",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, descoberto em uma caverna escondida nos Andes, contém símbolos desconhecidos e um texto indecifrável.  Análises preliminares sugerem que a escrita pode ser uma combinação de hieróglifos incas e um sistema de escrita ainda não catalogado.  Qual mistério esse manuscrito apresenta?",
+    "options": [
+      "A mensagem descreve uma tecnologia avançada perdida.",
+      "O manuscrito é uma obra de ficção.",
+      "O manuscrito narra a história de uma civilização desconhecida.",
+      "O manuscrito é uma lista de compras."
+    ],
+    "correctAnswer": "O manuscrito narra a história de uma civilização desconhecida.",
+    "explanation": "A complexidade dos símbolos e a mistura de sistemas de escrita sugerem uma origem antiga e desconhecida, indicando uma possível história de uma civilização não registrada na história. As outras opções são menos prováveis, pois não explicam a complexidade da escrita. Curiosidade: Muitos manuscritos antigos foram descobertos em locais inóspitos, sugerindo que eram escondidos intencionalmente para preservar seu conhecimento.",
+    "id": "quiz-misterios-168",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo dispositivo encontrado em uma tumba egípcia emite um sinal fraco e repetitivo que parece ser uma sequência de números primos. Nenhum dispositivo semelhante foi encontrado antes. Qual mistério esse achado apresenta?",
+    "options": [
+      "A origem extraterrestre do dispositivo",
+      "Um sistema de comunicação perdido",
+      "Uma nova forma de energia",
+      "Uma armadilha para ladrões de tumbas"
+    ],
+    "correctAnswer": "Um sistema de comunicação perdido",
+    "explanation": "A sequência de números primos sugere um sistema de comunicação intencional, possivelmente perdido para a história. A complexidade do sinal descarta a hipótese de uma simples armadilha. Embora a energia seja uma possibilidade, a natureza do sinal aponta para a comunicação. A origem extraterrestre é improvável, sem evidências adicionais. Curiosidade: Alguns cientistas acreditam que os números primos podem ser usados em comunicação extraterrestre devido à sua natureza única e previsível.",
+    "id": "quiz-misterios-169",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de eventos inexplicáveis ocorre em uma região remota da Sibéria: anomalias geomagnéticas, relatos de estranhas formas de vida vegetal e animal, e interferências eletromagnéticas aleatórias. As investigações revelam distorções temporais locais, mas sem explicações científicas convincentes. Qual o mistério central?",
+    "options": [
+      "A presença de uma anomalia gravitacional",
+      "A interferência de uma civilização subterrânea",
+      "Uma fenda espaço-temporal instável",
+      "Uma nova forma de energia geotérmica"
+    ],
+    "correctAnswer": "Uma fenda espaço-temporal instável",
+    "explanation": "As distorções temporais, combinadas com as outras anomalias, sugerem uma fenda espaço-temporal instável como a causa mais provável. Uma anomalia gravitacional explicaria apenas parte dos fenômenos. Uma civilização subterrânea é especulativa. A energia geotérmica não justifica as distorções temporais. Curiosidade: Fendas espaço-temporais são um conceito da física teórica, mas sua existência ainda não foi comprovada.",
+    "id": "quiz-misterios-170",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba submersa no Mar Mediterrâneo, contém símbolos desconhecidos e coordenadas que parecem apontar para uma ilha vulcânica no Oceano Atlântico. Próximo ao diário, há uma pequena bússola que sempre aponta para uma direção específica, diferente do Norte geográfico. Qual mistério esse achado representa?",
+    "options": [
+      "A localização de uma cidade perdida da antiguidade.",
+      "Um tesouro pirata escondido.",
+      "Uma nova espécie de mineral com propriedades magnéticas incomuns.",
+      "Uma tecnologia avançada de uma civilização desconhecida."
+    ],
+    "correctAnswer": "A localização de uma cidade perdida da antiguidade.",
+    "explanation": "A combinação de um diário antigo com coordenadas e uma bússola anômala sugere fortemente a busca por um lugar perdido, provavelmente uma cidade antiga. As outras opções são menos prováveis, embora um tesouro ou mineral incomum possam estar relacionados. Curiosidade: Muitos mapas antigos continham símbolos que não eram compreendidos até décadas ou séculos depois, devido à falta de contexto histórico.",
+    "id": "quiz-misterios-171",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada, contém coordenadas que parecem indicar uma cidade perdida, mas as coordenadas mudam constantemente. Qual o mistério por trás dessas coordenadas?",
+    "options": [
+      "A cidade perdida se move.",
+      "As coordenadas são um código.",
+      "O diário é uma falsificação.",
+      "As coordenadas são afetadas por forças sobrenaturais."
+    ],
+    "correctAnswer": "As coordenadas são um código.",
+    "explanation": "A mudança constante nas coordenadas sugere um código ou cifra que precisa ser decifrado para revelar a localização real da cidade perdida.  Curiosidade: Muitos códigos antigos utilizavam métodos astronômicos para esconder informações.",
+    "id": "quiz-misterios-172",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma floresta remota, são descobertas estruturas de pedra que emitem um sinal de rádio fraco e incoerente, aparentemente composto de fragmentos de diferentes idiomas e épocas.  A análise inicial sugere que o sinal muda de acordo com a posição das estrelas. Qual mistério essas estruturas representam?",
+    "options": [
+      "Uma antiga estação de rádio interdimensional.",
+      "Um dispositivo de comunicação alienígena.",
+      "Uma armadilha natural que emite interferência.",
+      "Uma obra de arte da natureza com propriedades acústicas únicas."
+    ],
+    "correctAnswer": "Um dispositivo de comunicação alienígena.",
+    "explanation": "A combinação de sinais de rádio incoerentes, a mudança de acordo com a posição das estrelas e a localização remota sugerem uma tecnologia alienígena avançada. Curiosidade: Muitos cientistas acreditam que a busca por vida extraterrestre deve considerar sinais de rádio não convencionais.",
+    "id": "quiz-misterios-173",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, encontrado em uma biblioteca subterrânea, contém um mapa com coordenadas que parecem apontar para uma ilha desconhecida no Oceano Atlântico.  Os símbolos ao redor das coordenadas são semelhantes a hieróglifos egípcios, mas não correspondem a nenhum hieróglifo conhecido. Qual é o mistério central desse achado?",
+    "options": [
+      "A ilha é uma miragem óptica.",
+      "O mapa é uma falsificação recente.",
+      "As coordenadas levam a um tesouro perdido.",
+      "Os símbolos representam uma língua desconhecida, e o mapa indica uma localização real."
+    ],
+    "correctAnswer": "Os símbolos representam uma língua desconhecida, e o mapa indica uma localização real.",
+    "explanation": "A opção correta é a que considera a possibilidade de uma língua desconhecida e a existência de uma localização real. As outras opções são menos prováveis, pois descartam a possibilidade de um novo conhecimento histórico. Curiosidade: Muitos mapas antigos continham símbolos que, com o tempo, foram decifrados, revelando informações valiosas sobre civilizações e lugares perdidos.",
+    "id": "quiz-misterios-174",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma caverna remota na Sibéria, é descoberto um artefato metálico que emite pulsos de energia irregulares, interferindo em equipamentos eletrônicos próximos. Análises iniciais sugerem que o metal não se assemelha a nenhum elemento conhecido, e os pulsos de energia parecem ter um padrão que se repete a cada 72 anos, coincidindo com ciclos solares específicos. Qual o mistério por trás desse artefato?",
+    "options": [
+      "O artefato é um dispositivo de comunicação alienígena.",
+      "O artefato é uma arma antiga de uma civilização desconhecida.",
+      "O artefato é um fenômeno geológico natural.",
+      "O artefato é um mecanismo de controle climático desenvolvido por uma civilização antiga."
+    ],
+    "correctAnswer": "O artefato é um mecanismo de controle climático desenvolvido por uma civilização antiga.",
+    "explanation": "A opção correta sugere uma explicação mais complexa e intrigante, conectando o artefato a ciclos solares e a uma possível tecnologia de controle climático, algo que desafiaria nossa compreensão atual da história e da tecnologia. As outras opções são menos elaboradas e menos intrigantes. Curiosidade: Existem teorias que sugerem que civilizações antigas possuíam tecnologias avançadas para controle do clima, embora não haja evidências concretas.",
+    "id": "quiz-misterios-175",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba submersa, contém entradas criptografadas e desenhos que parecem descrever uma ilha desconhecida, repleta de uma vegetação exuberante e peculiar.  A criptografia parece ser uma combinação de símbolos rúnicos e hieróglifos maias. Qual o mistério central desse achado?",
+    "options": [
+      "A localização exata da ilha descrita no diário.",
+      "A verdadeira natureza da vegetação peculiar da ilha.",
+      "A identidade do autor do diário e seu propósito.",
+      "A decifração completa da criptografia e a compreensão do significado dos desenhos."
+    ],
+    "correctAnswer": "A decifração completa da criptografia e a compreensão do significado dos desenhos.",
+    "explanation": "A resposta correta é a decifração completa da criptografia e a compreensão do significado dos desenhos, pois isso revelaria a natureza do mistério. As outras opções são aspectos importantes, mas dependem da decifração para serem totalmente compreendidos. Curiosidade: Alguns estudiosos acreditam que antigas civilizações utilizavam sistemas de escrita complexos para esconder informações valiosas em seus registros.",
+    "id": "quiz-misterios-176",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário é descoberto em uma caverna selada, contendo um mapa com coordenadas que levam a uma ilha desconhecida e símbolos que parecem ser uma combinação de hieróglifos egípcios e runas nórdicas. Qual o mistério central desse achado?",
+    "options": [
+      "A ilha desconhecida é uma lenda, e os símbolos são aleatórios.",
+      "Os símbolos são uma forma de escrita desconhecida, e o mapa leva a um tesouro perdido.",
+      "A ilha é real, mas inacessível devido à localização remota e perigos naturais.",
+      "Os símbolos são uma cifra complexa que revela a localização de uma cidade perdida."
+    ],
+    "correctAnswer": "Os símbolos são uma cifra complexa que revela a localização de uma cidade perdida.",
+    "explanation": "A combinação de hieróglifos e runas sugere uma cifra complexa, e a referência a uma ilha desconhecida aponta para um local ainda não descoberto, possivelmente uma cidade perdida. As outras opções são menos prováveis, pois não consideram a complexidade dos símbolos. Curiosidade: Muitos códigos históricos combinam diferentes sistemas de escrita para aumentar o nível de dificuldade na decifração.",
+    "id": "quiz-misterios-177",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba selada, contém entradas criptografadas e desenhos de constelações desconhecidas. Uma das constelações parece representar um objeto celeste que não se encaixa em nenhum catálogo astronômico conhecido. Qual o mistério central desse achado?",
+    "options": [
+      "O diário descreve uma civilização antiga com conhecimento avançado de astronomia.",
+      "Os desenhos são uma forma de arte abstrata sem significado científico.",
+      "As entradas criptografadas são um código secreto sem relação com as constelações.",
+      "As constelações são um erro de observação, sem significado real."
+    ],
+    "correctAnswer": "O diário descreve uma civilização antiga com conhecimento avançado de astronomia.",
+    "explanation": "A presença de uma constelação desconhecida sugere que a civilização descrita no diário possuía um conhecimento astronômico superior ao nosso, o que é um mistério. As outras opções não explicam a presença da constelação desconhecida. Curiosidade: Alguns acreditam que constelações antigas podem representar eventos astronômicos passados, como supernovas.",
+    "id": "quiz-misterios-178",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma região remota da Antártica, são descobertas ruínas de uma estrutura gigantesca, parcialmente enterrada no gelo, composta de um material desconhecido e com inscrições que desafiam qualquer sistema de escrita conhecido. Próximo à estrutura, fragmentos de um metal desconhecido emitem pulsos eletromagnéticos irregulares, e análises preliminares indicam a presença de isótopos não encontrados na Terra. O que esse achado sugere?",
+    "options": [
+      "Uma base secreta de alguma nação.",
+      "Uma antiga cidade submersa pela elevação do nível do mar.",
+      "Evidência de uma civilização extraterrestre ou de uma tecnologia pré-histórica avançada.",
+      "Uma formação geológica incomum."
+    ],
+    "correctAnswer": "Evidência de uma civilização extraterrestre ou de uma tecnologia pré-histórica avançada.",
+    "explanation": "A combinação de material desconhecido, inscrições indecifráveis, emissão de pulsos eletromagnéticos anômalos e isótopos não terrestres aponta para uma origem não-terrestre ou para uma tecnologia tão avançada que desafia nossa compreensão da história. As outras opções são menos plausíveis, pois não explicam a totalidade dos achados. Curiosidade: A Antártica guarda muitos mistérios geológicos e históricos, com algumas teorias sugerindo a existência de uma civilização pré-histórica na região.",
+    "id": "quiz-misterios-179",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, descoberto em uma tumba submersa, contém coordenadas que parecem apontar para uma ilha desconhecida no Pacífico Sul.  Entretanto, as coordenadas mudam sutilmente a cada observação. Qual o mistério por trás dessas coordenadas?",
+    "options": [
+      "A ilha é um mito.",
+      "As coordenadas são um código.",
+      "A ilha se move.",
+      "As coordenadas são afetadas por forças gravitacionais anômalas."
+    ],
+    "correctAnswer": "As coordenadas são um código.",
+    "explanation": "A mudança sutil nas coordenadas sugere que elas não são coordenadas geográficas literais, mas um código que precisa ser decifrado. As outras opções são menos prováveis, embora a possibilidade de forças gravitacionais anômalas seja uma curiosidade interessante que poderia estar em jogo em um mistério mais complexo. Curiosidade: Muitos mapas antigos utilizavam sistemas de coordenadas diferentes dos modernos, ou mesmo métodos de representação simbólica.",
+    "id": "quiz-misterios-180",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma caverna remota na Antártica, é descoberto um artefato de metal desconhecido que emite pulsos eletromagnéticos irregulares, coincidentes com eventos cósmicos específicos. Análises revelam que o metal possui uma estrutura cristalina única e propriedades que desafiam as leis conhecidas da física.  Próximo ao artefato, são encontradas inscrições que parecem ser uma combinação de símbolos rúnicos e hieróglifos maias. Qual o mistério central deste achado?",
+    "options": [
+      "O artefato é uma arma antiga.",
+      "O artefato é uma forma de comunicação interestelar.",
+      "O artefato é um dispositivo de manipulação do tempo.",
+      "O artefato é uma fonte de energia ilimitada."
+    ],
+    "correctAnswer": "O artefato é uma forma de comunicação interestelar.",
+    "explanation": "A combinação de símbolos rúnicos e maias, juntamente com a correlação com eventos cósmicos e as propriedades físicas anômalas do metal, sugerem uma origem extraterrestre ou uma tecnologia avançada que transcende nossa compreensão atual. As outras opções são plausíveis, mas menos abrangentes para explicar a complexidade do achado. Curiosidade: Alguns cientistas acreditam que a combinação de diferentes sistemas de escrita em um único artefato pode indicar a influência de múltiplas civilizações em sua criação ou uso.",
+    "id": "quiz-misterios-181",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um pescador encontra uma garrafa à deriva contendo um pergaminho com uma série de coordenadas e símbolos desconhecidos, que parecem indicar um local submerso. O que esse achado representa?",
+    "options": [
+      "Um mapa pirata para um tesouro perdido.",
+      "Uma mensagem de uma civilização antiga subaquática.",
+      "Uma brincadeira elaborada de um artista.",
+      "Um experimento científico secreto."
+    ],
+    "correctAnswer": "Uma mensagem de uma civilização antiga subaquática.",
+    "explanation": "A descoberta de um pergaminho com coordenadas e símbolos desconhecidos em uma garrafa à deriva sugere uma mensagem de uma civilização antiga subaquática. As outras opções são improváveis, pois não explicam a natureza enigmática dos símbolos e coordenadas. Curiosidade: Existem teorias sobre civilizações avançadas que habitaram os oceanos antes do homem.",
+    "id": "quiz-misterios-182",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma região remota da Sibéria, são descobertos restos de uma estrutura metálica parcialmente enterrada no permafrost, emitindo pulsos de energia inexplicáveis e contendo um material cristalino desconhecido que desafia as leis da física conhecidas. Próximo à estrutura, são encontradas inscrições em um sistema de escrita desconhecido, que parecem descrever um processo de manipulação do espaço-tempo. Qual o mistério central deste achado?",
+    "options": [
+      "Uma antiga base militar secreta.",
+      "Um experimento científico secreto de uma civilização antiga.",
+      "Uma formação geológica incomum.",
+      "Restos de uma nave espacial extraterrestre."
+    ],
+    "correctAnswer": "Um experimento científico secreto de uma civilização antiga.",
+    "explanation": "A combinação de uma estrutura metálica avançada, material desconhecido que desafia as leis da física e inscrições descrevendo manipulação do espaço-tempo sugere um experimento científico secreto de uma civilização antiga. As outras opções não explicam completamente a complexidade do achado. Curiosidade: A Sibéria guarda muitos mistérios relacionados a fenômenos inexplicáveis.",
+    "id": "quiz-misterios-183",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário é encontrado em uma tumba selada, contendo entradas cifradas e um mapa com símbolos desconhecidos que parecem apontar para uma ilha nunca antes mapeada.  O que esse achado sugere?",
+    "options": [
+      "Um tesouro pirata perdido.",
+      "Uma nova espécie de planta medicinal.",
+      "Uma civilização perdida.",
+      "Um portal para outra dimensão."
+    ],
+    "correctAnswer": "Uma civilização perdida.",
+    "explanation": "A combinação de um diário cifrado, um mapa com símbolos desconhecidos e a localização em uma tumba selada sugere fortemente a existência de uma civilização perdida ou um conhecimento secreto de uma civilização antiga. As outras opções são menos prováveis, embora possam ser elementos dentro do mistério maior. Curiosidade: Muitos mapas antigos continham símbolos e códigos para proteger seus segredos.",
+    "id": "quiz-misterios-184",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um grupo de exploradores encontra uma caverna escondida atrás de uma cachoeira em uma floresta remota. Dentro da caverna, eles descobrem uma série de símbolos estranhos nas paredes, acompanhados de artefatos de metal que parecem ser de uma tecnologia desconhecida.  Qual o mistério central dessa descoberta?",
+    "options": [
+      "Os exploradores se perderam e estão alucinando.",
+      "Os símbolos são uma mensagem de uma civilização antiga.",
+      "Os artefatos são de origem extraterrestre.",
+      "A cachoeira é um portal para outra dimensão."
+    ],
+    "correctAnswer": "Os símbolos são uma mensagem de uma civilização antiga.",
+    "explanation": "A presença de símbolos e artefatos desconhecidos sugere uma civilização antiga desconhecida. As outras opções são improváveis ou fantasiosas. Curiosidade: Muitas civilizações antigas utilizavam símbolos complexos para registrar sua história e conhecimento, alguns dos quais ainda não foram decifrados.",
+    "id": "quiz-misterios-185",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de mensagens criptografadas é recebida por uma agência de inteligência, cada uma contendo uma sequência de números primos aparentemente aleatórios, mas que, ao serem analisados em um padrão específico, revelam coordenadas geográficas que mudam constantemente.  O que esse enigma sugere?",
+    "options": [
+      "Uma brincadeira elaborada de um grupo de hackers.",
+      "Um dispositivo de comunicação extraterrestre.",
+      "Uma nova forma de criptografia quântica.",
+      "Uma mensagem de uma civilização antiga usando um sistema de navegação baseado em números primos."
+    ],
+    "correctAnswer": "Uma mensagem de uma civilização antiga usando um sistema de navegação baseado em números primos.",
+    "explanation": "A combinação de números primos e coordenadas geográficas em constante mudança sugere um sistema de navegação complexo e sofisticado, possivelmente de uma civilização antiga com conhecimento avançado de matemática e astronomia. As outras opções são menos plausíveis. Curiosidade: Os números primos têm propriedades matemáticas únicas que os tornam úteis em criptografia e outros campos da ciência.",
+    "id": "quiz-misterios-186",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive descobre uma série de mensagens enigmáticas deixadas em cenas de crime, cada uma contendo um anagrama de uma palavra relacionada à vítima. Qual é o mistério central?",
+    "options": [
+      "A identidade do assassino",
+      "O significado dos anagramas",
+      "A localização do próximo crime",
+      "A motivação do assassino"
+    ],
+    "correctAnswer": "O significado dos anagramas",
+    "explanation": "O mistério central gira em torno da decifração dos anagramas para entender a mensagem do assassino e sua conexão com as vítimas.  As outras opções são consequências da resolução do enigma dos anagramas. Curiosidade: Muitos assassinos em série usam padrões e símbolos para expressar suas motivações ou para desafiar as autoridades.",
+    "id": "quiz-misterios-187",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Um grupo de pesquisadores encontra uma série de estruturas geométricas complexas na superfície de Marte, construídas com um material desconhecido e emitindo sinais de rádio fracos e incompreensíveis. Análises iniciais sugerem uma idade muito superior à existência de qualquer civilização conhecida na Terra. Qual é o principal mistério apresentado por essa descoberta?",
+    "options": [
+      "A origem do material de construção",
+      "A tecnologia utilizada na construção",
+      "A finalidade das estruturas",
+      "A idade das estruturas e sua implicação para a história da vida no universo"
+    ],
+    "correctAnswer": "A idade das estruturas e sua implicação para a história da vida no universo",
+    "explanation": "Embora a origem do material, a tecnologia e a finalidade sejam importantes, a idade das estruturas e o que isso implica para a história da vida no universo é o mistério mais profundo e impactante. Isso desafia tudo o que sabemos sobre a vida e a evolução no cosmos. Curiosidade: A busca por vida extraterrestre é uma das principais motivações da exploração espacial.",
+    "id": "quiz-misterios-188",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Uma série de pinturas antigas descobertas em uma caverna remota retrata eventos astronômicos que parecem prever eventos futuros.  Qual mistério essas pinturas representam?",
+    "options": [
+      "Uma antiga forma de previsão do tempo.",
+      "Uma mensagem codificada de uma civilização antiga.",
+      "Uma representação de eventos históricos.",
+      "Uma brincadeira de artistas modernos."
+    ],
+    "correctAnswer": "Uma mensagem codificada de uma civilização antiga.",
+    "explanation": "A precisão dos eventos astronômicos e a natureza enigmática das pinturas sugerem uma mensagem codificada, talvez com previsões ou advertências. As outras opções são menos plausíveis, pois não explicam o nível de detalhe e precisão astronômica. Curiosidade: Algumas culturas antigas utilizavam a observação astronômica para prever eventos importantes, como colheitas e guerras.",
+    "id": "quiz-misterios-189",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma ilha deserta, são encontradas ruínas de uma estrutura complexa feita de um metal desconhecido, emitindo pulsos eletromagnéticos irregulares e contendo símbolos que não se assemelham a nenhuma linguagem conhecida. Análises revelam que o metal possui propriedades que desafiam as leis conhecidas da física. Qual mistério essa descoberta representa?",
+    "options": [
+      "Uma nova espécie de mineral terrestre.",
+      "Restos de uma antiga civilização marítima.",
+      "Uma base alienígena abandonada.",
+      "Uma instalação científica experimental perdida."
+    ],
+    "correctAnswer": "Uma base alienígena abandonada.",
+    "explanation": "A combinação de metal desconhecido, pulsos eletromagnéticos e símbolos indecifráveis sugere uma origem extraterrestre. As outras opções não explicam a natureza anômala do metal e dos símbolos. Curiosidade:  Existem várias teorias sobre a possibilidade de vida extraterrestre e a existência de bases alienígenas em locais remotos da Terra.",
+    "id": "quiz-misterios-190",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um detetive amador descobre um diário antigo em um mercado de pulgas. O diário contém uma série de entradas cifradas e um mapa que parece indicar a localização de um tesouro perdido.  Qual o primeiro passo lógico para o detetive resolver o mistério?",
+    "options": [
+      "Contratar um especialista em decifração de códigos imediatamente.",
+      "Ignorar as entradas cifradas e focar no mapa.",
+      "Tentar decifrar o código usando técnicas básicas de criptografia.",
+      "Investigar a história do diário e sua possível origem."
+    ],
+    "correctAnswer": "Tentar decifrar o código usando técnicas básicas de criptografia.",
+    "explanation": "A melhor abordagem inicial é tentar decifrar o código usando métodos básicos. Isso pode revelar pistas importantes antes de recorrer a especialistas.  Curiosidade: Muitos códigos antigos foram quebrados usando técnicas relativamente simples, uma vez que as pessoas da época não tinham acesso às complexas ferramentas criptográficas que temos hoje.",
+    "id": "quiz-misterios-191",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de eventos inexplicáveis ocorre em uma pequena cidade: objetos desaparecem de casas, luzes estranhas são vistas no céu e os moradores relatam sonhos perturbadores e recorrentes.  Investigações científicas não encontram explicações.  Uma análise de registros históricos revela que eventos semelhantes ocorreram na mesma cidade há exatamente 100 anos. Qual a melhor hipótese para explicar esses eventos?",
+    "options": [
+      "Uma maldição antiga está afetando a cidade.",
+      "Uma nova espécie de inseto está causando alucinações.",
+      "Fenômenos meteorológicos incomuns estão afetando a percepção dos moradores.",
+      "Um padrão cíclico de eventos inexplicáveis, possivelmente relacionado a algum fenômeno desconhecido."
+    ],
+    "correctAnswer": "Um padrão cíclico de eventos inexplicáveis, possivelmente relacionado a algum fenômeno desconhecido.",
+    "explanation": "A recorrência dos eventos a cada 100 anos sugere um padrão cíclico que não pode ser facilmente explicado por fenômenos naturais ou sobrenaturais. Isso aponta para um possível fenômeno desconhecido ou uma influência externa ainda não compreendida. Curiosidade: Muitos mistérios inexplicáveis são atribuídos a fenômenos cíclicos, como os ciclos solares e lunares, que podem influenciar eventos terrestres de formas ainda não completamente compreendidas.",
+    "id": "quiz-misterios-192",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, descoberto em uma tumba submersa, contém uma série de mapas estelares que parecem prever eventos astronômicos futuros com precisão assustadora.  O que esses mapas representam?",
+    "options": [
+      "Um calendário de eventos religiosos.",
+      "Previsões meteorológicas precisas.",
+      "Uma avançada compreensão da astronomia de uma civilização desconhecida.",
+      "Um código secreto para abrir um tesouro."
+    ],
+    "correctAnswer": "Uma avançada compreensão da astronomia de uma civilização desconhecida.",
+    "explanation": "A precisão das previsões astronômicas sugere um conhecimento científico avançado para a época. As outras opções são improváveis, dado o contexto da descoberta. Curiosidade: Alguns astrônomos acreditam que civilizações antigas possuíam conhecimentos astronômicos mais avançados do que se supõe atualmente.",
+    "id": "quiz-misterios-193",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Em uma região remota da Sibéria, são encontradas ruínas de uma estrutura megalítica construída com um material desconhecido que emite pulsos eletromagnéticos periódicos, coincidentes com eventos cósmicos específicos.  Análises revelam que o material possui propriedades que desafiam as leis conhecidas da física, incluindo a capacidade de distorcer brevemente o espaço-tempo em sua proximidade. Próximo à estrutura, são encontrados fragmentos de um metal desconhecido que emite pulsos eletromagnéticos irregulares. O que esse achado sugere?",
+    "options": [
+      "Uma antiga usina de energia geotérmica.",
+      "Uma base de observação alienígena.",
+      "Uma estrutura natural com propriedades geológicas incomuns.",
+      "Evidências de uma civilização tecnologicamente avançada anterior à história conhecida."
+    ],
+    "correctAnswer": "Evidências de uma civilização tecnologicamente avançada anterior à história conhecida.",
+    "explanation": "As propriedades anômalas do material, os pulsos eletromagnéticos sincronizados com eventos cósmicos e a distorção espaço-temporal sugerem uma tecnologia muito além da nossa compreensão atual. As outras opções não explicam a complexidade e a natureza extraordinária das descobertas. Curiosidade: A Sibéria é rica em mistérios geológicos e arqueológicos, com algumas descobertas desafiando explicações convencionais.",
+    "id": "quiz-misterios-194",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo baú é encontrado em uma tumba egípcia, contendo um papiro com hieróglifos desconhecidos e um pequeno artefato metálico que emite um sinal eletromagnético fraco e pulsante. O que esse achado representa?",
+    "options": [
+      "Uma nova forma de escrita egípcia.",
+      "Uma tecnologia avançada desconhecida.",
+      "Uma relíquia religiosa sem importância.",
+      "Um objeto de decoração funerária."
+    ],
+    "correctAnswer": "Uma tecnologia avançada desconhecida.",
+    "explanation": "A combinação de hieróglifos desconhecidos e um artefato com propriedades eletromagnéticas sugere uma tecnologia além do conhecimento egípcio da época. Curiosidade: Alguns pesquisadores acreditam que os antigos egípcios tinham um conhecimento mais avançado de eletricidade do que se supõe atualmente.",
+    "id": "quiz-misterios-195",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um grupo de exploradores encontra uma caverna escondida na selva amazônica, contendo estranhos símbolos gravados nas paredes e um artefato metálico emitindo um sinal fraco e misterioso.  O que esse achado representa?",
+    "options": [
+      "Uma nova espécie de inseto bioluminescente.",
+      "Evidências de uma civilização desconhecida.",
+      "Uma formação geológica incomum.",
+      "Um depósito mineral de valor comercial."
+    ],
+    "correctAnswer": "Evidências de uma civilização desconhecida.",
+    "explanation": "A combinação de símbolos desconhecidos e um artefato metálico emitindo um sinal misterioso aponta fortemente para a existência de uma civilização previamente desconhecida. As outras opções são improváveis, dado o contexto da descoberta. Curiosidade:  Muitas civilizações antigas construíram estruturas subterrâneas para diversos propósitos, incluindo rituais religiosos e proteção contra elementos climáticos severos.",
+    "id": "quiz-misterios-196",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo artefato é descoberto em uma tumba submersa, contendo símbolos desconhecidos e um mecanismo complexo que parece emitir pulsos eletromagnéticos fracos e irregulares.  Esses pulsos parecem estar correlacionados com eventos astronômicos específicos. Qual mistério esse achado representa?",
+    "options": [
+      "Uma nova forma de comunicação extraterrestre.",
+      "Um dispositivo de navegação antigo e avançado.",
+      "Uma arma antiga de energia desconhecida.",
+      "Uma complexa armadilha funerária."
+    ],
+    "correctAnswer": "Um dispositivo de navegação antigo e avançado.",
+    "explanation": "A correlação com eventos astronômicos sugere uma função de navegação ou previsão celestial.  As outras opções são menos prováveis, dado o contexto arqueológico. Curiosidade: Alguns mecanismos antigos foram encontrados com engrenagens tão complexas que superam a tecnologia da época em que foram construídos.",
+    "id": "quiz-misterios-197",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de mensagens criptografadas é interceptada, cada uma contendo uma sequência aparentemente aleatória de números primos e coordenadas geográficas que mudam constantemente.  Análises revelam que as coordenadas estão ligadas a eventos sísmicos futuros, mas com uma precisão que desafia a capacidade preditiva atual da ciência. Qual mistério essas mensagens representam?",
+    "options": [
+      "Uma nova forma de prever terremotos com precisão inigualável.",
+      "Uma tentativa de manipular eventos geológicos para fins desconhecidos.",
+      "Uma mensagem de uma civilização extraterrestre tentando se comunicar.",
+      "Uma elaborada brincadeira ou fraude de um grupo desconhecido."
+    ],
+    "correctAnswer": "Uma nova forma de prever terremotos com precisão inigualável.",
+    "explanation": "A precisão na previsão de eventos sísmicos, combinada com o uso de números primos e coordenadas em constante mudança, sugere um sistema de previsão avançado e desconhecido. As outras opções são menos prováveis, dado o foco na previsão sísmica. Curiosidade: A previsão de terremotos é um grande desafio científico, e a precisão demonstrada na mensagem é algo sem precedentes.",
+    "id": "quiz-misterios-198",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito encontrado em uma caverna remota contém símbolos desconhecidos e um mapa que parece indicar uma ilha perdida.  O mapa inclui um sistema de coordenadas incomum e símbolos que não se assemelham a nenhum idioma conhecido. Qual o mistério por trás deste manuscrito?",
+    "options": [
+      "O manuscrito é uma obra de ficção.",
+      "O manuscrito descreve uma ilha fictícia.",
+      "O manuscrito contém um código secreto que leva a um tesouro.",
+      "O manuscrito descreve a localização de uma civilização desconhecida."
+    ],
+    "correctAnswer": "O manuscrito descreve a localização de uma civilização desconhecida.",
+    "explanation": "A presença de um mapa com um sistema de coordenadas incomum e símbolos desconhecidos sugere que o manuscrito pode descrever um lugar real e uma civilização desconhecida pela história. As outras opções são menos prováveis, pois não explicam a complexidade do mapa e dos símbolos. Curiosidade: Alguns manuscritos antigos contêm informações que foram confirmadas posteriormente por descobertas arqueológicas.",
+    "id": "quiz-misterios-199",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo mapa, descoberto em uma tumba egípcia, mostra uma ilha desconhecida com símbolos estranhos.  Uma inscrição em hieróglifos indica que a ilha abriga um poderoso artefato. Qual o próximo passo lógico para desvendar o mistério?",
+    "options": [
+      "Decifrar os hieróglifos para obter mais informações sobre a ilha e o artefato.",
+      "Ignorar a inscrição em hieróglifos e focar na localização geográfica da ilha no mapa.",
+      "Criar uma réplica do mapa e procurar a ilha usando tecnologia moderna de GPS.",
+      "Descartar o mapa como uma falsificação e procurar outros artefatos egípcios."
+    ],
+    "correctAnswer": "Decifrar os hieróglifos para obter mais informações sobre a ilha e o artefato.",
+    "explanation": "A resposta correta é decifrar os hieróglifos para obter mais informações.  Começar pela tradução da inscrição é crucial para entender o contexto do mapa e o significado dos símbolos estranhos. As outras opções ignoram a informação crucial fornecida pelos hieróglifos. Curiosidade: A egiptologia moderna utiliza técnicas avançadas de imagem e inteligência artificial para decifrar textos antigos danificados ou pouco legíveis.",
+    "id": "quiz-misterios-200",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Uma série de mensagens codificadas, recebidas por um criptoanalista, contém referências a eventos históricos obscuros e coordenadas geográficas.  As mensagens parecem prever eventos catastróficos futuros, mas a codificação é extremamente complexa. Qual a abordagem mais eficaz para decifrar as mensagens?",
+    "options": [
+      "Utilizar um programa de computador para decifrar o código por força bruta.",
+      "Confiar na intuição e procurar padrões visuais nas mensagens.",
+      "Buscar ajuda de especialistas em diferentes áreas, como historiadores e geógrafos, para interpretar as referências e coordenadas.",
+      "Descartar as mensagens como uma farsa elaborada e focar em outros casos."
+    ],
+    "correctAnswer": "Buscar ajuda de especialistas em diferentes áreas, como historiadores e geógrafos, para interpretar as referências e coordenadas.",
+    "explanation": "A abordagem mais eficaz é a colaboração interdisciplinar. A complexidade da codificação sugere que a mensagem contém camadas de informação que exigem diferentes tipos de especialização para serem decifradas.  A força bruta pode levar muito tempo e não garante sucesso.  A intuição e os padrões visuais são úteis, mas insuficientes para decifrar códigos tão complexos. Curiosidade: Durante a Segunda Guerra Mundial, equipes interdisciplinares de especialistas em diferentes áreas foram cruciais para decifrar códigos inimigos, como a máquina Enigma.",
+    "id": "quiz-misterios-201",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo manuscrito, descoberto em uma caverna selada nos Himalaias, contém uma série de mapas estelares que parecem prever eventos astronômicos futuros com precisão surpreendente, mas também inclui símbolos que desafiam qualquer sistema de escrita conhecido.  Qual o mistério principal deste achado?",
+    "options": [
+      "O manuscrito é uma elaborada falsificação moderna.",
+      "Os mapas estelares descrevem um sistema estelar desconhecido.",
+      "Os símbolos representam uma forma de comunicação extraterrestre.",
+      "O manuscrito é uma previsão astrológica precisa, mas sem relação com tecnologia avançada."
+    ],
+    "correctAnswer": "Os mapas estelares descrevem um sistema estelar desconhecido.",
+    "explanation": "A precisão dos mapas estelares, combinada com os símbolos indecifráveis, sugere a existência de conhecimentos astronômicos muito além do nosso. As outras opções são menos prováveis, uma vez que a precisão da previsão astronômica é um detalhe chave. Curiosidade: Muitos manuscritos antigos contêm previsões astrológicas, mas raramente com a precisão descrita neste cenário.",
+    "id": "quiz-misterios-202",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Em uma pequena cidade isolada, moradores relatam avistamentos noturnos de luzes estranhas pairando sobre as colinas.  Esses avistamentos coincidem com relatos de desaparecimentos inexplicáveis de animais domésticos e um aumento incomum de atividade sísmica na região.  Qual o mistério central desses eventos?",
+    "options": [
+      "Uma nova espécie de vaga-lume bioluminescente.",
+      "Uma possível atividade paranormal.",
+      "Uma operação militar secreta.",
+      "Um fenômeno geológico incomum."
+    ],
+    "correctAnswer": "Uma possível atividade paranormal.",
+    "explanation": "A combinação de luzes estranhas, desaparecimentos inexplicáveis e aumento da atividade sísmica sugere algo além do comum, apontando para uma possível atividade paranormal. As outras opções não explicam a totalidade dos eventos relatados. Curiosidade: O aumento da atividade sísmica pode estar ligado a energias desconhecidas, um fenômeno estudado por alguns pesquisadores paranormais.",
+    "id": "quiz-misterios-203",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "hard",
+    "question": "Um antigo manuscrito, descoberto em uma tumba submersa, contém um texto cifrado e ilustrações complexas de mecanismos que parecem desafiar as leis da física conhecidas, incluindo uma possível máquina do tempo.  Os símbolos usados no manuscrito são únicos e não se assemelham a nenhum sistema de escrita conhecido.  O texto cifrado, parcialmente decifrado, parece descrever experimentos perigosos envolvendo a manipulação do espaço-tempo. Qual o maior desafio para desvendar esse mistério?",
+    "options": [
+      "A falta de tecnologia para testar as teorias do manuscrito.",
+      "A complexidade do sistema de escrita desconhecido.",
+      "A dificuldade em interpretar as ilustrações.",
+      "A possibilidade de os experimentos descritos serem perigosos demais para serem reproduzidos."
+    ],
+    "correctAnswer": "A possibilidade de os experimentos descritos serem perigosos demais para serem reproduzidos.",
+    "explanation": "A maior dificuldade reside no risco potencial associado aos experimentos descritos no manuscrito, que poderiam ter consequências imprevisíveis e catastróficas se reproduzidos. Embora os outros desafios sejam significativos, a segurança prevalece. Curiosidade:  Muitos manuscritos antigos descrevem tecnologias avançadas, mas a maioria delas se mostrou teoricamente inviável, sem levar em conta os riscos inerentes à sua construção.",
+    "id": "quiz-misterios-204",
+    "categoryId": "misterios"
+  },
+  {
+    "difficulty": "medium",
+    "question": "Um antigo diário, encontrado em uma tumba egípcia submersa, contém coordenadas que levam a uma ilha desconhecida no Atlântico Sul.  Os símbolos no diário são uma mistura de hieróglifos e símbolos desconhecidos, e um dos símbolos se repete constantemente, semelhante a um olho estilizado. Qual o mistério central desse achado?",
+    "options": [
+      "A ilha é uma base secreta de uma antiga civilização.",
+      "O diário é uma elaborada farsa criada por saqueadores de tumbas.",
+      "As coordenadas levam a um tesouro perdido.",
+      "O símbolo do olho representa uma constelação desconhecida, indicando um evento astronômico."
+    ],
+    "correctAnswer": "O símbolo do olho representa uma constelação desconhecida, indicando um evento astronômico.",
+    "explanation": "A repetição do símbolo do olho sugere uma importância significativa, provavelmente astronômica. A combinação de hieróglifos e símbolos desconhecidos indica uma possível ligação com eventos celestes pouco compreendidos. As outras opções são plausíveis, mas menos prováveis considerando a natureza dos símbolos e sua repetição. Curiosidade: Muitos símbolos antigos foram descobertos em tumbas egípcias, e alguns deles ainda não foram decifrados completamente, gerando mistérios e debates entre especialistas.",
+    "id": "quiz-misterios-205",
+    "categoryId": "misterios"
+  }
+]

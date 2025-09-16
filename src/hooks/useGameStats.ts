@@ -6,12 +6,7 @@ import type { GameStats } from "@/lib/types";
 import { isToday, isYesterday } from "date-fns";
 import { auth, db } from "@/lib/firebase";
 import { onAuthStateChanged, User } from "firebase/auth";
-import {
-  doc,
-  getDoc,
-  setDoc,
-  // getDocFromCache // opcional: se estiver disponível no seu bundle
-} from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 
 const LOCAL_GAME_STATS_KEY = "idea-spark-stats";
 
@@ -24,6 +19,7 @@ const defaultStats: GameStats = {
   quizScores: {},
   explorerStatus: "Iniciante",
   combos: 0,
+  // mapeia categoryId -> curiosityId (última vista)
   lastReadCuriosity: null,
 };
 
@@ -50,23 +46,14 @@ function processDateLogic(statsToProcess: GameStats): GameStats {
   return s;
 }
 
-/** Tenta ler do cache primeiro; cai para rede se necessário */
+/** Tenta cache; cai para rede se necessário */
 async function getUserStatsWithCache(uid: string) {
   const ref = doc(db, "userStats", uid);
-  // 1) Tenta via getDoc com hint de cache (em alguns bundlers funciona)
   try {
-    // @ts-ignore - alguns tipos não expõem 'source'
+    // @ts-ignore - alguns bundlers suportam source: 'cache'
     const snapCache = await getDoc(ref, { source: "cache" });
     if (snapCache?.exists()) return snapCache.data();
-  } catch {
-    // ignorado — seguimos para alternativas
-  }
-  // 2) (Opcional) getDocFromCache, se estiver disponível no bundle
-  // try {
-  //   const snapCache2 = await getDocFromCache(ref);
-  //   if (snapCache2?.exists()) return snapCache2.data();
-  // } catch {}
-  // 3) Rede
+  } catch {}
   const snap = await getDoc(ref);
   return snap.exists() ? snap.data() : null;
 }
@@ -76,7 +63,6 @@ export function useGameStats() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [user, setUser] = useState<User | null>(null);
 
-  // Refs para salvar debounced sem recriar handlers
   const userRef = useRef<User | null>(null);
   const saveTimerRef = useRef<number | null>(null);
   userRef.current = user;
@@ -101,13 +87,11 @@ export function useGameStats() {
             },
             { merge: true }
           );
-        } else {
-          if (typeof window !== "undefined") {
-            localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(toSave));
-          }
+        } else if (typeof window !== "undefined") {
+          localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(toSave));
         }
       } catch {
-        // Em falha online, mantenha pelo menos no localStorage
+        // fallback local
         if (typeof window !== "undefined") {
           try {
             localStorage.setItem(LOCAL_GAME_STATS_KEY, JSON.stringify(toSave));
@@ -117,36 +101,31 @@ export function useGameStats() {
     }, 300);
   }, []);
 
-  /** 1) Hidrata instantaneamente com localStorage e libera isLoaded=true */
+  /** 1) Hidrata rápido com localStorage */
   useEffect(() => {
     const initial = processDateLogic(loadLocalStats());
     setStats(initial);
     setIsLoaded(true);
   }, []);
 
-  /** 2) Sincroniza com Firebase em segundo plano quando o auth ficar pronto */
+  /** 2) Sincroniza quando o auth estiver pronto */
   useEffect(() => {
-    // roda somente no client
     if (typeof window === "undefined") return;
 
     const unsubscribe = onAuthStateChanged(auth, async (authedUser) => {
       setUser(authedUser);
 
       if (!authedUser) {
-        // Sem login: garantimos que o estado local está processado
         const local = processDateLogic(loadLocalStats());
         setStats(local);
-        // já está isLoaded=true por causa do passo 1
         return;
       }
 
       try {
-        // Lê do cache primeiro; cai para rede se necessário
         const cloud = (await getUserStatsWithCache(authedUser.uid)) as
           | GameStats
           | null;
 
-        // Recarrega local (pode ter mudado durante a sessão)
         const local = loadLocalStats();
 
         // Merge determinístico
@@ -154,15 +133,8 @@ export function useGameStats() {
           ...defaultStats,
           ...local,
           ...cloud,
-          // campos que precisam de merge não trivial:
-          longestStreak: Math.max(
-            local.longestStreak,
-            cloud?.longestStreak || 0
-          ),
-          quizScores: {
-            ...(cloud?.quizScores || {}),
-            ...(local.quizScores || {}),
-          },
+          longestStreak: Math.max(local.longestStreak, cloud?.longestStreak || 0),
+          quizScores: { ...(cloud?.quizScores || {}), ...(local.quizScores || {}) },
           readCuriosities: [
             ...new Set([
               ...(local.readCuriosities || []),
@@ -179,15 +151,12 @@ export function useGameStats() {
         const finalStats = processDateLogic(merged);
         setStats(finalStats);
 
-        // Limpa o local (virou “fonte” na nuvem)
         try {
           localStorage.removeItem(LOCAL_GAME_STATS_KEY);
         } catch {}
 
-        // Persiste o merge (não bloqueia UI)
         scheduleSave(finalStats);
       } catch {
-        // Se falhar a sync, mantenha local
         const fallback = processDateLogic(loadLocalStats());
         setStats(fallback);
       }
@@ -196,17 +165,37 @@ export function useGameStats() {
     return () => unsubscribe();
   }, [scheduleSave]);
 
-  /** Salva mudanças de stats (debounced) após carregado */
+  /** 3) Salva mudanças (debounced) */
   useEffect(() => {
     if (!isLoaded) return;
     scheduleSave(stats);
   }, [stats, isLoaded, scheduleSave]);
 
-  /** Marca curiosidade como lida, com opção de apenas atualizar “lastRead” */
+  /** Helpers de última curiosidade lida */
+  const getLastReadCuriosityId = useCallback(
+    (categoryId: string): string | null => {
+      return stats.lastReadCuriosity?.[categoryId] ?? null;
+    },
+    [stats.lastReadCuriosity]
+  );
+
+  const setLastReadCuriosity = useCallback(
+    (categoryId: string, curiosityId: string) => {
+      setStats((prev) => ({
+        ...prev,
+        lastReadCuriosity: {
+          ...(prev.lastReadCuriosity || {}),
+          [categoryId]: curiosityId,
+        },
+      }));
+    },
+    []
+  );
+
+  /** Marca curiosidade como lida (ou só atualiza "lastRead") */
   const markCuriosityAsRead = useCallback(
     (curiosityId: string, categoryId: string, onlyUpdateLastRead = false) => {
       setStats((prev) => {
-        // Atualiza "lastRead" sempre (barato e útil pra navegação)
         const nextLastRead = {
           ...(prev.lastReadCuriosity || {}),
           [categoryId]: curiosityId,
@@ -216,16 +205,15 @@ export function useGameStats() {
           return { ...prev, lastReadCuriosity: nextLastRead };
         }
 
-        // Idempotência de leitura
+        // já lida → só atualiza lastRead
         if (prev.readCuriosities.includes(curiosityId)) {
           return { ...prev, lastReadCuriosity: nextLastRead };
         }
 
-        // Append sem duplicar
         const newRead = [...prev.readCuriosities, curiosityId];
         const newTotal = newRead.length;
 
-        // Streak
+        // streak
         const now = new Date();
         const last = prev.lastPlayedDate ? new Date(prev.lastPlayedDate) : null;
         const newStreak =
@@ -237,12 +225,12 @@ export function useGameStats() {
 
         const newLongest = Math.max(prev.longestStreak, newStreak);
 
-        // Combos (a cada 5 lidas)
+        // combos a cada 5
         const combosEarned =
           Math.floor(newTotal / 5) - Math.floor(prev.totalCuriositiesRead / 5);
         const newCombos = prev.combos + Math.max(0, combosEarned);
 
-        // Nível
+        // nível
         let explorerStatus: GameStats["explorerStatus"] = "Iniciante";
         if (newTotal >= 50) explorerStatus = "Expert";
         else if (newTotal >= 10) explorerStatus = "Explorador";
@@ -276,5 +264,16 @@ export function useGameStats() {
     setStats((prev) => ({ ...prev, ...newStats }));
   }, []);
 
-  return { stats, isLoaded, markCuriosityAsRead, addQuizResult, user, updateStats };
+  return {
+    stats,
+    isLoaded,
+    user,
+    // leitura/gravação simples do "último visto"
+    getLastReadCuriosityId,
+    setLastReadCuriosity,
+    // APIs existentes
+    markCuriosityAsRead,
+    addQuizResult,
+    updateStats,
+  };
 }

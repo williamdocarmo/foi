@@ -10,14 +10,14 @@
     "lastRunAt": "2025-09-15T18:45:57.542Z"
   },
   "tecnologia": {
-    "curiositiesBatchesProcessed": 717,
+    "curiositiesBatchesProcessed": 723,
     "quizzesBatchesProcessed": 383,
-    "lastRunAt": "2025-09-16T12:21:09.537Z"
+    "lastRunAt": "2025-09-16T14:20:10.576Z"
   },
   "misterios": {
-    "curiositiesBatchesProcessed": 168,
-    "quizzesBatchesProcessed": 2,
-    "lastRunAt": "2025-09-16T12:21:03.106Z"
+    "curiositiesBatchesProcessed": 304,
+    "quizzesBatchesProcessed": 97,
+    "lastRunAt": "2025-09-16T14:37:10.646Z"
   },
   "psicologia": {
     "curiositiesBatchesProcessed": 20,
@@ -75,9 +75,9 @@
     "lastRunAt": "2025-09-13T21:42:51.517Z"
   },
   "historia": {
-    "curiositiesBatchesProcessed": 522,
-    "quizzesBatchesProcessed": 202,
-    "lastRunAt": "2025-09-16T12:21:13.076Z"
+    "curiositiesBatchesProcessed": 593,
+    "quizzesBatchesProcessed": 266,
+    "lastRunAt": "2025-09-16T14:37:09.824Z"
   },
   "relacionamentos": {
     "curiositiesBatchesProcessed": 19,
@@ -95,7 +95,7 @@
     "quizzesBatchesProcessed": 291
   },
   "__meta__": {
-    "lastWriteAt": "2025-09-16T12:21:13.076Z"
+    "lastWriteAt": "2025-09-16T14:37:10.695Z"
   },
   "bem-estar": {
     "curiositiesBatchesProcessed": 55,

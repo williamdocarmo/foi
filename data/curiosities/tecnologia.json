@@ -8394,5 +8394,55 @@
     "hook": "Descubra como a internet está se expandindo para o fundo do mar, criando um mundo de conexões subaquáticas.",
     "id": "tecnologia-994",
     "categoryId": "tecnologia"
+  },
+  {
+    "title": "Sensores que Leem Emoções: A Próxima Geração de Interfaces Humano-Computador",
+    "content": "Sensores biométricos avançados estão sendo desenvolvidos para detectar e interpretar sinais fisiológicos sutis, como batimentos cardíacos, condutividade da pele e expressões faciais, permitindo que os computadores 'leiam' as emoções humanas.  Isso pode revolucionar a forma como interagimos com a tecnologia, criando interfaces mais intuitivas e personalizadas.",
+    "funFact": "Em breve, computadores poderão adaptar seu comportamento com base em suas emoções, oferecendo suporte emocional personalizado.",
+    "curiosityLevel": 3,
+    "id": "tecnologia-995",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "Computação Morfológica: Hardware Inspirado na Natureza",
+    "content": "A computação morfológica busca inspiração em sistemas biológicos, como o crescimento de plantas ou a formação de redes neurais, para projetar computadores mais eficientes e adaptáveis.  Em vez de circuitos rígidos, utiliza estruturas flexíveis e reconfiguráveis que podem se adaptar a diferentes tarefas e ambientes.  Essa abordagem inovadora permite a criação de hardware que aprende e evolui com o tempo, tornando-se mais eficiente à medida que processa informações.",
+    "funFact": "Pesquisas em computação morfológica já resultaram em protótipos capazes de resolver problemas complexos de otimização com maior eficiência do que algoritmos tradicionais.",
+    "curiosityLevel": 4,
+    "id": "tecnologia-996",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "Computação Quântica com Moléculas de ADN: O Futuro da Criptografia?",
+    "content": "Imagine computadores que usam moléculas de ADN para processar informações quânticas, criando sistemas de criptografia inquebráveis.  Essa abordagem inovadora explora o potencial da mecânica quântica em escala molecular, prometendo revolucionar a segurança digital. A manipulação precisa das moléculas de ADN permite a criação de qubits extremamente estáveis, resistindo à decoerência, um dos principais desafios da computação quântica tradicional.  Pesquisas avançadas nesse campo visam criar protocolos de criptografia resilientes a ataques de computadores quânticos poderosos.",
+    "funFact": "Um único grama de ADN pode armazenar mais informações do que todos os computadores já construídos.",
+    "curiosityLevel": 5,
+    "id": "tecnologia-997",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "Computação Morfológica: Cogumelos Inteligentes?",
+    "content": "A computação morfológica se inspira na biologia dos cogumelos para criar sistemas computacionais que se adaptam e evoluem de forma distribuída.  Ao contrário dos computadores tradicionais, ela utiliza redes complexas que mudam sua estrutura física e funcional em resposta a estímulos externos.  Essa abordagem permite a criação de sistemas resilientes e adaptáveis, capazes de resolver problemas complexos de forma eficiente.",
+    "funFact": "Cogumelos são os computadores da natureza, processando informações através de sua rede subterrânea de micélio.",
+    "curiosityLevel": 5,
+    "id": "tecnologia-998",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "A Internet Subterrânea: Redes de Dados Ocultos?",
+    "content": "Embora a internet que conhecemos se espalhe acima do solo, através de cabos e satélites, existe uma crescente rede subterrânea de comunicação de dados. Túneis e dutos subterrâneos estão sendo equipados com fibras ópticas e outros meios de transmissão, criando uma infraestrutura robusta e resiliente a desastres naturais.",
+    "funFact": "Essa internet subterrânea poderia ser crucial em cenários de desastre, mantendo a comunicação mesmo com danos na superfície.",
+    "curiosityLevel": 4,
+    "hook": "Existe uma internet escondida embaixo de seus pés?",
+    "id": "tecnologia-999",
+    "categoryId": "tecnologia"
+  },
+  {
+    "title": "Computação de Fluxo Ótico: Processamento de Dados em Movimento",
+    "content": "A computação de fluxo ótico se baseia no processamento de dados em movimento constante, simulando o fluxo de líquidos.  Essa abordagem permite lidar com grandes quantidades de informações de forma mais eficiente do que computadores tradicionais, abrindo caminho para avanços em inteligência artificial e análise de dados em tempo real.  A inspiração vem da dinâmica de fluidos e das propriedades de sistemas complexos.",
+    "funFact": "O fluxo ótico pode ser usado para processar informações em velocidades muito superiores à capacidade dos computadores tradicionais.",
+    "curiosityLevel": 5,
+    "hook": "Processamento de dados tão rápido quanto a água?",
+    "id": "tecnologia-1000",
+    "categoryId": "tecnologia"
   }
 ]

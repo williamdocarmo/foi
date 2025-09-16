@@ -1,3 +1,4 @@
+// src/components/curiosity/CuriosityExplorer.tsx
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
@@ -19,85 +20,128 @@ type CuriosityExplorerProps = {
 };
 
 const explorerIcons: Record<string, JSX.Element> = {
-  'Iniciante': <Star className="mr-2 h-5 w-5 text-yellow-400" />,
-  'Explorador': <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
-  'Expert': <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
+  Iniciante: <Star className="mr-2 h-5 w-5 text-yellow-400" />,
+  Explorador: <TrendingUp className="mr-2 h-5 w-5 text-green-500" />,
+  Expert: <Trophy className="mr-2 h-5 w-5 text-amber-500" />,
 };
 
 export default function CuriosityExplorer({ category, curiosities }: CuriosityExplorerProps) {
   const router = useRouter();
-  const { stats, markCuriosityAsRead, isLoaded } = useGameStats();
+
+  const {
+    stats,
+    isLoaded,
+    markCuriosityAsRead,
+    getLastReadCuriosityId,
+  } = useGameStats();
+
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
-  // Efeito para inicializar o AudioContext na primeira interação do usuário
+  // Inicializa o AudioContext na primeira interação do usuário
   useEffect(() => {
     const initAudio = () => {
       ensureAudioContext();
-      document.removeEventListener('click', initAudio);
+      document.removeEventListener("click", initAudio);
     };
-    document.addEventListener('click', initAudio);
+    document.addEventListener("click", initAudio);
     return () => {
-      document.removeEventListener('click', initAudio);
+      document.removeEventListener("click", initAudio);
     };
   }, []);
 
-  // IDs de todas curiosidades, memoizado
-  const allCuriosityIds = useMemo(() => 
-    categories.flatMap(cat =>
-      (curiositiesByCategory[cat.id] || []).map(c => ({ id: c.id, categoryId: c.categoryId }))
-    )
-  , []);
+  // Lista global (para "surpreenda-me")
+  const allCuriosityIds = useMemo(
+    () =>
+      categories.flatMap((cat) =>
+        (curiositiesByCategory[cat.id] || []).map((c) => ({
+          id: c.id,
+          categoryId: c.categoryId,
+        }))
+      ),
+    []
+  );
 
-  // Inicializa o índice com a primeira curiosidade não lida
+  // Inicialização do índice:
+  // 1) tenta última vista na categoria
+  // 2) senão, primeira não lida
+  // 3) fallback 0
   useEffect(() => {
     if (!isLoaded || currentIndex !== null) return;
-    const firstUnread = curiosities.findIndex(c => !stats.readCuriosities.includes(c.id));
-    setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
-  }, [isLoaded, curiosities, stats.readCuriosities, currentIndex]);
 
-  // Marca curiosidade atual como lida e toca som de combo se necessário
+    // 1) última vista
+    const lastId = getLastReadCuriosityId(category.id);
+    if (lastId) {
+      const idx = curiosities.findIndex((c) => c.id === lastId);
+      if (idx !== -1) {
+        setCurrentIndex(idx);
+        return;
+      }
+    }
+
+    // 2) primeira não lida
+    const firstUnread = curiosities.findIndex(
+      (c) => !stats.readCuriosities.includes(c.id)
+    );
+    setCurrentIndex(firstUnread !== -1 ? firstUnread : 0);
+  }, [
+    isLoaded,
+    currentIndex,
+    category.id,
+    curiosities,
+    stats.readCuriosities,
+    getLastReadCuriosityId,
+  ]);
+
+  // Curiosidade atual (derivada)
   const currentCuriosity = useMemo(() => {
     if (currentIndex === null) return null;
     return curiosities[currentIndex] || null;
   }, [currentIndex, curiosities]);
 
+  // Ao mudar a curiosidade atual:
+  // - sempre persistir "última vista" (onlyUpdateLastRead = true quando já lida)
+  // - contar leitura (streak/combos etc.) apenas se ainda não estava lida
   useEffect(() => {
     if (!isLoaded || !currentCuriosity) return;
-    
-    const wasRead = stats.readCuriosities.includes(currentCuriosity.id);
-    const previousTotal = stats.totalCuriositiesRead;
 
-    if (!wasRead) {
-      markCuriosityAsRead(currentCuriosity.id, currentCuriosity.categoryId);
-      // Checa se um novo combo foi ganho após a atualização do estado
-      const newTotal = previousTotal + 1;
-      if (Math.floor(newTotal / 5) > Math.floor(previousTotal / 5)) {
-        playSound('combo');
-      }
-    }
-  }, [isLoaded, currentCuriosity, markCuriosityAsRead, stats.readCuriosities, stats.totalCuriositiesRead]);
+    const alreadyRead = stats.readCuriosities.includes(currentCuriosity.id);
+    // Se já estava lida → só atualiza "lastRead"
+    // Se não estava lida → registra leitura completa
+    markCuriosityAsRead(
+      currentCuriosity.id,
+      currentCuriosity.categoryId,
+      /* onlyUpdateLastRead */ alreadyRead
+    );
+
+    // som de combo fica a cargo da lógica de gamificação (quando leitura é nova)
+    // se quiser manter o som por aqui, seria necessário comparar contagens pré/pós,
+    // mas a forma mais segura é centralizar no hook.
+  }, [isLoaded, currentCuriosity, markCuriosityAsRead, stats.readCuriosities]);
 
   // Navegação
   const handleNext = useCallback(() => {
     if (currentIndex === null || currentIndex >= curiosities.length - 1) return;
-    playSound('navigate');
-    setCurrentIndex(prev => (prev !== null ? prev + 1 : prev));
+    playSound("navigate");
+    setCurrentIndex((i) => (i !== null ? i + 1 : i));
   }, [currentIndex, curiosities.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex === null || currentIndex <= 0) return;
-    playSound('navigate');
-    setCurrentIndex(prev => (prev !== null ? prev - 1 : prev));
+    playSound("navigate");
+    setCurrentIndex((i) => (i !== null ? i - 1 : i));
   }, [currentIndex]);
 
-  // Surpresa aleatória
+  // Surpresa: pula para outra categoria, escolhendo item não lido quando possível
   const surpriseMe = useCallback(() => {
     if (!currentCuriosity) return;
 
-    const unreadCuriosities = allCuriosityIds.filter(c => 
-      c.id !== currentCuriosity.id && !stats.readCuriosities.includes(c.id)
+    const unread = allCuriosityIds.filter(
+      (c) => c.id !== currentCuriosity.id && !stats.readCuriosities.includes(c.id)
     );
-    const pool = unreadCuriosities.length ? unreadCuriosities : allCuriosityIds.filter(c => c.id !== currentCuriosity.id);
+    const pool =
+      unread.length > 0
+        ? unread
+        : allCuriosityIds.filter((c) => c.id !== currentCuriosity.id);
 
     if (pool.length === 0) return;
 
@@ -105,7 +149,7 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
     router.push(`/curiosity/${random.categoryId}`);
   }, [allCuriosityIds, currentCuriosity, stats.readCuriosities, router]);
 
-  // Skeleton de carregamento
+  // Skeleton
   if (!isLoaded || currentIndex === null) {
     return (
       <div className="flex flex-col gap-8">
@@ -132,15 +176,18 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
     );
   }
 
-  if (!currentCuriosity) return (
-    <div className="flex flex-col items-center justify-center text-center p-8">
-      <h2 className="text-2xl font-bold">Opa! Algo deu errado.</h2>
-      <p className="text-muted-foreground mt-2">Não conseguimos carregar esta curiosidade.</p>
-      <Button asChild className="mt-6">
-        <Link href="/">Voltar ao Início</Link>
-      </Button>
-    </div>
-  );
+  if (!currentCuriosity)
+    return (
+      <div className="flex flex-col items-center justify-center text-center p-8">
+        <h2 className="text-2xl font-bold">Opa! Algo deu errado.</h2>
+        <p className="text-muted-foreground mt-2">
+          Não conseguimos carregar esta curiosidade.
+        </p>
+        <Button asChild className="mt-6">
+          <Link href="/">Voltar ao Início</Link>
+        </Button>
+      </div>
+    );
 
   return (
     <div className="flex flex-col gap-8">
@@ -156,31 +203,49 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
       </div>
 
       {/* Curiosidade */}
-      <Card key={currentCuriosity.id} className="overflow-hidden shadow-2xl" style={{ borderLeft: `5px solid ${category.color}` }}>
+      <Card
+        key={currentCuriosity.id}
+        className="overflow-hidden shadow-2xl"
+        style={{ borderLeft: `5px solid ${category.color}` }}
+      >
         <CardHeader className="bg-muted/30 p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <span className="text-3xl">{category.emoji}</span>
-              <CardTitle className="font-headline text-2xl">{category.name}</CardTitle>
+              <CardTitle className="font-headline text-2xl">
+                {category.name}
+              </CardTitle>
             </div>
-            <Badge variant="secondary" className="whitespace-nowrap">Curiosidade #{currentIndex + 1}</Badge>
+            <Badge variant="secondary" className="whitespace-nowrap">
+              Curiosidade #{currentIndex + 1}
+            </Badge>
           </div>
         </CardHeader>
         <CardContent className="p-6 md:p-8">
           <div className="mb-6">
-            <h2 className="mb-4 font-headline text-3xl font-bold text-primary">{currentCuriosity.title}</h2>
-            <p className="text-lg leading-relaxed text-foreground/80">{currentCuriosity.content}</p>
+            <h2 className="mb-4 font-headline text-3xl font-bold text-primary">
+              {currentCuriosity.title}
+            </h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+              {currentCuriosity.content}
+            </p>
             {currentCuriosity.funFact && (
               <div className="mt-6 rounded-lg border-l-4 border-accent bg-accent/10 p-4">
                 <p className="font-semibold text-accent-foreground">
-                  <span className="font-bold">Fato Curioso:</span> {currentCuriosity.funFact}
+                  <span className="font-bold">Fato Curioso:</span>{" "}
+                  {currentCuriosity.funFact}
                 </p>
               </div>
             )}
           </div>
         </CardContent>
         <CardFooter className="flex flex-col gap-4 bg-muted/30 p-4 md:flex-row md:justify-between">
-          <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0} aria-label="Curiosidade anterior">
+          <Button
+            variant="outline"
+            onClick={handlePrev}
+            disabled={currentIndex === 0}
+            aria-label="Curiosidade anterior"
+          >
             <ArrowLeft className="mr-2 h-4 w-4" /> Anterior
           </Button>
           {currentIndex === curiosities.length - 1 ? (
@@ -209,7 +274,11 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
       <Card className="mt-4">
         <CardHeader>
           <CardTitle className="flex items-center">
-            {stats.explorerStatus ? explorerIcons[stats.explorerStatus] : <Skeleton className="h-5 w-5 mr-2" />}
+            {stats.explorerStatus ? (
+              explorerIcons[stats.explorerStatus]
+            ) : (
+              <Skeleton className="h-5 w-5 mr-2" />
+            )}
             Status do Explorador
           </CardTitle>
           <CardDescription>Sua jornada de conhecimento até agora.</CardDescription>
@@ -221,8 +290,21 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
             { label: "Combos", value: stats.combos },
             { label: "Nível", value: stats.explorerStatus },
           ].map((item, idx) => (
-            <div key={idx} className="flex flex-col items-center justify-center rounded-lg bg-muted p-4">
-              {isLoaded ? <span className={item.label === "Nível" ? "text-lg font-bold" : "text-2xl font-bold"}>{item.value}</span> : <Skeleton className="h-8 w-1/2" />}
+            <div
+              key={idx}
+              className="flex flex-col items-center justify-center rounded-lg bg-muted p-4"
+            >
+              {isLoaded ? (
+                <span
+                  className={
+                    item.label === "Nível" ? "text-lg font-bold" : "text-2xl font-bold"
+                  }
+                >
+                  {item.value}
+                </span>
+              ) : (
+                <Skeleton className="h-8 w-1/2" />
+              )}
               <span className="text-sm text-muted-foreground">{item.label}</span>
             </div>
           ))}
