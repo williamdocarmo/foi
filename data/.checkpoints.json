@@ -1,18 +1,18 @@
 {
   "dinheiro": {
     "curiositiesBatchesProcessed": 60,
-    "quizzesBatchesProcessed": 59,
-    "lastRunAt": "2025-09-15T15:19:31.565Z"
+    "quizzesBatchesProcessed": 304,
+    "lastRunAt": "2025-09-15T16:40:22.685Z"
   },
   "futuro": {
-    "curiositiesBatchesProcessed": 32,
-    "quizzesBatchesProcessed": 9,
-    "lastRunAt": "2025-09-14T16:56:14.994Z"
+    "curiositiesBatchesProcessed": 218,
+    "quizzesBatchesProcessed": 336,
+    "lastRunAt": "2025-09-15T18:45:57.542Z"
   },
   "tecnologia": {
-    "curiositiesBatchesProcessed": 18,
-    "quizzesBatchesProcessed": 9,
-    "lastRunAt": "2025-09-13T21:11:28.564Z"
+    "curiositiesBatchesProcessed": 368,
+    "quizzesBatchesProcessed": 383,
+    "lastRunAt": "2025-09-15T19:49:15.839Z"
   },
   "misterios": {
     "curiositiesBatchesProcessed": 4,
@@ -40,9 +40,9 @@
     "lastRunAt": "2025-09-13T21:50:01.164Z"
   },
   "cultura": {
-    "curiositiesBatchesProcessed": 20,
+    "curiositiesBatchesProcessed": 179,
     "quizzesBatchesProcessed": 9,
-    "lastRunAt": "2025-09-13T19:00:31.778Z"
+    "lastRunAt": "2025-09-15T19:50:09.573Z"
   },
   "entretenimento": {
     "curiositiesBatchesProcessed": 19,
@@ -60,9 +60,9 @@
     "lastRunAt": "2025-09-13T19:52:55.104Z"
   },
   "ciencia": {
-    "curiositiesBatchesProcessed": 19,
-    "quizzesBatchesProcessed": 9,
-    "lastRunAt": "2025-09-13T21:20:10.000Z"
+    "curiositiesBatchesProcessed": 406,
+    "quizzesBatchesProcessed": 149,
+    "lastRunAt": "2025-09-15T19:50:10.077Z"
   },
   "autoajuda": {
     "curiositiesBatchesProcessed": 19,
@@ -90,17 +90,17 @@
     "lastRunAt": "2025-09-13T22:28:44.584Z"
   },
   "saude": {
-    "curiositiesBatchesProcessed": 126,
-    "lastRunAt": "2025-09-15T15:19:35.689Z",
-    "quizzesBatchesProcessed": 34
+    "curiositiesBatchesProcessed": 424,
+    "lastRunAt": "2025-09-15T17:02:16.990Z",
+    "quizzesBatchesProcessed": 291
   },
   "__meta__": {
-    "lastWriteAt": "2025-09-15T15:19:39.062Z"
+    "lastWriteAt": "2025-09-15T19:50:10.107Z"
   },
   "bem-estar": {
     "curiositiesBatchesProcessed": 55,
-    "lastRunAt": "2025-09-15T15:19:24.961Z",
-    "quizzesBatchesProcessed": 50
+    "lastRunAt": "2025-09-15T17:46:59.529Z",
+    "quizzesBatchesProcessed": 313
   },
   "ingles": {
     "curiositiesBatchesProcessed": 170,
