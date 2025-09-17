@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -5,20 +6,20 @@ import type { Category, QuizQuestion } from "@/lib/types";
 import { useGameStats } from "@/hooks/useGameStats";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, Loader2 } from "lucide-react";
+import { CheckCircle, XCircle, Clock, Award, Target, Repeat, Home, HelpCircle, Loader2, Timer } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { playSound, ensureAudioContext } from "@/lib/sounds";
+import { Progress } from "../ui/progress";
 
 type QuizEngineProps = {
   category: Category;
   questions: QuizQuestion[];
 };
 
-const QUESTION_TIME = 60; 
-const DELAY_AFTER_CORRECT_MS = 10000;
-const DELAY_AFTER_WRONG_MS = 10000;
+const QUESTION_TIME = 60;
+const DELAY_AFTER_ANSWER_MS = 10000;
 
 
 export default function QuizEngine({ category, questions }: QuizEngineProps) {
@@ -30,7 +31,8 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const [isAnswered, setIsAnswered] = useState(false);
   const [totalTime, setTotalTime] = useState(0);
   const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
-  
+  const [explanationTimeLeft, setExplanationTimeLeft] = useState<number | null>(null);
+
   const { stats, addQuizResult, updateStats } = useGameStats();
   const isOnline = useOnlineStatus();
 
@@ -59,6 +61,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
   const handleNextQuestion = useCallback(() => {
     setIsAnswered(false);
     setSelectedAnswer(null);
+    setExplanationTimeLeft(null);
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
       setTimeLeft(QUESTION_TIME);
@@ -68,6 +71,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     }
   }, [currentQuestionIndex, shuffledQuestions.length, category.id, score, addQuizResult]);
 
+  // Timer da pergunta
   useEffect(() => {
     if (gameState !== 'playing' || isAnswered || shuffledQuestions.length === 0) return;
 
@@ -78,7 +82,8 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           setIsAnswered(true); // Times up
           setTotalTime(t => t + (QUESTION_TIME - (prev - 1)))
           playSound('wrong');
-          setTimeout(handleNextQuestion, DELAY_AFTER_WRONG_MS); // User didn't answer, treat as wrong
+          setExplanationTimeLeft(DELAY_AFTER_ANSWER_MS / 1000);
+          setTimeout(handleNextQuestion, DELAY_AFTER_ANSWER_MS); // User didn't answer, treat as wrong
           return 0;
         }
         return prev - 1;
@@ -87,6 +92,17 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
 
     return () => clearInterval(timer);
   }, [currentQuestionIndex, gameState, isAnswered, handleNextQuestion, shuffledQuestions.length]);
+
+  // Timer da explicação
+  useEffect(() => {
+    if (explanationTimeLeft === null || explanationTimeLeft <= 0) return;
+    
+    const explanationTimer = setInterval(() => {
+      setExplanationTimeLeft(prev => (prev !== null ? prev - 1 : null));
+    }, 1000);
+
+    return () => clearInterval(explanationTimer);
+  }, [explanationTimeLeft]);
   
   const handleAnswerSelect = async (option: string) => {
     if (isAnswered) return;
@@ -97,8 +113,7 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     setTotalTime(t => t + timeTaken);
 
     const isCorrect = option === currentQuestion.correctAnswer;
-    let delay = isCorrect ? DELAY_AFTER_CORRECT_MS : DELAY_AFTER_WRONG_MS;
-
+    
     if (isCorrect) {
       playSound('correct');
       setScore(prev => prev + 10 + timeLeft);
@@ -107,11 +122,12 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
       playSound('wrong');
     }
 
-    setTimeout(handleNextQuestion, delay);
+    setExplanationTimeLeft(DELAY_AFTER_ANSWER_MS / 1000);
+    setTimeout(handleNextQuestion, DELAY_AFTER_ANSWER_MS);
   };
   
   const useCombo = () => {
-    if (stats.combos > 0) {
+    if (stats.combos > 0 && !isAnswered) {
       playSound('combo');
       updateStats({ combos: stats.combos - 1 });
       handleAnswerSelect(currentQuestion.correctAnswer);
@@ -265,8 +281,15 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
           })}
         </div>
          {isAnswered && (
-             <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground animate-fade-in">
+             <div className="mt-6 rounded-lg bg-muted p-4 text-sm text-muted-foreground animate-fade-in space-y-3">
                 <p><span className="font-bold">{selectedAnswer === currentQuestion.correctAnswer ? 'Fato Extra:' : 'Explicação:'}</span> {currentQuestion.explanation}</p>
+                {explanationTimeLeft !== null && (
+                  <div className="flex items-center gap-2 text-xs">
+                    <Timer className="h-4 w-4" />
+                    <span>Próxima pergunta em {explanationTimeLeft}s...</span>
+                    <Progress value={explanationTimeLeft * 10} className="h-1 w-1/4" />
+                  </div>
+                )}
             </div>
          )}
       </CardContent>
@@ -280,3 +303,5 @@ export default function QuizEngine({ category, questions }: QuizEngineProps) {
     </Card>
   );
 }
+
+    
