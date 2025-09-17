@@ -153,7 +153,6 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
   if (!isLoaded || currentIndex === null) {
     return (
       <div className="flex flex-col gap-8">
-        <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
         <Card className="overflow-hidden shadow-2xl animate-pulse">
           <CardHeader className="bg-muted/30 p-4">
             <div className="flex items-center justify-between">
@@ -191,17 +190,6 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
 
   return (
     <div className="flex flex-col gap-8">
-      {/* Cabeçalho */}
-      <div className="flex justify-between items-center">
-        <h1 className="font-headline text-3xl font-bold">{category.name}</h1>
-        <Button variant="outline" asChild>
-          <Link href={`/quiz/${category.id}`}>
-            <HelpCircle className="mr-2 h-4 w-4" />
-            Iniciar Quiz
-          </Link>
-        </Button>
-      </div>
-
       {/* Curiosidade */}
       <Card
         key={currentCuriosity.id}
@@ -263,10 +251,22 @@ export default function CuriosityExplorer({ category, curiosities }: CuriosityEx
         </CardFooter>
       </Card>
 
-      {/* Surpresa */}
-      <div className="flex justify-center">
+      {/* Action bar */}
+      <div className="flex flex-wrap justify-center gap-4">
+        <Button variant="ghost" asChild>
+            <Link href="/">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Voltar para Categorias
+            </Link>
+        </Button>
         <Button variant="ghost" onClick={surpriseMe} aria-label="Surpreenda-me com uma curiosidade aleatória">
           <Sparkles className="mr-2 h-4 w-4" /> Surpreenda-me
+        </Button>
+        <Button variant="ghost" asChild>
+          <Link href={`/quiz/${category.id}`}>
+            <HelpCircle className="mr-2 h-4 w-4" />
+            Iniciar Quiz
+          </Link>
         </Button>
       </div>
 
