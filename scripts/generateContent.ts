@@ -1,18 +1,18 @@
-// scripts/generateContent.ts
+
 /**
- * Gerador de conteúdo robusto (curiosidades + quizzes) — versão anti-empacado + count-exato
+ * Gerador de conteúdo robusto (curiosidades + quizzes) — versão anti-empacado + count-exato + CONTAGEM & PROMPT
  *
- * Novidade:
- * - --count N agora significa "GERAR N ITENS NESTA EXECUÇÃO" (por categoria), não "meta".
- *   Ex.: --count 40 => gera +40 curiosities e +40 quizzes (ou um só tipo se usar --only).
+ * Novidades deste patch:
+ * 1) CONTADOR por categoria: mostra quantas curiosidades e quizzes existem por categoria antes de gerar.
+ * 2) PROMPT interativo: se você não passar --category, eu pergunto em qual categoria e tipo (curiosities/quizzes/ambos) você quer gerar mais.
+ * 3) PERFORMANCE: menos I/O síncrono, flush de hashes por lote, escrita em buffer, menor backoff quando está “fluindo”,
+ *    e melhores defaults de concorrência/batch (ajustáveis por flags).
  *
- * Anti-empacado:
- * - Dedup adaptativa: fuzzy OFF após streaks (mantém hash/exato).
- * - "Banned" aleatório (amostra) para não estrangular.
- * - Diversidade forte sob empacos (↑ temperatura/topK, hints long-tail).
- * - Validação elástica (sem perder qualidade).
- * - Saída JSON garantida (responseMimeType + responseSchema) + reparos.
- * - Lockfile, checkpoints, hashes globais preservados.
+ * Observações:
+ * - --count N continua significando "GERAR N ITENS NESTA EXECUÇÃO" (por categoria), não "meta".
+ * - Use --no-ask para pular o prompt interativo (útil em CI).
+ * - Para seleção automática da maior deficiência, use --auto-pick (se nenhuma categoria for passada).
+ * - Para manter comportamento antigo, passe explicitamente --category <id> e/ou --only <curiosities|quizzes>.
  */
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
@@ -27,6 +27,8 @@ import stringSimilarity from "string-similarity";
 import crypto from "crypto";
 import minimist from "minimist";
 import { fileURLToPath } from "url";
+import readline from "readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
 // ✔️ nova sintaxe (sem 'assert' deprecado)
 import categories from "../src/lib/data/categories.json" with { type: "json" };
@@ -37,7 +39,7 @@ config();
 
 // ---------------- CONFIG & FLAGS ----------------
 const argv = minimist(process.argv.slice(2));
-const ONLY_CATEGORY: string | undefined = argv.category;
+const ARG_ONLY_CATEGORY: string | undefined = argv.category;
 const CATEGORY_EXCLUDE: string[] = (argv["category-exclude"] ? String(argv["category-exclude"]) : "")
   .split(",")
   .map((s) => s.trim())
@@ -45,10 +47,12 @@ const CATEGORY_EXCLUDE: string[] = (argv["category-exclude"] ? String(argv["cate
 const DRY_RUN = !!argv["dry-run"];
 const EQUALIZE_ONLY = !!argv["equalize-only"];
 const FORCE = !!argv["force"];
+const NO_ASK = !!argv["no-ask"];
+const AUTO_PICK = !!argv["auto-pick"];
 
 // NOVO: controlar tipos a gerar
-type OnlyKind = "curiosities" | "quizzes" | undefined;
-const ONLY_KIND: OnlyKind = argv.only ? String(argv.only) as OnlyKind : undefined;
+type OnlyKind = "curiosities" | "quizzes" | "ambos" | undefined;
+const ONLY_KIND_CLI: OnlyKind = argv.only ? (String(argv.only) as OnlyKind) : undefined;
 
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) throw new Error("GEMINI_API_KEY is not defined in your .env file");
@@ -64,22 +68,30 @@ const CURIOSITIES_TARGET_PER_CATEGORY = Number(process.env.CURIOSITIES_TARGET ??
 const QUIZ_QUESTIONS_TARGET_PER_CATEGORY = Number(process.env.QUIZ_TARGET ?? 500);
 
 // NOVO: quando presente, é “gerar exatamente N nesta execução”
-const REQUEST_COUNT: number | undefined =
+const REQUEST_COUNT_CLI: number | undefined =
   argv.count !== undefined ? Math.max(0, Number(argv.count)) : undefined;
 
-// Batch & conc
-const DEFAULT_BATCH_SIZE = 30;
+// Batch & conc (melhores defaults; sempre passíveis de override por flag)
+const DEFAULT_BATCH_SIZE = 40;
 const BATCH_SIZE = Number(argv["batch-size"] ?? DEFAULT_BATCH_SIZE);
 
 const MAX_RETRIES = 5;
-const BASE_RETRY_DELAY_MS = 900;
-const API_CALL_DELAY_MS_BASE = 350;
-const DEFAULT_CONCURRENCY = 4;
+const BASE_RETRY_DELAY_MS = 700;
+
+// Quando está “fluindo” bem a validação e diversidade, baixamos o delay.
+function apiDelayMs(zeroValidStreak: number) {
+  if (zeroValidStreak === 0) return 180 + Math.floor(Math.random() * 160);
+  if (zeroValidStreak < 3) return 260 + Math.floor(Math.random() * 220);
+  return 350 + Math.floor(Math.random() * 300);
+}
+
+const DEFAULT_CONCURRENCY = 8;
 const CONCURRENCY = Number(argv["concurrency"] ?? DEFAULT_CONCURRENCY);
 
 // Dedup adaptativa
 const SIMILARITY_THRESHOLD_STRICT = 0.75;
-const HASH_FLUSH_INTERVAL = 200;
+const HASH_FLUSH_INTERVAL = 250; // ↑, menos gravações
+const HARD_WRITE_BUFFER = 50; // grava após N itens válidos adicionados
 const DIVERSITY_STREAK_THRESHOLD = 3;
 const RELAX_DEDUP_STREAK_THRESHOLD = 12;
 const HARD_DIVERSITY_STREAK_THRESHOLD = 24;
@@ -418,7 +430,7 @@ async function generateJsonArrayWithRetry(
       (!status && attempt <= Math.ceil(MAX_RETRIES / 2));
 
     if (attempt <= MAX_RETRIES && retriable) {
-      const delay = Math.round(BASE_RETRY_DELAY_MS * Math.pow(2, attempt - 1) + Math.random() * 800);
+      const delay = Math.round(BASE_RETRY_DELAY_MS * Math.pow(2, attempt - 1) + Math.random() * 600);
       log("warn", `API error (status=${status ?? "?"}). Retry em ${delay}ms (tentativa ${attempt}/${MAX_RETRIES})`);
       await sleep(delay);
 
@@ -536,6 +548,8 @@ async function writeCategoryJson(filePath: string, arr: any[]) {
 // ---------------- LOCKFILE ----------------
 async function acquireLock() {
   await ensureDirExists(dataDir);
+  await ensureDirExists(curiositiesDir);
+  await ensureDirExists(quizzesDir);
   const exists = await fsExtra.pathExists(lockPath);
   if (exists && !FORCE) {
     const content = await fs.readFile(lockPath, "utf-8").catch(() => "");
@@ -558,9 +572,65 @@ async function releaseLock() {
   }
 }
 
+// ---------------- CONTAGEM ----------------
+type Counts = { curiosities: number; quizzes: number };
+async function getCategoryCounts(categoryId: string): Promise<Counts> {
+  const curFile = path.join(curiositiesDir, `${categoryId}.json`);
+  const curItems: any[] = await readCategoryJson(curFile);
+  const quizFile = path.join(quizzesDir, `quiz-${categoryId}.json`);
+  const quizItems: any[] = await readCategoryJson(quizFile);
+  return { curiosities: curItems.length, quizzes: quizItems.length };
+}
+
+async function computeAllCounts() {
+  const res: Record<string, Counts> = {};
+  for (const c of categories) {
+    res[c.id] = await getCategoryCounts(c.id);
+  }
+  return res;
+}
+
+function padRight(s: string, len: number) {
+  return (s + " ".repeat(len)).slice(0, len);
+}
+function padLeft(n: number, len: number) {
+  const s = String(n);
+  return " ".repeat(Math.max(0, len - s.length)) + s;
+}
+
+function printCountsTable(counts: Record<string, Counts>) {
+  const header = `\nResumo por categoria:\n${padRight("Categoria", 20)} | ${padRight("Curiosidades", 12)} | ${padRight("Quizzes", 8)} | ΔCurio | ΔQuiz`;
+  log("info", header);
+  for (const c of categories) {
+    const ct = counts[c.id] ?? { curiosities: 0, quizzes: 0 };
+    const dC = CURIOSITIES_TARGET_PER_CATEGORY - ct.curiosities;
+    const dQ = QUIZ_QUESTIONS_TARGET_PER_CATEGORY - ct.quizzes;
+    console.log(`${padRight(`${c.id}`, 20)} | ${padLeft(ct.curiosities, 12)} | ${padLeft(ct.quizzes, 8)} | ${padLeft(dC, 5)} | ${padLeft(dQ, 4)}`);
+  }
+  console.log("");
+}
+
+function pickLargestDeficit(counts: Record<string, Counts>): { id: string; kind: "curiosities" | "quizzes" } | null {
+  let best: { id: string; kind: "curiosities" | "quizzes"; deficit: number } | null = null;
+  for (const c of categories) {
+    const ct = counts[c.id];
+    if (!ct) continue;
+    const dC = CURIOSITIES_TARGET_PER_CATEGORY - ct.curiosities;
+    const dQ = QUIZ_QUESTIONS_TARGET_PER_CATEGORY - ct.quizzes;
+    const pairs: Array<["curiosities"|"quizzes", number]> = [["curiosities", dC], ["quizzes", dQ]];
+    for (const [kind, deficit] of pairs) {
+      if (deficit > 0 && (!best || deficit > best.deficit)) {
+        best = { id: c.id, kind, deficit };
+      }
+    }
+  }
+  return best ? { id: best.id, kind: best.kind } : null;
+}
+
 // ---------------- CORE GENERATION PIPELINE ----------------
 type GenerateKind = "curiosities" | "quizzes";
 let EQUALIZER_RUN = false;
+let writeBufferCounter = 0;
 
 function isCuriosity(kind: GenerateKind): kind is "curiosities" {
   return kind === "curiosities";
@@ -583,8 +653,8 @@ async function generateForCategory(
   const desiredNow =
     totalToGenerate > 0
       ? totalToGenerate
-      : REQUEST_COUNT !== undefined
-      ? REQUEST_COUNT
+      : REQUEST_COUNT_EFFECTIVE !== undefined
+      ? REQUEST_COUNT_EFFECTIVE
       : Math.max(0, targetCount - existingItems.length);
 
   if (desiredNow === 0 && !EQUALIZER_RUN) {
@@ -598,7 +668,7 @@ async function generateForCategory(
   log(
     "info",
     `[${category.id}] ${kind}: existentes=${existingItems.length} | gerar agora=${desiredNow} ${
-      REQUEST_COUNT !== undefined ? "(via --count)" : "(via meta)"
+      REQUEST_COUNT_EFFECTIVE !== undefined ? "(via --count/prompt)" : "(via meta)"
     }`
   );
 
@@ -644,7 +714,7 @@ async function generateForCategory(
         dynamicBatch = nextLowerBatch(dynamicBatch);
         log("warn", `[${category.id}] ${kind}: reduzindo batch para ${dynamicBatch}`);
       }
-      await sleep(API_CALL_DELAY_MS_BASE + Math.floor(Math.random() * 400));
+      await sleep(apiDelayMs(zeroValidStreak));
       continue;
     }
 
@@ -668,7 +738,7 @@ async function generateForCategory(
           uniqueToAdd.push(newItem);
           globalTitleHashes.add(sha1(normalizeText(newItem.title)));
           globalContentHashes.add(sha1(normalizeText(newItem.content)));
-          dirtyHashCount++;
+          dirtyHashCount++; writeBufferCounter++;
         }
       } else {
         if (
@@ -684,7 +754,7 @@ async function generateForCategory(
           newItem.categoryId = category.id;
           uniqueToAdd.push(newItem);
           globalQuizHashes.add(sha1(normalizeText(newItem.question)));
-          dirtyHashCount++;
+          dirtyHashCount++; writeBufferCounter++;
         }
       }
     }
@@ -692,7 +762,15 @@ async function generateForCategory(
     if (uniqueToAdd.length > 0) {
       zeroValidStreak = 0;
       existingItems.push(...uniqueToAdd);
-      await writeCategoryJson(filePath, existingItems);
+
+      // Escrita menos frequente: somente quando buffer enche ou quando o loop finalizará
+      const willFinish = (generatedCount + uniqueToAdd.length) >= desiredNow;
+      if (writeBufferCounter >= HARD_WRITE_BUFFER || willFinish) {
+        await writeCategoryJson(filePath, existingItems);
+        writeBufferCounter = 0;
+        await flushGlobalHashesIfNeeded(false);
+      }
+
       generatedCount += uniqueToAdd.length;
       progressBar.increment(uniqueToAdd.length);
 
@@ -701,8 +779,10 @@ async function generateForCategory(
       if (curiosityMode) entry.curiositiesBatchesProcessed = (entry.curiositiesBatchesProcessed ?? 0) + 1;
       else entry.quizzesBatchesProcessed = (entry.quizzesBatchesProcessed ?? 0) + 1;
       entry.lastRunAt = new Date().toISOString();
-      await writeCheckpoints(cp);
-      await flushGlobalHashesIfNeeded(false);
+      // checkpoints podem ser escritos com menor frequência também
+      if (!DRY_RUN && (generatedCount % Math.max(5, Math.floor(desiredNow/4)) === 0 || willFinish)) {
+        await writeCheckpoints(cp);
+      }
     } else {
       zeroValidStreak++;
       dynamicBatch = nextLowerBatch(dynamicBatch);
@@ -712,7 +792,7 @@ async function generateForCategory(
       );
     }
 
-    await sleep(API_CALL_DELAY_MS_BASE + Math.floor(Math.random() * 300));
+    await sleep(apiDelayMs(zeroValidStreak));
   }
 
   bars.multibar.remove(progressBar);
@@ -720,6 +800,7 @@ async function generateForCategory(
 }
 
 function nextLowerBatch(current: number) {
+  if (current > 60) return 40;
   if (current > 40) return 25;
   if (current > 25) return 20;
   if (current > 20) return 10;
@@ -734,7 +815,7 @@ async function equalizeCounts(kind: GenerateKind, cp: CheckpointSchema) {
   log("info", `=== Balanceando contagem de ${kind} para o alvo de ${target} ===`);
 
   const filtered = categories.filter((c) => {
-    if (ONLY_CATEGORY && c.id !== ONLY_CATEGORY) return false;
+    if (SELECTED_CATEGORY && c.id !== SELECTED_CATEGORY) return false;
     if (CATEGORY_EXCLUDE.includes(c.id)) return false;
     return true;
   });
@@ -788,6 +869,57 @@ async function seedExistingHashes() {
   );
 }
 
+// ---------------- INTERATIVIDADE ----------------
+let SELECTED_CATEGORY: string | undefined = ARG_ONLY_CATEGORY;
+let ONLY_KIND: OnlyKind = ONLY_KIND_CLI;
+let REQUEST_COUNT_EFFECTIVE: number | undefined = REQUEST_COUNT_CLI;
+
+async function promptUserSelection(counts: Record<string, Counts>) {
+  if (SELECTED_CATEGORY || NO_ASK) return;
+
+  const rl = readline.createInterface({ input, output });
+  try {
+    console.log("");
+    printCountsTable(counts);
+
+    // se auto-pick, escolher maior déficit
+    if (AUTO_PICK) {
+      const pick = pickLargestDeficit(counts);
+      if (pick) {
+        SELECTED_CATEGORY = pick.id;
+        ONLY_KIND = pick.kind;
+        log("info", `Auto-pick: categoria=${SELECTED_CATEGORY}, tipo=${ONLY_KIND}`);
+        return;
+      }
+    }
+
+    const ids = categories.map((c) => c.id).join(", ");
+    const cat = (await rl.question(`Qual categoria você quer priorizar? [enter=pular / opções: ${ids}] `)).trim();
+    if (cat && categories.some((c) => c.id === cat)) {
+      SELECTED_CATEGORY = cat;
+    }
+
+    if (!ONLY_KIND) {
+      const kind = (await rl.question(`Gerar o quê? [curiosities|quizzes|ambos, default=ambos] `)).trim().toLowerCase();
+      if (kind === "curiosities" || kind === "quizzes" || kind === "ambos") {
+        ONLY_KIND = kind as OnlyKind;
+      } else {
+        ONLY_KIND = "ambos";
+      }
+    }
+
+    if (REQUEST_COUNT_EFFECTIVE === undefined) {
+      const cnt = (await rl.question(`Quantos itens por tipo nesta execução? [ex: 40, enter=usar meta] `)).trim();
+      if (cnt) {
+        const n = Number(cnt);
+        if (Number.isFinite(n) && n > 0) REQUEST_COUNT_EFFECTIVE = n;
+      }
+    }
+  } finally {
+    rl.close();
+  }
+}
+
 async function acquireLockAndDirs() {
   await ensureDirExists(dataDir);
   await ensureDirExists(curiositiesDir);
@@ -796,12 +928,12 @@ async function acquireLockAndDirs() {
 }
 
 async function main() {
-  log("info", "=== Iniciando geração de conteúdo (anti-empacado + count-exato) ===");
+  log("info", "=== Iniciando geração de conteúdo (anti-empacado + count-exato + contagem/prompt) ===");
   if (DRY_RUN) log("info", ">>> DRY-RUN ativado. Nenhuma alteração será salva. <<<");
-  if (ONLY_CATEGORY) log("info", `>>> Apenas categoria: ${ONLY_CATEGORY} <<<`);
+  if (ARG_ONLY_CATEGORY) log("info", `>>> Apenas categoria (via flag): ${ARG_ONLY_CATEGORY} <<<`);
   if (CATEGORY_EXCLUDE.length) log("info", `>>> Excluindo: ${CATEGORY_EXCLUDE.join(", ")} <<<`);
-  if (ONLY_KIND) log("info", `>>> Apenas tipo: ${ONLY_KIND} <<<`);
-  if (REQUEST_COUNT !== undefined) log("info", `>>> Gerar exatamente ${REQUEST_COUNT} item(ns) nesta execução <<<`);
+  if (ONLY_KIND_CLI) log("info", `>>> Apenas tipo (via flag): ${ONLY_KIND_CLI} <<<`);
+  if (REQUEST_COUNT_CLI !== undefined) log("info", `>>> Gerar exatamente ${REQUEST_COUNT_CLI} item(ns) nesta execução (via flag) <<<`);
   log(
     "info",
     `Modelos: primary=${PRIMARY_MODEL} | fallback=${FALLBACK_MODEL} | Concurrency=${CONCURRENCY} | Batch inicial=${BATCH_SIZE}`
@@ -824,6 +956,11 @@ async function main() {
     process.exit(0);
   });
 
+  // 1) Mostrar contagens e (opcional) perguntar
+  const counts = await computeAllCounts();
+  printCountsTable(counts);
+  await promptUserSelection(counts);
+
   if (EQUALIZE_ONLY) {
     log("info", "--- Rodando apenas a equalização ---");
     await equalizeCounts("curiosities", cp);
@@ -841,27 +978,27 @@ async function main() {
   const limit = pLimit(CONCURRENCY);
 
   const filteredCategories = categories.filter((c) => {
-    if (ONLY_CATEGORY && c.id !== ONLY_CATEGORY) return false;
+    if (SELECTED_CATEGORY && c.id !== SELECTED_CATEGORY) return false;
     if (CATEGORY_EXCLUDE.includes(c.id)) return false;
     return true;
   });
 
-  const tasks = filteredCategories.flatMap((category) => {
-    const list: Array<Promise<void>> = [];
-    if (!ONLY_KIND || ONLY_KIND === "curiosities") {
-      list.push(limit(() => generateForCategory(category, "curiosities", REQUEST_COUNT ?? 0, cp, { multibar })));
+  const tasks: Array<Promise<void>> = [];
+  for (const category of filteredCategories) {
+    const both = !ONLY_KIND || ONLY_KIND === "ambos";
+    if (both || ONLY_KIND === "curiosities") {
+      tasks.push(limit(() => generateForCategory(category, "curiosities", REQUEST_COUNT_EFFECTIVE ?? 0, cp, { multibar })));
     }
-    if (!ONLY_KIND || ONLY_KIND === "quizzes") {
-      list.push(limit(() => generateForCategory(category, "quizzes", REQUEST_COUNT ?? 0, cp, { multibar })));
+    if (both || ONLY_KIND === "quizzes") {
+      tasks.push(limit(() => generateForCategory(category, "quizzes", REQUEST_COUNT_EFFECTIVE ?? 0, cp, { multibar })));
     }
-    return list;
-  });
+  }
 
   await Promise.all(tasks);
   multibar.stop();
 
   // Se o usuário pediu count exato, não roda equalize automático
-  if (!ONLY_CATEGORY && REQUEST_COUNT === undefined) {
+  if (!SELECTED_CATEGORY && REQUEST_COUNT_EFFECTIVE === undefined) {
     await equalizeCounts("curiosities", cp);
     await equalizeCounts("quizzes", cp);
   }
